@@ -1,0 +1,453 @@
+[
+  {
+    "publisher": "Morgan Kaufmann",
+    "address": "Stanford, CA",
+    "booktitle": "Proceedings of the 17th International Conference\non Machine Learning (ICML 2000)",
+    "editor": "Pat Langley",
+    "pages": "1207--1216",
+    "year": "2000",
+    "title": "Crafting Papers on Machine Learning",
+    "author": "P. Langley",
+    "ENTRYTYPE": "inproceedings",
+    "ID": "langley00"
+  },
+  {
+    "address": "New Brunswick, MA",
+    "year": "1980",
+    "institution": "Computer Science Department, Rutgers University",
+    "title": "The Need for Biases in Learning Generalizations",
+    "author": "T. M. Mitchell",
+    "ENTRYTYPE": "techreport",
+    "ID": "mitchell80"
+  },
+  {
+    "year": "1989",
+    "school": "Department of Computer Science, Harvard University",
+    "title": "Computational Complexity of Machine Learning",
+    "author": "M. J. Kearns",
+    "ENTRYTYPE": "phdthesis",
+    "ID": "kearns89"
+  },
+  {
+    "address": "Palo Alto, CA",
+    "year": "1983",
+    "publisher": "Tioga",
+    "title": "Machine Learning: An Artificial Intelligence\nApproach, Vol. I",
+    "editor": "R. S. Michalski and J. G. Carbonell and T.\nM. Mitchell",
+    "ENTRYTYPE": "book",
+    "ID": "MachineLearningI"
+  },
+  {
+    "year": "2000",
+    "edition": "2nd",
+    "publisher": "John Wiley and Sons",
+    "title": "Pattern Classification",
+    "author": "R. O. Duda and P. E. Hart and D. G. Stork",
+    "ENTRYTYPE": "book",
+    "ID": "DudaHart2nd"
+  },
+  {
+    "year": "2021",
+    "author": "Author, N. N.",
+    "title": "Suppressed for Anonymity",
+    "ENTRYTYPE": "misc",
+    "ID": "anonymous"
+  },
+  {
+    "address": "Hillsdale, NJ",
+    "chapter": "1",
+    "editor": "J. R. Anderson",
+    "year": "1981",
+    "publisher": "Lawrence Erlbaum Associates, Inc.",
+    "pages": "1--51",
+    "booktitle": "Cognitive Skills and Their Acquisition",
+    "title": "Mechanisms of Skill Acquisition and the Law of\nPractice",
+    "author": "A. Newell and P. S. Rosenbloom",
+    "ENTRYTYPE": "incollection",
+    "ID": "Newell81"
+  },
+  {
+    "pages": "211--229",
+    "number": "3",
+    "volume": "3",
+    "year": "1959",
+    "journal": "IBM Journal of Research and Development",
+    "title": "Some Studies in Machine Learning Using the Game of\nCheckers",
+    "author": "A. L. Samuel",
+    "ENTRYTYPE": "article",
+    "ID": "Samuel59"
+  },
+  {
+    "year": "2024",
+    "journal": "arXiv preprint arXiv:2406.09136",
+    "author": "Zhang, Xuan and Du, Chao and Pang, Tianyu and Liu, Qian and Gao, Wei and Lin, Min",
+    "title": "Chain of Preference Optimization: Improving Chain-of-Thought Reasoning in LLMs",
+    "ENTRYTYPE": "article",
+    "ID": "zhang2024chain"
+  },
+  {
+    "year": "2024",
+    "volume": "36",
+    "journal": "Advances in Neural Information Processing Systems",
+    "author": "Yao, Shunyu and Yu, Dian and Zhao, Jeffrey and Shafran, Izhak and Griffiths, Tom and Cao, Yuan and Narasimhan, Karthik",
+    "title": "Tree of thoughts: Deliberate problem solving with large language models",
+    "ENTRYTYPE": "article",
+    "ID": "yao2024tree"
+  },
+  {
+    "year": "2023",
+    "journal": "arXiv preprint arXiv:2310.01798",
+    "author": "Huang, Jie and Chen, Xinyun and Mishra, Swaroop and Zheng, Huaixiu Steven and Yu, Adams Wei and Song, Xinying and Zhou, Denny",
+    "title": "Large language models cannot self-correct reasoning yet",
+    "ENTRYTYPE": "article",
+    "ID": "huang2023large"
+  },
+  {
+    "year": "2024",
+    "journal": "arXiv preprint arXiv:2412.06559",
+    "author": "\nChujie Zheng and Zhenru Zhang and Beichen Zhang and Runji Lin and Keming Lu and\nBowen Yu and Dayiheng Liu and Jingren Zhou and Junyang Lin\n",
+    "title": "{ProcessBench:} Identifying Process Errors in Mathematical Reasoning",
+    "ENTRYTYPE": "article",
+    "ID": "processbench"
+  },
+  {
+    "year": "2025",
+    "journal": "arXiv preprint arXiv:2501.07301",
+    "author": "\nZhenru Zhang and Chujie Zheng and Yangzhen Wu and Beichen Zhang and Runji Lin and Bowen Yu and Dayiheng Liu and Jingren Zhou and Junyang Lin\n",
+    "title": "The Lessons of Developing Process Reward Models in Mathematical Reasoning",
+    "ENTRYTYPE": "article",
+    "ID": "prmlessons"
+  },
+  {
+    "year": "2022",
+    "journal": "arXiv preprint arXiv:2203.11171",
+    "author": "Wang, Xuezhi and Wei, Jason and Schuurmans, Dale and Le, Quoc and Chi, Ed and Narang, Sharan and Chowdhery, Aakanksha and Zhou, Denny",
+    "title": "Self-consistency improves chain of thought reasoning in language models",
+    "ENTRYTYPE": "article",
+    "ID": "wang2022self_consistency"
+  },
+  {
+    "year": "2021",
+    "journal": "arXiv preprint arXiv:2110.14168",
+    "author": "Cobbe, Karl and Kosaraju, Vineet and Bavarian, Mohammad and Chen, Mark and Jun, Heewoo and Kaiser, Lukasz and Plappert, Matthias and Tworek, Jerry and Hilton, Jacob and Nakano, Reiichiro and others",
+    "title": "Training verifiers to solve math word problems",
+    "ENTRYTYPE": "article",
+    "ID": "cobbe2021training_gsm8k"
+  },
+  {
+    "year": "2023",
+    "journal": "arXiv preprint arXiv:2305.20050",
+    "author": "Lightman, Hunter and Kosaraju, Vineet and Burda, Yura and Edwards, Harri and Baker, Bowen and Lee, Teddy and Leike, Jan and Schulman, John and Sutskever, Ilya and Cobbe, Karl",
+    "title": "Let's verify step by step",
+    "ENTRYTYPE": "article",
+    "ID": "lightman2023let"
+  },
+  {
+    "year": "2021",
+    "journal": "arXiv preprint arXiv:2103.03874",
+    "author": "Hendrycks, Dan and Burns, Collin and Kadavath, Saurav and Arora, Akul and Basart, Steven and Tang, Eric and Song, Dawn and Steinhardt, Jacob",
+    "title": "Measuring mathematical problem solving with the math dataset",
+    "ENTRYTYPE": "article",
+    "ID": "hendrycks2021measuringMATH"
+  },
+  {
+    "year": "2022",
+    "journal": "arXiv preprint arXiv:2211.10435",
+    "author": "Gao, Luyu and Madaan, Aman and Zhou, Shuyan and Alon, Uri and Liu, Pengfei and Yang, Yiming and Callan, Jamie and Neubig, Graham",
+    "title": "PAL: Program-aided Language Models",
+    "ENTRYTYPE": "article",
+    "ID": "gao2022pal_gsm_hard"
+  },
+  {
+    "url": "https://openreview.net/forum?id=qFVVBzXxR2V",
+    "year": "2023",
+    "booktitle": "The Eleventh International Conference on Learning Representations",
+    "author": "Abulhair Saparov and He He",
+    "title": "Language Models Are Greedy Reasoners: A Systematic Formal Analysis of Chain-of-Thought",
+    "ENTRYTYPE": "inproceedings",
+    "ID": "PrOntoQA"
+  },
+  {
+    "primaryclass": "cs.LG",
+    "archiveprefix": "arXiv",
+    "eprint": "2107.03374",
+    "year": "2021",
+    "author": "Mark Chen and Jerry Tworek and Heewoo Jun and Qiming Yuan and Henrique Ponde de Oliveira Pinto and Jared Kaplan and Harri Edwards and Yuri Burda and Nicholas Joseph and Greg Brockman and Alex Ray and Raul Puri and Gretchen Krueger and Michael Petrov and Heidy Khlaaf and Girish Sastry and Pamela Mishkin and Brooke Chan and Scott Gray and Nick Ryder and Mikhail Pavlov and Alethea Power and Lukasz Kaiser and Mohammad Bavarian and Clemens Winter and Philippe Tillet and Felipe Petroski Such and Dave Cummings and Matthias Plappert and Fotios Chantzis and Elizabeth Barnes and Ariel Herbert-Voss and William Hebgen Guss and Alex Nichol and Alex Paino and Nikolas Tezak and Jie Tang and Igor Babuschkin and Suchir Balaji and Shantanu Jain and William Saunders and Christopher Hesse and Andrew N. Carr and Jan Leike and Josh Achiam and Vedant Misra and Evan Morikawa and Alec Radford and Matthew Knight and Miles Brundage and Mira Murati and Katie Mayer and Peter Welinder and Bob McGrew and Dario Amodei and Sam McCandlish and Ilya Sutskever and Wojciech Zaremba",
+    "title": "Evaluating Large Language Models Trained on Code",
+    "ENTRYTYPE": "article",
+    "ID": "chen2021codex_humaneval"
+  },
+  {
+    "year": "2022",
+    "journal": "arXiv preprint arXiv:2210.03350",
+    "author": "Press, Ofir and Zhang, Muru and Min, Sewon and Schmidt, Ludwig and Smith, Noah A and Lewis, Mike",
+    "title": "Measuring and narrowing the compositionality gap in language models",
+    "ENTRYTYPE": "article",
+    "ID": "press2022measuring_bamboogle"
+  },
+  {
+    "year": "2018",
+    "booktitle": "NAACL-HLT",
+    "title": "{FEVER}: a Large-scale Dataset for Fact Extraction and {VERification}",
+    "author": "Thorne, James and Vlachos, Andreas and Christodoulopoulos, Christos and Mittal, Arpit",
+    "ENTRYTYPE": "inproceedings",
+    "ID": "Thorne18Fever"
+  },
+  {
+    "year": "2018",
+    "booktitle": "Conference on Empirical Methods in Natural Language Processing ({EMNLP})",
+    "author": "Yang, Zhilin and Qi, Peng and Zhang, Saizheng and Bengio, Yoshua and Cohen, William W. and Salakhutdinov, Ruslan and Manning, Christopher D.",
+    "title": "{HotpotQA}: A Dataset for Diverse, Explainable Multi-hop Question Answering",
+    "ENTRYTYPE": "inproceedings",
+    "ID": "yang2018hotpotqa"
+  },
+  {
+    "year": "2021",
+    "journal": "arXiv preprint arXiv:2110.14168",
+    "author": "Cobbe, Karl and Kosaraju, Vineet and Bavarian, Mohammad and Chen, Mark and Jun, Heewoo and Kaiser, Lukasz and Plappert, Matthias and Tworek, Jerry and Hilton, Jacob and Nakano, Reiichiro and others",
+    "title": "Training verifiers to solve math word problems",
+    "ENTRYTYPE": "article",
+    "ID": "cobbe2021training_best_of_n"
+  },
+  {
+    "year": "2024",
+    "volume": "36",
+    "journal": "Advances in Neural Information Processing Systems",
+    "author": "Madaan, Aman and Tandon, Niket and Gupta, Prakhar and Hallinan, Skyler and Gao, Luyu and Wiegreffe, Sarah and Alon, Uri and Dziri, Nouha and Prabhumoye, Shrimai and Yang, Yiming and others",
+    "title": "Self-refine: Iterative refinement with self-feedback",
+    "ENTRYTYPE": "article",
+    "ID": "madaan2024self_refine"
+  },
+  {
+    "year": "2023",
+    "journal": "arXiv preprint arXiv:2309.17179",
+    "author": "Feng, Xidong and Wan, Ziyu and Wen, Muning and McAleer, Stephen Marcus and Wen, Ying and Zhang, Weinan and Wang, Jun",
+    "title": "Alphazero-like tree-search can guide large language model decoding and training",
+    "ENTRYTYPE": "article",
+    "ID": "feng2023alphazero_mcts"
+  },
+  {
+    "organization": "PMLR",
+    "year": "2018",
+    "pages": "3956--3965",
+    "booktitle": "International Conference on Machine Learning",
+    "author": "Ott, Myle and Auli, Michael and Grangier, David and Ranzato, Marc’Aurelio",
+    "title": "Analyzing uncertainty in neural machine translation",
+    "ENTRYTYPE": "inproceedings",
+    "ID": "ott2018analyzing_beam_search"
+  },
+  {
+    "year": "2022",
+    "pages": "24824--24837",
+    "volume": "35",
+    "journal": "Advances in neural information processing systems",
+    "author": "Wei, Jason and Wang, Xuezhi and Schuurmans, Dale and Bosma, Maarten and Xia, Fei and Chi, Ed and Le, Quoc V and Zhou, Denny and others",
+    "title": "Chain-of-thought prompting elicits reasoning in large language models",
+    "ENTRYTYPE": "article",
+    "ID": "wei2022chain_cot"
+  },
+  {
+    "year": "2024",
+    "journal": "arXiv preprint arXiv:2407.21783",
+    "author": "Dubey, Abhimanyu and Jauhri, Abhinav and Pandey, Abhinav and Kadian, Abhishek and Al-Dahle, Ahmad and Letman, Aiesha and Mathur, Akhil and Schelten, Alan and Yang, Amy and Fan, Angela and others",
+    "title": "The llama 3 herd of models",
+    "ENTRYTYPE": "article",
+    "ID": "dubey2024llama"
+  },
+  {
+    "year": "2024",
+    "journal": "arXiv preprint arXiv:2412.15115",
+    "author": "Yang, An and Yang, Baosong and Zhang, Beichen and Hui, Binyuan and Zheng, Bo and Yu, Bowen and Li, Chengyuan and Liu, Dayiheng and Huang, Fei and Wei, Haoran and others",
+    "title": "Qwen2. 5 Technical Report",
+    "ENTRYTYPE": "article",
+    "ID": "yang2024qwen2"
+  },
+  {
+    "year": "2023",
+    "journal": "arXiv preprint arXiv:2310.06825",
+    "author": "Jiang, AQ and Sablayrolles, A and Mensch, A and Bamford, C and Chaplot, DS and de las Casas, D and Bressand, F and Lengyel, G and Lample, G and Saulnier, L and others",
+    "title": "Mistral 7B (2023)",
+    "ENTRYTYPE": "article",
+    "ID": "jiang2023mistral"
+  },
+  {
+    "year": "2024",
+    "journal": "arXiv preprint arXiv:2406.14283",
+    "author": "Wang, Chaojie and Deng, Yanchen and Lyu, Zhiyi and Zeng, Liang and He, Jujie and Yan, Shuicheng and An, Bo",
+    "title": "Q*: Improving multi-step reasoning for llms with deliberative planning",
+    "ENTRYTYPE": "article",
+    "ID": "wang2024q"
+  },
+  {
+    "year": "2024",
+    "journal": "arXiv preprint arXiv:2412.01928",
+    "author": "Motwani, Sumeet Ramesh and Smith, Chandler and Das, Rocktim Jyoti and Rybchuk, Markian and Torr, Philip HS and Laptev, Ivan and Pizzati, Fabio and Clark, Ronald and de Witt, Christian Schroeder",
+    "title": "MALT: Improving Reasoning with Multi-Agent LLM Training",
+    "ENTRYTYPE": "article",
+    "ID": "motwani2024malt"
+  },
+  {
+    "year": "2024",
+    "journal": "arXiv preprint arXiv:2408.15240",
+    "author": "Zhang, Lunjun and Hosseini, Arian and Bansal, Hritik and Kazemi, Mehran and Kumar, Aviral and Agarwal, Rishabh",
+    "title": "Generative verifiers: Reward modeling as next-token prediction",
+    "ENTRYTYPE": "article",
+    "ID": "zhang2024generative"
+  },
+  {
+    "year": "2024",
+    "journal": "arXiv preprint arXiv:2411.18478",
+    "author": "Wu, Jinyang and Feng, Mingkuan and Zhang, Shuai and Che, Feihu and Wen, Zengqi and Tao, Jianhua",
+    "title": "Beyond examples: High-level automated reasoning paradigm in in-context learning via mcts",
+    "ENTRYTYPE": "article",
+    "ID": "wu2024beyond"
+  },
+  {
+    "year": "2024",
+    "journal": "arXiv preprint arXiv:2411.16579",
+    "author": "Xi, Zhiheng and Yang, Dingwen and Huang, Jixuan and Tang, Jiafu and Li, Guanyu and Ding, Yiwen and He, Wei and Hong, Boyang and Do, Shihan and Zhan, Wenyu and others",
+    "title": "Enhancing LLM Reasoning via Critique Models with Test-Time and Training-Time Supervision",
+    "ENTRYTYPE": "article",
+    "ID": "xi2024enhancing"
+  },
+  {
+    "year": "2015",
+    "journal": "arXiv preprint arXiv:1503.02531",
+    "author": "Hinton, Geoffrey",
+    "title": "Distilling the Knowledge in a Neural Network",
+    "ENTRYTYPE": "article",
+    "ID": "hinton2015distilling"
+  },
+  {
+    "year": "2019",
+    "journal": "arXiv preprint arXiv:1904.09751",
+    "author": "Holtzman, Ari and Buys, Jan and Du, Li and Forbes, Maxwell and Choi, Yejin",
+    "title": "The curious case of neural text degeneration",
+    "ENTRYTYPE": "article",
+    "ID": "holtzman2019curious"
+  },
+  {
+    "primaryclass": "cs.CL",
+    "archiveprefix": "arXiv",
+    "eprint": "2403.17297",
+    "year": "2024",
+    "author": "Zheng Cai and Maosong Cao and Haojiong Chen and Kai Chen and Keyu Chen and Xin Chen and Xun Chen and Zehui Chen and Zhi Chen and Pei Chu and Xiaoyi Dong and Haodong Duan and Qi Fan and Zhaoye Fei and Yang Gao and Jiaye Ge and Chenya Gu and Yuzhe Gu and Tao Gui and Aijia Guo and Qipeng Guo and Conghui He and Yingfan Hu and Ting Huang and Tao Jiang and Penglong Jiao and Zhenjiang Jin and Zhikai Lei and Jiaxing Li and Jingwen Li and Linyang Li and Shuaibin Li and Wei Li and Yining Li and Hongwei Liu and Jiangning Liu and Jiawei Hong and Kaiwen Liu and Kuikun Liu and Xiaoran Liu and Chengqi Lv and Haijun Lv and Kai Lv and Li Ma and Runyuan Ma and Zerun Ma and Wenchang Ning and Linke Ouyang and Jiantao Qiu and Yuan Qu and Fukai Shang and Yunfan Shao and Demin Song and Zifan Song and Zhihao Sui and Peng Sun and Yu Sun and Huanze Tang and Bin Wang and Guoteng Wang and Jiaqi Wang and Jiayu Wang and Rui Wang and Yudong Wang and Ziyi Wang and Xingjian Wei and Qizhen Weng and Fan Wu and Yingtong Xiong and Chao Xu and Ruiliang Xu and Hang Yan and Yirong Yan and Xiaogui Yang and Haochen Ye and Huaiyuan Ying and Jia Yu and Jing Yu and Yuhang Zang and Chuyu Zhang and Li Zhang and Pan Zhang and Peng Zhang and Ruijie Zhang and Shuo Zhang and Songyang Zhang and Wenjian Zhang and Wenwei Zhang and Xingcheng Zhang and Xinyue Zhang and Hui Zhao and Qian Zhao and Xiaomeng Zhao and Fengzhe Zhou and Zaida Zhou and Jingming Zhuo and Yicheng Zou and Xipeng Qiu and Yu Qiao and Dahua Lin",
+    "title": "InternLM2 Technical Report",
+    "ENTRYTYPE": "misc",
+    "ID": "cai2024internlm2"
+  },
+  {
+    "year": "2024",
+    "journal": "arXiv preprint arXiv:2408.03314",
+    "author": "Snell, Charlie and Lee, Jaehoon and Xu, Kelvin and Kumar, Aviral",
+    "title": "Scaling llm test-time compute optimally can be more effective than scaling model parameters",
+    "ENTRYTYPE": "article",
+    "ID": "snell2024scaling"
+  },
+  {
+    "year": "2022",
+    "journal": "arXiv preprint arXiv:2205.10625",
+    "author": "Zhou, Denny and Sch{\\\"a}rli, Nathanael and Hou, Le and Wei, Jason and Scales, Nathan and Wang, Xuezhi and Schuurmans, Dale and Cui, Claire and Bousquet, Olivier and Le, Quoc and others",
+    "title": "Least-to-most prompting enables complex reasoning in large language models",
+    "ENTRYTYPE": "article",
+    "ID": "zhou2022least"
+  },
+  {
+    "year": "2024",
+    "journal": "arXiv preprint arXiv:2406.09760",
+    "author": "Chen, Changyu and Liu, Zichen and Du, Chao and Pang, Tianyu and Liu, Qian and Sinha, Arunesh and Varakantham, Pradeep and Lin, Min",
+    "title": "Bootstrapping Language Models with DPO Implicit Rewards",
+    "ENTRYTYPE": "article",
+    "ID": "chen2024bootstrapping"
+  },
+  {
+    "year": "2024",
+    "journal": "arXiv preprint arXiv:2405.03553",
+    "author": "Chen, Guoxin and Liao, Minpeng and Li, Chengxi and Fan, Kai",
+    "title": "AlphaMath Almost Zero: process Supervision without process",
+    "ENTRYTYPE": "article",
+    "ID": "chen2024alphamath"
+  },
+  {
+    "publisher": "IEEE",
+    "year": "2012",
+    "pages": "1--43",
+    "number": "1",
+    "volume": "4",
+    "journal": "IEEE Transactions on Computational Intelligence and AI in games",
+    "author": "Browne, Cameron B and Powley, Edward and Whitehouse, Daniel and Lucas, Simon M and Cowling, Peter I and Rohlfshagen, Philipp and Tavener, Stephen and Perez, Diego and Samothrakis, Spyridon and Colton, Simon",
+    "title": "A survey of monte carlo tree search methods",
+    "ENTRYTYPE": "article",
+    "ID": "browne2012survey"
+  },
+  {
+    "year": "2023",
+    "journal": "arXiv preprint arXiv:2309.17179",
+    "author": "Feng, Xidong and Wan, Ziyu and Wen, Muning and McAleer, Stephen Marcus and Wen, Ying and Zhang, Weinan and Wang, Jun",
+    "title": "Alphazero-like tree-search can guide large language model decoding and training",
+    "ENTRYTYPE": "article",
+    "ID": "feng2023alphazero"
+  },
+  {
+    "year": "2023",
+    "journal": "arXiv preprint arXiv:2309.15028",
+    "author": "Liu, Jiacheng and Cohen, Andrew and Pasunuru, Ramakanth and Choi, Yejin and Hajishirzi, Hannaneh and Celikyilmaz, Asli",
+    "title": "Making ppo even better: Value-guided monte-carlo tree search decoding",
+    "ENTRYTYPE": "article",
+    "ID": "liu2023making"
+  },
+  {
+    "year": "2024",
+    "journal": "arXiv preprint arXiv:2404.12253",
+    "author": "Tian, Ye and Peng, Baolin and Song, Linfeng and Jin, Lifeng and Yu, Dian and Mi, Haitao and Yu, Dong",
+    "title": "Toward Self-Improvement of LLMs via Imagination, Searching, and Criticizing",
+    "ENTRYTYPE": "article",
+    "ID": "tian2024toward"
+  },
+  {
+    "url": "https://arxiv.org/abs/2410.15700",
+    "primaryclass": "cs.AI",
+    "archiveprefix": "arXiv",
+    "eprint": "2410.15700",
+    "year": "2024",
+    "author": "Zijian Wu and Suozhi Huang and Zhejian Zhou and Huaiyuan Ying and Jiayu Wang and Dahua Lin and Kai Chen",
+    "title": "InternLM2.5-StepProver: Advancing Automated Theorem Proving via Expert Iteration on Large-Scale LEAN Problems",
+    "ENTRYTYPE": "misc",
+    "ID": "wu2024internlm25stepproveradvancingautomatedtheorem"
+  },
+  {
+    "year": "2024",
+    "title": "Bag of Tricks: Benchmarking of Jailbreak Attacks on LLMs",
+    "booktitle": "Advances in Neural Information Processing Systems",
+    "author": "Xu, Zhao and Liu, Fan and Liu, Hao",
+    "ENTRYTYPE": "inproceedings",
+    "ID": "NEURIPS2024_xu2024bag"
+  },
+  {
+    "url": "https://arxiv.org/abs/2410.12855",
+    "primaryclass": "cs.CL",
+    "archiveprefix": "arXiv",
+    "eprint": "2410.12855",
+    "year": "2024",
+    "author": "Fan Liu and Yue Feng and Zhao Xu and Lixin Su and Xinyu Ma and Dawei Yin and Hao Liu",
+    "title": "JAILJUDGE: A Comprehensive Jailbreak Judge Benchmark with Multi-Agent Enhanced Explanation Evaluation Framework",
+    "ENTRYTYPE": "misc",
+    "ID": "liu2024jailjudgecomprehensivejailbreakjudge"
+  },
+  {
+    "year": "2024",
+    "journal": "arXiv preprint arXiv:2406.06622",
+    "author": "Liu, Fan and Xu, Zhao and Liu, Hao",
+    "title": "Adversarial tuning: Defending against jailbreak attacks for llms",
+    "ENTRYTYPE": "article",
+    "ID": "liu2024adversarial"
+  },
+  {
+    "year": "2024",
+    "journal": "arXiv preprint arXiv:2407.01492",
+    "author": "Liu, Qian and Zheng, Xiaosen and Muennighoff, Niklas and Zeng, Guangtao and Dou, Longxu and Pang, Tianyu and Jiang, Jing and Lin, Min",
+    "title": "Regmix: Data mixture as regression for language model pre-training",
+    "ENTRYTYPE": "article",
+    "ID": "liu2024regmix"
+  }
+]
