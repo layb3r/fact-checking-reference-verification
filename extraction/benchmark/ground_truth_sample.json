@@ -1,0 +1,22 @@
+[
+  {
+    "reference_id": "ref_001",
+    "raw_text": "M. Goyal and Q. H. Mahmoud, \"A Systematic Review of Synthetic Data Generation Techniques Using Generative AI,\" Electronics, vol. 13, no. 17, p. 3509, Sep. 2024, doi: https://doi.org/10.3390/electronics13173509.",
+    "title": "A Systematic Review of Synthetic Data Generation Techniques Using Generative AI",
+    "authors": ["M. Goyal", "Q. H. Mahmoud"],
+    "year": "2024",
+    "journal": "Electronics",
+    "volume": "13",
+    "pages": "3509",
+    "doi": "10.3390/electronics13173509"
+  },
+  {
+    "reference_id": "ref_002",
+    "raw_text": "N. Patki, R. Wedge and K. Veeramachaneni, \"The Synthetic Data Vault,\" 2016 IEEE International Conference on Data Science and Advanced Analytics (DSAA), Montreal, QC, Canada, 2016, pp. 399-410, doi: 10.1109/DSAA.2016.49.",
+    "title": "The Synthetic Data Vault",
+    "authors": ["N. Patki", "R. Wedge", "K. Veeramachaneni"],
+    "year": "2016",
+    "pages": "399-410",
+    "doi": "10.1109/DSAA.2016.49"
+  }
+]
