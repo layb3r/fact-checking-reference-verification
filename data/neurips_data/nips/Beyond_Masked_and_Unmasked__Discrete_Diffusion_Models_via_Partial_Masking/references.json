@@ -1,0 +1,607 @@
+{
+  "pdf_url": "https://arxiv.org/pdf/2505.18495v2.pdf",
+  "references": [
+    {
+      "year": "2008",
+      "booktitle": "Proc. of European Conf. Computer Vision (ECCV)",
+      "author": "Weiwei Zhang and Jian Sun and Xiaoou Tang",
+      "title": "{Cat Head Detection - How to Effectively Exploit Shape and Texture Features}",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zhang2008cat"
+    },
+    {
+      "year": "2017",
+      "journal": "\\tt arXiv:1710.05941v2 [cs.NE]",
+      "author": "Prajit Ramachandran and Barret Zoph and Quoc V. Le",
+      "title": "{Searching for Activation Functions}",
+      "ENTRYTYPE": "article",
+      "ID": "ramachandran2017searching"
+    },
+    {
+      "year": "2015",
+      "booktitle": "Proc. Int. Conf. on Machine Learning (ICML)",
+      "author": "Jascha Sohl-Dickstein and Eric A. Weiss and Niru Maheswaranathan and Surya Ganguli",
+      "title": "{Deep Unsupervised Learning using Nonequilibrium Thermodynamics}",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "dickstein2015diffusion"
+    },
+    {
+      "year": "2021",
+      "booktitle": "Proc. of the Int. Conf. on Neural Information Processing Systems (NeurIPS)",
+      "author": "Jacob Austin and Daniel D. Johnson and Jonathan Ho and Daniel Tarlow and Rianne van den Berg",
+      "title": "{Structured Denoising Diffusion Models in Discrete State-Spaces}",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "austin2021structurediff"
+    },
+    {
+      "year": "2024",
+      "journal": "Machine Learning and Compression Workshop at the Int. Conf. on Neural Information Processing Systems (NeurIPS)",
+      "author": "Satoshi Hayakawa and Yuhta Takida and Masaaki Imaizumi and Hiromi Wakaki and Yuki Mitsufuji",
+      "title": "{Distillation of Discrete Diffusion through Dimensional Correlations}",
+      "ENTRYTYPE": "article",
+      "ID": "hayakawa2024distillation"
+    },
+    {
+      "year": "2024",
+      "booktitle": "Proc. of the Int. Conf. on Neural Information Processing Systems (NeurIPS)",
+      "author": "Jiaxin Shi and Kehang Han and Zhe Wang and Arnaud Doucet and Michalis K. Titsias",
+      "title": "{Simplified and Generalized Masked Diffusion for Discrete Data}",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "shi2024simplifieddiff"
+    },
+    {
+      "year": "2024",
+      "booktitle": "Proc. of the Int. Conf. on Neural Information Processing Systems (NeurIPS)",
+      "author": "Subham Sekhar Sahoo and Marianne Arriola and Yair Schiff and Aaron Gokaslan and Edgar Marroquin and Justin T Chiu and Alexander Rush and Volodymyr Kuleshov",
+      "title": "{Simple and Effective Masked Diffusion Language Models}",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "sahoo2024simplifieddiff"
+    },
+    {
+      "year": "2021",
+      "booktitle": "Proc. of Int. Conf. on Neural Information Processing Systems (NeurIPS)",
+      "author": "Prafulla Dhariwal and Alex Nichol",
+      "title": "{Diffusion Models Beat GANs on Image Synthesis}",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "dhariwal2021diffusion"
+    },
+    {
+      "year": "2024",
+      "booktitle": "Proc. of Int. Conf. on Neural Information Processing Systems (NeurIPS)",
+      "author": "Itai Gat and Tal Remez and Neta Shaul and Felix Kreuk and Ricky T. Q. Chen and Gabriel Synnaeve and Yossi Adi and Yaron Lipman",
+      "title": "{Discrete Flow Matching}",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "gat2024dfm"
+    },
+    {
+      "year": "2017",
+      "booktitle": "Proc. of Int. Conf. on Neural Information Processing Systems (NeurIPS)",
+      "author": "Martin Heusel and Hubert Ramsauer and Thomas Unterthiner and Bernhard Nessler and Sepp Hochreiter",
+      "title": "{GANs Trained by a Two Time-Scale Update Rule Converge to a Local Nash Equilibrium}",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "heusel2017fid"
+    },
+    {
+      "year": "2024",
+      "booktitle": "Proc. Int. Conf. on Learning Representations (ICLR)",
+      "author": "Kaiwen Zheng and Yongxin Chen and Hanzi Mao and Ming-Yu Liu and Jun Zhu and Qinsheng Zhang",
+      "title": "{Masked Diffusion Models are Secretly Time-Agnostic Masked Models and Exploit Inaccurate Categorical Sampling}",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zheng2024mdm"
+    },
+    {
+      "year": "2022",
+      "booktitle": "Proc. of Int. Conf. on Neural Information Processing Systems (NeurIPS)",
+      "author": "Andrew Campbell and Joe Benton and Valentin De Bortoli and Tom Rainforth and George Deligiannidis and Arnaud Doucet",
+      "title": "{A Continuous Time Framework for Discrete Denoising Models}",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "campbell2022ctmc"
+    },
+    {
+      "journal": "\\tt arXiv:2502.09992 [cs.CL]",
+      "year": "2025",
+      "author": "Shen Nie and Fengqi Zhu and Zebin You and Xiaolu Zhang and Jingyang Ou and Jun Hu and Jun Zhou and Yankai Lin and Ji-Rong Wen and Chongxuan Li",
+      "title": "{Large Language Diffusion Models}",
+      "ENTRYTYPE": "article",
+      "ID": "nie2025llmdiff"
+    },
+    {
+      "year": "2024",
+      "booktitle": "Proc. Int. Conf. on Machine Learning (ICML)",
+      "author": "Aaron Lou and Chenlin Meng and Stefano Ermon",
+      "title": "{Discrete Diffusion Modeling by Estimating the Ratios of the Data Distribution}",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "lou2024sedd"
+    },
+    {
+      "journal": "\\tt arXiv:2406.03736 [cs.LG]",
+      "year": "2025",
+      "author": "Jingyang Ou and Shen Nie and Kaiwen Xue and Fengqi Zhu and Jiacheng Sun and Zhenguo Li and Chongxuan Li",
+      "title": "{Your Absorbing Discrete Diffusion Secretly Models the Conditional Distributions of Clean Data}",
+      "ENTRYTYPE": "article",
+      "ID": "ou2025radd"
+    },
+    {
+      "year": "2025",
+      "booktitle": "Proc. Int. Conf. on Learning Representations (ICLR)",
+      "author": "Neta Shaul and Itai Gat and Marton Havasi and Daniel Severo and Anuroop Sriram and Peter Holderrieth and Brian Karrer and Yaron Lipman and Ricky T. Q. Chen",
+      "title": "{Flow Matching with General Discrete Paths: A Kinetic-Optimal Perspective}",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "shaul2025kinetic"
+    },
+    {
+      "year": "2025",
+      "booktitle": "Proc. Int. Conf. on Learning Representations (ICLR)",
+      "author": "Marianne Arriola and Aaron Gokaslan and Justin T Chiu and Zhihan Yang and Zhixuan Qi and Jiaqi Han and Subham Sekhar Sahoo and Volodymyr Kuleshov",
+      "title": "{Block Diffusion: Interpolating Between Autoregressive and Diffusion Language Models}",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "arriola2025block"
+    },
+    {
+      "journal": "\\tt arXiv:2503.00307 [cs.LG]",
+      "year": "2025",
+      "author": "Guanghan Wang and Yair Schiff and Subham Sekhar Sahoo and Volodymyr Kuleshov",
+      "title": "{Remasking Discrete Diffusion Models with Inference-Time Scaling}",
+      "ENTRYTYPE": "article",
+      "ID": "wang2025remasking"
+    },
+    {
+      "journal": "\\tt arXiv:2407.21243 [cs.LG]",
+      "year": "2024",
+      "author": "Yixiu Zhao and Jiaxin Shi and Feng Chen and Shaul Druckmann and Lester Mackey and Scott Linderman",
+      "title": "{Informed Correctors for Discrete Diffusion Models}",
+      "ENTRYTYPE": "article",
+      "ID": "zhao2024informed"
+    },
+    {
+      "year": "2025",
+      "booktitle": "Proc. Int. Conf. on Learning Representations (ICLR)",
+      "author": "Justin Deschenaux and Caglar Gulcehre",
+      "title": "{Beyond Autoregression: Fast LLMs via Self-Distillation Through Time}",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "deschenaux2025bydiff"
+    },
+    {
+      "year": "2025",
+      "booktitle": "Proc. Int. Conf. on Learning Representations (ICLR)",
+      "author": "Minkai Xu and Tomas Geffner and Karsten Kreis and Weili Nie and Yilun Xu and Jure Leskovec and Stefano Ermon and Arash Vahdat",
+      "title": "{Energy-Based Diffusion Language Models for Text Generation}",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "xu2025ebmdiff"
+    },
+    {
+      "year": "2023",
+      "booktitle": "Proc. Int. Conf. on Learning Representations (ICLR)",
+      "author": "Ting Chen and Ruixiang Zhang and Geoffrey Hinton",
+      "title": "{Analog Bits: Generating Discrete Data using Diffusion Models with Self-Conditioning}",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "chen2023bitdiff"
+    },
+    {
+      "year": "2023",
+      "booktitle": "Proc. of Int. Conf. on Neural Information Processing Systems (NeurIPS)",
+      "author": "Ishaan Gulrajani and Tatsunori B. Hashimoto",
+      "title": "{Likelihood-Based Diffusion Language Models}",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "gulrajani2023plaid"
+    },
+    {
+      "journal": "\\tt arXiv:2211.15089 [cs.CL]",
+      "year": "2022",
+      "author": "Sander Dieleman and Laurent Sartran and Arman Roshannai and Nikolay Savinov and Yaroslav Ganin and Pierre H. Richemond and Arnaud Doucet and Robin Strudel and Chris Dyer and Conor Durkan and Curtis Hawthorne and Rémi Leblond and Will Grathwohl and Jonas Adler",
+      "title": "{Continuous diffusion for categorical data}",
+      "ENTRYTYPE": "article",
+      "ID": "dieleman2022cdcd"
+    },
+    {
+      "year": "2022",
+      "booktitle": "Proc. of Int. Conf. on Neural Information Processing Systems (NeurIPS)",
+      "author": "Xiang Lisa Li and John Thickstun and Ishaan Gulrajani and Percy Liang and Tatsunori B. Hashimoto",
+      "title": "{Diffusion-LM Improves Controllable Text Generation}",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "li2022diffllm"
+    },
+    {
+      "journal": "\\tt arXiv:2412.09871 [cs.CL]",
+      "year": "2024",
+      "author": "Artidoro Pagnoni and Ram Pasunuru and Pedro Rodriguez and John Nguyen and Benjamin Muller and Margaret Li and Chunting Zhou and Lili Yu and Jason Weston and Luke Zettlemoyer and Gargi Ghosh and Mike Lewis and Ari Holtzman and Srinivasan Iyer",
+      "title": "{Byte Latent Transformer: Patches Scale Better Than Tokens}",
+      "ENTRYTYPE": "article",
+      "ID": "pagnoni2024blt"
+    },
+    {
+      "year": "2011",
+      "booktitle": "Proc. Int. Conf. on Machine Learning (ICML)",
+      "author": "Ilya Sutskever and James Martens and Geoffrey Hinton",
+      "title": "{Generating Text with Recurrent Neural Networks}",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "sutskever2011textrnn"
+    },
+    {
+      "journal": "\\tt arXiv:1308.0850 [cs.NE]",
+      "year": "2013",
+      "author": "Alex Graves",
+      "title": "{Generating Sequences With Recurrent Neural Networks}",
+      "ENTRYTYPE": "article",
+      "ID": "graves2013rnntext"
+    },
+    {
+      "journal": "\\tt arXiv:1610.10099 [cs.CL]",
+      "year": "2016",
+      "author": "Nal Kalchbrenner and Lasse Espeholt and Karen Simonyan and Aaron van den Oord and Alex Graves and Koray Kavukcuoglu",
+      "title": "{Neural Machine Translation in Linear Time}",
+      "ENTRYTYPE": "article",
+      "ID": "kalchbrenner2016cnntext"
+    },
+    {
+      "year": "2017",
+      "booktitle": "Proc. of Int. Conf. on Neural Information Processing Systems (NeurIPS)",
+      "author": "Ashish Vaswani and Noam Shazeer and Niki Parmar and Jakob Uszkoreit and Llion Jones and Aidan N. Gomez and Lukasz Kaiser and Illia Polosukhin",
+      "title": "{Attention Is All You Need}",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "vaswani2017transformer"
+    },
+    {
+      "year": "2018",
+      "booktitle": "Proc. of Association for the Advancement of Artificial Intelligence Conference on Artificial Intelligence (AAAI)",
+      "author": "Rami Al-Rfou and Dokook Choe and Noah Constant and Mandy Guo and Llion Jones",
+      "title": "{Character-level language modeling with deeper self-attention}",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "Rfou2018attention"
+    },
+    {
+      "journal": "Transactions of the Association for Computational Linguistics (TACL)",
+      "year": "2022",
+      "author": "Linting Xue and Aditya Barua and Noah Constant and Rami Al-Rfou and Sharan Narang and Mihir Kale and Adam Roberts and Colin Raffel",
+      "title": "{Byt5: Towards a Token-free Future with Pre-trained Byte-to-byte Models}",
+      "ENTRYTYPE": "article",
+      "ID": "Xue2022byt5"
+    },
+    {
+      "year": "2023",
+      "booktitle": "Proc. of Int. Conf. on Neural Information Processing Systems (NeurIPS)",
+      "author": "Lili Yu and Dániel Simig and Colin Flaherty and Armen Aghajanyan and Luke Zettlemoyer and Mike Lewis",
+      "title": "{MEGABYTE: Predicting Million-byte Sequences with Multiscale Transformers}",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "yu2023megabyte"
+    },
+    {
+      "year": "2019",
+      "author": "Radford, Alec and Wu, Jeff and Child, Rewon and Luan, David and Amodei, Dario and Sutskever, Ilya",
+      "title": "Language Models are Unsupervised Multitask Learners",
+      "ENTRYTYPE": "article",
+      "ID": "radford2019language"
+    },
+    {
+      "journal": "\\tt arXiv:2302.13971 [cs.CL]",
+      "year": "2023",
+      "author": "Hugo Touvron and Thibaut Lavril and Gautier Izacard and Xavier Martinet and Marie-Anne Lachaux and Timothée Lacroix and Baptiste Rozière and Naman Goyal and Eric Hambro and Faisal Azhar and Aurelien Rodriguez and Armand Joulin and Edouard Grave and Guillaume Lample",
+      "title": "{LLaMA: Open and Efficient Foundation Language Models}",
+      "ENTRYTYPE": "article",
+      "ID": "touvron2023llama"
+    },
+    {
+      "url": "https://www.cs.toronto.edu/~kriz/learning-features-2009-TR.pdf",
+      "institution": "University of Toronto",
+      "year": "2009",
+      "author": "Krizhevsky, Alex and Hinton, Geoffrey",
+      "title": "{Learning Multiple Layers of Features from Tiny Images}",
+      "ENTRYTYPE": "techreport",
+      "ID": "krizhevsky2009cifar10"
+    },
+    {
+      "journal": "\\tt arXiv:1707.08819 [cs.CV]",
+      "year": "2017",
+      "author": "Patryk Chrabaszcz and Ilya Loshchilov and Frank Hutter",
+      "title": "{A Downsampled Variant of ImageNet as an Alternative to the CIFAR datasets}",
+      "ENTRYTYPE": "article",
+      "ID": "chrabaszcz2017imagenet"
+    },
+    {
+      "year": "2018",
+      "journal": "Workshop on Theoretical Foundations and Applications of Deep Generative Models at Int. Conf. on Machine Learning (ICML)",
+      "author": "Shane Barratt and Rishi Sharma",
+      "title": "{A Note on the Inception Score}",
+      "ENTRYTYPE": "article",
+      "ID": "barratt2018is"
+    },
+    {
+      "year": "2024",
+      "booktitle": "Proc. of Annual Conf. of the North American Chapter of the Association for Computational Linguistics (NAACL)",
+      "author": "Shujian Zhang and Lemeng Wu and Chengyue Gong and Xingchao Liu",
+      "title": "{Language Rectified Flow: Advancing Diffusion Language Generation with Probabilistic Flows}",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zhang2024flowllm"
+    },
+    {
+      "year": "2024",
+      "booktitle": "Proc. of Conference of the European Chapter of the Association for Computational Linguistics (EACL)",
+      "author": "Vincent Hu and Di Wu and Yuki Asano and Pascal Mettes and Basura Fernando and Björn Ommer and Cees Snoek",
+      "title": "{Flow Matching for Conditional Text Generation in a Few Sampling Steps}",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "hu2024flowllm"
+    },
+    {
+      "year": "2021",
+      "booktitle": "Proc. of Int. Conf. on Neural Information Processing Systems (NeurIPS)",
+      "author": "Yang Song and Conor Durkan and Iain Murray and Stefano Ermon",
+      "title": "{Maximum Likelihood Training of Score-Based Diffusion Models}",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "song2021scoreflow"
+    },
+    {
+      "year": "2020",
+      "booktitle": "Proc. of Int. Conf. on Neural Information Processing Systems (NeurIPS)",
+      "author": "Tero Karras and Miika Aittala and Janne Hellsten and Samuli Laine and Jaakko Lehtinen and Timo Aila",
+      "title": "{Training Generative Adversarial Networks with Limited Data}",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "karras2020stylegan"
+    },
+    {
+      "year": "2020",
+      "booktitle": "Proc. of Int. Conf. on Neural Information Processing Systems (NeurIPS)",
+      "author": "Jonathan Ho and Ajay Jain and Pieter Abbeel",
+      "title": "{Denoising Diffusion Probabilistic Models}",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ho2020ddpm"
+    },
+    {
+      "year": "2023",
+      "booktitle": "Proc. Int. Conf. on Learning Representations (ICLR)",
+      "author": "Yaron Lipman and Ricky T. Q. Chen and Heli Ben-Hamu and Maximilian Nickel and Matt Le",
+      "title": "{Flow Matching for Generative Modeling}",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "lipman2023flowmatching"
+    },
+    {
+      "year": "2019",
+      "booktitle": "Proc. of Int. Conf. on Neural Information Processing Systems (NeurIPS)",
+      "author": "Song, Yang and Ermon, Stefano",
+      "title": "{Generative Modeling by Estimating Gradients of the Data Distribution}",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "song2019generative"
+    },
+    {
+      "year": "2025",
+      "booktitle": "Proc. Int. Conf. on Learning Representations (ICLR)",
+      "author": "Hunter Nisonoff and Junhao Xiong and Stephan Allenspach and Jennifer Listgarten",
+      "title": "{Unlocking Guidance for Discrete State-Space Diffusion and Flow Models}",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "nisonoff2025guidance"
+    },
+    {
+      "year": "2016",
+      "booktitle": "Proc. of Int. Conf. on Neural Information Processing Systems (NeurIPS)",
+      "author": "Aaron van den Oord and Nal Kalchbrenner and Oriol Vinyals and Lasse Espeholt and Alex Graves and Koray Kavukcuoglu",
+      "title": "{Conditional Image Generation with PixelCNN Decoders}",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "oord2016pixelcnn"
+    },
+    {
+      "booktitle": "Proc. Int. Conf. on Machine Learning (ICML)",
+      "year": "2023",
+      "author": "Chen-Hao Chao and Wei-Fang Sun and Bo-Wun Cheng and Chun-Yi Lee",
+      "title": "{On Investigating the Conservative Property of Score-Based Generative Models}",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "chao2023investigating"
+    },
+    {
+      "booktitle": "Proc. Int. Conf. on Machine Learning (ICML)",
+      "year": "2024",
+      "author": "Grigory Bartosh and Dmitry Vetrov and Christian A. Naesseth",
+      "title": "{Neural Diffusion Models}",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "bartosh2024neuraldiff"
+    },
+    {
+      "year": "2019",
+      "booktitle": "Proc. of Int. Conf. on Neural Information Processing Systems (NeurIPS)",
+      "author": "Ngoc-Trung Tran and Viet-Hung Tran and Ngoc-Bao Nguyen and Linxiao Yang and Ngai-Man Cheung",
+      "title": "{Self-supervised GAN: Analysis and Improvement with Multi-class Minimax Game}",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "tran2019msgan"
+    },
+    {
+      "booktitle": "Proc. Int. Conf. on Machine Learning (ICML)",
+      "year": "2023",
+      "author": "Kaiwen Zheng and Cheng Lu and Jianfei Chen and Jun Zhu",
+      "title": "{Improved Techniques for Maximum Likelihood Estimation for Diffusion ODEs}",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zheng2023ode"
+    },
+    {
+      "booktitle": "Proc. Int. Conf. on Machine Learning (ICML)",
+      "year": "2022",
+      "author": "Dongjun Kim and Seungjae Shin and Kyungwoo Song and Wanmo Kang and Il-Chul Moon",
+      "title": "{Soft Truncation: A Universal Training Technique of Score-based Diffusion Model for High Precision Score Estimation}",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "kim2022soft"
+    },
+    {
+      "year": "2023",
+      "booktitle": "Proc. Int. Conf. on Learning Representations (ICLR)",
+      "author": "Michael S. Albergo and Eric Vanden-Eijnden",
+      "title": "{Building Normalizing Flows with Stochastic Interpolants}",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "albergo2023stochastic"
+    },
+    {
+      "journal": "\\tt  http://Skylion007.github.io/OpenWebTextCorpus",
+      "year": "2019",
+      "author": "Aaron Gokaslan and Vanya Cohen and Ellie Pavlick and Stefanie Tellex",
+      "title": "{Openwebtext corpus}",
+      "ENTRYTYPE": "article",
+      "ID": "gokaslan2019owt"
+    },
+    {
+      "journal": "\\tt arXiv:2104.09864 [cs.CL]",
+      "year": "2023",
+      "author": "Jianlin Su and Yu Lu and Shengfeng Pan and Ahmed Murtadha and Bo Wen and Yunfeng Liu",
+      "title": "{RoFormer: Enhanced Transformer with Rotary Position Embedding}",
+      "ENTRYTYPE": "article",
+      "ID": "su2023rotary"
+    },
+    {
+      "journal": "\\tt arXiv:2212.09748 [cs.CV]",
+      "year": "2022",
+      "author": "William Peebles and Saining Xie",
+      "title": "{Scalable Diffusion Models with Transformers}",
+      "ENTRYTYPE": "article",
+      "ID": "Peebles2022DiT"
+    },
+    {
+      "booktitle": "Proc. Int. Conf. on Machine Learning (ICML)",
+      "year": "2021",
+      "author": "Andrew Jaegle and Felix Gimeno and Andrew Brock and Andrew Zisserman and Oriol Vinyals and Joao Carreira",
+      "title": "{Perceiver: General Perception with Iterative Attention}",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "jaegle2021perceiver"
+    },
+    {
+      "year": "2023",
+      "booktitle": "Workshop at Int. Conf. on Learning Representations (ICLR)",
+      "author": "Laurent Dinh and David Krueger and Yoshua Bengio",
+      "title": "{NICE: Non-linear Independent Components Estimation}",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "dinh2015nice"
+    },
+    {
+      "journal": "",
+      "year": "2011",
+      "author": "Tomas Mikolov and Ilya Sutskever and Anoop Deoras and Hai Son Le and Stefan Kombrink and Jan Honza Cernocky",
+      "title": "{Subword Language Modeling with Neural Networks}",
+      "ENTRYTYPE": "article",
+      "ID": "mikolov2011subword"
+    },
+    {
+      "year": "2015",
+      "booktitle": "Proc. Int. Conf. on Learning Representations (ICLR)",
+      "author": "Diederik P. Kingma and Jimmy Ba",
+      "title": "{Adam: A Method for Stochastic Optimization}",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "kingma2015adam"
+    },
+    {
+      "year": "2019",
+      "booktitle": "Proc. Int. Conf. on Learning Representations (ICLR)",
+      "author": "Ilya Loshchilov and Frank Hutter",
+      "title": "{Decoupled Weight Decay Regularization}",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "loshchilov2019adamw"
+    },
+    {
+      "url": "https://web.stanford.edu/~jurafsky/slp3/",
+      "edition": "3rd",
+      "year": "2025",
+      "title": "Speech and Language Processing: An Introduction to Natural Language Processing, Computational Linguistics, and Speech Recognition",
+      "author": "Daniel Jurafsky and James H. Martin",
+      "ENTRYTYPE": "book",
+      "ID": "jurafsky2025slp3"
+    },
+    {
+      "year": "2021",
+      "booktitle": "Proc. of Int. Conf. on Neural Information Processing Systems (NeurIPS)",
+      "author": "Krishna Pillutla and Swabha Swayamdipta and Rowan Zellers and John Thickstun and Sean Welleck and Yejin Choi and Zaid Harchaoui",
+      "title": "{MAUVE: Measuring the Gap Between Neural Text and Human Text using Divergence Frontiers}",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "pillutla2021mauve"
+    },
+    {
+      "year": "2020",
+      "booktitle": "Proc. Int. Conf. on Learning Representations (ICLR)",
+      "author": "Ari Holtzman and Jan Buys and Li Du and Maxwell Forbes and Yejin Choi",
+      "title": "{The Curious Case of Neural Text Degeneration}",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "holtzman2020nucleus"
+    },
+    {
+      "year": "2016",
+      "booktitle": "Proc. Annual Meeting of the Association for Computational Linguistics (ACL)",
+      "author": "Paperno, Denis and Kruszewski, Germ{\\'a}n and Lazaridou, Angeliki and Pham, Ngoc Quan and Bernardi, Raffaella and Pezzelle, Sandro and Baroni, Marco and Boleda, Gemma and Fern{\\'a}ndez, Raquel",
+      "title": "{The LAMBADA dataset: Word prediction requiring a broad discourse context}",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "paperno2016lambada"
+    },
+    {
+      "year": "2016",
+      "journal": "\\tt arXiv:1609.07843 [cs.CL]",
+      "author": "Merity, Stephen and Xiong, Caiming and Bradbury, James and Socher, Richard",
+      "title": "{Pointer Sentinel Mixture Models}",
+      "ENTRYTYPE": "article",
+      "ID": "merity2016pointer"
+    },
+    {
+      "publisher": "MIT Press",
+      "year": "1993",
+      "pages": "313--330",
+      "number": "2",
+      "volume": "19",
+      "journal": "Computational Linguistics (CL)",
+      "author": "Marcus, Mitchell P. and Santorini, Beatrice and Marcinkiewicz, Mary Ann",
+      "title": "Building a Large Annotated Corpus of English: The Penn Treebank",
+      "ENTRYTYPE": "article",
+      "ID": "marcus1993building"
+    },
+    {
+      "url": "https://aclanthology.org/E14-1031/",
+      "organization": "Association for Computational Linguistics",
+      "year": "2013",
+      "pages": "263--272",
+      "booktitle": "Proc. Conf. of the European Chapter of the Association for Computational Linguistics (EACL)",
+      "author": "Chelba, Ciprian and Mikolov, Tomas and Schuster, Mike and Ge, Qi and Brants, Thorsten and Koehn, Philipp and Robinson, Tony",
+      "title": "{One Billion Word Benchmark for Measuring Progress in Statistical Language Modeling}",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "chelba2013one"
+    },
+    {
+      "year": "2015",
+      "booktitle": "Proc. of Int. Conf. on Neural Information Processing Systems (NeurIPS)",
+      "author": "Zhang, Xiang and Zhao, Junbo and LeCun, Yann",
+      "title": "{Character-level Convolutional Networks for Text Classification}",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zhang2015character"
+    },
+    {
+      "year": "2018",
+      "booktitle": "Proc. Conf. of the North American Chapter of the Association for Computational Linguistics (NAACL)",
+      "author": "Cohan, Arman and Dernoncourt, Franck and Kim, Doo Soon and Bui, Trung and Kim, Seokhwan and Chang, Walter and Goharian, Nazli",
+      "title": "{A Discourse-Aware Attention Model for Abstractive Summarization of Long Documents}",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "cohan-etal-2018-discourse"
+    },
+    {
+      "year": "2025",
+      "booktitle": "Proc. Int. Conf. on Learning Representations (ICLR)",
+      "author": "Anji Liu and Oliver Broadrick and Mathias Niepert and Guy Van den Broeck",
+      "title": "{Discrete Copula Diffusion}",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "liu2025dcd"
+    },
+    {
+      "year": "2007",
+      "author": "Cottingham, W. N. and Greenwood, D. A.",
+      "publisher": "Cambridge University Press",
+      "title": "{An Introduction to the Standard Model of Particle Physics}",
+      "ENTRYTYPE": "article",
+      "ID": "Cottingham_Greenwood_2007"
+    },
+    {
+      "primaryclass": "cs.LG",
+      "archiveprefix": "arXiv",
+      "eprint": "1410.8516",
+      "year": "2015",
+      "author": "Laurent Dinh and David Krueger and Yoshua Bengio",
+      "title": "{NICE: Non-linear Independent Components Estimation}",
+      "ENTRYTYPE": "article",
+      "ID": "Dinh2014NICENI"
+    },
+    {
+      "year": "2016",
+      "booktitle": "Proc. Int. Conf. on Learning Representations (ICLR)",
+      "author": "Laurent Dinh and Jascha Sohl-Dickstein and Samy Bengio",
+      "title": "{Density Estimation using Real NVP}",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "Dinh2016DensityEU"
+    }
+  ]
+}

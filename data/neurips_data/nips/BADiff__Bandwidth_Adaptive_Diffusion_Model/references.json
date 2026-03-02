@@ -1,0 +1,584 @@
+{
+  "pdf_url": "https://arxiv.org/pdf/2510.21366v2.pdf",
+  "references": [
+    {
+      "year": "2020",
+      "pages": "6840--6851",
+      "volume": "33",
+      "journal": "Advances in neural information processing systems",
+      "author": "Ho, Jonathan and Jain, Ajay and Abbeel, Pieter",
+      "title": "Denoising diffusion probabilistic models",
+      "ENTRYTYPE": "article",
+      "ID": "ho2020denoising"
+    },
+    {
+      "year": "2020",
+      "journal": "arXiv preprint arXiv:2010.02502",
+      "author": "Song, Jiaming and Meng, Chenlin and Ermon, Stefano",
+      "title": "Denoising diffusion implicit models",
+      "ENTRYTYPE": "article",
+      "ID": "song2020denoising"
+    },
+    {
+      "year": "2020",
+      "journal": "arXiv preprint arXiv:2011.13456",
+      "author": "Song, Yang and Sohl-Dickstein, Jascha and Kingma, Diederik P and Kumar, Abhishek and Ermon, Stefano and Poole, Ben",
+      "title": "Score-based generative modeling through stochastic differential equations",
+      "ENTRYTYPE": "article",
+      "ID": "song2020score"
+    },
+    {
+      "year": "2017",
+      "journal": "arXiv preprint arXiv:1710.10196",
+      "author": "Karras, Tero and Aila, Timo and Laine, Samuli and Lehtinen, Jaakko",
+      "title": "Progressive growing of gans for improved quality, stability, and variation",
+      "ENTRYTYPE": "article",
+      "ID": "karras2017progressive"
+    },
+    {
+      "publisher": "Toronto, ON, Canada",
+      "year": "2009",
+      "author": "Krizhevsky, Alex and Hinton, Geoffrey and others",
+      "title": "Learning multiple layers of features from tiny images",
+      "ENTRYTYPE": "article",
+      "ID": "krizhevsky2009learning"
+    },
+    {
+      "year": "2015",
+      "journal": "arXiv preprint arXiv:1506.03365",
+      "author": "Yu, Fisher and Seff, Ari and Zhang, Yinda and Song, Shuran and Funkhouser, Thomas and Xiao, Jianxiong",
+      "title": "Lsun: Construction of a large-scale image dataset using deep learning with humans in the loop",
+      "ENTRYTYPE": "article",
+      "ID": "yu2015lsun"
+    },
+    {
+      "year": "2017",
+      "volume": "30",
+      "journal": "Advances in neural information processing systems",
+      "author": "Heusel, Martin and Ramsauer, Hubert and Unterthiner, Thomas and Nessler, Bernhard and Hochreiter, Sepp",
+      "title": "Gans trained by a two time-scale update rule converge to a local nash equilibrium",
+      "ENTRYTYPE": "article",
+      "ID": "heusel2017gans"
+    },
+    {
+      "year": "2018",
+      "pages": "586--595",
+      "booktitle": "Proceedings of the IEEE conference on computer vision and pattern recognition",
+      "author": "Zhang, Richard and Isola, Phillip and Efros, Alexei A and Shechtman, Eli and Wang, Oliver",
+      "title": "The unreasonable effectiveness of deep features as a perceptual metric",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zhang2018unreasonable"
+    },
+    {
+      "year": "2014",
+      "journal": "arXiv preprint arXiv:1412.6980",
+      "author": "Kingma, Diederik P",
+      "title": "Adam: A method for stochastic optimization",
+      "ENTRYTYPE": "article",
+      "ID": "kingma2014adam"
+    },
+    {
+      "organization": "Springer",
+      "year": "2015",
+      "pages": "234--241",
+      "booktitle": "International Conference on Medical Image Computing and Computer-Assisted Intervention",
+      "author": "Ronneberger, Olaf and Fischer, Philipp and Brox, Thomas",
+      "title": "U-Net: Convolutional networks for biomedical image segmentation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ronneberger2015u"
+    },
+    {
+      "year": "2014",
+      "volume": "27",
+      "journal": "Advances in neural information processing systems",
+      "author": "Goodfellow, Ian J and Pouget-Abadie, Jean and Mirza, Mehdi and Xu, Bing and Warde-Farley, David and Ozair, Sherjil and Courville, Aaron and Bengio, Yoshua",
+      "title": "Generative adversarial nets",
+      "ENTRYTYPE": "article",
+      "ID": "goodfellow2014generative"
+    },
+    {
+      "year": "2013",
+      "journal": "arXiv preprint arXiv:1312.6114",
+      "author": "Kingma, Diederik P and Welling, Max",
+      "title": "Auto-encoding variational bayes",
+      "ENTRYTYPE": "article",
+      "ID": "kingma2013auto"
+    },
+    {
+      "year": "2022",
+      "pages": "8633--8646",
+      "volume": "35",
+      "journal": "Advances in neural information processing systems",
+      "author": "Ho, Jonathan and Salimans, Tim and Gritsenko, Alexey and Chan, William and Norouzi, Mohammad and Fleet, David J",
+      "title": "Video diffusion models",
+      "ENTRYTYPE": "article",
+      "ID": "ho2022video"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2204.06125",
+      "author": "Ramesh, Aditya and Dhariwal, Prafulla and Nichol, Alex and Chu, Casey and Chen, Mark",
+      "title": "Hierarchical text-conditional image generation with clip latents",
+      "ENTRYTYPE": "article",
+      "ID": "ramesh2022hierarchical"
+    },
+    {
+      "year": "2022",
+      "pages": "36479--36494",
+      "volume": "35",
+      "journal": "Advances in neural information processing systems",
+      "author": "Saharia, Chitwan and Chan, William and Saxena, Saurabh and Li, Lala and Whang, Jay and Denton, Emily L and Ghasemipour, Kamyar and Gontijo Lopes, Raphael and Karagol Ayan, Burcu and Salimans, Tim and others",
+      "title": "Photorealistic text-to-image diffusion models with deep language understanding",
+      "ENTRYTYPE": "article",
+      "ID": "saharia2022photorealistic"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2209.14988",
+      "author": "Poole, Ben and Jain, Ajay and Barron, Jonathan T and Mildenhall, Ben",
+      "title": "Dreamfusion: Text-to-3d using 2d diffusion",
+      "ENTRYTYPE": "article",
+      "ID": "poole2022dreamfusion"
+    },
+    {
+      "year": "2022",
+      "pages": "5775--5787",
+      "volume": "35",
+      "journal": "Advances in neural information processing systems",
+      "author": "Lu, Cheng and Zhou, Yuhao and Bao, Fan and Chen, Jianfei and Li, Chongxuan and Zhu, Jun",
+      "title": "Dpm-solver: A fast ode solver for diffusion probabilistic model sampling in around 10 steps",
+      "ENTRYTYPE": "article",
+      "ID": "lu2022dpm"
+    },
+    {
+      "year": "2021",
+      "journal": "arXiv preprint arXiv:2106.00132",
+      "author": "Kong, Zhifeng and Ping, Wei",
+      "title": "On fast sampling of diffusion probabilistic models",
+      "ENTRYTYPE": "article",
+      "ID": "kong2021fast"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2202.00512",
+      "author": "Salimans, Tim and Ho, Jonathan",
+      "title": "Progressive distillation for fast sampling of diffusion models",
+      "ENTRYTYPE": "article",
+      "ID": "salimans2022progressive"
+    },
+    {
+      "year": "2023",
+      "journal": "International Conference on Learning Representations",
+      "author": "Liu, Ming and Lu, Cheng and Zhou, Yuhao and Zhu, Jun",
+      "title": "ADEPT: Adaptive Diffusion Sampling in the Denoising Steps",
+      "ENTRYTYPE": "article",
+      "ID": "liu2023adept"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2311.14768",
+      "author": "Zhang, Hui and Wu, Zuxuan and Xing, Zhen and Shao, Jie and Jiang, Yu-Gang",
+      "title": "Adadiff: Adaptive step selection for fast diffusion",
+      "ENTRYTYPE": "article",
+      "ID": "zhang2023adadiff"
+    },
+    {
+      "year": "2021",
+      "pages": "8780--8794",
+      "volume": "34",
+      "journal": "Advances in neural information processing systems",
+      "author": "Dhariwal, Prafulla and Nichol, Alexander",
+      "title": "Diffusion models beat gans on image synthesis",
+      "ENTRYTYPE": "article",
+      "ID": "dhariwal2021diffusion"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2207.12598",
+      "author": "Ho, Jonathan and Salimans, Tim",
+      "title": "Classifier-free diffusion guidance",
+      "ENTRYTYPE": "article",
+      "ID": "ho2022classifier"
+    },
+    {
+      "year": "2022",
+      "pages": "10684--10695",
+      "booktitle": "Proceedings of the IEEE/CVF conference on computer vision and pattern recognition",
+      "author": "Rombach, Robin and Blattmann, Andreas and Lorenz, Dominik and Esser, Patrick and Ommer, Bj{\\\"o}rn",
+      "title": "High-resolution image synthesis with latent diffusion models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "rombach2022high"
+    },
+    {
+      "year": "2022",
+      "pages": "11461--11471",
+      "booktitle": "Proceedings of the IEEE/CVF conference on computer vision and pattern recognition",
+      "author": "Lugmayr, Andreas and Danelljan, Martin and Romero, Andres and Yu, Fisher and Timofte, Radu and Van Gool, Luc",
+      "title": "Repaint: Inpainting using denoising diffusion probabilistic models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "lugmayr2022repaint"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2304.05489",
+      "author": "Yang, Fei and Mentzer, Fabian and Van Gool, Luc",
+      "title": "Natural Image Generation with Neural Compression",
+      "ENTRYTYPE": "article",
+      "ID": "yang2023natural"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2202.09778",
+      "author": "Liu, Luping and Ren, Yi and Lin, Zhijie and Zhao, Zhou",
+      "title": "Pseudo numerical methods for diffusion models on manifolds",
+      "ENTRYTYPE": "article",
+      "ID": "liu2022pseudo"
+    },
+    {
+      "year": "2021",
+      "journal": "arXiv preprint arXiv:2101.02388",
+      "author": "Luhman, Eric and Luhman, Troy",
+      "title": "Knowledge distillation in iterative generative models for improved sampling speed",
+      "ENTRYTYPE": "article",
+      "ID": "luhman2021knowledge"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2310.02557",
+      "author": "Kadkhodaie, Zahra and Guth, Florentin and Simoncelli, Eero P and Mallat, St{\\'e}phane",
+      "title": "Generalization in diffusion models arises from geometry-adaptive harmonic representations",
+      "ENTRYTYPE": "article",
+      "ID": "kadkhodaie2023generalization"
+    },
+    {
+      "year": "2023",
+      "pages": "7105--7114",
+      "booktitle": "Proceedings of the IEEE/CVF International Conference on Computer Vision",
+      "author": "Li, Lijiang and Li, Huixia and Zheng, Xiawu and Wu, Jie and Xiao, Xuefeng and Wang, Rui and Zheng, Min and Pan, Xin and Chao, Fei and Ji, Rongrong",
+      "title": "Autodiffusion: Training-free optimization of time steps and architectures for automated diffusion model acceleration",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "li2023autodiffusion"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2023",
+      "pages": "21915--21936",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Liu, Enshu and Ning, Xuefei and Lin, Zinan and Yang, Huazhong and Wang, Yu",
+      "title": "Oms-dpm: Optimizing the model schedule for diffusion probabilistic models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "liu2023oms"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2310.03337",
+      "author": "Yang, Shuai and Chen, Yukang and Wang, Luozhou and Liu, Shu and Chen, Yingcong",
+      "title": "Denoising diffusion step-aware models",
+      "ENTRYTYPE": "article",
+      "ID": "yang2023denoising"
+    },
+    {
+      "year": "2023",
+      "pages": "22552--22562",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on computer vision and pattern recognition",
+      "author": "Yang, Xingyi and Zhou, Daquan and Feng, Jiashi and Wang, Xinchao",
+      "title": "Diffusion probabilistic model made slim",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "yang2023diffusion"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2211.01324",
+      "author": "Balaji, Yogesh and Nah, Seungjun and Huang, Xun and Vahdat, Arash and Song, Jiaming and Zhang, Qinsheng and Kreis, Karsten and Aittala, Miika and Aila, Timo and Laine, Samuli and others",
+      "title": "ediff-i: Text-to-image diffusion models with an ensemble of expert denoisers",
+      "ENTRYTYPE": "article",
+      "ID": "balaji2022ediff"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2408.02054",
+      "author": "Yu, Jean and Barad, Haim",
+      "title": "Step Saver: Predicting Minimum Denoising Steps for Diffusion Model Image Generation",
+      "ENTRYTYPE": "article",
+      "ID": "yu2024step"
+    },
+    {
+      "year": "2020",
+      "pages": "11913--11924",
+      "volume": "33",
+      "journal": "Advances in neural information processing systems",
+      "author": "Mentzer, Fabian and Toderici, George D and Tschannen, Michael and Agustsson, Eirikur",
+      "title": "High-fidelity generative image compression",
+      "ENTRYTYPE": "article",
+      "ID": "mentzer2020high"
+    },
+    {
+      "year": "2015",
+      "journal": "arXiv preprint arXiv:1511.06434",
+      "author": "Radford, Alec and Metz, Luke and Chintala, Soumith",
+      "title": "Unsupervised representation learning with deep convolutional generative adversarial networks",
+      "ENTRYTYPE": "article",
+      "ID": "radford2015unsupervised"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2017",
+      "pages": "214--223",
+      "booktitle": "International conference on machine learning",
+      "author": "Arjovsky, Martin and Chintala, Soumith and Bottou, L{\\'e}on",
+      "title": "Wasserstein generative adversarial networks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "arjovsky2017wgan"
+    },
+    {
+      "year": "2019",
+      "pages": "4401--4410",
+      "booktitle": "Proceedings of the IEEE/CVF conference on computer vision and pattern recognition",
+      "author": "Karras, Tero and Laine, Samuli and Aila, Timo",
+      "title": "A style-based generator architecture for generative adversarial networks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "karras2019style"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2014",
+      "pages": "1278--1286",
+      "booktitle": "International conference on machine learning",
+      "author": "Rezende, Danilo Jimenez and Mohamed, Shakir and Wierstra, Daan",
+      "title": "Stochastic backpropagation and approximate inference in deep generative models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "rezende2014vae"
+    },
+    {
+      "year": "2017",
+      "booktitle": "International conference on learning representations",
+      "author": "Higgins, Irina and Matthey, Loic and Pal, Arka and Burgess, Christopher and Glorot, Xavier and Botvinick, Matthew and Mohamed, Shakir and Lerchner, Alexander",
+      "title": "beta-vae: Learning basic visual concepts with a constrained variational framework",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "higgins2017betavae"
+    },
+    {
+      "year": "2017",
+      "volume": "30",
+      "journal": "Advances in neural information processing systems",
+      "author": "Van Den Oord, Aaron and Vinyals, Oriol and others",
+      "title": "Neural discrete representation learning",
+      "ENTRYTYPE": "article",
+      "ID": "van2017neural"
+    },
+    {
+      "year": "2020",
+      "pages": "7939--7948",
+      "booktitle": "Proceedings of the IEEE/CVF conference on computer vision and pattern recognition",
+      "author": "Cheng, Zhengxue and Sun, Heming and Takeuchi, Masaru and Katto, Jiro",
+      "title": "Learned image compression with discretized gaussian mixture likelihoods and attention modules",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "cheng2020learned"
+    },
+    {
+      "note": "Accessed: 2025-05-16",
+      "howpublished": "\\url{https://bellard.org/bpg/}",
+      "year": "2014",
+      "title": "{BPG Image Format}",
+      "author": "Fabrice Bellard",
+      "ENTRYTYPE": "misc",
+      "ID": "bellard2014bpg"
+    },
+    {
+      "year": "2023",
+      "pages": "10239--10248",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Zhang, Xi and Wu, Xiaolin",
+      "title": "Lvqac: Lattice vector quantization coupled with spatially adaptive companding for efficient learned image compression",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zhang2023lvqac"
+    },
+    {
+      "year": "2024",
+      "pages": "106497--106518",
+      "volume": "37",
+      "title": "Learning Optimal Lattice Vector Quantizers for End-to-end Neural Image Compression",
+      "booktitle": "Advances in Neural Information Processing Systems",
+      "author": "Zhang, Xi and Wu, Xiaolin",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zhang2024learning"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2302.06096",
+      "author": "Zhang, Xi and Wu, Xiaolin",
+      "title": "Dual-layer Image Compression via Adaptive Downsampling and Spatially Varying Upconversion",
+      "ENTRYTYPE": "article",
+      "ID": "addl"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "2022",
+      "pages": "2024--2037",
+      "number": "2",
+      "volume": "45",
+      "journal": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+      "author": "Zhang, Xi and Wu, Xiaolin",
+      "title": "Multi-modality deep restoration of extremely compressed face videos",
+      "ENTRYTYPE": "article",
+      "ID": "mdvd"
+    },
+    {
+      "year": "2021",
+      "pages": "13354--13364",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Zhang, Xi and Wu, Xiaolin",
+      "title": "Attention-guided image compression by deep reconstruction of compressive sensed saliency skeleton",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "agdl"
+    },
+    {
+      "year": "2020",
+      "pages": "12335--12344",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Zhang, Xi and Wu, Xiaolin and Zhai, Xinliang and Ben, Xianye and Tu, Chengjie",
+      "title": "DAVD-net: Deep audio-aided video decompression of talking heads",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "davd"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "2020",
+      "pages": "963--975",
+      "volume": "30",
+      "journal": "IEEE Transactions on Image Processing",
+      "author": "Zhang, Xi and Wu, Xiaolin",
+      "title": "Ultra High Fidelity Deep Image Decompression With $\\ell_\\infty$-Constrained Compression",
+      "ENTRYTYPE": "article",
+      "ID": "ultra"
+    },
+    {
+      "year": "2015",
+      "journal": "arXiv preprint arXiv:1511.06085",
+      "author": "Toderici, George and O'Malley, Sean M and Hwang, Sung Jin and Vincent, Damien and Minnen, David and Baluja, Shumeet and Covell, Michele and Sukthankar, Rahul",
+      "title": "Variable rate image compression with recurrent neural networks",
+      "ENTRYTYPE": "article",
+      "ID": "toderici2015variable"
+    },
+    {
+      "year": "2017",
+      "pages": "5306--5314",
+      "booktitle": "Proceedings of the IEEE conference on Computer Vision and Pattern Recognition",
+      "author": "Toderici, George and Vincent, Damien and Johnston, Nick and Jin Hwang, Sung and Minnen, David and Shor, Joel and Covell, Michele",
+      "title": "Full resolution image compression with recurrent neural networks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "toderici2017full"
+    },
+    {
+      "year": "2016",
+      "journal": "arXiv preprint arXiv:1611.01704",
+      "author": "Ball{\\'e}, Johannes and Laparra, Valero and Simoncelli, Eero P",
+      "title": "End-to-end optimized image compression",
+      "ENTRYTYPE": "article",
+      "ID": "balle2016end"
+    },
+    {
+      "year": "2017",
+      "journal": "arXiv preprint arXiv:1703.00395",
+      "author": "Theis, Lucas and Shi, Wenzhe and Cunningham, Andrew and Husz{\\'a}r, Ferenc",
+      "title": "Lossy image compression with compressive autoencoders",
+      "ENTRYTYPE": "article",
+      "ID": "theis2017lossy"
+    },
+    {
+      "year": "2017",
+      "pages": "1141--1151",
+      "booktitle": "Advances in Neural Information Processing Systems 30",
+      "title": "Soft-to-Hard Vector Quantization for End-to-End Learning Compressible\nRepresentations",
+      "author": "Eirikur Agustsson and\nFabian Mentzer and\nMichael Tschannen and\nLukas Cavigelli and\nRadu Timofte and\nLuca Benini and\nLuc Van Gool",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "Agustsson2017_Soft"
+    },
+    {
+      "year": "2018",
+      "journal": "arXiv preprint arXiv:1802.01436",
+      "author": "Ball{\\'e}, Johannes and Minnen, David and Singh, Saurabh and Hwang, Sung Jin and Johnston, Nick",
+      "title": "Variational image compression with a scale hyperprior",
+      "ENTRYTYPE": "article",
+      "ID": "balle2018variational"
+    },
+    {
+      "year": "2018",
+      "volume": "31",
+      "journal": "Advances in neural information processing systems",
+      "author": "Minnen, David and Ball{\\'e}, Johannes and Toderici, George D",
+      "title": "Joint autoregressive and hierarchical priors for learned image compression",
+      "ENTRYTYPE": "article",
+      "ID": "minnen2018joint"
+    },
+    {
+      "year": "2018",
+      "pages": "4394--4402",
+      "booktitle": "Proceedings of the IEEE conference on computer vision and pattern recognition",
+      "author": "Mentzer, Fabian and Agustsson, Eirikur and Tschannen, Michael and Timofte, Radu and Van Gool, Luc",
+      "title": "Conditional probability models for deep image compression",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "mentzer2018conditional"
+    },
+    {
+      "year": "2018",
+      "journal": "arXiv preprint arXiv:1809.10452",
+      "author": "Lee, Jooyoung and Cho, Seunghyun and Beack, Seung-Kwon",
+      "title": "Context-adaptive entropy model for end-to-end optimized image compression",
+      "ENTRYTYPE": "article",
+      "ID": "lee2018context"
+    },
+    {
+      "year": "2020",
+      "pages": "12335--12344",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Zhang, Xi and Wu, Xiaolin and Zhai, Xinliang and Ben, Xianye and Tu, Chengjie",
+      "title": "Davd-net: Deep audio-aided video decompression of talking heads",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zhang2020davd"
+    },
+    {
+      "year": "2021",
+      "pages": "13354--13364",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Zhang, Xi and Wu, Xiaolin",
+      "title": "Attention-guided image compression by deep reconstruction of compressive sensed saliency skeleton",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zhang2021attention"
+    },
+    {
+      "year": "2025",
+      "pages": "28436--28445",
+      "booktitle": "Proceedings of the Computer Vision and Pattern Recognition Conference",
+      "author": "Xu, Tongda and Li, Jiahao and Li, Bin and Wang, Yan and Zhang, Ya-Qin and Lu, Yan",
+      "title": "PICD: Versatile Perceptual Image Compression with Diffusion Rendering",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "xu2025picd"
+    },
+    {
+      "year": "2023",
+      "booktitle": "The Twelfth International Conference on Learning Representations",
+      "author": "Careil, Marlene and Muckley, Matthew J and Verbeek, Jakob and Lathuili{\\`e}re, St{\\'e}phane",
+      "title": "Towards image compression with perfect realism at ultra-low bitrates",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "careil2023towards"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2310.16387",
+      "author": "Li, Han and Li, Shaohui and Dai, Wenrui and Li, Chenglin and Zou, Junni and Xiong, Hongkai",
+      "title": "Frequency-aware transformer for learned image compression",
+      "ENTRYTYPE": "article",
+      "ID": "li2023frequency"
+    },
+    {
+      "year": "2024",
+      "pages": "26088--26098",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Jia, Zhaoyang and Li, Jiahao and Li, Bin and Li, Houqiang and Lu, Yan",
+      "title": "Generative latent coding for ultra-low bitrate image compression",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "jia2024generative"
+    }
+  ]
+}

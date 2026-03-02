@@ -1,0 +1,372 @@
+{
+  "pdf_url": "https://arxiv.org/pdf/2510.21412v2.pdf",
+  "references": [
+    {
+      "year": "2024",
+      "journal": "ICLR",
+      "author": "Lee, Sharon and Zhang, Yunzhi and Wu, Shangzhe and Wu, Jiajun",
+      "title": "Language-informed visual concept learning",
+      "ENTRYTYPE": "article",
+      "ID": "lee2023livcl"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2023",
+      "pages": "19730--19742",
+      "booktitle": "International conference on machine learning",
+      "author": "Li, Junnan and Li, Dongxu and Savarese, Silvio and Hoi, Steven",
+      "title": "Blip-2: Bootstrapping language-image pre-training with frozen image encoders and large language models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "li2023blip-2"
+    },
+    {
+      "organization": "IEEE",
+      "year": "2009",
+      "pages": "1778--1785",
+      "booktitle": "2009 IEEE conference on computer vision and pattern recognition",
+      "author": "Farhadi, Ali and Endres, Ian and Hoiem, Derek and Forsyth, David",
+      "title": "Describing objects by their attributes",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "farhadi2009describe_by_attr"
+    },
+    {
+      "year": "2018",
+      "pages": "169--185",
+      "booktitle": "Proceedings of the European Conference on Computer Vision (ECCV)",
+      "author": "Nagarajan, Tushar and Grauman, Kristen",
+      "title": "Attributes as operators: factorizing unseen attribute-object compositions",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "nagarajan2018attributes_as_operator"
+    },
+    {
+      "abstract": "We investigate ways to compose complex concepts in texts from primitive ones while grounding them in images. We propose Concept and Relation Graph (CRG), which builds on top of constituency analysis and consists of recursively combined concepts with predicate functions. Meanwhile, we propose a concept composition neural network called Composer to leverage the CRG for visually grounded concept learning. Specifically, we learn the grounding of both primitive and all composed concepts by aligning them to images and show that learning to compose leads to more robust grounding results, measured in text-to-image matching accuracy. Notably, our model can model grounded concepts forming at both the finer-grained sentence level and the coarser-grained intermediate level (or word-level). Composer leads to pronounced improvement in matching accuracy when the evaluation data has significant compound divergence from the training data.",
+      "pages": "201--215",
+      "doi": "10.18653/v1/2021.findings-emnlp.20",
+      "url": "https://aclanthology.org/2021.findings-emnlp.20/",
+      "publisher": "Association for Computational Linguistics",
+      "address": "Punta Cana, Dominican Republic",
+      "year": "2021",
+      "month": "November",
+      "booktitle": "Findings of the Association for Computational Linguistics: EMNLP 2021",
+      "editor": "Moens, Marie-Francine  and\nHuang, Xuanjing  and\nSpecia, Lucia  and\nYih, Scott Wen-tau",
+      "author": "Zhang, Bowen  and\nHu, Hexiang  and\nQiu, Linlu  and\nShaw, Peter  and\nSha, Fei",
+      "title": "Visually Grounded Concept Composition",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zhang-etal-2021-visually-grounded"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2404.12652",
+      "author": "Zang, Yuan and Yun, Tian and Tan, Hao and Bui, Trung and Sun, Chen",
+      "title": "Pre-trained vision-language models learn discoverable visual concepts",
+      "ENTRYTYPE": "article",
+      "ID": "zang2024vlm_discoverable_concept"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2020",
+      "pages": "5338--5348",
+      "booktitle": "International conference on machine learning",
+      "author": "Koh, Pang Wei and Nguyen, Thao and Tang, Yew Siang and Mussmann, Stephen and Pierson, Emma and Kim, Been and Liang, Percy",
+      "title": "Concept bottleneck models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "koh2020concept"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2403.18252",
+      "author": "Zhong, Yiwu and Hu, Zi-Yuan and Lyu, Michael R and Wang, Liwei",
+      "title": "Beyond Embeddings: The Promise of Visual Table in Multi-Modal Models",
+      "ENTRYTYPE": "article",
+      "ID": "zhong2024vis_table"
+    },
+    {
+      "abstract": "Question answering models struggle to generalize to novel compositions of training patterns. Current end-to-end models learn a flat input embedding which can lose input syntax context. Prior approaches improve generalization by learning permutation invariant models, but these methods do not scale to more complex train-test splits. We propose Grounded Graph Decoding, a method to improve compositional generalization of language representations by grounding structured predictions with an attention mechanism. Grounding enables the model to retain syntax information from the input that significantly improves generalization to complex inputs. By predicting a structured graph containing conjunctions of query clauses, we learn a group invariant representation without making assumptions on the target domain. Our model performs competitively on the Compositional Freebase Questions (CFQ) dataset, a challenging benchmark for compositional generalization in question answering. Especially, our model effectively solves the MCD1 split with 98{\\%} accuracy. All source is available at \\url{https://github.com/gaiyu0/cfq}.",
+      "pages": "1829--1838",
+      "doi": "10.18653/v1/2021.findings-emnlp.157",
+      "url": "https://aclanthology.org/2021.findings-emnlp.157/",
+      "publisher": "Association for Computational Linguistics",
+      "address": "Punta Cana, Dominican Republic",
+      "year": "2021",
+      "month": "November",
+      "booktitle": "Findings of the Association for Computational Linguistics: EMNLP 2021",
+      "editor": "Moens, Marie-Francine  and\nHuang, Xuanjing  and\nSpecia, Lucia  and\nYih, Scott Wen-tau",
+      "author": "Gai, Yu  and\nJain, Paras  and\nZhang, Wendi  and\nGonzalez, Joseph  and\nSong, Dawn  and\nStoica, Ion",
+      "title": "Grounded Graph Decoding improves Compositional Generalization in Question Answering",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "gai-etal-2021-grounded-graph"
+    },
+    {
+      "year": "2024",
+      "pages": "24185--24198",
+      "booktitle": "Proceedings of the IEEE/CVF conference on computer vision and pattern recognition",
+      "author": "Chen, Zhe and Wu, Jiannan and Wang, Wenhai and Su, Weijie and Chen, Guo and Xing, Sen and Zhong, Muyan and Zhang, Qinglong and Zhu, Xizhou and Lu, Lewei and others",
+      "title": "Internvl: Scaling up vision foundation models and aligning for generic visual-linguistic tasks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "chen2024internvl"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2304.07193",
+      "author": "Oquab, Maxime and Darcet, Timoth{\\'e}e and Moutakanni, Th{\\'e}o and Vo, Huy and Szafraniec, Marc and Khalidov, Vasil and Fernandez, Pierre and Haziza, Daniel and Massa, Francisco and El-Nouby, Alaaeldin and others",
+      "title": "Dinov2: Learning robust visual features without supervision",
+      "ENTRYTYPE": "article",
+      "ID": "oquab2023dinov2"
+    },
+    {
+      "organization": "PmLR",
+      "year": "2021",
+      "pages": "8748--8763",
+      "booktitle": "International conference on machine learning",
+      "author": "Radford, Alec and Kim, Jong Wook and Hallacy, Chris and Ramesh, Aditya and Goh, Gabriel and Agarwal, Sandhini and Sastry, Girish and Askell, Amanda and Mishkin, Pamela and Clark, Jack and others",
+      "title": "Learning transferable visual models from natural language supervision",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "radford2021clip"
+    },
+    {
+      "year": "2017",
+      "journal": "arXiv preprint arXiv:1710.10196",
+      "author": "Karras, Tero and Aila, Timo and Laine, Samuli and Lehtinen, Jaakko",
+      "title": "Progressive growing of gans for improved quality, stability, and variation",
+      "ENTRYTYPE": "article",
+      "ID": "karras2017progressive"
+    },
+    {
+      "year": "2023",
+      "pages": "6038--6047",
+      "booktitle": "Proceedings of the IEEE/CVF conference on computer vision and pattern recognition",
+      "author": "Mokady, Ron and Hertz, Amir and Aberman, Kfir and Pritch, Yael and Cohen-Or, Daniel",
+      "title": "Null-text inversion for editing real images using guided diffusion models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "mokady2023nulltext"
+    },
+    {
+      "year": "2021",
+      "journal": "arXiv preprint arXiv:2108.01073",
+      "author": "Meng, Chenlin and He, Yutong and Song, Yang and Song, Jiaming and Wu, Jiajun and Zhu, Jun-Yan and Ermon, Stefano",
+      "title": "Sdedit: Guided image synthesis and editing with stochastic differential equations",
+      "ENTRYTYPE": "article",
+      "ID": "meng2021sdedit"
+    },
+    {
+      "year": "2024",
+      "pages": "12469--12478",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Huberman-Spiegelglas, Inbar and Kulikov, Vladimir and Michaeli, Tomer",
+      "title": "An edit friendly ddpm noise space: Inversion and manipulations",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "huberman2024ddpm_inversion"
+    },
+    {
+      "year": "2023",
+      "pages": "18392--18402",
+      "booktitle": "Proceedings of the IEEE/CVF conference on computer vision and pattern recognition",
+      "author": "Brooks, Tim and Holynski, Aleksander and Efros, Alexei A",
+      "title": "Instructpix2pix: Learning to follow image editing instructions",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "brooks2023instructpix2pix"
+    },
+    {
+      "year": "2020",
+      "pages": "8188--8197",
+      "booktitle": "Proceedings of the IEEE/CVF conference on computer vision and pattern recognition",
+      "author": "Choi, Yunjey and Uh, Youngjung and Yoo, Jaejun and Ha, Jung-Woo",
+      "title": "Stargan v2: Diverse image synthesis for multiple domains",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "choi2020stargan2_afhq"
+    },
+    {
+      "publisher": "AcM New York, NY, USA",
+      "year": "2017",
+      "pages": "84--90",
+      "number": "6",
+      "volume": "60",
+      "journal": "Communications of the ACM",
+      "author": "Krizhevsky, Alex and Sutskever, Ilya and Hinton, Geoffrey E",
+      "title": "ImageNet classification with deep convolutional neural networks",
+      "ENTRYTYPE": "article",
+      "ID": "krizhevsky2017imagenet"
+    },
+    {
+      "publisher": "Springer",
+      "year": "2015",
+      "pages": "211--252",
+      "volume": "115",
+      "journal": "International journal of computer vision",
+      "author": "Russakovsky, Olga and Deng, Jia and Su, Hao and Krause, Jonathan and Satheesh, Sanjeev and Ma, Sean and Huang, Zhiheng and Karpathy, Andrej and Khosla, Aditya and Bernstein, Michael and others",
+      "title": "Imagenet large scale visual recognition challenge",
+      "ENTRYTYPE": "article",
+      "ID": "russakovsky2015imagenet"
+    },
+    {
+      "publisher": "Springer",
+      "year": "2010",
+      "pages": "303--338",
+      "volume": "88",
+      "journal": "International journal of computer vision",
+      "author": "Everingham, Mark and Van Gool, Luc and Williams, Christopher KI and Winn, John and Zisserman, Andrew",
+      "title": "The pascal visual object classes (voc) challenge",
+      "ENTRYTYPE": "article",
+      "ID": "everingham2010pascal"
+    },
+    {
+      "organization": "Springer",
+      "year": "2014",
+      "pages": "740--755",
+      "booktitle": "Computer vision--ECCV 2014: 13th European conference, zurich, Switzerland, September 6-12, 2014, proceedings, part v 13",
+      "author": "Lin, Tsung-Yi and Maire, Michael and Belongie, Serge and Hays, James and Perona, Pietro and Ramanan, Deva and Doll{\\'a}r, Piotr and Zitnick, C Lawrence",
+      "title": "Microsoft coco: Common objects in context",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "lin2014mscoco"
+    },
+    {
+      "year": "2015",
+      "booktitle": "CVPR",
+      "author": "Vinyals, Oriol and Toshev, Alexander and Bengio, Samy and Erhan, Dumitru",
+      "title": "Show and tell: A neural image caption generator",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "vinyals2015nerual_caption_generator"
+    },
+    {
+      "year": "2022",
+      "pages": "10684--10695",
+      "booktitle": "Proceedings of the IEEE/CVF conference on computer vision and pattern recognition",
+      "author": "Rombach, Robin and Blattmann, Andreas and Lorenz, Dominik and Esser, Patrick and Ommer, Bj{\\\"o}rn",
+      "title": "High-resolution image synthesis with latent diffusion models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "rombach2022ldm"
+    },
+    {
+      "year": "2020",
+      "journal": "arXiv preprint arXiv:2010.02502",
+      "author": "Song, Jiaming and Meng, Chenlin and Ermon, Stefano",
+      "title": "Denoising diffusion implicit models",
+      "ENTRYTYPE": "article",
+      "ID": "song2020ddim"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2309.17400",
+      "author": "Clark, Kevin and Vicol, Paul and Swersky, Kevin and Fleet, David J",
+      "title": "Directly fine-tuning diffusion models on differentiable rewards",
+      "ENTRYTYPE": "article",
+      "ID": "clark2023draft"
+    },
+    {
+      "primaryclass": "cs.CV",
+      "archiveprefix": "arXiv",
+      "eprint": "2310.03739",
+      "year": "2023",
+      "author": "Mihir Prabhudesai and Anirudh Goyal and Deepak Pathak and Katerina Fragkiadaki",
+      "title": "Aligning Text-to-Image Diffusion Models with Reward Backpropagation",
+      "ENTRYTYPE": "misc",
+      "ID": "prabhudesai2023aligning"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2022",
+      "pages": "12888--12900",
+      "booktitle": "International conference on machine learning",
+      "author": "Li, Junnan and Li, Dongxu and Xiong, Caiming and Hoi, Steven",
+      "title": "Blip: Bootstrapping language-image pre-training for unified vision-language understanding and generation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "li2022blip"
+    },
+    {
+      "note": "First released in 2014. Copyright 2024. London, UK. \nAvailable at \\url{https://www.prolific.com}",
+      "year": "2014",
+      "title": "Prolific (Version March 2025) [Web platform]",
+      "author": "Prolific",
+      "ENTRYTYPE": "misc",
+      "ID": "prolific"
+    },
+    {
+      "publisher": "Springer",
+      "year": "2023",
+      "pages": "357--366",
+      "number": "3",
+      "volume": "34",
+      "journal": "Constitutional Political Economy",
+      "author": "Saari, Donald G",
+      "title": "Selecting a voting method: the case for the Borda count",
+      "ENTRYTYPE": "article",
+      "ID": "saari2023selecting"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2208.01618",
+      "author": "Gal, Rinon and Alaluf, Yuval and Atzmon, Yuval and Patashnik, Or and Bermano, Amit H and Chechik, Gal and Cohen-Or, Daniel",
+      "title": "An image is worth one word: Personalizing text-to-image generation using textual inversion",
+      "ENTRYTYPE": "article",
+      "ID": "gal2022image"
+    },
+    {
+      "organization": "Springer",
+      "year": "2020",
+      "pages": "141--157",
+      "booktitle": "European Conference on Computer Vision",
+      "author": "Li, Qing and Huang, Siyuan and Hong, Yining and Zhu, Song-Chun",
+      "title": "A competence-aware curriculum for visual concepts learning via question answering",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "li2020competence"
+    },
+    {
+      "year": "2019",
+      "journal": "arXiv preprint arXiv:1904.12584",
+      "author": "Mao, Jiayuan and Gan, Chuang and Kohli, Pushmeet and Tenenbaum, Joshua B and Wu, Jiajun",
+      "title": "The neuro-symbolic concept learner: Interpreting scenes, words, and sentences from natural supervision",
+      "ENTRYTYPE": "article",
+      "ID": "mao2019neuro"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2310.05327",
+      "author": "Wiedemer, Thadd{\\\"a}us and Brady, Jack and Panfilov, Alexander and Juhos, Attila and Bethge, Matthias and Brendel, Wieland",
+      "title": "Provable compositional generalization for object-centric learning",
+      "ENTRYTYPE": "article",
+      "ID": "wiedemer2023provable_ocl"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2405.00646",
+      "author": "Jung, Whie and Yoo, Jaehoon and Ahn, Sungjin and Hong, Seunghoon",
+      "title": "Learning to compose: Improving object centric learning by injecting compositionality",
+      "ENTRYTYPE": "article",
+      "ID": "jung2024l2c"
+    },
+    {
+      "year": "2015",
+      "pages": "3156--3164",
+      "booktitle": "Proceedings of the IEEE conference on computer vision and pattern recognition",
+      "author": "Vinyals, Oriol and Toshev, Alexander and Bengio, Samy and Erhan, Dumitru",
+      "title": "Show and tell: A neural image caption generator",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "vinyals2015show"
+    },
+    {
+      "year": "2018",
+      "pages": "6077--6086",
+      "booktitle": "Proceedings of the IEEE conference on computer vision and pattern recognition",
+      "author": "Anderson, Peter and He, Xiaodong and Buehler, Chris and Teney, Damien and Johnson, Mark and Gould, Stephen and Zhang, Lei",
+      "title": "Bottom-up and top-down attention for image captioning and visual question answering",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "anderson2018bottom"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2502.13923",
+      "author": "Bai, Shuai and Chen, Keqin and Liu, Xuejing and Wang, Jialin and Ge, Wenbin and Song, Sibo and Dang, Kai and Wang, Peng and Wang, Shijie and Tang, Jun and Zhong, Humen and Zhu, Yuanzhi and Yang, Mingkun and Li, Zhaohai and Wan, Jianqiang and Wang, Pengfei and Ding, Wei and Fu, Zheren and Xu, Yiheng and Ye, Jiabo and Zhang, Xi and Xie, Tianbao and Cheng, Zesen and Zhang, Hang and Yang, Zhibo and Xu, Haiyang and Lin, Junyang",
+      "title": "Qwen2.5-VL Technical Report",
+      "ENTRYTYPE": "article",
+      "ID": "Qwen2.5-VL"
+    },
+    {
+      "journal": "arXiv:2405.20797",
+      "year": "2024",
+      "author": "Shiyin Lu and Yang Li and Qing-Guo Chen and Zhao Xu and Weihua Luo and Kaifu Zhang and Han-Jia Ye",
+      "title": "Ovis: Structural Embedding Alignment for Multimodal Large Language Model",
+      "ENTRYTYPE": "article",
+      "ID": "ovis2"
+    }
+  ]
+}

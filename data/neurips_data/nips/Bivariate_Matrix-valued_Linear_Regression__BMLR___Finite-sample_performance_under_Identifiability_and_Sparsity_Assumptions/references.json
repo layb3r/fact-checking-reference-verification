@@ -1,0 +1,686 @@
+{
+  "pdf_url": "https://arxiv.org/pdf/2412.17749v3.pdf",
+  "references": [
+    {
+      "doi": "https://doi.org/10.1016/S0377-0427(00)00393-9",
+      "note": "Numerical Analysis 2000. Vol. III: Linear Algebra",
+      "pages": "85--100",
+      "number": "1",
+      "volume": "123",
+      "year": "2000",
+      "journal": "Journal of Computational and Applied Mathematics",
+      "title": "The ubiquitous Kronecker product",
+      "author": "Charles F. Van Loan",
+      "ENTRYTYPE": "article",
+      "ID": "Loan2000"
+    },
+    {
+      "publisher": "Springer Science \\& Business Media",
+      "year": "2011",
+      "author": "Brezis, Haïm",
+      "title": "Functional Analysis, Sobolev Spaces and Partial Differential Equations",
+      "ENTRYTYPE": "book",
+      "ID": "Brezis2011"
+    },
+    {
+      "publisher": "Taylor \\& Francis",
+      "year": "2024",
+      "pages": "1--16",
+      "journal": "Journal of the American Statistical Association",
+      "author": "Zhang, Xu and Liu, Catherine C and Guo, Jianhua and Yuen, KC and Welsh, AH",
+      "title": "Modeling and Learning on High-Dimensional Matrix-Variate Sequences",
+      "ENTRYTYPE": "article",
+      "ID": "Zhang2024"
+    },
+    {
+      "url": "https://doi.org/10.1214/11-EJS637",
+      "doi": "10.1214/11-EJS637",
+      "year": "2011",
+      "keywords": "low rank matrix estimation, Matrix completion, recovery of the rank, Statistical learning",
+      "pages": "1161 -- 1183",
+      "publisher": "Institute of Mathematical Statistics and Bernoulli Society",
+      "number": "none",
+      "journal": "Electronic Journal of Statistics",
+      "volume": "5",
+      "title": "{Rank penalized estimators for high-dimensional matrices}",
+      "author": "Olga Klopp",
+      "ENTRYTYPE": "article",
+      "ID": "Klopp2011"
+    },
+    {
+      "publisher": "Taylor \\& Francis",
+      "year": "2024",
+      "pages": "551--566",
+      "number": "2",
+      "volume": "33",
+      "journal": "Journal of Computational and Graphical Statistics",
+      "author": "Kidzi{\\'n}ski, {\\L}ukasz and Hastie, Trevor",
+      "title": "Modeling longitudinal data using matrix completion",
+      "ENTRYTYPE": "article",
+      "ID": "Kidzinski2024"
+    },
+    {
+      "year": "2020",
+      "journal": "arXiv preprint arXiv:2002.01305",
+      "author": "Chen, Elynn Y and Yun, Xin and Chen, Rong and Yao, Qiwei",
+      "title": "Modeling multivariate spatial-temporal data with latent low-dimensional dynamics",
+      "ENTRYTYPE": "article",
+      "ID": "Chen2020"
+    },
+    {
+      "year": "2020",
+      "pages": "1--55",
+      "number": "53",
+      "volume": "21",
+      "journal": "Journal of machine learning research",
+      "author": "Eisenach, Carson and Bunea, Florentina and Ning, Yang and Dinicu, Claudiu",
+      "title": "High-dimensional inference for cluster-based graphical models",
+      "ENTRYTYPE": "article",
+      "ID": "Eisenach2020"
+    },
+    {
+      "publisher": "Bernoulli Society for Mathematical Statistics and Probability",
+      "year": "2024",
+      "pages": "2127--2153",
+      "number": "3",
+      "volume": "30",
+      "journal": "Bernoulli",
+      "author": "Chhor, Julien and Mukherjee, Rajarshi and Sen, Subhabrata",
+      "title": "Sparse signal detection in heteroscedastic Gaussian sequence models: sharp minimax rates",
+      "ENTRYTYPE": "article",
+      "ID": "Chhor2024"
+    },
+    {
+      "year": "2020",
+      "journal": "The Annals of Statistics",
+      "author": "Bing, Xin and Bunea, Florentina and Ning, Yang and Wegkamp, Marten",
+      "title": "Adaptive estimation in structured factor models with applications to overlapping clustering",
+      "ENTRYTYPE": "article",
+      "ID": "Bing2020c"
+    },
+    {
+      "publisher": "Springer",
+      "year": "2014",
+      "volume": "60",
+      "author": "Talagrand, Michel",
+      "title": "Upper and lower bounds for stochastic processes",
+      "ENTRYTYPE": "book",
+      "ID": "Talagrand2014"
+    },
+    {
+      "note": "Accessed: 2024-12-11",
+      "howpublished": "\\url{https://stephentu.github.io/blog/probability-theory/2017/10/16/upper-and-lower-tails-gaussian-maxima.html}",
+      "year": "2017",
+      "title": "Upper and Lower Tails for Gaussian Maxima",
+      "author": "Stephen Tu",
+      "ENTRYTYPE": "misc",
+      "ID": "Stephen2017"
+    },
+    {
+      "publisher": "Taylor \\& Francis",
+      "year": "1965",
+      "pages": "193--204",
+      "number": "309",
+      "volume": "60",
+      "journal": "Journal of the American Statistical Association",
+      "author": "Marsaglia, George",
+      "title": "Ratios of normal variables and ratios of sums of uniform variables",
+      "ENTRYTYPE": "article",
+      "ID": "Marsaglia1965"
+    },
+    {
+      "publisher": "JSTOR",
+      "year": "1930",
+      "pages": "442--446",
+      "number": "3",
+      "volume": "93",
+      "journal": "Journal of the Royal Statistical Society",
+      "author": "Geary, Robert Charles",
+      "title": "The frequency distribution of the quotient of two normal variates",
+      "ENTRYTYPE": "article",
+      "ID": "Geary1930"
+    },
+    {
+      "publisher": "John wiley \\& sons",
+      "year": "1995",
+      "volume": "289",
+      "author": "Johnson, Norman L and Kotz, Samuel and Balakrishnan, Narayanaswamy",
+      "title": "Continuous univariate distributions, volume 2",
+      "ENTRYTYPE": "book",
+      "ID": "Johnson1995"
+    },
+    {
+      "publisher": "Oxford University Press",
+      "year": "1969",
+      "pages": "635--639",
+      "number": "3",
+      "volume": "56",
+      "journal": "Biometrika",
+      "author": "Hinkley, David V",
+      "title": "On the ratio of two correlated normal random variables",
+      "ENTRYTYPE": "article",
+      "ID": "Hinkley1969"
+    },
+    {
+      "publisher": "Springer Science \\& Business Media",
+      "year": "2005",
+      "author": "L{\\\"u}tkepohl, Helmut",
+      "title": "New introduction to multiple time series analysis",
+      "ENTRYTYPE": "book",
+      "ID": "Lutkepohl2005"
+    },
+    {
+      "publisher": "Springer",
+      "year": "2013",
+      "pages": "309--323",
+      "volume": "54",
+      "journal": "Statistical Papers",
+      "author": "D{\\'\\i}az-Franc{\\'e}s, Elo{\\'\\i}sa and Rubio, Francisco J",
+      "title": "On the existence of a normal approximation to the distribution of the ratio of two independent normal random variables",
+      "ENTRYTYPE": "article",
+      "ID": "Diaz2013"
+    },
+    {
+      "pages": "1094--1121",
+      "publisher": "Institute of Mathematical Statistics",
+      "number": "2",
+      "journal": "The Annals of Statistics",
+      "volume": "38",
+      "year": "2010",
+      "author": "Li, Bing and Kim, Min Kyung and Altman, Naomi",
+      "title": "On dimension folding of matrix-or array-valued statistical objects",
+      "ENTRYTYPE": "article",
+      "ID": "Li2010"
+    },
+    {
+      "publisher": "Taylor \\& Francis",
+      "year": "2020",
+      "journal": "Journal of the American Statistical Association",
+      "author": "Kong, Dehan and An, Baiguo and Zhang, Jingwen and Zhu, Hongtu",
+      "title": "L2RM: Low-rank linear regression models for high-dimensional matrix responses",
+      "ENTRYTYPE": "article",
+      "ID": "Kong2020"
+    },
+    {
+      "publisher": "American Mathematical Soc.",
+      "year": "2012",
+      "volume": "132",
+      "author": "Tao, Terence",
+      "title": "Topics in random matrix theory",
+      "ENTRYTYPE": "book",
+      "ID": "Tao2012"
+    },
+    {
+      "year": "2010",
+      "journal": "arXiv preprint arXiv:1011.3027",
+      "author": "Vershynin, Roman",
+      "title": "Introduction to the non-asymptotic analysis of random matrices",
+      "ENTRYTYPE": "article",
+      "ID": "Vershynin2010"
+    },
+    {
+      "year": "2024",
+      "number": "1",
+      "volume": "17",
+      "journal": "Variance",
+      "author": "Boyle, Esther and Regis, Luca and Jevtic, Petar",
+      "title": "Matrix Variate Regression as a Tool for Insurers",
+      "ENTRYTYPE": "article",
+      "ID": "Boyle2024"
+    },
+    {
+      "volume": "arXiv:2310.19244",
+      "year": "2023",
+      "journal": "arXiv preprint",
+      "title": "High-dimensional statistics",
+      "author": "Philippe Rigollet and Jan-Christian H{\\\"u}tter",
+      "ENTRYTYPE": "article",
+      "ID": "Rigollet2023"
+    },
+    {
+      "year": "2018",
+      "publisher": "Chapman and Hall/CRC",
+      "title": "Matrix variate distributions",
+      "author": "Arjun K. Gupta and Daya K. Nagar",
+      "ENTRYTYPE": "book",
+      "ID": "Gupta2018"
+    },
+    {
+      "volume": "arXiv:1804.11010",
+      "year": "2018",
+      "journal": "arXiv preprint",
+      "title": "A matrix Gaussian distribution",
+      "author": "Shane Barratt",
+      "ENTRYTYPE": "article",
+      "ID": "Barratt2018"
+    },
+    {
+      "year": "2022",
+      "publisher": "Springer",
+      "pages": "217--288",
+      "booktitle": "Multivariate Statistical Analysis in the Real and Complex Domains",
+      "title": "Chapter 4: The Matrix-Variate Gaussian Distribution",
+      "author": "Arak Mathai and Serge Provost and Hans Haubold",
+      "ENTRYTYPE": "incollection",
+      "ID": "Mathai2022"
+    },
+    {
+      "publisher": "Oxford University Press",
+      "pages": "265--274",
+      "number": "1",
+      "volume": "68",
+      "year": "1981",
+      "journal": "Biometrika",
+      "title": "Some matrix-variate distribution theory: notational considerations and a Bayesian application",
+      "author": "A. Philip Dawid",
+      "ENTRYTYPE": "article",
+      "ID": "Dawid1981"
+    },
+    {
+      "publisher": "Wiley Online Library",
+      "year": "2004",
+      "journal": "Encyclopedia of Statistical Sciences",
+      "title": "Matrix-valued distributions",
+      "author": "D. J. De Waal",
+      "ENTRYTYPE": "article",
+      "ID": "DeWaal2004"
+    },
+    {
+      "publisher": "Elsevier",
+      "pages": "539--560",
+      "number": "1",
+      "volume": "222",
+      "year": "2021",
+      "journal": "Journal of Econometrics",
+      "title": "Autoregressive models for matrix-valued time series",
+      "author": "Rong Chen and Han Xiao and Dan Yang",
+      "ENTRYTYPE": "article",
+      "ID": "Chen2021"
+    },
+    {
+      "volume": "arXiv:2410.11320",
+      "year": "2024",
+      "journal": "arXiv preprint",
+      "title": "Regularized Estimation of High-Dimensional Matrix-Variate Autoregressive Models",
+      "author": "Hangjin Jiang and Baining Shen and Yuzhou Li and Zhaoxing Gao",
+      "ENTRYTYPE": "article",
+      "ID": "Jiang2024"
+    },
+    {
+      "publisher": "Wiley Online Library",
+      "pages": "246--262",
+      "number": "2",
+      "volume": "92",
+      "year": "2024",
+      "journal": "International Statistical Review",
+      "title": "Matrix-variate time series analysis: A brief review and some new developments",
+      "author": "Ruey S. Tsay",
+      "ENTRYTYPE": "article",
+      "ID": "Tsay2024"
+    },
+    {
+      "volume": "arXiv:2407.05624",
+      "year": "2024",
+      "journal": "arXiv preprint",
+      "title": "Dynamic Matrix Factor Models for High Dimensional Time Series",
+      "author": "Ruofan Yu and Rong Chen and Han Xiao and Yuefeng Han",
+      "ENTRYTYPE": "article",
+      "ID": "Yu2024Dynamic"
+    },
+    {
+      "volume": "arXiv:2407.10272",
+      "year": "2024",
+      "journal": "arXiv preprint",
+      "title": "Two-way Threshold Matrix Autoregression",
+      "author": "Cheng Yu and Dong Li and Xinyu Zhang and Howell Tong",
+      "ENTRYTYPE": "article",
+      "ID": "Yu2024TwoWay"
+    },
+    {
+      "publisher": "Wiley",
+      "pages": "387--408",
+      "number": "2",
+      "volume": "80",
+      "year": "2018",
+      "journal": "Journal of the Royal Statistical Society: Series B (Statistical Methodology)",
+      "title": "Matrix variate regressions and envelope models",
+      "author": "Shanshan Ding and R. Dennis Cook",
+      "ENTRYTYPE": "article",
+      "ID": "Ding2018"
+    },
+    {
+      "year": "2021",
+      "publisher": "Chapman and Hall/CRC",
+      "title": "Introduction to High-Dimensional Statistics",
+      "author": "Christophe Giraud",
+      "ENTRYTYPE": "book",
+      "ID": "Giraud2021"
+    },
+    {
+      "publisher": "Taylor \\& Francis",
+      "pages": "271--288",
+      "number": "4",
+      "volume": "9",
+      "year": "1981",
+      "journal": "Linear and Multilinear Algebra",
+      "title": "The vec-permutation matrix, the vec operator and Kronecker products: A review",
+      "author": "Harold V. Henderson and Shayle R. Searle",
+      "ENTRYTYPE": "article",
+      "ID": "Henderson1981"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "2001",
+      "pages": "317--366",
+      "volume": "1",
+      "booktitle": "Handbook of the geometry of Banach spaces",
+      "author": "Davidson, Kenneth R and Szarek, Stanislaw J",
+      "title": "Local operator theory, random matrices and Banach spaces",
+      "ENTRYTYPE": "incollection",
+      "ID": "Davidson2001"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "2004",
+      "author": "Mehta, Madan Lal",
+      "title": "Random matrices",
+      "ENTRYTYPE": "book",
+      "ID": "Mehta2004"
+    },
+    {
+      "publisher": "JSTOR",
+      "year": "2008",
+      "pages": "575--600",
+      "journal": "Annals of Mathematics",
+      "author": "Rudelson, Mark",
+      "title": "Invertibility of random matrices: norm of the inverse",
+      "ENTRYTYPE": "article",
+      "ID": "Rudelson2008"
+    },
+    {
+      "year": "2014",
+      "pages": "293--338",
+      "number": "2",
+      "volume": "27",
+      "journal": "Journal of the American Mathematical Society",
+      "author": "Rudelson, Mark and Vershynin, Roman",
+      "title": "Invertibility of random matrices: unitary and orthogonal perturbations",
+      "ENTRYTYPE": "article",
+      "ID": "Rudelson2014"
+    },
+    {
+      "doi": "10.1214/11-AOS876",
+      "publisher": "Institute of Mathematical Statistics",
+      "pages": "1282--1309",
+      "number": "2",
+      "volume": "39",
+      "year": "2011",
+      "journal": "The Annals of Statistics",
+      "title": "Optimal selection of reduced rank estimators of high-dimensional matrices",
+      "author": "Florentina Bunea and Yiyuan She and Marten H. Wegkamp",
+      "ENTRYTYPE": "article",
+      "ID": "Bunea2011"
+    },
+    {
+      "doi": "10.1214/11-EJS625",
+      "publisher": "Institute of Mathematical Statistics and Bernoulli Society",
+      "pages": "775--799",
+      "volume": "5",
+      "year": "2011",
+      "journal": "Electronic Journal of Statistics",
+      "title": "Low rank multivariate regression",
+      "author": "Christophe Giraud",
+      "ENTRYTYPE": "article",
+      "ID": "Giraud2011"
+    },
+    {
+      "volume": "1",
+      "year": "2008",
+      "publisher": "Springer",
+      "title": "Modern Multivariate Statistical Techniques",
+      "author": "Alan J. Izenman",
+      "ENTRYTYPE": "book",
+      "ID": "Izenman2008"
+    },
+    {
+      "publisher": "Institute of Mathematical Statistics",
+      "pages": "1302--1338",
+      "year": "2000",
+      "journal": "Annals of Statistics",
+      "title": "Adaptive estimation of a quadratic functional by model selection",
+      "author": "Béatrice Laurent and Pascal Massart",
+      "ENTRYTYPE": "article",
+      "ID": "Laurent2000"
+    },
+    {
+      "volume": "47",
+      "year": "2018",
+      "publisher": "Cambridge University Press",
+      "title": "High-Dimensional Probability: An Introduction with Applications in Data Science",
+      "author": "Roman Vershynin",
+      "ENTRYTYPE": "book",
+      "ID": "Vershynin2018"
+    },
+    {
+      "year": "1990",
+      "publisher": "Academic Press",
+      "title": "Matrix Perturbation Theory",
+      "author": "Gilbert W. Stewart and Ji-guang Sun",
+      "ENTRYTYPE": "book",
+      "ID": "Stewart1990"
+    },
+    {
+      "volume": "132",
+      "year": "2013",
+      "publisher": "Springer",
+      "title": "Perturbation Theory for Linear Operators",
+      "author": "Tosio Kato",
+      "ENTRYTYPE": "book",
+      "ID": "Kato2013"
+    },
+    {
+      "publisher": "Taylor \\& Francis",
+      "pages": "904--911",
+      "number": "10",
+      "volume": "102",
+      "year": "1995",
+      "journal": "The American Mathematical Monthly",
+      "title": "The angle between complementary subspaces",
+      "author": "Ilse C. F. Ipsen and Carl D. Meyer",
+      "ENTRYTYPE": "article",
+      "ID": "Ipsen1995"
+    },
+    {
+      "publisher": "Taylor \\& Francis",
+      "year": "2022",
+      "pages": "94--116",
+      "number": "537",
+      "volume": "117",
+      "journal": "Journal of the American Statistical Association",
+      "author": "Chen, Rong and Yang, Dan and Zhang, Cun-Hui",
+      "title": "Factor models for high-dimensional tensor time series",
+      "ENTRYTYPE": "article",
+      "ID": "Chen2022"
+    },
+    {
+      "publisher": "Institute of Mathematical Statistics",
+      "year": "2022",
+      "pages": "3307--3333",
+      "number": "6",
+      "volume": "50",
+      "journal": "The Annals of Statistics",
+      "author": "Bing, Xin and Bunea, Florentina and Strimas-Mackey, Seth and Wegkamp, Marten",
+      "title": "Likelihood estimation of sparse topic distributions in topic models and its applications to Wasserstein document distance calculations",
+      "ENTRYTYPE": "article",
+      "ID": "Bing2022a"
+    },
+    {
+      "year": "2022",
+      "pages": "1--60",
+      "number": "10",
+      "volume": "23",
+      "journal": "Journal of Machine Learning Research",
+      "author": "Bunea, Florentina and Strimas-Mackey, Seth and Wegkamp, Marten",
+      "title": "Interpolating predictors in high-dimensional factor regression",
+      "ENTRYTYPE": "article",
+      "ID": "Bunea2022"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2206.12768",
+      "author": "Bing, Xin and Bunea, Florentina and Niles-Weed, Jonathan",
+      "title": "Estimation and inference for the Wasserstein distance between mixing measures in topic models",
+      "ENTRYTYPE": "article",
+      "ID": "Bing2022b"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2406.00128",
+      "author": "Lam, Clifford and Cen, Zetai",
+      "title": "Matrix-valued Factor Model with Time-varying Main Effects",
+      "ENTRYTYPE": "article",
+      "ID": "Lam2024"
+    },
+    {
+      "year": "2020",
+      "pages": "1--45",
+      "number": "177",
+      "volume": "21",
+      "journal": "Journal of machine learning research",
+      "author": "Bing, Xin and Bunea, Florentina and Wegkamp, Marten",
+      "title": "Optimal estimation of sparse topic models",
+      "ENTRYTYPE": "article",
+      "ID": "Bing2020a"
+    },
+    {
+      "year": "2021",
+      "pages": "523--535",
+      "volume": "34",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Jin, Dian and Bing, Xin and Zhang, Yuqian",
+      "title": "Unique sparse decomposition of low rank matrices",
+      "ENTRYTYPE": "article",
+      "ID": "Jin2021"
+    },
+    {
+      "year": "2020",
+      "pages": "1765 -- 1796",
+      "number": "3",
+      "journal": "Bernoulli",
+      "volume": "26",
+      "title": "A fast algorithm with minimax optimal guarantees for topic models with an unknown number of topics",
+      "author": "Xin Bing and Florentina Bunea and Marten Wegkamp",
+      "ENTRYTYPE": "article",
+      "ID": "Bing2020b"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2206.12768",
+      "author": "Bing, Xin and Bunea, Florentina and Niles-Weed, Jonathan",
+      "title": "Estimation and inference for the Wasserstein distance between mixing measures in topic models",
+      "ENTRYTYPE": "article",
+      "ID": "Bing2022"
+    },
+    {
+      "publisher": "Taylor \\& Francis",
+      "year": "2024",
+      "pages": "434--449",
+      "number": "545",
+      "volume": "119",
+      "journal": "Journal of the American Statistical Association",
+      "author": "Ke, Zheng Tracy and Wang, Minzhe",
+      "title": "Using SVD for topic modeling",
+      "ENTRYTYPE": "article",
+      "ID": "Ke2024"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2303.04694",
+      "author": "Bettache, Nayel and Butucea, Cristina",
+      "title": "Two-sided Matrix Regression",
+      "ENTRYTYPE": "article",
+      "ID": "Bettache2023"
+    },
+    {
+      "school": "Institut Polytechnique de Paris",
+      "year": "2024",
+      "author": "Bettache, Nayel",
+      "title": "Matrix-valued Time Series in High Dimension",
+      "ENTRYTYPE": "phdthesis",
+      "ID": "Bettache2024"
+    },
+    {
+      "publisher": "Wiley Online Library",
+      "year": "2024",
+      "journal": "Journal of Time Series Analysis",
+      "author": "Samadi, S Yaser and Billard, Lynne",
+      "title": "On a matrix-valued autoregressive model",
+      "ENTRYTYPE": "article",
+      "ID": "Samadi2024"
+    },
+    {
+      "year": "2011",
+      "month": "December",
+      "note": "Unpublished Manuscript",
+      "title": "Gaussian Estimation: Sequence and Wavelet Models",
+      "author": "Iain M. Johnstone",
+      "ENTRYTYPE": "unpublished",
+      "ID": "Johnstone2011"
+    },
+    {
+      "publisher": "Springer",
+      "year": "2009",
+      "pages": "1--76",
+      "journal": "Introduction to Nonparametric Estimation",
+      "title": "Nonparametric estimators",
+      "author": "Alexandre B. Tsybakov",
+      "ENTRYTYPE": "article",
+      "ID": "Tsybakov2009"
+    },
+    {
+      "publisher": "Institute of Mathematical Statistics",
+      "pages": "887--930",
+      "number": "2",
+      "volume": "39",
+      "year": "2011",
+      "journal": "The Annals of Statistics",
+      "title": "Estimation of high-dimensional low-rank matrices",
+      "author": "Angelika Rohde and Alexandre B. Tsybakov",
+      "ENTRYTYPE": "article",
+      "ID": "Rohde2011"
+    },
+    {
+      "volume": "arXiv:2404.19220",
+      "year": "2024",
+      "journal": "arXiv preprint",
+      "title": "Regression for matrix-valued data via Kronecker products factorization",
+      "author": "Yin-Jen Chen and Minh Tang",
+      "ENTRYTYPE": "article",
+      "ID": "Chen2024"
+    },
+    {
+      "publisher": "Institute of Mathematical Statistics",
+      "pages": "1169--1193",
+      "number": "3",
+      "volume": "9",
+      "year": "2015",
+      "journal": "The Annals of Applied Statistics",
+      "title": "Multilinear tensor regression for longitudinal relational data",
+      "author": "Peter D. Hoff",
+      "ENTRYTYPE": "article",
+      "ID": "Hoff2015"
+    },
+    {
+      "publisher": "Taylor \\& Francis",
+      "pages": "1038--1055",
+      "number": "542",
+      "volume": "118",
+      "year": "2023",
+      "journal": "Journal of the American Statistical Association",
+      "title": "Statistical inference for high-dimensional matrix-variate factor models",
+      "author": "Elynn Y. Chen and Jianqing Fan",
+      "ENTRYTYPE": "article",
+      "ID": "Chen2023"
+    }
+  ]
+}

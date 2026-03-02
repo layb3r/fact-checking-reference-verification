@@ -1,0 +1,1041 @@
+{
+  "pdf_url": "https://arxiv.org/pdf/2507.20400v1.pdf",
+  "references": [
+    {
+      "month": "1",
+      "year": "2023",
+      "journal": "Foundations and Trends in Signal Processing",
+      "author": "Lisha Chen and Sharu Theresa Jose and Ivana Nikoloska and Sangwoo Park and Tianyi Chen and Osvaldo Simeone",
+      "title": "Learning with Limited Samples -- Meta-Learning and Applications to Communication Systems",
+      "ENTRYTYPE": "article",
+      "ID": "chen2023_fnt_meta"
+    },
+    {
+      "address": "Vienna, Austria",
+      "year": "2024",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Shen, Han and Yang, Zhuoran and Chen, Tianyi",
+      "title": "Principled Penalty-based Methods for Bilevel Reinforcement Learning and {RLHF}",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "shen2024principled"
+    },
+    {
+      "address": "Honolulu, HI",
+      "year": "2023",
+      "booktitle": "International Conference on Machine Learning",
+      "title": "On Penalty-Based Bilevel Gradient Descent Method",
+      "author": "Han Shen and Quan Xiao and Tianyi Chen",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "shen2023penalty"
+    },
+    {
+      "year": "2016",
+      "pages": "795--811",
+      "booktitle": "Machine Learning and Knowledge Discovery in Databases: European Conference, ECML PKDD 2016, Riva del Garda, Italy, September 19-23, 2016, Proceedings, Part I 16",
+      "author": "Karimi, Hamed and Nutini, Julie and Schmidt, Mark",
+      "title": "Linear convergence of gradient and proximal-gradient methods under the polyak-{\\l}ojasiewicz condition",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "karimi2016linear"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "2013",
+      "pages": "78--80",
+      "number": "1",
+      "volume": "41",
+      "journal": "Operations Research Letters",
+      "author": "Wachsmuth, Gerd",
+      "title": "On LICQ and the uniqueness of Lagrange multipliers",
+      "ENTRYTYPE": "article",
+      "ID": "wachsmuth2013licq"
+    },
+    {
+      "year": "2024",
+      "booktitle": "International Conference on Learning Representations",
+      "author": "Kwon, Jeongyeol and Kwon, Dohyun and Wright, Steve and Nowak, Robert",
+      "title": "On penalty methods for nonconvex bilevel optimization and first-order stochastic approximation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "kwon2023penalty"
+    },
+    {
+      "year": "2018",
+      "journal": "arXiv preprint arXiv:1802.02246",
+      "author": "Ghadimi, Saeed and Wang, Mengdi",
+      "title": "Approximation methods for bilevel programming",
+      "ENTRYTYPE": "article",
+      "ID": "ghadimi2018approximation"
+    },
+    {
+      "booktitle": "Advances in Neural Information Processing Systems",
+      "year": "2021",
+      "author": "Ji, Kaiyi and Yang, Junjie and Liang, Yingbin",
+      "title": "Provably faster algorithms for bilevel optimization and applications to meta-learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ji2020provably"
+    },
+    {
+      "address": "virtual",
+      "year": "2022",
+      "booktitle": "International Conference on Artificial Intelligence and Statistics",
+      "author": "Chen, Tianyi and Sun, Yuejiao and Xiao, Quan and Yin, Wotao",
+      "title": "A single-timescale method for stochastic bilevel optimization",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "chen2022single"
+    },
+    {
+      "address": "Virtual",
+      "year": "2021",
+      "booktitle": "Advances in Neural Information Processing Systems",
+      "author": "Chen, Tianyi and Sun, Yuejiao and Yin, Wotao",
+      "title": "Closing the gap: Tighter analysis of alternating stochastic gradient methods for bilevel problems",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "chen2021closing"
+    },
+    {
+      "address": "Virtual",
+      "year": "2021",
+      "booktitle": "Advances in Neural Information Processing Systems",
+      "author": "Khanduri, Prashant and Zeng, Siliang and Hong, Mingyi and Wai, Hoi-To and Wang, Zhaoran and Yang, Zhuoran",
+      "title": "A near-optimal algorithm for stochastic bilevel optimization via double-momentum",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "khanduri2021near"
+    },
+    {
+      "year": "2022",
+      "pages": "17415--17429",
+      "volume": "35",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Shen, Han and Chen, Tianyi",
+      "title": "A single-timescale analysis for stochastic approximation with multiple coupled sequences",
+      "ENTRYTYPE": "article",
+      "ID": "shen2022single"
+    },
+    {
+      "year": "2022",
+      "pages": "4136--4149",
+      "volume": "35",
+      "booktitle": "Advances in Neural Information Processing Systems",
+      "author": "Sow, Daouda and Ji, Kaiyi and Liang, Yingbin",
+      "title": "On the convergence theory for hessian-free bilevel algorithms",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "sow2022convergence"
+    },
+    {
+      "year": "2021",
+      "pages": "6882--6892",
+      "booktitle": "International conference on machine learning",
+      "author": "Liu, Risheng and Liu, Xuan and Yuan, Xiaoming and Zeng, Shangzhi and Zhang, Jin",
+      "title": "A value-function-based interior-point method for non-convex bi-level optimization",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "liu2021value"
+    },
+    {
+      "year": "2021",
+      "pages": "347--362",
+      "booktitle": "Asian conference on machine learning",
+      "author": "Mehra, Akshay and Hamm, Jihun",
+      "title": "Penalty method for inversion-free deep bilevel optimization",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "mehra2021penalty"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2301.00712",
+      "author": "Chen, Lesi and Xu, Jing and Zhang, Jingzhao",
+      "title": "On Bilevel Optimization without Lower-level Strong Convexity",
+      "ENTRYTYPE": "article",
+      "ID": "chen2023bilevel"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2301.01716",
+      "author": "Lu, Z. and Mei, S.",
+      "title": "First-order penalty methods for bilevel optimization",
+      "ENTRYTYPE": "article",
+      "ID": "lu2023first"
+    },
+    {
+      "publisher": "SIAM",
+      "year": "1997",
+      "pages": "481--507",
+      "number": "2",
+      "volume": "7",
+      "journal": "SIAM Journal on optimization",
+      "author": "Ye, Jane J and Zhu, Daoli and Zhu, Qiji Jim",
+      "title": "Exact penalization and necessary optimality conditions for generalized bilevel programming problems",
+      "ENTRYTYPE": "article",
+      "ID": "ye1997exact"
+    },
+    {
+      "year": "2023",
+      "pages": "18083--18113",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Kwon, Jeongyeol and Kwon, Dohyun and Wright, Stephen and Nowak, Robert D",
+      "title": "A fully first-order method for stochastic bilevel optimization",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "kwon2023fully"
+    },
+    {
+      "year": "2024",
+      "booktitle": "Advances in Neural Information Processing Systems",
+      "author": "Jiang, Liuyuan and Xiao, Quan and Tenorio, Victor M and Real-Rojas, Fernando and Marques, Antonio and Chen, Tianyi",
+      "title": "A Primal-Dual-Assisted Penalty Approach to Bilevel Optimization with Coupled Constraints",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "jiang2024primal"
+    },
+    {
+      "publisher": "INFORMS",
+      "year": "2018",
+      "pages": "919--948",
+      "number": "3",
+      "volume": "43",
+      "journal": "Mathematics of Operations Research",
+      "author": "Drusvyatskiy, Dmitriy and Lewis, Adrian S",
+      "title": "Error bounds, quadratic growth, and linear convergence of proximal methods",
+      "ENTRYTYPE": "article",
+      "ID": "drusvyatskiy2018error"
+    },
+    {
+      "publisher": "Springer",
+      "year": "2023",
+      "pages": "373--407",
+      "number": "1",
+      "volume": "201",
+      "journal": "Mathematical Programming",
+      "author": "Grimmer, Benjamin and Lu, Haihao and Worah, Pratik and Mirrokni, Vahab",
+      "title": "The landscape of the proximal point method for nonconvex--nonconcave minimax optimization",
+      "ENTRYTYPE": "article",
+      "ID": "grimmer2023landscape"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2024",
+      "pages": "947--980",
+      "booktitle": "The Thirty Seventh Annual Conference on Learning Theory",
+      "author": "Chen, Lesi and Xu, Jing and Zhang, Jingzhao",
+      "title": "On finding small hyper-gradients in bilevel optimization: Hardness results and improved analysis",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "chen2024finding"
+    },
+    {
+      "publisher": "SIAM",
+      "year": "1974",
+      "pages": "131--137",
+      "number": "1",
+      "volume": "27",
+      "journal": "SIAM Journal on Applied Mathematics",
+      "author": "Mereau, Pierre and Paquet, Jean-Guy",
+      "title": "Second order conditions for pseudo-convex functions",
+      "ENTRYTYPE": "article",
+      "ID": "mereau1974second"
+    },
+    {
+      "year": "2025",
+      "booktitle": "International Conference on Learning Representations",
+      "author": "Shen, Han and Chen, Pin-Yu and Das, Payel and Chen, Tianyi",
+      "title": "SEAL: Safety-enhanced Aligned LLM Fine-tuning via Bilevel Data Selection",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "shen2024seal"
+    },
+    {
+      "year": "2017",
+      "journal": "arXiv preprint arXiv:1704.00805",
+      "author": "Gao, Bolin and Pavel, Lacra",
+      "title": "On the properties of the softmax function with application in game theory and reinforcement learning",
+      "ENTRYTYPE": "article",
+      "ID": "gao2017properties"
+    },
+    {
+      "publisher": "Springer",
+      "year": "2003",
+      "pages": "23--36",
+      "volume": "2",
+      "journal": "Journal of Revenue and Pricing Management",
+      "author": "C{\\^o}t{\\'e}, Jean-Philippe and Marcotte, Patrice and Savard, Gilles",
+      "title": "A bilevel modeling approach to pricing and fare optimisation in the airline industry",
+      "ENTRYTYPE": "article",
+      "ID": "cote2003bilevel"
+    },
+    {
+      "publisher": "Springer",
+      "year": "1986",
+      "pages": "142--162",
+      "number": "2",
+      "volume": "34",
+      "journal": "Mathematical programming",
+      "author": "Marcotte, Patrice",
+      "title": "Network design problem with congestion effects: A case of bilevel programming",
+      "ENTRYTYPE": "article",
+      "ID": "marcotte1986network"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "2013",
+      "pages": "92--105",
+      "volume": "58",
+      "journal": "Transportation Research Part B: Methodological",
+      "author": "Alizadeh, Seyed Mehdi and Marcotte, Patrice and Savard, Gilles",
+      "title": "Two-stage stochastic bilevel programming over a transportation network",
+      "ENTRYTYPE": "article",
+      "ID": "alizadeh2013two"
+    },
+    {
+      "year": "2008",
+      "journal": "The Annals of Statistics",
+      "author": "Hofmann, Thomas and Sch{\\\"o}lkopf, Bernhard and Smola, Alexander J",
+      "title": "Kernel methods in machine learning",
+      "ENTRYTYPE": "article",
+      "ID": "hofmann2008kernel"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2401.16164",
+      "author": "Yao, Wei and Yu, Chengming and Zeng, Shangzhi and Zhang, Jin",
+      "title": "Constrained Bi-Level Optimization: Proximal Lagrangian Value function Approach and Hessian-free Algorithm",
+      "ENTRYTYPE": "article",
+      "ID": "yao2024constrained"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "2023",
+      "journal": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+      "author": "Liu, Risheng and Liu, Xuan and Zeng, Shangzhi and Zhang, Jin and Zhang, Yixuan",
+      "title": "Value-function-based sequential minimization for bi-level optimization",
+      "ENTRYTYPE": "article",
+      "ID": "liu2023value"
+    },
+    {
+      "year": "2023",
+      "booktitle": "Proceedings of the AAAI Conference on Artificial Intelligence",
+      "author": "Xu, Siyuan and Zhu, Minghui",
+      "title": "Efficient gradient approximation method for constrained bilevel optimization",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "xu2023efficient"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2024",
+      "pages": "993--1005",
+      "booktitle": "6th Annual Learning for Dynamics \\& Control Conference",
+      "author": "Liao, Feng-Yi and Ding, Lijun and Zheng, Yang",
+      "title": "Error bounds, PL condition, and quadratic growth for weakly convex functions, and linear convergences of proximal point methods",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "liao2024error"
+    },
+    {
+      "url": "http://sbubeck.com/Bubeck15.pdf",
+      "publisher": "Foundations and Trends\\textsuperscript{®} in Machine Learning",
+      "year": "2015",
+      "title": "Convex Optimization: Algorithms and Complexity",
+      "author": "Sébastien Bubeck",
+      "ENTRYTYPE": "book",
+      "ID": "bubeck2015convex"
+    },
+    {
+      "publisher": "Springer",
+      "year": "1973",
+      "pages": "217--232",
+      "volume": "13",
+      "journal": "BIT Numerical Mathematics",
+      "author": "Wedin, Per-{\\AA}ke",
+      "title": "Perturbation theory for pseudo-inverses",
+      "ENTRYTYPE": "article",
+      "ID": "wedin1973perturbation"
+    },
+    {
+      "publisher": "Springer Science \\& Business Media",
+      "year": "2013",
+      "author": "Bonnans, J Fr{\\'e}d{\\'e}ric and Shapiro, Alexander",
+      "title": "Perturbation analysis of optimization problems",
+      "ENTRYTYPE": "book",
+      "ID": "bonnans2013perturbation"
+    },
+    {
+      "publisher": "Springer",
+      "year": "2016",
+      "pages": "267--305",
+      "number": "1",
+      "volume": "155",
+      "journal": "Mathematical Programming",
+      "author": "Ghadimi, Saeed and Lan, Guanghui and Zhang, Hongchao",
+      "title": "Mini-batch stochastic approximation methods for nonconvex stochastic composite optimization",
+      "ENTRYTYPE": "article",
+      "ID": "ghadimi2016mini"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2017",
+      "pages": "1165--1173",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Franceschi, Luca and Donini, Michele and Frasconi, Paolo and Pontil, Massimiliano",
+      "title": "Forward and reverse gradient-based hyperparameter optimization",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "franceschi2017forward"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2019",
+      "pages": "1723--1732",
+      "booktitle": "The 22nd International Conference on Artificial Intelligence and Statistics",
+      "author": "Shaban, Amirreza and Cheng, Ching-An and Hatch, Nathan and Boots, Byron",
+      "title": "Truncated back-propagation for bilevel optimization",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "shaban2019truncated"
+    },
+    {
+      "note": "Accessed: 2024-05-21",
+      "url": "https://archive.ics.uci.edu",
+      "year": "2017",
+      "title": "UCI Machine Learning Repository",
+      "author": "Dheeru Dua and Casey Graff",
+      "ENTRYTYPE": "misc",
+      "ID": "Dua:2017"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2410.09758",
+      "author": "Qin, Peijia and Zhang, Ruiyi and Xie, Pengtao",
+      "title": "BiDoRA: Bi-level Optimization-Based Weight-Decomposed Low-Rank Adaptation",
+      "ENTRYTYPE": "article",
+      "ID": "qin2024bidora"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2402.09353",
+      "author": "Liu, Shih-Yang and Wang, Chien-Yi and Yin, Hongxu and Molchanov, Pavlo and Wang, Yu-Chiang Frank and Cheng, Kwang-Ting and Chen, Min-Hung",
+      "title": "DoRA: Weight-Decomposed Low-Rank Adaptation",
+      "ENTRYTYPE": "article",
+      "ID": "liu2024dora"
+    },
+    {
+      "year": "2017",
+      "pages": "6176--6185",
+      "booktitle": "Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition",
+      "author": "Xie, Di and Xiong, Jiang and Pu, Shiliang",
+      "title": "All you need is beyond a good init: Exploring better solution for training extremely deep convolutional neural networks with orthonormality and modulation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "xie2017all"
+    },
+    {
+      "year": "2005",
+      "booktitle": "Third international workshop on paraphrasing (IWP2005)",
+      "author": "Dolan, Bill and Brockett, Chris",
+      "title": "Automatically constructing a corpus of sentential paraphrases",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "dolan2005automatically"
+    },
+    {
+      "year": "2011",
+      "pages": "142--150",
+      "booktitle": "Proceedings of the 49th annual meeting of the association for computational linguistics: Human language technologies",
+      "author": "Maas, Andrew and Daly, Raymond E and Pham, Peter T and Huang, Dan and Ng, Andrew Y and Potts, Christopher",
+      "title": "Learning word vectors for sentiment analysis",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "maas2011learning"
+    },
+    {
+      "year": "1973",
+      "pages": "37--44",
+      "number": "1",
+      "volume": "21",
+      "journal": "Operations Research",
+      "author": "Bracken, Jerome and McGill, James T",
+      "title": "Mathematical programs with optimization problems in the constraints",
+      "ENTRYTYPE": "article",
+      "ID": "bracken1973mathematical"
+    },
+    {
+      "year": "2023",
+      "booktitle": "Advances in Neural Information Processing Systems",
+      "author": "Xiao, Quan and Lu, Songtao and Chen, Tianyi",
+      "title": "A Generalized Alternating Method for Bilevel Learning under the Polyak-{\\L}ojasiewicz Condition",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "xiao2023"
+    },
+    {
+      "address": "virtual",
+      "year": "2022",
+      "pages": "7426--7434",
+      "booktitle": "Association for the Advancement of Artificial Intelligence",
+      "author": "Li, Junyi and Gu, Bin and Huang, Heng",
+      "title": "A fully single loop algorithm for bilevel optimization without Hessian inverse",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "li2022fully"
+    },
+    {
+      "address": "Lille, France",
+      "year": "2015",
+      "pages": "2113--2122",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Maclaurin, Dougal and Duvenaud, David and Adams, Ryan",
+      "title": "Gradient-based hyperparameter optimization through reversible learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "maclaurin2015gradient"
+    },
+    {
+      "year": "2023",
+      "booktitle": "OPT 2023: Optimization for Machine Learning",
+      "author": "Yang, Haikuo and Luo, Luo and Li, Chris Junchi and Jordan, Michael and Fazel, Maryam",
+      "title": "Accelerating inexact hypergradient descent for bilevel optimization",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "yang2023accelerating"
+    },
+    {
+      "year": "2024",
+      "booktitle": "The Thirty-eighth Annual Conference on Neural Information Processing Systems",
+      "author": "Thoma, Vinzenz and P{\\'a}sztor, Barna and Krause, Andreas and Ramponi, Giorgia and Hu, Yifan",
+      "title": "Contextual Bilevel Reinforcement Learning for Incentive Alignment",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "thoma2024contextual"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2409.19212",
+      "author": "Gong, Xiaochuan and Hao, Jie and Liu, Mingrui",
+      "title": "An accelerated algorithm for stochastic bilevel optimization under unbounded smoothness",
+      "ENTRYTYPE": "article",
+      "ID": "gong2024accelerated"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2406.14095",
+      "author": "Shen, Qianli and Wang, Yezhen and Yang, Zhouhao and Li, Xiang and Wang, Haonan and Zhang, Yang and Scarlett, Jonathan and Zhu, Zhanxing and Kawaguchi, Kenji",
+      "title": "Memory-Efficient Gradient Unrolling for Large-Scale Bi-level Optimization",
+      "ENTRYTYPE": "article",
+      "ID": "shen2024memory"
+    },
+    {
+      "year": "2022",
+      "booktitle": "Advances in Neural Information Processing Systems",
+      "author": "Bolte, Jérôme and Pauwels, Edouard and Vaiter, , Samuel",
+      "title": "Automatic differentiation of nonsmooth iterative algorithms",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "bolte2022automatic"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2205.14224",
+      "author": "Ji, Kaiyi and Liu, Mingrui and Liang, Yingbin and Ying, Lei",
+      "title": "Will bilevel optimizers benefit from loops",
+      "ENTRYTYPE": "article",
+      "ID": "ji2022will"
+    },
+    {
+      "address": "virtual",
+      "year": "2020",
+      "pages": "3748--3758",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Grazzi, Riccardo and Franceschi, Luca and Pontil, Massimiliano and Salzo, Saverio",
+      "title": "On the iteration complexity of hypergradient computation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "grazzi2020iteration"
+    },
+    {
+      "year": "2021",
+      "pages": "8662--8675",
+      "volume": "34",
+      "booktitle": "Advances in Neural Information Processing Systems",
+      "author": "Liu, Risheng and Liu, Yaohua and Zeng, Shangzhi and Zhang, Jin",
+      "title": "Towards gradient-based bilevel optimization with non-convex followers and beyond",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "liu2021towards"
+    },
+    {
+      "year": "2023",
+      "volume": "36",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Lu, Songtao",
+      "title": "SLM: A Smoothed First-Order Lagrangian Method for Structured Constrained Nonconvex Optimization",
+      "ENTRYTYPE": "article",
+      "ID": "lu2024slm"
+    },
+    {
+      "year": "2023",
+      "pages": "16291--16325",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Khanduri, Prashant and Tsaknakis, Ioannis and Zhang, Yihua and Liu, Jia and Liu, Sijia and Zhang, Jiawei and Hong, Mingyi",
+      "title": "Linearly constrained bilevel optimization: A smoothed implicit gradient approach",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "khanduri2023linearly"
+    },
+    {
+      "year": "2023",
+      "booktitle": "International Conference on Artificial Intelligence and Statistics",
+      "author": "Xiao, Quan and Shen, Han and Yin, Wotao and Chen, Tianyi",
+      "title": "Alternating Implicit Projected SGD and Its Efficient Variants for Equality-constrained Bilevel Optimization",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "xiao2022alternating"
+    },
+    {
+      "publisher": "SIAM",
+      "year": "2008",
+      "author": "Ito, Kazufumi and Kunisch, Karl",
+      "title": "Lagrange multiplier approach to variational problems and applications",
+      "ENTRYTYPE": "book",
+      "ID": "ito2008lagrange"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2021",
+      "pages": "4882--4892",
+      "booktitle": "International conference on machine learning",
+      "author": "Ji, Kaiyi and Yang, Junjie and Liang, Yingbin",
+      "title": "Bilevel optimization: Convergence analysis and enhanced design",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ji2021bilevel"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "2023",
+      "pages": "105557",
+      "volume": "118",
+      "journal": "Engineering Applications of Artificial Intelligence",
+      "author": "Tan, Mao and Dai, Zhuocen and Su, Yongxin and Chen, Caixue and Wang, Ling and Chen, Jie",
+      "title": "Bi-level optimization of charging scheduling of a battery swap station based on deep reinforcement learning",
+      "ENTRYTYPE": "article",
+      "ID": "tan2023bi"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "2022",
+      "pages": "108007",
+      "volume": "139",
+      "journal": "International Journal of Electrical Power \\& Energy Systems",
+      "author": "Wei, Congying and Wu, Qiuwei and Xu, Jian and Wang, Yang and Sun, Yuanzhang",
+      "title": "Bi-level retail pricing scheme considering price-based demand response of multi-energy buildings",
+      "ENTRYTYPE": "article",
+      "ID": "wei2022bi"
+    },
+    {
+      "publisher": "Springer",
+      "year": "2015",
+      "pages": "163--195",
+      "volume": "3",
+      "journal": "EURO Journal on Computational Optimization",
+      "author": "Fern{\\'a}ndez-Blanco, Ricardo and Arroyo, Jos{\\'e} M and Alguacil, Natalia",
+      "title": "Bilevel programming for price-based electricity auctions: A revenue-constrained case",
+      "ENTRYTYPE": "article",
+      "ID": "fernandez2015bilevel"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "2021",
+      "pages": "108004",
+      "volume": "233",
+      "journal": "International Journal of Production Economics",
+      "author": "Santos, Maria Jo{\\~a}o and Curcio, Eduardo and Amorim, Pedro and Carvalho, Margarida and Marques, Alexandra",
+      "title": "A bilevel approach for the collaborative transportation planning problem",
+      "ENTRYTYPE": "article",
+      "ID": "santos2021bilevel"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2018",
+      "pages": "1568--1577",
+      "booktitle": "International conference on machine learning",
+      "author": "Franceschi, Luca and Frasconi, Paolo and Salzo, Saverio and Grazzi, Riccardo and Pontil, Massimiliano",
+      "title": "Bilevel programming for hyperparameter optimization and meta-learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "franceschi2018bilevel"
+    },
+    {
+      "year": "2018",
+      "journal": "arXiv preprint arXiv:1806.09055",
+      "author": "Liu, Hanxiao and Simonyan, Karen and Yang, Yiming",
+      "title": "Darts: Differentiable architecture search",
+      "ENTRYTYPE": "article",
+      "ID": "liu2018darts"
+    },
+    {
+      "year": "2022",
+      "pages": "10--32",
+      "booktitle": "International conference on machine learning",
+      "author": "Abbas, Momin and Xiao, Quan and Chen, Lisha and Chen, Pin-Yu and Chen, Tianyi",
+      "title": "Sharp-maml: Sharpness-aware model-agnostic meta learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "abbas2022sharp"
+    },
+    {
+      "publisher": "Frontiers Media SA",
+      "year": "2017",
+      "pages": "24",
+      "volume": "11",
+      "journal": "Frontiers in computational neuroscience",
+      "author": "Scellier, Benjamin and Bengio, Yoshua",
+      "title": "Equilibrium propagation: Bridging the gap between energy-based models and backpropagation",
+      "ENTRYTYPE": "article",
+      "ID": "scellier2017equilibrium"
+    },
+    {
+      "year": "2022",
+      "pages": "2309--2346",
+      "number": "12",
+      "volume": "34",
+      "journal": "Neural Computation",
+      "author": "Zucchet, Nicolas and Sacramento, Jo{\\~a}o",
+      "title": "Beyond backpropagation: bilevel optimization through implicit differentiation and equilibrium propagation",
+      "ENTRYTYPE": "article",
+      "ID": "zucchet2022beyond"
+    },
+    {
+      "address": "New Orleans, LA",
+      "year": "2023",
+      "booktitle": "Advances in Neural Information Processing Systems",
+      "author": "Xiao, Quan and Lu, Songtao and Chen, Tianyi",
+      "title": "A Generalized Alternating Method for Bilevel Optimization under the Polyak-{\\L}ojasiewicz Condition",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "xiao2023generalized"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2020",
+      "pages": "367--376",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Arora, Sanjeev and Du, Simon and Kakade, Sham and Luo, Yuping and Saunshi, Nikunj",
+      "title": "Provable representation learning for imitation learning via bi-level optimization",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "arora2020provable"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "2017",
+      "pages": "223--236",
+      "number": "2",
+      "volume": "10",
+      "journal": "IEEE Transactions on Affective Computing",
+      "author": "Kim, Dae Hoe and Baddar, Wissam J and Jang, Jinhyeok and Ro, Yong Man",
+      "title": "Multi-objective based spatio-temporal feature representation learning robust to expression intensity variations for facial expression recognition",
+      "ENTRYTYPE": "article",
+      "ID": "kim2017multi"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2306.14853",
+      "author": "Chen, Lesi and Ma, Yaohua and Zhang, Jingzhao",
+      "title": "Near-optimal nonconvex-strongly-convex bilevel optimization with fully first-order oracles",
+      "ENTRYTYPE": "article",
+      "ID": "chen2023near"
+    },
+    {
+      "note": "\\url{https://github.com/Liuyuan999/Improved-Analysis-of-Penalty-Based-Method-for-BLO-with-CC}",
+      "year": "2025",
+      "author": "Liuyuan Jiang and Quan Xiao and Tianyi Chen",
+      "title": "Appendix for Improved Analysis of Penalty-Based Methods for Bilevel Optimization with Coupled Constraints",
+      "ENTRYTYPE": "misc",
+      "ID": "appendix"
+    },
+    {
+      "note": "\\url{https://github.com/Liuyuan999/Improved-Analysis-of-Penalty-Based-Method-for-BLO-with-CC}",
+      "year": "2025",
+      "author": "Liuyuan Jiang, Quan Xiao, Tianyi Chen",
+      "title": "Improved Analysis of Penalty-Based Methods for Bilevel Optimization with Coupled Constraints",
+      "ENTRYTYPE": "misc",
+      "ID": "jiang2025improved"
+    },
+    {
+      "year": "2019",
+      "volume": "32",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Nouiehed, Maher and Sanjabi, Maziar and Huang, Tianjian and Lee, Jason D and Razaviyayn, Meisam",
+      "title": "Solving a class of non-convex min-max games using iterative first order methods",
+      "ENTRYTYPE": "article",
+      "ID": "nouiehed2019solving"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2502.08808",
+      "author": "Xiao, Quan and Yuan, Hui and Saif, AFM and Liu, Gaowen and Kompella, Ramana and Wang, Mengdi and Chen, Tianyi",
+      "title": "A First-order Generative Bilevel Optimization Framework for Diffusion Models",
+      "ENTRYTYPE": "article",
+      "ID": "xiao2025first"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2406.19976",
+      "author": "Pan, Rui and Zhang, Jipeng and Pan, Xingyuan and Pi, Renjie and Wang, Xiaoyu and Zhang, Tong",
+      "title": "ScaleBiO: Scalable Bilevel Optimization for LLM Data Reweighting",
+      "ENTRYTYPE": "article",
+      "ID": "pan2024scalebio"
+    },
+    {
+      "year": "2024",
+      "booktitle": "Advances in Neural Information Processing Systems",
+      "author": "Lu, Han and Xie, Yichen and Yang, Xiaokang and Yan, Junchi",
+      "title": "Boundary Matters: A Bi-Level Active Finetuning Method",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "lu2024boundary"
+    },
+    {
+      "year": "2020",
+      "booktitle": "Proc. of the AAAI Conference on Artificial Intelligence",
+      "author": "Zhang, Haifeng and Chen, Weizhe and Huang, Zeren and Li, Minne and Yang, Yaodong and Zhang, Weinan and Wang, Jun",
+      "title": "Bi-level actor-critic for multi-agent coordination",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zhang2020bi"
+    },
+    {
+      "year": "2024",
+      "booktitle": "International Conference on Learning Representations",
+      "author": "Clark, Kevin and Vicol, Paul and Swersky, Kevin and Fleet, David J",
+      "title": "Directly fine-tuning diffusion models on differentiable rewards",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "clark2023directly"
+    },
+    {
+      "year": "2022",
+      "booktitle": "Advances in Neural Information Processing Systems",
+      "author": "Zhang, Yihua and Yao, Yuguang and Ram, Parikshit and Zhao, Pu and Chen, Tianlong and Hong, Mingyi and Wang, Yanzhi and Liu, Sijia",
+      "title": "Advancing model pruning via bi-level optimization",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zhang2022advancing"
+    },
+    {
+      "year": "2023",
+      "booktitle": "Proc. of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Yang, Changdi and Zhao, Pu and Li, Yanyu and Niu, Wei and Guan, Jiexiong and Tang, Hao and Qin, Minghai and Ren, Bin and Lin, Xue and Wang, Yanzhi",
+      "title": "Pruning parameterization with bi-level optimization for efficient semantic segmentation on the edge",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "yang2023pruning"
+    },
+    {
+      "address": "virtual",
+      "year": "2020",
+      "booktitle": "Advances in Neural Information Processing Systems",
+      "author": "Borsos, Zal{\\'a}n and Mutny, Mojmir and Krause, Andreas",
+      "title": "Coresets via bilevel optimization for continual learning and streaming",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "borsos2020coresets"
+    },
+    {
+      "address": "New Orleans, LA",
+      "year": "2023",
+      "booktitle": "Advances in Neural Information Processing Systems",
+      "author": "Hao, Jie and Ji, Kaiyi and Liu, Mingrui",
+      "title": "Bilevel coreset selection in continual learning: A new formulation and algorithm",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "hao2023bilevel"
+    },
+    {
+      "year": "2025",
+      "booktitle": "International Conference on Artificial Intelligence and Statistics",
+      "author": "Marion, Pierre and Korba, Anna and Bartlett, Peter and Blondel, Mathieu and De Bortoli, Valentin and Doucet, Arnaud and Llinares-L{\\'o}pez, Felipe and Paquette, Courtney and Berthet, Quentin",
+      "title": "Implicit Diffusion: Efficient optimization through stochastic sampling",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "marionimplicit"
+    },
+    {
+      "address": "New Orleans, LA",
+      "year": "2022",
+      "booktitle": "Advances in Neural Information Processing Systems",
+      "author": "Huang, Feihu and Li, Junyi and Gao, Shangqian and Huang, Heng",
+      "title": "Enhanced bilevel optimization via bregman distance",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "huang2021enhanced"
+    },
+    {
+      "year": "2022",
+      "booktitle": "Advances in Neural Information Processing Systems",
+      "author": "Dagr{\\'e}ou, Mathieu and Ablin, Pierre and Vaiter, Samuel and Moreau, Thomas",
+      "title": "A framework for bilevel optimization that enables stochastic and global variance reduction algorithms",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "dagreou2022framework"
+    },
+    {
+      "year": "2020",
+      "journal": "arXiv preprint arXiv:2008.00401",
+      "author": "Tang, Yuqing and Tran, Chau and Li, Xian and Chen, Peng-Jen and Goyal, Naman and Chaudhary, Vishrav and Gu, Jiatao and Fan, Angela",
+      "title": "Multilingual translation with extensible multilingual pretraining and finetuning",
+      "ENTRYTYPE": "article",
+      "ID": "tang2020multilingual"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2310.03693",
+      "author": "Qi, Xiangyu and Zeng, Yi and Xie, Tinghao and Chen, Pin-Yu and Jia, Ruoxi and Mittal, Prateek and Henderson, Peter",
+      "title": "Fine-tuning aligned language models compromises safety, even when users do not intend to!",
+      "ENTRYTYPE": "article",
+      "ID": "qi2023fine"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2410.15483",
+      "author": "Fernando, Heshan and Shen, Han and Ram, Parikshit and Zhou, Yi and Samulowitz, Horst and Baracaldo, Nathalie and Chen, Tianyi",
+      "title": "Mitigating forgetting in llm supervised fine-tuning and preference learning",
+      "ENTRYTYPE": "article",
+      "ID": "fernando2024mitigating"
+    },
+    {
+      "year": "2019",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Oymak, Samet and Soltanolkotabi, Mahdi",
+      "title": "Overparameterized nonlinear learning: Gradient descent takes the shortest path?",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "oymak2019overparameterized"
+    },
+    {
+      "year": "2020",
+      "booktitle": "Advances in Neural Information Processing Systems",
+      "author": "Zhang, Jiawei and Xiao, Peijun and Sun, Ruoyu and Luo, Zhiquan",
+      "title": "A single-loop smoothed gradient descent-ascent algorithm for nonconvex-concave min-max problems",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zhang2020single"
+    },
+    {
+      "year": "2021",
+      "pages": "26264--26275",
+      "volume": "34",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Xu, Liyuan and Kanagawa, Heishiro and Gretton, Arthur",
+      "title": "Deep proxy causal learning and its application to confounded bandit policy evaluation",
+      "ENTRYTYPE": "article",
+      "ID": "xu2021deep"
+    },
+    {
+      "publisher": "Oxford University Press",
+      "year": "2019",
+      "pages": "22--22e",
+      "number": "1",
+      "volume": "48",
+      "journal": "International journal of epidemiology",
+      "author": "Rothstein, Donna S and Carr, Deborah and Cooksey, Elizabeth",
+      "title": "Cohort profile: The national longitudinal survey of youth 1979 (NLSY79)",
+      "ENTRYTYPE": "article",
+      "ID": "rothstein2019cohort"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2022",
+      "pages": "20156--20175",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Shui, Changjian and Chen, Qi and Li, Jiaqi and Wang, Boyu and Gagn{\\'e}, Christian",
+      "title": "Fair representation learning through implicit path alignment",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "shui2022fair"
+    },
+    {
+      "year": "2022",
+      "pages": "3",
+      "number": "2",
+      "volume": "1",
+      "journal": "ICLR",
+      "author": "Hu, Edward J and Shen, Yelong and Wallis, Phillip and Allen-Zhu, Zeyuan and Li, Yuanzhi and Wang, Shean and Wang, Lu and Chen, Weizhu and others",
+      "title": "Lora: Low-rank adaptation of large language models.",
+      "ENTRYTYPE": "article",
+      "ID": "hu2022lora"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2403.04642",
+      "author": "Havrilla, Alex and Du, Yuqing and Raparthy, Sharath Chandra and Nalmpantis, Christoforos and Dwivedi-Yu, Jane and Zhuravinskyi, Maksym and Hambro, Eric and Sukhbaatar, Sainbayar and Raileanu, Roberta",
+      "title": "Teaching large language models to reason with reinforcement learning",
+      "ENTRYTYPE": "article",
+      "ID": "havrilla2024teaching"
+    },
+    {
+      "howpublished": "\\url{https://https://huggingface.co/datasets/Open-Orca/OpenOrca}",
+      "journal": "HuggingFace repository",
+      "publisher": "HuggingFace",
+      "year": "2023",
+      "author": "Wing Lian and Bleys Goodson and Eugene Pentland and Austin Cook and Chanvichet Vong and \"Teknium\"",
+      "title": "OpenOrca: An Open Dataset of GPT Augmented FLAN Reasoning Traces",
+      "ENTRYTYPE": "misc",
+      "ID": "OpenOrca"
+    },
+    {
+      "year": "2022",
+      "pages": "27730--27744",
+      "volume": "35",
+      "journal": "Advances in neural information processing systems",
+      "author": "Ouyang, Long and Wu, Jeffrey and Jiang, Xu and Almeida, Diogo and Wainwright, Carroll and Mishkin, Pamela and Zhang, Chong and Agarwal, Sandhini and Slama, Katarina and Ray, Alex and others",
+      "title": "Training language models to follow instructions with human feedback",
+      "ENTRYTYPE": "article",
+      "ID": "ouyang2022training"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2404.14219",
+      "author": "Abdin, Marah and Aneja, Jyoti and Awadalla, Hany and Awadallah, Ahmed and Awan, Ammar Ahmad and Bach, Nguyen and Bahree, Amit and Bakhtiari, Arash and Bao, Jianmin and Behl, Harkirat and others",
+      "title": "Phi-3 technical report: A highly capable language model locally on your phone",
+      "ENTRYTYPE": "article",
+      "ID": "abdin2024phi"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2407.21783",
+      "author": "Grattafiori, Aaron and Dubey, Abhimanyu and Jauhri, Abhinav and Pandey, Abhinav and Kadian, Abhishek and Al-Dahle, Ahmad and Letman, Aiesha and Mathur, Akhil and Schelten, Alan and Vaughan, Alex and others",
+      "title": "The llama 3 herd of models",
+      "ENTRYTYPE": "article",
+      "ID": "grattafiori2024llama"
+    },
+    {
+      "year": "2023",
+      "booktitle": "International Conference on Learning Representations",
+      "author": "Ren, Yi and Guo, Shangmin and Bae, Wonho and Sutherland, Danica J",
+      "title": "How to prepare your task head for finetuning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ren2023prepare"
+    },
+    {
+      "year": "2023",
+      "pages": "53728--53741",
+      "volume": "36",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Rafailov, Rafael and Sharma, Archit and Mitchell, Eric and Manning, Christopher D and Ermon, Stefano and Finn, Chelsea",
+      "title": "Direct preference optimization: Your language model is secretly a reward model",
+      "ENTRYTYPE": "article",
+      "ID": "rafailov2023direct"
+    },
+    {
+      "year": "2021",
+      "booktitle": "Proc. of the Conference on Empirical Methods in Natural Language Processing",
+      "author": "Aghajanyan, Armen and Gupta, Anchit and Shrivastava, Akshat and Chen, Xilun and Zettlemoyer, Luke and Gupta, Sonal",
+      "title": "Muppet: Massive Multi-task Representations with Pre-Finetuning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "aghajanyan2021muppet"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2409.06666",
+      "author": "Fang, Qingkai and Guo, Shoutao and Zhou, Yan and Ma, Zhengrui and Zhang, Shaolei and Feng, Yang",
+      "title": "Llama-omni: Seamless speech interaction with large language models",
+      "ENTRYTYPE": "article",
+      "ID": "fang2024llama"
+    },
+    {
+      "year": "2023",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Biderman, Stella and Schoelkopf, Hailey and Anthony, Quentin Gregory and Bradley, Herbie and O’Brien, Kyle and Hallahan, Eric and Khan, Mohammad Aflah and Purohit, Shivanshu and Prashanth, USVSN Sai and Raff, Edward and others",
+      "title": "Pythia: A suite for analyzing large language models across training and scaling",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "biderman2023pythia"
+    },
+    {
+      "publisher": "Springer",
+      "year": "2020",
+      "pages": "17--33",
+      "volume": "185",
+      "journal": "Journal of Optimization Theory and Applications",
+      "author": "Berger, Guillaume O and Absil, P-A and Jungers, Rapha{\\\"e}l M and Nesterov, Yurii",
+      "title": "On the quality of first-order approximation of functions with H{\\\"o}lder continuous gradient",
+      "ENTRYTYPE": "article",
+      "ID": "berger2020quality"
+    },
+    {
+      "publisher": "Springer Science \\& Business Media",
+      "year": "2013",
+      "volume": "87",
+      "author": "Nesterov, Yurii",
+      "title": "Introductory lectures on convex optimization: A basic course",
+      "ENTRYTYPE": "book",
+      "ID": "nesterov2013introductory"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2505.02101",
+      "author": "Dong, Youran and Yang, Junfeng and Yao, Wei and Zhang, Jin",
+      "title": "Efficient Curvature-Aware Hypergradient Approximation for Bilevel Optimization",
+      "ENTRYTYPE": "article",
+      "ID": "dong2025efficient"
+    }
+  ]
+}

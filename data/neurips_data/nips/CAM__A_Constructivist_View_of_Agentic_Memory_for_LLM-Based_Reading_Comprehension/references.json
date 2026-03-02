@@ -1,0 +1,2888 @@
+{
+  "pdf_url": "https://arxiv.org/pdf/2510.05520v1.pdf",
+  "references": [
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2305.14322",
+      "author": "Modarressi, Ali and Imani, Ayyoob and Fayyaz, Mohsen and Sch{\\\"u}tze, Hinrich",
+      "title": "RET-LLM: Towards a General Read-Write Memory for Large Language Models",
+      "ENTRYTYPE": "article",
+      "ID": "ret_llm"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2306.03901",
+      "author": "Hu, Chenxu and Fu, Jie and Du, Chenzhuang and Luo, Simian and Zhao, Junbo and Zhao, Hang",
+      "title": "ChatDB: Augmenting LLMs with Databases as Their Symbolic Memory",
+      "ENTRYTYPE": "article",
+      "ID": "chatdb"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2311.08719",
+      "author": "Liu, Lei and Yang, Xiaoyan and Shen, Yue and Hu, Binbin and Zhang, Zhiqiang and Gu, Jinjie and Zhang, Guannan",
+      "title": "Think-in-Memory: Recalling and Post-thinking Enable LLMs with Long-Term Memory",
+      "ENTRYTYPE": "article",
+      "ID": "tim"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2304.13343",
+      "author": "Liang, Xinnian and Wang, Bing and Huang, Hui and Wu, Shuangzhi and Wu, Peihao and Lu, Lu and Ma, Zejun and Li, Zhoujun",
+      "title": "Unleashing Infinite-Length Input Capacity for Large-scale Language Models with Self-Controlled Memory System",
+      "ENTRYTYPE": "article",
+      "ID": "scm"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2305.16291",
+      "author": "Wang, Guanzhi and Xie, Yuqi and Jiang, Yunfan and Mandlekar, Ajay and Xiao, Chaowei and Zhu, Yuke and Fan, Linxi and Anandkumar, Anima",
+      "title": "Voyager: An open-ended embodied agent with large language models",
+      "ENTRYTYPE": "article",
+      "ID": "voyager"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2310.08560",
+      "author": "Packer, Charles and Fang, Vivian and Patil, Shishir G and Lin, Kevin and Wooders, Sarah and Gonzalez, Joseph E",
+      "title": "Memgpt: Towards llms as operating systems",
+      "ENTRYTYPE": "article",
+      "ID": "memgpt"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2308.08239",
+      "author": "Lu, Junru and An, Siyu and Lin, Mingbao and Pergola, Gabriele and He, Yulan and Yin, Di and Sun, Xing and Wu, Yunsheng",
+      "title": "MemoChat: Tuning LLMs to Use Memos for Consistent Long-Range Open-Domain Conversation",
+      "ENTRYTYPE": "article",
+      "ID": "memochat"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2305.04533",
+      "author": "Lee, Gibbeum and Hartmann, Volker and Park, Jongho and Papailiopoulos, Dimitris and Lee, Kangwook",
+      "title": "Prompted LLMs as Chatbot Modules for Long Open-domain Conversation",
+      "ENTRYTYPE": "article",
+      "ID": "mpc"
+    },
+    {
+      "year": "2023",
+      "pages": "1--22",
+      "booktitle": "Proceedings of the 36th Annual ACM Symposium on User Interface Software and Technology",
+      "author": "Park, Joon Sung and O'Brien, Joseph and Cai, Carrie Jun and Morris, Meredith Ringel and Liang, Percy and Bernstein, Michael S",
+      "title": "Generative agents: Interactive simulacra of human behavior",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "generative_agents"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2308.14296",
+      "author": "Wang, Yancheng and Jiang, Ziyan and Chen, Zheng and Yang, Fan and Zhou, Yingxue and Cho, Eunah and Fan, Xing and Huang, Xiaojiang and Lu, Yanbin and Yang, Yingzhen",
+      "title": "Recmind: Large language model powered agent for recommendation",
+      "ENTRYTYPE": "article",
+      "ID": "recmind"
+    },
+    {
+      "year": "2023",
+      "pages": "1--3",
+      "booktitle": "Adjunct Proceedings of the 36th Annual ACM Symposium on User Interface Software and Technology",
+      "author": "Huang, Ziheng and Gutierrez, Sebastian and Kamana, Hemanth and MacNeil, Stephen",
+      "title": "Memory sandbox: Transparent and interactive memory management for conversational agents",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "memory_sandbox"
+    },
+    {
+      "year": "2023",
+      "booktitle": "Thirty-seventh Conference on Neural Information Processing Systems",
+      "author": "Shinn, Noah and Cassano, Federico and Gopinath, Ashwin and Narasimhan, Karthik R and Yao, Shunyu",
+      "title": "Reflexion: Language agents with verbal reinforcement learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "reflexion"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2308.02151",
+      "author": "Yao, Weiran and Heinecke, Shelby and Niebles, Juan Carlos and Liu, Zhiwei and Feng, Yihao and Xue, Le and Murthy, Rithesh and Chen, Zeyuan and Zhang, Jianguo and Arpit, Devansh and others",
+      "title": "Retroformer: Retrospective large language agents with policy gradient optimization",
+      "ENTRYTYPE": "article",
+      "ID": "retroformer"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2308.10144",
+      "author": "Zhao, Andrew and Huang, Daniel and Xu, Quentin and Lin, Matthieu and Liu, Yong-Jin and Huang, Gao",
+      "title": "Expel: Llm agents are experiential learners",
+      "ENTRYTYPE": "article",
+      "ID": "expel"
+    },
+    {
+      "year": "2023",
+      "booktitle": "NeurIPS 2023 Foundation Models for Decision Making Workshop",
+      "author": "Zheng, Longtao and Wang, Rundong and Wang, Xinrun and An, Bo",
+      "title": "Synapse: Trajectory-as-Exemplar Prompting with Memory for Computer Control",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "synapse"
+    },
+    {
+      "year": "2023",
+      "pages": "6354--6374",
+      "booktitle": "Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing",
+      "author": "Li, Xiaonan and Qiu, Xipeng",
+      "title": "MoT: Memory-of-Thought Enables ChatGPT to Self-Improve",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "mot"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2305.17144",
+      "author": "Zhu, Xizhou and Chen, Yuntao and Tian, Hao and Tao, Chenxin and Su, Weijie and Yang, Chenyu and Huang, Gao and Li, Bin and Lu, Lewei and Wang, Xiaogang and others",
+      "title": "Ghost in the Minecraft: Generally Capable Agents for Open-World Enviroments via Large Language Models with Text-based Knowledge and Memory",
+      "ENTRYTYPE": "article",
+      "ID": "gitm"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2210.03629",
+      "author": "Yao, Shunyu and Zhao, Jeffrey and Yu, Dian and Du, Nan and Shafran, Izhak and Narasimhan, Karthik and Cao, Yuan",
+      "title": "React: Synergizing reasoning and acting in language models",
+      "ENTRYTYPE": "article",
+      "ID": "react"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2401.02777",
+      "author": "Liu, Na and Chen, Liangyu and Tian, Xiaoyu and Zou, Wei and Chen, Kaijiang and Cui, Ming",
+      "title": "From LLM to Conversational Agent: A Memory Enhanced Architecture with Fine-Tuning of Large Language Models",
+      "ENTRYTYPE": "article",
+      "ID": "raise"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2310.05029",
+      "author": "Chen, Howard and Pasunuru, Ramakanth and Weston, Jason and Celikyilmaz, Asli",
+      "title": "Walking down the memory maze: Beyond context limit through interactive reading",
+      "ENTRYTYPE": "article",
+      "ID": "memwalker"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2310.10158",
+      "author": "Shao, Yunfan and Li, Linyang and Dai, Junqi and Qiu, Xipeng",
+      "title": "Character-llm: A trainable agent for role-playing",
+      "ENTRYTYPE": "article",
+      "ID": "character_llm"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2304.06975",
+      "author": "Wang, Haochun and Liu, Chi and Xi, Nuwa and Qiang, Zewen and Zhao, Sendong and Qin, Bing and Liu, Ting",
+      "title": "Huatuo: Tuning llama model with chinese medical knowledge",
+      "ENTRYTYPE": "article",
+      "ID": "huatuo"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2304.01097",
+      "author": "Xiong, Honglin and Wang, Sheng and Zhu, Yitao and Zhao, Zihao and Liu, Yuxiao and Wang, Qian and Shen, Dinggang",
+      "title": "Doctorglm: Fine-tuning your chinese doctor is not a herculean task",
+      "ENTRYTYPE": "article",
+      "ID": "doctorglm"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2306.08666",
+      "author": "Liu, Zhengliang and Zhong, Aoxiao and Li, Yiwei and Yang, Longtao and Ju, Chao and Wu, Zihao and Ma, Chong and Shu, Peng and Chen, Cheng and Kim, Sekeun and others",
+      "title": "Radiology-GPT: A Large Language Model for Radiology",
+      "ENTRYTYPE": "article",
+      "ID": "radiology_gpt"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2309.13064",
+      "author": "Yang, Yi and Tang, Yixuan and Tam, Kar Yan",
+      "title": "Investlm: A large language model for investment using financial domain instruction tuning",
+      "ENTRYTYPE": "article",
+      "ID": "investlm"
+    },
+    {
+      "year": "2021",
+      "journal": "arXiv preprint arXiv:2104.08164",
+      "author": "De Cao, Nicola and Aziz, Wilker and Titov, Ivan",
+      "title": "Editing factual knowledge in language models",
+      "ENTRYTYPE": "article",
+      "ID": "knowledgeeditor"
+    },
+    {
+      "year": "2021",
+      "journal": "arXiv preprint arXiv:2110.11309",
+      "author": "Mitchell, Eric and Lin, Charles and Bosselut, Antoine and Finn, Chelsea and Manning, Christopher D",
+      "title": "Fast model editing at scale",
+      "ENTRYTYPE": "article",
+      "ID": "mend"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2403.14472",
+      "author": "Wang, Mengru and Zhang, Ningyu and Xu, Ziwen and Xi, Zekun and Deng, Shumin and Yao, Yunzhi and Zhang, Qishen and Yang, Linyi and Wang, Jindong and Chen, Huajun",
+      "title": "Detoxifying Large Language Models via Knowledge Editing",
+      "ENTRYTYPE": "article",
+      "ID": "dinm"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2401.17623",
+      "author": "Ma, Jun-Yu and Gu, Jia-Chen and Zhang, Ningyu and Ling, Zhen-Hua",
+      "title": "Neighboring Perturbations of Knowledge Editing on Large Language Models",
+      "ENTRYTYPE": "article",
+      "ID": "app_paper"
+    },
+    {
+      "year": "2023",
+      "author": "Mao, Shengyu and Zhang, Ningyu and Wang, Xiaohan and Wang, Mengru and Yao, Yunzhi and Jiang, Yong and Xie, Pengjun and Huang, Fei and Chen, Huajun",
+      "title": "Editing Personality for Large Language Models",
+      "ENTRYTYPE": "article",
+      "ID": "personalityedit"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2403.04317",
+      "author": "Tack, Jihoon and Kim, Jaehyung and Mitchell, Eric and Shin, Jinwoo and Teh, Yee Whye and Schwarz, Jonathan Richard",
+      "title": "Online Adaptation of Language Models with a Memory of Amortized Contexts",
+      "ENTRYTYPE": "article",
+      "ID": "mac"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2302.04761",
+      "author": "Schick, Timo and Dwivedi-Yu, Jane and Dess{\\`\\i}, Roberto and Raileanu, Roberta and Lomeli, Maria and Zettlemoyer, Luke and Cancedda, Nicola and Scialom, Thomas",
+      "title": "Toolformer: Language models can teach themselves to use tools",
+      "ENTRYTYPE": "article",
+      "ID": "toolformer"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2307.16789",
+      "author": "Qin, Yujia and Liang, Shihao and Ye, Yining and Zhu, Kunlun and Yan, Lan and Lu, Yaxi and Lin, Yankai and Cong, Xin and Tang, Xiangru and Qian, Bill and others",
+      "title": "Toolllm: Facilitating large language models to master 16000+ real-world apis",
+      "ENTRYTYPE": "article",
+      "ID": "toolllm"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2308.03427",
+      "author": "Ruan, Jingqing and Chen, Yihong and Zhang, Bin and Xu, Zhiwei and Bao, Tianpeng and Du, Guoqing and Shi, Shiwei and Mao, Hangyu and Zeng, Xingyu and Zhao, Rui",
+      "title": "Tptu: Task planning and tool usage of large language model-based ai agents",
+      "ENTRYTYPE": "article",
+      "ID": "tptu"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2311.11315",
+      "author": "Kong, Yilun and Ruan, Jingqing and Chen, Yihong and Zhang, Bin and Bao, Tianpeng and Shi, Shiwei and Du, Guoqing and Hu, Xiaoru and Mao, Hangyu and Li, Ziyue and others",
+      "title": "TPTU-v2: Boosting Task Planning and Tool Usage of Large Language Model-based Agents in Real-world Systems",
+      "ENTRYTYPE": "article",
+      "ID": "tptu_v2"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2309.17452",
+      "author": "Gou, Zhibin and Shao, Zhihong and Gong, Yeyun and Yang, Yujiu and Huang, Minlie and Duan, Nan and Chen, Weizhu and others",
+      "title": "Tora: A tool-integrated reasoning agent for mathematical problem solving",
+      "ENTRYTYPE": "article",
+      "ID": "tora"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2310.06839",
+      "author": "Jiang, Huiqiang and Wu, Qianhui and Luo, Xufang and Li, Dongsheng and Lin, Chin-Yew and Yang, Yuqing and Qiu, Lili",
+      "title": "Longllmlingua: Accelerating and enhancing llms in long context scenarios via prompt compression",
+      "ENTRYTYPE": "article",
+      "ID": "longllmlingua"
+    },
+    {
+      "year": "2022",
+      "pages": "24824--24837",
+      "volume": "35",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Wei, Jason and Wang, Xuezhi and Schuurmans, Dale and Bosma, Maarten and Xia, Fei and Chi, Ed and Le, Quoc V and Zhou, Denny and others",
+      "title": "Chain-of-thought prompting elicits reasoning in large language models",
+      "ENTRYTYPE": "article",
+      "ID": "cot"
+    },
+    {
+      "year": "2022",
+      "pages": "22199--22213",
+      "volume": "35",
+      "journal": "Advances in neural information processing systems",
+      "author": "Kojima, Takeshi and Gu, Shixiang Shane and Reid, Machel and Matsuo, Yutaka and Iwasawa, Yusuke",
+      "title": "Large language models are zero-shot reasoners",
+      "ENTRYTYPE": "article",
+      "ID": "zero_shot_cot"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2305.18323",
+      "author": "Xu, Binfeng and Peng, Zhiyuan and Lei, Bowen and Mukherjee, Subhabrata and Liu, Yuchen and Xu, Dongkuan",
+      "title": "ReWOO: Decoupling Reasoning from Observations for Efficient Augmented Language Models",
+      "ENTRYTYPE": "article",
+      "ID": "rewoo"
+    },
+    {
+      "year": "2024",
+      "volume": "36",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Shen, Yongliang and Song, Kaitao and Tan, Xu and Li, Dongsheng and Lu, Weiming and Zhuang, Yueting",
+      "title": "Hugginggpt: Solving ai tasks with chatgpt and its friends in hugging face",
+      "ENTRYTYPE": "article",
+      "ID": "hugginggpt"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2302.01560",
+      "author": "Wang, Zihao and Cai, Shaofei and Chen, Guanzhou and Liu, Anji and Ma, Xiaojian and Liang, Yitao",
+      "title": "Describe, explain, plan and select: Interactive planning with large language models enables open-world multi-task agents",
+      "ENTRYTYPE": "article",
+      "ID": "deps"
+    },
+    {
+      "year": "2021",
+      "journal": "arXiv preprint arXiv:2112.09332",
+      "author": "Nakano, Reiichiro and Hilton, Jacob and Balaji, Suchir and Wu, Jeff and Ouyang, Long and Kim, Christina and Hesse, Christopher and Jain, Shantanu and Kosaraju, Vineet and Saunders, William and others",
+      "title": "Webgpt: Browser-assisted question-answering with human feedback",
+      "ENTRYTYPE": "article",
+      "ID": "webgpt"
+    },
+    {
+      "primaryclass": "cs.CL",
+      "archiveprefix": "arXiv",
+      "eprint": "2402.12914",
+      "year": "2024",
+      "author": "Xueyang Feng and Zhi-Yuan Chen and Yujia Qin and Yankai Lin and Xu Chen and Zhiyuan Liu and Ji-Rong Wen",
+      "title": "Large Language Model-based Human-Agent Collaboration for Complex Task Solving",
+      "ENTRYTYPE": "misc",
+      "ID": "feng2024large"
+    },
+    {
+      "primaryclass": "cs.IR",
+      "archiveprefix": "arXiv",
+      "eprint": "2306.02552",
+      "year": "2023",
+      "author": "Lei Wang and Jingsen Zhang and Hao Yang and Zhiyuan Chen and Jiakai Tang and Zeyu Zhang and Xu Chen and Yankai Lin and Ruihua Song and Wayne Xin Zhao and Jun Xu and Zhicheng Dou and Jun Wang and Ji-Rong Wen",
+      "title": "When Large Language Model based Agent Meets User Behavior Analysis: A Novel User Simulation Paradigm",
+      "ENTRYTYPE": "misc",
+      "ID": "recagent"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2310.05418",
+      "author": "Wang, Zhilin and Chiu, Yu Ying and Chiu, Yu Cheung",
+      "title": "Humanoid agents: Platform for simulating human-like generative agents",
+      "ENTRYTYPE": "article",
+      "ID": "humanoid_agents"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2303.14070",
+      "author": "Yunxiang, Li and Zihan, Li and Kai, Zhang and Ruilong, Dan and You, Zhang",
+      "title": "Chatdoctor: A medical chat model fine-tuned on llama model using medical domain knowledge",
+      "ENTRYTYPE": "article",
+      "ID": "chatdoctor"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2312.14878",
+      "author": "Christianos, Filippos and Papoudakis, Georgios and Zimmer, Matthieu and Coste, Thomas and Wu, Zhihao and Chen, Jingxuan and Khandelwal, Khyati and Doran, James and Feng, Xidong and Liu, Jiacheng and others",
+      "title": "Pangu-agent: A fine-tunable generalist agent with structured reasoning",
+      "ENTRYTYPE": "article",
+      "ID": "pangu_agent"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2307.02738",
+      "author": "Kynoch, Brandon and Latapie, Hugo",
+      "title": "Recallm: An architecture for temporal context understanding and question answering",
+      "ENTRYTYPE": "article",
+      "ID": "recallm"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2308.10848",
+      "author": "Chen, Weize and Su, Yusheng and Zuo, Jingwei and Yang, Cheng and Yuan, Chenfei and Qian, Chen and Chan, Chi-Min and Qin, Yujia and Lu, Yaxi and Xie, Ruobing and others",
+      "title": "Agentverse: Facilitating multi-agent collaboration and exploring emergent behaviors in agents",
+      "ENTRYTYPE": "article",
+      "ID": "agentverse"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2310.06500",
+      "author": "Li, Yuan and Zhang, Yixuan and Sun, Lichao",
+      "title": "Metaagents: Simulating interactions of human behaviors for llm-based task-oriented coordination via collaborative generative agents",
+      "ENTRYTYPE": "article",
+      "ID": "metaagents"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2307.14984",
+      "author": "Gao, Chen and Lan, Xiaochong and Lu, Zhihong and Mao, Jinzhu and Piao, Jinghua and Wang, Huandong and Jin, Depeng and Li, Yong",
+      "title": "S$^3$: Social-network Simulation System with Large Language Model-Empowered Agents",
+      "ENTRYTYPE": "article",
+      "ID": "s3"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2311.17227",
+      "author": "Hua, Wenyue and Fan, Lizhou and Li, Lingyao and Mei, Kai and Ji, Jianchao and Ge, Yingqiang and Hemphill, Libby and Zhang, Yongfeng",
+      "title": "War and peace (waragent): Large language model-based multi-agent simulation of world wars",
+      "ENTRYTYPE": "article",
+      "ID": "waragent"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2309.04175",
+      "author": "Wang, Haochun and Zhao, Sendong and Qiang, Zewen and Li, Zijian and Xi, Nuwa and Du, Yanrui and Cai, MuZhen and Guo, Haoqiang and Chen, Yuhan and Xu, Haoming and others",
+      "title": "Knowledge-tuning Large Language Models with Structured Medical Knowledge Bases for Reliable Response Generation in Chinese",
+      "ENTRYTYPE": "article",
+      "ID": "cmedknowqa"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2401.07128",
+      "author": "Shi, Wenqi and Xu, Ran and Zhuang, Yuchen and Yu, Yue and Zhang, Jieyu and Wu, Hang and Zhu, Yuanda and Ho, Joyce and Yang, Carl and Wang, May D",
+      "title": "EHRAgent: Code Empowers Large Language Models for Complex Tabular Reasoning on Electronic Health Records",
+      "ENTRYTYPE": "article",
+      "ID": "ehragent"
+    },
+    {
+      "year": "2019",
+      "pages": "1--9",
+      "number": "10",
+      "volume": "33",
+      "journal": "Journal of Chinese Information Processing",
+      "author": "Byambasuren, Odma and Yang, Yunfei and Sui, Zhifang and Dai, Damai and Chang, Baobao and Li, Sujian and Zan, Hongying",
+      "title": "Preliminary study on the construction of Chinese medical knowledge graph",
+      "ENTRYTYPE": "article",
+      "ID": "cmekg"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2309.03736",
+      "author": "Li, Yang and Yu, Yangyang and Li, Haohang and Chen, Zhi and Khashanah, Khaldoun",
+      "title": "TradingGPT: Multi-Agent System with Layered Memory and Distinct Characters for Enhanced Financial Trading Performance",
+      "ENTRYTYPE": "article",
+      "ID": "tradinggpt"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2402.03755",
+      "author": "Wang, Saizhuo and Yuan, Hang and Ni, Lionel M and Guo, Jian",
+      "title": "QuantAgent: Seeking Holy Grail in Trading by Self-Improving Large Language Model",
+      "ENTRYTYPE": "article",
+      "ID": "quantagent"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2402.03659",
+      "author": "Koa, Kelvin JL and Ma, Yunshan and Ng, Ritchie and Chua, Tat-Seng",
+      "title": "Learning to Generate Explainable Stock Predictions using Self-Reflective Large Language Models",
+      "ENTRYTYPE": "article",
+      "ID": "koa2024learning"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2308.09597",
+      "author": "Li, Cheng and Leng, Ziang and Yan, Chenxi and Shen, Junyi and Wang, Hao and Mi, Weishi and Fei, Yaying and Feng, Xiaoyang and Yan, Song and Wang, HaoSheng and others",
+      "title": "Chatharuhi: Reviving anime character in reality via large language model",
+      "ENTRYTYPE": "article",
+      "ID": "chatharuhi"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2310.00746",
+      "author": "Wang, Zekun Moore and Peng, Zhongyuan and Que, Haoran and Liu, Jiaheng and Zhou, Wangchunshu and Wu, Yuhan and Guo, Hongcheng and Gan, Ruitong and Ni, Zehao and Zhang, Man and others",
+      "title": "Rolellm: Benchmarking, eliciting, and enhancing role-playing abilities of large language models",
+      "ENTRYTYPE": "article",
+      "ID": "rolellm"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2310.01459",
+      "author": "Zhao, Runcong and Zhang, Wenjia and Li, Jiazheng and Zhu, Lixing and Li, Yanran and He, Yulan and Gui, Lin",
+      "title": "NarrativePlay: Interactive Narrative Understanding",
+      "ENTRYTYPE": "article",
+      "ID": "narrativeplay"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2311.16832",
+      "author": "Zhou, Jinfeng and Chen, Zhuang and Wan, Dazhen and Wen, Bosi and Song, Yi and Yu, Jifan and Huang, Yongkang and Peng, Libiao and Yang, Jiaming and Xiao, Xiyao and others",
+      "title": "Characterglm: Customizing chinese conversational ai characters with large language models",
+      "ENTRYTYPE": "article",
+      "ID": "characterglm"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2310.02172",
+      "author": "Kaiya, Zhao and Naim, Michelangelo and Kondic, Jovana and Cortes, Manuel and Ge, Jiaxin and Luo, Shuying and Yang, Guangyu Robert and Ahn, Andrew",
+      "title": "Lyfe agents: Generative agents for low-cost real-time social interactions",
+      "ENTRYTYPE": "article",
+      "ID": "lyfe_agents"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2310.10436",
+      "author": "Li, Nian and Gao, Chen and Li, Yong and Liao, Qingmin",
+      "title": "Large language model-empowered agents for simulating macroeconomic activities",
+      "ENTRYTYPE": "article",
+      "ID": "li2023large"
+    },
+    {
+      "year": "2022",
+      "pages": "1--18",
+      "booktitle": "Proceedings of the 35th Annual ACM Symposium on User Interface Software and Technology",
+      "author": "Park, Joon Sung and Popowski, Lindsay and Cai, Carrie and Morris, Meredith Ringel and Liang, Percy and Bernstein, Michael S",
+      "title": "Social simulacra: Creating populated prototypes for social computing systems",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "simulacra"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2312.04889",
+      "author": "Pan, Haojie and Zhai, Zepeng and Yuan, Hao and Lv, Yaojia and Fu, Ruiji and Liu, Ming and Wang, Zhongyuan and Qin, Bing",
+      "title": "Kwaiagents: Generalized information-seeking agent system with large language models",
+      "ENTRYTYPE": "article",
+      "ID": "kwaiagents"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2308.08155",
+      "author": "Wu, Qingyun and Bansal, Gagan and Zhang, Jieyu and Wu, Yiran and Zhang, Shaokun and Zhu, Erkang and Li, Beibin and Jiang, Li and Zhang, Xiaoyun and Wang, Chi",
+      "title": "Autogen: Enabling next-gen llm applications via multi-agent conversation framework",
+      "ENTRYTYPE": "article",
+      "ID": "autogen"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2311.05997",
+      "author": "Wang, Zihao and Cai, Shaofei and Liu, Anji and Jin, Yonggang and Hou, Jinbing and Zhang, Bowei and Lin, Haowei and He, Zhaofeng and Zheng, Zilong and Yang, Yaodong and others",
+      "title": "Jarvis-1: Open-world multi-task agents with memory-augmented multimodal language models",
+      "ENTRYTYPE": "article",
+      "ID": "jarvis1"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2312.17653",
+      "author": "Yan, Ming and Li, Ruihao and Zhang, Hao and Wang, Hao and Yang, Zhilan and Yan, Ji",
+      "title": "LARP: Language-Agent Role Play for Open-World Games",
+      "ENTRYTYPE": "article",
+      "ID": "larp"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2311.16543",
+      "author": "Tsai, YunDa and Liu, Mingjie and Ren, Haoxing",
+      "title": "Rtlfixer: Automatically fixing rtl syntax errors with large language models",
+      "ENTRYTYPE": "article",
+      "ID": "rtlfixer"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2310.08067",
+      "author": "Chen, Dake and Wang, Hanbin and Huo, Yunhao and Li, Yuzhao and Zhang, Haoyang",
+      "title": "Gamegpt: Multi-agent collaborative framework for game development",
+      "ENTRYTYPE": "article",
+      "ID": "gamegpt"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2307.07924",
+      "author": "Qian, Chen and Cong, Xin and Yang, Cheng and Chen, Weize and Su, Yusheng and Xu, Juyuan and Liu, Zhiyuan and Sun, Maosong",
+      "title": "Communicative agents for software development",
+      "ENTRYTYPE": "article",
+      "ID": "chatdev"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2401.07339",
+      "author": "Zhang, Kechi and Li, Jia and Li, Ge and Shi, Xianjie and Jin, Zhi",
+      "title": "CodeAgent: Enhancing Code Generation with Tool-Integrated Agent Systems for Real-World Repo-level Coding Challenges",
+      "ENTRYTYPE": "article",
+      "ID": "codeagent"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2308.16505",
+      "author": "Huang, Xu and Lian, Jianxun and Lei, Yuxuan and Yao, Jing and Lian, Defu and Xie, Xing",
+      "title": "Recommender ai agent: Integrating large language models for interactive recommendations",
+      "ENTRYTYPE": "article",
+      "ID": "interecagent"
+    },
+    {
+      "primaryclass": "cs.IR",
+      "archiveprefix": "arXiv",
+      "eprint": "2311.10776",
+      "year": "2024",
+      "author": "Kexin Chen and Junyou Li and Kunyi Wang and Yuyang Du and Jiahui Yu and Jiamin Lu and Lanqing Li and Jiezhong Qiu and Jianzhang Pan and Yi Huang and Qun Fang and Pheng Ann Heng and Guangyong Chen",
+      "title": "Chemist-X: Large Language Model-empowered Agent for Reaction Condition Recommendation in Chemical Synthesis",
+      "ENTRYTYPE": "misc",
+      "ID": "chemistx"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2401.14818",
+      "author": "Zhao, Zihan and Ma, Da and Chen, Lu and Sun, Liangtai and Li, Zihao and Xu, Hongshen and Zhu, Zichen and Zhu, Su and Fan, Shuai and Shen, Guodong and others",
+      "title": "ChemDFM: Dialogue Foundation Model for Chemistry",
+      "ENTRYTYPE": "article",
+      "ID": "chemdfm"
+    },
+    {
+      "publisher": "IOP Publishing",
+      "year": "2023",
+      "pages": "118104",
+      "number": "11",
+      "volume": "32",
+      "journal": "Chinese Physics B",
+      "author": "Chen, Zi-Yi and Xie, Fan-Kai and Wan, Meng and Yuan, Yang and Liu, Miao and Wang, Zong-Guo and Meng, Sheng and Wang, Yan-Gang",
+      "title": "MatChat: A large language model and application service platform for materials science",
+      "ENTRYTYPE": "article",
+      "ID": "matchat"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2310.16340",
+      "author": "Wang, Zefan and Liu, Zichuan and Zhang, Yingying and Zhong, Aoxiao and Fan, Lunting and Wu, Lingfei and Wen, Qingsong",
+      "title": "RCAgent: Cloud Root Cause Analysis by Autonomous Agents with Tool-Augmented Large Language Models",
+      "ENTRYTYPE": "article",
+      "ID": "rcagent"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2312.00326",
+      "author": "Qiang, Zhangcheng and Wang, Weiqing and Taylor, Kerry",
+      "title": "Agent-OM: Leveraging Large Language Models for Ontology Matching",
+      "ENTRYTYPE": "article",
+      "ID": "agent_om"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2309.16292",
+      "author": "Wen, Licheng and Fu, Daocheng and Li, Xin and Cai, Xinyu and Ma, Tao and Cai, Pinlong and Dou, Min and Shi, Botian and He, Liang and Qiao, Yu",
+      "title": "Dilu: A knowledge-driven approach to autonomous driving with large language models",
+      "ENTRYTYPE": "article",
+      "ID": "dilu"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2401.02705",
+      "author": "Wang, Zhitao and Wang, Wei and Li, Zirao and Wang, Long and Yi, Can and Xu, Xinjie and Cao, Luyang and Su, Hanjing and Chen, Shouzhi and Zhou, Jun",
+      "title": "XUAT-Copilot: Multi-Agent Collaborative System for Automated User Acceptance Testing with Large Language Model",
+      "ENTRYTYPE": "article",
+      "ID": "xuat"
+    },
+    {
+      "year": "2023",
+      "pages": "arXiv--2311",
+      "journal": "arXiv e-prints",
+      "author": "Yu, Yangyang and Li, Haohang and Chen, Zhi and Jiang, Yuechen and Li, Yang and Zhang, Denghui and Liu, Rong and Suchow, Jordan W and Khashanah, Khaldoun",
+      "title": "FinMem: A Performance-Enhanced LLM Trading Agent with Layered Memory and Character Design",
+      "ENTRYTYPE": "article",
+      "ID": "finmem"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2312.09542",
+      "author": "Zhang, Lei and Li, Yunshui and Liu, Ziqiang and Liu, Junhao and Yang, Min and others",
+      "title": "Marathon: A Race Through the Realm of Long Context with Large Language Models",
+      "ENTRYTYPE": "article",
+      "ID": "marathon"
+    },
+    {
+      "year": "2023",
+      "booktitle": "NeurIPS 2023 Workshop on Instruction Tuning and Instruction Following",
+      "author": "Li, Dacheng and Shao, Rulin and Xie, Anze and Sheng, Ying and Zheng, Lianmin and Gonzalez, Joseph and Stoica, Ion and Ma, Xuezhe and Zhang, Hao",
+      "title": "How Long Can Context Length of Open-Source LLMs truly Promise?",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "longchat"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2305.13304",
+      "author": "Zhou, Wangchunshu and Jiang, Yuchen Eleanor and Cui, Peng and Wang, Tiannan and Xiao, Zhenxin and Hou, Yifan and Cotterell, Ryan and Sachan, Mrinmaya",
+      "title": "RecurrentGPT: Interactive Generation of (Arbitrarily) Long Text",
+      "ENTRYTYPE": "article",
+      "ID": "recurrentgpt"
+    },
+    {
+      "year": "2024",
+      "volume": "36",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Lin, Bill Yuchen and Fu, Yicheng and Yang, Karina and Brahman, Faeze and Huang, Shiyu and Bhagavatula, Chandra and Ammanabrolu, Prithviraj and Choi, Yejin and Ren, Xiang",
+      "title": "Swiftsage: A generative agent with fast and slow thinking for complex interactive tasks",
+      "ENTRYTYPE": "article",
+      "ID": "swiftsage"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2311.04939",
+      "author": "Li, Jiaqi and Wang, Mengmeng and Zheng, Zilong and Zhang, Muhan",
+      "title": "LooGLE: Can Long-Context Language Models Understand Long Contexts?",
+      "ENTRYTYPE": "article",
+      "ID": "loogle"
+    },
+    {
+      "year": "2024",
+      "volume": "36",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Wang, Weizhi and Dong, Li and Cheng, Hao and Liu, Xiaodong and Yan, Xifeng and Gao, Jianfeng and Wei, Furu",
+      "title": "Augmenting language models with long-term memory",
+      "ENTRYTYPE": "article",
+      "ID": "longmem"
+    },
+    {
+      "year": "2024",
+      "volume": "36",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Zhang, Danyang and Chen, Lu and Zhang, Situo and Xu, Hongshen and Zhao, Zihan and Yu, Kai",
+      "title": "Large Language Models Are Semi-Parametric Reinforcement Learning Agents",
+      "ENTRYTYPE": "article",
+      "ID": "semi_rl"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2311.12351",
+      "author": "Huang, Yunpeng and Xu, Jingwei and Jiang, Zixu and Lai, Junyu and Li, Zenan and Yao, Yuan and Chen, Taolue and Yang, Lijuan and Xin, Zhou and Ma, Xiaoxing",
+      "title": "Advancing Transformer Architecture in Long-Context Large Language Models: A Comprehensive Survey",
+      "ENTRYTYPE": "article",
+      "ID": "survey_long_context_llm"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2402.02244",
+      "author": "Wang, Xindi and Salmani, Mahsa and Omidi, Parsa and Ren, Xiangyu and Rezagholizadeh, Mehdi and Eshaghi, Armaghan",
+      "title": "Beyond the Limits: A Survey of Techniques to Extend the Context Length in Large Language Models",
+      "ENTRYTYPE": "article",
+      "ID": "survey_long_context_llm2"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2401.07872",
+      "author": "Pawar, Saurav and Tonmoy, SM and Zaman, SM and Jain, Vinija and Chadha, Aman and Das, Amitava",
+      "title": "The What, Why, and How of Context Length Extension Techniques in Large Language Models--A Detailed Survey",
+      "ENTRYTYPE": "article",
+      "ID": "survey_long_context_llm3"
+    },
+    {
+      "publisher": "MIT press",
+      "year": "2018",
+      "author": "Sutton, Richard S and Barto, Andrew G",
+      "title": "Reinforcement learning: An introduction",
+      "ENTRYTYPE": "book",
+      "ID": "survey_rl"
+    },
+    {
+      "publisher": "Higher Education Press",
+      "year": "2017",
+      "pages": "359--361",
+      "volume": "11",
+      "journal": "Frontiers of Computer Science",
+      "author": "Liu, Bing",
+      "title": "Lifelong machine learning: a paradigm for continuous learning",
+      "ENTRYTYPE": "article",
+      "ID": "survey_life_long_learning"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2311.12351",
+      "author": "Huang, Yunpeng and Xu, Jingwei and Jiang, Zixu and Lai, Junyu and Li, Zenan and Yao, Yuan and Chen, Taolue and Yang, Lijuan and Xin, Zhou and Ma, Xiaoxing",
+      "title": "Advancing transformer architecture in long-context large language models: A comprehensive survey",
+      "ENTRYTYPE": "article",
+      "ID": "long_context_llm_survey"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2310.03025",
+      "author": "Xu, Peng and Ping, Wei and Wu, Xianchao and McAfee, Lawrence and Zhu, Chen and Liu, Zihan and Subramanian, Sandeep and Bakhturina, Evelina and Shoeybi, Mohammad and Catanzaro, Bryan",
+      "title": "Retrieval meets long context large language models",
+      "ENTRYTYPE": "article",
+      "ID": "retrieval_long_context_llm_survey"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2304.08354",
+      "author": "Qin, Yujia and Hu, Shengding and Lin, Yankai and Chen, Weize and Ding, Ning and Cui, Ganqu and Zeng, Zheni and Huang, Yufei and Xiao, Chaojun and Han, Chi and others",
+      "title": "Tool learning with foundation models",
+      "ENTRYTYPE": "article",
+      "ID": "survey_tool_learning"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2308.11432",
+      "author": "Wang, Lei and Ma, Chen and Feng, Xueyang and Zhang, Zeyu and Yang, Hao and Zhang, Jingsen and Chen, Zhiyuan and Tang, Jiakai and Chen, Xu and Lin, Yankai and others",
+      "title": "A survey on large language model based autonomous agents",
+      "ENTRYTYPE": "article",
+      "ID": "survey_llm_agent1"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2309.07864",
+      "author": "Xi, Zhiheng and Chen, Wenxiang and Guo, Xin and He, Wei and Ding, Yiwen and Hong, Boyang and Zhang, Ming and Wang, Junzhe and Jin, Senjie and Zhou, Enyu and others",
+      "title": "The rise and potential of large language model based agents: A survey",
+      "ENTRYTYPE": "article",
+      "ID": "survey_llm_agent2"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2401.05459",
+      "author": "Li, Yuanchun and Wen, Hao and Wang, Weijun and Li, Xiangyu and Yuan, Yizhen and Liu, Guohong and Liu, Jiacheng and Xu, Wenxing and Wang, Xiang and Sun, Yi and others",
+      "title": "Personal LLM Agents: Insights and Survey about the Capability, Efficiency and Security",
+      "ENTRYTYPE": "article",
+      "ID": "survey_llm_agent3"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2402.01680",
+      "author": "Guo, Taicheng and Chen, Xiuying and Wang, Yaqi and Chang, Ruidi and Pei, Shichao and Chawla, Nitesh V and Wiest, Olaf and Zhang, Xiangliang",
+      "title": "Large language model based multi-agents: A survey of progress and challenges",
+      "ENTRYTYPE": "article",
+      "ID": "survey_llm_agent4"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2309.14365",
+      "author": "Zhao, Pengyu and Jin, Zijian and Cheng, Ning",
+      "title": "An in-depth survey of large language model-based artificial intelligence agents",
+      "ENTRYTYPE": "article",
+      "ID": "survey_llm_agent5"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2401.03428",
+      "author": "Cheng, Yuheng and Zhang, Ceyao and Zhang, Zhengwen and Meng, Xiangrui and Hong, Sirui and Li, Wenhao and Wang, Zihao and Wang, Zekai and Yin, Feng and Zhao, Junhua and others",
+      "title": "Exploring Large Language Model based Intelligent Agents: Definitions, Methods, and Prospects",
+      "ENTRYTYPE": "article",
+      "ID": "survey_llm_agent6"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2401.03568",
+      "author": "Durante, Zane and Huang, Qiuyuan and Wake, Naoki and Gong, Ran and Park, Jae Sung and Sarkar, Bidipta and Taori, Rohan and Noda, Yusuke and Terzopoulos, Demetri and Choi, Yejin and others",
+      "title": "Agent ai: Surveying the horizons of multimodal interaction",
+      "ENTRYTYPE": "article",
+      "ID": "survey_llm_agent7"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2312.03815",
+      "author": "Ge, Yingqiang and Ren, Yujie and Hua, Wenyue and Xu, Shuyuan and Tan, Juntao and Zhang, Yongfeng",
+      "title": "Llm as os (llmao), agents as apps: Envisioning aios, agents and the aios-agent ecosystem",
+      "ENTRYTYPE": "article",
+      "ID": "survey_llm_agent8"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2402.02716",
+      "author": "Huang, Xu and Liu, Weiwen and Chen, Xiaolong and Wang, Xingmei and Wang, Hao and Lian, Defu and Wang, Yasheng and Tang, Ruiming and Chen, Enhong",
+      "title": "Understanding the planning of LLM agents: A survey",
+      "ENTRYTYPE": "article",
+      "ID": "survey_llm_agent_planning"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2310.16218",
+      "author": "Wang, Song and Zhu, Yaochen and Liu, Haochen and Zheng, Zaiyi and Chen, Chen and others",
+      "title": "Knowledge editing for large language models: A survey",
+      "ENTRYTYPE": "article",
+      "ID": "survey_knowledge_editing_llm"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2305.13172",
+      "author": "Yao, Yunzhi and Wang, Peng and Tian, Bozhong and Cheng, Siyuan and Li, Zhoubo and Deng, Shumin and Chen, Huajun and Zhang, Ningyu",
+      "title": "Editing Large Language Models: Problems, Methods, and Opportunities",
+      "ENTRYTYPE": "article",
+      "ID": "survey_knowledge_editing_llm2"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2308.07269",
+      "author": "Wang, Peng and Zhang, Ningyu and Xie, Xin and Yao, Yunzhi and Tian, Bozhong and Wang, Mengru and Xi, Zekun and Cheng, Siyuan and Liu, Kangwei and Zheng, Guozhou and others",
+      "title": "Easyedit: An easy-to-use knowledge editing framework for large language models",
+      "ENTRYTYPE": "article",
+      "ID": "survey_knowledge_editing_llm3"
+    },
+    {
+      "publisher": "ACM New York, NY",
+      "year": "2023",
+      "journal": "ACM Transactions on Intelligent Systems and Technology",
+      "author": "Chang, Yupeng and Wang, Xu and Wang, Jindong and Wu, Yuan and Yang, Linyi and Zhu, Kaijie and Chen, Hao and Yi, Xiaoyuan and Wang, Cunxiang and Wang, Yidong and others",
+      "title": "A survey on evaluation of large language models",
+      "ENTRYTYPE": "article",
+      "ID": "survey_llm_evaluation"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2310.19736",
+      "author": "Guo, Zishan and Jin, Renren and Liu, Chuang and Huang, Yufei and Shi, Dan and Yu, Linhao and Liu, Yan and Li, Jiaxuan and Xiong, Bojian and Xiong, Deyi and others",
+      "title": "Evaluating large language models: A comprehensive survey",
+      "ENTRYTYPE": "article",
+      "ID": "survey_llm_evaluation2"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2309.01219",
+      "author": "Zhang, Yue and Li, Yafu and Cui, Leyang and Cai, Deng and Liu, Lemao and Fu, Tingchen and Huang, Xinting and Zhao, Enbo and Zhang, Yu and Chen, Yulong and others",
+      "title": "Siren's song in the AI ocean: a survey on hallucination in large language models",
+      "ENTRYTYPE": "article",
+      "ID": "survey_llm_hallucination1"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2303.18223",
+      "author": "Zhao, Wayne Xin and Zhou, Kun and Li, Junyi and Tang, Tianyi and Wang, Xiaolei and Hou, Yupeng and Min, Yingqian and Zhang, Beichen and Zhang, Junjie and Dong, Zican and others",
+      "title": "A survey of large language models",
+      "ENTRYTYPE": "article",
+      "ID": "survey_llm1"
+    },
+    {
+      "publisher": "Authorea",
+      "year": "2023",
+      "journal": "Authorea Preprints",
+      "author": "Hadi, Muhammad Usman and Qureshi, Rizwan and Shah, Abbas and Irfan, Muhammad and Zafar, Anas and Shaikh, Muhammad Bilal and Akhtar, Naveed and Wu, Jia and Mirjalili, Seyedali and others",
+      "title": "A survey on large language models: Applications, challenges, limitations, and practical usage",
+      "ENTRYTYPE": "article",
+      "ID": "survey_llm2"
+    },
+    {
+      "publisher": "ACM New York, NY",
+      "year": "2023",
+      "pages": "1--40",
+      "number": "2",
+      "volume": "56",
+      "journal": "ACM Computing Surveys",
+      "author": "Min, Bonan and Ross, Hayley and Sulem, Elior and Veyseh, Amir Pouran Ben and Nguyen, Thien Huu and Sainz, Oscar and Agirre, Eneko and Heintz, Ilana and Roth, Dan",
+      "title": "Recent advances in natural language processing via large pre-trained language models: A survey",
+      "ENTRYTYPE": "article",
+      "ID": "survey_llm3"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2308.10792",
+      "author": "Zhang, Shengyu and Dong, Linfeng and Li, Xiaoya and Zhang, Sen and Sun, Xiaofei and Wang, Shuhe and Li, Jiwei and Hu, Runyi and Zhang, Tianwei and Wu, Fei and others",
+      "title": "Instruction tuning for large language models: A survey",
+      "ENTRYTYPE": "article",
+      "ID": "survey_sft_llm"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2312.10997",
+      "author": "Gao, Yunfan and Xiong, Yun and Gao, Xinyu and Jia, Kangxiang and Pan, Jinliu and Bi, Yuxi and Dai, Yi and Sun, Jiawei and Wang, Haofen",
+      "title": "Retrieval-augmented generation for large language models: A survey",
+      "ENTRYTYPE": "article",
+      "ID": "survey_retrieval_llm"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2302.07842",
+      "author": "Mialon, Gr{\\'e}goire and Dess{\\`\\i}, Roberto and Lomeli, Maria and Nalmpantis, Christoforos and Pasunuru, Ram and Raileanu, Roberta and Rozi{\\`e}re, Baptiste and Schick, Timo and Dwivedi-Yu, Jane and Celikyilmaz, Asli and others",
+      "title": "Augmented language models: a survey",
+      "ENTRYTYPE": "article",
+      "ID": "survey_llm_augment"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2309.15025",
+      "author": "Shen, Tianhao and Jin, Renren and Huang, Yufei and Liu, Chuang and Dong, Weilong and Guo, Zishan and Wu, Xinwei and Liu, Yan and Xiong, Deyi",
+      "title": "Large language model alignment: A survey",
+      "ENTRYTYPE": "article",
+      "ID": "survey_llm_alignment1"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2307.12966",
+      "author": "Wang, Yufei and Zhong, Wanjun and Li, Liangyou and Mi, Fei and Zeng, Xingshan and Huang, Wenyong and Shang, Lifeng and Jiang, Xin and Liu, Qun",
+      "title": "Aligning large language models with human: A survey",
+      "ENTRYTYPE": "article",
+      "ID": "survey_llm_alignment2"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2308.05374",
+      "author": "Liu, Yang and Yao, Yuanshun and Ton, Jean-Francois and Zhang, Xiaoying and Cheng, Ruocheng Guo Hao and Klochkov, Yegor and Taufiq, Muhammad Faaiz and Li, Hang",
+      "title": "Trustworthy LLMs: a Survey and Guideline for Evaluating Large Language Models' Alignment",
+      "ENTRYTYPE": "article",
+      "ID": "survey_llm_alignment3"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2311.05876",
+      "author": "Feng, Zhangyin and Ma, Weitao and Yu, Weijiang and Huang, Lei and Wang, Haotian and Chen, Qianglong and Peng, Weihua and Feng, Xiaocheng and Qin, Bing and others",
+      "title": "Trends in integration of knowledge and large language models: A survey and taxonomy of methods, benchmarks, and applications",
+      "ENTRYTYPE": "article",
+      "ID": "survey_knowledge_editing_llm4"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2401.01286",
+      "author": "Zhang, Ningyu and Yao, Yunzhi and Tian, Bozhong and Wang, Peng and Deng, Shumin and Wang, Mengru and Xi, Zekun and Mao, Shengyu and Zhang, Jintian and Ni, Yuansheng and others",
+      "title": "A comprehensive study of knowledge editing for large language models",
+      "ENTRYTYPE": "article",
+      "ID": "survey_knowledge_editing_llm5"
+    },
+    {
+      "organization": "IEEE",
+      "year": "2023",
+      "pages": "2247--2256",
+      "booktitle": "2023 IEEE International Conference on Big Data (BigData)",
+      "author": "Wu, Jiayang and Gan, Wensheng and Chen, Zefeng and Wan, Shicheng and Philip, S Yu",
+      "title": "Multimodal large language models: A survey",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "survey_llm_multimodal1"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2311.07594",
+      "author": "Song, Shezheng and Li, Xiaopeng and Li, Shasha",
+      "title": "How to bridge the gap between modalities: A comprehensive survey on multimodal large language model",
+      "ENTRYTYPE": "article",
+      "ID": "survey_llm_multimodal2"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2402.12451",
+      "author": "Caffagni, Davide and Cocchi, Federico and Barsellotti, Luca and Moratelli, Nicholas and Sarto, Sara and Baraldi, Lorenzo and Cornia, Marcella and Cucchiara, Rita",
+      "title": "The (R) Evolution of Multimodal Large Language Models: A Survey",
+      "ENTRYTYPE": "article",
+      "ID": "survey_llm_multimodal3"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2306.13549",
+      "author": "Yin, Shukang and Fu, Chaoyou and Zhao, Sirui and Li, Ke and Sun, Xing and Xu, Tong and Chen, Enhong",
+      "title": "A Survey on Multimodal Large Language Models",
+      "ENTRYTYPE": "article",
+      "ID": "survey_llm_multimodal4"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2401.00625",
+      "author": "Bai, Guangji and Chai, Zheng and Ling, Chen and Wang, Shiyu and Lu, Jiaying and Zhang, Nan and Shi, Tingwei and Yu, Ziyang and Zhu, Mengdan and Zhang, Yifei and others",
+      "title": "Beyond efficiency: A systematic survey of resource-efficient large language models",
+      "ENTRYTYPE": "article",
+      "ID": "survey_llm_efficiency1"
+    },
+    {
+      "year": "2023",
+      "volume": "1",
+      "journal": "arXiv preprint arXiv:2312.03863",
+      "author": "Wan, Zhongwei and Wang, Xin and Liu, Che and Alam, Samiul and Zheng, Yu and Qu, Zhongnan and Yan, Shen and Zhu, Yi and Zhang, Quanlu and Chowdhury, Mosharaf and others",
+      "title": "Efficient large language models: A survey",
+      "ENTRYTYPE": "article",
+      "ID": "survey_llm_efficiency2"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2312.15234",
+      "author": "Miao, Xupeng and Oliaro, Gabriele and Zhang, Zhihao and Cheng, Xinhao and Jin, Hongyi and Chen, Tianqi and Jia, Zhihao",
+      "title": "Towards efficient generative large language model serving: A survey from algorithms to systems",
+      "ENTRYTYPE": "article",
+      "ID": "survey_llm_efficiency3"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2203.06904",
+      "author": "Ding, Ning and Qin, Yujia and Yang, Guang and Wei, Fuchao and Yang, Zonghan and Su, Yusheng and Hu, Shengding and Chen, Yulin and Chan, Chi-Min and Chen, Weize and others",
+      "title": "Delta tuning: A comprehensive study of parameter efficient methods for pre-trained language models",
+      "ENTRYTYPE": "article",
+      "ID": "survey_llm_efficiency4"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2312.12148",
+      "author": "Xu, Lingling and Xie, Haoran and Qin, Si-Zhao Joe and Tao, Xiaohui and Wang, Fu Lee",
+      "title": "Parameter-efficient fine-tuning methods for pretrained language models: A critical review and assessment",
+      "ENTRYTYPE": "article",
+      "ID": "survey_llm_efficiency5"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2308.07633",
+      "author": "Zhu, Xunyu and Li, Jian and Liu, Yong and Ma, Can and Wang, Weiping",
+      "title": "A survey on model compression for large language models",
+      "ENTRYTYPE": "article",
+      "ID": "survey_llm_efficiency6"
+    },
+    {
+      "year": "2023",
+      "pages": "10566--10575",
+      "number": "9",
+      "volume": "37",
+      "booktitle": "Proceedings of the AAAI Conference on Artificial Intelligence",
+      "author": "Xu, Canwen and McAuley, Julian",
+      "title": "A survey on model compression and acceleration for pretrained language models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "survey_llm_efficiency7"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2402.09748",
+      "author": "Wang, Wenxiao and Chen, Wei and Luo, Yicong and Long, Yongliu and Lin, Zhengkai and Zhang, Liye and Lin, Binbin and Cai, Deng and He, Xiaofei",
+      "title": "Model Compression and Efficient Inference for Large Language Models: A Survey",
+      "ENTRYTYPE": "article",
+      "ID": "survey_llm_efficiency8"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2401.15347",
+      "author": "Park, Seungcheol and Choi, Jaehyeon and Lee, Sojin and Kang, U",
+      "title": "A Comprehensive Survey of Compression Algorithms for Language Models",
+      "ENTRYTYPE": "article",
+      "ID": "survey_llm_efficiency9"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2308.07107",
+      "author": "Zhu, Yutao and Yuan, Huaying and Wang, Shuting and Liu, Jiongnan and Liu, Wenhan and Deng, Chenlong and Dou, Zhicheng and Wen, Ji-Rong",
+      "title": "Large language models for information retrieval: A survey",
+      "ENTRYTYPE": "article",
+      "ID": "survey_llm_apply_info1"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2312.17617",
+      "author": "Xu, Derong and Chen, Wei and Peng, Wenjun and Zhang, Chao and Xu, Tong and Zhao, Xiangyu and Wu, Xian and Zheng, Yefeng and Chen, Enhong",
+      "title": "Large language models for generative information extraction: A survey",
+      "ENTRYTYPE": "article",
+      "ID": "survey_llm_apply_info2"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2310.03533",
+      "author": "Fan, Angela and Gokkaya, Beliz and Harman, Mark and Lyubarskiy, Mitya and Sengupta, Shubho and Yoo, Shin and Zhang, Jie M",
+      "title": "Large language models for software engineering: Survey and open problems",
+      "ENTRYTYPE": "article",
+      "ID": "survey_llm_apply_software1"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "2024",
+      "journal": "IEEE Transactions on Software Engineering",
+      "author": "Wang, Junjie and Huang, Yuchao and Chen, Chunyang and Liu, Zhe and Wang, Song and Wang, Qing",
+      "title": "Software testing with large language models: Survey, landscape, and vision",
+      "ENTRYTYPE": "article",
+      "ID": "survey_llm_apply_software2"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2311.10372",
+      "author": "Zheng, Zibin and Ning, Kaiwen and Wang, Yanlin and Zhang, Jingwen and Zheng, Dewu and Ye, Mingxi and Chen, Jiachi",
+      "title": "A Survey of Large Language Models for Code: Evolution, Benchmarking, and Future Trends",
+      "ENTRYTYPE": "article",
+      "ID": "survey_llm_apply_software3"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2311.07226",
+      "author": "Zeng, Fanlong and Gan, Wensheng and Wang, Yongheng and Liu, Ning and Yu, Philip S",
+      "title": "Large language models for robotics: A survey",
+      "ENTRYTYPE": "article",
+      "ID": "survey_llm_apply_robotics"
+    },
+    {
+      "year": "2024",
+      "pages": "958--979",
+      "booktitle": "Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision",
+      "author": "Cui, Can and Ma, Yunsheng and Cao, Xu and Ye, Wenqian and Zhou, Yang and Liang, Kaizhao and Chen, Jintai and Lu, Juanwu and Yang, Zichong and Liao, Kuei-Da and others",
+      "title": "A survey on multimodal large language models for autonomous driving",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "survey_llm_apply_driving1"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2311.01043",
+      "author": "Yang, Zhenjie and Jia, Xiaosong and Li, Hongyang and Yan, Junchi",
+      "title": "A survey of large language models for autonomous driving",
+      "ENTRYTYPE": "article",
+      "ID": "survey_llm_apply_driving2"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2310.05694",
+      "author": "He, Kai and Mao, Rui and Lin, Qika and Ruan, Yucheng and Lan, Xiang and Feng, Mengling and Cambria, Erik",
+      "title": "A survey of large language models for healthcare: from data, technology, and applications to accountability and ethics",
+      "ENTRYTYPE": "article",
+      "ID": "survey_llm_apply_med1"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2311.05112",
+      "author": "Zhou, Hongjian and Gu, Boyang and Zou, Xinyu and Li, Yiru and Chen, Sam S and Zhou, Peilin and Liu, Junling and Hua, Yining and Mao, Chengfeng and Wu, Xian and others",
+      "title": "A survey of large language models in medicine: Progress, application, and challenge",
+      "ENTRYTYPE": "article",
+      "ID": "survey_llm_apply_med2"
+    },
+    {
+      "publisher": "ACM New York, NY",
+      "year": "2023",
+      "pages": "1--52",
+      "number": "3",
+      "volume": "56",
+      "journal": "ACM Computing Surveys",
+      "author": "Wang, Benyou and Xie, Qianqian and Pei, Jiahuan and Chen, Zhihong and Tiwari, Prayag and Li, Zhao and Fu, Jie",
+      "title": "Pre-trained language models in biomedical domain: A systematic survey",
+      "ENTRYTYPE": "article",
+      "ID": "survey_llm_apply_med3"
+    },
+    {
+      "year": "2023",
+      "pages": "374--382",
+      "booktitle": "Proceedings of the Fourth ACM International Conference on AI in Finance",
+      "author": "Li, Yinheng and Wang, Shaofei and Ding, Han and Chen, Hang",
+      "title": "Large language models in finance: A survey",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "survey_llm_apply_finance"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2309.01157",
+      "author": "Li, Lei and Zhang, Yongfeng and Liu, Dugang and Chen, Li",
+      "title": "Large language models for generative recommendation: A survey and visionary discussions",
+      "ENTRYTYPE": "article",
+      "ID": "survey_llm_apply_recsys"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2306.05817",
+      "author": "Lin, Jianghao and Dai, Xinyi and Xi, Yunjia and Liu, Weiwen and Chen, Bo and Li, Xiangyang and Zhu, Chenxu and Guo, Huifeng and Yu, Yong and Tang, Ruiming and others",
+      "title": "How Can Recommender Systems Benefit from Large Language Models: A Survey",
+      "ENTRYTYPE": "article",
+      "ID": "survey_llm_apply_recsys2"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2304.03516",
+      "author": "Wang, Wenjie and Lin, Xinyu and Feng, Fuli and He, Xiangnan and Chua, Tat-Seng",
+      "title": "Generative recommendation: Towards next-generation recommender paradigm",
+      "ENTRYTYPE": "article",
+      "ID": "survey_llm_apply_recsys3"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2312.04578",
+      "author": "He, Tianyu and Fu, Guanghui and Yu, Yijing and Wang, Fan and Li, Jianqiang and Zhao, Qing and Song, Changwei and Qi, Hongzhi and Luo, Dan and Zou, Huijing and others",
+      "title": "Towards a psychological generalist ai: A survey of current applications of large language models and future prospects",
+      "ENTRYTYPE": "article",
+      "ID": "survey_llm_apply_psy"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2304.13712",
+      "author": "Yang, Jingfeng and Jin, Hongye and Tang, Ruixiang and Han, Xiaotian and Feng, Qizhang and Jiang, Haoming and Yin, Bing and Hu, Xia",
+      "title": "Harnessing the power of llms in practice: A survey on chatgpt and beyond",
+      "ENTRYTYPE": "article",
+      "ID": "survey_llm_apply"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2311.05232",
+      "author": "Huang, Lei and Yu, Weijiang and Ma, Weitao and Zhong, Weihong and Feng, Zhangyin and Wang, Haotian and Chen, Qianglong and Peng, Weihua and Feng, Xiaocheng and Qin, Bing and others",
+      "title": "A survey on hallucination in large language models: Principles, taxonomy, challenges, and open questions",
+      "ENTRYTYPE": "article",
+      "ID": "survey_llm_hallucination2"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2309.05922",
+      "author": "Rawte, Vipula and Sheth, Amit and Das, Amitava",
+      "title": "A survey of hallucination in large foundation models",
+      "ENTRYTYPE": "article",
+      "ID": "survey_llm_hallucination3"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2309.06794",
+      "author": "Ye, Hongbin and Liu, Tong and Zhang, Aijia and Hua, Wei and Jia, Weiqiang",
+      "title": "Cognitive mirage: A review of hallucinations in large language models",
+      "ENTRYTYPE": "article",
+      "ID": "survey_llm_hallucination4"
+    },
+    {
+      "publisher": "ACM New York, NY",
+      "year": "2023",
+      "pages": "1--38",
+      "number": "12",
+      "volume": "55",
+      "journal": "ACM Computing Surveys",
+      "author": "Ji, Ziwei and Lee, Nayeon and Frieske, Rita and Yu, Tiezheng and Su, Dan and Xu, Yan and Ishii, Etsuko and Bang, Ye Jin and Madotto, Andrea and Fung, Pascale",
+      "title": "Survey of hallucination in natural language generation",
+      "ENTRYTYPE": "article",
+      "ID": "survey_llm_hallucination5"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2401.01313",
+      "author": "Tonmoy, SM and Zaman, SM and Jain, Vinija and Rani, Anku and Rawte, Vipula and Chadha, Aman and Das, Amitava",
+      "title": "A comprehensive survey of hallucination mitigation techniques in large language models",
+      "ENTRYTYPE": "article",
+      "ID": "survey_llm_hallucination6"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2402.06647",
+      "author": "Jiang, Xuhui and Tian, Yuxing and Hua, Fengrui and Xu, Chengjin and Wang, Yuanzhuo and Guo, Jian",
+      "title": "A Survey on Large Language Model Hallucination via a Creativity Perspective",
+      "ENTRYTYPE": "article",
+      "ID": "survey_llm_hallucination7"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2309.00770",
+      "author": "Gallegos, Isabel O and Rossi, Ryan A and Barrow, Joe and Tanjim, Md Mehrab and Kim, Sungchul and Dernoncourt, Franck and Yu, Tong and Zhang, Ruiyi and Ahmed, Nesreen K",
+      "title": "Bias and fairness in large language models: A survey",
+      "ENTRYTYPE": "article",
+      "ID": "survey_llm_bias_fairness1"
+    },
+    {
+      "publisher": "ACM New York, NY",
+      "year": "2023",
+      "journal": "ACM Transactions on Intelligent Systems and Technology",
+      "author": "Zhao, Haiyan and Chen, Hanjie and Yang, Fan and Liu, Ninghao and Deng, Huiqi and Cai, Hengyi and Wang, Shuaiqiang and Yin, Dawei and Du, Mengnan",
+      "title": "Explainability for large language models: A survey",
+      "ENTRYTYPE": "article",
+      "ID": "survey_llm_explainability"
+    },
+    {
+      "year": "2023",
+      "pages": "12--24",
+      "booktitle": "Proceedings of The ACM Collective Intelligence Conference",
+      "author": "Kotek, Hadas and Dockum, Rikker and Sun, David",
+      "title": "Gender bias and stereotypes in large language models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "survey_llm_bias_fairness2"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2308.10149",
+      "author": "Li, Yingji and Du, Mengnan and Song, Rui and Wang, Xin and Wang, Ying",
+      "title": "A survey on fairness in large language models",
+      "ENTRYTYPE": "article",
+      "ID": "survey_llm_bias_fairness3"
+    },
+    {
+      "year": "2023",
+      "volume": "1",
+      "journal": "arXiv preprint arXiv:2312.02003",
+      "author": "Yao, Yifan and Duan, Jinhao and Xu, Kaidi and Cai, Yuanfang and Sun, Eric and Zhang, Yue",
+      "title": "A survey on large language model (llm) security and privacy: The good, the bad, and the ugly",
+      "ENTRYTYPE": "article",
+      "ID": "survey_llm_security1"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2310.10844",
+      "author": "Shayegani, Erfan and Mamun, Md Abdullah Al and Fu, Yu and Zaree, Pedram and Dong, Yue and Abu-Ghazaleh, Nael",
+      "title": "Survey of vulnerabilities in large language models revealed by adversarial attacks",
+      "ENTRYTYPE": "article",
+      "ID": "survey_llm_security2"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2312.06717",
+      "author": "Neel, Seth and Chang, Peter",
+      "title": "Privacy issues in large language models: A survey",
+      "ENTRYTYPE": "article",
+      "ID": "survey_llm_security3"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2310.01424",
+      "author": "Smith, Victoria and Shamsabadi, Ali Shahin and Ashurst, Carolyn and Weller, Adrian",
+      "title": "Identifying and mitigating privacy risks stemming from language models: A survey",
+      "ENTRYTYPE": "article",
+      "ID": "survey_llm_security4"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2402.09283",
+      "author": "Dong, Zhichen and Zhou, Zhanhui and Yang, Chao and Shao, Jing and Qiao, Yu",
+      "title": "Attacks, Defenses and Evaluations for LLM Conversation Safety: A Survey",
+      "ENTRYTYPE": "article",
+      "ID": "survey_llm_security5"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2402.00888",
+      "author": "Das, Badhan Chandra and Amini, M Hadi and Wu, Yanzhao",
+      "title": "Security and Privacy Challenges of Large Language Models: A Survey",
+      "ENTRYTYPE": "article",
+      "ID": "survey_llm_security6"
+    },
+    {
+      "publisher": "ACM New York, NY, USA",
+      "year": "2005",
+      "pages": "19--24",
+      "number": "7",
+      "volume": "48",
+      "journal": "Communications of the ACM",
+      "author": "Denning, Peter J",
+      "title": "The locality principle",
+      "ENTRYTYPE": "article",
+      "ID": "principle_of_locality"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2302.13971",
+      "author": "Touvron, Hugo and Lavril, Thibaut and Izacard, Gautier and Martinet, Xavier and Lachaux, Marie-Anne and Lacroix, Timoth{\\'e}e and Rozi{\\`e}re, Baptiste and Goyal, Naman and Hambro, Eric and Azhar, Faisal and others",
+      "title": "Llama: Open and efficient foundation language models",
+      "ENTRYTYPE": "article",
+      "ID": "llama"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2210.02414",
+      "author": "Zeng, Aohan and Liu, Xiao and Du, Zhengxiao and Wang, Zihan and Lai, Hanyu and Ding, Ming and Yang, Zhuoyi and Xu, Yifan and Zheng, Wendi and Xia, Xiao and others",
+      "title": "Glm-130b: An open bilingual pre-trained model",
+      "ENTRYTYPE": "article",
+      "ID": "chatglm"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2308.10882",
+      "author": "Pal, Arka and Karkhanis, Deep and Roberts, Manley and Dooley, Samuel and Sundararajan, Arvind and Naidu, Siddartha",
+      "title": "Giraffe: Adventures in expanding context lengths in llms",
+      "ENTRYTYPE": "article",
+      "ID": "giraffe"
+    },
+    {
+      "primaryclass": "cs.CL",
+      "archiveprefix": "arXiv",
+      "eprint": "2307.03170",
+      "year": "2023",
+      "author": "Szymon Tworkowski and Konrad Staniszewski and Mikołaj Pacek and Yuhuai Wu and Henryk Michalewski and Piotr Miłoś",
+      "title": "Focused Transformer: Contrastive Training for Context Scaling",
+      "ENTRYTYPE": "misc",
+      "ID": "longllama"
+    },
+    {
+      "year": "2021",
+      "journal": "arXiv preprint arXiv:2106.09685",
+      "author": "Hu, Edward J and Shen, Yelong and Wallis, Phillip and Allen-Zhu, Zeyuan and Li, Yuanzhi and Wang, Shean and Wang, Lu and Chen, Weizhu",
+      "title": "Lora: Low-rank adaptation of large language models",
+      "ENTRYTYPE": "article",
+      "ID": "lora"
+    },
+    {
+      "year": "2020",
+      "journal": "arXiv preprint arXiv:2010.03768",
+      "author": "Shridhar, Mohit and Yuan, Xingdi and C{\\^o}t{\\'e}, Marc-Alexandre and Bisk, Yonatan and Trischler, Adam and Hausknecht, Matthew",
+      "title": "Alfworld: Aligning text and embodied environments for interactive learning",
+      "ENTRYTYPE": "article",
+      "ID": "alfworld"
+    },
+    {
+      "year": "2016",
+      "journal": "arXiv preprint arXiv:1606.01540",
+      "author": "Brockman, Greg and Cheung, Vicki and Pettersson, Ludwig and Schneider, Jonas and Schulman, John and Tang, Jie and Zaremba, Wojciech",
+      "title": "Openai gym",
+      "ENTRYTYPE": "article",
+      "ID": "gym"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "2019",
+      "pages": "535--547",
+      "number": "3",
+      "volume": "7",
+      "journal": "IEEE Transactions on Big Data",
+      "author": "Johnson, Jeff and Douze, Matthijs and J{\\'e}gou, Herv{\\'e}",
+      "title": "Billion-scale similarity search with gpus",
+      "ENTRYTYPE": "article",
+      "ID": "faiss"
+    },
+    {
+      "year": "2004",
+      "pages": "74--81",
+      "booktitle": "Text summarization branches out",
+      "author": "Lin, Chin-Yew",
+      "title": "Rouge: A package for automatic evaluation of summaries",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "rouge"
+    },
+    {
+      "year": "2019",
+      "journal": "arXiv preprint arXiv:1904.09675",
+      "author": "Zhang, Tianyi and Kishore, Varsha and Wu, Felix and Weinberger, Kilian Q and Artzi, Yoav",
+      "title": "Bertscore: Evaluating text generation with bert",
+      "ENTRYTYPE": "article",
+      "ID": "bertscore"
+    },
+    {
+      "publisher": "Prentice-hall Englewood Cliffs, NJ",
+      "year": "1972",
+      "number": "9",
+      "volume": "104",
+      "author": "Newell, Allen and Simon, Herbert Alexander and others",
+      "title": "Human problem solving",
+      "ENTRYTYPE": "book",
+      "ID": "human_problem_solving"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "1968",
+      "pages": "89--195",
+      "volume": "2",
+      "booktitle": "Psychology of learning and motivation",
+      "author": "Atkinson, Richard C and Shiffrin, Richard M",
+      "title": "Human memory: A proposed system and its control processes",
+      "ENTRYTYPE": "incollection",
+      "ID": "human_memory"
+    },
+    {
+      "publisher": "American Psychological Association",
+      "year": "1965",
+      "pages": "89",
+      "number": "2",
+      "volume": "72",
+      "journal": "Psychological review",
+      "author": "Waugh, Nancy C and Norman, Donald A",
+      "title": "Primary memory.",
+      "ENTRYTYPE": "article",
+      "ID": "primary_memory"
+    },
+    {
+      "publisher": "New York",
+      "year": "1972",
+      "pages": "1",
+      "number": "381-403",
+      "volume": "1",
+      "journal": "Organization of memory",
+      "author": "Tulving, Endel and others",
+      "title": "Episodic and semantic memory",
+      "ENTRYTYPE": "article",
+      "ID": "episodic_and_semantic_memory"
+    },
+    {
+      "publisher": "American Association for the Advancement of Science",
+      "year": "1992",
+      "pages": "556--559",
+      "number": "5044",
+      "volume": "255",
+      "journal": "Science",
+      "author": "Baddeley, Alan",
+      "title": "Working memory",
+      "ENTRYTYPE": "article",
+      "ID": "working_memory"
+    },
+    {
+      "publisher": "Houghton Mifflin Harcourt P",
+      "year": "1979",
+      "author": "Solso, Robert L and Kagan, Jerome",
+      "title": "Cognitive psychology",
+      "ENTRYTYPE": "book",
+      "ID": "solso1979cognitive"
+    },
+    {
+      "publisher": "Cambridge University Press Cambridge, UK",
+      "year": "1999",
+      "pages": "1--27",
+      "journal": "Models of working memory: Mechanisms of active maintenance and executive control",
+      "author": "Shah, Priti and Miyake, Akira",
+      "title": "Models of working memory",
+      "ENTRYTYPE": "article",
+      "ID": "shah1999models"
+    },
+    {
+      "author": "Nelson Cowan",
+      "doi": "https://doi.org/10.1016/S0079-6123(07)00020-9",
+      "issn": "0079-6123",
+      "booktitle": "Essence of Memory",
+      "year": "2008",
+      "pages": "323-338",
+      "volume": "169",
+      "publisher": "Elsevier",
+      "title": "Chapter 20 What are the differences between long-term, short-term, and working memory?",
+      "ENTRYTYPE": "incollection",
+      "ID": "COWAN2008323"
+    },
+    {
+      "year": "1885",
+      "journal": "HA Ruger \\& CE Bussenius. Teachers College.[rWvH]",
+      "author": "Ebbinghaus, Hermann",
+      "title": "Memory: A contribution to experimental psychology, trans",
+      "ENTRYTYPE": "article",
+      "ID": "ebbinghaus1885memory"
+    },
+    {
+      "publisher": "Public Library of Science San Francisco, CA USA",
+      "year": "2015",
+      "pages": "e0120644",
+      "number": "7",
+      "volume": "10",
+      "journal": "PloS one",
+      "author": "Murre, Jaap MJ and Dros, Joeri",
+      "title": "Replication and analysis of Ebbinghaus’ forgetting curve",
+      "ENTRYTYPE": "article",
+      "ID": "murre2015replication"
+    },
+    {
+      "publisher": "Psychology press",
+      "year": "2020",
+      "author": "Eysenck, Michael W and Keane, Mark T",
+      "title": "Cognitive psychology: A student's handbook",
+      "ENTRYTYPE": "book",
+      "ID": "eysenck2020cognitive"
+    },
+    {
+      "publisher": "Cambridge University Press",
+      "year": "1994",
+      "number": "6",
+      "author": "Neisser, Ulric and Fivush, Robyn",
+      "title": "The remembering self: Construction and accuracy in the self-narrative",
+      "ENTRYTYPE": "book",
+      "ID": "neisser1994remembering"
+    },
+    {
+      "publisher": "SAGE Publications Ltd",
+      "year": "2020",
+      "author": "Fiske, Susan T Tufts",
+      "title": "Social cognition: From brains to culture",
+      "ENTRYTYPE": "article",
+      "ID": "fiske2020social"
+    },
+    {
+      "publisher": "Frontiers",
+      "year": "2017",
+      "pages": "235933",
+      "volume": "8",
+      "journal": "Frontiers in psychology",
+      "author": "Tyng, Chai M and Amin, Hafeez U and Saad, Mohamad NM and Malik, Aamir S",
+      "title": "The influences of emotion on learning and memory",
+      "ENTRYTYPE": "article",
+      "ID": "tyng2017influences"
+    },
+    {
+      "year": "2012",
+      "author": "Wells, Nancy M and Rollings, Kimberly A",
+      "title": "The natural environment in residential settings: Influences on human health and function",
+      "ENTRYTYPE": "article",
+      "ID": "wells2012natural"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2310.09233",
+      "author": "Zhang, Junjie and Hou, Yupeng and Xie, Ruobing and Sun, Wenqi and McAuley, Julian and Zhao, Wayne Xin and Lin, Leyu and Wen, Ji-Rong",
+      "title": "Agentcf: Collaborative learning with autonomous language agents for recommender systems",
+      "ENTRYTYPE": "article",
+      "ID": "zhang2023agentcf"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2309.15943",
+      "author": "Chen, Yongchao and Arkin, Jacob and Zhang, Yang and Roy, Nicholas and Fan, Chuchu",
+      "title": "Scalable Multi-Robot Collaboration with Large Language Models: Centralized or Decentralized Systems?",
+      "ENTRYTYPE": "article",
+      "ID": "chen2023scalable"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2310.18940",
+      "author": "Xu, Zelai and Yu, Chao and Fang, Fei and Wang, Yu and Wu, Yi",
+      "title": "Language agents with reinforcement learning for strategic play in the werewolf game",
+      "ENTRYTYPE": "article",
+      "ID": "xu2023language"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2310.01320",
+      "author": "Wang, Shenzhi and Liu, Chang and Zheng, Zilong and Qi, Siyuan and Chen, Shuo and Yang, Qisen and Zhao, Andrew and Wang, Chaofei and Song, Shiji and Huang, Gao",
+      "title": "Avalon's Game of Thoughts: Battle Against Deception through Recursive Contemplation",
+      "ENTRYTYPE": "article",
+      "ID": "wang2023avalon"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2307.07924",
+      "author": "Qian, Chen and Cong, Xin and Yang, Cheng and Chen, Weize and Su, Yusheng and Xu, Juyuan and Liu, Zhiyuan and Sun, Maosong",
+      "title": "Communicative agents for software development",
+      "ENTRYTYPE": "article",
+      "ID": "qian2023communicative"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2308.00352",
+      "author": "Hong, Sirui and Zheng, Xiawu and Chen, Jonathan and Cheng, Yuheng and Wang, Jinlin and Zhang, Ceyao and Wang, Zili and Yau, Steven Ka Shing and Lin, Zijuan and Zhou, Liyang and others",
+      "title": "Metagpt: Meta programming for multi-agent collaborative framework",
+      "ENTRYTYPE": "article",
+      "ID": "hong2023metagpt"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2304.07590",
+      "author": "Dong, Yihong and Jiang, Xue and Jin, Zhi and Li, Ge",
+      "title": "Self-collaboration Code Generation via ChatGPT",
+      "ENTRYTYPE": "article",
+      "ID": "dong2023self"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2307.04738",
+      "author": "Mandi, Zhao and Jain, Shreeya and Song, Shuran",
+      "title": "Roco: Dialectic multi-robot collaboration with large language models",
+      "ENTRYTYPE": "article",
+      "ID": "mandi2023roco"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2310.02124",
+      "author": "Zhang, Jintian and Xu, Xin and Deng, Shumin",
+      "title": "Exploring collaboration mechanisms for llm agents: A social psychology view",
+      "ENTRYTYPE": "article",
+      "ID": "zhang2023exploring"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2307.02485",
+      "author": "Zhang, Hongxin and Du, Weihua and Shan, Jiaming and Zhou, Qinhong and Du, Yilun and Tenenbaum, Joshua B and Shu, Tianmin and Gan, Chuang",
+      "title": "Building cooperative embodied agents modularly with large language models",
+      "ENTRYTYPE": "article",
+      "ID": "zhang2023building"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2310.07937",
+      "author": "Yu, Bangguo and Kasaei, Hamidreza and Cao, Ming",
+      "title": "Co-NavGPT: Multi-Robot Cooperative Visual Semantic Navigation using Large Language Models",
+      "ENTRYTYPE": "article",
+      "ID": "yu2023co"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2310.05036",
+      "author": "Light, Jonathan and Cai, Min and Shen, Sheng and Hu, Ziniu",
+      "title": "From text to tactic: Evaluating llms playing the game of avalon",
+      "ENTRYTYPE": "article",
+      "ID": "light2023text"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2311.03220",
+      "author": "Mao, Shaoguang and Cai, Yuzhe and Xia, Yan and Wu, Wenshan and Wang, Xun and Wang, Fengyi and Ge, Tao and Wei, Furu",
+      "title": "Alympics: Language agents meet game theory",
+      "ENTRYTYPE": "article",
+      "ID": "mao2023alympics"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2305.14196",
+      "author": "Shaham, Uri and Ivgi, Maor and Efrat, Avia and Berant, Jonathan and Levy, Omer",
+      "title": "Zeroscrolls: A zero-shot benchmark for long text understanding",
+      "ENTRYTYPE": "article",
+      "ID": "zeroscrolls"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2308.14508",
+      "author": "Bai, Yushi and Lv, Xin and Zhang, Jiajie and Lyu, Hongchang and Tang, Jiankai and Huang, Zhidian and Du, Zhengxiao and Liu, Xiao and Zeng, Aohan and Hou, Lei and others",
+      "title": "Longbench: A bilingual, multitask benchmark for long context understanding",
+      "ENTRYTYPE": "article",
+      "ID": "longbench"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2309.13345",
+      "author": "Dong, Zican and Tang, Tianyi and Li, Junyi and Zhao, Wayne Xin and Wen, Ji-Rong",
+      "title": "Bamboo: A comprehensive benchmark for evaluating long text modeling capacities of large language models",
+      "ENTRYTYPE": "article",
+      "ID": "bamboo"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2307.11088",
+      "author": "An, Chenxin and Gong, Shansan and Zhong, Ming and Li, Mukai and Zhang, Jun and Kong, Lingpeng and Qiu, Xipeng",
+      "title": "L-eval: Instituting standardized evaluation for long context language models",
+      "ENTRYTYPE": "article",
+      "ID": "l_eval"
+    },
+    {
+      "year": "2023",
+      "booktitle": "NeurIPS 2023 Workshop on Instruction Tuning and Instruction Following",
+      "author": "Li, Dacheng and Shao, Rulin and Xie, Anze and Sheng, Ying and Zheng, Lianmin and Gonzalez, Joseph and Stoica, Ion and Ma, Xuezhe and Zhang, Hao",
+      "title": "How Long Can Context Length of Open-Source LLMs truly Promise?",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "longeval"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "1972",
+      "pages": "671--684",
+      "number": "6",
+      "volume": "11",
+      "journal": "Journal of verbal learning and verbal behavior",
+      "author": "Craik, Fergus IM and Lockhart, Robert S",
+      "title": "Levels of processing: A framework for memory research",
+      "ENTRYTYPE": "article",
+      "ID": "craik1972levels"
+    },
+    {
+      "publisher": "Routledge",
+      "year": "2017",
+      "author": "Leydesdorff, Selma",
+      "title": "Memory cultures: Memory, subjectivity and recognition",
+      "ENTRYTYPE": "book",
+      "ID": "leydesdorff2017memory"
+    },
+    {
+      "publisher": "Harvard University Press",
+      "year": "1983",
+      "number": "6",
+      "author": "Johnson-Laird, Philip Nicholas",
+      "title": "Mental models: Towards a cognitive science of language, inference, and consciousness",
+      "ENTRYTYPE": "book",
+      "ID": "johnson1983mental"
+    },
+    {
+      "publisher": "MIT press",
+      "year": "2019",
+      "author": "Laird, John E",
+      "title": "The Soar cognitive architecture",
+      "ENTRYTYPE": "book",
+      "ID": "laird2019soar"
+    },
+    {
+      "publisher": "Psychology Press",
+      "year": "2001",
+      "author": "Sun, Ron",
+      "title": "Duality of the mind: A bottom-up approach toward cognition",
+      "ENTRYTYPE": "book",
+      "ID": "sun2001duality"
+    },
+    {
+      "year": "2020",
+      "pages": "59--68",
+      "booktitle": "Proceedings of the 43rd international acm sigir conference on research and development in information retrieval",
+      "author": "Montazeralghaem, Ali and Zamani, Hamed and Allan, James",
+      "title": "A reinforcement learning framework for relevance feedback",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "montazeralghaem2020reinforcement"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2308.00352",
+      "author": "Hong, Sirui and Zheng, Xiawu and Chen, Jonathan and Cheng, Yuheng and Wang, Jinlin and Zhang, Ceyao and Wang, Zili and Yau, Steven Ka Shing and Lin, Zijuan and Zhou, Liyang and others",
+      "title": "Metagpt: Meta programming for multi-agent collaborative framework",
+      "ENTRYTYPE": "article",
+      "ID": "metagpt"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2023",
+      "pages": "337--371",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Aher, Gati V and Arriaga, Rosa I and Kalai, Adam Tauman",
+      "title": "Using large language models to simulate multiple humans and replicate human subject studies",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "aher2023using"
+    },
+    {
+      "year": "2007",
+      "title": "Scaling Learning Algorithms Towards {AI}",
+      "publisher": "MIT Press",
+      "booktitle": "Large Scale Kernel Machines",
+      "author": "Bengio, Yoshua and LeCun, Yann",
+      "ENTRYTYPE": "incollection",
+      "ID": "Bengio+chapter2007"
+    },
+    {
+      "year": "2006",
+      "volume": "18",
+      "title": "A Fast Learning Algorithm for Deep Belief Nets",
+      "pages": "1527--1554",
+      "journal": "Neural Computation",
+      "author": "Hinton, Geoffrey E. and Osindero, Simon and Teh, Yee Whye",
+      "ENTRYTYPE": "article",
+      "ID": "Hinton06"
+    },
+    {
+      "publisher": "MIT Press",
+      "year": "2016",
+      "volume": "1",
+      "author": "Goodfellow, Ian and Bengio, Yoshua and Courville, Aaron and Bengio, Yoshua",
+      "title": "Deep learning",
+      "ENTRYTYPE": "book",
+      "ID": "goodfellow2016deep"
+    },
+    {
+      "year": "2020",
+      "volume": "33",
+      "title": "Language Models are Few-Shot Learners",
+      "pages": "1877--1901",
+      "booktitle": "Advances in Neural Information Processing Systems",
+      "author": "Brown, Tom and Mann, Benjamin and Ryder, Nick and Subbiah, Melanie and Kaplan, Jared D and Dhariwal, Prafulla and Neelakantan, Arvind and Shyam, Pranav and Sastry, Girish and Askell, Amanda and Agarwal, Sandhini and Herbert-Voss, Ariel and Krueger, Gretchen and Henighan, Tom and Child, Rewon and Ramesh, Aditya and Ziegler, Daniel and Wu, Jeffrey and Winter, Clemens and Hesse, Chris and Chen, Mark and Sigler, Eric and Litwin, Mateusz and Gray, Scott and Chess, Benjamin and Clark, Jack and Berner, Christopher and McCandlish, Sam and Radford, Alec and Sutskever, Ilya and Amodei, Dario",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "llm1"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2307.09288",
+      "author": "Touvron, Hugo and Martin, Louis and Stone, Kevin and Albert, Peter and Almahairi, Amjad and Babaei, Yasmine and Bashlykov, Nikolay and Batra, Soumya and Bhargava, Prajjwal and Bhosale, Shruti and others",
+      "title": "Llama 2: Open foundation and fine-tuned chat models",
+      "ENTRYTYPE": "article",
+      "ID": "touvron2023llama2"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2407.21783",
+      "author": "Dubey, Abhimanyu and Jauhri, Abhinav and Pandey, Abhinav and Kadian, Abhishek and Al-Dahle, Ahmad and Letman, Aiesha and Mathur, Akhil and Schelten, Alan and Yang, Amy and Fan, Angela and others",
+      "title": "The llama 3 herd of models",
+      "ENTRYTYPE": "article",
+      "ID": "dubey2024llama3"
+    },
+    {
+      "year": "2023",
+      "pages": "240:1--240:113",
+      "volume": "24",
+      "journal": "Journal of Machine Learning Research",
+      "title": "PaLM: Scaling Language Modeling with Pathways",
+      "author": "Aakanksha Chowdhery and\nSharan Narang and\nJacob Devlin and\nMaarten Bosma and\nGaurav Mishra and\nAdam Roberts and\nPaul Barham and\nHyung Won Chung and\nCharles Sutton and\nSebastian Gehrmann and\nParker Schuh and\nKensen Shi and\nSasha Tsvyashchenko and\nJoshua Maynez and\nAbhishek Rao and\nParker Barnes and\nYi Tay and\nNoam Shazeer and\nVinodkumar Prabhakaran and\nEmily Reif and\nNan Du and\nBen Hutchinson and\nReiner Pope and\nJames Bradbury and\nJacob Austin and\nMichael Isard and\nGuy Gur{-}Ari and\nPengcheng Yin and\nToju Duke and\nAnselm Levskaya and\nSanjay Ghemawat and\nSunipa Dev and\nHenryk Michalewski and\nXavier Garcia and\nVedant Misra and\nKevin Robinson and\nLiam Fedus and\nDenny Zhou and\nDaphne Ippolito and\nDavid Luan and\nHyeontaek Lim and\nBarret Zoph and\nAlexander Spiridonov and\nRyan Sepassi and\nDavid Dohan and\nShivani Agrawal and\nMark Omernick and\nAndrew M. Dai and\nThanumalayan Sankaranarayana Pillai and\nMarie Pellat and\nAitor Lewkowycz and\nErica Moreira and\nRewon Child and\nOleksandr Polozov and\nKatherine Lee and\nZongwei Zhou and\nXuezhi Wang and\nBrennan Saeta and\nMark Diaz and\nOrhan Firat and\nMichele Catasta and\nJason Wei and\nKathy Meier{-}Hellstern and\nDouglas Eck and\nJeff Dean and\nSlav Petrov and\nNoah Fiedel",
+      "ENTRYTYPE": "article",
+      "ID": "llm4"
+    },
+    {
+      "year": "2020",
+      "booktitle": "8th International Conference on Learning Representations",
+      "title": "Neural Text Generation With Unlikelihood Training",
+      "author": "Sean Welleck and\nIlia Kulikov and\nStephen Roller and\nEmily Dinan and\nKyunghyun Cho and\nJason Weston",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "hallu1"
+    },
+    {
+      "year": "2023",
+      "pages": "9802--9822",
+      "booktitle": "Proceedings of the 61st Annual Meeting of the Association for Computational\nLinguistics (Volume 1: Long Papers)",
+      "title": "When Not to Trust Language Models: Investigating Effectiveness of\nParametric and Non-Parametric Memories",
+      "author": "Alex Mallen and\nAkari Asai and\nVictor Zhong and\nRajarshi Das and\nDaniel Khashabi and\nHannaneh Hajishirzi",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "hallu2"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2309.01219",
+      "author": "Zhang, Yue and Li, Yafu and Cui, Leyang and Cai, Deng and Liu, Lemao and Fu, Tingchen and Huang, Xinting and Zhao, Enbo and Zhang, Yu and Chen, Yulong and others",
+      "title": "Siren's song in the AI ocean: a survey on hallucination in large language models",
+      "ENTRYTYPE": "article",
+      "ID": "hallu3"
+    },
+    {
+      "year": "2020",
+      "booktitle": "Advances in Neural Information Processing Systems",
+      "title": "Retrieval-Augmented Generation for Knowledge-Intensive {NLP} Tasks",
+      "author": "Patrick S. H. Lewis and\nEthan Perez and\nAleksandra Piktus and\nFabio Petroni and\nVladimir Karpukhin and\nNaman Goyal and\nHeinrich K{\\\"{u}}ttler and\nMike Lewis and\nWen{-}tau Yih and\nTim Rockt{\\\"{a}}schel and\nSebastian Riedel and\nDouwe Kiela",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "rag1"
+    },
+    {
+      "year": "2020",
+      "pages": "3929--3938",
+      "volume": "119",
+      "series": "Proceedings of Machine Learning Research",
+      "booktitle": "Proceedings of the 37th International Conference on Machine Learning",
+      "title": "Retrieval Augmented Language Model Pre-Training",
+      "author": "Kelvin Guu and\nKenton Lee and\nZora Tung and\nPanupong Pasupat and\nMing{-}Wei Chang",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "one-time1"
+    },
+    {
+      "year": "2022",
+      "pages": "2206--2240",
+      "volume": "162",
+      "series": "Proceedings of Machine Learning Research",
+      "booktitle": "International Conference on Machine Learning",
+      "title": "Improving Language Models by Retrieving from Trillions of Tokens",
+      "author": "Sebastian Borgeaud and\nArthur Mensch and\nJordan Hoffmann and\nTrevor Cai and\nEliza Rutherford and\nKatie Millican and\nGeorge van den Driessche and\nJean{-}Baptiste Lespiau and\nBogdan Damoc and\nAidan Clark and\nDiego de Las Casas and\nAurelia Guy and\nJacob Menick and\nRoman Ring and\nTom Hennigan and\nSaffron Huang and\nLoren Maggiore and\nChris Jones and\nAlbin Cassirer and\nAndy Brock and\nMichela Paganini and\nGeoffrey Irving and\nOriol Vinyals and\nSimon Osindero and\nKaren Simonyan and\nJack W. Rae and\nErich Elsen and\nLaurent Sifre",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "one-time2"
+    },
+    {
+      "year": "2023",
+      "pages": "1--43",
+      "number": "251",
+      "volume": "24",
+      "journal": "Journal of Machine Learning Research",
+      "author": "Izacard, Gautier and Lewis, Patrick and Lomeli, Maria and Hosseini, Lucas and Petroni, Fabio and Schick, Timo and Dwivedi-Yu, Jane and Joulin, Armand and Riedel, Sebastian and Grave, Edouard",
+      "title": "Atlas: Few-shot learning with retrieval augmented language models",
+      "ENTRYTYPE": "article",
+      "ID": "one-time3"
+    },
+    {
+      "year": "2023",
+      "pages": "10014--10037",
+      "booktitle": "Proceedings of the 61st Annual Meeting of the Association for Computational\nLinguistics (Volume 1: Long Papers)",
+      "title": "Interleaving Retrieval with Chain-of-Thought Reasoning for Knowledge-Intensive\nMulti-Step Questions",
+      "author": "Harsh Trivedi and\nNiranjan Balasubramanian and\nTushar Khot and\nAshish Sabharwal",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "IRCoT"
+    },
+    {
+      "year": "2023",
+      "pages": "9248--9274",
+      "booktitle": "Findings of the Association for Computational Linguistics: {EMNLP}",
+      "title": "Enhancing Retrieval-Augmented Large Language Models with Iterative\nRetrieval-Generation Synergy",
+      "author": "Zhihong Shao and\nYeyun Gong and\nYelong Shen and\nMinlie Huang and\nNan Duan and\nWeizhu Chen",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "Iter-RetGen"
+    },
+    {
+      "year": "2024",
+      "pages": "730--740",
+      "booktitle": "Proceedings of the 47th International {ACM} {SIGIR} Conference on\nResearch and Development in Information Retrieval",
+      "title": "{IM-RAG:} Multi-Round Retrieval-Augmented Generation Through Learning\nInner Monologues",
+      "author": "Diji Yang and\nJinmeng Rao and\nKezhen Chen and\nXiaoyuan Guo and\nYawen Zhang and\nJie Yang and\nYi Zhang",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "IM-RAG"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2305.14283",
+      "author": "Ma, Xinbei and Gong, Yeyun and He, Pengcheng and Zhao, Hai and Duan, Nan",
+      "title": "Query rewriting for retrieval-augmented large language models",
+      "ENTRYTYPE": "article",
+      "ID": "QueryRewrite"
+    },
+    {
+      "year": "2023",
+      "pages": "5687--5711",
+      "booktitle": "Findings of the Association for Computational Linguistics: {EMNLP}",
+      "title": "Measuring and Narrowing the Compositionality Gap in Language Models",
+      "author": "Ofir Press and\nMuru Zhang and\nSewon Min and\nLudwig Schmidt and\nNoah A. Smith and\nMike Lewis",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "Self-Ask"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2407.13101",
+      "author": "Jiang, Zhouyu and Sun, Mengshu and Liang, Lei and Zhang, Zhiqiang",
+      "title": "Retrieve, Summarize, Plan: Advancing Multi-hop Question Answering with an Iterative Approach",
+      "ENTRYTYPE": "article",
+      "ID": "ReSP"
+    },
+    {
+      "year": "1978",
+      "pages": "1",
+      "number": "1",
+      "volume": "85",
+      "journal": "Psychological review",
+      "author": "Braine, Martin D",
+      "title": "On the relation between the natural logic of reasoning and standard logic.",
+      "ENTRYTYPE": "article",
+      "ID": "relation"
+    },
+    {
+      "year": "2023",
+      "pages": "6779--6789",
+      "booktitle": "Findings of the Association for Computational Linguistics: {EMNLP}",
+      "title": "Leveraging Structured Information for Explainable Multi-hop Question\nAnswering and Reasoning",
+      "author": "Ruosen Li and\nXinya Du",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "sg"
+    },
+    {
+      "year": "2024",
+      "pages": "13263--13282",
+      "booktitle": "Proceedings of the 62nd Annual Meeting of the Association for Computational\nLinguistics (Volume 1: Long Papers)",
+      "title": "{HOLMES:} Hyper-Relational Knowledge Graphs for Multi-hop Question\nAnswering using LLMs",
+      "author": "Pranoy Panda and\nAnkush Agarwal and\nChaitanya Devaguptapu and\nManohar Kaul and\nPrathosh A P",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "holmes"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2406.11460",
+      "author": "Fang, Jinyuan and Meng, Zaiqiao and Macdonald, Craig",
+      "title": "TRACE the Evidence: Constructing Knowledge-Grounded Reasoning Chains for Retrieval-Augmented Generation",
+      "ENTRYTYPE": "article",
+      "ID": "fang2024trace"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2404.13985",
+      "author": "Cheng, Xiaoxia and Tan, Zeqi and Lu, Weiming",
+      "title": "Information Re-Organization Improves Reasoning in Large Language Models",
+      "ENTRYTYPE": "article",
+      "ID": "infore"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2404.16130",
+      "author": "Edge, Darren and Trinh, Ha and Cheng, Newman and Bradley, Joshua and Chao, Alex and Mody, Apurva and Truitt, Steven and Larson, Jonathan",
+      "title": "From local to global: A graph rag approach to query-focused summarization",
+      "ENTRYTYPE": "article",
+      "ID": "GraphRAG"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2408.08921",
+      "author": "Peng, Boci and Zhu, Yun and Liu, Yongchao and Bo, Xiaohe and Shi, Haizhou and Hong, Chuntao and Zhang, Yan and Tang, Siliang",
+      "title": "Graph Retrieval-Augmented Generation: A Survey",
+      "ENTRYTYPE": "article",
+      "ID": "GraphRAGSurvey"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2408.04187",
+      "author": "Wu, Junde and Zhu, Jiayuan and Qi, Yunli",
+      "title": "Medical Graph RAG: Towards Safe Medical Large Language Model via Graph Retrieval-Augmented Generation",
+      "ENTRYTYPE": "article",
+      "ID": "wu2024medicalgraphrag"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2408.04948",
+      "author": "Sarmah, Bhaskarjit and Hall, Benika and Rao, Rohan and Patel, Sunil and Pasquali, Stefano and Mehta, Dhagash",
+      "title": "HybridRAG: Integrating Knowledge Graphs and Vector Retrieval Augmented Generation for Efficient Information Extraction",
+      "ENTRYTYPE": "article",
+      "ID": "sarmah2024hybridrag"
+    },
+    {
+      "publisher": "Teachers College Press",
+      "year": "2013",
+      "author": "Fosnot, Catherine Twomey",
+      "title": "Constructivism: Theory, perspectives, and practice",
+      "ENTRYTYPE": "book",
+      "ID": "fosnot2013constructivism"
+    },
+    {
+      "year": "2022",
+      "pages": "1069--1078",
+      "booktitle": "The 28th {ACM} {SIGKDD} Conference on Knowledge Discovery\nand Data Mining",
+      "title": "Graph Rationalization with Environment-based Augmentations",
+      "author": "Gang Liu and\nTong Zhao and\nJiaxin Xu and\nTengfei Luo and\nMeng Jiang",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "graph_rationale"
+    },
+    {
+      "year": "2022",
+      "pages": "13052--13065",
+      "volume": "162",
+      "series": "Proceedings of Machine Learning Research",
+      "booktitle": "International Conference on Machine Learning",
+      "title": "Let Invariant Rationale Discovery Inspire Graph Contrastive Learning",
+      "author": "Sihang Li and\nXiang Wang and\nAn Zhang and\nYingxin Wu and\nXiangnan He and\nTat{-}Seng Chua",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "graph_rationale_icml"
+    },
+    {
+      "year": "2022",
+      "booktitle": "Advances in Neural Information Processing Systems",
+      "title": "STaR: Bootstrapping Reasoning With Reasoning",
+      "author": "Eric Zelikman and\nYuhuai Wu and\nJesse Mu and\nNoah D. Goodman",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "star"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2308.01825",
+      "author": "Yuan, Zheng and Yuan, Hongyi and Li, Chengpeng and Dong, Guanting and Lu, Keming and Tan, Chuanqi and Zhou, Chang and Zhou, Jingren",
+      "title": "Scaling relationship on learning mathematical reasoning with large language models",
+      "ENTRYTYPE": "article",
+      "ID": "RFT"
+    },
+    {
+      "year": "2024",
+      "booktitle": "First Conference on Language Modeling",
+      "author": "Arian Hosseini and Xingdi Yuan and Nikolay Malkin and Aaron Courville and Alessandro Sordoni and Rishabh Agarwal",
+      "title": "V-{ST}aR: Training Verifiers for Self-Taught Reasoners",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "v-star"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2406.13094",
+      "author": "Bohnet, Bernd and Nova, Azade and Parisi, Aaron T and Swersky, Kevin and Goshvadi, Katayoon and Dai, Hanjun and Schuurmans, Dale and Fiedel, Noah and Sedghi, Hanie",
+      "title": "Exploring and Benchmarking the Planning Capabilities of Large Language Models",
+      "ENTRYTYPE": "article",
+      "ID": "planning"
+    },
+    {
+      "year": "2022",
+      "booktitle": "Advances in Neural Information Processing Systems",
+      "title": "Chain-of-Thought Prompting Elicits Reasoning in Large Language Models",
+      "author": "Jason Wei and\nXuezhi Wang and\nDale Schuurmans and\nMaarten Bosma and\nBrian Ichter and\nFei Xia and\nEd H. Chi and\nQuoc V. Le and\nDenny Zhou",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "CoT"
+    },
+    {
+      "year": "2014",
+      "pages": "1112--1119",
+      "booktitle": "Proceedings of the Twenty-Eighth {AAAI} Conference on Artificial Intelligence",
+      "title": "Knowledge Graph Embedding by Translating on Hyperplanes",
+      "author": "Zhen Wang and\nJianwen Zhang and\nJianlin Feng and\nZheng Chen",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "TransH"
+    },
+    {
+      "year": "2022",
+      "pages": "13209--13224",
+      "volume": "162",
+      "booktitle": "International Conference on Machine Learning",
+      "title": "HousE: Knowledge Graph Embedding with Householder Parameterization",
+      "author": "Rui Li and\nJianan Zhao and\nChaozhuo Li and\nDi He and\nYiqi Wang and\nYuming Liu and\nHao Sun and\nSenzhang Wang and\nWeiwei Deng and\nYanming Shen and\nXing Xie and\nQi Zhang",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "HousE"
+    },
+    {
+      "year": "2000",
+      "pages": "86--93",
+      "booktitle": "Proceedings of the 2000 {ACM} {CIKM} International Conference on Information\nand Knowledge Management",
+      "title": "Analyzing the Effectiveness and Applicability of Co-training",
+      "author": "Kamal Nigam and\nRayid Ghani",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "concept"
+    },
+    {
+      "year": "2024",
+      "journal": "Transactions on Machine Learning Research",
+      "title": "Beyond Human Data: Scaling Self-Training for Problem-Solving with\nLanguage Models",
+      "author": "Avi Singh and\nJohn D. Co{-}Reyes and\nRishabh Agarwal and\nAnkesh Anand and\nPiyush Patil and\nXavier Garcia and\nPeter J. Liu and\nJames Harrison and\nJaehoon Lee and\nKelvin Xu and\nAaron T. Parisi and\nAbhishek Kumar and\nAlexander A. Alemi and\nAlex Rizkowsky and\nAzade Nova and\nBen Adlam and\nBernd Bohnet and\nGamaleldin Fathy Elsayed and\nHanie Sedghi and\nIgor Mordatch and\nIsabelle Simpson and\nIzzeddin Gur and\nJasper Snoek and\nJeffrey Pennington and\nJiri Hron and\nKathleen Kenealy and\nKevin Swersky and\nKshiteej Mahajan and\nLaura Culp and\nLechao Xiao and\nMaxwell L. Bileschi and\nNoah Constant and\nRoman Novak and\nRosanne Liu and\nTris Warkentin and\nYundi Qian and\nYamini Bansal and\nEthan Dyer and\nBehnam Neyshabur and\nJascha Sohl{-}Dickstein and\nNoah Fiedel",
+      "ENTRYTYPE": "article",
+      "ID": "rest"
+    },
+    {
+      "year": "2024",
+      "booktitle": "Forty-first International Conference on Machine Learning",
+      "title": "Training Large Language Models for Reasoning through Reverse Curriculum\nReinforcement Learning",
+      "author": "Zhiheng Xi and\nWenxiang Chen and\nBoyang Hong and\nSenjie Jin and\nRui Zheng and\nWei He and\nYiwen Ding and\nShichun Liu and\nXin Guo and\nJunzhe Wang and\nHonglin Guo and\nWei Shen and\nXiaoran Fan and\nYuhao Zhou and\nShihan Dou and\nXiao Wang and\nXinbo Zhang and\nPeng Sun and\nTao Gui and\nQi Zhang and\nXuanjing Huang",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "R3"
+    },
+    {
+      "year": "2020",
+      "pages": "9448--9457",
+      "volume": "119",
+      "booktitle": "Proceedings of the 37th International Conference on Machine Learning",
+      "title": "Inductive Relation Prediction by Subgraph Reasoning",
+      "author": "Komal K. Teru and\nEtienne G. Denis and\nWilliam L. Hamilton",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "grail"
+    },
+    {
+      "year": "2018",
+      "pages": "2369--2380",
+      "booktitle": "Proceedings of the 2018 Conference on Empirical Methods in Natural\nLanguage Processing",
+      "title": "HotpotQA: {A} Dataset for Diverse, Explainable Multi-hop Question\nAnswering",
+      "author": "Zhilin Yang and\nPeng Qi and\nSaizheng Zhang and\nYoshua Bengio and\nWilliam W. Cohen and\nRuslan Salakhutdinov and\nChristopher D. Manning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "HotpotQA"
+    },
+    {
+      "year": "2020",
+      "pages": "6609--6625",
+      "booktitle": "Proceedings of the 28th International Conference on Computational\nLinguistics",
+      "title": "Constructing {A} Multi-hop {QA} Dataset for Comprehensive Evaluation\nof Reasoning Steps",
+      "author": "Xanh Ho and\nAnh{-}Khoa Duong Nguyen and\nSaku Sugawara and\nAkiko Aizawa",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "2Wiki"
+    },
+    {
+      "year": "2022",
+      "pages": "539--554",
+      "volume": "10",
+      "journal": "Transactions of the Association for Computational Linguistics",
+      "author": "Trivedi, Harsh and Balasubramanian, Niranjan and Khot, Tushar and Sabharwal, Ashish",
+      "title": "MuSiQue: Multihop Questions via Single-hop Question Composition",
+      "ENTRYTYPE": "article",
+      "ID": "trivedi2022musique"
+    },
+    {
+      "year": "2024",
+      "booktitle": "The Twelfth International Conference on Learning Representations",
+      "title": "SuRe: Summarizing Retrievals using Answer Candidates for Open-domain\n{QA} of LLMs",
+      "author": "Jaehyung Kim and\nJaehyun Nam and\nSangwoo Mo and\nJongjin Park and\nSang{-}Woo Lee and\nMinjoon Seo and\nJung{-}Woo Ha and\nJinwoo Shin",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "sure"
+    },
+    {
+      "year": "2020",
+      "pages": "6769--6781",
+      "booktitle": "Proceedings of the 2020 Conference on Empirical Methods in Natural\nLanguage Processing",
+      "title": "Dense Passage Retrieval for Open-Domain Question Answering",
+      "author": "Vladimir Karpukhin and\nBarlas Oguz and\nSewon Min and\nPatrick S. H. Lewis and\nLedell Wu and\nSergey Edunov and\nDanqi Chen and\nWen{-}tau Yih",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "dpr"
+    },
+    {
+      "year": "2024",
+      "booktitle": "The Twelfth International Conference on Learning Representations",
+      "title": "{RECOMP:} Improving Retrieval-Augmented LMs with Context Compression\nand Selective Augmentation",
+      "author": "Fangyuan Xu and\nWeijia Shi and\nEunsol Choi",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "recomp"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2402.05201",
+      "author": "Renze, Matthew and Guven, Erhan",
+      "title": "The effect of sampling temperature on problem solving in large language models",
+      "ENTRYTYPE": "article",
+      "ID": "renze2024effect"
+    },
+    {
+      "publisher": "Now Publishers, Inc.",
+      "year": "2009",
+      "pages": "333--389",
+      "number": "4",
+      "volume": "3",
+      "journal": "Foundations and Trends{\\textregistered} in Information Retrieval",
+      "author": "Robertson, Stephen and Zaragoza, Hugo and others",
+      "title": "The probabilistic relevance framework: BM25 and beyond",
+      "ENTRYTYPE": "article",
+      "ID": "bm25"
+    },
+    {
+      "year": "2022",
+      "journal": "Transactions on Machine Learning Research",
+      "author": "Izacard, Gautier and Caron, Mathilde and Hosseini, Lucas and Riedel, Sebastian and Bojanowski, Piotr and Joulin, Armand and Grave, Edouard",
+      "title": "Unsupervised Dense Information Retrieval with Contrastive Learning",
+      "ENTRYTYPE": "article",
+      "ID": "contriver"
+    },
+    {
+      "publisher": "\" O'Reilly Media, Inc.\"",
+      "year": "2015",
+      "author": "Gormley, Clinton and Tong, Zachary",
+      "title": "Elasticsearch: the definitive guide: a distributed real-time search and analytics engine",
+      "ENTRYTYPE": "book",
+      "ID": "gormley2015elasticsearch"
+    },
+    {
+      "year": "2021",
+      "booktitle": "Thirty-fifth Conference on Neural Information Processing Systems Datasets and Benchmarks Track (Round 2)",
+      "author": "Nandan Thakur and Nils Reimers and Andreas R{\\\"u}ckl{\\'e} and Abhishek Srivastava and Iryna Gurevych",
+      "title": "{BEIR}: A Heterogeneous Benchmark for Zero-shot Evaluation of Information Retrieval Models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "thakur2021beir"
+    },
+    {
+      "year": "2022",
+      "journal": "\\url{https://openai.com/blog/chatgpt}",
+      "author": "OpenAI",
+      "title": "Introducing chatgpt",
+      "ENTRYTYPE": "article",
+      "ID": "openai2022chatgpt"
+    },
+    {
+      "year": "2024",
+      "pages": "8780--8794",
+      "booktitle": "Proceedings of the 62nd Annual Meeting of the Association for Computational\nLinguistics (Volume 1: Long Papers)",
+      "title": "ERA-CoT: Improving Chain-of-Thought through Entity Relationship Analysis",
+      "author": "Yanming Liu and\nXinyue Peng and\nTianyu Du and\nJianwei Yin and\nWeihao Liu and\nXuhong Zhang",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "era-cot"
+    },
+    {
+      "year": "2023",
+      "pages": "1--38",
+      "number": "12",
+      "volume": "55",
+      "journal": "ACM Computing Surveys",
+      "author": "Ji, Ziwei and Lee, Nayeon and Frieske, Rita and Yu, Tiezheng and Su, Dan and Xu, Yan and Ishii, Etsuko and Bang, Ye Jin and Madotto, Andrea and Fung, Pascale",
+      "title": "Survey of hallucination in natural language generation",
+      "ENTRYTYPE": "article",
+      "ID": "hallu"
+    },
+    {
+      "year": "2023",
+      "pages": "31210--31227",
+      "volume": "202",
+      "booktitle": "International Conference on Machine Learning",
+      "title": "Large Language Models Can Be Easily Distracted by Irrelevant Context",
+      "author": "Freda Shi and\nXinyun Chen and\nKanishka Misra and\nNathan Scales and\nDavid Dohan and\nEd H. Chi and\nNathanael Sch{\\\"{a}}rli and\nDenny Zhou",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "distract"
+    },
+    {
+      "year": "2021",
+      "journal": "arXiv preprint arXiv:2101.00774",
+      "author": "Zhu, Fengbin and Lei, Wenqiang and Wang, Chao and Zheng, Jianming and Poria, Soujanya and Chua, Tat-Seng",
+      "title": "Retrieving and reading: A comprehensive survey on open-domain question answering",
+      "ENTRYTYPE": "article",
+      "ID": "zhu2021retrieving-then-read"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2305.14283",
+      "author": "Ma, Xinbei and Gong, Yeyun and He, Pengcheng and Zhao, Hai and Duan, Nan",
+      "title": "Query rewriting for retrieval-augmented large language models",
+      "ENTRYTYPE": "article",
+      "ID": "ma2023query_rewrite"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2312.10997",
+      "author": "Gao, Yunfan and Xiong, Yun and Gao, Xinyu and Jia, Kangxiang and Pan, Jinliu and Bi, Yuxi and Dai, Yi and Sun, Jiawei and Wang, Haofen",
+      "title": "Retrieval-augmented generation for large language models: A survey",
+      "ENTRYTYPE": "article",
+      "ID": "gao2023rag_survey"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2203.05115",
+      "author": "Lazaridou, Angeliki and Gribovskaya, Elena and Stokowiec, Wojciech and Grigorev, Nikolai",
+      "title": "Internet-augmented language models through few-shot prompting for open-domain question answering",
+      "ENTRYTYPE": "article",
+      "ID": "early_rag_1"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2206.08486",
+      "author": "Deng, Zhenyun and Zhu, Yonghua and Chen, Yang and Witbrock, Michael and Riddle, Patricia",
+      "title": "Interpretable AMR-based question decomposition for multi-hop question answering",
+      "ENTRYTYPE": "article",
+      "ID": "deng2022interpretable"
+    },
+    {
+      "year": "2020",
+      "journal": "arXiv preprint arXiv:2010.12527",
+      "author": "Qi, Peng and Lee, Haejun and Sido, Oghenetegiri and Manning, Christopher D and others",
+      "title": "Answering open-domain questions of varying reasoning steps from text",
+      "ENTRYTYPE": "article",
+      "ID": "qi2020answering"
+    },
+    {
+      "year": "2020",
+      "journal": "arXiv preprint arXiv:2002.09758",
+      "author": "Perez, Ethan and Lewis, Patrick and Yih, Wen-tau and Cho, Kyunghyun and Kiela, Douwe",
+      "title": "Unsupervised question decomposition for question answering",
+      "ENTRYTYPE": "article",
+      "ID": "perez2020unsupervised"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2301.08913",
+      "author": "Wang, Siyuan and Wei, Zhongyu and Xu, Jiarong and Li, Taishan and Fan, Zhihao",
+      "title": "Unifying structure reasoning and language model pre-training for complex reasoning",
+      "ENTRYTYPE": "article",
+      "ID": "[1]"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2306.04009",
+      "author": "Misra, Kanishka and Santos, Cicero Nogueira dos and Shakeri, Siamak",
+      "title": "Triggering Multi-Hop Reasoning for Question Answering in Language Models using Soft Prompts and Random Walks",
+      "ENTRYTYPE": "article",
+      "ID": "[2]"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv e-prints arXiv:2311.09762",
+      "author": "Park, Jinyoung and Patel, Ameen and Zia Khan, Omar and Kim, Hyunwoo J and Kim, Joo-Kyung",
+      "title": "Graph-guided reasoning for multi-hop question answering in large language models",
+      "ENTRYTYPE": "article",
+      "ID": "[3]"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2311.08505",
+      "author": "Su, Xin and Le, Tiep and Bethard, Steven and Howard, Phillip",
+      "title": "Semi-Structured Chain-of-Thought: Integrating Multiple Sources of Knowledge for Improved Language Model Reasoning",
+      "ENTRYTYPE": "article",
+      "ID": "[4]"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2306.06427",
+      "author": "Wang, Jianing and Sun, Qiushi and Li, Xiang and Gao, Ming",
+      "title": "Boosting language models reasoning with chain-of-knowledge prompting",
+      "ENTRYTYPE": "article",
+      "ID": "[5]"
+    },
+    {
+      "year": "2024",
+      "pages": "157--173",
+      "volume": "12",
+      "journal": "Trans. Assoc. Comput. Linguistics",
+      "title": "Lost in the Middle: How Language Models Use Long Contexts",
+      "author": "Nelson F. Liu and\nKevin Lin and\nJohn Hewitt and\nAshwin Paranjape and\nMichele Bevilacqua and\nFabio Petroni and\nPercy Liang",
+      "ENTRYTYPE": "article",
+      "ID": "lost_in_the_middle"
+    },
+    {
+      "year": "2024",
+      "volume": "abs/2410.14641",
+      "journal": "CoRR",
+      "title": "Distance between Relevant Information Pieces Causes Bias in Long-Context\nLLMs",
+      "author": "Runchu Tian and\nYanghao Li and\nYuepeng Fu and\nSiyang Deng and\nQinyu Luo and\nCheng Qian and\nShuo Wang and\nXin Cong and\nZhong Zhang and\nYesai Wu and\nYankai Lin and\nHuadong Wang and\nXiaojiang Liu",
+      "ENTRYTYPE": "article",
+      "ID": "relative_distance"
+    },
+    {
+      "publisher": "Springer",
+      "year": "2001",
+      "pages": "344--354",
+      "volume": "29",
+      "journal": "Memory \\& cognition",
+      "author": "Palladino, Paola and Cornoldi, Cesare and De Beni, Rossana and Pazzaglia, Francesca",
+      "title": "Working memory and updating processes in reading comprehension",
+      "ENTRYTYPE": "article",
+      "ID": "memory1"
+    },
+    {
+      "publisher": "Psychology Press",
+      "year": "2013",
+      "pages": "51--88",
+      "booktitle": "Complex information processing",
+      "author": "Carpenter, Patricia A and Just, Marcel A",
+      "title": "The role of working memory in language comprehension",
+      "ENTRYTYPE": "incollection",
+      "ID": "memory2"
+    },
+    {
+      "publisher": "American Psychological Association",
+      "year": "2018",
+      "pages": "48",
+      "number": "1",
+      "volume": "144",
+      "journal": "Psychological bulletin",
+      "author": "Peng, Peng and Barnes, Marcia and Wang, CuiCui and Wang, Wei and Li, Shan and Swanson, H Lee and Dardick, William and Tao, Sha",
+      "title": "A meta-analysis on the relation between reading and working memory.",
+      "ENTRYTYPE": "article",
+      "ID": "memory3"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2310.08560",
+      "author": "Packer, Charles and Wooders, Sarah and Lin, Kevin and Fang, Vivian and Patil, Shishir G and Stoica, Ion and Gonzalez, Joseph E",
+      "title": "MemGPT: Towards LLMs as Operating Systems",
+      "ENTRYTYPE": "article",
+      "ID": "packer2023memgpt"
+    },
+    {
+      "year": "2024",
+      "pages": "19724--19731",
+      "booktitle": "Thirty-Eighth {AAAI} Conference on Artificial Intelligence",
+      "title": "MemoryBank: Enhancing Large Language Models with Long-Term Memory",
+      "author": "Wanjun Zhong and\nLianghong Guo and\nQiqi Gao and\nHe Ye and\nYanlin Wang",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "memorybank"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2404.13501",
+      "author": "Zhang, Zeyu and Bo, Xiaohe and Ma, Chen and Li, Rui and Chen, Xu and Dai, Quanyu and Zhu, Jieming and Dong, Zhenhua and Wen, Ji-Rong",
+      "title": "A survey on the memory mechanism of large language model based agents",
+      "ENTRYTYPE": "article",
+      "ID": "memory_survey"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2024",
+      "pages": "26396--26415",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Lee, Kuang-Huei and Chen, Xinyun and Furuta, Hiroki and Canny, John and Fischer, Ian",
+      "title": "A Human-Inspired Reading Agent with Gist Memory of Very Long Contexts",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "readagent"
+    },
+    {
+      "year": "2025",
+      "booktitle": "The Thirteenth International Conference on Learning Representations",
+      "author": "Alireza Rezazadeh and Zichao Li and Wei Wei and Yujia Bao",
+      "title": "From Isolated Conversations to Hierarchical Schemas: Dynamic Tree Memory Representation for {LLM}s",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "memtree"
+    },
+    {
+      "year": "2024",
+      "booktitle": "The Twelfth International Conference on Learning Representations",
+      "author": "Sarthi, Parth and Abdullah, Salman and Tuli, Aditi and Khanna, Shubh and Goldie, Anna and Manning, Christopher D",
+      "title": "Raptor: Recursive abstractive processing for tree-organized retrieval",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "sarthi2024raptor"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2501.00309",
+      "author": "Han, Haoyu and Wang, Yu and Shomer, Harry and Guo, Kai and Ding, Jiayuan and Lei, Yongjia and Halappanavar, Mahantesh and Rossi, Ryan A and Mukherjee, Subhabrata and Tang, Xianfeng and others",
+      "title": "Retrieval-augmented generation with graphs (graphrag)",
+      "ENTRYTYPE": "article",
+      "ID": "graphrag_survey_new"
+    },
+    {
+      "year": "1994",
+      "journal": "New York: Worth",
+      "author": "Berger, Kathleen Stassen",
+      "title": "The Developing Person Through the Life Span. ed",
+      "ENTRYTYPE": "article",
+      "ID": "assi18"
+    },
+    {
+      "year": "2000",
+      "pages": "33--47",
+      "number": "7",
+      "volume": "2",
+      "journal": "Childhood cognitive development: The essential readings",
+      "author": "Piaget, Jean",
+      "title": "Piaget’s theory of cognitive development",
+      "ENTRYTYPE": "article",
+      "ID": "acco4"
+    },
+    {
+      "publisher": "Routledge",
+      "year": "2022",
+      "pages": "3--18",
+      "booktitle": "Theories of early childhood education",
+      "author": "Waite-Stupiansky, Sandra",
+      "title": "Jean Piaget's constructivist theory of learning",
+      "ENTRYTYPE": "incollection",
+      "ID": "jean3"
+    },
+    {
+      "publisher": "Springer",
+      "year": "1976",
+      "author": "Piaget, Jean",
+      "title": "Piaget’s theory",
+      "ENTRYTYPE": "book",
+      "ID": "jean1"
+    },
+    {
+      "publisher": "Routledge",
+      "year": "2005",
+      "author": "Piaget, Jean",
+      "title": "The psychology of intelligence",
+      "ENTRYTYPE": "book",
+      "ID": "jean2"
+    },
+    {
+      "year": "2020",
+      "journal": "arXiv preprint arXiv:2004.05150",
+      "author": "Beltagy, Iz and Peters, Matthew E and Cohan, Arman",
+      "title": "Longformer: The long-document transformer",
+      "ENTRYTYPE": "article",
+      "ID": "beltagy2020longformer"
+    },
+    {
+      "year": "2020",
+      "volume": "33",
+      "title": "Big Bird: Transformers for Longer Sequences",
+      "pages": "17283--17297",
+      "booktitle": "Advances in Neural Information Processing Systems",
+      "author": "Zaheer, Manzil and Guruganesh, Guru and Dubey, Kumar Avinava and Ainslie, Joshua and Alberti, Chris and Ontanon, Santiago and Pham, Philip and Ravula, Anirudh and Wang, Qifan and Yang, Li and Ahmed, Amr",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "big_bird"
+    },
+    {
+      "year": "2022",
+      "pages": "724--736",
+      "booktitle": "Findings of the Association for Computational Linguistics: {NAACL}\n2022",
+      "title": "LongT5: Efficient Text-To-Text Transformer for Long Sequences",
+      "author": "Mandy Guo and\nJoshua Ainslie and\nDavid C. Uthus and\nSantiago Onta{\\~{n}}{\\'{o}}n and\nJianmo Ni and\nYun{-}Hsuan Sung and\nYinfei Yang",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "LongT5"
+    },
+    {
+      "year": "2023",
+      "pages": "5085--5100",
+      "booktitle": "Proceedings of the 2023 Conference on Empirical Methods in Natural\nLanguage Processing",
+      "title": "CoLT5: Faster Long-Range Transformers with Conditional Computation",
+      "author": "Joshua Ainslie and\nTao Lei and\nMichiel de Jong and\nSantiago Onta{\\~{n}}{\\'{o}}n and\nSiddhartha Brahma and\nYury Zemlyanskiy and\nDavid C. Uthus and\nMandy Guo and\nJames Lee{-}Thorp and\nYi Tay and\nYun{-}Hsuan Sung and\nSumit Sanghai",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ColT5"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2309.12307",
+      "author": "Chen, Yukang and Qian, Shengju and Tang, Haotian and Lai, Xin and Liu, Zhijian and Han, Song and Jia, Jiaya",
+      "title": "Longlora: Efficient fine-tuning of long-context large language models",
+      "ENTRYTYPE": "article",
+      "ID": "chen2023longlora"
+    },
+    {
+      "publisher": "ACM New York, NY",
+      "year": "2022",
+      "pages": "1--28",
+      "number": "6",
+      "volume": "55",
+      "journal": "ACM Computing Surveys",
+      "author": "Tay, Yi and Dehghani, Mostafa and Bahri, Dara and Metzler, Donald",
+      "title": "Efficient transformers: A survey",
+      "ENTRYTYPE": "article",
+      "ID": "tay2022efficient_transformer_survey"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2404.11672",
+      "author": "Modarressi, Ali and K{\\\"o}ksal, Abdullatif and Imani, Ayyoob and Fayyaz, Mohsen and Sch{\\\"u}tze, Hinrich",
+      "title": "Memllm: Finetuning llms to use an explicit read-write memory",
+      "ENTRYTYPE": "article",
+      "ID": "modarressi2024memllm"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2304.13343",
+      "author": "Wang, Bing and Liang, Xinnian and Yang, Jian and Huang, Hui and Wu, Shuangzhi and Wu, Peihao and Lu, Lu and Ma, Zejun and Li, Zhoujun",
+      "title": "Enhancing large language model with self-controlled memory framework",
+      "ENTRYTYPE": "article",
+      "ID": "wang2023scm"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2406.14550",
+      "author": "Li, Shilong and He, Yancheng and Guo, Hangyu and Bu, Xingyuan and Bai, Ge and Liu, Jie and Liu, Jiaheng and Qu, Xingwei and Li, Yangguang and Ouyang, Wanli and others",
+      "title": "Graphreader: Building graph-based agent to enhance long-context abilities of large language models",
+      "ENTRYTYPE": "article",
+      "ID": "li2024graphreader"
+    },
+    {
+      "year": "2019",
+      "journal": "arXiv preprint arXiv:1909.09667",
+      "author": "Menon, Aditya Krishna and Rajagopalan, Anand and Sumengen, Baris and Citovsky, Gui and Cao, Qin and Kumar, Sanjiv",
+      "title": "Online hierarchical clustering approximations",
+      "ENTRYTYPE": "article",
+      "ID": "menon2019online"
+    },
+    {
+      "publisher": "MDPI",
+      "year": "2010",
+      "pages": "1264--1302",
+      "number": "5",
+      "volume": "12",
+      "journal": "Entropy",
+      "author": "Borge-Holthoefer, Javier and Arenas, Alex",
+      "title": "Semantic networks: Structure and dynamics",
+      "ENTRYTYPE": "article",
+      "ID": "borge2010semantic"
+    },
+    {
+      "year": "2017",
+      "pages": "145--154",
+      "booktitle": "Proceedings of the 23rd {ACM} {SIGKDD} International Conference on Knowledge Discovery and Data Mining",
+      "title": "Ego-Splitting Framework: from Non-Overlapping to Overlapping Clusters",
+      "author": "Alessandro Epasto and\nSilvio Lattanzi and\nRenato Paes Leme",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ego_splitting"
+    },
+    {
+      "year": "2012",
+      "pages": "615--623",
+      "booktitle": "The 18th {ACM} {SIGKDD} International Conference on Knowledge Discovery\nand Data Mining",
+      "title": "{DEMON:} a local-first discovery method for overlapping communities",
+      "author": "Michele Coscia and\nGiulio Rossetti and\nFosca Giannotti and\nDino Pedreschi",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "demon"
+    },
+    {
+      "year": "2013",
+      "pages": "25--32",
+      "booktitle": "Proceedings of the workshop on dynamic networks management and mining",
+      "author": "Xie, Jierui and Chen, Mingming and Szymanski, Boleslaw K",
+      "title": "LabelrankT: Incremental community detection in dynamic networks via label propagation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "xie2013labelrankt"
+    },
+    {
+      "publisher": "Ieee",
+      "year": "2005",
+      "pages": "645--678",
+      "number": "3",
+      "volume": "16",
+      "journal": "IEEE Transactions on neural networks",
+      "author": "Xu, Rui and Wunsch, Donald",
+      "title": "Survey of clustering algorithms",
+      "ENTRYTYPE": "article",
+      "ID": "survey_cluster"
+    },
+    {
+      "year": "2025",
+      "booktitle": "The Thirteenth International Conference on Learning Representations",
+      "author": "Cunxiang Wang and Ruoxi Ning and Boqi Pan and Tonghui Wu and Qipeng Guo and Cheng Deng and Guangsheng Bao and Xiangkun Hu and Zheng Zhang and Qian Wang and Yue Zhang",
+      "title": "Novel{QA}: Benchmarking Question Answering on Documents Exceeding 200K Tokens",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "novelqa"
+    },
+    {
+      "year": "2021",
+      "pages": "5905--5921",
+      "booktitle": "Proceedings of the 2021 Conference of the North American Chapter of\nthe Association for Computational Linguistics: Human Language Technologies",
+      "title": "QMSum: {A} New Benchmark for Query-based Multi-domain Meeting Summarization",
+      "author": "Ming Zhong and\nDa Yin and\nTao Yu and\nAhmad Zaidi and\nMutethia Mutuma and\nRahul Jha and\nAhmed Hassan Awadallah and\nAsli Celikyilmaz and\nYang Liu and\nXipeng Qiu and\nDragomir R. Radev",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "qmsum"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2309.08960",
+      "author": "Zhou, Yijie and Shi, Kejian and Zhang, Wencai and Liu, Yixin and Zhao, Yilun and Cohan, Arman",
+      "title": "Odsum: New benchmarks for open domain multi-document summarization",
+      "ENTRYTYPE": "article",
+      "ID": "zhou2023odsum"
+    },
+    {
+      "year": "2024",
+      "booktitle": "First Conference on Language Modeling",
+      "author": "Yekyung Kim and Yapei Chang and Marzena Karpinska and Aparna Garimella and Varun Manjunatha and Kyle Lo and Tanya Goyal and Mohit Iyyer",
+      "title": "{FABLES}: Evaluating faithfulness and content selection in book-length summarization",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "kim2024fables"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2401.15391",
+      "author": "Tang, Yixuan and Yang, Yi",
+      "title": "Multihop-rag: Benchmarking retrieval-augmented generation for multi-hop queries",
+      "ENTRYTYPE": "article",
+      "ID": "tang2024multihoprag"
+    },
+    {
+      "year": "2024",
+      "booktitle": "The Thirty-eighth Annual Conference on Neural Information Processing Systems",
+      "author": "Bernal Jimenez Gutierrez and Yiheng Shu and Yu Gu and Michihiro Yasunaga and Yu Su",
+      "title": "Hippo{RAG}: Neurobiologically Inspired Long-Term Memory for Large Language Models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "gutierrez2024hipporag"
+    },
+    {
+      "year": "2004",
+      "pages": "74--81",
+      "booktitle": "Text summarization branches out",
+      "author": "Lin, Chin-Yew",
+      "title": "Rouge: A package for automatic evaluation of summaries",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "lin2004rouge"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2411.15594",
+      "author": "Gu, Jiawei and Jiang, Xuhui and Shi, Zhichao and Tan, Hexiang and Zhai, Xuehao and Xu, Chengjin and Li, Wei and Shen, Yinghan and Ma, Shengjie and Liu, Honghao and others",
+      "title": "A survey on llm-as-a-judge",
+      "ENTRYTYPE": "article",
+      "ID": "gu2024llm-as-a-judge"
+    },
+    {
+      "year": "2025",
+      "title": "MMTEB: Massive Multilingual Text Embedding Benchmark",
+      "publisher": "arXiv",
+      "journal": "arXiv preprint arXiv:2502.13595",
+      "doi": "10.48550/arXiv.2502.13595",
+      "author": "Kenneth Enevoldsen and Isaac Chung and Imene Kerboua and Márton Kardos and Ashwin Mathur and David Stap and Jay Gala and Wissam Siblini and Dominik Krzemiński and Genta Indra Winata and Saba Sturua and Saiteja Utpala and Mathieu Ciancone and Marion Schaeffer and Gabriel Sequeira and Diganta Misra and Shreeya Dhakal and Jonathan Rystrøm and Roman Solomatin and Ömer Çağatan and Akash Kundu and Martin Bernstorff and Shitao Xiao and Akshita Sukhlecha and Bhavish Pahwa and Rafał Poświata and Kranthi Kiran GV and Shawon Ashraf and Daniel Auras and Björn Plüster and Jan Philipp Harries and Loïc Magne and Isabelle Mohr and Mariya Hendriksen and Dawei Zhu and Hippolyte Gisserot-Boukhlef and Tom Aarsen and Jan Kostkan and Konrad Wojtasik and Taemin Lee and Marek Šuppa and Crystina Zhang and Roberta Rocca and Mohammed Hamdy and Andrianos Michail and John Yang and Manuel Faysse and Aleksei Vatolin and Nandan Thakur and Manan Dey and Dipam Vasani and Pranjal Chitale and Simone Tedeschi and Nguyen Tai and Artem Snegirev and Michael Günther and Mengzhou Xia and Weijia Shi and Xing Han Lù and Jordan Clive and Gayatri Krishnakumar and Anna Maksimova and Silvan Wehrli and Maria Tikhonova and Henil Panchal and Aleksandr Abramov and Malte Ostendorff and Zheng Liu and Simon Clematide and Lester James Miranda and Alena Fenogenova and Guangyu Song and Ruqiya Bin Safi and Wen-Ding Li and Alessia Borghini and Federico Cassano and Hongjin Su and Jimmy Lin and Howard Yen and Lasse Hansen and Sara Hooker and Chenghao Xiao and Vaibhav Adlakha and Orion Weller and Siva Reddy and Niklas Muennighoff",
+      "ENTRYTYPE": "article",
+      "ID": "leaderboard"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2404.02060",
+      "author": "Li, Tianle and Zhang, Ge and Do, Quy Duc and Yue, Xiang and Chen, Wenhu",
+      "title": "Long-context llms struggle with long in-context learning",
+      "ENTRYTYPE": "article",
+      "ID": "li2024long"
+    },
+    {
+      "publisher": "Nature Publishing Group",
+      "year": "2019",
+      "pages": "1--12",
+      "number": "1",
+      "volume": "9",
+      "journal": "Scientific reports",
+      "author": "Traag, Vincent A and Waltman, Ludo and Van Eck, Nees Jan",
+      "title": "From Louvain to Leiden: guaranteeing well-connected communities",
+      "ENTRYTYPE": "article",
+      "ID": "leiden"
+    }
+  ]
+}

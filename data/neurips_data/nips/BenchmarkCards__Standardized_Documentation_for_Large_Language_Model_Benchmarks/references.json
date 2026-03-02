@@ -1,0 +1,785 @@
+{
+  "pdf_url": "https://arxiv.org/pdf/2410.12974v3.pdf",
+  "references": [
+    {
+      "publisher": "ACM New York, NY",
+      "year": "2024",
+      "pages": "1--32",
+      "number": "6",
+      "volume": "18",
+      "journal": "ACM Transactions on Knowledge Discovery from Data",
+      "author": "Yang, Jingfeng and Jin, Hongye and Tang, Ruixiang and Han, Xiaotian and Feng, Qizhang and Jiang, Haoming and Zhong, Shaochen and Yin, Bing and Hu, Xia",
+      "title": "Harnessing the power of llms in practice: A survey on chatgpt and beyond",
+      "ENTRYTYPE": "article",
+      "ID": "yang2024harnessing"
+    },
+    {
+      "publisher": "Wiley Online Library",
+      "year": "2023",
+      "journal": "AI Magazine",
+      "author": "Chen, Canyu and Shu, Kai",
+      "title": "Combating misinformation in the age of llms: Opportunities and challenges",
+      "ENTRYTYPE": "article",
+      "ID": "chen2023combating"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "2024",
+      "pages": "100211",
+      "journal": "High-Confidence Computing",
+      "author": "Yao, Yifan and Duan, Jinhao and Xu, Kaidi and Cai, Yuanfang and Sun, Zhibo and Zhang, Yue",
+      "title": "A survey on large language model (llm) security and privacy: The good, the bad, and the ugly",
+      "ENTRYTYPE": "article",
+      "ID": "yao2024survey"
+    },
+    {
+      "year": "2019",
+      "pages": "220--229",
+      "booktitle": "Proceedings of the conference on fairness, accountability, and transparency",
+      "author": "Mitchell, Margaret and Wu, Simone and Zaldivar, Andrew and Barnes, Parker and Vasserman, Lucy and Hutchinson, Ben and Spitzer, Elena and Raji, Inioluwa Deborah and Gebru, Timnit",
+      "title": "Model cards for model reporting",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "mitchell2019model"
+    },
+    {
+      "url": "https://dl.acm.org/",
+      "title": "ACM Digital Library",
+      "ENTRYTYPE": "misc",
+      "ID": "ACM_llm_benchmark_search"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "2021",
+      "pages": "101994",
+      "volume": "57",
+      "journal": "International journal of information management",
+      "author": "Dwivedi, Yogesh K and Hughes, Laurie and Ismagilova, Elvira and Aarts, Gert and Coombs, Crispin and Crick, Tom and Duan, Yanqing and Dwivedi, Rohita and Edwards, John and Eirug, Aled and others",
+      "title": "Artificial Intelligence (AI): Multidisciplinary perspectives on emerging challenges, opportunities, and agenda for research, practice and policy",
+      "ENTRYTYPE": "article",
+      "ID": "dwivedi2021artificial"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2406.16937",
+      "author": "Dam, Sumit Kumar and Hong, Choong Seon and Qiao, Yu and Zhang, Chaoning",
+      "title": "A Complete Survey on LLM-based AI Chatbots",
+      "ENTRYTYPE": "article",
+      "ID": "dam2024complete"
+    },
+    {
+      "publisher": "Springer",
+      "year": "2024",
+      "pages": "40",
+      "number": "1",
+      "volume": "4",
+      "journal": "Discover Artificial Intelligence",
+      "author": "Sarker, Iqbal H",
+      "title": "LLM potentiality and awareness: a position paper from the perspective of trustworthy and responsible AI modeling",
+      "ENTRYTYPE": "article",
+      "ID": "sarker2024llm"
+    },
+    {
+      "publisher": "ACM New York, NY, USA",
+      "year": "2021",
+      "pages": "86--92",
+      "number": "12",
+      "volume": "64",
+      "journal": "Communications of the ACM",
+      "author": "Gebru, Timnit and Morgenstern, Jamie and Vecchione, Briana and Vaughan, Jennifer Wortman and Wallach, Hanna and Iii, Hal Daum{\\'e} and Crawford, Kate",
+      "title": "Datasheets for datasets",
+      "ENTRYTYPE": "article",
+      "ID": "gebru2021datasheets"
+    },
+    {
+      "publisher": "IBM",
+      "year": "2019",
+      "pages": "6--1",
+      "number": "4/5",
+      "volume": "63",
+      "journal": "IBM Journal of Research and Development",
+      "author": "Arnold, Matthew and Bellamy, Rachel KE and Hind, Michael and Houde, Stephanie and Mehta, Sameep and Mojsilovi{\\'c}, Aleksandra and Nair, Ravi and Ramamurthy, K Natesan and Olteanu, Alexandra and Piorkowski, David and others",
+      "title": "FactSheets: Increasing trust in AI services through supplier's declarations of conformity",
+      "ENTRYTYPE": "article",
+      "ID": "arnold2019factsheets"
+    },
+    {
+      "year": "2024",
+      "url": "https://www.ibm.com/docs/en/watsonx/saas?topic=ai-risk-atlas",
+      "howpublished": "Watsonx as a Service",
+      "author": "{IBM AI Risk Atlas}",
+      "title": "{IBM} {AI} {Risk Atlas}",
+      "ENTRYTYPE": "misc",
+      "ID": "ibm_atlas_2024"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2303.18190",
+      "author": "Derczynski, Leon and Kirk, Hannah Rose and Balachandran, Vidhisha and Kumar, Sachin and Tsvetkov, Yulia and Leiser, Mark R and Mohammad, Saif",
+      "title": "Assessing language model deployment with risk cards",
+      "ENTRYTYPE": "article",
+      "ID": "derczynski2023assessing"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2023",
+      "pages": "337--371",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Aher, Gati V and Arriaga, Rosa I and Kalai, Adam Tauman",
+      "title": "Using large language models to simulate multiple humans and replicate human subject studies",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "aher2023using"
+    },
+    {
+      "year": "2023",
+      "journal": "OSF preprint",
+      "author": "Pellert, Max and Lechner, Clemens M and Wagner, Claudia and Rammstedt, Beatrice and Strohmaier, Markus",
+      "title": "AI Psychometrics: Using psychometric inventories to obtain psychological profiles of large language models",
+      "ENTRYTYPE": "article",
+      "ID": "pellert2023ai"
+    },
+    {
+      "year": "2023",
+      "pages": "1--22",
+      "booktitle": "Proceedings of the 36th annual acm symposium on user interface software and technology",
+      "author": "Park, Joon Sung and O'Brien, Joseph and Cai, Carrie Jun and Morris, Meredith Ringel and Liang, Percy and Bernstein, Michael S",
+      "title": "Generative agents: Interactive simulacra of human behavior",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "park2023generative"
+    },
+    {
+      "year": "2007",
+      "pages": "858--867",
+      "booktitle": "Proceedings of the 2007 Joint Conference on Empirical Methods in Natural Language Processing and Computational Natural Language Learning (EMNLP-CoNLL)",
+      "author": "Brants, Thorsten and Popat, Ashok and Xu, Peng and Och, Franz Josef and Dean, Jeffrey",
+      "title": "Large language models in machine translation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "brants2007large"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "2023",
+      "pages": "100017",
+      "journal": "Meta-Radiology",
+      "author": "Liu, Yiheng and Han, Tianle and Ma, Siyuan and Zhang, Jiayue and Yang, Yuanyuan and Tian, Jiaming and He, Hao and Li, Antong and He, Mengshen and Liu, Zhengliang and others",
+      "title": "Summary of chatgpt-related research and perspective towards the future of large language models",
+      "ENTRYTYPE": "article",
+      "ID": "liu2023summary"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2203.13474",
+      "author": "Nijkamp, Erik and Pang, Bo and Hayashi, Hiroaki and Tu, Lifu and Wang, Huan and Zhou, Yingbo and Savarese, Silvio and Xiong, Caiming",
+      "title": "Codegen: An open large language model for code with multi-turn program synthesis",
+      "ENTRYTYPE": "article",
+      "ID": "nijkamp2022codegen"
+    },
+    {
+      "year": "2021",
+      "journal": "arXiv preprint arXiv:2107.03374",
+      "author": "Chen, Mark and Tworek, Jerry and Jun, Heewoo and Yuan, Qiming and Pinto, Henrique Ponde De Oliveira and Kaplan, Jared and Edwards, Harri and Burda, Yuri and Joseph, Nicholas and Brockman, Greg and others",
+      "title": "Evaluating large language models trained on code",
+      "ENTRYTYPE": "article",
+      "ID": "chen2021evaluating"
+    },
+    {
+      "year": "2021",
+      "journal": "arXiv preprint arXiv:2108.07732",
+      "author": "Austin, Jacob and Odena, Augustus and Nye, Maxwell and Bosma, Maarten and Michalewski, Henryk and Dohan, David and Jiang, Ellen and Cai, Carrie and Terry, Michael and Le, Quoc and others",
+      "title": "Program synthesis with large language models",
+      "ENTRYTYPE": "article",
+      "ID": "austin2021program"
+    },
+    {
+      "publisher": "Nature Publishing Group US New York",
+      "year": "2023",
+      "pages": "1930--1940",
+      "number": "8",
+      "volume": "29",
+      "journal": "Nature medicine",
+      "author": "Thirunavukarasu, Arun James and Ting, Darren Shu Jeng and Elangovan, Kabilan and Gutierrez, Laura and Tan, Ting Fang and Ting, Daniel Shu Wei",
+      "title": "Large language models in medicine",
+      "ENTRYTYPE": "article",
+      "ID": "thirunavukarasu2023large"
+    },
+    {
+      "publisher": "Nature Publishing Group UK London",
+      "year": "2023",
+      "pages": "141",
+      "number": "1",
+      "volume": "3",
+      "journal": "Communications medicine",
+      "author": "Clusmann, Jan and Kolbinger, Fiona R and Muti, Hannah Sophie and Carrero, Zunamys I and Eckardt, Jan-Niklas and Laleh, Narmin Ghaffari and L{\\\"o}ffler, Chiara Maria Lavinia and Schwarzkopf, Sophie-Caroline and Unger, Michaela and Veldhuizen, Gregory P and others",
+      "title": "The future landscape of large language models in medicine",
+      "ENTRYTYPE": "article",
+      "ID": "clusmann2023future"
+    },
+    {
+      "publisher": "Nature Publishing Group",
+      "year": "2023",
+      "pages": "172--180",
+      "number": "7972",
+      "volume": "620",
+      "journal": "Nature",
+      "author": "Singhal, Karan and Azizi, Shekoofeh and Tu, Tao and Mahdavi, S Sara and Wei, Jason and Chung, Hyung Won and Scales, Nathan and Tanwani, Ajay and Cole-Lewis, Heather and Pfohl, Stephen and others",
+      "title": "Large language models encode clinical knowledge",
+      "ENTRYTYPE": "article",
+      "ID": "singhal2023large"
+    },
+    {
+      "publisher": "Nature Publishing Group UK London",
+      "year": "2022",
+      "pages": "194",
+      "number": "1",
+      "volume": "5",
+      "journal": "NPJ digital medicine",
+      "author": "Yang, Xi and Chen, Aokun and PourNejatian, Nima and Shin, Hoo Chang and Smith, Kaleb E and Parisien, Christopher and Compas, Colin and Martin, Cheryl and Costa, Anthony B and Flores, Mona G and others",
+      "title": "A large language model for electronic health records",
+      "ENTRYTYPE": "article",
+      "ID": "yang2022large"
+    },
+    {
+      "year": "2021",
+      "journal": "arXiv preprint arXiv:2110.00976",
+      "author": "Chalkidis, Ilias and Jana, Abhik and Hartung, Dirk and Bommarito, Michael and Androutsopoulos, Ion and Katz, Daniel Martin and Aletras, Nikolaos",
+      "title": "LexGLUE: A benchmark dataset for legal language understanding in English",
+      "ENTRYTYPE": "article",
+      "ID": "chalkidis2021lexglue"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2306.09525",
+      "author": "Savelka, Jaromir and Ashley, Kevin D and Gray, Morgan A and Westermann, Hannes and Xu, Huihui",
+      "title": "Explaining legal concepts with augmented large language models (gpt-4)",
+      "ENTRYTYPE": "article",
+      "ID": "savelka2023explaining"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2301.05327",
+      "author": "Hamilton, Sil",
+      "title": "Blind judgement: Agent-based supreme court modelling with gpt",
+      "ENTRYTYPE": "article",
+      "ID": "hamilton2023blind"
+    },
+    {
+      "year": "2022",
+      "pages": "214--229",
+      "booktitle": "Proceedings of the 2022 ACM Conference on Fairness, Accountability, and Transparency",
+      "author": "Weidinger, Laura and Uesato, Jonathan and Rauh, Maribeth and Griffin, Conor and Huang, Po-Sen and Mellor, John and Glaese, Amelia and Cheng, Myra and Balle, Borja and Kasirzadeh, Atoosa and others",
+      "title": "Taxonomy of risks posed by language models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "weidinger2022taxonomy"
+    },
+    {
+      "year": "2021",
+      "journal": "arXiv preprint arXiv:2112.04359",
+      "author": "Weidinger, Laura and Mellor, John and Rauh, Maribeth and Griffin, Conor and Uesato, Jonathan and Huang, Po-Sen and Cheng, Myra and Glaese, Mia and Balle, Borja and Kasirzadeh, Atoosa and others",
+      "title": "Ethical and social risks of harm from language models",
+      "ENTRYTYPE": "article",
+      "ID": "weidinger2021ethical"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "2023",
+      "pages": "102274",
+      "volume": "103",
+      "journal": "Learning and individual differences",
+      "author": "Kasneci, Enkelejda and Se{\\ss}ler, Kathrin and K{\\\"u}chemann, Stefan and Bannert, Maria and Dementieva, Daryna and Fischer, Frank and Gasser, Urs and Groh, Georg and G{\\\"u}nnemann, Stephan and H{\\\"u}llermeier, Eyke and others",
+      "title": "ChatGPT for good? On opportunities and challenges of large language models for education",
+      "ENTRYTYPE": "article",
+      "ID": "kasneci2023chatgpt"
+    },
+    {
+      "organization": "Springer",
+      "year": "2024",
+      "pages": "587--596",
+      "booktitle": "NIELIT's International Conference on Communication, Electronics and Digital Technologies",
+      "author": "Ghosh, Rudra Chandra and Shailendra, Pasi and Singh, Ganesh Bahadur",
+      "title": "Large Language Model in Various Fields: Opportunities, Challenges and Risks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ghosh2024large"
+    },
+    {
+      "publisher": "MIT Press One Rogers Street, Cambridge, MA 02142-1209, USA journals-info~…",
+      "year": "2018",
+      "pages": "587--604",
+      "volume": "6",
+      "journal": "Transactions of the Association for Computational Linguistics",
+      "author": "Bender, Emily M and Friedman, Batya",
+      "title": "Data statements for natural language processing: Toward mitigating system bias and enabling better science",
+      "ENTRYTYPE": "article",
+      "ID": "bender2018data"
+    },
+    {
+      "pages": "29628--29630",
+      "year": "2025",
+      "month": "April",
+      "author": "Daly, Elizabeth M. and Tirupathi, Seshu and Rooney, Sean and Vejsbjerg, Inge and Salwala, Dhaval and Giblin, Christopher and Bagehorn, Frank and Garces-Erice, Luis and Urbanetz, Peter and Wolf-Bauwens, Mira L.",
+      "journal": "Proceedings of the AAAI Conference on Artificial Intelligence",
+      "number": "28",
+      "doi": "10.1609/aaai.v39i28.35348",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/35348",
+      "volume": "39",
+      "title": "Usage {Governance} {Advisor}: {From} {Intent} to {AI} {Governance}",
+      "ENTRYTYPE": "article",
+      "ID": "daly_usage_2025"
+    },
+    {
+      "url": "https://arxiv.org/abs/2503.05780",
+      "primaryclass": "cs.CY",
+      "archiveprefix": "arXiv",
+      "eprint": "2503.05780",
+      "year": "2025",
+      "author": "Frank Bagehorn and Kristina Brimijoin and Elizabeth M. Daly and Jessica He and Michael Hind and Luis Garces-Erice and Christopher Giblin and Ioana Giurgiu and Jacquelyn Martino and Rahul Nair and David Piorkowski and Ambrish Rawat and John Richards and Sean Rooney and Dhaval Salwala and Seshu Tirupathi and Peter Urbanetz and Kush R. Varshney and Inge Vejsbjerg and Mira L. Wolf-Bauwens",
+      "title": "AI Risk Atlas: Taxonomy and Tooling for Navigating AI Risks and Resources",
+      "ENTRYTYPE": "misc",
+      "ID": "bagehorn2025airiskatlastaxonomy"
+    },
+    {
+      "series": "FAccT '22",
+      "location": "Seoul, Republic of Korea",
+      "keywords": "data cards, dataset documentation, datasheets, model cards, responsible AI, transparency",
+      "numpages": "51",
+      "pages": "1776–1826",
+      "booktitle": "Proceedings of the 2022 ACM Conference on Fairness, Accountability, and Transparency",
+      "abstract": "As research and industry moves towards large-scale models capable of numerous downstream tasks, the complexity of understanding multi-modal datasets that give nuance to models rapidly increases. A clear and thorough understanding of a dataset’s origins, development, intent, ethical considerations and evolution becomes a necessary step for the responsible and informed deployment of models, especially those in people-facing contexts and high-risk domains. However, the burden of this understanding often falls on the intelligibility, conciseness, and comprehensiveness of the documentation. It requires consistency and comparability across the documentation of all datasets involved, and as such documentation must be treated as a user-centric product in and of itself. In this paper, we propose Data Cards for fostering transparent, purposeful and human-centered documentation of datasets within the practical contexts of industry and research. Data Cards are structured summaries of essential facts about various aspects of ML datasets needed by stakeholders across a dataset’s lifecycle for responsible AI development. These summaries provide explanations of processes and rationales that shape the data and consequently the models—such as upstream sources, data collection and annotation methods; training and evaluation methods, intended use; or decisions affecting model performance. We also present frameworks that ground Data Cards in real-world utility and human-centricity. Using two case studies, we report on desirable characteristics that support adoption across domains, organizational structures, and audience groups. Finally, we present lessons learned from deploying over 20 Data Cards.x",
+      "doi": "10.1145/3531146.3533231",
+      "url": "https://doi.org/10.1145/3531146.3533231",
+      "address": "New York, NY, USA",
+      "publisher": "Association for Computing Machinery",
+      "isbn": "9781450393522",
+      "year": "2022",
+      "title": "Data Cards: Purposeful and Transparent Dataset Documentation for Responsible AI",
+      "author": "Pushkarna, Mahima and Zaldivar, Andrew and Kjartansson, Oddur",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "pushkarna2022data"
+    },
+    {
+      "institution": "Technical Report",
+      "year": "2022",
+      "author": "Alsallakh, B and Cheema, A and Procope, C and Adkins, D and McReynolds, E and Wang, E and Pehl, G and Green, N and Zvyagina, P",
+      "title": "System-Level Transparency of Machine Learning",
+      "ENTRYTYPE": "techreport",
+      "ID": "alsallakh2022system"
+    },
+    {
+      "publisher": "MIT Press 255 Main Street, 9th Floor, Cambridge, Massachusetts 02142, USA~…",
+      "year": "2024",
+      "pages": "1--79",
+      "journal": "Computational Linguistics",
+      "author": "Gallegos, Isabel O and Rossi, Ryan A and Barrow, Joe and Tanjim, Md Mehrab and Kim, Sungchul and Dernoncourt, Franck and Yu, Tong and Zhang, Ruiyi and Ahmed, Nesreen K",
+      "title": "Bias and fairness in large language models: A survey",
+      "ENTRYTYPE": "article",
+      "ID": "gallegos2024bias"
+    },
+    {
+      "year": "2018",
+      "journal": "arXiv preprint arXiv:1804.09301",
+      "author": "Rudinger, Rachel and Naradowsky, Jason and Leonard, Brian and Van Durme, Benjamin",
+      "title": "Gender bias in coreference resolution",
+      "ENTRYTYPE": "article",
+      "ID": "rudinger2018gender"
+    },
+    {
+      "year": "2020",
+      "journal": "arXiv preprint arXiv:2009.11462",
+      "author": "Gehman, Samuel and Gururangan, Suchin and Sap, Maarten and Choi, Yejin and Smith, Noah A",
+      "title": "Realtoxicityprompts: Evaluating neural toxic degeneration in language models",
+      "ENTRYTYPE": "article",
+      "ID": "gehman2020realtoxicityprompts"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2306.15087",
+      "author": "Felkner, Virginia K and Chang, Ho-Chun Herbert and Jang, Eugene and May, Jonathan",
+      "title": "Winoqueer: A community-in-the-loop benchmark for anti-lgbtq+ bias in large language models",
+      "ENTRYTYPE": "article",
+      "ID": "felkner2023winoqueer"
+    },
+    {
+      "year": "2021",
+      "journal": "arXiv preprint arXiv:2110.08193",
+      "author": "Parrish, Alicia and Chen, Angelica and Nangia, Nikita and Padmakumar, Vishakh and Phang, Jason and Thompson, Jana and Htut, Phu Mon and Bowman, Samuel R",
+      "title": "BBQ: A hand-built bias benchmark for question answering",
+      "ENTRYTYPE": "article",
+      "ID": "parrish2021bbq"
+    },
+    {
+      "year": "2023",
+      "pages": "2785--2799",
+      "booktitle": "Proceedings of the 2023 ACM SIGSAC Conference on Computer and Communications Security",
+      "author": "Perry, Neil and Srivastava, Megha and Kumar, Deepak and Boneh, Dan",
+      "title": "Do users write more insecure code with AI assistants?",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "perry2023users"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2401.05561",
+      "author": "Sun, Lichao and Huang, Yue and Wang, Haoran and Wu, Siyuan and Zhang, Qihui and Gao, Chujie and Huang, Yixin and Lyu, Wenhan and Zhang, Yixuan and Li, Xiner and others",
+      "title": "Trustllm: Trustworthiness in large language models",
+      "ENTRYTYPE": "article",
+      "ID": "sun2024trustllm"
+    },
+    {
+      "year": "2018",
+      "journal": "arXiv preprint arXiv:1806.03822",
+      "author": "Rajpurkar, Pranav and Jia, Robin and Liang, Percy",
+      "title": "Know what you don't know: Unanswerable questions for SQuAD",
+      "ENTRYTYPE": "article",
+      "ID": "rajpurkar2018know"
+    },
+    {
+      "year": "2019",
+      "journal": "arXiv preprint arXiv:1904.04365",
+      "author": "Chen, Michael and D'Arcy, Mike and Liu, Alisa and Fernandez, Jared and Downey, Doug",
+      "title": "Codah: An adversarially authored question-answer dataset for common sense",
+      "ENTRYTYPE": "article",
+      "ID": "chen2019codah"
+    },
+    {
+      "year": "2018",
+      "journal": "arXiv preprint arXiv:1809.09600",
+      "author": "Yang, Zhilin and Qi, Peng and Zhang, Saizheng and Bengio, Yoshua and Cohen, William W and Salakhutdinov, Ruslan and Manning, Christopher D",
+      "title": "HotpotQA: A dataset for diverse, explainable multi-hop question answering",
+      "ENTRYTYPE": "article",
+      "ID": "yang2018hotpotqa"
+    },
+    {
+      "publisher": "MIT Press One Rogers Street, Cambridge, MA 02142-1209, USA journals-info~…",
+      "year": "2020",
+      "pages": "662--678",
+      "volume": "8",
+      "journal": "Transactions of the Association for Computational Linguistics",
+      "author": "Bartolo, Max and Roberts, Alastair and Welbl, Johannes and Riedel, Sebastian and Stenetorp, Pontus",
+      "title": "Beat the AI: Investigating adversarial human annotation for reading comprehension",
+      "ENTRYTYPE": "article",
+      "ID": "bartolo2020beat"
+    },
+    {
+      "year": "2020",
+      "journal": "arXiv preprint arXiv:2012.00614",
+      "author": "Diggelmann, Thomas and Boyd-Graber, Jordan and Bulian, Jannis and Ciaramita, Massimiliano and Leippold, Markus",
+      "title": "Climate-fever: A dataset for verification of real-world climate claims",
+      "ENTRYTYPE": "article",
+      "ID": "diggelmann2020climate"
+    },
+    {
+      "year": "2020",
+      "journal": "arXiv preprint arXiv:2004.14974",
+      "author": "Wadden, David and Lin, Shanchuan and Lo, Kyle and Wang, Lucy Lu and van Zuylen, Madeleine and Cohan, Arman and Hajishirzi, Hannaneh",
+      "title": "Fact or fiction: Verifying scientific claims",
+      "ENTRYTYPE": "article",
+      "ID": "wadden2020fact"
+    },
+    {
+      "year": "2021",
+      "journal": "arXiv preprint arXiv:2106.03794",
+      "author": "Saakyan, Arkadiy and Chakrabarty, Tuhin and Muresan, Smaranda",
+      "title": "COVID-fact: Fact extraction and verification of real-world claims on COVID-19 pandemic",
+      "ENTRYTYPE": "article",
+      "ID": "saakyan2021covid"
+    },
+    {
+      "year": "2021",
+      "pages": "3499--3512",
+      "booktitle": "Findings of the Association for Computational Linguistics: EMNLP 2021",
+      "author": "Sarrouti, Mourad and Abacha, Asma Ben and M’rabet, Yassine and Demner-Fushman, Dina",
+      "title": "Evidence-based fact-checking of health-related claims",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "sarrouti2021evidence"
+    },
+    {
+      "year": "2021",
+      "journal": "arXiv preprint arXiv:2109.07958",
+      "author": "Lin, Stephanie and Hilton, Jacob and Evans, Owain",
+      "title": "Truthfulqa: Measuring how models mimic human falsehoods",
+      "ENTRYTYPE": "article",
+      "ID": "lin2021truthfulqa"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2305.11747",
+      "author": "Li, Junyi and Cheng, Xiaoxue and Zhao, Wayne Xin and Nie, Jian-Yun and Wen, Ji-Rong",
+      "title": "Halueval: A large-scale hallucination evaluation benchmark for large language models",
+      "ENTRYTYPE": "article",
+      "ID": "li2023halueval"
+    },
+    {
+      "organization": "IEEE",
+      "year": "2024",
+      "pages": "132--143",
+      "booktitle": "2024 IEEE Security and Privacy Workshops (SPW)",
+      "author": "Kang, Daniel and Li, Xuechen and Stoica, Ion and Guestrin, Carlos and Zaharia, Matei and Hashimoto, Tatsunori",
+      "title": "Exploiting programmatic behavior of llms: Dual-use through standard security attacks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "kang2024exploiting"
+    },
+    {
+      "year": "2018",
+      "journal": "arXiv preprint arXiv:1804.06876",
+      "author": "Zhao, Jieyu and Wang, Tianlu and Yatskar, Mark and Ordonez, Vicente and Chang, Kai-Wei",
+      "title": "Gender bias in coreference resolution: Evaluation and debiasing methods",
+      "ENTRYTYPE": "article",
+      "ID": "zhao2018gender"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2409.05653",
+      "author": "Gautam, Vagrant and Steuer, Julius and Bingert, Eileen and Johns, Ray and Lauscher, Anne and Klakow, Dietrich",
+      "title": "Revisiting English Winogender Schemas for Consistency, Coverage, and Grammatical Case",
+      "ENTRYTYPE": "article",
+      "ID": "gautam2024revisiting"
+    },
+    {
+      "publisher": "ACM New York, NY, USA",
+      "year": "2021",
+      "pages": "99--106",
+      "number": "9",
+      "volume": "64",
+      "journal": "Communications of the ACM",
+      "author": "Sakaguchi, Keisuke and Bras, Ronan Le and Bhagavatula, Chandra and Choi, Yejin",
+      "title": "Winogrande: An adversarial winograd schema challenge at scale",
+      "ENTRYTYPE": "article",
+      "ID": "sakaguchi2021winogrande"
+    },
+    {
+      "publisher": "ACM New York, NY, USA",
+      "year": "2024",
+      "pages": "34--48",
+      "number": "1",
+      "volume": "26",
+      "journal": "ACM SIGKDD explorations newsletter",
+      "author": "Chu, Zhibo and Wang, Zichong and Zhang, Wenbin",
+      "title": "Fairness in large language models: A taxonomic survey",
+      "ENTRYTYPE": "article",
+      "ID": "chu2024fairness"
+    },
+    {
+      "year": "2020",
+      "pages": "7659--7666",
+      "volume": "34",
+      "booktitle": "Proceedings of the AAAI Conference on Artificial Intelligence",
+      "author": "Dev, Sunipa and Li, Tao and Phillips, Jeff M and Srikumar, Vivek",
+      "title": "On measuring and mitigating biased inferences of word embeddings",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "dev2020measuring"
+    },
+    {
+      "year": "2020",
+      "journal": "arXiv preprint arXiv:2004.09456",
+      "author": "Nadeem, Moin and Bethke, Anna and Reddy, Siva",
+      "title": "StereoSet: Measuring stereotypical bias in pretrained language models",
+      "ENTRYTYPE": "article",
+      "ID": "nadeem2020stereoset"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2306.11507",
+      "author": "Huang, Yue and Zhang, Qihui and Sun, Lichao and others",
+      "title": "Trustgpt: A benchmark for trustworthy and responsible large language models",
+      "ENTRYTYPE": "article",
+      "ID": "huang2023trustgpt"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2205.09209",
+      "author": "Smith, Eric Michael and Hall, Melissa and Kambadur, Melanie and Presani, Eleonora and Williams, Adina",
+      "title": "\" I'm sorry to hear that\": Finding New Biases in Language Models with a Holistic Descriptor Dataset",
+      "ENTRYTYPE": "article",
+      "ID": "smith2022m"
+    },
+    {
+      "year": "2020",
+      "journal": "arXiv preprint arXiv:2010.00133",
+      "author": "Nangia, Nikita and Vania, Clara and Bhalerao, Rasika and Bowman, Samuel R",
+      "title": "CrowS-pairs: A challenge dataset for measuring social biases in masked language models",
+      "ENTRYTYPE": "article",
+      "ID": "nangia2020crows"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2203.09509",
+      "author": "Hartvigsen, Thomas and Gabriel, Saadia and Palangi, Hamid and Sap, Maarten and Ray, Dipankar and Kamar, Ece",
+      "title": "Toxigen: A large-scale machine-generated dataset for adversarial and implicit hate speech detection",
+      "ENTRYTYPE": "article",
+      "ID": "hartvigsen2022toxigen"
+    },
+    {
+      "year": "2020",
+      "journal": "arXiv preprint arXiv:2006.08328",
+      "author": "Mollas, Ioannis and Chrysopoulou, Zoe and Karlos, Stamatis and Tsoumakas, Grigorios",
+      "title": "Ethos: an online hate speech detection dataset",
+      "ENTRYTYPE": "article",
+      "ID": "mollas2020ethos"
+    },
+    {
+      "year": "2020",
+      "journal": "arXiv preprint arXiv:2012.15606",
+      "author": "R{\\\"o}ttger, Paul and Vidgen, Bertram and Nguyen, Dong and Waseem, Zeerak and Margetts, Helen and Pierrehumbert, Janet B",
+      "title": "HateCheck: Functional tests for hate speech detection models",
+      "ENTRYTYPE": "article",
+      "ID": "rottger2020hatecheck"
+    },
+    {
+      "year": "2023",
+      "booktitle": "The Twelfth International Conference on Learning Representations",
+      "author": "Zheng, Chujie and Zhou, Hao and Meng, Fandong and Zhou, Jie and Huang, Minlie",
+      "title": "Large language models are not robust multiple choice selectors",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zheng2023large"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2305.17926",
+      "author": "Wang, Peiyi and Li, Lei and Chen, Liang and Cai, Zefan and Zhu, Dawei and Lin, Binghuai and Cao, Yunbo and Liu, Qi and Liu, Tianyu and Sui, Zhifang",
+      "title": "Large language models are not fair evaluators",
+      "ENTRYTYPE": "article",
+      "ID": "wang2023large"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2401.14019",
+      "author": "Bandel, Elron and Perlitz, Yotam and Venezian, Elad and Friedman-Melamed, Roni and Arviv, Ofir and Orbach, Matan and Don-Yehyia, Shachar and Sheinwald, Dafna and Gera, Ariel and Choshen, Leshem and others",
+      "title": "Unitxt: Flexible, shareable and reusable data preparation and evaluation for generative ai",
+      "ENTRYTYPE": "article",
+      "ID": "bandel2024unitxt"
+    },
+    {
+      "note": "Accessed: 2024-10-07",
+      "url": "https://shorensteincenter.org/wp-content/uploads/2024/05/CleAR_KChmielinski_FINAL.pdf",
+      "institution": "Shorenstein Center on Media, Politics and Public Policy, Harvard Kennedy School",
+      "year": "2024",
+      "author": "Chmielinski, Kate",
+      "title": "The CLEAR Documentation Framework: AI Transparency Recommendations for Practitioners in Context for Policymakers",
+      "ENTRYTYPE": "techreport",
+      "ID": "shorensteincenter"
+    },
+    {
+      "note": "Accessed: 2024-10-27",
+      "url": "https://airisk.mit.edu/",
+      "year": "2024",
+      "author": "MIT Center for Deployable Machine Learning",
+      "title": "MIT AI Risk Atlas",
+      "ENTRYTYPE": "misc",
+      "ID": "mit_ai_risk_atlas"
+    },
+    {
+      "note": "Accessed: 2024-10-27",
+      "url": "https://genai.owasp.org/",
+      "year": "2024",
+      "author": "OWASP Top 10 Generative AI Security Risks Project",
+      "title": "OWASP Generative AI Security Risk Top 10",
+      "ENTRYTYPE": "misc",
+      "ID": "owasp_generative_ai_top_10_2024"
+    },
+    {
+      "note": "Accessed: 2024-10-27",
+      "url": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1270.pdf",
+      "number": "NIST Special Publication 1270",
+      "month": "January",
+      "year": "2023",
+      "institution": "National Institute of Standards and Technology",
+      "author": "National Institute of Standards and Technology",
+      "title": "Artificial Intelligence Risk Management Framework (AI RMF 1.0)",
+      "ENTRYTYPE": "techreport",
+      "ID": "nist_ai_risk_management_framework_2023"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2407.13696",
+      "author": "Perlitz, Yotam and Gera, Ariel and Arviv, Ofir and Yehudai, Asaf and Bandel, Elron and Shnarch, Eyal and Shmueli-Scheuer, Michal and Choshen, Leshem",
+      "title": "Do these LLM benchmarks agree? Fixing benchmark evaluation with BenchBench",
+      "ENTRYTYPE": "article",
+      "ID": "perlitz2024these"
+    },
+    {
+      "url": "https://zenodo.org/records/12608602",
+      "doi": "10.5281/zenodo.12608602",
+      "version": "v0.4.3",
+      "publisher": "Zenodo",
+      "year": "2024",
+      "month": "07",
+      "title": "A framework for few-shot language model evaluation",
+      "author": "Gao, Leo and Tow, Jonathan and Abbasi, Baber and Biderman, Stella and Black, Sid and DiPofi, Anthony and Foster, Charles and Golding, Laurence and Hsu, Jeffrey and Le Noac'h, Alain and Li, Haonan and McDonell, Kyle and Muennighoff, Niklas and Ociepa, Chris and Phang, Jason and Reynolds, Laria and Schoelkopf, Hailey and Skowron, Aviya and Sutawika, Lintang and Tang, Eric and Thite, Anish and Wang, Ben and Wang, Kevin and Zou, Andy",
+      "ENTRYTYPE": "misc",
+      "ID": "eval-harness"
+    },
+    {
+      "year": "2020",
+      "journal": "arXiv preprint arXiv:2006.13796",
+      "author": "Richards, John and Piorkowski, David and Hind, Michael and Houde, Stephanie and Mojsilovi{\\'c}, Aleksandra",
+      "title": "A methodology for creating AI FactSheets",
+      "ENTRYTYPE": "article",
+      "ID": "richards2020methodology"
+    },
+    {
+      "publisher": "MDPI",
+      "year": "2021",
+      "pages": "275",
+      "number": "7",
+      "volume": "12",
+      "journal": "Information",
+      "author": "Cihon, Peter and Schuett, Jonas and Baum, Seth D",
+      "title": "Corporate governance of artificial intelligence in the public interest",
+      "ENTRYTYPE": "article",
+      "ID": "cihon2021corporate"
+    },
+    {
+      "url": "https://github.com/EleutherAI/lm-evaluation-harness/tree/0845b588303f1f59af98dd1c5bdbd78a9e75a1e2/lm_eval/tasks",
+      "author": "EleutherAI",
+      "title": "Language Model Evaluation Harness",
+      "ENTRYTYPE": "misc",
+      "ID": "lm-eval-harness"
+    },
+    {
+      "url": "https://arxiv.org/abs/1805.03677",
+      "primaryclass": "cs.DB",
+      "archiveprefix": "arXiv",
+      "eprint": "1805.03677",
+      "year": "2018",
+      "author": "Sarah Holland and Ahmed Hosny and Sarah Newman and Joshua Joseph and Kasia Chmielinski",
+      "title": "The Dataset Nutrition Label: A Framework To Drive Higher Data Quality Standards",
+      "ENTRYTYPE": "misc",
+      "ID": "holland2018datasetnutritionlabelframework"
+    },
+    {
+      "url": "https://arxiv.org/abs/2406.08446",
+      "primaryclass": "cs.CL",
+      "archiveprefix": "arXiv",
+      "eprint": "2406.08446",
+      "year": "2025",
+      "author": "Yuling Gu and Oyvind Tafjord and Bailey Kuehl and Dany Haddad and Jesse Dodge and Hannaneh Hajishirzi",
+      "title": "OLMES: A Standard for Language Model Evaluations",
+      "ENTRYTYPE": "misc",
+      "ID": "gu2025olmesstandardlanguagemodel"
+    },
+    {
+      "url": "https://www.anthropic.com/index/evaluating-ai-systems",
+      "year": "2023",
+      "date": "2023-10-04",
+      "title": "Challenges in evaluating {AI} systems",
+      "author": "Deep Ganguli and Nicholas Schiefer and Marina Favaro and Jack Clark",
+      "ENTRYTYPE": "misc",
+      "ID": "ganguli2023challenges"
+    },
+    {
+      "year": "2024",
+      "pages": "82133--82148",
+      "volume": "37",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Akhtar, Mubashara and Benjelloun, Omar and Conforti, Costanza and Foschini, Luca and Giner-Miguelez, Joan and Gijsbers, Pieter and Goswami, Sujata and Jain, Nitisha and Karamousadakis, Michalis and Kuchnik, Michael and others",
+      "title": "Croissant: A metadata format for ml-ready datasets",
+      "ENTRYTYPE": "article",
+      "ID": "akhtar2024croissant"
+    },
+    {
+      "year": "2020",
+      "journal": "arXiv preprint arXiv:2009.03300",
+      "author": "Hendrycks, Dan and Burns, Collin and Basart, Steven and Zou, Andy and Mazeika, Mantas and Song, Dawn and Steinhardt, Jacob",
+      "title": "Measuring massive multitask language understanding",
+      "ENTRYTYPE": "article",
+      "ID": "hendrycks2020measuring"
+    }
+  ]
+}

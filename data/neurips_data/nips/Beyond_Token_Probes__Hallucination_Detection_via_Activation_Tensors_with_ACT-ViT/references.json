@@ -1,0 +1,949 @@
+{
+  "pdf_url": "https://arxiv.org/pdf/2510.00296v1.pdf",
+  "references": [
+    {
+      "publisher": "Morgan Kaufmann",
+      "address": "Stanford, CA",
+      "booktitle": "Proceedings of the 17th International Conference\non Machine Learning (ICML 2000)",
+      "editor": "Pat Langley",
+      "pages": "1207--1216",
+      "year": "2000",
+      "title": "Crafting Papers on Machine Learning",
+      "author": "P. Langley",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "langley00"
+    },
+    {
+      "address": "New Brunswick, MA",
+      "year": "1980",
+      "institution": "Computer Science Department, Rutgers University",
+      "title": "The Need for Biases in Learning Generalizations",
+      "author": "T. M. Mitchell",
+      "ENTRYTYPE": "techreport",
+      "ID": "mitchell80"
+    },
+    {
+      "year": "1989",
+      "school": "Department of Computer Science, Harvard University",
+      "title": "Computational Complexity of Machine Learning",
+      "author": "M. J. Kearns",
+      "ENTRYTYPE": "phdthesis",
+      "ID": "kearns89"
+    },
+    {
+      "address": "Palo Alto, CA",
+      "year": "1983",
+      "publisher": "Tioga",
+      "title": "Machine Learning: An Artificial Intelligence\nApproach, Vol. I",
+      "editor": "R. S. Michalski and J. G. Carbonell and T.\nM. Mitchell",
+      "ENTRYTYPE": "book",
+      "ID": "MachineLearningI"
+    },
+    {
+      "year": "2000",
+      "edition": "2nd",
+      "publisher": "John Wiley and Sons",
+      "title": "Pattern Classification",
+      "author": "R. O. Duda and P. E. Hart and D. G. Stork",
+      "ENTRYTYPE": "book",
+      "ID": "DudaHart2nd"
+    },
+    {
+      "year": "2021",
+      "author": "Author, N. N.",
+      "title": "Suppressed for Anonymity",
+      "ENTRYTYPE": "misc",
+      "ID": "anonymous"
+    },
+    {
+      "address": "Hillsdale, NJ",
+      "chapter": "1",
+      "editor": "J. R. Anderson",
+      "year": "1981",
+      "publisher": "Lawrence Erlbaum Associates, Inc.",
+      "pages": "1--51",
+      "booktitle": "Cognitive Skills and Their Acquisition",
+      "title": "Mechanisms of Skill Acquisition and the Law of\nPractice",
+      "author": "A. Newell and P. S. Rosenbloom",
+      "ENTRYTYPE": "incollection",
+      "ID": "Newell81"
+    },
+    {
+      "pages": "211--229",
+      "number": "3",
+      "volume": "3",
+      "year": "1959",
+      "journal": "IBM Journal of Research and Development",
+      "title": "Some Studies in Machine Learning Using the Game of\nCheckers",
+      "author": "A. L. Samuel",
+      "ENTRYTYPE": "article",
+      "ID": "Samuel59"
+    },
+    {
+      "publisher": "MIT Press One Broadway, 12th Floor, Cambridge, Massachusetts 02142, USA~…",
+      "year": "2022",
+      "pages": "207--219",
+      "number": "1",
+      "volume": "48",
+      "journal": "Computational Linguistics",
+      "author": "Belinkov, Yonatan",
+      "title": "Probing classifiers: Promises, shortcomings, and advances",
+      "ENTRYTYPE": "article",
+      "ID": "belinkov2022probing"
+    },
+    {
+      "url": "https://arxiv.org/abs/1610.01644",
+      "primaryclass": "stat.ML",
+      "archiveprefix": "arXiv",
+      "eprint": "1610.01644",
+      "year": "2018",
+      "author": "Guillaume Alain and Yoshua Bengio",
+      "title": "Understanding intermediate layers using linear classifier probes",
+      "ENTRYTYPE": "misc",
+      "ID": "alain2018understandingintermediatelayersusing"
+    },
+    {
+      "year": "2018",
+      "pages": "907--926",
+      "volume": "61",
+      "journal": "Journal of Artificial Intelligence Research",
+      "author": "Hupkes, Dieuwke and Veldhoen, Sara and Zuidema, Willem",
+      "title": "Visualisation and'diagnostic classifiers' reveal how recurrent and recursive neural networks process hierarchical structure",
+      "ENTRYTYPE": "article",
+      "ID": "hupkes2018visualisation"
+    },
+    {
+      "year": "2019",
+      "journal": "arXiv preprint arXiv:1903.08855",
+      "author": "Liu, Nelson F and Gardner, Matt and Belinkov, Yonatan and Peters, Matthew E and Smith, Noah A",
+      "title": "Linguistic knowledge and transferability of contextual representations",
+      "ENTRYTYPE": "article",
+      "ID": "liu2019linguistic"
+    },
+    {
+      "year": "2020",
+      "journal": "arXiv preprint arXiv:2005.01641",
+      "author": "Maudslay, Rowan Hall and Valvoda, Josef and Pimentel, Tiago and Williams, Adina and Cotterell, Ryan",
+      "title": "A tale of a probe and a parser",
+      "ENTRYTYPE": "article",
+      "ID": "maudslay2020tale"
+    },
+    {
+      "year": "2019",
+      "journal": "arXiv preprint arXiv:1909.03368",
+      "author": "Hewitt, John and Liang, Percy",
+      "title": "Designing and interpreting probes with control tasks",
+      "ENTRYTYPE": "article",
+      "ID": "hewitt2019designing"
+    },
+    {
+      "year": "2016",
+      "journal": "arXiv preprint arXiv:1608.04207",
+      "author": "Adi, Yossi and Kermany, Einat and Belinkov, Yonatan and Lavi, Ofer and Goldberg, Yoav",
+      "title": "Fine-grained analysis of sentence embeddings using auxiliary prediction tasks",
+      "ENTRYTYPE": "article",
+      "ID": "adi2016fine"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2410.02707",
+      "author": "Orgad, Hadas and Toker, Michael and Gekhman, Zorik and Reichart, Roi and Szpektor, Idan and Kotek, Hadas and Belinkov, Yonatan",
+      "title": "Llms know more than they show: On the intrinsic representation of llm hallucinations",
+      "ENTRYTYPE": "article",
+      "ID": "orgad2024llms"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2310.16789",
+      "author": "Shi, Weijia and Ajith, Anirudh and Xia, Mengzhou and Huang, Yangsibo and Liu, Daogao and Blevins, Terra and Chen, Danqi and Zettlemoyer, Luke",
+      "title": "Detecting pretraining data from large language models",
+      "ENTRYTYPE": "article",
+      "ID": "shi2023detecting"
+    },
+    {
+      "url": "https://arxiv.org/abs/2306.03341",
+      "primaryclass": "cs.LG",
+      "archiveprefix": "arXiv",
+      "eprint": "2306.03341",
+      "year": "2024",
+      "author": "Kenneth Li and Oam Patel and Fernanda Viégas and Hanspeter Pfister and Martin Wattenberg",
+      "title": "Inference-Time Intervention: Eliciting Truthful Answers from a Language Model",
+      "ENTRYTYPE": "misc",
+      "ID": "li2024inferencetimeinterventionelicitingtruthful"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2302.04023",
+      "author": "Bang, Yejin and Cahyawijaya, Samuel and Lee, Nayeon and Dai, Wenliang and Su, Dan and Wilie, Bryan and Lovenia, Holy and Ji, Ziwei and Yu, Tiezheng and Chung, Willy and others",
+      "title": "A multitask, multilingual, multimodal evaluation of chatgpt on reasoning, hallucination, and interactivity",
+      "ENTRYTYPE": "article",
+      "ID": "bang2023multitask"
+    },
+    {
+      "publisher": "ACM New York, NY",
+      "year": "2023",
+      "pages": "1--38",
+      "number": "12",
+      "volume": "55",
+      "journal": "ACM Computing Surveys",
+      "author": "Ji, Ziwei and Lee, Nayeon and Frieske, Rita and Yu, Tiezheng and Su, Dan and Xu, Yan and Ishii, Etsuko and Bang, Ye Jin and Madotto, Andrea and Fung, Pascale",
+      "title": "Survey of hallucination in natural language generation",
+      "ENTRYTYPE": "article",
+      "ID": "ji2023survey"
+    },
+    {
+      "publisher": "ACM New York, NY",
+      "year": "2023",
+      "journal": "ACM Transactions on Information Systems",
+      "author": "Huang, Lei and Yu, Weijiang and Ma, Weitao and Zhong, Weihong and Feng, Zhangyin and Wang, Haotian and Chen, Qianglong and Peng, Weihua and Feng, Xiaocheng and Qin, Bing and others",
+      "title": "A survey on hallucination in large language models: Principles, taxonomy, challenges, and open questions",
+      "ENTRYTYPE": "article",
+      "ID": "huang2023survey"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2310.04988",
+      "author": "Rawte, Vipula and Chakraborty, Swagata and Pathak, Agnibh and Sarkar, Anubhav and Tonmoy, SM and Chadha, Aman and Sheth, Amit P and Das, Amitava",
+      "title": "The troubling emergence of hallucination in large language models--an extensive definition, quantification, and prescriptive remediations",
+      "ENTRYTYPE": "article",
+      "ID": "rawte2023troubling"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2402.15938",
+      "author": "Dong, Yihong and Jiang, Xue and Liu, Huanyu and Jin, Zhi and Gu, Bin and Yang, Mengfei and Li, Ge",
+      "title": "Generalization or memorization: Data contamination and trustworthy evaluation for large language models",
+      "ENTRYTYPE": "article",
+      "ID": "dong2024generalization"
+    },
+    {
+      "pages": "2067--2073",
+      "doi": "10.18653/v1/D15-1246",
+      "url": "https://aclanthology.org/D15-1246/",
+      "publisher": "Association for Computational Linguistics",
+      "address": "Lisbon, Portugal",
+      "year": "2015",
+      "month": "September",
+      "booktitle": "Proceedings of the 2015 Conference on Empirical Methods in Natural Language Processing",
+      "editor": "M{\\`a}rquez, Llu{\\'i}s  and\nCallison-Burch, Chris  and\nSu, Jian",
+      "author": "K{\\\"o}hn, Arne",
+      "title": "What{'}s in an Embedding? Analyzing Word Embeddings through Multilingual Evaluation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "kohn-2015-whats"
+    },
+    {
+      "year": "2015",
+      "pages": "12--21",
+      "booktitle": "Proceedings of the 2015 Conference on Empirical Methods in Natural Language Processing",
+      "author": "Gupta, Abhijeet and Boleda, Gemma and Baroni, Marco and Pad{\\'o}, Sebastian",
+      "title": "Distributional vectors encode referential attributes",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "gupta2015distributional"
+    },
+    {
+      "year": "2016",
+      "pages": "1526--1534",
+      "booktitle": "Proceedings of the 2016 conference on empirical methods in natural language processing",
+      "author": "Shi, Xing and Padhi, Inkit and Knight, Kevin",
+      "title": "Does string-based neural MT learn source syntax?",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "shi2016does"
+    },
+    {
+      "year": "2016",
+      "pages": "134--139",
+      "booktitle": "Proceedings of the 1st workshop on evaluating vector-space representations for nlp",
+      "author": "Ettinger, Allyson and Elgohary, Ahmed and Resnik, Philip",
+      "title": "Probing for semantic evidence of composition by means of simple classification tasks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ettinger2016probing"
+    },
+    {
+      "year": "2018",
+      "journal": "arXiv preprint arXiv:1805.01070",
+      "author": "Conneau, Alexis and Kruszewski, German and Lample, Guillaume and Barrault, Lo{\\\"\\i}c and Baroni, Marco",
+      "title": "What you can cram into a single vector: Probing sentence embeddings for linguistic properties",
+      "ENTRYTYPE": "article",
+      "ID": "conneau2018you"
+    },
+    {
+      "publisher": "MIT Press One Rogers Street, Cambridge, MA 02142-1209, USA journals-info~…",
+      "year": "2019",
+      "pages": "49--72",
+      "volume": "7",
+      "journal": "Transactions of the Association for Computational Linguistics",
+      "author": "Belinkov, Yonatan and Glass, James",
+      "title": "Analysis methods in neural language processing: A survey",
+      "ENTRYTYPE": "article",
+      "ID": "belinkov2019analysis"
+    },
+    {
+      "url": "https://transformer-circuits.pub/2024/scaling-monosemanticity/index.html",
+      "journal": "Transformer Circuits Thread",
+      "year": "2024",
+      "author": "Templeton, Adly and Conerly, Tom and Marcus, Jonathan and Lindsey, Jack and Bricken, Trenton and Chen, Brian and Pearce, Adam and Citro, Craig and Ameisen, Emmanuel and Jones, Andy and Cunningham, Hoagy and Turner, Nicholas L and McDougall, Callum and MacDiarmid, Monte and Freeman, C. Daniel and Sumers, Theodore R. and Rees, Edward and Batson, Joshua and Jermyn, Adam and Carter, Shan and Olah, Chris and Henighan, Tom",
+      "title": "Scaling Monosemanticity: Extracting Interpretable Features from Claude 3 Sonnet",
+      "ENTRYTYPE": "article",
+      "ID": "templeton2024scaling"
+    },
+    {
+      "year": "2017",
+      "journal": "arXiv preprint arXiv:1711.05101",
+      "author": "Loshchilov, I",
+      "title": "Decoupled weight decay regularization",
+      "ENTRYTYPE": "article",
+      "ID": "loshchilov2017decoupled"
+    },
+    {
+      "author": "Biewald, Lukas",
+      "url": "https://www.wandb.com/",
+      "note": "Software available from wandb.com",
+      "year": "2020",
+      "title": "Experiment Tracking with Weights and Biases",
+      "ENTRYTYPE": "misc",
+      "ID": "wandb"
+    },
+    {
+      "year": "2019",
+      "volume": "32",
+      "journal": "Advances in neural information processing systems",
+      "author": "Paszke, Adam and Gross, Sam and Massa, Francisco and Lerer, Adam and Bradbury, James and Chanan, Gregory and Killeen, Trevor and Lin, Zeming and Gimelshein, Natalia and Antiga, Luca and others",
+      "title": "Pytorch: An imperative style, high-performance deep learning library",
+      "ENTRYTYPE": "article",
+      "ID": "paszke2019pytorch"
+    },
+    {
+      "year": "2018",
+      "journal": "arXiv preprint arXiv:1812.09902",
+      "author": "Maron, Haggai and Ben-Hamu, Heli and Shamir, Nadav and Lipman, Yaron",
+      "title": "Invariant and equivariant graph networks",
+      "ENTRYTYPE": "article",
+      "ID": "maron2018invariant"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2016",
+      "pages": "2990--2999",
+      "booktitle": "International conference on machine learning",
+      "author": "Cohen, Taco and Welling, Max",
+      "title": "Group equivariant convolutional networks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "cohen2016group"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2405.07987",
+      "author": "Huh, Minyoung and Cheung, Brian and Wang, Tongzhou and Isola, Phillip",
+      "title": "The platonic representation hypothesis",
+      "ENTRYTYPE": "article",
+      "ID": "huh2024platonic"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2310.06824",
+      "author": "Marks, Samuel and Tegmark, Max",
+      "title": "The geometry of truth: Emergent linear structure in large language model representations of true/false datasets",
+      "ENTRYTYPE": "article",
+      "ID": "marks2023geometry"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2019",
+      "pages": "3519--3529",
+      "booktitle": "International conference on machine learning",
+      "author": "Kornblith, Simon and Norouzi, Mohammad and Lee, Honglak and Hinton, Geoffrey",
+      "title": "Similarity of neural network representations revisited",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "kornblith2019similarity"
+    },
+    {
+      "year": "2021",
+      "journal": "arXiv preprint arXiv:2201.00058",
+      "author": "Barannikov, Serguei and Trofimov, Ilya and Balabin, Nikita and Burnaev, Evgeny",
+      "title": "Representation topology divergence: A method for comparing neural network representations",
+      "ENTRYTYPE": "article",
+      "ID": "barannikov2021representation"
+    },
+    {
+      "year": "2023",
+      "pages": "3607--3625",
+      "booktitle": "Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing",
+      "author": "Slobodkin, Aviv and Goldman, Omer and Caciularu, Avi and Dagan, Ido and Ravfogel, Shauli",
+      "title": "The curious case of hallucinatory (un) answerability: Finding truths in the hidden states of over-confident large language models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "slobodkin2023curious"
+    },
+    {
+      "year": "2019",
+      "journal": "arXiv preprint arXiv:1905.11460",
+      "author": "Albooyeh, Marjan and Bertolini, Daniele and Ravanbakhsh, Siamak",
+      "title": "Incidence networks for geometric deep learning",
+      "ENTRYTYPE": "article",
+      "ID": "albooyeh2019incidence"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2307.10236",
+      "author": "Huang, Yuheng and Song, Jiayang and Wang, Zhijie and Zhao, Shengming and Chen, Huaming and Juefei-Xu, Felix and Ma, Lei",
+      "title": "Look before you leap: An exploratory study of uncertainty measurement for large language models",
+      "ENTRYTYPE": "article",
+      "ID": "huang2023look"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2207.05221",
+      "author": "Kadavath, Saurav and Conerly, Tom and Askell, Amanda and Henighan, Tom and Drain, Dawn and Perez, Ethan and Schiefer, Nicholas and Hatfield-Dodds, Zac and DasSarma, Nova and Tran-Johnson, Eli and others",
+      "title": "Language models (mostly) know what they know",
+      "ENTRYTYPE": "article",
+      "ID": "kadavath2022language"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2208.05309",
+      "author": "Guerreiro, Nuno M and Voita, Elena and Martins, Andr{\\'e} FT",
+      "title": "Looking for a needle in a haystack: A comprehensive study of hallucinations in neural machine translation",
+      "ENTRYTYPE": "article",
+      "ID": "guerreiro2022looking"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2401.01313",
+      "author": "Tonmoy, SM and Zaman, SM and Jain, Vinija and Rani, Anku and Rawte, Vipula and Chadha, Aman and Das, Amitava",
+      "title": "A comprehensive survey of hallucination mitigation techniques in large language models",
+      "ENTRYTYPE": "article",
+      "ID": "tonmoy2024comprehensive"
+    },
+    {
+      "url": "https://arxiv.org/abs/2302.09664",
+      "primaryclass": "cs.CL",
+      "archiveprefix": "arXiv",
+      "eprint": "2302.09664",
+      "year": "2023",
+      "author": "Lorenz Kuhn and Yarin Gal and Sebastian Farquhar",
+      "title": "Semantic Uncertainty: Linguistic Invariances for Uncertainty Estimation in Natural Language Generation",
+      "ENTRYTYPE": "misc",
+      "ID": "kuhn2023semanticuncertaintylinguisticinvariances"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2503.14043",
+      "author": "Bar-Shalom, Guy and Frasca, Fabrizio and Lim, Derek and Gelberg, Yoav and Ziser, Yftah and El-Yaniv, Ran and Chechik, Gal and Maron, Haggai",
+      "title": "Learning on LLM Output Signatures for gray-box LLM Behavior Analysis",
+      "ENTRYTYPE": "article",
+      "ID": "bar2025learning"
+    },
+    {
+      "year": "2017",
+      "volume": "30",
+      "journal": "Advances in neural information processing systems",
+      "author": "Zaheer, Manzil and Kottur, Satwik and Ravanbakhsh, Siamak and Poczos, Barnabas and Salakhutdinov, Russ R and Smola, Alexander J",
+      "title": "Deep sets",
+      "ENTRYTYPE": "article",
+      "ID": "zaheer2017deep"
+    },
+    {
+      "year": "2024",
+      "pages": "2721--2732",
+      "booktitle": "Proceedings of the 30th ACM SIGKDD Conference on Knowledge Discovery and Data Mining",
+      "author": "Snyder, Ben and Moisescu, Marius and Zafar, Muhammad Bilal",
+      "title": "On early detection of hallucinations in factual question answering",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "snyder2024early"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "2017",
+      "pages": "18--42",
+      "number": "4",
+      "volume": "34",
+      "journal": "IEEE Signal Processing Magazine",
+      "author": "Bronstein, Michael M and Bruna, Joan and LeCun, Yann and Szlam, Arthur and Vandergheynst, Pierre",
+      "title": "Geometric deep learning: going beyond euclidean data",
+      "ENTRYTYPE": "article",
+      "ID": "bronstein2017geometric"
+    },
+    {
+      "year": "2021",
+      "journal": "arXiv preprint arXiv:2104.08704",
+      "author": "Liu, Tianyu and Zhang, Yizhe and Brockett, Chris and Mao, Yi and Sui, Zhifang and Chen, Weizhu and Dolan, Bill",
+      "title": "A token-level reference-free hallucination detection benchmark for free-form text generation",
+      "ENTRYTYPE": "article",
+      "ID": "liu2021token"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "2023",
+      "pages": "115334",
+      "volume": "326",
+      "journal": "Psychiatry Research",
+      "author": "McGowan, Alessia and Gui, Yunlai and Dobbs, Matthew and Shuster, Sophia and Cotter, Matthew and Selloni, Alexandria and Goodman, Marianne and Srivastava, Agrima and Cecchi, Guillermo A and Corcoran, Cheryl M",
+      "title": "ChatGPT and Bard exhibit spontaneous citation fabrication during psychiatry literature search",
+      "ENTRYTYPE": "article",
+      "ID": "mcgowan2023chatgpt"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2307.03987",
+      "author": "Varshney, Neeraj and Yao, Wenlin and Zhang, Hongming and Chen, Jianshu and Yu, Dong",
+      "title": "A stitch in time saves nine: Detecting and mitigating hallucinations of llms by validating low-confidence generation",
+      "ENTRYTYPE": "article",
+      "ID": "varshney2023stitch"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2309.15098",
+      "author": "Yuksekgonul, Mert and Chandrasekaran, Varun and Jones, Erik and Gunasekar, Suriya and Naik, Ranjita and Palangi, Hamid and Kamar, Ece and Nushi, Besmira",
+      "title": "Attention satisfies: A constraint-satisfaction lens on factual errors of language models",
+      "ENTRYTYPE": "article",
+      "ID": "yuksekgonul2023attention"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2310.01405",
+      "author": "Zou, Andy and Phan, Long and Chen, Sarah and Campbell, James and Guo, Phillip and Ren, Richard and Pan, Alexander and Yin, Xuwang and Mazeika, Mantas and Dombrowski, Ann-Kathrin and others",
+      "title": "Representation engineering: A top-down approach to ai transparency",
+      "ENTRYTYPE": "article",
+      "ID": "zou2023representation"
+    },
+    {
+      "url": "https://openreview.net/forum?id=YFOg1LUGG1",
+      "year": "2025",
+      "author": "Yeongbin Seo and Dongha Lee and Jinyoung Yeo",
+      "title": "Detecting Hallucination Before Answering: Semantic Compression Through Instruction",
+      "ENTRYTYPE": "misc",
+      "ID": "seo2025detecting"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2303.08896",
+      "author": "Manakul, Potsawee and Liusie, Adian and Gales, Mark JF",
+      "title": "Selfcheckgpt: Zero-resource black-box hallucination detection for generative large language models",
+      "ENTRYTYPE": "article",
+      "ID": "manakul2023selfcheckgpt"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2402.18048",
+      "author": "Yin, Fan and Srinivasa, Jayanth and Chang, Kai-Wei",
+      "title": "Characterizing truthfulness in large language model generations with local intrinsic dimension",
+      "ENTRYTYPE": "article",
+      "ID": "yin2024characterizing"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2402.03744",
+      "author": "Chen, Chao and Liu, Kai and Chen, Ze and Gu, Yi and Wu, Yue and Tao, Mingyuan and Fu, Zhihang and Ye, Jieping",
+      "title": "INSIDE: LLMs' Internal States Retain the Power of Hallucination Detection",
+      "ENTRYTYPE": "article",
+      "ID": "chen2024inside"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2404.09971",
+      "author": "Simhi, Adi and Herzig, Jonathan and Szpektor, Idan and Belinkov, Yonatan",
+      "title": "Constructing Benchmarks and Interventions for Combating Hallucinations in LLMs",
+      "ENTRYTYPE": "article",
+      "ID": "simhi2024constructing"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2406.12673",
+      "author": "Gottesman, Daniela and Geva, Mor",
+      "title": "Estimating Knowledge in Large Language Models Without Generating a Single Token",
+      "ENTRYTYPE": "article",
+      "ID": "gottesman2024estimating"
+    },
+    {
+      "year": "2024",
+      "volume": "36",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Li, Kenneth and Patel, Oam and Vi{\\'e}gas, Fernanda and Pfister, Hanspeter and Wattenberg, Martin",
+      "title": "Inference-time intervention: Eliciting truthful answers from a language model",
+      "ENTRYTYPE": "article",
+      "ID": "li2024inference"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2212.03827",
+      "author": "Burns, Collin and Ye, Haotian and Klein, Dan and Steinhardt, Jacob",
+      "title": "Discovering latent knowledge in language models without supervision",
+      "ENTRYTYPE": "article",
+      "ID": "burns2022discovering"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2312.02798",
+      "author": "Rateike, Miriam and Cintas, Celia and Wamburu, John and Akumu, Tanya and Speakman, Skyler",
+      "title": "Weakly supervised detection of hallucinations in llm activations",
+      "ENTRYTYPE": "article",
+      "ID": "rateike2023weakly"
+    },
+    {
+      "organization": "IEEE",
+      "year": "2022",
+      "pages": "1897--1914",
+      "booktitle": "2022 IEEE Symposium on Security and Privacy (SP)",
+      "author": "Carlini, Nicholas and Chien, Steve and Nasr, Milad and Song, Shuang and Terzis, Andreas and Tramer, Florian",
+      "title": "Membership inference attacks from first principles",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "carlini2022membership"
+    },
+    {
+      "year": "2021",
+      "journal": "arXiv preprint arXiv:2111.08440",
+      "author": "Watson, Lauren and Guo, Chuan and Cormode, Graham and Sablayrolles, Alex",
+      "title": "On the importance of difficulty calibration in membership inference attacks",
+      "ENTRYTYPE": "article",
+      "ID": "watson2021importance"
+    },
+    {
+      "year": "2018",
+      "journal": "arXiv preprint arXiv:1802.04889",
+      "author": "Long, Yunhui and Bindschaedler, Vincent and Wang, Lei and Bu, Diyue and Wang, Xiaofeng and Tang, Haixu and Gunter, Carl A and Chen, Kai",
+      "title": "Understanding membership inferences on well-generalized learning models",
+      "ENTRYTYPE": "article",
+      "ID": "long2018understanding"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2203.03929",
+      "author": "Mireshghallah, Fatemehsadat and Goyal, Kartik and Uniyal, Archit and Berg-Kirkpatrick, Taylor and Shokri, Reza",
+      "title": "Quantifying privacy risks of masked language models using membership inference attacks",
+      "ENTRYTYPE": "article",
+      "ID": "mireshghallah2022quantifying"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2404.02936",
+      "author": "Zhang, Jingyang and Sun, Jingwei and Yeats, Eric and Ouyang, Yang and Kuo, Martin and Zhang, Jianyi and Yang, Hao Frank and Li, Hai",
+      "title": "Min-k\\%++: Improved baseline for detecting pre-training data from large language models",
+      "ENTRYTYPE": "article",
+      "ID": "zhang2024min"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2406.01333",
+      "author": "Liu, Zhenhua and Zhu, Tong and Tan, Chuanyuan and Lu, Haonan and Liu, Bing and Chen, Wenliang",
+      "title": "Probing Language Models for Pre-training Data Detection",
+      "ENTRYTYPE": "article",
+      "ID": "liu2024probing"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2310.06825",
+      "author": "Jiang, Albert Q and Sablayrolles, Alexandre and Mensch, Arthur and Bamford, Chris and Chaplot, Devendra Singh and Casas, Diego de las and Bressand, Florian and Lengyel, Gianna and Lample, Guillaume and Saulnier, Lucile and others",
+      "title": "Mistral 7B",
+      "ENTRYTYPE": "article",
+      "ID": "jiang2023mistral"
+    },
+    {
+      "year": "2017",
+      "journal": "arXiv preprint arXiv:1705.03551",
+      "author": "Joshi, Mandar and Choi, Eunsol and Weld, Daniel S and Zettlemoyer, Luke",
+      "title": "Triviaqa: A large scale distantly supervised challenge dataset for reading comprehension",
+      "ENTRYTYPE": "article",
+      "ID": "joshi2017triviaqa"
+    },
+    {
+      "year": "2011",
+      "pages": "142--150",
+      "booktitle": "Proceedings of the 49th annual meeting of the association for computational linguistics: Human language technologies",
+      "author": "Maas, Andrew and Daly, Raymond E and Pham, Peter T and Huang, Dan and Ng, Andrew Y and Potts, Christopher",
+      "title": "Learning word vectors for sentiment analysis",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "maas2011learning"
+    },
+    {
+      "year": "2018",
+      "journal": "arXiv preprint arXiv:1809.09600",
+      "author": "Yang, Zhilin and Qi, Peng and Zhang, Saizheng and Bengio, Yoshua and Cohen, William W and Salakhutdinov, Ruslan and Manning, Christopher D",
+      "title": "HotpotQA: A dataset for diverse, explainable multi-hop question answering",
+      "ENTRYTYPE": "article",
+      "ID": "yang2018hotpotqa"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2302.13971",
+      "author": "Touvron, Hugo and Lavril, Thibaut and Izacard, Gautier and Martinet, Xavier and Lachaux, Marie-Anne and Lacroix, Timoth{\\'e}e and Rozi{\\`e}re, Baptiste and Goyal, Naman and Hambro, Eric and Azhar, Faisal and others",
+      "title": "Llama: Open and efficient foundation language models",
+      "ENTRYTYPE": "article",
+      "ID": "touvron2023llama"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2407.10671",
+      "author": "An Yang and Baosong Yang and Binyuan Hui and Bo Zheng and Bowen Yu and Chang Zhou and Chengpeng Li and Chengyuan Li and Dayiheng Liu and Fei Huang and Guanting Dong and Haoran Wei and Huan Lin and Jialong Tang and Jialin Wang and Jian Yang and Jianhong Tu and Jianwei Zhang and Jianxin Ma and Jin Xu and Jingren Zhou and Jinze Bai and Jinzheng He and Junyang Lin and Kai Dang and Keming Lu and Keqin Chen and Kexin Yang and Mei Li and Mingfeng Xue and Na Ni and Pei Zhang and Peng Wang and Ru Peng and Rui Men and Ruize Gao and Runji Lin and Shijie Wang and Shuai Bai and Sinan Tan and Tianhang Zhu and Tianhao Li and Tianyu Liu and Wenbin Ge and Xiaodong Deng and Xiaohuan Zhou and Xingzhang Ren and Xinyu Zhang and Xipin Wei and Xuancheng Ren and Yang Fan and Yang Yao and Yichang Zhang and Yu Wan and Yunfei Chu and Yuqiong Liu and Zeyu Cui and Zhenru Zhang and Zhihao Fan",
+      "title": "Qwen2 Technical Report",
+      "ENTRYTYPE": "article",
+      "ID": "qwen2"
+    },
+    {
+      "year": "2020",
+      "journal": "arXiv preprint arXiv:2004.04070",
+      "author": "Vuli{\\'c}, Ivan and Ruder, Sebastian and S{\\o}gaard, Anders",
+      "title": "Are all good word vector spaces isomorphic?",
+      "ENTRYTYPE": "article",
+      "ID": "vulic2020all"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2209.15430",
+      "author": "Moschella, Luca and Maiorca, Valentino and Fumero, Marco and Norelli, Antonio and Locatello, Francesco and Rodol{\\`a}, Emanuele",
+      "title": "Relative representations enable zero-shot latent space communication",
+      "ENTRYTYPE": "article",
+      "ID": "moschella2022relative"
+    },
+    {
+      "year": "2018",
+      "volume": "31",
+      "journal": "Advances in neural information processing systems",
+      "author": "Morcos, Ari and Raghu, Maithra and Bengio, Samy",
+      "title": "Insights on representational similarity in neural networks with canonical correlation",
+      "ENTRYTYPE": "article",
+      "ID": "morcos2018insights"
+    },
+    {
+      "year": "2020",
+      "journal": "arXiv preprint arXiv:2010.11929",
+      "author": "Dosovitskiy, Alexey and Beyer, Lucas and Kolesnikov, Alexander and Weissenborn, Dirk and Zhai, Xiaohua and Unterthiner, Thomas and Dehghani, Mostafa and Minderer, Matthias and Heigold, Georg and Gelly, Sylvain and others",
+      "title": "An image is worth 16x16 words: Transformers for image recognition at scale",
+      "ENTRYTYPE": "article",
+      "ID": "dosovitskiy2020image"
+    },
+    {
+      "year": "2017",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Vaswani, A",
+      "title": "Attention is all you need",
+      "ENTRYTYPE": "article",
+      "ID": "vaswani2017attention"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2209.04836",
+      "author": "Ainsworth, Samuel K and Hayase, Jonathan and Srinivasa, Siddhartha",
+      "title": "Git re-basin: Merging models modulo permutation symmetries",
+      "ENTRYTYPE": "article",
+      "ID": "ainsworth2022git"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2023",
+      "pages": "25790--25816",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Navon, Aviv and Shamsian, Aviv and Achituve, Idan and Fetaya, Ethan and Chechik, Gal and Maron, Haggai",
+      "title": "Equivariant architectures for learning in deep weight spaces",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "navon2023equivariant"
+    },
+    {
+      "year": "2019",
+      "journal": "arXiv preprint arXiv:1912.10077",
+      "author": "Yun, Chulhee and Bhojanapalli, Srinadh and Rawat, Ankit Singh and Reddi, Sashank J and Kumar, Sanjiv",
+      "title": "Are transformers universal approximators of sequence-to-sequence functions?",
+      "ENTRYTYPE": "article",
+      "ID": "yun2019transformers"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2304.13734",
+      "author": "Azaria, Amos and Mitchell, Tom",
+      "title": "The internal state of an LLM knows when it's lying",
+      "ENTRYTYPE": "article",
+      "ID": "azaria2023internal"
+    },
+    {
+      "abstract": "This study investigates the internal representations of verb-particle combinations, called multi-word verbs, within transformer-based large language models (LLMs), specifically examining how these models capture lexical and syntactic properties at different neural network layers. Using the BERT architecture, we analyze the representations of its layers for two different verb-particle constructions: phrasal verbs like {\\textquotedblleft}give up{\\textquotedblright} and prepositional verbs like {\\textquotedblleft}look at{\\textquotedblright}. Our methodology includes training probing classifiers on the model output to classify these categories at both word and sentence levels. The results indicate that the model`s middle layers achieve the highest classification accuracies. To further analyze the nature of these distinctions, we conduct a data separability test using the Generalized Discrimination Value (GDV). While GDV results show weak linear separability between the two verb types, probing classifiers still achieve high accuracy, suggesting that representations of these linguistic categories may be {\\textquotedblleft}non-linearly separable{\\textquotedblright}. This aligns with previous research indicating that linguistic distinctions in neural networks are not always encoded in a linearly separable manner. These findings computationally support usage-based claims on the representation of verb-particle constructions and highlight the complex interaction between neural network architectures and linguistic structures.",
+      "isbn": "979-8-89176-243-5",
+      "pages": "7--13",
+      "url": "https://aclanthology.org/2025.mwe-1.2/",
+      "publisher": "Association for Computational Linguistics",
+      "address": "Albuquerque, New Mexico, U.S.A.",
+      "year": "2025",
+      "month": "May",
+      "booktitle": "Proceedings of the 21st Workshop on Multiword Expressions (MWE 2025)",
+      "editor": "Ojha, Atul Kr.  and\nGiouli, Voula  and\nMititelu, Verginica Barbu  and\nConstant, Mathieu  and\nKorvel, Gra{\\v{z}}ina  and\nDo{\\u{g}}ru{\\\"o}z, A. Seza  and\nRademaker, Alexandre",
+      "author": "Kissane, Hassane  and\nSchilling, Achim  and\nKrauss, Patrick",
+      "title": "Probing Internal Representations of Multi-Word Verbs in Large Language Models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "kissane-etal-2025-probing"
+    },
+    {
+      "abstract": "Although much effort has recently been devoted to training high-quality sentence embeddings, we still have a poor understanding of what they are capturing. {\\textquotedblleft}Downstream{\\textquotedblright} tasks, often based on sentence classification, are commonly used to evaluate the quality of sentence representations. The complexity of the tasks makes it however difficult to infer what kind of information is present in the representations. We introduce here 10 probing tasks designed to capture simple linguistic features of sentences, and we use them to study embeddings generated by three different encoders trained in eight distinct ways, uncovering intriguing properties of both encoders and training methods.",
+      "pages": "2126--2136",
+      "doi": "10.18653/v1/P18-1198",
+      "url": "https://aclanthology.org/P18-1198/",
+      "publisher": "Association for Computational Linguistics",
+      "address": "Melbourne, Australia",
+      "year": "2018",
+      "month": "July",
+      "booktitle": "Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+      "editor": "Gurevych, Iryna  and\nMiyao, Yusuke",
+      "author": "Conneau, Alexis  and\nKruszewski, German  and\nLample, Guillaume  and\nBarrault, Lo{\\\"i}c  and\nBaroni, Marco",
+      "title": "What you can cram into a single {\\$}{\\&}!{\\#}* vector: Probing sentence embeddings for linguistic properties",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "conneau-etal-2018-cram"
+    },
+    {
+      "pages": "12--21",
+      "doi": "10.18653/v1/D15-1002",
+      "url": "https://aclanthology.org/D15-1002/",
+      "publisher": "Association for Computational Linguistics",
+      "address": "Lisbon, Portugal",
+      "year": "2015",
+      "month": "September",
+      "booktitle": "Proceedings of the 2015 Conference on Empirical Methods in Natural Language Processing",
+      "editor": "M{\\`a}rquez, Llu{\\'i}s  and\nCallison-Burch, Chris  and\nSu, Jian",
+      "author": "Gupta, Abhijeet  and\nBoleda, Gemma  and\nBaroni, Marco  and\nPad{\\'o}, Sebastian",
+      "title": "Distributional vectors encode referential attributes",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "gupta-etal-2015-distributional"
+    },
+    {
+      "pages": "1526--1534",
+      "doi": "10.18653/v1/D16-1159",
+      "url": "https://aclanthology.org/D16-1159/",
+      "publisher": "Association for Computational Linguistics",
+      "address": "Austin, Texas",
+      "year": "2016",
+      "month": "November",
+      "booktitle": "Proceedings of the 2016 Conference on Empirical Methods in Natural Language Processing",
+      "editor": "Su, Jian  and\nDuh, Kevin  and\nCarreras, Xavier",
+      "author": "Shi, Xing  and\nPadhi, Inkit  and\nKnight, Kevin",
+      "title": "Does String-Based Neural {MT} Learn Source Syntax?",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "shi-etal-2016-string"
+    },
+    {
+      "abstract": "Large NLP models have recently shown impressive performance in language understanding tasks, typically evaluated by their fine-tuned performance. Alternatively, probing has received increasing attention as being a lightweight method for interpreting the intrinsic mechanisms of large NLP models. In probing, post-hoc classifiers are trained on {\\textquotedblleft}out-of-domain{\\textquotedblright} datasets that diagnose specific abilities. While probing the language models has led to insightful findings, they appear disjointed from the development of models. This paper explores the utility of probing deep NLP models to extract a proxy signal widely used in model development {--} the fine-tuning performance. We find that it is possible to use the accuracies of only three probing tests to predict the fine-tuning performance with errors 40{\\%} - 80{\\%} smaller than baselines. We further discuss possible avenues where probing can empower the development of deep NLP models.",
+      "pages": "11534--11547",
+      "doi": "10.18653/v1/2022.emnlp-main.793",
+      "url": "https://aclanthology.org/2022.emnlp-main.793/",
+      "publisher": "Association for Computational Linguistics",
+      "address": "Abu Dhabi, United Arab Emirates",
+      "year": "2022",
+      "month": "December",
+      "booktitle": "Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing",
+      "editor": "Goldberg, Yoav  and\nKozareva, Zornitsa  and\nZhang, Yue",
+      "author": "Zhu, Zining  and\nShahtalebi, Soroosh  and\nRudzicz, Frank",
+      "title": "Predicting Fine-Tuning Performance with Probing",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zhu-etal-2022-predicting"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2412.00967",
+      "author": "Papadatos, Henry and Freedman, Rachel",
+      "title": "Linear Probe Penalties Reduce LLM Sycophancy",
+      "ENTRYTYPE": "article",
+      "ID": "papadatos2024linear"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2302.09664",
+      "author": "Kuhn, Lorenz and Gal, Yarin and Farquhar, Sebastian",
+      "title": "Semantic uncertainty: Linguistic invariances for uncertainty estimation in natural language generation",
+      "ENTRYTYPE": "article",
+      "ID": "kuhn2023semantic"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2402.14433",
+      "author": "Von R{\\\"u}tte, Dimitri and Anagnostidis, Sotiris and Bachmann, Gregor and Hofmann, Thomas",
+      "title": "A language model's guide through latent space",
+      "ENTRYTYPE": "article",
+      "ID": "von2024language"
+    },
+    {
+      "year": "2024",
+      "pages": "56958--56987",
+      "volume": "37",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Qiu, Yifu and Zhao, Zheng and Ziser, Yftah and Korhonen, Anna and Ponti, Edoardo Maria and Cohen, Shay",
+      "title": "Spectral editing of activations for large language model alignment",
+      "ENTRYTYPE": "article",
+      "ID": "qiu2024spectral"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2503.17755",
+      "author": "Maiya, Sharan and Liu, Yinhong and Debnath, Ramit and Korhonen, Anna",
+      "title": "Improving Preference Extraction In LLMs By Identifying Latent Knowledge Through Classifying Probes",
+      "ENTRYTYPE": "article",
+      "ID": "maiya2025improving"
+    },
+    {
+      "abstract": "Hallucinations pose a significant challenge to the reliability of neural models for abstractive summarisation. While automatically generated summaries may be fluent, they often lack faithfulness to the original document. This issue becomes even more pronounced in low-resource languages, where summarisation requires cross-lingual transfer. With the existing faithful metrics focusing on English, even measuring the extent of this phenomenon in cross-lingual settings is hard. To address this, we first develop a novel metric, mFACT, evaluating the faithfulness of non-English summaries, leveraging translation-based transfer from multiple English faithfulness metrics. Through extensive experiments in multiple languages, we demonstrate that mFACT is best suited to detect hallucinations compared to alternative metrics. With mFACT, we assess a broad range of multilingual large language models, and find that they all tend to hallucinate often in languages different from English. We then propose a simple but effective method to reduce hallucinations in cross-lingual transfer, which weighs the loss of each training example by its faithfulness score. This method drastically increases both performance and faithfulness according to both automatic and human evaluation when compared to strong baselines for cross-lingual transfer such as MAD-X. Our code and dataset are available at https://github.com/yfqiu-nlp/mfact-summ.",
+      "pages": "8914--8932",
+      "doi": "10.18653/v1/2023.emnlp-main.551",
+      "url": "https://aclanthology.org/2023.emnlp-main.551/",
+      "publisher": "Association for Computational Linguistics",
+      "address": "Singapore",
+      "year": "2023",
+      "month": "December",
+      "booktitle": "Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing",
+      "editor": "Bouamor, Houda  and\nPino, Juan  and\nBali, Kalika",
+      "author": "Qiu, Yifu  and\nZiser, Yftah  and\nKorhonen, Anna  and\nPonti, Edoardo  and\nCohen, Shay",
+      "title": "Detecting and Mitigating Hallucinations in Multilingual Summarisation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "qiu-etal-2023-detecting"
+    },
+    {
+      "abstract": "Large language models (LLMs), such as ChatGPT, are prone to generate hallucinations, i.e., content that conflicts with the source or cannot be verified by the factual knowledge. To understand what types of content and to which extent LLMs are apt to hallucinate, we introduce the Hallucination Evaluation for Large Language Models (HaluEval) benchmark, a large collection of generated and human-annotated hallucinated samples for evaluating the performance of LLMs in recognizing hallucination. To generate these samples, we propose a ChatGPT-based two-step framework, i.e., sampling-then-filtering. Besides, we also hire some human labelers to annotate the hallucinations in ChatGPT responses. The empirical results suggest that ChatGPT is likely to generate hallucinated content in specific topics by fabricating unverifiable information (i.e., about 19.5{\\%} user queries). Moreover, existing LLMs face great challenges in recognizing the hallucinations in texts. While, our experiments also prove that the hallucination recognition can be improved by providing external knowledge or adding reasoning steps.",
+      "pages": "6449--6464",
+      "doi": "10.18653/v1/2023.emnlp-main.397",
+      "url": "https://aclanthology.org/2023.emnlp-main.397/",
+      "publisher": "Association for Computational Linguistics",
+      "address": "Singapore",
+      "year": "2023",
+      "month": "December",
+      "booktitle": "Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing",
+      "editor": "Bouamor, Houda  and\nPino, Juan  and\nBali, Kalika",
+      "author": "Li, Junyi  and\nCheng, Xiaoxue  and\nZhao, Xin  and\nNie, Jian-Yun  and\nWen, Ji-Rong",
+      "title": "{H}alu{E}val: A Large-Scale Hallucination Evaluation Benchmark for Large Language Models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "li-etal-2023-halueval"
+    },
+    {
+      "abstract": "The rapid advancement of foundation models (FMs) across language, image, audio, and video domains has shown remarkable capabilities in diverse tasks. However, the proliferation of FMs brings forth a critical challenge: the potential to generate hallucinated outputs, particularly in high-stakes applications. The tendency of foundation models to produce hallucinated content arguably represents the biggest hindrance to their widespread adoption in real-world scenarios, especially in domains where reliability and accuracy are paramount. This survey paper presents a comprehensive overview of recent developments that aim to identify and mitigate the problem of hallucination in FMs, spanning text, image, video, and audio modalities. By synthesizing recent advancements in detecting and mitigating hallucination across various modalities, the paper aims to provide valuable insights for researchers, developers, and practitioners. Essentially, it establishes a clear framework encompassing definition, taxonomy, and detection strategies for addressing hallucination in multimodal foundation models, laying the foundation for future research and development in this pivotal area.",
+      "pages": "11709--11724",
+      "doi": "10.18653/v1/2024.findings-emnlp.685",
+      "url": "https://aclanthology.org/2024.findings-emnlp.685/",
+      "publisher": "Association for Computational Linguistics",
+      "address": "Miami, Florida, USA",
+      "year": "2024",
+      "month": "November",
+      "booktitle": "Findings of the Association for Computational Linguistics: EMNLP 2024",
+      "editor": "Al-Onaizan, Yaser  and\nBansal, Mohit  and\nChen, Yun-Nung",
+      "author": "Sahoo, Pranab  and\nMeharia, Prabhash  and\nGhosh, Akash  and\nSaha, Sriparna  and\nJain, Vinija  and\nChadha, Aman",
+      "title": "A Comprehensive Survey of Hallucination in Large Language, Image, Video and Audio Foundation Models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "sahoo-etal-2024-comprehensive"
+    },
+    {
+      "abstract": "We investigate whether the success of a zero-shot Chain-of-Thought (CoT) process can be predicted before completion. Our classifier, based on LLM representations, performs well even before a single token is generated, suggesting that crucial information about the reasoning process is already present in the initial steps representations. In contrast, a strong BERT-based baseline, which relies solely on the generated tokens, performs worse{---}likely because it depends on shallow linguistic cues rather than deeper reasoning dynamics. Surprisingly, using later reasoning steps does not always improve classification. When additional context is unhelpful, earlier representations resemble later ones more, suggesting LLMs encode key information early. This implies reasoning can often stop early without loss. To test this, we conduct early stopping experiments, showing that truncating CoT reasoning still improves performance over not using CoT at all, though a gap remains compared to full reasoning. However, approaches like supervised learning or reinforcement learning designed to shorten CoT chains could leverage our classifier{'}s guidance to identify when early stopping is effective. Our findings provide insights that may support such methods, helping to optimize CoT{'}s efficiency while preserving its benefits.",
+      "isbn": "979-8-89176-256-5",
+      "pages": "12791--12806",
+      "doi": "10.18653/v1/2025.findings-acl.662",
+      "url": "https://aclanthology.org/2025.findings-acl.662/",
+      "publisher": "Association for Computational Linguistics",
+      "address": "Vienna, Austria",
+      "year": "2025",
+      "month": "July",
+      "booktitle": "Findings of the Association for Computational Linguistics: ACL 2025",
+      "editor": "Che, Wanxiang  and\nNabende, Joyce  and\nShutova, Ekaterina  and\nPilehvar, Mohammad Taher",
+      "author": "Afzal, Anum  and\nMatthes, Florian  and\nChechik, Gal  and\nZiser, Yftah",
+      "title": "Knowing Before Saying: {LLM} Representations Encode Information About Chain-of-Thought Success Before Completion",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "afzal-etal-2025-knowing"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2506.04250",
+      "author": "Ghosh, Shaona and Bhattacharjee, Amrita and Ziser, Yftah and Parisien, Christopher",
+      "title": "SafeSteer: Interpretable Safety Steering with Refusal-Evasion in LLMs",
+      "ENTRYTYPE": "article",
+      "ID": "ghosh2025safesteer"
+    }
+  ]
+}

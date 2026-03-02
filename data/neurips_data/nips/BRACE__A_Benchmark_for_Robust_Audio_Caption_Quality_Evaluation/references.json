@@ -1,0 +1,394 @@
+{
+  "pdf_url": "https://arxiv.org/pdf/2512.10403v1.pdf",
+  "references": [
+    {
+      "url": "https://api.semanticscholar.org/CorpusID:11080756",
+      "year": "2002",
+      "booktitle": "Annual Meeting of the Association for Computational Linguistics",
+      "author": "Kishore Papineni and Salim Roukos and Todd Ward and Wei-Jing Zhu",
+      "title": "Bleu: a Method for Automatic Evaluation of Machine Translation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "Papineni2002BleuAM"
+    },
+    {
+      "url": "https://api.semanticscholar.org/CorpusID:964287",
+      "year": "2004",
+      "booktitle": "Annual Meeting of the Association for Computational Linguistics",
+      "author": "Chin-Yew Lin",
+      "title": "ROUGE: A Package for Automatic Evaluation of Summaries",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "Lin2004ROUGEAP"
+    },
+    {
+      "url": "https://api.semanticscholar.org/CorpusID:7164502",
+      "year": "2005",
+      "booktitle": "IEEvaluation@ACL",
+      "author": "Satanjeev Banerjee and Alon Lavie",
+      "title": "METEOR: An Automatic Metric for MT Evaluation with Improved Correlation with Human Judgments",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "Banerjee2005METEORAA"
+    },
+    {
+      "url": "https://api.semanticscholar.org/CorpusID:9026666",
+      "pages": "4566-4575",
+      "year": "2014",
+      "journal": "2015 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "author": "Ramakrishna Vedantam and C. Lawrence Zitnick and Devi Parikh",
+      "title": "CIDEr: Consensus-based image description evaluation",
+      "ENTRYTYPE": "article",
+      "ID": "Vedantam2014CIDErCI"
+    },
+    {
+      "url": "https://api.semanticscholar.org/CorpusID:11933981",
+      "volume": "abs/1607.08822",
+      "year": "2016",
+      "journal": "ArXiv",
+      "author": "Peter Anderson and Basura Fernando and Mark Johnson and Stephen Gould",
+      "title": "SPICE: Semantic Propositional Image Caption Evaluation",
+      "ENTRYTYPE": "article",
+      "ID": "Anderson2016SPICESP"
+    },
+    {
+      "url": "https://api.semanticscholar.org/CorpusID:3873857",
+      "pages": "873-881",
+      "year": "2016",
+      "journal": "2017 IEEE International Conference on Computer Vision (ICCV)",
+      "author": "Siqi Liu and Zhenhai Zhu and Ning Ye and Sergio Guadarrama and Kevin P. Murphy",
+      "title": "Improved Image Captioning via Policy Gradient optimization of SPIDEr",
+      "ENTRYTYPE": "article",
+      "ID": "Liu2016ImprovedIC"
+    },
+    {
+      "url": "https://api.semanticscholar.org/CorpusID:252846331",
+      "volume": "abs/2210.06354",
+      "year": "2022",
+      "journal": "ArXiv",
+      "author": "Swapnil Bhosale and Rupayan Chakraborty and Sunil Kumar Kopparapu",
+      "title": "Text-to-Audio Grounding Based Novel Metric for Evaluating Audio Caption Similarity",
+      "ENTRYTYPE": "article",
+      "ID": "Bhosale2022TexttoAudioGB"
+    },
+    {
+      "url": "https://api.semanticscholar.org/CorpusID:238582669",
+      "pages": "981-985",
+      "year": "2021",
+      "journal": "ICASSP 2022 - 2022 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+      "author": "Zelin Zhou and Zhiling Zhang and Xuenan Xu and Zeyu Xie and Mengyue Wu and Kenny Q. Zhu",
+      "title": "Can Audio Captions Be Evaluated With Image Caption Metrics?",
+      "ENTRYTYPE": "article",
+      "ID": "Zhou2021CanAC"
+    },
+    {
+      "url": "https://api.semanticscholar.org/CorpusID:127986044",
+      "volume": "abs/1904.09675",
+      "year": "2019",
+      "journal": "ArXiv",
+      "author": "Tianyi Zhang and Varsha Kishore and Felix Wu and Kilian Q. Weinberger and Yoav Artzi",
+      "title": "BERTScore: Evaluating Text Generation with BERT",
+      "ENTRYTYPE": "article",
+      "ID": "Zhang2019BERTScoreET"
+    },
+    {
+      "url": "https://api.semanticscholar.org/CorpusID:258533848",
+      "pages": "1-5",
+      "year": "2023",
+      "journal": "ICASSP 2023 - 2023 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+      "author": "F{\\'e}lix Gontier and Romain Serizel and Christophe Cerisara",
+      "title": "Spice+: Evaluation of Automatic Audio Captioning Systems with Pre-Trained Language Models",
+      "ENTRYTYPE": "article",
+      "ID": "Gontier2023SpiceEO"
+    },
+    {
+      "url": "https://api.semanticscholar.org/CorpusID:268724100",
+      "pages": "770-774",
+      "year": "2023",
+      "journal": "2023 31st European Signal Processing Conference (EUSIPCO)",
+      "author": "Gijs Wijngaard and Elia Formisano and Bruno L. Giordano and Michel Dumontier",
+      "title": "ACES: Evaluating Automated Audio Captioning Models on the Semantics of Sounds",
+      "ENTRYTYPE": "article",
+      "ID": "Wijngaard2023ACESEA"
+    },
+    {
+      "url": "https://api.semanticscholar.org/CorpusID:271953839",
+      "year": "2024",
+      "booktitle": "Annual Meeting of the Association for Computational Linguistics",
+      "author": "Qian Wang and Jianhua Gu and Zhen-Hua Ling",
+      "title": "X-ACE: Explainable and Multi-factor Audio Captioning Evaluation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "Wang2024XACEEA"
+    },
+    {
+      "url": "https://api.semanticscholar.org/CorpusID:272753651",
+      "volume": "abs/2409.12962",
+      "year": "2024",
+      "journal": "ArXiv",
+      "author": "Tsung-Han Wu and Joseph Gonzalez and Trevor Darrell and David M. Chan",
+      "title": "CLAIR-A: Leveraging Large Language Models to Judge Audio Captions",
+      "ENTRYTYPE": "article",
+      "ID": "Wu2024CLAIRALL"
+    },
+    {
+      "url": "https://api.semanticscholar.org/CorpusID:249605738",
+      "pages": "1-5",
+      "year": "2023",
+      "journal": "ICASSP 2023 - 2023 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+      "author": "Benjamin Elizalde and Soham Deshmukh and Mahmoud Al Ismail and Huaming Wang",
+      "title": "CLAP Learning Audio Concepts from Natural Language Supervision",
+      "ENTRYTYPE": "article",
+      "ID": "Elizalde2023CLAPLA"
+    },
+    {
+      "url": "https://api.semanticscholar.org/CorpusID:244270365",
+      "pages": "17908-17917",
+      "year": "2021",
+      "journal": "2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "author": "Yaya Shi and Xu Yang and Haiyang Xu and Chunfen Yuan and Bing Li and Weiming Hu and Zhengjun Zha",
+      "title": "EMScore: Evaluating Video Captioning via Coarse-Grained and Fine-Grained Embedding Matching",
+      "ENTRYTYPE": "article",
+      "ID": "Shi2021EMScoreEV"
+    },
+    {
+      "url": "https://arxiv.org/abs/2411.00321",
+      "primaryclass": "cs.SD",
+      "archiveprefix": "arXiv",
+      "eprint": "2411.00321",
+      "year": "2024",
+      "author": "Satvik Dixit and Soham Deshmukh and Bhiksha Raj",
+      "title": "MACE: Leveraging Audio for Evaluating Audio Captioning Systems",
+      "ENTRYTYPE": "misc",
+      "ID": "dixit2024maceleveragingaudioevaluating"
+    },
+    {
+      "url": "https://api.semanticscholar.org/CorpusID:258762560",
+      "volume": "abs/2305.10790",
+      "year": "2023",
+      "journal": "ArXiv",
+      "author": "Yuan Gong and Hongyin Luo and Alexander H. Liu and Leonid Karlinsky and James Glass",
+      "title": "Listen, Think, and Understand",
+      "ENTRYTYPE": "article",
+      "ID": "Gong2023ListenTA"
+    },
+    {
+      "url": "https://api.semanticscholar.org/CorpusID:264406171",
+      "volume": "abs/2310.13289",
+      "year": "2023",
+      "journal": "ArXiv",
+      "author": "Changli Tang and Wenyi Yu and Guangzhi Sun and Xianzhao Chen and Tian Tan and Wei Li and Lu Lu and Zejun Ma and Chao Zhang",
+      "title": "SALMONN: Towards Generic Hearing Abilities for Large Language Models",
+      "ENTRYTYPE": "article",
+      "ID": "Tang2023SALMONNTG"
+    },
+    {
+      "url": "https://api.semanticscholar.org/CorpusID:270560527",
+      "volume": "abs/2406.11768",
+      "year": "2024",
+      "journal": "ArXiv",
+      "author": "Sreyan Ghosh and Sonal Kumar and Ashish Seth and Chandra Kiran Reddy Evuru and Utkarsh Tyagi and S Sakshi and Oriol Nieto and Ramani Duraiswami and Dinesh Manocha",
+      "title": "GAMA: A Large Audio-Language Model with Advanced Audio Understanding and Complex Reasoning Abilities",
+      "ENTRYTYPE": "article",
+      "ID": "Ghosh2024GAMAAL"
+    },
+    {
+      "year": "2019",
+      "pages": "119--132",
+      "booktitle": "Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long and Short Papers)",
+      "author": "Kim, Chris Dongjoo and Kim, Byeongchang and Lee, Hyunmin and Kim, Gunhee",
+      "title": "Audiocaps: Generating captions for audios in the wild",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "kim2019audiocaps"
+    },
+    {
+      "organization": "IEEE",
+      "year": "2020",
+      "pages": "736--740",
+      "booktitle": "ICASSP 2020-2020 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+      "author": "Drossos, Konstantinos and Lipping, Samuel and Virtanen, Tuomas",
+      "title": "Clotho: An audio captioning dataset",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "drossos2020clotho"
+    },
+    {
+      "year": "2024",
+      "month": "September",
+      "author": "{Qwen Team}",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "title": "Qwen2.5: A Party of Foundation Models",
+      "ENTRYTYPE": "misc",
+      "ID": "qwen2.5"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2303.08774",
+      "author": "Achiam, Josh and Adler, Steven and Agarwal, Sandhini and Ahmad, Lama and Akkaya, Ilge and Aleman, Florencia Leoni and Almeida, Diogo and Altenschmidt, Janko and Altman, Sam and Anadkat, Shyamal and others",
+      "title": "Gpt-4 technical report",
+      "ENTRYTYPE": "article",
+      "ID": "achiam2023gpt"
+    },
+    {
+      "publisher": "American Psychological Association",
+      "year": "1971",
+      "pages": "378",
+      "number": "5",
+      "volume": "76",
+      "journal": "Psychological bulletin",
+      "author": "Fleiss, Joseph L",
+      "title": "Measuring nominal scale agreement among many raters.",
+      "ENTRYTYPE": "article",
+      "ID": "fleiss1971measuring"
+    },
+    {
+      "organization": "IEEE",
+      "year": "2024",
+      "pages": "1181--1185",
+      "booktitle": "ICASSP 2024-2024 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+      "author": "Sridhar, Arvind Krishna and Guo, Yinyi and Visser, Erik and Mahfuz, Rehana",
+      "title": "Parameter Efficient Audio Captioning with Faithful Guidance Using Audio-Text Shared Latent Representation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "sridhar2024parameter"
+    },
+    {
+      "year": "2021",
+      "journal": "arXiv preprint arXiv:2104.01778",
+      "author": "Gong, Yuan and Chung, Yu-An and Glass, James",
+      "title": "Ast: Audio spectrogram transformer",
+      "ENTRYTYPE": "article",
+      "ID": "gong2021ast"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2310.08753",
+      "author": "Ghosh, Sreyan and Seth, Ashish and Kumar, Sonal and Tyagi, Utkarsh and Evuru, Chandra Kiran and Ramaneswaran, S and Sakshi, S and Nieto, Oriol and Duraiswami, Ramani and Manocha, Dinesh",
+      "title": "Compa: Addressing the gap in compositional reasoning in audio-language models",
+      "ENTRYTYPE": "article",
+      "ID": "ghosh2023compa"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2406.08402",
+      "author": "Kuan, Chun-Yi and Huang, Wei-Ping and Lee, Hung-yi",
+      "title": "Understanding Sounds, Missing the Questions: The Challenge of Object Hallucination in Large Audio-Language Models",
+      "ENTRYTYPE": "article",
+      "ID": "kuan2024understanding"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2410.16130",
+      "author": "Kuan, Chun-Yi and Lee, Hung-yi",
+      "title": "Can Large Audio-Language Models Truly Hear? Tackling Hallucinations with Multi-Task Assessment and Stepwise Audio Reasoning",
+      "ENTRYTYPE": "article",
+      "ID": "kuan2024can"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2411.00321",
+      "author": "Dixit, Satvik and Deshmukh, Soham and Raj, Bhiksha",
+      "title": "MACE: Leveraging Audio for Evaluating Audio Captioning Systems",
+      "ENTRYTYPE": "article",
+      "ID": "dixit2024mace"
+    },
+    {
+      "year": "2022",
+      "pages": "17929--17938",
+      "booktitle": "Proceedings of the IEEE/CVF conference on computer vision and pattern recognition",
+      "author": "Shi, Yaya and Yang, Xu and Xu, Haiyang and Yuan, Chunfeng and Li, Bing and Hu, Weiming and Zha, Zheng-Jun",
+      "title": "EMScore: Evaluating video captioning via coarse-grained and fine-grained embedding matching",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "shi2022emscore"
+    },
+    {
+      "organization": "IEEE",
+      "year": "2023",
+      "pages": "1--5",
+      "booktitle": "ICASSP 2023-2023 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+      "author": "Elizalde, Benjamin and Deshmukh, Soham and Al Ismail, Mahmoud and Wang, Huaming",
+      "title": "Clap learning audio concepts from natural language supervision",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "elizalde2023clap"
+    },
+    {
+      "organization": "IEEE",
+      "year": "2024",
+      "pages": "336--340",
+      "booktitle": "ICASSP 2024-2024 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+      "author": "Elizalde, Benjamin and Deshmukh, Soham and Wang, Huaming",
+      "title": "Natural language supervision for general-purpose audio representations",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "elizalde2024natural"
+    },
+    {
+      "url": "https://arxiv.org/abs/2211.06687",
+      "primaryclass": "cs.SD",
+      "archiveprefix": "arXiv",
+      "eprint": "2211.06687",
+      "year": "2024",
+      "author": "Yusong Wu and Ke Chen and Tianyu Zhang and Yuchen Hui and Marianna Nezhurina and Taylor Berg-Kirkpatrick and Shlomo Dubnov",
+      "title": "Large-scale Contrastive Language-Audio Pretraining with Feature Fusion and Keyword-to-Caption Augmentation",
+      "ENTRYTYPE": "misc",
+      "ID": "wu2024largescalecontrastivelanguageaudiopretraining"
+    },
+    {
+      "url": "https://arxiv.org/abs/2406.02032",
+      "year": "2024",
+      "journal": "to appear at Interspeech",
+      "author": "Daisuke Niizumi and Daiki Takeuchi and Yasunori Ohishi and Noboru Harada and Masahiro Yasuda and Shunsuke Tsubaki and Keisuke Imoto",
+      "title": "{M2D-CLAP: Masked Modeling Duo Meets CLAP for Learning General-purpose Audio-Language Representation}",
+      "ENTRYTYPE": "article",
+      "ID": "niizumi2024m2d-clap"
+    },
+    {
+      "year": "2023",
+      "pages": "08774",
+      "volume": "2303",
+      "journal": "ArXiv",
+      "author": "OpenAI, R and others",
+      "title": "GPT-4 technical report",
+      "ENTRYTYPE": "article",
+      "ID": "openai2023gpt"
+    },
+    {
+      "organization": "IEEE",
+      "year": "2015",
+      "pages": "5206--5210",
+      "booktitle": "2015 IEEE international conference on acoustics, speech and signal processing (ICASSP)",
+      "author": "Panayotov, Vassil and Chen, Guoguo and Povey, Daniel and Khudanpur, Sanjeev",
+      "title": "Librispeech: an asr corpus based on public domain audio books",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "panayotov2015librispeech"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2307.16372",
+      "author": "Doh, SeungHeon and Choi, Keunwoo and Lee, Jongpil and Nam, Juhan",
+      "title": "Lp-musiccaps: Llm-based pseudo music captioning",
+      "ENTRYTYPE": "article",
+      "ID": "doh2023lp"
+    },
+    {
+      "url": "https://arxiv.org/abs/2503.03983",
+      "primaryclass": "cs.SD",
+      "archiveprefix": "arXiv",
+      "eprint": "2503.03983",
+      "year": "2025",
+      "author": "Sreyan Ghosh and Zhifeng Kong and Sonal Kumar and S Sakshi and Jaehyeon Kim and Wei Ping and Rafael Valle and Dinesh Manocha and Bryan Catanzaro",
+      "title": "Audio Flamingo 2: An Audio-Language Model with Long-Audio Understanding and Expert Reasoning Abilities",
+      "ENTRYTYPE": "misc",
+      "ID": "ghosh2025audioflamingo2audiolanguage"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2311.07919",
+      "author": "Chu, Yunfei and Xu, Jin and Zhou, Xiaohuan and Yang, Qian and Zhang, Shiliang and Yan, Zhijie  and Zhou, Chang and Zhou, Jingren",
+      "title": "Qwen-Audio: Advancing Universal Audio Understanding via Unified Large-Scale Audio-Language Models",
+      "ENTRYTYPE": "article",
+      "ID": "Qwen-Audio"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2407.10759",
+      "author": "Chu, Yunfei and Xu, Jin and Yang, Qian and Wei, Haojie and Wei, Xipin and Guo,  Zhifang and Leng, Yichong and Lv, Yuanjun and He, Jinzheng and Lin, Junyang and Zhou, Chang and Zhou, Jingren",
+      "title": "Qwen2-Audio Technical Report",
+      "ENTRYTYPE": "article",
+      "ID": "Qwen2-Audio"
+    }
+  ]
+}

@@ -1,0 +1,988 @@
+{
+  "pdf_url": "https://arxiv.org/pdf/2511.22944v1.pdf",
+  "references": [
+    {
+      "year": "2009",
+      "pages": "41--48",
+      "booktitle": "Proceedings of the 26th annual international conference on machine learning",
+      "author": "Bengio, Yoshua and Louradour, J{\\'e}r{\\^o}me and Lamblin, Pascal and Vincent, Pascal",
+      "title": "Curriculum learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "bengio2009curriculum"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2301.13287",
+      "author": "Killamsetty, Krishnateja and Evfimievski, Alexandre V and Pedapati, Tejaswini and Kate, Kiran and Popa, Lucian and Iyer, Rishabh",
+      "title": "Milo: Model-agnostic subset selection framework for efficient model training and tuning",
+      "ENTRYTYPE": "article",
+      "ID": "killamsetty2023milo"
+    },
+    {
+      "year": "2019",
+      "pages": "11254--11263",
+      "booktitle": "Proceedings of the IEEE/CVF conference on computer vision and pattern recognition",
+      "author": "Aljundi, Rahaf and Kelchtermans, Klaas and Tuytelaars, Tinne",
+      "title": "Task-free continual learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "aljundi2019task"
+    },
+    {
+      "year": "2019",
+      "volume": "32",
+      "journal": "Advances in neural information processing systems",
+      "author": "Aljundi, Rahaf and Lin, Min and Goujaud, Baptiste and Bengio, Yoshua",
+      "title": "Gradient based sample selection for online continual learning",
+      "ENTRYTYPE": "article",
+      "ID": "aljundi2019gradient"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2407.10194",
+      "author": "Na{\\\"\\i}r, Marwa and Yamani, Kamel and Lhadj, Lynda Said and Baghdadi, Riyadh",
+      "title": "Curriculum learning for small code language models",
+      "ENTRYTYPE": "article",
+      "ID": "nair2024curriculum"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2021",
+      "pages": "5464--5474",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Killamsetty, Krishnateja and Durga, Sivasubramanian and Ramakrishnan, Ganesh and De, Abir and Iyer, Rishabh",
+      "title": "Grad-match: Gradient matching based data subset selection for efficient deep model training",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "killamsetty2021grad"
+    },
+    {
+      "year": "2021",
+      "pages": "8110--8118",
+      "number": "9",
+      "volume": "35",
+      "booktitle": "Proceedings of the AAAI conference on artificial intelligence",
+      "author": "Killamsetty, Krishnateja and Sivasubramanian, Durga and Ramakrishnan, Ganesh and Iyer, Rishabh",
+      "title": "Glister: Generalization based data subset selection for efficient and robust learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "killamsetty2021glister"
+    },
+    {
+      "year": "2023",
+      "pages": "23237--23258",
+      "volume": "36",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Sujit, Shivakanth and Nath, Somjit and Braga, Pedro and Ebrahimi Kahou, Samira",
+      "title": "Prioritizing samples in reinforcement learning with reducible loss",
+      "ENTRYTYPE": "article",
+      "ID": "sujit2023prioritizing"
+    },
+    {
+      "publisher": "Oxford University Press",
+      "year": "1933",
+      "pages": "285--294",
+      "number": "3/4",
+      "volume": "25",
+      "journal": "Biometrika",
+      "author": "Thompson, William R",
+      "title": "On the likelihood that one unknown probability exceeds another in view of the evidence of two samples",
+      "ENTRYTYPE": "article",
+      "ID": "thompson1933likelihood"
+    },
+    {
+      "bibsource": "dblp computer science bibliography, https://dblp.org",
+      "biburl": "https://dblp.org/rec/conf/aaai/KulkarniUSR18.bib",
+      "timestamp": "Mon, 04 Sep 2023 16:50:25 +0200",
+      "doi": "10.1609/AAAI.V32I1.11494",
+      "url": "https://doi.org/10.1609/aaai.v32i1.11494",
+      "year": "2018",
+      "publisher": "{AAAI} Press",
+      "pages": "1479--1486",
+      "booktitle": "Proceedings of the Thirty-Second {AAAI} Conference on Artificial Intelligence,\n(AAAI-18), the 30th innovative Applications of Artificial Intelligence\n(IAAI-18), and the 8th {AAAI} Symposium on Educational Advances in\nArtificial Intelligence (EAAI-18), New Orleans, Louisiana, USA, February\n2-7, 2018",
+      "title": "An Interactive Multi-Label Consensus Labeling Model for Multiple Labeler\nJudgments",
+      "editor": "Sheila A. McIlraith and\nKilian Q. Weinberger",
+      "author": "Ashish Kulkarni and\nNarasimha Raju Uppalapati and\nPankaj Singh and\nGanesh Ramakrishnan",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "KulkarniUSR18"
+    },
+    {
+      "institution": "University of Wisconsin-Madison Department of Computer Sciences",
+      "year": "2009",
+      "author": "Settles, Burr",
+      "title": "Active learning literature survey",
+      "ENTRYTYPE": "techreport",
+      "ID": "settles2009active"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2015",
+      "pages": "1954--1963",
+      "booktitle": "International conference on machine learning",
+      "author": "Wei, Kai and Iyer, Rishabh and Bilmes, Jeff",
+      "title": "Submodularity in data subset selection and active learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "wei2015submodularity"
+    },
+    {
+      "year": "2018",
+      "booktitle": "International Conference on Learning Representations",
+      "author": "Sener, Ozan and Savarese, Silvio",
+      "title": "Active Learning for Convolutional Neural Networks: A Core-Set Approach",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "sener2018active"
+    },
+    {
+      "year": "2017",
+      "journal": "arXiv preprint arXiv:1708.07747",
+      "author": "Xiao, Han and Rasul, Kashif and Vollgraf, Roland",
+      "title": "Fashion-mnist: a novel image dataset for benchmarking machine learning algorithms",
+      "ENTRYTYPE": "article",
+      "ID": "xiao2017fashion"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2202.10680",
+      "author": "Kaushal, Vishal and Ramakrishnan, Ganesh and Iyer, Rishabh",
+      "title": "Submodlib: A submodular optimization library",
+      "ENTRYTYPE": "article",
+      "ID": "kaushal2022submodlib"
+    },
+    {
+      "year": "2016",
+      "pages": "770--778",
+      "booktitle": "Proceedings of the IEEE conference on computer vision and pattern recognition",
+      "author": "He, Kaiming and Zhang, Xiangyu and Ren, Shaoqing and Sun, Jian",
+      "title": "Deep residual learning for image recognition",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "he2016deep"
+    },
+    {
+      "year": "2020",
+      "booktitle": "ICLR",
+      "author": "Ash, Jordan T and Zhang, Chicheng and Krishnamurthy, Akshay and Langford, John and Agarwal, Alekh",
+      "title": "Deep Batch Active Learning by Diverse, Uncertain Gradient Lower Bounds.",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ash2020deep"
+    },
+    {
+      "booktitle": "Forty-first International Conference on Machine Learning",
+      "author": "Zhou, Yuwei and Pan, Zirui and Wang, Xin and Chen, Hong and Li, Haoyang and Huang, Yanwen and Xiong, Zhixiao and Xiong, Fangzhou and Xu, Peiyang and Zhu, Wenwu and others",
+      "title": "CurBench: Curriculum Learning Benchmark",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zhoucurbench"
+    },
+    {
+      "publisher": "Cambridge university press",
+      "year": "2006",
+      "author": "Cesa-Bianchi, Nicolo and Lugosi, G{\\'a}bor",
+      "title": "Prediction, learning, and games",
+      "ENTRYTYPE": "book",
+      "ID": "cesa2006prediction"
+    },
+    {
+      "year": "2019",
+      "journal": "arXiv preprint arXiv:1904.07734",
+      "author": "Van de Ven, Gido M and Tolias, Andreas S",
+      "title": "Three scenarios for continual learning",
+      "ENTRYTYPE": "article",
+      "ID": "van2019three"
+    },
+    {
+      "year": "2017",
+      "volume": "30",
+      "journal": "Advances in neural information processing systems",
+      "author": "Lopez-Paz, David and Ranzato, Marc'Aurelio",
+      "title": "Gradient episodic memory for continual learning",
+      "ENTRYTYPE": "article",
+      "ID": "lopez2017gradient"
+    },
+    {
+      "year": "2020",
+      "pages": "8602--8613",
+      "volume": "33",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Zhou, Tianyi and Wang, Shengjie and Bilmes, Jeffrey",
+      "title": "Curriculum learning by dynamic instance hardness",
+      "ENTRYTYPE": "article",
+      "ID": "zhou2020curriculum"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2020",
+      "pages": "6950--6960",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Mirzasoleiman, Baharan and Bilmes, Jeff and Leskovec, Jure",
+      "title": "Coresets for data-efficient training of machine learning models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "mirzasoleiman2020coresets"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2021",
+      "pages": "433--441",
+      "booktitle": "International Conference on Artificial Intelligence and Statistics",
+      "author": "Zhou, Tianyi and Wang, Shengjie and Bilmes, Jeff",
+      "title": "Curriculum learning by optimizing learning dynamics",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zhou2021curriculum"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2202.05423",
+      "author": "Zhou, Runlong and He, Zelin and Tian, Yuandong and Wu, Yi and Du, Simon S",
+      "title": "Understanding curriculum learning in policy optimization for online combinatorial optimization",
+      "ENTRYTYPE": "article",
+      "ID": "zhou2022understanding"
+    },
+    {
+      "year": "2011",
+      "booktitle": "NIPS Workshop on Deep Learning and Unsupervised Feature Learning",
+      "author": "Netzer, Yuval and Wang, Tao and Coates, Adam and Bissacco, Alessandro and Wu, Bo and Ng, Andrew Y.",
+      "title": "Reading Digits in Natural Images with Unsupervised Feature Learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "svhn"
+    },
+    {
+      "year": "2011",
+      "pages": "1193--1200",
+      "booktitle": "Proceedings of the 28th International Conference on Machine Learning (ICML-11)",
+      "author": "Kulesza, Alex and Taskar, Ben",
+      "title": "k-dpps: Fixed-size determinantal point processes",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "kulesza2011k"
+    },
+    {
+      "year": "2020",
+      "pages": "6889--6899",
+      "volume": "33",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Calandriello, Daniele and Derezinski, Michal and Valko, Michal",
+      "title": "Sampling from a k-DPP without looking at all items",
+      "ENTRYTYPE": "article",
+      "ID": "calandriello2020sampling"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2016",
+      "pages": "1328--1337",
+      "booktitle": "Artificial Intelligence and Statistics",
+      "author": "Li, Chengtao and Jegelka, Stefanie and Sra, Suvrit",
+      "title": "Efficient sampling for k-determinantal point processes",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "li2016efficient"
+    },
+    {
+      "year": "2013",
+      "volume": "26",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Kang, Byungkon",
+      "title": "Fast determinantal point process sampling with application to clustering",
+      "ENTRYTYPE": "article",
+      "ID": "kang2013fast"
+    },
+    {
+      "publisher": "Toronto, ON, Canada",
+      "year": "2009",
+      "author": "Krizhevsky, Alex and Hinton, Geoffrey and others",
+      "title": "Learning multiple layers of features from tiny images",
+      "ENTRYTYPE": "article",
+      "ID": "krizhevsky2009learning"
+    },
+    {
+      "year": "2015",
+      "journal": "arXiv preprint arXiv:1511.06343",
+      "author": "Loshchilov, Ilya and Hutter, Frank",
+      "title": "Online batch selection for faster training of neural networks",
+      "ENTRYTYPE": "article",
+      "ID": "loshchilov2015online"
+    },
+    {
+      "year": "2019",
+      "journal": "arXiv preprint arXiv:1908.10084",
+      "author": "Reimers, Nils and Gurevych, Iryna",
+      "title": "Sentence-bert: Sentence embeddings using siamese bert-networks",
+      "ENTRYTYPE": "article",
+      "ID": "reimers2019sentence"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2014",
+      "pages": "1638--1646",
+      "booktitle": "International conference on machine learning",
+      "author": "Agarwal, Alekh and Hsu, Daniel and Kale, Satyen and Langford, John and Li, Lihong and Schapire, Robert",
+      "title": "Taming the monster: A fast and simple algorithm for contextual bandits",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "agarwal2014taming"
+    },
+    {
+      "year": "2017",
+      "journal": "arXiv preprint arXiv:1701.08939",
+      "author": "Bilmes, Jeffrey and Bai, Wenruo",
+      "title": "Deep submodular functions",
+      "ENTRYTYPE": "article",
+      "ID": "bilmes2017deep"
+    },
+    {
+      "year": "2016",
+      "volume": "29",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Dolhansky, Brian W and Bilmes, Jeff A",
+      "title": "Deep submodular functions: Definitions and learning",
+      "ENTRYTYPE": "article",
+      "ID": "dolhansky2016deep"
+    },
+    {
+      "year": "2009",
+      "volume": "22",
+      "journal": "Advances in neural information processing systems",
+      "author": "Streeter, Matthew and Golovin, Daniel and Krause, Andreas",
+      "title": "Online learning of assignments",
+      "ENTRYTYPE": "article",
+      "ID": "streeter2009online"
+    },
+    {
+      "year": "2024",
+      "pages": "15038--15046",
+      "number": "13",
+      "volume": "38",
+      "booktitle": "Proceedings of the AAAI Conference on Artificial Intelligence",
+      "author": "Salem, Tareq Si and {\\\"O}zcan, G{\\\"o}zde and Nikolaou, Iasonas and Terzi, Evimaria and Ioannidis, Stratis",
+      "title": "Online Submodular Maximization via Online Convex Optimization",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "salem2024online"
+    },
+    {
+      "publisher": "JSTOR",
+      "year": "2018",
+      "pages": "3539--3568",
+      "number": "6B",
+      "volume": "46",
+      "journal": "The Annals of Statistics",
+      "author": "Elenberg, Ethan R and Khanna, Rajiv and Dimakis, Alexandros G and Negahban, Sahand",
+      "title": "Restricted strong convexity implies weak submodularity",
+      "ENTRYTYPE": "article",
+      "ID": "elenberg2018restricted"
+    },
+    {
+      "year": "2017",
+      "volume": "30",
+      "journal": "Advances in neural information processing systems",
+      "author": "Zaheer, Manzil and Kottur, Satwik and Ravanbakhsh, Siamak and Poczos, Barnabas and Salakhutdinov, Russ R and Smola, Alexander J",
+      "title": "Deep sets",
+      "ENTRYTYPE": "article",
+      "ID": "zaheer2017deep"
+    },
+    {
+      "year": "2021",
+      "journal": "arXiv preprint arXiv:2112.03376",
+      "author": "Rawson, Michael and Balan, Radu",
+      "title": "Convergence guarantees for deep epsilon greedy policy learning",
+      "ENTRYTYPE": "article",
+      "ID": "rawson2021convergence"
+    },
+    {
+      "booktitle": "Forty-first International Conference on Machine Learning",
+      "author": "Acharya, Abhinab and Yu, Dayou and Yu, Qi and Liu, Xumin",
+      "title": "Balancing Feature Similarity and Label Variability for Optimal Size-Aware One-shot Subset Selection",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "acharyabalancing"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2022",
+      "pages": "9--1",
+      "booktitle": "Learning on Graphs Conference",
+      "author": "Gasteiger, Johannes and Qian, Chendi and G{\\\"u}nnemann, Stephan",
+      "title": "Influence-based mini-batching for graph neural networks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "gasteiger2022influence"
+    },
+    {
+      "year": "2024",
+      "author": "Sujit, S and Nath, S and Braga, PHM and Kahou, SE",
+      "title": "Prioritizing samples in reinforcement learning with reducible loss. arXiv (2023)",
+      "ENTRYTYPE": "misc",
+      "ID": "sujit2024prioritizing"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2408.16204",
+      "author": "Lun Wang",
+      "title": "Revisit Micro-batch Clipping: Adaptive Data Pruning via Gradient\nManipulation",
+      "ENTRYTYPE": "article",
+      "ID": "revisit-micro-batch"
+    },
+    {
+      "year": "2015",
+      "pages": "3",
+      "number": "7",
+      "volume": "7",
+      "journal": "CS 231N",
+      "author": "Le, Yann and Yang, Xuan",
+      "title": "Tiny imagenet visual recognition challenge",
+      "ENTRYTYPE": "article",
+      "ID": "le2015tiny"
+    },
+    {
+      "publisher": "PsyArXiv",
+      "year": "2022",
+      "author": "Fujita, Kazuya and Okada, Kensuke and Katahira, Kentaro",
+      "title": "The Fisher information matrix: A tutorial for calculation for decision making models",
+      "ENTRYTYPE": "article",
+      "ID": "fujita2022fisher"
+    },
+    {
+      "year": "2016",
+      "volume": "29",
+      "journal": "Advances in neural information processing systems",
+      "author": "Zhu, Rong",
+      "title": "Gradient-based sampling: An adaptive importance sampling for least-squares",
+      "ENTRYTYPE": "article",
+      "ID": "zhu2016gradient"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2310.15389",
+      "author": "Fan, Simin and Jaggi, Martin",
+      "title": "Irreducible curriculum for language model pretraining",
+      "ENTRYTYPE": "article",
+      "ID": "fan2023irreducible"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2311.03956",
+      "author": "Scharr, Luca and Toborek, Vanessa",
+      "title": "Cup Curriculum: Curriculum Learning on Model Capacity",
+      "ENTRYTYPE": "article",
+      "ID": "scharr2023cup"
+    },
+    {
+      "organization": "Granada",
+      "year": "2011",
+      "pages": "4",
+      "number": "2",
+      "volume": "2011",
+      "booktitle": "NIPS workshop on deep learning and unsupervised feature learning",
+      "author": "Netzer, Yuval and Wang, Tao and Coates, Adam and Bissacco, Alessandro and Wu, Baolin and Ng, Andrew Y and others",
+      "title": "Reading digits in natural images with unsupervised feature learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "netzer2011reading"
+    },
+    {
+      "year": "2015",
+      "journal": "arXiv preprint arXiv:1511.05952",
+      "author": "Schaul, Tom",
+      "title": "Prioritized Experience Replay",
+      "ENTRYTYPE": "article",
+      "ID": "schaul2015prioritized"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2022",
+      "pages": "4666--4689",
+      "booktitle": "International conference on machine learning",
+      "author": "Dann, Chris and Mansour, Yishay and Mohri, Mehryar and Sekhari, Ayush and Sridharan, Karthik",
+      "title": "Guarantees for epsilon-greedy reinforcement learning with function approximation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "dann2022guarantees"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2307.07674",
+      "author": "Vemgal, Nikhil and Lau, Elaine and Precup, Doina",
+      "title": "An empirical study of the effectiveness of using a replay buffer on mode discovery in gflownets",
+      "ENTRYTYPE": "article",
+      "ID": "vemgal2023empirical"
+    },
+    {
+      "year": "2020",
+      "pages": "1--50",
+      "number": "181",
+      "volume": "21",
+      "journal": "Journal of Machine Learning Research",
+      "author": "Narvekar, Sanmit and Peng, Bei and Leonetti, Matteo and Sinapov, Jivko and Taylor, Matthew E and Stone, Peter",
+      "title": "Curriculum learning for reinforcement learning domains: A framework and survey",
+      "ENTRYTYPE": "article",
+      "ID": "narvekar2020curriculum"
+    },
+    {
+      "year": "2024",
+      "volume": "36",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Zhang, Zheng and Wang, Junxiang and Zhao, Liang",
+      "title": "Curriculum learning for graph neural networks: Which edges should we learn first",
+      "ENTRYTYPE": "article",
+      "ID": "zhang2024curriculum"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2022",
+      "pages": "15630--15649",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Mindermann, S{\\\"o}ren and Brauner, Jan M and Razzak, Muhammed T and Sharma, Mrinank and Kirsch, Andreas and Xu, Winnie and H{\\\"o}ltgen, Benedikt and Gomez, Aidan N and Morisot, Adrien and Farquhar, Sebastian and others",
+      "title": "Prioritized training on points that are learnable, worth learning, and not yet learnt",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "mindermann2022prioritized"
+    },
+    {
+      "publisher": "Springer",
+      "year": "2002",
+      "volume": "1",
+      "author": "Gy{\\\"o}rfi, L{\\'a}szl{\\'o} and Kohler, Michael and Krzyzak, Adam and Walk, Harro and others",
+      "title": "A distribution-free theory of nonparametric regression",
+      "ENTRYTYPE": "book",
+      "ID": "gyorfi2002distribution"
+    },
+    {
+      "year": "2017",
+      "journal": "arXiv preprint arXiv:1706.04454",
+      "author": "Sagun, Levent and Evci, Utku and Guney, V Ugur and Dauphin, Yann and Bottou, Leon",
+      "title": "Empirical analysis of the hessian of over-parametrized neural networks",
+      "ENTRYTYPE": "article",
+      "ID": "sagun2017empirical"
+    },
+    {
+      "year": "2020",
+      "journal": "arXiv preprint arXiv:2010.04261",
+      "author": "Wu, Yikai and Zhu, Xingyu and Wu, Chenwei and Wang, Annie and Ge, Rong",
+      "title": "Dissecting hessian: Understanding common structure of hessian in neural networks",
+      "ENTRYTYPE": "article",
+      "ID": "wu2020dissecting"
+    },
+    {
+      "organization": "JMLR Workshop and Conference Proceedings",
+      "year": "2011",
+      "pages": "627--635",
+      "booktitle": "Proceedings of the fourteenth international conference on artificial intelligence and statistics",
+      "author": "Ross, St{\\'e}phane and Gordon, Geoffrey and Bagnell, Drew",
+      "title": "A reduction of imitation learning and structured prediction to no-regret online learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ross2011reduction"
+    },
+    {
+      "year": "2020",
+      "pages": "19920--19930",
+      "volume": "33",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Pruthi, Garima and Liu, Frederick and Kale, Satyen and Sundararajan, Mukund",
+      "title": "Estimating training data influence by tracing gradient descent",
+      "ENTRYTYPE": "article",
+      "ID": "pruthi2020estimating"
+    },
+    {
+      "booktitle": "The Twelfth International Conference on Learning Representations",
+      "author": "Chanda, Prateek and Modi, Shrey and Ramakrishnan, Ganesh",
+      "title": "Bayesian Coreset Optimization for Personalized Federated Learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "chandabayesian"
+    },
+    {
+      "year": "2024",
+      "volume": "36",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Sadeghi, Omid and Fazel, Maryam",
+      "title": "No-regret online prediction with strategic experts",
+      "ENTRYTYPE": "article",
+      "ID": "sadeghi2024no"
+    },
+    {
+      "year": "2020",
+      "booktitle": "International Conference on Learning Representations",
+      "author": "Alieva, Ayya and Aceves, Aiden and Song, Jialin and Mayo, Stephen and Yue, Yisong and Chen, Yuxin",
+      "title": "Learning to make decisions via submodular regularization",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "alieva2020learning"
+    },
+    {
+      "year": "2023",
+      "booktitle": "International Conference on Artificial Intelligence and Statistics (AISTATS)",
+      "author": "Chen, Xuchuan and Narasimhan, Harikrishna",
+      "title": "Algorithms for Online Submodular Maximization via First-order Regret Bounds",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "chen2023firstorder"
+    },
+    {
+      "year": "2011",
+      "pages": "427--486",
+      "volume": "42",
+      "journal": "Journal of Artificial Intelligence Research",
+      "author": "Golovin, Daniel and Krause, Andreas",
+      "title": "Adaptive submodularity: Theory and applications in active learning and stochastic optimization",
+      "ENTRYTYPE": "article",
+      "ID": "golovin2011adaptive"
+    },
+    {
+      "year": "2018",
+      "pages": "1340--1348",
+      "booktitle": "International Conference on Artificial Intelligence and Statistics (AISTATS)",
+      "author": "Roughgarden, Tim and Wang, Joshua R.",
+      "title": "Approximately optimal online submodular maximization for coverage and sensor placement problems",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "roughgarden2018approximately"
+    },
+    {
+      "year": "2017",
+      "volume": "30",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Hassani, Hamed and Soltanolkotabi, Mahdi and Karbasi, Amin",
+      "title": "Gradient methods for submodular maximization",
+      "ENTRYTYPE": "article",
+      "ID": "hassani2023bandit"
+    },
+    {
+      "year": "2023",
+      "booktitle": "Conference on Learning Theory (COLT)",
+      "author": "Chen, Lijun and Zhan, Wei and Jin, Chi",
+      "title": "Near-optimal regret bounds for online submodular maximization with bandit feedback",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "chen2023near"
+    },
+    {
+      "year": "2017",
+      "pages": "498--507",
+      "booktitle": "International Conference on Machine Learning (ICML)",
+      "author": "Bian, Andrew A and Buhmann, Joachim M and Krause, Andreas",
+      "title": "Guarantees for greedy maximization of non-submodular functions with applications",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "bian2017guarantees"
+    },
+    {
+      "year": "2022",
+      "booktitle": "Conference on Learning Theory (COLT)",
+      "author": "Radakovic, Milica and Mitrovic, Slobodan",
+      "title": "Online submodular maximization with delayed feedback",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "radakovic2022delayed"
+    },
+    {
+      "year": "2016",
+      "pages": "1358--1367",
+      "booktitle": "International Conference on Machine Learning (ICML)",
+      "author": "Mirzasoleiman, Baharan and Badanidiyuru, Ashwinkumar and Karbasi, Amin and Vondrak, Jan and Krause, Andreas",
+      "title": "Fast constrained submodular maximization: Personalized data summarization",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "mirzasoleiman2016fast"
+    },
+    {
+      "year": "2019",
+      "pages": "1354--1363",
+      "booktitle": "International Conference on Artificial Intelligence and Statistics (AISTATS)",
+      "author": "Staib, Matthew and Jegelka, Stefanie",
+      "title": "A distributional analysis of greedy maximization",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "staib2019distribution"
+    },
+    {
+      "year": "2022",
+      "pages": "10238--10246",
+      "number": "9",
+      "volume": "36",
+      "booktitle": "Proceedings of the AAAI Conference on Artificial Intelligence",
+      "author": "Kothawade, Suraj and Kaushal, Vishal and Ramakrishnan, Ganesh and Bilmes, Jeff and Iyer, Rishabh",
+      "title": "Prism: A rich class of parameterized submodular information measures for guided data subset selection",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "kothawade2022prism"
+    },
+    {
+      "organization": "SIAM",
+      "year": "2019",
+      "pages": "255--273",
+      "booktitle": "Proceedings of the Thirtieth Annual ACM-SIAM Symposium on Discrete Algorithms",
+      "author": "Fahrbach, Matthew and Mirrokni, Vahab and Zadimoghaddam, Morteza",
+      "title": "Submodular maximization with nearly optimal approximation, adaptivity and query complexity",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "fahrbach2019submodular"
+    },
+    {
+      "organization": "SIAM",
+      "year": "2012",
+      "pages": "1025--1035",
+      "booktitle": "Proceedings of the twenty-third annual ACM-SIAM symposium on Discrete Algorithms",
+      "author": "Badanidiyuru, Ashwinkumar and Dobzinski, Shahar and Fu, Hu and Kleinberg, Robert and Nisan, Noam and Roughgarden, Tim",
+      "title": "Sketching valuation functions",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "badanidiyuru2012sketching"
+    },
+    {
+      "organization": "SIAM",
+      "year": "2009",
+      "pages": "535--544",
+      "booktitle": "Proceedings of the twentieth annual ACM-SIAM symposium on Discrete algorithms",
+      "author": "Goemans, Michel X and Harvey, Nicholas JA and Iwata, Satoru and Mirrokni, Vahab",
+      "title": "Approximating submodular functions everywhere",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "goemans2009approximating"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2019",
+      "pages": "3744--3753",
+      "booktitle": "International conference on machine learning",
+      "author": "Lee, Juho and Lee, Yoonho and Kim, Jungtaek and Kosiorek, Adam and Choi, Seungjin and Teh, Yee Whye",
+      "title": "Set transformer: A framework for attention-based permutation-invariant neural networks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "lee2019set"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2018",
+      "pages": "4334--4343",
+      "booktitle": "International conference on machine learning",
+      "author": "Ren, Mengye and Zeng, Wenyuan and Yang, Bin and Urtasun, Raquel",
+      "title": "Learning to reweight examples for robust deep learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ren2018learning"
+    },
+    {
+      "year": "2021",
+      "pages": "19553--19565",
+      "volume": "34",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Maiti, Arnab and Patil, Vishakha and Khan, Arindam",
+      "title": "Multi-armed bandits with bounded arm-memory: Near-optimal guarantees for best-arm identification and regret minimization",
+      "ENTRYTYPE": "article",
+      "ID": "maiti2021multi"
+    },
+    {
+      "year": "2024",
+      "volume": "36",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Liang, Yan-Shuo and Li, Wu-Jun",
+      "title": "Loss decoupling for task-agnostic continual learning",
+      "ENTRYTYPE": "article",
+      "ID": "liang2024loss"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2404.16789",
+      "author": "Shi, Haizhou and Xu, Zihao and Wang, Hengyi and Qin, Weiyi and Wang, Wenyuan and Wang, Yibin and Wang, Hao",
+      "title": "Continual Learning of Large Language Models: A Comprehensive Survey",
+      "ENTRYTYPE": "article",
+      "ID": "shi2024continual"
+    },
+    {
+      "organization": "IEEE",
+      "year": "2014",
+      "pages": "3311--3315",
+      "booktitle": "2014 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+      "author": "Wei, Kai and Liu, Yuzong and Kirchhoff, Katrin and Bartels, Chris and Bilmes, Jeff",
+      "title": "Submodular subset selection for large-scale speech training data",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "jiang2017submodular"
+    },
+    {
+      "publisher": "Taylor \\& Francis",
+      "year": "1975",
+      "pages": "417--427",
+      "number": "350",
+      "volume": "70",
+      "journal": "Journal of the American Statistical Association",
+      "author": "Brown, Lawrence D",
+      "title": "Estimation with incompletely specified loss functions (the case of several location parameters)",
+      "ENTRYTYPE": "article",
+      "ID": "kahn1953estimation"
+    },
+    {
+      "year": "2017",
+      "pages": "2980--2988",
+      "booktitle": "Proceedings of the IEEE international conference on computer vision",
+      "author": "Lin, Tsung-Yi and Goyal, Priya and Girshick, Ross and He, Kaiming and Doll{\\'a}r, Piotr",
+      "title": "Focal loss for dense object detection",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "lin2017focal"
+    },
+    {
+      "year": "2010",
+      "volume": "23",
+      "journal": "Advances in neural information processing systems",
+      "author": "Kumar, M and Packer, Benjamin and Koller, Daphne",
+      "title": "Self-paced learning for latent variable models",
+      "ENTRYTYPE": "article",
+      "ID": "kumar2010self"
+    },
+    {
+      "year": "2015",
+      "pages": "945--953",
+      "booktitle": "Proceedings of the IEEE international conference on computer vision",
+      "author": "Su, Hang and Maji, Subhransu and Kalogerakis, Evangelos and Learned-Miller, Erik",
+      "title": "Multi-view convolutional neural networks for 3d shape recognition",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "su2015multi"
+    },
+    {
+      "year": "2016",
+      "volume": "29",
+      "journal": "Advances in neural information processing systems",
+      "author": "Vinyals, Oriol and Blundell, Charles and Lillicrap, Timothy and Wierstra, Daan and others",
+      "title": "Matching networks for one shot learning",
+      "ENTRYTYPE": "article",
+      "ID": "vinyals2016matching"
+    },
+    {
+      "year": "2017",
+      "pages": "4967--4976",
+      "volume": "30",
+      "journal": "Advances in neural information processing systems",
+      "author": "Santoro, Adam and Raposo, David and Barrett, David G and Malinowski, Mateusz and Pascanu, Razvan and Battaglia, Peter and Lillicrap, Timothy",
+      "title": "A simple neural network module for relational reasoning",
+      "ENTRYTYPE": "article",
+      "ID": "santoro2017simple"
+    },
+    {
+      "year": "2019",
+      "journal": "arXiv preprint arXiv:1901.05761",
+      "author": "Kim, Hyunjik and Mnih, Andriy and Schwarz, Jonathan and Garnelo, Marta and Eslami, Ali and Rosenbaum, Dan and Vinyals, Oriol and Teh, Yee Whye",
+      "title": "Attentive neural processes",
+      "ENTRYTYPE": "article",
+      "ID": "kim2019attentive"
+    },
+    {
+      "publisher": "SIAM",
+      "year": "2002",
+      "pages": "48--77",
+      "number": "1",
+      "volume": "32",
+      "journal": "SIAM journal on computing",
+      "author": "Auer, Peter and Cesa-Bianchi, Nicolo and Freund, Yoav and Schapire, Robert E",
+      "title": "The nonstochastic multiarmed bandit problem",
+      "ENTRYTYPE": "article",
+      "ID": "auer2002nonstochastic"
+    },
+    {
+      "publisher": "Florham Park, NJ, USA",
+      "year": "2010",
+      "author": "LeCun, Yann and Cortes, Corinna and Burges, Chris and others",
+      "title": "MNIST handwritten digit database",
+      "ENTRYTYPE": "misc",
+      "ID": "lecun2010mnist"
+    },
+    {
+      "year": "2018",
+      "journal": "arXiv preprint arXiv:1803.02999",
+      "author": "Nichol, Alex and Achiam, Joshua and Schulman, John",
+      "title": "On first-order meta-learning algorithms",
+      "ENTRYTYPE": "article",
+      "ID": "nichol2018first"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2015",
+      "pages": "2408--2417",
+      "booktitle": "International conference on machine learning",
+      "author": "Martens, James and Grosse, Roger",
+      "title": "Optimizing neural networks with kronecker-factored approximate curvature",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "martens2015optimizing"
+    },
+    {
+      "year": "1991",
+      "volume": "4",
+      "journal": "Advances in neural information processing systems",
+      "author": "Vapnik, Vladimir",
+      "title": "Principles of risk minimization for learning theory",
+      "ENTRYTYPE": "article",
+      "ID": "vapnik1991principles"
+    },
+    {
+      "year": "2024",
+      "booktitle": "International Conference on Machine Learning (ICML)",
+      "author": "Xia, Mengzhou and Malladi, Sadhika and Gururangan, Suchin and Arora, Sanjeev and Chen, Danqi",
+      "title": "{LESS}: Selecting Influential Data for Targeted Instruction Tuning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "xia2024less"
+    },
+    {
+      "url": "https://arxiv.org/abs/2310.06825",
+      "primaryclass": "cs.CL",
+      "archiveprefix": "arXiv",
+      "eprint": "2310.06825",
+      "year": "2023",
+      "author": "Albert Q. Jiang and Alexandre Sablayrolles and Arthur Mensch and Chris Bamford and Devendra Singh Chaplot and Diego de las Casas and Florian Bressand and Gianna Lengyel and Guillaume Lample and Lucile Saulnier and Lélio Renard Lavaud and Marie-Anne Lachaux and Pierre Stock and Teven Le Scao and Thibaut Lavril and Thomas Wang and Timothée Lacroix and William El Sayed",
+      "title": "Mistral 7B",
+      "ENTRYTYPE": "misc",
+      "ID": "jiang2023mistral7b"
+    },
+    {
+      "publisher": "Meta AI",
+      "url": "https://arxiv.org/abs/2307.09288",
+      "primaryclass": "cs.CL",
+      "archiveprefix": "arXiv",
+      "eprint": "2307.09288",
+      "year": "2023",
+      "author": "Hugo Touvron and Louis Martin and Kevin Stone and Peter Albert and Amjad Almahairi and Yasmine Babaei and Nikolay Bashlykov and Soumya Batra and Prajjwal Bhargava and Shruti Bhosale and Dan Bikel and Lukas Blecher and Cristian Canton Ferrer and Moya Chen and Guillem Cucurull and David Esiobu and Jude Fernandes and Jeremy Fu and Wenyin Fu and Brian Fuller and Cynthia Gao and Vedanuj Goswami and Naman Goyal and Anthony Hartshorn and Saghar Hosseini and Rui Hou and Hakan Inan and Marcin Kardas and Viktor Kerkez and Madian Khabsa and Isabel Kloumann and Artem Korenev and Punit Singh Koura and Marie-Anne Lachaux and Thibaut Lavril and Jenya Lee and Diana Liskovich and Yinghai Lu and Yuning Mao and Xavier Martinet and Todor Mihaylov and Pushkar Mishra and Igor Molybog and Yixin Nie and Andrew Poulton and Jeremy Reizenstein and Rashi Rungta and Kalyan Saladi and Alan Schelten and Ruan Silva and Eric Michael Smith and Ranjan Subramanian and Xiaoqing Ellen Tan and Binh Tang and Ross Taylor and Adina Williams and Jian Xiang Kuan and Puxin Xu and Zhengxu Yan and Iliyan Zarov and Yuchen Zhang and Angela Fan and Melanie Kambadur and Sharan Narang and Aurelien Rodriguez and Robert Stojnic and Sergey Edunov and Thomas Scialom",
+      "title": "{Llama 2: Open Foundation and Fine-Tuned Chat Models}",
+      "ENTRYTYPE": "misc",
+      "ID": "touvron2023llama2"
+    },
+    {
+      "url": "https://arxiv.org/abs/1511.06343",
+      "primaryclass": "cs.LG",
+      "archiveprefix": "arXiv",
+      "eprint": "1511.06343",
+      "year": "2015",
+      "author": "Ilya Loshchilov and Frank Hutter",
+      "title": "{Online Batch Selection for Faster Training of Neural Networks}",
+      "ENTRYTYPE": "misc",
+      "ID": "maxloss"
+    },
+    {
+      "note": "Also available as arXiv:1803.00942",
+      "url": "http://proceedings.mlr.press/v80/katharopoulos18a.html",
+      "publisher": "PMLR",
+      "month": "10--15 Jul",
+      "series": "Proceedings of Machine Learning Research",
+      "volume": "80",
+      "editor": "Dy, Jennifer and Krause, Andreas",
+      "year": "2018",
+      "pages": "2536--2545",
+      "booktitle": "Proceedings of the 35th International Conference on Machine Learning (ICML)",
+      "author": "Katharopoulos, Angelos and Fleuret, Fran{\\c{c}}ois",
+      "title": "{Not All Samples Are Created Equal: Deep Learning with Importance Sampling}",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "katharopoulos2018not"
+    },
+    {
+      "year": "2024",
+      "pages": "131197--131223",
+      "volume": "37",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Wang, Jiachen Tianhao and Wu, Tong and Song, Dawn and Mittal, Prateek and Jia, Ruoxi",
+      "title": "GREATS: Online selection of high-quality data for llm training in every iteration",
+      "ENTRYTYPE": "article",
+      "ID": "wang2024greats"
+    },
+    {
+      "year": "2025",
+      "journal": "International Conference on Learning Representations",
+      "author": "Tan, Haoru and Wu, Sitong and Huang, Wei and Zhao, Shizhen and Qi, Xiaojuan",
+      "title": "Data pruning by information maximization",
+      "ENTRYTYPE": "article",
+      "ID": "tan2025data"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2310.07931",
+      "author": "Maharana, Adyasha and Yadav, Prateek and Bansal, Mohit",
+      "title": "D2 pruning: Message passing for balancing diversity and difficulty in data pruning",
+      "ENTRYTYPE": "article",
+      "ID": "maharana2023d2"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2210.15809",
+      "author": "Zheng, Haizhong and Liu, Rui and Lai, Fan and Prakash, Atul",
+      "title": "Coverage-centric coreset selection for high pruning rates",
+      "ENTRYTYPE": "article",
+      "ID": "zheng2022coverage"
+    },
+    {
+      "publisher": "Springer",
+      "year": "1978",
+      "pages": "265--294",
+      "volume": "14",
+      "journal": "Mathematical programming",
+      "author": "Nemhauser, George L and Wolsey, Laurence A and Fisher, Marshall L",
+      "title": "An analysis of approximations for maximizing submodular set functions—I",
+      "ENTRYTYPE": "article",
+      "ID": "nemhauser1978analysis"
+    }
+  ]
+}

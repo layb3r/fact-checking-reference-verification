@@ -1,0 +1,850 @@
+{
+  "pdf_url": "https://arxiv.org/pdf/2503.05493v2.pdf",
+  "references": [
+    {
+      "publisher": "Springer",
+      "year": "2024",
+      "pages": "60",
+      "number": "5",
+      "volume": "27",
+      "journal": "World Wide Web",
+      "author": "Wu, Likang and Zheng, Zhi and Qiu, Zhaopeng and Wang, Hao and Gu, Hongchao and Shen, Tingjia and Qin, Chuan and Zhu, Chen and Zhu, Hengshu and Liu, Qi and others",
+      "title": "A survey on large language models for recommendation",
+      "ENTRYTYPE": "article",
+      "ID": "survey1"
+    },
+    {
+      "organization": "Springer",
+      "year": "2024",
+      "pages": "494--502",
+      "booktitle": "European Conference on Information Retrieval",
+      "author": "Ji, Jianchao and Li, Zelong and Xu, Shuyuan and Hua, Wenyue and Ge, Yingqiang and Tan, Juntao and Zhang, Yongfeng",
+      "title": "Genrec: Large language model for generative recommendation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "genrec"
+    },
+    {
+      "bibsource": "dblp computer science bibliography, https://dblp.org",
+      "biburl": "https://dblp.org/rec/journals/tkde/ZhaoFLLMWWWZTL24.bib",
+      "timestamp": "Fri, 18 Oct 2024 08:29:20 +0200",
+      "doi": "10.1109/TKDE.2024.3392335",
+      "url": "https://doi.org/10.1109/TKDE.2024.3392335",
+      "year": "2024",
+      "pages": "6889--6907",
+      "number": "11",
+      "volume": "36",
+      "journal": "{IEEE} Trans. Knowl. Data Eng.",
+      "title": "Recommender Systems in the Era of Large Language Models (LLMs)",
+      "author": "Zihuai Zhao and\nWenqi Fan and\nJiatong Li and\nYunqing Liu and\nXiaowei Mei and\nYiqi Wang and\nZhen Wen and\nFei Wang and\nXiangyu Zhao and\nJiliang Tang and\nQing Li",
+      "ENTRYTYPE": "article",
+      "ID": "survey2"
+    },
+    {
+      "year": "2023",
+      "pages": "306--309",
+      "booktitle": "Proceedings of the Annual International ACM SIGIR Conference on Research and Development in Information Retrieval in the Asia Pacific Region",
+      "author": "Bao, Keqin and Zhang, Jizhi and Zhang, Yang and Wenjie, Wang and Feng, Fuli and He, Xiangnan",
+      "title": "Large language models for recommendation: Progresses and future directions",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "survey3"
+    },
+    {
+      "publisher": "Springer",
+      "year": "2024",
+      "pages": "42",
+      "number": "4",
+      "volume": "27",
+      "journal": "World Wide Web",
+      "author": "Chen, Jin and Liu, Zheng and Huang, Xu and Wu, Chenwang and Liu, Qi and Jiang, Gangwei and Pu, Yuanhao and Lei, Yuxuan and Chen, Xiaolong and Wang, Xingmei and others",
+      "title": "When large language models meet personalization: Perspectives of challenges and opportunities",
+      "ENTRYTYPE": "article",
+      "ID": "survey4"
+    },
+    {
+      "year": "2024",
+      "pages": "452--461",
+      "booktitle": "Proceedings of the 17th ACM International Conference on Web Search and Data Mining",
+      "author": "Liu, Qijiong and Chen, Nuo and Sakai, Tetsuya and Wu, Xiao-Ming",
+      "title": "Once: Boosting content-based recommendation with both open-and closed-source large language models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "once"
+    },
+    {
+      "year": "2017",
+      "pages": "1--7",
+      "booktitle": "Proceedings of the ADKDD'17",
+      "author": "Wang, Ruoxi and Fu, Bin and Fu, Gang and Wang, Mingliang",
+      "title": "Deep \\& cross network for ad click predictions",
+      "ENTRYTYPE": "incollection",
+      "ID": "dcn"
+    },
+    {
+      "bibsource": "dblp computer science bibliography, https://dblp.org",
+      "biburl": "https://dblp.org/rec/conf/ijcai/GuoTYLH17.bib",
+      "timestamp": "Sun, 06 Oct 2024 21:07:56 +0200",
+      "doi": "10.24963/IJCAI.2017/239",
+      "url": "https://doi.org/10.24963/ijcai.2017/239",
+      "year": "2017",
+      "publisher": "ijcai.org",
+      "pages": "1725--1731",
+      "booktitle": "Proceedings of the Twenty-Sixth International Joint Conference on\nArtificial Intelligence, {IJCAI} 2017, Melbourne, Australia, August\n19-25, 2017",
+      "title": "DeepFM: {A} Factorization-Machine based Neural Network for {CTR} Prediction",
+      "editor": "Carles Sierra",
+      "author": "Huifeng Guo and\nRuiming Tang and\nYunming Ye and\nZhenguo Li and\nXiuqiang He",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "deepfm"
+    },
+    {
+      "year": "2022",
+      "pages": "299--315",
+      "booktitle": "Proceedings of the 16th ACM Conference on Recommender Systems",
+      "author": "Geng, Shijie and Liu, Shuchang and Fu, Zuohui and Ge, Yingqiang and Zhang, Yongfeng",
+      "title": "Recommendation as language processing (rlp): A unified pretrain, personalized prompt \\& predict paradigm (p5)",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "p5"
+    },
+    {
+      "year": "2024",
+      "pages": "806--815",
+      "booktitle": "Proceedings of the 17th ACM International Conference on Web Search and Data Mining",
+      "author": "Wei, Wei and Ren, Xubin and Tang, Jiabin and Wang, Qinyong and Su, Lixin and Cheng, Suqi and Wang, Junfeng and Yin, Dawei and Huang, Chao",
+      "title": "Llmrec: Large language models with graph augmentation for recommendation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "llmrec"
+    },
+    {
+      "publisher": "ACM New York, NY",
+      "year": "2023",
+      "journal": "ACM Transactions on Information Systems",
+      "author": "Fu, Zichuan and Li, Xiangyang and Wu, Chuhan and Wang, Yichao and Dong, Kuicai and Zhao, Xiangyu and Zhao, Mengchen and Guo, Huifeng and Tang, Ruiming",
+      "title": "A unified framework for multi-domain ctr prediction via large language models",
+      "ENTRYTYPE": "article",
+      "ID": "unictr"
+    },
+    {
+      "year": "2023",
+      "pages": "1258--1267",
+      "booktitle": "Proceedings of the 29th ACM SIGKDD Conference on Knowledge Discovery and Data Mining",
+      "author": "Li, Jiacheng and Wang, Ming and Li, Jin and Fu, Jinmiao and Shen, Xin and Shang, Jingbo and McAuley, Julian",
+      "title": "Text is all you need: Learning language representations for sequential recommendation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "recformer"
+    },
+    {
+      "year": "2021",
+      "pages": "1652--1656",
+      "booktitle": "Proceedings of the 44th international ACM SIGIR conference on research and development in information retrieval",
+      "author": "Wu, Chuhan and Wu, Fangzhao and Qi, Tao and Huang, Yongfeng",
+      "title": "Empowering news recommendation with pre-trained language models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "plm-nr"
+    },
+    {
+      "year": "2020",
+      "journal": "arXiv preprint arXiv:2009.13292",
+      "author": "Malkiel, Itzik and Barkan, Oren and Caciularu, Avi and Razin, Noam and Katz, Ori and Koenigstein, Noam",
+      "title": "RecoBERT: A catalog language model for text-based recommendations",
+      "ENTRYTYPE": "article",
+      "ID": "recobert"
+    },
+    {
+      "year": "2024",
+      "pages": "919--922",
+      "booktitle": "Companion Proceedings of the ACM on Web Conference 2024",
+      "author": "Liu, Qijiong and Hu, Hengchang and Wu, Jiahao and Zhu, Jieming and Kan, Min-Yen and Wu, Xiao-Ming",
+      "title": "Discrete Semantic Tokenization for Deep CTR Prediction",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "uist"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2408.01332",
+      "author": "Lou, Xingyu and Yang, Yu and Dong, Kuiyao and Huang, Heyuan and Yu, Wenyi and Wang, Ping and Li, Xiu and Wang, Jun",
+      "title": "HMDN: Hierarchical Multi-Distribution Network for Click-Through Rate Prediction",
+      "ENTRYTYPE": "article",
+      "ID": "hmdn"
+    },
+    {
+      "organization": "IEEE",
+      "year": "2024",
+      "pages": "1435--1448",
+      "booktitle": "2024 IEEE 40th International Conference on Data Engineering (ICDE)",
+      "author": "Zheng, Bowen and Hou, Yupeng and Lu, Hongyu and Chen, Yu and Zhao, Wayne Xin and Chen, Ming and Wen, Ji-Rong",
+      "title": "Adapting large language models by integrating collaborative semantics for recommendation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "lc-rec"
+    },
+    {
+      "organization": "IEEE",
+      "year": "2018",
+      "pages": "197--206",
+      "booktitle": "2018 IEEE international conference on data mining (ICDM)",
+      "author": "Kang, Wang-Cheng and McAuley, Julian",
+      "title": "Self-attentive sequential recommendation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "sasrec"
+    },
+    {
+      "year": "2019",
+      "pages": "1441--1450",
+      "booktitle": "Proceedings of the 28th ACM international conference on information and knowledge management",
+      "author": "Sun, Fei and Liu, Jun and Wu, Jian and Pei, Changhua and Lin, Xiao and Ou, Wenwu and Jiang, Peng",
+      "title": "BERT4Rec: Sequential recommendation with bidirectional encoder representations from transformer",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "bert4rec"
+    },
+    {
+      "year": "2024",
+      "pages": "1785--1795",
+      "booktitle": "Proceedings of the 47th International ACM SIGIR Conference on Research and Development in Information Retrieval",
+      "author": "Liao, Jiayi and Li, Sihang and Yang, Zhengyi and Wu, Jiancan and Yuan, Yancheng and Wang, Xiang and He, Xiangnan",
+      "title": "Llara: Large language-recommendation assistant",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "llara"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2411.02041",
+      "author": "Chen, Lei and Gao, Chen and Du, Xiaoyi and Luo, Hengliang and Jin, Depeng and Li, Yong and Wang, Meng",
+      "title": "Enhancing ID-based Recommendation with Large Language Models",
+      "ENTRYTYPE": "article",
+      "ID": "llm4idrec"
+    },
+    {
+      "year": "2023",
+      "pages": "2639--2649",
+      "booktitle": "Proceedings of the 46th International ACM SIGIR Conference on Research and Development in Information Retrieval",
+      "author": "Yuan, Zheng and Yuan, Fajie and Song, Yu and Li, Youhua and Fu, Junchen and Yang, Fei and Pan, Yunzhu and Ni, Yongxin",
+      "title": "Where to go next for recommender systems? id-vs. modality-based recommender models revisited",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "morec"
+    },
+    {
+      "organization": "Springer",
+      "year": "2024",
+      "pages": "123--139",
+      "booktitle": "European Conference on Information Retrieval",
+      "author": "Hu, Hengchang and Liu, Qijiong and Li, Chuang and Kan, Min-Yen",
+      "title": "Lightweight Modality Adaptation to Sequential Recommendation via Correlation Supervision",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "kdsr"
+    },
+    {
+      "year": "2023",
+      "pages": "10299--10315",
+      "volume": "36",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Rajput, Shashank and Mehta, Nikhil and Singh, Anima and Hulikal Keshavan, Raghunandan and Vu, Trung and Heldt, Lukasz and Hong, Lichan and Tay, Yi and Tran, Vinh and Samost, Jonah and others",
+      "title": "Recommender systems with generative retrieval",
+      "ENTRYTYPE": "article",
+      "ID": "tiger"
+    },
+    {
+      "year": "2024",
+      "pages": "2400--2409",
+      "booktitle": "Proceedings of the 33rd ACM International Conference on Information and Knowledge Management",
+      "author": "Wang, Wenjie and Bao, Honghui and Lin, Xinyu and Zhang, Jizhi and Li, Yongqi and Feng, Fuli and Ng, See-Kiong and Chua, Tat-Seng",
+      "title": "Learnable Item Tokenization for Generative Recommendation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "letter"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2409.07276",
+      "author": "Liu, Qijiong and Zhu, Jieming and Fan, Lu and Zhao, Zhou and Wu, Xiao-Ming",
+      "title": "STORE: Streamlining Semantic Tokenization and Generative Recommendation with A Single LLM",
+      "ENTRYTYPE": "article",
+      "ID": "store"
+    },
+    {
+      "year": "2024",
+      "pages": "386--394",
+      "booktitle": "Proceedings of the 47th International ACM SIGIR Conference on Research and Development in Information Retrieval",
+      "author": "Xu, Shuyuan and Hua, Wenyue and Zhang, Yongfeng",
+      "title": "Openp5: An open-source platform for developing, training, and evaluating llm-based recommender systems",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "openp5"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2308.12241",
+      "author": "Liu, Junling and Liu, Chao and Zhou, Peilin and Ye, Qichen and Chong, Dading and Zhou, Kang and Xie, Yueqi and Cao, Yuwei and Wang, Shoujin and You, Chenyu and others",
+      "title": "Llmrec: Benchmarking large language models on recommendation task",
+      "ENTRYTYPE": "article",
+      "ID": "bm-llmrec"
+    },
+    {
+      "year": "2024",
+      "pages": "3566--3575",
+      "booktitle": "Proceedings of the ACM on Web Conference 2024",
+      "author": "Wu, Xuansheng and Zhou, Huachi and Shi, Yucheng and Yao, Wenlin and Huang, Xiao and Liu, Ninghao",
+      "title": "Could Small Language Models Serve as Recommenders? Towards Data-centric Cold-start Recommendation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "bm-promptrec"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2411.00331",
+      "author": "Jiang, Chumeng and Wang, Jiayin and Ma, Weizhi and Clarke, Charles LA and Wang, Shuai and Wu, Chuhan and Zhang, Min",
+      "title": "Beyond Utility: Evaluating LLM as Recommender",
+      "ENTRYTYPE": "article",
+      "ID": "bm-llmasrs"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2411.10697",
+      "author": "Liu, Jiao and Sun, Zhu and Feng, Shanshan and Ong, Yew-Soon",
+      "title": "Language Model Evolutionary Algorithms for Recommender Systems: Benchmarks and Algorithm Comparisons",
+      "ENTRYTYPE": "article",
+      "ID": "bm-rsbench"
+    },
+    {
+      "booktitle": "NeurIPS 2021 Workshop on I (Still) Can't Believe It's Not Better",
+      "url": "https://www.amazon.science/publications/language-models-as-recommender-systems-evaluations-and-limitations",
+      "year": "2021",
+      "title": "Language models as recommender systems: Evaluations and limitations",
+      "author": "Yuhui Zhang and Hao Ding and Zeren Shui and Yifei Ma and James Zou and Anoop Deoras and Hao Wang",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "bm-lmasrs"
+    },
+    {
+      "address": "Australia, Sydney",
+      "year": "2025",
+      "month": "may",
+      "booktitle": "Proceedings of the ACM Web Conference 2025",
+      "author": "Liu, Qijiong and Fan, Lu and Wu, Xiao-Ming",
+      "title": "Legommenders: A Comprehensive Content-Based Recommendation Library with LLM Support",
+      "ENTRYTYPE": "misc",
+      "ID": "legommenders"
+    },
+    {
+      "year": "2017",
+      "volume": "30",
+      "journal": "Advances in neural information processing systems",
+      "author": "Vaswani, Ashish and Shazeer, Noam and Parmar, Niki and Uszkoreit, Jakob and Jones, Llion and Gomez, Aidan N and Kaiser, {\\L}ukasz and Polosukhin, Illia",
+      "title": "Attention is all you need",
+      "ENTRYTYPE": "article",
+      "ID": "attention"
+    },
+    {
+      "year": "2012",
+      "volume": "25",
+      "journal": "Advances in neural information processing systems",
+      "author": "Krizhevsky, Alex and Sutskever, Ilya and Hinton, Geoffrey E",
+      "title": "Imagenet classification with deep convolutional neural networks",
+      "ENTRYTYPE": "article",
+      "ID": "cnn"
+    },
+    {
+      "year": "2023",
+      "pages": "1204--1207",
+      "booktitle": "Proceedings of the 17th ACM Conference on Recommender Systems",
+      "author": "Acharya, Arkadeep and Singh, Brijraj and Onoe, Naoyuki",
+      "title": "Llm based generation of item-description for recommendation system",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "acharya2023llm"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2310.09874",
+      "author": "Wu, Jiahao and Liu, Qijiong and Hu, Hengchang and Fan, Wenqi and Liu, Shengcai and Li, Qing and Wu, Xiao-Ming and Tang, Ke",
+      "title": "Leveraging Large Language Models (LLMs) to Empower Training-Free Dataset Condensation for Content-Based Recommendation",
+      "ENTRYTYPE": "article",
+      "ID": "wu2023leveraging"
+    },
+    {
+      "year": "2023",
+      "journal": "CoRR",
+      "author": "Liu, Qijiong and Chen, Nuo and Sakai, Tetsuya and Wu, Xiao-Ming",
+      "title": "A first look at llm-powered generative news recommendation",
+      "ENTRYTYPE": "article",
+      "ID": "genre"
+    },
+    {
+      "year": "2022",
+      "pages": "11523--11532",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Lee, Doyup and Kim, Chiheon and Kim, Saehoon and Cho, Minsu and Han, Wook-Shin",
+      "title": "Autoregressive image generation using residual quantization",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "rq-vae"
+    },
+    {
+      "year": "2024",
+      "pages": "3245--3254",
+      "booktitle": "Proceedings of the 30th ACM SIGKDD Conference on Knowledge Discovery and Data Mining",
+      "author": "Wang, Ye and Xun, Jiahao and Hong, Minjie and Zhu, Jieming and Jin, Tao and Lin, Wang and Li, Haoyuan and Li, Linjun and Xia, Yan and Zhao, Zhou and others",
+      "title": "EAGER: Two-Stream Generative Recommender with Behavior-Semantic Collaboration",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "eager"
+    },
+    {
+      "year": "2014",
+      "pages": "1532--1543",
+      "booktitle": "Proceedings of the 2014 conference on empirical methods in natural language processing (EMNLP)",
+      "author": "Pennington, Jeffrey and Socher, Richard and Manning, Christopher D",
+      "title": "Glove: Global vectors for word representation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "glove"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2502.14735",
+      "author": "Hong, Minjie and Xia, Yan and Wang, Zehan and Zhu, Jieming and Wang, Ye and Cai, Sihang and Yang, Xiaoda and Dai, Quanyu and Dong, Zhenhua and Zhang, Zhimeng and others",
+      "title": "EAGER-LLM: Enhancing Large Language Models as Recommenders through Exogenous Behavior-Semantic Integration",
+      "ENTRYTYPE": "article",
+      "ID": "llm-eager"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2305.14302",
+      "author": "Geng, Shijie and Tan, Juntao and Liu, Shuchang and Fu, Zuohui and Zhang, Yongfeng",
+      "title": "Vip5: Towards multimodal foundation models for recommendation",
+      "ENTRYTYPE": "article",
+      "ID": "vip5"
+    },
+    {
+      "note": "Kaggle",
+      "howpublished": "\\url{https://kaggle.com/competitions/h-and-m-personalized-fashion-recommendations}",
+      "year": "2022",
+      "title": "H\\&M Personalized Fashion Recommendations",
+      "author": "Carlos García Ling and ElizabethHMGroup and FridaRim and inversion and Jaime Ferrando and Maggie and neuraloverflow and xlsrln",
+      "ENTRYTYPE": "misc",
+      "ID": "ds-hm"
+    },
+    {
+      "note": "Presented at ACL 2020",
+      "address": "Online",
+      "publisher": "Association for Computational Linguistics",
+      "year": "2020",
+      "booktitle": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics (ACL)",
+      "title": "{MIND}: A Large-scale Dataset for News Recommendation",
+      "author": "Fangzhao Wu and Ying Qiao and Jiun-Hung Chen and Chuhan Wu and Tao Qi and Jianxun Lian and Danyang Liu and Xing Xie and Jianfeng Gao and Winnie Wu and Ming Zhou",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ds-mind"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2309.15379",
+      "author": "Ni, Yongxin and Cheng, Yu and Liu, Xiangyan and Fu, Junchen and Li, Youhua and He, Xiangnan and Zhang, Yongfeng and Yuan, Fajie",
+      "title": "A Content-Driven Micro-Video Recommendation Dataset at Scale",
+      "ENTRYTYPE": "article",
+      "ID": "ds-microlens"
+    },
+    {
+      "bibsource": "dblp computer science bibliography, https://dblp.org",
+      "biburl": "https://dblp.org/rec/conf/recsys/WanM18.bib",
+      "timestamp": "Mon, 22 Jul 2019 19:11:02 +0200",
+      "doi": "10.1145/3240323.3240369",
+      "url": "https://doi.org/10.1145/3240323.3240369",
+      "year": "2018",
+      "publisher": "{ACM}",
+      "pages": "86--94",
+      "booktitle": "Proceedings of the 12th {ACM} Conference on Recommender Systems, RecSys\n2018, Vancouver, BC, Canada, October 2-7, 2018",
+      "title": "Item recommendation on monotonic behavior chains",
+      "editor": "Sole Pera and\nMichael D. Ekstrand and\nXavier Amatriain and\nJohn O'Donovan",
+      "author": "Mengting Wan and\nJulian J. McAuley",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ds-goodreads"
+    },
+    {
+      "year": "2016",
+      "pages": "507--517",
+      "booktitle": "proceedings of the 25th international conference on world wide web",
+      "author": "He, Ruining and McAuley, Julian",
+      "title": "Ups and downs: Modeling the visual evolution of fashion trends with one-class collaborative filtering",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ds-amazon"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "2023",
+      "pages": "102274",
+      "volume": "103",
+      "journal": "Learning and individual differences",
+      "author": "Kasneci, Enkelejda and Se{\\ss}ler, Kathrin and K{\\\"u}chemann, Stefan and Bannert, Maria and Dementieva, Daryna and Fischer, Frank and Gasser, Urs and Groh, Georg and G{\\\"u}nnemann, Stephan and H{\\\"u}llermeier, Eyke and others",
+      "title": "ChatGPT for good? On opportunities and challenges of large language models for education",
+      "ENTRYTYPE": "article",
+      "ID": "reason-1"
+    },
+    {
+      "year": "2022",
+      "pages": "24824--24837",
+      "volume": "35",
+      "journal": "Advances in neural information processing systems",
+      "author": "Wei, Jason and Wang, Xuezhi and Schuurmans, Dale and Bosma, Maarten and Xia, Fei and Chi, Ed and Le, Quoc V and Zhou, Denny and others",
+      "title": "Chain-of-thought prompting elicits reasoning in large language models",
+      "ENTRYTYPE": "article",
+      "ID": "reason-2"
+    },
+    {
+      "year": "2022",
+      "pages": "22199--22213",
+      "volume": "35",
+      "journal": "Advances in neural information processing systems",
+      "author": "Kojima, Takeshi and Gu, Shixiang Shane and Reid, Machel and Matsuo, Yutaka and Iwasawa, Yusuke",
+      "title": "Large language models are zero-shot reasoners",
+      "ENTRYTYPE": "article",
+      "ID": "reason-3"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2304.10149",
+      "author": "Liu, Junling and Liu, Chao and Zhou, Peilin and Lv, Renjie and Zhou, Kang and Zhang, Yan",
+      "title": "Is chatgpt a good recommender? a preliminary study",
+      "ENTRYTYPE": "article",
+      "ID": "reason-rec-1"
+    },
+    {
+      "year": "2023",
+      "pages": "1126--1132",
+      "booktitle": "Proceedings of the 17th ACM Conference on Recommender Systems",
+      "author": "Dai, Sunhao and Shao, Ninglu and Zhao, Haiyuan and Yu, Weijie and Si, Zihua and Xu, Chen and Sun, Zhongxiang and Zhang, Xiao and Xu, Jun",
+      "title": "Uncovering chatgpt’s capabilities in recommender systems",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "reason-rec-2"
+    },
+    {
+      "year": "2023",
+      "pages": "1007--1014",
+      "booktitle": "Proceedings of the 17th ACM Conference on Recommender Systems",
+      "author": "Bao, Keqin and Zhang, Jizhi and Zhang, Yang and Wang, Wenjie and Feng, Fuli and He, Xiangnan",
+      "title": "Tallrec: An effective and efficient tuning framework to align large language model with recommendation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "tallrec"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2312.15661",
+      "author": "Luo, Yucong and Cheng, Mingyue and Zhang, Hao and Lu, Junyu and Liu, Qi and Chen, Enhong",
+      "title": "Unlocking the potential of large language models for explainable recommendations",
+      "ENTRYTYPE": "article",
+      "ID": "luo2023unlocking"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2305.13112",
+      "author": "Wang, Xiaolei and Tang, Xinyu and Zhao, Wayne Xin and Wang, Jingyuan and Wen, Ji-Rong",
+      "title": "Rethinking the evaluation for conversational recommendation in the era of large language models",
+      "ENTRYTYPE": "article",
+      "ID": "wang2023rethinking"
+    },
+    {
+      "year": "2023",
+      "pages": "720--730",
+      "booktitle": "Proceedings of the 32nd ACM international conference on information and knowledge management",
+      "author": "He, Zhankui and Xie, Zhouhang and Jha, Rahul and Steck, Harald and Liang, Dawen and Feng, Yesu and Majumder, Bodhisattwa Prasad and Kallus, Nathan and McAuley, Julian",
+      "title": "Large language models as zero-shot conversational recommenders",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "he2023large"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2406.10450",
+      "author": "Qu, Haohao and Fan, Wenqi and Zhao, Zihuai and Li, Qing",
+      "title": "TokenRec: Learning to Tokenize ID for LLM-based Generative Recommendation",
+      "ENTRYTYPE": "article",
+      "ID": "tokenrec"
+    },
+    {
+      "year": "2023",
+      "pages": "3",
+      "number": "3",
+      "volume": "1",
+      "journal": "Microsoft Research Blog",
+      "author": "Javaheripi, Mojan and Bubeck, S{\\'e}bastien and Abdin, Marah and Aneja, Jyoti and Bubeck, Sebastien and Mendes, Caio C{\\'e}sar Teodoro and Chen, Weizhu and Del Giorno, Allie and Eldan, Ronen and Gopi, Sivakanth and others",
+      "title": "Phi-2: The surprising power of small language models",
+      "ENTRYTYPE": "article",
+      "ID": "llm-phi"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2401.02954",
+      "author": "Bi, Xiao and Chen, Deli and Chen, Guanting and Chen, Shanhuang and Dai, Damai and Deng, Chengqi and Ding, Honghui and Dong, Kai and Du, Qiushi and Fu, Zhe and others",
+      "title": "Deepseek llm: Scaling open-source language models with longtermism",
+      "ENTRYTYPE": "article",
+      "ID": "llm-deepseek"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2406.12793",
+      "author": "GLM, Team and Zeng, Aohan and Xu, Bin and Wang, Bowen and Zhang, Chenhui and Yin, Da and Zhang, Dan and Rojas, Diego and Feng, Guanyu and Zhao, Hanlin and others",
+      "title": "Chatglm: A family of large language models from glm-130b to glm-4 all tools",
+      "ENTRYTYPE": "article",
+      "ID": "llm-glm"
+    },
+    {
+      "year": "2022",
+      "pages": "3",
+      "number": "2",
+      "volume": "1",
+      "journal": "ICLR",
+      "author": "Hu, Edward J and Shen, Yelong and Wallis, Phillip and Allen-Zhu, Zeyuan and Li, Yuanzhi and Wang, Shean and Wang, Lu and Chen, Weizhu and others",
+      "title": "Lora: Low-rank adaptation of large language models.",
+      "ENTRYTYPE": "article",
+      "ID": "lora"
+    },
+    {
+      "year": "2019",
+      "journal": "arXiv preprint arXiv:1908.10084",
+      "author": "Reimers, Nils and Gurevych, Iryna",
+      "title": "Sentence-bert: Sentence embeddings using siamese bert-networks",
+      "ENTRYTYPE": "article",
+      "ID": "sentencebert"
+    },
+    {
+      "organization": "Minneapolis, Minnesota",
+      "year": "2019",
+      "pages": "2",
+      "volume": "1",
+      "booktitle": "Proceedings of naacL-HLT",
+      "author": "Kenton, Jacob Devlin Ming-Wei Chang and Toutanova, Lee Kristina",
+      "title": "Bert: Pre-training of deep bidirectional transformers for language understanding",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "llm-bert"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2205.01068",
+      "author": "Zhang, Susan and Roller, Stephen and Goyal, Naman and Artetxe, Mikel and Chen, Moya and Chen, Shuohui and Dewan, Christopher and Diab, Mona and Li, Xian and Lin, Xi Victoria and others",
+      "title": "Opt: Open pre-trained transformer language models",
+      "ENTRYTYPE": "article",
+      "ID": "llm-opt"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2310.06825",
+      "author": "Jiang, Albert Q and Sablayrolles, Alexandre and Mensch, Arthur and Bamford, Chris and Chaplot, Devendra Singh and Casas, Diego de las and Bressand, Florian and Lengyel, Gianna and Lample, Guillaume and Saulnier, Lucile and others",
+      "title": "Mistral 7B",
+      "ENTRYTYPE": "article",
+      "ID": "llm-mistral"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2407.10671",
+      "author": "Yang, An and Yang, Baosong and Hui, Binyuan and Zheng, Bo and Yu, Bowen and Zhou, Chang and Li, Chengpeng and Li, Chengyuan and Liu, Dayiheng and Huang, Fei and others",
+      "title": "Qwen2 technical report",
+      "ENTRYTYPE": "article",
+      "ID": "llm-qwen"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2302.13971",
+      "author": "Touvron, Hugo and Lavril, Thibaut and Izacard, Gautier and Martinet, Xavier and Lachaux, Marie-Anne and Lacroix, Timoth{\\'e}e and Rozi{\\`e}re, Baptiste and Goyal, Naman and Hambro, Eric and Azhar, Faisal and others",
+      "title": "Llama: Open and efficient foundation language models",
+      "ENTRYTYPE": "article",
+      "ID": "llm-llama-1"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2307.09288",
+      "author": "Touvron, Hugo and Martin, Louis and Stone, Kevin and Albert, Peter and Almahairi, Amjad and Babaei, Yasmine and Bashlykov, Nikolay and Batra, Soumya and Bhargava, Prajjwal and Bhosale, Shruti and others",
+      "title": "Llama 2: Open foundation and fine-tuned chat models",
+      "ENTRYTYPE": "article",
+      "ID": "llm-llama-2"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2407.21783",
+      "author": "Dubey, Abhimanyu and Jauhri, Abhinav and Pandey, Abhinav and Kadian, Abhishek and Al-Dahle, Ahmad and Letman, Aiesha and Mathur, Akhil and Schelten, Alan and Yang, Amy and Fan, Angela and others",
+      "title": "The llama 3 herd of models",
+      "ENTRYTYPE": "article",
+      "ID": "llm-llama-3"
+    },
+    {
+      "url": "https://openai.com/gpt",
+      "note": "Large language model",
+      "year": "2023",
+      "author": "OpenAI",
+      "title": "GPT-3.5",
+      "ENTRYTYPE": "misc",
+      "ID": "llm-gpt35"
+    },
+    {
+      "publisher": "Acm New York, NY, USA",
+      "year": "2015",
+      "pages": "1--19",
+      "number": "4",
+      "volume": "5",
+      "journal": "Acm transactions on interactive intelligent systems (tiis)",
+      "author": "Harper, F Maxwell and Konstan, Joseph A",
+      "title": "The movielens datasets: History and context",
+      "ENTRYTYPE": "article",
+      "ID": "ds-movielens"
+    },
+    {
+      "publisher": "ACM New York, NY, USA",
+      "year": "2020",
+      "pages": "54--63",
+      "number": "12",
+      "volume": "63",
+      "journal": "Communications of the ACM",
+      "author": "Schwartz, Roy and Dodge, Jesse and Smith, Noah A and Etzioni, Oren",
+      "title": "Green ai",
+      "ENTRYTYPE": "article",
+      "ID": "greenai"
+    },
+    {
+      "bibsource": "dblp computer science bibliography, https://dblp.org",
+      "biburl": "https://dblp.org/rec/conf/acl/NgoN24.bib",
+      "timestamp": "Fri, 11 Oct 2024 22:05:01 +0200",
+      "url": "https://aclanthology.org/2024.acl-short.29",
+      "year": "2024",
+      "publisher": "Association for Computational Linguistics",
+      "pages": "302--313",
+      "booktitle": "Proceedings of the 62nd Annual Meeting of the Association for Computational\nLinguistics, {ACL} 2024 - Short Papers, Bangkok, Thailand, August\n11-16, 2024",
+      "title": "RecGPT: Generative Pre-training for Text-based Recommendation",
+      "editor": "Lun{-}Wei Ku and\nAndre Martins and\nVivek Srikumar",
+      "author": "Hoang Ngo and\nDat Quoc Nguyen",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "llm-recgpt"
+    },
+    {
+      "year": "2021",
+      "pages": "1785--1797",
+      "booktitle": "Proceedings of the web conference 2021",
+      "author": "Wang, Ruoxi and Shivanna, Rakesh and Cheng, Derek and Jain, Sagar and Lin, Dong and Hong, Lichan and Chi, Ed",
+      "title": "Dcn v2: Improved deep \\& cross network and practical lessons for web-scale learning to rank systems",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "dcnv2"
+    },
+    {
+      "year": "2023",
+      "pages": "4552--4560",
+      "number": "4",
+      "volume": "37",
+      "booktitle": "Proceedings of the AAAI Conference on Artificial Intelligence",
+      "author": "Mao, Kelong and Zhu, Jieming and Su, Liangcai and Cai, Guohao and Li, Yuru and Dong, Zhenhua",
+      "title": "FinalMLP: an enhanced two-stream MLP model for CTR prediction",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "finalmlp"
+    },
+    {
+      "year": "2018",
+      "pages": "1059--1068",
+      "booktitle": "Proceedings of the 24th ACM SIGKDD international conference on knowledge discovery \\& data mining",
+      "author": "Zhou, Guorui and Zhu, Xiaoqiang and Song, Chenru and Fan, Ying and Zhu, Han and Ma, Xiao and Yan, Yanghui and Jin, Junqi and Li, Han and Gai, Kun",
+      "title": "Deep interest network for click-through rate prediction",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "din"
+    },
+    {
+      "year": "2019",
+      "pages": "1161--1170",
+      "booktitle": "Proceedings of the 28th ACM international conference on information and knowledge management",
+      "author": "Song, Weiping and Shi, Chence and Xiao, Zhiping and Duan, Zhijian and Xu, Yewen and Zhang, Ming and Tang, Jian",
+      "title": "Autoint: Automatic feature interaction learning via self-attentive neural networks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "autoint"
+    },
+    {
+      "year": "2021",
+      "journal": "arXiv preprint arXiv:2102.07619",
+      "author": "Wang, Zhiqiang and She, Qingyun and Zhang, Junlin",
+      "title": "Masknet: Introducing feature-wise multiplication to CTR ranking models by instance-guided mask",
+      "ENTRYTYPE": "article",
+      "ID": "masknet"
+    },
+    {
+      "organization": "IEEE",
+      "year": "2016",
+      "pages": "1149--1154",
+      "booktitle": "2016 IEEE 16th international conference on data mining (ICDM)",
+      "author": "Qu, Yanru and Cai, Han and Ren, Kan and Zhang, Weinan and Yu, Yong and Wen, Ying and Wang, Jun",
+      "title": "Product-based neural networks for user response prediction",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "pnn"
+    },
+    {
+      "year": "2023",
+      "pages": "2523--2533",
+      "booktitle": "Proceedings of the 32nd ACM international conference on information and knowledge management",
+      "author": "Wang, Fangye and Gu, Hansu and Li, Dongsheng and Lu, Tun and Zhang, Peng and Gu, Ning",
+      "title": "Towards deeper, lighter and interpretable cross network for CTR prediction",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "gdcn"
+    },
+    {
+      "year": "2022",
+      "pages": "2823--2833",
+      "booktitle": "Proceedings of the 29th International Conference on Computational Linguistics",
+      "author": "Liu, Qijiong and Zhu, Jieming and Dai, Quanyu and Wu, Xiao-Ming",
+      "title": "Boosting deep CTR prediction with a plug-and-play pre-trainer for news recommendation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "prec"
+    },
+    {
+      "year": "2023",
+      "pages": "3309--3318",
+      "booktitle": "Proceedings of the ACM Web Conference 2023",
+      "author": "Liu, Qijiong and Zhu, Jieming and Wu, Jiahao and Wu, Tiandeng and Dong, Zhenhua and Wu, Xiao-Ming",
+      "title": "FANS: Fast Non-Autoregressive Sequence Generation for Item List Continuation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "fans"
+    },
+    {
+      "year": "2024",
+      "pages": "3521--3532",
+      "booktitle": "Proceedings of the ACM on Web Conference 2024",
+      "author": "Liu, Qijiong and Xiao, Jiaren and Fan, Lu and Zhu, Jieming and Wu, Xiao-Ming",
+      "title": "Learning Category Trees for ID-Based Recommendation: Exploring the Power of Differentiable Vector Quantization",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "cage"
+    },
+    {
+      "year": "2024",
+      "pages": "687--697",
+      "booktitle": "Proceedings of the 47th International ACM SIGIR Conference on Research and Development in Information Retrieval",
+      "author": "Fu, Junchen and Ge, Xuri and Xin, Xin and Karatzoglou, Alexandros and Arapakis, Ioannis and Wang, Jie and Jose, Joemon M",
+      "title": "IISAN: Efficiently adapting multimodal representation for sequential recommendation with decoupled PEFT",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "iisan"
+    },
+    {
+      "year": "2024",
+      "pages": "1010--1015",
+      "booktitle": "Proceedings of the 18th ACM Conference on Recommender Systems",
+      "author": "Zhang, Chiyu and Sun, Yifei and Wu, Minghao and Chen, Jun and Lei, Jie and Abdul-Mageed, Muhammad and Jin, Rong and Liu, Angli and Zhu, Ji and Park, Sem and others",
+      "title": "EmbSum: Leveraging the Summarization Capabilities of Large Language Models for Content-Based Recommendations",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "embsum"
+    },
+    {
+      "publisher": "ACM New York, NY, USA",
+      "year": "2002",
+      "pages": "422--446",
+      "number": "4",
+      "volume": "20",
+      "journal": "ACM Transactions on Information Systems (TOIS)",
+      "author": "J{\\\"a}rvelin, Kalervo and Kek{\\\"a}l{\\\"a}inen, Jaana",
+      "title": "Cumulated gain-based evaluation of IR techniques",
+      "ENTRYTYPE": "article",
+      "ID": "ndcg"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2405.03110",
+      "author": "Liu, Qijiong and Dong, Xiaoyu and Xiao, Jiaren and Chen, Nuo and Hu, Hengchang and Zhu, Jieming and Zhu, Chenxu and Sakai, Tetsuya and Wu, Xiao-Ming",
+      "title": "Vector quantization for recommender systems: a review and outlook",
+      "ENTRYTYPE": "article",
+      "ID": "vq4rec"
+    },
+    {
+      "year": "2015",
+      "journal": "arXiv preprint arXiv:1511.06939",
+      "author": "Hidasi, B",
+      "title": "Session-based Recommendations with Recurrent Neural Networks",
+      "ENTRYTYPE": "article",
+      "ID": "gru4rec"
+    },
+    {
+      "year": "2018",
+      "pages": "565--573",
+      "booktitle": "Proceedings of the eleventh ACM international conference on web search and data mining",
+      "author": "Tang, Jiaxi and Wang, Ke",
+      "title": "Personalized top-n sequential recommendation via convolutional sequence embedding",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "caser"
+    }
+  ]
+}

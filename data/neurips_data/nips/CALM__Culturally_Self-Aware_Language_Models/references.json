@@ -1,0 +1,1314 @@
+{
+  "pdf_url": "https://arxiv.org/pdf/2601.03483v1.pdf",
+  "references": [
+    {
+      "year": "1973",
+      "volume": "470",
+      "journal": "NY: Basic Books",
+      "author": "Cl, Geertz",
+      "title": "The Interpretation of Cultures/Clifford Geertz",
+      "ENTRYTYPE": "article",
+      "ID": "cl1973interpretation"
+    },
+    {
+      "publisher": "Macat Library",
+      "year": "2017",
+      "author": "Dadze-Arthur, Abena",
+      "title": "An analysis of Clifford Geertz's the interpretation of cultures: Selected essays",
+      "ENTRYTYPE": "book",
+      "ID": "dadze2017analysis"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2411.00860",
+      "author": "Pawar, Siddhesh and Park, Junyeong and Jin, Jiho and Arora, Arnav and Myung, Junho and Yadav, Srishti and Haznitrama, Faiz Ghifari and Song, Inhwa and Oh, Alice and Augenstein, Isabelle",
+      "title": "Survey of cultural awareness in language models: Text and beyond",
+      "ENTRYTYPE": "article",
+      "ID": "pawar2024survey"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2021",
+      "pages": "6565--6576",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Liang, Paul Pu and Wu, Chiyu and Morency, Louis-Philippe and Salakhutdinov, Ruslan",
+      "title": "Towards understanding and mitigating social biases in language models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "liang2021towards"
+    },
+    {
+      "publisher": "Springer",
+      "year": "2023",
+      "pages": "27",
+      "number": "2",
+      "volume": "36",
+      "journal": "Philosophy \\& Technology",
+      "author": "Kasirzadeh, Atoosa and Gabriel, Iason",
+      "title": "In conversation with artificial intelligence: Aligning language models with human values",
+      "ENTRYTYPE": "article",
+      "ID": "kasirzadeh2023conversation"
+    },
+    {
+      "publisher": "Emerald Publishing Limited",
+      "year": "2024",
+      "pages": "373--409",
+      "number": "2",
+      "volume": "58",
+      "journal": "European Journal of Marketing",
+      "author": "Alabed, Amani and Javornik, Ana and Gregory-Smith, Diana and Casey, Rebecca",
+      "title": "More than just a chat: A taxonomy of consumers’ relationships with conversational {AI} agents and their well-being implications",
+      "ENTRYTYPE": "article",
+      "ID": "alabed2024more"
+    },
+    {
+      "publisher": "Sage Publications",
+      "year": "2001",
+      "author": "Hofstede, Geert",
+      "title": "Culture's consequences: Comparing values, behaviors, institutions and organizations across nations",
+      "ENTRYTYPE": "book",
+      "ID": "hofstede2001culture"
+    },
+    {
+      "publisher": "Anchor",
+      "year": "1976",
+      "author": "Hall, Edward T",
+      "title": "Beyond culture",
+      "ENTRYTYPE": "book",
+      "ID": "hall1976beyond"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "1992",
+      "pages": "1--65",
+      "volume": "25",
+      "booktitle": "Advances in Experimental Social Psychology",
+      "author": "Schwartz, Shalom H",
+      "title": "Universals in the content and structure of values: Theoretical advances and empirical tests in 20 countries",
+      "ENTRYTYPE": "incollection",
+      "ID": "schwartz1992universals"
+    },
+    {
+      "publisher": "Cambridge University Press",
+      "year": "1987",
+      "volume": "4",
+      "author": "Brown, Penelope and Levinson, Stephen C",
+      "title": "Politeness: Some universals in language usage",
+      "ENTRYTYPE": "book",
+      "ID": "brown1987politeness"
+    },
+    {
+      "year": "2012",
+      "pages": "11",
+      "number": "1",
+      "volume": "2",
+      "journal": "Online Readings in Psychology and Culture",
+      "author": "Schwartz, Shalom H",
+      "title": "An overview of the {S}chwartz theory of basic values",
+      "ENTRYTYPE": "article",
+      "ID": "schwartz2012overview"
+    },
+    {
+      "publisher": "Swansea University (United Kingdom)",
+      "year": "2007",
+      "author": "Oshlyansky, Lidia",
+      "title": "Cultural models in {HCI}: Hofstede, affordance and technology acceptance",
+      "ENTRYTYPE": "book",
+      "ID": "oshlyansky2007cultural"
+    },
+    {
+      "publisher": "Taylor \\& Francis",
+      "year": "2013",
+      "pages": "205--219",
+      "number": "4",
+      "volume": "29",
+      "journal": "International Journal of Human-Computer Interaction",
+      "author": "Heimg{\\\"a}rtner, R{\\\"u}diger",
+      "title": "Reflections on a model of culturally influenced human--computer interaction to cover cultural contexts in {HCI} design",
+      "ENTRYTYPE": "article",
+      "ID": "heimgartner2013reflections"
+    },
+    {
+      "publisher": "Scientific Research Publishing",
+      "year": "2024",
+      "pages": "352--368",
+      "number": "9",
+      "volume": "12",
+      "journal": "Open Journal of Social Sciences",
+      "author": "Lin, Hanzheng and Lou, Lingling",
+      "title": "A study on cross-cultural business communication based on Hofstede’s cultural dimensions theory",
+      "ENTRYTYPE": "article",
+      "ID": "lin2024study"
+    },
+    {
+      "year": "2024",
+      "pages": "7",
+      "number": "1",
+      "volume": "2",
+      "journal": "Research and Reflection on Learning and Teaching in Higher Education",
+      "author": "Azzazi, Maha",
+      "title": "Avoiding stereotypes: Utilizing a flipped framework of {H}ofstede’s cultural dimensions for teacher-student intercultural awareness",
+      "ENTRYTYPE": "article",
+      "ID": "azzazi2024avoiding"
+    },
+    {
+      "year": "2024",
+      "pages": "1--13",
+      "booktitle": "Extended Abstracts of the CHI Conference on Human Factors in Computing Systems",
+      "author": "Ahmed, Nimra and Liu, Xindi and Al-Hazwani, Ibrahim and Huang, Elaine M",
+      "title": "Cultural dimensions and mental health technology: A systematic review of Hofstede's dimensions in shaping mental health experiences",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ahmed2024cultural"
+    },
+    {
+      "publisher": "Taylor \\& Francis",
+      "year": "2025",
+      "pages": "1917--1945",
+      "number": "4",
+      "volume": "41",
+      "journal": "International Journal of Human--Computer Interaction",
+      "author": "Chan, Gerry and Banire, Bilikis and Ataguba, Grace and Frempong, George and Orji, Rita",
+      "title": "A panoramic view of socio-cultural sensitivity in digital technologies: A comprehensive review and future directions",
+      "ENTRYTYPE": "article",
+      "ID": "chan2025panoramic"
+    },
+    {
+      "publisher": "Cambridge",
+      "year": "1991",
+      "pages": "1--68",
+      "volume": "1",
+      "journal": "Contexts of Accommodation: Developments in Applied Sociolinguistics",
+      "author": "Giles, Howard and Coupland, Nikolas and Coupland, Justine",
+      "title": "Accommodation theory: Communication, context, and consequence",
+      "ENTRYTYPE": "article",
+      "ID": "giles1991accommodation"
+    },
+    {
+      "publisher": "American Psychological Association",
+      "year": "2009",
+      "pages": "401",
+      "number": "2",
+      "volume": "45",
+      "journal": "Developmental Psychology",
+      "author": "Greenfield, Patricia M",
+      "title": "Linking social change and developmental change: shifting pathways of human development.",
+      "ENTRYTYPE": "article",
+      "ID": "greenfield2009linking"
+    },
+    {
+      "publisher": "World Values Survey Association",
+      "year": "2022",
+      "journal": "(No Title)",
+      "author": "Haerpfer, Christian and Inglehart, Ronald and Moreno, Alejandro and Welzel, Christian and Kizilova, Kseniya and Diez-Medrano, Jaime and Lagos, Marta and Norris, Pippa and Ponarin, Eduard and Puranen, Bi",
+      "title": "World values survey wave 7 (2017-2022) cross-national data-set",
+      "ENTRYTYPE": "article",
+      "ID": "haerpfer2022world"
+    },
+    {
+      "publisher": "Springer Nature",
+      "year": "2020",
+      "author": "Guo, Rongxing",
+      "title": "China ethnic statistical yearbook 2020",
+      "ENTRYTYPE": "book",
+      "ID": "guo2020china"
+    },
+    {
+      "publisher": "Cambridge University Press",
+      "year": "2016",
+      "pages": "e1",
+      "volume": "39",
+      "journal": "Behavioral and Brain Sciences",
+      "author": "Norenzayan, Ara and Shariff, Azim F and Gervais, Will M and Willard, Aiyana K and McNamara, Rita A and Slingerland, Edward and Henrich, Joseph",
+      "title": "The cultural evolution of prosocial religions",
+      "ENTRYTYPE": "article",
+      "ID": "norenzayan2016cultural"
+    },
+    {
+      "year": "2012",
+      "number": "1",
+      "volume": "3",
+      "journal": "Cliodynamics",
+      "author": "Richerson, Peter and Henrich, Joe",
+      "title": "Tribal social instincts and the cultural evolution of institutions to solve collective action problems",
+      "ENTRYTYPE": "article",
+      "ID": "richerson2012tribal"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2303.08774",
+      "author": "Achiam, Josh and Adler, Steven and Agarwal, Sandhini and Ahmad, Lama and Akkaya, Ilge and Aleman, Florencia Leoni and Almeida, Diogo and Altenschmidt, Janko and Altman, Sam and Anadkat, Shyamal and others",
+      "title": "{GPT}-4 technical report",
+      "ENTRYTYPE": "article",
+      "ID": "achiam2023gpt"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2407.10671",
+      "author": "Yang, An and Yang, Baosong and Hui, Binyuan and Zheng, Bo and Yu, Bowen and Zhou, Chang and Li, Chengpeng and Li, Chengyuan and Liu, Dayiheng and Huang, Fei and others",
+      "title": "Qwen2 technical report",
+      "ENTRYTYPE": "article",
+      "ID": "yang2024qwen2"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2407.21783",
+      "author": "Grattafiori, Aaron and Dubey, Abhimanyu and Jauhri, Abhinav and Pandey, Abhinav and Kadian, Abhishek and Al-Dahle, Ahmad and Letman, Aiesha and Mathur, Akhil and Schelten, Alan and Vaughan, Alex and others",
+      "title": "The {L}lama 3 herd of models",
+      "ENTRYTYPE": "article",
+      "ID": "grattafiori2024llama"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2408.00118",
+      "author": "Team, Gemma and Riviere, Morgane and Pathak, Shreya and Sessa, Pier Giuseppe and Hardin, Cassidy and Bhupatiraju, Surya and Hussenot, L{\\'e}onard and Mesnard, Thomas and Shahriari, Bobak and Ram{\\'e}, Alexandre and others",
+      "title": "Gemma 2: Improving open language models at a practical size",
+      "ENTRYTYPE": "article",
+      "ID": "team2024gemma"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2412.15115",
+      "author": "Yang, An and Yang, Baosong and Zhang, Beichen and Hui, Binyuan and Zheng, Bo and Yu, Bowen and Li, Chengyuan and Liu, Dayiheng and Huang, Fei and Wei, Haoran and others",
+      "title": "Qwen2.5 technical report",
+      "ENTRYTYPE": "article",
+      "ID": "yang2024qwen25"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2503.19786",
+      "author": "Team, Gemma and Kamath, Aishwarya and Ferret, Johan and Pathak, Shreya and Vieillard, Nino and Merhej, Ramona and Perrin, Sarah and Matejovicova, Tatiana and Ram{\\'e}, Alexandre and Rivi{\\`e}re, Morgane and others",
+      "title": "Gemma 3 technical report",
+      "ENTRYTYPE": "article",
+      "ID": "team2025gemma"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2412.19437",
+      "author": "Liu, Aixin and Feng, Bei and Xue, Bing and Wang, Bingxuan and Wu, Bochao and Lu, Chengda and Zhao, Chenggang and Deng, Chengqi and Zhang, Chenyu and Ruan, Chong and others",
+      "title": "Deepseek-v3 technical report",
+      "ENTRYTYPE": "article",
+      "ID": "liu2024deepseek"
+    },
+    {
+      "year": "2024",
+      "pages": "1774--1784",
+      "booktitle": "Proceedings of the 33rd ACM International Conference on Information and Knowledge Management",
+      "author": "Nguyen, Tuan-Phong and Razniewski, Simon and Weikum, Gerhard",
+      "title": "Cultural commonsense knowledge for intercultural dialogues",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "nguyen2024cultural"
+    },
+    {
+      "publisher": "Springer",
+      "year": "2025",
+      "pages": "1--41",
+      "journal": "Education and Information Technologies",
+      "author": "Voultsiou, Evdokia and Moussiades, Lefteris",
+      "title": "A systematic review of {AI}, {VR}, and {LLM} applications in special education: Opportunities, challenges, and future directions",
+      "ENTRYTYPE": "article",
+      "ID": "voultsiou2025systematic"
+    },
+    {
+      "publisher": "ACM New York, NY",
+      "year": "2024",
+      "journal": "ACM Transactions on the Web",
+      "author": "Franco, Mirko and Gaggi, Ombretta and Palazzi, Claudio E",
+      "title": "Integrating content moderation systems with large language models",
+      "ENTRYTYPE": "article",
+      "ID": "franco2024integrating"
+    },
+    {
+      "year": "2024",
+      "pages": "4996--5025",
+      "booktitle": "Findings of the Association for Computational Linguistics: EMNLP 2024",
+      "author": "Shi, Weiyan and Li, Ryan and Zhang, Yutong and Ziems, Caleb and Yu, Sunny and Horesh, Raya and Paula, Rog{\\'e}rio and Yang, Diyi",
+      "title": "Culture{B}ank: An online community-driven knowledge base towards culturally aware language technologies",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "shi2024culturebank"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2405.15145",
+      "author": "Li, Cheng and Teney, Damien and Yang, Linyi and Wen, Qingsong and Xie, Xing and Wang, Jindong",
+      "title": "Culture{P}ark: Boosting cross-cultural understanding in large language models",
+      "ENTRYTYPE": "article",
+      "ID": "li2024culturepark"
+    },
+    {
+      "year": "2024",
+      "pages": "84799--84838",
+      "volume": "37",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Li, Cheng and Chen, Mengzhuo and Wang, Jindong and Sitaram, Sunayana and Xie, Xing",
+      "title": "Culturellm: Incorporating cultural differences into large language models",
+      "ENTRYTYPE": "article",
+      "ID": "li2024culturellm"
+    },
+    {
+      "publisher": "MDPI",
+      "year": "2024",
+      "pages": "119",
+      "number": "7",
+      "volume": "14",
+      "journal": "Societies",
+      "author": "Homocianu, Daniel",
+      "title": "Life satisfaction: insights from the world values survey",
+      "ENTRYTYPE": "article",
+      "ID": "homocianu2024life"
+    },
+    {
+      "publisher": "Wiley Online Library",
+      "year": "2022",
+      "pages": "412--437",
+      "number": "3",
+      "volume": "52",
+      "journal": "Journal for the Theory of Social Behaviour",
+      "author": "Lizardo, Omar",
+      "title": "What is implicit culture?",
+      "ENTRYTYPE": "article",
+      "ID": "lizardo2022implicit"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2409.16430",
+      "author": "Ranjan, Rajesh and Gupta, Shailja and Singh, Surya Narayan",
+      "title": "A comprehensive survey of bias in {LLMs}: Current landscape and future directions",
+      "ENTRYTYPE": "article",
+      "ID": "ranjan2024comprehensive"
+    },
+    {
+      "publisher": "MIT Press 255 Main Street, 9th Floor, Cambridge, Massachusetts 02142, USA~…",
+      "year": "2024",
+      "pages": "1097--1179",
+      "number": "3",
+      "volume": "50",
+      "journal": "Computational Linguistics",
+      "author": "Gallegos, Isabel O and Rossi, Ryan A and Barrow, Joe and Tanjim, Md Mehrab and Kim, Sungchul and Dernoncourt, Franck and Yu, Tong and Zhang, Ruiyi and Ahmed, Nesreen K",
+      "title": "Bias and fairness in large language models: A survey",
+      "ENTRYTYPE": "article",
+      "ID": "gallegos2024bias"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2406.03930",
+      "author": "Liu, Chen Cecilia and Gurevych, Iryna and Korhonen, Anna",
+      "title": "Culturally aware and adapted nlp: A taxonomy and a survey of the state of the art",
+      "ENTRYTYPE": "article",
+      "ID": "liu2024culturally"
+    },
+    {
+      "year": "2022",
+      "pages": "7103--7114",
+      "volume": "35",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Zhou, Yanqi and Lei, Tao and Liu, Hanxiao and Du, Nan and Huang, Yanping and Zhao, Vincent and Dai, Andrew M and Le, Quoc V and Laudon, James and others",
+      "title": "Mixture-of-experts with expert choice routing",
+      "ENTRYTYPE": "article",
+      "ID": "zhou2022mixture"
+    },
+    {
+      "year": "2025",
+      "pages": "4386--4395",
+      "booktitle": "Proceedings of the ACM on Web Conference 2025",
+      "author": "Dong, Qian and Ai, Qingyao and Wang, Hongning and Liu, Yiding and Li, Haitao and Su, Weihang and Liu, Yiqun and Chua, Tat-Seng and Ma, Shaoping",
+      "title": "Decoupling knowledge and context: An efficient and effective retrieval augmented generation framework via cross attention",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "dong2025decoupling"
+    },
+    {
+      "year": "2022",
+      "pages": "15476--15488",
+      "volume": "35",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Zelikman, Eric and Wu, Yuhuai and Mu, Jesse and Goodman, Noah",
+      "title": "Star: Bootstrapping reasoning with reasoning",
+      "ENTRYTYPE": "article",
+      "ID": "zelikman2022star"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2309.09400",
+      "author": "Nguyen, Thuat and Van Nguyen, Chien and Lai, Viet Dac and Man, Hieu and Ngo, Nghia Trung and Dernoncourt, Franck and Rossi, Ryan A and Nguyen, Thien Huu",
+      "title": "Culturax: A cleaned, enormous, and multilingual dataset for large language models in 167 languages",
+      "ENTRYTYPE": "article",
+      "ID": "nguyen2023culturax"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2404.01954",
+      "author": "Yoo, Kang Min and Han, Jaegeun and In, Sookyo and Jeon, Heewon and Jeong, Jisu and Kang, Jaewook and Kim, Hyunwook and Kim, Kyung-Min and Kim, Munhyong and Kim, Sungju and others",
+      "title": "Hyperclova x technical report",
+      "ENTRYTYPE": "article",
+      "ID": "yoo2024hyperclova"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2403.09362",
+      "author": "Owen, Louis and Tripathi, Vishesh and Kumar, Abhay and Ahmed, Biddwan",
+      "title": "Komodo: A linguistic expedition into {I}ndonesia's regional languages",
+      "ENTRYTYPE": "article",
+      "ID": "owen2024komodo"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2403.09887",
+      "author": "Almeida, Thales Sales and Abonizio, Hugo and Nogueira, Rodrigo and Pires, Ramon",
+      "title": "Sabi\\'a-2: A new generation of {P}ortuguese large language models",
+      "ENTRYTYPE": "article",
+      "ID": "almeida2024sabi"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2308.16149",
+      "author": "Sengupta, Neha and Sahu, Sunil Kumar and Jia, Bokang and Katipomu, Satheesh and Li, Haonan and Koto, Fajri and Marshall, William and Gosal, Gurpreet and Liu, Cynthia and Chen, Zhiming and others",
+      "title": "Jais and jais-chat: Arabic-centric foundation and instruction-tuned open generative large language models",
+      "ENTRYTYPE": "article",
+      "ID": "sengupta2023jais"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2404.04167",
+      "author": "Du, Xinrun and Yu, Zhouliang and Gao, Songyang and Pan, Ding and Cheng, Yuyang and Ma, Ziyang and Yuan, Ruibin and Qu, Xingwei and Liu, Jiaheng and Zheng, Tianyu and others",
+      "title": "Chinese tiny {LLM}: Pretraining a chinese-centric large language model",
+      "ENTRYTYPE": "article",
+      "ID": "du2024chinese"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2312.13951",
+      "author": "Pipatanakul, Kunat and Jirabovonvisut, Phatrasek and Manakul, Potsawee and Sripaisarnmongkol, Sittipong and Patomwong, Ruangsak and Chokchainant, Pathomporn and Tharnpipitchai, Kasima",
+      "title": "Typhoon: Thai large language models",
+      "ENTRYTYPE": "article",
+      "ID": "pipatanakul2023typhoon"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2404.09138",
+      "author": "Kiulian, Artur and Polishko, Anton and Khandoga, Mykola and Chubych, Oryna and Connor, Jack and Ravishankar, Raghav and Shirawalmath, Adarsh",
+      "title": "From bytes to borsch: Fine-tuning gemma and mistral for the {U}krainian language representation",
+      "ENTRYTYPE": "article",
+      "ID": "kiulian2024bytes"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2404.06138",
+      "author": "Cahyawijaya, Samuel and Lovenia, Holy and Koto, Fajri and Putri, Rifki Afina and Dave, Emmanuel and Lee, Jhonson and Shadieq, Nuur and Cenggoro, Wawan and Akbar, Salsabil Maulana and Mahendra, Muhammad Ihza and others",
+      "title": "Cendol: Open instruction-tuned generative large language models for {I}ndonesian languages",
+      "ENTRYTYPE": "article",
+      "ID": "cahyawijaya2024cendol"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2405.13010",
+      "author": "Tran, Khanh-Tung and O'Sullivan, Barry and Nguyen, Hoang D",
+      "title": "Uccix: Irish-excellence large language model",
+      "ENTRYTYPE": "article",
+      "ID": "tran2024uccix"
+    },
+    {
+      "organization": "IEEE",
+      "year": "2024",
+      "pages": "1--6",
+      "booktitle": "2024 27th Conference of the Oriental COCOSDA International Committee for the Co-ordination and Standardisation of Speech Databases and Assessment Techniques (O-COCOSDA)",
+      "author": "Chang, Chen-Chi and Chen, Ching-Yuan and Lee, Hung-Shin and Lee, Chih-Cheng",
+      "title": "Benchmarking cognitive domains for {LLMs}: Insights from {T}aiwanese {H}akka culture",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "chang2024benchmarking"
+    },
+    {
+      "year": "2024",
+      "pages": "7521--7530",
+      "booktitle": "Proceedings of the 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation (LREC-COLING 2024)",
+      "author": "Liang, Ke and Huang, Chu-Ren and Jiang, Xin-Lan",
+      "title": "From text to historical ecological knowledge: The construction and application of the {S}han {J}ing knowledge base",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "liang2024text"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2402.17302",
+      "author": "Putri, Rifki Afina and Haznitrama, Faiz Ghifari and Adhista, Dea and Oh, Alice",
+      "title": "Can {LLM} generate culturally relevant commonsense {QA} data? {C}ase study in {I}ndonesian and {S}undanese",
+      "ENTRYTYPE": "article",
+      "ID": "putri2024can"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2403.18058",
+      "author": "Bai, Yuelin and Du, Xinrun and Liang, Yiming and Jin, Yonggang and Zhou, Junting and Liu, Ziqiang and Fang, Feiteng and Chang, Mingshan and Zheng, Tianyu and Zhang, Xincheng and others",
+      "title": "Coig-cqia: Quality is all you need for chinese instruction fine-tuning",
+      "ENTRYTYPE": "article",
+      "ID": "bai2024coig"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2405.03138",
+      "author": "Wang, Bin and Lin, Geyu and Liu, Zhengyuan and Wei, Chengwei and Chen, Nancy F",
+      "title": "CRAFT: Extracting and tuning cultural instructions from the wild",
+      "ENTRYTYPE": "article",
+      "ID": "wang2024craft"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2406.18192",
+      "author": "Zhang, Wenjing and Xiao, Siqi and Lei, Xuejiao and Wang, Ning and Zhang, Huazheng and An, Meijuan and Yang, Bikun and Liu, Zhaoxiang and Wang, Kai and Lian, Shiguo",
+      "title": "Methodology of adapting large {E}nglish language models for specific cultural contexts",
+      "ENTRYTYPE": "article",
+      "ID": "zhang2024methodology"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2306.05076",
+      "author": "Keleg, Amr and Magdy, Walid",
+      "title": "{DLAMA}: A framework for curating culturally diverse facts for probing the knowledge of pretrained language models",
+      "ENTRYTYPE": "article",
+      "ID": "keleg2023dlama"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2405.04655",
+      "author": "Shen, Siqi and Logeswaran, Lajanugen and Lee, Moontae and Lee, Honglak and Poria, Soujanya and Mihalcea, Rada",
+      "title": "Understanding the capabilities and limitations of large language models for cultural commonsense",
+      "ENTRYTYPE": "article",
+      "ID": "shen2024understanding"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2404.10199",
+      "author": "Li, Huihan and Jiang, Liwei and Hwang, Jena D and Kim, Hyunwoo and Santy, Sebastin and Sorensen, Taylor and Lin, Bill Yuchen and Dziri, Nouha and Ren, Xiang and Choi, Yejin",
+      "title": "Culture-gen: Revealing global cultural perception in language models through natural language prompting",
+      "ENTRYTYPE": "article",
+      "ID": "li2024culture"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2305.14456",
+      "author": "Naous, Tarek and Ryan, Michael J and Ritter, Alan and Xu, Wei",
+      "title": "Having beer after prayer? {M}easuring cultural bias in large language models",
+      "ENTRYTYPE": "article",
+      "ID": "naous2023having"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2404.16308",
+      "author": "Zhao, Wenlong and Mondal, Debanjan and Tandon, Niket and Dillion, Danica and Gray, Kurt and Gu, Yuling",
+      "title": "Worldvaluesbench: A large-scale benchmark dataset for multi-cultural value awareness of language models",
+      "ENTRYTYPE": "article",
+      "ID": "zhao2024worldvaluesbench"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2309.12342",
+      "author": "Masoud, Reem I and Liu, Ziquan and Ferianc, Martin and Treleaven, Philip and Rodrigues, Miguel",
+      "title": "Cultural alignment in large language models: An explanatory analysis based on {H}ofstede's cultural dimensions",
+      "ENTRYTYPE": "article",
+      "ID": "masoud2023cultural"
+    },
+    {
+      "year": "2023",
+      "pages": "3206--3219",
+      "booktitle": "Proceedings of the 17th Conference of the European Chapter of the Association for Computational Linguistics",
+      "author": "Ladhak, Faisal and Durmus, Esin and Suzgun, Mirac and Zhang, Tianyi and Jurafsky, Dan and McKeown, Kathleen and Hashimoto, Tatsunori B",
+      "title": "When do pre-training biases propagate to downstream tasks? {A} case study in text summarization",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ladhak2023pre"
+    },
+    {
+      "year": "2024",
+      "author": "Zhao, Jiajing and Huang, Cheng and Li, Xian",
+      "title": "A comparative study of cultural hallucination in large language models on culturally specific ethical questions",
+      "ENTRYTYPE": "article",
+      "ID": "zhao2024comparative"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2404.06833",
+      "author": "Zhou, Li and Karidi, Taelin and Liu, Wanlong and Garneau, Nicolas and Cao, Yong and Chen, Wenyu and Li, Haizhou and Hershcovich, Daniel",
+      "title": "Does mapo tofu contain coffee? {P}robing {LLMs} for food-related cultural knowledge",
+      "ENTRYTYPE": "article",
+      "ID": "zhou2024does"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2402.13231",
+      "author": "AlKhamissi, Badr and ElNokrashy, Muhammad and AlKhamissi, Mai and Diab, Mona",
+      "title": "Investigating cultural alignment of large language models",
+      "ENTRYTYPE": "article",
+      "ID": "alkhamissi2024investigating"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2304.05335",
+      "author": "Deshpande, Ameet and Murahari, Vishvak and Rajpurohit, Tanmay and Kalyan, Ashwin and Narasimhan, Karthik",
+      "title": "Toxicity in {C}hat{GPT}: Analyzing persona-assigned language models",
+      "ENTRYTYPE": "article",
+      "ID": "deshpande2023toxicity"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2312.02401",
+      "author": "Chan, Alex J and Garc{\\'\\i}a, Jos{\\'e} Luis Redondo and Silvestri, Fabrizio and O'Donnel, Colm and Palla, Konstantina",
+      "title": "Harmonizing global voices: Culturally-aware models for enhanced content moderation",
+      "ENTRYTYPE": "article",
+      "ID": "chan2023harmonizing"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2404.18276",
+      "author": "Narayan, Malur and Pasmore, John and Sampaio, Elton and Raghavan, Vijay and Waters, Gabriella",
+      "title": "Bias neutralization framework: Measuring fairness in large language models with bias intelligence quotient (biq)",
+      "ENTRYTYPE": "article",
+      "ID": "narayan2024bias"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2407.09823",
+      "author": "Hasan, Md Arid and Hasanain, Maram and Ahmad, Fatema and Laskar, Sahinur Rahman and Upadhyay, Sunaya and Sukhadia, Vrunda N and Kutlu, Mucahid and Chowdhury, Shammur Absar and Alam, Firoj",
+      "title": "Nativqa: Multilingual culturally-aligned natural query for {LLMs}",
+      "ENTRYTYPE": "article",
+      "ID": "hasan2024nativqa"
+    },
+    {
+      "publisher": "Oxford University Press US",
+      "year": "2024",
+      "pages": "pgae346",
+      "number": "9",
+      "volume": "3",
+      "journal": "PNAS nexus",
+      "author": "Tao, Yan and Viberg, Olga and Baker, Ryan S and Kizilcec, Ren{\\'e} F",
+      "title": "Cultural bias and cultural alignment of large language models",
+      "ENTRYTYPE": "article",
+      "ID": "tao2024cultural"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2203.13722",
+      "author": "Arora, Arnav and Kaffee, Lucie-Aim{\\'e}e and Augenstein, Isabelle",
+      "title": "Probing pre-trained language models for cross-cultural differences in values",
+      "ENTRYTYPE": "article",
+      "ID": "arora2022probing"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2309.07034",
+      "author": "Beck, Tilman and Schuff, Hendrik and Lauscher, Anne and Gurevych, Iryna",
+      "title": "Sensitivity, performance, robustness: Deconstructing the effect of sociodemographic prompting",
+      "ENTRYTYPE": "article",
+      "ID": "beck2023sensitivity"
+    },
+    {
+      "year": "2013",
+      "author": "Scott, Sarah and Palincsar, Annemarie",
+      "title": "Sociocultural theory",
+      "ENTRYTYPE": "misc",
+      "ID": "scott2013sociocultural"
+    },
+    {
+      "publisher": "Uniwersytet {\\L}{\\'o}dzki. Wydawnictwo Uniwersytetu {\\L}{\\'o}dzkiego",
+      "year": "2019",
+      "pages": "197--211",
+      "number": "2",
+      "volume": "17",
+      "journal": "Research in Language",
+      "author": "Faber, Pamela and Cabezas-Garc{\\'\\i}a, Melania",
+      "title": "Specialized knowledge representation: From terms to frames",
+      "ENTRYTYPE": "article",
+      "ID": "faber2019specialized"
+    },
+    {
+      "publisher": "MDPI",
+      "year": "2022",
+      "pages": "28",
+      "number": "1",
+      "volume": "14",
+      "journal": "Information",
+      "author": "Maestre, Mar{\\'\\i}a Mir{\\'o} and Vicente, Marta and Lloret, Elena and Cueto, Armando Su{\\'a}rez",
+      "title": "Extracting narrative patterns in different textual genres: A multilevel feature discourse analysis",
+      "ENTRYTYPE": "article",
+      "ID": "maestre2022extracting"
+    },
+    {
+      "publisher": "American Psychological Association",
+      "year": "1979",
+      "pages": "906",
+      "number": "10",
+      "volume": "34",
+      "journal": "American Psychologist",
+      "author": "Flavell, John H",
+      "title": "Metacognition and cognitive monitoring: A new area of cognitive--developmental inquiry.",
+      "ENTRYTYPE": "article",
+      "ID": "flavell1979metacognition"
+    },
+    {
+      "organization": "PmLR",
+      "year": "2020",
+      "pages": "1597--1607",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Chen, Ting and Kornblith, Simon and Norouzi, Mohammad and Hinton, Geoffrey",
+      "title": "A simple framework for contrastive learning of visual representations",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "chen2020simple"
+    },
+    {
+      "year": "2016",
+      "journal": "arXiv preprint arXiv:1611.01144",
+      "author": "Jang, Eric and Gu, Shixiang and Poole, Ben",
+      "title": "Categorical reparameterization with gumbel-softmax",
+      "ENTRYTYPE": "article",
+      "ID": "jang2016categorical"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2407.06204",
+      "author": "Cai, Weilin and Jiang, Juyong and Wang, Fan and Tang, Jing and Kim, Sunghun and Huang, Jiayi",
+      "title": "A survey on mixture of experts",
+      "ENTRYTYPE": "article",
+      "ID": "cai2024survey"
+    },
+    {
+      "publisher": "Oxford University Press",
+      "year": "1998",
+      "author": "Wertsch, James V",
+      "title": "Mind as action",
+      "ENTRYTYPE": "book",
+      "ID": "wertsch1998mind"
+    },
+    {
+      "publisher": "Routledge",
+      "year": "2012",
+      "author": "Gee, James Paul",
+      "title": "Situated language and learning: A critique of traditional schooling",
+      "ENTRYTYPE": "book",
+      "ID": "gee2012situated"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "1990",
+      "pages": "125--173",
+      "volume": "26",
+      "booktitle": "Psychology of Learning and Motivation",
+      "author": "Nelson, Thomas O",
+      "title": "Metamemory: A theoretical framework and new findings",
+      "ENTRYTYPE": "incollection",
+      "ID": "nelson1990metamemory"
+    },
+    {
+      "publisher": "Routledge",
+      "year": "2013",
+      "author": "Hymes, Dell",
+      "title": "Foundations in sociolinguistics: An ethnographic approach",
+      "ENTRYTYPE": "book",
+      "ID": "hymes2013foundations"
+    },
+    {
+      "publisher": "Cambridge University Press",
+      "year": "1982",
+      "number": "1",
+      "author": "Gumperz, John J",
+      "title": "Discourse strategies",
+      "ENTRYTYPE": "book",
+      "ID": "gumperz1982discourse"
+    },
+    {
+      "publisher": "Brill",
+      "year": "2006",
+      "pages": "137--182",
+      "number": "2-3",
+      "volume": "5",
+      "journal": "Comparative Sociology",
+      "author": "Schwartz, Shalom",
+      "title": "A theory of cultural value orientations: Explication and applications",
+      "ENTRYTYPE": "article",
+      "ID": "schwartz2006theory"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "2006",
+      "pages": "3--14",
+      "number": "1",
+      "volume": "1",
+      "journal": "Educational Research Review",
+      "author": "Efklides, Anastasia",
+      "title": "Metacognition and affect: What can metacognitive experiences tell us about the learning process?",
+      "ENTRYTYPE": "article",
+      "ID": "efklides2006metacognition"
+    },
+    {
+      "publisher": "Routledge",
+      "year": "2021",
+      "author": "Holliday, Adrian",
+      "title": "Intercultural communication: An advanced resource book for students",
+      "ENTRYTYPE": "book",
+      "ID": "holliday2021intercultural"
+    },
+    {
+      "year": "2014",
+      "pages": "263--272",
+      "journal": "The Discourse Studies Reader. Amsterdam: John Benjamins",
+      "author": "Halliday, Michael Alexander Kirkwood",
+      "title": "Language as social semiotic",
+      "ENTRYTYPE": "article",
+      "ID": "halliday2014language"
+    },
+    {
+      "publisher": "Cambridge University Press",
+      "year": "1992",
+      "author": "Lucy, John A",
+      "title": "Language diversity and thought: A reformulation of the linguistic relativity hypothesis",
+      "ENTRYTYPE": "book",
+      "ID": "lucy1992language"
+    },
+    {
+      "year": "2020",
+      "pages": "1--67",
+      "number": "140",
+      "volume": "21",
+      "journal": "Journal of Machine Learning Research",
+      "author": "Raffel, Colin and Shazeer, Noam and Roberts, Adam and Lee, Katherine and Narang, Sharan and Matena, Michael and Zhou, Yanqi and Li, Wei and Liu, Peter J",
+      "title": "Exploring the limits of transfer learning with a unified text-to-text transformer",
+      "ENTRYTYPE": "article",
+      "ID": "raffel2020exploring"
+    },
+    {
+      "year": "2017",
+      "journal": "arXiv preprint arXiv:1701.06538",
+      "author": "Shazeer, Noam and Mirhoseini, Azalia and Maziarz, Krzysztof and Davis, Andy and Le, Quoc and Hinton, Geoffrey and Dean, Jeff",
+      "title": "Outrageously large neural networks: The sparsely-gated mixture-of-experts layer",
+      "ENTRYTYPE": "article",
+      "ID": "shazeer2017outrageously"
+    },
+    {
+      "year": "2025",
+      "month": "April",
+      "author": "Qwen Team",
+      "url": "https://qwenlm.github.io/blog/qwen3/",
+      "title": "Qwen3",
+      "ENTRYTYPE": "misc",
+      "ID": "qwen3"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2403.15412",
+      "author": "Adilazuarda, Muhammad Farid and Mukherjee, Sagnik and Lavania, Pradhyumna and Singh, Siddhant and Aji, Alham Fikri and O'Neill, Jacki and Modi, Ashutosh and Choudhury, Monojit",
+      "title": "Towards measuring and modeling \"culture\" in {LLMs}: A survey",
+      "ENTRYTYPE": "article",
+      "ID": "adilazuarda2024towards"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2308.16705",
+      "author": "Lee, Nayeon and Jung, Chani and Myung, Junho and Jin, Jiho and Camacho-Collados, Jose and Kim, Juho and Oh, Alice",
+      "title": "Exploring cross-cultural differences in English hate speech annotations: From dataset construction to analysis",
+      "ENTRYTYPE": "article",
+      "ID": "lee2023exploring"
+    },
+    {
+      "year": "2024",
+      "pages": "1--53",
+      "number": "70",
+      "volume": "25",
+      "journal": "Journal of Machine Learning Research",
+      "author": "Chung, Hyung Won and Hou, Le and Longpre, Shayne and Zoph, Barret and Tay, Yi and Fedus, William and Li, Yunxuan and Wang, Xuezhi and Dehghani, Mostafa and Brahma, Siddhartha and others",
+      "title": "Scaling instruction-finetuned language models",
+      "ENTRYTYPE": "article",
+      "ID": "chung2024scaling"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2311.11045",
+      "author": "Mitra, Arindam and Del Corro, Luciano and Mahajan, Shweti and Codas, Andres and Simoes, Clarisse and Agarwal, Sahaj and Chen, Xuxi and Razdaibiedina, Anastasia and Jones, Erik and Aggarwal, Kriti and others",
+      "title": "Orca 2: Teaching small language models how to reason",
+      "ENTRYTYPE": "article",
+      "ID": "mitra2023orca"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2212.12017",
+      "author": "Iyer, Srinivasan and Lin, Xi Victoria and Pasunuru, Ramakanth and Mihaylov, Todor and Simig, Daniel and Yu, Ping and Shuster, Kurt and Wang, Tianlu and Liu, Qing and Koura, Punit Singh and others",
+      "title": "{OPT-IML}: Scaling language model instruction meta learning through the lens of generalization",
+      "ENTRYTYPE": "article",
+      "ID": "iyer2022opt"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2409.11579",
+      "author": "King, Theo and Wu, Zekun and Koshiyama, Adriano and Kazim, Emre and Treleaven, Philip",
+      "title": "{HEARTS}: A holistic framework for explainable, sustainable and robust text stereotype detection",
+      "ENTRYTYPE": "article",
+      "ID": "king2024hearts"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2311.14126",
+      "author": "Zekun, Wu and Bulathwela, Sahan and Koshiyama, Adriano Soares",
+      "title": "Towards auditing large language models: Improving text-based stereotype detection",
+      "ENTRYTYPE": "article",
+      "ID": "zekun2023towards"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2306.15087",
+      "author": "Felkner, Virginia K and Chang, Ho-Chun Herbert and Jang, Eugene and May, Jonathan",
+      "title": "Wino{Q}ueer: A community-in-the-loop benchmark for anti-{LGBTQ}+ bias in large language models",
+      "ENTRYTYPE": "article",
+      "ID": "felkner2023winoqueer"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2305.11840",
+      "author": "Jha, Akshita and Davani, Aida and Reddy, Chandan K and Dave, Shachi and Prabhakaran, Vinodkumar and Dev, Sunipa",
+      "title": "{SeeGULL}: A stereotype benchmark with broad geo-cultural coverage leveraging generative models",
+      "ENTRYTYPE": "article",
+      "ID": "jha2023seegull"
+    },
+    {
+      "publisher": "Sage Publications",
+      "year": "2004",
+      "author": "House, Robert J and Hanges, Paul J and Javidan, Mansour and Dorfman, Peter W and Gupta, Vipin",
+      "title": "Culture, leadership, and organizations: The {GLOBE} study of 62 societies",
+      "ENTRYTYPE": "book",
+      "ID": "house2004culture"
+    },
+    {
+      "publisher": "Free Press",
+      "year": "1973",
+      "author": "Rokeach, Milton",
+      "title": "The nature of human values.",
+      "ENTRYTYPE": "book",
+      "ID": "rokeach1973nature"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2402.09369",
+      "author": "Fung, Yi and Zhao, Ruining and Doo, Jae and Sun, Chenkai and Ji, Heng",
+      "title": "Massively multi-cultural knowledge acquisition \\& {LM} benchmarking",
+      "ENTRYTYPE": "article",
+      "ID": "fung2024massively"
+    },
+    {
+      "year": "2023",
+      "pages": "6",
+      "number": "3",
+      "volume": "2",
+      "journal": "See https://vicuna. lmsys. org (accessed 14 April 2023)",
+      "author": "Chiang, Wei-Lin and Li, Zhuohan and Lin, Ziqing and Sheng, Ying and Wu, Zhanghao and Zhang, Hao and Zheng, Lianmin and Zhuang, Siyuan and Zhuang, Yonghao and Gonzalez, Joseph E and others",
+      "title": "Vicuna: An open-source chatbot impressing {GPT}-4 with 90\\%* {C}hat{GPT} quality",
+      "ENTRYTYPE": "article",
+      "ID": "chiang2023vicuna"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2307.09288",
+      "author": "Touvron, Hugo and Martin, Louis and Stone, Kevin and Albert, Peter and Almahairi, Amjad and Babaei, Yasmine and Bashlykov, Nikolay and Batra, Soumya and Bhargava, Prajjwal and Bhosale, Shruti and others",
+      "title": "Llama 2: Open foundation and fine-tuned chat models",
+      "ENTRYTYPE": "article",
+      "ID": "touvron2023llama"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2404.07900",
+      "author": "Cahyawijaya, Samuel and Chen, Delong and Bang, Yejin and Khalatbari, Leila and Wilie, Bryan and Ji, Ziwei and Ishii, Etsuko and Fung, Pascale",
+      "title": "High-dimension human value representation in large language models",
+      "ENTRYTYPE": "article",
+      "ID": "cahyawijaya2024high"
+    },
+    {
+      "year": "2019",
+      "journal": "arXiv preprint arXiv:1907.11692",
+      "author": "Liu, Yinhan and Ott, Myle and Goyal, Naman and Du, Jingfei and Joshi, Mandar and Chen, Danqi and Levy, Omer and Lewis, Mike and Zettlemoyer, Luke and Stoyanov, Veselin",
+      "title": "Ro{BERT}a: A robustly optimized bert pretraining approach",
+      "ENTRYTYPE": "article",
+      "ID": "liu2019roberta"
+    },
+    {
+      "year": "2020",
+      "journal": "arXiv preprint arXiv:2007.01852",
+      "author": "Feng, Fangxiaoyu and Yang, Yinfei and Cer, Daniel and Arivazhagan, Naveen and Wang, Wei",
+      "title": "Language-agnostic {BERT} sentence embedding",
+      "ENTRYTYPE": "article",
+      "ID": "feng2020language"
+    },
+    {
+      "year": "2020",
+      "pages": "16857--16867",
+      "volume": "33",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Song, Kaitao and Tan, Xu and Qin, Tao and Lu, Jianfeng and Liu, Tie-Yan",
+      "title": "{MPN}et: Masked and permuted pre-training for language understanding",
+      "ENTRYTYPE": "article",
+      "ID": "song2020mpnet"
+    },
+    {
+      "year": "2019",
+      "journal": "arXiv preprint arXiv:1910.01108",
+      "author": "Sanh, Victor and Debut, Lysandre and Chaumond, Julien and Wolf, Thomas",
+      "title": "{DistilBERT}, a distilled version of {BERT}: smaller, faster, cheaper and lighter",
+      "ENTRYTYPE": "article",
+      "ID": "sanh2019distilbert"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2211.07065",
+      "author": "Choi, Byeongmin and Lee, YongHyun and Kyung, Yeunwoong and Kim, Eunchan",
+      "title": "{ALBERT} with knowledge graph encoder utilizing semantic similarity for commonsense question answering",
+      "ENTRYTYPE": "article",
+      "ID": "choi2022albert"
+    },
+    {
+      "year": "2019",
+      "pages": "4171--4186",
+      "booktitle": "Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (long and short papers)",
+      "author": "Devlin, Jacob and Chang, Ming-Wei and Lee, Kenton and Toutanova, Kristina",
+      "title": "{BERT}: Pre-training of deep bidirectional transformers for language understanding",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "devlin2019bert"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2212.10560",
+      "author": "Wang, Yizhong and Kordi, Yeganeh and Mishra, Swaroop and Liu, Alisa and Smith, Noah A and Khashabi, Daniel and Hajishirzi, Hannaneh",
+      "title": "Self-instruct: Aligning language models with self-generated instructions",
+      "ENTRYTYPE": "article",
+      "ID": "wang2022self"
+    },
+    {
+      "year": "2014",
+      "volume": "12",
+      "journal": "Madrid: JD Systems Institute",
+      "author": "Inglehart, Ronald and Haerpfer, Christian and Moreno, Alejandro and Welzel, Christian and Kizilova, Kseniya and Diez-Medrano, Jaime and Lagos, Marta and Norris, Pippa and Ponarin, Eduard and Puranen, Bogdan and others",
+      "title": "World values survey: Round six-country-pooled datafile version",
+      "ENTRYTYPE": "article",
+      "ID": "inglehart2014world"
+    },
+    {
+      "publisher": "Sage Publications Sage CA: Los Angeles, CA",
+      "year": "2022",
+      "pages": "1005--1019",
+      "number": "5",
+      "volume": "29",
+      "journal": "Assessment",
+      "author": "Schwartz, Shalom H and Cieciuch, Jan",
+      "title": "Measuring the refined theory of individual values in 49 cultural groups: Psychometrics of the revised portrait value questionnaire",
+      "ENTRYTYPE": "article",
+      "ID": "schwartz2022measuring"
+    },
+    {
+      "publisher": "Sage Publications Sage UK: London, England",
+      "year": "2009",
+      "pages": "41--58",
+      "number": "1",
+      "volume": "47",
+      "journal": "Asia Pacific Journal of Human Resources",
+      "author": "Javidan, Mansour and Dastmalchian, Ali",
+      "title": "Managerial implications of the {GLOBE} project: A study of 62 societies",
+      "ENTRYTYPE": "article",
+      "ID": "javidan2009managerial"
+    },
+    {
+      "year": "2024",
+      "pages": "19937--19947",
+      "number": "18",
+      "volume": "38",
+      "booktitle": "Proceedings of the AAAI Conference on Artificial Intelligence",
+      "author": "Sorensen, Taylor and Jiang, Liwei and Hwang, Jena D and Levine, Sydney and Pyatkin, Valentina and West, Peter and Dziri, Nouha and Lu, Ximing and Rao, Kavel and Bhagavatula, Chandra and others",
+      "title": "Value kaleidoscope: Engaging {AI} with pluralistic human values, rights, and duties",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "sorensen2024value"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2504.02146",
+      "author": "Shen, Lingzhi and Long, Yunfei and Cai, Xiaohao and Chen, Guanming and Wang, Yuhan and Razzak, Imran and Jameel, Shoaib",
+      "title": "{LL4G}: Self-supervised dynamic optimization for graph-based personality detection",
+      "ENTRYTYPE": "article",
+      "ID": "shen2025ll4g"
+    },
+    {
+      "publisher": "Consulting Psychologists Press Palo Alto, CA",
+      "year": "1962",
+      "volume": "34",
+      "author": "Myers, Isabel Briggs and others",
+      "title": "The myers-briggs type indicator",
+      "ENTRYTYPE": "book",
+      "ID": "myers1962myers"
+    },
+    {
+      "publisher": "JSTOR",
+      "year": "1990",
+      "pages": "5--22",
+      "number": "1",
+      "volume": "87",
+      "journal": "The Journal of Philosophy",
+      "author": "Kitcher, Philip",
+      "title": "The division of cognitive labor",
+      "ENTRYTYPE": "article",
+      "ID": "kitcher1990division"
+    },
+    {
+      "publisher": "Taylor \\& Francis",
+      "year": "2024",
+      "author": "Rosch, Eleanor and Lloyd, Barbara B",
+      "title": "Cognition and categorization",
+      "ENTRYTYPE": "book",
+      "ID": "rosch2024cognition"
+    },
+    {
+      "year": "2020",
+      "pages": "9729--9738",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "He, Kaiming and Fan, Haoqi and Wu, Yuxin and Xie, Saining and Girshick, Ross",
+      "title": "Momentum contrast for unsupervised visual representation learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "he2020momentum"
+    },
+    {
+      "organization": "PmLR",
+      "year": "2021",
+      "pages": "8748--8763",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Radford, Alec and Kim, Jong Wook and Hallacy, Chris and Ramesh, Aditya and Goh, Gabriel and Agarwal, Sandhini and Sastry, Girish and Askell, Amanda and Mishkin, Pamela and Clark, Jack and others",
+      "title": "Learning transferable visual models from natural language supervision",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "radford2021learning"
+    },
+    {
+      "year": "2022",
+      "pages": "1--39",
+      "number": "120",
+      "volume": "23",
+      "journal": "Journal of Machine Learning Research",
+      "author": "Fedus, William and Zoph, Barret and Shazeer, Noam",
+      "title": "Switch transformers: Scaling to trillion parameter models with simple and efficient sparsity",
+      "ENTRYTYPE": "article",
+      "ID": "fedus2022switch"
+    },
+    {
+      "year": "2022",
+      "pages": "11976--11986",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Liu, Zhuang and Mao, Hanzi and Wu, Chao-Yuan and Feichtenhofer, Christoph and Darrell, Trevor and Xie, Saining",
+      "title": "A convnet for the 2020s",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "liu2022convnet"
+    },
+    {
+      "year": "2025",
+      "pages": "586--595",
+      "booktitle": "Proceedings of the Eighteenth ACM International Conference on Web Search and Data Mining",
+      "author": "Shen, Lingzhi and Long, Yunfei and Cai, Xiaohao and Razzak, Imran and Chen, Guanming and Liu, Kang and Jameel, Shoaib",
+      "title": "Gamed: Knowledge adaptive multi-experts decoupling for multimodal fake news detection",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "shen2025gamed"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2504.05411",
+      "author": "Shen, Lingzhi and Long, Yunfei and Cai, Xiaohao and Chen, Guanming and Razzak, Imran and Jameel, Shoaib",
+      "title": "Less but better: Parameter-efficient fine-tuning of large language models for personality detection",
+      "ENTRYTYPE": "article",
+      "ID": "shen2025less"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2509.02450",
+      "author": "Shen, Lingzhi and Cai, Xiaohao and Long, Yunfei and Razzak, Imran and Chen, Guanming and Jameel, Shoaib",
+      "title": "Emo{P}erso: Enhancing personality detection with self-supervised emotion-aware modelling",
+      "ENTRYTYPE": "article",
+      "ID": "shen2025emoperso"
+    },
+    {
+      "publisher": "Emerald Publishing Limited",
+      "year": "2022",
+      "pages": "1910--1929",
+      "number": "6",
+      "volume": "32",
+      "journal": "Internet Research",
+      "author": "Teng, Teng and Li, Huifang and others",
+      "title": "Understanding the differential effectiveness of marketer versus user-generated advertisements in closed social networking sites: An empirical study of {W}e{C}hat",
+      "ENTRYTYPE": "article",
+      "ID": "teng2022understanding"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2510.09893",
+      "author": "Chen, Guanming and Shen, Lingzhi and Cai, Xiaohao and Razzak, Imran and Jameel, Shoaib",
+      "title": "{HIPPD}: Brain-inspired hierarchical information processing for personality detection",
+      "ENTRYTYPE": "article",
+      "ID": "chen2025hippd"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2312.00738",
+      "author": "Nguyen, Xuan-Phi and Zhang, Wenxuan and Li, Xin and Aljunied, Mahani and Hu, Zhiqiang and Shen, Chenhui and Chia, Yew Ken and Li, Xingxuan and Wang, Jianyu and Tan, Qingyu and others",
+      "title": "{SeaLLMs}--Large language models for {S}outheast {A}sia",
+      "ENTRYTYPE": "article",
+      "ID": "nguyen2023seallms"
+    },
+    {
+      "year": "2020",
+      "pages": "5477--5490",
+      "booktitle": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+      "author": "Sap, Maarten and Gabriel, Saadia and Qin, Lianhui and Jurafsky, Dan and Smith, Noah A and Choi, Yejin",
+      "title": "Social bias frames: Reasoning about social and power implications of language",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "sap2020social"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2505.09388",
+      "author": "Yang, An and Li, Anfeng and Yang, Baosong and Zhang, Beichen and Hui, Binyuan and Zheng, Bo and Yu, Bowen and Gao, Chang and Huang, Chengen and Lv, Chenxu and others",
+      "title": "Qwen3 technical report",
+      "ENTRYTYPE": "article",
+      "ID": "yang2025qwen3"
+    },
+    {
+      "year": "2014",
+      "pages": "1532--1543",
+      "booktitle": "Proceedings of the 2014 Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+      "author": "Pennington, Jeffrey and Socher, Richard and Manning, Christopher D",
+      "title": "Glove: Global vectors for word representation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "pennington2014glove"
+    },
+    {
+      "year": "2020",
+      "pages": "8440--8451",
+      "booktitle": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+      "author": "Conneau, Alexis and Khandelwal, Kartikay and Goyal, Naman and Chaudhary, Vishrav and Wenzek, Guillaume and Guzm{\\'a}n, Francisco and Grave, {\\'E}douard and Ott, Myle and Zettlemoyer, Luke and Stoyanov, Veselin",
+      "title": "Unsupervised cross-lingual representation learning at scale",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "conneau2020unsupervised"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2205.01068",
+      "author": "Zhang, Susan and Roller, Stephen and Goyal, Naman and Artetxe, Mikel and Chen, Moya and Chen, Shuohui and Dewan, Christopher and Diab, Mona and Li, Xian and Lin, Xi Victoria and others",
+      "title": "{OPT}: Open pre-trained transformer language models",
+      "ENTRYTYPE": "article",
+      "ID": "zhang2022opt"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2410.21276",
+      "author": "Hurst, Aaron and Lerer, Adam and Goucher, Adam P and Perelman, Adam and Ramesh, Aditya and Clark, Aidan and Ostrow, AJ and Welihinda, Akila and Hayes, Alan and Radford, Alec and others",
+      "title": "{GPT}-4o system card",
+      "ENTRYTYPE": "article",
+      "ID": "hurst2024gpt"
+    },
+    {
+      "year": "2019",
+      "journal": "arXiv preprint arXiv:1909.11942",
+      "author": "Lan, Zhenzhong and Chen, Mingda and Goodman, Sebastian and Gimpel, Kevin and Sharma, Piyush and Soricut, Radu",
+      "title": "{ALBERT}: A lite {BERT} for self-supervised learning of language representations",
+      "ENTRYTYPE": "article",
+      "ID": "lan2019albert"
+    },
+    {
+      "year": "2020",
+      "journal": "arXiv preprint arXiv:2001.08361",
+      "author": "Kaplan, Jared and McCandlish, Sam and Henighan, Tom and Brown, Tom B and Chess, Benjamin and Child, Rewon and Gray, Scott and Radford, Alec and Wu, Jeffrey and Amodei, Dario",
+      "title": "Scaling laws for neural language models",
+      "ENTRYTYPE": "article",
+      "ID": "kaplan2020scaling"
+    }
+  ]
+}

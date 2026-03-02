@@ -1,0 +1,542 @@
+{
+  "pdf_url": "https://arxiv.org/pdf/2510.18824v1.pdf",
+  "references": [
+    {
+      "publisher": "ACM New York, NY",
+      "year": "2022",
+      "pages": "1--26",
+      "number": "2",
+      "volume": "2",
+      "journal": "ACM Transactions on Evolutionary Learning and Optimization",
+      "author": "Binois, Mickael and Wycoff, Nathan",
+      "title": "A survey on high-dimensional Gaussian process modeling with application to Bayesian optimization",
+      "ENTRYTYPE": "article",
+      "ID": "binois2022survey"
+    },
+    {
+      "publisher": "INFORMS",
+      "year": "2024",
+      "pages": "947--972",
+      "number": "5",
+      "volume": "58",
+      "journal": "Transportation Science",
+      "author": "Tay, Timothy and Osorio, Carolina",
+      "title": "A Sampling Strategy for High-Dimensional, Simulation-Based Transportation Optimization Problems",
+      "ENTRYTYPE": "article",
+      "ID": "tay2024sampling"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "2022",
+      "pages": "210--243",
+      "volume": "164",
+      "journal": "Transportation Research Part B: Methodological",
+      "author": "Tay, Timothy and Osorio, Carolina",
+      "title": "Bayesian optimization techniques for high-dimensional simulation-based transportation problems",
+      "ENTRYTYPE": "article",
+      "ID": "tay2022bayesian"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2022",
+      "pages": "2--1",
+      "booktitle": "International Conference on Automated Machine Learning",
+      "author": "{\\v{S}}ehi{\\'c}, Kenan and Gramfort, Alexandre and Salmon, Joseph and Nardi, Luigi",
+      "title": "LassoBench: A high-dimensional hyperparameter optimization benchmark suite for lasso",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "vsehic2022lassobench"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2406.04739",
+      "author": "Gonz{\\'a}lez-Duque, Miguel and Michael, Richard and Bartels, Simon and Zainchkovskyy, Yevgen and Hauberg, S{\\o}ren and Boomsma, Wouter",
+      "title": "A survey and benchmark of high-dimensional Bayesian optimization of discrete sequences",
+      "ENTRYTYPE": "article",
+      "ID": "gonzalez2024survey"
+    },
+    {
+      "year": "2021",
+      "journal": "arXiv preprint arXiv:2109.06716",
+      "author": "Eggensperger, Katharina and M{\\\"u}ller, Philipp and Mallik, Neeratyoy and Feurer, Matthias and Sass, Ren{\\'e} and Klein, Aaron and Awad, Noor and Lindauer, Marius and Hutter, Frank",
+      "title": "HPOBench: A collection of reproducible multi-fidelity benchmark problems for HPO",
+      "ENTRYTYPE": "article",
+      "ID": "eggensperger2021hpobench"
+    },
+    {
+      "institution": "Citeseer",
+      "year": "2010",
+      "author": "Finck, Steffen and Hansen, Nikolaus and Ros, Raymond and Auger, Anne",
+      "title": "Real-parameter black-box optimization benchmarking 2009: Presentation of the noiseless functions",
+      "ENTRYTYPE": "techreport",
+      "ID": "finck2010real"
+    },
+    {
+      "keywords": "Computer Science - Machine Learning, Mathematics - Optimization and Control, Statistics - Machine Learning",
+      "note": "arXiv:1807.02811 [stat]",
+      "year": "2018",
+      "month": "July",
+      "author": "Frazier, Peter I.",
+      "publisher": "arXiv",
+      "language": "en",
+      "doi": "10.48550/arXiv.1807.02811",
+      "url": "http://arxiv.org/abs/1807.02811",
+      "title": "A {Tutorial} on {Bayesian} {Optimization}",
+      "ENTRYTYPE": "misc",
+      "ID": "frazier_tutorial_2018"
+    },
+    {
+      "year": "2019",
+      "journal": "arXiv preprint arXiv:1906.00121",
+      "author": "Wu, Zonghan and Pan, Shirui and Long, Guodong and Jiang, Jing and Zhang, Chengqi",
+      "title": "Graph wavenet for deep spatial-temporal graph modeling",
+      "ENTRYTYPE": "article",
+      "ID": "wu2019graph"
+    },
+    {
+      "publisher": "INFORMS",
+      "year": "2025",
+      "journal": "Transportation Science",
+      "author": "Choi, Seongjin and Saunier, Nicolas and Zheng, Vincent Zhihao and Trepanier, Martin and Sun, Lijun",
+      "title": "Scalable dynamic mixture model with full covariance for probabilistic traffic forecasting",
+      "ENTRYTYPE": "article",
+      "ID": "choi2025scalable"
+    },
+    {
+      "url": "https://proceedings.mlr.press/v97/nayebi19a.html",
+      "pdf": "http://proceedings.mlr.press/v97/nayebi19a/nayebi19a.pdf",
+      "publisher": "PMLR",
+      "month": "09--15 Jun",
+      "series": "Proceedings of Machine Learning Research",
+      "volume": "97",
+      "editor": "Chaudhuri, Kamalika and Salakhutdinov, Ruslan",
+      "year": "2019",
+      "pages": "4752--4761",
+      "booktitle": "Proceedings of the 36th International Conference on Machine Learning",
+      "author": "Nayebi, Amin and Munteanu, Alexander and Poloczek, Matthias",
+      "title": "A Framework for {B}ayesian Optimization in Embedded Subspaces",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "pmlr-v97-nayebi19a"
+    },
+    {
+      "url": "https://arxiv.org/abs/1907.08953",
+      "primaryclass": "cs.LG",
+      "archiveprefix": "arXiv",
+      "eprint": "1907.08953",
+      "year": "2019",
+      "author": "Miao Zhang and Huiqi Li and Steven Su",
+      "title": "High Dimensional Bayesian Optimization via Supervised Dimension Reduction",
+      "ENTRYTYPE": "misc",
+      "ID": "zhang2019high"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2015",
+      "pages": "295--304",
+      "booktitle": "International conference on machine learning",
+      "author": "Kandasamy, Kirthevasan and Schneider, Jeff and P{\\'o}czos, Barnab{\\'a}s",
+      "title": "High dimensional Bayesian optimisation and bandits via additive models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "kandasamy2015high"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2018",
+      "pages": "298--307",
+      "booktitle": "International conference on artificial intelligence and statistics",
+      "author": "Rolland, Paul and Scarlett, Jonathan and Bogunovic, Ilija and Cevher, Volkan",
+      "title": "High-dimensional Bayesian optimization via additive models with overlapping groups",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "rolland2018high"
+    },
+    {
+      "year": "2016",
+      "pages": "361--387",
+      "volume": "55",
+      "journal": "Journal of Artificial Intelligence Research",
+      "author": "Wang, Ziyu and Hutter, Frank and Zoghi, Masrour and Matheson, David and De Feitas, Nando",
+      "title": "Bayesian optimization in a billion dimensions via random embeddings",
+      "ENTRYTYPE": "article",
+      "ID": "wang2016bayesian"
+    },
+    {
+      "year": "2020",
+      "pages": "1546--1558",
+      "volume": "33",
+      "journal": "Advances in neural information processing systems",
+      "author": "Letham, Ben and Calandra, Roberto and Rai, Akshara and Bakshy, Eytan",
+      "title": "Re-examining linear embeddings for high-dimensional Bayesian optimization",
+      "ENTRYTYPE": "article",
+      "ID": "letham2020re"
+    },
+    {
+      "year": "2022",
+      "pages": "11586--11601",
+      "volume": "35",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Papenmeier, Leonard and Nardi, Luigi and Poloczek, Matthias",
+      "title": "Increasing the scope as you learn: Adaptive bayesian optimization in nested subspaces",
+      "ENTRYTYPE": "article",
+      "ID": "papenmeier2022increasing"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2021",
+      "pages": "493--503",
+      "booktitle": "Uncertainty in Artificial Intelligence",
+      "author": "Eriksson, David and Jankowiak, Martin",
+      "title": "High-dimensional Bayesian optimization with sparse axis-aligned subspaces",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "eriksson2021high"
+    },
+    {
+      "year": "2019",
+      "volume": "32",
+      "journal": "Advances in neural information processing systems",
+      "author": "Eriksson, David and Pearce, Michael and Gardner, Jacob and Turner, Ryan D and Poloczek, Matthias",
+      "title": "Scalable global optimization via local Bayesian optimization",
+      "ENTRYTYPE": "article",
+      "ID": "eriksson2019scalable"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2018",
+      "pages": "3868--3877",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Oh, ChangYong and Gavves, Efstratios and Welling, Max",
+      "title": "BOCK: Bayesian optimization with cylindrical kernels",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "oh2018bock"
+    },
+    {
+      "year": "2016",
+      "volume": "29",
+      "journal": "Advances in neural information processing systems",
+      "author": "Springenberg, Jost Tobias and Klein, Aaron and Falkner, Stefan and Hutter, Frank",
+      "title": "Bayesian optimization with robust Bayesian neural networks",
+      "ENTRYTYPE": "article",
+      "ID": "springenberg2016bayesian"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "1992",
+      "pages": "332--341",
+      "number": "3",
+      "volume": "37",
+      "journal": "IEEE transactions on automatic control",
+      "author": "Spall, James C",
+      "title": "Multivariate stochastic approximation using a simultaneous perturbation gradient approximation",
+      "ENTRYTYPE": "article",
+      "ID": "spall1992multivariate"
+    },
+    {
+      "publisher": "John Wiley \\& Sons",
+      "year": "2005",
+      "author": "Spall, James C",
+      "title": "Introduction to stochastic search and optimization: estimation, simulation, and control",
+      "ENTRYTYPE": "book",
+      "ID": "spall2005introduction"
+    },
+    {
+      "publisher": "SAGE Publications Sage CA: Los Angeles, CA",
+      "year": "2007",
+      "pages": "50--58",
+      "number": "1",
+      "volume": "2003",
+      "journal": "Transportation Research Record",
+      "author": "Balakrishna, Ramachandran and Ben-Akiva, Moshe and Koutsopoulos, Haris N",
+      "title": "Offline calibration of dynamic traffic assignment: simultaneous demand-and-supply estimation",
+      "ENTRYTYPE": "article",
+      "ID": "balakrishna2007offline"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "2019",
+      "pages": "18--43",
+      "volume": "124",
+      "journal": "Transportation Research Part B: Methodological",
+      "author": "Osorio, Carolina",
+      "title": "High-dimensional offline origin-destination (OD) demand calibration for stochastic traffic simulators of large-scale road networks",
+      "ENTRYTYPE": "article",
+      "ID": "osorio2019high"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2402.02229",
+      "author": "Hvarfner, Carl and Hellsten, Erik Orm and Nardi, Luigi",
+      "title": "Vanilla bayesian optimization performs great in high dimensions",
+      "ENTRYTYPE": "article",
+      "ID": "hvarfner2024vanilla"
+    },
+    {
+      "url": "https://openreview.net/forum?id=kX8h23UG6v",
+      "year": "2025",
+      "booktitle": "The Thirteenth International Conference on Learning Representations",
+      "author": "Zhitong Xu and Haitao Wang and Jeff M. Phillips and Shandian Zhe",
+      "title": "Standard Gaussian Process is All You Need for High-Dimensional Bayesian Optimization",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "xu2025standard"
+    },
+    {
+      "url": "https://arxiv.org/abs/2502.09198",
+      "primaryclass": "cs.LG",
+      "archiveprefix": "arXiv",
+      "eprint": "2502.09198",
+      "year": "2025",
+      "author": "Leonard Papenmeier and Matthias Poloczek and Luigi Nardi",
+      "title": "Understanding High-Dimensional Bayesian Optimization",
+      "ENTRYTYPE": "misc",
+      "ID": "papenmeier2025under"
+    },
+    {
+      "note": "Accessed: 2025-04-09",
+      "url": "https://botorch.org/docs/tutorials/",
+      "title": "BoTorch Tutorials",
+      "author": "{BoTorch}",
+      "ENTRYTYPE": "misc",
+      "ID": "botorch_tutorials"
+    },
+    {
+      "publisher": "ACM New York, NY, USA",
+      "year": "2021",
+      "pages": "86--92",
+      "number": "12",
+      "volume": "64",
+      "journal": "Communications of the ACM",
+      "author": "Gebru, Timnit and Morgenstern, Jamie and Vecchione, Briana and Vaughan, Jennifer Wortman and Wallach, Hanna and Iii, Hal Daum{\\'e} and Crawford, Kate",
+      "title": "Datasheets for datasets",
+      "ENTRYTYPE": "article",
+      "ID": "gebru2021datasheets"
+    },
+    {
+      "publisher": "Nature Publishing Group UK London",
+      "year": "2023",
+      "pages": "26",
+      "number": "1",
+      "volume": "6",
+      "journal": "Communications Physics",
+      "author": "Amb{\\\"u}hl, Lukas and Menendez, Monica and Gonz{\\'a}lez, Marta C",
+      "title": "Understanding congestion propagation by combining percolation theory with the macroscopic fundamental diagram",
+      "ENTRYTYPE": "article",
+      "ID": "ambuhl2023understanding"
+    },
+    {
+      "publisher": "SAGE Publications Sage CA: Los Angeles, CA",
+      "year": "2024",
+      "pages": "03611981241266837",
+      "journal": "Transportation Research Record",
+      "author": "Min, Donggyu and Yun, Hyunsoo and Ham, Seung Woo and Kim, Dong-Kyu",
+      "title": "Real-Time Estimation of Origin--Destination Matrices Using a Deep Neural Network for Digital Twins",
+      "ENTRYTYPE": "article",
+      "ID": "min2024real"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2502.09561",
+      "author": "Xu, Guanhao and Chen, Jianfei and Wang, Zejiang and Zhou, Anye and Schrader, Max and Bittle, Joshua and Shao, Yunli",
+      "title": "Enhancing Traffic Safety Analysis with Digital Twin Technology: Integrating Vehicle Dynamics and Environmental Factors into Microscopic Traffic Simulation",
+      "ENTRYTYPE": "article",
+      "ID": "xu2025enhancing"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "2020",
+      "pages": "36--52",
+      "volume": "29",
+      "journal": "CIRP journal of manufacturing science and technology",
+      "author": "Jones, David and Snider, Chris and Nassehi, Aydin and Yon, Jason and Hicks, Ben",
+      "title": "Characterising the Digital Twin: A systematic literature review",
+      "ENTRYTYPE": "article",
+      "ID": "jones2020characterising"
+    },
+    {
+      "organization": "IEEE",
+      "year": "2019",
+      "pages": "2201--2206",
+      "booktitle": "2019 IEEE Intelligent Transportation Systems Conference (ITSC)",
+      "author": "Wang, Yu and Zhang, Yicheng and Ng, Hai-Heng and Zhao, Bing and Ng, Wee-Siong",
+      "title": "Dynamic Origin-Destination Estimation Framework with Iterative Traffic Signal Tuning for Microscopic Traffic Simulation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "wang2019dynamic"
+    },
+    {
+      "year": "2017",
+      "journal": "Massachusetts Institute of Technology (MIT), Tech. Rep",
+      "author": "Zhang, Chao and Osorio, Carolina",
+      "title": "Efficient offline calibration of origin-destination (demand) for large-scale stochastic traffic models",
+      "ENTRYTYPE": "article",
+      "ID": "zhang2017efficient"
+    },
+    {
+      "year": "2020",
+      "volume": "33",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2020/file/f5b1b89d98b7286673128a5fb112cb9a-Paper.pdf",
+      "title": "BoTorch: A Framework for Efficient Monte-Carlo Bayesian Optimization",
+      "publisher": "Curran Associates, Inc.",
+      "pages": "21524--21538",
+      "editor": "H. Larochelle and M. Ranzato and R. Hadsell and M.F. Balcan and H. Lin",
+      "booktitle": "Advances in Neural Information Processing Systems",
+      "author": "Balandat, Maximilian and Karrer, Brian and Jiang, Daniel and Daulton, Samuel and Letham, Ben and Wilson, Andrew G and Bakshy, Eytan",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "balandat2020BoTorch"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "2022",
+      "pages": "103545",
+      "volume": "136",
+      "journal": "Transportation Research Part C: Emerging Technologies",
+      "author": "Dantsuji, Takao and Hoang, Nam H and Zheng, Nan and Vu, Hai L",
+      "title": "A novel metamodel-based framework for large-scale dynamic origin--destination demand calibration",
+      "ENTRYTYPE": "article",
+      "ID": "dantsuji2022novel"
+    },
+    {
+      "note": "Accessed: 2025-02-03",
+      "howpublished": "\\url{https://pems.dot.ca.gov}",
+      "author": "{California Department of Transportation}",
+      "title": "Caltrans Performance Measurement System (PeMS)",
+      "ENTRYTYPE": "misc",
+      "ID": "caltrans_pems"
+    },
+    {
+      "url": "https://elib.dlr.de/124092/",
+      "keywords": "traffic simulation, modelling, optimization",
+      "journal": "IEEE Intelligent Transportation Systems Conference (ITSC)",
+      "year": "2018",
+      "booktitle": "The 21st IEEE International Conference on Intelligent Transportation Systems",
+      "publisher": "IEEE",
+      "author": "Pablo Alvarez Lopez and Michael Behrisch and Laura Bieker-Walz and Jakob Erdmann and Yun-Pang Fl{\\\"o}tter{\\\"o}d and Robert Hilbrich and Leonhard L{\\\"u}cken and Johannes Rummel and Peter Wagner and Evamarie Wie{\\ss}ner",
+      "title": "Microscopic Traffic Simulation using SUMO",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "SUMO2018"
+    },
+    {
+      "publisher": "Springer",
+      "year": "1998",
+      "pages": "455--492",
+      "volume": "13",
+      "journal": "Journal of Global optimization",
+      "author": "Jones, Donald R and Schonlau, Matthias and Welch, William J",
+      "title": "Efficient global optimization of expensive black-box functions",
+      "ENTRYTYPE": "article",
+      "ID": "jones1998efficient"
+    },
+    {
+      "keywords": "Digital twin, Microscopic traffic simulation, Real-time Big Data analytics, Calibration, Traffic sensors, Smart roads",
+      "author": "Krešimir Kušić and René Schumann and Edouard Ivanjko",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1474034622003160",
+      "doi": "https://doi.org/10.1016/j.aei.2022.101858",
+      "issn": "1474-0346",
+      "year": "2023",
+      "pages": "101858",
+      "volume": "55",
+      "journal": "Advanced Engineering Informatics",
+      "title": "A digital twin in transportation: Real-time synergy of traffic data streams and simulation for virtualizing motorway dynamics",
+      "ENTRYTYPE": "article",
+      "ID": "kusic2023digital"
+    },
+    {
+      "publisher": "SAGE Publications Sage CA: Los Angeles, CA",
+      "year": "2009",
+      "pages": "1--9",
+      "number": "1",
+      "volume": "2090",
+      "journal": "Transportation Research Record",
+      "author": "Vaze, Vikrant and Antoniou, Constantinos and Wen, Yang and Ben-Akiva, Moshe",
+      "title": "Calibration of dynamic traffic assignment models with point-to-point traffic surveillance",
+      "ENTRYTYPE": "article",
+      "ID": "vaze2009calibration"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "2011",
+      "pages": "270--282",
+      "number": "2",
+      "volume": "19",
+      "journal": "Transportation Research Part C: Emerging Technologies",
+      "author": "Cipriani, Ernesto and Florian, Michael and Mahut, Michael and Nigro, Marialisa",
+      "title": "A gradient approximation approach for adjusting temporal origin--destination matrices",
+      "ENTRYTYPE": "article",
+      "ID": "cipriani2011gradient"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "2012",
+      "pages": "62--82",
+      "volume": "24",
+      "journal": "Transportation research part C: emerging technologies",
+      "author": "Ben-Akiva, Moshe E and Gao, Song and Wei, Zheng and Wen, Yang",
+      "title": "A dynamic traffic assignment model for highly congested urban networks",
+      "ENTRYTYPE": "article",
+      "ID": "ben2012dynamic"
+    },
+    {
+      "organization": "IEEE",
+      "year": "2021",
+      "pages": "1--8",
+      "booktitle": "2021 7th International Conference on Models and Technologies for Intelligent Transportation Systems (MT-ITS)",
+      "author": "Ros-Roca, Xavier and Montero, L{\\'\\i}dia and Barcel{\\'o}, Jaume and N{\\\"o}kel, Klaus",
+      "title": "Dynamic origin-destination matrix estimation with ICT traffic measurements using SPSA",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ros2021dynamic"
+    },
+    {
+      "institution": "United States. Department of Transportation. Intelligent Transportation~…",
+      "year": "2021",
+      "author": "Galgano, Steve and Talas, Mohamad and Opie, Keir and Marsico, Michael and Weeks, Andrew and Wang, Yixin and Benevelli, David and Rausch, Robert and Ozbay, Kaan and Muthuswamy, Satya and others",
+      "title": "Connected vehicle pilot deployment program phase 1: Performance measurement and evaluation support plan: New york city",
+      "ENTRYTYPE": "techreport",
+      "ID": "galgano2021connected"
+    },
+    {
+      "institution": "United States. Department of Transportation. Intelligent Transportation~…",
+      "year": "2021",
+      "author": "Talas, Mohamad and Opie, Keir and Gao, Jingqin and Ozbay, Kaan and Yang, Di and Rausch, Robert and Benevelli, David and Sim, Samuel and others",
+      "title": "Connected Vehicle Pilot Deployment Program Phase 3--System Performance Report-New York City",
+      "ENTRYTYPE": "techreport",
+      "ID": "talas2021connected"
+    },
+    {
+      "publisher": "Connected Cities for Smart Mobility toward Accessible and Resilient~…",
+      "year": "2022",
+      "author": "Ban, Jeff and Angah, Ohay and Zhang, Yiran and Guo, Qiangqiang and others",
+      "title": "A multiscale simulation platform for connected and automated transportation systems",
+      "ENTRYTYPE": "article",
+      "ID": "ban2022multiscale"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "2015",
+      "pages": "233--253",
+      "volume": "7",
+      "journal": "Transportation Research Procedia",
+      "author": "Antoniou, Constantinos and Azevedo, Carlos Lima and Lu, Lu and Pereira, Francisco and Ben-Akiva, Moshe",
+      "title": "W--SPSA in practice: Approximation of weight matrices and calibration of traffic simulation models",
+      "ENTRYTYPE": "article",
+      "ID": "antoniou2015w"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "2015",
+      "pages": "231--245",
+      "volume": "55",
+      "journal": "Transportation Research Part C: Emerging Technologies",
+      "author": "Tympakianaki, Athina and Koutsopoulos, Haris N and Jenelius, Erik",
+      "title": "c-SPSA: Cluster-wise simultaneous perturbation stochastic approximation algorithm and its application to dynamic origin--destination matrix estimation",
+      "ENTRYTYPE": "article",
+      "ID": "tympakianaki2015c"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "2019",
+      "pages": "1635--1645",
+      "number": "4",
+      "volume": "21",
+      "journal": "IEEE Transactions on Intelligent Transportation Systems",
+      "author": "Qurashi, Moeid and Ma, Tao and Chaniotakis, Emmanouil and Antoniou, Constantinos",
+      "title": "PC--SPSA: Employing dimensionality reduction to limit SPSA search noise in DTA model calibration",
+      "ENTRYTYPE": "article",
+      "ID": "qurashi2019pc"
+    }
+  ]
+}

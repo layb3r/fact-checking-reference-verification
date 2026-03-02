@@ -1,0 +1,507 @@
+{
+  "pdf_url": "https://arxiv.org/pdf/2505.15438v1.pdf",
+  "references": [
+    {
+      "publisher": "University of Washington, Seattle, Wash, USA",
+      "year": "1993",
+      "journal": "GeneReviews",
+      "author": "Smith, Richard JH and Shearer, A Eliot and Hildebrand, Michael S and Van Camp, Guy and others",
+      "title": "Deafness and hereditary hearing loss overview",
+      "ENTRYTYPE": "article",
+      "ID": "smith1993deafness"
+    },
+    {
+      "publisher": "Cambridge University Press",
+      "year": "1995",
+      "author": "Armstrong, David F and Stokoe, William C and Wilcox, Sherman E",
+      "title": "Gesture and the nature of language",
+      "ENTRYTYPE": "book",
+      "ID": "armstrong1995gesture"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "2019",
+      "pages": "2306--2320",
+      "number": "9",
+      "volume": "42",
+      "journal": "IEEE transactions on pattern analysis and machine intelligence",
+      "author": "Koller, Oscar and Camgoz, Necati Cihan and Ney, Hermann and Bowden, Richard",
+      "title": "Weakly supervised learning with multi-stream CNN-LSTM-HMMs to discover sequential parallelism in sign language videos",
+      "ENTRYTYPE": "article",
+      "ID": "koller2019weakly"
+    },
+    {
+      "year": "2022",
+      "pages": "5120--5130",
+      "booktitle": "Proceedings of the IEEE/CVF conference on computer vision and pattern recognition",
+      "author": "Chen, Yutong and Wei, Fangyun and Sun, Xiao and Wu, Zhirong and Lin, Stephen",
+      "title": "A simple multi-modality transfer learning baseline for sign language translation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "mmtl"
+    },
+    {
+      "year": "2022",
+      "pages": "17043--17056",
+      "volume": "35",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Chen, Yutong and Zuo, Ronglai and Wei, Fangyun and Wu, Yu and Liu, Shujie and Mak, Brian",
+      "title": "Two-stream network for sign language recognition and translation",
+      "ENTRYTYPE": "article",
+      "ID": "2s-slt"
+    },
+    {
+      "organization": "Springer",
+      "year": "2024",
+      "pages": "349--367",
+      "booktitle": "European Conference on Computer Vision",
+      "author": "Jiao, Peiqi and Min, Yuecong and Chen, Xilin",
+      "title": "Visual Alignment Pre-training for Sign Language Translation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "vap"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2405.04164",
+      "author": "Wong, Ryan and Camgoz, Necati Cihan and Bowden, Richard",
+      "title": "Sign2GPT: Leveraging large language models for gloss-free sign language translation",
+      "ENTRYTYPE": "article",
+      "ID": "sign2gpt"
+    },
+    {
+      "year": "2023",
+      "pages": "20871--20881",
+      "booktitle": "Proceedings of the IEEE/CVF International Conference on Computer Vision",
+      "author": "Zhou, Benjia and Chen, Zhigang and Clap{\\'e}s, Albert and Wan, Jun and Liang, Yanyan and Escalera, Sergio and Lei, Zhen and Zhang, Du",
+      "title": "Gloss-free sign language translation: Improving from visual-language pretraining",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "gfslt"
+    },
+    {
+      "year": "2023",
+      "pages": "5625--5635",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Tarr{\\'e}s, Laia and G{\\'a}llego, Gerard I and Duarte, Amanda and Torres, Jordi and Gir{\\'o}-i-Nieto, Xavier",
+      "title": "Sign language translation from instructional videos",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "sltiv"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2305.01778",
+      "author": "Zhang, Biao and M{\\\"u}ller, Mathias and Sennrich, Rico",
+      "title": "SLTUNET: A simple unified model for sign language translation",
+      "ENTRYTYPE": "article",
+      "ID": "sltunet"
+    },
+    {
+      "year": "2018",
+      "pages": "7784--7793",
+      "booktitle": "Proceedings of the IEEE conference on computer vision and pattern recognition",
+      "author": "Camgoz, Necati Cihan and Hadfield, Simon and Koller, Oscar and Ney, Hermann and Bowden, Richard",
+      "title": "Neural sign language translation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "phx"
+    },
+    {
+      "year": "2020",
+      "pages": "10023--10033",
+      "booktitle": "Proceedings of the IEEE/CVF conference on computer vision and pattern recognition",
+      "author": "Camgoz, Necati Cihan and Koller, Oscar and Hadfield, Simon and Bowden, Richard",
+      "title": "Sign language transformers: Joint end-to-end sign language recognition and translation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "camgoz2020sign"
+    },
+    {
+      "publisher": "MDPI",
+      "year": "2019",
+      "pages": "2683",
+      "number": "13",
+      "volume": "9",
+      "journal": "Applied sciences",
+      "author": "Ko, Sang-Ki and Kim, Chang Jo and Jung, Hyedong and Cho, Choongsang",
+      "title": "Neural sign language translation based on human keypoint estimation",
+      "ENTRYTYPE": "article",
+      "ID": "keti"
+    },
+    {
+      "publisher": "Springer",
+      "year": "2011",
+      "pages": "539--562",
+      "booktitle": "Visual Analysis of Humans: Looking at People",
+      "author": "Cooper, Helen and Holt, Brian and Bowden, Richard",
+      "title": "Sign language recognition",
+      "ENTRYTYPE": "incollection",
+      "ID": "cooper2011sign"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "2021",
+      "pages": "113794",
+      "volume": "164",
+      "journal": "Expert Systems with Applications",
+      "author": "Rastgoo, Razieh and Kiani, Kourosh and Escalera, Sergio",
+      "title": "Sign language recognition: A deep survey",
+      "ENTRYTYPE": "article",
+      "ID": "rastgoo2021sign"
+    },
+    {
+      "year": "2021",
+      "pages": "1316--1325",
+      "booktitle": "Proceedings of the IEEE/CVF conference on computer vision and pattern recognition",
+      "author": "Zhou, Hao and Zhou, Wengang and Qi, Weizhen and Pu, Junfu and Li, Houqiang",
+      "title": "Improving sign language translation with monolingual data by sign back-translation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "csl"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2205.12870",
+      "author": "Shi, Bowen and Brentari, Diane and Shakhnarovich, Greg and Livescu, Karen",
+      "title": "Open-domain sign language translation learned from online video",
+      "ENTRYTYPE": "article",
+      "ID": "openasl"
+    },
+    {
+      "year": "2021",
+      "journal": "arXiv preprint arXiv:2111.03635",
+      "author": "Albanie, Samuel and Varol, G{\\\"u}l and Momeni, Liliane and Bull, Hannah and Afouras, Triantafyllos and Chowdhury, Himel and Fox, Neil and Woll, Bencie and Cooper, Rob and McParland, Andrew and others",
+      "title": "Bbc-oxford british sign language dataset",
+      "ENTRYTYPE": "article",
+      "ID": "bob"
+    },
+    {
+      "year": "2021",
+      "pages": "2735--2744",
+      "booktitle": "Proceedings of the IEEE/CVF conference on computer vision and pattern recognition",
+      "author": "Duarte, Amanda and Palaskar, Shruti and Ventura, Lucas and Ghadiyaram, Deepti and DeHaan, Kenneth and Metze, Florian and Torres, Jordi and Giro-i-Nieto, Xavier",
+      "title": "How2sign: a large-scale multimodal dataset for continuous american sign language",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "how2sign"
+    },
+    {
+      "year": "2023",
+      "pages": "29029--29047",
+      "volume": "36",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Uthus, Dave and Tanzer, Garrett and Georg, Manfred",
+      "title": "Youtube-asl: A large-scale, open-domain american sign language-english parallel corpus",
+      "ENTRYTYPE": "article",
+      "ID": "youtubeasl"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2408.10593",
+      "author": "Hwang, Eui Jun and Cho, Sukmin and Lee, Junmyeong and Park, Jong C",
+      "title": "An Efficient Sign Language Translation Using Spatial Configuration and Motion Dynamics with LLMs",
+      "ENTRYTYPE": "article",
+      "ID": "hwang2024efficient"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2405.05672",
+      "author": "Guan, Mo and Wang, Yan and Ma, Guangkun and Liu, Jiarui and Sun, Mingzu",
+      "title": "Multi-stream keypoint attention network for sign language recognition and translation",
+      "ENTRYTYPE": "article",
+      "ID": "guan2024multi"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2501.09754",
+      "author": "Jang, Youngjoon and Raajesh, Haran and Momeni, Liliane and Varol, G{\\\"u}l and Zisserman, Andrew",
+      "title": "Lost in Translation, Found in Context: Sign Language Translation with Contextual Cues",
+      "ENTRYTYPE": "article",
+      "ID": "sltcc"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2501.15187",
+      "author": "Li, Zecheng and Zhou, Wengang and Zhao, Weichao and Wu, Kepeng and Hu, Hezhen and Li, Houqiang",
+      "title": "Uni-Sign: Toward Unified Sign Language Understanding at Scale",
+      "ENTRYTYPE": "article",
+      "ID": "unisign"
+    },
+    {
+      "year": "2006",
+      "pages": "369--376",
+      "booktitle": "Proceedings of the 23rd international conference on Machine learning",
+      "author": "Graves, Alex and Fern{\\'a}ndez, Santiago and Gomez, Faustino and Schmidhuber, J{\\\"u}rgen",
+      "title": "Connectionist temporal classification: labelling unsegmented sequence data with recurrent neural networks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ctc"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2303.08774",
+      "author": "Achiam, Josh and Adler, Steven and Agarwal, Sandhini and Ahmad, Lama and Akkaya, Ilge and Aleman, Florencia Leoni and Almeida, Diogo and Altenschmidt, Janko and Altman, Sam and Anadkat, Shyamal and others",
+      "title": "Gpt-4 technical report",
+      "ENTRYTYPE": "article",
+      "ID": "gpt4"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2403.05530",
+      "author": "Team, Gemini and Georgiev, Petko and Lei, Ving Ian and Burnell, Ryan and Bai, Libin and Gulati, Anmol and Tanzer, Garrett and Vincent, Damien and Pan, Zhufeng and Wang, Shibo and others",
+      "title": "Gemini 1.5: Unlocking multimodal understanding across millions of tokens of context",
+      "ENTRYTYPE": "article",
+      "ID": "gemini"
+    },
+    {
+      "publisher": "MIT Press One Rogers Street, Cambridge, MA 02142-1209, USA journals-info~…",
+      "year": "2020",
+      "pages": "726--742",
+      "volume": "8",
+      "journal": "Transactions of the Association for Computational Linguistics",
+      "author": "Liu, Yinhan and Gu, Jiatao and Goyal, Naman and Li, Xian and Edunov, Sergey and Ghazvininejad, Marjan and Lewis, Mike and Zettlemoyer, Luke",
+      "title": "Multilingual denoising pre-training for neural machine translation",
+      "ENTRYTYPE": "article",
+      "ID": "mbart"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2412.08274",
+      "author": "Costa-juss{\\`a}, Marta R and Yu, Bokai and Andrews, Pierre and Alastruey, Belen and Camgoz, Necati Cihan and Chuang, Joe and Maillard, Jean and Ropers, Christophe and Turkantenko, Arina and Wood, Carleigh",
+      "title": "2M-BELEBELE: Highly Multilingual Speech and American Sign Language Comprehension Dataset",
+      "ENTRYTYPE": "article",
+      "ID": "belebele"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "2021",
+      "pages": "7955--7974",
+      "number": "11",
+      "volume": "44",
+      "journal": "IEEE transactions on pattern analysis and machine intelligence",
+      "author": "Liu, Weiwei and Wang, Haobo and Shen, Xiaobo and Tsang, Ivor W",
+      "title": "The emerging trends of multi-label learning",
+      "ENTRYTYPE": "article",
+      "ID": "liu2021emerging"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2408.00118",
+      "author": "Team, Gemma and Riviere, Morgane and Pathak, Shreya and Sessa, Pier Giuseppe and Hardin, Cassidy and Bhupatiraju, Surya and Hussenot, L{\\'e}onard and Mesnard, Thomas and Shahriari, Bobak and Ram{\\'e}, Alexandre and others",
+      "title": "Gemma 2: Improving open language models at a practical size",
+      "ENTRYTYPE": "article",
+      "ID": "gemma2"
+    },
+    {
+      "year": "2023",
+      "pages": "15592--15601",
+      "booktitle": "Proceedings of the IEEE/CVF International Conference on Computer Vision",
+      "author": "Yao, Huijie and Zhou, Wengang and Feng, Hao and Hu, Hezhen and Zhou, Hao and Li, Houqiang",
+      "title": "Sign language translation with iterative prototype",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ipslt"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "2021",
+      "pages": "2662--2672",
+      "volume": "24",
+      "journal": "IEEE Transactions on Multimedia",
+      "author": "Zhao, Jian and Qi, Weizhen and Zhou, Wengang and Duan, Nan and Zhou, Ming and Li, Houqiang",
+      "title": "Conditional sentence generation and cross-modal reranking for sign language translation",
+      "ENTRYTYPE": "article",
+      "ID": "csgcr"
+    },
+    {
+      "year": "2023",
+      "pages": "2551--2562",
+      "booktitle": "Proceedings of the IEEE/CVF conference on computer vision and pattern recognition",
+      "author": "Yin, Aoxiong and Zhong, Tianyun and Tang, Li and Jin, Weike and Jin, Tao and Zhao, Zhou",
+      "title": "Gloss attention for gloss-free sign language translation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "gaslt"
+    },
+    {
+      "year": "2024",
+      "pages": "18362--18372",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Gong, Jia and Foo, Lin Geng and He, Yixuan and Rahmani, Hossein and Liu, Jun",
+      "title": "Llms are good sign language translators",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "signllm"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2402.09611",
+      "author": "Rust, Phillip and Shi, Bowen and Wang, Skyler and Camg{\\~A}{\\c{k}}z, Necati Cihan and Maillard, Jean",
+      "title": "Towards privacy-aware sign language translation at scale",
+      "ENTRYTYPE": "article",
+      "ID": "ssvpslt"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2403.12556",
+      "author": "Chen, Zhigang and Zhou, Benjia and Li, Jun and Wan, Jun and Lei, Zhen and Jiang, Ning and Lu, Quan and Zhao, Guoqing",
+      "title": "Factorized learning assisted with large language model for gloss-free sign language translation",
+      "ENTRYTYPE": "article",
+      "ID": "flallm"
+    },
+    {
+      "year": "2002",
+      "pages": "311--318",
+      "booktitle": "Proceedings of the 40th annual meeting of the Association for Computational Linguistics",
+      "author": "Papineni, Kishore and Roukos, Salim and Ward, Todd and Zhu, Wei-Jing",
+      "title": "Bleu: a method for automatic evaluation of machine translation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "bleu"
+    },
+    {
+      "year": "2004",
+      "pages": "74--81",
+      "booktitle": "Text summarization branches out",
+      "author": "Lin, Chin-Yew",
+      "title": "Rouge: A package for automatic evaluation of summaries",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "rouge"
+    },
+    {
+      "year": "2017",
+      "pages": "7361--7369",
+      "booktitle": "Proceedings of the IEEE conference on computer vision and pattern recognition",
+      "author": "Cui, Runpeng and Liu, Hu and Zhang, Changshui",
+      "title": "Recurrent convolutional neural networks for continuous sign language recognition by staged optimization",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "cui2017recurrent"
+    },
+    {
+      "year": "2017",
+      "pages": "4297--4305",
+      "booktitle": "Proceedings of the IEEE conference on computer vision and pattern recognition",
+      "author": "Koller, Oscar and Zargaran, Sepehr and Ney, Hermann",
+      "title": "Re-sign: Re-aligned end-to-end sequence modelling with deep recurrent CNN-HMMs",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "koller2017re"
+    },
+    {
+      "year": "2017",
+      "pages": "339--351",
+      "volume": "5",
+      "journal": "Transactions of the Association for Computational Linguistics",
+      "author": "Johnson, Melvin and Schuster, Mike and Le, Quoc V and Krikun, Maxim and Wu, Yonghui and Chen, Zhifeng and Thorat, Nikhil and Vi{\\'e}gas, Fernanda and Wattenberg, Martin and Corrado, Greg and others",
+      "title": "Google’s multilingual neural machine translation system: Enabling zero-shot translation",
+      "ENTRYTYPE": "article",
+      "ID": "johnson2017google"
+    },
+    {
+      "year": "2019",
+      "pages": "3874--3884",
+      "booktitle": "Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long and Short Papers)",
+      "author": "Aharoni, Roee and Johnson, Melvin and Firat, Orhan",
+      "title": "Massively Multilingual Neural Machine Translation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "aharoni2019massively"
+    },
+    {
+      "year": "2020",
+      "pages": "12034--12045",
+      "volume": "33",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Li, Dongxu and Xu, Chenchen and Yu, Xin and Zhang, Kaihao and Swift, Benjamin and Suominen, Hanna and Li, Hongdong",
+      "title": "Tspnet: Hierarchical feature learning via temporal semantic pyramid for sign language translation",
+      "ENTRYTYPE": "article",
+      "ID": "tspnet"
+    },
+    {
+      "organization": "Springer",
+      "year": "2014",
+      "pages": "628--643",
+      "booktitle": "Computer Vision--ECCV 2014: 13th European Conference, Zurich, Switzerland, September 6-12, 2014, Proceedings, Part V 13",
+      "author": "Bojanowski, Piotr and Lajugie, R{\\'e}mi and Bach, Francis and Laptev, Ivan and Ponce, Jean and Schmid, Cordelia and Sivic, Josef",
+      "title": "Weakly supervised action labeling in videos under ordering constraints",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "bojanowski2014weakly"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "2017",
+      "pages": "78--89",
+      "volume": "163",
+      "journal": "Computer Vision and Image Understanding",
+      "author": "Kuehne, Hilde and Richard, Alexander and Gall, Juergen",
+      "title": "Weakly supervised learning of actions from transcripts",
+      "ENTRYTYPE": "article",
+      "ID": "kuehne2017weakly"
+    },
+    {
+      "year": "2018",
+      "pages": "5987--5996",
+      "booktitle": "Proceedings of the IEEE conference on Computer Vision and Pattern Recognition",
+      "author": "Richard, Alexander and Kuehne, Hilde and Gall, Juergen",
+      "title": "Action sets: Weakly supervised action segmentation without ordering constraints",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "richard2018action"
+    },
+    {
+      "year": "2016",
+      "pages": "2846--2854",
+      "booktitle": "Proceedings of the IEEE conference on computer vision and pattern recognition",
+      "author": "Bilen, Hakan and Vedaldi, Andrea",
+      "title": "Weakly supervised deep detection networks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "bilen2016weakly"
+    },
+    {
+      "year": "2017",
+      "pages": "642--651",
+      "booktitle": "Proceedings of the IEEE conference on computer vision and pattern recognition",
+      "author": "Durand, Thibaut and Mordan, Taylor and Thome, Nicolas and Cord, Matthieu",
+      "title": "Wildcat: Weakly supervised learning of deep convnets for image classification, pointwise localization and segmentation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "durand2017wildcat"
+    },
+    {
+      "year": "2016",
+      "pages": "3793--3802",
+      "booktitle": "Proceedings of the IEEE conference on computer vision and pattern recognition",
+      "author": "Koller, Oscar and Ney, Hermann and Bowden, Richard",
+      "title": "Deep hand: How to train a cnn on 1 million hand images when your data is continuous and weakly labelled",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "koller2016deep"
+    },
+    {
+      "year": "2018",
+      "pages": "305--321",
+      "booktitle": "Proceedings of the European conference on computer vision (ECCV)",
+      "author": "Xie, Saining and Sun, Chen and Huang, Jonathan and Tu, Zhuowen and Murphy, Kevin",
+      "title": "Rethinking spatiotemporal feature learning: Speed-accuracy trade-offs in video classification",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "s3d"
+    },
+    {
+      "year": "2017",
+      "journal": "arXiv preprint arXiv:1705.06950",
+      "author": "Kay, Will and Carreira, Joao and Simonyan, Karen and Zhang, Brian and Hillier, Chloe and Vijayanarasimhan, Sudheendra and Viola, Fabio and Green, Tim and Back, Trevor and Natsev, Paul and others",
+      "title": "The kinetics human action video dataset",
+      "ENTRYTYPE": "article",
+      "ID": "kinetics"
+    },
+    {
+      "year": "2019",
+      "journal": "arXiv preprint arXiv:1910.03771",
+      "author": "Wolf, Thomas and Debut, Lysandre and Sanh, Victor and Chaumond, Julien and Delangue, Clement and Moi, Anthony and Cistac, Pierric and Rault, Tim and Louf, R{\\'e}mi and Funtowicz, Morgan and others",
+      "title": "Huggingface's transformers: State-of-the-art natural language processing",
+      "ENTRYTYPE": "article",
+      "ID": "huggingface"
+    },
+    {
+      "year": "2023",
+      "pages": "20676--20686",
+      "booktitle": "Proceedings of the IEEE/CVF international conference on computer vision",
+      "author": "Jiao, Peiqi and Min, Yuecong and Li, Yanan and Wang, Xiaotao and Lei, Lei and Chen, Xilin",
+      "title": "Cosign: Exploring co-occurrence signals in skeleton-based continuous sign language recognition",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "cosign"
+    },
+    {
+      "year": "2009",
+      "pages": "41--48",
+      "booktitle": "Proceedings of the 26th annual international conference on machine learning",
+      "author": "Bengio, Yoshua and Louradour, J{\\'e}r{\\^o}me and Collobert, Ronan and Weston, Jason",
+      "title": "Curriculum learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "curriculum"
+    }
+  ]
+}

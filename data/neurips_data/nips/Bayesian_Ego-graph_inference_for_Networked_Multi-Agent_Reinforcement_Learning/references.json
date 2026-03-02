@@ -1,0 +1,534 @@
+{
+  "pdf_url": "https://arxiv.org/pdf/2509.16606v4.pdf",
+  "references": [
+    {
+      "year": "2020",
+      "publisher": "{PMLR}",
+      "pages": "264--285",
+      "volume": "155",
+      "series": "Proceedings of Machine Learning Research",
+      "booktitle": "4th Conference on Robot Learning, CoRL 2020, 16-18 November 2020,\nVirtual Event / Cambridge, MA, {USA}",
+      "title": "{SMARTS:} An Open-Source Scalable Multi-Agent {RL} Training School\nfor Autonomous Driving",
+      "author": "Ming Zhou and\nJun Luo and\nJulian Villela and\nYaodong Yang and\nDavid Rusu and\nJiayu Miao and\nWeinan Zhang and\nMontgomery Alban and\nIman Fadakar and\nZheng Chen and\nChongxi Huang and\nYing Wen and\nKimia Hassanzadeh and\nDaniel Graves and\nZhengbang Zhu and\nYihan Ni and\nNhat M. Nguyen and\nMohamed Elsayed and\nHaitham Ammar and\nAlexander I. Cowen{-}Rivers and\nSanjeevan Ahilan and\nZheng Tian and\nDaniel Palenicek and\nKasra Rezaee and\nPeyman Yadmellat and\nKun Shao and\nDong Chen and\nBaokuan Zhang and\nHongbo Zhang and\nJianye Hao and\nWulong Liu and\nJun Wang",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "DBLP:conf/corl/ZhouLVYRM0AFCHW20"
+    },
+    {
+      "year": "2024",
+      "pages": "2573--2575",
+      "booktitle": "Proceedings of the 23rd International Conference on Autonomous Agents\nand Multiagent Systems, {(AAMAS 2024)}, Auckland, New Zealand, May 6-10",
+      "title": "Toward Socially Friendly Autonomous Driving Using Multi-agent Deep\nReinforcement Learning",
+      "author": "Jhih{-}Ching Yeh and\nVon{-}Wun Soo",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "DBLP:conf/atal/YehS24"
+    },
+    {
+      "bibsource": "dblp computer science bibliography, https://dblp.org",
+      "biburl": "https://dblp.org/rec/journals/twc/NaderializadehS21.bib",
+      "timestamp": "Tue, 13 Jul 2021 13:24:53 +0200",
+      "doi": "10.1109/TWC.2021.3051163",
+      "url": "https://doi.org/10.1109/TWC.2021.3051163",
+      "year": "2021",
+      "pages": "3507--3523",
+      "number": "6",
+      "volume": "20",
+      "journal": "{IEEE} Trans. Wirel. Commun.",
+      "title": "Resource Management in Wireless Networks via Multi-Agent Deep Reinforcement\nLearning",
+      "author": "Navid Naderializadeh and\nJaroslaw J. Sydir and\nMeryem Simsek and\nHosein Nikopour",
+      "ENTRYTYPE": "article",
+      "ID": "DBLP:journals/twc/NaderializadehS21"
+    },
+    {
+      "bibsource": "dblp computer science bibliography, https://dblp.org",
+      "biburl": "https://dblp.org/rec/journals/twc/LvXDZHL24.bib",
+      "timestamp": "Sun, 19 Jan 2025 14:20:35 +0100",
+      "doi": "10.1109/TWC.2024.3392608",
+      "url": "https://doi.org/10.1109/TWC.2024.3392608",
+      "year": "2024",
+      "pages": "12440--12454",
+      "number": "9",
+      "volume": "23",
+      "journal": "{IEEE} Trans. Wirel. Commun.",
+      "title": "Efficient Communications in Multi-Agent Reinforcement Learning for\nMobile Applications",
+      "author": "Zefang Lv and\nLiang Xiao and\nYousong Du and\nYunjun Zhu and\nShuai Han and\nYong{-}Jin Liu",
+      "ENTRYTYPE": "article",
+      "ID": "DBLP:journals/twc/LvXDZHL24"
+    },
+    {
+      "doi": "10.1109/TNNLS.2024.3513402",
+      "pages": "1-13",
+      "number": "",
+      "volume": "",
+      "year": "2024",
+      "title": "Inferring Latent Temporal Sparse Coordination Graph for Multiagent Reinforcement Learning",
+      "journal": "{IEEE} Trans. Neural Networks Learn. Syst.",
+      "author": "Duan, Wei and Lu, Jie and Xuan, Junyu",
+      "ENTRYTYPE": "article",
+      "ID": "10803088"
+    },
+    {
+      "year": "2019",
+      "pages": "2186--2188",
+      "booktitle": "Proceedings of the 18th International Conference on Autonomous Agents\nand MultiAgent Systems, {(AAMAS 2019)}, Montreal, QC, Canada, May 13-17",
+      "title": "The StarCraft Multi-Agent Challenge",
+      "author": "Mikayel Samvelyan and\nTabish Rashid and\nChristian Schr{\\\"{o}}der de Witt and\nGregory Farquhar and\nNantas Nardelli and\nTim G. J. Rudner and\nChia{-}Man Hung and\nPhilip H. S. Torr and\nJakob N. Foerster and\nShimon Whiteson",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "DBLP:conf/atal/SamvelyanRWFNRH19"
+    },
+    {
+      "year": "2020",
+      "booktitle": "8th International Conference on Learning Representations, {(ICLR 2020)},\nAddis Ababa, Ethiopia, April 26-30",
+      "title": "Multi-agent Reinforcement Learning for Networked System Control",
+      "author": "Tianshu Chu and\nSandeep Chinchali and\nSachin Katti",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "DBLP:conf/iclr/ChuCK20"
+    },
+    {
+      "year": "2024",
+      "pages": "20715--20728",
+      "number": "12",
+      "volume": "25",
+      "journal": "{IEEE} Trans. Intell. Transp. Syst.",
+      "title": "Distributed Multi-Agent Reinforcement Learning for Cooperative Low-Carbon\nControl of Traffic Network Flow Using Cloud-Based Parallel Optimization",
+      "author": "Yongnan Zhang and\nYonghua Zhou and\nHamido Fujita",
+      "ENTRYTYPE": "article",
+      "ID": "DBLP:journals/tits/ZhangZF24"
+    },
+    {
+      "year": "2023",
+      "publisher": "{PMLR}",
+      "pages": "27840--27853",
+      "volume": "202",
+      "series": "Proceedings of Machine Learning Research",
+      "booktitle": "International Conference on Machine Learning, {(ICML 2023)}, Honolulu, Hawaii, {USA}, 23-29 July",
+      "title": "Attention-Based Recurrence for Multi-Agent Reinforcement Learning\nunder Stochastic Partial Observability",
+      "author": "Thomy Phan and\nFabian Ritz and\nPhilipp Altmann and\nMaximilian Zorn and\nJonas N{\\\"{u}}{\\ss}lein and\nMichael K{\\\"{o}}lle and\nThomas Gabor and\nClaudia Linnhoff{-}Popien",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "DBLP:conf/icml/PhanRAZN0GL23"
+    },
+    {
+      "year": "2018",
+      "pages": "4292--4301",
+      "volume": "80",
+      "booktitle": "Proceedings of the 35th International Conference on Machine Learning {(ICML 2018)}, Stockholmsm{\\\"{a}}ssan, Stockholm, Sweden",
+      "title": "{QMIX:} Monotonic Value Function Factorisation for Deep Multi-Agent\nReinforcement Learning",
+      "author": "Tabish Rashid and\nMikayel Samvelyan and\nChristian Schr{\\\"{o}}der de Witt and\nGregory Farquhar and\nJakob N. Foerster and\nShimon Whiteson",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "DBLP:conf/icml/RashidSWFFW18"
+    },
+    {
+      "year": "2020",
+      "pages": "9876--9886",
+      "volume": "119",
+      "series": "Proceedings of Machine Learning Research",
+      "booktitle": "Proceedings of the 37th International Conference on Machine Learning {(ICML 2020)}, Virtual Event",
+      "title": "{ROMA:} Multi-Agent Reinforcement Learning with Emergent Roles",
+      "author": "Tonghan Wang and\nHeng Dong and\nVictor R. Lesser and\nChongjie Zhang",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "DBLP:conf/icml/0001DLZ20"
+    },
+    {
+      "year": "2021",
+      "booktitle": "9th International Conference on Learning Representations {(ICLR 2021)}, Virtual Event, Austria",
+      "title": "{QPLEX:} Duplex Dueling Multi-Agent Q-Learning",
+      "author": "Jianhao Wang and\nZhizhou Ren and\nTerry Liu and\nYang Yu and\nChongjie Zhang",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "DBLP:conf/iclr/WangRLYZ21"
+    },
+    {
+      "year": "2022",
+      "booktitle": "Advances in Neural Information Processing Systems 35: Annual Conference\non Neural Information Processing Systems, {( NIPS 2022)}, New Orleans,\nLA, USA, November 28 - December 9",
+      "title": "Learning to Share in Networked Multi-Agent Reinforcement Learning",
+      "author": "Yuxuan Yi and\nGe Li and\nYaowei Wang and\nZongqing Lu",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "DBLP:conf/nips/Yi0WL22"
+    },
+    {
+      "year": "2020",
+      "pages": "1086--1095",
+      "number": "3",
+      "volume": "21",
+      "journal": "{IEEE} Trans. Intell. Transp. Syst.",
+      "title": "Multi-Agent Deep Reinforcement Learning for Large-Scale Traffic Signal\nControl",
+      "author": "Tianshu Chu and\nJie Wang and\nLara Codec{\\`{a}} and\nZhaojian Li",
+      "ENTRYTYPE": "article",
+      "ID": "DBLP:journals/tits/ChuWCL20"
+    },
+    {
+      "year": "2017",
+      "pages": "6379--6390",
+      "booktitle": "Advances in Neural Information Processing Systems 30: Annual Conference on Neural Information Processing Systems {(NIPS 2017)},\nLong Beach, CA, {USA}",
+      "title": "Multi-Agent Actor-Critic for Mixed Cooperative-Competitive Environments",
+      "author": "Ryan Lowe and\nYi Wu and\nAviv Tamar and\nJean Harb and\nPieter Abbeel and\nIgor Mordatch",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "DBLP:conf/nips/LoweWTHAM17"
+    },
+    {
+      "year": "2024",
+      "pages": "3926--3934",
+      "booktitle": "Proceedings of the Thirty-Third International Joint Conference on\nArtificial Intelligence, {(IJCAI 2024)}, Jeju, South Korea, August 3-9,\n2024",
+      "author": "Duan, Wei and Lu, Jie and Xuan, Junyu",
+      "title": "Group-Aware Coordination Graph for Multi-Agent Reinforcement Learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "DBLP:conf/ijcai/00030X24"
+    },
+    {
+      "pages": "1856--1865",
+      "volume": "80",
+      "series": "Proceedings of Machine Learning Research",
+      "booktitle": "Proceedings of the 35th International Conference on Machine Learning,\n{(ICML 2018)}, Stockholmsm{\\\"{a}}ssan, Stockholm, Sweden, July\n10-15, 2018",
+      "title": "Soft Actor-Critic: Off-Policy Maximum Entropy Deep Reinforcement Learning\nwith a Stochastic Actor",
+      "author": "Tuomas Haarnoja and\nAurick Zhou and\nPieter Abbeel and\nSergey Levine",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "DBLP:conf/icml/HaarnojaZAL18"
+    },
+    {
+      "publisher": "Nature Publishing Group UK London",
+      "year": "2024",
+      "pages": "1006--1020",
+      "number": "9",
+      "volume": "6",
+      "journal": "Nature Machine Intelligence",
+      "author": "Ma, Chengdong and Li, Aming and Du, Yali and Dong, Hao and Yang, Yaodong",
+      "title": "Efficient and scalable reinforcement learning for large-scale network control",
+      "ENTRYTYPE": "article",
+      "ID": "ma2024efficient"
+    },
+    {
+      "year": "2016",
+      "pages": "2137--2145",
+      "booktitle": "Advances in Neural Information Processing Systems 29: Annual Conference\non Neural Information Processing Systems {(NIPS 2016)},\nBarcelona, Spain",
+      "title": "Learning to Communicate with Deep Multi-Agent Reinforcement Learning",
+      "author": "Jakob N. Foerster and\nYannis M. Assael and\nNando de Freitas and\nShimon Whiteson",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "DBLP:conf/nips/FoersterAFW16"
+    },
+    {
+      "year": "2021",
+      "pages": "456--464",
+      "booktitle": "20th International Conference on Autonomous Agents and\nMultiagent Systems {(AAMAS 2021)}, May 3-7,, Virtual Event, United Kingdom",
+      "title": "Learning Correlated Communication Topology in Multi-Agent Reinforcement\nlearning",
+      "author": "Yali Du and\nBo Liu and\nVincent Moens and\nZiqi Liu and\nZhicheng Ren and\nJun Wang and\nXu Chen and\nHaifeng Zhang",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "DBLP:conf/atal/DuLMLRWCZ21"
+    },
+    {
+      "year": "2020",
+      "publisher": "{PMLR}",
+      "pages": "980--991",
+      "volume": "119",
+      "series": "Proceedings of Machine Learning Research",
+      "booktitle": "Proceedings of the 37th International Conference on Machine Learning {(ICML 2020)},  Virtual Event",
+      "title": "Deep Coordination Graphs",
+      "author": "Wendelin Boehmer and\nVitaly Kurin and\nShimon Whiteson",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "DBLP:conf/icml/BoehmerKW20"
+    },
+    {
+      "year": "2022",
+      "publisher": "OpenReview.net",
+      "booktitle": "The Tenth International Conference on Learning Representations {(ICLR 2022)}, Virtual Event",
+      "title": "Context-Aware Sparse Deep Coordination Graphs",
+      "author": "Tonghan Wang and\nLiang Zeng and\nWeijun Dong and\nQianlan Yang and\nYang Yu and\nChongjie Zhang",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "DBLP:conf/iclr/00010DY0Z22"
+    },
+    {
+      "year": "2022",
+      "booktitle": "Advances in Neural Information Processing Systems 35: Annual Conference\non Neural Information Processing Systems, {(NIPS 2022)}, November 28 - December 9,  New Orleans,\nLA, USA",
+      "title": "Self-Organized Group for Cooperative Multi-agent Reinforcement Learning",
+      "author": "Jianzhun Shao and\nZhiqiang Lou and\nHongchang Zhang and\nYuhang Jiang and\nShuncheng He and\nXiangyang Ji",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "DBLP:conf/nips/ShaoLZJHJ22"
+    },
+    {
+      "year": "2022",
+      "publisher": "{IEEE}",
+      "pages": "9019--9026",
+      "booktitle": "{IEEE/RSJ} International Conference on Intelligent Robots and Systems,\n{(IROS 2022)}, Kyoto, Japan, October 23-27",
+      "title": "Scalable Model-based Policy Optimization for Decentralized Networked\nSystems",
+      "author": "Yali Du and\nChengdong Ma and\nYuchen Liu and\nRunji Lin and\nHao Dong and\nJun Wang and\nYaodong Yang",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "DBLP:conf/iros/DuMLLDW022"
+    },
+    {
+      "year": "2020",
+      "publisher": "OpenReview.net",
+      "booktitle": "8th International Conference on Learning Representations, {(ICLR 2020)},\nAddis Ababa, Ethiopia, April 26-30",
+      "title": "Graph Convolutional Reinforcement Learning",
+      "author": "Jiechuan Jiang and\nChen Dun and\nTiejun Huang and\nZongqing Lu",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "DBLP:conf/iclr/JiangDHL20"
+    },
+    {
+      "year": "2021",
+      "publisher": "{ACM}",
+      "pages": "764--772",
+      "booktitle": "{AAMAS} '21: 20th International Conference on Autonomous Agents and Multiagent Systems {(AAMAS 2021)}, Virtual Event, United Kingdom",
+      "title": "Deep Implicit Coordination Graphs for Multi-agent Reinforcement Learning",
+      "author": "Sheng Li and\nJayesh K. Gupta and\nPeter Morales and\nRoss E. Allen and\nMykel J. Kochenderfer",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "DBLP:conf/atal/LiGMAK21"
+    },
+    {
+      "year": "2022",
+      "pages": "24963--24979",
+      "volume": "162",
+      "booktitle": "International Conference on Machine Learning {(ICML 2022)}, Baltimore, Maryland, {USA}",
+      "title": "Self-Organized Polynomial-Time Coordination Graphs",
+      "author": "Qianlan Yang and\nWeijun Dong and\nZhizhou Ren and\nJianhao Wang and\nTonghan Wang and\nChongjie Zhang",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "DBLP:conf/icml/YangDRW0Z22"
+    },
+    {
+      "year": "2020",
+      "publisher": "{AAAI} Press",
+      "pages": "7211--7218",
+      "booktitle": "The Thirty-Fourth {AAAI} Conference on Artificial Intelligence {(AAAI 2020)}, New York, NY, USA,",
+      "title": "Multi-Agent Game Abstraction via Graph Attention Neural Network",
+      "author": "Yong Liu and\nWeixun Wang and\nYujing Hu and\nJianye Hao and\nXingguo Chen and\nYang Gao",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "DBLP:conf/aaai/LiuWHHC020"
+    },
+    {
+      "year": "2024",
+      "publisher": "OpenReview.net",
+      "booktitle": "Forty-first International Conference on Machine Learning {(ICML 2024)},\nVienna, Austria, July 21-27, 2024",
+      "title": "{HGAP:} Boosting Permutation Invariant and Permutation Equivariant\nin Multi-Agent Reinforcement Learning via Graph Attention Network",
+      "author": "Bor{-}Jiun Lin and\nChun{-}Yi Lee",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "DBLP:conf/icml/LinL24"
+    },
+    {
+      "year": "2018",
+      "publisher": "{PMLR}",
+      "pages": "5867--5876",
+      "volume": "80",
+      "series": "Proceedings of Machine Learning Research",
+      "booktitle": "Proceedings of the 35th International Conference on Machine Learning,{(ICML 2018)}, Stockholmsm{\\\"{a}}ssan, Stockholm, Sweden, July\n10-15",
+      "title": "Fully Decentralized Multi-Agent Reinforcement Learning with Networked\nAgents",
+      "author": "Kaiqing Zhang and\nZhuoran Yang and\nHan Liu and\nTong Zhang and\nTamer Basar",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "DBLP:conf/icml/ZhangYL0B18"
+    },
+    {
+      "year": "2020",
+      "publisher": "{PMLR}",
+      "pages": "256--266",
+      "volume": "120",
+      "booktitle": "Proceedings of the 2nd Annual Conference on Learning for Dynamics\nand Control {(L4DC 2020)}, Online Event, Berkeley, CA, USA, 11-12 June",
+      "title": "Scalable Reinforcement Learning of Localized Policies for Multi-Agent\nNetworked Systems",
+      "author": "Guannan Qu and\nAdam Wierman and\nNa Li",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "DBLP:conf/l4dc/QuW020"
+    },
+    {
+      "year": "2021",
+      "pages": "7825--7837",
+      "booktitle": "Advances in Neural Information Processing Systems 34: Annual Conference\non Neural Information Processing Systems {(NeurIPS 2021)}, December\n6-14, virtual",
+      "title": "Multi-Agent Reinforcement Learning in Stochastic Networked Systems",
+      "author": "Yiheng Lin and\nGuannan Qu and\nLongbo Huang and\nAdam Wierman",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "DBLP:conf/nips/LinQHW21"
+    },
+    {
+      "year": "2017",
+      "booktitle": "the 5th International Conference on Learning Representations {(ICLR 2017)},\nToulon, France",
+      "title": "Categorical Reparameterization with Gumbel-Softmax",
+      "author": "Eric Jang and\nShixiang Gu and\nBen Poole",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "DBLP:conf/iclr/JangGP17"
+    },
+    {
+      "year": "2017",
+      "booktitle": "the 5th International Conference on Learning Representations {(ICLR 2017)},Toulon, France",
+      "title": "The Concrete Distribution: {A} Continuous Relaxation of Discrete Random\nVariables",
+      "author": "Chris J. Maddison and\nAndriy Mnih and\nYee Whye Teh",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "DBLP:conf/iclr/MaddisonMT17"
+    },
+    {
+      "journal": "IEEE Intelligent Transportation Systems Conference (ITSC)",
+      "year": "2018",
+      "booktitle": "The 21st IEEE International Conference on Intelligent Transportation Systems",
+      "publisher": "IEEE",
+      "author": "Pablo Alvarez Lopez and Michael Behrisch and Laura Bieker-Walz and Jakob Erdmann and Yun-Pang Fl{\\\"o}tter{\\\"o}d and Robert Hilbrich and Leonhard L{\\\"u}cken and Johannes Rummel and Peter Wagner and Evamarie Wie{\\ss}ner",
+      "title": "Microscopic Traffic Simulation using SUMO",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "SUMO2018"
+    },
+    {
+      "year": "2017",
+      "publisher": "{PMLR}",
+      "pages": "1146--1155",
+      "volume": "70",
+      "booktitle": "Proceedings of the 34th International Conference on Machine Learning,\n{(ICML 2017)}, Sydney, NSW, Australia, 6-11 August",
+      "title": "Stabilising Experience Replay for Deep Multi-Agent Reinforcement Learning",
+      "author": "Jakob N. Foerster and\nNantas Nardelli and\nGregory Farquhar and\nTriantafyllos Afouras and\nPhilip H. S. Torr and\nPushmeet Kohli and\nShimon Whiteson",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "DBLP:conf/icml/FoersterNFATKW17"
+    },
+    {
+      "year": "2016",
+      "pages": "2244--2252",
+      "booktitle": "Advances in Neural Information Processing Systems 29: Annual Conference\non Neural Information Processing Systems {(NIPS 2016)}, December 5-10,\nBarcelona, Spain",
+      "title": "Learning Multiagent Communication with Backpropagation",
+      "author": "Sainbayar Sukhbaatar and\nArthur Szlam and\nRob Fergus",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "DBLP:conf/nips/SukhbaatarSF16"
+    },
+    {
+      "pages": "18160-18171",
+      "number": "12",
+      "volume": "35",
+      "year": "2024",
+      "title": "Graph Convolutional Neural Networks With Diverse Negative Samples via Decomposed Determinant Point Processes",
+      "journal": "IEEE Transactions on Neural Networks and Learning Systems",
+      "author": "Duan, Wei and Xuan, Junyu and Qiao, Maoying and Lu, Jie",
+      "ENTRYTYPE": "article",
+      "ID": "10255371"
+    },
+    {
+      "year": "2024",
+      "volume": "2024",
+      "journal": "Trans. Mach. Learn. Res.",
+      "title": "Layer-diverse Negative Sampling for Graph Neural Networks",
+      "author": "Wei Duan and\nJie Lu and\nYu Guang Wang and\nJunyu Xuan",
+      "ENTRYTYPE": "article",
+      "ID": "DBLP:journals/tmlr/000300X24"
+    },
+    {
+      "year": "2017",
+      "booktitle": "5th International Conference on Learning Representations {(ICLR 2017)}, Toulon, France, April 24-26",
+      "title": "Semi-supervised classification with graph convolutional networks",
+      "author": "Thomas N. Kipf and\nMax Welling",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "DBLP:conf/iclr/KipfW17"
+    },
+    {
+      "url": "https://openreview.net/forum?id=efrFbKYobs",
+      "year": "2025",
+      "booktitle": "The Thirty-ninth Annual Conference on Neural Information Processing Systems {(NeurIPS 2025)}",
+      "author": "Yu, En and Lu, Jie and Yang, Xiaoyu and Zhang, Guangquan and Fang, Zhen",
+      "title": "Learning Robust Spectral Dynamics  for Temporal Domain Generalization",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "yu2025learning"
+    },
+    {
+      "url": "https://openreview.net/forum?id=toZOqONu9x",
+      "year": "2025",
+      "booktitle": "Forty-second International Conference on Machine Learning",
+      "author": "Xiaoyu Yang and Lijian Xu and Hongsheng Li and Shaoting Zhang",
+      "title": "One Leaf Reveals the Season: Occlusion-Based Contrastive Learning with Semantic-Aware Views for Efficient Visual Representation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "yang2025one"
+    },
+    {
+      "year": "2024",
+      "pages": "16522--16530",
+      "booktitle": "Thirty-Eighth {AAAI} Conference on Artificial Intelligence, {AAAI}\n2024, Thirty-Sixth Conference on Innovative Applications of Artificial\nIntelligence, {IAAI} 2024, Fourteenth Symposium on Educational Advances\nin Artificial Intelligence, {EAAI} 2014, February 20-27, 2024, Vancouver,\nCanada",
+      "title": "Online Boosting Adaptive Learning under Concept Drift for Multistream\nClassification",
+      "author": "En Yu and\nJie Lu and\nBin Zhang and\nGuangquan Zhang",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "DBLP:conf/aaai/YuLZ024"
+    },
+    {
+      "doi": "10.1109/TFUZZ.2024.3423024",
+      "year": "2024",
+      "pages": "5625--5637",
+      "number": "10",
+      "volume": "32",
+      "journal": "{IEEE} Trans. Fuzzy Syst.",
+      "title": "Fuzzy Shared Representation Learning for Multistream Classification",
+      "author": "En Yu and\nJie Lu and\nGuangquan Zhang",
+      "ENTRYTYPE": "article",
+      "ID": "DBLP:journals/tfs/YuLZ24"
+    },
+    {
+      "eprint": "2506.05736",
+      "eprinttype": "arXiv",
+      "doi": "10.48550/ARXIV.2506.05736",
+      "url": "https://doi.org/10.48550/arXiv.2506.05736",
+      "year": "2025",
+      "volume": "abs/2506.05736",
+      "journal": "CoRR",
+      "title": "Generalized Incremental Learning under Concept Drift across Evolving\nData Streams",
+      "author": "En Yu and\nJie Lu and\nGuangquan Zhang",
+      "ENTRYTYPE": "article",
+      "ID": "DBLP:journals/corr/abs-2506-05736"
+    },
+    {
+      "year": "2024",
+      "volume": "abs/2403.00222",
+      "journal": "CoRR",
+      "title": "Efficient Reinforcement Learning for Global Decision Making in the\nPresence of Local Agents at Scale",
+      "author": "Emile Anand and\nGuannan Qu",
+      "ENTRYTYPE": "article",
+      "ID": "DBLP:journals/corr/abs-2403-00222"
+    },
+    {
+      "year": "2020",
+      "booktitle": "Advances in Neural Information Processing Systems 33: Annual Conference\non Neural Information Processing Systems 2020, NeurIPS 2020, December\n6-12, 2020, virtual",
+      "title": "Scalable Multi-Agent Reinforcement Learning for Networked Systems\nwith Average Reward",
+      "author": "Guannan Qu and\nYiheng Lin and\nAdam Wierman and\nNa Li",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "DBLP:conf/nips/QuLW020"
+    },
+    {
+      "url": "https://arxiv.org/abs/2512.11179",
+      "primaryclass": "cs.LG",
+      "archiveprefix": "arXiv",
+      "eprint": "2512.11179",
+      "year": "2025",
+      "author": "Wei Duan and Jie Lu and En Yu and Junyu Xuan",
+      "title": "Bandwidth-constrained Variational Message Encoding for Cooperative Multi-agent Reinforcement Learning",
+      "ENTRYTYPE": "misc",
+      "ID": "duan2025bandwidthconstrainedvariationalmessageencoding"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2502.07620",
+      "author": "Xiaoyu Yang and Jie Lu and En Yu and Wei Duan",
+      "title": "Resilient Contrastive Pre-training under Non-Stationary Drift",
+      "ENTRYTYPE": "article",
+      "ID": "yang2025rolling"
+    },
+    {
+      "url": "https://openreview.net/forum?id=1BAiQmAFsx",
+      "year": "2025",
+      "booktitle": "The Thirty-ninth Annual Conference on Neural Information Processing Systems",
+      "author": "Yang, Xiaoyu and Lu, Jie and Yu, En",
+      "title": "Walking the Tightrope: Autonomous Disentangling Beneficial and Detrimental Drifts in Non-Stationary Custom-Tuning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "yangwalking"
+    },
+    {
+      "url": "https://openreview.net/forum?id=b20VK2GnSs",
+      "year": "2025",
+      "booktitle": "The Thirteenth International Conference on Learning Representations",
+      "author": "Yang, Xiaoyu and Lu, Jie and Yu, En",
+      "title": "Adapting Multi-modal Large Language Model to Concept Drift From Pre-training Onwards",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "yangadapting"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2508.01598",
+      "author": "Yu, En and Lu, Jie and Wang, Kun and Yang, Xiaoyu and Zhang, Guangquan",
+      "title": "Drift-aware collaborative assistance mixture of experts for heterogeneous multistream learning",
+      "ENTRYTYPE": "article",
+      "ID": "yu2025drift"
+    },
+    {
+      "year": "2023",
+      "pages": "10825--10833",
+      "number": "9",
+      "volume": "37",
+      "booktitle": "Proceedings of the AAAI Conference on Artificial Intelligence",
+      "author": "Yang, Xiaoyu and Chen, Yufei and Yue, Xiaodong and Xu, Shaoxun and Ma, Chao",
+      "title": "T-distributed spherical feature representation for imbalanced classification",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "yangTdistributedSphericalFeature2023"
+    }
+  ]
+}

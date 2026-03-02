@@ -1,0 +1,801 @@
+{
+  "pdf_url": "https://arxiv.org/pdf/2507.03483v2.pdf",
+  "references": [
+    {
+      "pages": "14369--14387",
+      "doi": "10.18653/v1/2024.acl-long.775",
+      "url": "https://aclanthology.org/2024.acl-long.775",
+      "publisher": "Association for Computational Linguistics",
+      "address": "Bangkok, Thailand",
+      "year": "2024",
+      "month": "August",
+      "booktitle": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+      "editor": "Ku, Lun-Wei  and\nMartins, Andre  and\nSrikumar, Vivek",
+      "author": "Li, Lei  and\nWang, Yuqi  and\nXu, Runxin  and\nWang, Peiyi  and\nFeng, Xiachong  and\nKong, Lingpeng  and\nLiu, Qi",
+      "title": "Multimodal {A}r{X}iv: A Dataset for Improving Scientific Comprehension of Large Vision-Language Models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "li-etal-2024-multimodal-arxiv"
+    },
+    {
+      "url": "https://arxiv.org/abs/2404.05221",
+      "primaryclass": "cs.CL",
+      "archiveprefix": "arXiv",
+      "eprint": "2404.05221",
+      "year": "2024",
+      "author": "Shibo Hao and Yi Gu and Haotian Luo and Tianyang Liu and Xiyan Shao and Xinyuan Wang and Shuhua Xie and Haodi Ma and Adithya Samavedhi and Qiyue Gao and Zhen Wang and Zhiting Hu",
+      "title": "LLM Reasoners: New Evaluation, Library, and Analysis of Step-by-Step Reasoning with Large Language Models",
+      "ENTRYTYPE": "misc",
+      "ID": "hao2024llmreasonersnewevaluation"
+    },
+    {
+      "bibsource": "dblp computer science bibliography, https://dblp.org",
+      "biburl": "https://dblp.org/rec/journals/corr/abs-2502-06217.bib",
+      "timestamp": "Wed, 12 Mar 2025 22:48:05 +0100",
+      "eprint": "2502.06217",
+      "eprinttype": "arXiv",
+      "doi": "10.48550/ARXIV.2502.06217",
+      "url": "https://doi.org/10.48550/arXiv.2502.06217",
+      "year": "2025",
+      "volume": "abs/2502.06217",
+      "journal": "CoRR",
+      "title": "Examining False Positives under Inference Scaling for Mathematical\nReasoning",
+      "author": "Yu Wang and\nNan Yang and\nLiang Wang and\nFuru Wei",
+      "ENTRYTYPE": "article",
+      "ID": "DBLP:journals/corr/abs-2502-06217"
+    },
+    {
+      "pages": "13787--13805",
+      "doi": "10.18653/v1/2024.acl-long.744",
+      "url": "https://aclanthology.org/2024.acl-long.744/",
+      "publisher": "Association for Computational Linguistics",
+      "address": "Bangkok, Thailand",
+      "year": "2024",
+      "month": "August",
+      "booktitle": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+      "editor": "Ku, Lun-Wei  and\nMartins, Andre  and\nSrikumar, Vivek",
+      "author": "Alzahrani, Norah  and\nAlyahya, Hisham  and\nAlnumay, Yazeed  and\nAlRashed, Sultan  and\nAlsubaie, Shaykhah  and\nAlmushayqih, Yousef  and\nMirza, Faisal  and\nAlotaibi, Nouf  and\nAl-Twairesh, Nora  and\nAlowisheq, Areeb  and\nBari, M Saiful  and\nKhan, Haidar",
+      "title": "When Benchmarks are Targets: Revealing the Sensitivity of Large Language Model Leaderboards",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "alzahrani-etal-2024-benchmarks"
+    },
+    {
+      "pages": "5852--5862",
+      "url": "https://aclanthology.org/2025.coling-main.390/",
+      "publisher": "Association for Computational Linguistics",
+      "address": "Abu Dhabi, UAE",
+      "year": "2025",
+      "month": "January",
+      "booktitle": "Proceedings of the 31st International Conference on Computational Linguistics",
+      "editor": "Rambow, Owen  and\nWanner, Leo  and\nApidianaki, Marianna  and\nAl-Khalifa, Hend  and\nEugenio, Barbara Di  and\nSchockaert, Steven",
+      "author": "Wang, Haochun  and\nZhao, Sendong  and\nQiang, Zewen  and\nXi, Nuwa  and\nQin, Bing  and\nLiu, Ting",
+      "title": "{LLM}s May Perform {MCQA} by Selecting the Least Incorrect Option",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "wang-etal-2025-llms-may"
+    },
+    {
+      "url": "https://arxiv.org/abs/2504.19076",
+      "primaryclass": "cs.IR",
+      "archiveprefix": "arXiv",
+      "eprint": "2504.19076",
+      "year": "2025",
+      "author": "Laura Dietz and Oleg Zendel and Peter Bailey and Charles Clarke and Ellese Cotterill and Jeff Dalton and Faegheh Hasibi and Mark Sanderson and Nick Craswell",
+      "title": "LLM-Evaluation Tropes: Perspectives on the Validity of LLM-Evaluations",
+      "ENTRYTYPE": "misc",
+      "ID": "dietz2025llmevaluationtropesperspectivesvalidity"
+    },
+    {
+      "url": "https://arxiv.org/abs/2503.14996",
+      "primaryclass": "cs.CL",
+      "archiveprefix": "arXiv",
+      "eprint": "2503.14996",
+      "year": "2025",
+      "author": "Francesco Maria Molfese and Luca Moroni and Luca Gioffrè and Alessandro Scirè and Simone Conia and Roberto Navigli",
+      "title": "Right Answer, Wrong Score: Uncovering the Inconsistencies of LLM Evaluation in Multiple-Choice Question Answering",
+      "ENTRYTYPE": "misc",
+      "ID": "molfese2025rightanswerwrongscore"
+    },
+    {
+      "url": "https://openreview.net/forum?id=7UqQJUKaLM",
+      "year": "2025",
+      "booktitle": "The Thirteenth International Conference on Learning Representations",
+      "author": "Qingchen Yu and Zifan Zheng and Shichao Song and Zhiyu li and Feiyu Xiong and Bo Tang and Ding Chen",
+      "title": "xFinder: Large Language Models as Automated Evaluators for Reliable Evaluation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "xFinder"
+    },
+    {
+      "file": "Full Text PDF:/Users/kyln24/Zotero/storage/TH3KRK7Q/Yue 等 - 2023 - MMMU A Massive Multi-discipline Multimodal Understanding and Reasoning Benchmark for Expert AGI.pdf:application/pdf",
+      "year": "2023",
+      "month": "November",
+      "author": "Yue, Xiang and Ni, Yuansheng and Zhang, Kai and Zheng, Tianyu and Liu, Ruoqi and Zhang, Ge and Stevens, Samuel and Jiang, Dongfu and Ren, Weiming and Sun, Yuxuan and Wei, Cong and Yu, Botao and Yuan, Ruibin and Sun, Renliang and Yin, Ming and Zheng, Boyuan and Yang, Zhenzhu and Liu, Yibo and Huang, Wenhao and Sun, Huan and Su, Yu and Chen, Wenhu",
+      "journal": "arXiv.org",
+      "urldate": "2025-05-13",
+      "language": "en",
+      "abstract": "We introduce MMMU: a new benchmark designed to evaluate multimodal models on massive multi-discipline tasks demanding college-level subject knowledge and deliberate reasoning. MMMU includes 11.5K meticulously collected multimodal questions from college exams, quizzes, and textbooks, covering six core disciplines: Art \\& Design, Business, Science, Health \\& Medicine, Humanities \\& Social Science, and Tech \\& Engineering. These questions span 30 subjects and 183 subfields, comprising 30 highly heterogeneous image types, such as charts, diagrams, maps, tables, music sheets, and chemical structures. Unlike existing benchmarks, MMMU focuses on advanced perception and reasoning with domain-specific knowledge, challenging models to perform tasks akin to those faced by experts. The evaluation of 14 open-source LMMs as well as the proprietary GPT-4V(ision) and Gemini highlights the substantial challenges posed by MMMU. Even the advanced GPT-4V and Gemini Ultra only achieve accuracies of 56\\% and 59\\% respectively, indicating significant room for improvement. We believe MMMU will stimulate the community to build next-generation multimodal foundation models towards expert artificial general intelligence.",
+      "url": "https://arxiv.org/abs/2311.16502v4",
+      "shorttitle": "{MMMU}",
+      "title": "{MMMU}: {A} {Massive} {Multi}-discipline {Multimodal} {Understanding} and {Reasoning} {Benchmark} for {Expert} {AGI}",
+      "ENTRYTYPE": "misc",
+      "ID": "yue_mmmu_2023"
+    },
+    {
+      "file": "Preprint PDF:/Users/kyln24/Zotero/storage/ES6ZG6NM/Lu 等 - 2024 - MathVista Evaluating Mathematical Reasoning of Foundation Models in Visual Contexts.pdf:application/pdf;Snapshot:/Users/kyln24/Zotero/storage/P2ANWR4Y/2310.html:text/html",
+      "annote": "Comment: 116 pages, 120 figures. Accepted to ICLR 2024",
+      "keywords": "Computer Science - Artificial Intelligence, Computer Science - Computation and Language, Computer Science - Computer Vision and Pattern Recognition, Computer Science - Machine Learning",
+      "note": "arXiv:2310.02255 [cs]",
+      "year": "2024",
+      "month": "January",
+      "author": "Lu, Pan and Bansal, Hritik and Xia, Tony and Liu, Jiacheng and Li, Chunyuan and Hajishirzi, Hannaneh and Cheng, Hao and Chang, Kai-Wei and Galley, Michel and Gao, Jianfeng",
+      "publisher": "arXiv",
+      "urldate": "2025-05-13",
+      "abstract": "Large Language Models (LLMs) and Large Multimodal Models (LMMs) exhibit impressive problem-solving skills in many tasks and domains, but their ability in mathematical reasoning in visual contexts has not been systematically studied. To bridge this gap, we present MathVista, a benchmark designed to combine challenges from diverse mathematical and visual tasks. It consists of 6,141 examples, derived from 28 existing multimodal datasets involving mathematics and 3 newly created datasets (i.e., IQTest, FunctionQA, and PaperQA). Completing these tasks requires fine-grained, deep visual understanding and compositional reasoning, which all state-of-the-art foundation models find challenging. With MathVista, we have conducted a comprehensive, quantitative evaluation of 12 prominent foundation models. The best-performing GPT-4V model achieves an overall accuracy of 49.9\\%, substantially outperforming Bard, the second-best performer, by 15.1\\%. Our in-depth analysis reveals that the superiority of GPT-4V is mainly attributed to its enhanced visual perception and mathematical reasoning. However, GPT-4V still falls short of human performance by 10.4\\%, as it often struggles to understand complex figures and perform rigorous reasoning. This significant gap underscores the critical role that MathVista will play in the development of general-purpose AI agents capable of tackling mathematically intensive and visually rich real-world tasks. We further explore the new ability of self-verification, the application of self-consistency, and the interactive chatbot capabilities of GPT-4V, highlighting its promising potential for future research. The project is available at https://mathvista.github.io/.",
+      "doi": "10.48550/arXiv.2310.02255",
+      "url": "http://arxiv.org/abs/2310.02255",
+      "shorttitle": "{MathVista}",
+      "title": "{MathVista}: {Evaluating} {Mathematical} {Reasoning} of {Foundation} {Models} in {Visual} {Contexts}",
+      "ENTRYTYPE": "misc",
+      "ID": "lu_mathvista_2024"
+    },
+    {
+      "file": "Snapshot:/Users/kyln24/Zotero/storage/VCH6BPPD/2403.html:text/html",
+      "annote": "Comment: Accepted by ECCV 2024, 46 Pages, Benchmark Project Page: https://mathverse-cuhk.github.io",
+      "keywords": "Computer Science - Artificial Intelligence, Computer Science - Computation and Language, Computer Science - Computer Vision and Pattern Recognition, Computer Science - Machine Learning",
+      "note": "arXiv:2403.14624 [cs]",
+      "year": "2024",
+      "month": "August",
+      "author": "Zhang, Renrui and Jiang, Dongzhi and Zhang, Yichi and Lin, Haokun and Guo, Ziyu and Qiu, Pengshuo and Zhou, Aojun and Lu, Pan and Chang, Kai-Wei and Gao, Peng and Li, Hongsheng",
+      "publisher": "arXiv",
+      "urldate": "2025-05-13",
+      "abstract": "The remarkable progress of Multi-modal Large Language Models (MLLMs) has garnered unparalleled attention, due to their superior performance in visual contexts. However, their capabilities in visual math problem-solving remain insufficiently evaluated and understood. We investigate current benchmarks to incorporate excessive visual content within textual questions, which potentially assist MLLMs in deducing answers without truly interpreting the input diagrams. To this end, we introduce MathVerse, an all-around visual math benchmark designed for an equitable and in-depth evaluation of MLLMs. We meticulously collect 2,612 high-quality, multi-subject math problems with diagrams from publicly available sources. Each problem is then transformed by human annotators into six distinct versions, each offering varying degrees of information content in multi-modality, contributing to 15K test samples in total. This approach allows MathVerse to comprehensively assess whether and how much MLLMs can truly understand the visual diagrams for mathematical reasoning. In addition, we propose a Chain-of-Thought (CoT) evaluation strategy for a fine-grained assessment of the output answers. Rather than naively judging True or False, we employ GPT-4(V) to adaptively extract crucial reasoning steps, and then score each step with detailed error analysis, which can reveal the intermediate CoT reasoning quality by MLLMs. We hope the MathVerse benchmark may provide unique insights to guide the future development of MLLMs. Project page: https://mathverse-cuhk.github.io",
+      "doi": "10.48550/arXiv.2403.14624",
+      "url": "http://arxiv.org/abs/2403.14624",
+      "shorttitle": "{MathVerse}",
+      "title": "{MathVerse}: {Does} {Your} {Multi}-modal {LLM} {Truly} {See} the {Diagrams} in {Visual} {Math} {Problems}?",
+      "ENTRYTYPE": "misc",
+      "ID": "zhang_mathverse_2024"
+    },
+    {
+      "url": "https://arxiv.org/abs/2411.10440",
+      "primaryclass": "cs.CV",
+      "archiveprefix": "arXiv",
+      "eprint": "2411.10440",
+      "year": "2024",
+      "author": "Guowei Xu and Peng Jin and Hao Li and Yibing Song and Lichao Sun and Li Yuan",
+      "title": "LLaVA-CoT: Let Vision Language Models Reason Step-by-Step",
+      "ENTRYTYPE": "misc",
+      "ID": "xu2024llavacot"
+    },
+    {
+      "url": "https://arxiv.org/abs/2412.05237",
+      "primaryclass": "cs.CL",
+      "archiveprefix": "arXiv",
+      "eprint": "2412.05237",
+      "year": "2024",
+      "author": "Jarvis Guo and Tuney Zheng and Yuelin Bai and Bo Li and Yubo Wang and King Zhu and Yizhi Li and Graham Neubig and Wenhu Chen and Xiang Yue",
+      "title": "MAmmoTH-VL: Eliciting Multimodal Reasoning with Instruction Tuning at Scale",
+      "ENTRYTYPE": "misc",
+      "ID": "guo2024mammothvlelicitingmultimodalreasoning"
+    },
+    {
+      "publisher": "Springer",
+      "year": "2022",
+      "pages": "289--301",
+      "number": "3",
+      "volume": "23",
+      "journal": "International Journal on Digital Libraries",
+      "author": "Saikh, Tanik and Ghosal, Tirthankar and Mittal, Amish and Ekbal, Asif and Bhattacharyya, Pushpak",
+      "title": "Scienceqa: A novel resource for question answering on scholarly articles",
+      "ENTRYTYPE": "article",
+      "ID": "saikh2022scienceqa"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2503.07365",
+      "author": "Meng, Fanqing and Du, Lingxiao and Liu, Zongkai and Zhou, Zhixiang and Lu, Quanfeng and Fu, Daocheng and Han, Tiancheng and Shi, Botian and Wang, Wenhai and He, Junjun and others",
+      "title": "MM-Eureka: Exploring the Frontiers of Multimodal Reasoning with Rule-based Reinforcement Learning",
+      "ENTRYTYPE": "article",
+      "ID": "meng2025mm"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2410.21276",
+      "author": "Hurst, Aaron and Lerer, Adam and Goucher, Adam P and Perelman, Adam and Ramesh, Aditya and Clark, Aidan and Ostrow, AJ and Welihinda, Akila and Hayes, Alan and Radford, Alec and others",
+      "title": "Gpt-4o system card",
+      "ENTRYTYPE": "article",
+      "ID": "hurst2024gpt"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2412.16720",
+      "author": "Jaech, Aaron and Kalai, Adam and Lerer, Adam and Richardson, Adam and El-Kishky, Ahmed and Low, Aiden and Helyar, Alec and Madry, Aleksander and Beutel, Alex and Carney, Alex and others",
+      "title": "Openai o1 system card",
+      "ENTRYTYPE": "article",
+      "ID": "jaech2024openai"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2502.13923",
+      "author": "Bai, Shuai and Chen, Keqin and Liu, Xuejing and Wang, Jialin and Ge, Wenbin and Song, Sibo and Dang, Kai and Wang, Peng and Wang, Shijie and Tang, Jun and others",
+      "title": "Qwen2. 5-vl technical report",
+      "ENTRYTYPE": "article",
+      "ID": "bai2025qwen2"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2412.05271",
+      "author": "Chen, Zhe and Wang, Weiyun and Cao, Yue and Liu, Yangzhou and Gao, Zhangwei and Cui, Erfei and Zhu, Jinguo and Ye, Shenglong and Tian, Hao and Liu, Zhaoyang and others",
+      "title": "Expanding Performance Boundaries of Open-Source Multimodal Models with Model, Data, and Test-Time Scaling",
+      "ENTRYTYPE": "article",
+      "ID": "chen2024expanding"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2504.10479",
+      "author": "Zhu, Jinguo and Wang, Weiyun and Chen, Zhe and Liu, Zhaoyang and Ye, Shenglong and Gu, Lixin and Duan, Yuchen and Tian, Hao and Su, Weijie and Shao, Jie and others",
+      "title": "InternVL3: Exploring Advanced Training and Test-Time Recipes for Open-Source Multimodal Models",
+      "ENTRYTYPE": "article",
+      "ID": "zhu2025internvl3"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2501.12948",
+      "author": "Guo, Daya and Yang, Dejian and Zhang, Haowei and Song, Junxiao and Zhang, Ruoyu and Xu, Runxin and Zhu, Qihao and Ma, Shirong and Wang, Peiyi and Bi, Xiao and others",
+      "title": "Deepseek-r1: Incentivizing reasoning capability in llms via reinforcement learning",
+      "ENTRYTYPE": "article",
+      "ID": "guo2025deepseek"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2502.14739",
+      "author": "Du, Xinrun and Yao, Yifan and Ma, Kaijing and Wang, Bingli and Zheng, Tianyu and Zhu, King and Liu, Minghao and Liang, Yiming and Jin, Xiaolong and Wei, Zhenlin and others",
+      "title": "Supergpqa: Scaling llm evaluation across 285 graduate disciplines",
+      "ENTRYTYPE": "article",
+      "ID": "du2025supergpqa"
+    },
+    {
+      "year": "2024",
+      "booktitle": "First Conference on Language Modeling",
+      "author": "Rein, David and Hou, Betty Li and Stickland, Asa Cooper and Petty, Jackson and Pang, Richard Yuanzhe and Dirani, Julien and Michael, Julian and Bowman, Samuel R",
+      "title": "Gpqa: A graduate-level google-proof q\\&a benchmark",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "rein2024gpqa"
+    },
+    {
+      "year": "2024",
+      "booktitle": "The Thirty-eight Conference on Neural Information Processing Systems Datasets and Benchmarks Track",
+      "author": "Wang, Yubo and Ma, Xueguang and Zhang, Ge and Ni, Yuansheng and Chandra, Abhranil and Guo, Shiguang and Ren, Weiming and Arulraj, Aaran and He, Xuan and Jiang, Ziyan and others",
+      "title": "Mmlu-pro: A more robust and challenging multi-task language understanding benchmark",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "wang2024mmlu"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2410.18072",
+      "author": "Qin, Yiran and Shi, Zhelun and Yu, Jiwen and Wang, Xijun and Zhou, Enshen and Li, Lijun and Yin, Zhenfei and Liu, Xihui and Sheng, Lu and Shao, Jing and others",
+      "title": "Worldsimbench: Towards video generation models as world simulators",
+      "ENTRYTYPE": "article",
+      "ID": "qin2024worldsimbench"
+    },
+    {
+      "year": "2024",
+      "pages": "14455--14465",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Chen, Boyuan and Xu, Zhuo and Kirmani, Sean and Ichter, Brain and Sadigh, Dorsa and Guibas, Leonidas and Xia, Fei",
+      "title": "Spatialvlm: Endowing vision-language models with spatial reasoning capabilities",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "chen2024spatialvlm"
+    },
+    {
+      "year": "2022",
+      "pages": "9287--9301",
+      "volume": "35",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Li, Chunyuan and Liu, Haotian and Li, Liunian and Zhang, Pengchuan and Aneja, Jyoti and Yang, Jianwei and Jin, Ping and Hu, Houdong and Liu, Zicheng and Lee, Yong Jae and others",
+      "title": "Elevater: A benchmark and toolkit for evaluating language-augmented visual models",
+      "ENTRYTYPE": "article",
+      "ID": "li2022elevater"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2503.13111",
+      "author": "Daxberger, Erik and Wenzel, Nina and Griffiths, David and Gang, Haiming and Lazarow, Justin and Kohavi, Gefen and Kang, Kai and Eichner, Marcin and Yang, Yinfei and Dehghan, Afshin and others",
+      "title": "MM-Spatial: Exploring 3D Spatial Understanding in Multimodal LLMs",
+      "ENTRYTYPE": "article",
+      "ID": "daxberger2025mm"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2406.13642",
+      "author": "Cai, Wenxiao and Ponomarenko, Iaroslav and Yuan, Jianhao and Li, Xiaoqi and Yang, Wankou and Dong, Hao and Zhao, Bo",
+      "title": "Spatialbot: Precise spatial understanding with vision language models",
+      "ENTRYTYPE": "article",
+      "ID": "cai2024spatialbot"
+    },
+    {
+      "year": "2023",
+      "pages": "59662--59688",
+      "volume": "36",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Guo, Taicheng and Nan, Bozhao and Liang, Zhenwen and Guo, Zhichun and Chawla, Nitesh and Wiest, Olaf and Zhang, Xiangliang and others",
+      "title": "What can large language models do in chemistry? a comprehensive benchmark on eight tasks",
+      "ENTRYTYPE": "article",
+      "ID": "guo2023can"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2405.08748",
+      "author": "Li, Zhimin and Zhang, Jianwei and Lin, Qin and Xiong, Jiangfeng and Long, Yanxin and Deng, Xinchi and Zhang, Yingfang and Liu, Xingchao and Huang, Minbin and Xiao, Zedong and others",
+      "title": "Hunyuan-dit: A powerful multi-resolution diffusion transformer with fine-grained chinese understanding",
+      "ENTRYTYPE": "article",
+      "ID": "li2024hunyuan"
+    },
+    {
+      "howpublished": "\\url{https://openai.com/index/introducing-o3-and-o4-mini}",
+      "title": "Introducing openai o3 and o4-mini",
+      "year": "2025",
+      "author": "OpenAI",
+      "ENTRYTYPE": "misc",
+      "ID": "o4-mini"
+    },
+    {
+      "howpublished": "\\url{https://www.anthropic.com/news/claude-3-7-sonnet}",
+      "title": "Claude 3.7 Sonnet",
+      "year": "2025",
+      "author": "Anthropic",
+      "ENTRYTYPE": "misc",
+      "ID": "claude"
+    },
+    {
+      "year": "2021",
+      "journal": "arXiv preprint arXiv:2103.03874",
+      "author": "Hendrycks, Dan and Burns, Collin and Kadavath, Saurav and Arora, Akul and Basart, Steven and Tang, Eric and Song, Dawn and Steinhardt, Jacob",
+      "title": "Measuring mathematical problem solving with the math dataset",
+      "ENTRYTYPE": "article",
+      "ID": "hendrycks2021measuring"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2308.04371",
+      "author": "Zhang, Yifan and Yang, Jingqin and Yuan, Yang and Yao, Andrew Chi-Chih",
+      "title": "Cumulative reasoning with large language models",
+      "ENTRYTYPE": "article",
+      "ID": "zhang2023cumulative"
+    },
+    {
+      "url": "https://arxiv.org/abs/2411.09116",
+      "primaryclass": "cs.CL",
+      "archiveprefix": "arXiv",
+      "eprint": "2411.09116",
+      "year": "2024",
+      "author": "Yidan Zhang and Yu Wan and Boyi Deng and Baosong Yang and Haoran Wei and Fei Huang and Bowen Yu and Junyang Lin and Fei Huang and Jingren Zhou",
+      "title": "P-MMEval: A Parallel Multilingual Multitask Benchmark for Consistent Evaluation of LLMs",
+      "ENTRYTYPE": "misc",
+      "ID": "zhang2024pmmevalparallelmultilingualmultitask"
+    },
+    {
+      "year": "2021",
+      "journal": "arXiv preprint arXiv:2110.14168",
+      "author": "Cobbe, Karl and Kosaraju, Vineet and Bavarian, Mohammad and Chen, Mark and Jun, Heewoo and Kaiser, Lukasz and Plappert, Matthias and Tworek, Jerry and Hilton, Jacob and Nakano, Reiichiro and Hesse, Christopher and Schulman, John",
+      "title": "Training Verifiers to Solve Math Word Problems",
+      "ENTRYTYPE": "article",
+      "ID": "cobbe2021gsm8k"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2503.18071",
+      "author": "Lin, Zhiyu and Gao, Yifei and Zhao, Xian and Yang, Yunfan and Sang, Jitao",
+      "title": "Mind with eyes: from language reasoning to multimodal reasoning",
+      "ENTRYTYPE": "article",
+      "ID": "lin2025mind"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2503.12605",
+      "author": "Wang, Yaoting and Wu, Shengqiong and Zhang, Yuecheng and Yan, Shuicheng and Liu, Ziwei and Luo, Jiebo and Fei, Hao",
+      "title": "Multimodal chain-of-thought reasoning: A comprehensive survey",
+      "ENTRYTYPE": "article",
+      "ID": "wang2025multimodal"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2505.04921",
+      "author": "Li, Yunxin and Liu, Zhenyu and Li, Zitao and Zhang, Xuanyu and Xu, Zhenran and Chen, Xinyu and Shi, Haoyuan and Jiang, Shenyuan and Wang, Xintong and Wang, Jifang and others",
+      "title": "Perception, Reason, Think, and Plan: A Survey on Large Multimodal Reasoning Models",
+      "ENTRYTYPE": "article",
+      "ID": "li2025perception"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2312.08935",
+      "author": "Wang, Peiyi and Li, Lei and Shao, Zhihong and Xu, RX and Dai, Damai and Li, Yifei and Chen, Deli and Wu, Yu and Sui, Zhifang",
+      "title": "Math-shepherd: Verify and reinforce llms step-by-step without human annotations",
+      "ENTRYTYPE": "article",
+      "ID": "wang2023math"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2503.10291",
+      "author": "Wang, Weiyun and Gao, Zhangwei and Chen, Lianjie and Chen, Zhe and Zhu, Jinguo and Zhao, Xiangyu and Liu, Yangzhou and Cao, Yue and Ye, Shenglong and Zhu, Xizhou and others",
+      "title": "Visualprm: An effective process reward model for multimodal reasoning",
+      "ENTRYTYPE": "article",
+      "ID": "wang2025visualprm"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2408.15240",
+      "author": "Zhang, Lunjun and Hosseini, Arian and Bansal, Hritik and Kazemi, Mehran and Kumar, Aviral and Agarwal, Rishabh",
+      "title": "Generative verifiers: Reward modeling as next-token prediction",
+      "ENTRYTYPE": "article",
+      "ID": "zhang2024generative"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2306.15195",
+      "author": "Chen, Keqin and Zhang, Zhao and Zeng, Weili and Zhang, Richong and Zhu, Feng and Zhao, Rui",
+      "title": "Shikra: Unleashing multimodal llm's referential dialogue magic",
+      "ENTRYTYPE": "article",
+      "ID": "chen2023shikra"
+    },
+    {
+      "year": "2015",
+      "pages": "2641--2649",
+      "booktitle": "Proceedings of the IEEE international conference on computer vision",
+      "author": "Plummer, Bryan A and Wang, Liwei and Cervantes, Chris M and Caicedo, Juan C and Hockenmaier, Julia and Lazebnik, Svetlana",
+      "title": "Flickr30k entities: Collecting region-to-phrase correspondences for richer image-to-sentence models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "plummer2015flickr30k"
+    },
+    {
+      "howpublished": "\\url{https://blog.google/technology/google-deepmind/gemini-model-thinking-updates-march-2025}",
+      "title": "Gemini 2.5",
+      "year": "2025",
+      "author": "Google DeepMind",
+      "ENTRYTYPE": "misc",
+      "ID": "gemini"
+    },
+    {
+      "howpublished": "\\url{https://deepmind.google/technologies/gemini/flash}",
+      "title": "Gemini 2.5 Flash",
+      "year": "2025",
+      "author": "Google DeepMind",
+      "ENTRYTYPE": "misc",
+      "ID": "gemini-flash"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2406.06592",
+      "author": "Luo, Liangchen and Liu, Yinxiao and Liu, Rosanne and Phatale, Samrat and Guo, Meiqi and Lara, Harsh and Li, Yunxuan and Shu, Lei and Zhu, Yun and Meng, Lei and others",
+      "title": "Improve mathematical reasoning in language models by automated process supervision",
+      "ENTRYTYPE": "article",
+      "ID": "luo2024improve"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2407.00215",
+      "author": "McAleese, Nat and Pokorny, Rai Michael and Uribe, Juan Felipe Ceron and Nitishinskaya, Evgenia and Trebacz, Maja and Leike, Jan",
+      "title": "Llm critics help catch llm bugs",
+      "ENTRYTYPE": "article",
+      "ID": "mcaleese2024llm"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2406.12845",
+      "author": "Wang, Haoxiang and Xiong, Wei and Xie, Tengyang and Zhao, Han and Zhang, Tong",
+      "title": "Interpretable preferences via multi-objective reward modeling and mixture-of-experts",
+      "ENTRYTYPE": "article",
+      "ID": "wang2024interpretable"
+    },
+    {
+      "organization": "Springer",
+      "year": "2006",
+      "pages": "282--293",
+      "booktitle": "European conference on machine learning",
+      "author": "Kocsis, Levente and Szepesv{\\'a}ri, Csaba",
+      "title": "Bandit based monte-carlo planning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "kocsis2006bandit"
+    },
+    {
+      "organization": "Springer",
+      "year": "2006",
+      "pages": "72--83",
+      "booktitle": "International conference on computers and games",
+      "author": "Coulom, R{\\'e}mi",
+      "title": "Efficient selectivity and backup operators in Monte-Carlo tree search",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "coulom2006efficient"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2412.21187",
+      "author": "Chen, Xingyu and Xu, Jiahao and Liang, Tian and He, Zhiwei and Pang, Jianhui and Yu, Dian and Song, Linfeng and Liu, Qiuzhi and Zhou, Mengfei and Zhang, Zhuosheng and others",
+      "title": "Do not think that much for 2+ 3=? on the overthinking of o1-like llms",
+      "ENTRYTYPE": "article",
+      "ID": "chen2024not"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2504.06514",
+      "author": "Fan, Chenrui and Li, Ming and Sun, Lichao and Zhou, Tianyi",
+      "title": "Missing Premise exacerbates Overthinking: Are Reasoning Models losing Critical Thinking Skill?",
+      "ENTRYTYPE": "article",
+      "ID": "fan2025missing"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2310.01779",
+      "author": "Zhai, Bohan and Yang, Shijia and Xu, Chenfeng and Shen, Sheng and Keutzer, Kurt and Li, Chunyuan and Li, Manling",
+      "title": "HallE-Control: controlling object hallucination in large multimodal models",
+      "ENTRYTYPE": "article",
+      "ID": "zhai2023halle"
+    },
+    {
+      "year": "2024",
+      "pages": "525--534",
+      "booktitle": "Proceedings of the 32nd ACM International Conference on Multimedia",
+      "author": "Jiang, Chaoya and Jia, Hongrui and Dong, Mengfan and Ye, Wei and Xu, Haiyang and Yan, Ming and Zhang, Ji and Zhang, Shikun",
+      "title": "Hal-eval: A universal and fine-grained hallucination evaluation framework for large vision language models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "jiang2024hal"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2401.14011",
+      "author": "He, Zheqi and Wu, Xinya and Zhou, Pengfei and Xuan, Richeng and Liu, Guang and Yang, Xi and Zhu, Qiannan and Huang, Hua",
+      "title": "Cmmu: A benchmark for chinese multi-modal multi-type question understanding and reasoning",
+      "ENTRYTYPE": "article",
+      "ID": "he2024cmmu"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2505.02018",
+      "author": "Guo, Meng-Hao and Xu, Jiajun and Zhang, Yi and Song, Jiaxi and Peng, Haoyang and Deng, Yi-Xuan and Dong, Xinzhi and Nakayama, Kiyohiro and Geng, Zhengyang and Wang, Chen and others",
+      "title": "R-Bench: Graduate-level Multi-disciplinary Benchmarks for LLM \\& MLLM Complex Reasoning Evaluation",
+      "ENTRYTYPE": "article",
+      "ID": "guo2025r"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2409.02813",
+      "author": "Yue, Xiang and Zheng, Tianyu and Ni, Yuansheng and Wang, Yubo and Zhang, Kai and Tong, Shengbang and Sun, Yuxuan and Yu, Botao and Zhang, Ge and Sun, Huan and others",
+      "title": "Mmmu-pro: A more robust multi-discipline multimodal understanding benchmark",
+      "ENTRYTYPE": "article",
+      "ID": "yue2024mmmu"
+    },
+    {
+      "howpublished": "\\url{https://ysymyth.github.io/The-Second-Half}",
+      "title": "The Second Half",
+      "year": "2025",
+      "author": "Shunyu Yao",
+      "ENTRYTYPE": "misc",
+      "ID": "shunyu"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2402.14008",
+      "author": "He, Chaoqun and Luo, Renjie and Bai, Yuzhuo and Hu, Shengding and Thai, Zhen Leng and Shen, Junhao and Hu, Jinyi and Han, Xu and Huang, Yujie and Zhang, Yuxiang and others",
+      "title": "Olympiadbench: A challenging benchmark for promoting agi with olympiad-level bilingual multimodal scientific problems",
+      "ENTRYTYPE": "article",
+      "ID": "he2024olympiadbench"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2411.00836",
+      "author": "Zou, Chengke and Guo, Xingang and Yang, Rui and Zhang, Junyu and Hu, Bin and Zhang, Huan",
+      "title": "Dynamath: A dynamic visual benchmark for evaluating mathematical reasoning robustness of vision language models",
+      "ENTRYTYPE": "article",
+      "ID": "zou2024dynamath"
+    },
+    {
+      "year": "2023",
+      "booktitle": "The Twelfth International Conference on Learning Representations",
+      "author": "Lightman, Hunter and Kosaraju, Vineet and Burda, Yuri and Edwards, Harrison and Baker, Bowen and Lee, Teddy and Leike, Jan and Schulman, John and Sutskever, Ilya and Cobbe, Karl",
+      "title": "Let's verify step by step",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "lightman2023let"
+    },
+    {
+      "year": "2021",
+      "journal": "arXiv preprint arXiv:2110.14168",
+      "author": "Cobbe, Karl and Kosaraju, Vineet and Bavarian, Mohammad and Chen, Mark and Jun, Heewoo and Kaiser, Lukasz and Plappert, Matthias and Tworek, Jerry and Hilton, Jacob and Nakano, Reiichiro and others",
+      "title": "Training verifiers to solve math word problems",
+      "ENTRYTYPE": "article",
+      "ID": "cobbe2021training"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2503.04618",
+      "author": "Chen, Wenxiang and He, Wei and Xi, Zhiheng and Guo, Honglin and Hong, Boyang and Zhang, Jiazheng and Zheng, Rui and Li, Nijun and Gui, Tao and Li, Yun and others",
+      "title": "Better Process Supervision with Bi-directional Rewarding Signals",
+      "ENTRYTYPE": "article",
+      "ID": "chen2025better"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2410.11287",
+      "author": "Li, Wendi and Li, Yixuan",
+      "title": "Process reward model with q-value rankings",
+      "ENTRYTYPE": "article",
+      "ID": "li2024process"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2410.08146",
+      "author": "Setlur, Amrith and Nagpal, Chirag and Fisch, Adam and Geng, Xinyang and Eisenstein, Jacob and Agarwal, Rishabh and Agarwal, Alekh and Berant, Jonathan and Kumar, Aviral",
+      "title": "Rewarding progress: Scaling automated process verifiers for llm reasoning",
+      "ENTRYTYPE": "article",
+      "ID": "setlur2024rewarding"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2311.09724",
+      "author": "Yu, Fei and Gao, Anningzhe and Wang, Benyou",
+      "title": "Ovm, outcome-supervised value models for planning in mathematical reasoning",
+      "ENTRYTYPE": "article",
+      "ID": "yu2023ovm"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2310.05910",
+      "author": "Sun, Zhiqing and Shen, Yikang and Zhang, Hongxin and Zhou, Qinhong and Chen, Zhenfang and Cox, David and Yang, Yiming and Gan, Chuang",
+      "title": "SALMON: Self-alignment with instructable reward models",
+      "ENTRYTYPE": "article",
+      "ID": "sun2023salmon"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2212.08073",
+      "author": "Bai, Yuntao and Kadavath, Saurav and Kundu, Sandipan and Askell, Amanda and Kernion, Jackson and Jones, Andy and Chen, Anna and Goldie, Anna and Mirhoseini, Azalia and McKinnon, Cameron and others",
+      "title": "Constitutional ai: Harmlessness from ai feedback",
+      "ENTRYTYPE": "article",
+      "ID": "bai2022constitutional"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2403.07708",
+      "author": "Shen, Wei and Zhang, Xiaoying and Yao, Yuanshun and Zheng, Rui and Guo, Hongyi and Liu, Yang",
+      "title": "Improving reinforcement learning from human feedback using contrastive rewards",
+      "ENTRYTYPE": "article",
+      "ID": "shen2024improving"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2411.10442",
+      "author": "Wang, Weiyun and Chen, Zhe and Wang, Wenhai and Cao, Yue and Liu, Yangzhou and Gao, Zhangwei and Zhu, Jinguo and Zhu, Xizhou and Lu, Lewei and Qiao, Yu and Dai, Jifeng",
+      "title": "Enhancing the Reasoning Ability of Multimodal Large Language Models via Mixed Preference Optimization",
+      "ENTRYTYPE": "article",
+      "ID": "wang2024mpo"
+    },
+    {
+      "year": "2024",
+      "month": "December",
+      "author": "Qwen Team",
+      "url": "https://qwenlm.github.io/blog/qvq-72b-preview/",
+      "title": "QVQ: To See the World with Wisdom",
+      "ENTRYTYPE": "misc",
+      "ID": "qvq-72b-preview"
+    },
+    {
+      "howpublished": "\\url{https://internvl.github.io/blog/2025-04-11-InternVL-3.0}",
+      "title": "InternVL3: Advancing Open-Source Multimodal Models with Native Multimodal Pretraining",
+      "year": "2025",
+      "author": "OpenGVLab Team",
+      "ENTRYTYPE": "misc",
+      "ID": "internvl3"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2404.14219",
+      "author": "Abdin, Marah and Aneja, Jyoti and Awadalla, Hany and Awadallah, Ahmed and Awan, Ammar Ahmad and Bach, Nguyen and Bahree, Amit and Bakhtiari, Arash and Bao, Jianmin and Behl, Harkirat and others",
+      "title": "Phi-3 technical report: A highly capable language model locally on your phone",
+      "ENTRYTYPE": "article",
+      "ID": "abdin2024phi"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2503.01743",
+      "author": "Abouelenin, Abdelrahman and Ashfaq, Atabak and Atkinson, Adam and Awadalla, Hany and Bach, Nguyen and Bao, Jianmin and Benhaim, Alon and Cai, Martin and Chaudhary, Vishrav and Chen, Congcong and others",
+      "title": "Phi-4-mini technical report: Compact yet powerful multimodal language models via mixture-of-loras",
+      "ENTRYTYPE": "article",
+      "ID": "abouelenin2025phi"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2408.03326",
+      "author": "Li, Bo and Zhang, Yuanhan and Guo, Dong and Zhang, Renrui and Li, Feng and Zhang, Hao and Zhang, Kaichen and Zhang, Peiyuan and Li, Yanwei and Liu, Ziwei and others",
+      "title": "Llava-onevision: Easy visual task transfer",
+      "ENTRYTYPE": "article",
+      "ID": "li2024llava"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2503.04697",
+      "author": "Aggarwal, Pranjal and Welleck, Sean",
+      "title": "L1: Controlling how long a reasoning model thinks with reinforcement learning",
+      "ENTRYTYPE": "article",
+      "ID": "aggarwal2025l1"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2501.19393",
+      "author": "Muennighoff, Niklas and Yang, Zitong and Shi, Weijia and Li, Xiang Lisa and Fei-Fei, Li and Hajishirzi, Hannaneh and Zettlemoyer, Luke and Liang, Percy and Cand{\\`e}s, Emmanuel and Hashimoto, Tatsunori",
+      "title": "s1: Simple test-time scaling",
+      "ENTRYTYPE": "article",
+      "ID": "muennighoff2025s1"
+    },
+    {
+      "url": "https://arxiv.org/abs/2505.09388",
+      "primaryclass": "cs.CL",
+      "archiveprefix": "arXiv",
+      "eprint": "2505.09388",
+      "year": "2025",
+      "author": "An Yang and Anfeng Li and Baosong Yang and Beichen Zhang and Binyuan Hui and Bo Zheng and Bowen Yu and Chang Gao and Chengen Huang and Chenxu Lv and Chujie Zheng and Dayiheng Liu and Fan Zhou and Fei Huang and Feng Hu and Hao Ge and Haoran Wei and Huan Lin and Jialong Tang and Jian Yang and Jianhong Tu and Jianwei Zhang and Jianxin Yang and Jiaxi Yang and Jing Zhou and Jingren Zhou and Junyang Lin and Kai Dang and Keqin Bao and Kexin Yang and Le Yu and Lianghao Deng and Mei Li and Mingfeng Xue and Mingze Li and Pei Zhang and Peng Wang and Qin Zhu and Rui Men and Ruize Gao and Shixuan Liu and Shuang Luo and Tianhao Li and Tianyi Tang and Wenbiao Yin and Xingzhang Ren and Xinyu Wang and Xinyu Zhang and Xuancheng Ren and Yang Fan and Yang Su and Yichang Zhang and Yinger Zhang and Yu Wan and Yuqiong Liu and Zekun Wang and Zeyu Cui and Zhenru Zhang and Zhipeng Zhou and Zihan Qiu",
+      "title": "Qwen3 Technical Report",
+      "ENTRYTYPE": "misc",
+      "ID": "yang2025qwen3technicalreport"
+    },
+    {
+      "year": "2015",
+      "journal": "UNESCO Institute for Statistics",
+      "author": "UNESCO",
+      "title": "International Standard Classification of Education. Fields of education and training 2013 (ISCED F 2013). Detailed field descriptions",
+      "ENTRYTYPE": "article",
+      "ID": "unesco"
+    },
+    {
+      "url": "http://arxiv.org/abs/2403.13372",
+      "year": "2024",
+      "publisher": "Association for Computational Linguistics",
+      "address": "Bangkok, Thailand",
+      "booktitle": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 3: System Demonstrations)",
+      "author": "Yaowei Zheng and Richong Zhang and Junhao Zhang and Yanhan Ye and Zheyan Luo and Zhangchi Feng and Yongqiang Ma",
+      "title": "LlamaFactory: Unified Efficient Fine-Tuning of 100+ Language Models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zheng2024llamafactory"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2412.19437",
+      "author": "Liu, Aixin and Feng, Bei and Xue, Bing and Wang, Bingxuan and Wu, Bochao and Lu, Chengda and Zhao, Chenggang and Deng, Chengqi and Zhang, Chenyu and Ruan, Chong and others",
+      "title": "Deepseek-v3 technical report",
+      "ENTRYTYPE": "article",
+      "ID": "liu2024deepseek"
+    },
+    {
+      "year": "2024",
+      "volume": "3",
+      "journal": "arXiv preprint arXiv:2401.08967",
+      "author": "Luong, Trung Quoc and Zhang, Xinbo and Jie, Zhanming and Sun, Peng and Jin, Xiaoran and Li, Hang",
+      "title": "Reft: Reasoning with reinforced fine-tuning",
+      "ENTRYTYPE": "article",
+      "ID": "luong2024reft"
+    },
+    {
+      "year": "2024",
+      "booktitle": "AI for Accelerated Materials Design-Vienna 2024",
+      "author": "Li, Zekun and Yang, Xianjun and Choi, Kyuri and Zhu, Wanrong and Hsieh, Ryan and Kim, HyeonJung and Lim, Jin Hyuk and Ji, Sungyoung and Lee, Byungju and Yan, Xifeng and others",
+      "title": "Mmsci: A multimodal multi-discipline dataset for phd-level scientific comprehension",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "li2024mmsci"
+    },
+    {
+      "url": "https://arxiv.org/abs/2408.05517",
+      "primaryclass": "cs.CL",
+      "archiveprefix": "arXiv",
+      "eprint": "2408.05517",
+      "year": "2024",
+      "author": "Yuze Zhao and Jintao Huang and Jinghan Hu and Xingjun Wang and Yunlin Mao and Daoze Zhang and Zeyinzi Jiang and Zhikai Wu and Baole Ai and Ang Wang and Wenmeng Zhou and Yingda Chen",
+      "title": "SWIFT:A Scalable lightWeight Infrastructure for Fine-Tuning",
+      "ENTRYTYPE": "misc",
+      "ID": "zhao2024swiftascalablelightweightinfrastructure"
+    },
+    {
+      "year": "2023",
+      "booktitle": "Proceedings of the ACM SIGOPS 29th Symposium on Operating Systems Principles",
+      "author": "Woosuk Kwon and Zhuohan Li and Siyuan Zhuang and Ying Sheng and Lianmin Zheng and Cody Hao Yu and Joseph E. Gonzalez and Hao Zhang and Ion Stoica",
+      "title": "Efficient Memory Management for Large Language Model Serving with PagedAttention",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "kwon2023efficient"
+    }
+  ]
+}

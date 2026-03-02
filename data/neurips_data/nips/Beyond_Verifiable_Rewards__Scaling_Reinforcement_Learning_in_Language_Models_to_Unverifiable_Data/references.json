@@ -1,0 +1,2274 @@
+{
+  "pdf_url": "https://arxiv.org/pdf/2503.19618v2.pdf",
+  "references": [
+    {
+      "year": "2013",
+      "journal": "arXiv preprint arXiv:1312.5602",
+      "author": "Mnih, Volodymyr and Kavukcuoglu, Koray and Silver, David and Graves, Alex and Antonoglou, Ioannis and Wierstra, Daan and Riedmiller, Martin",
+      "title": "Playing atari with deep reinforcement learning",
+      "ENTRYTYPE": "article",
+      "ID": "mnih2013"
+    },
+    {
+      "publisher": "Springer",
+      "year": "1998",
+      "pages": "3--17",
+      "booktitle": "Learning to learn",
+      "author": "Thrun, Sebastian and Pratt, Lorien",
+      "title": "Learning to learn: Introduction and overview",
+      "ENTRYTYPE": "incollection",
+      "ID": "thrun1998learning"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2408.14511",
+      "author": "Hu, Xinyang and Zhang, Fengzhuo and Chen, Siyu and Yang, Zhuoran",
+      "title": "Unveiling the statistical foundations of chain-of-thought prompting methods",
+      "ENTRYTYPE": "article",
+      "ID": "hu2024unveiling"
+    },
+    {
+      "year": "2024",
+      "volume": "36",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Hoffman, Matthew Douglas and Phan, Du and Dohan, David and Douglas, Sholto and Le, Tuan Anh and Parisi, Aaron and Sountsov, Pavel and Sutton, Charles and Vikram, Sharad and A Saurous, Rif",
+      "title": "Training chain-of-thought via latent-variable inference",
+      "ENTRYTYPE": "article",
+      "ID": "hoffman2024training"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2016",
+      "pages": "324--333",
+      "booktitle": "International conference on machine learning",
+      "author": "Ranganath, Rajesh and Tran, Dustin and Blei, David",
+      "title": "Hierarchical variational models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ranganath2016hierarchical"
+    },
+    {
+      "publisher": "Taylor \\& Francis",
+      "year": "2017",
+      "pages": "859--877",
+      "number": "518",
+      "volume": "112",
+      "journal": "Journal of the American statistical Association",
+      "author": "Blei, David M and Kucukelbir, Alp and McAuliffe, Jon D",
+      "title": "Variational inference: A review for statisticians",
+      "ENTRYTYPE": "article",
+      "ID": "blei2017variational"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "1996",
+      "pages": "47--60",
+      "number": "6",
+      "volume": "13",
+      "journal": "IEEE Signal processing magazine",
+      "author": "Moon, Todd K",
+      "title": "The expectation-maximization algorithm",
+      "ENTRYTYPE": "article",
+      "ID": "moon1996expectation"
+    },
+    {
+      "year": "2022",
+      "pages": "15476--15488",
+      "volume": "35",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Zelikman, Eric and Wu, Yuhuai and Mu, Jesse and Goodman, Noah",
+      "title": "Star: Bootstrapping reasoning with reasoning",
+      "ENTRYTYPE": "article",
+      "ID": "zelikman2022star"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2308.08998",
+      "author": "Gulcehre, Caglar and Paine, Tom Le and Srinivasan, Srivatsan and Konyushkova, Ksenia and Weerts, Lotte and Sharma, Abhishek and Siddhant, Aditya and Ahern, Alex and Wang, Miaosen and Gu, Chenjie and others",
+      "title": "Reinforced self-training (rest) for language modeling",
+      "ENTRYTYPE": "article",
+      "ID": "gulcehre2023reinforced"
+    },
+    {
+      "year": "2017",
+      "journal": "arXiv preprint arXiv:1705.04146",
+      "author": "Ling, Wang and Yogatama, Dani and Dyer, Chris and Blunsom, Phil",
+      "title": "Program induction by rationale generation: Learning to solve and explain algebraic word problems",
+      "ENTRYTYPE": "article",
+      "ID": "ling2017program"
+    },
+    {
+      "year": "2022",
+      "pages": "24824--24837",
+      "volume": "35",
+      "journal": "Advances in neural information processing systems",
+      "author": "Wei, Jason and Wang, Xuezhi and Schuurmans, Dale and Bosma, Maarten and Xia, Fei and Chi, Ed and Le, Quoc V and Zhou, Denny and others",
+      "title": "Chain-of-thought prompting elicits reasoning in large language models",
+      "ENTRYTYPE": "article",
+      "ID": "wei2022chain"
+    },
+    {
+      "year": "2024",
+      "volume": "36",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Sordoni, Alessandro and Yuan, Eric and C{\\^o}t{\\'e}, Marc-Alexandre and Pereira, Matheus and Trischler, Adam and Xiao, Ziang and Hosseini, Arian and Niedtner, Friederike and Le Roux, Nicolas",
+      "title": "Joint prompt optimization of stacked llms using variational inference",
+      "ENTRYTYPE": "article",
+      "ID": "sordoni2024joint"
+    },
+    {
+      "year": "2021",
+      "journal": "arXiv preprint arXiv:2103.03874",
+      "author": "Hendrycks, Dan and Burns, Collin and Kadavath, Saurav and Arora, Akul and Basart, Steven and Tang, Eric and Song, Dawn and Steinhardt, Jacob",
+      "title": "Measuring mathematical problem solving with the math dataset",
+      "ENTRYTYPE": "article",
+      "ID": "hendrycks2021measuring"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2412.08819",
+      "author": "Yue, Albert S and Madaan, Lovish and Moskovitz, Ted and Strouse, DJ and Singh, Aaditya K",
+      "title": "HARP: A challenging human-annotated math reasoning benchmark",
+      "ENTRYTYPE": "article",
+      "ID": "yue2024harp"
+    },
+    {
+      "year": "2018",
+      "journal": "arXiv preprint arXiv:1804.03599",
+      "author": "Burgess, Christopher P and Higgins, Irina and Pal, Arka and Matthey, Loic and Watters, Nick and Desjardins, Guillaume and Lerchner, Alexander",
+      "title": "Understanding disentangling in $$\\backslash$beta $-VAE",
+      "ENTRYTYPE": "article",
+      "ID": "burgess2018understanding"
+    },
+    {
+      "publisher": "Springer-Verlag New York",
+      "year": "1999",
+      "author": "Robert, CP",
+      "title": "Monte Carlo Statistical Methods",
+      "ENTRYTYPE": "misc",
+      "ID": "robert1999monte"
+    },
+    {
+      "year": "2006",
+      "author": "Blei, David M and Jordan, Michael I",
+      "title": "Variational inference for Dirichlet process mixtures",
+      "ENTRYTYPE": "article",
+      "ID": "blei2006variational"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2211.14275",
+      "author": "Uesato, Jonathan and Kushman, Nate and Kumar, Ramana and Song, Francis and Siegel, Noah and Wang, Lisa and Creswell, Antonia and Irving, Geoffrey and Higgins, Irina",
+      "title": "Solving math word problems with process-and outcome-based feedback",
+      "ENTRYTYPE": "article",
+      "ID": "uesato2022solving"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2305.20050",
+      "author": "Lightman, Hunter and Kosaraju, Vineet and Burda, Yura and Edwards, Harri and Baker, Bowen and Lee, Teddy and Leike, Jan and Schulman, John and Sutskever, Ilya and Cobbe, Karl",
+      "title": "Let's verify step by step",
+      "ENTRYTYPE": "article",
+      "ID": "lightman2023let"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2410.02089",
+      "author": "Gehring, Jonas and Zheng, Kunhao and Copet, Jade and Mella, Vegard and Cohen, Taco and Synnaeve, Gabriel",
+      "title": "Rlef: Grounding code llms in execution feedback with reinforcement learning",
+      "ENTRYTYPE": "article",
+      "ID": "gehring2024rlef"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2303.08774",
+      "author": "Achiam, Josh and Adler, Steven and Agarwal, Sandhini and Ahmad, Lama and Akkaya, Ilge and Aleman, Florencia Leoni and Almeida, Diogo and Altenschmidt, Janko and Altman, Sam and Anadkat, Shyamal and others",
+      "title": "Gpt-4 technical report",
+      "ENTRYTYPE": "article",
+      "ID": "achiam2023gpt"
+    },
+    {
+      "year": "2022",
+      "pages": "27730--27744",
+      "volume": "35",
+      "journal": "Advances in neural information processing systems",
+      "author": "Ouyang, Long and Wu, Jeffrey and Jiang, Xu and Almeida, Diogo and Wainwright, Carroll and Mishkin, Pamela and Zhang, Chong and Agarwal, Sandhini and Slama, Katarina and Ray, Alex and others",
+      "title": "Training language models to follow instructions with human feedback",
+      "ENTRYTYPE": "article",
+      "ID": "ouyang2022training"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2411.15124",
+      "author": "Lambert, Nathan and Morrison, Jacob and Pyatkin, Valentina and Huang, Shengyi and Ivison, Hamish and Brahman, Faeze and Miranda, Lester James V and Liu, Alisa and Dziri, Nouha and Lyu, Shane and others",
+      "title": "T$\\backslash$\" ulu 3: Pushing frontiers in open language model post-training",
+      "ENTRYTYPE": "article",
+      "ID": "lambert2024t"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2502.18449",
+      "author": "Wei, Yuxiang and Duchenne, Olivier and Copet, Jade and Carbonneaux, Quentin and Zhang, Lingming and Fried, Daniel and Synnaeve, Gabriel and Singh, Rishabh and Wang, Sida I",
+      "title": "Swe-rl: Advancing llm reasoning via reinforcement learning on open software evolution",
+      "ENTRYTYPE": "article",
+      "ID": "wei2025swe"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2503.20783",
+      "author": "Liu, Zichen and Chen, Changyu and Li, Wenjun and Qi, Penghui and Pang, Tianyu and Du, Chao and Lee, Wee Sun and Lin, Min",
+      "title": "Understanding r1-zero-like training: A critical perspective",
+      "ENTRYTYPE": "article",
+      "ID": "liu2025understanding"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2503.22828",
+      "author": "Gurung, Alexander and Lapata, Mirella",
+      "title": "Learning to Reason for Long-Form Story Generation",
+      "ENTRYTYPE": "article",
+      "ID": "gurung2025learning"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2406.19188",
+      "author": "Grinsztajn, Nathan and Flet-Berliac, Yannis and Azar, Mohammad Gheshlaghi and Strub, Florian and Wu, Bill and Choi, Eugene and Cremer, Chris and Ahmadian, Arash and Chandak, Yash and Pietquin, Olivier and others",
+      "title": "Averaging log-likelihoods in direct alignment",
+      "ENTRYTYPE": "article",
+      "ID": "grinsztajn2024averaging"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2503.21934",
+      "author": "Petrov, Ivo and Dekoninck, Jasper and Baltadzhiev, Lyuben and Drencheva, Maria and Minchev, Kristian and Balunovi{\\'c}, Mislav and Jovanovi{\\'c}, Nikola and Vechev, Martin",
+      "title": "Proof or bluff? evaluating llms on 2025 usa math olympiad",
+      "ENTRYTYPE": "article",
+      "ID": "petrov2025proof"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2503.23829",
+      "author": "Su, Yi and Yu, Dian and Song, Linfeng and Li, Juntao and Mi, Haitao and Tu, Zhaopeng and Zhang, Min and Yu, Dong",
+      "title": "Expanding RL with Verifiable Rewards Across Diverse Domains",
+      "ENTRYTYPE": "article",
+      "ID": "su2025expanding"
+    },
+    {
+      "year": "2017",
+      "volume": "30",
+      "journal": "Advances in neural information processing systems",
+      "author": "Christiano, Paul F and Leike, Jan and Brown, Tom and Martic, Miljan and Legg, Shane and Amodei, Dario",
+      "title": "Deep reinforcement learning from human preferences",
+      "ENTRYTYPE": "article",
+      "ID": "christiano2017deep"
+    },
+    {
+      "year": "2018",
+      "journal": "arXiv preprint arXiv:1810.04152",
+      "author": "Tucker, George and Lawson, Dieterich and Gu, Shixiang and Maddison, Chris J",
+      "title": "Doubly reparameterized gradient estimators for monte carlo objectives",
+      "ENTRYTYPE": "article",
+      "ID": "tucker2018doubly"
+    },
+    {
+      "publisher": "Citeseer",
+      "year": "1990",
+      "author": "Bengio, Yoshua and Bengio, Samy and Cloutier, Jocelyn",
+      "title": "Learning a synaptic learning rule",
+      "ENTRYTYPE": "book",
+      "ID": "bengio1990learning"
+    },
+    {
+      "year": "2021",
+      "journal": "arXiv preprint arXiv:2102.12425",
+      "author": "Raposo, David and Ritter, Sam and Santoro, Adam and Wayne, Greg and Weber, Theophane and Botvinick, Matt and van Hasselt, Hado and Song, Francis",
+      "title": "Synthetic Returns for Long-Term Credit Assignment",
+      "ENTRYTYPE": "article",
+      "ID": "raposo2021synthetic"
+    },
+    {
+      "publisher": "IDSIA",
+      "year": "1996",
+      "pages": "1--23",
+      "volume": "69",
+      "journal": "Technical report IDSIA",
+      "author": "Schmidhuber, Juergen and Zhao, Jieyu and Wiering, MA",
+      "title": "Simple principles of metalearning",
+      "ENTRYTYPE": "article",
+      "ID": "schmidhuber1996simple"
+    },
+    {
+      "year": "1965",
+      "pages": "155--164",
+      "volume": "11",
+      "journal": "Analele Stiintifice Univ.“Al. I. Cuza”, Iasi, Sectia Mat",
+      "author": "Popoviciu, Tiberiu",
+      "title": "Sur certaines in{\\'e}galit{\\'e}s qui caract{\\'e}risent les fonctions convexes",
+      "ENTRYTYPE": "article",
+      "ID": "popoviciu1965certaines"
+    },
+    {
+      "publisher": "Academic Press",
+      "year": "2002",
+      "author": "Ross, SM",
+      "title": "Simulation, 2002",
+      "ENTRYTYPE": "misc",
+      "ID": "ross6277simulation"
+    },
+    {
+      "year": "2020",
+      "journal": "arXiv preprint arXiv:2008.00051",
+      "author": "Ajalloeian, Ahmad and Stich, Sebastian U",
+      "title": "Analysis of SGD with biased gradient estimators",
+      "ENTRYTYPE": "article",
+      "ID": "ajalloeian2020analysis"
+    },
+    {
+      "year": "2018",
+      "journal": "arXiv preprint arXiv:1803.02999",
+      "author": "Nichol, Alex and Achiam, Joshua and Schulman, John",
+      "title": "On first-order meta-learning algorithms",
+      "ENTRYTYPE": "article",
+      "ID": "nichol2018first"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2403.09629",
+      "author": "Zelikman, Eric and Harik, Georges and Shao, Yijia and Jayasiri, Varuna and Haber, Nick and Goodman, Noah D",
+      "title": "Quiet-star: Language models can teach themselves to think before speaking",
+      "ENTRYTYPE": "article",
+      "ID": "zelikman2024quiet"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2016",
+      "pages": "2139--2148",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Thomas, Philip and Brunskill, Emma",
+      "title": "Data-efficient off-policy policy evaluation for reinforcement learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "thomas2016data"
+    },
+    {
+      "howpublished": "\\url{[https://huggingface.co/AI-MO/NuminaMath-1.5](https://github.com/project-numina/aimo-progress-prize/blob/main/report/numina_dataset.pdf)}",
+      "journal": "Hugging Face repository",
+      "publisher": "Numina",
+      "year": "2024",
+      "title": "NuminaMath",
+      "author": "Jia LI and Edward Beeching and Lewis Tunstall and Ben Lipkin and Roman Soletskyi and Shengyi Costa Huang and Kashif Rasul and Longhui Yu and Albert Jiang and Ziju Shen and Zihan Qin and Bin Dong and Li Zhou and Yann Fleureau and Guillaume Lample and Stanislas Polu",
+      "ENTRYTYPE": "misc",
+      "ID": "numina_math_datasets"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2503.19595",
+      "author": "Tang, Yunhao and Zheng, Kunhao and Synnaeve, Gabriel and Munos, R{\\'e}mi",
+      "title": "Optimizing Language Models for Inference Time Objectives using Reinforcement Learning",
+      "ENTRYTYPE": "article",
+      "ID": "tang2025optimizing"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2020",
+      "pages": "4434--4443",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Huang, Jiawei and Jiang, Nan",
+      "title": "From importance sampling to doubly robust policy gradient",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "huang2020importance"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2016",
+      "pages": "652--661",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Jiang, Nan and Li, Lihong",
+      "title": "Doubly robust off-policy value evaluation for reinforcement learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "jiang2016doubly"
+    },
+    {
+      "year": "2016",
+      "pages": "1054--1062",
+      "booktitle": "Advances in Neural Information Processing Systems",
+      "author": "Munos, R{\\'e}mi and Stepleton, Tom and Harutyunyan, Anna and Bellemare, Marc",
+      "title": "Safe and efficient off-policy reinforcement learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "munos2016safe"
+    },
+    {
+      "year": "2018",
+      "author": "Kapturowski, Steven and Ostrovski, Georg and Quan, John and Munos, Remi and Dabney, Will",
+      "title": "Recurrent experience replay in distributed reinforcement learning",
+      "ENTRYTYPE": "article",
+      "ID": "kapturowski2018recurrent"
+    },
+    {
+      "year": "2018",
+      "journal": "arXiv preprint arXiv:1804.08617",
+      "author": "Barth-Maron, Gabriel and Hoffman, Matthew W and Budden, David and Dabney, Will and Horgan, Dan and Tb, Dhruva and Muldal, Alistair and Heess, Nicolas and Lillicrap, Timothy",
+      "title": "Distributed distributional deterministic policy gradients",
+      "ENTRYTYPE": "article",
+      "ID": "barth2018distributed"
+    },
+    {
+      "year": "2018",
+      "journal": "arXiv preprint arXiv:1806.05635",
+      "author": "Oh, Junhyuk and Guo, Yijie and Singh, Satinder and Lee, Honglak",
+      "title": "Self-imitation learning",
+      "ENTRYTYPE": "article",
+      "ID": "oh2018self"
+    },
+    {
+      "year": "2019",
+      "journal": "arXiv preprint arXiv:1910.07478",
+      "author": "Rowland, Mark and Dabney, Will and Munos, R{\\'e}mi",
+      "title": "Adaptive Trade-Offs in Off-Policy Learning",
+      "ENTRYTYPE": "article",
+      "ID": "rowland2019adaptive"
+    },
+    {
+      "publisher": "Nature Research",
+      "year": "2016",
+      "pages": "484--489",
+      "number": "7587",
+      "volume": "529",
+      "journal": "nature",
+      "author": "Silver, David and Huang, Aja and Maddison, Chris J and Guez, Arthur and Sifre, Laurent and Van Den Driessche, George and Schrittwieser, Julian and Antonoglou, Ioannis and Panneershelvam, Veda and Lanctot, Marc and others",
+      "title": "Mastering the game of Go with deep neural networks and tree search",
+      "ENTRYTYPE": "article",
+      "ID": "silver2016"
+    },
+    {
+      "year": "2017",
+      "journal": "arXiv preprint arXiv:1703.03864",
+      "author": "Salimans, Tim and Ho, Jonathan and Chen, Xi and Sidor, Szymon and Sutskever, Ilya",
+      "title": "Evolution strategies as a scalable alternative to reinforcement learning",
+      "ENTRYTYPE": "article",
+      "ID": "salimans2017evolution"
+    },
+    {
+      "year": "2018",
+      "pages": "1188--1200",
+      "booktitle": "Advances in Neural Information Processing Systems",
+      "author": "Khadka, Shauharda and Tumer, Kagan",
+      "title": "Evolution-guided policy gradient in reinforcement learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "khadka2018evolution"
+    },
+    {
+      "year": "2017",
+      "pages": "2775--2785",
+      "booktitle": "Advances in Neural Information Processing Systems",
+      "author": "Nachum, Ofir and Norouzi, Mohammad and Xu, Kelvin and Schuurmans, Dale",
+      "title": "Bridging the gap between value and policy based reinforcement learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "nachum2017bridging"
+    },
+    {
+      "year": "2018",
+      "journal": "arXiv preprint arXiv:1801.00690",
+      "author": "Tassa, Yuval and Doron, Yotam and Muldal, Alistair and Erez, Tom and Li, Yazhe and Casas, Diego de Las and Budden, David and Abdolmaleki, Abbas and Merel, Josh and Lefrancq, Andrew and others",
+      "title": "Deepmind control suite",
+      "ENTRYTYPE": "article",
+      "ID": "tassa2018deepmind"
+    },
+    {
+      "year": "2017",
+      "author": "Klimov, Oleg and Schulman, John",
+      "title": "Roboschool",
+      "ENTRYTYPE": "misc",
+      "ID": "klimov2017roboschool"
+    },
+    {
+      "year": "2010",
+      "pages": "2613--2621",
+      "booktitle": "Advances in neural information processing systems",
+      "author": "Hasselt, Hado V",
+      "title": "Double Q-learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "hasselt2010double"
+    },
+    {
+      "year": "2016",
+      "booktitle": "Thirtieth AAAI conference on artificial intelligence",
+      "author": "Van Hasselt, Hado and Guez, Arthur and Silver, David",
+      "title": "Deep reinforcement learning with double q-learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "van2016deep"
+    },
+    {
+      "year": "2010",
+      "pages": "84",
+      "number": "3",
+      "volume": "1",
+      "journal": "Open Source Software: http://bulletphysics. org",
+      "author": "Coumans, Erwin",
+      "title": "Bullet physics engine",
+      "ENTRYTYPE": "article",
+      "ID": "coumans2010bullet"
+    },
+    {
+      "publisher": "JSTOR",
+      "year": "1957",
+      "pages": "679--684",
+      "journal": "Journal of mathematics and mechanics",
+      "author": "Bellman, Richard",
+      "title": "A Markovian decision process",
+      "ENTRYTYPE": "article",
+      "ID": "bellman1957markovian"
+    },
+    {
+      "year": "2018",
+      "journal": "arXiv preprint arXiv:1810.01222",
+      "author": "Pourchot, Alo{\\\"\\i}s and Sigaud, Olivier",
+      "title": "CEM-RL: Combining evolutionary and gradient-based methods for policy search",
+      "ENTRYTYPE": "article",
+      "ID": "pourchot2018cem"
+    },
+    {
+      "year": "2018",
+      "pages": "2396--2407",
+      "booktitle": "Advances in neural information processing systems",
+      "author": "Xu, Zhongwen and van Hasselt, Hado P and Silver, David",
+      "title": "Meta-gradient reinforcement learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "xu2018meta"
+    },
+    {
+      "year": "2019",
+      "journal": "arXiv preprint arXiv:1902.06583",
+      "author": "Paul, Supratik and Kurin, Vitaly and Whiteson, Shimon",
+      "title": "Fast efficient hyperparameter tuning for policy gradients",
+      "ENTRYTYPE": "article",
+      "ID": "paul2019fast"
+    },
+    {
+      "year": "2018",
+      "journal": "arXiv preprint arXiv:1802.09477",
+      "author": "Fujimoto, Scott and Van Hoof, Herke and Meger, David",
+      "title": "Addressing function approximation error in actor-critic methods",
+      "ENTRYTYPE": "article",
+      "ID": "fujimoto2018addressing"
+    },
+    {
+      "year": "2018",
+      "journal": "arXiv preprint arXiv:1812.02648",
+      "author": "Van Hasselt, Hado and Doron, Yotam and Strub, Florian and Hessel, Matteo and Sonnerat, Nicolas and Modayil, Joseph",
+      "title": "Deep reinforcement learning and the deadly triad",
+      "ENTRYTYPE": "article",
+      "ID": "van2018deep"
+    },
+    {
+      "year": "2018",
+      "journal": "arXiv preprint arXiv:1801.01290",
+      "author": "Haarnoja, Tuomas and Zhou, Aurick and Abbeel, Pieter and Levine, Sergey",
+      "title": "Soft actor-critic: Off-policy maximum entropy deep reinforcement learning with a stochastic actor",
+      "ENTRYTYPE": "article",
+      "ID": "haarnoja2018soft"
+    },
+    {
+      "year": "2015",
+      "journal": "arXiv preprint arXiv:1509.02971",
+      "author": "Lillicrap, Timothy P and Hunt, Jonathan J and Pritzel, Alexander and Heess, Nicolas and Erez, Tom and Tassa, Yuval and Silver, David and Wierstra, Daan",
+      "title": "Continuous control with deep reinforcement learning",
+      "ENTRYTYPE": "article",
+      "ID": "lillicrap2015continuous"
+    },
+    {
+      "year": "2015",
+      "journal": "arXiv preprint arXiv:1511.05952",
+      "author": "Schaul, Tom and Quan, John and Antonoglou, Ioannis and Silver, David",
+      "title": "Prioritized experience replay",
+      "ENTRYTYPE": "article",
+      "ID": "schaul2015prioritized"
+    },
+    {
+      "year": "2018",
+      "journal": "GitHub, GitHub repository",
+      "author": "Achiam, Joshua",
+      "title": "Openai Spinning Up",
+      "ENTRYTYPE": "article",
+      "ID": "achiam2018openai"
+    },
+    {
+      "year": "2018",
+      "journal": "arXiv preprint arXiv:1803.00933",
+      "author": "Horgan, Dan and Quan, John and Budden, David and Barth-Maron, Gabriel and Hessel, Matteo and Van Hasselt, Hado and Silver, David",
+      "title": "Distributed prioritized experience replay",
+      "ENTRYTYPE": "article",
+      "ID": "horgan2018distributed"
+    },
+    {
+      "year": "2019",
+      "journal": "arXiv preprint arXiv:1905.11108",
+      "author": "Reddy, Siddharth and Dragan, Anca D and Levine, Sergey",
+      "title": "SQIL: imitation learning via regularized behavioral cloning",
+      "ENTRYTYPE": "article",
+      "ID": "reddy2019sqil"
+    },
+    {
+      "year": "2001",
+      "pages": "417--424",
+      "booktitle": "ICML",
+      "author": "Precup, Doina and Sutton, Richard S and Dasgupta, Sanjoy",
+      "title": "Off-policy temporal-difference learning with function approximation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "precup2001off"
+    },
+    {
+      "publisher": "INFORMS",
+      "year": "1989",
+      "pages": "1367--1392",
+      "number": "11",
+      "volume": "35",
+      "journal": "Management science",
+      "author": "Glynn, Peter W and Iglehart, Donald L",
+      "title": "Importance sampling for stochastic simulations",
+      "ENTRYTYPE": "article",
+      "ID": "glynn1989importance"
+    },
+    {
+      "year": "2020",
+      "journal": "arXiv preprint arXiv:2003.06259",
+      "author": "Tang, Yunhao and Valko, Michal and Munos, R{\\'e}mi",
+      "title": "Taylor expansion policy optimization",
+      "ENTRYTYPE": "article",
+      "ID": "tang2020taylor"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2402.04792",
+      "author": "Guo, Shangmin and Zhang, Biao and Liu, Tianlin and Liu, Tianqi and Khalman, Misha and Llinares, Felipe and Rame, Alexandre and Mesnard, Thomas and Zhao, Yao and Piot, Bilal and others",
+      "title": "Direct language model alignment from online ai feedback",
+      "ENTRYTYPE": "article",
+      "ID": "guo2024direct"
+    },
+    {
+      "year": "2019",
+      "journal": "arXiv preprint arXiv:1907.10247",
+      "author": "Guo, Yijie and Choi, Jongwook and Moczulski, Marcin and Bengio, Samy and Norouzi, Mohammad and Lee, Honglak",
+      "title": "Efficient Exploration with Self-Imitation Learning via Trajectory-Conditioned Policy",
+      "ENTRYTYPE": "article",
+      "ID": "guo2019efficient"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2503.18866",
+      "author": "Ruan, Yangjun and Band, Neil and Maddison, Chris J and Hashimoto, Tatsunori",
+      "title": "Reasoning to Learn from Latent Thoughts",
+      "ENTRYTYPE": "article",
+      "ID": "ruan2025reasoning"
+    },
+    {
+      "year": "2016",
+      "journal": "arXiv preprint arXiv:1611.01606",
+      "author": "He, Frank S and Liu, Yang and Schwing, Alexander G and Peng, Jian",
+      "title": "Learning to play in a day: Faster deep reinforcement learning by optimality tightening",
+      "ENTRYTYPE": "article",
+      "ID": "he2016learning"
+    },
+    {
+      "url": "https://arxiv.org/abs/2401.10020",
+      "primaryclass": "cs.CL",
+      "archiveprefix": "arXiv",
+      "eprint": "2401.10020",
+      "year": "2025",
+      "author": "Weizhe Yuan and Richard Yuanzhe Pang and Kyunghyun Cho and Xian Li and Sainbayar Sukhbaatar and Jing Xu and Jason Weston",
+      "title": "Self-Rewarding Language Models",
+      "ENTRYTYPE": "misc",
+      "ID": "yuan2025selfrewardinglanguagemodels"
+    },
+    {
+      "organization": "JMLR. org",
+      "year": "2017",
+      "pages": "243--252",
+      "booktitle": "Proceedings of the 34th International Conference on Machine Learning-Volume 70",
+      "author": "Asadi, Kavosh and Littman, Michael L",
+      "title": "An alternative softmax operator for reinforcement learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "asadi2017alternative"
+    },
+    {
+      "year": "2015",
+      "journal": "arXiv preprint arXiv:1512.08562",
+      "author": "Fox, Roy and Pakman, Ari and Tishby, Naftali",
+      "title": "Taming the noise in reinforcement learning via soft updates",
+      "ENTRYTYPE": "article",
+      "ID": "fox2015taming"
+    },
+    {
+      "year": "2010",
+      "author": "Ziebart, Brian D",
+      "title": "Modeling purposeful adaptive behavior with the principle of maximum causal entropy",
+      "ENTRYTYPE": "article",
+      "ID": "ziebart2010modeling"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "1995",
+      "pages": "30--37",
+      "booktitle": "Machine Learning Proceedings 1995",
+      "author": "Baird, Leemon",
+      "title": "Residual algorithms: Reinforcement learning with function approximation",
+      "ENTRYTYPE": "incollection",
+      "ID": "baird1995residual"
+    },
+    {
+      "year": "2018",
+      "journal": "arXiv preprint arXiv:1805.10309",
+      "author": "Gangwani, Tanmay and Liu, Qiang and Peng, Jian",
+      "title": "Learning self-imitating diverse policies",
+      "ENTRYTYPE": "article",
+      "ID": "gangwani2018learning"
+    },
+    {
+      "year": "2019",
+      "journal": "arXiv preprint arXiv:1910.00177",
+      "author": "Peng, Xue Bin and Kumar, Aviral and Zhang, Grace and Levine, Sergey",
+      "title": "Advantage-Weighted Regression: Simple and Scalable Off-Policy Reinforcement Learning",
+      "ENTRYTYPE": "article",
+      "ID": "peng2019advantage"
+    },
+    {
+      "year": "2008",
+      "pages": "1729--1736",
+      "booktitle": "Advances in neural information processing systems",
+      "author": "Zinkevich, Martin and Johanson, Michael and Bowling, Michael and Piccione, Carmelo",
+      "title": "Regret minimization in games with incomplete information",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zinkevich2008regret"
+    },
+    {
+      "year": "2015",
+      "pages": "805--813",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Heinrich, Johannes and Lanctot, Marc and Silver, David",
+      "title": "Fictitious self-play in extensive-form games",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "heinrich2015fictitious"
+    },
+    {
+      "organization": "JMLR. org",
+      "year": "2017",
+      "pages": "2817--2826",
+      "booktitle": "Proceedings of the 34th International Conference on Machine Learning-Volume 70",
+      "author": "Pinto, Lerrel and Davidson, James and Sukthankar, Rahul and Gupta, Abhinav",
+      "title": "Robust adversarial reinforcement learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "pinto2017robust"
+    },
+    {
+      "year": "2017",
+      "journal": "arXiv preprint arXiv:1702.02453",
+      "author": "Yu, Wenhao and Tan, Jie and Liu, C Karen and Turk, Greg",
+      "title": "Preparing for the unknown: Learning a universal policy with online system identification",
+      "ENTRYTYPE": "article",
+      "ID": "yu2017preparing"
+    },
+    {
+      "year": "2013",
+      "journal": "arXiv preprint arXiv:1312.6114",
+      "author": "Kingma, Diederik P and Welling, Max",
+      "title": "Auto-encoding variational bayes",
+      "ENTRYTYPE": "article",
+      "ID": "kingma2013auto"
+    },
+    {
+      "year": "2017",
+      "journal": "arXiv preprint arXiv:1507.06527v4",
+      "author": "Hausknecht, Matthew and Stone, Peter",
+      "title": "Deep recurrent Q-learning for partially observable MDPs",
+      "ENTRYTYPE": "article",
+      "ID": "stone2017"
+    },
+    {
+      "year": "2017",
+      "journal": "arXiv preprint arXiv:1710.11424",
+      "author": "Jin, Peter H and Levine, Sergey and Keutzer, Kurt",
+      "title": "Regret minimization for partially observable deep reinforcement learning",
+      "ENTRYTYPE": "article",
+      "ID": "jin2017"
+    },
+    {
+      "year": "1995",
+      "pages": "345--352",
+      "booktitle": "Advances in neural information processing systems",
+      "author": "Jaakkola, Tommi and Singh, Satinder and Jordan, Michael",
+      "title": "Reinforcement learning algorithm for partially observable Markov decision problems",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "jordan1995pomdp"
+    },
+    {
+      "year": "2018",
+      "pages": "2117--2126",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Igl, Maximilian and Zintgraf, Luisa and Le, Tuan Anh and Wood, Frank and Whiteson, Shimon",
+      "title": "Deep variational reinforcement learning for POMDPs",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "variationalRL2018"
+    },
+    {
+      "year": "2000",
+      "pages": "41--48",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Baxter, Jonathan and Bartlett, Peter",
+      "title": "Reinforcement learning in POMDP's via direct gradient ascent",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "bartlett2000"
+    },
+    {
+      "year": "2011",
+      "pages": "456--472",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Deisenroth, Marc and Rasmussen, Carl",
+      "title": "PILCO: A model-based and data-efficient approach to policy search",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "Marc2011"
+    },
+    {
+      "year": "2009",
+      "pages": "1049--1056",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Toussaint, Marc",
+      "title": "Robot trajectory optimization using approximate inference",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "Marc2009"
+    },
+    {
+      "year": "2016",
+      "pages": "1329--1338",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Duan, Yan and Chen, Xi and Houthooft, Rein and Schulman, John and Abbeel, Pieter",
+      "title": "Benchmarking deep reinforcement learning for continuous control",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "duanxi2016"
+    },
+    {
+      "year": "2016",
+      "pages": "4026--4034",
+      "booktitle": "Advances in neural information processing systems",
+      "author": "Osband, Ian and Blundell, Charles and Pritzel, Alexander and Van Roy, Benjamin",
+      "title": "Deep exploration via bootstrapped DQN",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "osband2016"
+    },
+    {
+      "year": "2015",
+      "journal": "arXiv preprint arXiv:1507.00300",
+      "author": "Osband, Ian and Van Roy, Benjamin",
+      "title": "Bootstrapped thompson sampling and deep exploration",
+      "ENTRYTYPE": "article",
+      "ID": "osband2015"
+    },
+    {
+      "year": "2017",
+      "journal": "arXiv preprint arXiv:1706.10295",
+      "author": "Fortunato, Meire and Azar, Mohammad Gheshlaghi and Piot, Bilal and Menick, Jacob and Osband, Ian and Graves, Alex and Mnih, Vlad and Munos, Remi and Hassabis, Demis and Pietquin, Olivier and others",
+      "title": "Noisy networks for exploration",
+      "ENTRYTYPE": "article",
+      "ID": "fortunato2017"
+    },
+    {
+      "year": "2015",
+      "journal": "arXiv preprint arXiv:1509.02971",
+      "author": "Lillicrap, Timothy P and Hunt, Jonathan J and Pritzel, Alexander and Heess, Nicolas and Erez, Tom and Tassa, Yuval and Silver, David and Wierstra, Daan",
+      "title": "Continuous control with deep reinforcement learning",
+      "ENTRYTYPE": "article",
+      "ID": "timothy2016"
+    },
+    {
+      "year": "2015",
+      "pages": "1889--1897",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Schulman, John and Levine, Sergey and Abbeel, Pieter and Jordan, Michael and Moritz, Philipp",
+      "title": "Trust region policy optimization",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "schulman2015"
+    },
+    {
+      "publisher": "JMLR. org",
+      "year": "2016",
+      "pages": "1334--1373",
+      "number": "1",
+      "volume": "17",
+      "journal": "The Journal of Machine Learning Research",
+      "author": "Levine, Sergey and Finn, Chelsea and Darrell, Trevor and Abbeel, Pieter",
+      "title": "End-to-end training of deep visuomotor policies",
+      "ENTRYTYPE": "article",
+      "ID": "levine2016"
+    },
+    {
+      "year": "2017",
+      "journal": "arXiv preprint arXiv:1703.07608",
+      "author": "Osband, Ian and Russo, Daniel and Wen, Zheng and Van Roy, Benjamin",
+      "title": "Deep exploration via randomized value functions",
+      "ENTRYTYPE": "article",
+      "ID": "osband2017"
+    },
+    {
+      "year": "2010",
+      "pages": "241--248",
+      "booktitle": "Proceedings of the Thirteenth International Conference on Artificial Intelligence and Statistics",
+      "author": "Furmston, Thomas and Barber, David",
+      "title": "Variational methods for reinforcement learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "furmston2010"
+    },
+    {
+      "year": "2015",
+      "journal": "arXiv preprint arXiv:1511.05952",
+      "author": "Schaul, Tom and Quan, John and Antonoglou, Ioannis and Silver, David",
+      "title": "Prioritized experience replay",
+      "ENTRYTYPE": "article",
+      "ID": "schaul2016"
+    },
+    {
+      "year": "2014",
+      "booktitle": "ICML",
+      "author": "Silver, David and Lever, Guy and Heess, Nicolas and Degris, Thomas and Wierstra, Daan and Riedmiller, Martin",
+      "title": "Deterministic policy gradient algorithms",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "silver2014"
+    },
+    {
+      "year": "2016",
+      "pages": "2094--2100",
+      "volume": "16",
+      "booktitle": "AAAI",
+      "author": "Van Hasselt, Hado and Guez, Arthur and Silver, David",
+      "title": "Deep Reinforcement Learning with Double Q-Learning.",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "hasselt2016"
+    },
+    {
+      "year": "2015",
+      "journal": "arXiv preprint arXiv:1511.06581",
+      "author": "Wang, Ziyu and Schaul, Tom and Hessel, Matteo and Van Hasselt, Hado and Lanctot, Marc and De Freitas, Nando",
+      "title": "Dueling network architectures for deep reinforcement learning",
+      "ENTRYTYPE": "article",
+      "ID": "wang2016"
+    },
+    {
+      "organization": "IEEE",
+      "year": "2008",
+      "pages": "4286--4292",
+      "booktitle": "Decision and Control, 2008. CDC 2008. 47th IEEE Conference on",
+      "author": "Todorov, Emanuel",
+      "title": "General duality between optimal control and estimation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "todorov2008"
+    },
+    {
+      "publisher": "MIT press Cambridge",
+      "year": "1998",
+      "number": "1",
+      "volume": "1",
+      "author": "Sutton, Richard S and Barto, Andrew G",
+      "title": "Reinforcement learning: An introduction",
+      "ENTRYTYPE": "book",
+      "ID": "sutton1998"
+    },
+    {
+      "publisher": "Springer",
+      "year": "1992",
+      "pages": "5--32",
+      "booktitle": "Reinforcement Learning",
+      "author": "Williams, Ronald J",
+      "title": "Simple statistical gradient-following algorithms for connectionist reinforcement learning",
+      "ENTRYTYPE": "incollection",
+      "ID": "williams1992"
+    },
+    {
+      "publisher": "Taylor \\& Francis",
+      "year": "2017",
+      "pages": "859--877",
+      "number": "518",
+      "volume": "112",
+      "journal": "Journal of the American Statistical Association",
+      "author": "Blei, David M and Kucukelbir, Alp and McAuliffe, Jon D",
+      "title": "Variational inference: A review for statisticians",
+      "ENTRYTYPE": "article",
+      "ID": "blei2017"
+    },
+    {
+      "year": "2014",
+      "pages": "814--822",
+      "booktitle": "Artificial Intelligence and Statistics",
+      "author": "Ranganath, Rajesh and Gerrish, Sean and Blei, David",
+      "title": "Black box variational inference",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "blei2015"
+    },
+    {
+      "year": "2017",
+      "journal": "arXiv preprint arXiv:1701.03757",
+      "author": "Tran, Dustin and Hoffman, Matthew D and Saurous, Rif A and Brevdo, Eugene and Murphy, Kevin and Blei, David M",
+      "title": "Deep probabilistic programming",
+      "ENTRYTYPE": "article",
+      "ID": "tran2016"
+    },
+    {
+      "year": "2016",
+      "journal": "arXiv preprint arXiv:1606.01540",
+      "author": "Brockman, Greg and Cheung, Vicki and Pettersson, Ludwig and Schneider, Jonas and Schulman, John and Tang, Jie and Zaremba, Wojciech",
+      "title": "Openai gym",
+      "ENTRYTYPE": "article",
+      "ID": "brockman2016"
+    },
+    {
+      "year": "2016",
+      "journal": "arXiv preprint ArXiv:1608.05081",
+      "author": "Lipton, Zachary C and Li, Xiujun and Gao, Jianfeng and Li, Lihong and Ahmed, Faisal and Deng, Li and Birnbaum, Tobias and Eldar, Yonina C and Needell, Deanna and Memon, Adnan and others",
+      "title": "Efficient dialogue policy learning with bbq-networks",
+      "ENTRYTYPE": "article",
+      "ID": "lipton2016"
+    },
+    {
+      "year": "2018",
+      "booktitle": "Thirty-Second AAAI Conference on Artificial Intelligence",
+      "author": "Hessel, Matteo and Modayil, Joseph and Van Hasselt, Hado and Schaul, Tom and Ostrovski, Georg and Dabney, Will and Horgan, Dan and Piot, Bilal and Azar, Mohammad and Silver, David",
+      "title": "Rainbow: Combining improvements in deep reinforcement learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "hessel2018rainbow"
+    },
+    {
+      "organization": "Springer",
+      "year": "2016",
+      "pages": "305--320",
+      "booktitle": "International Conference on Algorithmic Learning Theory",
+      "author": "Harutyunyan, Anna and Bellemare, Marc G and Stepleton, Tom and Munos, R{\\'e}mi",
+      "title": "Q (lambda) with Off-Policy Corrections",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "harutyunyan2016q"
+    },
+    {
+      "publisher": "JSTOR",
+      "year": "1933",
+      "pages": "285--294",
+      "number": "3/4",
+      "volume": "25",
+      "journal": "Biometrika",
+      "author": "Thompson, William R",
+      "title": "On the likelihood that one unknown probability exceeds another in view of the evidence of two samples",
+      "ENTRYTYPE": "article",
+      "ID": "william1933"
+    },
+    {
+      "year": "2015",
+      "journal": "arXiv preprint arXiv:1509.00519",
+      "author": "Burda, Yuri and Grosse, Roger and Salakhutdinov, Ruslan",
+      "title": "Importance weighted autoencoders",
+      "ENTRYTYPE": "article",
+      "ID": "burda2015importance"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2018",
+      "pages": "4277--4285",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Rainforth, Tom and Kosiorek, Adam and Le, Tuan Anh and Maddison, Chris and Igl, Maximilian and Wood, Frank and Teh, Yee Whye",
+      "title": "Tighter variational bounds are not necessarily better",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "rainforth2018tighter"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2305.10425",
+      "author": "Zhao, Yao and Joshi, Rishabh and Liu, Tianqi and Khalman, Misha and Saleh, Mohammad and Liu, Peter J",
+      "title": "Slic-hf: Sequence likelihood calibration with human feedback",
+      "ENTRYTYPE": "article",
+      "ID": "zhao2023slic"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2402.05749",
+      "author": "Tang, Yunhao and Guo, Zhaohan Daniel and Zheng, Zeyu and Calandriello, Daniele and Munos, R{\\'e}mi and Rowland, Mark and Richemond, Pierre Harvey and Valko, Michal and Pires, Bernardo {\\'A}vila and Piot, Bilal",
+      "title": "Generalized preference optimization: A unified approach to offline alignment",
+      "ENTRYTYPE": "article",
+      "ID": "tang2024generalized"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2016",
+      "pages": "2188--2196",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Mnih, Andriy and Rezende, Danilo",
+      "title": "Variational inference for monte carlo objectives",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "mnih2016variational"
+    },
+    {
+      "year": "2019",
+      "author": "Kool, Wouter and van Hoof, Herke and Welling, Max",
+      "title": "Buy 4 reinforce samples, get a baseline for free!",
+      "ENTRYTYPE": "article",
+      "ID": "kool2019buy"
+    },
+    {
+      "year": "2017",
+      "title": "Automatic differentiation variational inference",
+      "journal": "Journal of Machine Learning Research, 18(14):1-45",
+      "author": "Alp Kucukelbir, and Dustin Tran, and Rajesh Ranganath, and Andrew Gelman, and David M. Blei",
+      "ENTRYTYPE": "article",
+      "ID": "kucukelbir2016automatic"
+    },
+    {
+      "year": "2014",
+      "pages": "2672--2680",
+      "booktitle": "Advances in neural information processing systems",
+      "author": "Goodfellow, Ian and Pouget-Abadie, Jean and Mirza, Mehdi and Xu, Bing and Warde-Farley, David and Ozair, Sherjil and Courville, Aaron and Bengio, Yoshua",
+      "title": "Generative adversarial nets",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "goodfellow2015"
+    },
+    {
+      "year": "2017",
+      "journal": "arXiv preprint arXiv:1705.07107",
+      "author": "Li, Yingzhen and Turner, Richard E",
+      "title": "Gradient Estimators for Implicit Models",
+      "ENTRYTYPE": "article",
+      "ID": "li2018"
+    },
+    {
+      "year": "2017",
+      "journal": "arXiv preprint arXiv:1702.08896",
+      "author": "Tran, Dustin and Ranganath, Rajesh and Blei, David M",
+      "title": "Hierarchical Implicit Models and Likelihood-Free Variational Inference",
+      "ENTRYTYPE": "article",
+      "ID": "dustin2017"
+    },
+    {
+      "publisher": "JMLR. org",
+      "year": "2014",
+      "pages": "1929--1958",
+      "number": "1",
+      "volume": "15",
+      "journal": "The Journal of Machine Learning Research",
+      "author": "Srivastava, Nitish and Hinton, Geoffrey and Krizhevsky, Alex and Sutskever, Ilya and Salakhutdinov, Ruslan",
+      "title": "Dropout: A simple way to prevent neural networks from overfitting",
+      "ENTRYTYPE": "article",
+      "ID": "srivastava2014"
+    },
+    {
+      "year": "2016",
+      "pages": "1050--1059",
+      "booktitle": "international conference on machine learning",
+      "author": "Gal, Yarin and Ghahramani, Zoubin",
+      "title": "Dropout as a Bayesian approximation: Representing model uncertainty in deep learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "gal2016"
+    },
+    {
+      "year": "2017",
+      "journal": "arXiv preprint arXiv:1702.08165",
+      "author": "Haarnoja, Tuomas and Tang, Haoran and Abbeel, Pieter and Levine, Sergey",
+      "title": "Reinforcement learning with deep energy-based policies",
+      "ENTRYTYPE": "article",
+      "ID": "tuomas2017"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2309.00267",
+      "author": "Lee, Harrison and Phatale, Samrat and Mansoor, Hassan and Mesnard, Thomas and Ferret, Johan and Lu, Kellie and Bishop, Colton and Hall, Ethan and Carbune, Victor and Rastogi, Abhinav and others",
+      "title": "Rlaif vs. rlhf: Scaling reinforcement learning from human feedback with ai feedback",
+      "ENTRYTYPE": "article",
+      "ID": "lee2023rlaif"
+    },
+    {
+      "year": "2017",
+      "journal": "arXiv preprint arXiv:1706.01905",
+      "author": "Plappert, Matthias and Houthooft, Rein and Dhariwal, Prafulla and Sidor, Szymon and Chen, Richard Y and Chen, Xi and Asfour, Tamim and Abbeel, Pieter and Andrychowicz, Marcin",
+      "title": "Parameter space noise for exploration",
+      "ENTRYTYPE": "article",
+      "ID": "plappert2018"
+    },
+    {
+      "year": "2017",
+      "journal": "arXiv preprint arXiv:1711.11225",
+      "author": "Tang, Yunhao and Kucukelbir, Alp",
+      "title": "Variational Deep Q Network",
+      "ENTRYTYPE": "article",
+      "ID": "tang2017"
+    },
+    {
+      "year": "2017",
+      "pages": "4281--4290",
+      "booktitle": "Advances in Neural Information Processing Systems",
+      "author": "Czarnecki, Wojciech M and Osindero, Simon and Jaderberg, Max and Swirszcz, Grzegorz and Pascanu, Razvan",
+      "title": "Sobolev training for neural networks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "marian2017"
+    },
+    {
+      "year": "2017",
+      "journal": "arXiv preprint arXiv:1704.06440",
+      "author": "Schulman, John and Chen, Xi and Abbeel, Pieter",
+      "title": "Equivalence between policy gradients and soft q-learning",
+      "ENTRYTYPE": "article",
+      "ID": "schulman2017chen"
+    },
+    {
+      "year": "2012",
+      "journal": "arXiv preprint arXiv:1205.4839",
+      "author": "Degris, Thomas and White, Martha and Sutton, Richard S",
+      "title": "Off-policy actor-critic",
+      "ENTRYTYPE": "article",
+      "ID": "degris2012"
+    },
+    {
+      "year": "2016",
+      "journal": "arXiv preprint arXiv:1611.01626",
+      "author": "O'Donoghue, Brendan and Munos, Remi and Kavukcuoglu, Koray and Mnih, Volodymyr",
+      "title": "Pgq: Combining policy gradient and q-learning",
+      "ENTRYTYPE": "article",
+      "ID": "donoghue2017"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2402.03300",
+      "author": "Shao, Zhihong and Wang, Peiyi and Zhu, Qihao and Xu, Runxin and Song, Junxiao and Bi, Xiao and Zhang, Haowei and Zhang, Mingchuan and Li, YK and Wu, Y and others",
+      "title": "Deepseekmath: Pushing the limits of mathematical reasoning in open language models",
+      "ENTRYTYPE": "article",
+      "ID": "shao2024deepseekmath"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2501.12599",
+      "author": "Team, Kimi and Du, Angang and Gao, Bofei and Xing, Bowei and Jiang, Changjiu and Chen, Cheng and Li, Cheng and Xiao, Chenjun and Du, Chenzhuang and Liao, Chonghua and others",
+      "title": "Kimi k1. 5: Scaling reinforcement learning with llms",
+      "ENTRYTYPE": "article",
+      "ID": "team2025kimi"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2501.12948",
+      "author": "Guo, Daya and Yang, Dejian and Zhang, Haowei and Song, Junxiao and Zhang, Ruoyu and Xu, Runxin and Zhu, Qihao and Ma, Shirong and Wang, Peiyi and Bi, Xiao and others",
+      "title": "Deepseek-r1: Incentivizing reasoning capability in llms via reinforcement learning",
+      "ENTRYTYPE": "article",
+      "ID": "guo2025deepseek"
+    },
+    {
+      "year": "2017",
+      "booktitle": "International conference on learning representations",
+      "author": "Higgins, Irina and Matthey, Loic and Pal, Arka and Burgess, Christopher and Glorot, Xavier and Botvinick, Matthew and Mohamed, Shakir and Lerchner, Alexander",
+      "title": "beta-vae: Learning basic visual concepts with a constrained variational framework",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "higgins2017beta"
+    },
+    {
+      "year": "2020",
+      "pages": "1877--1901",
+      "volume": "33",
+      "journal": "Advances in neural information processing systems",
+      "author": "Brown, Tom and Mann, Benjamin and Ryder, Nick and Subbiah, Melanie and Kaplan, Jared D and Dhariwal, Prafulla and Neelakantan, Arvind and Shyam, Pranav and Sastry, Girish and Askell, Amanda and others",
+      "title": "Language models are few-shot learners",
+      "ENTRYTYPE": "article",
+      "ID": "brown2020language"
+    },
+    {
+      "publisher": "Springer",
+      "year": "1906",
+      "pages": "175--193",
+      "number": "1",
+      "volume": "30",
+      "journal": "Acta mathematica",
+      "author": "Jensen, Johan Ludwig William Valdemar",
+      "title": "Sur les fonctions convexes et les in{\\'e}galit{\\'e}s entre les valeurs moyennes",
+      "ENTRYTYPE": "article",
+      "ID": "jensen1906fonctions"
+    },
+    {
+      "year": "2016",
+      "pages": "1928--1937",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Mnih, Volodymyr and Badia, Adria Puigdomenech and Mirza, Mehdi and Graves, Alex and Lillicrap, Timothy and Harley, Tim and Silver, David and Kavukcuoglu, Koray",
+      "title": "Asynchronous methods for deep reinforcement learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "mnih2016"
+    },
+    {
+      "year": "2000",
+      "pages": "1057--1063",
+      "booktitle": "Advances in neural information processing systems",
+      "author": "Sutton, Richard S and McAllester, David A and Singh, Satinder P and Mansour, Yishay",
+      "title": "Policy gradient methods for reinforcement learning with function approximation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "sutton1999"
+    },
+    {
+      "year": "2017",
+      "journal": "arXiv preprint arXiv:1707.06347",
+      "author": "Schulman, John and Wolski, Filip and Dhariwal, Prafulla and Radford, Alec and Klimov, Oleg",
+      "title": "Proximal policy optimization algorithms",
+      "ENTRYTYPE": "article",
+      "ID": "schulman2017"
+    },
+    {
+      "year": "2015",
+      "journal": "arXiv preprint arXiv:1505.05770",
+      "author": "Rezende, Danilo Jimenez and Mohamed, Shakir",
+      "title": "Variational inference with normalizing flows",
+      "ENTRYTYPE": "article",
+      "ID": "rezende2015"
+    },
+    {
+      "year": "2016",
+      "journal": "arXiv preprint arXiv:1605.08803",
+      "author": "Dinh, Laurent and Sohl-Dickstein, Jascha and Bengio, Samy",
+      "title": "Density estimation using Real NVP",
+      "ENTRYTYPE": "article",
+      "ID": "dinh2017"
+    },
+    {
+      "year": "2014",
+      "journal": "arXiv preprint arXiv:1410.8516",
+      "author": "Dinh, Laurent and Krueger, David and Bengio, Yoshua",
+      "title": "NICE: Non-linear independent components estimation",
+      "ENTRYTYPE": "article",
+      "ID": "dinh2015"
+    },
+    {
+      "year": "2017",
+      "pages": "2772--2782",
+      "booktitle": "Advances in Neural Information Processing Systems",
+      "author": "Nachum, Ofir and Norouzi, Mohammad and Xu, Kelvin and Schuurmans, Dale",
+      "title": "Bridging the gap between value and policy based reinforcement learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "nachum2017"
+    },
+    {
+      "year": "2017",
+      "pages": "243--252",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Asadi, Kavosh and Littman, Michael L",
+      "title": "An Alternative Softmax Operator for Reinforcement Learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "asadi2017"
+    },
+    {
+      "year": "2011",
+      "pages": "627--635",
+      "booktitle": "Proceedings of the fourteenth international conference on artificial intelligence and statistics",
+      "author": "Ross, St{\\'e}phane and Gordon, Geoffrey and Bagnell, Drew",
+      "title": "A reduction of imitation learning and structured prediction to no-regret online learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ross2011"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2017",
+      "pages": "1126--1135",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Finn, Chelsea and Abbeel, Pieter and Levine, Sergey",
+      "title": "Model-agnostic meta-learning for fast adaptation of deep networks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "finn2017model"
+    },
+    {
+      "year": "2016",
+      "pages": "4565--4573",
+      "booktitle": "Advances in Neural Information Processing Systems",
+      "author": "Ho, Jonathan and Ermon, Stefano",
+      "title": "Generative adversarial imitation learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ho2016"
+    },
+    {
+      "year": "2016",
+      "journal": "arXiv preprint arXiv:1611.03852",
+      "author": "Finn, Chelsea and Christiano, Paul and Abbeel, Pieter and Levine, Sergey",
+      "title": "A connection between generative adversarial networks, inverse reinforcement learning, and energy-based models",
+      "ENTRYTYPE": "article",
+      "ID": "finn2016"
+    },
+    {
+      "publisher": "Carnegie Mellon University",
+      "year": "2010",
+      "author": "Ziebart, Brian D",
+      "title": "Modeling purposeful adaptive behavior with the principle of maximum causal entropy",
+      "ENTRYTYPE": "book",
+      "ID": "ziebart2010"
+    },
+    {
+      "organization": "ACM",
+      "year": "2004",
+      "pages": "1",
+      "booktitle": "Proceedings of the twenty-first international conference on Machine learning",
+      "author": "Abbeel, Pieter and Ng, Andrew Y",
+      "title": "Apprenticeship learning via inverse reinforcement learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "abbeel2010"
+    },
+    {
+      "year": "2015",
+      "pages": "3528--3536",
+      "booktitle": "Advances in Neural Information Processing Systems",
+      "author": "Schulman, John and Heess, Nicolas and Weber, Theophane and Abbeel, Pieter",
+      "title": "Gradient estimation using stochastic computation graphs",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "schulman2015gradient"
+    },
+    {
+      "organization": "IEEE",
+      "year": "2012",
+      "pages": "5026--5033",
+      "booktitle": "Intelligent Robots and Systems (IROS), 2012 IEEE/RSJ International Conference on",
+      "author": "Todorov, Emanuel and Erez, Tom and Tassa, Yuval",
+      "title": "Mujoco: A physics engine for model-based control",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "todorov2012"
+    },
+    {
+      "year": "2018",
+      "journal": "arXiv preprint arXiv:1801.01290",
+      "author": "Haarnoja, Tuomas and Zhou, Aurick and Abbeel, Pieter and Levine, Sergey",
+      "title": "Soft Actor-Critic: Off-Policy Maximum Entropy Deep Reinforcement Learning with a Stochastic Actor",
+      "ENTRYTYPE": "article",
+      "ID": "tuomas2018"
+    },
+    {
+      "year": "2017",
+      "pages": "6553--6564",
+      "booktitle": "Advances in Neural Information Processing Systems",
+      "author": "Rajeswaran, Aravind and Lowrey, Kendall and Todorov, Emanuel V and Kakade, Sham M",
+      "title": "Towards generalization and simplicity in continuous control",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "rajeswaran2017"
+    },
+    {
+      "year": "2018",
+      "journal": "arXiv preprint arXiv:1802.01561",
+      "author": "Espeholt, Lasse and Soyer, Hubert and Munos, Remi and Simonyan, Karen and Mnih, Volodymir and Ward, Tom and Doron, Yotam and Firoiu, Vlad and Harley, Tim and Dunning, Iain and others",
+      "title": "Impala: Scalable distributed deep-rl with importance weighted actor-learner architectures",
+      "ENTRYTYPE": "article",
+      "ID": "espeholt2018impala"
+    },
+    {
+      "howpublished": "\\url{https://github.com/openai/baselines}",
+      "journal": "GitHub repository",
+      "publisher": "GitHub",
+      "year": "2017",
+      "title": "OpenAI Baselines",
+      "author": "Dhariwal, Prafulla and Hesse, Christopher and Klimov, Oleg and Nichol, Alex and Plappert, Matthias and Radford, Alec and Schulman, John and Sidor, Szymon and Wu, Yuhuai",
+      "ENTRYTYPE": "misc",
+      "ID": "baselines"
+    },
+    {
+      "year": "2013",
+      "journal": "arXiv preprint arXiv:1312.6114",
+      "author": "Kingma, Diederik P and Welling, Max",
+      "title": "Auto-encoding variational bayes",
+      "ENTRYTYPE": "article",
+      "ID": "kingma2013"
+    },
+    {
+      "year": "2016",
+      "pages": "2378--2386",
+      "booktitle": "Advances In Neural Information Processing Systems",
+      "author": "Liu, Qiang and Wang, Dilin",
+      "title": "Stein variational gradient descent: A general purpose bayesian inference algorithm",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "liu2016"
+    },
+    {
+      "year": "2020",
+      "pages": "14783--14795",
+      "volume": "33",
+      "journal": "Advances in neural information processing systems",
+      "author": "Eysenbach, Ben and Geng, Xinyang and Levine, Sergey and Salakhutdinov, Russ R",
+      "title": "Rewriting history with inverse rl: Hindsight inference for policy improvement",
+      "ENTRYTYPE": "article",
+      "ID": "eysenbach2020rewriting"
+    },
+    {
+      "year": "2017",
+      "volume": "30",
+      "journal": "Advances in neural information processing systems",
+      "author": "Andrychowicz, Marcin and Wolski, Filip and Ray, Alex and Schneider, Jonas and Fong, Rachel and Welinder, Peter and McGrew, Bob and Tobin, Josh and Pieter Abbeel, OpenAI and Zaremba, Wojciech",
+      "title": "Hindsight experience replay",
+      "ENTRYTYPE": "article",
+      "ID": "andrychowicz2017hindsight"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2021",
+      "pages": "2863--2871",
+      "booktitle": "International Conference on Artificial Intelligence and Statistics",
+      "author": "Tang, Yunhao and Kucukelbir, Alp",
+      "title": "Hindsight expectation maximization for goal-conditioned reinforcement learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "tang2021hindsight"
+    },
+    {
+      "year": "2020",
+      "journal": "arXiv preprint arXiv:2001.00805",
+      "author": "O'Donoghue, Brendan and Osband, Ian and Ionescu, Catalin",
+      "title": "Making sense of reinforcement learning and probabilistic inference",
+      "ENTRYTYPE": "article",
+      "ID": "o2020making"
+    },
+    {
+      "year": "2018",
+      "journal": "arXiv preprint arXiv:1804.02808",
+      "author": "Haarnoja, Tuomas and Hartikainen, Kristian and Abbeel, Pieter and Levine, Sergey",
+      "title": "Latent Space Policies for Hierarchical Reinforcement Learning",
+      "ENTRYTYPE": "article",
+      "ID": "tuomas2018b"
+    },
+    {
+      "year": "2018",
+      "journal": "arXiv preprint arXiv:1805.00909",
+      "author": "Levine, Sergey",
+      "title": "Reinforcement Learning and Control as Probabilistic Inference: Tutorial and Review",
+      "ENTRYTYPE": "article",
+      "ID": "levine2018"
+    },
+    {
+      "year": "2002",
+      "pages": "267--274",
+      "volume": "2",
+      "booktitle": "ICML",
+      "author": "Kakade, Sham and Langford, John",
+      "title": "Approximately optimal approximate reinforcement learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "kakade2002approximately"
+    },
+    {
+      "year": "2018",
+      "journal": "arXiv preprint arXiv:1803.07055",
+      "author": "Mania, Horia and Guy, Aurelia and Recht, Benjamin",
+      "title": "Simple random search provides a competitive approach to reinforcement learning",
+      "ENTRYTYPE": "article",
+      "ID": "mania2018simple"
+    },
+    {
+      "year": "2014",
+      "journal": "arXiv preprint arXiv:1412.6980",
+      "author": "Kingma, Diederik P and Ba, Jimmy",
+      "title": "Adam: A method for stochastic optimization",
+      "ENTRYTYPE": "article",
+      "ID": "kingma2014adam"
+    },
+    {
+      "year": "2018",
+      "journal": "arXiv preprint arXiv:1803.06773",
+      "author": "Haarnoja, Tuomas and Pong, Vitchyr and Zhou, Aurick and Dalal, Murtaza and Abbeel, Pieter and Levine, Sergey",
+      "title": "Composable Deep Reinforcement Learning for Robotic Manipulation",
+      "ENTRYTYPE": "article",
+      "ID": "haarnoja2018composable"
+    },
+    {
+      "year": "2018",
+      "journal": "arXiv preprint arXiv:1804.02808",
+      "author": "Haarnoja, Tuomas and Hartikainen, Kristian and Abbeel, Pieter and Levine, Sergey",
+      "title": "Latent Space Policies for Hierarchical Reinforcement Learning",
+      "ENTRYTYPE": "article",
+      "ID": "haarnoja2018latent"
+    },
+    {
+      "publisher": "Now Publishers, Inc.",
+      "year": "2008",
+      "pages": "1--305",
+      "number": "1--2",
+      "volume": "1",
+      "journal": "Foundations and Trends{\\textregistered} in Machine Learning",
+      "author": "Wainwright, Martin J and Jordan, Michael I and others",
+      "title": "Graphical models, exponential families, and variational inference",
+      "ENTRYTYPE": "article",
+      "ID": "wainwright2008graphical"
+    },
+    {
+      "year": "2013",
+      "pages": "207--215",
+      "booktitle": "Advances in Neural Information Processing Systems",
+      "author": "Levine, Sergey and Koltun, Vladlen",
+      "title": "Variational policy search via trajectory optimization",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "levine2013variational"
+    },
+    {
+      "year": "2011",
+      "pages": "817--824",
+      "booktitle": "Proceedings of the 28th International Conference on Machine Learning, ICML 2011",
+      "author": "Neumann, Gerhard and others",
+      "title": "Variational inference for policy search in changing situations",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "neumann2011variational"
+    },
+    {
+      "year": "2017",
+      "journal": "arXiv preprint arXiv:1711.11225",
+      "author": "Tang, Yunhao and Kucukelbir, Alp",
+      "title": "Variational Deep Q Network",
+      "ENTRYTYPE": "article",
+      "ID": "tang2017variational"
+    },
+    {
+      "year": "2016",
+      "journal": "arXiv preprint arXiv:1608.05081",
+      "author": "Lipton, Zachary C and Gao, Jianfeng and Li, Lihong and Li, Xiujun and Ahmed, Faisal and Deng, Li",
+      "title": "Efficient exploration for dialogue policy learning with BBQ networks \\& replay buffer spiking",
+      "ENTRYTYPE": "article",
+      "ID": "lipton2016efficient"
+    },
+    {
+      "year": "2020",
+      "journal": "arXiv preprint arXiv:2002.07836",
+      "author": "Ji, Kaiyi and Yang, Junjie and Liang, Yingbin",
+      "title": "Multi-step model-agnostic meta-learning: Convergence and improved algorithms",
+      "ENTRYTYPE": "article",
+      "ID": "ji2020multi"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2020",
+      "pages": "1082--1092",
+      "booktitle": "International Conference on Artificial Intelligence and Statistics",
+      "author": "Fallah, Alireza and Mokhtari, Aryan and Ozdaglar, Asuman",
+      "title": "On the convergence theory of gradient-based model-agnostic meta-learning algorithms",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "fallah2020convergence"
+    },
+    {
+      "year": "2016",
+      "pages": "1109--1117",
+      "booktitle": "Advances in Neural Information Processing Systems",
+      "author": "Houthooft, Rein and Chen, Xi and Duan, Yan and Schulman, John and De Turck, Filip and Abbeel, Pieter",
+      "title": "Vime: Variational information maximizing exploration",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "houthooft2016vime"
+    },
+    {
+      "organization": "IEEE",
+      "year": "2008",
+      "pages": "4286--4292",
+      "booktitle": "Decision and Control, 2008. CDC 2008. 47th IEEE Conference on",
+      "author": "Todorov, Emanuel",
+      "title": "General duality between optimal control and estimation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "todorov2008general"
+    },
+    {
+      "year": "1959",
+      "pages": "110--110",
+      "number": "3",
+      "volume": "4",
+      "journal": "IRE Transactions on Automatic Control",
+      "author": "Kalman, Rudolf",
+      "title": "On the general theory of control systems",
+      "ENTRYTYPE": "article",
+      "ID": "kalman1959general"
+    },
+    {
+      "organization": "Chicago, IL, USA",
+      "year": "2008",
+      "pages": "1433--1438",
+      "volume": "8",
+      "booktitle": "AAAI",
+      "author": "Ziebart, Brian D and Maas, Andrew L and Bagnell, J Andrew and Dey, Anind K",
+      "title": "Maximum Entropy Inverse Reinforcement Learning.",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ziebart2008maximum"
+    },
+    {
+      "year": "2018",
+      "journal": "arXiv preprint arXiv:1805.00909",
+      "author": "Levine, Sergey",
+      "title": "Reinforcement Learning and Control as Probabilistic Inference: Tutorial and Review",
+      "ENTRYTYPE": "article",
+      "ID": "levine2018reinforcement"
+    },
+    {
+      "year": "2018",
+      "journal": "arXiv preprint arXiv:1806.06920",
+      "author": "Abdolmaleki, Abbas and Springenberg, Jost Tobias and Tassa, Yuval and Munos, Remi and Heess, Nicolas and Riedmiller, Martin",
+      "title": "Maximum a Posteriori Policy Optimisation",
+      "ENTRYTYPE": "article",
+      "ID": "abdolmaleki2018maximum"
+    },
+    {
+      "publisher": "Springer",
+      "year": "1992",
+      "pages": "279--292",
+      "number": "3-4",
+      "volume": "8",
+      "journal": "Machine learning",
+      "author": "Watkins, Christopher JCH and Dayan, Peter",
+      "title": "Q-learning",
+      "ENTRYTYPE": "article",
+      "ID": "watkins1992q"
+    },
+    {
+      "organization": "IEEE",
+      "year": "1995",
+      "pages": "560--564",
+      "volume": "1",
+      "booktitle": "Proceedings of 1995 34th IEEE Conference on Decision and Control",
+      "author": "Bertsekas, Dimitri P and Tsitsiklis, John N",
+      "title": "Neuro-dynamic programming: an overview",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "bertsekas1995neuro"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "1990",
+      "pages": "331--434",
+      "volume": "2",
+      "journal": "Handbooks in operations research and management science",
+      "author": "Puterman, Martin L",
+      "title": "Markov decision processes",
+      "ENTRYTYPE": "article",
+      "ID": "puterman1990markov"
+    },
+    {
+      "organization": "IEEE",
+      "year": "2013",
+      "pages": "93--99",
+      "booktitle": "2013 IEEE Symposium on Adaptive Dynamic Programming and Reinforcement Learning (ADPRL)",
+      "author": "Lee, Donghun and Defourny, Boris and Powell, Warren B",
+      "title": "Bias-corrected Q-learning to control max-operator bias in Q-learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "lee2013bias"
+    },
+    {
+      "publisher": "Morgan \\& Claypool Publishers",
+      "year": "2010",
+      "pages": "1--103",
+      "number": "1",
+      "volume": "4",
+      "journal": "Synthesis lectures on artificial intelligence and machine learning",
+      "author": "Szepesv{\\'a}ri, Csaba",
+      "title": "Algorithms for reinforcement learning",
+      "ENTRYTYPE": "article",
+      "ID": "szepesvari2010algorithms"
+    },
+    {
+      "year": "2017",
+      "journal": "arXiv preprint arXiv:1703.01988",
+      "author": "Pritzel, Alexander and Uria, Benigno and Srinivasan, Sriram and Puigdomenech, Adria and Vinyals, Oriol and Hassabis, Demis and Wierstra, Daan and Blundell, Charles",
+      "title": "Neural episodic control",
+      "ENTRYTYPE": "article",
+      "ID": "pritzel2017neural"
+    },
+    {
+      "year": "2016",
+      "journal": "arXiv preprint arXiv:1606.04460",
+      "author": "Blundell, Charles and Uria, Benigno and Pritzel, Alexander and Li, Yazhe and Ruderman, Avraham and Leibo, Joel Z and Rae, Jack and Wierstra, Daan and Hassabis, Demis",
+      "title": "Model-free episodic control",
+      "ENTRYTYPE": "article",
+      "ID": "blundell2016model"
+    },
+    {
+      "year": "2004",
+      "pages": "1",
+      "booktitle": "Proceedings of the twenty-first international conference on Machine learning",
+      "author": "Abbeel, Pieter and Ng, Andrew Y",
+      "title": "Apprenticeship learning via inverse reinforcement learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "abbeel2004apprenticeship"
+    },
+    {
+      "year": "2011",
+      "pages": "627--635",
+      "booktitle": "Proceedings of the fourteenth international conference on artificial intelligence and statistics",
+      "author": "Ross, St{\\'e}phane and Gordon, Geoffrey and Bagnell, Drew",
+      "title": "A reduction of imitation learning and structured prediction to no-regret online learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ross2011reduction"
+    },
+    {
+      "publisher": "Institute of Mathematical Statistics",
+      "year": "2014",
+      "pages": "485--511",
+      "number": "4",
+      "volume": "29",
+      "journal": "Statistical Science",
+      "author": "Dud{\\'\\i}k, Miroslav and Erhan, Dumitru and Langford, John and Li, Lihong and others",
+      "title": "Doubly robust policy evaluation and optimization",
+      "ENTRYTYPE": "article",
+      "ID": "dudik2014doubly"
+    },
+    {
+      "year": "2018",
+      "journal": "arXiv preprint arXiv:1802.03493",
+      "author": "Farajtabar, Mehrdad and Chow, Yinlam and Ghavamzadeh, Mohammad",
+      "title": "More robust doubly robust off-policy evaluation",
+      "ENTRYTYPE": "article",
+      "ID": "farajtabar2018more"
+    },
+    {
+      "year": "2017",
+      "journal": "arXiv preprint arXiv:1702.03006",
+      "author": "Mahmood, Ashique Rupam and Yu, Huizhen and Sutton, Richard S",
+      "title": "Multi-step off-policy learning without importance sampling ratios",
+      "ENTRYTYPE": "article",
+      "ID": "mahmood2017multi"
+    },
+    {
+      "year": "2001",
+      "pages": "319--350",
+      "volume": "15",
+      "journal": "Journal of Artificial Intelligence Research",
+      "author": "Baxter, Jonathan and Bartlett, Peter L",
+      "title": "Infinite-horizon policy-gradient estimation",
+      "ENTRYTYPE": "article",
+      "ID": "baxter2001infinite"
+    },
+    {
+      "year": "2017",
+      "journal": "arXiv preprint arXiv:1710.03641",
+      "author": "Al-Shedivat, Maruan and Bansal, Trapit and Burda, Yuri and Sutskever, Ilya and Mordatch, Igor and Abbeel, Pieter",
+      "title": "Continuous adaptation via meta-learning in nonstationary and competitive environments",
+      "ENTRYTYPE": "article",
+      "ID": "al2017continuous"
+    },
+    {
+      "year": "2018",
+      "journal": "arXiv preprint arXiv:1803.07246",
+      "author": "Wu, Cathy and Rajeswaran, Aravind and Duan, Yan and Kumar, Vikash and Bayen, Alexandre M and Kakade, Sham and Mordatch, Igor and Abbeel, Pieter",
+      "title": "Variance reduction for policy gradient with action-dependent factorized baselines",
+      "ENTRYTYPE": "article",
+      "ID": "wu2018variance"
+    },
+    {
+      "year": "2017",
+      "journal": "arXiv preprint arXiv:1710.11198",
+      "author": "Liu, Hao and Feng, Yihao and Mao, Yi and Zhou, Dengyong and Peng, Jian and Liu, Qiang",
+      "title": "Action-depedent Control Variates for Policy Optimization via Stein's Identity",
+      "ENTRYTYPE": "article",
+      "ID": "liu2017action"
+    },
+    {
+      "year": "2016",
+      "pages": "265--283",
+      "booktitle": "12th $\\{$USENIX$\\}$ symposium on operating systems design and implementation ($\\{$OSDI$\\}$ 16)",
+      "author": "Abadi, Mart{\\'\\i}n and Barham, Paul and Chen, Jianmin and Chen, Zhifeng and Davis, Andy and Dean, Jeffrey and Devin, Matthieu and Ghemawat, Sanjay and Irving, Geoffrey and Isard, Michael and others",
+      "title": "Tensorflow: A system for large-scale machine learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "abadi2016tensorflow"
+    },
+    {
+      "year": "2017",
+      "author": "Paszke, Adam and Gross, Sam and Chintala, Soumith and Chanan, Gregory and Yang, Edward and DeVito, Zachary and Lin, Zeming and Desmaison, Alban and Antiga, Luca and Lerer, Adam",
+      "title": "Automatic differentiation in pytorch",
+      "ENTRYTYPE": "article",
+      "ID": "paszke2017automatic"
+    },
+    {
+      "year": "2019",
+      "journal": "arXiv preprint arXiv:1910.00125",
+      "author": "Fakoor, Rasool and Chaudhari, Pratik and Soatto, Stefano and Smola, Alexander J",
+      "title": "Meta-q-learning",
+      "ENTRYTYPE": "article",
+      "ID": "fakoor2019meta"
+    },
+    {
+      "year": "2018",
+      "journal": "arXiv preprint arXiv:1802.04821",
+      "author": "Houthooft, Rein and Chen, Richard Y and Isola, Phillip and Stadie, Bradly C and Wolski, Filip and Ho, Jonathan and Abbeel, Pieter",
+      "title": "Evolved policy gradients",
+      "ENTRYTYPE": "article",
+      "ID": "houthooft2018evolved"
+    },
+    {
+      "year": "2020",
+      "journal": "arXiv preprint arXiv:2007.08794",
+      "author": "Oh, Junhyuk and Hessel, Matteo and Czarnecki, Wojciech M and Xu, Zhongwen and van Hasselt, Hado and Singh, Satinder and Silver, David",
+      "title": "Discovering reinforcement learning algorithms",
+      "ENTRYTYPE": "article",
+      "ID": "oh2020discovering"
+    },
+    {
+      "year": "2020",
+      "journal": "arXiv preprint arXiv:2007.08433",
+      "author": "Xu, Zhongwen and van Hasselt, Hado and Hessel, Matteo and Oh, Junhyuk and Singh, Satinder and Silver, David",
+      "title": "Meta-gradient reinforcement learning with an objective discovered online",
+      "ENTRYTYPE": "article",
+      "ID": "xu2020meta"
+    },
+    {
+      "year": "2020",
+      "journal": "arXiv preprint arXiv:2002.12928",
+      "author": "Zahavy, Tom and Xu, Zhongwen and Veeriah, Vivek and Hessel, Matteo and Oh, Junhyuk and van Hasselt, Hado and Silver, David and Singh, Satinder",
+      "title": "A Self-Tuning Actor-Critic Algorithm",
+      "ENTRYTYPE": "article",
+      "ID": "zahavy2020self"
+    },
+    {
+      "publisher": "Springer Science \\& Business Media",
+      "year": "2006",
+      "author": "Nocedal, Jorge and Wright, Stephen",
+      "title": "Numerical optimization",
+      "ENTRYTYPE": "book",
+      "ID": "nocedal2006numerical"
+    },
+    {
+      "year": "2019",
+      "journal": "arXiv preprint arXiv:1905.03030",
+      "author": "Ortega, Pedro A and Wang, Jane X and Rowland, Mark and Genewein, Tim and Kurth-Nelson, Zeb and Pascanu, Razvan and Heess, Nicolas and Veness, Joel and Pritzel, Alex and Sprechmann, Pablo and others",
+      "title": "Meta-learning of sequential strategies",
+      "ENTRYTYPE": "article",
+      "ID": "ortega2019meta"
+    },
+    {
+      "year": "2016",
+      "journal": "arXiv preprint arXiv:1611.05763",
+      "author": "Wang, Jane X and Kurth-Nelson, Zeb and Tirumala, Dhruva and Soyer, Hubert and Leibo, Joel Z and Munos, Remi and Blundell, Charles and Kumaran, Dharshan and Botvinick, Matt",
+      "title": "Learning to reinforcement learn",
+      "ENTRYTYPE": "article",
+      "ID": "wang2016learning"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2019",
+      "pages": "5331--5340",
+      "booktitle": "International conference on machine learning",
+      "author": "Rakelly, Kate and Zhou, Aurick and Finn, Chelsea and Levine, Sergey and Quillen, Deirdre",
+      "title": "Efficient off-policy meta-reinforcement learning via probabilistic context variables",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "rakelly2019efficient"
+    },
+    {
+      "year": "2019",
+      "journal": "arXiv preprint arXiv:1910.08348",
+      "author": "Zintgraf, Luisa and Shiarlis, Kyriacos and Igl, Maximilian and Schulze, Sebastian and Gal, Yarin and Hofmann, Katja and Whiteson, Shimon",
+      "title": "Varibad: A very good method for bayes-adaptive deep rl via meta-learning",
+      "ENTRYTYPE": "article",
+      "ID": "zintgraf2019varibad"
+    },
+    {
+      "year": "2016",
+      "journal": "arXiv preprint arXiv:1611.02779",
+      "author": "Duan, Yan and Schulman, John and Chen, Xi and Bartlett, Peter L and Sutskever, Ilya and Abbeel, Pieter",
+      "title": "Rl2: Fast reinforcement learning via slow reinforcement learning",
+      "ENTRYTYPE": "article",
+      "ID": "duan2016rl"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2018",
+      "pages": "3053--3062",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Liang, Eric and Liaw, Richard and Nishihara, Robert and Moritz, Philipp and Fox, Roy and Goldberg, Ken and Gonzalez, Joseph and Jordan, Michael and Stoica, Ion",
+      "title": "RLlib: Abstractions for distributed reinforcement learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "liang2018rllib"
+    },
+    {
+      "publisher": "Cambridge university press",
+      "year": "2004",
+      "author": "Boyd, Stephen and Boyd, Stephen P and Vandenberghe, Lieven",
+      "title": "Convex optimization",
+      "ENTRYTYPE": "book",
+      "ID": "boyd2004convex"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2019",
+      "pages": "2650--2660",
+      "booktitle": "The 22nd International Conference on Artificial Intelligence and Statistics",
+      "author": "Weber, Th{\\'e}ophane and Heess, Nicolas and Buesing, Lars and Silver, David",
+      "title": "Credit assignment techniques in stochastic computation graphs",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "weber2019credit"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2018",
+      "pages": "5015--5024",
+      "booktitle": "International conference on machine learning",
+      "author": "Tucker, George and Bhupatiraju, Surya and Gu, Shixiang and Turner, Richard and Ghahramani, Zoubin and Levine, Sergey",
+      "title": "The mirage of action-dependent baselines in reinforcement learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "tucker2018mirage"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2020",
+      "pages": "64--66",
+      "booktitle": "Conference on Learning Theory",
+      "author": "Agarwal, Alekh and Kakade, Sham M and Lee, Jason D and Mahajan, Gaurav",
+      "title": "Optimality and approximation with policy gradient methods in markov decision processes",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "agarwal2020optimality"
+    },
+    {
+      "organization": "Citeseer",
+      "year": "1993",
+      "pages": "1094--1099",
+      "booktitle": "IJCAI",
+      "author": "Kaelbling, Leslie Pack",
+      "title": "Learning to achieve goals",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "kaelbling1993learning"
+    },
+    {
+      "organization": "Citeseer",
+      "year": "2000",
+      "pages": "1008--1014",
+      "booktitle": "Advances in neural information processing systems",
+      "author": "Konda, Vijay R and Tsitsiklis, John N",
+      "title": "Actor-critic algorithms",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "konda2000actor"
+    },
+    {
+      "doi": "10.7717/peerj-cs.103",
+      "url": "https://doi.org/10.7717/peerj-cs.103",
+      "issn": "2376-5992",
+      "journal": "PeerJ Computer Science",
+      "pages": "e103",
+      "volume": "3",
+      "abstract": "\nSymPy is an open-source computer algebra system written in pure Python. It is built with a focus on extensibility and ease of use, through both interactive and programmatic applications. These characteristics have led SymPy to become a popular symbolic library for the scientific Python ecosystem. This paper presents the architecture of SymPy, a description of its features, and a discussion of select submodules. The supplementary material provides additional examples and further outlines details of the architecture and features of SymPy.\n",
+      "keywords": "Python, Computer algebra system, Symbolics",
+      "month": "January",
+      "year": "2017",
+      "author": "Meurer, Aaron and Smith, Christopher P. and Paprocki, Mateusz and \\v{C}ert\\'{i}k, Ond\\v{r}ej and Kirpichev, Sergey B. and Rocklin, Matthew and Kumar, Amit and Ivanov, Sergiu and Moore, Jason K. and Singh, Sartaj and Rathnayake, Thilina and Vig, Sean and Granger, Brian E. and Muller, Richard P. and Bonazzi, Francesco and Gupta, Harsh and Vats, Shivam and Johansson, Fredrik and Pedregosa, Fabian and Curry, Matthew J. and Terrel, Andy R. and Rou\\v{c}ka, \\v{S}t\\v{e}p\\'{a}n and Saboo, Ashutosh and Fernando, Isuru and Kulal, Sumith and Cimrman, Robert and Scopatz, Anthony",
+      "title": "SymPy: symbolic computing in Python",
+      "ENTRYTYPE": "article",
+      "ID": "10.7717/peerj-cs.103"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2014",
+      "pages": "1278--1286",
+      "booktitle": "International conference on machine learning",
+      "author": "Rezende, Danilo Jimenez and Mohamed, Shakir and Wierstra, Daan",
+      "title": "Stochastic backpropagation and approximate inference in deep generative models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "rezende2014stochastic"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2023",
+      "pages": "10835--10866",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Gao, Leo and Schulman, John and Hilton, Jacob",
+      "title": "Scaling laws for reward model overoptimization",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "gao2023scaling"
+    },
+    {
+      "year": "2016",
+      "number": "2",
+      "volume": "1",
+      "booktitle": "Workshop in Advances in Approximate Bayesian Inference, NIPS",
+      "author": "Hoffman, Matthew D and Johnson, Matthew J",
+      "title": "Elbo surgery: yet another way to carve up the variational evidence lower bound",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "hoffman2016elbo"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2407.21783",
+      "author": "Dubey, Abhimanyu and Jauhri, Abhinav and Pandey, Abhinav and Kadian, Abhishek and Al-Dahle, Ahmad and Letman, Aiesha and Mathur, Akhil and Schelten, Alan and Yang, Amy and Fan, Angela and others",
+      "title": "The llama 3 herd of models",
+      "ENTRYTYPE": "article",
+      "ID": "dubey2024llama"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2412.16720",
+      "author": "Jaech, Aaron and Kalai, Adam and Lerer, Adam and Richardson, Adam and El-Kishky, Ahmed and Low, Aiden and Helyar, Alec and Madry, Aleksander and Beutel, Alex and Carney, Alex and others",
+      "title": "OpenAI o1 System Card",
+      "ENTRYTYPE": "article",
+      "ID": "jaech2024openai"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2503.01067",
+      "author": "Swamy, Gokul and Choudhury, Sanjiban and Sun, Wen and Wu, Zhiwei Steven and Bagnell, J Andrew",
+      "title": "All roads lead to likelihood: The value of reinforcement learning in fine-tuning",
+      "ENTRYTYPE": "article",
+      "ID": "swamy2025all"
+    },
+    {
+      "year": "1937",
+      "author": "McShane, Edward James",
+      "title": "Jensen's inequality",
+      "ENTRYTYPE": "article",
+      "ID": "mcshane1937jensen"
+    },
+    {
+      "year": "2019",
+      "journal": "arXiv preprint arXiv:1909.08593",
+      "author": "Ziegler, Daniel M and Stiennon, Nisan and Wu, Jeffrey and Brown, Tom B and Radford, Alec and Amodei, Dario and Christiano, Paul and Irving, Geoffrey",
+      "title": "Fine-tuning language models from human preferences",
+      "ENTRYTYPE": "article",
+      "ID": "ziegler2019fine"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2501.04682",
+      "author": "Xiang, Violet and Snell, Charlie and Gandhi, Kanishk and Albalak, Alon and Singh, Anikait and Blagden, Chase and Phung, Duy and Rafailov, Rafael and Lile, Nathan and Mahan, Dakota and others",
+      "title": "Towards System 2 Reasoning in LLMs: Learning How to Think With Meta Chain-of-Though",
+      "ENTRYTYPE": "article",
+      "ID": "xiang2025towards"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2312.06585",
+      "author": "Singh, Avi and Co-Reyes, John D and Agarwal, Rishabh and Anand, Ankesh and Patil, Piyush and Garcia, Xavier and Liu, Peter J and Harrison, James and Lee, Jaehoon and Xu, Kelvin and others",
+      "title": "Beyond human data: Scaling self-training for problem-solving with language models",
+      "ENTRYTYPE": "article",
+      "ID": "singh2023beyond"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2308.01825",
+      "author": "Yuan, Zheng and Yuan, Hongyi and Li, Chengpeng and Dong, Guanting and Lu, Keming and Tan, Chuanqi and Zhou, Chang and Zhou, Jingren",
+      "title": "Scaling relationship on learning mathematical reasoning with large language models",
+      "ENTRYTYPE": "article",
+      "ID": "yuan2023scaling"
+    },
+    {
+      "year": "2021",
+      "journal": "arXiv preprint arXiv:2110.14168",
+      "author": "Cobbe, Karl and Kosaraju, Vineet and Bavarian, Mohammad and Chen, Mark and Jun, Heewoo and Kaiser, Lukasz and Plappert, Matthias and Tworek, Jerry and Hilton, Jacob and Nakano, Reiichiro and others",
+      "title": "Training verifiers to solve math word problems",
+      "ENTRYTYPE": "article",
+      "ID": "cobbe2021training"
+    },
+    {
+      "publisher": "Springer",
+      "year": "2010",
+      "pages": "177--186",
+      "booktitle": "Proceedings of COMPSTAT'2010",
+      "author": "Bottou, L{\\'e}on",
+      "title": "Large-scale machine learning with stochastic gradient descent",
+      "ENTRYTYPE": "incollection",
+      "ID": "bottou2010large"
+    },
+    {
+      "year": "2018",
+      "journal": "arXiv preprint arXiv:1803.01118",
+      "author": "Stadie, Bradly C and Yang, Ge and Houthooft, Rein and Chen, Xi and Duan, Yan and Wu, Yuhuai and Abbeel, Pieter and Sutskever, Ilya",
+      "title": "Some considerations on learning to explore via meta-reinforcement learning",
+      "ENTRYTYPE": "article",
+      "ID": "stadie2018some"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2018",
+      "pages": "1529--1538",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Foerster, Jakob and Farquhar, Gregory and Al-Shedivat, Maruan and Rockt{\\\"a}schel, Tim and Xing, Eric and Whiteson, Shimon",
+      "title": "Dice: The infinitely differentiable monte carlo estimator",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "foerster2018dice"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2019",
+      "pages": "4343--4351",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Mao, Jingkai and Foerster, Jakob and Rockt{\\\"a}schel, Tim and Al-Shedivat, Maruan and Farquhar, Gregory and Whiteson, Shimon",
+      "title": "A baseline for any order gradient estimation in stochastic computation graphs",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "mao2019baseline"
+    },
+    {
+      "year": "2019",
+      "author": "Farquhar, Gregory and Whiteson, Shimon and Foerster, Jakob",
+      "title": "Loaded dice: Trading off bias and variance in any-order score function gradient estimators for reinforcement learning",
+      "ENTRYTYPE": "article",
+      "ID": "farquhar2019loaded"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2019",
+      "pages": "4061--4071",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Liu, Hao and Socher, Richard and Xiong, Caiming",
+      "title": "Taming maml: Efficient unbiased meta-reinforcement learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "liu2019taming"
+    },
+    {
+      "year": "2018",
+      "journal": "arXiv preprint arXiv:1810.06784",
+      "author": "Rothfuss, Jonas and Lee, Dennis and Clavera, Ignasi and Asfour, Tamim and Abbeel, Pieter",
+      "title": "Promp: Proximal meta-policy search",
+      "ENTRYTYPE": "article",
+      "ID": "rothfuss2018promp"
+    },
+    {
+      "year": "2017",
+      "pages": "3455--3461",
+      "booktitle": "IJCAI",
+      "author": "Zhang, Zongzhang and Pan, Zhiyuan and Kochenderfer, Mykel J",
+      "title": "Weighted Double Q-learning.",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zhang2017weighted"
+    },
+    {
+      "year": "2015",
+      "journal": "arXiv preprint arXiv:1510.09142",
+      "author": "Heess, Nicolas and Wayne, Greg and Silver, David and Lillicrap, Timothy and Tassa, Yuval and Erez, Tom",
+      "title": "Learning continuous control policies by stochastic value gradients",
+      "ENTRYTYPE": "article",
+      "ID": "heess2015learning"
+    },
+    {
+      "year": "2021",
+      "journal": "arXiv preprint arXiv:2106.13125",
+      "author": "Tang, Yunhao and Kozuno, Tadashi and Rowland, Mark and Munos, R{\\'e}mi and Valko, Michal",
+      "title": "Unifying Gradient Estimators for Meta-Reinforcement Learning via Off-Policy Evaluation",
+      "ENTRYTYPE": "article",
+      "ID": "tang2021unifying"
+    },
+    {
+      "year": "2020",
+      "journal": "arXiv preprint arXiv:2002.05135",
+      "author": "Fallah, Alireza and Georgiev, Kristian and Mokhtari, Aryan and Ozdaglar, Asuman",
+      "title": "Provably convergent policy gradient methods for model-agnostic meta-reinforcement learning",
+      "ENTRYTYPE": "article",
+      "ID": "fallah2020provably"
+    },
+    {
+      "year": "2020",
+      "pages": "1--62",
+      "number": "132",
+      "volume": "21",
+      "journal": "J. Mach. Learn. Res.",
+      "author": "Mohamed, Shakir and Rosca, Mihaela and Figurnov, Michael and Mnih, Andriy",
+      "title": "Monte Carlo Gradient Estimation in Machine Learning.",
+      "ENTRYTYPE": "article",
+      "ID": "mohamed2020monte"
+    },
+    {
+      "year": "2020",
+      "journal": "arXiv preprint arXiv:2002.06487",
+      "author": "Lan, Qingfeng and Pan, Yangchen and Fyshe, Alona and White, Martha",
+      "title": "Maxmin Q-learning: Controlling the Estimation Bias of Q-learning",
+      "ENTRYTYPE": "article",
+      "ID": "lan2020maxmin"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2017",
+      "pages": "176--185",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Anschel, Oron and Baram, Nir and Shimkin, Nahum",
+      "title": "Averaged-dqn: Variance reduction and stabilization for deep reinforcement learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "anschel2017averaged"
+    },
+    {
+      "abstract": "AI alignment in the shape of Reinforcement Learning from Human Feedback (RLHF) is increasingly treated as a crucial ingredient for high performance large language models. Proximal Policy Optimization (PPO) has been installed by the seminal literature as the standard method for the RL part of RLHF. However, it involves both high computational cost and sensitive hyperparameter tuning. We posit that most of the motivational principles that led to the development of PPO are less of a practical concern in RLHF and advocate for a less computationally expensive method that preserves and even increases performance. We revisit how alignment from human preferences is formulated in the context of RL. Keeping simplicity as a guiding principle, we show that many components of PPO are unnecessary in an RLHF context and that far simpler REINFORCE-style optimization variants outperform both PPO and newly proposed {\\textquotedblleft}RL-free{\\textquotedblright} methods such as DPO and RAFT. Our work suggests that careful adaptation to LLMs alignment characteristics allows benefiting from online RL optimization at low cost.",
+      "pages": "12248--12267",
+      "doi": "10.18653/v1/2024.acl-long.662",
+      "url": "https://aclanthology.org/2024.acl-long.662/",
+      "publisher": "Association for Computational Linguistics",
+      "address": "Bangkok, Thailand",
+      "year": "2024",
+      "month": "August",
+      "booktitle": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+      "editor": "Ku, Lun-Wei  and\nMartins, Andre  and\nSrikumar, Vivek",
+      "author": "Ahmadian, Arash  and\nCremer, Chris  and\nGall{\\'e}, Matthias  and\nFadaee, Marzieh  and\nKreutzer, Julia  and\nPietquin, Olivier  and\n{\\\"U}st{\\\"u}n, Ahmet  and\nHooker, Sara",
+      "title": "Back to Basics: Revisiting {REINFORCE}-Style Optimization for Learning from Human Feedback in {LLM}s",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "rloo"
+    }
+  ]
+}

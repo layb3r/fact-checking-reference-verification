@@ -1,0 +1,1655 @@
+{
+  "pdf_url": "https://arxiv.org/pdf/2505.09022v1.pdf",
+  "references": [
+    {
+      "publisher": "Cambridge University Press",
+      "year": "1999",
+      "pages": "143--195",
+      "volume": "8",
+      "journal": "Acta numerica",
+      "author": "Pinkus, Allan",
+      "title": "Approximation theory of the MLP model in neural networks",
+      "ENTRYTYPE": "article",
+      "ID": "pinkus1999approximation"
+    },
+    {
+      "year": "2024",
+      "volume": "36",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Wang, Shida and Xue, Beichen",
+      "title": "State-space models with layer-wise nonlinearity are universal approximators with exponential decaying memory",
+      "ENTRYTYPE": "article",
+      "ID": "wang2024state"
+    },
+    {
+      "publisher": "Prentice Hall, Upper Saddle River, NJ",
+      "year": "1998",
+      "volume": "104",
+      "author": "Zhou, Kemin and Doyle, John Comstock",
+      "title": "Essentials of robust control",
+      "ENTRYTYPE": "book",
+      "ID": "zhou1998essentials"
+    },
+    {
+      "pages": "143--154",
+      "year": "2012",
+      "booktitle": "Proceedings of the 31st ACM Symposium on Principles of Database Systems",
+      "title": "Approximate Computation and Implicit Regularization for Very Large-scale Data Analysis",
+      "author": "M.~W.~Mahoney",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "Mah12"
+    },
+    {
+      "year": "2022",
+      "booktitle": "International Conference on Learning Representations",
+      "author": "Albert Gu and Karan Goel and Christopher Re",
+      "title": "Efficiently Modeling Long Sequences with Structured State Spaces",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "gu2022efficiently"
+    },
+    {
+      "year": "2023",
+      "booktitle": "The Eleventh International Conference on Learning Representations ",
+      "author": "Jimmy T.H. Smith and Andrew Warrington and Scott Linderman",
+      "title": "Simplified State Space Layers for Sequence Modeling",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "smith2023simplified"
+    },
+    {
+      "year": "2020",
+      "pages": "1474--1487",
+      "volume": "33",
+      "journal": "Advances in neural information processing systems",
+      "author": "Gu, Albert and Dao, Tri and Ermon, Stefano and Rudra, Atri and R{\\'e}, Christopher",
+      "title": "Hippo: Recurrent memory with optimal polynomial projections",
+      "ENTRYTYPE": "article",
+      "ID": "gu2020hippo"
+    },
+    {
+      "organization": "IEEE",
+      "year": "2021",
+      "pages": "487--493",
+      "booktitle": "2021 29th Mediterranean Conference on Control and Automation (MED)",
+      "author": "Gosea, Ion Victor and Poussot-Vassal, Charles and Antoulas, Athanasios C",
+      "title": "On enforcing stability for data-driven reduced-order models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "gosea2021enforcing"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2301.04906",
+      "author": "Aumann, Quirin and Gosea, Ion Victor",
+      "title": "Practical challenges in data-driven interpolation: dealing with noise, enforcing stability, and computing realizations",
+      "ENTRYTYPE": "article",
+      "ID": "aumann2023practical"
+    },
+    {
+      "year": "2022",
+      "pages": "35971--35983",
+      "volume": "35",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Gu, Albert and Goel, Karan and Gupta, Ankit and R{\\'e}, Christopher",
+      "title": "On the parameterization and initialization of diagonal state space models",
+      "ENTRYTYPE": "article",
+      "ID": "gu2022parameterization"
+    },
+    {
+      "publisher": "SIAM",
+      "year": "2015",
+      "pages": "A2346--A2379",
+      "number": "5",
+      "volume": "37",
+      "journal": "SIAM Journal on Scientific Computing",
+      "author": "Drmac, Zlatko and Gugercin, Serkan and Beattie, Christopher",
+      "title": "Vector fitting for matrix-valued rational approximation",
+      "ENTRYTYPE": "article",
+      "ID": "drmac2015vector"
+    },
+    {
+      "publisher": "SIAM",
+      "year": "2021",
+      "pages": "A3033--A3054",
+      "number": "5",
+      "volume": "43",
+      "journal": "SIAM Journal on Scientific Computing",
+      "author": "Gosea, Ion Victor and Guttel, Stefan",
+      "title": "Algorithms for the rational approximation of matrix-valued functions",
+      "ENTRYTYPE": "article",
+      "ID": "gosea2021algorithms"
+    },
+    {
+      "mrnumber": "4410737",
+      "mrclass": "65H17 (15A18 65F15)",
+      "issn": "0272-4979",
+      "pages": "1087--1115",
+      "number": "2",
+      "year": "2022",
+      "volume": "42",
+      "fjournal": "IMA Journal of Numerical Analysis",
+      "journal": "IMA J. Numer. Anal.",
+      "title": "Automatic rational approximation and linearization of\nnonlinear eigenvalue problems",
+      "author": "Lietaert, Pieter and Meerbergen, Karl and P\\'{e}rez, Javier and\nVandereycken, Bart",
+      "ENTRYTYPE": "article",
+      "ID": "lietaert2022automatic"
+    },
+    {
+      "mrnumber": "1681462",
+      "mrclass": "00A05 (26-01 28-01 46-01)",
+      "isbn": "0-471-31716-0",
+      "pages": "xvi+386",
+      "year": "1999",
+      "publisher": "John Wiley \\& Sons, Inc., New York",
+      "note": "Modern techniques and their applications,\nA Wiley-Interscience Publication",
+      "edition": "Second",
+      "series": "Pure and Applied Mathematics (New York)",
+      "title": "Real analysis",
+      "author": "Folland, Gerald B.",
+      "ENTRYTYPE": "book",
+      "ID": "folland"
+    },
+    {
+      "year": "2010",
+      "author": "Heil, Christopher",
+      "title": "Introduction to Harmonic Analysis",
+      "ENTRYTYPE": "misc",
+      "ID": "heil2010introduction"
+    },
+    {
+      "year": "1992",
+      "pages": "10-19",
+      "number": "1",
+      "volume": "13",
+      "journal": "SIAM Journal on Matrix Analysis and Applications",
+      "title": "The Componentwise Distance to the Nearest Singular Matrix",
+      "author": "Demmel, James",
+      "ENTRYTYPE": "article",
+      "ID": "demmel1992componentwise"
+    },
+    {
+      "publisher": "Wiley Online Library",
+      "year": "2021",
+      "pages": "2114--2131",
+      "number": "10",
+      "volume": "74",
+      "journal": "Communications on Pure and Applied Mathematics",
+      "author": "Banks, Jess and Kulkarni, Archit and Mukherjee, Satyaki and Srivastava, Nikhil",
+      "title": "Gaussian regularization of the pseudospectrum and Davies’ conjecture",
+      "ENTRYTYPE": "article",
+      "ID": "banks2021gaussian"
+    },
+    {
+      "publisher": "SIAM",
+      "year": "2008",
+      "pages": "1051--1064",
+      "number": "4",
+      "volume": "29",
+      "journal": "SIAM journal on matrix analysis and applications",
+      "author": "Davies, E.B.",
+      "title": "Approximate diagonalization",
+      "ENTRYTYPE": "article",
+      "ID": "davies2008approximate"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2305.10575",
+      "author": "Srivastava, Nikhil",
+      "title": "The Complexity of Diagonalization",
+      "ENTRYTYPE": "article",
+      "ID": "srivastava2023complexity"
+    },
+    {
+      "publisher": "Springer",
+      "year": "2022",
+      "pages": "1--89",
+      "journal": "Foundations of Computational Mathematics",
+      "author": "Banks, Jess and Garza-Vargas, Jorge and Kulkarni, Archit and Srivastava, Nikhil",
+      "title": "Pseudospectral shattering, the sign function, and diagonalization in nearly matrix multiplication time",
+      "ENTRYTYPE": "article",
+      "ID": "banks2022pseudospectral"
+    },
+    {
+      "year": "2021",
+      "pages": "572--585",
+      "volume": "34",
+      "journal": "Advances in neural information processing systems",
+      "author": "Gu, Albert and Johnson, Isys and Goel, Karan and Saab, Khaled and Dao, Tri and Rudra, Atri and R{\\'e}, Christopher",
+      "title": "Combining recurrent, convolutional, and continuous-time models with linear state space layers",
+      "ENTRYTYPE": "article",
+      "ID": "gu2021combining"
+    },
+    {
+      "mrreviewer": "J. Kuntzmann",
+      "mrnumber": "0038136",
+      "mrclass": "65.0X",
+      "pages": "4",
+      "year": "1950",
+      "publisher": "Princeton University, Princeton, N. J.",
+      "note": "Statistical Research Group, Memo. Rep. no. 42,",
+      "title": "Inverting modified matrices",
+      "author": "Woodbury, Max A.",
+      "ENTRYTYPE": "book",
+      "ID": "woodbury1950inverting"
+    },
+    {
+      "publisher": "Toronto, ON, Canada",
+      "year": "2009",
+      "author": "Krizhevsky, Alex and Hinton, Geoffrey and others",
+      "title": "Learning multiple layers of features from tiny images",
+      "ENTRYTYPE": "article",
+      "ID": "krizhevsky2009learning"
+    },
+    {
+      "year": "2021",
+      "journal": "International Conference in Learning Representations",
+      "author": "Tay, Yi and Dehghani, Mostafa and Abnar, Samira and Shen, Yikang and Bahri, Dara and Pham, Philip and Rao, Jinfeng and Yang, Liu and Ruder, Sebastian and Metzler, Donald",
+      "title": "Long range arena: A benchmark for efficient transformers",
+      "ENTRYTYPE": "article",
+      "ID": "tay2020long"
+    },
+    {
+      "year": "2019",
+      "volume": "32",
+      "journal": "Advances in neural information processing systems",
+      "author": "Voelker, Aaron and Kaji{\\'c}, Ivana and Eliasmith, Chris",
+      "title": "Legendre memory units: Continuous-time representation in recurrent neural networks",
+      "ENTRYTYPE": "article",
+      "ID": "voelker2019legendre"
+    },
+    {
+      "publisher": "Oxford University Press",
+      "year": "1986",
+      "pages": "61--88",
+      "number": "2-3",
+      "volume": "3",
+      "journal": "IMA Journal of Mathematical Control and Information",
+      "author": "Antoulas, Athanasios C. and Anderson, Brian D.O.",
+      "title": "On the scalar rational interpolation problem",
+      "ENTRYTYPE": "article",
+      "ID": "antoulas1986scalar"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "2009",
+      "pages": "82--94",
+      "number": "1",
+      "volume": "156",
+      "journal": "Journal of Approximation Theory",
+      "author": "Davies, E Brian and Hager, Mildred",
+      "title": "Perturbations of {J}ordan matrices",
+      "ENTRYTYPE": "article",
+      "ID": "davies2009perturbations"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2016",
+      "pages": "1120--1128",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Arjovsky, Martin and Shah, Amar and Bengio, Yoshua",
+      "title": "Unitary evolution recurrent neural networks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "arjovsky2016unitary"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2303.06349",
+      "author": "Orvieto, Antonio and Smith, Samuel L and Gu, Albert and Fernando, Anushan and Gulcehre, Caglar and Pascanu, Razvan and De, Soham",
+      "title": "Resurrecting recurrent neural networks for long sequences",
+      "ENTRYTYPE": "article",
+      "ID": "orvieto2023resurrecting"
+    },
+    {
+      "year": "2021",
+      "booktitle": "International Conference on Learning Representations",
+      "author": "Erichson, N Benjamin and Azencot, Omri and Queiruga, Alejandro and Hodgkinson, Liam and Mahoney, Michael W",
+      "title": "Lipschitz recurrent neural networks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "erichson2021lipschitz"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2021",
+      "pages": "9168--9178",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Rusch, T Konstantin and Mishra, Siddhartha",
+      "title": "Unicornn: A recurrent model for learning very long time dependencies",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "rusch2021unicornn"
+    },
+    {
+      "year": "2019",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Chang, Bo and Chen, Minmin and Haber, Eldad and Chi, Ed H",
+      "title": "AntisymmetricRNN: A dynamical system view on recurrent neural networks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "chang2019antisymmetricrnn"
+    },
+    {
+      "year": "2018",
+      "journal": "arXiv preprint arXiv:1803.01271",
+      "author": "Bai, Shaojie and Kolter, J Zico and Koltun, Vladlen",
+      "title": "An empirical evaluation of generic convolutional and recurrent networks for sequence modeling",
+      "ENTRYTYPE": "article",
+      "ID": "bai2018empirical"
+    },
+    {
+      "year": "2022",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Romero, David W and Kuzina, Anna and Bekkers, Erik J and Tomczak, Jakub M and Hoogendoorn, Mark",
+      "title": "Ckconv: Continuous kernel convolution for sequential data",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "romero2021ckconv"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2020",
+      "pages": "5156--5165",
+      "booktitle": "International conference on machine learning",
+      "author": "Katharopoulos, Angelos and Vyas, Apoorv and Pappas, Nikolaos and Fleuret, Fran{\\c{c}}ois",
+      "title": "Transformers are rnns: Fast autoregressive transformers with linear attention",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "katharopoulos2020transformers"
+    },
+    {
+      "year": "2020",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Choromanski, Krzysztof and Likhosherstov, Valerii and Dohan, David and Song, Xingyou and Gane, Andreea and Sarlos, Tamas and Hawkins, Peter and Davis, Jared and Mohiuddin, Afroz and Kaiser, Lukasz and others",
+      "title": "Rethinking attention with performers",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "choromanski2020rethinking"
+    },
+    {
+      "year": "2020",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Kitaev, Nikita and Kaiser, {\\L}ukasz and Levskaya, Anselm",
+      "title": "Reformer: The efficient transformer",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "kitaev2020reformer"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2021",
+      "pages": "12009--12018",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Yildiz, Cagatay and Heinonen, Markus and L{\\\"a}hdesm{\\\"a}ki, Harri",
+      "title": "Continuous-time model-based reinforcement learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "yildiz2021continuous"
+    },
+    {
+      "mrnumber": "1953987",
+      "mrclass": "00A05 (08-01 16-01 18-01 20-01 68Q70)",
+      "isbn": "1-85233-667-6",
+      "pages": "xii+451",
+      "year": "2003",
+      "publisher": "Springer-Verlag London, Ltd., London",
+      "title": "Further algebra and applications",
+      "author": "Cohn, P. M.",
+      "ENTRYTYPE": "book",
+      "ID": "cohn2003further"
+    },
+    {
+      "year": "2018",
+      "journal": "arXiv preprint arXiv:1804.11313",
+      "author": "Sengupta, Biswa and Friston, Karl J",
+      "title": "How robust are deep neural networks?",
+      "ENTRYTYPE": "article",
+      "ID": "sengupta2018robust"
+    },
+    {
+      "organization": "SPIE",
+      "year": "2022",
+      "pages": "70--76",
+      "volume": "12019",
+      "booktitle": "AI and Optical Data Sciences III",
+      "author": "Kumar, Ankit and Bouchard, Kristofer",
+      "title": "Non-normality in neural networks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "kumar2022non"
+    },
+    {
+      "year": "2019",
+      "volume": "32",
+      "journal": "Advances in neural information processing systems",
+      "author": "Kerg, Giancarlo and Goyette, Kyle and Puelma Touzel, Maximilian and Gidel, Gauthier and Vorontsov, Eugene and Bengio, Yoshua and Lajoie, Guillaume",
+      "title": "Non-normal recurrent neural network (nnrnn): learning long time dependencies while improving expressivity with transient dynamics",
+      "ENTRYTYPE": "article",
+      "ID": "kerg2019non"
+    },
+    {
+      "year": "2020",
+      "journal": "Internation Conference on Learning Representations",
+      "author": "Orhan, A Emin and Pitkow, Xaq",
+      "title": "Improved memory in recurrent neural networks with sequential non-normal dynamics",
+      "ENTRYTYPE": "article",
+      "ID": "orhan2019improved"
+    },
+    {
+      "year": "2023",
+      "booktitle": "The Eleventh International Conference on Learning Representations ",
+      "author": "Yuqi Nie and Nam H Nguyen and Phanwadee Sinthong and Jayant Kalagnanam",
+      "title": "A Time Series is Worth 64 Words:  Long-term Forecasting with Transformers",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "nie2023a"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2022",
+      "pages": "27268--27286",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Zhou, Tian and Ma, Ziqing and Wen, Qingsong and Wang, Xue and Sun, Liang and Jin, Rong",
+      "title": "Fedformer: Frequency enhanced decomposed transformer for long-term series forecasting",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zhou2022fedformer"
+    },
+    {
+      "publisher": "Springer",
+      "year": "2005",
+      "author": "Trefethen, Lloyd N and Embree, Mark",
+      "title": "Spectra and Pseudospectra: The Behaviour of Non-normal Matrices and Operators",
+      "ENTRYTYPE": "book",
+      "ID": "trefethen2005spectra"
+    },
+    {
+      "year": "2023",
+      "journal": "International Conference on Learning Representations",
+      "author": "Gu, Albert and Johnson, Isys and Timalsina, Aman and Rudra, Atri and R{\\'e}, Christopher",
+      "title": "How to train your hippo: State space models with generalized orthogonal basis projections",
+      "ENTRYTYPE": "article",
+      "ID": "gu2022train"
+    },
+    {
+      "year": "2023",
+      "journal": "International Conference on Learning Representations",
+      "author": "Hasani, Ramin and Lechner, Mathias and Wang, Tsun-Hsuan and Chahine, Makram and Amini, Alexander and Rus, Daniela",
+      "title": "Liquid structural state-space models",
+      "ENTRYTYPE": "article",
+      "ID": "hasani2022liquid"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2212.00228",
+      "author": "Erichson, N Benjamin and Lim, Soon Hoe and Mahoney, Michael W",
+      "title": "Gated Recurrent Neural Networks with Weighted Time-Delay Feedback",
+      "ENTRYTYPE": "article",
+      "ID": "erichson2022gated"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2312.00752",
+      "author": "Gu, Albert and Dao, Tri",
+      "title": "Mamba: Linear-time sequence modeling with selective state spaces",
+      "ENTRYTYPE": "article",
+      "ID": "gu2023mamba"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2405.21060",
+      "author": "Dao, Tri and Gu, Albert",
+      "title": "Transformers are SSMs: Generalized models and efficient algorithms through structured state space duality",
+      "ENTRYTYPE": "article",
+      "ID": "dao2024transformers"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2019",
+      "pages": "5301--5310",
+      "booktitle": "Inter. Conf. Mach. Learn.",
+      "author": "Rahaman, N. and Baratin, A. and Arpit, D. and Draxler, F. and Lin, M. and Hamprecht, F. and Bengio, Y. and Courville, A.",
+      "title": "On the spectral bias of neural networks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "rahaman2019spectral"
+    },
+    {
+      "year": "2024",
+      "booktitle": "The Twelfth International Conference on Learning Representations",
+      "author": "Annan Yu and Arnur Nigmetov and Dmitriy Morozov and Michael W. Mahoney and N. Benjamin Erichson",
+      "title": "Robustifying State-space Models for Long Sequences via Approximate Diagonalization",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "yu2024robustifying"
+    },
+    {
+      "year": "2024",
+      "journal": "ICML 2024 NGSM Workshop",
+      "title": "The Role of State Matrix Initialization in SSMs: A Perspective on the Approximation-Estimation Tradeoff",
+      "author": "Fusheng Liu and Qianxiao Li",
+      "ENTRYTYPE": "article",
+      "ID": "liu2024role"
+    },
+    {
+      "year": "2020",
+      "pages": "1746--1767",
+      "number": "5",
+      "volume": "28",
+      "journal": "Commun. Comput. Phys.",
+      "author": "Xu, Z.-Q. J.",
+      "title": "Frequency Principle: Fourier Analysis Sheds Light on Deep Neural Networks",
+      "ENTRYTYPE": "article",
+      "ID": "xu2020frequency"
+    },
+    {
+      "year": "2019",
+      "journal": "arXiv preprint arXiv:1907.10599",
+      "author": "Yang, G. and Salman, H.",
+      "title": "A fine-grained spectral perspective on neural networks",
+      "ENTRYTYPE": "article",
+      "ID": "yang2019fine"
+    },
+    {
+      "year": "2018",
+      "volume": "31",
+      "journal": "Adv. Neur. Info. Proc. Syst.",
+      "author": "Jacot, A. and Gabriel, F. and Hongler, C.",
+      "title": "Neural tangent kernel: Convergence and generalization in neural networks",
+      "ENTRYTYPE": "article",
+      "ID": "jacot2018neural"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2019",
+      "pages": "322--332",
+      "booktitle": "Inter. Conf. Mach. Learn.",
+      "author": "Arora, S. and Du, S. S. and Hu, W. and Li, Z. and Wang, R.",
+      "title": "Fine-grained analysis of optimization and generalization for overparameterized two-layer neural networks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "arora"
+    },
+    {
+      "year": "2019",
+      "volume": "32",
+      "title": "On Learning Over-parameterized Neural Networks: A Functional Approximation Perspective",
+      "publisher": "Curran Associates, Inc.",
+      "pages": "",
+      "editor": "H. Wallach and H. Larochelle and A. Beygelzimer and F. d\\textquotesingle Alch\\'{e}-Buc and E. Fox and R. Garnett",
+      "booktitle": "Adv. Neur. Info. Proc. Syst.",
+      "author": "Su, L. and Yang, P.",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "suyang"
+    },
+    {
+      "year": "2019",
+      "volume": "32",
+      "journal": "Adv. Neur. Info. Proc. Syst.",
+      "author": "Basri, Ronen and Jacobs, David and Kasten, Yoni and Kritchman, Shira",
+      "title": "The convergence rate of neural networks for learned functions of different frequencies",
+      "ENTRYTYPE": "article",
+      "ID": "basri"
+    },
+    {
+      "year": "2019",
+      "volume": "32",
+      "journal": "Adv. Neur. Info. Proc. Syst.",
+      "author": "Bietti, A. and Mairal, J.",
+      "title": "On the inductive bias of neural tangent kernels",
+      "ENTRYTYPE": "article",
+      "ID": "bietti2019inductive"
+    },
+    {
+      "year": "2019",
+      "journal": "arXiv preprint arXiv:1912.01198",
+      "author": "Cao, Yuan and Fang, Zhiying and Wu, Yue and Zhou, Ding-Xuan and Gu, Quanquan",
+      "title": "Towards understanding the spectral bias of deep learning",
+      "ENTRYTYPE": "article",
+      "ID": "cao2019towards"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2020",
+      "pages": "685--694",
+      "booktitle": "Inter. Conf. Mach. Learn.",
+      "author": "Basri, R. and Galun, M. and Geifman, A. and Jacobs, D. and Kasten, Y. and Kritchman, S.",
+      "title": "Frequency bias in neural networks for input of non-uniform density",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "basri2020frequency"
+    },
+    {
+      "year": "2023",
+      "journal": "International Conference on Learning Representations",
+      "author": "Yu, Annan and Yang, Yunan and Townsend, Alex",
+      "title": "Tuning frequency bias in neural network training with nonuniform data",
+      "ENTRYTYPE": "article",
+      "ID": "yu2022tuning"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "2021",
+      "pages": "113695",
+      "volume": "377",
+      "journal": "Compu. Meth. Appl. Mech. Eng.",
+      "author": "Vlassis, N.N. and Sun, W.",
+      "title": "Sobolev training of thermodynamic-informed neural networks for interpretable elasto-plasticity models with level set hardening",
+      "ENTRYTYPE": "article",
+      "ID": "vlassis2021sobolev"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "2021",
+      "pages": "107419",
+      "volume": "153",
+      "journal": "Comp. Chem. Eng.",
+      "author": "Tsay, C.",
+      "title": "Sobolev trained neural network surrogate models for optimization",
+      "ENTRYTYPE": "article",
+      "ID": "tsay2021sobolev"
+    },
+    {
+      "year": "2021",
+      "journal": "arXiv preprint arXiv:2101.08932",
+      "author": "Son, H. and Jang, J.W. and Han, W.J. and Hwang, H.J.",
+      "title": "Sobolev training for the neural network solutions of {P}{D}{E}s",
+      "ENTRYTYPE": "article",
+      "ID": "son2021sobolev"
+    },
+    {
+      "year": "2017",
+      "volume": "30",
+      "journal": "Adv. Neur. Info. Proc. Syst.",
+      "author": "Czarnecki, W. M. and Osindero, S. and Jaderberg, M. and Swirszcz, G. and Pascanu, R.",
+      "title": "Sobolev training for neural networks",
+      "ENTRYTYPE": "article",
+      "ID": "czarnecki2017sobolev"
+    },
+    {
+      "year": "2021",
+      "journal": "arXiv preprint arXiv:2109.06255",
+      "author": "Zhu, B. and Hu, J. and Lou, Y. and Yang, Y.",
+      "title": "Implicit Regularization Effects of the {Sobolev} Norms in Image Processing",
+      "ENTRYTYPE": "article",
+      "ID": "yang2021implicit"
+    },
+    {
+      "author": "Xinliang Liu and Bo Xu and Shuhao Cao and Lei Zhang",
+      "issn": "0021-9991",
+      "year": "2024",
+      "pages": "112944",
+      "volume": "506",
+      "journal": "Journal of Computational Physics",
+      "title": "Mitigating spectral bias for the multiscale operator learning",
+      "ENTRYTYPE": "article",
+      "ID": "liu2024mitigating"
+    },
+    {
+      "year": "2023",
+      "author": "Son, Hwijae",
+      "title": "Sobolev acceleration for neural networks",
+      "ENTRYTYPE": "article",
+      "ID": "sonsobolev"
+    },
+    {
+      "year": "2025",
+      "journal": "Internation Conference on Learning Representations",
+      "author": "Yu, Annan and Mahoney, Michael W and Erichson, N Benjamin",
+      "title": "{H}{O}{P}{E} for a Robust Parameterization of Long-memory State Space Models",
+      "ENTRYTYPE": "article",
+      "ID": "yu2024there"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2405.02670",
+      "author": "Liu, Fusheng and Li, Qianxiao",
+      "title": "From generalization analysis to optimization designs for state space models",
+      "ENTRYTYPE": "article",
+      "ID": "liu2024generalization"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2407.07279",
+      "author": "Sm{\\'e}kal, Jakub and Smith, Jimmy TH and Kleinman, Michael and Biderman, Dan and Linderman, Scott W",
+      "title": "Towards a theory of learning dynamics in deep state space models",
+      "ENTRYTYPE": "article",
+      "ID": "smekal2024towards"
+    },
+    {
+      "year": "2018",
+      "pages": "1--44",
+      "number": "29",
+      "volume": "19",
+      "journal": "Journal of Machine Learning Research",
+      "author": "Hardt, Moritz and Ma, Tengyu and Recht, Benjamin",
+      "title": "Gradient descent learns linear dynamical systems",
+      "ENTRYTYPE": "article",
+      "ID": "hardt2018gradient"
+    },
+    {
+      "year": "2024",
+      "volume": "36",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Wang, Shida and Xue, Beichen",
+      "title": "State-space models with layer-wise nonlinearity are universal approximators with exponential decaying memory",
+      "ENTRYTYPE": "article",
+      "ID": "shida2024state"
+    },
+    {
+      "year": "2024",
+      "booktitle": "Forty-first International Conference on Machine Learning",
+      "author": "Orvieto, Antonio and De, Soham and Gulcehre, Caglar and Pascanu, Razvan and Smith, Samuel L",
+      "title": "Universality of Linear Recurrences Followed by Non-linear Projections: Finite-Width Guarantees and Benefits of Complex Eigenvalues",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "orvieto2024universality"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2023",
+      "pages": "10373--10391",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Fu, Daniel Y and Epstein, Elliot L and Nguyen, Eric and Thomas, Armin W and Zhang, Michael and Dao, Tri and Rudra, Atri and R{\\'e}, Christopher",
+      "title": "Simple hardware-efficient long convolutions for sequence modeling",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "fu2023simple"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2311.14495",
+      "author": "Wang, Shida and Li, Qianxiao",
+      "title": "Stable{S}{S}{M}: Alleviating the curse of memory in state-space models through stable reparameterization",
+      "ENTRYTYPE": "article",
+      "ID": "wang2023stablessm"
+    },
+    {
+      "author": "Sun, Dennis",
+      "year": "2020",
+      "howpublished": "\\url{https://dlsun.github.io/probability/}",
+      "title": "Introduction to Probability",
+      "ENTRYTYPE": "misc",
+      "ID": "sun2020probability"
+    },
+    {
+      "author": "Gu, Albert and Goel, Karan and R\\'e, Christopher",
+      "year": "2021",
+      "howpublished": "\\url{https://github.com/state-spaces/s4}",
+      "title": "s4",
+      "ENTRYTYPE": "misc",
+      "ID": "gu2021repo"
+    },
+    {
+      "year": "2024",
+      "pages": "e2555",
+      "journal": "Numerical Linear Algebra with Applications",
+      "title": "Leveraging the Hankel norm approximation and data-driven algorithms in reduced order modeling",
+      "author": "Yu, Annan and Townsend, Alex",
+      "ENTRYTYPE": "article",
+      "ID": "yu2024hankel"
+    },
+    {
+      "publisher": "Russian Academy of Sciences, Steklov Mathematical Institute of Russian~…",
+      "year": "1971",
+      "pages": "34--75",
+      "number": "1",
+      "volume": "128",
+      "journal": "Matematicheskii Sbornik",
+      "author": "Adamyan, Vadim Movsesovich and Arov, Damir Zyamovich and Krein, Mark Grigor'evich",
+      "title": "Analytic properties of Schmidt pairs for a Hankel operator and the generalized Schur--Takagi problem",
+      "ENTRYTYPE": "article",
+      "ID": "adamyan1971analytic"
+    },
+    {
+      "publisher": "JSTOR",
+      "year": "2000",
+      "pages": "1302--1338",
+      "journal": "Annals of statistics",
+      "author": "Laurent, Beatrice and Massart, Pascal",
+      "title": "Adaptive estimation of a quadratic functional by model selection",
+      "ENTRYTYPE": "article",
+      "ID": "laurent2000adaptive"
+    },
+    {
+      "publisher": "Courier Corporation",
+      "year": "2000",
+      "author": "Gelfand, Izrail Moiseevitch and Silverman, Richard A and others",
+      "title": "Calculus of {V}ariations",
+      "ENTRYTYPE": "book",
+      "ID": "gelfand2000calculus"
+    },
+    {
+      "publisher": "Taylor \\& Francis",
+      "year": "1984",
+      "pages": "1115--1193",
+      "number": "6",
+      "volume": "39",
+      "journal": "International journal of control",
+      "author": "Glover, Keith",
+      "title": "All optimal Hankel-norm approximations of linear multivariable systems and their {L},$\\infty$-error bounds",
+      "ENTRYTYPE": "article",
+      "ID": "glover1984all"
+    },
+    {
+      "publisher": "Pearson Education India",
+      "year": "1999",
+      "author": "Oppenheim, Alan V",
+      "title": "Discrete-time signal processing",
+      "ENTRYTYPE": "book",
+      "ID": "oppenheim1999discrete"
+    },
+    {
+      "publisher": "Princeton University Press",
+      "year": "2016",
+      "volume": "2",
+      "author": "Condon, James J and Ransom, Scott M",
+      "title": "Essential radio astronomy",
+      "ENTRYTYPE": "book",
+      "ID": "condon2016essential"
+    },
+    {
+      "publisher": "SIAM",
+      "year": "2019",
+      "author": "Trefethen, Lloyd N",
+      "title": "Approximation theory and approximation practice, extended edition",
+      "ENTRYTYPE": "book",
+      "ID": "trefethen2019approximation"
+    },
+    {
+      "year": "2022",
+      "pages": "22982--22994",
+      "volume": "35",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Gupta, Ankit and Gu, Albert and Berant, Jonathan",
+      "title": "Diagonal state spaces are as effective as structured state spaces",
+      "ENTRYTYPE": "article",
+      "ID": "gupta2022diagonal"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2312.06837",
+      "author": "Agarwal, Naman and Suo, Daniel and Chen, Xinyi and Hazan, Elad",
+      "title": "Spectral State Space Models",
+      "ENTRYTYPE": "article",
+      "ID": "agarwal2023spectral"
+    },
+    {
+      "year": "2024",
+      "author": "Qi, Biqing and Gao, Junqi and Li, Dong and Zhang, Kaiyan and Liu, Jianxing and Wu, Ligang and Zhou, Bowen",
+      "title": "S4++: Elevating Long Sequence Modeling with State Memory Reply",
+      "ENTRYTYPE": "article",
+      "ID": "qi2024s4"
+    },
+    {
+      "year": "2015",
+      "month": "December",
+      "booktitle": "Proceedings of International Conference on Computer Vision (ICCV)",
+      "author": "Liu, Ziwei and Luo, Ping and Wang, Xiaogang and Tang, Xiaoou",
+      "title": "Deep Learning Face Attributes in the Wild",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "liu2015faceattributes"
+    },
+    {
+      "publisher": "Oxford University Press",
+      "year": "1994",
+      "series": "International Series of Monographs on Chemistry",
+      "isbn": "9780195357738",
+      "author": "Parr, Robert G. and Yang, Weitao",
+      "title": "Density-Functional Theory of Atoms and Molecules",
+      "ENTRYTYPE": "book",
+      "ID": "parr1994density"
+    },
+    {
+      "publisher": "Springer Science \\& Business Media",
+      "year": "2013",
+      "author": "Greiner, Walter and Reinhardt, Joachim",
+      "title": "Field quantization",
+      "ENTRYTYPE": "book",
+      "ID": "greiner2013field"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2015",
+      "pages": "843--852",
+      "booktitle": "International conference on machine learning",
+      "author": "Srivastava, Nitish and Mansimov, Elman and Salakhudinov, Ruslan",
+      "title": "Unsupervised learning of video representations using lstms",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "srivastava2015unsupervised"
+    },
+    {
+      "year": "2024",
+      "volume": "36",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Smith, Jimmy and De Mello, Shalini and Kautz, Jan and Linderman, Scott and Byeon, Wonmin",
+      "title": "Convolutional state space models for long-range spatiotemporal modeling",
+      "ENTRYTYPE": "article",
+      "ID": "smith2024convolutional"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "2012",
+      "pages": "141--142",
+      "number": "6",
+      "volume": "29",
+      "journal": "IEEE signal processing magazine",
+      "author": "Deng, Li",
+      "title": "The {M}{N}{I}{S}{T} database of handwritten digit images for machine learning research",
+      "ENTRYTYPE": "article",
+      "ID": "deng2012mnist"
+    },
+    {
+      "year": "2021",
+      "pages": "1--48",
+      "number": "47",
+      "volume": "22",
+      "journal": "Journal of Machine Learning Research",
+      "author": "Lim, Soon Hoe",
+      "title": "Understanding recurrent neural networks using nonequilibrium response theory",
+      "ENTRYTYPE": "article",
+      "ID": "lim2021understanding"
+    },
+    {
+      "year": "2017",
+      "volume": "30",
+      "journal": "Advances in neural information processing systems",
+      "author": "Vaswani, Ashish and Shazeer, Noam and Parmar, Niki and Uszkoreit, Jakob and Jones, Llion and Gomez, Aidan N and Kaiser, {\\L}ukasz and Polosukhin, Illia",
+      "title": "Attention is all you need",
+      "ENTRYTYPE": "article",
+      "ID": "vaswani2017attention"
+    },
+    {
+      "publisher": "MDPI",
+      "year": "2024",
+      "pages": "5683",
+      "number": "13",
+      "volume": "14",
+      "journal": "Applied Sciences",
+      "author": "Zhang, Hanwei and Zhu, Ying and Wang, Dan and Zhang, Lijun and Chen, Tianxiang and Wang, Ziyang and Ye, Zi",
+      "title": "A survey on visual mamba",
+      "ENTRYTYPE": "article",
+      "ID": "zhang2024survey"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2404.02063",
+      "author": "Li, Kai and Chen, Guo and Yang, Runxuan and Hu, Xiaolin",
+      "title": "Spmamba: State-space model is all you need in speech separation",
+      "ENTRYTYPE": "article",
+      "ID": "li2024spmamba"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "2025",
+      "pages": "129178",
+      "volume": "619",
+      "journal": "Neurocomputing",
+      "author": "Wang, Zihan and Kong, Fanheng and Feng, Shi and Wang, Ming and Yang, Xiaocui and Zhao, Han and Wang, Daling and Zhang, Yifei",
+      "title": "Is mamba effective for time series forecasting?",
+      "ENTRYTYPE": "article",
+      "ID": "wang2025mamba"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2411.02941",
+      "author": "Ma, Haoyu and Chen, Yushu and Zhao, Wenlai and Yang, Jinzhe and Ji, Yingsheng and Xu, Xinghua and Liu, Xiaozhu and Jing, Hao and Liu, Shengzhuo and Yang, Guangwen",
+      "title": "A Mamba Foundation Model for Time Series Forecasting",
+      "ENTRYTYPE": "article",
+      "ID": "ma2024mamba"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2403.16899",
+      "author": "Alonso, Carmen Amo and Sieber, Jerome and Zeilinger, Melanie N",
+      "title": "State space models as foundation models: A control theoretic overview",
+      "ENTRYTYPE": "article",
+      "ID": "alonso2024state"
+    },
+    {
+      "bibsource": "dblp computer science bibliography, https://dblp.org",
+      "biburl": "https://dblp.org/rec/journals/corr/abs-1905-08539.bib",
+      "timestamp": "Wed, 29 Jul 2020 09:29:26 +0200",
+      "eprint": "1905.08539",
+      "archiveprefix": "arXiv",
+      "url": "http://arxiv.org/abs/1905.08539",
+      "year": "2019",
+      "volume": "abs/1905.08539",
+      "journal": "CoRR",
+      "title": "Universal Approximation with Deep Narrow Networks",
+      "author": "Patrick Kidger and Terry J. Lyons",
+      "ENTRYTYPE": "article",
+      "ID": "kidger"
+    },
+    {
+      "organization": "JMLR Workshop and Conference Proceedings",
+      "year": "2010",
+      "pages": "249--256",
+      "booktitle": "Proceedings of the thirteenth international conference on artificial intelligence and statistics",
+      "author": "Glorot, Xavier and Bengio, Yoshua",
+      "title": "Understanding the difficulty of training deep feedforward neural networks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "glorot2010understanding"
+    },
+    {
+      "year": "2022",
+      "pages": "1889-1935",
+      "number": "9",
+      "volume": "75",
+      "journal": "Communications on Pure and Applied Mathematics",
+      "title": "Trainability and Accuracy of Artificial Neural Networks: An Interacting Particle System Approach",
+      "author": "Rotskoff, Grant and Vanden-Eijnden, Eric",
+      "ENTRYTYPE": "article",
+      "ID": "rotskoff2022trainability"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2020",
+      "pages": "10462--10472",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Xiao, Lechao and Pennington, Jeffrey and Schoenholz, Samuel",
+      "title": "Disentangling trainability and generalization in deep neural networks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "xiao2020disentangling"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2015",
+      "pages": "192--204",
+      "booktitle": "Artificial intelligence and statistics",
+      "author": "Choromanska, Anna and Henaff, Mikael and Mathieu, Michael and Arous, G{\\'e}rard Ben and LeCun, Yann",
+      "title": "The loss surfaces of multilayer networks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "choromanska2015loss"
+    },
+    {
+      "year": "2019",
+      "volume": "32",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Ansuini, Alessio and Laio, Alessandro and Macke, Jakob H and Zoccolan, Davide",
+      "title": "Intrinsic dimension of data representations in deep neural networks",
+      "ENTRYTYPE": "article",
+      "ID": "ansuini2019intrinsic"
+    },
+    {
+      "year": "2020",
+      "journal": "arXiv preprint arXiv:2011.14522",
+      "author": "Yang, Greg and Hu, Edward J",
+      "title": "Feature learning in infinite-width neural networks",
+      "ENTRYTYPE": "article",
+      "ID": "yang2020feature"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "2016",
+      "pages": "265--278",
+      "number": "4",
+      "volume": "2",
+      "journal": "The Journal of Finance and Data Science",
+      "author": "Zhong, Guoqiang and Wang, Li-Na and Ling, Xiao and Dong, Junyu",
+      "title": "An overview on data representation learning: From traditional feature learning to recent deep learning",
+      "ENTRYTYPE": "article",
+      "ID": "zhong2016overview"
+    },
+    {
+      "year": "2023",
+      "journal": "International Conference on Learning Representations",
+      "author": "Damian, Alex and Nichani, Eshaan and Lee, Jason D",
+      "title": "Self-stabilization: The implicit bias of gradient descent at the edge of stability",
+      "ENTRYTYPE": "article",
+      "ID": "damian2022self"
+    },
+    {
+      "year": "2014",
+      "volume": "27",
+      "journal": "Advances in neural information processing systems",
+      "author": "Dauphin, Yann N and Pascanu, Razvan and Gulcehre, Caglar and Cho, Kyunghyun and Ganguli, Surya and Bengio, Yoshua",
+      "title": "Identifying and attacking the saddle point problem in high-dimensional non-convex optimization",
+      "ENTRYTYPE": "article",
+      "ID": "dauphin2014identifying"
+    },
+    {
+      "year": "1960",
+      "number": "1",
+      "volume": "82",
+      "pages": "35-45",
+      "journal": "J. Basic Eng",
+      "author": "Kalman, Rudolph Emil",
+      "title": "A new approach to linear filtering and prediction problems",
+      "ENTRYTYPE": "article",
+      "ID": "kalman1960new"
+    },
+    {
+      "year": "2024",
+      "journal": "International Conference on Machine Learning",
+      "author": "Parnichkun, Rom N and Massaroli, Stefano and Moro, Alessandro and Smith, Jimmy TH and Hasani, Ramin and Lechner, Mathias and An, Qi and R{\\'e}, Christopher and Asama, Hajime and Ermon, Stefano",
+      "title": "State-free inference of state-space models: The transfer function approach",
+      "ENTRYTYPE": "article",
+      "ID": "parnichkun2024state"
+    },
+    {
+      "year": "2025",
+      "journal": "International Conference on Learning Representations",
+      "author": "Yu, Annan and Lyu, Dongwei and Lim, Soon Hoe and Mahoney, Michael W and Erichson, N Benjamin",
+      "title": "Tuning Frequency Bias of State Space Models",
+      "ENTRYTYPE": "article",
+      "ID": "yu2025tuning"
+    },
+    {
+      "year": "2025",
+      "journal": "International Conference on Learning Representations",
+      "author": "Liu, Fusheng and Li, Qianxiao",
+      "title": "Autocorrelation Matters: Understanding the Role of Initialization Schemes for State Space Models",
+      "ENTRYTYPE": "article",
+      "ID": "liu2024autocorrelation"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2404.16112",
+      "author": "Patro, Badri Narayana and Agneeswaran, Vijay Srinivas",
+      "title": "Mamba-360: Survey of state space models as transformer alternative for long sequence modelling: Methods, applications, and challenges",
+      "ENTRYTYPE": "article",
+      "ID": "patro2024mamba"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2403.13600",
+      "author": "Qiao, Yanyuan and Yu, Zheng and Guo, Longteng and Chen, Sihan and Zhao, Zijia and Sun, Mingzhen and Wu, Qi and Liu, Jing",
+      "title": "Vl-mamba: Exploring state space models for multimodal learning",
+      "ENTRYTYPE": "article",
+      "ID": "qiao2024vl"
+    },
+    {
+      "year": "2024",
+      "journal": "International Conference on Machine Learning",
+      "author": "Zhu, Lianghui and Liao Bencheng and Zhang, Qian and Wang, Xinlong and Liu, Wenyu and Wang, Xinggang",
+      "title": "Vision Mamba: Efficient Visual Representation Learning with Bidirectional State Space Model",
+      "ENTRYTYPE": "article",
+      "ID": "zhu2024vision"
+    },
+    {
+      "year": "2025",
+      "booktitle": "The Thirteenth International Conference on Learning Representations",
+      "author": "Ye, Zhifan and Xia, Kejing and Fu, Yonggan and Dong, Xin and Hong, Jihoon and Yuan, Xiangchi and Diao, Shizhe and Kautz, Jan and Molchanov, Pavlo and Lin, Yingyan Celine",
+      "title": "LongMamba: Enhancing Mamba's Long-Context Capabilities via Training-Free Receptive Field Enlargement",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "yelongmamba"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2410.03464",
+      "author": "Soydan, Taylan and Zubi{\\'c}, Nikola and Messikommer, Nico and Mishra, Siddhartha and Scaramuzza, Davide",
+      "title": "S7: Selective and Simplified State Space Layers for Sequence Modeling",
+      "ENTRYTYPE": "article",
+      "ID": "soydan2024s7"
+    },
+    {
+      "organization": "Springer",
+      "year": "2024",
+      "pages": "237--255",
+      "booktitle": "European Conference on Computer Vision",
+      "author": "Li, Kunchang and Li, Xinhao and Wang, Yi and He, Yinan and Wang, Yali and Wang, Limin and Qiao, Yu",
+      "title": "Videomamba: State space model for efficient video understanding",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "li2024videomamba"
+    },
+    {
+      "publisher": "Springer",
+      "year": "1989",
+      "pages": "303--314",
+      "number": "4",
+      "volume": "2",
+      "journal": "Mathematics of control, signals and systems",
+      "author": "Cybenko, George",
+      "title": "Approximation by superpositions of a sigmoidal function",
+      "ENTRYTYPE": "article",
+      "ID": "cybenko1989approximation"
+    },
+    {
+      "publisher": "Nature Publishing Group UK London",
+      "year": "2021",
+      "pages": "218--229",
+      "number": "3",
+      "volume": "3",
+      "journal": "Nature machine intelligence",
+      "author": "Lu, Lu and Jin, Pengzhan and Pang, Guofei and Zhang, Zhongqiang and Karniadakis, George Em",
+      "title": "Learning nonlinear operators via DeepONet based on the universal approximation theorem of operators",
+      "ENTRYTYPE": "article",
+      "ID": "lu2021learning"
+    },
+    {
+      "doi": "10.1109/72.392253",
+      "pages": "911-917",
+      "number": "4",
+      "volume": "6",
+      "year": "1995",
+      "title": "Universal Approximation to Nonlinear Operators by Neural Networks with Arbitrary Activation Functions and its Application to Dynamical Systems",
+      "journal": "IEEE Transactions on Neural Networks",
+      "author": "Tianping Chen and Hong Chen",
+      "ENTRYTYPE": "article",
+      "ID": "chen"
+    },
+    {
+      "year": "2021",
+      "journal": "arXiv preprint arXiv:2109.11354",
+      "author": "Yu, Annan and Becquey, Chlo{\\'e} and Halikias, Diana and Mallory, Matthew Esmaili and Townsend, Alex",
+      "title": "Arbitrary-depth universal approximation theorems for operator neural networks",
+      "ENTRYTYPE": "article",
+      "ID": "yu2021arbitrary"
+    },
+    {
+      "year": "2020",
+      "journal": "Internation Conference on Learning Representations",
+      "author": "Yun, Chulhee and Bhojanapalli, Srinadh and Rawat, Ankit Singh and Reddi, Sashank J and Kumar, Sanjiv",
+      "title": "Are transformers universal approximators of sequence-to-sequence functions?",
+      "ENTRYTYPE": "article",
+      "ID": "yun2019transformers"
+    },
+    {
+      "organization": "Springer",
+      "year": "2006",
+      "pages": "632--640",
+      "booktitle": "Artificial Neural Networks--ICANN 2006: 16th International Conference, Athens, Greece, September 10-14, 2006. Proceedings, Part I 16",
+      "author": "Sch{\\\"a}fer, Anton Maximilian and Zimmermann, Hans Georg",
+      "title": "Recurrent neural networks are universal approximators",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "schafer2006recurrent"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "2020",
+      "pages": "787--794",
+      "number": "2",
+      "volume": "48",
+      "journal": "Applied and computational harmonic analysis",
+      "author": "Zhou, Ding-Xuan",
+      "title": "Universality of deep convolutional neural networks",
+      "ENTRYTYPE": "article",
+      "ID": "zhou2020universality"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2016",
+      "pages": "1517--1539",
+      "booktitle": "Conference on learning theory",
+      "author": "Telgarsky, Matus",
+      "title": "Benefits of depth in neural networks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "telgarsky2016benefits"
+    },
+    {
+      "organization": "Pmlr",
+      "year": "2013",
+      "pages": "1310--1318",
+      "booktitle": "International conference on machine learning",
+      "author": "Pascanu, Razvan and Mikolov, Tomas and Bengio, Yoshua",
+      "title": "On the difficulty of training recurrent neural networks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "pascanu2013difficulty"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2019",
+      "pages": "322--332",
+      "booktitle": "International conference on machine learning",
+      "author": "Arora, Sanjeev and Du, Simon and Hu, Wei and Li, Zhiyuan and Wang, Ruosong",
+      "title": "Fine-grained analysis of optimization and generalization for overparameterized two-layer neural networks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "arora2019fine"
+    },
+    {
+      "year": "2019",
+      "volume": "32",
+      "journal": "Advances in neural information processing systems",
+      "author": "Allen-Zhu, Zeyuan and Li, Yuanzhi and Liang, Yingyu",
+      "title": "Learning and generalization in overparameterized neural networks, going beyond two layers",
+      "ENTRYTYPE": "article",
+      "ID": "allen2019learning"
+    },
+    {
+      "publisher": "Annual Reviews",
+      "year": "2024",
+      "volume": "12",
+      "journal": "Annual Review of Statistics and Its Application",
+      "author": "Suh, Namjoon and Cheng, Guang",
+      "title": "A survey on statistical theory of deep learning: Approximation, training dynamics, and generative models",
+      "ENTRYTYPE": "article",
+      "ID": "suh2024survey"
+    },
+    {
+      "publisher": "Cambridge University Press",
+      "year": "2021",
+      "pages": "87--201",
+      "volume": "30",
+      "journal": "Acta numerica",
+      "author": "Bartlett, Peter L and Montanari, Andrea and Rakhlin, Alexander",
+      "title": "Deep learning: a statistical viewpoint",
+      "ENTRYTYPE": "article",
+      "ID": "bartlett2021deep"
+    },
+    {
+      "publisher": "National Academy of Sciences",
+      "year": "2018",
+      "pages": "E7665--E7671",
+      "number": "33",
+      "volume": "115",
+      "journal": "Proceedings of the National Academy of Sciences",
+      "author": "Mei, Song and Montanari, Andrea and Nguyen, Phan-Minh",
+      "title": "A mean field view of the landscape of two-layer neural networks",
+      "ENTRYTYPE": "article",
+      "ID": "mei2018mean"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2017",
+      "pages": "3319--3328",
+      "booktitle": "International conference on machine learning",
+      "author": "Sundararajan, Mukund and Taly, Ankur and Yan, Qiqi",
+      "title": "Axiomatic attribution for deep networks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "sundararajan2017axiomatic"
+    },
+    {
+      "year": "2017",
+      "journal": "arXiv preprint arXiv:1711.06104",
+      "author": "Ancona, Marco and Ceolini, Enea and {\\\"O}ztireli, Cengiz and Gross, Markus",
+      "title": "Towards better understanding of gradient-based attribution methods for deep neural networks",
+      "ENTRYTYPE": "article",
+      "ID": "ancona2017towards"
+    },
+    {
+      "organization": "PMlR",
+      "year": "2017",
+      "pages": "3145--3153",
+      "booktitle": "International conference on machine learning",
+      "author": "Shrikumar, Avanti and Greenside, Peyton and Kundaje, Anshul",
+      "title": "Learning important features through propagating activation differences",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "shrikumar2017learning"
+    },
+    {
+      "publisher": "JMLR",
+      "year": "2010",
+      "pages": "1803--1831",
+      "volume": "11",
+      "journal": "The Journal of Machine Learning Research",
+      "author": "Baehrens, David and Schroeter, Timon and Harmeling, Stefan and Kawanabe, Motoaki and Hansen, Katja and M{\\\"u}ller, Klaus-Robert",
+      "title": "How to explain individual classification decisions",
+      "ENTRYTYPE": "article",
+      "ID": "baehrens2010explain"
+    },
+    {
+      "year": "2014",
+      "journal": "International Conference on Learning Representations",
+      "author": "Simonyan, Karen and Vedaldi, Andrea and Zisserman, Andrew",
+      "title": "Deep inside convolutional networks: Visualising image classification models and saliency maps",
+      "ENTRYTYPE": "article",
+      "ID": "simonyan2013deep"
+    },
+    {
+      "year": "2017",
+      "journal": "International Conference on Learning Representations",
+      "author": "Keskar, Nitish Shirish and Mudigere, Dheevatsa and Nocedal, Jorge and Smelyanskiy, Mikhail and Tang, Ping Tak Peter",
+      "title": "On large-batch training for deep learning: Generalization gap and sharp minima",
+      "ENTRYTYPE": "article",
+      "ID": "keskar2017large"
+    },
+    {
+      "publisher": "IOP Publishing",
+      "year": "2019",
+      "pages": "124018",
+      "number": "12",
+      "volume": "2019",
+      "journal": "Journal of Statistical Mechanics: Theory and Experiment",
+      "author": "Chaudhari, Pratik and Choromanska, Anna and Soatto, Stefano and LeCun, Yann and Baldassi, Carlo and Borgs, Christian and Chayes, Jennifer and Sagun, Levent and Zecchina, Riccardo",
+      "title": "Entropy-sgd: Biasing gradient descent into wide valleys",
+      "ENTRYTYPE": "article",
+      "ID": "chaudhari2019entropy"
+    },
+    {
+      "year": "2018",
+      "volume": "31",
+      "journal": "Advances in neural information processing systems",
+      "author": "Li, Hao and Xu, Zheng and Taylor, Gavin and Studer, Christoph and Goldstein, Tom",
+      "title": "Visualizing the loss landscape of neural nets",
+      "ENTRYTYPE": "article",
+      "ID": "li2018visualizing"
+    },
+    {
+      "year": "2017",
+      "journal": "arXiv preprint arXiv:1706.04454",
+      "author": "Sagun, Levent and Evci, Utku and Guney, V Ugur and Dauphin, Yann and Bottou, Leon",
+      "title": "Empirical analysis of the hessian of over-parametrized neural networks",
+      "ENTRYTYPE": "article",
+      "ID": "sagun2017empirical"
+    },
+    {
+      "year": "2017",
+      "journal": "International Conference on Learning Representations",
+      "author": "Loshchilov, Ilya and Hutter, Frank",
+      "title": "Sgdr: Stochastic gradient descent with warm restarts",
+      "ENTRYTYPE": "article",
+      "ID": "loshchilov2016sgdr"
+    },
+    {
+      "year": "2016",
+      "pages": "770--778",
+      "booktitle": "Proceedings of the IEEE conference on computer vision and pattern recognition",
+      "author": "He, Kaiming and Zhang, Xiangyu and Ren, Shaoqing and Sun, Jian",
+      "title": "Deep residual learning for image recognition",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "he2016deep"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2411.09807",
+      "author": "Xie, Tiankai and Geniesse, Caleb and Chen, Jiaqing and Yang, Yaoqing and Morozov, Dmitriy and Mahoney, Michael W and Maciejewski, Ross and Weber, Gunther H",
+      "title": "Evaluating loss landscapes from a topology perspective",
+      "ENTRYTYPE": "article",
+      "ID": "xie2024evaluating"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2502.01473",
+      "author": "Honarpisheh, Arya and Bozdag, Mustafa and Sznaier, Mario and Camps, Octavia",
+      "title": "Generalization Error Analysis for Selective State-Space Models Through the Lens of Attention",
+      "ENTRYTYPE": "article",
+      "ID": "honarpisheh2025generalization"
+    },
+    {
+      "year": "2025",
+      "journal": "International Conference on Learning Representations",
+      "author": "Kim, Sungyoon and Mishkin, Aaron and Pilanci, Mert",
+      "title": "Exploring the loss landscape of regularized neural networks via convex duality",
+      "ENTRYTYPE": "article",
+      "ID": "kim2024exploring"
+    },
+    {
+      "year": "2024",
+      "pages": "115906--115939",
+      "volume": "37",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Ran-Milo, Yuval and Lumbroso, Eden and Cohen-Karlik, Edo and Giryes, Raja and Globerson, Amir and Cohen, Nadav",
+      "title": "Provable benefits of complex parameterizations for structured state space models",
+      "ENTRYTYPE": "article",
+      "ID": "ran2024provable"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2409.03231",
+      "author": "Hu, Zheyuan and Daryakenari, Nazanin Ahmadi and Shen, Qianli and Kawaguchi, Kenji and Karniadakis, George Em",
+      "title": "State-space models are accurate and efficient neural operators for dynamical systems",
+      "ENTRYTYPE": "article",
+      "ID": "hu2024state"
+    },
+    {
+      "year": "2025",
+      "journal": "International Conference on Learning Representations",
+      "author": "Rusch, T Konstantin and Rus, Daniela",
+      "title": "Oscillatory state-space models",
+      "ENTRYTYPE": "article",
+      "ID": "rusch2024oscillatory"
+    },
+    {
+      "year": "2025",
+      "journal": "International Conference on Learning Representations",
+      "author": "Grazzi, Riccardo and Siems, Julien and Zela, Arber and Franke, J{\\\"o}rg KH and Hutter, Frank and Pontil, Massimiliano",
+      "title": "Unlocking state-tracking in linear rnns through negative eigenvalues",
+      "ENTRYTYPE": "article",
+      "ID": "grazzi2024unlocking"
+    },
+    {
+      "year": "2025",
+      "journal": "International Conference on Learning Representations",
+      "author": "Pei, Yan Ru",
+      "title": "Let {S}{S}{M}s be {C}onv{N}ets: State-space Modeling with Optimal Tensor Contractions",
+      "ENTRYTYPE": "article",
+      "ID": "pei2025let"
+    },
+    {
+      "url": "https://huggingface.co/datasets/cerebras/SlimPajama-627B",
+      "year": "2023",
+      "title": "{SlimPajama: A 627B token cleaned and deduplicated version of RedPajama}",
+      "author": "Soboleva, Daria and Al-Khateeb, Faisal and Myers, Robert and Steeves, Jacob R and Hestness, Joel and Dey, Nolan",
+      "ENTRYTYPE": "misc",
+      "ID": "cerebras2023slimpajama"
+    },
+    {
+      "year": "2025",
+      "journal": "International Conference on Learning Representations",
+      "author": "Lieber, Opher and Lenz, Barak and Bata, Hofit and Cohen, Gal and Osin, Jhonathan and Dalmedigos, Itay and Safahi, Erez and Meirom, Shaked and Belinkov, Yonatan and Shalev-Shwartz, Shai and others",
+      "title": "Jamba: A hybrid transformer-mamba language model",
+      "ENTRYTYPE": "article",
+      "ID": "lieber2024jamba"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2406.07887",
+      "author": "Waleffe, Roger and Byeon, Wonmin and Riach, Duncan and Norick, Brandon and Korthikanti, Vijay and Dao, Tri and Gu, Albert and Hatamizadeh, Ali and Singh, Sudhakar and Narayanan, Deepak and others",
+      "title": "An empirical study of mamba-based language models",
+      "ENTRYTYPE": "article",
+      "ID": "waleffe2024empirical"
+    },
+    {
+      "year": "2025",
+      "pages": "20380--20388",
+      "number": "19",
+      "volume": "39",
+      "booktitle": "Proceedings of the AAAI Conference on Artificial Intelligence",
+      "author": "Shen, Shuaijie and Wang, Chao and Huang, Renzhuo and Zhong, Yan and Guo, Qinghai and Lu, Zhichao and Zhang, Jianguo and Leng, Luziwei",
+      "title": "{SpikingSSMs}: Learning long sequences with sparse and parallel spiking state space models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "shen2025spikingssms"
+    },
+    {
+      "year": "2024",
+      "pages": "127226--127272",
+      "volume": "37",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Muca Cirone, Nicola and Orvieto, Antonio and Walker, Benjamin and Salvi, Cristopher and Lyons, Terry",
+      "title": "Theoretical foundations of deep selective state-space models",
+      "ENTRYTYPE": "article",
+      "ID": "muca2024theoretical"
+    },
+    {
+      "year": "2024",
+      "pages": "134534--134566",
+      "volume": "37",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Sieber, Jerome and Amo Alonso, Carmen and Didier, Alexandre and Zeilinger, Melanie and Orvieto, Antonio",
+      "title": "Understanding the differences in foundation models: Attention, state space models, and recurrent neural networks",
+      "ENTRYTYPE": "article",
+      "ID": "sieber2024understanding"
+    },
+    {
+      "year": "2025",
+      "pages": "12264--12272",
+      "number": "12",
+      "volume": "39",
+      "booktitle": "Proceedings of the AAAI Conference on Artificial Intelligence",
+      "author": "Liu, Ziwei and Liu, Qidong and Wang, Yejing and Wang, Wanyu and Jia, Pengyue and Wang, Maolin and Liu, Zitao and Chang, Yi and Zhao, Xiangyu",
+      "title": "SIGMA: Selective Gated Mamba for Sequential Recommendation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "liu2025sigma"
+    },
+    {
+      "year": "2024",
+      "pages": "110876--110908",
+      "volume": "37",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Hwang, Sukjun and Lahoti, Aakash Sunil and Puduppully, Ratish and Dao, Tri and Gu, Albert",
+      "title": "Hydra: Bidirectional state space models through generalized matrix mixers",
+      "ENTRYTYPE": "article",
+      "ID": "hwang2024hydra"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2505.03484",
+      "author": "Wang, Maolin and Zhang, Sheng and Guo, Ruocheng and Wang, Wanyu and Wei, Xuetao and Liu, Zitao and Yin, Hongzhi and Chang, Yi and Zhao, Xiangyu",
+      "title": "STAR-Rec: Making Peace with Length Variance and Pattern Diversity in Sequential Recommendation",
+      "ENTRYTYPE": "article",
+      "ID": "wang2025star"
+    },
+    {
+      "year": "2024",
+      "journal": "Available at SSRN 4938844",
+      "author": "Zhang, Fengrui and Hou, Jiaoyi and Ning, Dayong and Zhou, Cheng and Liang, Gangda and Liu, Zhilei",
+      "title": "Srs4: A Stacked Residual Deep Neural Network For Heave Motion Continuous Prediction of Salvage Barge",
+      "ENTRYTYPE": "article",
+      "ID": "zhang4938844srs4"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2501.14980",
+      "author": "Wang, Yihan and Zhang, Lujun and Yu, Annan and Erichson, N Benjamin and Yang, Tiantian",
+      "title": "A Deep State Space Model for Rainfall-Runoff Simulations",
+      "ENTRYTYPE": "article",
+      "ID": "wang2025deep"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2404.09516",
+      "author": "Wang, Xiao and Wang, Shiao and Ding, Yuhe and Li, Yuehang and Wu, Wentao and Rong, Yao and Kong, Weizhe and Huang, Ju and Li, Shihao and Yang, Haoxiang and others",
+      "title": "State space model for new-generation network alternative to transformers: A survey",
+      "ENTRYTYPE": "article",
+      "ID": "wang2024statesurvey"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2504.10669",
+      "author": "Raju, Gokul Raju Govinda and Zubi{\\'c}, Nikola and Cannici, Marco and Scaramuzza, Davide",
+      "title": "Perturbed State Space Feature Encoders for Optical Flow with Event Cameras",
+      "ENTRYTYPE": "article",
+      "ID": "raju2025perturbed"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2501.11729",
+      "author": "Rando, Stefano and Romani, Luca and Migliarini, Matteo and Franco, Luca and Gudovskiy, Denis and Galasso, Fabio",
+      "title": "SeRpEnt: Selective Resampling for Expressive State Space Models",
+      "ENTRYTYPE": "article",
+      "ID": "rando2025serpent"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2411.17729",
+      "author": "Beylkin, Gregory",
+      "title": "Fast convolution algorithm for state space models",
+      "ENTRYTYPE": "article",
+      "ID": "beylkin2024fast"
+    },
+    {
+      "year": "2024",
+      "pages": "arXiv--2404",
+      "journal": "arXiv e-prints",
+      "author": "Wilber, Heather and Epperly, Ethan N and Barnett, Alex H",
+      "title": "A superfast direct inversion method for the nonuniform discrete Fourier transform",
+      "ENTRYTYPE": "article",
+      "ID": "wilber2024superfast"
+    },
+    {
+      "publisher": "Springer",
+      "year": "2023",
+      "pages": "23",
+      "number": "2",
+      "volume": "63",
+      "journal": "BIT Numerical Mathematics",
+      "author": "Yu, Annan and Townsend, Alex",
+      "title": "On the stability of unevenly spaced samples for interpolation and quadrature",
+      "ENTRYTYPE": "article",
+      "ID": "yu2023stability"
+    },
+    {
+      "publisher": "SIAM",
+      "year": "1993",
+      "pages": "1368--1393",
+      "number": "6",
+      "volume": "14",
+      "journal": "SIAM Journal on Scientific computing",
+      "author": "Dutt, Alok and Rokhlin, Vladimir",
+      "title": "Fast Fourier transforms for nonequispaced data",
+      "ENTRYTYPE": "article",
+      "ID": "dutt1993fast"
+    }
+  ]
+}

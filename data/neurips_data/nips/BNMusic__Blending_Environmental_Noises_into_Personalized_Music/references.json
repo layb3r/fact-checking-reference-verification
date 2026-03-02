@@ -1,0 +1,2967 @@
+{
+  "pdf_url": "https://arxiv.org/pdf/2506.10754v3.pdf",
+  "references": [
+    {
+      "publisher": "Morgan Kaufmann",
+      "address": "Stanford, CA",
+      "booktitle": "Proceedings of the 17th International Conference\non Machine Learning (ICML 2000)",
+      "editor": "Pat Langley",
+      "pages": "1207--1216",
+      "year": "2000",
+      "title": "Crafting Papers on Machine Learning",
+      "author": "P. Langley",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "langley00"
+    },
+    {
+      "address": "New Brunswick, MA",
+      "year": "1980",
+      "institution": "Computer Science Department, Rutgers University",
+      "title": "The Need for Biases in Learning Generalizations",
+      "author": "T. M. Mitchell",
+      "ENTRYTYPE": "techreport",
+      "ID": "mitchell80"
+    },
+    {
+      "year": "1989",
+      "school": "Department of Computer Science, Harvard University",
+      "title": "Computational Complexity of Machine Learning",
+      "author": "M. J. Kearns",
+      "ENTRYTYPE": "phdthesis",
+      "ID": "kearns89"
+    },
+    {
+      "address": "Palo Alto, CA",
+      "year": "1983",
+      "publisher": "Tioga",
+      "title": "Machine Learning: An Artificial Intelligence\nApproach, Vol. I",
+      "editor": "R. S. Michalski and J. G. Carbonell and T.\nM. Mitchell",
+      "ENTRYTYPE": "book",
+      "ID": "MachineLearningI"
+    },
+    {
+      "year": "2000",
+      "edition": "2nd",
+      "publisher": "John Wiley and Sons",
+      "title": "Pattern Classification",
+      "author": "R. O. Duda and P. E. Hart and D. G. Stork",
+      "ENTRYTYPE": "book",
+      "ID": "DudaHart2nd"
+    },
+    {
+      "year": "2021",
+      "author": "Author, N. N.",
+      "title": "Suppressed for Anonymity",
+      "ENTRYTYPE": "misc",
+      "ID": "anonymous"
+    },
+    {
+      "address": "Hillsdale, NJ",
+      "chapter": "1",
+      "editor": "J. R. Anderson",
+      "year": "1981",
+      "publisher": "Lawrence Erlbaum Associates, Inc.",
+      "pages": "1--51",
+      "booktitle": "Cognitive Skills and Their Acquisition",
+      "title": "Mechanisms of Skill Acquisition and the Law of\nPractice",
+      "author": "A. Newell and P. S. Rosenbloom",
+      "ENTRYTYPE": "incollection",
+      "ID": "Newell81"
+    },
+    {
+      "pages": "211--229",
+      "number": "3",
+      "volume": "3",
+      "year": "1959",
+      "journal": "IBM Journal of Research and Development",
+      "title": "Some Studies in Machine Learning Using the Game of\nCheckers",
+      "author": "A. L. Samuel",
+      "ENTRYTYPE": "article",
+      "ID": "Samuel59"
+    },
+    {
+      "year": "2014",
+      "note": "Face and Gesture submission ID 324. Supplied as supplemental material {\\tt fg324.pdf}",
+      "title": "The frobnicatable foo filter",
+      "author": "FirstName LastName",
+      "ENTRYTYPE": "misc",
+      "ID": "Authors14"
+    },
+    {
+      "year": "2014",
+      "note": "Supplied as supplemental material {\\tt tr.pdf}",
+      "title": "Frobnication tutorial",
+      "author": "FirstName LastName",
+      "ENTRYTYPE": "misc",
+      "ID": "Authors14b"
+    },
+    {
+      "year": "2002",
+      "pages": "234--778",
+      "number": "1",
+      "volume": "12",
+      "journal": "IEEE TPAMI",
+      "title": "Frobnication",
+      "author": "FirstName Alpher",
+      "ENTRYTYPE": "article",
+      "ID": "Alpher02"
+    },
+    {
+      "year": "2003",
+      "pages": "234--778",
+      "number": "1",
+      "volume": "13",
+      "journal": "Journal of Foo",
+      "title": "Frobnication revisited",
+      "author": "FirstName Alpher and  FirstName Fotheringham-Smythe",
+      "ENTRYTYPE": "article",
+      "ID": "Alpher03"
+    },
+    {
+      "year": "2004",
+      "pages": "234--778",
+      "number": "1",
+      "volume": "14",
+      "journal": "Journal of Foo",
+      "title": "Can a machine frobnicate?",
+      "author": "FirstName Alpher and FirstName Fotheringham-Smythe and FirstName Gamow",
+      "ENTRYTYPE": "article",
+      "ID": "Alpher04"
+    },
+    {
+      "year": "2005",
+      "pages": "234--778",
+      "booktitle": "CVPR",
+      "title": "Can a computer frobnicate?",
+      "author": "FirstName Alpher and FirstName Gamow",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "Alpher05"
+    },
+    {
+      "year": "2007",
+      "title": "Scaling Learning Algorithms Towards {AI}",
+      "publisher": "MIT Press",
+      "booktitle": "Large Scale Kernel Machines",
+      "author": "Bengio, Yoshua and LeCun, Yann",
+      "ENTRYTYPE": "incollection",
+      "ID": "Bengio+chapter2007"
+    },
+    {
+      "year": "2006",
+      "volume": "18",
+      "title": "A Fast Learning Algorithm for Deep Belief Nets",
+      "pages": "1527--1554",
+      "journal": "Neural Computation",
+      "author": "Hinton, Geoffrey E. and Osindero, Simon and Teh, Yee Whye",
+      "ENTRYTYPE": "article",
+      "ID": "Hinton06"
+    },
+    {
+      "publisher": "MIT Press",
+      "year": "2016",
+      "volume": "1",
+      "author": "Goodfellow, Ian and Bengio, Yoshua and Courville, Aaron and Bengio, Yoshua",
+      "title": "Deep learning",
+      "ENTRYTYPE": "book",
+      "ID": "goodfellow2016deep"
+    },
+    {
+      "year": "2017",
+      "booktitle": "NeurIPS",
+      "author": "Oord, Aaron van den and Vinyals, Oriol and Kavukcuoglu, Koray",
+      "title": "Neural discrete representation learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "vqvae"
+    },
+    {
+      "year": "2019",
+      "booktitle": "NeurIPS",
+      "author": "Razavi, Ali and van den Oord, Aaron and Vinyals, Oriol",
+      "title": "Generating diverse high-fidelity images with vq-vae-2",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "vqvae2"
+    },
+    {
+      "year": "2021",
+      "booktitle": "CVPR",
+      "author": "Esser, Patrick and Rombach, Robin and Ommer, Bjorn",
+      "title": "Taming transformers for high-resolution image synthesis",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "vqgan2021"
+    },
+    {
+      "year": "2020",
+      "journal": "arXiv preprint arXiv:2005.00341",
+      "author": "Dhariwal, Prafulla and Jun, Heewoo and Payne, Christine and Kim, Jong Wook and Radford, Alec and Sutskever, Ilya",
+      "title": "Jukebox: A generative model for music",
+      "ENTRYTYPE": "article",
+      "ID": "jukebox"
+    },
+    {
+      "year": "2019",
+      "booktitle": "NeurIPS",
+      "author": "Kumar, Kundan and Kumar, Rithesh and de Boissiere, Thibault and Gestin, Lucas and Teoh, Wei Zhen and Sotelo, Jose and de Br{\\'e}bisson, Alexandre and Bengio, Yoshua and Courville, Aaron C",
+      "title": "MelGAN: Generative Adversarial Networks for Conditional Waveform Synthesis",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "melgan"
+    },
+    {
+      "year": "2020",
+      "booktitle": "NeurIPS",
+      "author": "Kong, Jungil and Kim, Jaehyeon and Bae, Jaekyoung",
+      "title": "HiFi-GAN: Generative Adversarial Networks for Efficient and High Fidelity Speech Synthesis",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "hifigan"
+    },
+    {
+      "booktitle": "ICCV",
+      "year": "2021",
+      "author": "Ruilong Li and Shan Yang and David A. Ross and Angjoo Kanazawa",
+      "title": "AI Choreographer: Music Conditioned 3D Dance Generation with AIST++",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "aistplus"
+    },
+    {
+      "year": "2019",
+      "booktitle": "Proceedings of the 20th International Society for Music Information Retrieval Conference, (ISMIR)",
+      "title": "AIST Dance Video Database: Multi-genre, Multi-dancer, and Multi-camera Database for Dance Information Processing",
+      "author": "Shuhei Tsuchida and Satoru Fukayama and Masahiro Hamasaki and Masataka Goto",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "aist-dance-db"
+    },
+    {
+      "year": "2019",
+      "booktitle": "NeurIPS",
+      "author": "Lee, Hsin-Ying and Yang, Xiaodong and Liu, Ming-Yu and Wang, Ting-Chun and Lu, Yu-Ding and Yang, Ming-Hsuan and Kautz, Jan",
+      "title": "Dancing to music",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "lee2019dancing"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "2020",
+      "pages": "2880--2894",
+      "volume": "28",
+      "journal": "IEEE/ACM Transactions on Audio, Speech, and Language Processing",
+      "author": "Kong, Qiuqiang and Cao, Yin and Iqbal, Turab and Wang, Yuxuan and Wang, Wenwu and Plumbley, Mark D",
+      "title": "Panns: Large-scale pretrained audio neural networks for audio pattern recognition",
+      "ENTRYTYPE": "article",
+      "ID": "librosa"
+    },
+    {
+      "year": "2017",
+      "journal": "arXiv preprint arXiv:1705.02894",
+      "author": "Lim, Jae Hyun and Ye, Jong Chul",
+      "title": "Geometric gan",
+      "ENTRYTYPE": "article",
+      "ID": "hinge1"
+    },
+    {
+      "year": "2018",
+      "journal": "arXiv preprint:1802.05957",
+      "author": "Miyato, Takeru and Kataoka, Toshiki and Koyama, Masanori and Yoshida, Yuichi",
+      "title": "Spectral normalization for generative adversarial networks",
+      "ENTRYTYPE": "article",
+      "ID": "hinge2"
+    },
+    {
+      "year": "2020",
+      "booktitle": "ECCV",
+      "author": "Gan, Chuang and Huang, Deng and Chen, Peihao and Tenenbaum, Joshua B and Torralba, Antonio",
+      "title": "Foley music: Learning to generate music from videos",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "foley"
+    },
+    {
+      "year": "2016",
+      "booktitle": "ICLR",
+      "author": "Oord, Aaron van den and Dieleman, Sander and Zen, Heiga and Simonyan, Karen and Vinyals, Oriol and Graves, Alex and Kalchbrenner, Nal and Senior, Andrew and Kavukcuoglu, Koray",
+      "title": "Wavenet: A generative model for raw audio",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "wavenet"
+    },
+    {
+      "year": "2018",
+      "booktitle": "AAAI",
+      "author": "Dong, Hao-Wen and Hsiao, Wen-Yi and Yang, Li-Chia and Yang, Yi-Hsuan",
+      "title": "Musegan: Multi-track sequential generative adversarial networks for symbolic music generation and accompaniment",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "musegan"
+    },
+    {
+      "year": "2020",
+      "journal": "arXiv preprint arXiv:2002.03761",
+      "author": "Zhuang, Wenlin and Wang, Congyi and Xia, Siyu and Chai, Jinxiang and Wang, Yangang",
+      "title": "Music2Dance: DanceNet for Music-driven Dance Generation",
+      "ENTRYTYPE": "article",
+      "ID": "zhuang2020music2dance"
+    },
+    {
+      "year": "2017",
+      "booktitle": "ICLR",
+      "author": "Mehri, Soroush and Kumar, Kundan and Gulrajani, Ishaan and Kumar, Rithesh and Jain, Shubham and Sotelo, Jose and Courville, Aaron and Bengio, Yoshua",
+      "title": "SampleRNN: An unconditional end-to-end neural audio generation model",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "mehri2016samplernn"
+    },
+    {
+      "year": "2019",
+      "booktitle": "ICLR",
+      "author": "Huang, Cheng-Zhi Anna and Vaswani, Ashish and Uszkoreit, Jakob and Shazeer, Noam and Simon, Ian and Hawthorne, Curtis and Dai, Andrew M and Hoffman, Matthew D and Dinculescu, Monica and Eck, Douglas",
+      "title": "Music Transformer: Generating Music with Long-Term Structure",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "musictransformer"
+    },
+    {
+      "year": "2021",
+      "booktitle": "CVPR",
+      "title": "Learning High Fidelity Depths of Dressed Humans by Watching Social Media Dance Videos",
+      "author": "Jafarian, Yasamin and Park, Hyun Soo",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "Jafarian_2021_CVPR_TikTok"
+    },
+    {
+      "publisher": "Springer",
+      "year": "2020",
+      "pages": "955--967",
+      "journal": "Neural Computing and Applications",
+      "author": "Oore, Sageev and Simon, Ian and Dieleman, Sander and Eck, Douglas and Simonyan, Karen",
+      "title": "This time with feeling: Learning expressive musical performance",
+      "ENTRYTYPE": "article",
+      "ID": "midi-event"
+    },
+    {
+      "year": "2015",
+      "volume": "34",
+      "publisher": "ACM",
+      "journal": "ACM Trans. Graphics (Proc. SIGGRAPH Asia)",
+      "title": "{SMPL}: A Skinned Multi-Person Linear Model",
+      "author": "Loper, Matthew and Mahmood, Naureen and Romero, Javier and Pons-Moll, Gerard and Black, Michael J.",
+      "ENTRYTYPE": "article",
+      "ID": "SMPL:2015"
+    },
+    {
+      "year": "2017",
+      "booktitle": "CVPR",
+      "author": "Carreira, Joao and Zisserman, Andrew",
+      "title": "Quo vadis, action recognition? a new model and the kinetics dataset",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "i3d"
+    },
+    {
+      "year": "2021",
+      "booktitle": "CVPR",
+      "author": "Wu, Yu and Yang, Yi",
+      "title": "Exploring Heterogeneous Clues for Weakly-Supervised Audio-Visual Video Parsing",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "wu2021explore"
+    },
+    {
+      "year": "2021",
+      "booktitle": "ICCASP",
+      "title": "Learning Audio-Visual Correlations from Variational Cross-Modal Generation",
+      "author": "Zhu, Ye and Wu, Yu and Latapie, Hugo and Yang, Yi and Yan, Yan",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zhu2021learning"
+    },
+    {
+      "year": "2019",
+      "booktitle": "ICCV",
+      "author": "Wu, Yu and Zhu, Linchao and Yan, Yan and Yang, Yi",
+      "title": "Dual attention matching for audio-visual event localization",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "wu2019dual"
+    },
+    {
+      "year": "2018",
+      "booktitle": "ECCV",
+      "author": "Tian, Yapeng and Shi, Jing and Li, Bochen and Duan, Zhiyao and Xu, Chenliang",
+      "title": "Audio-visual event localization in unconstrained videos",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "tian2018audio"
+    },
+    {
+      "year": "2019",
+      "booktitle": "ICCV",
+      "author": "Chan, Caroline and Ginosar, Shiry and Zhou, Tinghui and Efros, Alexei A",
+      "title": "Everybody Dance Now",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "chan2019everybodaydance"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2016",
+      "booktitle": "International conference on machine learning",
+      "author": "Larsen, Anders Boesen Lindbo and S{\\o}nderby, S{\\o}ren Kaae and Larochelle, Hugo and Winther, Ole",
+      "title": "Autoencoding beyond pixels using a learned similarity metric",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "feature_matching"
+    },
+    {
+      "year": "2021",
+      "journal": "arXiv preprint arXiv:2103.10206",
+      "author": "Li, Buyu and Zhao, Yongchi and Sheng, Lu",
+      "title": "DanceNet3D: Music Based Dance Generation with Parametric Motion Transformer",
+      "ENTRYTYPE": "article",
+      "ID": "li2021dancenet3d"
+    },
+    {
+      "year": "2021",
+      "journal": "arXiv preprint arXiv:2107.06252",
+      "author": "Aggarwal, Gunjan and Parikh, Devi",
+      "title": "Dance2Music: Automatic Dance-driven Music Generation",
+      "ENTRYTYPE": "article",
+      "ID": "aggarwal2021dance2music"
+    },
+    {
+      "year": "2020",
+      "booktitle": "NeurIPS",
+      "author": "Su, Kun and Liu, Xiulong and Shlizerman, Eli",
+      "title": "Audeo: Audio Generation for a Silent Performance Video",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "su2020audeo"
+    },
+    {
+      "year": "2020",
+      "journal": "arXiv preprint arXiv:2012.03478",
+      "author": "Su, Kun and Liu, Xiulong and Shlizerman, Eli",
+      "title": "Multi-Instrumentalist Net: Unsupervised Generation of Music from Body Movements",
+      "ENTRYTYPE": "article",
+      "ID": "su2020multi"
+    },
+    {
+      "year": "2014",
+      "booktitle": "NeurIPS",
+      "author": "Goodfellow, Ian and Pouget-Abadie, Jean and Mirza, Mehdi and Xu, Bing and Warde-Farley, David and Ozair, Sherjil and Courville, Aaron and Bengio, Yoshua",
+      "title": "Generative adversarial nets",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "gan"
+    },
+    {
+      "year": "2021",
+      "booktitle": "British Machine Vision Conference (BMVC)",
+      "author": "Iashin, Vladimir and Rahtu, Esa",
+      "title": "Taming Visually Guided Sound Generation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "SpecVQGAN_Iashin_2021"
+    },
+    {
+      "year": "2017",
+      "journal": "arXiv preprint arXiv:1705.06950",
+      "author": "Kay, Will and Carreira, Joao and Simonyan, Karen and Zhang, Brian and Hillier, Chloe and Vijayanarasimhan, Sudheendra and Viola, Fabio and Green, Tim and Back, Trevor and Natsev, Paul and others",
+      "title": "The kinetics human action video dataset",
+      "ENTRYTYPE": "article",
+      "ID": "kay2017kinetics"
+    },
+    {
+      "year": "2019",
+      "booktitle": "ICLR",
+      "author": "Donahue, Chris and McAuley, Julian and Puckette, Miller",
+      "title": "Adversarial audio synthesis",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "donahue2018adversarial"
+    },
+    {
+      "year": "2018",
+      "booktitle": "CVPR",
+      "author": "Wang, Ting-Chun and Liu, Ming-Yu and Zhu, Jun-Yan and Tao, Andrew and Kautz, Jan and Catanzaro, Bryan",
+      "title": "High-resolution image synthesis and semantic manipulation with conditional gans",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "wang2018high-reso"
+    },
+    {
+      "year": "2018",
+      "booktitle": "NeurIPS",
+      "author": "Korbar, Bruno and Tran, Du and Torresani, Lorenzo",
+      "title": "Cooperative Learning of Audio and Video Models from Self-Supervised Synchronization",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "av1-2018cooperative"
+    },
+    {
+      "year": "2018",
+      "booktitle": "ECCV",
+      "author": "Owens, Andrew and Efros, Alexei A",
+      "title": "Audio-visual scene analysis with self-supervised multisensory features",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "av2-2018audio"
+    },
+    {
+      "year": "2016",
+      "booktitle": "ECCV",
+      "author": "Owens, Andrew and Wu, Jiajun and McDermott, Josh H and Freeman, William T and Torralba, Antonio",
+      "title": "Ambient sound provides supervision for visual learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "av3-2016ambient"
+    },
+    {
+      "year": "2017",
+      "booktitle": "ICCV",
+      "author": "Arandjelovic, Relja and Zisserman, Andrew",
+      "title": "Look, listen and learn",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "av4-2017look"
+    },
+    {
+      "year": "2016",
+      "journal": "NeurIPS",
+      "author": "Aytar, Yusuf and Vondrick, Carl and Torralba, Antonio",
+      "title": "Soundnet: Learning sound representations from unlabeled video",
+      "ENTRYTYPE": "article",
+      "ID": "av5-2016soundnet"
+    },
+    {
+      "year": "2020",
+      "booktitle": "CVPR",
+      "author": "Gao, Ruohan and Oh, Tae-Hyun and Grauman, Kristen and Torresani, Lorenzo",
+      "title": "Listen to look: Action recognition by previewing audio",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "gao2020listen"
+    },
+    {
+      "year": "2019",
+      "booktitle": "ICCV",
+      "author": "Kazakos, Evangelos and Nagrani, Arsha and Zisserman, Andrew and Damen, Dima",
+      "title": "Epic-fusion: Audio-visual temporal binding for egocentric action recognition",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "kazakos2019epic"
+    },
+    {
+      "year": "2019",
+      "booktitle": "ICCV",
+      "author": "Rahman, Tanzila and Xu, Bicheng and Sigal, Leonid",
+      "title": "Watch, listen and tell: Multi-modal weakly supervised dense event captioning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "avcaption1-2019watch"
+    },
+    {
+      "year": "2018",
+      "booktitle": "NAACL",
+      "author": "Wang, Xin and Wang, Yuan-Fang and Wang, William Yang",
+      "title": "Watch, Listen, and Describe: Globally and Locally Aligned Cross-Modal Attentions for Video Captioning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "accaption2-2018watch"
+    },
+    {
+      "year": "2020",
+      "booktitle": "CVPR",
+      "author": "Gan, Chuang and Huang, Deng and Zhao, Hang and Tenenbaum, Joshua B and Torralba, Antonio",
+      "title": "Music gesture for visual sound separation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "sss1-2020music"
+    },
+    {
+      "year": "2018",
+      "booktitle": "ECCV",
+      "author": "Gao, Ruohan and Feris, Rogerio and Grauman, Kristen",
+      "title": "Learning to separate object sounds by watching unlabeled video",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "sss2-2018learning"
+    },
+    {
+      "year": "2019",
+      "booktitle": "CVPR",
+      "author": "Gao, Ruohan and Grauman, Kristen",
+      "title": "2.5 d visual sound",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "sss3-20192"
+    },
+    {
+      "year": "2019",
+      "booktitle": "ICCV",
+      "author": "Gao, Ruohan and Grauman, Kristen",
+      "title": "Co-separating sounds of visual objects",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "sss4-gao2019co"
+    },
+    {
+      "year": "2019",
+      "booktitle": "ICCV",
+      "author": "Zhao, Hang and Gan, Chuang and Ma, Wei-Chiu and Torralba, Antonio",
+      "title": "The sound of motions",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "sss5-zhao2019sound"
+    },
+    {
+      "year": "2018",
+      "booktitle": "CVPR",
+      "author": "Shlizerman, Eli and Dery, Lucio and Schoen, Hayden and Kemelmacher-Shlizerman, Ira",
+      "title": "Audio to body dynamics",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "am1-shlizerman2018audio"
+    },
+    {
+      "year": "2020",
+      "booktitle": "ACM MM",
+      "author": "Ren, Xuanchi and Li, Haoran and Huang, Zijian and Chen, Qifeng",
+      "title": "Self-supervised dance video synthesis conditioned on music",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "am2-ren2020self"
+    },
+    {
+      "year": "2021",
+      "journal": "Computers \\& Graphics",
+      "author": "Ferreira, Joao P and Coutinho, Thiago M and Gomes, Thiago L and Neto, Jos{\\'e} F and Azevedo, Rafael and Martins, Renato and Nascimento, Erickson R",
+      "title": "Learning to dance: A graph convolutional adversarial network to generate realistic dance motions from audio",
+      "ENTRYTYPE": "article",
+      "ID": "am3-ferreira2021learning"
+    },
+    {
+      "year": "2018",
+      "booktitle": "ACMMM",
+      "author": "Tang, Taoran and Jia, Jia and Mao, Hanyang",
+      "title": "Dance with melody: An lstm-autoencoder approach to music-oriented dance synthesis",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "am4-tang2018dance"
+    },
+    {
+      "year": "2020",
+      "booktitle": "ACMMM",
+      "author": "Kao, Hsuan-Kai and Su, Li",
+      "title": "Temporally Guided Music-to-Body-Movement Generation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "am5-kao2020temporally"
+    },
+    {
+      "year": "2021",
+      "booktitle": "ACMMM",
+      "author": "Di, Shangzhe and Jiang, Zeren and Liu, Si and Wang, Zhaokai and Zhu, Leyan and He, Zexin and Liu, Hongming and Yan, Shuicheng",
+      "title": "Video Background Music Generation with Controllable Music Transformer",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "di2021video"
+    },
+    {
+      "year": "2014",
+      "booktitle": "ICLR",
+      "author": "Kingma, Diederik P and Welling, Max",
+      "title": "Auto-encoding variational bayes",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "vae-kingma2013auto"
+    },
+    {
+      "year": "2019",
+      "title": "OpenPose: Realtime Multi-Person 2D Pose Estimation using Part Affinity Fields",
+      "journal": "IEEE TPAMI",
+      "author": "Z. {Cao} and G. {Hidalgo Martinez} and T. {Simon} and S. {Wei} and Y. A. {Sheikh}",
+      "ENTRYTYPE": "article",
+      "ID": "openpose"
+    },
+    {
+      "year": "2017",
+      "title": "Realtime Multi-Person 2D Pose Estimation using Part Affinity Fields",
+      "booktitle": "CVPR",
+      "author": "Zhe Cao and Tomas Simon and Shih-En Wei and Yaser Sheikh",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "openpose-cao2017realtime"
+    },
+    {
+      "year": "2015",
+      "journal": "arXiv preprint arXiv:1505.00853",
+      "author": "Xu, Bing and Wang, Naiyan and Chen, Tianqi and Li, Mu",
+      "title": "Empirical evaluation of rectified activations in convolutional network",
+      "ENTRYTYPE": "article",
+      "ID": "leaky-xu2015empirical"
+    },
+    {
+      "year": "2015",
+      "journal": "arXiv preprint arXiv:1511.06434",
+      "author": "Radford, Alec and Metz, Luke and Chintala, Soumith",
+      "title": "Unsupervised representation learning with deep convolutional generative adversarial networks",
+      "ENTRYTYPE": "article",
+      "ID": "radford2015unsupervised"
+    },
+    {
+      "year": "2018",
+      "booktitle": "NeurIPS",
+      "author": "Lucic, Mario and Kurach, Karol and Michalski, Marcin and Gelly, Sylvain and Bousquet, Olivier",
+      "title": "Are gans created equal? a large-scale study",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "lucic2017gans"
+    },
+    {
+      "year": "2016",
+      "booktitle": "NeurIPS",
+      "author": "Salimans, Tim and Kingma, Durk P",
+      "title": "Weight normalization: A simple reparameterization to accelerate training of deep neural networks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "salimans2016weight"
+    },
+    {
+      "year": "2018",
+      "booktitle": "ACM Transactions on Graphics (TOG)",
+      "author": "Davis, Abe and Agrawala, Maneesh",
+      "title": "Visual rhythm and beat",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "davis2018visual"
+    },
+    {
+      "year": "2007",
+      "journal": "Journal of New Music Research",
+      "author": "Ellis, Daniel PW",
+      "title": "Beat tracking by dynamic programming",
+      "ENTRYTYPE": "article",
+      "ID": "ellis2007beat"
+    },
+    {
+      "organization": "IEEE",
+      "year": "2017",
+      "booktitle": "ICASSP",
+      "author": "Hershey, Shawn and Chaudhuri, Sourish and Ellis, Daniel PW and Gemmeke, Jort F and Jansen, Aren and Moore, R Channing and Plakal, Manoj and Platt, Devin and Saurous, Rif A and Seybold, Bryan and others",
+      "title": "CNN architectures for large-scale audio classification",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "hershey2017cnn"
+    },
+    {
+      "organization": "IEEE",
+      "year": "2017",
+      "booktitle": "ICASSP",
+      "author": "Gemmeke, Jort F and Ellis, Daniel PW and Freedman, Dylan and Jansen, Aren and Lawrence, Wade and Moore, R Channing and Plakal, Manoj and Ritter, Marvin",
+      "title": "Audio set: An ontology and human-labeled dataset for audio events",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "gemmeke2017audioset"
+    },
+    {
+      "year": "2017",
+      "booktitle": "CVPR",
+      "author": "Isola, Phillip and Zhu, Jun-Yan and Zhou, Tinghui and Efros, Alexei A",
+      "title": "Image-to-image translation with conditional adversarial networks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "isola2017image"
+    },
+    {
+      "year": "2020",
+      "journal": "arXiv preprint arXiv:2011.06801",
+      "author": "Ji, Shulei and Luo, Jing and Yang, Xinyu",
+      "title": "A Comprehensive Survey on Deep Music Generation: Multi-level Representations, Algorithms, Evaluations, and Future Directions",
+      "ENTRYTYPE": "article",
+      "ID": "review1_ji2020comprehensive"
+    },
+    {
+      "publisher": "Springer",
+      "year": "2020",
+      "volume": "1",
+      "author": "Briot, Jean-Pierre and Hadjeres, Ga{\\\"e}tan and Pachet, Fran{\\c{c}}ois-David",
+      "title": "Deep learning techniques for music generation",
+      "ENTRYTYPE": "book",
+      "ID": "review2_briot2020deep"
+    },
+    {
+      "url": "http://papers.neurips.cc/paper/9015-pytorch-an-imperative-style-high-performance-deep-learning-library.pdf",
+      "publisher": "Curran Associates, Inc.",
+      "year": "2019",
+      "pages": "8024--8035",
+      "editor": "H. Wallach and H. Larochelle and A. Beygelzimer and F. d\\' Alch\\'{e}-Buc and E. Fox and R. Garnett",
+      "booktitle": "Advances in Neural Information Processing Systems 32",
+      "author": "Paszke, Adam and Gross, Sam and Massa, Francisco and Lerer, Adam and Bradbury, James and Chanan, Gregory and Killeen, Trevor and Lin, Zeming and Gimelshein, Natalia and Antiga, Luca and Desmaison, Alban and Kopf, Andreas and Yang, Edward and DeVito, Zachary and Raison, Martin and Tejani, Alykhan and Chilamkurthy, Sasank and Steiner, Benoit and Fang, Lu and Bai, Junjie and Chintala, Soumith",
+      "title": "PyTorch: An Imperative Style, High-Performance Deep Learning Library",
+      "ENTRYTYPE": "incollection",
+      "ID": "NEURIPS2019_9015"
+    },
+    {
+      "year": "2020",
+      "pages": "6840--6851",
+      "volume": "33",
+      "journal": "Advances in neural information processing systems",
+      "author": "Ho, Jonathan and Jain, Ajay and Abbeel, Pieter",
+      "title": "Denoising diffusion probabilistic models",
+      "ENTRYTYPE": "article",
+      "ID": "ho2020dpm"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2021",
+      "booktitle": "ICML",
+      "author": "Nichol, Alexander Quinn and Dhariwal, Prafulla",
+      "title": "Improved denoising diffusion probabilistic models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "nichol2021improveddmp"
+    },
+    {
+      "year": "2018",
+      "journal": "NeurIPS",
+      "author": "Dieleman, Sander and van den Oord, Aaron and Simonyan, Karen",
+      "title": "The challenge of realistic music generation: modelling raw audio at scale",
+      "ENTRYTYPE": "article",
+      "ID": "dieleman2018challenge"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2015",
+      "booktitle": "ICML",
+      "author": "Sohl-Dickstein, Jascha and Weiss, Eric and Maheswaranathan, Niru and Ganguli, Surya",
+      "title": "Deep unsupervised learning using nonequilibrium thermodynamics",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "sohl2015dpm_thermo"
+    },
+    {
+      "year": "2020",
+      "booktitle": "ICLR",
+      "author": "Kong, Zhifeng and Ping, Wei and Huang, Jiaji and Zhao, Kexin and Catanzaro, Bryan",
+      "title": "DiffWave: A Versatile Diffusion Model for Audio Synthesis",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "kong2020diffwave"
+    },
+    {
+      "year": "2021",
+      "booktitle": "NeurIPS",
+      "author": "Dhariwal, Prafulla and Nichol, Alexander",
+      "title": "Diffusion models beat gans on image synthesis",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "dhariwal2021diff-img1"
+    },
+    {
+      "year": "2022",
+      "booktitle": "CVPR",
+      "author": "Gu, Shuyang and Chen, Dong and Bao, Jianmin and Wen, Fang and Zhang, Bo and Chen, Dongdong and Yuan, Lu and Guo, Baining",
+      "title": "Vector quantized diffusion model for text-to-image synthesis",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "gu2021vector"
+    },
+    {
+      "year": "2021",
+      "booktitle": "NeurIPS",
+      "author": "Kingma, Diederik P and Salimans, Tim and Poole, Ben and Ho, Jonathan",
+      "title": "Variational diffusion models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "theo-diff3"
+    },
+    {
+      "year": "2020",
+      "booktitle": "NeurIPS",
+      "author": "Song, Yang and Ermon, Stefano",
+      "title": "Improved techniques for training score-based generative models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "theo-diff1"
+    },
+    {
+      "year": "2020",
+      "booktitle": "ICLR",
+      "author": "Song, Yang and Sohl-Dickstein, Jascha and Kingma, Diederik P and Kumar, Abhishek and Ermon, Stefano and Poole, Ben",
+      "title": "Score-Based Generative Modeling through Stochastic Differential Equations",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "theo-diff2"
+    },
+    {
+      "year": "2021",
+      "booktitle": "NeurIPS",
+      "author": "Song, Yang and Durkan, Conor and Murray, Iain and Ermon, Stefano",
+      "title": "Maximum likelihood training of score-based diffusion models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "theo-diff4"
+    },
+    {
+      "year": "2019",
+      "journal": "NeurIPS",
+      "author": "Song, Yang and Ermon, Stefano",
+      "title": "Generative modeling by estimating gradients of the data distribution",
+      "ENTRYTYPE": "article",
+      "ID": "song2019generative"
+    },
+    {
+      "year": "2021",
+      "booktitle": "NeurIPS",
+      "author": "Huang, Chin-Wei and Lim, Jae Hyun and Courville, Aaron C",
+      "title": "A variational perspective on diffusion-based generative models and score matching",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "theo-diff5"
+    },
+    {
+      "year": "2021",
+      "booktitle": "Advances in Neural Information Processing Systems",
+      "author": "Vahdat, Arash and Kreis, Karsten and Kautz, Jan",
+      "title": "Score-based generative modeling in latent space",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "theo-diff6"
+    },
+    {
+      "year": "2022",
+      "journal": "Journal of Machine Learning Research",
+      "author": "Ho, Jonathan and Saharia, Chitwan and Chan, William and Fleet, David J and Norouzi, Mohammad and Salimans, Tim",
+      "title": "Cascaded diffusion models for high fidelity image generation",
+      "ENTRYTYPE": "article",
+      "ID": "ho2022diff-img2"
+    },
+    {
+      "year": "2021",
+      "journal": "arXiv preprint arXiv:2103.16091",
+      "author": "Mittal, Gautam and Engel, Jesse and Hawthorne, Curtis and Simon, Ian",
+      "title": "Symbolic music generation with diffusion models",
+      "ENTRYTYPE": "article",
+      "ID": "mittal2021symbolic-diff"
+    },
+    {
+      "year": "2021",
+      "journal": "Proc. Interspeech 2021",
+      "author": "Lee, Junhyeok and Han, Seungu",
+      "title": "NU-Wave: A Diffusion Probabilistic Model for Neural Audio Upsampling",
+      "ENTRYTYPE": "article",
+      "ID": "lee2021nu"
+    },
+    {
+      "year": "2021",
+      "booktitle": "CVPR",
+      "author": "Peng, Jialun and Liu, Dong and Xu, Songcen and Li, Houqiang",
+      "title": "Generating diverse structure for image inpainting with hierarchical VQ-VAE",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "peng2021generating"
+    },
+    {
+      "organization": "IEEE",
+      "year": "2021",
+      "booktitle": "ICASSP",
+      "author": "Williams, Jennifer and Zhao, Yi and Cooper, Erica and Yamagishi, Junichi",
+      "title": "Learning disentangled phone and speaker representations in a semi-supervised vq-vae paradigm",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "williams2021learning"
+    },
+    {
+      "year": "2021",
+      "journal": "arXiv preprint arXiv:2104.00355",
+      "author": "Polyak, Adam and Adi, Yossi and Copet, Jade and Kharitonov, Eugene and Lakhotia, Kushal and Hsu, Wei-Ning and Mohamed, Abdelrahman and Dupoux, Emmanuel",
+      "title": "Speech resynthesis from discrete disentangled self-supervised representations",
+      "ENTRYTYPE": "article",
+      "ID": "polyak2021speech"
+    },
+    {
+      "organization": "IEEE",
+      "year": "2021",
+      "booktitle": "ICASSP",
+      "author": "C{\\'\\i}fka, Ond{\\v{r}}ej and Ozerov, Alexey and {\\c{S}}im{\\c{s}}ekli, Umut and Richard, Gael",
+      "title": "Self-supervised vq-vae for one-shot music style transfer",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "cifka2021self"
+    },
+    {
+      "year": "2018",
+      "journal": "arXiv preprint arXiv:1810.04805",
+      "author": "Devlin, Jacob and Chang, Ming-Wei and Lee, Kenton and Toutanova, Kristina",
+      "title": "Bert: Pre-training of deep bidirectional transformers for language understanding",
+      "ENTRYTYPE": "article",
+      "ID": "devlin2018bert"
+    },
+    {
+      "year": "2015",
+      "booktitle": "NeurIPS",
+      "author": "Jaderberg, Max and Simonyan, Karen and Zisserman, Andrew and others",
+      "title": "Spatial transformer networks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "jaderberg2015transformer"
+    },
+    {
+      "year": "2016",
+      "journal": "arXiv preprint arXiv:1607.06450",
+      "author": "Ba, Jimmy Lei and Kiros, Jamie Ryan and Hinton, Geoffrey E",
+      "title": "Layer normalization",
+      "ENTRYTYPE": "article",
+      "ID": "ba2016layer"
+    },
+    {
+      "year": "2021",
+      "journal": "arXiv preprint arXiv:2112.01799",
+      "author": "Hu, Minghui and Wang, Yujie and Cham, Tat-Jen and Yang, Jianfei and Suganthan, PN",
+      "title": "Global Context with Discrete Diffusion in Vector Quantised Modelling for Image Generation",
+      "ENTRYTYPE": "article",
+      "ID": "hu2021global"
+    },
+    {
+      "year": "2021",
+      "booktitle": "NeurIPS",
+      "author": "Austin, Jacob and Johnson, Daniel and Ho, Jonathan and Tarlow, Daniel and van den Berg, Rianne",
+      "title": "Structured denoising diffusion models in discrete state-spaces",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "austin2021structured"
+    },
+    {
+      "year": "2021",
+      "pages": "arXiv--2102",
+      "journal": "arXiv e-prints",
+      "author": "Hoogeboom, Emiel and Nielsen, Didrik and Jaini, Priyank and Forr{\\'e}, Patrick and Welling, Max",
+      "title": "Argmax flows and multinomial diffusion: Towards non-autoregressive language models",
+      "ENTRYTYPE": "article",
+      "ID": "hoogeboom2021argmax"
+    },
+    {
+      "year": "2017",
+      "journal": "arXiv preprint arXiv:1711.05101",
+      "author": "Loshchilov, Ilya and Hutter, Frank",
+      "title": "Decoupled weight decay regularization",
+      "ENTRYTYPE": "article",
+      "ID": "loshchilov2017decoupled"
+    },
+    {
+      "year": "2021",
+      "journal": "arXiv preprint arXiv:2111.12701",
+      "author": "Bond-Taylor, Sam and Hessey, Peter and Sasaki, Hiroshi and Breckon, Toby P and Willcocks, Chris G",
+      "title": "Unleashing Transformers: Parallel Token Prediction with Discrete Absorbing Diffusion for Fast High-Resolution Image Generation from Vector-Quantized Codes",
+      "ENTRYTYPE": "article",
+      "ID": "bond2021unleashing"
+    },
+    {
+      "year": "2021",
+      "pages": "2495--2504",
+      "booktitle": "CVPR",
+      "author": "Wang, Feng and Liu, Huaping",
+      "title": "Understanding the behaviour of contrastive loss",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "wang2021understanding"
+    },
+    {
+      "year": "2020",
+      "booktitle": "ICLR",
+      "author": "Chen, Ting and Kornblith, Simon and Norouzi, Mohammad and Hinton, Geoffrey",
+      "title": "A simple framework for contrastive learning of visual representations",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "chen2020simple"
+    },
+    {
+      "doi": "10.1109/TIP.2020.3040521",
+      "pages": "1143-1152",
+      "volume": "30",
+      "year": "2021",
+      "title": "Learning to Anticipate Egocentric Actions by Imagination",
+      "journal": "IEEE Transactions on Image Processing",
+      "author": "Wu, Yu and Zhu, Linchao and Wang, Xiaohan and Yang, Yi and Wu, Fei",
+      "ENTRYTYPE": "article",
+      "ID": "wu2021Anticipate"
+    },
+    {
+      "year": "2020",
+      "booktitle": "CVPR",
+      "author": "He, Kaiming and Fan, Haoqi and Wu, Yuxin and Xie, Saining and Girshick, Ross",
+      "title": "Momentum contrast for unsupervised visual representation learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "he2020momentum"
+    },
+    {
+      "year": "2019",
+      "booktitle": "ICCV-W",
+      "title": "Video Representation Learning by Dense Predictive Coding",
+      "author": "Tengda Han and Weidi Xie and Andrew Zisserman",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "Han19dpc"
+    },
+    {
+      "publisher": "Public Library of Science",
+      "year": "2020",
+      "pages": "e1008228",
+      "number": "10",
+      "volume": "16",
+      "journal": "PLoS computational biology",
+      "author": "Sainburg, Tim and Thielk, Marvin and Gentner, Timothy Q",
+      "title": "Finding, visualizing, and quantifying latent structure across diverse animal vocal repertoires",
+      "ENTRYTYPE": "article",
+      "ID": "sainburg2020finding"
+    },
+    {
+      "year": "2020",
+      "booktitle": "ICLR",
+      "author": "Song, Jiaming and Meng, Chenlin and Ermon, Stefano",
+      "title": "Denoising diffusion implicit models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "song2020denoising"
+    },
+    {
+      "year": "2015",
+      "booktitle": "ICML",
+      "author": "Sohl-Dickstein, Jascha and Weiss, Eric and Maheswaranathan, Niru and Ganguli, Surya",
+      "title": "Deep unsupervised learning using nonequilibrium thermodynamics",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "sohl2015deep"
+    },
+    {
+      "year": "2018",
+      "journal": "arXiv preprint arXiv:1807.03748",
+      "author": "Oord, Aaron van den and Li, Yazhe and Vinyals, Oriol",
+      "title": "Representation learning with contrastive predictive coding",
+      "ENTRYTYPE": "article",
+      "ID": "oord2018representation"
+    },
+    {
+      "year": "2019",
+      "booktitle": "NeurIPS",
+      "author": "Bachman, Philip and Hjelm, R Devon and Buchwalter, William",
+      "title": "Learning representations by maximizing mutual information across views",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "bachman2019learning"
+    },
+    {
+      "year": "2020",
+      "booktitle": "NeurIPS",
+      "author": "Song, Jiaming and Ermon, Stefano",
+      "title": "Multi-label contrastive predictive coding",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "song2020multi"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2020",
+      "booktitle": "ICML",
+      "author": "Durkan, Conor and Murray, Iain and Papamakarios, George",
+      "title": "On contrastive learning for likelihood-free inference",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "durkan2020contrastive"
+    },
+    {
+      "organization": "Springer",
+      "year": "2020",
+      "booktitle": "ECCV",
+      "author": "Tseng, Hung-Yu and Fisher, Matthew and Lu, Jingwan and Li, Yijun and Kim, Vladimir and Yang, Ming-Hsuan",
+      "title": "Modeling artistic workflows for image generation and editing",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "tseng2020modeling"
+    },
+    {
+      "year": "2021",
+      "booktitle": "CVPR",
+      "author": "Cui, Aiyu and McKee, Daniel and Lazebnik, Svetlana",
+      "title": "Dressing in order: Recurrent person image generation for pose transfer, virtual try-on and outfit editing",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "cui2021dressing"
+    },
+    {
+      "number": "CNS-TR-2011-001",
+      "institution": "California Institute of Technology",
+      "year": "2011",
+      "author": "Wah, C. and Branson, S. and Welinder, P. and Perona, P. and Belongie, S.",
+      "title": "{The Caltech-UCSD Birds-200-2011 Dataset}",
+      "ENTRYTYPE": "techreport",
+      "ID": "WahCUB_200_2011"
+    },
+    {
+      "organization": "Springer",
+      "year": "2014",
+      "booktitle": "ECCV",
+      "author": "Lin, Tsung-Yi and Maire, Michael and Belongie, Serge and Hays, James and Perona, Pietro and Ramanan, Deva and Doll{\\'a}r, Piotr and Zitnick, C Lawrence",
+      "title": "Microsoft coco: Common objects in context",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "lin2014microsoft"
+    },
+    {
+      "year": "2022",
+      "booktitle": "ECCV",
+      "author": "Zhu, Ye and Olszewski, Kyle and Wu, Yu and Achlioptas, Panos and Chai, Menglei and Yan, Yan and Tulyakov, Sergey",
+      "title": "Quantized GAN for Complex Music Generation from Dance Videos",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "yezhu2022quantizedgan"
+    },
+    {
+      "year": "2021",
+      "booktitle": "EMNLP",
+      "author": "Hessel, Jack and Holtzman, Ari and Forbes, Maxwell and Bras, Ronan Le and Choi, Yejin",
+      "title": "{CLIPScore:} A Reference-free Evaluation Metric for Image Captioning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "hessel2021clipscore"
+    },
+    {
+      "year": "2017",
+      "journal": "NeuIPS",
+      "author": "Heusel, Martin and Ramsauer, Hubert and Unterthiner, Thomas and Nessler, Bernhard and Hochreiter, Sepp",
+      "title": "Gans trained by a two time-scale update rule converge to a local nash equilibrium",
+      "ENTRYTYPE": "article",
+      "ID": "heusel2017fid"
+    },
+    {
+      "year": "2021",
+      "journal": "arXiv preprint arXiv:2111.13333",
+      "title": "Predict, Prevent, and Evaluate: Disentangled Text-Driven Image Manipulation Empowered by Pre-Trained Vision-Language Model",
+      "author": "Zipeng Xu and Tianwei Lin and Hao Tang and Fu Li and Dongliang He and Nicu Sebe and Radu Timofte and Luc Van Gool and Errui Ding",
+      "ENTRYTYPE": "article",
+      "ID": "xu2022ppe"
+    },
+    {
+      "year": "2021",
+      "booktitle": "CVPR",
+      "author": "Zhang, Han and Koh, Jing Yu and Baldridge, Jason and Lee, Honglak and Yang, Yinfei",
+      "title": "Cross-modal contrastive learning for text-to-image generation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zhang2021cross"
+    },
+    {
+      "year": "2017",
+      "booktitle": "CVPR",
+      "author": "Zhang, Han and Xu, Tao and Li, Hongsheng and Zhang, Shaoting and Wang, Xiaogang and Huang, Xiaolei and Metaxas, Dimitris N",
+      "title": "Stackgan: Text to photo-realistic image synthesis with stacked generative adversarial networks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zhang2017stackgan"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "2018",
+      "journal": "IEEE TPAMI",
+      "author": "Zhang, Han and Xu, Tao and Li, Hongsheng and Zhang, Shaoting and Wang, Xiaogang and Huang, Xiaolei and Metaxas, Dimitris N",
+      "title": "Stackgan++: Realistic image synthesis with stacked generative adversarial networks",
+      "ENTRYTYPE": "article",
+      "ID": "zhang2018stackgan++"
+    },
+    {
+      "year": "2019",
+      "booktitle": "ICCV",
+      "author": "Tan, Hongchen and Liu, Xiuping and Li, Xin and Zhang, Yi and Yin, Baocai",
+      "title": "Semantics-enhanced adversarial nets for text-to-image synthesis",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "tan2019semantics"
+    },
+    {
+      "year": "2018",
+      "booktitle": "CVPR",
+      "author": "Xu, Tao and Zhang, Pengchuan and Huang, Qiuyuan and Zhang, Han and Gan, Zhe and Huang, Xiaolei and He, Xiaodong",
+      "title": "Attngan: Fine-grained text to image generation with attentional generative adversarial networks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "xu2018attngan"
+    },
+    {
+      "year": "2019",
+      "booktitle": "CVPR",
+      "author": "Zhu, Minfeng and Pan, Pingbo and Chen, Wei and Yang, Yi",
+      "title": "Dm-gan: Dynamic memory generative adversarial networks for text-to-image synthesis",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zhu2019dm"
+    },
+    {
+      "year": "2020",
+      "journal": "arXiv preprint arXiv:2008.05865",
+      "author": "Tao, Ming and Tang, Hao and Wu, Songsong and Sebe, Nicu and Jing, Xiao-Yuan and Wu, Fei and Bao, Bingkun",
+      "title": "Df-gan: Deep fusion generative adversarial networks for text-to-image synthesis",
+      "ENTRYTYPE": "article",
+      "ID": "tao2020df"
+    },
+    {
+      "year": "2021",
+      "booktitle": "ICCV",
+      "author": "Ruan, Shulan and Zhang, Yong and Zhang, Kun and Fan, Yanbo and Tang, Fan and Liu, Qi and Chen, Enhong",
+      "title": "Dae-gan: Dynamic aspect-aware gan for text-to-image synthesis",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ruan2021dae"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2021",
+      "booktitle": "ICML",
+      "author": "Ramesh, Aditya and Pavlov, Mikhail and Goh, Gabriel and Gray, Scott and Voss, Chelsea and Radford, Alec and Chen, Mark and Sutskever, Ilya",
+      "title": "Zero-shot text-to-image generation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ramesh2021zero"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2021",
+      "booktitle": "ICML",
+      "author": "Radford, Alec and Kim, Jong Wook and Hallacy, Chris and Ramesh, Aditya and Goh, Gabriel and Agarwal, Sandhini and Sastry, Girish and Askell, Amanda and Mishkin, Pamela and Clark, Jack and others",
+      "title": "Learning transferable visual models from natural language supervision",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "radford2021clip"
+    },
+    {
+      "year": "2020",
+      "booktitle": "ICLR",
+      "author": "Song, Jiaming and Ermon, Stefano",
+      "title": "Understanding the limitations of variational mutual information estimators",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "song2020understanding"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2018",
+      "booktitle": "ICML",
+      "author": "Belghazi, Mohamed Ishmael and Baratin, Aristide and Rajeshwar, Sai and Ozair, Sherjil and Bengio, Yoshua and Courville, Aaron and Hjelm, Devon",
+      "title": "Mutual information neural estimation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "belghazi2018mutual"
+    },
+    {
+      "year": "2021",
+      "journal": "NeurIPS",
+      "author": "Esser, Patrick and Rombach, Robin and Blattmann, Andreas and Ommer, Bjorn",
+      "title": "Imagebart: Bidirectional context with multinomial diffusion for autoregressive image synthesis",
+      "ENTRYTYPE": "article",
+      "ID": "esser2021imagebart"
+    },
+    {
+      "year": "2015",
+      "journal": "IJCV",
+      "author": "Russakovsky, Olga and Deng, Jia and Su, Hao and Krause, Jonathan and Satheesh, Sanjeev and Ma, Sean and Huang, Zhiheng and Karpathy, Andrej and Khosla, Aditya and Bernstein, Michael and others",
+      "title": "Imagenet large scale visual recognition challenge",
+      "ENTRYTYPE": "article",
+      "ID": "russakovsky2015imagenet"
+    },
+    {
+      "year": "2020",
+      "booktitle": "ECCV",
+      "title": "Describing Unseen Videos via Multi-Modal Cooperative Dialog Agents",
+      "author": "Zhu, Ye and Wu, Yu and Yang, Yi and Yan, Yan",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zhu2020describing"
+    },
+    {
+      "year": "2021",
+      "booktitle": "TPAMI",
+      "title": "Saying the Unseen: Video Descriptions via Dialog Agents",
+      "author": "Zhu, Ye and Wu, Yu and Yang, Yi and Yan, Yan",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zhu2021saying"
+    },
+    {
+      "year": "2018",
+      "booktitle": "CVPR",
+      "author": "Anderson, Peter and He, Xiaodong and Buehler, Chris and Teney, Damien and Johnson, Mark and Gould, Stephen and Zhang, Lei",
+      "title": "Bottom-up and top-down attention for image captioning and visual question answering",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "anderson2018bottom"
+    },
+    {
+      "year": "2016",
+      "booktitle": "CVPR",
+      "author": "You, Quanzeng and Jin, Hailin and Wang, Zhaowen and Fang, Chen and Luo, Jiebo",
+      "title": "Image captioning with semantic attention",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "you2016image"
+    },
+    {
+      "year": "2017",
+      "booktitle": "NeurIPS",
+      "author": "Wang, Liwei and Schwing, Alexander and Lazebnik, Svetlana",
+      "title": "Diverse and accurate image description using a variational auto-encoder with an additive gaussian encoding space",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "wang2017diverse"
+    },
+    {
+      "year": "2017",
+      "booktitle": "Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition",
+      "author": "Zhou, Bolei and Zhao, Hang and Puig, Xavier and Fidler, Sanja and Barriuso, Adela and Torralba, Antonio",
+      "title": "Scene Parsing through ADE20K Dataset",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zhou2017scene"
+    },
+    {
+      "year": "2016",
+      "journal": "arXiv preprint arXiv:1608.05442",
+      "author": "Zhou, Bolei and Zhao, Hang and Puig, Xavier and Fidler, Sanja and Barriuso, Adela and Torralba, Antonio",
+      "title": "Semantic understanding of scenes through the ade20k dataset",
+      "ENTRYTYPE": "article",
+      "ID": "zhou2016semantic"
+    },
+    {
+      "year": "2019",
+      "booktitle": "CVPR",
+      "author": "Park, Taesung and Liu, Ming-Yu and Wang, Ting-Chun and Zhu, Jun-Yan",
+      "title": "Semantic image synthesis with spatially-adaptive normalization",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "park2019semantic"
+    },
+    {
+      "year": "2017",
+      "booktitle": "ICCV",
+      "author": "Chen, Qifeng and Koltun, Vladlen",
+      "title": "Photographic image synthesis with cascaded refinement networks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "chen2017photographic"
+    },
+    {
+      "year": "2019",
+      "booktitle": "NeurIPS",
+      "author": "Li, Bowen and Qi, Xiaojuan and Lukasiewicz, Thomas and Torr, Philip",
+      "title": "Controllable text-to-image generation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "li2019controllable"
+    },
+    {
+      "doi": "10.1109/SEQUEN.1997.666914",
+      "pages": "172-193",
+      "number": "",
+      "volume": "",
+      "year": "1997",
+      "title": "Vector quantization and density estimation",
+      "booktitle": "Proceedings. Compression and Complexity of SEQUENCES 1997 (Cat. No.97TB100171)",
+      "author": "Gray, R.M. and Olshen, R.A.",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "666914"
+    },
+    {
+      "doi": "10.1109/MASSP.1984.1162229",
+      "pages": "4-29",
+      "number": "2",
+      "volume": "1",
+      "year": "1984",
+      "title": "Vector quantization",
+      "journal": "IEEE ASSP Magazine",
+      "author": "Gray, R.",
+      "ENTRYTYPE": "article",
+      "ID": "1162229"
+    },
+    {
+      "year": "2018",
+      "journal": "arXiv preprint arXiv:1809.11096",
+      "author": "Brock, Andrew and Donahue, Jeff and Simonyan, Karen",
+      "title": "Large scale GAN training for high fidelity natural image synthesis",
+      "ENTRYTYPE": "article",
+      "ID": "brock2018large"
+    },
+    {
+      "year": "2016",
+      "booktitle": "CVPR",
+      "author": "He, Kaiming and Zhang, Xiangyu and Ren, Shaoqing and Sun, Jian",
+      "title": "Deep residual learning for image recognition",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "he2016deep"
+    },
+    {
+      "year": "2022",
+      "pages": "10684--10695",
+      "booktitle": "Proceedings of the IEEE/CVF conference on computer vision and pattern recognition",
+      "author": "Rombach, Robin and Blattmann, Andreas and Lorenz, Dominik and Esser, Patrick and Ommer, Bj{\\\"o}rn",
+      "title": "High-resolution image synthesis with latent diffusion models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "stablediff"
+    },
+    {
+      "year": "2009",
+      "booktitle": "CVPR",
+      "author": "Deng, Jia and Dong, Wei and Socher, Richard and Li, Li-Jia and Li, Kai and Fei-Fei, Li",
+      "title": "Imagenet: A large-scale hierarchical image database",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "deng2009imagenet"
+    },
+    {
+      "year": "2015",
+      "month": "December",
+      "booktitle": "ICCV",
+      "author": "Liu, Ziwei and Luo, Ping and Wang, Xiaogang and Tang, Xiaoou",
+      "title": "Deep Learning Face Attributes in the Wild",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "liu2015faceattributes"
+    },
+    {
+      "year": "2022",
+      "journal": "NeurIPS Workshop",
+      "author": "Ho, Jonathan and Salimans, Tim and Gritsenko, Alexey and Chan, William and Norouzi, Mohammad and Fleet, David J",
+      "title": "Video diffusion models",
+      "ENTRYTYPE": "article",
+      "ID": "ho2022video"
+    },
+    {
+      "year": "2023",
+      "booktitle": "ICLR",
+      "author": "Zhu, Ye and Wu, Yu and Olszewski, Kyle and Ren, Jian and Tulyakov, Sergey and Yan, Yan",
+      "title": "Discrete contrastive diffusion for cross-modal and conditional generation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zhu2022discrete"
+    },
+    {
+      "year": "2021",
+      "journal": "ICLR",
+      "author": "Song, Jiaming and Meng, Chenlin and Ermon, Stefano",
+      "title": "Denoising diffusion implicit models",
+      "ENTRYTYPE": "article",
+      "ID": "song2020ddim"
+    },
+    {
+      "organization": "Springer",
+      "year": "2016",
+      "booktitle": "ECCV",
+      "author": "Zhu, Jun-Yan and Kr{\\\"a}henb{\\\"u}hl, Philipp and Shechtman, Eli and Efros, Alexei A",
+      "title": "Generative visual manipulation on the natural image manifold",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zhu2016generative"
+    },
+    {
+      "year": "2019",
+      "booktitle": "ICLR Workshop",
+      "author": "Bau, David and Zhu, Jun-Yan and Wulff, Jonas and Peebles, William and Strobelt, Hendrik and Zhou, Bolei and Torralba, Antonio",
+      "title": "Inverting layers of a large generator",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "bau2019inverting"
+    },
+    {
+      "year": "2021",
+      "booktitle": "CVPR",
+      "author": "Richardson, Elad and Alaluf, Yuval and Patashnik, Or and Nitzan, Yotam and Azar, Yaniv and Shapiro, Stav and Cohen-Or, Daniel",
+      "title": "Encoding in style: a stylegan encoder for image-to-image translation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "richardson2021encoding"
+    },
+    {
+      "year": "2019",
+      "booktitle": "ICCV",
+      "author": "Abdal, Rameen and Qin, Yipeng and Wonka, Peter",
+      "title": "Image2stylegan: How to embed images into the stylegan latent space?",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "abdal2019image2stylegan"
+    },
+    {
+      "year": "2020",
+      "booktitle": "CVPR",
+      "author": "Abdal, Rameen and Qin, Yipeng and Wonka, Peter",
+      "title": "Image2stylegan++: How to edit the embedded images?",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "abdal2020image2stylegan++"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "2018",
+      "journal": "IEEE TNNLS",
+      "author": "Creswell, Antonia and Bharath, Anil Anthony",
+      "title": "Inverting the generator of a generative adversarial network",
+      "ENTRYTYPE": "article",
+      "ID": "creswell2018inverting"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "2022",
+      "journal": "IEEE TPAMI",
+      "author": "Xia, Weihao and Zhang, Yulun and Yang, Yujiu and Xue, Jing-Hao and Zhou, Bolei and Yang, Ming-Hsuan",
+      "title": "Gan inversion: A survey",
+      "ENTRYTYPE": "article",
+      "ID": "xia2022gan"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2209.00796",
+      "author": "Yang, Ling and Zhang, Zhilong and Song, Yang and Hong, Shenda and Xu, Runsheng and Zhao, Yue and Shao, Yingxia and Zhang, Wentao and Cui, Bin and Yang, Ming-Hsuan",
+      "title": "Diffusion models: A comprehensive survey of methods and applications",
+      "ENTRYTYPE": "article",
+      "ID": "yang2022diffusion"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2204.06125",
+      "author": "Ramesh, Aditya and Dhariwal, Prafulla and Nichol, Alex and Chu, Casey and Chen, Mark",
+      "title": "Hierarchical text-conditional image generation with clip latents",
+      "ENTRYTYPE": "article",
+      "ID": "ramesh2022dalle2"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2205.16007",
+      "author": "Tang, Zhicong and Gu, Shuyang and Bao, Jianmin and Chen, Dong and Wen, Fang",
+      "title": "Improved Vector Quantized Diffusion Models",
+      "ENTRYTYPE": "article",
+      "ID": "tang2022improved"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2207.12598",
+      "author": "Ho, Jonathan and Salimans, Tim",
+      "title": "Classifier-free diffusion guidance",
+      "ENTRYTYPE": "article",
+      "ID": "ho2022classifier"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "2022",
+      "journal": "IEEE TIP",
+      "author": "Wei, Tianyi and Chen, Dongdong and Zhou, Wenbo and Liao, Jing and Zhang, Weiming and Yuan, Lu and Hua, Gang and Yu, Nenghai",
+      "title": "E2Style: Improve the efficiency and effectiveness of StyleGAN inversion",
+      "ENTRYTYPE": "article",
+      "ID": "wei2022e2style"
+    },
+    {
+      "year": "2021",
+      "booktitle": "ICCV",
+      "author": "Alaluf, Yuval and Patashnik, Or and Cohen-Or, Daniel",
+      "title": "Restyle: A residual-based stylegan encoder via iterative refinement",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "alaluf2021restyle"
+    },
+    {
+      "organization": "Springer",
+      "year": "2020",
+      "booktitle": "ECCV",
+      "author": "Huh, Minyoung and Zhang, Richard and Zhu, Jun-Yan and Paris, Sylvain and Hertzmann, Aaron",
+      "title": "Transforming and projecting images into class-conditional generative networks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "huh2020transforming"
+    },
+    {
+      "year": "2019",
+      "booktitle": "CVPR",
+      "author": "Karras, Tero and Laine, Samuli and Aila, Timo",
+      "title": "A style-based generator architecture for generative adversarial networks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "karras2019style"
+    },
+    {
+      "year": "2021",
+      "booktitle": "CVPR",
+      "author": "Wu, Zongze and Lischinski, Dani and Shechtman, Eli",
+      "title": "Stylespace analysis: Disentangled controls for stylegan image generation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "wu2021stylespace"
+    },
+    {
+      "year": "2020",
+      "booktitle": "CVPR",
+      "author": "Menon, Sachit and Damian, Alexandru and Hu, Shijia and Ravi, Nikhil and Rudin, Cynthia",
+      "title": "Pulse: Self-supervised photo upsampling via latent space exploration of generative models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "menon2020pulse"
+    },
+    {
+      "year": "2017",
+      "journal": "arXiv preprint arXiv:1710.10196",
+      "author": "Karras, Tero and Aila, Timo and Laine, Samuli and Lehtinen, Jaakko",
+      "title": "Progressive growing of gans for improved quality, stability, and variation",
+      "ENTRYTYPE": "article",
+      "ID": "karras2017progressive"
+    },
+    {
+      "year": "2020",
+      "booktitle": "CVPR",
+      "author": "Karras, Tero and Laine, Samuli and Aittala, Miika and Hellsten, Janne and Lehtinen, Jaakko and Aila, Timo",
+      "title": "Analyzing and improving the image quality of stylegan",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "karras2020analyzing"
+    },
+    {
+      "organization": "Springer",
+      "year": "2020",
+      "booktitle": "ECCV",
+      "author": "Zhu, Jiapeng and Shen, Yujun and Zhao, Deli and Zhou, Bolei",
+      "title": "In-domain gan inversion for real image editing",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zhu2020domain"
+    },
+    {
+      "year": "2019",
+      "booktitle": "ICCV",
+      "author": "Bau, David and Zhu, Jun-Yan and Wulff, Jonas and Peebles, William and Strobelt, Hendrik and Zhou, Bolei and Torralba, Antonio",
+      "title": "Seeing what a gan cannot generate",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "bau2019seeing"
+    },
+    {
+      "year": "2020",
+      "booktitle": "CVPR",
+      "author": "Shen, Yujun and Gu, Jinjin and Tang, Xiaoou and Zhou, Bolei",
+      "title": "Interpreting the latent space of gans for semantic face editing",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "shen2020interpreting"
+    },
+    {
+      "year": "2017",
+      "booktitle": "ICML",
+      "author": "Odena, Augustus and Olah, Christopher and Shlens, Jonathon",
+      "title": "Conditional image synthesis with auxiliary classifier gans",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "odena2017conditional"
+    },
+    {
+      "year": "2017",
+      "booktitle": "CVPR",
+      "author": "Tran, Luan and Yin, Xi and Liu, Xiaoming",
+      "title": "Disentangled representation learning gan for pose-invariant face recognition",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "tran2017disentangled"
+    },
+    {
+      "year": "2017",
+      "journal": "NIPS",
+      "author": "Lample, Guillaume and Zeghidour, Neil and Usunier, Nicolas and Bordes, Antoine and Denoyer, Ludovic and Ranzato, Marc'Aurelio",
+      "title": "Fader networks: Manipulating images by sliding attributes",
+      "ENTRYTYPE": "article",
+      "ID": "lample2017fader"
+    },
+    {
+      "year": "2018",
+      "booktitle": "CVPR",
+      "author": "Bao, Jianmin and Chen, Dong and Wen, Fang and Li, Houqiang and Hua, Gang",
+      "title": "Towards open-set identity preserving face synthesis",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "bao2018towards"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2020",
+      "booktitle": "ICML",
+      "author": "Voynov, Andrey and Babenko, Artem",
+      "title": "Unsupervised discovery of interpretable directions in the gan latent space",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "voynov2020unsupervised"
+    },
+    {
+      "year": "1985",
+      "pages": "245--254",
+      "booktitle": "Proceedings of the 12th annual conference on Computer graphics and interactive techniques",
+      "author": "Shoemake, Ken",
+      "title": "Animating rotation with quaternion curves",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "shoemake1985animating"
+    },
+    {
+      "year": "2016",
+      "journal": "NIPS",
+      "author": "Salimans, Tim and Goodfellow, Ian and Zaremba, Wojciech and Cheung, Vicki and Radford, Alec and Chen, Xi",
+      "title": "Improved techniques for training gans",
+      "ENTRYTYPE": "article",
+      "ID": "salimans2016improved"
+    },
+    {
+      "year": "2018",
+      "journal": "NeurIPs",
+      "author": "Ma, Fangchang and Ayaz, Ulas and Karaman, Sertac",
+      "title": "Invertibility of convolutional generative networks from partial measurements",
+      "ENTRYTYPE": "article",
+      "ID": "ma2018invertibility"
+    },
+    {
+      "publisher": "Cambridge University Press",
+      "year": "2020",
+      "author": "Blum, Avrim and Hopcroft, John and Kannan, Ravindran",
+      "title": "Foundations of data science",
+      "ENTRYTYPE": "book",
+      "ID": "blum2020foundations"
+    },
+    {
+      "organization": "Springer",
+      "year": "2016",
+      "booktitle": "ECCV",
+      "author": "Larsson, Gustav and Maire, Michael and Shakhnarovich, Gregory",
+      "title": "Learning representations for automatic colorization",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "larsson2016learning"
+    },
+    {
+      "year": "2019",
+      "booktitle": "ICCV",
+      "author": "Shaham, Tamar Rott and Dekel, Tali and Michaeli, Tomer",
+      "title": "Singan: Learning a generative model from a single natural image",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "shaham2019singan"
+    },
+    {
+      "publisher": "American Mathematical Soc.",
+      "year": "2017",
+      "volume": "107",
+      "author": "Levin, David A and Peres, Yuval",
+      "title": "Markov chains and mixing times",
+      "ENTRYTYPE": "book",
+      "ID": "levin2017markov"
+    },
+    {
+      "year": "2014",
+      "journal": "arXiv preprint arXiv:1412.6980",
+      "author": "Kingma, Diederik P and Ba, Jimmy",
+      "title": "Adam: A method for stochastic optimization",
+      "ENTRYTYPE": "article",
+      "ID": "kingma2014adam"
+    },
+    {
+      "organization": "Springer",
+      "year": "2015",
+      "booktitle": "International Conference on Medical image computing and computer-assisted intervention",
+      "author": "Ronneberger, Olaf and Fischer, Philipp and Brox, Thomas",
+      "title": "U-net: Convolutional networks for biomedical image segmentation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ronneberger2015unet"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2208.09392",
+      "author": "Bansal, Arpit and Borgnia, Eitan and Chu, Hong-Min and Li, Jie S and Kazemi, Hamid and Huang, Furong and Goldblum, Micah and Geiping, Jonas and Goldstein, Tom",
+      "title": "Cold diffusion: Inverting arbitrary image transforms without noise",
+      "ENTRYTYPE": "article",
+      "ID": "bansal2022cold"
+    },
+    {
+      "year": "2022",
+      "booktitle": "CVPR",
+      "author": "Kim, Gwanghyun and Kwon, Taesung and Ye, Jong Chul",
+      "title": "DiffusionCLIP: Text-Guided Diffusion Models for Robust Image Manipulation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "kim2022diffusionclip"
+    },
+    {
+      "year": "2023",
+      "booktitle": "ICLR",
+      "author": "Kwon, Mingi and Jeong, Jaeseok and Uh, Youngjung",
+      "title": "Diffusion models already have a semantic latent space",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "kwon2022diffusion"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2208.05314",
+      "author": "De Bortoli, Valentin",
+      "title": "Convergence of denoising diffusion models under the manifold hypothesis",
+      "ENTRYTYPE": "article",
+      "ID": "de2022convergence"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2206.06227",
+      "author": "Lee, Holden and Lu, Jianfeng and Tan, Yixin",
+      "title": "Convergence for score-based generative modeling with polynomial complexity",
+      "ENTRYTYPE": "article",
+      "ID": "lee2022convergence"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2209.14792",
+      "author": "Singer, Uriel and Polyak, Adam and Hayes, Thomas and Yin, Xi and An, Jie and Zhang, Songyang and Hu, Qiyuan and Yang, Harry and Ashual, Oron and Gafni, Oran and others",
+      "title": "Make-a-video: Text-to-video generation without text-video data",
+      "ENTRYTYPE": "article",
+      "ID": "singer2022make"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2210.02303",
+      "author": "Ho, Jonathan and Chan, William and Saharia, Chitwan and Whang, Jay and Gao, Ruiqi and Gritsenko, Alexey and Kingma, Diederik P and Poole, Ben and Norouzi, Mohammad and Fleet, David J and others",
+      "title": "Imagen video: High definition video generation with diffusion models",
+      "ENTRYTYPE": "article",
+      "ID": "ho2022imagen"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2206.00364",
+      "author": "Karras, Tero and Aittala, Miika and Aila, Timo and Laine, Samuli",
+      "title": "Elucidating the Design Space of Diffusion-Based Generative Models",
+      "ENTRYTYPE": "article",
+      "ID": "karras2022elucidating"
+    },
+    {
+      "year": "2021",
+      "pages": "17695--17709",
+      "volume": "34",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "De Bortoli, Valentin and Thornton, James and Heng, Jeremy and Doucet, Arnaud",
+      "title": "Diffusion Schr{\\\"o}dinger bridge with applications to score-based generative modeling",
+      "ENTRYTYPE": "article",
+      "ID": "de2021diffusion"
+    },
+    {
+      "booktitle": "NeurIPS 2022 Workshop on Score-Based Methods",
+      "author": "Yoon, Eunbi and Park, Keehun and Kim, Jinhyeok and Lim, Sungbin",
+      "title": "Score-Based Generative Models with L{'e}vy Processes",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "yoon2022score"
+    },
+    {
+      "year": "2022",
+      "booktitle": "CVPR",
+      "author": "Preechakul, Konpat and Chatthee, Nattanat and Wizadwongsa, Suttisak and Suwajanakorn, Supasorn",
+      "title": "Diffusion autoencoders: Toward a meaningful and decodable representation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "preechakul2022diffusion"
+    },
+    {
+      "year": "2021",
+      "booktitle": "CVPR",
+      "author": "Patashnik, Or and Wu, Zongze and Shechtman, Eli and Cohen-Or, Daniel and Lischinski, Dani",
+      "title": "Styleclip: Text-driven manipulation of stylegan imagery",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "patashnik2021styleclip"
+    },
+    {
+      "year": "2019",
+      "booktitle": "CVPR",
+      "author": "Deng, Jiankang and Guo, Jia and Xue, Niannan and Zafeiriou, Stefanos",
+      "title": "Arcface: Additive angular margin loss for deep face recognition",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "deng2019arcface"
+    },
+    {
+      "year": "2015",
+      "journal": "arXiv preprint arXiv:1506.03365",
+      "author": "Yu, Fisher and Seff, Ari and Zhang, Yinda and Song, Shuran and Funkhouser, Thomas and Xiao, Jianxiong",
+      "title": "Lsun: Construction of a large-scale image dataset using deep learning with humans in the loop",
+      "ENTRYTYPE": "article",
+      "ID": "yu2015lsun"
+    },
+    {
+      "year": "2020",
+      "booktitle": "CVPR",
+      "author": "Choi, Yunjey and Uh, Youngjung and Yoo, Jaejun and Ha, Jung-Woo",
+      "title": "Stargan v2: Diverse image synthesis for multiple domains",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "choi2020stargan"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "1998",
+      "journal": "IEEE Intelligent Systems and their applications",
+      "author": "Hearst, Marti A. and Dumais, Susan T and Osuna, Edgar and Platt, John and Scholkopf, Bernhard",
+      "title": "Support vector machines",
+      "ENTRYTYPE": "article",
+      "ID": "hearst1998support"
+    },
+    {
+      "publisher": "ACM New York, NY, USA",
+      "year": "2022",
+      "pages": "1--13",
+      "number": "4",
+      "volume": "41",
+      "journal": "ACM Transactions on Graphics (TOG)",
+      "author": "Gal, Rinon and Patashnik, Or and Maron, Haggai and Bermano, Amit H and Chechik, Gal and Cohen-Or, Daniel",
+      "title": "Stylegan-nada: Clip-guided domain adaptation of image generators",
+      "ENTRYTYPE": "article",
+      "ID": "gal2022stylegan"
+    },
+    {
+      "year": "2018",
+      "pages": "325--341",
+      "booktitle": "ECCV",
+      "author": "Yu, Changqian and Wang, Jingbo and Peng, Chao and Gao, Changxin and Yu, Gang and Sang, Nong",
+      "title": "Bisenet: Bilateral segmentation network for real-time semantic segmentation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "yu2018bisenet"
+    },
+    {
+      "publisher": "IOP Publishing",
+      "year": "2023",
+      "pages": "146",
+      "number": "2",
+      "volume": "950",
+      "journal": "The Astrophysical Journal",
+      "author": "Xu, Duo and Tan, Jonathan C and Hsu, Chia-Jung and Zhu, Ye",
+      "title": "Denoising Diffusion Probabilistic Models to Predict the Density of Molecular Clouds",
+      "ENTRYTYPE": "article",
+      "ID": "xu2023denoising"
+    },
+    {
+      "year": "2022",
+      "journal": "NeurIPS Workshop",
+      "author": "Kreis, Karsten and Dockhorn, Tim and Li, Zihao and Zhong, Ellen",
+      "title": "Latent Space Diffusion Models of Cryo-EM Structures",
+      "ENTRYTYPE": "article",
+      "ID": "kreis2022latent"
+    },
+    {
+      "publisher": "Cold Spring Harbor Laboratory",
+      "year": "2022",
+      "pages": "2022--11",
+      "journal": "bioRxiv",
+      "author": "Takagi, Yu and Nishimoto, Shinji",
+      "title": "High-resolution image reconstruction with latent diffusion models from human brain activity",
+      "ENTRYTYPE": "article",
+      "ID": "takagi2022high"
+    },
+    {
+      "year": "2023",
+      "booktitle": "CVPR",
+      "author": "Xu, Jiarui and Liu, Sifei and Vahdat, Arash and Byeon, Wonmin and Wang, Xiaolong and De Mello, Shalini",
+      "title": "Open-vocabulary panoptic segmentation with text-to-image diffusion models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "xu2023open"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2306.08247",
+      "author": "Yang, Yongqi and Wang, Ruoyu and Qian, Zhihao and Zhu, Ye and Wu, Yu",
+      "title": "Diffusion in Diffusion: Cyclic One-Way Diffusion for Text-Vision-Conditioned Generation",
+      "ENTRYTYPE": "article",
+      "ID": "yang2023diffusion"
+    },
+    {
+      "year": "2023",
+      "pages": "22500--22510",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Ruiz, Nataniel and Li, Yuanzhen and Jampani, Varun and Pritch, Yael and Rubinstein, Michael and Aberman, Kfir",
+      "title": "Dreambooth: Fine tuning text-to-image diffusion models for subject-driven generation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ruiz2023dreambooth"
+    },
+    {
+      "year": "2019",
+      "booktitle": "CVPR",
+      "author": "Rossler, Andreas and Cozzolino, Davide and Verdoliva, Luisa and Riess, Christian and Thies, Justus and Nie{\\ss}ner, Matthias",
+      "title": "Faceforensics++: Learning to detect manipulated facial images",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "rossler2019faceforensics++"
+    },
+    {
+      "year": "2018",
+      "journal": "arXiv preprint arXiv:1803.09179",
+      "author": "R{\\\"o}ssler, Andreas and Cozzolino, Davide and Verdoliva, Luisa and Riess, Christian and Thies, Justus and Nie{\\ss}ner, Matthias",
+      "title": "Faceforensics: A large-scale video dataset for forgery detection in human faces",
+      "ENTRYTYPE": "article",
+      "ID": "rossler2018faceforensics"
+    },
+    {
+      "organization": "Springer",
+      "year": "2022",
+      "pages": "712--728",
+      "booktitle": "ECCV",
+      "author": "Shao, Rui and Wu, Tianxing and Liu, Ziwei",
+      "title": "Detecting and recovering sequential deepfake manipulation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "shao2022detecting"
+    },
+    {
+      "year": "2023",
+      "booktitle": "NeurIPS",
+      "author": "Zhu, Ye and Wu, Yu and Deng, Zhiwei and Russakovsky, Olga and Yan, Yan",
+      "title": "Boundary Guided Learning-Free Semantic Control with Diffusion Models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zhu2023boundary"
+    },
+    {
+      "year": "2023",
+      "pages": "24335--24344",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Liu, Xingchao and Wu, Lemeng and Zhang, Shujian and Gong, Chengyue and Ping, Wei and Liu, Qiang",
+      "title": "FlowGrad: Controlling the Output of Generative ODEs with Gradients",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "liu2023flowgrad"
+    },
+    {
+      "publisher": "Springer",
+      "year": "2020",
+      "pages": "411--437",
+      "number": "3",
+      "volume": "30",
+      "journal": "Minds and machines",
+      "author": "Gabriel, Iason",
+      "title": "Artificial intelligence, values, and alignment",
+      "ENTRYTYPE": "article",
+      "ID": "gabriel2020artificial"
+    },
+    {
+      "year": "2016",
+      "booktitle": "CVPR",
+      "author": "Yang, Shuo and Luo, Ping and Loy, Chen-Change and Tang, Xiaoou",
+      "title": "Wider face: A face detection benchmark",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "yang2016wider"
+    },
+    {
+      "year": "2023",
+      "journal": "ICCV",
+      "author": "Wang, Zhendong and Bao, Jianmin and Zhou, Wengang and Wang, Weilun and Hu, Hezhen and Chen, Hong and Li, Houqiang",
+      "title": "DIRE for Diffusion-Generated Image Detection",
+      "ENTRYTYPE": "article",
+      "ID": "wang2023dire"
+    },
+    {
+      "year": "2023",
+      "booktitle": "ICCV",
+      "author": "Yildirim, Ahmet Burak and Pehlivan, Hamza and Bilecen, Bahri Batuhan and Dundar, Aysegul",
+      "title": "Diverse inpainting and editing with gan inversion",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "yildirim2023diverse"
+    },
+    {
+      "year": "2023",
+      "booktitle": "CVPR",
+      "author": "Liu, Zhian and Li, Maomao and Zhang, Yong and Wang, Cairong and Zhang, Qi and Wang, Jue and Nie, Yongwei",
+      "title": "Fine-Grained Face Swapping via Regional GAN Inversion",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "liu2023fine"
+    },
+    {
+      "year": "2022",
+      "booktitle": "CVPR",
+      "author": "Li, Wenbo and Lin, Zhe and Zhou, Kun and Qi, Lu and Wang, Yi and Jia, Jiaya",
+      "title": "Mat: Mask-aware transformer for large hole image inpainting",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "li2022mat"
+    },
+    {
+      "year": "2023",
+      "pages": "1--11",
+      "booktitle": "ACM SIGGRAPH 2023 Conference Proceedings",
+      "author": "Pan, Xingang and Tewari, Ayush and Leimk{\\\"u}hler, Thomas and Liu, Lingjie and Meka, Abhimitra and Theobalt, Christian",
+      "title": "Drag your gan: Interactive point-based manipulation on the generative image manifold",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "pan2023drag"
+    },
+    {
+      "year": "2023",
+      "journal": "ICCV",
+      "author": "Xia, Bin and Zhang, Yulun and Wang, Shiyin and Wang, Yitong and Wu, Xinglong and Tian, Yapeng and Yang, Wenming and Van Gool, Luc",
+      "title": "Diffir: Efficient diffusion model for image restoration",
+      "ENTRYTYPE": "article",
+      "ID": "xia2023diffir"
+    },
+    {
+      "year": "2020",
+      "booktitle": "CVPR",
+      "author": "Li, Yuezun and Yang, Xin and Sun, Pu and Qi, Honggang and Lyu, Siwei",
+      "title": "Celeb-df: A large-scale challenging dataset for deepfake forensics",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "li2020celeb"
+    },
+    {
+      "year": "2020",
+      "booktitle": "ACMMM",
+      "author": "Zi, Bojia and Chang, Minghao and Chen, Jingjing and Ma, Xingjun and Jiang, Yu-Gang",
+      "title": "Wilddeepfake: A challenging real-world dataset for deepfake detection",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zi2020wilddeepfake"
+    },
+    {
+      "organization": "IEEE",
+      "year": "2023",
+      "booktitle": "ICASSP",
+      "author": "Corvi, Riccardo and Cozzolino, Davide and Zingarini, Giada and Poggi, Giovanni and Nagano, Koki and Verdoliva, Luisa",
+      "title": "On the detection of synthetic images generated by diffusion models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "corvi2023detection"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2210.14571",
+      "author": "Ricker, Jonas and Damm, Simon and Holz, Thorsten and Fischer, Asja",
+      "title": "Towards the detection of diffusion model deepfakes",
+      "ENTRYTYPE": "article",
+      "ID": "ricker2022towards"
+    },
+    {
+      "year": "2018",
+      "journal": "arXiv preprint arXiv:1812.08685",
+      "author": "Korshunov, Pavel and Marcel, S{\\'e}bastien",
+      "title": "Deepfakes: a new threat to face recognition? assessment and detection",
+      "ENTRYTYPE": "article",
+      "ID": "korshunov2018deepfakes"
+    },
+    {
+      "organization": "IEEE",
+      "year": "2019",
+      "booktitle": "ICASSP",
+      "author": "Yang, Xin and Li, Yuezun and Lyu, Siwei",
+      "title": "Exposing deep fakes using inconsistent head poses",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "yang2019exposing"
+    },
+    {
+      "year": "2019",
+      "journal": "arXiv preprint arXiv:1910.08854",
+      "author": "Dolhansky, Brian and Howes, Russ and Pflaum, Ben and Baram, Nicole and Ferrer, Cristian Canton",
+      "title": "The deepfake detection challenge (dfdc) preview dataset",
+      "ENTRYTYPE": "article",
+      "ID": "dolhansky2019deepfake"
+    },
+    {
+      "year": "2020",
+      "booktitle": "CVPR",
+      "author": "Jiang, Liming and Li, Ren and Wu, Wayne and Qian, Chen and Loy, Chen Change",
+      "title": "{DeeperForensics-1.0}: A Large-Scale Dataset for Real-World Face Forgery Detection",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "jiang2020deeperforensics1"
+    },
+    {
+      "year": "2021",
+      "booktitle": "CVPR",
+      "author": "He, Yinan and Gan, Bei and Chen, Siyu and Zhou, Yichun and Yin, Guojun and Song, Luchuan and Sheng, Lu and Shao, Jing and Liu, Ziwei",
+      "title": "Forgerynet: A versatile benchmark for comprehensive forgery analysis",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "he2021forgerynet"
+    },
+    {
+      "year": "2023",
+      "booktitle": "CVPR",
+      "author": "Liu, Zhian and Li, Maomao and Zhang, Yong and Wang, Cairong and Zhang, Qi and Wang, Jue and Nie, Yongwei",
+      "title": "Fine-Grained Face Swapping via Regional GAN Inversion",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "liu2023e4s"
+    },
+    {
+      "year": "2023",
+      "booktitle": "CVPR",
+      "author": "Zhao, Wenliang and Rao, Yongming and Shi, Weikang and Liu, Zuyan and Zhou, Jie and Lu, Jiwen",
+      "title": "DiffSwap: High-Fidelity and Controllable Face Swapping via 3D-Aware Masked Diffusion",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zhao2023diffswap"
+    },
+    {
+      "year": "2020",
+      "booktitle": "CVPR",
+      "author": "Dang, Hao and Liu, Feng and Stehouwer, Joel and Liu, Xiaoming and Jain, Anil K",
+      "title": "On the detection of digital face manipulation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "dang2020detection"
+    },
+    {
+      "organization": "IEEE",
+      "year": "2017",
+      "booktitle": "CVPR Workshop",
+      "author": "Zhou, Peng and Han, Xintong and Morariu, Vlad I and Davis, Larry S",
+      "title": "Two-stream neural networks for tampered face detection",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zhou2017two"
+    },
+    {
+      "year": "2020",
+      "journal": "arXiv preprint arXiv:2006.07397",
+      "author": "Dolhansky, Brian and Bitton, Joanna and Pflaum, Ben and Lu, Jikuo and Howes, Russ and Wang, Menglin and Ferrer, Cristian Canton",
+      "title": "The deepfake detection challenge (dfdc) dataset",
+      "ENTRYTYPE": "article",
+      "ID": "dolhansky2020dfdc"
+    },
+    {
+      "year": "2019",
+      "booktitle": "ICCV",
+      "author": "Shao, Shuai and Li, Zeming and Zhang, Tianyuan and Peng, Chao and Yu, Gang and Zhang, Xiangyu and Li, Jing and Sun, Jian",
+      "title": "Objects365: A large-scale, high-quality dataset for object detection",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "shao2019objects365"
+    },
+    {
+      "year": "2019",
+      "booktitle": "CVPR",
+      "author": "Gupta, Agrim and Dollar, Piotr and Girshick, Ross",
+      "title": "Lvis: A dataset for large vocabulary instance segmentation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "gupta2019lvis"
+    },
+    {
+      "year": "2022",
+      "pages": "11461--11471",
+      "booktitle": "Proceedings of the IEEE/CVF conference on computer vision and pattern recognition",
+      "author": "Lugmayr, Andreas and Danelljan, Martin and Romero, Andres and Yu, Fisher and Timofte, Radu and Van Gool, Luc",
+      "title": "Repaint: Inpainting using denoising diffusion probabilistic models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "lugmayr2022repaint"
+    },
+    {
+      "year": "2020",
+      "booktitle": "CVPR",
+      "author": "Liu, Zhengzhe and Qi, Xiaojuan and Torr, Philip HS",
+      "title": "Global texture enhancement for fake face detection in the wild",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "liu2020global"
+    },
+    {
+      "year": "2020",
+      "booktitle": "CVPR",
+      "author": "Li, Lingzhi and Bao, Jianmin and Zhang, Ting and Yang, Hao and Chen, Dong and Wen, Fang and Guo, Baining",
+      "title": "Face x-ray for more general face forgery detection",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "li2020face"
+    },
+    {
+      "year": "2020",
+      "booktitle": "CVPR",
+      "author": "Wang, Sheng-Yu and Wang, Oliver and Zhang, Richard and Owens, Andrew and Efros, Alexei A",
+      "title": "CNN-generated images are surprisingly easy to spot... for now",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "wang2020cnn"
+    },
+    {
+      "year": "2019",
+      "booktitle": "ICCV",
+      "author": "Yu, Ning and Davis, Larry S and Fritz, Mario",
+      "title": "Attributing fake images to gans: Learning and analyzing gan fingerprints",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "yu2019attributing"
+    },
+    {
+      "organization": "Springer",
+      "year": "2020",
+      "booktitle": "ECCV",
+      "author": "Carion, Nicolas and Massa, Francisco and Synnaeve, Gabriel and Usunier, Nicolas and Kirillov, Alexander and Zagoruyko, Sergey",
+      "title": "End-to-end object detection with transformers",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "carion2020detr"
+    },
+    {
+      "year": "2017",
+      "booktitle": "ICCV",
+      "author": "He, Kaiming and Gkioxari, Georgia and Doll{\\'a}r, Piotr and Girshick, Ross",
+      "title": "Mask r-cnn",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "he2017mask"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "2019",
+      "pages": "3212--3232",
+      "number": "11",
+      "volume": "30",
+      "journal": "IEEE transactions on neural networks and learning systems",
+      "author": "Zhao, Zhong-Qiu and Zheng, Peng and Xu, Shou-tao and Wu, Xindong",
+      "title": "Object detection with deep learning: A review",
+      "ENTRYTYPE": "article",
+      "ID": "zhao2019object"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "2021",
+      "pages": "3523--3542",
+      "number": "7",
+      "volume": "44",
+      "journal": "IEEE transactions on pattern analysis and machine intelligence",
+      "author": "Minaee, Shervin and Boykov, Yuri and Porikli, Fatih and Plaza, Antonio and Kehtarnavaz, Nasser and Terzopoulos, Demetri",
+      "title": "Image segmentation using deep learning: A survey",
+      "ENTRYTYPE": "article",
+      "ID": "minaee2021image"
+    },
+    {
+      "year": "2017",
+      "booktitle": "International Conference on Computer Vision",
+      "author": "Bulat, Adrian and Tzimiropoulos, Georgios",
+      "title": "How far are we from solving the 2D \\& 3D Face Alignment problem? (and a dataset of 230,000 3D facial landmarks)",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "bulat2017far"
+    },
+    {
+      "publisher": "Springer",
+      "year": "2021",
+      "pages": "3051--3068",
+      "volume": "129",
+      "journal": "International Journal of Computer Vision",
+      "author": "Yu, Changqian and Gao, Changxin and Wang, Jingbo and Yu, Gang and Shen, Chunhua and Sang, Nong",
+      "title": "Bisenet v2: Bilateral network with guided aggregation for real-time semantic segmentation",
+      "ENTRYTYPE": "article",
+      "ID": "yu2021bisenet"
+    },
+    {
+      "year": "2021",
+      "booktitle": "ICCV",
+      "author": "Le, Trung-Nghia and Nguyen, Huy H and Yamagishi, Junichi and Echizen, Isao",
+      "title": "Openforensics: Large-scale challenging dataset for multi-face forgery detection and segmentation in-the-wild",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "le2021openforensics"
+    },
+    {
+      "year": "2023",
+      "booktitle": "CVPR",
+      "author": "Shao, Rui and Wu, Tianxing and Liu, Ziwei",
+      "title": "Detecting and grounding multi-modal media manipulation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "shao2023detecting"
+    },
+    {
+      "note": "Accessed: 2023-11",
+      "howpublished": "\\url{https://openai.com/chatgpt}",
+      "year": "2023",
+      "title": "ChatGPT: Optimizing Language Models for Dialogue",
+      "author": "{OpenAI}",
+      "ENTRYTYPE": "misc",
+      "ID": "OpenAI_ChatGPT"
+    },
+    {
+      "year": "2023",
+      "booktitle": "ICCV",
+      "author": "Fei, Junjie and Wang, Teng and Zhang, Jinrui and He, Zhenyu and Wang, Chengjie and Zheng, Feng",
+      "title": "Transferable decoding with visual entities for zero-shot image captioning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "fei2023transferable"
+    },
+    {
+      "year": "2023",
+      "booktitle": "CVPR",
+      "author": "Narayan, Kartik and Agarwal, Harsh and Thakral, Kartik and Mittal, Surbhi and Vatsa, Mayank and Singh, Richa",
+      "title": "DF-Platter: Multi-Face Heterogeneous Deepfake Dataset",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "narayan2023df"
+    },
+    {
+      "year": "2019",
+      "booktitle": "ICCV",
+      "author": "Bolya, Daniel and Zhou, Chong and Xiao, Fanyi and Lee, Yong Jae",
+      "title": "Yolact: Real-time instance segmentation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "bolya2019yolact"
+    },
+    {
+      "year": "2015",
+      "booktitle": "ICCV",
+      "author": "Girshick, Ross",
+      "title": "Fast r-cnn",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "girshick2015fast"
+    },
+    {
+      "year": "2022",
+      "booktitle": "CVPR",
+      "author": "Cheng, Bowen and Misra, Ishan and Schwing, Alexander G and Kirillov, Alexander and Girdhar, Rohit",
+      "title": "Masked-attention mask transformer for universal image segmentation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "cheng2022masked"
+    },
+    {
+      "year": "2023",
+      "journal": "ICLR",
+      "author": "Zhang, Hao and Li, Feng and Liu, Shilong and Zhang, Lei and Su, Hang and Zhu, Jun and Ni, Lionel M and Shum, Heung-Yeung",
+      "title": "Dino: Detr with improved denoising anchor boxes for end-to-end object detection",
+      "ENTRYTYPE": "article",
+      "ID": "zhang2022dino"
+    },
+    {
+      "year": "2021",
+      "journal": "ICLR",
+      "author": "Zhu, Xizhou and Su, Weijie and Lu, Lewei and Li, Bin and Wang, Xiaogang and Dai, Jifeng",
+      "title": "Deformable detr: Deformable transformers for end-to-end object detection",
+      "ENTRYTYPE": "article",
+      "ID": "zhu2020deformable"
+    },
+    {
+      "year": "2021",
+      "journal": "arXiv preprint arXiv:2107.08430",
+      "author": "Ge, Zheng and Liu, Songtao and Wang, Feng and Li, Zeming and Sun, Jian",
+      "title": "Yolox: Exceeding yolo series in 2021",
+      "ENTRYTYPE": "article",
+      "ID": "ge2021yolox"
+    },
+    {
+      "organization": "Springer",
+      "year": "2020",
+      "booktitle": "ECCV",
+      "author": "Carion, Nicolas and Massa, Francisco and Synnaeve, Gabriel and Usunier, Nicolas and Kirillov, Alexander and Zagoruyko, Sergey",
+      "title": "End-to-end object detection with transformers",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "carion2020end"
+    },
+    {
+      "year": "2018",
+      "journal": "arXiv preprint arXiv:1804.02767",
+      "author": "Redmon, Joseph and Farhadi, Ali",
+      "title": "Yolov3: An incremental improvement",
+      "ENTRYTYPE": "article",
+      "ID": "redmon2018yolov3"
+    },
+    {
+      "doi": "10.1155/ASP.2005.1292",
+      "journal": "EURASIP Journal on Advances in Signal Processing",
+      "volume": "2005",
+      "title": "A Perceptual Model for Sinusoidal Audio Coding Based on Spectral Integration",
+      "pages": "",
+      "month": "06",
+      "year": "2005",
+      "author": "Par, Steven and Kohlrausch, Armin and Richard, Heusdens and Jensen, Jesper and Jensen, Søren",
+      "ENTRYTYPE": "article",
+      "ID": "article_ASP_detectablirty"
+    },
+    {
+      "year": "2022",
+      "url": "https://riffusion.com/about",
+      "title": "{Riffusion - Stable diffusion for real-time music generation}",
+      "author": "Forsgren, Seth* and Martiros, Hayk*",
+      "ENTRYTYPE": "article",
+      "ID": "Forsgren_Martiros_2022"
+    },
+    {
+      "year": "2023",
+      "pages": "47704--47720",
+      "volume": "36",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Copet, Jade and Kreuk, Felix and Gat, Itai and Remez, Tal and Kant, David and Synnaeve, Gabriel and Adi, Yossi and D{\\'e}fossez, Alexandre",
+      "title": "Simple and controllable music generation",
+      "ENTRYTYPE": "article",
+      "ID": "copet2024simplecontrollablemusicgeneration"
+    },
+    {
+      "year": "2024",
+      "pages": "8293--8316",
+      "booktitle": "Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers)",
+      "author": "Melechovsky, Jan and Guo, Zixun and Ghosal, Deepanway and Majumder, Navonil and Herremans, Dorien and Poria, Soujanya",
+      "title": "Mustango: Toward controllable text-to-music generation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "melechovsky2023mustango"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "2025",
+      "journal": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+      "author": "Huh, Jaesung and Chalk, Jacob and Kazakos, Evangelos and Damen, Dima and Zisserman, Andrew",
+      "title": "Epic-sounds: A large-scale dataset of actions that sound",
+      "ENTRYTYPE": "article",
+      "ID": "EPICSOUNDS2023"
+    },
+    {
+      "url": "https://doi.org/10.1007/s11263-021-01531-2",
+      "pages": "33–55",
+      "volume": "130",
+      "year": "2022",
+      "journal": "International Journal of Computer Vision (IJCV)",
+      "author": "Damen, Dima and Doughty, Hazel and Farinella, Giovanni Maria  and and Furnari, Antonino \nand Ma, Jian and Kazakos, Evangelos and Moltisanti, Davide and Munro, Jonathan \nand Perrett, Toby and Price, Will and Wray, Michael",
+      "title": "Rescaling Egocentric Vision: Collection, Pipeline and Challenges for EPIC-KITCHENS-100",
+      "ENTRYTYPE": "article",
+      "ID": "Damen2022RESCALING"
+    },
+    {
+      "year": "2019",
+      "booktitle": "NAACL-HLT",
+      "author": "Kim, Chris Dongjoo and Kim, Byeongchang and Lee, Hyunmin and Kim, Gunhee",
+      "title": "AudioCaps: Generating Captions for Audios in The Wild",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "audiocaps"
+    },
+    {
+      "primaryclass": "cs.SD",
+      "archiveprefix": "arXiv",
+      "eprint": "2301.11325",
+      "year": "2023",
+      "author": "Andrea Agostinelli and Timo I. Denk and Zalán Borsos and Jesse Engel and Mauro Verzetti and Antoine Caillon and Qingqing Huang and Aren Jansen and Adam Roberts and Marco Tagliasacchi and Matt Sharifi and Neil Zeghidour and Christian Frank",
+      "title": "MusicLM: Generating Music From Text",
+      "ENTRYTYPE": "misc",
+      "ID": "agostinelli2023musiclm"
+    },
+    {
+      "organization": "Audio Engineering Society",
+      "year": "2021",
+      "booktitle": "Audio Engineering Society Convention 150",
+      "author": "Steinmetz, Christian J and Reiss, Joshua",
+      "title": "pyloudnorm: A simple yet flexible loudness meter in python",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "steinmetz2021pyloudnorm"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2301.12503",
+      "author": "Liu, Haohe and Chen, Zehua and Yuan, Yi and Mei, Xinhao and Liu, Xubo and Mandic, Danilo and Wang, Wenwu and Plumbley, Mark D",
+      "title": "Audioldm: Text-to-audio generation with latent diffusion models",
+      "ENTRYTYPE": "article",
+      "ID": "liu2023audioldm"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "2024",
+      "pages": "2871--2883",
+      "volume": "32",
+      "journal": "IEEE/ACM Transactions on Audio, Speech, and Language Processing",
+      "author": "Liu, Haohe and Yuan, Yi and Liu, Xubo and Mei, Xinhao and Kong, Qiuqiang and Tian, Qiao and Wang, Yuping and Wang, Wenwu and Wang, Yuxuan and Plumbley, Mark D",
+      "title": "Audioldm 2: Learning holistic audio generation with self-supervised pretraining",
+      "ENTRYTYPE": "article",
+      "ID": "audioldm2-2024taslp"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2301.11757",
+      "author": "Schneider, Flavio and Kamal, Ojasv and Jin, Zhijing and Sch{\\\"o}lkopf, Bernhard",
+      "title": "Mo$\\backslash$\\^{} usai: Text-to-music generation with long-context latent diffusion",
+      "ENTRYTYPE": "article",
+      "ID": "schneider2023mousai"
+    },
+    {
+      "year": "2023",
+      "booktitle": "IEEE International Conference on Computer Vision (ICCV)",
+      "author": "Lvmin Zhang and Anyi Rao and Maneesh Agrawala",
+      "title": "Adding Conditional Control to Text-to-Image Diffusion Models",
+      "ENTRYTYPE": "misc",
+      "ID": "zhang2023adding"
+    },
+    {
+      "year": "2018",
+      "journal": "arXiv preprint arXiv:1812.08466",
+      "author": "Kilgour, Kevin and Zuluaga, Mauricio and Roblek, Dominik and Sharifi, Matthew",
+      "title": "Fr$\\backslash$'echet audio distance: A metric for evaluating music enhancement algorithms",
+      "ENTRYTYPE": "article",
+      "ID": "kilgour2019frechet"
+    },
+    {
+      "note": "Accessed: 2024-05-21",
+      "url": "https://www.openai.com/chatgpt",
+      "year": "2024",
+      "title": "ChatGPT: Language Model for Dialogue",
+      "author": "OpenAI",
+      "ENTRYTYPE": "misc",
+      "ID": "gpt2024"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "1999",
+      "pages": "943--973",
+      "number": "6",
+      "volume": "87",
+      "journal": "Proceedings of the IEEE",
+      "author": "Kuo, Sen M and Morgan, Dennis R",
+      "title": "Active noise control: A tutorial review",
+      "ENTRYTYPE": "article",
+      "ID": "kuo1999active"
+    },
+    {
+      "publisher": "Taylor \\& Francis",
+      "year": "2011",
+      "pages": "381--391",
+      "number": "6",
+      "volume": "50",
+      "journal": "International Journal of Audiology",
+      "author": "Henin, Nicolas M and Zechmann, Edward L and Murphy, William J",
+      "title": "Evaluation of passive noise reduction for circumaural and supra-aural earphones",
+      "ENTRYTYPE": "article",
+      "ID": "henin2011evaluation"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "1975",
+      "pages": "1692--1716",
+      "number": "12",
+      "volume": "63",
+      "journal": "Proceedings of the IEEE",
+      "author": "Widrow, Bernard and Glover, John R and McCool, John M and others",
+      "title": "Adaptive noise cancelling: Principles and applications",
+      "ENTRYTYPE": "article",
+      "ID": "widrow1975adaptive"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "2002",
+      "pages": "299--310",
+      "number": "2",
+      "volume": "254",
+      "journal": "Journal of Sound and Vibration",
+      "author": "Zhang, Weihua and Zhang, Xiangning and Zhang, Yushan",
+      "title": "A hybrid active noise cancellation system for low frequency noise control",
+      "ENTRYTYPE": "article",
+      "ID": "zhang2002hybrid"
+    },
+    {
+      "language": "en-US",
+      "author": "Ramesh, Aditya and Dhariwal, Prafulla and Nichol, Alex and Chu, Casey and Chen, Mark",
+      "title": "Hierarchical Text-Conditional Image Generation with CLIP Latents",
+      "ENTRYTYPE": "article",
+      "ID": "Ramesh_Dhariwal_Nichol_Chu_Chen"
+    },
+    {
+      "year": "2021",
+      "pages": "1767--1775",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops",
+      "author": "Park, Jeongseung and Yang, Minseon and Park, Minz Won and Lee, Geonseok",
+      "title": "DiffSound: Differential Sound Manipulation with a Few-Shot Supervision",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "park2021diffsound"
+    },
+    {
+      "year": "2023",
+      "pages": "71340--71357",
+      "volume": "36",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Wang, Yuancheng and Ju, Zeqian and Tan, Xu and He, Lei and Wu, Zhizheng and Bian, Jiang and others",
+      "title": "Audit: Audio editing by following instructions with latent diffusion models",
+      "ENTRYTYPE": "article",
+      "ID": "wang2023audit"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "2020",
+      "pages": "2906--2918",
+      "volume": "28",
+      "journal": "IEEE/ACM Transactions on Audio, Speech, and Language Processing",
+      "author": "Mokr{\\`y}, Ond{\\v{r}}ej and Rajmic, Pavel",
+      "title": "Audio inpainting: Revisited and reweighted",
+      "ENTRYTYPE": "article",
+      "ID": "Mokry_Rajmic_2020"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2202.07273",
+      "author": "Borsos, Zal{\\'a}n and Sharifi, Matt and Tagliasacchi, Marco",
+      "title": "Speechpainter: Text-conditioned speech inpainting",
+      "ENTRYTYPE": "article",
+      "ID": "Borsos2022SpeechPainter"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "2020",
+      "pages": "120--131",
+      "number": "1",
+      "volume": "15",
+      "journal": "IEEE Journal of Selected Topics in Signal Processing",
+      "author": "Marafioti, Andres and Majdak, Piotr and Holighaus, Nicki and Perraudin, Nathana{\\\"e}l",
+      "title": "GACELA: A generative adversarial context encoder for long audio inpainting of music",
+      "ENTRYTYPE": "article",
+      "ID": "Marafioti_Majdak_Holighaus_Perraudin_2021"
+    },
+    {
+      "primaryclass": "cs.CV",
+      "archiveprefix": "arXiv",
+      "eprint": "2302.08453",
+      "year": "2023",
+      "author": "Chong Mou and Xintao Wang and Liangbin Xie and Yanze Wu and Jian Zhang and Zhongang Qi and Ying Shan and Xiaohu Qie",
+      "title": "T2I-Adapter: Learning Adapters to Dig out More Controllable Ability for Text-to-Image Diffusion Models",
+      "ENTRYTYPE": "misc",
+      "ID": "mou2023t2iadapter"
+    },
+    {
+      "primaryclass": "cs.CV",
+      "archiveprefix": "arXiv",
+      "eprint": "2306.08247",
+      "year": "2024",
+      "author": "Ruoyu Wang and Yongqi Yang and Zhihao Qian and Ye Zhu and Yu Wu",
+      "title": "Diffusion in Diffusion: Cyclic One-Way Diffusion for Text-Vision-Conditioned Generation",
+      "ENTRYTYPE": "misc",
+      "ID": "wang2024diffusion"
+    },
+    {
+      "language": "en-US",
+      "month": "Nov",
+      "year": "2022",
+      "author": "Dong, Ziyi and Wei, Pengxu and Lin, Liang",
+      "title": "DreamArtist: Towards Controllable One-Shot Text-to-Image Generation via Contrastive Prompt-Tuning",
+      "ENTRYTYPE": "article",
+      "ID": "Dong_Wei_Lin_2022"
+    },
+    {
+      "bibsource": "dblp computer science bibliography, https://dblp.org",
+      "biburl": "https://dblp.org/rec/conf/iclr/GalAAPBCC23.bib",
+      "timestamp": "Fri, 30 Jun 2023 14:55:53 +0200",
+      "url": "https://openreview.net/pdf?id=NAQvF08TcyG",
+      "year": "2023",
+      "publisher": "OpenReview.net",
+      "booktitle": "The Eleventh International Conference on Learning Representations,\n{ICLR} 2023, Kigali, Rwanda, May 1-5, 2023",
+      "title": "An Image is Worth One Word: Personalizing Text-to-Image Generation\nusing Textual Inversion",
+      "author": "Rinon Gal and\nYuval Alaluf and\nYuval Atzmon and\nOr Patashnik and\nAmit Haim Bermano and\nGal Chechik and\nDaniel Cohen{-}Or",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "TI"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "2024",
+      "pages": "2692--2703",
+      "volume": "32",
+      "journal": "IEEE/ACM Transactions on Audio, Speech, and Language Processing",
+      "author": "Wu, Shih-Lun and Donahue, Chris and Watanabe, Shinji and Bryan, Nicholas J",
+      "title": "Music controlnet: Multiple time-varying controls for music generation",
+      "ENTRYTYPE": "article",
+      "ID": "Wu2023MusicControlNet"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2402.06178",
+      "author": "Zhang, Yixiao and Ikemiya, Yukara and Xia, Gus and Murata, Naoki and Mart{\\'\\i}nez-Ram{\\'\\i}rez, Marco A and Liao, Wei-Hsiang and Mitsufuji, Yuki and Dixon, Simon",
+      "title": "Musicmagus: Zero-shot text-to-music editing via diffusion models",
+      "ENTRYTYPE": "article",
+      "ID": "zhang2024musicmagus"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2402.10009",
+      "author": "Manor, Hila and Michaeli, Tomer",
+      "title": "Zero-shot unsupervised and text-based audio editing using DDPM inversion",
+      "ENTRYTYPE": "article",
+      "ID": "manor2024zeroshot"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "2002",
+      "pages": "451--515",
+      "number": "4",
+      "volume": "88",
+      "journal": "Proceedings of the IEEE",
+      "author": "Painter, Ted and Spanias, Andreas",
+      "title": "Perceptual coding of digital audio",
+      "ENTRYTYPE": "article",
+      "ID": "Painter2000"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "1998",
+      "pages": "337--355",
+      "number": "3",
+      "volume": "66",
+      "journal": "Signal processing",
+      "author": "Swanson, Mitchell D and Zhu, Bin and Tewfik, Ahmed H and Boney, Laurence",
+      "title": "Robust audio watermarking using perceptual masking",
+      "ENTRYTYPE": "article",
+      "ID": "SWANSON1998337audiowatermarking"
+    },
+    {
+      "year": "2023",
+      "pages": "3190--3199",
+      "booktitle": "Proceedings of the 31st ACM International Conference on Multimedia",
+      "author": "Yang, Shiyuan and Chen, Xiaodong and Liao, Jing",
+      "title": "Uni-paint: A unified framework for multimodal image inpainting with pretrained diffusion model",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "unipaint"
+    },
+    {
+      "year": "2023",
+      "journal": "The Eleventh International Conference on Learning Representations",
+      "author": "Wang, Yinhuai and Yu, Jiwen and Zhang, Jian",
+      "title": "Zero-Shot Image Restoration Using Denoising Diffusion Null-Space Model",
+      "ENTRYTYPE": "article",
+      "ID": "wang2022zero"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv",
+      "author": "Han, Bing and Dai, Junyu and Hao, Weituo and He, Xinyan and Guo, Dong and Chen, Jitong and Wang, Yuxuan and Qian, Yanmin and Song, Xuchen",
+      "title": "Instructme: An instruction guided music edit and remix framework with latent diffusion models",
+      "ENTRYTYPE": "article",
+      "ID": "han2023instructme"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2311.11255",
+      "author": "Liu, Shansong and Hussain, Atin Sakkeer and Wu, Qilong and Sun, Chenshuo and Shan, Ying",
+      "title": "M$^2$UGen: Multi-modal Music Understanding and Generation with the Power of Large Language Models",
+      "ENTRYTYPE": "article",
+      "ID": "liu2023m"
+    },
+    {
+      "year": "2015",
+      "pages": "1015--1018",
+      "booktitle": "Proceedings of the 23rd ACM international conference on Multimedia",
+      "author": "Piczak, Karol J",
+      "title": "ESC: Dataset for environmental sound classification",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "piczak2015datasetESC50"
+    },
+    {
+      "organization": "IEEE",
+      "year": "2013",
+      "pages": "1--4",
+      "booktitle": "2013 IEEE workshop on applications of signal processing to audio and acoustics",
+      "author": "Perraudin, Nathana{\\\"e}l and Balazs, Peter and S{\\o}ndergaard, Peter L",
+      "title": "A fast Griffin-Lim algorithm",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "perraudin2013fastGriffin-Lim"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2410.05167",
+      "author": "Novack, Zachary and Zhu, Ge and Casebeer, Jonah and McAuley, Julian and Berg-Kirkpatrick, Taylor and Bryan, Nicholas J",
+      "title": "Presto! distilling steps and layers for accelerating music generation",
+      "ENTRYTYPE": "article",
+      "ID": "Novack2025Presto"
+    },
+    {
+      "url": "https://openreview.net/forum?id=KrK6zXbjfO",
+      "year": "2025",
+      "booktitle": "The Thirteenth International Conference on Learning Representations",
+      "author": "Koichi Saito and Dongjun Kim and Takashi Shibuya and Chieh-Hsin Lai and Zhi Zhong and Yuhta Takida and Yuki Mitsufuji",
+      "title": "Sound{CTM}: Unifying Score-based and Consistency Models for Full-band Text-to-Sound Generation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "saito2025soundctm"
+    },
+    {
+      "year": "2024",
+      "pages": "38426--38447",
+      "booktitle": "Proceedings of the 41st International Conference on Machine Learning",
+      "author": "Novack, Zachary and McAuley, Julian and Berg-Kirkpatrick, Taylor and Bryan, Nicholas J",
+      "title": "DITTO: diffusion inference-time T-optimization for music generation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "Novack2024Ditto"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2406.17672",
+      "author": "Comunit{\\`a}, Marco and Zhong, Zhi and Takahashi, Akira and Yang, Shiqi and Zhao, Mengjie and Saito, Koichi and Ikemiya, Yukara and Shibuya, Takashi and Takahashi, Shusuke and Mitsufuji, Yuki",
+      "title": "Specmaskgit: Masked generative modeling of audio spectrograms for efficient audio synthesis and beyond",
+      "ENTRYTYPE": "article",
+      "ID": "comunita2024specmaskgit"
+    },
+    {
+      "organization": "Springer",
+      "year": "2011",
+      "pages": "146--171",
+      "booktitle": "International Symposium on Computer Music Modeling and Retrieval",
+      "author": "Necciari, Thibaud and Balazs, Peter and Kronland-Martinet, Richard and Ystad, S{\\o}lvi and Laback, Bernhard and Savel, Sophie and Meunier, Sabine",
+      "title": "Auditory time-frequency masking: psychoacoustical data and application to audio representations",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "2012AuditoryTFMasking"
+    },
+    {
+      "url": "https://pubs.asha.org/doi/abs/10.1044/jshr.2501.117",
+      "doi": "10.1044/jshr.2501.117",
+      "year": "1982",
+      "pages": "117--124",
+      "number": "1",
+      "volume": "25",
+      "journal": "Journal of Speech, Language, and Hearing Research",
+      "title": "Masking of Pure Tones by Broad-Band Noise in Cochlear-Impaired Listeners",
+      "author": "Richard S. Tyler and Mariano A. Fernandes and Elizabeth J. Wood",
+      "ENTRYTYPE": "article",
+      "ID": "Tyler1982MaskingPureTones"
+    },
+    {
+      "publisher": "Frontiers Media SA",
+      "year": "2023",
+      "pages": "1031501",
+      "volume": "11",
+      "journal": "Frontiers in Public Health",
+      "author": "Zhang, Shilun and Chen, Lin",
+      "title": "Acoustic information masking effects of natural sounds on traffic noise based on psychological health in open urban spaces",
+      "ENTRYTYPE": "article",
+      "ID": "Zhang2023AcousticInformationMaskingEffects"
+    },
+    {
+      "publisher": "MDPI",
+      "year": "2024",
+      "pages": "10467",
+      "number": "22",
+      "volume": "14",
+      "journal": "Applied Sciences",
+      "author": "Nakayama, Masato and Hayashi, Takuya and Takahashi, Toru and Nishiura, Takanobu",
+      "title": "Comfortable Sound Design Based on Auditory Masking with Chord Progression and Melody Generation Corresponding to the Peak Frequencies of Dental Treatment Noises",
+      "ENTRYTYPE": "article",
+      "ID": "Nakayama2024ComfortableSoundDesign"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "2005",
+      "number": "4",
+      "volume": "13",
+      "journal": "IEEE transactions on speech and audio processing",
+      "author": "Song, Ying and Gong, Yu and Kuo, Sen M",
+      "title": "A robust hybrid feedback active noise cancellation headset",
+      "ENTRYTYPE": "article",
+      "ID": "song2005robust"
+    },
+    {
+      "publisher": "Springer",
+      "year": "2014",
+      "journal": "Springer handbook of acoustics",
+      "author": "Moore, Brian CJ",
+      "title": "Psychoacoustics",
+      "ENTRYTYPE": "article",
+      "ID": "moore2014psychoacoustics"
+    },
+    {
+      "publisher": "Acoustical Society of America",
+      "year": "1961",
+      "number": "4",
+      "volume": "33",
+      "journal": "The journal of the acoustical society of America",
+      "author": "Greenwood, Donald D",
+      "title": "Auditory masking and the critical band",
+      "ENTRYTYPE": "article",
+      "ID": "greenwood1961auditory"
+    },
+    {
+      "publisher": "Taylor \\& Francis",
+      "year": "1971",
+      "pages": "30--40",
+      "number": "1",
+      "volume": "10",
+      "journal": "Audiology",
+      "author": "Scharf, B",
+      "title": "Fundamentals of auditory masking",
+      "ENTRYTYPE": "article",
+      "ID": "scharf1971fundamentals"
+    },
+    {
+      "organization": "IEEE",
+      "year": "2024",
+      "pages": "1116--1120",
+      "booktitle": "ICASSP 2024-2024 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+      "author": "Parker, Julian D and Spijkervet, Janne and Kosta, Katerina and Yesiler, Furkan and Kuznetsov, Boris and Wang, Ju-Chiang and Avent, Matt and Chen, Jitong and Le, Duc",
+      "title": "Stemgen: A music generation model that listens",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "parker2024stemgen"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2404.10301",
+      "author": "Evans, Zach and Parker, Julian D and Carr, CJ and Zukowski, Zack and Taylor, Josiah and Pons, Jordi",
+      "title": "Long-form music generation with latent diffusion",
+      "ENTRYTYPE": "article",
+      "ID": "evans2024long"
+    },
+    {
+      "year": "2023",
+      "booktitle": "International Conference on Learning Representations (ICLR)",
+      "author": "Zhu, Ye and Wu, Yu and Olszewski, Kyle and Ren, Jian and Tulyakov, Sergey and Yan, Yan",
+      "title": "Discrete Contrastive Diffusion for Cross-Modal Music and Image Generation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zhu2023discrete"
+    },
+    {
+      "address": "Berlin, Heidelberg",
+      "publisher": "Springer-Verlag",
+      "isbn": "3540231595",
+      "year": "2006",
+      "title": "Psychoacoustics: Facts and Models",
+      "author": "Fastl, Hugo and Zwicker, Eberhard",
+      "ENTRYTYPE": "book",
+      "ID": "Psychoacoustics"
+    },
+    {
+      "publisher": "Brill",
+      "year": "2012",
+      "author": "Moore, Brian CJ",
+      "title": "An introduction to the psychology of hearing",
+      "ENTRYTYPE": "book",
+      "ID": "Intro_Psychology_of_Hearing_Moore2012"
+    }
+  ]
+}

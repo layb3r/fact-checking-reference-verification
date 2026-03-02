@@ -1,0 +1,870 @@
+{
+  "pdf_url": "https://arxiv.org/pdf/2508.00830v2.pdf",
+  "references": [
+    {
+      "url": "https://api.semanticscholar.org/CorpusID:197545177",
+      "volume": "abs/1907.07786",
+      "year": "2019",
+      "journal": "ArXiv",
+      "author": "Alex Burnap and John R. Hauser and Artem Timoshenko",
+      "title": "Design and Evaluation of Product Aesthetics: A Human-Machine Hybrid Approach",
+      "ENTRYTYPE": "article",
+      "ID": "Burnap2019DesignAE"
+    },
+    {
+      "note": "Accessed: 2024-12-04",
+      "url": "https://www.ipsos.com/en/global-advisor-cycling-across-the-world-2022",
+      "year": "2022",
+      "title": "Global Advisor: Cycling Across the World 2022",
+      "author": "Ipsos",
+      "ENTRYTYPE": "misc",
+      "ID": "ipsos2022cycling"
+    },
+    {
+      "issn": "2297-198X",
+      "doi": "10.3389/fict.2015.00013",
+      "url": "https://www.frontiersin.org/articles/10.3389/fict.2015.00013",
+      "year": "2015",
+      "volume": "2",
+      "journal": "Frontiers in ICT",
+      "title": "Ratings are Overrated!",
+      "author": "Yannakakis, Georgios N. and Martínez, Héctor P.",
+      "ENTRYTYPE": "article",
+      "ID": "10.3389/fict.2015.00013"
+    },
+    {
+      "address": "Boca Raton",
+      "publisher": "Chapman and Hall/CRC",
+      "year": "2014",
+      "title": "Usability Evaluation in Industry",
+      "author": "Jordan, Patrick W. and Thomas, B. and McClelland, Ian Lyall and Weerdmeester, Bernard",
+      "ENTRYTYPE": "book",
+      "ID": "jordan2014usability"
+    },
+    {
+      "url": "https://api.semanticscholar.org/CorpusID:43386669",
+      "year": "2011",
+      "booktitle": "International Conference on Enterprise Information Systems",
+      "author": "Changxia Cheng",
+      "title": "New Trends of Ergonomics and Its Importance in Modern Industrial Design",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "Cheng2011NewTO"
+    },
+    {
+      "publisher": "American Society of Mechanical Engineers",
+      "year": "2022",
+      "pages": "031706",
+      "number": "3",
+      "volume": "144",
+      "journal": "Journal of Mechanical Design",
+      "author": "Regenwetter, Lyle and Curry, Brent and Ahmed, Faez",
+      "title": "BIKED: A dataset for computational bicycle design with machine learning benchmarks",
+      "ENTRYTYPE": "article",
+      "ID": "regenwetter2022biked"
+    },
+    {
+      "publisher": "American Society of Mechanical Engineers",
+      "year": "2022",
+      "pages": "071704",
+      "number": "7",
+      "volume": "144",
+      "journal": "Journal of Mechanical Design",
+      "author": "Regenwetter, Lyle and Nobari, Amin Heyrani and Ahmed, Faez",
+      "title": "Deep generative models in engineering design: A review",
+      "ENTRYTYPE": "article",
+      "ID": "regenwetter2022deep"
+    },
+    {
+      "publisher": "Springer",
+      "year": "2022",
+      "pages": "294",
+      "number": "10",
+      "volume": "65",
+      "journal": "Structural and Multidisciplinary Optimization",
+      "author": "Woldseth, Rebekka V and Aage, Niels and B{\\ae}rentzen, J Andreas and Sigmund, Ole",
+      "title": "On the use of artificial neural networks in topology optimisation",
+      "ENTRYTYPE": "article",
+      "ID": "woldseth2022use"
+    },
+    {
+      "publisher": "American Society of Mechanical Engineers",
+      "year": "2025",
+      "pages": "021009",
+      "number": "2",
+      "volume": "25",
+      "journal": "Journal of Computing and Information Science in Engineering",
+      "author": "Doris, Anna C and Grandi, Daniele and Tomich, Ryan and Alam, Md Ferdous and Ataei, Mohammadmehdi and Cheong, Hyunmin and Ahmed, Faez",
+      "title": "Designqa: A multimodal benchmark for evaluating large language models’ understanding of engineering documentation",
+      "ENTRYTYPE": "article",
+      "ID": "doris2025designqa"
+    },
+    {
+      "year": "2024",
+      "journal": "Transactions on Machine Learning Research",
+      "author": "Regenwetter, Lyle and Giannone, Giorgio and Srivastava, Akash and Gutfreund, Dan and Ahmed, Faez",
+      "title": "Constraining Generative Models for Engineering Design with Negative Data",
+      "ENTRYTYPE": "article",
+      "ID": "regenwetter2024constraining"
+    },
+    {
+      "eprint": "https://asmedigitalcollection.asme.org/mechanicaldesign/article-pdf/141/11/110301/6578324/md\\_141\\_11\\_110301.pdf",
+      "url": "https://doi.org/10.1115/1.4044690",
+      "doi": "10.1115/1.4044690",
+      "issn": "1050-0472",
+      "abstract": "Modern machine learning (ML) techniques are transforming many disciplines ranging from transportation to healthcare by uncovering patterns in data, developing autonomous systems that mimic human abilities, and supporting human decision-making. Modern ML techniques, such as deep neural networks, are fueling the rapid developments in artificial intelligence. Engineering design researchers have increasingly used and developed ML techniques to support a wide range of activities from preference modeling to uncertainty quantification in high-dimensional design optimization problems. This special issue brings together fundamental scientific contributions across these areas.",
+      "month": "10",
+      "year": "2019",
+      "pages": "110301",
+      "number": "11",
+      "volume": "141",
+      "journal": "Journal of Mechanical Design",
+      "title": "Special Issue: Machine Learning for Engineering Design",
+      "author": "Panchal, Jitesh H. and Fuge, Mark and Liu, Ying and Missoum, Samy and Tucker, Conrad",
+      "ENTRYTYPE": "article",
+      "ID": "jmdspecialissue2019"
+    },
+    {
+      "eprint": "https://asmedigitalcollection.asme.org/IDETC-CIE/proceedings-pdf/IDETC-CIE2023/87301/V03AT03A015/7061133/v03at03a015-detc2023-111609.pdf",
+      "url": "https://doi.org/10.1115/DETC2023-111609",
+      "doi": "10.1115/DETC2023-111609",
+      "abstract": "Exploiting the recent advancements in artificial intelligence, showcased by ChatGPT and DALL-E, in real-world applications necessitates vast, domain-specific, and publicly accessible datasets. Unfortunately, the scarcity of such datasets poses a significant challenge for researchers aiming to apply these breakthroughs in engineering design. Synthetic datasets emerge as a viable alternative. However, practitioners are often uncertain about generating high-quality datasets that accurately represent real-world data and are suitable for the intended downstream applications. This study aims to fill this knowledge gap by proposing comprehensive guidelines for generating, annotating, and validating synthetic datasets. The trade-offs and methods associated with each of these aspects are elaborated upon. Further, the practical implications of these guidelines are illustrated through the creation of a turbo-compressors dataset. The study underscores the importance of thoughtful sampling methods to ensure the appropriate size, diversity, utility, and realism of a dataset. It also highlights that design diversity does not equate to performance diversity or realism. By employing test sets that represent uniform, real, or task-specific samples, the influence of sample size and sampling strategy is scrutinized. Overall, this paper offers valuable insights for researchers intending to create and publish synthetic datasets for engineering design, thereby paving the way for more effective applications of AI advancements in the field. The code and data for the dataset and methods are made publicly accessible at https://github.com/cyrilpic/radcomp.",
+      "month": "08",
+      "year": "2023",
+      "pages": "V03AT03A015",
+      "series": "International Design Engineering Technical Conferences and Computers and Information in Engineering Conference",
+      "volume": "Volume 3A: 49th Design Automation Conference (DAC)",
+      "title": "Dated: Guidelines for Creating Synthetic Datasets for Engineering Design Applications",
+      "author": "Picard, Cyril and Schiffmann, Jürg and Ahmed, Faez",
+      "ENTRYTYPE": "proceedings",
+      "ID": "picard2023dated"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "2023",
+      "pages": "103609",
+      "volume": "165",
+      "journal": "Computer-Aided Design",
+      "author": "Regenwetter, Lyle and Srivastava, Akash and Gutfreund, Dan and Ahmed, Faez",
+      "title": "Beyond statistical similarity: Rethinking metrics for deep generative models in engineering design",
+      "ENTRYTYPE": "article",
+      "ID": "regenwetter2023beyond"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2303.08774",
+      "author": "Achiam, Josh and Adler, Steven and Agarwal, Sandhini and Ahmad, Lama and Akkaya, Ilge and Aleman, Florencia Leoni and Almeida, Diogo and Altenschmidt, Janko and Altman, Sam and Anadkat, Shyamal and others",
+      "title": "Gpt-4 technical report",
+      "ENTRYTYPE": "article",
+      "ID": "achiam2023gpt"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2501.12948",
+      "author": "Guo, Daya and Yang, Dejian and Zhang, Haowei and Song, Junxiao and Zhang, Ruoyu and Xu, Runxin and Zhu, Qihao and Ma, Shirong and Wang, Peiyi and Bi, Xiao and others",
+      "title": "Deepseek-r1: Incentivizing reasoning capability in llms via reinforcement learning",
+      "ENTRYTYPE": "article",
+      "ID": "guo2025deepseek"
+    },
+    {
+      "year": "2022",
+      "pages": "10684--10695",
+      "booktitle": "Proceedings of the IEEE/CVF conference on computer vision and pattern recognition",
+      "author": "Rombach, Robin and Blattmann, Andreas and Lorenz, Dominik and Esser, Patrick and Ommer, Bj{\\\"o}rn",
+      "title": "High-resolution image synthesis with latent diffusion models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "rombach2022high"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "2023",
+      "pages": "103446",
+      "volume": "156",
+      "journal": "Computer-Aided Design",
+      "author": "Regenwetter, Lyle and Weaver, Colin and Ahmed, Faez",
+      "title": "Framed: An automl approach for structural performance prediction of bicycle frames",
+      "ENTRYTYPE": "article",
+      "ID": "regenwetter2023framed"
+    },
+    {
+      "publisher": "American Society of Mechanical Engineers",
+      "year": "2019",
+      "pages": "111405",
+      "number": "11",
+      "volume": "141",
+      "journal": "Journal of Mechanical Design",
+      "author": "Oh, Sangeun and Jung, Yongsu and Kim, Seongsin and Lee, Ikjin and Kang, Namwoo",
+      "title": "Deep generative design: integration of topology optimization and generative models",
+      "ENTRYTYPE": "article",
+      "ID": "oh2019deep"
+    },
+    {
+      "year": "2024",
+      "journal": "Transactions on Machine Learning Research",
+      "author": "Nobari, Amin Heyrani and Srivastava, Akash and Gutfreund, Dan and Xu, Kai and Ahmed, Faez",
+      "title": "LInK: Learning Joint Representations of Design and Performance Spaces through Contrastive Learning for Mechanism Synthesis",
+      "ENTRYTYPE": "article",
+      "ID": "nobari2024link"
+    },
+    {
+      "publisher": "Bloomsbury Publishing",
+      "year": "2022",
+      "author": "Burt, Phil",
+      "title": "Bike Fit 2nd Edition: Optimise Your Bike Position for High Performance and Injury Avoidance",
+      "ENTRYTYPE": "book",
+      "ID": "burt2022bike"
+    },
+    {
+      "year": "2021",
+      "pages": "6772--6782",
+      "booktitle": "Proceedings of the IEEE/CVF International Conference on Computer Vision",
+      "author": "Wu, Rundi and Xiao, Chang and Zheng, Changxi",
+      "title": "Deepcad: A deep generative network for computer-aided design models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "wu2021deepcad"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "2020",
+      "pages": "113377",
+      "volume": "372",
+      "journal": "Computer Methods in Applied Mechanics and Engineering",
+      "author": "Wang, Liwei and Chan, Yu-Chin and Ahmed, Faez and Liu, Zhao and Zhu, Ping and Chen, Wei",
+      "title": "Deep generative modeling for mechanistic-based learning and design of metamaterial systems",
+      "ENTRYTYPE": "article",
+      "ID": "wang2020deep"
+    },
+    {
+      "organization": "American Society of Mechanical Engineers",
+      "year": "2022",
+      "pages": "V03BT03A046",
+      "volume": "86236",
+      "booktitle": "International Design Engineering Technical Conferences and Computers and Information in Engineering Conference",
+      "author": "Regenwetter, Lyle and Ahmed, Faez",
+      "title": "Design target achievement index: A differentiable metric to enhance deep generative models in multi-objective inverse design",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "regenwetter2022design"
+    },
+    {
+      "publisher": "MIT press",
+      "year": "2020",
+      "author": "Wilson, David Gordon and Schmidt, Theodor",
+      "title": "Bicycling science",
+      "ENTRYTYPE": "book",
+      "ID": "wilson2020bicycling"
+    },
+    {
+      "publisher": "Longmans, Green",
+      "year": "1896",
+      "author": "Sharp, Archibald",
+      "title": "Bicycles \\& tricycles: an elementary treatise on their design and construction, with examples and tables",
+      "ENTRYTYPE": "book",
+      "ID": "sharp1896bicycles"
+    },
+    {
+      "author": "Curry, Brent",
+      "publisher": "The Bicycle Forest",
+      "journal": "www.bikecad.ca",
+      "url": "https://www.bikecad.ca/ai",
+      "title": "Ai Tool",
+      "ENTRYTYPE": "misc",
+      "ID": "bikecadai"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "2015",
+      "pages": "490--501",
+      "number": "4",
+      "volume": "2",
+      "journal": "Journal of Transport \\& Health",
+      "author": "Oke, Olufolajimi and Bhalla, Kavi and Love, David C and Siddiqui, Sauleh",
+      "title": "Tracking global bicycle ownership patterns",
+      "ENTRYTYPE": "article",
+      "ID": "oke2015tracking"
+    },
+    {
+      "publisher": "Wiley Online Library",
+      "year": "2011",
+      "pages": "496--509",
+      "number": "4",
+      "volume": "21",
+      "journal": "Scandinavian journal of medicine \\& science in sports",
+      "author": "Oja, Pekka and Titze, Silvia and Bauman, Adrian and De Geus, Bas and Krenn, Patricia and Reger-Nash, Bill and Kohlberger, Timo",
+      "title": "Health benefits of cycling: a systematic review",
+      "ENTRYTYPE": "article",
+      "ID": "oja2011health"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "2018",
+      "pages": "72--93",
+      "volume": "87",
+      "journal": "Journal of Environmental Economics and Management",
+      "author": "Hamilton, Timothy L and Wichman, Casey J",
+      "title": "Bicycle infrastructure and traffic congestion: Evidence from DC's Capital Bikeshare",
+      "ENTRYTYPE": "article",
+      "ID": "hamilton2018bicycle"
+    },
+    {
+      "publisher": "Cambridge University Press",
+      "year": "2015",
+      "volume": "3",
+      "author": "Edenhofer, Ottmar",
+      "title": "Climate change 2014: mitigation of climate change",
+      "ENTRYTYPE": "book",
+      "ID": "edenhofer2015climate"
+    },
+    {
+      "year": "1999",
+      "author": "De Lorenzo, Davis S and Hull, ML",
+      "title": "Quantification of structural loading during off-road cycling",
+      "ENTRYTYPE": "article",
+      "ID": "de1999quantification"
+    },
+    {
+      "publisher": "SAGE Publications Sage UK: London, England",
+      "year": "1986",
+      "pages": "185--195",
+      "number": "4",
+      "volume": "21",
+      "journal": "The Journal of Strain Analysis for Engineering Design",
+      "author": "Soden, Peter D and Millar, MA and Adeyefa, BA and Wong, YS",
+      "title": "Loads, stresses, and deflections in bicycle frames",
+      "ENTRYTYPE": "article",
+      "ID": "soden1986loads"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "2015",
+      "pages": "34--39",
+      "volume": "112",
+      "journal": "Procedia Engineering",
+      "author": "Covill, Derek and Blayden, Alex and Coren, Daniel and Begg, Steven",
+      "title": "Parametric finite element analysis of steel bicycle frames: the influence of tube selection on frame stiffness",
+      "ENTRYTYPE": "article",
+      "ID": "covill2015parametric"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "2016",
+      "pages": "665--670",
+      "volume": "147",
+      "journal": "Procedia engineering",
+      "author": "Covill, Derek and Allard, Philippe and Drouet, Jean-Marc and Emerson, Nicholas",
+      "title": "An assessment of bicycle frame behaviour under various load conditions using numerical simulations",
+      "ENTRYTYPE": "article",
+      "ID": "covill2016assessment"
+    },
+    {
+      "year": "2009",
+      "pages": "322",
+      "booktitle": "47th AIAA aerospace sciences meeting including the new horizons forum and aerospace exposition",
+      "author": "Godo, Matthew and Corson, David and Legensky, Steve",
+      "title": "An aerodynamic study of bicycle wheel performance using CFD",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "godo2009aerodynamic"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "1995",
+      "pages": "72--74",
+      "number": "1",
+      "volume": "26",
+      "journal": "Composites",
+      "author": "Lessard, Larry B and Nemes, James A and Lizotte, Patrick L",
+      "title": "Utilization of FEA in the design of composite bicycle frames",
+      "ENTRYTYPE": "article",
+      "ID": "lessard1995utilization"
+    },
+    {
+      "publisher": "Taylor \\& Francis",
+      "year": "2022",
+      "pages": "249--266",
+      "number": "3",
+      "volume": "7",
+      "journal": "Applied Mobilities",
+      "author": "Hoor, Maximilian",
+      "title": "The bicycle as a symbol of lifestyle, status and distinction. A cultural studies analysis of urban cycling (sub) cultures in Berlin",
+      "ENTRYTYPE": "article",
+      "ID": "hoor2022bicycle"
+    },
+    {
+      "year": "1989",
+      "author": "Gordon, CC and Walker, RA and Tebbetts, I and McConville, JT and Bradtmiller, B and Clauser, CE and Churchill, T",
+      "title": "1988 Anthropometric Survey of US Army Personnel-Methods and Summary Statistics. Final Report",
+      "ENTRYTYPE": "book",
+      "ID": "gordon_1989"
+    },
+    {
+      "month": "April",
+      "year": "2009",
+      "author": "McDowell, Margaret A. and Fryar, Cheryl D. and Ogden, Cynthia L.",
+      "number": "249",
+      "volume": "11",
+      "journal": "Vital and Health Statistics",
+      "url": "https://stacks.cdc.gov/view/cdc/5301",
+      "title": "Anthropometric Reference Data for Children and Adults: United States, 1988-1994",
+      "ENTRYTYPE": "misc",
+      "ID": "McDowell_2009"
+    },
+    {
+      "month": "October",
+      "year": "2012",
+      "author": "Fryar, Cheryl D. and Gu, Qiuping and Ogden, Cynthia L.",
+      "number": "252",
+      "volume": "11",
+      "journal": "Vital and Health Statistics",
+      "url": "https://www.cdc.gov/nchs/data/series/sr\\_11/sr11\\_252.pdf",
+      "title": "Anthropometric Reference Data for Children and Adults: United States, 2007-2010",
+      "ENTRYTYPE": "misc",
+      "ID": "Fryar_2012"
+    },
+    {
+      "month": "August",
+      "year": "2016",
+      "author": "Fryar, Cheryl D. and Gu, Qiuping and Flegal, Katherine M.",
+      "number": "39",
+      "volume": "3",
+      "journal": "Vital and Health Statistics",
+      "url": "https://stacks.cdc.gov/view/cdc/40572",
+      "title": "Anthropometric Reference Data for Children and Adults: United States, 2011-2014",
+      "ENTRYTYPE": "misc",
+      "ID": "Fryar_2016"
+    },
+    {
+      "month": "July",
+      "year": "2005",
+      "author": "McDowell, Margaret A. and Fryar, Cheryl D. and Hirsch, Rosemarie and Ogden, Cynthia L.",
+      "number": "39",
+      "volume": "3",
+      "journal": "Vital and Health Statistics",
+      "url": "https://www.cdc.gov/nchs/data/ad/ad361.pdf",
+      "title": "Anthropometric Reference Data for Children and Adults: United States, 1999-2002",
+      "ENTRYTYPE": "misc",
+      "ID": "McDowell_2005"
+    },
+    {
+      "year": "2024",
+      "booktitle": "The Thirty-eight Conference on Neural Information Processing Systems Datasets and Benchmarks Track",
+      "author": "Wang, Yubo and Ma, Xueguang and Zhang, Ge and Ni, Yuansheng and Chandra, Abhranil and Guo, Shiguang and Ren, Weiming and Arulraj, Aaran and He, Xuan and Jiang, Ziyan and others",
+      "title": "Mmlu-pro: A more robust and challenging multi-task language understanding benchmark",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "wang2024mmlu"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2501.14249",
+      "author": "Phan, Long and Gatti, Alice and Han, Ziwen and Li, Nathaniel and Hu, Josephina and Zhang, Hugh and Zhang, Chen Bo Calvin and Shaaban, Mohamed and Ling, John and Shi, Sean and others",
+      "title": "Humanity's Last Exam",
+      "ENTRYTYPE": "article",
+      "ID": "phan2025humanity"
+    },
+    {
+      "year": "2024",
+      "booktitle": "First Conference on Language Modeling",
+      "author": "Rein, David and Hou, Betty Li and Stickland, Asa Cooper and Petty, Jackson and Pang, Richard Yuanzhe and Dirani, Julien and Michael, Julian and Bowman, Samuel R",
+      "title": "Gpqa: A graduate-level google-proof q\\&a benchmark",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "rein2024gpqa"
+    },
+    {
+      "year": "2021",
+      "journal": "arXiv preprint arXiv:2103.03874",
+      "author": "Hendrycks, Dan and Burns, Collin and Kadavath, Saurav and Arora, Akul and Basart, Steven and Tang, Eric and Song, Dawn and Steinhardt, Jacob",
+      "title": "Measuring mathematical problem solving with the math dataset",
+      "ENTRYTYPE": "article",
+      "ID": "hendrycks2021measuring"
+    },
+    {
+      "year": "2021",
+      "journal": "arXiv preprint arXiv:2107.03374",
+      "author": "Chen, Mark and Tworek, Jerry and Jun, Heewoo and Yuan, Qiming and Pinto, Henrique Ponde De Oliveira and Kaplan, Jared and Edwards, Harri and Burda, Yuri and Joseph, Nicholas and Brockman, Greg and others",
+      "title": "Evaluating large language models trained on code",
+      "ENTRYTYPE": "article",
+      "ID": "chen2021evaluating"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2403.07974",
+      "author": "Jain, Naman and Han, King and Gu, Alex and Li, Wen-Ding and Yan, Fanjia and Zhang, Tianjun and Wang, Sida and Solar-Lezama, Armando and Sen, Koushik and Stoica, Ion",
+      "title": "Livecodebench: Holistic and contamination free evaluation of large language models for code",
+      "ENTRYTYPE": "article",
+      "ID": "jain2024livecodebench"
+    },
+    {
+      "year": "2024",
+      "pages": "30624--30650",
+      "volume": "37",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Tian, Minyang and Gao, Luyu and Zhang, Shizhuo and Chen, Xinan and Fan, Cunwei and Guo, Xuefei and Haas, Roland and Ji, Pan and Krongchon, Kittithat and Li, Yao and others",
+      "title": "Scicode: A research coding benchmark curated by scientists",
+      "ENTRYTYPE": "article",
+      "ID": "tian2024scicode"
+    },
+    {
+      "publisher": "Springer Science \\& Business Media",
+      "year": "1999",
+      "volume": "12",
+      "author": "Miettinen, Kaisa",
+      "title": "Nonlinear multiobjective optimization",
+      "ENTRYTYPE": "book",
+      "ID": "miettinen1999nonlinear"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2020",
+      "pages": "6597--6607",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Mahapatra, Debabrata and Rajan, Vaibhav",
+      "title": "Multi-task learning with user preferences: Gradient descent with controlled ascent in pareto optimization",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "mahapatra2020multi"
+    },
+    {
+      "journal": "Advances in Neural Information Processing Systems",
+      "year": "2024",
+      "author": "Xiaoyuan Zhang and Liang Zhao and Yingying Yu and Xi Lin and Yifan Chen and Han Zhao and Qingfu Zhang",
+      "title": "LibMOON: A Gradient-based MultiObjective OptimizatioN Library in PyTorch",
+      "ENTRYTYPE": "article",
+      "ID": "zhang2024libmoon"
+    },
+    {
+      "publisher": "Ieee",
+      "year": "2002",
+      "pages": "182--197",
+      "number": "2",
+      "volume": "6",
+      "journal": "IEEE transactions on evolutionary computation",
+      "author": "Deb, Kalyanmoy and Pratap, Amrit and Agarwal, Sameer and Meyarivan, TAMT",
+      "title": "A fast and elitist multiobjective genetic algorithm: NSGA-II",
+      "ENTRYTYPE": "article",
+      "ID": "deb2002fast"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "2020",
+      "pages": "89497--89509",
+      "volume": "8",
+      "journal": "Ieee access",
+      "author": "Blank, Julian and Deb, Kalyanmoy",
+      "title": "Pymoo: Multi-objective optimization in python",
+      "ENTRYTYPE": "article",
+      "ID": "blank2020pymoo"
+    },
+    {
+      "year": "2019",
+      "volume": "32",
+      "journal": "Advances in neural information processing systems",
+      "author": "Xu, Lei and Skoularidou, Maria and Cuesta-Infante, Alfredo and Veeramachaneni, Kalyan",
+      "title": "Modeling tabular data using conditional gan",
+      "ENTRYTYPE": "article",
+      "ID": "xu2019modeling"
+    },
+    {
+      "publisher": "American Society of Mechanical Engineers",
+      "year": "2021",
+      "pages": "031703",
+      "number": "3",
+      "volume": "143",
+      "journal": "Journal of Mechanical Design",
+      "author": "Chen, Wei and Ahmed, Faez",
+      "title": "Padgan: Learning to generate high-quality novel designs",
+      "ENTRYTYPE": "article",
+      "ID": "chen2021padgan"
+    },
+    {
+      "publisher": "Oxford University Press",
+      "year": "2023",
+      "pages": "1736--1766",
+      "number": "4",
+      "volume": "10",
+      "journal": "Journal of Computational Design and Engineering",
+      "author": "Shin, Seungyeon and Shin, Dongju and Kang, Namwoo",
+      "title": "Topology optimization via machine learning and deep learning: a review",
+      "ENTRYTYPE": "article",
+      "ID": "shin2023topology"
+    },
+    {
+      "publisher": "Cambridge University Press Cambridge, UK",
+      "year": "1996",
+      "pages": "30",
+      "volume": "71",
+      "journal": "Mrs Bulletin",
+      "author": "Beitz, W and Pahl, G and Grote, K",
+      "title": "Engineering design: a systematic approach",
+      "ENTRYTYPE": "article",
+      "ID": "beitz1996engineering"
+    },
+    {
+      "publisher": "John Wiley \\& Sons",
+      "year": "2024",
+      "author": "Buede, Dennis M and Miller, William D",
+      "title": "The engineering design of systems: models and methods",
+      "ENTRYTYPE": "book",
+      "ID": "buede2024engineering"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2404.10142",
+      "author": "Faruqi, Faraz and Tian, Yingtao and Phadnis, Vrushank and Jampani, Varun and Mueller, Stefanie",
+      "title": "Shaping realities: Enhancing 3D generative AI with fabrication constraints",
+      "ENTRYTYPE": "article",
+      "ID": "faruqi2024shaping"
+    },
+    {
+      "publisher": "MDPI",
+      "year": "2024",
+      "pages": "566",
+      "number": "4",
+      "volume": "12",
+      "journal": "Journal of Marine Science and Engineering",
+      "author": "Masood, Zahid and Usama, Muhammad and Khan, Shahroz and Kostas, Konstantinos and Kaklis, Panagiotis D",
+      "title": "Generative vs. non-generative models in engineering shape optimization",
+      "ENTRYTYPE": "article",
+      "ID": "masood2024generative"
+    },
+    {
+      "year": "1985",
+      "author": "Shigley, Joseph Edward and Mitchell, Larry D and Saunders, H",
+      "title": "Mechanical engineering design",
+      "ENTRYTYPE": "article",
+      "ID": "shigley1985mechanical"
+    },
+    {
+      "year": "2015",
+      "journal": "arXiv preprint arXiv:1512.03012",
+      "author": "Chang, Angel X and Funkhouser, Thomas and Guibas, Leonidas and Hanrahan, Pat and Huang, Qixing and Li, Zimo and Savarese, Silvio and Savva, Manolis and Song, Shuran and Su, Hao and others",
+      "title": "Shapenet: An information-rich 3d model repository",
+      "ENTRYTYPE": "article",
+      "ID": "chang2015shapenet"
+    },
+    {
+      "organization": "Springer",
+      "year": "2020",
+      "pages": "175--191",
+      "booktitle": "Computer Vision--ECCV 2020: 16th European Conference, Glasgow, UK, August 23--28, 2020, Proceedings, Part XVIII 16",
+      "author": "Kim, Sangpil and Chi, Hyung-gun and Hu, Xiao and Huang, Qixing and Ramani, Karthik",
+      "title": "A large-scale annotated mechanical components benchmark for classification and retrieval tasks with deep neural networks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "kim2020large"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "2022",
+      "pages": "1221--1235",
+      "number": "6",
+      "volume": "26",
+      "journal": "IEEE Transactions on Evolutionary Computation",
+      "author": "Wollstadt, Patricia and Bujny, Mariusz and Ramnath, Satchit and Shah, Jami J and Detwiler, Duane and Menzel, Stefan",
+      "title": "CarHoods10k: An industry-grade data set for representation learning and design optimization in engineering applications",
+      "ENTRYTYPE": "article",
+      "ID": "wollstadt2022carhoods10k"
+    },
+    {
+      "note": "Available at: \\url{https://www.acec.org/wp-content/uploads/2024/10/ACEC-Research-Institute-2024-Economic-Assessment-Forecast-Final-1.pdf}",
+      "publisher": "ACEC Research Institute",
+      "year": "2024",
+      "title": "Economic Assessment of the Engineering + Design Services Industry",
+      "author": "{American Council of Engineering Companies Research Institute}",
+      "ENTRYTYPE": "misc",
+      "ID": "ACEC2024"
+    },
+    {
+      "note": "Available at: \\url{https://raeng.org.uk/media/o0hkijvw/engineering-economy-and-place-report-june-2023.pdf}",
+      "publisher": "Royal Academy of Engineering",
+      "year": "2022",
+      "title": "Engineering Economy \\& Place",
+      "author": "{Royal Academy of Engineering}",
+      "ENTRYTYPE": "misc",
+      "ID": "RAEng2022"
+    },
+    {
+      "year": "2024",
+      "pages": "823--831",
+      "booktitle": "Proceedings of the Genetic and Evolutionary Computation Conference",
+      "author": "Gaier, Adam and Stoddart, James and Villaggi, Lorenzo and Sudhakaran, Shyam",
+      "title": "Generative Design through Quality-Diversity Data Synthesis and Language Models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "gaier2024generative"
+    },
+    {
+      "publisher": "American Society of Mechanical Engineers Digital Collection",
+      "year": "2025",
+      "number": "2",
+      "volume": "147",
+      "journal": "Journal of Mechanical Design",
+      "author": "Regenwetter, Lyle and Abu Obaideh, Yazan and Ahmed, Faez",
+      "title": "Multi-Objective Counterfactuals for Design: A Model-Agnostic Counterfactual Search Method for Multi-Modal Design Modifications",
+      "ENTRYTYPE": "article",
+      "ID": "regenwetter2025multi"
+    },
+    {
+      "organization": "American Society of Mechanical Engineers",
+      "year": "2023",
+      "pages": "V03AT03A028",
+      "volume": "87301",
+      "booktitle": "International Design Engineering Technical Conferences and Computers and Information in Engineering Conference",
+      "author": "Bagazinski, Noah J and Ahmed, Faez",
+      "title": "Ship-d: Ship hull dataset for design optimization using machine learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "bagazinski2023ship"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2504.11347",
+      "author": "Yoo, Soyoung and Kang, Namwoo",
+      "title": "DeepWheel: Generating a 3D Synthetic Wheel Dataset for Design and Performance Evaluation",
+      "ENTRYTYPE": "article",
+      "ID": "yoo2025deepwheel"
+    },
+    {
+      "year": "2019",
+      "pages": "9601--9611",
+      "booktitle": "Proceedings of the IEEE/CVF conference on computer vision and pattern recognition",
+      "author": "Koch, Sebastian and Matveev, Albert and Jiang, Zhongshi and Williams, Francis and Artemov, Alexey and Burnaev, Evgeny and Alexa, Marc and Zorin, Denis and Panozzo, Daniele",
+      "title": "Abc: A big cad model dataset for geometric deep learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "koch2019abc"
+    },
+    {
+      "publisher": "ACM New York, NY, USA",
+      "year": "2021",
+      "pages": "1--24",
+      "number": "4",
+      "volume": "40",
+      "journal": "ACM Transactions on Graphics (TOG)",
+      "author": "Willis, Karl DD and Pu, Yewen and Luo, Jieliang and Chu, Hang and Du, Tao and Lambourne, Joseph G and Solar-Lezama, Armando and Matusik, Wojciech",
+      "title": "Fusion 360 gallery: A dataset and environment for programmatic cad construction from human design sequences",
+      "ENTRYTYPE": "article",
+      "ID": "willis2021fusion"
+    },
+    {
+      "publisher": "American Society of Mechanical Engineers",
+      "year": "2025",
+      "pages": "041712",
+      "number": "4",
+      "volume": "147",
+      "journal": "Journal of Mechanical Design",
+      "author": "Elrefaie, Mohamed and Dai, Angela and Ahmed, Faez",
+      "title": "DrivAerNet: A Parametric Car Dataset for Data-Driven Aerodynamic Design and Prediction",
+      "ENTRYTYPE": "article",
+      "ID": "elrefaie2025drivaernet"
+    },
+    {
+      "year": "2023",
+      "pages": "44524--44543",
+      "volume": "36",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Cobb, Adam and Roy, Anirban and Elenius, Daniel and Heim, Frederick and Swenson, Brian and Whittington, Sydney and Walker, James and Bapty, Theodore and Hite, Joseph and Ramani, Karthik and others",
+      "title": "Aircraftverse: a large-scale multimodal dataset of aerial vehicle designs",
+      "ENTRYTYPE": "article",
+      "ID": "cobb2023aircraftverse"
+    },
+    {
+      "publisher": "American Society of Mechanical Engineers Digital Collection",
+      "year": "2025",
+      "number": "4",
+      "volume": "147",
+      "journal": "Journal of Mechanical Design",
+      "author": "Hong, Seongjun and Kwon, Yongmin and Shin, Dongju and Park, Jangseop and Kang, Namwoo",
+      "title": "Deepjeb: 3d deep learning-based synthetic jet engine bracket dataset",
+      "ENTRYTYPE": "article",
+      "ID": "hong2025deepjeb"
+    },
+    {
+      "organization": "Wiley Online Library",
+      "year": "2021",
+      "pages": "9--17",
+      "number": "5",
+      "volume": "40",
+      "booktitle": "Computer Graphics Forum",
+      "author": "Whalen, Eamon and Beyene, Azariah and Mueller, Caitlin",
+      "title": "SimJEB: simulated jet engine bracket dataset",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "whalen2021simjeb"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2022",
+      "pages": "21658--21676",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Trabucco, Brandon and Geng, Xinyang and Kumar, Aviral and Levine, Sergey",
+      "title": "Design-bench: Benchmarks for data-driven offline model-based optimization",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "trabucco2022design"
+    },
+    {
+      "organization": "Springer",
+      "year": "2020",
+      "pages": "128--144",
+      "booktitle": "Advances in computer vision: proceedings of the 2019 computer vision conference (CVC), volume 1 1",
+      "author": "O’Mahony, Niall and Campbell, Sean and Carvalho, Anderson and Harapanahalli, Suman and Hernandez, Gustavo Velasco and Krpalkova, Lenka and Riordan, Daniel and Walsh, Joseph",
+      "title": "Deep learning vs. traditional computer vision",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "o2020deep"
+    },
+    {
+      "publisher": "ACM New York, NY",
+      "year": "2021",
+      "pages": "1--35",
+      "number": "5",
+      "volume": "20",
+      "journal": "Transactions on Asian and Low-Resource Language Information Processing",
+      "author": "Naseem, Usman and Razzak, Imran and Khan, Shah Khalid and Prasad, Mukesh",
+      "title": "A comprehensive survey on word representation models: From classical to state-of-the-art word representation language models",
+      "ENTRYTYPE": "article",
+      "ID": "naseem2021comprehensive"
+    },
+    {
+      "publisher": "ieee",
+      "year": "2018",
+      "pages": "55--75",
+      "number": "3",
+      "volume": "13",
+      "journal": "ieee Computational intelligenCe magazine",
+      "author": "Young, Tom and Hazarika, Devamanyu and Poria, Soujanya and Cambria, Erik",
+      "title": "Recent trends in deep learning based natural language processing",
+      "ENTRYTYPE": "article",
+      "ID": "young2018recent"
+    },
+    {
+      "bibsource": "dblp computer science bibliography, https://dblp.org",
+      "biburl": "https://dblp.org/rec/bib/journals/corr/HaE17",
+      "timestamp": "Mon, 13 Aug 2018 16:48:30 +0200",
+      "eprint": "1704.03477",
+      "archiveprefix": "arXiv",
+      "url": "http://arxiv.org/abs/1704.03477",
+      "year": "2017",
+      "volume": "abs/1704.03477",
+      "journal": "CoRR",
+      "title": "A Neural Representation of Sketch Drawings",
+      "author": "David Ha and\nDouglas Eck",
+      "ENTRYTYPE": "article",
+      "ID": "Ha2017quickdraw"
+    },
+    {
+      "year": "2025",
+      "pages": "1--9",
+      "booktitle": "Proceedings of the 7th Workshop on Design Automation for CPS and IoT",
+      "author": "Ezemba, Jessica and McComb, Christopher and Tucker, Conrad",
+      "title": "Simulation vs. Hallucination: Assessing Vision-Language Model Question Answering Capabilities in Engineering Simulations",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ezemba2025simulation"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2509.17677",
+      "author": "Zhou, Xiyuan and Wang, Xinlei and He, Yirui and Wu, Yang and Zou, Ruixi and Cheng, Yuheng and Xie, Yulu and Liu, Wenxuan and Zhao, Huan and Xu, Yan and others",
+      "title": "EngiBench: A Benchmark for Evaluating Large Language Models on Engineering Problem Solving",
+      "ENTRYTYPE": "article",
+      "ID": "zhou2025engibench"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2508.00831",
+      "author": "Felten, Florian and Apaza, Gabriel and Br{\\\"a}unlich, Gerhard and Diniz, Cashen and Dong, Xuliang and Drake, Arthur and Habibi, Milad and Hoffman, Nathaniel J and Keeler, Matthew and Massoudi, Soheyl and others",
+      "title": "EngiBench: A Framework for Data-Driven Engineering Design Research",
+      "ENTRYTYPE": "article",
+      "ID": "felten2025engibench"
+    }
+  ]
+}

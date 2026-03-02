@@ -1,0 +1,1253 @@
+{
+  "pdf_url": "https://arxiv.org/pdf/2510.16171v3.pdf",
+  "references": [
+    {
+      "year": "2018",
+      "booktitle": "International Conference on Learning Representations",
+      "author": "Madry, Aleksander and Makelov, Aleksandar and Schmidt, Ludwig and Tsipras, Dimitris and Vladu, Adrian",
+      "title": "Towards Deep Learning Models Resistant to Adversarial Attacks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "Madry2018Towards"
+    },
+    {
+      "year": "2016",
+      "pages": "2990--2999",
+      "booktitle": "Proceedings of the 33rd International Conference on Machine Learning",
+      "author": "Cohen, Taco S and Welling, Max",
+      "title": "Group Equivariant Convolutional Networks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "cohen2016group"
+    },
+    {
+      "year": "2017",
+      "pages": "5028--5037",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Worrall, Daniel E and Welling, Max",
+      "title": "Harmonic Networks: Deep Translation and Rotation Equivariance",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "worrall2017harmonic"
+    },
+    {
+      "year": "2019",
+      "journal": "arXiv preprint arXiv:1905.11696",
+      "author": "Worrall, Daniel E and Welling, Max",
+      "title": "Deep Scale-Spaces: Equivariance Over Scale",
+      "ENTRYTYPE": "article",
+      "ID": "worrall2019scale"
+    },
+    {
+      "year": "2019",
+      "pages": "14334--14345",
+      "booktitle": "Advances in Neural Information Processing Systems",
+      "author": "Weiler, Maurice and Cesa, Giacomo",
+      "title": "General E(2)-Equivariant Steerable CNNs",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "weiler2019general"
+    },
+    {
+      "year": "2018",
+      "booktitle": "International Conference on Learning Representations",
+      "author": "Cohen, Taco S and Geiger, Mario and K{\\\"o}hler, Jonas and Welling, Max",
+      "title": "Spherical CNNs",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "cohen2018spherical"
+    },
+    {
+      "year": "2018",
+      "pages": "12759--12770",
+      "booktitle": "Advances in Neural Information Processing Systems",
+      "author": "Esteves, Joao and Makadia, Ameesh and Daniilidis, Kostas and Gaidon, Adrien",
+      "title": "3D Object Classification and Retrieval with Spherical CNNs",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "esteves2018spherical"
+    },
+    {
+      "year": "2017",
+      "pages": "992--1002",
+      "booktitle": "Advances in Neural Information Processing Systems",
+      "author": "Sch{\\\"u}tt, Kristof T and Kindermans, Pieter-Jan and Sauceda, Huziel E and Chmiela, Stefan and Tkatchenko, Alexandre and M{\\\"u}ller, Klaus-Robert",
+      "title": "SchNet: A Continuous-Filter Convolutional Neural Network for Modeling Quantum Interactions",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "schutt2017schnet"
+    },
+    {
+      "year": "2013",
+      "journal": "arXiv preprint arXiv:1312.6199",
+      "author": "Szegedy, Christian and Zaremba, Wojciech and Sutskever, Ilya and Bruna, Joan and Erhan, Dumitru and Goodfellow, Ian J and Fergus, Rob",
+      "title": "Intriguing Properties of Neural Networks",
+      "ENTRYTYPE": "article",
+      "ID": "szegedy2013intriguing"
+    },
+    {
+      "year": "2015",
+      "booktitle": "International Conference on Learning Representations",
+      "author": "Goodfellow, Ian J and Shlens, Jonathon and Szegedy, Christian",
+      "title": "Explaining and Harnessing Adversarial Examples",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "goodfellow2015explaining"
+    },
+    {
+      "year": "2019",
+      "booktitle": "International Conference on Learning Representations",
+      "author": "Tsipras, Dimitris and Santurkar, Shibani and Engstrom, Logan and Turner, Alexander and Madry, Aleksander",
+      "title": "Robustness May Be at Odds with Accuracy",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "tsipras2019robustness"
+    },
+    {
+      "year": "2019",
+      "pages": "501--509",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Xie, Cihang and Wu, Yuxin and Maaten, Laurens van der and Yuille, Alan L and He, Kaiming",
+      "title": "Feature Denoising for Improving Adversarial Robustness",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "xie2019feature"
+    },
+    {
+      "year": "2018",
+      "booktitle": "International Conference on Learning Representations",
+      "author": "Guo, Chuan and Rana, Mayank and Ciss{\\'e}, Moustapha and van der Maaten, Laurens",
+      "title": "Countering Adversarial Images Using Input Transformations",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "guo2018countering"
+    },
+    {
+      "year": "2018",
+      "pages": "274--283",
+      "booktitle": "Proceedings of the 35th International Conference on Machine Learning",
+      "author": "Athalye, Anish and Carlini, Nicholas and Wagner, David",
+      "title": "Obfuscated Gradients Give a False Sense of Security: Circumventing Defenses to Adversarial Examples",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "athalye2018obfuscated"
+    },
+    {
+      "year": "2018",
+      "booktitle": "International Conference on Learning Representations",
+      "author": "Tram{\\`e}r, Florian and Kurakin, Alexey and Papernot, Nicolas and Goodfellow, Ian J and Boneh, Dan and McDaniel, Patrick",
+      "title": "Ensemble Adversarial Training: Attacks and Defenses",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "tramer2018ensemble"
+    },
+    {
+      "year": "2020",
+      "pages": "6238--6247",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Behl, Harkirat Singh and Paschalidou, Despoina and Donne, Simon and Geiger, Andreas",
+      "title": "Equivariant Networks for Visual Localization",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "behl2020equivariant"
+    },
+    {
+      "year": "2019",
+      "pages": "1802--1811",
+      "booktitle": "Proceedings of the 36th International Conference on Machine Learning",
+      "author": "Engstrom, Logan and Tran, Brandon and Tsipras, Dimitris and Madry, Aleksander",
+      "title": "Exploring the Landscape of Spatial Robustness",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "engstrom2019exploring"
+    },
+    {
+      "year": "2020",
+      "pages": "7446--7457",
+      "booktitle": "Advances in Neural Information Processing Systems",
+      "author": "Zhang, Xingxing and Cui, Zhen and Zhu, Junjie and Yang, Jian",
+      "title": "Symmetry-Aware Adversarial Training for Robust Learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zhang2020symmetry"
+    },
+    {
+      "year": "2019",
+      "pages": "7861--7871",
+      "booktitle": "Advances in Neural Information Processing Systems",
+      "author": "Cohen, Tiberiu and Welling, Max",
+      "title": "Certified Robustness to Adversarial Attacks via Lipschitz Continuity",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "cohen2019certified"
+    },
+    {
+      "year": "2021",
+      "pages": "411--419",
+      "volume": "450",
+      "journal": "Neurocomputing",
+      "author": "Wang, Ling and Wang, Chuan and Li, Yuan and Wang, Rui",
+      "title": "Improving Robustness of Deep Neural Networks via Large-Difference Transformation",
+      "ENTRYTYPE": "article",
+      "ID": "wang2021"
+    },
+    {
+      "year": "2015",
+      "pages": "1--9",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Szegedy, Christian and Liu, Wei and Jia, Yangqing and Sermanet, Pierre and Reed, Scott and Anguelov, Dragomir and Erhan, Dumitru and Vanhoucke, Vincent and Rabinovich, Andrew",
+      "title": "Going Deeper with Convolutions",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "szegedy2015going"
+    },
+    {
+      "year": "2017",
+      "pages": "1492--1500",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Xie, Saining and Girshick, Ross and Doll{\\'a}r, Piotr and Tu, Zhuowen and He, Kaiming",
+      "title": "Aggregated Residual Transformations for Deep Neural Networks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "xie2017aggregated"
+    },
+    {
+      "year": "2019",
+      "pages": "6105--6114",
+      "booktitle": "Proceedings of the 36th International Conference on Machine Learning",
+      "author": "Tan, Mingxing and Le, Quoc V",
+      "title": "EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "tan2019efficientnet"
+    },
+    {
+      "year": "2019",
+      "journal": "arXiv preprint arXiv:1903.12261",
+      "author": "Hendrycks, Dan and Dietterich, Thomas",
+      "title": "Benchmarking neural network robustness to common corruptions and perturbations",
+      "ENTRYTYPE": "article",
+      "ID": "hendrycks2019benchmarking"
+    },
+    {
+      "year": "2018",
+      "journal": "arXiv preprint arXiv:1806.07004",
+      "author": "Hara, Satoshi and Ikeno, Kouichi and Soma, Tasuku and Maehara, Takanori",
+      "title": "Maximally invariant data perturbation as explanation",
+      "ENTRYTYPE": "article",
+      "ID": "hara2018maximally"
+    },
+    {
+      "year": "2024",
+      "booktitle": "The Thirty-eighth Annual Conference on Neural Information Processing Systems",
+      "author": "Zou, Andy and Phan, Long and Wang, Justin and Duenas, Derek and Lin, Maxwell and Andriushchenko, Maksym and Kolter, J Zico and Fredrikson, Matt and Hendrycks, Dan",
+      "title": "Improving alignment and robustness with circuit breakers",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zou2024improving"
+    },
+    {
+      "year": "2024",
+      "volume": "36",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Zhu, Mingli and Wei, Shaokui and Zha, Hongyuan and Wu, Baoyuan",
+      "title": "Neural polarizer: A lightweight and effective backdoor defense via purifying poisoned features",
+      "ENTRYTYPE": "article",
+      "ID": "zhu2024neural"
+    },
+    {
+      "year": "2024",
+      "volume": "36",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Zhao, Kai and Kang, Qiyu and Song, Yang and She, Rui and Wang, Sijie and Tay, Wee Peng",
+      "title": "Adversarial robustness in graph neural networks: A Hamiltonian approach",
+      "ENTRYTYPE": "article",
+      "ID": "zhao2024adversarial"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "2024",
+      "journal": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+      "author": "Chen, Jianqi and Chen, Hao and Chen, Keyan and Zhang, Yilan and Zou, Zhengxia and Shi, Zhenwei",
+      "title": "Diffusion models for imperceptible and transferable adversarial attack",
+      "ENTRYTYPE": "article",
+      "ID": "chen2024diffusion"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "2024",
+      "journal": "IEEE Transactions on Dependable and Secure Computing",
+      "author": "Tian, Jiwei and Shen, Chao and Wang, Buhong and Xia, Xiaofang and Zhang, Meng and Lin, Chenhao and Li, Qian",
+      "title": "LESSON: Multi-label adversarial false data injection attack for deep learning locational detection",
+      "ENTRYTYPE": "article",
+      "ID": "tian2024lesson"
+    },
+    {
+      "publisher": "Wiley Online Library",
+      "year": "2025",
+      "pages": "e1567",
+      "number": "1",
+      "volume": "15",
+      "journal": "Wiley Interdisciplinary Reviews: Data Mining and Knowledge Discovery",
+      "author": "Vadillo, Jon and Santana, Roberto and Lozano, Jose A",
+      "title": "Adversarial attacks in explainable machine learning: A survey of threats against models and humans",
+      "ENTRYTYPE": "article",
+      "ID": "vadillo2025adversarial"
+    },
+    {
+      "organization": "Springer",
+      "year": "2025",
+      "pages": "461--478",
+      "booktitle": "European Conference on Computer Vision",
+      "author": "Kim, Changhoon and Min, Kyle and Yang, Yezhou",
+      "title": "Race: Robust adversarial concept erasure for secure text-to-image diffusion model",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "kim2025race"
+    },
+    {
+      "year": "2024",
+      "volume": "36",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Carlini, Nicholas and Nasr, Milad and Choquette-Choo, Christopher A and Jagielski, Matthew and Gao, Irena and Koh, Pang Wei W and Ippolito, Daphne and Tramer, Florian and Schmidt, Ludwig",
+      "title": "Are aligned neural networks adversarially aligned?",
+      "ENTRYTYPE": "article",
+      "ID": "carlini2024aligned"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "2025",
+      "journal": "IEEE Transactions on Information Forensics and Security",
+      "author": "Zheng, Desheng and Ke, Wuping and Li, Xiaoyu and Duan, Yaoxin and Yin, Guangqiang and Min, Fan",
+      "title": "Enhancing the Transferability of Adversarial Attacks via Multi-Feature Attention",
+      "ENTRYTYPE": "article",
+      "ID": "zheng2025enhancing"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "2025",
+      "journal": "IEEE Transactions on Circuits and Systems for Video Technology",
+      "author": "Zhang, Xu and Peng, Bo and Lei, Jianjun and Xue, Chao and Yao, Yuxuan and Huang, Qingming",
+      "title": "Adversarially Robust Object Detection via Deviation Calibration and Content Preservation",
+      "ENTRYTYPE": "article",
+      "ID": "zhang2025adversarially"
+    },
+    {
+      "organization": "Springer",
+      "year": "2025",
+      "pages": "92--111",
+      "booktitle": "European Conference on Computer Vision",
+      "author": "Dong, Junhao and Koniusz, Piotr and Chen, Junxi and Ong, Yew-Soon",
+      "title": "Adversarially Robust Distillation by Reducing the Student-Teacher Variance Gap",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "dong2025adversarially"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2501.01999",
+      "author": "Vadgama, Sharvaree and Islam, Mohammad Mohaiminul and Buracus, Domas and Shewmake, Christian and Bekkers, Erik",
+      "title": "On the Utility of Equivariance and Symmetry Breaking in Deep Learning Architectures on Point Clouds",
+      "ENTRYTYPE": "article",
+      "ID": "vadgama2025utility"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2409.07327",
+      "author": "Basheer, Ramzan and Mishra, Deepak",
+      "title": "Current Symmetry Group Equivariant Convolution Frameworks for Representation Learning",
+      "ENTRYTYPE": "article",
+      "ID": "basheer2024current"
+    },
+    {
+      "year": "2024",
+      "pages": "11462--11470",
+      "number": "10",
+      "volume": "38",
+      "booktitle": "Proceedings of the AAAI Conference on Artificial Intelligence",
+      "author": "Chen, Zhiqiang and Chen, Yang and Zou, Xiaolong and Yu, Shan",
+      "title": "Continuous Rotation Group Equivariant Network Inspired by Neural Population Coding",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "chen2024continuous"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2410.03989",
+      "author": "Huang, Haozhe and Cheng, Leo Kaixuan and Chen, Kaiwen and Aspuru-Guzik, Al{\\'a}n",
+      "title": "Symmetry From Scratch: Group Equivariance as a Supervised Learning Task",
+      "ENTRYTYPE": "article",
+      "ID": "huang2024symmetry"
+    },
+    {
+      "year": "2018",
+      "journal": "arXiv preprint arXiv:1801.10578",
+      "author": "Weng, Tsui-Wei and Zhang, Huan and Chen, Pin-Yu and Yi, Jinfeng and Su, Dong and Gao, Yupeng and Hsieh, Cho-Jui and Daniel, Luca",
+      "title": "Evaluating the robustness of neural networks: An extreme value theory approach",
+      "ENTRYTYPE": "article",
+      "ID": "weng2018evaluating"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "2019",
+      "pages": "201--208",
+      "volume": "86",
+      "journal": "Pattern Recognition",
+      "author": "Anselmi, Fabio and Evangelopoulos, Georgios and Rosasco, Lorenzo and Poggio, Tomaso",
+      "title": "Symmetry-adapted representation learning",
+      "ENTRYTYPE": "article",
+      "ID": "anselmi2019symmetry"
+    },
+    {
+      "publisher": "Oxford University Press",
+      "year": "2016",
+      "pages": "134--158",
+      "number": "2",
+      "volume": "5",
+      "journal": "Information and Inference: A Journal of the IMA",
+      "author": "Anselmi, Fabio and Rosasco, Lorenzo and Poggio, Tomaso",
+      "title": "On invariance and selectivity in representation learning",
+      "ENTRYTYPE": "article",
+      "ID": "anselmi2016invariance"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "2016",
+      "pages": "112--121",
+      "volume": "633",
+      "journal": "Theoretical Computer Science",
+      "author": "Anselmi, Fabio and Leibo, Joel Z and Rosasco, Lorenzo and Mutch, Jim and Tacchetti, Andrea and Poggio, Tomaso",
+      "title": "Unsupervised learning of invariant representations",
+      "ENTRYTYPE": "article",
+      "ID": "anselmi2016unsupervised"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2501.03858",
+      "author": "Elesedy, Hayder",
+      "title": "Symmetry and Generalisation in Machine Learning",
+      "ENTRYTYPE": "article",
+      "ID": "elesedy2025symmetry"
+    },
+    {
+      "publisher": "Cold Spring Harbor Laboratory",
+      "year": "2024",
+      "pages": "2024--08",
+      "journal": "bioRxiv",
+      "author": "Hoeller, Judith and Zhong, Lin and Pachitariu, Marius and Romani, Sandro",
+      "title": "Bridging tuning and invariance with equivariant neuronal representations",
+      "ENTRYTYPE": "article",
+      "ID": "hoeller2024bridging"
+    },
+    {
+      "booktitle": "ICLR 2025 Workshop on Machine Learning Multiscale Processes",
+      "author": "Zhdanov, Maksim and Iqbal, Nabil and Bekkers, Erik J and Forr{\\'e}, Patrick",
+      "title": "AdS-GNN-a Conformally Equivariant Graph Neural Network",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zhdanov2025ads"
+    },
+    {
+      "year": "2024",
+      "pages": "2254--2272",
+      "booktitle": "Proceedings of the 2024 ACM Conference on Fairness, Accountability, and Transparency",
+      "author": "Casper, Stephen and Ezell, Carson and Siegmann, Charlotte and Kolt, Noam and Curtis, Taylor Lynn and Bucknall, Benjamin and Haupt, Andreas and Wei, Kevin and Scheurer, J{\\'e}r{\\'e}my and Hobbhahn, Marius and others",
+      "title": "Black-box access is insufficient for rigorous ai audits",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "casper2024black"
+    },
+    {
+      "year": "2024",
+      "pages": "95692--95715",
+      "volume": "37",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Peng, Sheng Y and Chen, Pin-Yu and Hull, Matthew and Chau, Duen H",
+      "title": "Navigating the safety landscape: Measuring risks in finetuning large language models",
+      "ENTRYTYPE": "article",
+      "ID": "peng2024navigating"
+    },
+    {
+      "publisher": "ACM New York, NY",
+      "year": "2025",
+      "pages": "1--41",
+      "number": "6",
+      "volume": "57",
+      "journal": "ACM Computing Surveys",
+      "author": "Z{\\\"u}hlke, Monty-Maximilian and Kudenko, Daniel",
+      "title": "Adversarial robustness of neural networks from the perspective of lipschitz calculus: A survey",
+      "ENTRYTYPE": "article",
+      "ID": "zuhlke2025adversarial"
+    },
+    {
+      "year": "2019",
+      "volume": "32",
+      "journal": "Advances in neural information processing systems",
+      "author": "Fazlyab, Mahyar and Robey, Alexander and Hassani, Hamed and Morari, Manfred and Pappas, George",
+      "title": "Efficient and accurate estimation of lipschitz constants for deep neural networks",
+      "ENTRYTYPE": "article",
+      "ID": "fazlyab2019efficient"
+    },
+    {
+      "year": "2025",
+      "pages": "1--5",
+      "booktitle": "Practice and Experience in Advanced Research Computing 2025: The Power of Collaboration",
+      "author": "Weitzel, Derek and Graves, Ashton and Albin, Sam and Zhu, Huijun and Wuerthwein, Frank and Tatineni, Mahidhar and Mishin, Dmitry and Khoda, Elham and Sada, Mohammad and Smarr, Larry and others",
+      "title": "The national research platform: Stretched, multi-tenant, scientific kubernetes cluster",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "10.1145/3708035.3736060"
+    },
+    {
+      "year": "2015",
+      "month": "June 27--July 2",
+      "address": "New York, NY",
+      "pages": "245--252",
+      "booktitle": "Proceedings of the 2015 IEEE International Conference on Cloud Computing (CLOUD'15)",
+      "title": "Policy-driven autonomic configuration management for NoSQL",
+      "author": "Bao, X. and Liu, L. and Xiao, N. and Zhou, Y. and Zhang, Q.",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "BLXZ15"
+    },
+    {
+      "year": "2022",
+      "month": "November 28--December 1",
+      "address": "Orlando, FL",
+      "pages": "31--40",
+      "booktitle": "Proceedings of the 22nd IEEE International Conference on Data Mining (ICDM'22)",
+      "title": "Federated fingerprint learning with heterogeneous architectures",
+      "author": "Che, T. and Zhang, Z. and Zhou, Y. and Zhao, X. and Liu, J. and Jiang, Z. and Yan, D. and Jin, R. and Dou, D.",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "CZZZ22"
+    },
+    {
+      "year": "2023",
+      "month": "December 6--10",
+      "address": "Singapore",
+      "booktitle": "Proceedings of the 28th Conference on Empirical Methods in Natural Language Processing (EMNLP'23)",
+      "title": "Federated learning of large language models with parameter-efficient prompt tuning and adaptive optimization",
+      "author": "Che, T. and Liu, J. and Zhou, Y. and Ren, J. and Zhou, J. and Sheng, V. S. and Dai, H. and Dou, D.",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "CLZR23"
+    },
+    {
+      "year": "2023",
+      "month": "July 23--29",
+      "address": "Honolulu, HI",
+      "pages": "4241--4268",
+      "booktitle": "Proceedings of the 40th International Conference on Machine Learning (ICML'23)",
+      "title": "Fast federated machine unlearning with nonlinear functional theory",
+      "author": "Che, T. and Zhou, Y. and Zhang, Z. and Lyu, L. and Liu, J. and Yan, D. and Dou, D. and Huan, J.",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "CZZL23"
+    },
+    {
+      "year": "2011",
+      "pages": "1--33",
+      "number": "2",
+      "volume": "5",
+      "journal": "ACM Transactions on Knowledge Discovery from Data (TKDD)",
+      "title": "Clustering large attributed graphs: A balance between structural and attribute similarities",
+      "author": "Cheng, H. and Zhou, Y. and Yu, J. X.",
+      "ENTRYTYPE": "article",
+      "ID": "CZY11"
+    },
+    {
+      "year": "2012",
+      "pages": "450--477",
+      "number": "3",
+      "volume": "25",
+      "journal": "Data Mining and Knowledge Discovery (DMKD)",
+      "title": "Clustering large attributed information networks: An efficient incremental computing approach",
+      "author": "Cheng, H. and Zhou, Y. and Huang, X. and Yu, J. X.",
+      "ENTRYTYPE": "article",
+      "ID": "CZHY12"
+    },
+    {
+      "year": "2022",
+      "month": "May 9--12",
+      "address": "Kuala Lumpur, Malaysia",
+      "pages": "1900--1913",
+      "booktitle": "Proceedings of the 38th IEEE International Conference on Data Engineering (ICDE'22)",
+      "title": "Maximal directed quasi-clique mining",
+      "author": "Guo, Guimu and Yan, Da and Zhou, Yang and others",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "GYYK22"
+    },
+    {
+      "year": "2025",
+      "journal": "Knowledge and Information Systems (KAIS)",
+      "title": "Efficient federated learning with timely update dissemination",
+      "author": "Jia, J. and Liu, J. and Huo, C. and Shen, Y. and Zhou, Y. and Dai, H. and Dou, D.",
+      "ENTRYTYPE": "article",
+      "ID": "JLHS25"
+    },
+    {
+      "year": "2022",
+      "month": "July 17--23",
+      "address": "Baltimore, MD",
+      "pages": "10298--10322",
+      "booktitle": "Proceedings of the 39th International Conference on Machine Learning (ICML'22)",
+      "title": "Accelerated federated learning with decoupled adaptive optimization",
+      "author": "Jin, J. and Ren, J. and Zhou, Y. and Lv, L. and Liu, J. and Dou, D.",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "JRZL22"
+    },
+    {
+      "year": "2022",
+      "month": "July 17--23",
+      "address": "Baltimore, MD",
+      "pages": "10340--10361",
+      "booktitle": "Proceedings of the 39th International Conference on Machine Learning (ICML'22)",
+      "title": "Input-agnostic certified group fairness via Gaussian parameter smoothing",
+      "author": "Jin, J. and Zhang, Z. and Zhou, Y. and Wu, L.",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "JZZW22"
+    },
+    {
+      "year": "2021",
+      "month": "August 14--18",
+      "address": "Virtual Event, Singapore",
+      "pages": "776--785",
+      "booktitle": "Proceedings of the 27th ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD'21)",
+      "title": "Towards a better understanding of linear models for recommendation",
+      "author": "Jin, R. and Li, D. and Gao, J. and Liu, Z. and Chen, L. and Zhou, Y.",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "JLGL21"
+    },
+    {
+      "year": "2022",
+      "pages": "885--917",
+      "number": "4",
+      "volume": "64",
+      "journal": "Knowledge and Information Systems (KAIS)",
+      "title": "From distributed machine learning to federated learning: A survey",
+      "author": "Liu, J. and Huang, J. and Zhou, Y. and Li, X. and Ji, S. and Xiong, H. and Dou, D.",
+      "ENTRYTYPE": "article",
+      "ID": "LHZL22"
+    },
+    {
+      "year": "2023",
+      "pages": "535--551",
+      "number": "2",
+      "volume": "34",
+      "journal": "IEEE Transactions on Parallel and Distributed Systems (TPDS)",
+      "title": "Multi-job intelligent scheduling with cross-device federated learning",
+      "author": "Liu, J. and Jia, J. and Ma, B. and Zhou, C. and Zhou, J. and Zhou, Y. and Dai, H. and Dou, D.",
+      "ENTRYTYPE": "article",
+      "ID": "LJMZ23"
+    },
+    {
+      "year": "2024",
+      "month": "April 18--20",
+      "address": "Houston, TX",
+      "pages": "833--841",
+      "booktitle": "Proceedings of the 24th SIAM International Conference on Data Mining (SDM'24)",
+      "title": "{AEDFL}: Efficient asynchronous decentralized federated learning with heterogeneous devices",
+      "author": "Liu, J. and Che, T. and Zhou, Y. and Jin, R. and Dai, H. and Dou, D. and Valduriez, P.",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "LCZJ24"
+    },
+    {
+      "year": "2024",
+      "month": "February 20--27",
+      "address": "Vancouver, Canada",
+      "pages": "13900--13908",
+      "booktitle": "Proceedings of the 38th AAAI Conference on Artificial Intelligence (AAAI'24)",
+      "title": "{FedASMU}: Efficient asynchronous federated learning with dynamic staleness-aware model update",
+      "author": "Liu, J. and Jia, J. and Che, T. and Huo, C. and Ren, J. and Zhou, Y. and Dai, H. and Dou, D.",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "LJCH24"
+    },
+    {
+      "year": "2024",
+      "pages": "122:1--122:28",
+      "number": "6",
+      "volume": "15",
+      "journal": "ACM Transactions on Intelligent Systems and Technology (TIST)",
+      "title": "Efficient federated learning using dynamic update and adaptive pruning with momentum on shared server data",
+      "author": "Liu, J. and Jia, J. and Zhang, H. and Yun, Y. and Wang, L. and Zhou, Y. and Dai, H. and Dou, D.",
+      "ENTRYTYPE": "article",
+      "ID": "LJZY24"
+    },
+    {
+      "year": "2024",
+      "month": "November 12--16",
+      "address": "Miami, FL",
+      "pages": "10497--10523",
+      "booktitle": "Proceedings of the 29th Conference on Empirical Methods in Natural Language Processing (EMNLP'24)",
+      "title": "Fisher information-based efficient curriculum federated learning with large language models",
+      "author": "Liu, J. and Ren, J. and Jin, R. and Zhang, Z. and Zhou, Y. and Valduriez, P. and Dou, D.",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "LRJZ24"
+    },
+    {
+      "year": "2025",
+      "pages": "146:1--146:31",
+      "number": "8",
+      "volume": "19",
+      "journal": "ACM Transactions on Knowledge Discovery from Data (TKDD)",
+      "title": "Efficient federated learning with heterogeneous data and adaptive dropout",
+      "author": "Liu, J. and Ma, B. and Yu, Q. and Jin, R. and Zhou, J. and Zhou, Y. and Dai, H. and Wang, H. and Dou, D. and Valduriez, P.",
+      "ENTRYTYPE": "article",
+      "ID": "LMYJ25"
+    },
+    {
+      "year": "2018",
+      "pages": "24:1--24:21",
+      "number": "2",
+      "volume": "18",
+      "journal": "ACM Transactions on Internet Technology (TOIT)",
+      "title": "Privacy-preserving publishing of multilevel utility-controlled graph datasets",
+      "author": "Palanisamy, B. and Liu, L. and Zhou, Y. and Wang, Q.",
+      "ENTRYTYPE": "article",
+      "ID": "PLZW18"
+    },
+    {
+      "year": "2019",
+      "month": "November 8--11",
+      "address": "Beijing, China",
+      "pages": "1288--1293",
+      "booktitle": "Proceedings of the 19th IEEE International Conference on Data Mining (ICDM'19)",
+      "title": "Dual adversarial learning based network alignment",
+      "author": "Ren, J. and Zhou, Y. and Jin, R. and Zhang, Z. and Dou, D. and Wang, P.",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "RZJZ19"
+    },
+    {
+      "year": "2021",
+      "month": "July 18--24",
+      "address": "Virtual Event",
+      "pages": "8982--8997",
+      "booktitle": "Proceedings of the 38th International Conference on Machine Learning (ICML'21)",
+      "title": "Integrated defense for resilient graph matching",
+      "author": "Ren, J. and Zhang, Z. and Jin, J. and Zhao, X. and Wu, S. and Zhou, Y. and Shen, Y. and Che, T. and Jin, R. and Dou, D.",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "RZJZ21"
+    },
+    {
+      "year": "2023",
+      "month": "July 23--29",
+      "address": "Honolulu, HI",
+      "pages": "28976--29008",
+      "booktitle": "Proceedings of the 40th International Conference on Machine Learning (ICML'23)",
+      "title": "Dimension-independent certified neural network watermarks via mollifier smoothing",
+      "author": "Ren, J. and Zhou, Y. and Jin, J. and Lyu, L. and Yan, D.",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "RZJL23"
+    },
+    {
+      "year": "2013",
+      "month": "June 27--July 2",
+      "address": "Santa Clara, CA",
+      "pages": "272--279",
+      "booktitle": "Proceedings of the 10th IEEE International Conference on Services Computing (SCC'13)",
+      "title": "{ServiceTrust}: Trust management in service provision networks",
+      "author": "Su, Z. and Liu, L. and Li, M. and Fan, X. and Zhou, Y.",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "SLLF13"
+    },
+    {
+      "year": "2015",
+      "pages": "1--37",
+      "number": "3",
+      "volume": "9",
+      "journal": "ACM Transactions on the Web (TWEB)",
+      "title": "Reliable and resilient trust management in distributed service provision networks",
+      "author": "Su, Z. and Liu, L. and Li, M. and Fan, X. and Zhou, Y.",
+      "ENTRYTYPE": "article",
+      "ID": "SLLF15"
+    },
+    {
+      "year": "2025",
+      "month": "November 12--15",
+      "address": "Washington, DC",
+      "booktitle": "Proceedings of the 25th IEEE International Conference on Data Mining (ICDM'25)",
+      "title": "Explainability-guided defense: Attribution-aware model refinement against adversarial data attacks",
+      "author": "Wang, L. and Nayyem, M. and Rakin, A. A. and Santosh, K. and Zhang, C. and Zhou, Y.",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "WNRS25"
+    },
+    {
+      "year": "2020",
+      "month": "July 5--10",
+      "address": "Online",
+      "pages": "5811--5820",
+      "booktitle": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics (ACL'20)",
+      "title": "Diverse and informative dialogue generation with context-specific commonsense knowledge awareness",
+      "author": "Wu, S. and Li, Y. and Zhang, D. and Zhou, Y. and Wu, Z.",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "WLZZ20a"
+    },
+    {
+      "year": "2021",
+      "month": "November 7--11",
+      "address": "Virtual Event / Punta Cana, Dominican Republic",
+      "pages": "2286--2300",
+      "booktitle": "Proceedings of the 26th Conference on Empirical Methods in Natural Language Processing (EMNLP'21)",
+      "title": "More is better: Enhancing open-domain dialogue generation via multi-source heterogeneous knowledge",
+      "author": "Wu, S. and Li, Y. and Wang, M. and Zhang, D. and Zhou, Y. and Wu, Z.",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "WLWZ21"
+    },
+    {
+      "year": "2021",
+      "month": "January 7--15",
+      "address": "Online",
+      "pages": "3766--3772",
+      "booktitle": "Proceedings of the Twenty-Ninth International Joint Conference on Artificial Intelligence (IJCAI'20)",
+      "title": "{TopicKA}: Generating commonsense knowledge-aware dialogue responses towards the recommended topic fact",
+      "author": "Wu, S. and Li, Y. and Zhang, D. and Zhou, Y. and Wu, Z.",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "WLZZ20b"
+    },
+    {
+      "year": "2021",
+      "month": "August 19--27",
+      "address": "Virtual Event / Montreal, Canada",
+      "pages": "3964--3970",
+      "booktitle": "Proceedings of the 30th International Joint Conference on Artificial Intelligence (IJCAI'21)",
+      "title": "Knowledge-aware dialogue generation via hierarchical infobox accessing and infobox-dialogue interaction graph network",
+      "author": "Wu, S. and Wang, M. and Zhang, D. and Zhou, Y. and Li, Y. and Wu, Z.",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "WWZZ21"
+    },
+    {
+      "year": "2024",
+      "month": "October 21--25",
+      "address": "Boise, ID",
+      "pages": "2596--2606",
+      "booktitle": "Proceedings of the 33rd ACM International Conference on Information and Knowledge Management (CIKM'24)",
+      "title": "Advancing certified robustness of explanation via gradient quantization",
+      "author": "Xiao, Y. and Zhang, Z. and Fang, Y. and Yan, D. and Zhou, Y. and Ku, W. and Hui, B.",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "XZFY24"
+    },
+    {
+      "year": "2021",
+      "volume": "abs/2104.07837",
+      "journal": "CoRR",
+      "title": "Cross-lingual entity alignment with adversarial kernel embedding and adversarial knowledge translation",
+      "author": "Zhang, G. and Zhou, Y. and Wu, S. and Zhang, Z. and Dou, D.",
+      "ENTRYTYPE": "article",
+      "ID": "ZZWZ21"
+    },
+    {
+      "year": "2013",
+      "month": "June 27--July 2",
+      "address": "Santa Clara, CA",
+      "pages": "204--211",
+      "booktitle": "Proceedings of the 2013 IEEE International Conference on Cloud Computing (CLOUD'13)",
+      "title": "Residency aware inter-{VM} communication in virtualized cloud: Performance measurement and analysis",
+      "author": "Zhang, Q. and Liu, L. and Ren, Y. and Lee, K. and Tang, Y. and Zhao, X. and Zhou, Y.",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ZLRL13"
+    },
+    {
+      "year": "2020",
+      "month": "December 6--12",
+      "address": "Virtual",
+      "booktitle": "Advances in Neural Information Processing Systems 33 (NeurIPS'20)",
+      "title": "Adversarial attacks on deep graph matching",
+      "author": "Zhang, Z. and Zhang, Z. and Zhou, Y. and Shen, Y. and Jin, R. and Dou, D.",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ZZZS20"
+    },
+    {
+      "year": "2021",
+      "month": "December 6--14",
+      "address": "Virtual",
+      "pages": "30196--30210",
+      "booktitle": "Advances in Neural Information Processing Systems 34 (NeurIPS'21)",
+      "title": "Validating the lottery ticket hypothesis with inertial manifold theory",
+      "author": "Zhang, Z. and Jin, J. and Zhang, Z. and Zhou, Y. and Zhao, X. and Ren, J. and Liu, J. and Wu, L. and Jin, R. and Dou, D.",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ZJZZ21"
+    },
+    {
+      "year": "2021",
+      "month": "November 7--11",
+      "address": "Virtual Event / Punta Cana, Dominican Republic",
+      "pages": "5320--5337",
+      "booktitle": "Proceedings of the 26th Conference on Empirical Methods in Natural Language Processing (EMNLP'21)",
+      "title": "Adversarial attack against cross-lingual knowledge graph alignment",
+      "author": "Zhang, Z. and Zhang, Z. and Zhou, Y. and Wu, L. and Wu, S. and Han, X. and Dou, D. and Che, T. and Yan, D.",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ZZZW21b"
+    },
+    {
+      "year": "2022",
+      "month": "November 28--December 9",
+      "address": "New Orleans, LA",
+      "booktitle": "Advances in Neural Information Processing Systems 35 (NeurIPS'22)",
+      "title": "Prompt certified machine unlearning with randomized gradient smoothing and quantization",
+      "author": "Zhang, Z. and Zhou, Y. and Zhao, X. and Che, T. and Lyu, L.",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ZZZC22"
+    },
+    {
+      "year": "2021",
+      "month": "July 18--24",
+      "address": "Virtual Event",
+      "pages": "12719--12735",
+      "booktitle": "Proceedings of the 38th International Conference on Machine Learning (ICML'21)",
+      "title": "Expressive 1-Lipschitz neural networks for robust multiple graph learning against adversarial attacks",
+      "author": "Zhao, X. and Zhang, Z. and Zhang, Z. and Wu, L. and Jin, J. and Zhou, Y. and Jin, R. and Dou, D. and Yan, D.",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ZZZW21a"
+    },
+    {
+      "year": "2017",
+      "address": "Atlanta, GA, USA",
+      "school": "Georgia Institute of Technology",
+      "title": "Innovative Mining, Processing, and Application of Big Graphs",
+      "author": "Zhou, Y.",
+      "ENTRYTYPE": "phdthesis",
+      "ID": "Zhou17"
+    },
+    {
+      "year": "2012",
+      "publisher": "Springer",
+      "editor": "Holmes, D. E. and Jain, L. C.",
+      "booktitle": "Data Mining: Foundations and Intelligent Paradigms: Volume 1: Clustering, Association and Classification",
+      "title": "Clustering analysis in large graphs with rich attributes",
+      "author": "Zhou, Y. and Liu, L.",
+      "ENTRYTYPE": "incollection",
+      "ID": "ZhLi12"
+    },
+    {
+      "year": "2013",
+      "month": "August 11--14",
+      "address": "Chicago, IL",
+      "pages": "338--346",
+      "booktitle": "Proceedings of the 19th ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD'13)",
+      "title": "Social influence based clustering of heterogeneous information networks",
+      "author": "Zhou, Y. and Liu, L.",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ZhLi13"
+    },
+    {
+      "year": "2014",
+      "month": "August 24--27",
+      "address": "New York, NY",
+      "pages": "1276--1285",
+      "booktitle": "Proceedings of the 20th ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD'14)",
+      "title": "Activity-edge centric multi-label classification for mining heterogeneous information networks",
+      "author": "Zhou, Y. and Liu, L.",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ZhLi14"
+    },
+    {
+      "year": "2015",
+      "pages": "1--53",
+      "number": "1",
+      "volume": "10",
+      "journal": "ACM Transactions on Knowledge Discovery from Data (TKDD)",
+      "title": "Social influence based clustering and optimization over heterogeneous information networks",
+      "author": "Zhou, Y. and Liu, L.",
+      "ENTRYTYPE": "article",
+      "ID": "ZhLi15"
+    },
+    {
+      "year": "2019",
+      "month": "December 12--14",
+      "address": "Los Angeles, CA",
+      "pages": "53--60",
+      "booktitle": "Proceedings of the 2019 IEEE International Conference on Cognitive Machine Intelligence (CogMI'19)",
+      "title": "Approximate deep network embedding for mining large-scale graphs",
+      "author": "Zhou, Y. and Liu, L.",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ZhLi19"
+    },
+    {
+      "year": "2009",
+      "pages": "718--729",
+      "number": "1",
+      "volume": "2",
+      "journal": "Proceedings of the VLDB Endowment (PVLDB)",
+      "title": "Graph clustering based on structural/attribute similarities",
+      "author": "Zhou, Y. and Cheng, H. and Yu, J. X.",
+      "ENTRYTYPE": "article",
+      "ID": "ZCY09"
+    },
+    {
+      "year": "2010",
+      "month": "December 14--17",
+      "address": "Sydney, Australia",
+      "pages": "689--698",
+      "booktitle": "Proceedings of the 10th IEEE International Conference on Data Mining (ICDM'10)",
+      "title": "Clustering large attributed graphs: An efficient incremental approach",
+      "author": "Zhou, Y. and Cheng, H. and Yu, J. X.",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ZCY10"
+    },
+    {
+      "year": "2015",
+      "month": "August 10--13",
+      "address": "Sydney, Australia",
+      "pages": "1563--1572",
+      "booktitle": "Proceedings of the 21st ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD'15)",
+      "title": "Integrating vertex-centric clustering with edge-centric clustering for meta path graph analysis",
+      "author": "Zhou, Y. and Liu, L. and Buttler, D.",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ZLB15"
+    },
+    {
+      "year": "2015",
+      "month": "June 15--19",
+      "address": "Portland, OR",
+      "pages": "179--190",
+      "booktitle": "Proceedings of the 24th ACM Symposium on High-Performance Parallel and Distributed Computing (HPDC'15)",
+      "title": "Fast iterative graph computation with resource aware graph parallel abstractions",
+      "author": "Zhou, Y. and Liu, L. and Lee, K. and Pu, C. and Zhang, Q.",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ZLLP15"
+    },
+    {
+      "year": "2016",
+      "pages": "551--574",
+      "number": "3",
+      "volume": "34",
+      "journal": "IEEE Journal on Selected Areas in Communications (JSAC)",
+      "title": "Analyzing enterprise storage workloads with graph modeling and clustering",
+      "author": "Zhou, Y. and Liu, L. and Seshadri, S. and Chiu, L.",
+      "ENTRYTYPE": "article",
+      "ID": "ZLSC16"
+    },
+    {
+      "year": "2018",
+      "month": "December 10--13",
+      "address": "Seattle, WA",
+      "pages": "1162--1167",
+      "booktitle": "Proceedings of the 2018 IEEE International Conference on Big Data (BigData'18)",
+      "title": "Density-aware local Siamese autoencoder network embedding with autoencoder graph clustering",
+      "author": "Zhou, Y. and Amimeur, A. and Jiang, C. and Dou, D. and Jin, R. and Wang, P.",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ZAJD18"
+    },
+    {
+      "year": "2018",
+      "month": "November 17--20",
+      "address": "Singapore",
+      "pages": "1464--1469",
+      "booktitle": "Proceedings of the 18th IEEE International Conference on Data Mining (ICDM'18)",
+      "title": "Density-adaptive local edge representation learning with generative adversarial network multi-label edge classification",
+      "author": "Zhou, Y. and Wu, S. and Jiang, C. and Zhang, Z. and Dou, D. and Jin, R. and Wang, P.",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ZWJZ18"
+    },
+    {
+      "year": "2019",
+      "month": "December 9--12",
+      "address": "Los Angeles, CA",
+      "pages": "1018--1027",
+      "booktitle": "Proceedings of the 2019 IEEE International Conference on Big Data (BigData'19)",
+      "title": "Integrating local vertex/edge embedding via deep matrix fusion and Siamese multi-label classification",
+      "author": "Zhou, Y. and Jiang, C. and Zhang, Z. and Dou, D. and Jin, R. and Wang, P.",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ZJZD19"
+    },
+    {
+      "year": "2019",
+      "month": "November 18--20",
+      "address": "Ho Chi Minh City, Vietnam",
+      "pages": "323--338",
+      "booktitle": "Proceedings of the 2019 International Conference on Computational Data and Social Networks (CSoNet'19)",
+      "title": "Enhancing collaborative filtering with multi-label classification",
+      "author": "Zhou, Y. and Liu, L. and Zhang, Q. and Palanisamy, B.",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ZLZL19"
+    },
+    {
+      "year": "2019",
+      "month": "December 9--12",
+      "address": "Los Angeles, CA",
+      "pages": "1267--1273",
+      "booktitle": "Proceedings of the 2019 IEEE International Conference on Big Data (BigData'19)",
+      "title": "Semi-supervised classification-based local vertex ranking via dual generative adversarial nets",
+      "author": "Zhou, Y. and Ren, J. and Wu, S. and Dou, D. and Jin, R. and Zhang, Z. and Wang, P.",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ZRWD19"
+    },
+    {
+      "year": "2020",
+      "pages": "36:1--36:29",
+      "number": "4",
+      "volume": "20",
+      "journal": "ACM Transactions on Internet Technology (TOIT)",
+      "title": "Improving collaborative filtering with social influence over heterogeneous information networks",
+      "author": "Zhou, Y. and Liu, L. and Lee, K. and Palanisamy, B. and Zhang, Q.",
+      "ENTRYTYPE": "article",
+      "ID": "ZLLP20"
+    },
+    {
+      "year": "2020",
+      "month": "November 17--20",
+      "address": "Sorrento, Italy",
+      "pages": "1448--1453",
+      "booktitle": "Proceedings of the 20th IEEE International Conference on Data Mining (ICDM'20)",
+      "title": "Robust meta network embedding against adversarial attacks",
+      "author": "Zhou, Y. and Ren, J. and Dou, D. and Jin, R. and Zheng, J. and Lee, K.",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ZRDJ20"
+    },
+    {
+      "year": "2020",
+      "month": "December 10--13",
+      "address": "Atlanta, GA",
+      "pages": "868--877",
+      "booktitle": "Proceedings of the 2020 IEEE International Conference on Big Data (BigData'20)",
+      "title": "Unsupervised multiple network alignment with multinominal {GAN} and variational inference",
+      "author": "Zhou, Y. and Ren, J. and Jin, R. and Zhang, Z. and Dou, D. and Yan, D.",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ZRJZ20"
+    },
+    {
+      "year": "2021",
+      "month": "April 19--23",
+      "address": "Virtual Event / Ljubljana, Slovenia",
+      "pages": "3884--3895",
+      "booktitle": "Proceedings of the 30th Web Conference (WWW'21)",
+      "title": "Robust network alignment via attack signal scaling and adversarial perturbation elimination",
+      "author": "Zhou, Y. and Zhang, Z. and Wu, S. and Sheng, V. and Han, X. and Zhang, Z. and Jin, R.",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ZZWS21"
+    },
+    {
+      "year": "2022",
+      "pages": "50:1--50:29",
+      "number": "3",
+      "volume": "16",
+      "journal": "ACM Transactions on Knowledge Discovery from Data (TKDD)",
+      "title": "Unsupervised adversarial network alignment with reinforcement learning",
+      "author": "Zhou, Y. and Ren, J. and Jin, R. and Zhang, Z. and Zheng, J. and Jiang, Z. and Yan, D. and Dou, D.",
+      "ENTRYTYPE": "article",
+      "ID": "ZRJZ22"
+    },
+    {
+      "year": "2024",
+      "month": "July 21--27",
+      "address": "Vienna, Austria",
+      "booktitle": "Proceedings of the 41st International Conference on Machine Learning (ICML'24)",
+      "title": "Effective federated graph matching",
+      "author": "Zhou, Y. and Zhang, Z. and Zhang, Z. and Lyu, L. and Ku, W.-S.",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ZZZL24"
+    },
+    {
+      "year": "2025",
+      "month": "July 13--19",
+      "address": "Vancouver, Canada",
+      "booktitle": "Proceedings of the 42nd International Conference on Machine Learning (ICML'25)",
+      "title": "Flexible, efficient, and stable adversarial attacks on machine unlearning",
+      "author": "Zhou, Z. and Zhou, Y. and Zhang, Z. and Lyu, L. and Yan, D. and Jin, R. and Dou, D.",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ZZZL25"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "2019",
+      "pages": "39227--39235",
+      "volume": "7",
+      "journal": "IEEE Access",
+      "author": "Wang, Longwei and Liang, Qilian",
+      "title": "Representation learning and nature encoded fusion for heterogeneous sensor networks",
+      "ENTRYTYPE": "article",
+      "ID": "wang2019representation"
+    },
+    {
+      "organization": "IEEE",
+      "year": "2014",
+      "pages": "2636--2640",
+      "booktitle": "2014 IEEE International Conference on Communications (ICC)",
+      "author": "Wang, Longwei and Chen, Wen and Li, Jun",
+      "title": "Congestion aware dynamic user association in heterogeneous cellular network: A stochastic decision approach",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "wang2014congestion"
+    },
+    {
+      "year": "2024",
+      "journal": "IEEE CAI",
+      "author": "Wang, Longwei and Ghimire, Aashish and Santosh, K and Zhang, Zheng and Li, Xueqian",
+      "title": "Enhanced robustness by symmetry enforcement",
+      "ENTRYTYPE": "article",
+      "ID": "wang2024enhanced"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "2021",
+      "pages": "102346",
+      "volume": "111",
+      "journal": "Ad Hoc Networks",
+      "author": "Wang, Longwei and Wang, Chengfei and Li, Yupeng and Wang, Rui",
+      "title": "Explaining the behavior of neuron activations in deep neural networks",
+      "ENTRYTYPE": "article",
+      "ID": "wang2021explaining"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "2021",
+      "pages": "411--419",
+      "volume": "450",
+      "journal": "Neurocomputing",
+      "author": "Wang, Longwei and Wang, Chengfei and Li, Yupeng and Wang, Rui",
+      "title": "Improving robustness of deep neural networks via large-difference transformation",
+      "ENTRYTYPE": "article",
+      "ID": "wang2021improving"
+    },
+    {
+      "year": "2022",
+      "pages": "1--10",
+      "booktitle": "HICSS",
+      "author": "Xiao, Kenan and Wang, Longwei and Gupta, Ashish and Qin, Xiao",
+      "title": "Looking Beyond Content: Modeling and Detection of Fake News from a Social Context Perspective.",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "xiao2022looking"
+    },
+    {
+      "organization": "Springer International Publishing Cham",
+      "year": "2019",
+      "pages": "29--36",
+      "booktitle": "International Conference on Communications and Networking in China",
+      "author": "Wang, Longwei and Chen, Peijie and Wang, Chengfei and Wang, Rui",
+      "title": "Layer-wise entropy analysis and visualization of neurons activation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "wang2019layer"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2412.07022",
+      "author": "Wang, Longwei and Li, Xueqian and Zhang, Zheng",
+      "title": "Dense cross-connected ensemble convolutional neural networks for enhanced model robustness",
+      "ENTRYTYPE": "article",
+      "ID": "wang2024dense"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2412.18952",
+      "author": "Nayyem, Navid and Rakin, Abdullah and Wang, Longwei",
+      "title": "Bridging Interpretability and Robustness Using LIME-Guided Model Refinement",
+      "ENTRYTYPE": "article",
+      "ID": "nayyem2024bridging"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2412.19747",
+      "author": "Wang, Longwei and Nayyem, Navid and Rakin, Abdullah",
+      "title": "Enhancing Adversarial Robustness of Deep Neural Networks Through Supervised Contrastive Learning",
+      "ENTRYTYPE": "article",
+      "ID": "wang2024enhancing"
+    },
+    {
+      "year": "2025",
+      "pages": "49--57",
+      "number": "1",
+      "volume": "6",
+      "booktitle": "Proceedings of the AAAI Symposium Series",
+      "author": "Wang, Longwei and Uddin, Ifrat Ikhtear and Qin, Xiao and Zhou, Yang and Santosh, KC",
+      "title": "Explainability-driven defense: Grad-cam-guided model refinement against adversarial threats",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "wang2025explainability"
+    },
+    {
+      "year": "2025",
+      "pages": "34--41",
+      "number": "1",
+      "volume": "6",
+      "booktitle": "Proceedings of the AAAI Symposium Series",
+      "author": "Ranabhat, Robin Narsingh and Wang, Longwei and Qin, Xiao and Zhou, Yang and Santosh, KC",
+      "title": "Multi-scale unrectified push-pull with channel attention for enhanced corruption robustness",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ranabhat2025multi"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2509.08007",
+      "author": "Uddin, Ifrat Ikhtear and Wang, Longwei and Santosh, KC",
+      "title": "Expert-Guided Explainable Few-Shot Learning for Medical Image Diagnosis",
+      "ENTRYTYPE": "article",
+      "ID": "uddin2025expert"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2509.11355",
+      "author": "Ranabhat, Robin Narsingh and Wang, Longwei and Patel, Amit Kumar and others",
+      "title": "Promoting Shape Bias in CNNs: Frequency-Based and Contrastive Regularization for Corruption Robustness",
+      "ENTRYTYPE": "article",
+      "ID": "ranabhat2025promoting"
+    }
+  ]
+}

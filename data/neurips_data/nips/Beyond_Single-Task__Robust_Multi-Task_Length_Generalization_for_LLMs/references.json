@@ -1,0 +1,671 @@
+{
+  "pdf_url": "https://arxiv.org/pdf/2502.11525v2.pdf",
+  "references": [
+    {
+      "year": "2022",
+      "pages": "27730--27744",
+      "volume": "35",
+      "journal": "Advances in neural information processing systems",
+      "author": "Ouyang, Long and Wu, Jeffrey and Jiang, Xu and Almeida, Diogo and Wainwright, Carroll and Mishkin, Pamela and Zhang, Chong and Agarwal, Sandhini and Slama, Katarina and Ray, Alex and others",
+      "title": "Training language models to follow instructions with human feedback",
+      "ENTRYTYPE": "article",
+      "ID": "ouyang2022training"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2308.10792",
+      "author": "Zhang, Shengyu and Dong, Linfeng and Li, Xiaoya and Zhang, Sen and Sun, Xiaofei and Wang, Shuhe and Li, Jiwei and Hu, Runyi and Zhang, Tianwei and Wu, Fei and others",
+      "title": "Instruction tuning for large language models: A survey",
+      "ENTRYTYPE": "article",
+      "ID": "zhang2023instruction"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2411.15124",
+      "author": "Lambert, Nathan and Morrison, Jacob and Pyatkin, Valentina and Huang, Shengyi and Ivison, Hamish and Brahman, Faeze and Miranda, Lester James V and Liu, Alisa and Dziri, Nouha and Lyu, Shane and others",
+      "title": "Tulu 3: Pushing frontiers in open language model post-training",
+      "ENTRYTYPE": "article",
+      "ID": "lambert2024t"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2304.12244",
+      "author": "Xu, Can and Sun, Qingfeng and Zheng, Kai and Geng, Xiubo and Zhao, Pu and Feng, Jiazhan and Tao, Chongyang and Jiang, Daxin",
+      "title": "Wizardlm: Empowering large language models to follow complex instructions",
+      "ENTRYTYPE": "article",
+      "ID": "xu2023wizardlm"
+    },
+    {
+      "year": "2022",
+      "pages": "5085--5109",
+      "booktitle": "Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing",
+      "author": "Wang, Yizhong and Mishra, Swaroop and Alipoormolabashi, Pegah and Kordi, Yeganeh and Mirzaei, Amirreza and Naik, Atharva and Ashok, Arjun and Dhanasekaran, Arut Selvan and Arunkumar, Anjana and Stap, David and others",
+      "title": "Super-NaturalInstructions: Generalization via Declarative Instructions on 1600+ NLP Tasks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "wang2022super"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2406.13542",
+      "author": "Dong, Guanting and Lu, Keming and Li, Chengpeng and Xia, Tingyu and Yu, Bowen and Zhou, Chang and Zhou, Jingren",
+      "title": "Self-play with execution feedback: Improving instruction-following capabilities of large language models",
+      "ENTRYTYPE": "article",
+      "ID": "dong2024self"
+    },
+    {
+      "year": "2022",
+      "pages": "38546--38556",
+      "volume": "35",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Anil, Cem and Wu, Yuhuai and Andreassen, Anders and Lewkowycz, Aitor and Misra, Vedant and Ramasesh, Vinay and Slone, Ambrose and Gur-Ari, Guy and Dyer, Ethan and Neyshabur, Behnam",
+      "title": "Exploring length generalization in large language models",
+      "ENTRYTYPE": "article",
+      "ID": "anil2022exploring"
+    },
+    {
+      "url": "https://arxiv.org/abs/2102.13019",
+      "primaryclass": "cs.CL",
+      "archiveprefix": "arXiv",
+      "eprint": "2102.13019",
+      "year": "2021",
+      "author": "Rodrigo Nogueira and Zhiying Jiang and Jimmy Lin",
+      "title": "Investigating the Limitations of Transformers with Simple Arithmetic Tasks",
+      "ENTRYTYPE": "misc",
+      "ID": "nogueira2021investigatinglimitationstransformerssimple"
+    },
+    {
+      "booktitle": "International Conference on Learning Representations",
+      "author": "Press, Ofir and Smith, Noah and Lewis, Mike",
+      "title": "Train Short, Test Long: Attention with Linear Biases Enables Input Length Extrapolation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "press2022trainshorttestlong"
+    },
+    {
+      "url": "https://api.semanticscholar.org/CorpusID:273850412",
+      "volume": "abs/2411.03766",
+      "year": "2024",
+      "journal": "ArXiv",
+      "author": "Haotong Yang and Yi Hu and Shijia Kang and Zhouchen Lin and Muhan Zhang",
+      "title": "Number Cookbook: Number Understanding of Language Models and How to Improve It",
+      "ENTRYTYPE": "article",
+      "ID": "yang2024numbercookbooknumberunderstanding"
+    },
+    {
+      "year": "2024",
+      "booktitle": "Forty-first International Conference on Machine Learning",
+      "author": "Hu, Yi and Tang, Xiaojuan and Yang, Haotong and Zhang, Muhan",
+      "title": "Case-Based or Rule-Based: How Do Transformers Do the Math?",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "hu2024casebasedrulebasedtransformersmath"
+    },
+    {
+      "year": "2023",
+      "pages": "70293--70332",
+      "volume": "36",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Dziri, Nouha and Lu, Ximing and Sclar, Melanie and Li, Xiang Lorraine and Jiang, Liwei and Lin, Bill Yuchen and Welleck, Sean and West, Peter and Bhagavatula, Chandra and Le Bras, Ronan and others",
+      "title": "Faith and fate: Limits of transformers on compositionality",
+      "ENTRYTYPE": "article",
+      "ID": "dziri2023faith"
+    },
+    {
+      "year": "2024",
+      "pages": "1819--1862",
+      "booktitle": "Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers)",
+      "author": "Wu, Zhaofeng and Qiu, Linlu and Ross, Alexis and Aky{\\\"u}rek, Ekin and Chen, Boyuan and Wang, Bailin and Kim, Najoung and Andreas, Jacob and Kim, Yoon",
+      "title": "Reasoning or reciting? exploring the capabilities and limitations of language models through counterfactual tasks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "wu2023reasoning-or-reciting"
+    },
+    {
+      "year": "2023",
+      "pages": "39321--39362",
+      "volume": "36",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Zhang, Chiyuan and Ippolito, Daphne and Lee, Katherine and Jagielski, Matthew and Tram{\\`e}r, Florian and Carlini, Nicholas",
+      "title": "Counterfactual memorization in neural language models",
+      "ENTRYTYPE": "article",
+      "ID": "zhang2023counterfactual"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2201.02177",
+      "author": "Power, Alethea and Burda, Yuri and Edwards, Harri and Babuschkin, Igor and Misra, Vedant",
+      "title": "Grokking: Generalization beyond overfitting on small algorithmic datasets",
+      "ENTRYTYPE": "article",
+      "ID": "power2022grokking"
+    },
+    {
+      "booktitle": "The Eleventh International Conference on Learning Representations",
+      "author": "Nanda, Neel and Chan, Lawrence and Lieberum, Tom and Smith, Jess and Steinhardt, Jacob",
+      "title": "Progress measures for grokking via mechanistic interpretability",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "nanda2023progress"
+    },
+    {
+      "year": "2023",
+      "pages": "27223--27250",
+      "volume": "36",
+      "journal": "Advances in neural information processing systems",
+      "author": "Zhong, Ziqian and Liu, Ziming and Tegmark, Max and Andreas, Jacob",
+      "title": "The clock and the pizza: Two stories in mechanistic explanation of neural networks",
+      "ENTRYTYPE": "article",
+      "ID": "zhong2023clock"
+    },
+    {
+      "year": "2022",
+      "pages": "34651--34663",
+      "volume": "35",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Liu, Ziming and Kitouni, Ouail and Nolte, Niklas S and Michaud, Eric and Tegmark, Max and Williams, Mike",
+      "title": "Towards understanding grokking: An effective theory of representation learning",
+      "ENTRYTYPE": "article",
+      "ID": "liu2022understanding"
+    },
+    {
+      "booktitle": "The Eleventh International Conference on Learning Representations",
+      "author": "Aky{\\\"u}rek, Ekin and Schuurmans, Dale and Andreas, Jacob and Ma, Tengyu and Zhou, Denny",
+      "title": "What learning algorithm is in-context learning? Investigations with linear models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "akyurek2022learning"
+    },
+    {
+      "primaryclass": "cs.AI",
+      "archiveprefix": "arXiv",
+      "eprint": "2310.05452",
+      "year": "2023",
+      "author": "Haotong Yang and Fanxu Meng and Zhouchen Lin and Muhan Zhang",
+      "title": "Explaining the Complex Task Reasoning of Large Language Models with Template-Content Structure",
+      "ENTRYTYPE": "misc",
+      "ID": "yang2023explaining"
+    },
+    {
+      "organization": "ICLR 2024",
+      "year": "2024",
+      "booktitle": "International Conference on Learning Representations",
+      "author": "Lee, Nayoung and Sreenivasan, Kartik and Lee, Jason D and Lee, Kangwook and Papailiopoulos, DImitris",
+      "title": "Teaching Arithmetic to Small Transformers",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "lee2023teaching"
+    },
+    {
+      "year": "2023",
+      "pages": "24892--24928",
+      "volume": "36",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Kazemnejad, Amirhossein and Padhi, Inkit and Natesan Ramamurthy, Karthikeyan and Das, Payel and Reddy, Siva",
+      "title": "The impact of positional encoding on length generalization in transformers",
+      "ENTRYTYPE": "article",
+      "ID": "kazemnejad2023impact"
+    },
+    {
+      "primaryclass": "cs.CL",
+      "archiveprefix": "arXiv",
+      "eprint": "2311.14737",
+      "year": "2023",
+      "author": "Ruoqi Shen and Sébastien Bubeck and Ronen Eldan and Yin Tat Lee and Yuanzhi Li and Yi Zhang",
+      "title": "Positional Description Matters for Transformers Arithmetic",
+      "ENTRYTYPE": "misc",
+      "ID": "shen2023positional"
+    },
+    {
+      "booktitle": "ICLR 2024 Workshop on Mathematical and Empirical Understanding of Foundation Models",
+      "author": "Zhou, Yongchao and Alon, Uri and Chen, Xinyun and Wang, Xuezhi and Agarwal, Rishabh and Zhou, Denny",
+      "title": "Transformers Can Achieve Length Generalization But Not Robustly",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zhou2024transformers"
+    },
+    {
+      "year": "2024",
+      "pages": "1--58",
+      "number": "331",
+      "volume": "25",
+      "journal": "Journal of Machine Learning Research",
+      "author": "Abbe, Emmanuel and Bengio, Samy and Lotfi, Aryo and Rizk, Kevin",
+      "title": "Generalization on the unseen, logic reasoning and degree curriculum",
+      "ENTRYTYPE": "article",
+      "ID": "abbe2023generalization"
+    },
+    {
+      "url": "https://arxiv.org/abs/2407.03310",
+      "primaryclass": "cs.LG",
+      "archiveprefix": "arXiv",
+      "eprint": "2407.03310",
+      "year": "2024",
+      "author": "Kaiying Hou and David Brandfonbrener and Sham Kakade and Samy Jelassi and Eran Malach",
+      "title": "Universal Length Generalization with Turing Programs",
+      "ENTRYTYPE": "misc",
+      "ID": "hou2024universallengthgeneralizationturing"
+    },
+    {
+      "year": "2024",
+      "booktitle": "The Thirty-eighth Annual Conference on Neural Information Processing Systems",
+      "author": "Cho, Hanseul and Cha, Jaeyoung and Awasthi, Pranjal and Bhojanapalli, Srinadh and Gupta, Anupam and Yun, Chulhee",
+      "title": "Position Coupling: Improving Length Generalization of Arithmetic Transformers Using Task Structure",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "cho2024positioncouplingimprovinglength"
+    },
+    {
+      "url": "https://arxiv.org/abs/2310.00726",
+      "primaryclass": "cs.LG",
+      "archiveprefix": "arXiv",
+      "eprint": "2310.00726",
+      "year": "2023",
+      "author": "Pranjal Awasthi and Anupam Gupta",
+      "title": "Improving Length-Generalization in Transformers via Task Hinting",
+      "ENTRYTYPE": "misc",
+      "ID": "awasthi2023improvinglengthgeneralizationtransformerstask"
+    },
+    {
+      "year": "2024",
+      "pages": "108012--108041",
+      "volume": "37",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "McLeish, Sean and Bansal, Arpit and Stein, Alex and Jain, Neel and Kirchenbauer, John and Bartoldson, Brian and Kailkhura, Bhavya and Bhatele, Abhinav and Geiping, Jonas and Schwarzschild, Avi and others",
+      "title": "Transformers can do arithmetic with the right embeddings",
+      "ENTRYTYPE": "article",
+      "ID": "mcleish2024transformersarithmeticrightembeddings"
+    },
+    {
+      "year": "2024",
+      "booktitle": "The Thirteenth International Conference on Learning Representations",
+      "author": "Cho, Hanseul and Cha, Jaeyoung and Bhojanapalli, Srinadh and Yun, Chulhee",
+      "title": "Arithmetic Transformers Can Length-Generalize in Both Operand Length and Count",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "cho2024arithmetictransformerslengthgeneralizeoperand"
+    },
+    {
+      "year": "2023",
+      "booktitle": "The Twelfth International Conference on Learning Representations",
+      "author": "Zhou, Hattie and Bradley, Arwen and Littwin, Etai and Razin, Noam and Saremi, Omid and Susskind, Joshua M and Bengio, Samy and Nakkiran, Preetum",
+      "title": "What Algorithms can Transformers Learn? A Study in Length Generalization",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zhou2023length"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2023",
+      "pages": "10764--10799",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Gao, Luyu and Madaan, Aman and Zhou, Shuyan and Alon, Uri and Liu, Pengfei and Yang, Yiming and Callan, Jamie and Neubig, Graham",
+      "title": "Pal: Program-aided language models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "gao2023palprogramaidedlanguagemodels"
+    },
+    {
+      "url": "https://arxiv.org/abs/2305.18507",
+      "primaryclass": "cs.CL",
+      "archiveprefix": "arXiv",
+      "eprint": "2305.18507",
+      "year": "2023",
+      "author": "Yi Hu and Haotong Yang and Zhouchen Lin and Muhan Zhang",
+      "title": "Code Prompting: a Neural Symbolic Method for Complex Reasoning in Large Language Models",
+      "ENTRYTYPE": "misc",
+      "ID": "hu2023codepromptingneuralsymbolic"
+    },
+    {
+      "year": "2023",
+      "journal": "Transactions on Machine Learning Research",
+      "author": "Chen, Wenhu and Ma, Xueguang and Wang, Xinyi and Cohen, William W",
+      "title": "Program of Thoughts Prompting: Disentangling Computation from Reasoning for Numerical Reasoning Tasks",
+      "ENTRYTYPE": "article",
+      "ID": "chen2023programthoughtspromptingdisentangling"
+    },
+    {
+      "year": "2021",
+      "booktitle": "Deep Learning for Code Workshop",
+      "author": "Nye, Maxwell and Andreassen, Anders Johan and Gur-Ari, Guy and Michalewski, Henryk and Austin, Jacob and Bieber, David and Dohan, David and Lewkowycz, Aitor and Bosma, Maarten and Luan, David and others",
+      "title": "Show Your Work: Scratchpads for Intermediate Computation with Language Models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "nye2021workscratchpadsintermediatecomputation"
+    },
+    {
+      "year": "2024",
+      "booktitle": "12th International Conference on Learning Representations, ICLR 2024",
+      "author": "Jimenez, Carlos E and Yang, John and Wettig, Alexander and Yao, Shunyu and Pei, Kexin and Press, Ofir and Narasimhan, Karthik",
+      "title": "SWE-BENCH: CAN LANGUAGE MODELS RESOLVE REAL-WORLD GITHUB ISSUES?",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "jimenez2024swebenchlanguagemodelsresolve"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2024",
+      "pages": "28259--28277",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Li, Chengshu and Liang, Jacky and Zeng, Andy and Chen, Xinyun and Hausman, Karol and Sadigh, Dorsa and Levine, Sergey and Fei-Fei, Li and Xia, Fei and Ichter, Brian",
+      "title": "Chain of Code: Reasoning with a Language Model-Augmented Code Emulator",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "li2024chaincodereasoninglanguage"
+    },
+    {
+      "year": "2024",
+      "booktitle": "The Thirteenth International Conference on Learning Representations",
+      "author": "Yang, John and Jimenez, Carlos E and Zhang, Alex L and Lieret, Kilian and Yang, Joyce and Wu, Xindi and Press, Ori and Muennighoff, Niklas and Synnaeve, Gabriel and Narasimhan, Karthik R and others",
+      "title": "SWE-bench Multimodal: Do AI Systems Generalize to Visual Software Domains?",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "yang2024swebenchmultimodalaisystems"
+    },
+    {
+      "year": "2024",
+      "booktitle": "The Thirteenth International Conference on Learning Representations",
+      "author": "Wang, Xingyao and Li, Boxuan and Song, Yufan and Xu, Frank F and Tang, Xiangru and Zhuge, Mingchen and Pan, Jiayi and Song, Yueqi and Li, Bowen and Singh, Jaskirat and others",
+      "title": "Openhands: An open platform for ai software developers as generalist agents",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "wang2024openhandsopenplatformai"
+    },
+    {
+      "year": "2024",
+      "pages": "121038--121072",
+      "volume": "37",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Meng, Fanxu and Wang, Zhaohui and Zhang, Muhan",
+      "title": "Pissa: Principal singular values and singular vectors adaptation of large language models",
+      "ENTRYTYPE": "article",
+      "ID": "mengPiSSAPrincipalSingular2024b"
+    },
+    {
+      "archiveprefix": "arXiv",
+      "urldate": "2025-01-26",
+      "doi": "10.48550/arXiv.2412.15115",
+      "publisher": "arXiv",
+      "primaryclass": "cs",
+      "eprint": "2412.15115",
+      "number": "arXiv:2412.15115",
+      "month": "January",
+      "year": "2025",
+      "author": "{Qwen Team}",
+      "title": "Qwen2.5 Technical Report",
+      "ENTRYTYPE": "misc",
+      "ID": "qwenQwen25TechnicalReport2025"
+    },
+    {
+      "year": "2023",
+      "booktitle": "ACL (Findings)",
+      "author": "Suzgun, Mirac and Scales, Nathan and Sch{\\\"a}rli, Nathanael and Gehrmann, Sebastian and Tay, Yi and Chung, Hyung Won and Chowdhery, Aakanksha and Le, Quoc V and Chi, Ed H and Zhou, Denny and others",
+      "title": "Challenging BIG-Bench Tasks and Whether Chain-of-Thought Can Solve Them",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "suzgunChallengingBIGBenchTasks2022"
+    },
+    {
+      "year": "2022",
+      "pages": "24824--24837",
+      "volume": "35",
+      "journal": "Advances in neural information processing systems",
+      "author": "Wei, Jason and Wang, Xuezhi and Schuurmans, Dale and Bosma, Maarten and Xia, Fei and Chi, Ed and Le, Quoc V and Zhou, Denny and others",
+      "title": "Chain-of-thought prompting elicits reasoning in large language models",
+      "ENTRYTYPE": "article",
+      "ID": "weiChainofThoughtPromptingElicits2023a"
+    },
+    {
+      "url": "https://arxiv.org/abs/2309.16609",
+      "primaryclass": "cs.CL",
+      "archiveprefix": "arXiv",
+      "eprint": "2309.16609",
+      "year": "2023",
+      "author": "Jinze Bai and Shuai Bai and Yunfei Chu and Zeyu Cui and Kai Dang and Xiaodong Deng and Yang Fan and Wenbin Ge and Yu Han and Fei Huang and others",
+      "title": "Qwen Technical Report",
+      "ENTRYTYPE": "misc",
+      "ID": "bai2023qwentechnicalreport"
+    },
+    {
+      "url": "https://arxiv.org/abs/2412.15115",
+      "primaryclass": "cs.CL",
+      "archiveprefix": "arXiv",
+      "eprint": "2412.15115",
+      "year": "2025",
+      "author": "{Qwen Team}",
+      "title": "Qwen2.5 Technical Report",
+      "ENTRYTYPE": "misc",
+      "ID": "qwen2025qwen25technicalreport"
+    },
+    {
+      "url": "https://arxiv.org/abs/2407.10671",
+      "primaryclass": "cs.CL",
+      "archiveprefix": "arXiv",
+      "eprint": "2407.10671",
+      "year": "2024",
+      "author": "An Yang and Baosong Yang and Binyuan Hui and Bo Zheng and Bowen Yu and Chang Zhou and Chengpeng Li and Chengyuan Li and Dayiheng Liu and Fei Huang and others",
+      "title": "Qwen2 Technical Report",
+      "ENTRYTYPE": "misc",
+      "ID": "yang2024qwen2technicalreport"
+    },
+    {
+      "url": "https://arxiv.org/abs/2302.13971",
+      "primaryclass": "cs.CL",
+      "archiveprefix": "arXiv",
+      "eprint": "2302.13971",
+      "year": "2023",
+      "author": "Hugo Touvron and Thibaut Lavril and Gautier Izacard and Xavier Martinet and Marie-Anne Lachaux and Timothée Lacroix and Baptiste Rozière and Naman Goyal and Eric Hambro and Faisal Azhar and others",
+      "title": "LLaMA: Open and Efficient Foundation Language Models",
+      "ENTRYTYPE": "misc",
+      "ID": "touvron2023llamaopenefficientfoundation"
+    },
+    {
+      "url": "https://arxiv.org/abs/2407.21783",
+      "primaryclass": "cs.AI",
+      "archiveprefix": "arXiv",
+      "eprint": "2407.21783",
+      "year": "2024",
+      "author": "Aaron Grattafiori and Abhimanyu Dubey and Abhinav Jauhri and Abhinav Pandey and Abhishek Kadian and Ahmad Al-Dahle and Aiesha Letman and Akhil Mathur and Alan Schelten and Alex Vaughan and others",
+      "title": "The Llama 3 Herd of Models",
+      "ENTRYTYPE": "misc",
+      "ID": "grattafiori2024llama3herdmodels"
+    },
+    {
+      "url": "https://arxiv.org/abs/2307.09288",
+      "primaryclass": "cs.CL",
+      "archiveprefix": "arXiv",
+      "eprint": "2307.09288",
+      "year": "2023",
+      "author": "Hugo Touvron and Louis Martin and Kevin Stone and Peter Albert and Amjad Almahairi and Yasmine Babaei and Nikolay Bashlykov and Soumya Batra and Prajjwal Bhargava and Shruti Bhosale and others",
+      "title": "Llama 2: Open Foundation and Fine-Tuned Chat Models",
+      "ENTRYTYPE": "misc",
+      "ID": "touvron2023llama2openfoundation"
+    },
+    {
+      "url": "https://arxiv.org/abs/2412.19437",
+      "primaryclass": "cs.CL",
+      "archiveprefix": "arXiv",
+      "eprint": "2412.19437",
+      "year": "2024",
+      "author": "DeepSeek-AI",
+      "title": "DeepSeek-V3 Technical Report",
+      "ENTRYTYPE": "misc",
+      "ID": "deepseekai2024deepseekv3technicalreport"
+    },
+    {
+      "url": "https://arxiv.org/abs/2401.02954",
+      "primaryclass": "cs.CL",
+      "archiveprefix": "arXiv",
+      "eprint": "2401.02954",
+      "year": "2024",
+      "author": "DeepSeek-AI",
+      "title": "DeepSeek LLM: Scaling Open-Source Language Models with Longtermism",
+      "ENTRYTYPE": "misc",
+      "ID": "deepseekai2024deepseekllmscalingopensource"
+    },
+    {
+      "url": "https://arxiv.org/abs/2411.14405",
+      "primaryclass": "cs.CL",
+      "archiveprefix": "arXiv",
+      "eprint": "2411.14405",
+      "year": "2024",
+      "author": "Yu Zhao and Huifeng Yin and Bo Zeng and Hao Wang and Tianqi Shi and Chenyang Lyu and Longyue Wang and Weihua Luo and Kaifu Zhang",
+      "title": "Marco-o1: Towards Open Reasoning Models for Open-Ended Solutions",
+      "ENTRYTYPE": "misc",
+      "ID": "zhao2024marcoo1openreasoningmodels"
+    },
+    {
+      "url": "https://arxiv.org/abs/2411.10440",
+      "primaryclass": "cs.CV",
+      "archiveprefix": "arXiv",
+      "eprint": "2411.10440",
+      "year": "2025",
+      "author": "Guowei Xu and Peng Jin and Hao Li and Yibing Song and Lichao Sun and Li Yuan",
+      "title": "LLaVA-CoT: Let Vision Language Models Reason Step-by-Step",
+      "ENTRYTYPE": "misc",
+      "ID": "xu2025llavacotletvisionlanguage"
+    },
+    {
+      "url": "https://arxiv.org/abs/2501.11284",
+      "primaryclass": "cs.LG",
+      "archiveprefix": "arXiv",
+      "eprint": "2501.11284",
+      "year": "2025",
+      "author": "Haotian Xu and Xing Wu and Weinong Wang and Zhongzhi Li and Da Zheng and Boyuan Chen and Yi Hu and Shijia Kang and Jiaming Ji and Yingying Zhang and others",
+      "title": "RedStar: Does Scaling Long-CoT Data Unlock Better Slow-Reasoning Systems?",
+      "ENTRYTYPE": "misc",
+      "ID": "xu2025redstardoesscalinglongcot"
+    },
+    {
+      "url": "https://arxiv.org/abs/2501.12948",
+      "primaryclass": "cs.CL",
+      "archiveprefix": "arXiv",
+      "eprint": "2501.12948",
+      "year": "2025",
+      "author": "DeepSeek-AI",
+      "title": "DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning",
+      "ENTRYTYPE": "misc",
+      "ID": "deepseekai2025deepseekr1incentivizingreasoningcapability"
+    },
+    {
+      "url": "https://arxiv.org/abs/2410.09671",
+      "primaryclass": "cs.AI",
+      "archiveprefix": "arXiv",
+      "eprint": "2410.09671",
+      "year": "2024",
+      "author": "Jun Wang and Meng Fang and Ziyu Wan and Muning Wen and Jiachen Zhu and Anjie Liu and Ziqin Gong and Yan Song and Lei Chen and Lionel M. Ni and Linyi Yang and Ying Wen and Weinan Zhang",
+      "title": "OpenR: An Open Source Framework for Advanced Reasoning with Large Language Models",
+      "ENTRYTYPE": "misc",
+      "ID": "wang2024openropensourceframework"
+    },
+    {
+      "url": "https://arxiv.org/abs/2501.12599",
+      "primaryclass": "cs.AI",
+      "archiveprefix": "arXiv",
+      "eprint": "2501.12599",
+      "year": "2025",
+      "author": "Kimi Team",
+      "title": "Kimi k1.5: Scaling Reinforcement Learning with LLMs",
+      "ENTRYTYPE": "misc",
+      "ID": "kimiteam2025kimik15scalingreinforcement"
+    },
+    {
+      "url": "https://openai.com/index/learning-to-reason-with-llms/",
+      "year": "2024",
+      "title": "Learning to reason with LLMs",
+      "author": "OpenAI",
+      "ENTRYTYPE": "misc",
+      "ID": "openaio1"
+    },
+    {
+      "url": "https://api.semanticscholar.org/CorpusID:17443854",
+      "year": "2009",
+      "author": "oboru Matsuda and Noboru Matsuda and Andrew Lee and William W. Cohen and K. Koedinger",
+      "title": "A Computational Model of How Learner Errors Arise from Weak Prior Knowledge",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "Matsuda2009ACM"
+    },
+    {
+      "url": "https://api.semanticscholar.org/CorpusID:59909572",
+      "year": "2007",
+      "author": "Julie L. Booth and K. Koedinger and Robert S. Siegler",
+      "title": "The Effect of Prior Conceptual Knowledge on Procedural Performance and Learning in Algebra",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "Booth2007TheEO"
+    },
+    {
+      "author": "Michelene T.H. Chi and Paul J. Feltovich and Robert Glaser",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0364021381800298",
+      "issn": "0364-0213",
+      "year": "1981",
+      "pages": "121-152",
+      "number": "2",
+      "volume": "5",
+      "journal": "Cognitive Science",
+      "title": "Categorization and representation of physics problems by experts and novices",
+      "ENTRYTYPE": "article",
+      "ID": "categorization"
+    },
+    {
+      "note": "\\url{https://openai.com/blog/chatgpt}",
+      "title": "Introducing ChatGPT",
+      "year": "2022",
+      "author": "OpenAI",
+      "ENTRYTYPE": "misc",
+      "ID": "chatgpt"
+    },
+    {
+      "primaryclass": "cs.CL",
+      "archiveprefix": "arXiv",
+      "eprint": "2303.08774",
+      "year": "2023",
+      "author": "OpenAI",
+      "title": "GPT-4 Technical Report",
+      "ENTRYTYPE": "misc",
+      "ID": "gpt4"
+    },
+    {
+      "url": "https://arxiv.org/abs/2310.19341",
+      "primaryclass": "cs.CL",
+      "archiveprefix": "arXiv",
+      "eprint": "2310.19341",
+      "year": "2023",
+      "author": "Tianwen Wei and Liang Zhao and Lichang Zhang and Bo Zhu and Lijie Wang and Haihua Yang and Biye Li and Cheng Cheng and Weiwei Lü and Rui Hu and others",
+      "title": "Skywork: A More Open Bilingual Foundation Model",
+      "ENTRYTYPE": "misc",
+      "ID": "wei2023skyworkopenbilingualfoundation"
+    },
+    {
+      "year": "2024",
+      "pages": "6270--6278",
+      "booktitle": "Proceedings of the Thirty-Third International Joint Conference on Artificial Intelligence",
+      "author": "Gendron, Ga{\\\"e}l and Bao, Qiming and Witbrock, Michael and Dobbie, Gillian",
+      "title": "Large language models are not strong abstract reasoners",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "gendron2024largelanguagemodelsstrong"
+    },
+    {
+      "year": "2023",
+      "pages": "675--718",
+      "booktitle": "Proceedings of the 13th International Joint Conference on Natural Language Processing and the 3rd Conference of the Asia-Pacific Chapter of the Association for Computational Linguistics (Volume 1: Long Papers)",
+      "author": "Bang, Yejin and Cahyawijaya, Samuel and Lee, Nayeon and Dai, Wenliang and Su, Dan and Wilie, Bryan and Lovenia, Holy and Ji, Ziwei and Yu, Tiezheng and Chung, Willy and others",
+      "title": "A Multitask, Multilingual, Multimodal Evaluation of ChatGPT on Reasoning, Hallucination, and Interactivity",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "bang2023multitaskmultilingualmultimodalevaluation"
+    },
+    {
+      "year": "2023",
+      "booktitle": "AAAI 2024 Workshop on''Are Large Language Models Simply Causal Parrots?''",
+      "author": "Mitchell, Melanie and Palmarini, Alessandro B and Moskvichev, Arsenii Kirillovich",
+      "title": "Comparing Humans, GPT-4, and GPT-4V On Abstraction and Reasoning Tasks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "mitchell2023comparinghumansgpt4gpt4v"
+    },
+    {
+      "year": "2024",
+      "pages": "209--225",
+      "booktitle": "Proceedings of the 18th Conference of the European Chapter of the Association for Computational Linguistics (Volume 1: Long Papers)",
+      "author": "Yang, Zonglin and Dong, Li and Du, Xinya and Cheng, Hao and Cambria, Erik and Liu, Xiaodong and Gao, Jianfeng and Wei, Furu",
+      "title": "Language Models as Inductive Reasoners",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "yang2024languagemodelsinductivereasoners"
+    },
+    {
+      "year": "2023",
+      "journal": "Transactions on machine learning research",
+      "author": "Moskvichev, Arsenii Kirillovich and Odouard, Victor Vikram and Mitchell, Melanie",
+      "title": "The ConceptARC Benchmark: Evaluating Understanding and Generalization in the ARC Domain",
+      "ENTRYTYPE": "article",
+      "ID": "moskvichev2023conceptarcbenchmarkevaluatingunderstanding"
+    },
+    {
+      "year": "2017",
+      "journal": "arXiv preprint arXiv:1707.06347",
+      "author": "Schulman, John and Wolski, Filip and Dhariwal, Prafulla and Radford, Alec and Klimov, Oleg",
+      "title": "Proximal policy optimization algorithms",
+      "ENTRYTYPE": "article",
+      "ID": "schulman_proximal_2017"
+    }
+  ]
+}

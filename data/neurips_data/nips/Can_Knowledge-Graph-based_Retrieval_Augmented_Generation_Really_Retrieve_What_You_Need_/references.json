@@ -1,0 +1,988 @@
+{
+  "pdf_url": "https://arxiv.org/pdf/2510.16582v1.pdf",
+  "references": [
+    {
+      "year": "2024",
+      "booktitle": "Proceedings of the Twelfth International Conference on Learning Representations",
+      "author": "Yu, Junchi and He, Ran and Ying, Zhitao",
+      "title": "THOUGHT PROPAGATION: AN ANALOGICAL APPROACH TO COMPLEX REASONING WITH LARGE LANGUAGE MODELS",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "yuthought"
+    },
+    {
+      "year": "2022",
+      "pages": "19396--19405",
+      "booktitle": "Proceedings of the IEEE/CVF conference on computer vision and pattern recognition",
+      "author": "Yu, Junchi and Cao, Jie and He, Ran",
+      "title": "Improving subgraph recognition with variational graph information bottleneck",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "yu2022improving"
+    },
+    {
+      "year": "2023",
+      "pages": "67866--67885",
+      "volume": "36",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Lin, Runqi and Yu, Chaojian and Liu, Tongliang",
+      "title": "Eliminating catastrophic overfitting via abnormal adversarial examples regularization",
+      "ENTRYTYPE": "article",
+      "ID": "lin2023eliminating"
+    },
+    {
+      "year": "2024",
+      "booktitle": "The Twelfth International Conference on Learning Representations",
+      "author": "Lin, Runqi and Yu, Chaojian and Han, Bo and Liu, Tongliang",
+      "title": "On the Over-Memorization During Natural, Robust and Catastrophic Overfitting",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "linover"
+    },
+    {
+      "year": "2023",
+      "pages": "11620--11630",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Yu, Junchi and Liang, Jian and He, Ran",
+      "title": "Mind the label shift of augmentation-based graph ood generalization",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "yu2023mind"
+    },
+    {
+      "year": "2022",
+      "pages": "22131--22148",
+      "volume": "35",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Chen, Yongqiang and Zhang, Yonggang and Bian, Yatao and Yang, Han and Kaili, MA and Xie, Binghui and Liu, Tongliang and Han, Bo and Cheng, James",
+      "title": "Learning causally invariant representations for out-of-distribution generalization on graphs",
+      "ENTRYTYPE": "article",
+      "ID": "chen2022learning"
+    },
+    {
+      "year": "2024",
+      "pages": "102307--102365",
+      "volume": "37",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Liu, Chenxi and Chen, Yongqiang and Liu, Tongliang and Gong, Mingming and Cheng, James and Han, Bo and Zhang, Kun",
+      "title": "Discovery of the hidden world with large language models",
+      "ENTRYTYPE": "article",
+      "ID": "liu2024discovery"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2506.22518",
+      "author": "Zou, Deyu and Chen, Yongqiang and Li, Mufei and Miao, Siqi and Liu, Chenxi and Han, Bo and Cheng, James and Li, Pan",
+      "title": "Weak-to-Strong GraphRAG: Aligning Weak Retrievers with Large Language Models for Graph-based Retrieval Augmented Generation",
+      "ENTRYTYPE": "article",
+      "ID": "zou2025weak"
+    },
+    {
+      "year": "2021",
+      "booktitle": "International Conference on Learning Representations",
+      "author": "Yu, Junchi and Xu, Tingyang and Rong, Yu and Bian, Yatao and Huang, Junzhou and He, Ran",
+      "title": "Graph Information Bottleneck for Subgraph Recognition",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "yugraph"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2509.01396",
+      "author": "Wan, Haiyuan and Yang, Chen and Yu, Junchi and Tu, Meiqi and Lu, Jiaxuan and Yu, Di and Cao, Jianbao and Gao, Ben and Xie, Jiaqing and Wang, Aoran and others",
+      "title": "DeepResearch Arena: The First Exam of LLMs' Research Abilities via Seminar-Grounded Tasks",
+      "ENTRYTYPE": "article",
+      "ID": "wan2025deepresearch"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2509.23768",
+      "author": "Yang, Cheng and Lu, Jiaxuan and Wan, Haiyuan and Yu, Junchi and Qin, Feiwei",
+      "title": "From What to Why: A Multi-Agent System for Evidence-based Chemical Reaction Condition Reasoning",
+      "ENTRYTYPE": "article",
+      "ID": "yang2025multi"
+    },
+    {
+      "publisher": "MIT Press One Broadway, 12th Floor, Cambridge, Massachusetts 02142, USA~…",
+      "year": "2024",
+      "pages": "157--173",
+      "volume": "12",
+      "journal": "Transactions of the Association for Computational Linguistics",
+      "author": "Liu, Nelson F and Lin, Kevin and Hewitt, John and Paranjape, Ashwin and Bevilacqua, Michele and Petroni, Fabio and Liang, Percy",
+      "title": "Lost in the middle: How language models use long contexts",
+      "ENTRYTYPE": "article",
+      "ID": "liu2024lost"
+    },
+    {
+      "year": "2024",
+      "pages": "132876--132907",
+      "volume": "37",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "He, Xiaoxin and Tian, Yijun and Sun, Yifei and Chawla, Nitesh and Laurent, Thomas and LeCun, Yann and Bresson, Xavier and Hooi, Bryan",
+      "title": "G-retriever: Retrieval-augmented generation for textual graph understanding and question answering",
+      "ENTRYTYPE": "article",
+      "ID": "he2024g"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2501.00309",
+      "author": "Han, Haoyu and Wang, Yu and Shomer, Harry and Guo, Kai and Ding, Jiayuan and Lei, Yongjia and Halappanavar, Mahantesh and Rossi, Ryan A and Mukherjee, Subhabrata and Tang, Xianfeng and others",
+      "title": "Retrieval-augmented generation with graphs (graphrag)",
+      "ENTRYTYPE": "article",
+      "ID": "han2024retrieval"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2503.11657",
+      "author": "Li, Vincent and Fu, Yule and Knappe, Tim and Han, Kevin and Zhu, Kevin",
+      "title": "Automating Mathematical Proof Generation Using Large Language Model Agents and Knowledge Graphs",
+      "ENTRYTYPE": "article",
+      "ID": "li2025automating"
+    },
+    {
+      "year": "2021",
+      "pages": "535--546",
+      "booktitle": "Proceedings of the 2021 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies",
+      "author": "Yasunaga, Michihiro and Ren, Hongyu and Bosselut, Antoine and Liang, Percy and Leskovec, Jure",
+      "title": "QA-GNN: Reasoning with Language Models and Knowledge Graphs for Question Answering",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "yasunaga2021qa"
+    },
+    {
+      "publisher": "ACM New York, NY, USA",
+      "year": "2021",
+      "pages": "1--37",
+      "number": "4",
+      "volume": "54",
+      "journal": "ACM Computing Surveys (Csur)",
+      "author": "Hogan, Aidan and Blomqvist, Eva and Cochez, Michael and d’Amato, Claudia and Melo, Gerard De and Gutierrez, Claudio and Kirrane, Sabrina and Gayo, Jos{\\'e} Emilio Labra and Navigli, Roberto and Neumaier, Sebastian and others",
+      "title": "Knowledge graphs",
+      "ENTRYTYPE": "article",
+      "ID": "hogan2021knowledge"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2023",
+      "pages": "30956--30975",
+      "booktitle": "International conference on machine learning",
+      "author": "Shen, Max W and Bengio, Emmanuel and Hajiramezanali, Ehsan and Loukas, Andreas and Cho, Kyunghyun and Biancalani, Tommaso",
+      "title": "Towards understanding and improving gflownet training",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "shen2023towards"
+    },
+    {
+      "publisher": "JSTOR",
+      "year": "1952",
+      "pages": "324--345",
+      "number": "3/4",
+      "volume": "39",
+      "journal": "Biometrika",
+      "author": "Bradley, Ralph Allan and Terry, Milton E",
+      "title": "Rank analysis of incomplete block designs: I. The method of paired comparisons",
+      "ENTRYTYPE": "article",
+      "ID": "bradley1952rank"
+    },
+    {
+      "year": "2021",
+      "booktitle": "Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing",
+      "author": "Gao, Luyu and Callan, Jamie",
+      "title": "Condenser: a Pre-training Architecture for Dense Retrieval",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "gao2021condenser"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2407.10805",
+      "author": "Ma, Shengjie and Xu, Chengjin and Jiang, Xuhui and Li, Muzhi and Qu, Huaren and Yang, Cehao and Mao, Jiaxin and Guo, Jian",
+      "title": "Think-on-Graph 2.0: Deep and Faithful Large Language Model Reasoning with Knowledge-guided Retrieval Augmented Generation",
+      "ENTRYTYPE": "article",
+      "ID": "ma2024think"
+    },
+    {
+      "year": "2024",
+      "pages": "127129--127153",
+      "volume": "37",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Wu, Shirley and Zhao, Shiyu and Yasunaga, Michihiro and Huang, Kexin and Cao, Kaidi and Huang, Qian and Ioannidis, Vassilis and Subbian, Karthik and Zou, James Y and Leskovec, Jure",
+      "title": "Stark: Benchmarking llm retrieval on textual and relational knowledge bases",
+      "ENTRYTYPE": "article",
+      "ID": "wu2024stark"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2307.10169",
+      "author": "Kaddour, Jean and Harris, Joshua and Mozes, Maximilian and Bradley, Herbie and Raileanu, Roberta and McHardy, Robert",
+      "title": "Challenges and applications of large language models",
+      "ENTRYTYPE": "article",
+      "ID": "kaddour2023challenges"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2309.01219",
+      "author": "Zhang, Yue and Li, Yafu and Cui, Leyang and Cai, Deng and Liu, Lemao and Fu, Tingchen and Huang, Xinting and Zhao, Enbo and Zhang, Yu and Chen, Yulong and others",
+      "title": "Siren's song in the AI ocean: a survey on hallucination in large language models",
+      "ENTRYTYPE": "article",
+      "ID": "zhang2023siren"
+    },
+    {
+      "publisher": "ACM New York, NY",
+      "year": "2025",
+      "pages": "1--55",
+      "number": "2",
+      "volume": "43",
+      "journal": "ACM Transactions on Information Systems",
+      "author": "Huang, Lei and Yu, Weijiang and Ma, Weitao and Zhong, Weihong and Feng, Zhangyin and Wang, Haotian and Chen, Qianglong and Peng, Weihua and Feng, Xiaocheng and Qin, Bing and others",
+      "title": "A survey on hallucination in large language models: Principles, taxonomy, challenges, and open questions",
+      "ENTRYTYPE": "article",
+      "ID": "huang2025survey"
+    },
+    {
+      "year": "2020",
+      "pages": "9459--9474",
+      "volume": "33",
+      "journal": "Advances in neural information processing systems",
+      "author": "Lewis, Patrick and Perez, Ethan and Piktus, Aleksandra and Petroni, Fabio and Karpukhin, Vladimir and Goyal, Naman and K{\\\"u}ttler, Heinrich and Lewis, Mike and Yih, Wen-tau and Rockt{\\\"a}schel, Tim and others",
+      "title": "Retrieval-augmented generation for knowledge-intensive nlp tasks",
+      "ENTRYTYPE": "article",
+      "ID": "lewis2020retrieval"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2404.16130",
+      "author": "Edge, Darren and Trinh, Ha and Cheng, Newman and Bradley, Joshua and Chao, Alex and Mody, Apurva and Truitt, Steven and Metropolitansky, Dasha and Ness, Robert Osazuwa and Larson, Jonathan",
+      "title": "From local to global: A graph rag approach to query-focused summarization",
+      "ENTRYTYPE": "article",
+      "ID": "edge2024local"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2402.10790",
+      "author": "Kuratov, Yuri and Bulatov, Aydar and Anokhin, Petr and Sorokin, Dmitry and Sorokin, Artyom and Burtsev, Mikhail",
+      "title": "In search of needles in a 11m haystack: Recurrent memory finds what llms miss",
+      "ENTRYTYPE": "article",
+      "ID": "kuratov2024search"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2410.07076",
+      "author": "Yang, Zonglin and Liu, Wanhao and Gao, Ben and Xie, Tong and Li, Yuqiang and Ouyang, Wanli and Poria, Soujanya and Cambria, Erik and Zhou, Dongzhan",
+      "title": "MOOSE-Chem: Large Language Models for Rediscovering Unseen Chemistry Scientific Hypotheses",
+      "ENTRYTYPE": "article",
+      "ID": "yang2024moose"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2503.21248",
+      "author": "Liu, Yujie and Yang, Zonglin and Xie, Tong and Ni, Jinjie and Gao, Ben and Li, Yuqiang and Tang, Shixiang and Ouyang, Wanli and Cambria, Erik and Zhou, Dongzhan",
+      "title": "ResearchBench: Benchmarking LLMs in Scientific Discovery via Inspiration-Based Task Decomposition",
+      "ENTRYTYPE": "article",
+      "ID": "liu2025researchbench"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2502.13233",
+      "author": "Shi, Yucheng and Yang, Tianze and Chen, Canyu and Li, Quanzheng and Liu, Tianming and Li, Xiang and Liu, Ninghao",
+      "title": "SearchRAG: Can Search Engines Be Helpful for LLM-based Medical Question Answering?",
+      "ENTRYTYPE": "article",
+      "ID": "shi2025searchrag"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2501.05366",
+      "author": "Li, Xiaoxi and Dong, Guanting and Jin, Jiajie and Zhang, Yuyao and Zhou, Yujia and Zhu, Yutao and Zhang, Peitian and Dou, Zhicheng",
+      "title": "Search-o1: Agentic search-enhanced large reasoning models",
+      "ENTRYTYPE": "article",
+      "ID": "li2025search"
+    },
+    {
+      "year": "2022",
+      "pages": "27730--27744",
+      "volume": "35",
+      "journal": "Advances in neural information processing systems",
+      "author": "Ouyang, Long and Wu, Jeffrey and Jiang, Xu and Almeida, Diogo and Wainwright, Carroll and Mishkin, Pamela and Zhang, Chong and Agarwal, Sandhini and Slama, Katarina and Ray, Alex and others",
+      "title": "Training language models to follow instructions with human feedback",
+      "ENTRYTYPE": "article",
+      "ID": "ouyang2022training"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2403.13787",
+      "author": "Lambert, Nathan and Pyatkin, Valentina and Morrison, Jacob and Miranda, LJ and Lin, Bill Yuchen and Chandu, Khyathi and Dziri, Nouha and Kumar, Sachin and Zick, Tom and Choi, Yejin and others",
+      "title": "Rewardbench: Evaluating reward models for language modeling",
+      "ENTRYTYPE": "article",
+      "ID": "lambert2024rewardbench"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2502.12442",
+      "author": "Liu, Hao and Wang, Zhengren and Chen, Xi and Li, Zhiyu and Xiong, Feiyu and Yu, Qinhan and Zhang, Wentao",
+      "title": "Hoprag: Multi-hop reasoning for logic-aware retrieval-augmented generation",
+      "ENTRYTYPE": "article",
+      "ID": "liu2025hoprag"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2503.00845",
+      "author": "Peng, Miao and Chen, Nuo and Suo, Zongrui and Li, Jia",
+      "title": "Rewarding graph reasoning process makes llms more generalized reasoners",
+      "ENTRYTYPE": "article",
+      "ID": "peng2025rewarding"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2503.06430",
+      "author": "Qiu, Zhangchi and Luo, Linhao and Zhao, Zicheng and Pan, Shirui and Liew, Alan Wee-Chung",
+      "title": "Graph Retrieval-Augmented LLM for Conversational Recommendation Systems",
+      "ENTRYTYPE": "article",
+      "ID": "qiu2025graph"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2503.13804",
+      "author": "Guo, Kai and Shomer, Harry and Zeng, Shenglai and Han, Haoyu and Wang, Yu and Tang, Jiliang",
+      "title": "Empowering GraphRAG with Knowledge Filtering and Integration",
+      "ENTRYTYPE": "article",
+      "ID": "guo2025empowering"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2502.11371",
+      "author": "Han, Haoyu and Shomer, Harry and Wang, Yu and Lei, Yongjia and Guo, Kai and Hua, Zhigang and Long, Bo and Liu, Hui and Tang, Jiliang",
+      "title": "Rag vs. graphrag: A systematic evaluation and key insights",
+      "ENTRYTYPE": "article",
+      "ID": "han2025rag"
+    },
+    {
+      "year": "2024",
+      "booktitle": "The Twelfth International Conference on Learning Representations",
+      "author": "Sun, Jiashuo and Xu, Chengjin and Tang, Lumingyuan and Wang, Saizhuo and Lin, Chen and Gong, Yeyun and Ni, Lionel and Shum, Heung-Yeung and Guo, Jian",
+      "title": "Think-on-Graph: Deep and Responsible Reasoning of Large Language Model on Knowledge Graph",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "sunthink"
+    },
+    {
+      "year": "2024",
+      "pages": "124198--124235",
+      "volume": "37",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Meng, Yu and Xia, Mengzhou and Chen, Danqi",
+      "title": "Simpo: Simple preference optimization with a reference-free reward",
+      "ENTRYTYPE": "article",
+      "ID": "meng2024simpo"
+    },
+    {
+      "year": "2024",
+      "booktitle": "The Thirty-eighth Annual Conference on Neural Information Processing Systems",
+      "author": "Mu, Tong and Helyar, Alec and Heidecke, Johannes and Achiam, Joshua and Vallone, Andrea and Kivlichan, Ian D and Lin, Molly and Beutel, Alex and Schulman, John and Weng, Lilian",
+      "title": "Rule Based Rewards for Language Model Safety",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "murule"
+    },
+    {
+      "year": "2023",
+      "pages": "1--55",
+      "number": "210",
+      "volume": "24",
+      "journal": "Journal of Machine Learning Research",
+      "author": "Bengio, Yoshua and Lahlou, Salem and Deleu, Tristan and Hu, Edward J and Tiwari, Mo and Bengio, Emmanuel",
+      "title": "Gflownet foundations",
+      "ENTRYTYPE": "article",
+      "ID": "bengio2023gflownet"
+    },
+    {
+      "year": "2024",
+      "booktitle": "The Twelfth International Conference on Learning Representations",
+      "author": "LUO, LINHAO and Li, Yuan-Fang and Haf, Reza and Pan, Shirui",
+      "title": "Reasoning on Graphs: Faithful and Interpretable Large Language Model Reasoning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "luoreasoning"
+    },
+    {
+      "year": "2025",
+      "booktitle": "The Thirteenth International Conference on Learning Representations",
+      "author": "Li, Mufei and Miao, Siqi and Li, Pan",
+      "title": "Retrieval or Reasoning: The Roles of Graphs and Large Language Models in Efficient Knowledge-Graph-Based Retrieval-Augmented Generation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "liretrieval"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2412.16311",
+      "author": "Lee, Meng-Chieh and Zhu, Qi and Mavromatis, Costas and Han, Zhen and Adeshina, Soji and Ioannidis, Vassilis N and Rangwala, Huzefa and Faloutsos, Christos",
+      "title": "HybGRAG: Hybrid Retrieval-Augmented Generation on Textual and Relational Knowledge Bases",
+      "ENTRYTYPE": "article",
+      "ID": "lee2024hybgrag"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2410.13765",
+      "author": "Xia, Yu and Wu, Junda and Kim, Sungchul and Yu, Tong and Rossi, Ryan A and Wang, Haoliang and McAuley, Julian",
+      "title": "Knowledge-aware query expansion with large language models for textual and relational retrieval",
+      "ENTRYTYPE": "article",
+      "ID": "xia2024knowledge"
+    },
+    {
+      "year": "2023",
+      "pages": "11809--11822",
+      "volume": "36",
+      "journal": "Advances in neural information processing systems",
+      "author": "Yao, Shunyu and Yu, Dian and Zhao, Jeffrey and Shafran, Izhak and Griffiths, Tom and Cao, Yuan and Narasimhan, Karthik",
+      "title": "Tree of thoughts: Deliberate problem solving with large language models",
+      "ENTRYTYPE": "article",
+      "ID": "yao2023tree"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2502.20317",
+      "author": "Lei, Yongjia and Han, Haoyu and Rossi, Ryan A and Dernoncourt, Franck and Lipka, Nedim and Halappanavar, Mahantesh M and Tang, Jiliang and Wang, Yu",
+      "title": "Mixture of Structural-and-Textual Retrieval over Text-rich Graph Knowledge Bases",
+      "ENTRYTYPE": "article",
+      "ID": "lei2025mixture"
+    },
+    {
+      "organization": "International Joint Conferences on Artificial Intelligence Organization",
+      "year": "2019",
+      "booktitle": "Proceedings of the Twenty-Eighth International Joint Conference on Artificial Intelligence",
+      "author": "Wu, Yuting and Liu, Xiao and Feng, Yansong and Wang, Zheng and Yan, Rui and Zhao, Dongyan",
+      "title": "Relation-Aware Entity Alignment for Heterogeneous Knowledge Graphs",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "wu2019relation"
+    },
+    {
+      "year": "2025",
+      "booktitle": "The Thirteenth International Conference on Learning Representations",
+      "author": "Su, Xiaorui and Wang, Yibo and Gao, Shanghua and Liu, Xiaolong and Giunchiglia, Valentina and Clevert, Djork-Arn{\\'e} and Zitnik, Marinka",
+      "title": "Knowledge Graph Based Agent For Complex, Knowledge-Intensive QA in Medicine",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "suknowledge"
+    },
+    {
+      "year": "2025",
+      "pages": "4206--4225",
+      "booktitle": "Proceedings of the ACM on Web Conference 2025",
+      "author": "Dong, Guanting and Zhu, Yutao and Zhang, Chenghao and Wang, Zechen and Wen, Ji-Rong and Dou, Zhicheng",
+      "title": "Understand what LLM needs: Dual preference alignment for retrieval-augmented generation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "dong2025understand"
+    },
+    {
+      "year": "2025",
+      "pages": "23796--23804",
+      "number": "22",
+      "volume": "39",
+      "booktitle": "Proceedings of the AAAI Conference on Artificial Intelligence",
+      "author": "Dong, Guanting and Song, Xiaoshuai and Zhu, Yutao and Qiao, Runqi and Dou, Zhicheng and Wen, Ji-Rong",
+      "title": "Toward Verifiable Instruction-Following Alignment for Retrieval Augmented Generation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "dong2025toward"
+    },
+    {
+      "year": "2024",
+      "pages": "6052--6080",
+      "volume": "37",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Zhang, Qinggang and Dong, Junnan and Chen, Hao and Zha, Daochen and Yu, Zailiang and Huang, Xiao",
+      "title": "Knowgpt: Knowledge graph based prompting for large language models",
+      "ENTRYTYPE": "article",
+      "ID": "zhang2024knowgpt"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2022",
+      "pages": "8280--8303",
+      "booktitle": "International conference on machine learning",
+      "author": "Han, Beining and Ren, Zhizhou and Wu, Zuofan and Zhou, Yuan and Peng, Jian",
+      "title": "Off-policy reinforcement learning with delayed rewards",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "han2022off"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2024",
+      "pages": "6136--6154",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Chan, Alex James and Sun, Hao and Holt, Samuel and Van Der Schaar, Mihaela",
+      "title": "Dense Reward for Free in Reinforcement Learning from Human Feedback",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "chan2024dense"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2502.10325",
+      "author": "Choudhury, Sanjiban",
+      "title": "Process reward models for llm agents: Practical framework and directions",
+      "ENTRYTYPE": "article",
+      "ID": "choudhury2025process"
+    },
+    {
+      "year": "2019",
+      "pages": "3982--3992",
+      "booktitle": "Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP)",
+      "author": "Reimers, Nils and Gurevych, Iryna",
+      "title": "Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "reimers2019sentence"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2501.07301",
+      "author": "Zhang, Zhenru and Zheng, Chujie and Wu, Yangzhen and Zhang, Beichen and Lin, Runji and Yu, Bowen and Liu, Dayiheng and Zhou, Jingren and Lin, Junyang",
+      "title": "The lessons of developing process reward models in mathematical reasoning",
+      "ENTRYTYPE": "article",
+      "ID": "zhang2025lessons"
+    },
+    {
+      "year": "2023",
+      "booktitle": "The Twelfth International Conference on Learning Representations",
+      "author": "Lightman, Hunter and Kosaraju, Vineet and Burda, Yuri and Edwards, Harrison and Baker, Bowen and Lee, Teddy and Leike, Jan and Schulman, John and Sutskever, Ilya and Cobbe, Karl",
+      "title": "Let's verify step by step",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "lightman2023let"
+    },
+    {
+      "year": "2022",
+      "pages": "3",
+      "number": "2",
+      "volume": "1",
+      "journal": "ICLR",
+      "author": "Hu, Edward J and Shen, Yelong and Wallis, Phillip and Allen-Zhu, Zeyuan and Li, Yuanzhi and Wang, Shean and Wang, Lu and Chen, Weizhu and others",
+      "title": "Lora: Low-rank adaptation of large language models.",
+      "ENTRYTYPE": "article",
+      "ID": "hu2022lora"
+    },
+    {
+      "year": "2024",
+      "booktitle": "The Twelfth International Conference on Learning Representations",
+      "author": "Hu, Edward J and Jain, Moksh and Elmoznino, Eric and Kaddar, Younesse and Lajoie, Guillaume and Bengio, Yoshua and Malkin, Nikolay",
+      "title": "Amortizing intractable inference in large language models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "huamortizing"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2022",
+      "pages": "518--528",
+      "booktitle": "Uncertainty in Artificial Intelligence",
+      "author": "Deleu, Tristan and G{\\'o}is, Ant{\\'o}nio and Emezue, Chris and Rankawat, Mansi and Lacoste-Julien, Simon and Bauer, Stefan and Bengio, Yoshua",
+      "title": "Bayesian structure learning with generative flow networks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "deleu2022bayesian"
+    },
+    {
+      "year": "2020",
+      "pages": "22118--22133",
+      "volume": "33",
+      "journal": "Advances in neural information processing systems",
+      "author": "Hu, Weihua and Fey, Matthias and Zitnik, Marinka and Dong, Yuxiao and Ren, Hongyu and Liu, Bowen and Catasta, Michele and Leskovec, Jure",
+      "title": "Open graph benchmark: Datasets for machine learning on graphs",
+      "ENTRYTYPE": "article",
+      "ID": "hu2020open"
+    },
+    {
+      "year": "2020",
+      "pages": "6769--6781",
+      "booktitle": "EMNLP (1)",
+      "author": "Karpukhin, Vladimir and Oguz, Barlas and Min, Sewon and Lewis, Patrick SH and Wu, Ledell and Edunov, Sergey and Chen, Danqi and Yih, Wen-tau",
+      "title": "Dense Passage Retrieval for Open-Domain Question Answering.",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "karpukhin2020dense"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2015",
+      "pages": "928--937",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Hegde, Chinmay and Indyk, Piotr and Schmidt, Ludwig",
+      "title": "A nearly-linear time framework for graph-structured sparsity",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "hegde2015nearly"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2405.12035",
+      "author": "Sanmartin, Diego",
+      "title": "Kg-rag: Bridging the gap between knowledge and creativity",
+      "ENTRYTYPE": "article",
+      "ID": "sanmartin2024kg"
+    },
+    {
+      "publisher": "Springer",
+      "year": "2024",
+      "pages": "7063--7076",
+      "number": "5",
+      "volume": "10",
+      "journal": "Complex \\& Intelligent Systems",
+      "author": "Guo, Tiezheng and Yang, Qingwen and Wang, Chen and Liu, Yanyi and Li, Pan and Tang, Jiawei and Li, Dapeng and Wen, Yingyou",
+      "title": "Knowledgenavigator: Leveraging large language models for enhanced reasoning over knowledge graph",
+      "ENTRYTYPE": "article",
+      "ID": "guo2024knowledgenavigator"
+    },
+    {
+      "year": "2016",
+      "journal": "arXiv preprint arXiv:1609.02907",
+      "author": "Kipf, Thomas N and Welling, Max",
+      "title": "Semi-supervised classification with graph convolutional networks",
+      "ENTRYTYPE": "article",
+      "ID": "kipf2016semi"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2412.05547",
+      "author": "Chen, Weijie and Bai, Ting and Su, Jinbo and Luan, Jian and Liu, Wei and Shi, Chuan",
+      "title": "Kg-retriever: Efficient knowledge indexing for retrieval-augmented large language models",
+      "ENTRYTYPE": "article",
+      "ID": "chen2024kg"
+    },
+    {
+      "year": "2024",
+      "pages": "22690--22690",
+      "number": "20",
+      "volume": "38",
+      "booktitle": "Proceedings of the AAAI Conference on Artificial Intelligence",
+      "author": "Abaho, Micheal and Alfaifi, Yousef H",
+      "title": "Select and augment: enhanced dense retrieval knowledge graph augmentation (abstract reprint)",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "abaho2024select"
+    },
+    {
+      "year": "2024",
+      "booktitle": "The Thirty-eighth Annual Conference on Neural Information Processing Systems",
+      "author": "Deng, Yihe and Ye, Chenchen and Huang, Zijie and Ma, Mingyu Derek and Kou, Yiwen and Wang, Wei",
+      "title": "GraphVis: Boosting LLMs with Visual Knowledge Graph Integration",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "deng2024graphvis"
+    },
+    {
+      "year": "2015",
+      "pages": "243--246",
+      "booktitle": "Proceedings of the 24th international conference on world wide web",
+      "author": "Sinha, Arnab and Shen, Zhihong and Song, Yang and Ma, Hao and Eide, Darrin and Hsu, Bo-June and Wang, Kuansan",
+      "title": "An overview of microsoft academic service (mas) and applications",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "sinha2015overview"
+    },
+    {
+      "year": "2025",
+      "booktitle": "The Thirteenth International Conference on Learning Representations",
+      "author": "Dai, Lu and Xu, Yijie and Ye, Jinhui and Liu, Hao and Xiong, Hui",
+      "title": "SePer: Measure Retrieval Utility Through The Lens Of Semantic Perplexity Reduction",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "daiseper"
+    },
+    {
+      "year": "2024",
+      "pages": "106841--106869",
+      "volume": "37",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "M Ghari, Pouya and Tseng, Alex and Eraslan, Gokcen and Lopez, Romain and Biancalani, Tommaso and Scalia, Gabriele and Hajiramezanali, Ehsan",
+      "title": "GFlowNet Assisted Biological Sequence Editing",
+      "ENTRYTYPE": "article",
+      "ID": "m2024gflownet"
+    },
+    {
+      "year": "2025",
+      "booktitle": "The Thirteenth International Conference on Learning Representations",
+      "author": "Lingam, Vijay and Tehrani, Behrooz Omidvar and Sanghavi, Sujay and Gupta, Gaurav and Ghosh, Sayan and Liu, Linbo and Huan, Jun and Deoras, Anoop",
+      "title": "Enhancing Language Model Agents using Diversity of Thoughts",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "lingamenhancing"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2023",
+      "pages": "23467--23483",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Madan, Kanika and Rector-Brooks, Jarrid and Korablyov, Maksym and Bengio, Emmanuel and Jain, Moksh and Nica, Andrei Cristian and Bosc, Tom and Bengio, Yoshua and Malkin, Nikolay",
+      "title": "Learning gflownets from partial episodes for improved convergence and stability",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "madan2023learning"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2022",
+      "pages": "26412--26428",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Zhang, Dinghuai and Malkin, Nikolay and Liu, Zhen and Volokhova, Alexandra and Courville, Aaron and Bengio, Yoshua",
+      "title": "Generative flow networks for discrete probabilistic modeling",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zhang2022generative"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2405.20139",
+      "author": "Mavromatis, Costas and Karypis, George",
+      "title": "Gnn-rag: Graph neural retrieval for large language model reasoning",
+      "ENTRYTYPE": "article",
+      "ID": "mavromatis2024gnn"
+    },
+    {
+      "year": "2024",
+      "pages": "7095--7124",
+      "volume": "37",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Cui, Yuanning and Sun, Zequn and Hu, Wei",
+      "title": "A prompt-based knowledge graph foundation model for universal in-context reasoning",
+      "ENTRYTYPE": "article",
+      "ID": "cui2024prompt"
+    },
+    {
+      "organization": "IEEE",
+      "year": "2024",
+      "pages": "626--630",
+      "booktitle": "2024 5th International Symposium on Computer Engineering and Intelligent Communications (ISCEIC)",
+      "author": "Dong, Yuxin and Wang, Shuo and Zheng, Hongye and Chen, Jiajing and Zhang, Zhenhong and Wang, Chihang",
+      "title": "Advanced RAG Models with Graph Structures: Optimizing Complex Knowledge Reasoning and Text Generation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "dong2024advanced"
+    },
+    {
+      "year": "2022",
+      "journal": "Transactions on Machine Learning Research",
+      "author": "Tong, Alexander and FATRAS, Kilian and Malkin, Nikolay and Huguet, Guillaume and Zhang, Yanlei and Rector-Brooks, Jarrid and Wolf, Guy and Bengio, Yoshua",
+      "title": "Improving and generalizing flow-based generative models with minibatch optimal transport",
+      "ENTRYTYPE": "article",
+      "ID": "tongimproving"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2503.06514",
+      "author": "Kang, Haoqiang and Sachdeva, Enna and Gupta, Piyush and Bae, Sangjae and Lee, Kwonjoon",
+      "title": "GFlowVLM: Enhancing Multi-step Reasoning in Vision-Language Models with Generative Flow Networks",
+      "ENTRYTYPE": "article",
+      "ID": "kang2025gflowvlm"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2406.05673",
+      "author": "Yu, Fangxu and Jiang, Lai and Kang, Haoqiang and Hao, Shibo and Qin, Lianhui",
+      "title": "Flow of reasoning: Efficient training of llm policy with divergent thinking",
+      "ENTRYTYPE": "article",
+      "ID": "yu2024flow"
+    },
+    {
+      "year": "2023",
+      "booktitle": "NeurIPS 2023 Generative AI and Biology (GenBio) Workshop",
+      "author": "Ghari, Pouya M and Tseng, Alex and Eraslan, G{\\\"o}kcen and Lopez, Romain and Biancalani, Tommaso and Scalia, Gabriele and Hajiramezanali, Ehsan",
+      "title": "Generative flow networks assisted biological sequence editing",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ghari2023generative"
+    },
+    {
+      "year": "2023",
+      "pages": "31204--31231",
+      "volume": "36",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Deleu, Tristan and Nishikawa-Toomey, Mizu and Subramanian, Jithendaraa and Malkin, Nikolay and Charlin, Laurent and Bengio, Yoshua",
+      "title": "Joint bayesian inference of graphical structure and parameters with a single generative flow network",
+      "ENTRYTYPE": "article",
+      "ID": "deleu2023joint"
+    },
+    {
+      "year": "2024",
+      "booktitle": "ICML 2024 Workshop on Structured Probabilistic Inference $\\{$$\\backslash$\\&$\\}$ Generative Modeling",
+      "author": "Lu, Stephen Zhewen and Lu, Ziqing and Hajiramezanali, Ehsan and Biancalani, Tommaso and Bengio, Yoshua and Scalia, Gabriele and Koziarski, Micha{\\l}",
+      "title": "Cell morphology-guided small molecule generation with gflownets",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "lu2024cell"
+    },
+    {
+      "year": "2024",
+      "booktitle": "The Thirty-eighth Annual Conference on Neural Information Processing Systems",
+      "author": "Venkatraman, Siddarth and Jain, Moksh and Scimeca, Luca and Kim, Minsu and Sendera, Marcin and Hasan, Mohsin and Rowe, Luke and Mittal, Sarthak and Lemos, Pablo and Bengio, Emmanuel and others",
+      "title": "Amortizing intractable inference in diffusion models for vision, language, and control",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "venkatramanamortizing"
+    },
+    {
+      "year": "2018",
+      "volume": "31",
+      "journal": "Advances in neural information processing systems",
+      "author": "Nguyen, Duc Thien and Kumar, Akshat and Lau, Hoong Chuin",
+      "title": "Credit assignment for collective multiagent RL with global rewards",
+      "ENTRYTYPE": "article",
+      "ID": "nguyen2018credit"
+    },
+    {
+      "year": "2020",
+      "pages": "11853--11864",
+      "volume": "33",
+      "journal": "Advances in neural information processing systems",
+      "author": "Zhou, Meng and Liu, Ziyu and Sui, Pengwei and Li, Yixuan and Chung, Yuk Ying",
+      "title": "Learning implicit credit assignment for cooperative multi-agent reinforcement learning",
+      "ENTRYTYPE": "article",
+      "ID": "zhou2020learning"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2503.10291",
+      "author": "Wang, Weiyun and Gao, Zhangwei and Chen, Lianjie and Chen, Zhe and Zhu, Jinguo and Zhao, Xiangyu and Liu, Yangzhou and Cao, Yue and Ye, Shenglong and Zhu, Xizhou and others",
+      "title": "Visualprm: An effective process reward model for multimodal reasoning",
+      "ENTRYTYPE": "article",
+      "ID": "wang2025visualprm"
+    },
+    {
+      "year": "2017",
+      "booktitle": "International Conference on Learning Representations",
+      "author": "Kipf, Thomas N and Welling, Max",
+      "title": "Semi-Supervised Classification with Graph Convolutional Networks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "kipf2017semi"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2502.06737",
+      "author": "Zeng, Thomas and Zhang, Shuibai and Wu, Shutong and Classen, Christian and Chae, Daewon and Ewer, Ethan and Lee, Minjae and Kim, Heeju and Kang, Wonjun and Kunde, Jackson and others",
+      "title": "VersaPRM: Multi-Domain Process Reward Model via Synthetic Reasoning Data",
+      "ENTRYTYPE": "article",
+      "ID": "zeng2025versaprm"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2023",
+      "pages": "10835--10866",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Gao, Leo and Schulman, John and Hilton, Jacob",
+      "title": "Scaling laws for reward model overoptimization",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "gao2023scaling"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2407.21783",
+      "author": "Grattafiori, Aaron and Dubey, Abhimanyu and Jauhri, Abhinav and Pandey, Abhinav and Kadian, Abhishek and Al-Dahle, Ahmad and Letman, Aiesha and Mathur, Akhil and Schelten, Alan and Vaughan, Alex and others",
+      "title": "The llama 3 herd of models",
+      "ENTRYTYPE": "article",
+      "ID": "grattafiori2024llama"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2502.01456",
+      "author": "Cui, Ganqu and Yuan, Lifan and Wang, Zefan and Wang, Hanbin and Li, Wendi and He, Bingxiang and Fan, Yuchen and Yu, Tianyu and Xu, Qixin and Chen, Weize and others",
+      "title": "Process reinforcement through implicit rewards",
+      "ENTRYTYPE": "article",
+      "ID": "cui2025process"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2503.12759",
+      "author": "Huang, Jerry and Madala, Siddarth and Sidhu, Risham and Niu, Cheng and Hockenmaier, Julia and Zhang, Tong",
+      "title": "RAG-RL: Advancing Retrieval-Augmented Generation via RL and Curriculum Learning",
+      "ENTRYTYPE": "article",
+      "ID": "huang2025rag"
+    },
+    {
+      "publisher": "SIAM",
+      "year": "2011",
+      "pages": "309--332",
+      "number": "2",
+      "volume": "40",
+      "journal": "SIAM journal on computing",
+      "author": "Archer, Aaron and Bateni, MohammadHossein and Hajiaghayi, MohammadTaghi and Karloff, Howard",
+      "title": "Improved approximation algorithms for prize-collecting Steiner tree and TSP",
+      "ENTRYTYPE": "article",
+      "ID": "archer2011improved"
+    },
+    {
+      "year": "2018",
+      "pages": "4950--4957",
+      "booktitle": "Proceedings of the 27th International Joint Conference on Artificial Intelligence",
+      "author": "Torabi, Faraz and Warnell, Garrett and Stone, Peter",
+      "title": "Behavioral cloning from observation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "torabi2018behavioral"
+    },
+    {
+      "year": "2022",
+      "pages": "5955--5967",
+      "volume": "35",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Malkin, Nikolay and Jain, Moksh and Bengio, Emmanuel and Sun, Chen and Bengio, Yoshua",
+      "title": "Trajectory balance: Improved credit assignment in gflownets",
+      "ENTRYTYPE": "article",
+      "ID": "malkin2022trajectory"
+    },
+    {
+      "year": "2018",
+      "journal": "arXiv preprint arXiv:1811.07871",
+      "author": "Leike, Jan and Krueger, David and Everitt, Tom and Martic, Miljan and Maini, Vishal and Legg, Shane",
+      "title": "Scalable agent alignment via reward modeling: a research direction",
+      "ENTRYTYPE": "article",
+      "ID": "leike2018scalable"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2503.10093",
+      "author": "Deng, Qiyuan and Bai, Xuefeng and Chen, Kehai and Wang, Yaowei and Nie, Liqiang and Zhang, Min",
+      "title": "Representation-based Reward Modeling for Efficient Safety Alignment of Large Language Model",
+      "ENTRYTYPE": "article",
+      "ID": "deng2025representation"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2502.14361",
+      "author": "Zhu, Jiachen and Zheng, Congmin and Lin, Jianghao and Du, Kounianhua and Wen, Ying and Yu, Yong and Wang, Jun and Zhang, Weinan",
+      "title": "Retrieval-Augmented Process Reward Model for Generalizable Mathematical Reasoning",
+      "ENTRYTYPE": "article",
+      "ID": "zhu2025retrieval"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2502.01113",
+      "author": "Luo, Linhao and Zhao, Zicheng and Haffari, Gholamreza and Phung, Dinh and Gong, Chen and Pan, Shirui",
+      "title": "GFM-RAG: Graph Foundation Model for Retrieval Augmented Generation",
+      "ENTRYTYPE": "article",
+      "ID": "luo2025gfm"
+    },
+    {
+      "year": "2024",
+      "pages": "17120--17139",
+      "booktitle": "Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing",
+      "author": "Kwon, Oh Joon and Matsunaga, Daiki and Kim, Kee-Eung",
+      "title": "GDPO: Learning to Directly Align Language Models with Diversity Using GFlowNets",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "kwon2024gdpo"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2410.03780",
+      "author": "Nguyen, Thang and Chin, Peter and Tai, Yu-Wing",
+      "title": "Reward-RAG: Enhancing RAG with Reward Driven Supervision",
+      "ENTRYTYPE": "article",
+      "ID": "nguyen2024reward"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2502.13957",
+      "author": "Xiong, Guangzhi and Jin, Qiao and Wang, Xiao and Fang, Yin and Liu, Haolin and Yang, Yifan and Chen, Fangyuan and Song, Zhixing and Wang, Dengyu and Zhang, Minjia and others",
+      "title": "Rag-gym: Optimizing reasoning and search agents with process supervision",
+      "ENTRYTYPE": "article",
+      "ID": "xiong2025rag"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2503.09516",
+      "author": "Jin, Bowen and Zeng, Hansi and Yue, Zhenrui and Wang, Dong and Zamani, Hamed and Han, Jiawei",
+      "title": "Search-r1: Training llms to reason and leverage search engines with reinforcement learning",
+      "ENTRYTYPE": "article",
+      "ID": "jin2025search"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "2024",
+      "pages": "3580--3599",
+      "number": "7",
+      "volume": "36",
+      "journal": "IEEE Transactions on Knowledge and Data Engineering",
+      "author": "Pan, Shirui and Luo, Linhao and Wang, Yufei and Chen, Chen and Wang, Jiapu and Wu, Xindong",
+      "title": "Unifying large language models and knowledge graphs: A roadmap",
+      "ENTRYTYPE": "article",
+      "ID": "pan2024unifying"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "2021",
+      "pages": "14--35",
+      "volume": "2",
+      "journal": "AI Open",
+      "author": "Zhang, Jing and Chen, Bo and Zhang, Lingxi and Ke, Xirui and Ding, Haipeng",
+      "title": "Neural, symbolic and neural-symbolic reasoning on knowledge graphs",
+      "ENTRYTYPE": "article",
+      "ID": "zhang2021neural"
+    }
+  ]
+}

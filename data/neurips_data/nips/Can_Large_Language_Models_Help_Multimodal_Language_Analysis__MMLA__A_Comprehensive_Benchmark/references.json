@@ -1,0 +1,1324 @@
+{
+  "pdf_url": "https://arxiv.org/pdf/2504.16427v2.pdf",
+  "references": [
+    {
+      "pages": "1688--1697",
+      "booktitle": "Proceedings of the 30th ACM International Conference on Multimedia",
+      "year": "2022",
+      "title": "Mintrec: A new dataset for multimodal intent recognition",
+      "author": "Zhang, Hanlei and Xu, Hua and Wang, Xin and Zhou, Qianrui and Zhao, Shaojie and Teng, Jiayan",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "mintrec"
+    },
+    {
+      "pages": "9663--9687",
+      "year": "2024",
+      "month": "August",
+      "booktitle": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics",
+      "editor": "Ku, Lun-Wei  and\nMartins, Andre  and\nSrikumar, Vivek",
+      "author": "Chen, Zixin  and\nLin, Hongzhan  and\nLuo, Ziyang  and\nCheng, Mingfei  and\nMa, Jing  and\nChen, Guang",
+      "title": "{C}ofi{P}ara: A Coarse-to-fine Paradigm for Multimodal Sarcasm Target Identification with Large Multimodal Models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "chen-etal-2024-cofipara"
+    },
+    {
+      "year": "2022",
+      "pages": "247--258",
+      "booktitle": "Proceedings of the 2022 International Conference on Multimodal Interaction",
+      "author": "Liu, Yihe and Yuan, Ziqi and Mao, Huisheng and Liang, Zhiyun and Yang, Wanqiuyue and Qiu, Yuanzhe and Cheng, Tie and Li, Xiaoteng and Xu, Hua and Gao, Kai",
+      "title": "{Make Acoustic and Visual Cues Matter: CH-SIMS v2.0 Dataset and AV-Mixup Consistent Module}",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "liu2022make"
+    },
+    {
+      "year": "2024",
+      "title": "Amanda: Adaptively Modality-Balanced Domain Adaptation for Multimodal Emotion Recognition",
+      "pages": "14448--14458",
+      "booktitle": "Findings of the Association for Computational Linguistics: ACL",
+      "author": "Zhang, Xinxin  and\nSun, Jun  and\nHong, Simin  and\nLi, Taihao",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zhang-etal-2024-amanda"
+    },
+    {
+      "year": "2024",
+      "title": "Towards Multimodal Prediction of Spontaneous Humor: A Novel Dataset and First Results",
+      "journal": "IEEE Transactions on Affective Computing",
+      "author": "Christ, Lukas and Amiriparian, Shahin and Kathan, Alexander and Müller, Niklas and König, Andreas and Schuller, Björn W.",
+      "ENTRYTYPE": "article",
+      "ID": "10707160"
+    },
+    {
+      "year": "2024",
+      "pages": "515--524",
+      "booktitle": "Proceedings of the 32nd ACM International Conference on Multimedia",
+      "author": "Zhu, Zhihong and Cheng, Xuxin and Chen, Zhaorun and Chen, Yuyan and Zhang, Yunyan and Wu, Xian and Zheng, Yefeng and Xing, Bowen",
+      "title": "InMu-Net: advancing multi-modal intent detection via information bottleneck and multi-sensory processing",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zhu2024inmu"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2406.16442",
+      "author": "Yang, Qu and Ye, Mang and Du, Bo",
+      "title": "Emollm: Multimodal emotional understanding meets large language models",
+      "ENTRYTYPE": "article",
+      "ID": "yang2024emollm"
+    },
+    {
+      "year": "2021",
+      "title": "Humor Knowledge Enriched Transformer for Understanding Multimodal Humor",
+      "pages": "12972--12980",
+      "booktitle": "Proceedings of the AAAI Conference on Artificial Intelligence",
+      "author": "Hasan, Md Kamrul and Lee, Sangwu and Rahman, Wasifur and Zadeh, Amir and Mihalcea, Rada and Morency, Louis-Philippe and Hoque, Ehsan",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "hasan2021humor"
+    },
+    {
+      "year": "2020",
+      "pages": "4361--4372",
+      "booktitle": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+      "author": "Saha, Tulika and Patra, Aditya and Saha, Sriparna and Bhattacharyya, Pushpak",
+      "title": "Towards emotion-aided multi-modal dialogue act classification",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "saha2020towards"
+    },
+    {
+      "year": "2022",
+      "title": "Multimodal Learning using Optimal Transport for Sarcasm and Humor Detection",
+      "pages": "546--556",
+      "booktitle": "2022 IEEE/CVF Winter Conference on Applications of Computer Vision",
+      "author": "Pramanick, Shraman and Roy, Aniket and Johns, Vishal M. Patel",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "pramanick2022multimodal"
+    },
+    {
+      "year": "2019",
+      "pages": "2046--2056",
+      "booktitle": "Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing",
+      "author": "Hasan, Md Kamrul and Rahman, Wasifur and Zadeh, AmirAli Bagher and Zhong, Jianyuan and Tanveer, Md Iftekhar and Morency, Louis-Philippe and Hoque, Mohammed Ehsan",
+      "title": "UR-FUNNY: A Multimodal Language Dataset for Understanding Humor",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "hasan2019ur"
+    },
+    {
+      "year": "2023",
+      "title": "Multi-modal sarcasm generation: dataset and solution",
+      "pages": "5601--5613",
+      "booktitle": "Findings of the Association for Computational Linguistics: ACL",
+      "author": "Zhao, Wenye and Huang, Qingbao and Xu, Dongsheng and Zhao, Peizhi",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zhao2023multi"
+    },
+    {
+      "year": "2014",
+      "pages": "851--880",
+      "number": "5",
+      "volume": "38",
+      "journal": "Cognitive Science",
+      "author": "Schr{\\\"o}der, Tobias and Stewart, Terrence C and Thagard, Paul",
+      "title": "Intention, emotion, and action: A neural theory based on semantic pointers",
+      "ENTRYTYPE": "article",
+      "ID": "schroder2014intention"
+    },
+    {
+      "year": "2019",
+      "pages": "4619--4629",
+      "booktitle": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+      "author": "Castro, Santiago and Hazarika, Devamanyu and P{\\'e}rez-Rosas, Ver{\\'o}nica and Zimmermann, Roger and Mihalcea, Rada and Poria, Soujanya",
+      "title": "Towards Multimodal Sarcasm Detection (An \\_Obviously\\_ Perfect Paper)",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "castro2019towards"
+    },
+    {
+      "year": "1980",
+      "pages": "1125",
+      "number": "6",
+      "volume": "39",
+      "journal": "Journal of personality and social psychology",
+      "author": "Ekman, Paul and Freisen, Wallace V and Ancoli, Sonia",
+      "title": "Facial signs of emotional experience.",
+      "ENTRYTYPE": "article",
+      "ID": "ekman1980facial"
+    },
+    {
+      "year": "2020",
+      "pages": "1122--1131",
+      "booktitle": "Proceedings of the 28th ACM international conference on multimedia",
+      "author": "Hazarika, Devamanyu and Zimmermann, Roger and Poria, Soujanya",
+      "title": "Misa: Modality-invariant and-specific representations for multimodal sentiment analysis",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "hazarika2020misa"
+    },
+    {
+      "pages": "855--869",
+      "year": "2024",
+      "month": "August",
+      "booktitle": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics",
+      "editor": "Ku, Lun-Wei  and\nMartins, Andre  and\nSrikumar, Vivek",
+      "author": "Horvitz, Zachary  and\nChen, Jingru  and\nAditya, Rahul  and\nSrivastava, Harshvardhan  and\nWest, Robert  and\nYu, Zhou  and\nMcKeown, Kathleen",
+      "title": "Getting Serious about Humor: Crafting Humor Datasets with Unfunny Large Language Models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "horvitz-etal-2024-getting"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "2018",
+      "pages": "17--25",
+      "number": "6",
+      "volume": "33",
+      "journal": "IEEE Intelligent Systems",
+      "author": "Poria, Soujanya and Majumder, Navonil and Hazarika, Devamanyu and Cambria, Erik and Gelbukh, Alexander and Hussain, Amir",
+      "title": "Multimodal sentiment analysis: Addressing key issues and setting up the baselines",
+      "ENTRYTYPE": "article",
+      "ID": "poria2018multimodal"
+    },
+    {
+      "journal": "arXiv preprint arXiv:2406.07476",
+      "year": "2024",
+      "title": "VideoLLaMA 2: Advancing Spatial-Temporal Modeling and Audio Understanding in Video-LLMs",
+      "author": "Cheng, Zesen and Leng, Sicong and Zhang, Hang and Xin, Yifei and Li, Xin and Chen, Guanzheng and Zhu, Yongxin and Zhang, Wenqi and Luo, Ziyang and Zhao, Deli and others",
+      "ENTRYTYPE": "article",
+      "ID": "cheng2024videollama"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2409.12191",
+      "author": "Wang, Peng and Bai, Shuai and Tan, Sinan and Wang, Shijie and Fan, Zhihao and Bai, Jinze and Chen, Keqin and Liu, Xuejing and Wang, Jialin and Ge, Wenbin and others",
+      "title": "Qwen2-VL: Enhancing Vision-Language Model's Perception of the World at Any Resolution",
+      "ENTRYTYPE": "article",
+      "ID": "wang2024qwen2"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2408.01800",
+      "author": "Yao, Yuan and Yu, Tianyu and Zhang, Ao and Wang, Chongyi and Cui, Junbo and Zhu, Hongji and Cai, Tianchi and Li, Haoyu and Zhao, Weilin and He, Zhihui and others",
+      "title": "Minicpm-v: A gpt-4v level mllm on your phone",
+      "ENTRYTYPE": "article",
+      "ID": "yao2024minicpm"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2311.10122",
+      "author": "Lin, Bin and Ye, Yang and Zhu, Bin and Cui, Jiaxi and Ning, Munan and Jin, Peng and Yuan, Li",
+      "title": "Video-llava: Learning united visual representation by alignment before projection",
+      "ENTRYTYPE": "article",
+      "ID": "lin2023video"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2310.06825",
+      "author": "Jiang, Albert Q and Sablayrolles, Alexandre and Mensch, Arthur and Bamford, Chris and Chaplot, Devendra Singh and Casas, Diego de las and Bressand, Florian and Lengyel, Gianna and Lample, Guillaume and Saulnier, Lucile and others",
+      "title": "Mistral 7B",
+      "ENTRYTYPE": "article",
+      "ID": "jiang2023mistral"
+    },
+    {
+      "year": "2023",
+      "pages": "19948--19960",
+      "booktitle": "Proceedings of the IEEE/CVF International Conference on Computer Vision",
+      "author": "Li, Kunchang and Wang, Yali and Li, Yizhuo and Wang, Yi and He, Yinan and Wang, Limin and Qiao, Yu",
+      "title": "Unmasked teacher: Towards training-efficient video foundation models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "li2023unmasked"
+    },
+    {
+      "year": "2023",
+      "pages": "11975--11986",
+      "booktitle": "Proceedings of the IEEE/CVF International Conference on Computer Vision",
+      "author": "Zhai, Xiaohua and Mustafa, Basil and Kolesnikov, Alexander and Beyer, Lucas",
+      "title": "Sigmoid loss for language image pre-training",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zhai2023sigmoid"
+    },
+    {
+      "year": "2024",
+      "booktitle": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (ACL 2024)",
+      "author": "Maaz, Muhammad and Rasheed, Hanoona and Khan, Salman and Khan, Fahad Shahbaz",
+      "title": "Video-ChatGPT: Towards Detailed Video Understanding via Large Vision and Language Models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "Maaz2023VideoChatGPT"
+    },
+    {
+      "url": "https://openreview.net/forum?id=YR3ETaElNK",
+      "year": "2024",
+      "booktitle": "The Twelfth International Conference on Learning Representations",
+      "author": "Bingchen Zhao and Haoqin Tu and Chen Wei and Jieru Mei and Cihang Xie",
+      "title": "Tuning LayerNorm in Attention: Towards Efficient Multi-Modal {LLM} Finetuning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zhao2024tuning"
+    },
+    {
+      "year": "2024",
+      "pages": "13299--13308",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Li, Bohao and Ge, Yuying and Ge, Yixiao and Wang, Guangzhi and Wang, Rui and Zhang, Ruimao and Shan, Ying",
+      "title": "SEED-Bench: Benchmarking Multimodal Large Language Models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "li2024seed"
+    },
+    {
+      "pages": "32--44",
+      "year": "2024",
+      "booktitle": "Proceedings of the 1st Workshop on Towards Knowledgeable Language Models (KnowLLM 2024)",
+      "author": "\"Liu, Xiao  and Lin, Jianfeng  and Zhang, Jiawei\"",
+      "title": "Beyond Text: Unveiling Multimodal Proficiency of Large Language Models with {M}ulti{API} Benchmark",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "liu-etal-2024-beyond-text"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2408.02718",
+      "author": "Meng, Fanqing and Wang, Jin and Li, Chuanhao and Lu, Quanfeng and Tian, Hao and Liao, Jiaqi and Zhu, Xizhou and Dai, Jifeng and Qiao, Yu and Luo, Ping and others",
+      "title": "MMIU: Multimodal Multi-image Understanding for Evaluating Large Vision-Language Models",
+      "ENTRYTYPE": "article",
+      "ID": "meng2024mmiu"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2406.11288",
+      "author": "Wang, Shengkang and Lin, Hongzhan and Luo, Ziyang and Ye, Zhen and Chen, Guang and Ma, Jing",
+      "title": "MFC-Bench: Benchmarking Multimodal Fact-Checking with Large Vision-Language Models",
+      "ENTRYTYPE": "article",
+      "ID": "wang2024mfc"
+    },
+    {
+      "year": "2021",
+      "title": "Multibench: Multiscale benchmarks for multimodal representation learning",
+      "booktitle": "Proceedings of the Advances in Neural Information Processing Systems Track on Datasets and Benchmarks",
+      "author": "Liang, Paul Pu and Lyu, Yiwei and Fan, Xiang and Wu, Zetian and Cheng, Yun and Wu, Jason and Chen, Leslie and Wu, Peter and Lee, Michelle A and Zhu, Yuke and others",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "liang2021multibench"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2402.07270",
+      "author": "Ging, Simon and Bravo, Mar{\\'\\i}a A and Brox, Thomas",
+      "title": "Open-ended VQA benchmarking of Vision-Language models by exploiting Classification datasets and their semantic hierarchy",
+      "ENTRYTYPE": "article",
+      "ID": "ging2024open"
+    },
+    {
+      "pages": "14752--14766",
+      "year": "2023",
+      "booktitle": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+      "author": "Shi, Tao  and Huang, Shao-Lun",
+      "title": "{M}ulti{EMO}: An Attention-Based Correlation-Aware Multimodal Fusion Framework for Emotion Recognition in Conversations",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "shi-huang-2023-multiemo"
+    },
+    {
+      "pages": "154--164",
+      "year": "2019",
+      "booktitle": "Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP)",
+      "author": "\"Ghosal, Deepanway  and Majumder, Navonil  and Poria, Soujanya  and Chhaya, Niyati  and Gelbukh, Alexander\"",
+      "title": "{D}ialogue{GCN}: A Graph Convolutional Neural Network for Emotion Recognition in Conversation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ghosal-etal-2019-dialoguegcn"
+    },
+    {
+      "pages": "2470--2481",
+      "year": "2020",
+      "booktitle": "Findings of the Association for Computational Linguistics: EMNLP 2020",
+      "author": "\"Ghosal, Deepanway  and Majumder, Navonil  and Gelbukh, Alexander  and Mihalcea, Rada  and Poria, Soujanya\"",
+      "title": "{COSMIC}: {CO}mmon{S}ense knowledge for e{M}otion Identification in Conversations",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ghosal-etal-2020-cosmic"
+    },
+    {
+      "pages": "6267--6281",
+      "year": "2023",
+      "booktitle": "Findings of the Association for Computational Linguistics: ACL 2023",
+      "author": "\"Yang, Haozhe  and Gao, Xianqiang  and Wu, Jianlong  and  Gan, Tian  and Ding, Ning  and Jiang, Feijun  and Nie, Liqiang\"",
+      "title": "Self-adaptive Context and Modal-interaction Modeling For Multimodal Emotion Recognition",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "yang-etal-2023-self"
+    },
+    {
+      "pages": "5669--5679",
+      "year": "2022",
+      "booktitle": "Proceedings of the 2022 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies",
+      "author": "\"Lee, Joosung  and Lee, Wooin\"",
+      "title": "{C}o{MPM}: Context Modeling with Speaker{'}s Pre-trained Memory Tracking for Emotion Recognition in Conversation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "lee-lee-2022-compm"
+    },
+    {
+      "year": "2021",
+      "pages": "2949--2958",
+      "booktitle": "Findings of the Association for Computational Linguistics: EMNLP 2021",
+      "author": "Sun, Yang and Yu, Nan and Fu, Guohong",
+      "title": "A discourse-aware graph neural network for emotion recognition in multi-party conversation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "sun2021discourse"
+    },
+    {
+      "pages": "1571--1582",
+      "year": "2021",
+      "booktitle": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing",
+      "author": "\"Zhu, Lixing  and Pergola, Gabriele  and Gui, Lin  and   Zhou, Deyu  and  He, Yulan\"",
+      "title": "Topic-Driven and Knowledge-Aware Transformer for Dialogue Emotion Detection",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zhu-etal-2021-topic"
+    },
+    {
+      "pages": "7265-7277",
+      "number": "",
+      "volume": "26",
+      "year": "2024",
+      "title": "Meta Noise Adaption Framework for Multimodal Sentiment Analysis With Feature Noise",
+      "journal": "IEEE Transactions on Multimedia",
+      "author": "Yuan, Ziqi and Zhang, Baozheng and Xu, Hua and Gao, Kai",
+      "ENTRYTYPE": "article",
+      "ID": "10423206"
+    },
+    {
+      "pages": "7837--7851",
+      "year": "2022",
+      "booktitle": "Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing",
+      "author": "Hu, Guimin  and  Lin, Ting-En  and  Zhao, Yi  and  Lu, Guangming  and   Wu, Yuchuan  and   Li, Yongbin",
+      "title": "{U}ni{MSE}: Towards Unified Multimodal Sentiment Analysis and Emotion Recognition",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "hu-etal-2022-unimse"
+    },
+    {
+      "pages": "4622--4632",
+      "year": "2019",
+      "booktitle": "Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing",
+      "author": "Kruk, Julia  and\nLubin, Jonah  and\nSikka, Karan  and\nLin, Xiao  and\nJurafsky, Dan  and\nDivakaran, Ajay",
+      "title": "Integrating Text and Image: Determining Multimodal Document Intent in {I}nstagram Posts",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "kruk-etal-2019-integrating"
+    },
+    {
+      "pages": "2359--2369",
+      "year": "2020",
+      "booktitle": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+      "author": "Rahman, Wasifur  and   Hasan, Md Kamrul  and   Lee, Sangwu  and   Bagher Zadeh, AmirAli  and   Mao, Chengfeng  and   Morency, Louis-Philippe  and   Hoque, Ehsan",
+      "title": "Integrating Multimodal Information in Large Pretrained Transformers",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "rahman-etal-2020-integrating"
+    },
+    {
+      "pages": "3718--3727",
+      "year": "2020",
+      "booktitle": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+      "author": "Yu, Wenmeng  and    Xu, Hua  and    Meng, Fanyang  and    Zhu, Yilin  and   Ma, Yixiao  and   Wu, Jiele  and   Zou, Jiyun  and    Yang, Kaicheng",
+      "title": "{CH}-{SIMS}: A {C}hinese Multimodal Sentiment Analysis Dataset with Fine-grained Annotation of Modality",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "yu-etal-2020-ch"
+    },
+    {
+      "series": "MM '22",
+      "numpages": "10",
+      "pages": "1642–1651",
+      "booktitle": "Proceedings of the 30th ACM International Conference on Multimedia",
+      "year": "2022",
+      "title": "Disentangled Representation Learning for Multimodal Emotion Recognition",
+      "author": "Yang, Dingkang and Huang, Shuai and Kuang, Haopeng and Du, Yangtao and Zhang, Lihua",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "Yang"
+    },
+    {
+      "pages": "527--536",
+      "year": "2019",
+      "booktitle": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+      "author": "Poria, Soujanya  and  Hazarika, Devamanyu  and  Majumder, Navonil  and Naik, Gautam  and Cambria, Erik  and   Mihalcea, Rada",
+      "title": "{MELD}: A Multimodal Multi-Party Dataset for Emotion Recognition in Conversations",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "poria-etal-2019-meld"
+    },
+    {
+      "year": "2024",
+      "booktitle": "Proceedings of the the 12th International Conference on Learning Representations",
+      "author": "Zhang, Hanlei and Wang, Xin and Xu, Hua and Zhou, Qianrui and Gao, Kai and Su, Jianhua and Li, Wenrui and Chen, Yanting and others",
+      "title": "MIntRec2.0: A Large-scale Benchmark Dataset for Multimodal Intent Recognition and Out-of-scope Detection in Conversations",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zhang2024mintrec2.0"
+    },
+    {
+      "year": "2024",
+      "pages": "18--35",
+      "booktitle": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics",
+      "author": "Zhang, Hanlei and Xu, Hua and Long, Fei and Wang, Xin and Gao, Kai",
+      "title": "Unsupervised Multimodal Clustering for Semantics Discovery in Multimodal Utterances",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zhang2024unsupervised"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2403.17297",
+      "author": "Cai, Zheng and Cao, Maosong and Chen, Haojiong and Chen, Kai and Chen, Keyu and Chen, Xin and Chen, Xun and Chen, Zehui and Chen, Zhi and Chu, Pei and others",
+      "title": "Internlm2 technical report",
+      "ENTRYTYPE": "article",
+      "ID": "cai2024internlm2"
+    },
+    {
+      "year": "2019",
+      "pages": "6558--6569",
+      "booktitle": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+      "author": "Tsai, Yao-Hung Hubert and Bai, Shaojie and Liang, Paul Pu and Kolter, J Zico and Morency, Louis-Philippe and Salakhutdinov, Ruslan",
+      "title": "Multimodal Transformer for Unaligned Multimodal Language Sequences",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "tsai2019multimodal"
+    },
+    {
+      "year": "2024",
+      "title": "Token-Level Contrastive Learning with Modality-Aware Prompting for Multimodal Intent Recognition",
+      "pages": "17114--17122",
+      "booktitle": "Proceedings of the AAAI Conference on Artificial Intelligence",
+      "author": "Zhou, Qianrui and Xu, Hua and Li, Hao and Zhang, Hanlei and Zhang, Xiaohan and Wang, Yifan and Gao, Kai",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zhou2024token"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2303.08774",
+      "author": "Achiam, Josh and Adler, Steven and Agarwal, Sandhini and Ahmad, Lama and Akkaya, Ilge and Aleman, Florencia Leoni and Almeida, Diogo and Altenschmidt, Janko and Altman, Sam and Anadkat, Shyamal and others",
+      "title": "Gpt-4 technical report",
+      "ENTRYTYPE": "article",
+      "ID": "achiam2023gpt"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2401.13601",
+      "author": "Zhang, Duzhen and Yu, Yahan and Dong, Jiahua and Li, Chenxing and Su, Dan and Chu, Chenhui and Yu, Dong",
+      "title": "Mm-llms: Recent advances in multimodal large language models",
+      "ENTRYTYPE": "article",
+      "ID": "zhang2024mm"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2403.08295",
+      "author": "Team, Gemma and Mesnard, Thomas and Hardin, Cassidy and Dadashi, Robert and Bhupatiraju, Surya and Pathak, Shreya and Sifre, Laurent and Rivi{\\`e}re, Morgane and Kale, Mihir Sanjay and Love, Juliette and others",
+      "title": "Gemma: Open models based on gemini research and technology",
+      "ENTRYTYPE": "article",
+      "ID": "team2024gemma"
+    },
+    {
+      "year": "2018",
+      "pages": "2247--2256",
+      "booktitle": "Proceedings of the 26th Annual Meeting of the Association for Computational Linguistics",
+      "author": "Liu, Zhun and Shen, Ying and Lakshminarasimhan, Varun Bharadhwaj and Liang, Paul Pu and Zadeh, AmirAli Bagher and Morency, Louis-Philippe",
+      "title": "Efficient Low-rank Multimodal Fusion With Modality-Specific Factors",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "liu-etal-2018-efficient-low"
+    },
+    {
+      "year": "2018",
+      "pages": "5634--5641",
+      "booktitle": "Proceedings of the AAAI Conference on Artificial Intelligence",
+      "author": "Zadeh, Amir and Liang, Paul Pu and Mazumder, Navonil and Poria, Soujanya and Cambria, Erik and Morency, Louis-Philippe",
+      "title": "Memory fusion network for multi-view sequential learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zadeh2018memory"
+    },
+    {
+      "year": "2017",
+      "title": "Tensor Fusion Network for Multimodal Sentiment Analysis",
+      "pages": "1103--1114",
+      "booktitle": "Proceedings of the 2017 Conference on Empirical Methods in Natural Language Processing",
+      "author": "Zadeh, Amir  and\nChen, Minghai  and\nPoria, Soujanya  and\nCambria, Erik  and\nMorency, Louis-Philippe",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zadeh-etal-2017-tensor"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2302.13971",
+      "author": "Touvron, Hugo and Lavril, Thibaut and Izacard, Gautier and Martinet, Xavier and Lachaux, Marie-Anne and Lacroix, Timoth{\\'e}e and Rozi{\\`e}re, Baptiste and Goyal, Naman and Hambro, Eric and Azhar, Faisal and others",
+      "title": "Llama: Open and efficient foundation language models",
+      "ENTRYTYPE": "article",
+      "ID": "touvron2023llama"
+    },
+    {
+      "year": "2022",
+      "title": "Lo{RA}: Low-Rank Adaptation of Large Language Models",
+      "booktitle": "Proceedings of the 10th International Conference on Learning Representations",
+      "author": "Edward J Hu and yelong shen and Phillip Wallis and Zeyuan Allen-Zhu and Yuanzhi Li and Shean Wang and Lu Wang and Weizhu Chen",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "hu2022lora"
+    },
+    {
+      "year": "2023",
+      "number": "12",
+      "volume": "55",
+      "journal": "ACM Computing Surveys",
+      "author": "Ji, Ziwei and Lee, Nayeon and Frieske, Rita and Yu, Tiezheng and Su, Dan and Xu, Yan and Ishii, Etsuko and Bang, Ye Jin and Madotto, Andrea and Fung, Pascale",
+      "title": "Survey of hallucination in natural language generation",
+      "ENTRYTYPE": "article",
+      "ID": "ji2023survey"
+    },
+    {
+      "year": "2023",
+      "pages": "6449--6464",
+      "booktitle": "Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing",
+      "author": "Li, Junyi and Cheng, Xiaoxue and Zhao, Wayne Xin and Nie, Jian-Yun and Wen, Ji-Rong",
+      "title": "HaluEval: A Large-Scale Hallucination Evaluation Benchmark for Large Language Models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "li2023halueval"
+    },
+    {
+      "year": "2020",
+      "pages": "1877--1901",
+      "booktitle": "Proceedings of the 34th International Conference on Neural Information Processing Systems",
+      "author": "Brown, Tom B and Mann, Benjamin and Ryder, Nick and Subbiah, Melanie and Kaplan, Jared and Dhariwal, Prafulla and Neelakantan, Arvind and Shyam, Pranav and Sastry, Girish and Askell, Amanda and others",
+      "title": "Language models are few-shot learners",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "brown2020language"
+    },
+    {
+      "year": "2025",
+      "pages": "29733--29735",
+      "booktitle": "Proceedings of the AAAI Conference on Artificial Intelligence",
+      "author": "Zhao, Yuze and Huang, Jintao and Hu, Jinghan and Wang, Xingjun and Mao, Yunlin and Zhang, Daoze and Jiang, Zeyinzi and Wu, Zhikai and Ai, Baole and Wang, Ang and others",
+      "title": "Swift: a scalable lightweight infrastructure for fine-tuning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zhao2025swift"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2407.21783",
+      "author": "Dubey, Abhimanyu and Jauhri, Abhinav and Pandey, Abhinav and Kadian, Abhishek and Al-Dahle, Ahmad and Letman, Aiesha and Mathur, Akhil and Schelten, Alan and Yang, Amy and Fan, Angela and others",
+      "title": "The llama 3 herd of models",
+      "ENTRYTYPE": "article",
+      "ID": "dubey2024llama"
+    },
+    {
+      "year": "2024",
+      "pages": "22195--22206",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Li, Kunchang and Wang, Yali and He, Yinan and Li, Yizhuo and Wang, Yi and Liu, Yi and Wang, Zun and Xu, Jilan and Chen, Guo and Luo, Ping and others",
+      "title": "Mvbench: A comprehensive multi-modal video understanding benchmark",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "li2024mvbench"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2410.02713",
+      "author": "Zhang, Yuanhan and Wu, Jinming and Li, Wei and Li, Bo and Ma, Zejun and Liu, Ziwei and Li, Chunyuan",
+      "title": "Video Instruction Tuning With Synthetic Data",
+      "ENTRYTYPE": "article",
+      "ID": "zhang2024video"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2408.03326",
+      "author": "Li, Bo and Zhang, Yuanhan and Guo, Dong and Zhang, Renrui and Li, Feng and Zhang, Hao and Zhang, Kaichen and Li, Yanwei and Liu, Ziwei and Li, Chunyuan",
+      "title": "Llava-onevision: Easy visual task transfer",
+      "ENTRYTYPE": "article",
+      "ID": "li2024llava"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2407.10671",
+      "author": "Yang, An and Yang, Baosong and Hui, Binyuan and Zheng, Bo and Yu, Bowen and Zhou, Chang and Li, Chengpeng and Li, Chengyuan and Liu, Dayiheng and Huang, Fei and others",
+      "title": "Qwen2 technical report",
+      "ENTRYTYPE": "article",
+      "ID": "yang2024qwen2"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2406.12793",
+      "author": "GLM, Team and Zeng, Aohan and Xu, Bin and Wang, Bowen and Zhang, Chenhui and Yin, Da and Zhang, Dan and Rojas, Diego and Feng, Guanyu and Zhao, Hanlin and others",
+      "title": "Chatglm: A family of large language models from glm-130b to glm-4 all tools",
+      "ENTRYTYPE": "article",
+      "ID": "glm2024chatglm"
+    },
+    {
+      "pages": "3536--3547",
+      "year": "2024",
+      "booktitle": "Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing",
+      "author": "Chen, Yifan  and\nLi, Kuntao  and\nMai, Weixing  and\nWu, Qiaofeng  and\nXue, Yun  and\nLi, Fenghuan",
+      "title": "{D}2{R}: Dual-Branch Dynamic Routing Network for Multimodal Sentiment Detection",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "chen-etal-2024-d2r"
+    },
+    {
+      "year": "2023",
+      "pages": "34892--34916",
+      "booktitle": "Proceedings of the Advances in Neural Information Processing Systems",
+      "author": "Liu, Haotian and Li, Chunyuan and Wu, Qingyang and Lee, Yong Jae",
+      "title": "Visual instruction tuning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "liu2023visual"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2405.21075",
+      "author": "Fu, Chaoyou and Dai, Yuhan and Luo, Yongdong and Li, Lei and Ren, Shuhuai and Zhang, Renrui and Wang, Zihan and Zhou, Chenyu and Shen, Yunhang and Zhang, Mengdan and others",
+      "title": "Video-mme: The first-ever comprehensive evaluation benchmark of multi-modal llms in video analysis",
+      "ENTRYTYPE": "article",
+      "ID": "fu2024video"
+    },
+    {
+      "year": "2024",
+      "volume": "37",
+      "title": "CogVLM: Visual Expert for Pretrained Language Models",
+      "pages": "121475--121499",
+      "booktitle": "Advances in Neural Information Processing Systems",
+      "author": "Wang, Weihan and Lv, Qingsong and Yu, Wenmeng and Hong, Wenyi and Qi, Ji and Wang, Yan and Ji, Junhui and Yang, Zhuoyi and Zhao, Lei and XiXuan, Song and Xu, Jiazheng and Chen, Keqin and Xu, Bin and Li, Juanzi and Dong, Yuxiao and Ding, Ming and Tang, Jie",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "NEURIPS2024_dc06d4d2"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2306.13549",
+      "author": "Yin, Shukang and Fu, Chaoyou and Zhao, Sirui and Li, Ke and Sun, Xing and Xu, Tong and Chen, Enhong",
+      "title": "A survey on multimodal large language models",
+      "ENTRYTYPE": "article",
+      "ID": "yin2023survey"
+    },
+    {
+      "year": "2024",
+      "title": "MiniGPT-4: Enhancing Vision-Language Understanding with Advanced Large Language Models",
+      "booktitle": "Proceedings of the the 12th International Conference on Learning Representations",
+      "author": "Zhu, Deyao and Chen, Jun and Shen, Xiaoqian and Li, Xiang and Elhoseiny, Mohamed",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zhuminigpt"
+    },
+    {
+      "year": "2023",
+      "title": "Blip-2: Bootstrapping language-image pre-training with frozen image encoders and large language models",
+      "pages": "19730--19742",
+      "booktitle": "Proceedings of the 40th International Conference on Machine Learning",
+      "author": "Li, Junnan and Li, Dongxu and Savarese, Silvio and Hoi, Steven",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "li2023blip"
+    },
+    {
+      "year": "2021",
+      "title": "Learning modality-specific representations with self-supervised multi-task learning for multimodal sentiment analysis",
+      "pages": "10790--10797",
+      "booktitle": "Proceedings of the AAAI Conference on Artificial Intelligence",
+      "author": "Yu, Wenmeng and Xu, Hua and Yuan, Ziqi and Wu, Jiele",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "yu2021learning"
+    },
+    {
+      "year": "1992",
+      "pages": "517--520",
+      "booktitle": "Proceedings of the IEEE International Conference on Acoustics, Speech, and Signal Processing",
+      "author": "Godfrey, John J and Holliman, Edward C and McDaniel, Jane",
+      "title": "SWITCHBOARD: Telephone speech corpus for research and development",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "godfrey1992switchboard"
+    },
+    {
+      "year": "2022",
+      "title": "Anno-MI: A Dataset of Expert-Annotated Counselling Dialogues",
+      "pages": "6177-6181",
+      "booktitle": "Proceedings of the IEEE International Conference on Acoustics, Speech and Signal Processing",
+      "author": "Wu, Zixiu and Balloccu, Simone and Kumar, Vivek and Helaoui, Rim and Reiter, Ehud and Reforgiato Recupero, Diego and Riboni, Daniele",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "Anno-MI"
+    },
+    {
+      "year": "2008",
+      "pages": "335--359",
+      "volume": "42",
+      "journal": "Language resources and evaluation",
+      "author": "Busso, Carlos and Bulut, Murtaza and Lee, Chi-Chun and Kazemzadeh, Abe and Mower, Emily and Kim, Samuel and Chang, Jeannette N and Lee, Sungbok and Narayanan, Shrikanth S",
+      "title": "IEMOCAP: Interactive emotional dyadic motion capture database",
+      "ENTRYTYPE": "article",
+      "ID": "busso2008iemocap"
+    },
+    {
+      "year": "2016",
+      "journal": "arXiv preprint arXiv:1606.06259",
+      "author": "Zadeh, Amir and Zellers, Rowan and Pincus, Eli and Morency, Louis-Philippe",
+      "title": "Mosi: multimodal corpus of sentiment intensity and subjectivity analysis in online opinion videos",
+      "ENTRYTYPE": "article",
+      "ID": "zadeh2016mosi"
+    },
+    {
+      "year": "2024",
+      "title": "{L}lama{F}actory: Unified Efficient Fine-Tuning of 100+ Language Models",
+      "pages": "400--410",
+      "booktitle": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics : System Demonstrations",
+      "author": "Zheng, Yaowei  and  Zhang, Richong  and   Zhang, Junhao  and    YeYanhan, YeYanhan  and    Luo, Zheyan",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zheng-etal-2024-llamafactory"
+    },
+    {
+      "year": "2020",
+      "journal": "arXiv preprint arXiv:2001.08361",
+      "author": "Kaplan, Jared and McCandlish, Sam and Henighan, Tom and Brown, Tom B and Chess, Benjamin and Child, Rewon and Gray, Scott and Radford, Alec and Wu, Jeffrey and Amodei, Dario",
+      "title": "Scaling laws for neural language models",
+      "ENTRYTYPE": "article",
+      "ID": "kaplan2020scaling"
+    },
+    {
+      "year": "2023",
+      "title": "{SIMMC}-{VR}: A Task-oriented Multimodal Dialog Dataset with Situated and Immersive {VR} Streams",
+      "pages": "6273--6291",
+      "booktitle": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics",
+      "author": "Wu, Te-Lin  and\nKottur, Satwik  and\nMadotto, Andrea  and\nAzab, Mahmoud  and\nRodriguez, Pedro  and\nDamavandi, Babak  and\nPeng, Nanyun  and\nMoon, Seungwhan",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "wu-etal-2023-simmc"
+    },
+    {
+      "year": "2021",
+      "title": "MultiMET: A multimodal dataset for metaphor understanding",
+      "pages": "3214--3225",
+      "booktitle": "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing",
+      "author": "Zhang, Dongyu and Zhang, Minghao and Zhang, Heting and Yang, Liang and Lin, Hongfei",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zhang2021multimet"
+    },
+    {
+      "year": "2024",
+      "pages": "10606",
+      "volume": "14",
+      "journal": "Scientific Reports",
+      "author": "Mittal, Trisha and Chowdhury, Sanjoy and Guhan, Pooja and Chelluri, Snikitha and Manocha, Dinesh",
+      "title": "Towards determining perceived audience intent for multimodal social media posts using the theory of reasoned action",
+      "ENTRYTYPE": "article",
+      "ID": "mittal2024towards"
+    },
+    {
+      "year": "2019",
+      "pages": "445--454",
+      "booktitle": "Proceedings of the 42nd international ACM SIGIR conference on research and development in information retrieval",
+      "author": "Cui, Chen and Wang, Wenjie and Song, Xuemeng and Huang, Minlie and Xu, Xin-Shun and Nie, Liqiang",
+      "title": "User attention-guided multimodal dialog systems",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "cui2019user"
+    },
+    {
+      "year": "2024",
+      "pages": "958--979",
+      "booktitle": "Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision",
+      "author": "Cui, Can and Ma, Yunsheng and Cao, Xu and Ye, Wenqian and Zhou, Yang and Liang, Kaizhao and Chen, Jintai and Lu, Juanwu and Yang, Zichong and Liao, Kuei-Da and others",
+      "title": "A survey on multimodal large language models for autonomous driving",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "cui2024survey"
+    },
+    {
+      "year": "2023",
+      "pages": "424--444",
+      "volume": "91",
+      "journal": "Information Fusion",
+      "author": "Gandhi, Ankita and Adhvaryu, Kinjal and Poria, Soujanya and Cambria, Erik and Hussain, Amir",
+      "title": "Multimodal sentiment analysis: A systematic review of history, datasets, multimodal fusion methods, applications, challenges and future directions",
+      "ENTRYTYPE": "article",
+      "ID": "gandhi2023multimodal"
+    },
+    {
+      "pages": "1615--1627",
+      "year": "2024",
+      "booktitle": "Findings of the Association for Computational Linguistics: NAACL 2024",
+      "author": "\"Yang, Ziyi  and    Khademi, Mahmoud  and    Xu, Yichong  and      Pryzant, Reid  and     Fang, Yuwei  and   Zhu, Chenguang  and    Chen, Dongdong  and   Qian, Yao  and   Gao, Xuemei  and     Chen, Yi-Ling  and      Gmyr, Robert  and     Kanda, Naoyuki  and    Codella, Noel  and   Xiao, Bin  and    Shi, Yu  and    Yuan, Lu  and   Yoshioka, Takuya  and   Zeng, Michael  and      Huang, Xuedong\"",
+      "title": "i-Code V2: An Autoregressive Generation Framework over Vision, Language, and Speech Data",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "yang-etal-2024-code"
+    },
+    {
+      "year": "2024",
+      "title": "FlashAttention-2: Faster Attention with Better Parallelism and Work Partitioning",
+      "booktitle": "Proceedings of the 12th International Conference on Learning Representations",
+      "author": "Tri Dao",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "dao2024flashattention"
+    },
+    {
+      "pages": "423-443",
+      "number": "2",
+      "volume": "41",
+      "year": "2019",
+      "title": "Multimodal Machine Learning: A Survey and Taxonomy",
+      "journal": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+      "author": "Baltrušaitis, Tadas and Ahuja, Chaitanya and Morency, Louis-Philippe",
+      "ENTRYTYPE": "article",
+      "ID": "8269806"
+    },
+    {
+      "year": "2019",
+      "title": "Words can shift: Dynamically adjusting word representations using nonverbal behaviors",
+      "pages": "7216--7223",
+      "booktitle": "Proceedings of the AAAI Conference on Artificial Intelligence",
+      "author": "Wang, Yansen and Shen, Ying and Liu, Zhun and Liang, Paul Pu and Zadeh, Amir and Morency, Louis-Philippe",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "wang2019words"
+    },
+    {
+      "year": "2019",
+      "title": "Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks",
+      "booktitle": "Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing",
+      "author": "Reimers, Nils and Gurevych, Iryna",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "reimers-2019-sentence-bert"
+    },
+    {
+      "year": "2022",
+      "title": "MM-DFN: Multimodal dynamic fusion network for emotion recognition in conversations",
+      "pages": "7037--7041",
+      "booktitle": "Proceedings of the IEEE International Conference on Acoustics, Speech and Signal Processing",
+      "author": "Hu, Dou and Hou, Xiaolong and Wei, Lingwei and Jiang, Lianxin and Mo, Yang",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "hu2022mm"
+    },
+    {
+      "year": "2021",
+      "title": "A Survey on Spoken Language Understanding: Recent Advances and New Frontiers",
+      "pages": "4577--4584",
+      "booktitle": "Proceedings of the 30th International Joint Conference on Artificial Intelligence",
+      "author": "Qin, Libo and Xie, Tianbao and Che, Wanxiang and Liu, Ting",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ijcai2021-0622"
+    },
+    {
+      "year": "2018",
+      "title": "Multimodal language analysis in the wild: Cmu-mosei dataset and interpretable dynamic fusion graph",
+      "pages": "2236--2246",
+      "booktitle": "Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics",
+      "author": "Zadeh, AmirAli Bagher and Liang, Paul Pu and Poria, Soujanya and Cambria, Erik and Morency, Louis-Philippe",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zadeh2018multimodal"
+    },
+    {
+      "year": "2000",
+      "pages": "339--373",
+      "number": "3",
+      "volume": "26",
+      "journal": "Computational Linguistics",
+      "author": "Stolcke, Andreas and Ries, Klaus and Coccaro, Noah and Shriberg, Elizabeth and Bates, Rebecca and Jurafsky, Daniel and Taylor, Paul and Martin, Rachel and Ess-Dykema, Carol Van and Meteer, Marie",
+      "title": "Dialogue act modeling for automatic tagging and recognition of conversational speech",
+      "ENTRYTYPE": "article",
+      "ID": "stolcke2000dialogue"
+    },
+    {
+      "year": "1992",
+      "pages": "169--200",
+      "number": "3-4",
+      "volume": "6",
+      "journal": "Cognition \\& emotion",
+      "author": "Ekman, Paul",
+      "title": "An argument for basic emotions",
+      "ENTRYTYPE": "article",
+      "ID": "ekman1992argument"
+    },
+    {
+      "year": "2003",
+      "volume": "54",
+      "title": "Psychological aspects of natural language use: Our words, our selves",
+      "pages": "547--577",
+      "number": "1",
+      "journal": "Annual Review of Psychology",
+      "author": "Pennebaker, James W and Mehl, Matthias R and Niederhoffer, Kate G",
+      "ENTRYTYPE": "article",
+      "ID": "pennebaker2003psychological"
+    },
+    {
+      "year": "2021",
+      "title": "Multimodal Humor Dataset: Predicting Laughter Tracks for Sitcoms",
+      "pages": "576-585",
+      "booktitle": "Proceedings of the 2021 IEEE Winter Conference on Applications of Computer Vision",
+      "author": "Patro, Badri N. and Lunayach, Mayank and Srivastava, Deepankar and Sarvesh and Singh, Hunar and Namboodiri, Vinay P.",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "Patro_2021_WACV"
+    },
+    {
+      "year": "2022",
+      "pages": "1642--1651",
+      "booktitle": "Proceedings of the 30th ACM International Conference on Multimedia",
+      "author": "Yang, Dingkang and Huang, Shuai and Kuang, Haopeng and Du, Yangtao and Zhang, Lihua",
+      "title": "Disentangled representation learning for multimodal emotion recognition",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "yang2022disentangled"
+    },
+    {
+      "year": "2023",
+      "pages": "270--307",
+      "volume": "55",
+      "title": "Multimodal sentiment analysis: a survey of methods, trends, and challenges",
+      "number": "13s",
+      "journal": "ACM Computing Surveys",
+      "author": "Das, Ringki and Singh, Thoudam Doren",
+      "ENTRYTYPE": "article",
+      "ID": "das2023multimodal"
+    },
+    {
+      "year": "2009",
+      "pages": "1743--1759",
+      "number": "12",
+      "volume": "27",
+      "journal": "Image and vision computing",
+      "author": "Vinciarelli, Alessandro and Pantic, Maja and Bourlard, Herv{\\'e}",
+      "title": "Social signal processing: Survey of an emerging domain",
+      "ENTRYTYPE": "article",
+      "ID": "vinciarelli2009social"
+    },
+    {
+      "volume": "26",
+      "year": "2022",
+      "title": "Multi-Modal Understanding and Generation for Medical Images and Text via Vision-Language Pre-Training",
+      "journal": "IEEE Journal of Biomedical and Health Informatics",
+      "author": "Moon, Jong Hak and Lee, Hyungyung and Shin, Woncheol and Kim, Young-Hak and Choi, Edward",
+      "ENTRYTYPE": "article",
+      "ID": "Moon"
+    },
+    {
+      "booktitle": "Proceedings of the 31st ACM International Conference on Information \\& Knowledge Management",
+      "publisher": "Association for Computing Machinery",
+      "year": "2022",
+      "title": "Dr. Can See: Towards a Multi-modal Disease Diagnosis Virtual Assistant",
+      "author": "Tiwari, Abhisek and Manthena, Manisimha and Saha, Sriparna and Bhattacharyya, Pushpak and Dhar, Minakshi and Tiwari, Sarbajeet",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "Tiwari"
+    },
+    {
+      "pages": "42–46",
+      "journal": "Interactions",
+      "number": "4",
+      "volume": "26",
+      "year": "2019",
+      "title": "Toward human-centered AI: a perspective from human-computer interaction",
+      "author": "Xu, Wei",
+      "ENTRYTYPE": "article",
+      "ID": "Xu"
+    },
+    {
+      "author": "Sepideh Kaffash and An Truong Nguyen and Joe Zhu",
+      "year": "2021",
+      "volume": "231",
+      "journal": "International Journal of Production Economics",
+      "title": "Big data algorithms and applications in intelligent transportation system: A review and bibliometric analysis",
+      "ENTRYTYPE": "article",
+      "ID": "KAFFASH"
+    },
+    {
+      "year": "2021",
+      "title": "Improving multimodal fusion with hierarchical mutual information maximization for multimodal sentiment analysis",
+      "pages": "9180--9192",
+      "booktitle": "Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing",
+      "author": "Han, Wei and Chen, Hui and Poria, Soujanya",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "han2021improving"
+    },
+    {
+      "year": "2022",
+      "volume": "12",
+      "journal": "WIREs Data Mining and Knowledge Discovery",
+      "title": "A critical review of state-of-the-art chatbot designs and applications",
+      "author": "Luo, Bei and Lau, Raymond Y. K. and Li, Chunping and Si, Yain-Whar",
+      "ENTRYTYPE": "article",
+      "ID": "Luo"
+    },
+    {
+      "year": "2024",
+      "title": "Contextual Augmented Global Contrast for Multimodal Intent Recognition",
+      "pages": "26963--26973",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Sun, Kaili and Xie, Zhiwen and Ye, Mang and Zhang, Huyin",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "sun2024contextual"
+    },
+    {
+      "year": "2013",
+      "title": "Utterance-level multimodal sentiment analysis",
+      "pages": "973--982",
+      "booktitle": "Proceedings of the 51st Annual Meeting of the Association for Computational Linguistics",
+      "author": "P{\\'e}rez-Rosas, Ver{\\'o}nica and Mihalcea, Rada and Morency, Louis-Philippe",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "perez-rosas-etal-2013-utterance"
+    },
+    {
+      "year": "2024",
+      "title": "Multimodal multi-loss fusion network for sentiment analysis",
+      "pages": "3588--3602",
+      "booktitle": "Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies",
+      "author": "Wu, Zehui and Gong, Ziwei and Koo, Jaywon and Hirschberg, Julia",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "wu2024multimodal"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2310.05804",
+      "author": "Zhang, Haoyu and Wang, Yu and Yin, Guanghao and Liu, Kejun and Liu, Yuanyuan and Yu, Tianshu",
+      "title": "Learning language-guided adaptive hyper-modality representation for multimodal sentiment analysis",
+      "ENTRYTYPE": "article",
+      "ID": "zhang2023learning"
+    },
+    {
+      "year": "2023",
+      "title": "SimMMDG: A simple and effective framework for multi-modal domain generalization",
+      "pages": "78674--78695",
+      "booktitle": "Proceedings of the Advances in Neural Information Processing Systems",
+      "author": "Dong, Hao and Nejjar, Ismail and Sun, Han and Chatzi, Eleni and Fink, Olga",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "dong2023simmmdg"
+    },
+    {
+      "publisher": "MDPI",
+      "year": "2023",
+      "pages": "110",
+      "number": "3",
+      "volume": "15",
+      "journal": "Future Internet",
+      "author": "Wu, Zixiu and Balloccu, Simone and Kumar, Vivek and Helaoui, Rim and Reforgiato Recupero, Diego and Riboni, Daniele",
+      "title": "Creation, analysis and evaluation of annomi, a dataset of expert-annotated counselling dialogues",
+      "ENTRYTYPE": "article",
+      "ID": "wu2023creation"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2410.21276",
+      "author": "Hurst, Aaron and Lerer, Adam and Goucher, Adam P and Perelman, Adam and Ramesh, Aditya and Clark, Aidan and Ostrow, AJ and Welihinda, Akila and Hayes, Alan and Radford, Alec and others",
+      "title": "Gpt-4o system card",
+      "ENTRYTYPE": "article",
+      "ID": "hurst2024gpt"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2412.12453",
+      "author": "Zhang, Hanlei and Zhou, Qianrui and Xu, Hua and Su, Jianhua and Evans, Roberto and Gao, Kai",
+      "title": "Multimodal Classification and Out-of-distribution Detection for Multimodal Intent Understanding",
+      "ENTRYTYPE": "article",
+      "ID": "zhang2024multimodal"
+    },
+    {
+      "pages": "26963-26973",
+      "year": "2024",
+      "month": "June",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "title": "Contextual Augmented Global Contrast for Multimodal Intent Recognition",
+      "author": "Sun, Kaili and Xie, Zhiwen and Ye, Mang and Zhang, Huyin",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "Sun_2024_CVPR"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2303.09166",
+      "author": "Daunhawer, Imant and Bizeul, Alice and Palumbo, Emanuele and Marx, Alexander and Vogt, Julia E",
+      "title": "Identifiability results for multimodal contrastive learning",
+      "ENTRYTYPE": "article",
+      "ID": "daunhawer2023identifiability"
+    },
+    {
+      "organization": "IEEE",
+      "year": "2020",
+      "pages": "561--570",
+      "booktitle": "2020 IEEE international conference on data mining (ICDM)",
+      "author": "Verma, Sunny and Wang, Jiwei and Ge, Zhefeng and Shen, Rujia and Jin, Fan and Wang, Yang and Chen, Fang and Liu, Wei",
+      "title": "Deep-HOSeq: Deep higher order sequence fusion for multimodal sentiment analysis",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "verma2020deep"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "2021",
+      "pages": "802--812",
+      "number": "1",
+      "volume": "28",
+      "journal": "IEEE Transactions on Visualization and Computer Graphics",
+      "author": "Wang, Xingbo and He, Jianben and Jin, Zhihua and Yang, Muqiao and Wang, Yong and Qu, Huamin",
+      "title": "M2lens: Visualizing and explaining multimodal models for sentiment analysis",
+      "ENTRYTYPE": "article",
+      "ID": "wang2021m2lens"
+    },
+    {
+      "year": "2020",
+      "pages": "10437--10446",
+      "booktitle": "Proceedings of the IEEE/CVF conference on computer vision and pattern recognition",
+      "author": "Lu, Jiasen and Goswami, Vedanuj and Rohrbach, Marcus and Parikh, Devi and Lee, Stefan",
+      "title": "12-in-1: Multi-task vision and language representation learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "lu202012"
+    },
+    {
+      "year": "2019",
+      "pages": "197--202",
+      "volume": "2421",
+      "journal": "IberLEF@ SEPLN",
+      "author": "Mao, Jihang and Liu, Wanli",
+      "title": "A BERT-based Approach for Automatic Humor Detection and Scoring.",
+      "ENTRYTYPE": "article",
+      "ID": "mao2019bert"
+    },
+    {
+      "organization": "IEEE",
+      "year": "2021",
+      "pages": "968--972",
+      "booktitle": "2021 international conference on advance computing and innovative technologies in engineering (ICACITE)",
+      "author": "Verma, Palak and Shukla, Neha and Shukla, AP",
+      "title": "Techniques of sarcasm detection: A review",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "verma2021techniques"
+    },
+    {
+      "publisher": "Institute of Electronics and Computer",
+      "year": "2020",
+      "pages": "53--79",
+      "number": "1",
+      "volume": "2",
+      "journal": "Journal of Artificial Intelligence and Systems",
+      "author": "Saxena, Anvita and Khanna, Ashish and Gupta, Deepak",
+      "title": "Emotion recognition and detection methods: A comprehensive survey",
+      "ENTRYTYPE": "article",
+      "ID": "saxena2020emotion"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2406.08407",
+      "author": "He, Xuehai and Feng, Weixi and Zheng, Kaizhi and Lu, Yujie and Zhu, Wanrong and Li, Jiachen and Fan, Yue and Wang, Jianfeng and Li, Linjie and Yang, Zhengyuan and others",
+      "title": "MMWorld: Towards Multi-discipline Multi-faceted World Model Evaluation in Videos",
+      "ENTRYTYPE": "article",
+      "ID": "he2024mmworld"
+    },
+    {
+      "year": "2024",
+      "pages": "7346--7355",
+      "booktitle": "Proceedings of the 32nd ACM International Conference on Multimedia",
+      "author": "Ge, Zhiqi and Huang, Hongzhe and Zhou, Mingze and Li, Juncheng and Wang, Guoming and Tang, Siliang and Zhuang, Yueting",
+      "title": "Worldgpt: Empowering llm as multimodal world model",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ge2024worldgpt"
+    },
+    {
+      "url": "https://arxiv.org/abs/2306.13394",
+      "primaryclass": "cs.CV",
+      "archiveprefix": "arXiv",
+      "eprint": "2306.13394",
+      "year": "2024",
+      "author": "Chaoyou Fu and Peixian Chen and Yunhang Shen and Yulei Qin and Mengdan Zhang and Xu Lin and Jinrui Yang and Xiawu Zheng and Ke Li and Xing Sun and Yunsheng Wu and Rongrong Ji",
+      "title": "MME: A Comprehensive Evaluation Benchmark for Multimodal Large Language Models",
+      "ENTRYTYPE": "misc",
+      "ID": "fu2024mmecomprehensiveevaluationbenchmark"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2311.16103",
+      "author": "Ning, Munan and Zhu, Bin and Xie, Yujia and Lin, Bin and Cui, Jiaxi and Yuan, Lu and Chen, Dongdong and Yuan, Li",
+      "title": "Video-bench: A comprehensive benchmark and toolkit for evaluating video-based large language models",
+      "ENTRYTYPE": "article",
+      "ID": "ning2023video"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2406.14515",
+      "author": "Fang, Xinyu and Mao, Kangrui and Duan, Haodong and Zhao, Xiangyu and Li, Yining and Lin, Dahua and Chen, Kai",
+      "title": "MMBench-Video: A Long-Form Multi-Shot Benchmark for Holistic Video Understanding",
+      "ENTRYTYPE": "article",
+      "ID": "fang2024mmbench"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2308.16890",
+      "author": "Bai, Shuai and Yang, Shusheng and Bai, Jinze and Wang, Peng and Zhang, Xingxuan and Lin, Junyang and Wang, Xinggang and Zhou, Chang and Zhou, Jingren",
+      "title": "Touchstone: Evaluating vision-language models by language models",
+      "ENTRYTYPE": "article",
+      "ID": "bai2023touchstone"
+    },
+    {
+      "year": "2025",
+      "title": "Mmbench: Is your multi-modal model an all-around player?",
+      "pages": "216--233",
+      "booktitle": "Proceedings of the European Conference on Computer Vision",
+      "author": "Liu, Yuan and Duan, Haodong and Zhang, Yuanhan and Li, Bo and Zhang, Songyang and Zhao, Wangbo and Yuan, Yike and Wang, Jiaqi and He, Conghui and Liu, Ziwei and others",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "liu2025mmbench"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2407.02751",
+      "author": "Liu, Rui and Zuo, Haolin and Lian, Zheng and Xing, Xiaofen and Schuller, Bj{\\\"o}rn W and Li, Haizhou",
+      "title": "Emotion and intent joint understanding in multimodal conversation: A benchmarking dataset",
+      "ENTRYTYPE": "article",
+      "ID": "liu2024emotion"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2304.14178",
+      "author": "Ye, Qinghao and Xu, Haiyang and Xu, Guohai and Ye, Jiabo and Yan, Ming and Zhou, Yiyang and Wang, Junyang and Hu, Anwen and Shi, Pengcheng and Shi, Yaya and others",
+      "title": "mplug-owl: Modularization empowers large language models with multimodality",
+      "ENTRYTYPE": "article",
+      "ID": "ye2023mplug"
+    },
+    {
+      "isbn": "978-3-031-73113-6",
+      "pages": "179--195",
+      "address": "Cham",
+      "publisher": "Springer Nature Switzerland",
+      "year": "2025",
+      "booktitle": "Computer Vision -- ECCV 2024",
+      "title": "AutoEval-Video: An Automatic Benchmark for Assessing Large Vision Language Models in Open-Ended Video Question Answering",
+      "editor": "Leonardis, Ale{\\v{s}}\nand Ricci, Elisa\nand Roth, Stefan\nand Russakovsky, Olga\nand Sattler, Torsten\nand Varol, G{\\\"u}l",
+      "author": "Chen, Xiuyuan\nand Lin, Yuan\nand Zhang, Yuchen\nand Huang, Weiran",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "chen2023autoeval"
+    },
+    {
+      "year": "2024",
+      "journal": "CoRR",
+      "author": "Liu, Xiao and Zhang, Tianjie and Gu, Yu and Iong, Iat Long and Xu, Yifan and Song, Xixuan and Zhang, Shudan and Lai, Hanyu and Liu, Xinyi and Zhao, Hanlin and others",
+      "title": "VisualAgentBench: Towards Large Multimodal Models as Visual Foundation Agents",
+      "ENTRYTYPE": "article",
+      "ID": "liu2024visualagentbench"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2406.04264",
+      "author": "Zhou, Junjie and Shu, Yan and Zhao, Bo and Wu, Boya and Xiao, Shitao and Yang, Xi and Xiong, Yongping and Zhang, Bo and Huang, Tiejun and Liu, Zheng",
+      "title": "MLVU: A Comprehensive Benchmark for Multi-Task Long Video Understanding",
+      "ENTRYTYPE": "article",
+      "ID": "zhou2024mlvu"
+    },
+    {
+      "pages": "8731--8772",
+      "doi": "10.18653/v1/2024.findings-acl.517",
+      "url": "https://aclanthology.org/2024.findings-acl.517",
+      "publisher": "Association for Computational Linguistics",
+      "address": "Bangkok, Thailand",
+      "year": "2024",
+      "month": "August",
+      "booktitle": "Findings of the Association for Computational Linguistics: ACL 2024",
+      "editor": "Ku, Lun-Wei  and\nMartins, Andre  and\nSrikumar, Vivek",
+      "author": "Liu, Yuanxin  and\nLi, Shicheng  and\nLiu, Yi  and\nWang, Yuxiang  and\nRen, Shuhuai  and\nLi, Lei  and\nChen, Sishuo  and\nSun, Xu  and\nHou, Lu",
+      "title": "{T}emp{C}ompass: Do Video {LLM}s Really Understand Videos?",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "liu2024tempcompass"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2311.17404",
+      "author": "Li, Shicheng and Li, Lei and Ren, Shuhuai and Liu, Yuanxin and Liu, Yi and Gao, Rundong and Sun, Xu and Hou, Lu",
+      "title": "Vitatecs: A diagnostic dataset for temporal concept understanding of video-language models",
+      "ENTRYTYPE": "article",
+      "ID": "li2023vitatecs"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2406.19875",
+      "author": "Ataallah, Kirolos and Gou, Chenhui and Abdelrahman, Eslam and Pahwa, Khushbu and Ding, Jian and Elhoseiny, Mohamed",
+      "title": "InfiniBench: A Comprehensive Benchmark for Large Multimodal Models in Very Long Video Understanding",
+      "ENTRYTYPE": "article",
+      "ID": "ataallah2024infinibench"
+    },
+    {
+      "organization": "Springer",
+      "year": "2022",
+      "pages": "146--162",
+      "booktitle": "European conference on computer vision",
+      "author": "Schwenk, Dustin and Khandelwal, Apoorv and Clark, Christopher and Marino, Kenneth and Mottaghi, Roozbeh",
+      "title": "A-okvqa: A benchmark for visual question answering using world knowledge",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "schwenk2022okvqa"
+    },
+    {
+      "year": "2024",
+      "volume": "36",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Patraucean, Viorica and Smaira, Lucas and Gupta, Ankush and Recasens, Adria and Markeeva, Larisa and Banarse, Dylan and Koppula, Skanda and Malinowski, Mateusz and Yang, Yi and Doersch, Carl and others",
+      "title": "Perception test: A diagnostic benchmark for multimodal video models",
+      "ENTRYTYPE": "article",
+      "ID": "patraucean2024perception"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2408.08632",
+      "author": "Li, Jian and Lu, Weiheng and Fei, Hao and Luo, Meng and Dai, Ming and Xia, Min and Jin, Yizhang and Gan, Zhenye and Qi, Ding and Fu, Chaoyou and others",
+      "title": "A survey on benchmarks of multimodal large language models",
+      "ENTRYTYPE": "article",
+      "ID": "li2024survey"
+    }
+  ]
+}

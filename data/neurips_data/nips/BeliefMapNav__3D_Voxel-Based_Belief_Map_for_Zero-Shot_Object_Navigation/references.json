@@ -1,0 +1,582 @@
+{
+  "pdf_url": "https://arxiv.org/pdf/2506.06487v1.pdf",
+  "references": [
+    {
+      "organization": "PMLR",
+      "year": "2023",
+      "pages": "42829--42842",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Zhou, Kaiwen and Zheng, Kaizhi and Pryor, Connor and Shen, Yilin and Jin, Hongxia and Getoor, Lise and Wang, Xin Eric",
+      "title": "Esc: Exploration with soft commonsense constraints for zero-shot object navigation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zhou2023esc"
+    },
+    {
+      "year": "2024",
+      "pages": "5285--5307",
+      "volume": "37",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Yin, Hang and Xu, Xiuwei and Wu, Zhenyu and Zhou, Jie and Lu, Jiwen",
+      "title": "Sg-nav: Online 3d scene graph prompting for llm-based zero-shot object navigation",
+      "ENTRYTYPE": "article",
+      "ID": "yin2024sg"
+    },
+    {
+      "year": "2024",
+      "pages": "39386--39408",
+      "volume": "37",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Huang, Hao and Hao, Yu and Wen, Congcong and Tzes, Anthony and Fang, Yi and others",
+      "title": "Gamap: Zero-shot object goal navigation with multi-scale geometric-affordance guidance",
+      "ENTRYTYPE": "article",
+      "ID": "huang2024gamap"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2305.16925",
+      "author": "Chen, Junting and Li, Guohao and Kumar, Suryansh and Ghanem, Bernard and Yu, Fisher",
+      "title": "How to not train your dragon: Training-free embodied object goal navigation with semantic frontiers",
+      "ENTRYTYPE": "article",
+      "ID": "chen2023not"
+    },
+    {
+      "organization": "IEEE",
+      "year": "2024",
+      "pages": "42--48",
+      "booktitle": "2024 IEEE International Conference on Robotics and Automation (ICRA)",
+      "author": "Yokoyama, Naoki and Ha, Sehoon and Batra, Dhruv and Wang, Jiuguang and Bucher, Bernadette",
+      "title": "Vlfm: Vision-language frontier maps for zero-shot semantic navigation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "yokoyama2024vlfm"
+    },
+    {
+      "organization": "IEEE",
+      "year": "2023",
+      "pages": "3554--3560",
+      "booktitle": "2023 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
+      "author": "Yu, Bangguo and Kasaei, Hamidreza and Cao, Ming",
+      "title": "L3mvn: Leveraging large language models for visual target navigation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "yu2023l3mvn"
+    },
+    {
+      "organization": "IEEE",
+      "year": "2023",
+      "pages": "2025--2031",
+      "booktitle": "2023 IEEE International Conference on Robotics and Automation (ICRA)",
+      "author": "Zhao, Qianfan and Zhang, Lu and He, Bin and Qiao, Hong and Liu, Zhiyong",
+      "title": "Zero-shot object goal visual navigation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zhao2023zero"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2401.02695",
+      "author": "Wu, Pengying and Mu, Yao and Wu, Bingxian and Hou, Yi and Ma, Ji and Zhang, Shanghang and Liu, Chang",
+      "title": "Voronav: Voronoi-based zero-shot object navigation with large language model",
+      "ENTRYTYPE": "article",
+      "ID": "wu2024voronav"
+    },
+    {
+      "year": "2023",
+      "pages": "10884--10894",
+      "booktitle": "Proceedings of the IEEE/CVF International Conference on Computer Vision",
+      "author": "Singh, Kunal Pratap and Salvador, Jordi and Weihs, Luca and Kembhavi, Aniruddha",
+      "title": "Scene graph contrastive learning for embodied navigation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "singh2023scene"
+    },
+    {
+      "year": "2023",
+      "pages": "23171--23181",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Gadre, Samir Yitzhak and Wortsman, Mitchell and Ilharco, Gabriel and Schmidt, Ludwig and Song, Shuran",
+      "title": "Cows on pasture: Baselines and benchmarks for language-driven zero-shot object navigation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "gadre2023cows"
+    },
+    {
+      "year": "2022",
+      "pages": "32340--32352",
+      "volume": "35",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Majumdar, Arjun and Aggarwal, Gunjan and Devnani, Bhavika and Hoffman, Judy and Batra, Dhruv",
+      "title": "Zson: Zero-shot object-goal navigation using multimodal goal embeddings",
+      "ENTRYTYPE": "article",
+      "ID": "majumdar2022zson"
+    },
+    {
+      "organization": "PmLR",
+      "year": "2021",
+      "pages": "8748--8763",
+      "booktitle": "International conference on machine learning",
+      "author": "Radford, Alec and Kim, Jong Wook and Hallacy, Chris and Ramesh, Aditya and Goh, Gabriel and Agarwal, Sandhini and Sastry, Girish and Askell, Amanda and Mishkin, Pamela and Clark, Jack and others",
+      "title": "Learning transferable visual models from natural language supervision",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "radford2021learning"
+    },
+    {
+      "organization": "IEEE",
+      "year": "2023",
+      "pages": "10608--10615",
+      "booktitle": "2023 IEEE International Conference on Robotics and Automation (ICRA)",
+      "author": "Huang, Chenguang and Mees, Oier and Zeng, Andy and Burgard, Wolfram",
+      "title": "Visual language maps for robot navigation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "huang2023visual"
+    },
+    {
+      "organization": "IEEE",
+      "year": "2024",
+      "pages": "11070--11077",
+      "booktitle": "2024 IEEE International Conference on Robotics and Automation (ICRA)",
+      "author": "Huang, Hao and Yuan, Shuaihang and Wen, CongCong and Hao, Yu and Fang, Yi",
+      "title": "Noisy few-shot 3d point cloud scene segmentation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "huang2024noisy"
+    },
+    {
+      "year": "2019",
+      "journal": "arXiv preprint arXiv:1911.00357",
+      "author": "Wijmans, Erik and Kadian, Abhishek and Morcos, Ari and Lee, Stefan and Essa, Irfan and Parikh, Devi and Savva, Manolis and Batra, Dhruv",
+      "title": "Dd-ppo: Learning near-perfect pointgoal navigators from 2.5 billion frames",
+      "ENTRYTYPE": "article",
+      "ID": "wijmans2019dd"
+    },
+    {
+      "organization": "IEEE",
+      "year": "2019",
+      "pages": "8846--8852",
+      "booktitle": "2019 International Conference on Robotics and Automation (ICRA)",
+      "author": "Mousavian, Arsalan and Toshev, Alexander and Fi{\\v{s}}er, Marek and Ko{\\v{s}}eck{\\'a}, Jana and Wahid, Ayzaan and Davidson, James",
+      "title": "Visual representations for semantic target driven navigation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "mousavian2019visual"
+    },
+    {
+      "year": "2018",
+      "journal": "arXiv preprint arXiv:1810.06543",
+      "author": "Yang, Wei and Wang, Xiaolong and Farhadi, Ali and Gupta, Abhinav and Mottaghi, Roozbeh",
+      "title": "Visual semantic navigation using scene priors",
+      "ENTRYTYPE": "article",
+      "ID": "yang2018visual"
+    },
+    {
+      "year": "2021",
+      "pages": "15374--15383",
+      "booktitle": "Proceedings of the IEEE/CVF International Conference on Computer Vision",
+      "author": "Maksymets, Oleksandr and Cartillier, Vincent and Gokaslan, Aaron and Wijmans, Erik and Galuba, Wojciech and Lee, Stefan and Batra, Dhruv",
+      "title": "Thda: Treasure hunt data augmentation for semantic navigation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "maksymets2021thda"
+    },
+    {
+      "year": "2022",
+      "pages": "18890--18900",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Ramakrishnan, Santhosh Kumar and Chaplot, Devendra Singh and Al-Halah, Ziad and Malik, Jitendra and Grauman, Kristen",
+      "title": "Poni: Potential functions for objectgoal navigation with interaction-free learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ramakrishnan2022poni"
+    },
+    {
+      "year": "2023",
+      "pages": "6672--6682",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Zhang, Jiazhao and Dai, Liu and Meng, Fanpeng and Fan, Qingnan and Chen, Xuelin and Xu, Kai and Wang, He",
+      "title": "3d-aware object goal navigation via simultaneous exploration and identification",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zhang20233d"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2311.04193",
+      "author": "Eftekhar, Ainaz and Zeng, Kuo-Hao and Duan, Jiafei and Farhadi, Ali and Kembhavi, Ani and Krishna, Ranjay",
+      "title": "Selective visual representations improve convergence and generalization for embodied ai",
+      "ENTRYTYPE": "article",
+      "ID": "eftekhar2023selective"
+    },
+    {
+      "year": "2024",
+      "pages": "16238--16250",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Ehsani, Kiana and Gupta, Tanmay and Hendrix, Rose and Salvador, Jordi and Weihs, Luca and Zeng, Kuo-Hao and Singh, Kunal Pratap and Kim, Yejin and Han, Winson and Herrasti, Alvaro and others",
+      "title": "Spoc: Imitating shortest paths in simulation enables effective navigation and manipulation in the real world",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ehsani2024spoc"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2406.20083",
+      "author": "Zeng, Kuo-Hao and Zhang, Zichen and Ehsani, Kiana and Hendrix, Rose and Salvador, Jordi and Herrasti, Alvaro and Girshick, Ross and Kembhavi, Aniruddha and Weihs, Luca",
+      "title": "Poliformer: Scaling on-policy rl with transformers results in masterful navigators",
+      "ENTRYTYPE": "article",
+      "ID": "zeng2024poliformer"
+    },
+    {
+      "year": "2021",
+      "journal": "arXiv preprint arXiv:2109.08238",
+      "author": "Ramakrishnan, Santhosh K and Gokaslan, Aaron and Wijmans, Erik and Maksymets, Oleksandr and Clegg, Alex and Turner, John and Undersander, Eric and Galuba, Wojciech and Westbury, Andrew and Chang, Angel X and others",
+      "title": "Habitat-matterport 3d dataset (hm3d): 1000 large-scale 3d environments for embodied ai",
+      "ENTRYTYPE": "article",
+      "ID": "ramakrishnan2021habitat"
+    },
+    {
+      "year": "2017",
+      "journal": "arXiv preprint arXiv:1709.06158",
+      "author": "Chang, Angel and Dai, Angela and Funkhouser, Thomas and Halber, Maciej and Niessner, Matthias and Savva, Manolis and Song, Shuran and Zeng, Andy and Zhang, Yinda",
+      "title": "Matterport3d: Learning from rgb-d data in indoor environments",
+      "ENTRYTYPE": "article",
+      "ID": "chang2017matterport3d"
+    },
+    {
+      "year": "2020",
+      "pages": "4247--4258",
+      "volume": "33",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Chaplot, Devendra Singh and Gandhi, Dhiraj Prakashchand and Gupta, Abhinav and Salakhutdinov, Russ R",
+      "title": "Object goal navigation using goal-oriented semantic exploration",
+      "ENTRYTYPE": "article",
+      "ID": "chaplot2020object"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2412.14171",
+      "author": "Yang, Jihan and Yang, Shusheng and Gupta, Anjali W and Han, Rilyn and Fei-Fei, Li and Xie, Saining",
+      "title": "Thinking in space: How multimodal large language models see, remember, and recall spaces",
+      "ENTRYTYPE": "article",
+      "ID": "yang2024thinking"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2406.04882",
+      "author": "Long, Yuxing and Cai, Wenzhe and Wang, Hongcheng and Zhan, Guanqi and Dong, Hao",
+      "title": "Instructnav: Zero-shot system for generic instruction navigation in unexplored environment",
+      "ENTRYTYPE": "article",
+      "ID": "long2024instructnav"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2408.00714",
+      "author": "Ravi, Nikhila and Gabeur, Valentin and Hu, Yuan-Ting and Hu, Ronghang and Ryali, Chaitanya and Ma, Tengyu and Khedr, Haitham and R{\\\"a}dle, Roman and Rolland, Chloe and Gustafson, Laura and others",
+      "title": "Sam 2: Segment anything in images and videos",
+      "ENTRYTYPE": "article",
+      "ID": "ravi2024sam"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2303.08774",
+      "author": "Achiam, Josh and Adler, Steven and Agarwal, Sandhini and Ahmad, Lama and Akkaya, Ilge and Aleman, Florencia Leoni and Almeida, Diogo and Altenschmidt, Janko and Altman, Sam and Anadkat, Shyamal and others",
+      "title": "Gpt-4 technical report",
+      "ENTRYTYPE": "article",
+      "ID": "achiam2023gpt"
+    },
+    {
+      "organization": "Springer",
+      "year": "2024",
+      "pages": "38--55",
+      "booktitle": "European Conference on Computer Vision",
+      "author": "Liu, Shilong and Zeng, Zhaoyang and Ren, Tianhe and Li, Feng and Zhang, Hao and Yang, Jie and Jiang, Qing and Li, Chunyuan and Yang, Jianwei and Su, Hang and others",
+      "title": "Grounding dino: Marrying dino with grounded pre-training for open-set object detection",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "liu2024grounding"
+    },
+    {
+      "publisher": "Institute of Mathematical Statistics",
+      "year": "1993",
+      "pages": "10--15",
+      "number": "1",
+      "volume": "8",
+      "journal": "Statistical science",
+      "author": "Bertsimas, Dimitris and Tsitsiklis, John",
+      "title": "Simulated annealing",
+      "ENTRYTYPE": "article",
+      "ID": "bertsimas1993simulated"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "1968",
+      "pages": "100--107",
+      "number": "2",
+      "volume": "4",
+      "journal": "IEEE transactions on Systems Science and Cybernetics",
+      "author": "Hart, Peter E and Nilsson, Nils J and Raphael, Bertram",
+      "title": "A formal basis for the heuristic determination of minimum cost paths",
+      "ENTRYTYPE": "article",
+      "ID": "hart1968formal"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2401.12202",
+      "author": "Liu, Peiqi and Orru, Yaswanth and Vakil, Jay and Paxton, Chris and Shafiullah, Nur Muhammad Mahi and Pinto, Lerrel",
+      "title": "Ok-robot: What really matters in integrating open-knowledge models for robotics",
+      "ENTRYTYPE": "article",
+      "ID": "liu2024ok"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2503.10630",
+      "author": "Yin, Hang and Xu, Xiuwei and Zhao, Lingqing and Wang, Ziwei and Zhou, Jie and Lu, Jiwen",
+      "title": "UniGoal: Towards Universal Zero-shot Goal-oriented Navigation",
+      "ENTRYTYPE": "article",
+      "ID": "yin2025unigoal"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2407.02473",
+      "author": "Loo, Joel and Wu, Zhanxin and Hsu, David",
+      "title": "Open scene graphs for open world object-goal navigation",
+      "ENTRYTYPE": "article",
+      "ID": "loo2024open"
+    },
+    {
+      "year": "2020",
+      "journal": "arXiv preprint arXiv:2004.05155",
+      "author": "Chaplot, Devendra Singh and Gandhi, Dhiraj and Gupta, Saurabh and Gupta, Abhinav and Salakhutdinov, Ruslan",
+      "title": "Learning to explore using active neural slam",
+      "ENTRYTYPE": "article",
+      "ID": "chaplot2020learning"
+    },
+    {
+      "year": "2024",
+      "pages": "7641--7649",
+      "number": "7",
+      "volume": "38",
+      "booktitle": "Proceedings of the AAAI Conference on Artificial Intelligence",
+      "author": "Zhou, Gengze and Hong, Yicong and Wu, Qi",
+      "title": "Navgpt: Explicit reasoning in vision-and-language navigation with large language models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zhou2024navgpt"
+    },
+    {
+      "year": "2023",
+      "journal": "URL https://arxiv. org/abs/2210.03629",
+      "author": "Yao, Shunyu and Zhao, Jeffrey and Yu, Dian and Du, Nan and Shafran, Izhak and Narasimhan, Karthik and Cao, Yuan",
+      "title": "React: Synergizing reasoning and acting in language models, 2023",
+      "ENTRYTYPE": "article",
+      "ID": "yao2023react"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "2023",
+      "pages": "4083--4090",
+      "number": "5",
+      "volume": "9",
+      "journal": "IEEE Robotics and Automation Letters",
+      "author": "Dorbala, Vishnu Sashank and Mullen, James F and Manocha, Dinesh",
+      "title": "Can an embodied agent find your “cat-shaped mug”? llm-based zero-shot object navigation",
+      "ENTRYTYPE": "article",
+      "ID": "dorbala2023can"
+    },
+    {
+      "year": "2021",
+      "journal": "arXiv preprint arXiv:2106.15648",
+      "author": "Georgakis, Georgios and Bucher, Bernadette and Schmeckpeper, Karl and Singh, Siddharth and Daniilidis, Kostas",
+      "title": "Learning to map for active semantic goal navigation",
+      "ENTRYTYPE": "article",
+      "ID": "georgakis2021learning"
+    },
+    {
+      "organization": "IEEE",
+      "year": "2022",
+      "pages": "3287--3293",
+      "booktitle": "2022 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
+      "author": "Luo, Haokuan and Yue, Albert and Hong, Zhang-Wei and Agrawal, Pulkit",
+      "title": "Stubborn: A strong baseline for indoor object navigation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "luo2022stubborn"
+    },
+    {
+      "organization": "IEEE",
+      "year": "2024",
+      "pages": "5228--5234",
+      "booktitle": "2024 IEEE International Conference on Robotics and Automation (ICRA)",
+      "author": "Cai, Wenzhe and Huang, Siyuan and Cheng, Guangran and Long, Yuxing and Gao, Peng and Sun, Changyin and Dong, Hao",
+      "title": "Bridging zero-shot object navigation and foundation models through pixel-guided navigation skill",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "cai2024bridging"
+    },
+    {
+      "year": "2023",
+      "pages": "72983--73007",
+      "volume": "36",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Minderer, Matthias and Gritsenko, Alexey and Houlsby, Neil",
+      "title": "Scaling open-vocabulary object detection",
+      "ENTRYTYPE": "article",
+      "ID": "minderer2023scaling"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2402.15852",
+      "author": "Zhang, Jiazhao and Wang, Kunyu and Xu, Rongtao and Zhou, Gengze and Hong, Yicong and Fang, Xiaomeng and Wu, Qi and Zhang, Zhizheng and Wang, He",
+      "title": "Navid: Video-based vlm plans the next step for vision-and-language navigation",
+      "ENTRYTYPE": "article",
+      "ID": "zhang2024navid"
+    },
+    {
+      "year": "2022",
+      "pages": "5173--5183",
+      "booktitle": "Proceedings of the IEEE/CVF conference on computer vision and pattern recognition",
+      "author": "Ramrakhya, Ram and Undersander, Eric and Batra, Dhruv and Das, Abhishek",
+      "title": "Habitat-web: Learning embodied object-search strategies from human demonstrations at scale",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ramrakhya2022habitat"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2303.07798",
+      "author": "Yadav, Karmesh and Majumdar, Arjun and Ramrakhya, Ram and Yokoyama, Naoki and Baevski, Alexei and Kira, Zsolt and Maksymets, Oleksandr and Batra, Dhruv",
+      "title": "Ovrl-v2: A simple state-of-art baseline for imagenav and objectnav",
+      "ENTRYTYPE": "article",
+      "ID": "yadav2023ovrl"
+    },
+    {
+      "year": "2023",
+      "booktitle": "Workshop on Reincarnating Reinforcement Learning at ICLR 2023",
+      "author": "Yadav, Karmesh and Ramrakhya, Ram and Majumdar, Arjun and Berges, Vincent-Pierre and Kuhar, Sachit and Batra, Dhruv and Baevski, Alexei and Maksymets, Oleksandr",
+      "title": "Offline visual representation learning for embodied navigation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "yadav2023offline"
+    },
+    {
+      "organization": "Springer",
+      "year": "2024",
+      "pages": "161--178",
+      "booktitle": "European Conference on Computer Vision",
+      "author": "Sun, Xinyu and Liu, Lizhao and Zhi, Hongyan and Qiu, Ronghe and Liang, Junwei",
+      "title": "Prioritized semantic learning for zero-shot instance navigation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "sun2024prioritized"
+    },
+    {
+      "year": "2024",
+      "pages": "16414--16425",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Zhang, Sixian and Yu, Xinyao and Song, Xinhang and Wang, Xiaohan and Jiang, Shuqiang",
+      "title": "Imagine before go: Self-supervised generative map for object goal navigation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zhang2024imagine"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2402.10670",
+      "author": "Kuang, Yuxuan and Lin, Hai and Jiang, Meng",
+      "title": "Openfmnav: Towards open-set zero-shot object navigation via vision-language foundation models",
+      "ENTRYTYPE": "article",
+      "ID": "kuang2024openfmnav"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2411.05755",
+      "author": "Goetting, Dylan and Singh, Himanshu Gaurav and Loquercio, Antonio",
+      "title": "End-to-End Navigation with Vision Language Models: Transforming Spatial Reasoning into Question-Answering",
+      "ENTRYTYPE": "article",
+      "ID": "goetting2024end"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2405.09822",
+      "author": "Ginting, Muhammad Fadhil and Kim, Sung-Kyun and Fan, David D and Palieri, Matteo and Kochenderfer, Mykel J and Agha-Mohammadi, Ali-akbar",
+      "title": "SEEK: Semantic reasoning for object goal navigation in real world inspection tasks",
+      "ENTRYTYPE": "article",
+      "ID": "ginting2024seek"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2023",
+      "pages": "19730--19742",
+      "booktitle": "International conference on machine learning",
+      "author": "Li, Junnan and Li, Dongxu and Savarese, Silvio and Hoi, Steven",
+      "title": "Blip-2: Bootstrapping language-image pre-training with frozen image encoders and large language models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "li2023blip"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2022",
+      "pages": "12888--12900",
+      "booktitle": "International conference on machine learning",
+      "author": "Li, Junnan and Li, Dongxu and Xiong, Caiming and Hoi, Steven",
+      "title": "Blip: Bootstrapping language-image pre-training for unified vision-language understanding and generation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "li2022blip"
+    },
+    {
+      "year": "2024",
+      "pages": "140812--140827",
+      "volume": "37",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Tankala, Pavan Kalyan and Pasi, Piyush and Dharod, Sahil and Motiwala, Azeem and Jyothi, Preethi and Chaudhary, Aditi and Srinivasan, Krishna",
+      "title": "WikiDO: A New Benchmark Evaluating Cross-Modal Retrieval for Vision-Language Models",
+      "ENTRYTYPE": "article",
+      "ID": "tankala2024wikido"
+    },
+    {
+      "year": "2023",
+      "pages": "10968--10980",
+      "booktitle": "Proceedings of the IEEE/CVF International Conference on Computer Vision",
+      "author": "Liu, Rui and Wang, Xiaohan and Wang, Wenguan and Yang, Yi",
+      "title": "Bird's-eye-view scene graph for vision-language navigation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "liu2023bird"
+    },
+    {
+      "organization": "IEEE",
+      "year": "2022",
+      "pages": "9272--9279",
+      "booktitle": "2022 International Conference on Robotics and Automation (ICRA)",
+      "author": "Ravichandran, Zachary and Peng, Lisa and Hughes, Nathan and Griffith, J Daniel and Carlone, Luca",
+      "title": "Hierarchical representations and explicit memory: Learning effective navigation policies on 3d scene graphs using graph neural networks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ravichandran2022hierarchical"
+    },
+    {
+      "organization": "IEEE",
+      "year": "2024",
+      "pages": "1988--1995",
+      "booktitle": "2024 IEEE Intelligent Vehicles Symposium (IV)",
+      "author": "Suzuki, Hayato and Shimomura, Kota and Hirakawa, Tsubasa and Yamashita, Takayoshi and Fujiyoshi, Hironobu and Okubo, Shota and Takuya, Nanri and Siyuan, Wang",
+      "title": "Human-like Guidance by Generating Navigation Using Spatial-Temporal Scene Graph",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "suzuki2024human"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2410.09874",
+      "author": "Zhao, Xinxin and Cai, Wenzhe and Tang, Likun and Wang, Teng",
+      "title": "ImagineNav: Prompting Vision-Language Models as Embodied Navigator through Scene Imagination",
+      "ENTRYTYPE": "article",
+      "ID": "zhao2024imaginenav"
+    },
+    {
+      "year": "2022",
+      "pages": "5982--5994",
+      "volume": "35",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Deitke, Matt and VanderBilt, Eli and Herrasti, Alvaro and Weihs, Luca and Ehsani, Kiana and Salvador, Jordi and Han, Winson and Kolve, Eric and Kembhavi, Aniruddha and Mottaghi, Roozbeh",
+      "title": "ProcTHOR: Large-Scale Embodied AI Using Procedural Generation",
+      "ENTRYTYPE": "article",
+      "ID": "deitke2022"
+    },
+    {
+      "year": "2024",
+      "pages": "16384--16393",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Khanna, Mukul and Mao, Yongsen and Jiang, Hanxiao and Haresh, Sanjay and Shacklett, Brennan and Batra, Dhruv and Clegg, Alexander and Undersander, Eric and Chang, Angel X and Savva, Manolis",
+      "title": "Habitat synthetic scenes dataset (hssd-200): An analysis of 3d scene scale and realism tradeoffs for objectgoal navigation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "khanna2024habitat"
+    },
+    {
+      "year": "2017",
+      "number": "7",
+      "volume": "151",
+      "journal": "31st confernce on neural information processing systems",
+      "author": "Nishino, ROYUD and Loomis, Shohei Hido Crissman",
+      "title": "Cupy: A numpy-compatible library for nvidia gpu calculations",
+      "ENTRYTYPE": "article",
+      "ID": "nishino2017cupy"
+    }
+  ]
+}

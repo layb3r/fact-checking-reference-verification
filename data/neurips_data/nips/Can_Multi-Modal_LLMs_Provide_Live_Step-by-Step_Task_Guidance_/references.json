@@ -1,0 +1,2049 @@
+{
+  "pdf_url": "https://arxiv.org/pdf/2511.21998v1.pdf",
+  "references": [
+    {
+      "booktitle": "arXiv",
+      "year": "2022",
+      "author": "Aaron Daniel Cohen and Adam Roberts and Alejandra Molina and Alena Butryna and Alicia Jin and Apoorv Kulshreshtha and Ben Hutchinson and Ben Zevenbergen and Blaise Hilary Aguera-Arcas and Chung-ching Chang and Claire Cui and Cosmo Du and Daniel De Freitas Adiwardana and Dehao Chen and Dmitry (Dima) Lepikhin and Ed H. Chi and Erin Hoffman-John and Heng-Tze Cheng and Hongrae Lee and Igor Krivokon and James Qin and Jamie Hall and Joe Fenton and Johnny Soraker and Kathy Meier-Hellstern and Kristen Olson and Lora Mois Aroyo and Maarten Paul Bosma and Marc Joseph Pickett and Marcelo Amorim Menegali and Marian Croak and Mark Díaz and Matthew Lamm and Maxim Krikun and Meredith Ringel Morris and Noam Shazeer and Quoc V. Le and Rachel Bernstein and Ravi Rajakumar and Ray Kurzweil and Romal Thoppilan and Steven Zheng and Taylor Bos and Toju Duke and Tulsee Doshi and Vincent Y. Zhao and Vinodkumar Prabhakaran and Will Rusch and YaGuang Li and Yanping Huang and Yanqi Zhou and Yuanzhong Xu and Zhifeng Chen",
+      "title": "LaMDA: Language Models for Dialog Applications",
+      "ENTRYTYPE": "incollection",
+      "ID": "google-lamda"
+    },
+    {
+      "volume": "abs/2112.09332",
+      "year": "2021",
+      "journal": "ArXiv",
+      "author": "Reiichiro Nakano and Jacob Hilton and S. Arun Balaji and Jeff Wu and Long Ouyang and Christina Kim and Christopher Hesse and Shantanu Jain and Vineet Kosaraju and William Saunders and Xu Jiang and Karl Cobbe and Tyna Eloundou and Gretchen Krueger and Kevin Button and Matthew Knight and Benjamin Chess and John Schulman",
+      "title": "WebGPT: Browser-assisted question-answering with human feedback",
+      "ENTRYTYPE": "article",
+      "ID": "webgpt"
+    },
+    {
+      "year": "2019",
+      "volume": "32",
+      "title": "Learning by Abstraction: The Neural State Machine",
+      "booktitle": "Advances in Neural Information Processing Systems",
+      "author": "Hudson, Drew and Manning, Christopher D",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "HudsonManning2019"
+    },
+    {
+      "volume": "abs/1709.08568",
+      "year": "2017",
+      "journal": "ArXiv",
+      "author": "Yoshua Bengio",
+      "title": "The Consciousness Prior",
+      "ENTRYTYPE": "article",
+      "ID": "bengio2019consciousness"
+    },
+    {
+      "primaryclass": "cs.CV",
+      "archiveprefix": "arXiv",
+      "eprint": "2012.08508",
+      "year": "2021",
+      "author": "David Ding and Felix Hill and Adam Santoro and Malcolm Reynolds and Matt Botvinick",
+      "title": "Attention over learned object embeddings enables complex visual reasoning",
+      "ENTRYTYPE": "misc",
+      "ID": "ding2021attention"
+    },
+    {
+      "year": "2017",
+      "title": "The “Something Something” Video Database for Learning and Evaluating Visual Common Sense",
+      "booktitle": "ICCV",
+      "author": "Goyal, Raghav and Kahou, Samira Ebrahimi and Michalski, Vincent and Materzynska, Joanna and Westphal, Susanne and Kim, Heuna and Haenel, Valentin and Fruend, Ingo and Yianilos, Peter and Mueller-Freitag, Moritz and Hoppe, Florian and Thurau, Christian and Bax, Ingo and Memisevic, Roland",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "somethingsomething"
+    },
+    {
+      "primaryclass": "cs.CL",
+      "archiveprefix": "arXiv",
+      "eprint": "2004.10151",
+      "year": "2020",
+      "author": "Yonatan Bisk and Ari Holtzman and Jesse Thomason and Jacob Andreas and Yoshua Bengio and Joyce Chai and Mirella Lapata and Angeliki Lazaridou and Jonathan May and Aleksandr Nisnevich and Nicolas Pinto and Joseph Turian",
+      "title": "Experience Grounds Language",
+      "ENTRYTYPE": "misc",
+      "ID": "bisk2020experience"
+    },
+    {
+      "primaryclass": "cs.CV",
+      "archiveprefix": "arXiv",
+      "eprint": "2106.13884",
+      "year": "2021",
+      "author": "Maria Tsimpoukelli and Jacob Menick and Serkan Cabi and S. M. Ali Eslami and Oriol Vinyals and Felix Hill",
+      "title": "Multimodal Few-Shot Learning with Frozen Language Models",
+      "ENTRYTYPE": "misc",
+      "ID": "tsimpoukelli2021multimodal"
+    },
+    {
+      "primaryclass": "cs.LG",
+      "archiveprefix": "arXiv",
+      "eprint": "2106.01345",
+      "year": "2021",
+      "author": "Lili Chen and Kevin Lu and Aravind Rajeswaran and Kimin Lee and Aditya Grover and Michael Laskin and Pieter Abbeel and Aravind Srinivas and Igor Mordatch",
+      "title": "Decision Transformer: Reinforcement Learning via Sequence Modeling",
+      "ENTRYTYPE": "misc",
+      "ID": "chen2021decision"
+    },
+    {
+      "primaryclass": "cs.LG",
+      "archiveprefix": "arXiv",
+      "eprint": "2106.02039",
+      "year": "2021",
+      "author": "Michael Janner and Qiyang Li and Sergey Levine",
+      "title": "Reinforcement Learning as One Big Sequence Modeling Problem",
+      "ENTRYTYPE": "misc",
+      "ID": "janner2021reinforcement"
+    },
+    {
+      "primaryclass": "cs.CV",
+      "archiveprefix": "arXiv",
+      "eprint": "2109.10852",
+      "year": "2021",
+      "author": "Ting Chen and Saurabh Saxena and Lala Li and David J. Fleet and Geoffrey Hinton",
+      "title": "Pix2seq: A Language Modeling Framework for Object Detection",
+      "ENTRYTYPE": "misc",
+      "ID": "chen2021pix2seq"
+    },
+    {
+      "primaryclass": "cs.LG",
+      "archiveprefix": "arXiv",
+      "eprint": "2110.08207",
+      "year": "2021",
+      "author": "Victor Sanh and Albert Webson and Colin Raffel and Stephen H. Bach and Lintang Sutawika and Zaid Alyafeai and Antoine Chaffin and Arnaud Stiegler and Teven Le Scao and Arun Raja and Manan Dey and M Saiful Bari and Canwen Xu and Urmish Thakker and Shanya Sharma Sharma and Eliza Szczechla and Taewoon Kim and Gunjan Chhablani and Nihal Nayak and Debajyoti Datta and Jonathan Chang and Mike Tian-Jian Jiang and Han Wang and Matteo Manica and Sheng Shen and Zheng Xin Yong and Harshit Pandey and Rachel Bawden and Thomas Wang and Trishala Neeraj and Jos Rozen and Abheesht Sharma and Andrea Santilli and Thibault Fevry and Jason Alan Fries and Ryan Teehan and Stella Biderman and Leo Gao and Tali Bers and Thomas Wolf and Alexander M. Rush",
+      "title": "Multitask Prompted Training Enables Zero-Shot Task Generalization",
+      "ENTRYTYPE": "misc",
+      "ID": "sanh2021multitask"
+    },
+    {
+      "volume": "abs/2103.03874",
+      "year": "2021",
+      "journal": "ArXiv",
+      "author": "Dan Hendrycks and Collin Burns and Saurav Kadavath and Akul Arora and Steven Basart and Eric Tang and Dawn Xiaodong Song and Jacob Steinhardt",
+      "title": "Measuring Mathematical Problem Solving With the MATH Dataset",
+      "ENTRYTYPE": "article",
+      "ID": "Hendrycks2021MeasuringMP"
+    },
+    {
+      "volume": "abs/2109.02102",
+      "year": "2021",
+      "journal": "ArXiv",
+      "author": "Gabriel Recchia",
+      "title": "Teaching Autoregressive Language Models Complex Tasks By Demonstration",
+      "ENTRYTYPE": "article",
+      "ID": "Recchia2021TeachingAL"
+    },
+    {
+      "volume": "abs/2101.06223",
+      "year": "2021",
+      "journal": "ArXiv",
+      "author": "Yuhuai Wu and Markus N. Rabe and Wenda Li and Jimmy Ba and Roger B. Grosse and Christian Szegedy",
+      "title": "LIME: Learning Inductive Bias for Primitives of Mathematical Reasoning",
+      "ENTRYTYPE": "article",
+      "ID": "Wu2021LIMELI"
+    },
+    {
+      "url": "https://openreview.net/forum?id=5KCvuCYGi7G",
+      "year": "2021",
+      "editor": "A. Beygelzimer and Y. Dauphin and P. Liang and J. Wortman Vaughan",
+      "booktitle": "Advances in Neural Information Processing Systems",
+      "author": "Konrad Czechowski and Tomasz Odrzyg{\\'o}{\\'z}d{\\'z} and Marek Zbysi{\\'n}ski and Micha{\\l} Zawalski and Krzysztof Olejnik and Yuhuai Wu and {\\L}ukasz Kuci{\\'n}ski and Piotr Mi{\\l}o{\\'s}",
+      "title": "Subgoal Search For Complex Reasoning Tasks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "czechowski2021subgoal"
+    },
+    {
+      "year": "2020",
+      "booktitle": "EMNLP",
+      "author": "Papadimitriou, Isabel  and\nJurafsky, Dan",
+      "title": "Learning Music Helps You Read: Using Transfer to Study Linguistic Structure in Language Models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "papadimitriou-jurafsky-2020-learning"
+    },
+    {
+      "year": "2021",
+      "journal": "arXiv preprint arXiv:2110.03501",
+      "author": "Noorbakhsh, Kimia and Sulaiman, Modar and Sharifi, Mahdi and Roy, Kallol and Jamshidi, Pooyan",
+      "title": "Pretrained Language Models are Symbolic Mathematics Solvers too!",
+      "ENTRYTYPE": "article",
+      "ID": "noorbakhsh2021pretrained"
+    },
+    {
+      "primaryclass": "cs.LG",
+      "archiveprefix": "arXiv",
+      "eprint": "2112.00114",
+      "year": "2021",
+      "author": "Maxwell Nye and Anders Johan Andreassen and Guy Gur-Ari and Henryk Michalewski and Jacob Austin and David Bieber and David Dohan and Aitor Lewkowycz and Maarten Bosma and David Luan and Charles Sutton and Augustus Odena",
+      "title": "Show Your Work: Scratchpads for Intermediate Computation with Language Models",
+      "ENTRYTYPE": "misc",
+      "ID": "nye2021work"
+    },
+    {
+      "volume": "abs/2112.03753",
+      "year": "2021",
+      "journal": "ArXiv",
+      "author": "Andrew Kyle Lampinen and Nicholas A. Roy and Ishita Dasgupta and Stephanie C. Y. Chan and Allison C. Tam and James L. McClelland and Chen Yan and Adam Santoro and Neil C. Rabinowitz and Jane X. Wang and Felix Hill",
+      "title": "Tell me why! - Explanations support learning of relational and causal structure",
+      "ENTRYTYPE": "article",
+      "ID": "Lampinen2021TellMW"
+    },
+    {
+      "year": "2023",
+      "booktitle": "ICLR",
+      "author": "Andy Zeng and Maria Attarian and Brian Ichter and Krzysztof Marcin Choromanski and Adrian Wong and Stefan Welker and Federico Tombari and Aveek Purohit and Michael S Ryoo and Vikas Sindhwani and Johnny Lee and Vincent Vanhoucke and Pete Florence",
+      "title": "Socratic Models: Composing Zero-Shot Multimodal Reasoning with Language",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zeng2023socratic"
+    },
+    {
+      "year": "2022",
+      "booktitle": "CoRL",
+      "author": "Brian Ichter and Anthony Brohan and Yevgen Chebotar and Chelsea Finn and Karol Hausman and Alexander Herzog and Daniel Ho and Julian Ibarz and Alex Irpan and Eric Jang and Ryan Julian and Dmitry Kalashnikov and Sergey Levine and Yao Lu and Carolina Parada and Kanishka Rao and Pierre Sermanet and Alexander T Toshev and Vincent Vanhoucke and Fei Xia and Ted Xiao and Peng Xu and Mengyuan Yan and Noah Brown and Michael Ahn and Omar Cortes and Nicolas Sievers and Clayton Tan and Sichun Xu and Diego Reyes and Jarek Rettinghouse and Jornell Quiambao and Peter Pastor and Linda Luu and Kuang-Huei Lee and Yuheng Kuang and Sally Jesmonth and Kyle Jeffrey and Rosario Jauregui Ruano and Jasmine Hsu and Keerthana Gopalakrishnan and Byron David and Andy Zeng and Chuyuan Kelly Fu",
+      "title": "Do As I Can, Not As I Say: Grounding Language in Robotic Affordances",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "saycan"
+    },
+    {
+      "year": "2021",
+      "booktitle": "CVPR",
+      "title": "AIFit: Automatic 3D Human-Interpretable Feedback Models for Fitness Training",
+      "author": "Fieraru, Mihai and Zanfir, Mihai and Pirlea, Silviu Cristian and Olaru, Vlad and Sminchisescu, Cristian",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "Fieraru_2021_CVPR"
+    },
+    {
+      "volume": "abs/2004.10934",
+      "year": "2020",
+      "journal": "ArXiv",
+      "author": "Alexey Bochkovskiy and Chien-Yao Wang and Hong-Yuan Mark Liao",
+      "title": "YOLOv4: Optimal Speed and Accuracy of Object Detection",
+      "ENTRYTYPE": "article",
+      "ID": "Bochkovskiy2020YOLOv4OS"
+    },
+    {
+      "year": "2021",
+      "institution": "Microsoft",
+      "title": "Platform for Situated Intelligence",
+      "author": "Bohus, Dan and Andrist, Sean and Feniello, Ashley and Saw, Nick and Jalobeanu, Mihai and Sweeney, Pat and Thompson, Anne Loomis and Horvitz, Eric",
+      "ENTRYTYPE": "techreport",
+      "ID": "bohus2021platform"
+    },
+    {
+      "publisher": "Chicago University Press",
+      "year": "1980",
+      "author": "Lakoff, G and Johnson, M",
+      "title": "Metaphors we live by",
+      "ENTRYTYPE": "article",
+      "ID": "lakoff1980metaphors"
+    },
+    {
+      "year": "2022",
+      "booktitle": "NeurIPS",
+      "author": "Long Ouyang and Jeffrey Wu and Xu Jiang and Diogo Almeida and Carroll Wainwright and Pamela Mishkin and Chong Zhang and Sandhini Agarwal and Katarina Slama and Alex Gray and John Schulman and Jacob Hilton and Fraser Kelton and Luke Miller and Maddie Simens and Amanda Askell and Peter Welinder and Paul Christiano and Jan Leike and Ryan Lowe",
+      "title": "Training language models to follow instructions with human feedback",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ouyang2022training"
+    },
+    {
+      "year": "2022",
+      "issn": "2835-8856",
+      "journal": "Transactions on Machine Learning Research",
+      "author": "Scott Reed and Konrad Zolna and Emilio Parisotto and Sergio G{\\'o}mez Colmenarejo and Alexander Novikov and Gabriel Barth-maron and Mai Gim{\\'e}nez and Yury Sulsky and Jackie Kay and Jost Tobias Springenberg and Tom Eccles and Jake Bruce and Ali Razavi and Ashley Edwards and Nicolas Heess and Yutian Chen and Raia Hadsell and Oriol Vinyals and Mahyar Bordbar and Nando de Freitas",
+      "title": "A Generalist Agent",
+      "ENTRYTYPE": "article",
+      "ID": "reed2022a"
+    },
+    {
+      "year": "2022",
+      "booktitle": "NeurIPS Workshop",
+      "author": "Yunfan Jiang and Agrim Gupta and Zichen Zhang and Guanzhi Wang and Yongqiang Dou and Yanjun Chen and Li Fei-Fei and Anima Anandkumar and Yuke Zhu and Linxi Fan",
+      "title": "{VIMA}: General Robot Manipulation with Multimodal Prompts",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "jiang2022vima"
+    },
+    {
+      "publisher": "ACL",
+      "year": "2002",
+      "title": "BLEU: A Method for Automatic Evaluation of Machine Translation",
+      "author": "Papineni, Kishore and Roukos, Salim and Ward, Todd and Zhu, Wei-Jing",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "bleu_score"
+    },
+    {
+      "publisher": "ACL",
+      "year": "2004",
+      "booktitle": "Text Summarization Branches Out",
+      "author": "Lin, Chin-Yew",
+      "title": "{ROUGE}: A Package for Automatic Evaluation of Summaries",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "lin-2004-rouge"
+    },
+    {
+      "year": "2020",
+      "booktitle": "ICLR",
+      "title": "BERTScore: Evaluating Text Generation with {BERT}",
+      "author": "Tianyi Zhang and\nVarsha Kishore and\nFelix Wu and\nKilian Q. Weinberger and\nYoav Artzi",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zhang2019bertscore"
+    },
+    {
+      "year": "2019",
+      "booktitle": "NAACL",
+      "author": "Devlin, Jacob and\nChang, Ming-Wei and\nLee, Kenton and\nToutanova, Kristina",
+      "title": "{BERT}: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "devlin-etal-2019-bert"
+    },
+    {
+      "year": "2019",
+      "journal": "arXiv preprint arXiv:1907.11692",
+      "author": "Liu, Yinhan and Ott, Myle and Goyal, Naman and Du, Jingfei and Joshi, Mandar and Chen, Danqi and Levy, Omer and Lewis, Mike and Zettlemoyer, Luke and Stoyanov, Veselin",
+      "title": "Roberta: A robustly optimized bert pretraining approach",
+      "ENTRYTYPE": "article",
+      "ID": "liu2019roberta"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2304.01373",
+      "author": "Biderman, Stella and Schoelkopf, Hailey and Anthony, Quentin and Bradley, Herbie and O'Brien, Kyle and Hallahan, Eric and Khan, Mohammad Aflah and Purohit, Shivanshu and Prashanth, USVSN Sai and Raff, Edward and others",
+      "title": "Pythia: A suite for analyzing large language models across training and scaling",
+      "ENTRYTYPE": "article",
+      "ID": "biderman2023pythia"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2211.01786",
+      "author": "Muennighoff, Niklas and Wang, Thomas and Sutawika, Lintang and Roberts, Adam and Biderman, Stella and Scao, Teven Le and Bari, M Saiful and Shen, Sheng and Yong, Zheng-Xin and Schoelkopf, Hailey and others",
+      "title": "Crosslingual generalization through multitask finetuning",
+      "ENTRYTYPE": "article",
+      "ID": "muennighoff2022crosslingual"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2211.05100",
+      "author": "Scao, Teven Le and Fan, Angela and Akiki, Christopher and Pavlick, Ellie and Ili{\\'c}, Suzana and Hesslow, Daniel and Castagn{\\'e}, Roman and Luccioni, Alexandra Sasha and Yvon, Fran{\\c{c}}ois and Gall{\\'e}, Matthias and others",
+      "title": "Bloom: A 176b-parameter open-access multilingual language model",
+      "ENTRYTYPE": "article",
+      "ID": "scao2022bloom"
+    },
+    {
+      "year": "2017",
+      "journal": "arXiv preprint arXiv:1711.05101",
+      "author": "Loshchilov, Ilya and Hutter, Frank",
+      "title": "Decoupled weight decay regularization",
+      "ENTRYTYPE": "article",
+      "ID": "loshchilov2017decoupled"
+    },
+    {
+      "url": "https://laion.ai/blog/oig-dataset/",
+      "year": "2023",
+      "author": "Nguyen, Huu and Suri, Sameer and Tsui Ken, et al.",
+      "title": "The Open Instruction Generalist (OIG) dataset",
+      "ENTRYTYPE": "misc",
+      "ID": "oigdataset"
+    },
+    {
+      "year": "2019",
+      "journal": "arXiv preprint arXiv:1904.09751",
+      "author": "Holtzman, Ari and Buys, Jan and Du, Li and Forbes, Maxwell and Choi, Yejin",
+      "title": "The curious case of neural text degeneration",
+      "ENTRYTYPE": "article",
+      "ID": "holtzman2019curious-temperature-top-p"
+    },
+    {
+      "year": "2018",
+      "journal": "arXiv preprint arXiv:1805.04833",
+      "author": "Fan, Angela and Lewis, Mike and Dauphin, Yann",
+      "title": "Hierarchical neural story generation",
+      "ENTRYTYPE": "article",
+      "ID": "fan2018hierarchical-top-k"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2205.06175",
+      "author": "Reed, Scott and Zolna, Konrad and Parisotto, Emilio and Colmenarejo, Sergio Gomez and Novikov, Alexander and Barth-Maron, Gabriel and Gimenez, Mai and Sulsky, Yury and Kay, Jackie and Springenberg, Jost Tobias and others",
+      "title": "A generalist agent",
+      "ENTRYTYPE": "article",
+      "ID": "reed2022generalist"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2302.12813",
+      "author": "Peng, Baolin and Galley, Michel and He, Pengcheng and Cheng, Hao and Xie, Yujia and Hu, Yu and Huang, Qiuyuan and Liden, Lars and Yu, Zhou and Chen, Weizhu and others",
+      "title": "Check your facts and try again: Improving large language models with external knowledge and automated feedback",
+      "ENTRYTYPE": "article",
+      "ID": "peng2023check"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2212.04356",
+      "author": "Radford, Alec and Kim, Jong Wook and Xu, Tao and Brockman, Greg and McLeavey, Christine and Sutskever, Ilya",
+      "title": "Robust speech recognition via large-scale weak supervision",
+      "ENTRYTYPE": "article",
+      "ID": "radford2022robust"
+    },
+    {
+      "year": "2009",
+      "title": "ImageNet: A large-scale hierarchical image database",
+      "booktitle": "CVPR",
+      "author": "Deng, Jia and Dong, Wei and Socher, Richard and Li, Li-Jia and Kai Li and Li Fei-Fei",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "imagenet"
+    },
+    {
+      "note": "[Online; accessed 02-May-2023]",
+      "howpublished": "\\url{http://en.wikipedia.org/w/index.php?title=Deixis&oldid=1107653840}",
+      "year": "2023",
+      "title": "{Deixis} --- {W}ikipedia{,} The Free Encyclopedia",
+      "author": "Wikipedia",
+      "ENTRYTYPE": "misc",
+      "ID": "wiki:Deixis"
+    },
+    {
+      "year": "2019",
+      "booktitle": "ICML",
+      "author": "Tan, Mingxing and Le, Quoc",
+      "title": "Efficientnet: Rethinking model scaling for convolutional neural networks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "tan2019efficientnet"
+    },
+    {
+      "year": "2022",
+      "booktitle": "NeurIPS",
+      "author": "Jean-Baptiste Alayrac and Jeff Donahue and Pauline Luc and Antoine Miech and Iain Barr and Yana Hasson and Karel Lenc and Arthur Mensch and Katherine Millican and Malcolm Reynolds and Roman Ring and Eliza Rutherford and Serkan Cabi and Tengda Han and Zhitao Gong and Sina Samangooei and Marianne Monteiro and Jacob Menick and Sebastian Borgeaud and Andrew Brock and Aida Nematzadeh and Sahand Sharifzadeh and Mikolaj Binkowski and Ricardo Barreira and Oriol Vinyals and Andrew Zisserman and Karen Simonyan",
+      "title": "Flamingo: a Visual Language Model for Few-Shot Learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "alayrac2022flamingo"
+    },
+    {
+      "year": "2023",
+      "volume": "abs/2302.00923",
+      "journal": "CoRR",
+      "title": "Multimodal Chain-of-Thought Reasoning in Language Models",
+      "author": "Zhuosheng Zhang and\nAston Zhang and\nMu Li and\nHai Zhao and\nGeorge Karypis and\nAlex Smola",
+      "ENTRYTYPE": "article",
+      "ID": "abs-2302-00923"
+    },
+    {
+      "year": "2023",
+      "volume": "abs/2303.16199",
+      "journal": "CoRR",
+      "title": "LLaMA-Adapter: Efficient Fine-tuning of Language Models with Zero-init\nAttention",
+      "author": "Renrui Zhang and\nJiaming Han and\nAojun Zhou and\nXiangfei Hu and\nShilin Yan and\nPan Lu and\nHongsheng Li and\nPeng Gao and\nYu Qiao",
+      "ENTRYTYPE": "article",
+      "ID": "zhang2023llamaadapter"
+    },
+    {
+      "publisher": "Springer",
+      "year": "2022",
+      "pages": "289--301",
+      "number": "3",
+      "volume": "23",
+      "journal": "International Journal on Digital Libraries",
+      "author": "Saikh, Tanik and Ghosal, Tirthankar and Mittal, Amish and Ekbal, Asif and Bhattacharyya, Pushpak",
+      "title": "Scienceqa: A novel resource for question answering on scholarly articles",
+      "ENTRYTYPE": "article",
+      "ID": "scienceQA"
+    },
+    {
+      "year": "2015",
+      "booktitle": "ICCV",
+      "title": "{VQA}: {V}isual {Q}uestion {A}nswering",
+      "author": "Stanislaw Antol and Aishwarya Agrawal and Jiasen Lu and Margaret Mitchell and Dhruv Batra and C. Lawrence Zitnick and Devi Parikh",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "VQA"
+    },
+    {
+      "year": "2017",
+      "booktitle": "CVPR",
+      "title": "{CLEVR:} {A} Diagnostic Dataset for Compositional Language and Elementary\nVisual Reasoning",
+      "author": "Justin Johnson and\nBharath Hariharan and\nLaurens van der Maaten and\nLi Fei{-}Fei and\nC. Lawrence Zitnick and\nRoss B. Girshick",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "JohnsonHMFZG17"
+    },
+    {
+      "year": "2018",
+      "booktitle": "ACM SIGIR",
+      "author": "Zhu, Yaoming and Lu, Sidi and Zheng, Lei and Guo, Jiaxian and Zhang, Weinan and Wang, Jun and Yu, Yong",
+      "title": "Texygen: A benchmarking platform for text generation models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zhu2018texygen"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2302.04023",
+      "author": "Bang, Yejin and Cahyawijaya, Samuel and Lee, Nayeon and Dai, Wenliang and Su, Dan and Wilie, Bryan and Lovenia, Holy and Ji, Ziwei and Yu, Tiezheng and Chung, Willy and others",
+      "title": "A multitask, multilingual, multimodal evaluation of chatgpt on reasoning, hallucination, and interactivity",
+      "ENTRYTYPE": "article",
+      "ID": "bang2023multitask"
+    },
+    {
+      "year": "2021",
+      "journal": "arXiv preprint arXiv:2112.03254",
+      "author": "Xu, Yichong and Zhu, Chenguang and Wang, Shuohang and Sun, Siqi and Cheng, Hao and Liu, Xiaodong and Gao, Jianfeng and He, Pengcheng and Zeng, Michael and Huang, Xuedong",
+      "title": "Human parity on commonsenseqa: Augmenting self-attention with external attention",
+      "ENTRYTYPE": "article",
+      "ID": "xu2021human"
+    },
+    {
+      "year": "2021",
+      "journal": "arXiv preprint arXiv:2112.09332",
+      "author": "Nakano, Reiichiro and Hilton, Jacob and Balaji, Suchir and Wu, Jeff and Ouyang, Long and Kim, Christina and Hesse, Christopher and Jain, Shantanu and Kosaraju, Vineet and Saunders, William and others",
+      "title": "Webgpt: Browser-assisted question-answering with human feedback",
+      "ENTRYTYPE": "article",
+      "ID": "nakano2021webgpt"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2302.00083",
+      "author": "Ram, Ori and Levine, Yoav and Dalmedigos, Itay and Muhlgay, Dor and Shashua, Amnon and Leyton-Brown, Kevin and Shoham, Yoav",
+      "title": "In-context retrieval-augmented language models",
+      "ENTRYTYPE": "article",
+      "ID": "ram2023context"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2303.17580",
+      "author": "Shen, Yongliang and Song, Kaitao and Tan, Xu and Li, Dongsheng and Lu, Weiming and Zhuang, Yueting",
+      "title": "Hugginggpt: Solving ai tasks with chatgpt and its friends in huggingface",
+      "ENTRYTYPE": "article",
+      "ID": "shen2023hugginggpt"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2305.06355",
+      "author": "Li, KunChang and He, Yinan and Wang, Yi and Li, Yizhuo and Wang, Wenhai and Luo, Ping and Wang, Yali and Wang, Limin and Qiao, Yu",
+      "title": "VideoChat: Chat-Centric Video Understanding",
+      "ENTRYTYPE": "article",
+      "ID": "li2023videochat"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2301.13823",
+      "author": "Koh, Jing Yu and Salakhutdinov, Ruslan and Fried, Daniel",
+      "title": "Grounding language models to images for multimodal generation",
+      "ENTRYTYPE": "article",
+      "ID": "koh2023grounding"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2302.14045",
+      "author": "Huang, Shaohan and Dong, Li and Wang, Wenhui and Hao, Yaru and Singhal, Saksham and Ma, Shuming and Lv, Tengchao and Cui, Lei and Mohammed, Owais Khan and Liu, Qiang and others",
+      "title": "Language is not all you need: Aligning perception with language models",
+      "ENTRYTYPE": "article",
+      "ID": "huang2023language"
+    },
+    {
+      "year": "2023",
+      "volume": "abs/2305.08191",
+      "journal": "CoRR",
+      "author": "Mercier, Antoine and Berger, Guillaume and Panchal, Sunny and Dietrichkeit, Florian and B{\\\"o}hm, Cornelius and Bax, Ingo and Memisevic, Roland",
+      "title": "Is end-to-end learning enough for fitness activity recognition?",
+      "ENTRYTYPE": "article",
+      "ID": "mercier2023fitness"
+    },
+    {
+      "year": "2020",
+      "booktitle": "CVPR",
+      "author": "Shao, Dian and Zhao, Yue and Dai, Bo and Lin, Dahua",
+      "title": "FineGym: A Hierarchical Video Dataset for Fine-grained Action Understanding",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "shao2020finegym"
+    },
+    {
+      "note": "[Online; accessed Oct-2024]",
+      "howpublished": "\\url{https://openai.com/index/hello-gpt-4o⁠}",
+      "author": "OpenAI",
+      "title": "{“Hello gpt-4o.”}",
+      "ENTRYTYPE": "misc",
+      "ID": "gpt4o"
+    },
+    {
+      "year": "2022",
+      "booktitle": "ICLR",
+      "title": "Pix2seq: {A} Language Modeling Framework for Object Detection",
+      "author": "Ting Chen and\nSaurabh Saxena and\nLala Li and\nDavid J. Fleet and\nGeoffrey E. Hinton",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "DBLP:conf/iclr/ChenSLFH22"
+    },
+    {
+      "year": "2023",
+      "volume": "abs/2303.08128",
+      "journal": "CoRR",
+      "title": "ViperGPT: Visual Inference via Python Execution for Reasoning",
+      "author": "D{\\'{\\i}}dac Sur{\\'{\\i}}s and\nSachit Menon and\nCarl Vondrick",
+      "ENTRYTYPE": "article",
+      "ID": "DBLP:journals/corr/abs-2303-08128"
+    },
+    {
+      "year": "2022",
+      "volume": "abs/2211.11559",
+      "journal": "CoRR",
+      "title": "Visual Programming: Compositional visual reasoning without training",
+      "author": "Tanmay Gupta and\nAniruddha Kembhavi",
+      "ENTRYTYPE": "article",
+      "ID": "DBLP:journals/corr/abs-2211-11559"
+    },
+    {
+      "year": "2023",
+      "volume": "abs/2304.09842",
+      "journal": "CoRR",
+      "title": "Chameleon: Plug-and-Play Compositional Reasoning with Large Language\nModels",
+      "author": "Pan Lu and\nBaolin Peng and\nHao Cheng and\nMichel Galley and\nKai{-}Wei Chang and\nYing Nian Wu and\nSong{-}Chun Zhu and\nJianfeng Gao",
+      "ENTRYTYPE": "article",
+      "ID": "DBLP:journals/corr/abs-2304-09842"
+    },
+    {
+      "year": "2022",
+      "volume": "abs/2210.03629",
+      "journal": "CoRR",
+      "title": "ReAct: Synergizing Reasoning and Acting in Language Models",
+      "author": "Shunyu Yao and\nJeffrey Zhao and\nDian Yu and\nNan Du and\nIzhak Shafran and\nKarthik Narasimhan and\nYuan Cao",
+      "ENTRYTYPE": "article",
+      "ID": "DBLP:journals/corr/abs-2210-03629"
+    },
+    {
+      "year": "2023",
+      "volume": "abs/2303.17580",
+      "journal": "CoRR",
+      "title": "HuggingGPT: Solving {AI} Tasks with ChatGPT and its Friends in HuggingFace",
+      "author": "Yongliang Shen and\nKaitao Song and\nXu Tan and\nDongsheng Li and\nWeiming Lu and\nYueting Zhuang",
+      "ENTRYTYPE": "article",
+      "ID": "DBLP:journals/corr/abs-2303-17580"
+    },
+    {
+      "year": "2023",
+      "volume": "abs/2304.14407",
+      "journal": "CoRR",
+      "title": "ChatVideo: {A} Tracklet-centric Multimodal and Versatile Video Understanding\nSystem",
+      "author": "Junke Wang and\nDongdong Chen and\nChong Luo and\nXiyang Dai and\nLu Yuan and\nZuxuan Wu and\nYu{-}Gang Jiang",
+      "ENTRYTYPE": "article",
+      "ID": "wang2023chatvideo"
+    },
+    {
+      "year": "2023",
+      "volume": "abs/2303.03378",
+      "journal": "CoRR",
+      "title": "PaLM-E: An Embodied Multimodal Language Model",
+      "author": "Danny Driess and\nFei Xia and\nMehdi S. M. Sajjadi and\nCorey Lynch and\nAakanksha Chowdhery and\nBrian Ichter and\nAyzaan Wahid and\nJonathan Tompson and\nQuan Vuong and\nTianhe Yu and\nWenlong Huang and\nYevgen Chebotar and\nPierre Sermanet and\nDaniel Duckworth and\nSergey Levine and\nVincent Vanhoucke and\nKarol Hausman and\nMarc Toussaint and\nKlaus Greff and\nAndy Zeng and\nIgor Mordatch and\nPete Florence",
+      "ENTRYTYPE": "article",
+      "ID": "dreiss2023palm-e"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2301.06627",
+      "author": "Mahowald, Kyle and Ivanova, Anna A and Blank, Idan A and Kanwisher, Nancy and Tenenbaum, Joshua B and Fedorenko, Evelina",
+      "title": "Dissociating language and thought in large language models: a cognitive perspective",
+      "ENTRYTYPE": "article",
+      "ID": "mahowald2023dissociating"
+    },
+    {
+      "booktitle": "Thirty-sixth Conference on Neural Information Processing Systems Datasets and Benchmarks Track",
+      "author": "Fan, Linxi and Wang, Guanzhi and Jiang, Yunfan and Mandlekar, Ajay and Yang, Yuncong and Zhu, Haoyi and Tang, Andrew and Huang, De-An and Zhu, Yuke and Anandkumar, Anima",
+      "title": "MineDojo: Building Open-Ended Embodied Agents with Internet-Scale Knowledge",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "fanminedojo"
+    },
+    {
+      "year": "2022",
+      "booktitle": "CoRL",
+      "title": "Inner Monologue: Embodied Reasoning through Planning with Language\nModels",
+      "editor": "Karen Liu and\nDana Kulic and\nJeffrey Ichnowski",
+      "author": "Wenlong Huang and\nFei Xia and\nTed Xiao and\nHarris Chan and\nJacky Liang and\nPete Florence and\nAndy Zeng and\nJonathan Tompson and\nIgor Mordatch and\nYevgen Chebotar and\nPierre Sermanet and\nTomas Jackson and\nNoah Brown and\nLinda Luu and\nSergey Levine and\nKarol Hausman and\nBrian Ichter",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "DBLP:conf/corl/HuangXXCLFZTMCS22"
+    },
+    {
+      "year": "2022",
+      "volume": "abs/2209.07753",
+      "journal": "CoRR",
+      "title": "Code as Policies: Language Model Programs for Embodied Control",
+      "author": "Jacky Liang and\nWenlong Huang and\nFei Xia and\nPeng Xu and\nKarol Hausman and\nBrian Ichter and\nPete Florence and\nAndy Zeng",
+      "ENTRYTYPE": "article",
+      "ID": "DBLP:journals/corr/abs-2209-07753"
+    },
+    {
+      "year": "2022",
+      "volume": "abs/2209.11302",
+      "journal": "CoRR",
+      "title": "ProgPrompt: Generating Situated Robot Task Plans using Large Language\nModels",
+      "author": "Ishika Singh and\nValts Blukis and\nArsalan Mousavian and\nAnkit Goyal and\nDanfei Xu and\nJonathan Tremblay and\nDieter Fox and\nJesse Thomason and\nAnimesh Garg",
+      "ENTRYTYPE": "article",
+      "ID": "DBLP:journals/corr/abs-2209-11302"
+    },
+    {
+      "year": "2022",
+      "booktitle": "ICML",
+      "title": "Language Models as Zero-Shot Planners: Extracting Actionable Knowledge\nfor Embodied Agents",
+      "editor": "Kamalika Chaudhuri and\nStefanie Jegelka and\nLe Song and\nCsaba Szepesv{\\'{a}}ri and\nGang Niu and\nSivan Sabato",
+      "author": "Wenlong Huang and\nPieter Abbeel and\nDeepak Pathak and\nIgor Mordatch",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "DBLP:conf/icml/HuangAPM22"
+    },
+    {
+      "booktitle": "IJCAI",
+      "year": "1991",
+      "title": "Intelligence without Reason",
+      "author": "Brooks, Rodney A.",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "10.5555/1631171.1631258"
+    },
+    {
+      "year": "2023",
+      "volume": "abs/2305.05662",
+      "journal": "CoRR",
+      "title": "InternGPT: Solving Vision-Centric Tasks by Interacting with Chatbots\nBeyond Language",
+      "author": "Zhaoyang Liu and\nYinan He and\nWenhai Wang and\nWeiyun Wang and\nYi Wang and\nShoufa Chen and\nQinglong Zhang and\nZeqiang Lai and\nYang Yang and\nQingyun Li and\nJiashuo Yu and\nKunchang Li and\nZhe Chen and\nXue Yang and\nXizhou Zhu and\nYali Wang and\nLimin Wang and\nPing Luo and\nJifeng Dai and\nYu Qiao",
+      "ENTRYTYPE": "article",
+      "ID": "InternGPT"
+    },
+    {
+      "year": "2021",
+      "pages": "82118--82129",
+      "volume": "9",
+      "journal": "{IEEE} Access",
+      "title": "Multi-Modal Chatbot in Intelligent Manufacturing",
+      "author": "Tzu{-}Yu Chen and\nYu{-}Ching Chiu and\nNanyi Bi and\nRichard Tzong{-}Han Tsai",
+      "ENTRYTYPE": "article",
+      "ID": "DBLP:journals/access/ChenCBT21"
+    },
+    {
+      "year": "2022",
+      "booktitle": "NeurIPS",
+      "title": "{CAESAR:} An Embodied Simulator for Generating Multimodal Referring\nExpression Datasets",
+      "author": "Md Mofijul Islam and\nReza Mirzaiee and\nAlexi Gladstone and\nHaley N. Green and\nTariq Iqbal",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "DBLP:conf/nips/IslamMGGI22"
+    },
+    {
+      "year": "2017",
+      "booktitle": "CVPR",
+      "title": "Visual Dialog",
+      "author": "Abhishek Das and\nSatwik Kottur and\nKhushi Gupta and\nAvi Singh and\nDeshraj Yadav and\nJos{\\'{e}} M. F. Moura and\nDevi Parikh and\nDhruv Batra",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "DBLP:conf/cvpr/DasKGSYMPB17"
+    },
+    {
+      "year": "2017",
+      "booktitle": "IJCNLP",
+      "title": "DailyDialog: {A} Manually Labelled Multi-turn Dialogue Dataset",
+      "editor": "Greg Kondrak and\nTaro Watanabe",
+      "author": "Yanran Li and\nHui Su and\nXiaoyu Shen and\nWenjie Li and\nZiqiang Cao and\nShuzi Niu",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "DBLP:conf/ijcnlp/LiSSLCN17"
+    },
+    {
+      "year": "2019",
+      "volume": "abs/1904.06472",
+      "journal": "CoRR",
+      "title": "A Repository of Conversational Datasets",
+      "author": "Matthew Henderson and\nPawel Budzianowski and\nI{\\~{n}}igo Casanueva and\nSam Coope and\nDaniela Gerz and\nGirish Kumar and\nNikola Mrksic and\nGeorgios Spithourakis and\nPei{-}Hao Su and\nIvan Vulic and\nTsung{-}Hsien Wen",
+      "ENTRYTYPE": "article",
+      "ID": "DBLP:journals/corr/abs-1904-06472"
+    },
+    {
+      "year": "2011",
+      "booktitle": "CMCL@ACL",
+      "title": "Chameleons in Imagined Conversations: {A} New Approach to Understanding\nCoordination of Linguistic Style in Dialogs",
+      "author": "Cristian Danescu{-}Niculescu{-}Mizil and\nLillian Lee",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "DBLP:conf/acl-cmcl/Danescu-Niculescu-Mizil11"
+    },
+    {
+      "year": "2024",
+      "booktitle": "ICLR",
+      "title": "Look, Remember and Reason: Visual Reasoning with Grounded Rationales",
+      "author": "Apratim Bhattacharyya and\nSunny Panchal and\nMingu Lee and\nReza Pourreza and\nPulkit Madan and\nRoland Memisevic",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "bhattacharyya2023look"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2205.01068",
+      "author": "Zhang, Susan and Roller, Stephen and Goyal, Naman and Artetxe, Mikel and Chen, Moya and Chen, Shuohui and Dewan, Christopher and Diab, Mona and Li, Xian and Lin, Xi Victoria and others",
+      "title": "Opt: Open pre-trained transformer language models",
+      "ENTRYTYPE": "article",
+      "ID": "zhang2022opt"
+    },
+    {
+      "year": "2017",
+      "booktitle": "CVPR",
+      "author": "Carreira, Joao and Zisserman, Andrew",
+      "title": "Quo vadis, action recognition? a new model and the kinetics dataset",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "carreira2017quo"
+    },
+    {
+      "year": "2014",
+      "journal": "arXiv preprint arXiv:1412.6980",
+      "author": "Kingma, Diederik P and Ba, Jimmy",
+      "title": "Adam: A method for stochastic optimization",
+      "ENTRYTYPE": "article",
+      "ID": "kingma2014adam"
+    },
+    {
+      "year": "2012",
+      "volume": "abs/1212.0402",
+      "journal": "CoRR",
+      "title": "{UCF101:} {A} Dataset of 101 Human Actions Classes From Videos in\nThe Wild",
+      "author": "Khurram Soomro and\nAmir Roshan Zamir and\nMubarak Shah",
+      "ENTRYTYPE": "article",
+      "ID": "abs-1212-0402"
+    },
+    {
+      "year": "2020",
+      "booktitle": "IEEE PAMI",
+      "title": "Moments in Time Dataset: One Million Videos for Event Understanding",
+      "author": "Mathew Monfort and\nCarl Vondrick and\nAude Oliva and\nAlex Andonian and\nBolei Zhou and\nKandan Ramakrishnan and\nSarah Adel Bargal and\nTom Yan and\nLisa M. Brown and\nQuanfu Fan and\nDan Gutfreund",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "MonfortVOAZRBYB20"
+    },
+    {
+      "year": "2015",
+      "booktitle": "CVPR",
+      "title": "ActivityNet: {A} large-scale video benchmark for human activity understanding",
+      "author": "Fabian Caba Heilbron and\nVictor Escorcia and\nBernard Ghanem and\nJuan Carlos Niebles",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "HeilbronEGN15"
+    },
+    {
+      "year": "2020",
+      "volume": "abs/2005.00214",
+      "journal": "CoRR",
+      "title": "The AVA-Kinetics Localized Human Actions Video Dataset",
+      "author": "Ang Li and\nMeghana Thotakuri and\nDavid A. Ross and\nJo{\\~{a}}o Carreira and\nAlexander Vostrikov and\nAndrew Zisserman",
+      "ENTRYTYPE": "article",
+      "ID": "abs-2005-00214"
+    },
+    {
+      "year": "2016",
+      "booktitle": "CVPR",
+      "title": "{NTU} {RGB+D:} {A} Large Scale Dataset for 3D Human Activity Analysis",
+      "author": "Amir Shahroudy and\nJun Liu and\nTian{-}Tsong Ng and\nGang Wang",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ShahroudyLNW16"
+    },
+    {
+      "year": "2020",
+      "booktitle": "CVPR",
+      "title": "FineGym: {A} Hierarchical Video Dataset for Fine-Grained Action Understanding",
+      "author": "Dian Shao and\nYue Zhao and\nBo Dai and\nDahua Lin",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ShaoZDL20a"
+    },
+    {
+      "year": "2016",
+      "booktitle": "ECCV",
+      "title": "Hollywood in Homes: Crowdsourcing Data Collection for Activity Understanding",
+      "author": "Gunnar A. Sigurdsson and\nG{\\\"{u}}l Varol and\nXiaolong Wang and\nAli Farhadi and\nIvan Laptev and\nAbhinav Gupta",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "SigurdssonVWFLG16"
+    },
+    {
+      "year": "2020",
+      "booktitle": "CVPR",
+      "title": "Something-Else: Compositional Action Recognition With Spatial-Temporal\nInteraction Networks",
+      "author": "Joanna Materzynska and\nTete Xiao and\nRoei Herzig and\nHuijuan Xu and\nXiaolong Wang and\nTrevor Darrell",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "MaterzynskaXHXW20"
+    },
+    {
+      "note": "[Online; accessed Oct-2024]",
+      "howpublished": "\\url{https://github.com/quic/sense}",
+      "title": "{Sense Core}",
+      "author": "",
+      "ENTRYTYPE": "misc",
+      "ID": "sensecore"
+    },
+    {
+      "year": "2022",
+      "booktitle": "CVPR",
+      "title": "Ego4D: Around the World in 3, 000 Hours of Egocentric Video",
+      "author": "Kristen Grauman and\nAndrew Westbury and\nEugene Byrne and\nZachary Chavis and\nAntonino Furnari and\nRohit Girdhar and\nJackson Hamburger and\nHao Jiang and\nMiao Liu and\nXingyu Liu and\nMiguel Martin and\nTushar Nagarajan and\nIlija Radosavovic and\nSanthosh Kumar Ramakrishnan and\nFiona Ryan and\nJayant Sharma and\nMichael Wray and\nMengmeng Xu and\nEric Zhongcong Xu and\nChen Zhao and\nSiddhant Bansal and\nothers",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "GraumanWBCFGH0L22"
+    },
+    {
+      "year": "2023",
+      "booktitle": "EMNLP - System Demonstrations",
+      "title": "Video-LLaMA: An Instruction-tuned Audio-Visual Language Model for\nVideo Understanding",
+      "author": "Hang Zhang and\nXin Li and\nLidong Bing",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ZhangLB23"
+    },
+    {
+      "year": "2023",
+      "booktitle": "EMNLP",
+      "title": "G-Eval: {NLG} Evaluation using Gpt-4 with Better Human Alignment",
+      "editor": "Houda Bouamor and\nJuan Pino and\nKalika Bali",
+      "author": "Yang Liu and\nDan Iter and\nYichong Xu and\nShuohang Wang and\nRuochen Xu and\nChenguang Zhu",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "LiuIXWXZ23"
+    },
+    {
+      "year": "2024",
+      "volume": "abs/2401.04088",
+      "journal": "CoRR",
+      "title": "Mixtral of Experts",
+      "author": "Albert Q. Jiang and\nAlexandre Sablayrolles and\nAntoine Roux and\nArthur Mensch and\nBlanche Savary and\nChris Bamford and\nDevendra Singh Chaplot and\nDiego de Las Casas and\nEmma Bou Hanna and\nFlorian Bressand and\nGianna Lengyel and\nGuillaume Bour and\nGuillaume Lample and\nL{\\'{e}}lio Renard Lavaud and\nLucile Saulnier and\nMarie{-}Anne Lachaux and\nPierre Stock and\nSandeep Subramanian and\nSophia Yang and\nSzymon Antoniak and\nTeven Le Scao and\nTh{\\'{e}}ophile Gervet and\nThibaut Lavril and\nThomas Wang and\nTimoth{\\'{e}}e Lacroix and\nWilliam El Sayed",
+      "ENTRYTYPE": "article",
+      "ID": "abs-2401-04088"
+    },
+    {
+      "year": "2012",
+      "volume": "25",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf",
+      "title": "ImageNet Classification with Deep Convolutional Neural Networks",
+      "publisher": "Curran Associates, Inc.",
+      "pages": "",
+      "editor": "F. Pereira and C.J. Burges and L. Bottou and K.Q. Weinberger",
+      "booktitle": "Advances in Neural Information Processing Systems",
+      "author": "Krizhevsky, Alex and Sutskever, Ilya and Hinton, Geoffrey E",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "NIPS2012_c399862d"
+    },
+    {
+      "year": "2022",
+      "booktitle": "ACL",
+      "author": "Ammanabrolu, Prithviraj and Jia, Renee and Riedl, Mark O",
+      "title": "Situated Dialogue Learning through Procedural Environment Generation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ammanabrolu2022dialogue"
+    },
+    {
+      "year": "2010",
+      "booktitle": "ECCV",
+      "title": "Every Picture Tells a Story: Generating Sentences from Images",
+      "author": "Farhadi, Ali\nand Hejrati, Mohsen\nand Sadeghi, Mohammad Amin\nand Young, Peter\nand Rashtchian, Cyrus\nand Hockenmaier, Julia\nand Forsyth, David",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "FarhadiCaptioning"
+    },
+    {
+      "year": "2020",
+      "booktitle": "CVPR",
+      "author": "Zhang, Zhu and Zhao, Zhou and Zhao, Yang and Wang, Qi and Liu, Huasheng and Gao, Lianli",
+      "title": "Where Does It Exist: Spatio-Temporal Video Grounding for Multi-Form Sentences",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zhang2020does"
+    },
+    {
+      "year": "2022",
+      "booktitle": "International Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "author": "Xue, Hongwei and Hang, Tiankai and Zeng, Yanhong and Sun, Yuchong and Liu, Bei and Yang, Huan and Fu, Jianlong and Guo, Baining",
+      "title": "Advancing High-Resolution Video-Language Representation with Large-Scale Video Transcriptions",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "xue2022hdvila"
+    },
+    {
+      "year": "2018",
+      "booktitle": "AAAI",
+      "author": "Zhou, Luowei and Xu, Chenliang and Corso, Jason",
+      "title": "Towards automatic learning of procedures from web instructional videos",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zhou2018towards"
+    },
+    {
+      "year": "2019",
+      "booktitle": "ICCV",
+      "author": "Miech, Antoine and Zhukov, Dimitri and Alayrac, Jean-Baptiste and Tapaswi, Makarand and Laptev, Ivan and Sivic, Josef",
+      "title": "Howto100m: Learning a text-video embedding by watching hundred million narrated video clips",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "miech2019howto100m"
+    },
+    {
+      "year": "2022",
+      "booktitle": "IJCV",
+      "author": "Damen, Dima and Doughty, Hazel and Farinella, Giovanni Maria and Furnari, Antonino \nand Ma, Jian and Kazakos, Evangelos and Moltisanti, Davide and Munro, Jonathan \nand Perrett, Toby and Price, Will and Wray, Michael",
+      "title": "Rescaling Egocentric Vision: Collection, Pipeline and Challenges for EPIC-KITCHENS-100",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "Damen2022RESCALING"
+    },
+    {
+      "year": "2023",
+      "volume": "abs/2311.18259",
+      "journal": "CoRR",
+      "title": "Ego-Exo4D: Understanding Skilled Human Activity from First- and Third-Person\nPerspectives",
+      "author": "Grauman, Kristen and Westbury, Andrew and Torresani, Lorenzo and Kitani, Kris and Malik, Jitendra and Afouras, Triantafyllos and Ashutosh, Kumar and Baiyya, Vijay and Bansal, Siddhant and Boote, Bikram and others",
+      "ENTRYTYPE": "article",
+      "ID": "grauman2023ego"
+    },
+    {
+      "note": "revision \\#73220",
+      "doi": "10.4249/scholarpedia.2373",
+      "pages": "2373",
+      "number": "7",
+      "volume": "2",
+      "journal": "Scholarpedia",
+      "year": "2007",
+      "title": "{S}ymbol grounding problem",
+      "author": "Harnad, S. ",
+      "ENTRYTYPE": "article",
+      "ID": "Harnad:2007"
+    },
+    {
+      "year": "2019",
+      "booktitle": "ICCV",
+      "title": "VaTeX: {A} Large-Scale, High-Quality Multilingual Dataset for Video-and-Language\nResearch",
+      "author": "Xin Wang and\nJiawei Wu and\nJunkun Chen and\nLei Li and\nYuan{-}Fang Wang and\nWilliam Yang Wang",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "WangWCLWW19"
+    },
+    {
+      "year": "2018",
+      "booktitle": "TREC Video Retrieval Evaluation",
+      "title": "{TRECVID} 2018: Benchmarking Video Activity Detection, Video Captioning\nand Matching, Video Storytelling Linking and Video Search",
+      "author": "George Awad and\nAsad A. Butt and\nKeith Curtis and\nYooyoung Lee and\nJonathan G. Fiscus and\nAfzal Godil and\nDavid Joy and\nAndrew Delgado and\nAlan F. Smeaton and\nYvette Graham and\nWessel Kraaij and\nGeorges Qu{\\'{e}}not and\nJo{\\~{a}}o Magalh{\\~{a}}es and\nDavid Semedo and\nSaverio G. Blasi",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "AwadBCLFGJDSGKQ18"
+    },
+    {
+      "year": "2022",
+      "booktitle": "CVPR",
+      "title": "Advancing High-Resolution Video-Language Representation with Large-Scale\nVideo Transcriptions",
+      "author": "Hongwei Xue and\nTiankai Hang and\nYanhong Zeng and\nYuchong Sun and\nBei Liu and\nHuan Yang and\nJianlong Fu and\nBaining Guo",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "XueHZS00FG22"
+    },
+    {
+      "year": "2016",
+      "booktitle": "CVPR",
+      "title": "{TGIF:} {A} New Dataset and Benchmark on Animated {GIF} Description",
+      "author": "Yuncheng Li and\nYale Song and\nLiangliang Cao and\nJoel R. Tetreault and\nLarry Goldberg and\nAlejandro Jaimes and\nJiebo Luo",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "LiSCTGJL16"
+    },
+    {
+      "year": "2021",
+      "booktitle": "ICCV",
+      "title": "Frozen in Time: {A} Joint Video and Image Encoder for End-to-End Retrieval",
+      "author": "Max Bain and\nArsha Nagrani and\nG{\\\"{u}}l Varol and\nAndrew Zisserman",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "BainNVZ21"
+    },
+    {
+      "year": "2004",
+      "booktitle": "ACL",
+      "title": "Automatic Evaluation of Machine Translation Quality Using Longest\nCommon Subsequence and Skip-Bigram Statistics",
+      "author": "Chin{-}Yew Lin and\nFranz Josef Och",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "LinO04"
+    },
+    {
+      "year": "2022",
+      "booktitle": "ICLR",
+      "title": "LoRA: Low-Rank Adaptation of Large Language Models",
+      "author": "Edward J. Hu and\nYelong Shen and\nPhillip Wallis and\nZeyuan Allen{-}Zhu and\nYuanzhi Li and\nShean Wang and\nLu Wang and\nWeizhu Chen",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "hu2021lora"
+    },
+    {
+      "year": "2021",
+      "booktitle": "NeurIPS",
+      "title": "{STAR:} {A} Benchmark for Situated Reasoning in Real-World Videos",
+      "author": "Bo Wu and\nShoubin Yu and\nZhenfang Chen and\nJosh Tenenbaum and\nChuang Gan",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "WuYC0G21"
+    },
+    {
+      "year": "2021",
+      "booktitle": "CVPR",
+      "title": "{AGQA:} {A} Benchmark for Compositional Spatio-Temporal Reasoning",
+      "author": "Madeleine Grunde{-}McLaughlin and\nRanjay Krishna and\nManeesh Agrawala",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "Grunde-McLaughlin21"
+    },
+    {
+      "year": "2023",
+      "booktitle": "NeurIPS",
+      "title": "Visual Instruction Tuning",
+      "author": "Haotian Liu and\nChunyuan Li and\nQingyang Wu and\nYong Jae Lee",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "LiuLWL23a"
+    },
+    {
+      "year": "2023",
+      "volume": "abs/2311.10122",
+      "journal": "CoRR",
+      "title": "Video-LLaVA: Learning United Visual Representation by Alignment Before\nProjection",
+      "author": "Bin Lin and\nYang Ye and\nBin Zhu and\nJiaxi Cui and\nMunan Ning and\nPeng Jin and\nLi Yuan",
+      "ENTRYTYPE": "article",
+      "ID": "abs-2311-10122"
+    },
+    {
+      "organization": "Springer",
+      "year": "2024",
+      "pages": "323--340",
+      "booktitle": "European Conference on Computer Vision",
+      "author": "Li, Yanwei and Wang, Chengyao and Jia, Jiaya",
+      "title": "Llama-vid: An image is worth 2 tokens in large language models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "li2024llama"
+    },
+    {
+      "year": "2024",
+      "month": "April",
+      "author": "Zhang, Yuanhan and Li, Bo and Liu, haotian and Lee, Yong jae and Gui, Liangke and Fu, Di and Feng, Jiashi and Liu, Ziwei and Li, Chunyuan",
+      "url": "https://llava-vl.github.io/blog/2024-04-30-llava-next-video/",
+      "title": "LLaVA-NeXT: A Strong Zero-shot Video Understanding Model",
+      "ENTRYTYPE": "misc",
+      "ID": "zhang2024llavanextvideo"
+    },
+    {
+      "year": "2022",
+      "booktitle": "CVPR",
+      "title": "Assembly101: {A} Large-Scale Multi-View Video Dataset for Understanding\nProcedural Activities",
+      "author": "Fadime Sener and\nDibyadip Chatterjee and\nDaniel Shelepov and\nKun He and\nDipika Singhania and\nRobert Wang and\nAngela Yao",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "SenerCSHSWY22"
+    },
+    {
+      "year": "2023",
+      "volume": "abs/2309.17453",
+      "journal": "CoRR",
+      "title": "Efficient Streaming Language Models with Attention Sinks",
+      "author": "Guangxuan Xiao and\nYuandong Tian and\nBeidi Chen and\nSong Han and\nMike Lewis",
+      "ENTRYTYPE": "article",
+      "ID": "abs-2309-17453"
+    },
+    {
+      "year": "2005",
+      "booktitle": "IEEvaluation@ACL",
+      "title": "{METEOR:} An Automatic Metric for {MT} Evaluation with Improved Correlation\nwith Human Judgments",
+      "author": "Satanjeev Banerjee and\nAlon Lavie",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "BanerjeeL05"
+    },
+    {
+      "year": "2023",
+      "volume": "abs/2312.11805",
+      "journal": "CoRR",
+      "title": "Gemini: {A} Family of Highly Capable Multimodal Models",
+      "author": "Team, Gemini and Anil, Rohan and Borgeaud, Sebastian and Wu, Yonghui and Alayrac, Jean-Baptiste and Yu, Jiahui and Soricut, Radu and Schalkwyk, Johan and Dai, Andrew M and Hauth, Anja and others",
+      "ENTRYTYPE": "article",
+      "ID": "team2023gemini"
+    },
+    {
+      "year": "2023",
+      "volume": "abs/2307.09288",
+      "journal": "CoRR",
+      "title": "Llama 2: Open Foundation and Fine-Tuned Chat Models",
+      "author": "Touvron, Hugo and Martin, Louis and Stone, Kevin and Albert, Peter and Almahairi, Amjad and Babaei, Yasmine and Bashlykov, Nikolay and Batra, Soumya and Bhargava, Prajjwal and Bhosale, Shruti and others",
+      "ENTRYTYPE": "article",
+      "ID": "touvron2023llama"
+    },
+    {
+      "year": "2022",
+      "booktitle": "Proceedings of the AAAI Conference on Artificial Intelligence",
+      "author": "Padmakumar, Aishwarya and Thomason, Jesse and Shrivastava, Ayush and Lange, Patrick and Narayan-Chen, Anjali and Gella, Spandana and Piramuthu, Robinson and Tur, Gokhan and Hakkani-Tur, Dilek",
+      "title": "{TEACh: Task-driven Embodied Agents that Chat}",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "teach"
+    },
+    {
+      "year": "2023",
+      "booktitle": "EMNLP Findings",
+      "title": "Can Foundation Models Watch, Talk and Guide You Step by Step to Make\na Cake?",
+      "author": "Yuwei Bao and\nKeunwoo Peter Yu and\nYichi Zhang and\nShane Storks and\nItamar Bar{-}Yossef and\nAlexander De La Iglesia and\nMegan Su and\nXiao{-}Lin Zheng and\nJoyce Chai",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "BaoYZSBISZC23"
+    },
+    {
+      "year": "2023",
+      "booktitle": "ICCV",
+      "title": "HoloAssist: an Egocentric Human Interaction Dataset for Interactive\n{AI} Assistants in the Real World",
+      "author": "Xin Wang and\nTaein Kwon and\nMahdi Rad and\nBowen Pan and\nIshani Chakraborty and\nSean Andrist and\nDan Bohus and\nAshley Feniello and\nBugra Tekin and\nFelipe Vieira Frujeri and\nNeel Joshi and\nMarc Pollefeys",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "WangKRPCABFTFJP23"
+    },
+    {
+      "year": "2021",
+      "booktitle": "AAAI",
+      "title": "{FIXMYPOSE:} Pose Correctional Captioning and Retrieval",
+      "author": "Hyounghun Kim and\nAbhay Zala and\nGraham Burri and\nMohit Bansal",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "KimZBB21"
+    },
+    {
+      "note": "[Online; accessed Oct-2024]",
+      "howpublished": "\\url{https://www.statista.com/topics/12564/home-fitness/#topicOverview}",
+      "title": "{Statista} Home Fitness",
+      "ENTRYTYPE": "misc",
+      "ID": "statista"
+    },
+    {
+      "note": "[Online; accessed Oct-2024]",
+      "howpublished": "\\url{https://github.com/meta-llama/llama3/blob/main/MODEL_CARD.md}",
+      "author": "AI@Meta",
+      "title": "Llama 3 Model Card",
+      "ENTRYTYPE": "misc",
+      "ID": "llama3modelcard"
+    },
+    {
+      "year": "2021",
+      "booktitle": "Communications of the ACM",
+      "author": "Gebru, Timnit and Morgenstern, Jamie and Vecchione, Briana and Vaughan, Jennifer Wortman and Wallach, Hanna and Iii, Hal Daum{\\'e} and Crawford, Kate",
+      "title": "Datasheets for datasets",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "gebru2021datasheets"
+    },
+    {
+      "year": "2023",
+      "booktitle": "NeurIPS",
+      "author": "Zheng, Lianmin and Chiang, Wei-Lin and Sheng, Ying and Zhuang, Siyuan and Wu, Zhanghao and Zhuang, Yonghao and Lin, Zi and Li, Zhuohan and Li, Dacheng and Xing, Eric and others",
+      "title": "Judging llm-as-a-judge with mt-bench and chatbot arena",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zheng2023judging"
+    },
+    {
+      "numpages": "7",
+      "pages": "86–92",
+      "month": "November",
+      "journal": "Commun. ACM",
+      "abstract": "Documentation to facilitate communication between dataset creators and consumers.",
+      "doi": "10.1145/3458723",
+      "url": "https://doi.org/10.1145/3458723",
+      "issn": "0001-0782",
+      "number": "12",
+      "volume": "64",
+      "address": "New York, NY, USA",
+      "publisher": "Association for Computing Machinery",
+      "issue_date": "December 2021",
+      "year": "2021",
+      "title": "Datasheets for datasets",
+      "author": "Gebru, Timnit and Morgenstern, Jamie and Vecchione, Briana and Vaughan, Jennifer Wortman and Wallach, Hanna and III, Hal Daum\\'{e} and Crawford, Kate",
+      "ENTRYTYPE": "article",
+      "ID": "10.1145/3458723"
+    },
+    {
+      "year": "2024",
+      "month": "December",
+      "author": "Qwen Team",
+      "url": "https://qwenlm.github.io/blog/qvq-72b-preview/",
+      "title": "QVQ: To See the World with Wisdom",
+      "ENTRYTYPE": "misc",
+      "ID": "qvq-72b-preview"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2409.12191",
+      "author": "Wang, Peng and Bai, Shuai and Tan, Sinan and Wang, Shijie and Fan, Zhihao and Bai, Jinze and Chen, Keqin and Liu, Xuejing and Wang, Jialin and Ge, Wenbin and Fan, Yang and Dang, Kai and Du, Mengfei and Ren, Xuancheng and Men, Rui and Liu, Dayiheng and Zhou, Chang and Zhou, Jingren and Lin, Junyang",
+      "title": "Qwen2-VL: Enhancing Vision-Language Model's Perception of the World at Any Resolution",
+      "ENTRYTYPE": "article",
+      "ID": "Qwen2VL"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2410.21276",
+      "author": "Hurst, Aaron and Lerer, Adam and Goucher, Adam P and Perelman, Adam and Ramesh, Aditya and Clark, Aidan and Ostrow, AJ and Welihinda, Akila and Hayes, Alan and Radford, Alec and others",
+      "title": "Gpt-4o system card",
+      "ENTRYTYPE": "article",
+      "ID": "hurst2024gpt"
+    },
+    {
+      "year": "2023",
+      "booktitle": "NeurIPS",
+      "author": "Wenliang Dai and Junnan Li and Dongxu Li and Anthony Tiong and Junqi Zhao and Weisheng Wang and Boyang Li and Pascale Fung and Steven Hoi",
+      "title": "Instruct{BLIP}: Towards General-purpose Vision-Language Models with Instruction Tuning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "dai2023instructblip"
+    },
+    {
+      "url": "https://arxiv.org/abs/2311.17331",
+      "primaryclass": "cs.CV",
+      "archiveprefix": "arXiv",
+      "eprint": "2311.17331",
+      "year": "2025",
+      "author": "Zeqing Wang and Wentao Wan and Qiqing Lao and Runmeng Chen and Minjie Lang and Xiao Wang and Keze Wang and Liang Lin",
+      "title": "Towards Top-Down Reasoning: An Explainable Multi-Agent Approach for Visual Question Answering",
+      "ENTRYTYPE": "misc",
+      "ID": "wang2025topdownreasoningexplainablemultiagent"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2303.15105",
+      "author": "Zhang, Qiming and Zhang, Jing and Xu, Yufei and Tao, Dacheng",
+      "title": "Vision Transformer with Quadrangle Attention",
+      "ENTRYTYPE": "article",
+      "ID": "zhang2023vision"
+    },
+    {
+      "url": "https://arxiv.org/abs/2310.18983",
+      "primaryclass": "cs.AI",
+      "archiveprefix": "arXiv",
+      "eprint": "2310.18983",
+      "year": "2023",
+      "author": "Anran Wu and Luwei Xiao and Xingjiao Wu and Shuwen Yang and Junjie Xu and Zisong Zhuang and Nian Xie and Cheng Jin and Liang He",
+      "title": "DCQA: Document-Level Chart Question Answering towards Complex Reasoning and Common-Sense Understanding",
+      "ENTRYTYPE": "misc",
+      "ID": "wu2023dcqadocumentlevelchartquestion"
+    },
+    {
+      "url": "https://arxiv.org/abs/2311.07588",
+      "primaryclass": "cs.CL",
+      "archiveprefix": "arXiv",
+      "eprint": "2311.07588",
+      "year": "2023",
+      "author": "Ruijie Wang and Zhiruo Zhang and Luca Rossetto and Florian Ruosch and Abraham Bernstein",
+      "title": "NLQxform: A Language Model-based Question to SPARQL Transformer",
+      "ENTRYTYPE": "misc",
+      "ID": "wang2023nlqxformlanguagemodelbasedquestion"
+    },
+    {
+      "year": "2024",
+      "month": "January",
+      "author": "Liu, Haotian and Li, Chunyuan and Li, Yuheng and Li, Bo and Zhang, Yuanhan and Shen, Sheng and Lee, Yong Jae",
+      "url": "https://llava-vl.github.io/blog/2024-01-30-llava-next/",
+      "title": "LLaVA-NeXT: Improved reasoning, OCR, and world knowledge",
+      "ENTRYTYPE": "misc",
+      "ID": "liu2024llavanext"
+    },
+    {
+      "year": "2024",
+      "booktitle": "CVPR",
+      "author": "Li, Kunchang and Wang, Yali and He, Yinan and Li, Yizhuo and Wang, Yi and Liu, Yi and Wang, Zun and Xu, Jilan and Chen, Guo and Luo, Ping and others",
+      "title": "Mvbench: A comprehensive multi-modal video understanding benchmark",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "li2024mvbench"
+    },
+    {
+      "year": "2020",
+      "booktitle": "ICLR",
+      "author": "Tianyi Zhang* and Varsha Kishore* and Felix Wu* and Kilian Q. Weinberger and Yoav Artzi",
+      "title": "BERTScore: Evaluating Text Generation with BERT",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "Zhang*2020BERTScore:"
+    },
+    {
+      "booktitle": "Proceedings of the Second Workshop on Statistical Machine Translation",
+      "year": "2007",
+      "title": "Meteor: an automatic metric for MT evaluation with high levels of correlation with human judgments",
+      "author": "Lavie, Alon and Agarwal, Abhaya",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "10.5555/1626355.1626389"
+    },
+    {
+      "booktitle": "ACL",
+      "year": "2002",
+      "title": "BLEU: a method for automatic evaluation of machine translation",
+      "author": "Papineni, Kishore and Roukos, Salim and Ward, Todd and Zhu, Wei-Jing",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "10.3115/1073083.1073135"
+    },
+    {
+      "primaryclass": "cs.CV",
+      "archiveprefix": "arXiv",
+      "eprint": "2305.06355",
+      "year": "2024",
+      "author": "KunChang Li and Yinan He and Yi Wang and Yizhuo Li and Wenhai Wang and Ping Luo and Yali Wang and Limin Wang and Yu Qiao",
+      "title": "VideoChat: Chat-Centric Video Understanding",
+      "ENTRYTYPE": "misc",
+      "ID": "li2024videochatchatcentricvideounderstanding"
+    },
+    {
+      "year": "2024",
+      "title": "Chat-UniVi: Unified Visual Representation Empowers Large Language Models with Image and Video Understanding",
+      "booktitle": "CVPR",
+      "author": "Jin, Peng and Takanobu, Ryuichi and Zhang, Wancai and Cao, Xiaochun and Yuan, Li",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "10655738"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2311.10122",
+      "author": "Lin, Bin and Zhu, Bin and Ye, Yang and Ning, Munan and Jin, Peng and Yuan, Li",
+      "title": "Video-LLaVA: Learning United Visual Representation by Alignment Before Projection",
+      "ENTRYTYPE": "article",
+      "ID": "lin2023video"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2310.01852",
+      "author": "Zhu, Bin and Lin, Bin and Ning, Munan and Yan, Yang and Cui, Jiaxi and Wang, HongFa and Pang, Yatian and Jiang, Wenhao and Zhang, Junwu and Li, Zongwei and others",
+      "title": "LanguageBind: Extending Video-Language Pretraining to N-modality by Language-based Semantic Alignment",
+      "ENTRYTYPE": "article",
+      "ID": "zhu2023languagebind"
+    },
+    {
+      "publisher": "Springer Nature Switzerland",
+      "year": "2024",
+      "booktitle": "ECCV",
+      "title": "LLaMA-VID: An Image is Worth 2 Tokens in Large Language Models",
+      "author": "Li, Yanwei\nand Wang, Chengyao\nand Jia, Jiaya",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "10.1007/978-3-031-72952-2_19"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2406.08085",
+      "author": "Zhang, Haoji and Wang, Yiqin and Tang, Yansong and Liu, Yong and Feng, Jiashi and Dai, Jifeng and Jin, Xiaojie",
+      "title": "Flash-vstream: Memory-based real-time understanding for long video streams",
+      "ENTRYTYPE": "article",
+      "ID": "zhang2024flash"
+    },
+    {
+      "year": "2023",
+      "title": "VAST: A Vision-Audio-Subtitle-Text Omni-Modality Foundation Model and Dataset",
+      "booktitle": "NeurIPS",
+      "author": "Chen, Sihan and Li, Handong and Wang, Qunbo and Zhao, Zijia and Sun, Mingzhen and Zhu, Xinxin and Liu, Jing",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "NEURIPS2023_e6b2b48b"
+    },
+    {
+      "archiveprefix": "arXiv",
+      "eprint": "2405.21075",
+      "year": "2024",
+      "author": "Chaoyou Fu and Yuhan Dai and Yongdong Luo and Lei Li and Shuhuai Ren and Renrui Zhang and Zihan Wang and Chenyu Zhou and Yunhang Shen and Mengdan Zhang and Peixian Chen and Yanwei Li and Shaohui Lin and Sirui Zhao and Ke Li and Tong Xu and Xiawu Zheng and Enhong Chen and Rongrong Ji and Xing Sun",
+      "title": "Video-MME: The First-Ever Comprehensive Evaluation Benchmark of Multi-modal LLMs in Video Analysis",
+      "ENTRYTYPE": "misc",
+      "ID": "fu2024videommefirstevercomprehensiveevaluation"
+    },
+    {
+      "year": "2024",
+      "booktitle": "CVPR",
+      "title": "VideoLLM-online: Online Video Large Language Model for Streaming Video",
+      "author": "Joya Chen and Zhaoyang Lv and Shiwei Wu and Kevin Qinghong Lin and Chenan Song and Difei Gao and Jia-Wei Liu and Ziteng Gao and Dongxing Mao and Mike Zheng Shou",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "VideoLLM-online"
+    },
+    {
+      "primaryclass": "cs.CV",
+      "archiveprefix": "arXiv",
+      "eprint": "2501.13106",
+      "year": "2025",
+      "author": "Boqiang Zhang and Kehan Li and Zesen Cheng and Zhiqiang Hu and Yuqian Yuan and Guanzheng Chen and Sicong Leng and Yuming Jiang and Hang Zhang and Xin Li and Peng Jin and Wenqi Zhang and Fan Wang and Lidong Bing and Deli Zhao",
+      "title": "VideoLLaMA 3: Frontier Multimodal Foundation Models for Image and Video Understanding",
+      "ENTRYTYPE": "misc",
+      "ID": "damonlpsg2025videollama3"
+    },
+    {
+      "primaryclass": "cs.AI",
+      "archiveprefix": "arXiv",
+      "eprint": "2407.21783",
+      "year": "2024",
+      "author": " Grattafiori et. al.",
+      "title": "The Llama 3 Herd of Models",
+      "ENTRYTYPE": "misc",
+      "ID": "grattafiori2024llama3herdmodels"
+    },
+    {
+      "year": "2023",
+      "title": "Perception Test: A Diagnostic Benchmark for Multimodal Video Models",
+      "booktitle": "NeurIPS",
+      "author": "Patraucean, Viorica and Smaira, Lucas and Gupta, Ankush and Recasens, Adria and Markeeva, Larisa and Banarse, Dylan and Koppula, Skanda and heyward, joseph and Malinowski, Mateusz and Yang, Yi and Doersch, Carl and Matejovicova, Tatiana and Sulsky, Yury and Miech, Antoine and Fr\\'{e}chette, Alexandre and Klimczak, Hanna and Koster, Raphael and Zhang, Junlin and Winkler, Stephanie and Aytar, Yusuf and Osindero, Simon and Damen, Dima and Zisserman, Andrew and Carreira, Joao",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "NEURIPS2023_8540fba4"
+    },
+    {
+      "primaryclass": "cs.CV",
+      "archiveprefix": "arXiv",
+      "eprint": "2501.13826",
+      "year": "2025",
+      "author": "Kairui Hu and Penghao Wu and Fanyi Pu and Wang Xiao and Yuanhan Zhang and Xiang Yue and Bo Li and Ziwei Liu",
+      "title": "Video-MMMU: Evaluating Knowledge Acquisition from Multi-Discipline Professional Videos",
+      "ENTRYTYPE": "misc",
+      "ID": "hu2025videommmuevaluatingknowledgeacquisition"
+    },
+    {
+      "primaryclass": "cs.CV",
+      "archiveprefix": "arXiv",
+      "eprint": "2311.16103",
+      "year": "2023",
+      "author": "Munan Ning and Bin Zhu and Yujia Xie and Bin Lin and Jiaxi Cui and Lu Yuan and Dongdong Chen and Li Yuan",
+      "title": "Video-Bench: A Comprehensive Benchmark and Toolkit for Evaluating Video-based Large Language Models",
+      "ENTRYTYPE": "misc",
+      "ID": "ning2023videobenchcomprehensivebenchmarktoolkit"
+    },
+    {
+      "year": "2019",
+      "month": "Oct",
+      "booktitle": "ICCV Workshops",
+      "title": "The Jester Dataset: A Large-Scale Video Dataset of Human Gestures",
+      "author": "Materzynska, Joanna and Berger, Guillaume and Bax, Ingo and Memisevic, Roland",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "Materzynska_2019_ICCV"
+    },
+    {
+      "year": "2024",
+      "title": "ClevrSkills: Compositional Language And Visual Reasoning in Robotics",
+      "booktitle": "NeurIPS",
+      "author": "Haresh, Sanjay and Dijkman, Daniel and Bhattacharyya, Apratim and Memisevic, Roland",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "NEURIPS2024_43953955"
+    },
+    {
+      "booktitle": "NeurIPS",
+      "year": "2024",
+      "author": "Sunny Panchal and Apratim Bhattacharyya and Guillaume Berger and Antoine Mercier and Cornelius Bohm and Florian Dietrichkeit and Reza Pourreza and Xuanlin Li and Pulkit Madan and Mingu Lee and Mark Todorovich and Ingo Bax and Roland Memisevic",
+      "title": "What to Say and When to Say it: Live Fitness Coaching as a Testbed for Situated Interaction",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "panchal2024saysayitlive"
+    },
+    {
+      "year": "2024",
+      "booktitle": "ECCV Workshops",
+      "author": "Dagli, Rishit and Berger, Guillaume and Materzynska, Joanna and Bax, Ingo and Memisevic, Roland",
+      "title": "AirLetters: An Open Video Dataset of Characters Drawn in the Air",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "dagliairletters"
+    },
+    {
+      "year": "2017",
+      "booktitle": "ICCV",
+      "title": "The \"Something Something\" Video Database for Learning and Evaluating Visual Common Sense",
+      "author": "Goyal, Raghav and Ebrahimi Kahou, Samira and Michalski, Vincent and Materzynska, Joanna and Westphal, Susanne and Kim, Heuna and Haenel, Valentin and Fruend, Ingo and Yianilos, Peter and Mueller-Freitag, Moritz and Hoppe, Florian and Thurau, Christian and Bax, Ingo and Memisevic, Roland",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "Goyal_2017_ICCV"
+    },
+    {
+      "year": "2023",
+      "volume": "abs/2306.04362",
+      "journal": "CoRR",
+      "title": "Youku-mPLUG: {A} 10 Million Large-scale Chinese Video-Language Dataset\nfor Pre-training and Benchmarks",
+      "author": "Haiyang Xu and\nQinghao Ye and\nXuan Wu and\nMing Yan and\nYuan Miao and\nJiabo Ye and\nGuohai Xu and\nAnwen Hu and\nYaya Shi and\nGuangwei Xu and\nChenliang Li and\nQi Qian and\nMaofei Que and\nJi Zhang and\nXiao Zeng and\nFei Huang",
+      "ENTRYTYPE": "article",
+      "ID": "xu2024youkumplug"
+    },
+    {
+      "primaryclass": "cs.AI",
+      "archiveprefix": "arXiv",
+      "eprint": "2502.09560",
+      "year": "2025",
+      "author": "Rui Yang and Hanyang Chen and Junyu Zhang and Mark Zhao and Cheng Qian and Kangrui Wang and Qineng Wang and Teja Venkat Koripella and Marziyeh Movahedi and Manling Li and Heng Ji and Huan Zhang and Tong Zhang",
+      "title": "EmbodiedBench: Comprehensive Benchmarking Multi-modal Large Language Models for Vision-Driven Embodied Agents",
+      "ENTRYTYPE": "misc",
+      "ID": "yang2025embodiedbenchcomprehensivebenchmarkingmultimodal"
+    },
+    {
+      "primaryclass": "eess.AS",
+      "archiveprefix": "arXiv",
+      "eprint": "2212.04356",
+      "year": "2022",
+      "author": "Alec Radford and Jong Wook Kim and Tao Xu and Greg Brockman and Christine McLeavey and Ilya Sutskever",
+      "title": "Robust Speech Recognition via Large-Scale Weak Supervision",
+      "ENTRYTYPE": "misc",
+      "ID": "radford2022robustspeechrecognitionlargescale"
+    },
+    {
+      "year": "2024",
+      "month": "August",
+      "booktitle": "ACL",
+      "author": "Liu, Yuanxin  and\nLi, Shicheng  and\nLiu, Yi  and\nWang, Yuxiang  and\nRen, Shuhuai  and\nLi, Lei  and\nChen, Sishuo  and\nSun, Xu  and\nHou, Lu",
+      "title": "{T}emp{C}ompass: Do Video {LLM}s Really Understand Videos?",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "liu-etal-2024-tempcompass"
+    },
+    {
+      "url": "https://arxiv.org/abs/2406.07476",
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2406.07476",
+      "author": "Cheng, Zesen and Leng, Sicong and Zhang, Hang and Xin, Yifei and Li, Xin and Chen, Guanzheng and Zhu, Yongxin and Zhang, Wenqi and Luo, Ziyang and Zhao, Deli and Bing, Lidong",
+      "title": "VideoLLaMA 2: Advancing Spatial-Temporal Modeling and Audio Understanding in Video-LLMs",
+      "ENTRYTYPE": "article",
+      "ID": "damonlpsg2024videollama2"
+    },
+    {
+      "booktitle": "ICML",
+      "year": "2023",
+      "title": "Robust speech recognition via large-scale weak supervision",
+      "author": "Radford, Alec and Kim, Jong Wook and Xu, Tao and Brockman, Greg and McLeavey, Christine and Sutskever, Ilya",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "10.5555/3618408.3619590"
+    },
+    {
+      "url": "https://arxiv.org/abs/2306.02858",
+      "journal": "arXiv preprint arXiv:2306.02858",
+      "year": "2023",
+      "title": "Video-LLaMA: An Instruction-tuned Audio-Visual Language Model for Video Understanding",
+      "author": "Zhang, Hang and Li, Xin and Bing, Lidong",
+      "ENTRYTYPE": "article",
+      "ID": "damonlpsg2023videollama"
+    },
+    {
+      "year": "2024",
+      "month": "August",
+      "booktitle": "ACL",
+      "editor": "Ku, Lun-Wei  and\nMartins, Andre  and\nSrikumar, Vivek",
+      "author": "Maaz, Muhammad  and\nRasheed, Hanoona  and\nKhan, Salman  and\nKhan, Fahad",
+      "title": "Video-{C}hat{GPT}: Towards Detailed Video Understanding via Large Vision and Language Models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "maaz-etal-2024-video"
+    },
+    {
+      "year": "2017",
+      "booktitle": "CVPR",
+      "title": "Making the {V} in {VQA} Matter: Elevating the Role of Image Understanding in {V}isual {Q}uestion {A}nswering",
+      "author": "Yash Goyal and Tejas Khot and Douglas Summers{-}Stay and Dhruv Batra and Devi Parikh",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "balanced_vqa_v2"
+    },
+    {
+      "year": "2016",
+      "booktitle": "CVPR",
+      "title": "{Y}in and {Y}ang: Balancing and Answering Binary Visual Questions",
+      "author": "Peng Zhang and Yash Goyal and Douglas Summers{-}Stay and Dhruv Batra and Devi Parikh",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "balanced_binary_vqa"
+    },
+    {
+      "primaryclass": "cs.CV",
+      "archiveprefix": "arXiv",
+      "eprint": "1612.06890",
+      "year": "2016",
+      "author": "Justin Johnson and Bharath Hariharan and Laurens van der Maaten and Li Fei-Fei and C. Lawrence Zitnick and Ross Girshick",
+      "title": "CLEVR: A Diagnostic Dataset for Compositional Language and Elementary Visual Reasoning",
+      "ENTRYTYPE": "misc",
+      "ID": "johnson2016clevrdiagnosticdatasetcompositional"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2403.13365",
+      "author": "Yu, Qiaojun and Hao, Ce and Wang, Junbo and Liu, Wenhai and Liu, Liu and Mu, Yao and You, Yang and Yan, Hengxu and Lu, Cewu",
+      "title": "Manipose: A comprehensive benchmark for pose-aware object manipulation in robotics",
+      "ENTRYTYPE": "article",
+      "ID": "yu2024manipose"
+    },
+    {
+      "year": "2023",
+      "booktitle": "CVPR",
+      "author": "Bao, Chen and Xu, Helin and Qin, Yuzhe and Wang, Xiaolong",
+      "title": "Dexart: Benchmarking generalizable dexterous manipulation with articulated objects",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "bao2023dexart"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2302.04659",
+      "author": "Gu, Jiayuan and Xiang, Fanbo and Li, Xuanlin and Ling, Zhan and Liu, Xiqiang and Mu, Tongzhou and Tang, Yihe and Tao, Stone and Wei, Xinyue and Yao, Yunchao and others",
+      "title": "Maniskill2: A unified benchmark for generalizable manipulation skills",
+      "ENTRYTYPE": "article",
+      "ID": "gu2023maniskill2"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2312.04817",
+      "author": "Zhang, Hongjie and Liu, Yi and Dong, Lu and Huang, Yifei and Ling, Zhen-Hua and Wang, Yali and Wang, Limin and Qiao, Yu",
+      "title": "Movqa: A benchmark of versatile question-answering for long-form movie understanding",
+      "ENTRYTYPE": "article",
+      "ID": "zhang2023movqa"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2307.15818",
+      "author": "Brohan, Anthony and Brown, Noah and Carbajal, Justice and Chebotar, Yevgen and Chen, Xi and Choromanski, Krzysztof and Ding, Tianli and Driess, Danny and Dubey, Avinava and Finn, Chelsea and others",
+      "title": "Rt-2: Vision-language-action models transfer web knowledge to robotic control",
+      "ENTRYTYPE": "article",
+      "ID": "brohan2023rt"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2406.08035",
+      "author": "Wang, Weihan and He, Zehai and Hong, Wenyi and Cheng, Yean and Zhang, Xiaohan and Qi, Ji and Gu, Xiaotao and Huang, Shiyu and Xu, Bin and Dong, Yuxiao and others",
+      "title": "Lvbench: An extreme long video understanding benchmark",
+      "ENTRYTYPE": "article",
+      "ID": "wang2024lvbench"
+    },
+    {
+      "year": "2020",
+      "booktitle": "ICLR",
+      "author": "Kexin Yi* and Chuang Gan* and Yunzhu Li and Pushmeet Kohli and Jiajun Wu and Antonio Torralba and Joshua B. Tenenbaum",
+      "title": "CLEVRER: Collision Events for Video Representation and Reasoning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "CLEVRER"
+    },
+    {
+      "year": "2022",
+      "booktitle": "CVPR",
+      "title": "Ego4D: Around the World in 3,000 Hours of Egocentric Video",
+      "author": "Grauman et. al.",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "Grauman_2022_CVPR"
+    },
+    {
+      "year": "2023",
+      "booktitle": "NeurIPS",
+      "title": "Perception Test: {A} Diagnostic Benchmark for Multimodal Video Models",
+      "author": "Viorica Patraucean and\nLucas Smaira and\nAnkush Gupta and\nAdri{\\`{a}} Recasens and\nLarisa Markeeva and\nDylan Banarse and\nSkanda Koppula and\nJoseph Heyward and\nMateusz Malinowski and\nYi Yang and\nCarl Doersch and\nTatiana Matejovicova and\nYury Sulsky and\nAntoine Miech and\nAlexandre Fr{\\'{e}}chette and\nHanna Klimczak and\nRaphael Koster and\nJunlin Zhang and\nStephanie Winkler and\nYusuf Aytar and\nSimon Osindero and\nDima Damen and\nAndrew Zisserman and\nJo{\\~{a}}o Carreira",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "perceptiontest"
+    },
+    {
+      "primaryclass": "cs.AI",
+      "archiveprefix": "arXiv",
+      "eprint": "2311.00738",
+      "year": "2023",
+      "author": "Yuwei Bao and Keunwoo Peter Yu and Yichi Zhang and Shane Storks and Itamar Bar-Yossef and Alexander De La Iglesia and Megan Su and Xiao Lin Zheng and Joyce Chai",
+      "title": "Can Foundation Models Watch, Talk and Guide You Step by Step to Make a Cake?",
+      "ENTRYTYPE": "misc",
+      "ID": "bao2023foundationmodelswatchtalk"
+    },
+    {
+      "year": "2018",
+      "booktitle": "CVPR",
+      "author": "Abhishek Das and Samyak Datta and Georgia Gkioxari and Stefan Lee and Devi Parikh and Dhruv Batra",
+      "title": "{E}mbodied {Q}uestion {A}nswering",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "embodiedqa"
+    },
+    {
+      "year": "2023",
+      "booktitle": "ICLR",
+      "author": "Ma, Xiaojian and Yong, Silong and Zheng, Zilong and Li, Qing and Liang, Yitao and Zhu, Song-Chun and Huang, Siyuan",
+      "title": "SQA3D: Situated Question Answering in 3D Scenes",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ma2022sqa3d"
+    },
+    {
+      "year": "2023",
+      "booktitle": "IJCNLP-AACL 2023 System Demonstration",
+      "title": "Turning Whisper into Real-Time Transcription System",
+      "author": "Dominik Mach{\\'{a}}cek and\nRaj Dabre and\nOndrej Bojar",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "abs-2307-14743"
+    },
+    {
+      "year": "2020",
+      "booktitle": "INTERSPEECH",
+      "title": "Low-Latency Sequence-to-Sequence Speech Recognition and Translation\nby Partial Hypothesis Selection",
+      "author": "Danni Liu and\nGerasimos Spanakis and\nJan Niehues",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "LiuSN20"
+    },
+    {
+      "year": "2025",
+      "booktitle": "CVPR",
+      "title": "{LION-FS:} Fast {\\&} Slow Video-Language Thinker as Online Video\nAssistant",
+      "author": "Wei Li and\nBing Hu and\nRui Shao and\nLeyang Shen and\nLiqiang Nie",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "LION-FS"
+    },
+    {
+      "year": "2024",
+      "booktitle": "NeurIPS",
+      "title": "CaptainCook4D: {A} Dataset for Understanding Errors in Procedural\nActivities",
+      "author": "Rohith Peddi and\nShivvrat Arya and\nBharath Challa and\nLikhitha Pallapothula and\nAkshay Vyas and\nBhavya Gouripeddi and\nQifan Zhang and\nJikai Wang and\nVasundhara Komaragiri and\nEric D. Ragan and\nNicholas Ruozzi and\nYu Xiang and\nVibhav Gogate",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "PeddiACPVGZWKRR24"
+    },
+    {
+      "year": "2019",
+      "booktitle": "CVPR",
+      "author": "Yansong Tang and Dajun Ding and Yongming Rao and Yu Zheng and Danyang Zhang and Lili Zhao and Jiwen Lu and Jie Zhou",
+      "title": "COIN: A Large-scale Dataset for Comprehensive Instructional Video Analysis",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "coin-dataset"
+    },
+    {
+      "year": "2024",
+      "journal": "Trans. Mach. Learn. Res.",
+      "title": "DINOv2: Learning Robust Visual Features without Supervision",
+      "author": "Maxime Oquab and\nTimoth{\\'{e}}e Darcet and\nTh{\\'{e}}o Moutakanni and\nHuy V. Vo and\nMarc Szafraniec and\nVasil Khalidov and\nPierre Fernandez and\nDaniel Haziza and\nFrancisco Massa and\nAlaaeldin El{-}Nouby and\nMido Assran and\nNicolas Ballas and\nWojciech Galuba and\nRussell Howes and\nPo{-}Yao Huang and\nShang{-}Wen Li and\nIshan Misra and\nMichael Rabbat and\nVasu Sharma and\nGabriel Synnaeve and\nHu Xu and\nHerv{\\'{e}} J{\\'{e}}gou and\nJulien Mairal and\nPatrick Labatut and\nArmand Joulin and\nPiotr Bojanowski",
+      "ENTRYTYPE": "article",
+      "ID": "OquabDMVSKFHMEA24"
+    },
+    {
+      "year": "2023",
+      "booktitle": "ICML",
+      "title": "{BLIP-2:} Bootstrapping Language-Image Pre-training with Frozen Image\nEncoders and Large Language Models",
+      "author": "Junnan Li and\nDongxu Li and\nSilvio Savarese and\nSteven C. H. Hoi",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "0008LSH23"
+    },
+    {
+      "year": "2024",
+      "booktitle": "NeurIPS",
+      "title": "What to Say and When to Say it: Live Fitness Coaching as a Testbed\nfor Situated Interaction",
+      "author": "Sunny Panchal and\nApratim Bhattacharyya and\nGuillaume Berger and\nAntoine Mercier and\nCornelius B{\\\"{o}}hm and\nFlorian Dietrichkeit and\nReza Pourreza and\nXuanlin Li and\nPulkit Madan and\nMingu Lee and\nMark Todorovich and\nIngo Bax and\nRoland Memisevic",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "PanchalBB0BD0LM24"
+    },
+    {
+      "year": "2019",
+      "booktitle": "CVPR",
+      "title": "{LVIS:} {A} Dataset for Large Vocabulary Instance Segmentation",
+      "author": "Agrim Gupta and\nPiotr Doll{\\'{a}}r and\nRoss B. Girshick",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "GuptaDG19"
+    },
+    {
+      "year": "2024",
+      "volume": "abs/2412.15115",
+      "journal": "CoRR",
+      "title": "Qwen2.5 Technical Report",
+      "author": "An Yang et. al.",
+      "ENTRYTYPE": "article",
+      "ID": "abs-2412-15115"
+    },
+    {
+      "year": "2025",
+      "volume": "abs/2502.13923",
+      "journal": "CoRR",
+      "title": "Qwen2.5-VL Technical Report",
+      "author": "Shuai Bai et. al.",
+      "ENTRYTYPE": "article",
+      "ID": "abs-2502-13923"
+    },
+    {
+      "doi": "10.48550/ARXIV.2312.00752",
+      "url": "https://doi.org/10.48550/arXiv.2312.00752",
+      "year": "2023",
+      "volume": "abs/2312.00752",
+      "journal": "CoRR",
+      "title": "Mamba: Linear-Time Sequence Modeling with Selective State Spaces",
+      "author": "Albert Gu and\nTri Dao",
+      "ENTRYTYPE": "article",
+      "ID": "abs-2312-00752"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2504.16030",
+      "author": "Chen, Joya and Zeng, Ziyun and Lin, Yiqi and Li, Wei and Ma, Zejun and Shou, Mike Zheng",
+      "title": "LiveCC: Learning Video LLM with Streaming Speech Transcription at Scale",
+      "ENTRYTYPE": "article",
+      "ID": "chen2025livecc"
+    },
+    {
+      "year": "2019",
+      "booktitle": "CVPR",
+      "title": "{COIN:} {A} Large-Scale Dataset for Comprehensive Instructional Video\nAnalysis",
+      "author": "Yansong Tang and\nDajun Ding and\nYongming Rao and\nYu Zheng and\nDanyang Zhang and\nLili Zhao and\nJiwen Lu and\nJie Zhou",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "TangDRZZZL019"
+    },
+    {
+      "organization": "PmLR",
+      "year": "2021",
+      "pages": "8748--8763",
+      "booktitle": "International conference on machine learning",
+      "author": "Radford, Alec and Kim, Jong Wook and Hallacy, Chris and Ramesh, Aditya and Goh, Gabriel and Agarwal, Sandhini and Sastry, Girish and Askell, Amanda and Mishkin, Pamela and Clark, Jack and others",
+      "title": "Learning transferable visual models from natural language supervision",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "radford2021learning"
+    },
+    {
+      "year": "2021",
+      "pages": "9694--9705",
+      "volume": "34",
+      "journal": "Advances in neural information processing systems",
+      "author": "Li, Junnan and Selvaraju, Ramprasaath and Gotmare, Akhilesh and Joty, Shafiq and Xiong, Caiming and Hoi, Steven Chu Hong",
+      "title": "Align before fuse: Vision and language representation learning with momentum distillation",
+      "ENTRYTYPE": "article",
+      "ID": "li2021align"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2021",
+      "pages": "4904--4916",
+      "booktitle": "International conference on machine learning",
+      "author": "Jia, Chao and Yang, Yinfei and Xia, Ye and Chen, Yi-Ting and Parekh, Zarana and Pham, Hieu and Le, Quoc and Sung, Yun-Hsuan and Li, Zhen and Duerig, Tom",
+      "title": "Scaling up visual and vision-language representation learning with noisy text supervision",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "jia2021scaling"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2022",
+      "pages": "12888--12900",
+      "booktitle": "International conference on machine learning",
+      "author": "Li, Junnan and Li, Dongxu and Xiong, Caiming and Hoi, Steven",
+      "title": "Blip: Bootstrapping language-image pre-training for unified vision-language understanding and generation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "li2022blip"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2403.05530",
+      "author": "Team, Gemini and Georgiev, Petko and Lei, Ving Ian and Burnell, Ryan and Bai, Libin and Gulati, Anmol and Tanzer, Garrett and Vincent, Damien and Pan, Zhufeng and Wang, Shibo and others",
+      "title": "Gemini 1.5: Unlocking multimodal understanding across millions of tokens of context",
+      "ENTRYTYPE": "article",
+      "ID": "team2024gemini"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2407.21783",
+      "author": "Grattafiori, Aaron and Dubey, Abhimanyu and Jauhri, Abhinav and Pandey, Abhinav and Kadian, Abhishek and Al-Dahle, Ahmad and Letman, Aiesha and Mathur, Akhil and Schelten, Alan and Vaughan, Alex and others",
+      "title": "The llama 3 herd of models",
+      "ENTRYTYPE": "article",
+      "ID": "grattafiori2024llama"
+    },
+    {
+      "year": "2023",
+      "volume": "2",
+      "journal": "Text Reading, and Beyond",
+      "author": "Bai, Jinze and Bai, Shuai and Yang, Shusheng and Wang, Shijie and Tan, Sinan and Wang, Peng and Lin, Junyang and Zhou, Chang and Zhou, Jingren",
+      "title": "Qwen-VL: A Versatile Vision-Language Model for Understanding, Localization",
+      "ENTRYTYPE": "article",
+      "ID": "bai2023qwen"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2303.08774",
+      "author": "Achiam, Josh and Adler, Steven and Agarwal, Sandhini and Ahmad, Lama and Akkaya, Ilge and Aleman, Florencia Leoni and Almeida, Diogo and Altenschmidt, Janko and Altman, Sam and Anadkat, Shyamal and others",
+      "title": "Gpt-4 technical report",
+      "ENTRYTYPE": "article",
+      "ID": "achiam2023gpt"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2404.03413",
+      "author": "Ataallah, Kirolos and Shen, Xiaoqian and Abdelrahman, Eslam and Sleiman, Essam and Zhu, Deyao and Ding, Jian and Elhoseiny, Mohamed",
+      "title": "Minigpt4-video: Advancing multimodal llms for video understanding with interleaved visual-textual tokens",
+      "ENTRYTYPE": "article",
+      "ID": "ataallah2024minigpt4"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2402.03161",
+      "author": "Jin, Yang and Sun, Zhicheng and Xu, Kun and Chen, Liwei and Jiang, Hao and Huang, Quzhe and Song, Chengru and Liu, Yuliang and Zhang, Di and Song, Yang and others",
+      "title": "Video-lavit: Unified video-language pre-training with decoupled visual-motional tokenization",
+      "ENTRYTYPE": "article",
+      "ID": "jin2024video"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2503.00540",
+      "author": "Di, Shangzhe and Yu, Zhelun and Zhang, Guanghao and Li, Haoyuan and Zhong, Tao and Cheng, Hao and Li, Bolin and He, Wanggui and Shu, Fangxun and Jiang, Hao",
+      "title": "Streaming video question-answering with in-context video kv-cache retrieval",
+      "ENTRYTYPE": "article",
+      "ID": "di2025streaming"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2504.17343",
+      "author": "Yao, Linli and Li, Yicheng and Wei, Yuancheng and Li, Lei and Ren, Shuhuai and Liu, Yuanxin and Ouyang, Kun and Wang, Lean and Li, Shicheng and Li, Sida and others",
+      "title": "TimeChat-Online: 80\\% Visual Tokens are Naturally Redundant in Streaming Videos",
+      "ENTRYTYPE": "article",
+      "ID": "yao2025timechat"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2412.08646",
+      "author": "Liu, Jihao and Yu, Zhiding and Lan, Shiyi and Wang, Shihao and Fang, Rongyao and Kautz, Jan and Li, Hongsheng and Alvare, Jose M",
+      "title": "StreamChat: Chatting with Streaming Video",
+      "ENTRYTYPE": "article",
+      "ID": "liu2024streamchat"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2501.05510",
+      "author": "Li, Yifei and Niu, Junbo and Miao, Ziyang and Ge, Chunjiang and Zhou, Yuanhang and He, Qihao and Dong, Xiaoyi and Duan, Haodong and Ding, Shuangrui and Qian, Rui and others",
+      "title": "OVO-Bench: How Far is Your Video-LLMs from Real-World Online Video Understanding?",
+      "ENTRYTYPE": "article",
+      "ID": "li2025ovo"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2503.22952",
+      "author": "Wang, Yuxuan and Wang, Yueqian and Chen, Bo and Wu, Tong and Zhao, Dongyan and Zheng, Zilong",
+      "title": "OmniMMI: A Comprehensive Multi-modal Interaction Benchmark in Streaming Video Contexts",
+      "ENTRYTYPE": "article",
+      "ID": "wang2025omnimmi"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2502.10810",
+      "author": "Yang, Zhenyu and Hu, Yuhang and Du, Zemin and Xue, Dizhan and Qian, Shengsheng and Wu, Jiahong and Yang, Fan and Dong, Weiming and Xu, Changsheng",
+      "title": "Svbench: A benchmark with temporal multi-turn dialogues for streaming video understanding",
+      "ENTRYTYPE": "article",
+      "ID": "yang2025svbench"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2503.19356",
+      "author": "Pourreza, Reza and Dagli, Rishit and Bhattacharyya, Apratim and Panchal, Sunny and Berger, Guillaume and Memisevic, Roland",
+      "title": "Can Vision-Language Models Answer Face to Face Questions in the Real-World?",
+      "ENTRYTYPE": "article",
+      "ID": "pourreza2025can"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2503.06220",
+      "author": "Ding, Xin and Wu, Hao and Yang, Yifan and Jiang, Shiqi and Bai, Donglin and Chen, Zhibo and Cao, Ting",
+      "title": "StreamMind: Unlocking Full Frame Rate Streaming Video Dialogue through Event-Gated Cognition",
+      "ENTRYTYPE": "article",
+      "ID": "ding2025streammind"
+    },
+    {
+      "year": "2024",
+      "volume": "abs/2404.14219",
+      "journal": "CoRR",
+      "title": "Phi-3 Technical Report: {A} Highly Capable Language Model Locally\non Your Phone",
+      "author": "Marah I Abdin et. al.",
+      "ENTRYTYPE": "article",
+      "ID": "abs-2404-14219"
+    },
+    {
+      "publisher": "ACM New York, NY, USA",
+      "year": "1962",
+      "pages": "558--562",
+      "number": "11",
+      "volume": "5",
+      "journal": "Communications of the ACM",
+      "author": "Kahn, Arthur B",
+      "title": "Topological sorting of large networks",
+      "ENTRYTYPE": "article",
+      "ID": "kahn1962topological"
+    },
+    {
+      "year": "2023",
+      "booktitle": "NeurIPS",
+      "title": "Ego4D Goal-Step: Toward Hierarchical Understanding of Procedural Activities",
+      "author": "Yale Song and\nEugene Byrne and\nTushar Nagarajan and\nHuiyu Wang and\nMiguel Martin and\nLorenzo Torresani",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "SongBNWMT23"
+    },
+    {
+      "year": "2020",
+      "booktitle": "ECCV",
+      "title": "End-to-End Object Detection with Transformers",
+      "author": "Nicolas Carion and\nFrancisco Massa and\nGabriel Synnaeve and\nNicolas Usunier and\nAlexander Kirillov and\nSergey Zagoruyko",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "CarionMSUKZ20"
+    },
+    {
+      "bibsource": "dblp computer science bibliography, https://dblp.org",
+      "biburl": "https://dblp.org/rec/conf/iclr/LoshchilovH19.bib",
+      "timestamp": "Thu, 25 Jul 2019 14:26:04 +0200",
+      "url": "https://openreview.net/forum?id=Bkg6RiCqY7",
+      "year": "2019",
+      "publisher": "OpenReview.net",
+      "booktitle": "7th International Conference on Learning Representations, {ICLR} 2019,\nNew Orleans, LA, USA, May 6-9, 2019",
+      "title": "Decoupled Weight Decay Regularization",
+      "author": "Ilya Loshchilov and\nFrank Hutter",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "LoshchilovH19"
+    },
+    {
+      "year": "2024",
+      "booktitle": "CVPR",
+      "author": "Chen, Zhe and Wu, Jiannan and Wang, Wenhai and Su, Weijie and Chen, Guo and Xing, Sen and Zhong, Muyan and Zhang, Qinglong and Zhu, Xizhou and Lu, Lewei and others",
+      "title": "Internvl: Scaling up vision foundation models and aligning for generic visual-linguistic tasks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "chen2024internvl"
+    },
+    {
+      "year": "2025",
+      "volume": "abs/2505.09388",
+      "journal": "CoRR",
+      "title": "Qwen3 Technical Report",
+      "author": "An Yang et al",
+      "ENTRYTYPE": "article",
+      "ID": "abs-2505-09388"
+    },
+    {
+      "year": "2025",
+      "booktitle": "CVPR",
+      "title": "VisionZip: Longer is Better but Not Necessary in Vision Language Models",
+      "author": "Senqiao Yang and\nYukang Chen and\nZhuotao Tian and\nChengyao Wang and\nJingyao Li and\nBei Yu and\nJiaya Jia",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "YangCTWL0J25"
+    },
+    {
+      "year": "2025",
+      "volume": "abs/2507.06261",
+      "journal": "CoRR",
+      "title": "Gemini 2.5: Pushing the Frontier with Advanced Reasoning, Multimodality,\nLong Context, and Next Generation Agentic Capabilities",
+      "author": "Gemini Team",
+      "ENTRYTYPE": "article",
+      "ID": "abs-2507-06261"
+    }
+  ]
+}

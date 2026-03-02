@@ -1,0 +1,323 @@
+{
+  "pdf_url": "https://arxiv.org/pdf/2509.15497v2.pdf",
+  "references": [
+    {
+      "year": "2013",
+      "journal": "arXiv preprint arXiv:1312.6199",
+      "author": "Szegedy, Christian and Zaremba, Wojciech and Sutskever, Ilya and Bruna, Joan and Erhan, Dumitru and Goodfellow, Ian and Fergus, Rob",
+      "title": "Intriguing properties of neural networks",
+      "ENTRYTYPE": "article",
+      "ID": "szegedy2013intriguing"
+    },
+    {
+      "publisher": "ACM New York, NY, USA",
+      "year": "2018",
+      "pages": "1--36",
+      "number": "5",
+      "volume": "51",
+      "journal": "ACM Computing Surveys (CSUR)",
+      "author": "Pouyanfar, Samira and Sadiq, Saad and Yan, Yilin and Tian, Haiman and Tao, Yudong and Reyes, Maria Presa and Shyu, Mei-Ling and Chen, Shu-Ching and Iyengar, Sundaraja S",
+      "title": "A survey on deep learning: Algorithms, techniques, and applications",
+      "ENTRYTYPE": "article",
+      "ID": "pouyanfar2018survey"
+    },
+    {
+      "year": "2017",
+      "journal": "arXiv preprint arXiv:1708.06733",
+      "author": "Gu, Tianyu and Dolan-Gavitt, Brendan and Garg, Siddharth",
+      "title": "Badnets: Identifying vulnerabilities in the machine learning model supply chain",
+      "ENTRYTYPE": "article",
+      "ID": "gu2019badnets"
+    },
+    {
+      "year": "2017",
+      "journal": "arXiv preprint arXiv:1712.05526",
+      "author": "Chen, Xinyun and Liu, Chang and Li, Bo and Lu, Kimberly and Song, Dawn",
+      "title": "Targeted backdoor attacks on deep learning systems using data poisoning",
+      "ENTRYTYPE": "article",
+      "ID": "chen2017targeted"
+    },
+    {
+      "organization": "IEEE",
+      "year": "2019",
+      "pages": "101--105",
+      "booktitle": "2019 IEEE International Conference on Image Processing (ICIP)",
+      "author": "Barni, Mauro and Kallas, Kassem and Tondi, Benedetta",
+      "title": "A new backdoor attack in cnns by training set corruption without label poisoning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "barni2019new"
+    },
+    {
+      "year": "2021",
+      "pages": "16463--16472",
+      "booktitle": "Proceedings of the IEEE/CVF international conference on computer vision",
+      "author": "Li, Yuezun and Li, Yiming and Wu, Baoyuan and Li, Longkang and He, Ran and Lyu, Siwei",
+      "title": "Invisible backdoor attack with sample-specific triggers",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "li2021invisible"
+    },
+    {
+      "year": "2021",
+      "pages": "11966--11976",
+      "booktitle": "Proceedings of the IEEE/CVF international conference on computer vision",
+      "author": "Doan, Khoa and Lao, Yingjie and Zhao, Weijie and Li, Ping",
+      "title": "Lira: Learnable, imperceptible and robust backdoor attacks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "doan2021lira"
+    },
+    {
+      "year": "2020",
+      "journal": "arXiv preprint arXiv:2005.00060",
+      "author": "Zhao, Pu and Chen, Pin-Yu and Das, Payel and Ramamurthy, Karthikeyan Natesan and Lin, Xue",
+      "title": "Bridging mode connectivity in loss landscapes and adversarial robustness",
+      "ENTRYTYPE": "article",
+      "ID": "zhao2020bridging"
+    },
+    {
+      "organization": "Springer",
+      "year": "2018",
+      "pages": "273--294",
+      "booktitle": "International symposium on research in attacks, intrusions, and defenses",
+      "author": "Liu, Kang and Dolan-Gavitt, Brendan and Garg, Siddharth",
+      "title": "Fine-pruning: Defending against backdooring attacks on deep neural networks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "liu2018fine"
+    },
+    {
+      "organization": "IEEE",
+      "year": "2019",
+      "pages": "707--723",
+      "booktitle": "2019 IEEE Symposium on Security and Privacy (SP)",
+      "author": "Wang, Bolun and Yao, Yuanshun and Shan, Shawn and Li, Huiying and Viswanath, Bimal and Zheng, Haitao and Zhao, Ben Y",
+      "title": "Neural cleanse: Identifying and mitigating backdoor attacks in neural networks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "wang2019neural"
+    },
+    {
+      "year": "2022",
+      "pages": "15074--15084",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Wang, Zhenting and Zhai, Juan and Ma, Shiqing",
+      "title": "Bppattack: Stealthy and efficient trojan attacks against deep neural networks via image quantization and contrastive adversarial learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "wang2022bppattack"
+    },
+    {
+      "organization": "Springer",
+      "year": "2022",
+      "pages": "175--191",
+      "booktitle": "European Conference on Computer Vision",
+      "author": "Zheng, Runkai and Tang, Rongjun and Li, Jianze and Liu, Li",
+      "title": "Data-free backdoor removal based on channel lipschitzness",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zheng2022data"
+    },
+    {
+      "year": "2021",
+      "pages": "16913--16925",
+      "volume": "34",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Wu, Dongxian and Wang, Yisen",
+      "title": "Adversarial neuron pruning purifies backdoored deep models",
+      "ENTRYTYPE": "article",
+      "ID": "wu2021anp"
+    },
+    {
+      "year": "2022",
+      "pages": "22285--22299",
+      "volume": "35",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Chai, Shuwen and Chen, Jinghui",
+      "title": "One-shot neural backdoor erasing via adversarial weight masking",
+      "ENTRYTYPE": "article",
+      "ID": "chai2022awn"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2023",
+      "pages": "19837--19854",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Li, Yige and Lyu, Xixiang and Ma, Xingjun and Koren, Nodens and Lyu, Lingjuan and Li, Bo and Jiang, Yu-Gang",
+      "title": "Reconstructive neuron pruning for backdoor defense",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "li2023rnp"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2411.11200",
+      "author": "Dunnett, Kealan and Arablouei, Reza and Miller, Dimity and Dedeoglu, Volkan and Jurdak, Raja",
+      "title": "Countering Backdoor Attacks in Image Recognition: A Survey and Evaluation of Mitigation Strategies",
+      "ENTRYTYPE": "article",
+      "ID": "dunnett2024countering"
+    },
+    {
+      "year": "2022",
+      "pages": "10546--10559",
+      "volume": "35",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Wu, Baoyuan and Chen, Hongrui and Zhang, Mingda and Zhu, Zihao and Wei, Shaokui and Yuan, Danni and Shen, Chao",
+      "title": "Backdoorbench: A comprehensive benchmark of backdoor learning",
+      "ENTRYTYPE": "article",
+      "ID": "wu2022backdoorbench"
+    },
+    {
+      "year": "2021",
+      "pages": "7232--7241",
+      "volume": "34",
+      "journal": "Advances in neural information processing systems",
+      "author": "Huang, Yangsibo and Gupta, Samyak and Song, Zhao and Li, Kai and Arora, Sanjeev",
+      "title": "Evaluating gradient inversion attacks and defenses in federated learning",
+      "ENTRYTYPE": "article",
+      "ID": "huang2021evaluating"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "2022",
+      "pages": "118101",
+      "volume": "208",
+      "journal": "Expert Systems with Applications",
+      "author": "Yerlikaya, Fahri An{\\i}l and Bahtiyar, {\\c{S}}erif",
+      "title": "Data poisoning attacks against machine learning algorithms",
+      "ENTRYTYPE": "article",
+      "ID": "yerlikaya2022data"
+    },
+    {
+      "year": "2024",
+      "pages": "4891--4908",
+      "booktitle": "33rd USENIX Security Symposium (USENIX Security 24)",
+      "author": "Grosse, Kathrin and Bieringer, Lukas and Besold, Tarek R and Alahi, Alexandre M",
+      "title": "Towards more practical threat models in artificial intelligence security",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "grosse2024towards"
+    },
+    {
+      "year": "2017",
+      "journal": "arXiv preprint arXiv:1710.01878",
+      "author": "Zhu, Michael and Gupta, Suyog",
+      "title": "To prune, or not to prune: exploring the efficacy of pruning for model compression",
+      "ENTRYTYPE": "article",
+      "ID": "zhu2017prune"
+    },
+    {
+      "year": "2023",
+      "pages": "25876--25909",
+      "volume": "36",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Wei, Shaokui and Zhang, Mingda and Zha, Hongyuan and Wu, Baoyuan",
+      "title": "Shared adversarial unlearning: Backdoor mitigation by unlearning shared adversarial examples",
+      "ENTRYTYPE": "article",
+      "ID": "wei2023sau"
+    },
+    {
+      "year": "2022",
+      "pages": "18667--18680",
+      "volume": "35",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Zheng, Runkai and Tang, Rongjun and Li, Jianze and Liu, Li",
+      "title": "Pre-activation distributions expose backdoor neurons",
+      "ENTRYTYPE": "article",
+      "ID": "zheng2022bnp"
+    },
+    {
+      "year": "2021",
+      "pages": "16473--16481",
+      "booktitle": "Proceedings of the IEEE/CVF international conference on computer vision",
+      "author": "Zeng, Yi and Park, Won and Mao, Z Morley and Jia, Ruoxi",
+      "title": "Rethinking the backdoor attacks' triggers: A frequency perspective",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zeng2021rethinking"
+    },
+    {
+      "year": "2020",
+      "pages": "3454--3464",
+      "volume": "33",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Nguyen, Tuan Anh and Tran, Anh",
+      "title": "Input-aware dynamic backdoor attack",
+      "ENTRYTYPE": "article",
+      "ID": "nguyen2020input"
+    },
+    {
+      "year": "2021",
+      "journal": "arXiv preprint arXiv:2102.10369",
+      "author": "Nguyen, Anh and Tran, Anh",
+      "title": "Wanet--imperceptible warping-based backdoor attack",
+      "ENTRYTYPE": "article",
+      "ID": "nguyen2021wanet"
+    },
+    {
+      "year": "2023",
+      "pages": "4466--4477",
+      "booktitle": "Proceedings of the IEEE/CVF International Conference on Computer Vision",
+      "author": "Zhu, Mingli and Wei, Shaokui and Shen, Li and Fan, Yanbo and Wu, Baoyuan",
+      "title": "Enhancing fine-tuning based backdoor defense with sharpness-aware minimization",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zhu2023ft-sam"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "2020",
+      "pages": "4566--4593",
+      "volume": "9",
+      "journal": "IEEE Access",
+      "author": "Liu, Ximeng and Xie, Lehui and Wang, Yaopeng and Zou, Jian and Xiong, Jinbo and Ying, Zuobin and Vasilakos, Athanasios V",
+      "title": "Privacy and security issues in deep learning: A survey",
+      "ENTRYTYPE": "article",
+      "ID": "liu2020privacy"
+    },
+    {
+      "year": "2024",
+      "booktitle": "International Conference on Learning Representations",
+      "author": "Huang, Dong and Bu, Qingwen",
+      "title": "Adversarial Feature Map Pruning for Backdoor",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "huangadversarial"
+    },
+    {
+      "organization": "Springer",
+      "year": "2024",
+      "pages": "401--418",
+      "booktitle": "European Conference on Computer Vision",
+      "author": "Karim, Nazmul and Arafat, Abdullah Al and Khalid, Umar and Guo, Zhishan and Rahnavard, Nazanin",
+      "title": "Augmented Neural Fine-Tuning for Efficient Backdoor Purification",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "karim2024augmented"
+    },
+    {
+      "year": "2023",
+      "booktitle": "International Conference on Learning Representations",
+      "author": "Xu, Xiong and Huang, Kunzhe and Li, Yiming and Qin, Zhan and Ren, Kui",
+      "title": "Towards reliable and efficient backdoor trigger inversion via decoupling benign features",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "xu2023towards"
+    },
+    {
+      "booktitle": "The Thirty-eighth Annual Conference on Neural Information Processing Systems",
+      "author": "Zhu, Mingli and Liang, Siyuan and Wu, Baoyuan",
+      "title": "Breaking the False Sense of Security in Backdoor Defense through Re-Activation Attack",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zhubreaking"
+    },
+    {
+      "organization": "Springer",
+      "year": "2024",
+      "pages": "269--287",
+      "booktitle": "European Conference on Computer Vision",
+      "author": "Xu, Kaixin and Wang, Zhe and Chen, Chunyun and Geng, Xue and Lin, Jie and Yang, Xulei and Wu, Min and Li, Xiaoli and Lin, Weisi",
+      "title": "Lpvit: Low-power semi-structured pruning for vision transformers",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "xu2024lpvit"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "2025",
+      "pages": "104326",
+      "volume": "254",
+      "journal": "Computer Vision and Image Understanding",
+      "author": "Huang, Lan and Zeng, Jia and Yu, Mengqiang and Ding, Weiping and Bai, Xingyu and Wang, Kangping",
+      "title": "Efficient feature selection for pre-trained vision transformers",
+      "ENTRYTYPE": "article",
+      "ID": "huang2025efficient"
+    }
+  ]
+}

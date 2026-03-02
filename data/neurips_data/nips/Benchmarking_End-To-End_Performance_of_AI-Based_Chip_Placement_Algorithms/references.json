@@ -1,0 +1,754 @@
+{
+  "pdf_url": "https://arxiv.org/pdf/2407.15026v2.pdf",
+  "references": [
+    {
+      "url": "https://openreview.net/forum?id=AJGwSx0RUV",
+      "year": "2024",
+      "booktitle": "Forty-first International Conference on Machine Learning",
+      "author": "Zijie Geng and Jie Wang and Ziyan Liu and Siyuan Xu and Zhentao Tang and Mingxuan Yuan and Jianye HAO and Yongdong Zhang and Feng Wu",
+      "title": "Reinforcement Learning within Tree Search for Fast Macro Placement",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "geng2024reinforcement"
+    },
+    {
+      "year": "2007",
+      "title": "Scaling Learning Algorithms Towards {AI}",
+      "publisher": "MIT Press",
+      "booktitle": "Large Scale Kernel Machines",
+      "author": "Bengio, Yoshua and LeCun, Yann",
+      "ENTRYTYPE": "incollection",
+      "ID": "Bengio+chapter2007"
+    },
+    {
+      "year": "2006",
+      "volume": "18",
+      "title": "A Fast Learning Algorithm for Deep Belief Nets",
+      "pages": "1527--1554",
+      "journal": "Neural Computation",
+      "author": "Hinton, Geoffrey E. and Osindero, Simon and Teh, Yee Whye",
+      "ENTRYTYPE": "article",
+      "ID": "Hinton06"
+    },
+    {
+      "publisher": "MIT Press",
+      "year": "2016",
+      "volume": "1",
+      "author": "Goodfellow, Ian and Bengio, Yoshua and Courville, Aaron and Bengio, Yoshua",
+      "title": "Deep learning",
+      "ENTRYTYPE": "book",
+      "ID": "goodfellow2016deep"
+    },
+    {
+      "organization": "IEEE",
+      "year": "2021",
+      "pages": "1--6",
+      "booktitle": "2021 ACM/IEEE 3rd Workshop on Machine Learning for CAD (MLCAD)",
+      "author": "Lopera, Daniela S{\\'a}nchez and Servadei, Lorenzo and Kiprit, Gamze Naz and Hazra, Souvik and Wille, Robert and Ecker, Wolfgang",
+      "title": "A survey of graph neural networks for electronic design automation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "lopera2021survey"
+    },
+    {
+      "publisher": "ACM New York, NY",
+      "year": "2021",
+      "pages": "1--46",
+      "number": "5",
+      "volume": "26",
+      "journal": "ACM Transactions on Design Automation of Electronic Systems (TODAES)",
+      "author": "Huang, Guyue and Hu, Jingbo and He, Yifan and Liu, Jialong and Ma, Mingyuan and Shen, Zhaoyang and Wu, Juejian and Xu, Yuanfan and Zhang, Hengrui and Zhong, Kai and others",
+      "title": "Machine learning for electronic design automation: A survey",
+      "ENTRYTYPE": "article",
+      "ID": "huang2021machine"
+    },
+    {
+      "year": "2022",
+      "pages": "24019--24030",
+      "volume": "35",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Lai, Yao and Mu, Yao and Luo, Ping",
+      "title": "Maskplace: Fast chip placement via reinforced visual representation learning",
+      "ENTRYTYPE": "article",
+      "ID": "maskplace2022"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2306.14744",
+      "author": "Lai, Yao and Liu, Jinxin and Tang, Zhentao and Wang, Bin and Hao, Jianye and Luo, Ping",
+      "title": "Chipformer: Transferable chip placement via offline decision transformer",
+      "ENTRYTYPE": "article",
+      "ID": "chipformer2023"
+    },
+    {
+      "year": "2023",
+      "booktitle": "Thirty-seventh Conference on Neural Information Processing Systems",
+      "author": "Shi, Yunqi and Xue, Ke and Song, Lei and Qian, Chao",
+      "title": "Macro Placement by Wire-Mask-Guided Black-Box Optimization",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "bbo2023"
+    },
+    {
+      "publisher": "Nature Publishing Group",
+      "year": "2021",
+      "pages": "207--212",
+      "number": "7862",
+      "volume": "594",
+      "journal": "Nature",
+      "author": "Mirhoseini, Azalia and Goldie, Anna and Yazgan, Mustafa and Jiang, Joe Wenjie and Songhori, Ebrahim and Wang, Shen and Lee, Young-Joon and Johnson, Eric and Pathak, Omkar and Nazi, Azade and others",
+      "title": "A graph placement methodology for fast chip design",
+      "ENTRYTYPE": "article",
+      "ID": "graphplace2021"
+    },
+    {
+      "year": "2023",
+      "pages": "149--157",
+      "booktitle": "Proceedings of the 2023 International Symposium on Physical Design",
+      "author": "Agnesina, Anthony and Rajvanshi, Puranjay and Yang, Tian and Pradipta, Geraldo and Jiao, Austin and Keller, Ben and Khailany, Brucek and Ren, Haoxing",
+      "title": "AutoDMP: Automated dreamplace-based macro placement",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "autodmp2023"
+    },
+    {
+      "publisher": "American association for the advancement of science",
+      "year": "1983",
+      "pages": "671--680",
+      "number": "4598",
+      "volume": "220",
+      "journal": "science",
+      "author": "Kirkpatrick, Scott and Gelatt Jr, C Daniel and Vecchi, Mario P",
+      "title": "Optimization by simulated annealing",
+      "ENTRYTYPE": "article",
+      "ID": "kirkpatrick1983optimization"
+    },
+    {
+      "publisher": "Springer Science \\& Business Media",
+      "year": "2012",
+      "author": "Sherwani, Naveed A",
+      "title": "Algorithms for VLSI physical design automation",
+      "ENTRYTYPE": "book",
+      "ID": "sherwani2012algorithms"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "2004",
+      "pages": "874--877",
+      "number": "8",
+      "volume": "12",
+      "journal": "IEEE transactions on very large scale integration (VLSI) systems",
+      "author": "Ho, Shinn-Ying and Ho, Shinn-Jang and Lin, Yi-Kuang and Chu, WC-C",
+      "title": "An orthogonal simulated annealing algorithm for large floorplanning problems",
+      "ENTRYTYPE": "article",
+      "ID": "ho2004orthogonal"
+    },
+    {
+      "year": "2023",
+      "pages": "158--166",
+      "booktitle": "Proceedings of the 2023 International Symposium on Physical Design",
+      "author": "Cheng, Chung-Kuan and Kahng, Andrew B and Kundu, Sayak and Wang, Yucheng and Wang, Zhiang",
+      "title": "Assessment of reinforcement learning for macro placement",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "cheng2023assessment"
+    },
+    {
+      "publisher": "Springer",
+      "year": "2020",
+      "pages": "900--918",
+      "volume": "39",
+      "journal": "Circuits, Systems, and Signal Processing",
+      "author": "Shunmugathammal, M and Christopher Columbus, C and Anand, S",
+      "title": "A novel B* tree crossover-based simulated annealing algorithm for combinatorial optimization in VLSI fixed-outline floorplans",
+      "ENTRYTYPE": "article",
+      "ID": "shunmugathammal2020novel"
+    },
+    {
+      "year": "2020",
+      "journal": "arXiv preprint arXiv:2011.07577",
+      "author": "Vashisht, Dhruv and Rampal, Harshit and Liao, Haiguang and Lu, Yang and Shanbhag, Devika and Fallon, Elias and Kara, Levent Burak",
+      "title": "Placement in integrated circuits using cyclic reinforcement learning and simulated annealing",
+      "ENTRYTYPE": "article",
+      "ID": "rlea2020"
+    },
+    {
+      "year": "2019",
+      "pages": "1--6",
+      "booktitle": "Proceedings of the 56th Annual Design Automation Conference 2019",
+      "author": "Lin, Yibo and Dhar, Shounak and Li, Wuxi and Ren, Haoxing and Khailany, Brucek and Pan, David Z",
+      "title": "Dreamplace: Deep learning toolkit-enabled gpu acceleration for modern vlsi placement",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "dreamplace2019"
+    },
+    {
+      "organization": "IEEE",
+      "year": "2020",
+      "pages": "1--4",
+      "booktitle": "2020 China Semiconductor Technology International Conference (CSTIC)",
+      "author": "Lin, Yibo and Pan, David Z and Ren, Haoxing and Khailany, Brucek",
+      "title": "Dreamplace 2.0: Open-source GPU-accelerated global and detailed placement for large-scale VLSI designs",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "dreamplace2.0-2020"
+    },
+    {
+      "year": "2020",
+      "pages": "1--9",
+      "booktitle": "Proceedings of the 39th International Conference on Computer-Aided Design",
+      "author": "Gu, Jiaqi and Jiang, Zixuan and Lin, Yibo and Pan, David Z",
+      "title": "DreamPlace 3.0: Multi-electrostatics based robust VLSI placement with region constraints",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "dreamplace3.0-2020"
+    },
+    {
+      "organization": "IEEE",
+      "year": "2022",
+      "pages": "939--944",
+      "booktitle": "2022 Design, Automation \\& Test in Europe Conference \\& Exhibition (DATE)",
+      "author": "Liao, Peiyu and Liu, Siting and Chen, Zhitang and Lv, Wenlong and Lin, Yibo and Yu, Bei",
+      "title": "DREAMPlace 4.0: Timing-driven global placement with momentum-based net weighting",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "dreamplace4.0-2022"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "2018",
+      "pages": "1717--1730",
+      "number": "9",
+      "volume": "38",
+      "journal": "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems",
+      "author": "Cheng, Chung-Kuan and Kahng, Andrew B and Kang, Ilgweon and Wang, Lutong",
+      "title": "Replace: Advancing solution quality and routability validation in global placement",
+      "ENTRYTYPE": "article",
+      "ID": "replace2018"
+    },
+    {
+      "year": "2014",
+      "pages": "1--6",
+      "booktitle": "Proceedings of the 51st Annual Design Automation Conference",
+      "author": "Lu, Jingwei and Chen, Pengwen and Chang, Chin-Chih and Sha, Lu and Huang, Dennis J- H and Teng, Chin-Chi and Cheng, Chung-Kuan",
+      "title": "ePlace: Electrostatics based placement using Nesterov's method",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "eplace2014"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "2008",
+      "pages": "1228--1240",
+      "number": "7",
+      "volume": "27",
+      "journal": "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems",
+      "author": "Chen, Tung-Chieh and Jiang, Zhe-Wei and Hsu, Tien-Chang and Chen, Hsin-Chen and Chang, Yao-Wen",
+      "title": "NTUplace3: An analytical placer for large-scale mixed-size designs with preplaced blocks and density constraints",
+      "ENTRYTYPE": "article",
+      "ID": "ntuplace2008"
+    },
+    {
+      "year": "2005",
+      "pages": "233--235",
+      "booktitle": "Proceedings of the 2005 international symposium on Physical design",
+      "author": "Kahng, Andrew B and Reda, Sherief and Wang, Qinke",
+      "title": "Aplace: A general analytic placement framework",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "aplace2005"
+    },
+    {
+      "year": "2007",
+      "pages": "453--458",
+      "booktitle": "Proceedings of the 44th annual Design Automation Conference",
+      "author": "Viswanathan, Natarajan and Nam, Gi-Joon and Alpert, Charles J and Villarrubia, Paul and Ren, Haoxing and Chu, Chris",
+      "title": "RQL: Global placement via relaxed quadratic spreading and linearization",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "rql2007"
+    },
+    {
+      "organization": "IEEE",
+      "year": "2007",
+      "pages": "135--140",
+      "booktitle": "2007 Asia and South Pacific Design Automation Conference",
+      "author": "Viswanathan, Natarajan and Pan, Min and Chu, Chris",
+      "title": "FastPlace 3.0: A fast multilevel quadratic placement algorithm with placement congestion control",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "fastplace2007"
+    },
+    {
+      "year": "2012",
+      "pages": "193--200",
+      "booktitle": "Proceedings of the 2012 ACM international symposium on International Symposium on Physical Design",
+      "author": "Kim, Myung-Chul and Viswanathan, Natarajan and Alpert, Charles J and Markov, Igor L and Ramji, Shyam",
+      "title": "MAPLE: Multilevel adaptive placement for mixed-size designs",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "maple2012"
+    },
+    {
+      "year": "2012",
+      "pages": "747--752",
+      "booktitle": "Proceedings of the 49th Annual Design Automation Conference",
+      "author": "Kim, Myung-Chul and Markov, Igor L",
+      "title": "ComPLx: A competitive primal-dual lagrange optimization for global placement",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "complx2012"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "2008",
+      "pages": "1398--1411",
+      "number": "8",
+      "volume": "27",
+      "journal": "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems",
+      "author": "Spindler, Peter and Schlichtmann, Ulf and Johannes, Frank M",
+      "title": "Kraftwerk2—A fast force-directed quadratic placement approach using an accurate net model",
+      "ENTRYTYPE": "article",
+      "ID": "kraftwerk2008"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "2006",
+      "pages": "1313--1326",
+      "number": "7",
+      "volume": "25",
+      "journal": "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems",
+      "author": "Roy, Jarrod A and Adya, Saurabh N and Papa, David A and Markov, Igor L",
+      "title": "Min-cut floorplacement",
+      "ENTRYTYPE": "article",
+      "ID": "mincut2006"
+    },
+    {
+      "year": "2004",
+      "pages": "84--89",
+      "booktitle": "Proceedings of the 2004 international symposium on Physical design",
+      "author": "Khatkhate, Ateen and Li, Chen and Agnihotri, Ameya R and Yildiz, Mehmet C and Ono, Satoshi and Koh, Cheng-Kok and Madden, Patrick H",
+      "title": "Recursive bisection based mixed block placement",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "recursive2004"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "1996",
+      "pages": "1518--1524",
+      "number": "12",
+      "volume": "15",
+      "journal": "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems",
+      "author": "Murata, Hiroshi and Fujiyoshi, Kunihiro and Nakatake, Shigetoshi and Kajitani, Yoji",
+      "title": "VLSI module placement based on rectangle-packing by the sequence-pair",
+      "ENTRYTYPE": "article",
+      "ID": "sequencepair1996"
+    },
+    {
+      "year": "2000",
+      "pages": "458--463",
+      "booktitle": "Proceedings of the 37th Annual Design Automation Conference",
+      "author": "Chang, Yun-Chih and Chang, Yao-Wen and Wu, Guang-Ming and Wu, Shu-Wei",
+      "title": "B*-trees: A new representation for non-slicing floorplans",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "btree2000"
+    },
+    {
+      "year": "2021",
+      "pages": "16508--16519",
+      "volume": "34",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Cheng, Ruoyu and Yan, Junchi",
+      "title": "On joint learning for solving placement and routing in chip design",
+      "ENTRYTYPE": "article",
+      "ID": "deeppr2021"
+    },
+    {
+      "year": "2022",
+      "pages": "26350--26362",
+      "volume": "35",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Cheng, Ruoyu and Lyu, Xianglong and Li, Yang and Ye, Junjie and Hao, Jianye and Yan, Junchi",
+      "title": "The policy-gradient placement and generative routing neural networks for chip design",
+      "ENTRYTYPE": "article",
+      "ID": "prnet2022"
+    },
+    {
+      "url": "https://api.semanticscholar.org/CorpusID:13916081",
+      "pages": "472-479",
+      "year": "1995",
+      "journal": "Proceedings of IEEE International Conference on Computer Aided Design (ICCAD)",
+      "author": "Hiroshi Murata and Kunihiro Fujiyoshi and Shigetoshi Nakatake and Yoji Kajitani",
+      "title": "Rectangle-packing-based module placement",
+      "ENTRYTYPE": "article",
+      "ID": "SPSA"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "2000",
+      "pages": "1428--1448",
+      "number": "12",
+      "volume": "19",
+      "journal": "IEEE transactions on computer-aided design of integrated circuits and systems",
+      "author": "MacMillen, Don and Camposano, Raul and Hill, D and Williams, Thomas W",
+      "title": "An industrial view of electronic design automation",
+      "ENTRYTYPE": "article",
+      "ID": "survey2000"
+    },
+    {
+      "year": "2012",
+      "pages": "275--282",
+      "booktitle": "Proceedings of the International Conference on Computer-Aided Design",
+      "author": "Markov, Igor L and Hu, Jin and Kim, Myung-Chul",
+      "title": "Progress and challenges in VLSI placement research",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "survey2012"
+    },
+    {
+      "publisher": "Prentice hall Englewood Cliffs",
+      "year": "2002",
+      "volume": "2",
+      "author": "Rabaey, Jan M and Chandrakasan, Anantha P and Nikolic, Borivoje",
+      "title": "Digital integrated circuits",
+      "ENTRYTYPE": "book",
+      "ID": "edabook2002"
+    },
+    {
+      "publisher": "Morgan Kaufmann",
+      "year": "2009",
+      "author": "Wang, Laung-Terng and Chang, Yao-Wen and Cheng, Kwang-Ting Tim",
+      "title": "Electronic design automation: synthesis, verification, and test",
+      "ENTRYTYPE": "book",
+      "ID": "edabook2009"
+    },
+    {
+      "publisher": "Nature Publishing Group",
+      "year": "2016",
+      "pages": "484--489",
+      "number": "7587",
+      "volume": "529",
+      "journal": "nature",
+      "author": "Silver, David and Huang, Aja and Maddison, Chris J and Guez, Arthur and Sifre, Laurent and Van Den Driessche, George and Schrittwieser, Julian and Antonoglou, Ioannis and Panneershelvam, Veda and Lanctot, Marc and others",
+      "title": "Mastering the game of Go with deep neural networks and tree search",
+      "ENTRYTYPE": "article",
+      "ID": "alphago2016"
+    },
+    {
+      "publisher": "Nature Publishing Group",
+      "year": "2017",
+      "pages": "354--359",
+      "number": "7676",
+      "volume": "550",
+      "journal": "nature",
+      "author": "Silver, David and Schrittwieser, Julian and Simonyan, Karen and Antonoglou, Ioannis and Huang, Aja and Guez, Arthur and Hubert, Thomas and Baker, Lucas and Lai, Matthew and Bolton, Adrian and others",
+      "title": "Mastering the game of go without human knowledge",
+      "ENTRYTYPE": "article",
+      "ID": "alphago2017"
+    },
+    {
+      "publisher": "Nature Publishing Group UK London",
+      "year": "2020",
+      "pages": "604--609",
+      "number": "7839",
+      "volume": "588",
+      "journal": "Nature",
+      "author": "Schrittwieser, Julian and Antonoglou, Ioannis and Hubert, Thomas and Simonyan, Karen and Sifre, Laurent and Schmitt, Simon and Guez, Arthur and Lockhart, Edward and Hassabis, Demis and Graepel, Thore and others",
+      "title": "Mastering atari, go, chess and shogi by planning with a learned model",
+      "ENTRYTYPE": "article",
+      "ID": "muzero2020"
+    },
+    {
+      "year": "2021",
+      "pages": "25476--25488",
+      "volume": "34",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Ye, Weirui and Liu, Shaohuai and Kurutach, Thanard and Abbeel, Pieter and Gao, Yang",
+      "title": "Mastering atari games with limited data",
+      "ENTRYTYPE": "article",
+      "ID": "efficientzero2021"
+    },
+    {
+      "publisher": "Nature Publishing Group",
+      "year": "2022",
+      "pages": "47--53",
+      "number": "7930",
+      "volume": "610",
+      "journal": "Nature",
+      "author": "Fawzi, Alhussein and Balog, Matej and Huang, Aja and Hubert, Thomas and Romera-Paredes, Bernardino and Barekatain, Mohammadamin and Novikov, Alexander and R Ruiz, Francisco J and Schrittwieser, Julian and Swirszcz, Grzegorz and others",
+      "title": "Discovering faster matrix multiplication algorithms with reinforcement learning",
+      "ENTRYTYPE": "article",
+      "ID": "alphatensor2022"
+    },
+    {
+      "publisher": "Nature Publishing Group UK London",
+      "year": "2023",
+      "pages": "257--263",
+      "number": "7964",
+      "volume": "618",
+      "journal": "Nature",
+      "author": "Mankowitz, Daniel J and Michi, Andrea and Zhernov, Anton and Gelmi, Marco and Selvi, Marco and Paduraru, Cosmin and Leurent, Edouard and Iqbal, Shariq and Lespiau, Jean-Baptiste and Ahern, Alex and others",
+      "title": "Faster sorting algorithms discovered using deep reinforcement learning",
+      "ENTRYTYPE": "article",
+      "ID": "alphadev2023"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "2012",
+      "pages": "1--43",
+      "number": "1",
+      "volume": "4",
+      "journal": "IEEE Transactions on Computational Intelligence and AI in games",
+      "author": "Browne, Cameron B and Powley, Edward and Whitehouse, Daniel and Lucas, Simon M and Cowling, Peter I and Rohlfshagen, Philipp and Tavener, Stephen and Perez, Diego and Samothrakis, Spyridon and Colton, Simon",
+      "title": "A survey of monte carlo tree search methods",
+      "ENTRYTYPE": "article",
+      "ID": "mctssurvey2012"
+    },
+    {
+      "organization": "IEEE",
+      "year": "2016",
+      "pages": "172--177",
+      "booktitle": "2016 21st Asia and South Pacific Design Automation Conference (ASP-DAC)",
+      "author": "Chiou, Chien-Hsiung and Chang, Chin-Hao and Chen, Szu-To and Chang, Yao-Wen",
+      "title": "Circular-contour-based obstacle-aware macro placement",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "regularity2016"
+    },
+    {
+      "year": "2017",
+      "journal": "arXiv preprint arXiv:1707.06347",
+      "author": "Schulman, John and Wolski, Filip and Dhariwal, Prafulla and Radford, Alec and Klimov, Oleg",
+      "title": "Proximal policy optimization algorithms",
+      "ENTRYTYPE": "article",
+      "ID": "PPO2017"
+    },
+    {
+      "year": "2005",
+      "pages": "216--220",
+      "booktitle": "Proceedings of the 2005 international symposium on Physical design",
+      "author": "Nam, Gi-Joon and Alpert, Charles J and Villarrubia, Paul and Winter, Bruce and Yildiz, Mehmet",
+      "title": "The ISPD2005 placement contest and benchmark suite",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ispd2005"
+    },
+    {
+      "organization": "IEEE",
+      "year": "2007",
+      "pages": "1--6",
+      "booktitle": "2007 Design, Automation \\& Test in Europe Conference \\& Exhibition",
+      "author": "Spindler, Peter and Johannes, Frank M",
+      "title": "Fast and accurate routing demand estimation for efficient routability-driven placement",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "rudy2007"
+    },
+    {
+      "howpublished": "\\url{https://github.com/Tommydag/CAN-Bus-Controller}",
+      "title": "CAN Bus Controller",
+      "author": "{Tommydag}",
+      "ENTRYTYPE": "misc",
+      "ID": "ref1"
+    },
+    {
+      "howpublished": "\\url{https://github.com/brmcfarl/iot_shield}",
+      "title": "IoT Shield",
+      "author": "{brmcfarl}",
+      "ENTRYTYPE": "misc",
+      "ID": "ref2"
+    },
+    {
+      "howpublished": "\\url{https://github.com/WangXuan95/FPGA-CAN}",
+      "title": "FPGA CAN",
+      "author": "{WangXuan95}",
+      "ENTRYTYPE": "misc",
+      "ID": "ref3"
+    },
+    {
+      "howpublished": "\\url{https://github.com/Hara-Laboratory/subrisc.git}",
+      "title": "SUBRISC",
+      "author": "{Hara-Laboratory}",
+      "ENTRYTYPE": "misc",
+      "ID": "ref4"
+    },
+    {
+      "howpublished": "\\url{https://github.com/secworks/sha256.git}",
+      "title": "SHA256",
+      "author": "{secworks}",
+      "ENTRYTYPE": "misc",
+      "ID": "ref5"
+    },
+    {
+      "howpublished": "\\url{https://github.com/lajanugen/8051.git}",
+      "title": "8051",
+      "author": "{lajanugen}",
+      "ENTRYTYPE": "misc",
+      "ID": "ref6"
+    },
+    {
+      "howpublished": "\\url{https://github.com/AngeloJacobo/FPGA_OV7670_Camera_Interface.git}",
+      "title": "FPGA OV7670 Camera Interface",
+      "author": "{AngeloJacobo}",
+      "ENTRYTYPE": "misc",
+      "ID": "ref7"
+    },
+    {
+      "howpublished": "\\url{https://github.com/suntodai/FPGA_image_processing}",
+      "title": "FPGA Image Processing",
+      "author": "{suntodai}",
+      "ENTRYTYPE": "misc",
+      "ID": "ref8"
+    },
+    {
+      "howpublished": "\\url{https://github.com/YosysHQ/picorv32}",
+      "title": "PicoRV32",
+      "author": "{YosysHQ}",
+      "ENTRYTYPE": "misc",
+      "ID": "ref9"
+    },
+    {
+      "howpublished": "\\url{https://github.com/olofk/serv.git}",
+      "title": "Serv",
+      "author": "{olofk}",
+      "ENTRYTYPE": "misc",
+      "ID": "ref10"
+    },
+    {
+      "howpublished": "\\url{https://github.com/The-OpenROAD-Project/OpenROAD-flow-scripts}",
+      "title": "OpenROAD Flow Scripts",
+      "author": "{The-OpenROAD-Project}",
+      "ENTRYTYPE": "misc",
+      "ID": "ref11"
+    },
+    {
+      "year": "2021",
+      "booktitle": "Proc. GOMAC",
+      "author": "Kahng, Andrew B and Spyrou, Tom",
+      "title": "The OpenROAD project: Unleashing hardware innovation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "kahng2021openroad"
+    },
+    {
+      "howpublished": "\\url{https://github.com/openrisc/mor1kx.git\n}",
+      "title": "mor1kx",
+      "author": "{openrisc}",
+      "ENTRYTYPE": "misc",
+      "ID": "ref12"
+    },
+    {
+      "howpublished": "\\url{https://github.com/openrisc/or1200.git\n}",
+      "title": "or1200",
+      "author": "{openrisc}",
+      "ENTRYTYPE": "misc",
+      "ID": "or1200"
+    },
+    {
+      "howpublished": "\\url{https://github.com/matt-kimball/toygpu\n}",
+      "title": "toygpu",
+      "author": "{matt-kimball}",
+      "ENTRYTYPE": "misc",
+      "ID": "ref13"
+    },
+    {
+      "howpublished": "\\url{https://github.com/mit-ll/CEP\n}",
+      "title": "Common Evaluation Platform",
+      "author": "{Brendon Chetwynd, Kevin Bush, Kyle Ingols}",
+      "ENTRYTYPE": "misc",
+      "ID": "dft"
+    },
+    {
+      "year": "2015",
+      "pages": "157--164",
+      "booktitle": "Proceedings of the 2015 Symposium on International Symposium on Physical Design",
+      "author": "Bustany, Ismail S and Chinnery, David and Shinnerl, Joseph R and Yutsis, Vladimir",
+      "title": "ISPD 2015 benchmarks with fence regions and routing blockages for detailed-routing-driven placement",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "2015ispd"
+    },
+    {
+      "doi": "10.1109/ICCAD.2015.7372671",
+      "keywords": "Clocks;Delays;Benchmark testing;Integrated circuit modeling;Interpolation;Optimization",
+      "pages": "921-926",
+      "number": "",
+      "volume": "",
+      "year": "2015",
+      "title": "ICCAD-2015 CAD contest in incremental timing-driven placement and benchmark suite",
+      "booktitle": "2015 IEEE/ACM International Conference on Computer-Aided Design (ICCAD)",
+      "author": "Kim, Myung-Chul and Hu, Jin and Li, Jiajia and Viswanathan, Natarajan",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "iccad2015"
+    },
+    {
+      "year": "2009",
+      "journal": "GSRC Bookshelf",
+      "author": "Adya, SN and Chaturvedi, S and Markov, IL",
+      "title": "ICCAD’04 mixed-size placement benchmarks",
+      "ENTRYTYPE": "article",
+      "ID": "adya2009iccad"
+    },
+    {
+      "year": "2015",
+      "booktitle": "Proceedings of the 24th International Workshop on Logic \\& Synthesis (IWLS)",
+      "author": "Amar{\\'u}, Luca and Gaillardon, Pierre-Emmanuel and De Micheli, Giovanni",
+      "title": "The EPFL combinational benchmark suite",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "epfl"
+    },
+    {
+      "year": "2021",
+      "journal": "arXiv preprint arXiv:2110.11292",
+      "author": "Chowdhury, Animesh Basak and Tan, Benjamin and Karri, Ramesh and Garg, Siddharth",
+      "title": "Openabc-d: A large-scale dataset for machine learning guided integrated circuit synthesis",
+      "ENTRYTYPE": "article",
+      "ID": "openabc"
+    },
+    {
+      "year": "2023",
+      "booktitle": "The Twelfth International Conference on Learning Representations",
+      "author": "Jiang, Xun and Zhao, Yuxiang and Lin, Yibo and Wang, Runsheng and Huang, Ru and others",
+      "title": "CircuitNet 2.0: An Advanced Dataset for Promoting Machine Learning Innovations in Realistic Chip Design Environment",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "circuitnet"
+    },
+    {
+      "publisher": "ACM New York, NY",
+      "year": "2023",
+      "pages": "1--27",
+      "number": "2",
+      "volume": "28",
+      "journal": "ACM Transactions on Design Automation of Electronic Systems",
+      "author": "S{\\'a}nchez, Daniela and Servadei, Lorenzo and Kiprit, Gamze Naz and Wille, Robert and Ecker, Wolfgang",
+      "title": "A comprehensive survey on electronic design automation and graph neural networks: Theory and applications",
+      "ENTRYTYPE": "article",
+      "ID": "sanchez2023comprehensive"
+    },
+    {
+      "year": "2022",
+      "pages": "1--12",
+      "number": "3",
+      "volume": "17",
+      "journal": "Journal of Integrated Circuits and Systems",
+      "author": "Berndt, Augusto Andr{\\'e} Souza and Foga{\\c{c}}a, Mateus and Meinhardt, Cristina",
+      "title": "A Review of Machine Learning in Logic Synthesis",
+      "ENTRYTYPE": "article",
+      "ID": "berndt2022review"
+    },
+    {
+      "url": "https://openreview.net/forum?id=1KemC8DNa0",
+      "year": "2024",
+      "booktitle": "Forty-first International Conference on Machine Learning",
+      "author": "Zhihai Wang and Lei Chen and Jie Wang and Yinqi Bai and Xing Li and Xijun Li and Mingxuan Yuan and Jianye HAO and Yongdong Zhang and Feng Wu",
+      "title": "A Circuit Domain Generalization Framework for Efficient Logic Synthesis in Chip Design",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "wang2024a_prunex"
+    },
+    {
+      "url": "https://openreview.net/forum?id=LGz7GaUSEB",
+      "year": "2024",
+      "booktitle": "Forty-first International Conference on Machine Learning",
+      "author": "Zhihai Wang and Jie Wang and Dongsheng Zuo and Ji Yunjie and Xilin Xia and Yuzhe Ma and Jianye HAO and Mingxuan Yuan and Yongdong Zhang and Feng Wu",
+      "title": "A Hierarchical Adaptive Multi-Task Reinforcement Learning Framework for Multiplier Circuit Design",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "wang2024a_have"
+    },
+    {
+      "year": "2016",
+      "author": "Wolf, Clifford",
+      "title": "Yosys open synthesis suite",
+      "ENTRYTYPE": "article",
+      "ID": "wolf2016yosys"
+    },
+    {
+      "publisher": "Springer",
+      "year": "2009",
+      "pages": "1--4",
+      "journal": "Noise reduction in speech processing",
+      "author": "Cohen, Israel and Huang, Yiteng and Chen, Jingdong and Benesty, Jacob and Benesty, Jacob and Chen, Jingdong and Huang, Yiteng and Cohen, Israel",
+      "title": "Pearson correlation coefficient",
+      "ENTRYTYPE": "article",
+      "ID": "cohen2009pearson"
+    }
+  ]
+}

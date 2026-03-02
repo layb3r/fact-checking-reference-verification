@@ -1,0 +1,2887 @@
+{
+  "pdf_url": "https://arxiv.org/pdf/2510.19517v1.pdf",
+  "references": [
+    {
+      "bibsource": "dblp computer science bibliography, https://dblp.org",
+      "biburl": "https://dblp.org/rec/conf/amcis/GubelaL20.bib",
+      "timestamp": "Mon, 27 Jul 2020 19:07:22 +0200",
+      "url": "https://aisel.aisnet.org/amcis2020/data\\_science\\_analytics\\_for\\_decision\\_support/data\\_science\\_analytics\\_for\\_decision\\_support/18",
+      "year": "2020",
+      "publisher": "Association for Information Systems",
+      "booktitle": "26th Americas Conference on Information Systems, {AMCIS} 2020, Virtual\nConference, August 15-17, 2020",
+      "title": "Interpretable Multiple Treatment Revenue Uplift Modeling",
+      "editor": "Bonnie Brinton Anderson and\nJason Thatcher and\nRayman D. Meservy and\nKathy Chudoba and\nKelly J. Fadel and\nSue Brown",
+      "author": "Robin Marco Gubela and\nStefan Lessmann",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "DBLP:conf/amcis/GubelaL20"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "2020",
+      "pages": "647--661",
+      "number": "2",
+      "volume": "283",
+      "journal": "European Journal of Operational Research",
+      "author": "Gubela, Robin M and Lessmann, Stefan and Jaroszewicz, Szymon",
+      "title": "Response transformation and profit decomposition for revenue uplift modeling",
+      "ENTRYTYPE": "article",
+      "ID": "gubela2020response"
+    },
+    {
+      "publisher": "Taylor \\& Francis",
+      "year": "2005",
+      "pages": "322--331",
+      "number": "469",
+      "volume": "100",
+      "journal": "Journal of the American Statistical Association",
+      "author": "Rubin, Donald B",
+      "title": "Causal inference using potential outcomes: Design, modeling, decisions",
+      "ENTRYTYPE": "article",
+      "ID": "rubin2005causal"
+    },
+    {
+      "organization": "IEEE",
+      "year": "2010",
+      "pages": "441--450",
+      "booktitle": "2010 IEEE International Conference on Data Mining",
+      "author": "Rzepakowski, Piotr and Jaroszewicz, Szymon",
+      "title": "Decision trees for uplift modeling",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "rzepakowski2010decision"
+    },
+    {
+      "publisher": "American Economic Association 2014 Broadway, Suite 305, Nashville, TN 37203",
+      "year": "2017",
+      "pages": "546--550",
+      "number": "5",
+      "volume": "107",
+      "journal": "American Economic Review",
+      "author": "Davis, Jonathan MV and Heller, Sara B",
+      "title": "Using causal forests to predict treatment heterogeneity: An application to summer jobs",
+      "ENTRYTYPE": "article",
+      "ID": "davis2017using"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "2006",
+      "pages": "143--149",
+      "number": "2",
+      "volume": "2",
+      "journal": "Explore",
+      "author": "Gagnier, Joel and Boon, Heather and Rochon, Paula and Barnes, Joanne and Moher, David and Bombardier, Claire",
+      "title": "Reporting random controlled trials of herbal medicines",
+      "ENTRYTYPE": "article",
+      "ID": "gagnier2006reporting"
+    },
+    {
+      "year": "2013",
+      "journal": "arXiv preprint arXiv:1312.6199",
+      "author": "Szegedy, Christian and Zaremba, Wojciech and Sutskever, Ilya and Bruna, Joan and Erhan, Dumitru and Goodfellow, Ian and Fergus, Rob",
+      "title": "Intriguing properties of neural networks",
+      "ENTRYTYPE": "article",
+      "ID": "szegedy2013intriguing"
+    },
+    {
+      "year": "2014",
+      "journal": "arXiv preprint arXiv:1412.6572",
+      "author": "Goodfellow, Ian J and Shlens, Jonathon and Szegedy, Christian",
+      "title": "Explaining and harnessing adversarial examples",
+      "ENTRYTYPE": "article",
+      "ID": "goodfellow2014explaining"
+    },
+    {
+      "year": "2017",
+      "journal": "arXiv preprint arXiv:1705.07204",
+      "author": "Tram{\\`e}r, Florian and Kurakin, Alexey and Papernot, Nicolas and Goodfellow, Ian and Boneh, Dan and McDaniel, Patrick",
+      "title": "Ensemble adversarial training: Attacks and defenses",
+      "ENTRYTYPE": "article",
+      "ID": "tramer2017ensemble"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "2018",
+      "pages": "195--204",
+      "volume": "307",
+      "journal": "Neurocomputing",
+      "author": "Shaham, Uri and Yamada, Yutaro and Negahban, Sahand",
+      "title": "Understanding adversarial training: Increasing local stability of supervised models through robust optimization",
+      "ENTRYTYPE": "article",
+      "ID": "shaham2018understanding"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2017",
+      "pages": "1--13",
+      "booktitle": "International conference on predictive applications and APIs",
+      "author": "Gutierrez, Pierre and G{\\'e}rardy, Jean-Yves",
+      "title": "Causal inference and uplift modelling: A review of the literature",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "gutierrez2017causal"
+    },
+    {
+      "publisher": "Taylor \\& Francis",
+      "year": "2015",
+      "pages": "485--505",
+      "number": "4",
+      "volume": "33",
+      "journal": "Journal of Business \\& Economic Statistics",
+      "author": "Abrevaya, Jason and Hsu, Yu-Chin and Lieli, Robert P",
+      "title": "Estimating conditional average treatment effects",
+      "ENTRYTYPE": "article",
+      "ID": "abrevaya2015estimating"
+    },
+    {
+      "organization": "SIAM",
+      "year": "2017",
+      "pages": "588--596",
+      "booktitle": "Proceedings of the 2017 SIAM International Conference on Data Mining",
+      "author": "Zhao, Yan and Fang, Xiao and Simchi-Levi, David",
+      "title": "Uplift modeling with multiple treatments and general response types",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zhao2017uplift"
+    },
+    {
+      "publisher": "ACM New York, NY",
+      "year": "2021",
+      "pages": "1--36",
+      "number": "8",
+      "volume": "54",
+      "journal": "ACM Computing Surveys (CSUR)",
+      "author": "Zhang, Weijia and Li, Jiuyong and Liu, Lin",
+      "title": "A unified survey of treatment effect heterogeneity modelling and uplift modelling",
+      "ENTRYTYPE": "article",
+      "ID": "zhang2021unified"
+    },
+    {
+      "year": "2015",
+      "pages": "1--26",
+      "number": "5",
+      "volume": "1050",
+      "journal": "stat",
+      "author": "Athey, Susan and Imbens, Guido W",
+      "title": "Machine learning methods for estimating heterogeneous causal effects",
+      "ENTRYTYPE": "article",
+      "ID": "athey2015machine"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2018",
+      "pages": "883--892",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Chen, Jianbo and Song, Le and Wainwright, Martin and Jordan, Michael",
+      "title": "Learning to explain: An information-theoretic perspective on model interpretation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "chen2018learning"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2019",
+      "pages": "7472--7482",
+      "booktitle": "International conference on machine learning",
+      "author": "Zhang, Hongyang and Yu, Yaodong and Jiao, Jiantao and Xing, Eric and El Ghaoui, Laurent and Jordan, Michael",
+      "title": "Theoretically principled trade-off between robustness and accuracy",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zhang2019theoretically"
+    },
+    {
+      "organization": "Lille",
+      "year": "2015",
+      "number": "1",
+      "volume": "2",
+      "booktitle": "ICML deep learning workshop",
+      "author": "Koch, Gregory and Zemel, Richard and Salakhutdinov, Ruslan and others",
+      "title": "Siamese neural networks for one-shot image recognition",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "koch2015siamese"
+    },
+    {
+      "year": "2016",
+      "journal": "arXiv preprint arXiv:1611.01144",
+      "author": "Jang, Eric and Gu, Shixiang and Poole, Ben",
+      "title": "Categorical reparameterization with gumbel-softmax",
+      "ENTRYTYPE": "article",
+      "ID": "jang2016categorical"
+    },
+    {
+      "publisher": "SIAM",
+      "year": "1993",
+      "pages": "183--238",
+      "number": "2",
+      "volume": "35",
+      "journal": "SIAM review",
+      "author": "Rockafellar, R Tyrrell",
+      "title": "Lagrange multipliers and optimality",
+      "ENTRYTYPE": "article",
+      "ID": "rockafellar1993lagrange"
+    },
+    {
+      "year": "2022",
+      "pages": "4612--4620",
+      "booktitle": "Proceedings of the 28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining",
+      "author": "Zhong, Kailiang and Xiao, Fengtong and Ren, Yan and Liang, Yaorong and Yao, Wenqing and Yang, Xiaofeng and Cen, Ling",
+      "title": "DESCN: Deep Entire Space Cross Networks for Individual Treatment Effect Estimation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zhong2022descn"
+    },
+    {
+      "publisher": "National Acad Sciences",
+      "year": "2019",
+      "pages": "4156--4165",
+      "number": "10",
+      "volume": "116",
+      "journal": "Proceedings of the national academy of sciences",
+      "author": "K{\\\"u}nzel, S{\\\"o}ren R and Sekhon, Jasjeet S and Bickel, Peter J and Yu, Bin",
+      "title": "Metalearners for estimating heterogeneous treatment effects using machine learning",
+      "ENTRYTYPE": "article",
+      "ID": "kunzel2019metalearners"
+    },
+    {
+      "publisher": "Institute of Mathematical Statistics",
+      "year": "2021",
+      "pages": "1247--1272",
+      "number": "3",
+      "volume": "15",
+      "journal": "The Annals of Applied Statistics",
+      "author": "Belbahri, Mouloud and Murua, Alejandro and Gandouet, Olivier and Partovi Nia, Vahid",
+      "title": "Qini-based uplift regression",
+      "ENTRYTYPE": "article",
+      "ID": "belbahri2021qini"
+    },
+    {
+      "year": "2019",
+      "pages": "2623--2631",
+      "booktitle": "Proceedings of the 25th ACM SIGKDD international conference on knowledge discovery \\& data mining",
+      "author": "Akiba, Takuya and Sano, Shotaro and Yanase, Toshihiko and Ohta, Takeru and Koyama, Masanori",
+      "title": "Optuna: A next-generation hyperparameter optimization framework",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "akiba2019optuna"
+    },
+    {
+      "year": "2016",
+      "pages": "2574--2582",
+      "booktitle": "Proceedings of the IEEE conference on computer vision and pattern recognition",
+      "author": "Moosavi-Dezfooli, Seyed-Mohsen and Fawzi, Alhussein and Frossard, Pascal",
+      "title": "Deepfool: a simple and accurate method to fool deep neural networks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "moosavi2016deepfool"
+    },
+    {
+      "organization": "IEEE",
+      "year": "2022",
+      "pages": "1053--1058",
+      "booktitle": "2022 IEEE International Conference on Data Mining (ICDM)",
+      "author": "Li, Xinshu and Yao, Lina",
+      "title": "Contrastive individual treatment effects estimation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "li2022contrastive"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2017",
+      "pages": "3076--3085",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Shalit, Uri and Johansson, Fredrik D and Sontag, David",
+      "title": "Estimating individual treatment effect: generalization bounds and algorithms",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "shalit2017estimating"
+    },
+    {
+      "year": "2019",
+      "volume": "32",
+      "journal": "Advances in neural information processing systems",
+      "author": "Shi, Claudia and Blei, David and Veitch, Victor",
+      "title": "Adapting neural networks for the estimation of treatment effects",
+      "ENTRYTYPE": "article",
+      "ID": "shi2019adapting"
+    },
+    {
+      "publisher": "SIAM",
+      "year": "1974",
+      "pages": "784--786",
+      "number": "4",
+      "volume": "18",
+      "journal": "Theory of Probability \\& Its Applications",
+      "author": "Vallender, SS",
+      "title": "Calculation of the Wasserstein distance between probability distributions on the line",
+      "ENTRYTYPE": "article",
+      "ID": "vallender1974calculation"
+    },
+    {
+      "publisher": "Oxford University Press",
+      "year": "2006",
+      "pages": "e49--e57",
+      "number": "14",
+      "volume": "22",
+      "journal": "Bioinformatics",
+      "author": "Borgwardt, Karsten M and Gretton, Arthur and Rasch, Malte J and Kriegel, Hans-Peter and Sch{\\\"o}lkopf, Bernhard and Smola, Alex J",
+      "title": "Integrating structured biological data by kernel maximum mean discrepancy",
+      "ENTRYTYPE": "article",
+      "ID": "borgwardt2006integrating"
+    },
+    {
+      "publisher": "John Wiley \\& Sons",
+      "year": "2005",
+      "volume": "528",
+      "author": "Weisberg, Sanford",
+      "title": "Applied linear regression",
+      "ENTRYTYPE": "book",
+      "ID": "weisberg2005applied"
+    },
+    {
+      "publisher": "Wiley Online Library",
+      "year": "2011",
+      "pages": "14--23",
+      "number": "1",
+      "volume": "1",
+      "journal": "Wiley interdisciplinary reviews: data mining and knowledge discovery",
+      "author": "Loh, Wei-Yin",
+      "title": "Classification and regression trees",
+      "ENTRYTYPE": "article",
+      "ID": "loh2011classification"
+    },
+    {
+      "publisher": "Springer",
+      "year": "2005",
+      "pages": "165--192",
+      "journal": "Data mining and knowledge discovery handbook",
+      "author": "Rokach, Lior and Maimon, Oded",
+      "title": "Decision trees",
+      "ENTRYTYPE": "article",
+      "ID": "rokach2005decision"
+    },
+    {
+      "publisher": "Wiley Online Library",
+      "year": "2008",
+      "pages": "31--72",
+      "number": "1",
+      "volume": "22",
+      "journal": "Journal of Economic Surveys",
+      "author": "Caliendo, Marco and Kopeinig, Sabine",
+      "title": "Some practical guidance for the implementation of propensity score matching",
+      "ENTRYTYPE": "article",
+      "ID": "caliendo2008some"
+    },
+    {
+      "publisher": "Oxford University Press",
+      "year": "2021",
+      "pages": "299--319",
+      "number": "2",
+      "volume": "108",
+      "journal": "Biometrika",
+      "author": "Nie, Xinkun and Wager, Stefan",
+      "title": "Quasi-oracle estimation of heterogeneous treatment effects",
+      "ENTRYTYPE": "article",
+      "ID": "nie2021quasi"
+    },
+    {
+      "organization": "Springer",
+      "year": "1989",
+      "pages": "234--248",
+      "booktitle": "Automata, Languages and Programming: 16th International Colloquium Stresa, Italy, July 11--15, 1989 Proceedings 16",
+      "author": "Darondeau, Ph and Degano, Pierpaolo",
+      "title": "Causal trees",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "darondeau1989causal"
+    },
+    {
+      "year": "2014",
+      "volume": "27",
+      "journal": "Advances in neural information processing systems",
+      "author": "Bachman, Philip and Alsharif, Ouais and Precup, Doina",
+      "title": "Learning with pseudo-ensembles",
+      "ENTRYTYPE": "article",
+      "ID": "bachman2014learning"
+    },
+    {
+      "year": "2020",
+      "pages": "11637--11649",
+      "volume": "33",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Jesson, Andrew and Mindermann, S{\\\"o}ren and Shalit, Uri and Gal, Yarin",
+      "title": "Identifying causal-effect inference failure with uncertainty-aware models",
+      "ENTRYTYPE": "article",
+      "ID": "jesson2020identifying"
+    },
+    {
+      "year": "2014",
+      "volume": "27",
+      "journal": "Advances in neural information processing systems",
+      "author": "Wang, Qian and Zhang, Jiaxing and Song, Sen and Zhang, Zheng",
+      "title": "Attentional neural network: Feature selection using cognitive feedback",
+      "ENTRYTYPE": "article",
+      "ID": "wang2014attentional"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "2015",
+      "pages": "1936--1948",
+      "number": "11",
+      "volume": "17",
+      "journal": "IEEE Transactions on Multimedia",
+      "author": "Zhao, Lei and Hu, Qinghua and Wang, Wenwu",
+      "title": "Heterogeneous feature selection with multi-modal deep neural networks and sparse group lasso",
+      "ENTRYTYPE": "article",
+      "ID": "zhao2015heterogeneous"
+    },
+    {
+      "year": "2022",
+      "pages": "1202--1212",
+      "booktitle": "Proceedings of the 28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining",
+      "author": "Ma, Jing and Wan, Mengting and Yang, Longqi and Li, Jundong and Hecht, Brent and Teevan, Jaime",
+      "title": "Learning causal effects on hypergraphs",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ma2022learning"
+    },
+    {
+      "year": "2023",
+      "pages": "395--405",
+      "booktitle": "Proceedings of the ACM Web Conference 2023",
+      "author": "Zhu, Dingyuan and Wang, Daixin and Zhang, Zhiqiang and Kuang, Kun and Zhang, Yan and Kang, Yulin and Zhou, Jun",
+      "title": "Graph Neural Network with Two Uplift Estimators for Label-Scarcity Individual Uplift Modeling",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zhu2023graph"
+    },
+    {
+      "organization": "SIAM",
+      "year": "2024",
+      "pages": "289--297",
+      "booktitle": "Proceedings of the 2024 SIAM International Conference on Data Mining (SDM)",
+      "author": "Cui, Ziqiang and Tang, Xing and Qiao, Yang and He, Bowei and Chen, Liang and He, Xiuqiang and Ma, Chen",
+      "title": "Treatment-Aware Hyperbolic Representation Learning for Causal Effect Estimation with Social Networks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "cui2024treatment"
+    },
+    {
+      "year": "2021",
+      "pages": "55--65",
+      "booktitle": "Proceedings of the 27th ACM SIGKDD Conference on Knowledge Discovery \\& Data Mining",
+      "author": "Betlei, Artem and Diemert, Eustache and Amini, Massih-Reza",
+      "title": "Uplift modeling with generalization guarantees",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "betlei2021uplift"
+    },
+    {
+      "publisher": "Springer",
+      "year": "2014",
+      "pages": "218--238",
+      "volume": "2",
+      "journal": "Journal of Marketing Analytics",
+      "author": "Kane, Kathleen and Lo, Victor SY and Zheng, Jane",
+      "title": "Mining for the truly responsive customers and prospects using true-lift modeling: Comparison of new and existing methods",
+      "ENTRYTYPE": "article",
+      "ID": "kane2014mining"
+    },
+    {
+      "publisher": "Oxford University Press",
+      "year": "2021",
+      "pages": "134--161",
+      "number": "1",
+      "volume": "24",
+      "journal": "The Econometrics Journal",
+      "author": "Knaus, Michael C and Lechner, Michael and Strittmatter, Anthony",
+      "title": "Machine learning estimation of heterogeneous causal effects: Empirical Monte Carlo evidence",
+      "ENTRYTYPE": "article",
+      "ID": "knaus2021machine"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "2020",
+      "pages": "4888--4904",
+      "number": "10",
+      "volume": "34",
+      "journal": "IEEE Transactions on Knowledge and Data Engineering",
+      "author": "Devriendt, Floris and Van Belle, Jente and Guns, Tias and Verbeke, Wouter",
+      "title": "Learning to rank for uplift modeling",
+      "ENTRYTYPE": "article",
+      "ID": "devriendt2020learning"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2019",
+      "pages": "34--49",
+      "booktitle": "The 2019 ACM SIGKDD Workshop on Causal Discovery",
+      "author": "Du, Shuyang and Lee, James and Ghaffarizadeh, Farzin",
+      "title": "Improve User Retention with Causal Learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "du2019improve"
+    },
+    {
+      "year": "2023",
+      "pages": "5446--5454",
+      "number": "4",
+      "volume": "37",
+      "booktitle": "Proceedings of the AAAI Conference on Artificial Intelligence",
+      "author": "Zhou, Hao and Li, Shaoming and Jiang, Guibin and Zheng, Jiaqi and Wang, Dong",
+      "title": "Direct Heterogeneous Causal Learning for Resource Allocation Problems in Marketing",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zhou2023direct"
+    },
+    {
+      "year": "2021",
+      "journal": "arXiv preprint arXiv:2111.07966",
+      "author": "Yadlowsky, Steve and Fleming, Scott and Shah, Nigam and Brunskill, Emma and Wager, Stefan",
+      "title": "Evaluating treatment prioritization rules via rank-weighted average treatment effects",
+      "ENTRYTYPE": "article",
+      "ID": "yadlowsky2021evaluating"
+    },
+    {
+      "year": "2008",
+      "journal": "MineThatData blog",
+      "author": "Hillstrom, Kevin",
+      "title": "The MineThatData e-mail analytics and data mining challenge",
+      "ENTRYTYPE": "article",
+      "ID": "hillstrom2008minethatdata"
+    },
+    {
+      "year": "2023",
+      "author": "Wu, Anpeng and Kuang, Kun and Xiong, Ruoxuan and Li, Bo and Wu, Fei",
+      "title": "Stable Estimation of Heterogeneous Treatment Effects",
+      "ENTRYTYPE": "article",
+      "ID": "wu2023stable"
+    },
+    {
+      "year": "2007",
+      "pages": "508--510",
+      "journal": "Encyclopedia of Measurement and Statistics. Sage, Thousand Oaks, CA",
+      "author": "Abdi, Herv{\\'e}",
+      "title": "The Kendall rank correlation coefficient",
+      "ENTRYTYPE": "article",
+      "ID": "abdi2007kendall"
+    },
+    {
+      "year": "2007",
+      "volume": "20",
+      "journal": "Advances in neural information processing systems",
+      "author": "Li, Ping and Wu, Qiang and Burges, Christopher",
+      "title": "Mcrank: Learning to rank using multiple classification and gradient boosting",
+      "ENTRYTYPE": "article",
+      "ID": "li2007mcrank"
+    },
+    {
+      "year": "2002",
+      "pages": "133--142",
+      "booktitle": "Proceedings of the eighth ACM SIGKDD international conference on Knowledge discovery and data mining",
+      "author": "Joachims, Thorsten",
+      "title": "Optimizing search engines using clickthrough data",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "joachims2002optimizing"
+    },
+    {
+      "year": "2003",
+      "pages": "933--969",
+      "number": "Nov",
+      "volume": "4",
+      "journal": "Journal of machine learning research",
+      "author": "Freund, Yoav and Iyer, Raj and Schapire, Robert E and Singer, Yoram",
+      "title": "An efficient boosting algorithm for combining preferences",
+      "ENTRYTYPE": "article",
+      "ID": "freund2003efficient"
+    },
+    {
+      "year": "2005",
+      "pages": "89--96",
+      "booktitle": "Proceedings of the 22nd international conference on Machine learning",
+      "author": "Burges, Chris and Shaked, Tal and Renshaw, Erin and Lazier, Ari and Deeds, Matt and Hamilton, Nicole and Hullender, Greg",
+      "title": "Learning to rank using gradient descent",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "burges2005learning"
+    },
+    {
+      "year": "2006",
+      "volume": "19",
+      "journal": "Advances in neural information processing systems",
+      "author": "Burges, Christopher and Ragno, Robert and Le, Quoc",
+      "title": "Learning to rank with nonsmooth cost functions",
+      "ENTRYTYPE": "article",
+      "ID": "burges2006learning"
+    },
+    {
+      "year": "2010",
+      "pages": "81",
+      "number": "23-581",
+      "volume": "11",
+      "journal": "Learning",
+      "author": "Burges, Christopher JC",
+      "title": "From ranknet to lambdarank to lambdamart: An overview",
+      "ENTRYTYPE": "article",
+      "ID": "burges2010ranknet"
+    },
+    {
+      "year": "2019",
+      "pages": "2830--2836",
+      "booktitle": "The World Wide Web Conference",
+      "author": "Hu, Ziniu and Wang, Yang and Peng, Qu and Li, Hang",
+      "title": "Unbiased lambdamart: an unbiased pairwise learning-to-rank algorithm",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "hu2019unbiased"
+    },
+    {
+      "year": "2007",
+      "pages": "391--398",
+      "booktitle": "Proceedings of the 30th annual international ACM SIGIR conference on Research and development in information retrieval",
+      "author": "Xu, Jun and Li, Hang",
+      "title": "Adarank: a boosting algorithm for information retrieval",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "xu2007adarank"
+    },
+    {
+      "year": "2007",
+      "pages": "129--136",
+      "booktitle": "Proceedings of the 24th international conference on Machine learning",
+      "author": "Cao, Zhe and Qin, Tao and Liu, Tie-Yan and Tsai, Ming-Feng and Li, Hang",
+      "title": "Learning to rank: from pairwise approach to listwise approach",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "cao2007learning"
+    },
+    {
+      "year": "2008",
+      "pages": "1192--1199",
+      "booktitle": "Proceedings of the 25th international conference on Machine learning",
+      "author": "Xia, Fen and Liu, Tie-Yan and Wang, Jue and Zhang, Wensheng and Li, Hang",
+      "title": "Listwise approach to learning to rank: theory and algorithm",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "xia2008listwise"
+    },
+    {
+      "year": "2014",
+      "pages": "449--458",
+      "volume": "14",
+      "booktitle": "UAI",
+      "author": "Lan, Yanyan and Zhu, Yadong and Guo, Jiafeng and Niu, Shuzi and Cheng, Xueqi",
+      "title": "Position-Aware ListMLE: A Sequential Learning Process for Ranking.",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "lan2014position"
+    },
+    {
+      "year": "2019",
+      "journal": "arXiv preprint arXiv:1912.07753",
+      "author": "Wang, Xiaojing and Liu, Tianqi and Miao, Jingang",
+      "title": "A deep probabilistic model for customer lifetime value prediction",
+      "ENTRYTYPE": "article",
+      "ID": "wang2019deep"
+    },
+    {
+      "publisher": "BMJ Publishing Group",
+      "year": "1998",
+      "pages": "201",
+      "number": "7126",
+      "volume": "316",
+      "journal": "BMJ: British Medical Journal",
+      "author": "Sibbald, Bonnie and Roland, Martin",
+      "title": "Understanding controlled trials. Why are randomised controlled trials important?",
+      "ENTRYTYPE": "article",
+      "ID": "sibbald1998understanding"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "2018",
+      "pages": "2--21",
+      "volume": "210",
+      "journal": "Social science \\& medicine",
+      "author": "Deaton, Angus and Cartwright, Nancy",
+      "title": "Understanding and misunderstanding randomized controlled trials",
+      "ENTRYTYPE": "article",
+      "ID": "deaton2018understanding"
+    },
+    {
+      "publisher": "Springer",
+      "year": "1992",
+      "pages": "492--518",
+      "booktitle": "Breakthroughs in statistics: Methodology and distribution",
+      "author": "Huber, Peter J",
+      "title": "Robust estimation of a location parameter",
+      "ENTRYTYPE": "incollection",
+      "ID": "huber1992robust"
+    },
+    {
+      "year": "2018",
+      "booktitle": "KDD",
+      "author": "Diemert, Eustache and Betlei, Artem and Renaudin, Christophe and Amini, Massih-Reza",
+      "title": "A large scale benchmark for uplift modeling",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "diemert2018large"
+    },
+    {
+      "year": "2022",
+      "pages": "2310--2319",
+      "booktitle": "Proceedings of the ACM Web Conference 2022",
+      "author": "Ai, Meng and Li, Biao and Gong, Heyang and Yu, Qingwei and Xue, Shengjie and Zhang, Yuan and Zhang, Yunzhou and Jiang, Peng",
+      "title": "LBCF: A Large-Scale Budget-Constrained Causal Forest Algorithm",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ai2022lbcf"
+    },
+    {
+      "year": "2020",
+      "pages": "1603--1610",
+      "number": "02",
+      "volume": "34",
+      "booktitle": "Proceedings of the AAAI Conference on Artificial Intelligence",
+      "author": "Mandi, Jayanta and Stuckey, Peter J and Guns, Tias and others",
+      "title": "Smart predict-and-optimize for hard combinatorial optimization problems",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "mandi2020smart"
+    },
+    {
+      "publisher": "Springer",
+      "year": "2004",
+      "pages": "317--347",
+      "journal": "Knapsack Problems",
+      "author": "Kellerer, Hans and Pferschy, Ulrich and Pisinger, David and Kellerer, Hans and Pferschy, Ulrich and Pisinger, David",
+      "title": "The multiple-choice knapsack problem",
+      "ENTRYTYPE": "article",
+      "ID": "kellerer2004multiple"
+    },
+    {
+      "publisher": "Citeseer",
+      "year": "2008",
+      "pages": "1--32",
+      "volume": "2",
+      "journal": "The Oxford Handbook of Political Methodology",
+      "author": "Sekhon, Jasjeet S",
+      "title": "The Neyman-Rubin Model of Causal Inference and Estimation via Matching Methods",
+      "ENTRYTYPE": "article",
+      "ID": "sekhon2008neyman"
+    },
+    {
+      "year": "2019",
+      "pages": "1820--1830",
+      "booktitle": "Proceedings of the 25th ACM SIGKDD International Conference on Knowledge Discovery \\& Data Mining",
+      "author": "Zhao, Kui and Hua, Junhao and Yan, Ling and Zhang, Qi and Xu, Huan and Yang, Cheng",
+      "title": "A unified framework for marketing budget allocation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zhao2019unified"
+    },
+    {
+      "year": "2021",
+      "pages": "20410--20422",
+      "volume": "34",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Zhang, Yang and Tang, Bo and Yang, Qingyu and An, Dou and Tang, Hongyin and Xi, Chenyang and Li, Xueying and Xiong, Feiyu",
+      "title": "BCORLE ($\\lambda $): An Offline Reinforcement Learning and Evaluation Framework for Coupons Allocation in E-commerce Market",
+      "ENTRYTYPE": "article",
+      "ID": "zhang2021bcorle"
+    },
+    {
+      "year": "2022",
+      "pages": "2863--2872",
+      "booktitle": "Proceedings of the 31st ACM International Conference on Information \\& Knowledge Management",
+      "author": "Albert, Javier and Goldenberg, Dmitri",
+      "title": "E-commerce promotions personalization via online multiple-choice knapsack with uplift modeling",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "albert2022commerce"
+    },
+    {
+      "year": "2023",
+      "pages": "5028--5038",
+      "booktitle": "Proceedings of the 29th ACM SIGKDD Conference on Knowledge Discovery and Data Mining",
+      "author": "Wang, Chao and Shi, Xiaowei and Xu, Shuai and Wang, Zhe and Fan, Zhiqiang and Feng, Yan and You, An and Chen, Yu",
+      "title": "A Multi-stage Framework for Online Bonus Allocation Based on Constrained User Intent Detection",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "wang2023multi"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2017",
+      "pages": "136--145",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Amos, Brandon and Kolter, J Zico",
+      "title": "Optnet: Differentiable optimization as a layer in neural networks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "amos2017optnet"
+    },
+    {
+      "year": "2019",
+      "volume": "32",
+      "journal": "Advances in neural information processing systems",
+      "author": "Agrawal, Akshay and Amos, Brandon and Barratt, Shane and Boyd, Stephen and Diamond, Steven and Kolter, J Zico",
+      "title": "Differentiable convex optimization layers",
+      "ENTRYTYPE": "article",
+      "ID": "agrawal2019differentiable"
+    },
+    {
+      "year": "2019",
+      "pages": "1658--1665",
+      "number": "01",
+      "volume": "33",
+      "booktitle": "Proceedings of the AAAI Conference on Artificial Intelligence",
+      "author": "Wilder, Bryan and Dilkina, Bistra and Tambe, Milind",
+      "title": "Melding the data-decisions pipeline: Decision-focused learning for combinatorial optimization",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "wilder2019melding"
+    },
+    {
+      "year": "2017",
+      "volume": "30",
+      "journal": "Advances in neural information processing systems",
+      "author": "Donti, Priya and Amos, Brandon and Kolter, J Zico",
+      "title": "Task-based end-to-end model learning in stochastic optimization",
+      "ENTRYTYPE": "article",
+      "ID": "donti2017task"
+    },
+    {
+      "year": "2020",
+      "pages": "1504--1511",
+      "number": "02",
+      "volume": "34",
+      "booktitle": "Proceedings of the AAAI Conference on Artificial Intelligence",
+      "author": "Ferber, Aaron and Wilder, Bryan and Dilkina, Bistra and Tambe, Milind",
+      "title": "Mipaal: Mixed integer program as a layer",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ferber2020mipaal"
+    },
+    {
+      "year": "2020",
+      "pages": "7272--7282",
+      "volume": "33",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Mandi, Jayanta and Guns, Tias",
+      "title": "Interior point solving for lp-based prediction+ optimisation",
+      "ENTRYTYPE": "article",
+      "ID": "mandi2020interior"
+    },
+    {
+      "year": "2022",
+      "pages": "1320--1332",
+      "volume": "35",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Shah, Sanket and Wang, Kai and Wilder, Bryan and Perrault, Andrew and Tambe, Milind",
+      "title": "Decision-focused learning without decision-making: Learning locally optimized decision losses",
+      "ENTRYTYPE": "article",
+      "ID": "shah2022decision"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2022",
+      "pages": "14935--14947",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Mandi, Jayanta and Bucarey, V{\\i}ctor and Tchomba, Maxime Mulamba Ke and Guns, Tias",
+      "title": "Decision-focused learning: through the lens of learning to rank",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "mandi2022decision"
+    },
+    {
+      "publisher": "INFORMS",
+      "year": "2022",
+      "pages": "9--26",
+      "number": "1",
+      "volume": "68",
+      "journal": "Management Science",
+      "author": "Elmachtoub, Adam N and Grigas, Paul",
+      "title": "Smart “predict, then optimize”",
+      "ENTRYTYPE": "article",
+      "ID": "elmachtoub2022smart"
+    },
+    {
+      "year": "2020",
+      "journal": "arXiv preprint arXiv:2011.05354",
+      "author": "Mulamba, Maxime and Mandi, Jayanta and Diligenti, Michelangelo and Lombardi, Michele and Bucarey, Victor and Guns, Tias",
+      "title": "Contrastive losses and solution caching for predict-and-optimize",
+      "ENTRYTYPE": "article",
+      "ID": "mulamba2020contrastive"
+    },
+    {
+      "year": "2019",
+      "booktitle": "International Conference on Learning Representations",
+      "author": "Pogan{\\v{c}}i{\\'c}, Marin Vlastelica and Paulus, Anselm and Musil, Vit and Martius, Georg and Rolinek, Michal",
+      "title": "Differentiation of blackbox combinatorial solvers",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "poganvcic2019differentiation"
+    },
+    {
+      "year": "2021",
+      "pages": "14567--14579",
+      "volume": "34",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Niepert, Mathias and Minervini, Pasquale and Franceschi, Luca",
+      "title": "Implicit MLE: backpropagating through discrete exponential family distributions",
+      "ENTRYTYPE": "article",
+      "ID": "niepert2021implicit"
+    },
+    {
+      "year": "2020",
+      "pages": "9508--9519",
+      "volume": "33",
+      "journal": "Advances in neural information processing systems",
+      "author": "Berthet, Quentin and Blondel, Mathieu and Teboul, Olivier and Cuturi, Marco and Vert, Jean-Philippe and Bach, Francis",
+      "title": "Learning with differentiable pertubed optimizers",
+      "ENTRYTYPE": "article",
+      "ID": "berthet2020learning"
+    },
+    {
+      "year": "2019",
+      "author": "Athey, Susan and Tibshirani, Julie and Wager, Stefan",
+      "title": "Generalized random forests",
+      "ENTRYTYPE": "article",
+      "ID": "athey2019generalized"
+    },
+    {
+      "publisher": "Taylor \\& Francis",
+      "year": "2018",
+      "pages": "1228--1242",
+      "number": "523",
+      "volume": "113",
+      "journal": "Journal of the American Statistical Association",
+      "author": "Wager, Stefan and Athey, Susan",
+      "title": "Estimation and inference of heterogeneous treatment effects using random forests",
+      "ENTRYTYPE": "article",
+      "ID": "wager2018estimation"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2016",
+      "pages": "3020--3029",
+      "booktitle": "International conference on machine learning",
+      "author": "Johansson, Fredrik and Shalit, Uri and Sontag, David",
+      "title": "Learning representations for counterfactual inference",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "johansson2016learning"
+    },
+    {
+      "year": "2018",
+      "volume": "31",
+      "journal": "Advances in neural information processing systems",
+      "author": "Yao, Liuyi and Li, Sheng and Li, Yaliang and Huai, Mengdi and Gao, Jing and Zhang, Aidong",
+      "title": "Representation learning for treatment effect estimation from observational data",
+      "ENTRYTYPE": "article",
+      "ID": "yao2018representation"
+    },
+    {
+      "organization": "Springer",
+      "year": "2014",
+      "pages": "50--65",
+      "booktitle": "Machine Learning and Knowledge Discovery in Databases: European Conference, ECML PKDD 2014, Nancy, France, September 15-19, 2014. Proceedings, Part II 14",
+      "author": "Kuusisto, Finn and Costa, Vitor Santos and Nassif, Houssam and Burnside, Elizabeth and Page, David and Shavlik, Jude",
+      "title": "Support vector machines for differential prediction",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "kuusisto2014support"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2307.13565",
+      "author": "Mandi, Jayanta and Kotary, James and Berden, Senne and Mulamba, Maxime and Bucarey, Victor and Guns, Tias and Fioretto, Ferdinando",
+      "title": "Decision-focused learning: Foundations, state of the art, benchmark and future opportunities",
+      "ENTRYTYPE": "article",
+      "ID": "mandi2023decision"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2302.04477",
+      "author": "Yan, Ziang and Wang, Shusen and Zhou, Guorui and Lin, Jingjian and Jiang, Peng",
+      "title": "An End-to-End Framework for Marketing Effectiveness Optimization under Budget Constraint",
+      "ENTRYTYPE": "article",
+      "ID": "yan2023end"
+    },
+    {
+      "publisher": "INFORMS",
+      "year": "1979",
+      "pages": "503--515",
+      "number": "3",
+      "volume": "27",
+      "journal": "Operations Research",
+      "author": "Sinha, Prabhakant and Zoltners, Andris A",
+      "title": "The multiple-choice knapsack problem",
+      "ENTRYTYPE": "article",
+      "ID": "sinha1979multiple"
+    },
+    {
+      "year": "2018",
+      "journal": "arXiv preprint arXiv:1810.00656",
+      "author": "Schwab, Patrick and Linhardt, Lorenz and Karlen, Walter",
+      "title": "Perfect match: A simple method for learning representations for counterfactual inference with neural networks",
+      "ENTRYTYPE": "article",
+      "ID": "schwab2018perfect"
+    },
+    {
+      "year": "2019",
+      "volume": "32",
+      "journal": "Advances in neural information processing systems",
+      "author": "Paszke, Adam and Gross, Sam and Massa, Francisco and Lerer, Adam and Bradbury, James and Chanan, Gregory and Killeen, Trevor and Lin, Zeming and Gimelshein, Natalia and Antiga, Luca and others",
+      "title": "Pytorch: An imperative style, high-performance deep learning library",
+      "ENTRYTYPE": "article",
+      "ID": "paszke2019pytorch"
+    },
+    {
+      "year": "2016",
+      "journal": "arXiv preprint arXiv:1603.04467",
+      "author": "Abadi, Mart{\\'\\i}n and Agarwal, Ashish and Barham, Paul and Brevdo, Eugene and Chen, Zhifeng and Citro, Craig and Corrado, Greg S and Davis, Andy and Dean, Jeffrey and Devin, Matthieu and others",
+      "title": "Tensorflow: Large-scale machine learning on heterogeneous distributed systems",
+      "ENTRYTYPE": "article",
+      "ID": "abadi2016tensorflow"
+    },
+    {
+      "year": "2014",
+      "journal": "arXiv preprint arXiv:1412.6980",
+      "author": "Kingma, Diederik P and Ba, Jimmy",
+      "title": "Adam: A method for stochastic optimization",
+      "ENTRYTYPE": "article",
+      "ID": "kingma2014adam"
+    },
+    {
+      "year": "2019",
+      "journal": "Version 0. x",
+      "author": "Battocchi, Keith and Dillon, Eleanor and Hei, Maggie and Lewis, Greg and Oka, Paul and Oprescu, Miruna and Syrgkanis, Vasilis",
+      "title": "EconML: A Python package for ML-Based heterogeneous treatment effects estimation",
+      "ENTRYTYPE": "article",
+      "ID": "battocchi2019econml"
+    },
+    {
+      "year": "2018",
+      "pages": "932--940",
+      "booktitle": "Proceedings of the 24th ACM SIGKDD international conference on knowledge discovery \\& data mining",
+      "author": "Ye, Peng and Qian, Julian and Chen, Jieying and Wu, Chen-hung and Zhou, Yitong and De Mars, Spencer and Yang, Frank and Zhang, Li",
+      "title": "Customized regression model for airbnb dynamic pricing",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ye2018customized"
+    },
+    {
+      "year": "2024",
+      "pages": "6368--6379",
+      "booktitle": "Proceedings of the 30th ACM SIGKDD Conference on Knowledge Discovery and Data Mining",
+      "author": "Zhou, Hao and Huang, Rongxiao and Li, Shaoming and Jiang, Guibin and Zheng, Jiaqi and Cheng, Bing and Lin, Wei",
+      "title": "Decision focused causal learning for direct counterfactual marketing optimization",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zhou2024decision"
+    },
+    {
+      "year": "2016",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Tobias Schnabel and Adith Swaminathan and Ashudeep Singh and Navin Chandak and Thorsten Joachims",
+      "title": "Recommendations as Treatments: Debiasing Learning and Evaluation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "Schnabel2016RecommendationsAT"
+    },
+    {
+      "url": "https://arxiv.org/abs/2004.14497",
+      "primaryclass": "math.ST",
+      "archiveprefix": "arXiv",
+      "eprint": "2004.14497",
+      "year": "2023",
+      "author": "Edward H. Kennedy",
+      "title": "Towards optimal doubly robust estimation of heterogeneous causal effects",
+      "ENTRYTYPE": "misc",
+      "ID": "kennedy2023optimaldoublyrobustestimation"
+    },
+    {
+      "year": "2019",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Xiaojie Wang and Rui Zhang and Yu Sun and Jianzhong Qi",
+      "title": "Doubly Robust Joint Learning for Recommendation on Data Missing Not at Random",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "Wang2019DoublyRJ"
+    },
+    {
+      "year": "2020",
+      "booktitle": "SIGIR",
+      "author": "Liu, Dugang and Cheng, Pengxiang and Dong, Zhenhua and He, Xiuqiang and Pan, Weike and Ming, Zhong",
+      "title": "A general knowledge distillation framework for counterfactual recommendation via uniform data",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "liu2020general"
+    },
+    {
+      "year": "2018",
+      "booktitle": "RecSys",
+      "author": "Bonner, Stephen and Vasile, Flavian",
+      "title": "Causal embeddings for recommendation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "bonner2018causal"
+    },
+    {
+      "year": "2021",
+      "title": "AutoDebias: Learning to Debias for Recommendation",
+      "date-modified": "2021-09-23 05:43:38 +0000",
+      "date-added": "2021-09-23 05:39:35 +0000",
+      "booktitle": "SIGIR",
+      "author": "Jiawei Chen and Hande Dong and Yang Qiu and Xiangnan He and Xin Xin and Liang Chen and Guli Lin and Keping Yang",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "Chen-etal2021"
+    },
+    {
+      "year": "2021",
+      "title": "Combating Selection Biases in Recommender Systems with A Few Unbiased Ratings",
+      "date-modified": "2021-09-23 07:40:34 +0000",
+      "date-added": "2021-09-23 05:36:07 +0000",
+      "booktitle": "WSDM",
+      "author": "Xiaojie Wang and Rui Zhang and Yu Sun and Jianzhong Qi",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "Wang-etal2021"
+    },
+    {
+      "year": "2023",
+      "pages": "1305--1313",
+      "booktitle": "Proceedings of the ACM Web Conference 2023",
+      "author": "Li, Haoxuan and Xiao, Yanghao and Zheng, Chunyuan and Wu, Peng",
+      "title": "Balancing unobserved confounding with a few unbiased ratings in debiased recommendations",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "li2023balancing"
+    },
+    {
+      "booktitle": "SIGIR",
+      "pages": "3280-3284",
+      "cdate": "1672531200000",
+      "year": "2023",
+      "title": "MDI: A Debiasing Method Combining Unbiased and Biased Data",
+      "author": "Han Zhao and Qing Cui and Xinyu Li and Rongzhou Bao and Longfei Li and Jun Zhou and Zhehao Liu and Jinghua Feng",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "mdi"
+    },
+    {
+      "year": "2024",
+      "volume": "36",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Bansal, Dishank and Chen, Ricky TQ and Mukadam, Mustafa and Amos, Brandon",
+      "title": "Taskmet: Task-driven metric learning for model learning",
+      "ENTRYTYPE": "article",
+      "ID": "bansal2024taskmet"
+    },
+    {
+      "year": "2022",
+      "pages": "11341--11354",
+      "volume": "35",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Kong, Lingkai and Cui, Jiaming and Zhuang, Yuchen and Feng, Rui and Prakash, B Aditya and Zhang, Chao",
+      "title": "End-to-end stochastic optimization with energy-based model",
+      "ENTRYTYPE": "article",
+      "ID": "kong2022end"
+    },
+    {
+      "year": "2024",
+      "volume": "36",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Zharmagambetov, Arman and Amos, Brandon and Ferber, Aaron and Huang, Taoan and Dilkina, Bistra and Tian, Yuandong",
+      "title": "Landscape surrogate: Learning decision losses for mathematical optimization under partial information",
+      "ENTRYTYPE": "article",
+      "ID": "zharmagambetov2024landscape"
+    },
+    {
+      "primaryclass": "cs.LG",
+      "archiveprefix": "arXiv",
+      "eprint": "2308.00788",
+      "year": "2023",
+      "author": "Yihua Zhang and Prashant Khanduri and Ioannis Tsaknakis and Yuguang Yao and Mingyi Hong and Sijia Liu",
+      "title": "An Introduction to Bi-level Optimization: Foundations and Applications in Signal Processing and Machine Learning",
+      "ENTRYTYPE": "misc",
+      "ID": "zhang2023introductionbileveloptimizationfoundations"
+    },
+    {
+      "year": "2023",
+      "pages": "78412--78434",
+      "volume": "36",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Hu, Yifan and Wang, Jie and Xie, Yao and Krause, Andreas and Kuhn, Daniel",
+      "title": "Contextual stochastic bilevel optimization",
+      "ENTRYTYPE": "article",
+      "ID": "hu2023contextual"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2017",
+      "pages": "1126--1135",
+      "booktitle": "International conference on machine learning",
+      "author": "Finn, Chelsea and Abbeel, Pieter and Levine, Sergey",
+      "title": "Model-agnostic meta-learning for fast adaptation of deep networks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "finn2017model"
+    },
+    {
+      "year": "2019",
+      "volume": "32",
+      "journal": "Advances in neural information processing systems",
+      "author": "Rajeswaran, Aravind and Finn, Chelsea and Kakade, Sham M and Levine, Sergey",
+      "title": "Meta-learning with implicit gradients",
+      "ENTRYTYPE": "article",
+      "ID": "rajeswaran2019meta"
+    },
+    {
+      "publisher": "Carnegie-Mellon University. Department of Computer Science Pittsburgh",
+      "year": "1994",
+      "author": "Shewchuk, Jonathan Richard and others",
+      "title": "An introduction to the conjugate gradient method without the agonizing pain",
+      "ENTRYTYPE": "article",
+      "ID": "shewchuk1994introduction"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "2025",
+      "pages": "271--289",
+      "number": "2",
+      "volume": "320",
+      "journal": "European Journal of Operational Research",
+      "author": "Sadana, Utsav and Chenreddy, Abhilash and Delage, Erick and Forel, Alexandre and Frejinger, Emma and Vidal, Thibaut",
+      "title": "A survey of contextual optimization methods for decision-making under uncertainty",
+      "ENTRYTYPE": "article",
+      "ID": "sadana2025survey"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2023",
+      "pages": "21839--21866",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Liu, Risheng and Liu, Yaohua and Yao, Wei and Zeng, Shangzhi and Zhang, Jin",
+      "title": "Averaged method of multipliers for bi-level optimization without lower-level strong convexity",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "liu2023averaged"
+    },
+    {
+      "year": "2016",
+      "booktitle": "1st DLRS workshop",
+      "author": "Cheng, Heng-Tze and Koc, Levent and Harmsen, Jeremiah and Shaked, Tal and Chandra, Tushar and Aradhye, Hrishi and Anderson, Glen and Corrado, Greg and Chai, Wei and Ispir, Mustafa and others",
+      "title": "Wide \\& deep learning for recommender systems",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "cheng2016wide"
+    },
+    {
+      "year": "2023",
+      "booktitle": "AAAI",
+      "author": "Haoxuan Li and Quanyu Dai and Yuru Li and Yan Lyu and Zhenhua Dong and Xiao-Hua Zhou and Peng Wu",
+      "title": "Multiple Robust Learning for Recommendation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "li-etal-MR2023"
+    },
+    {
+      "year": "2014",
+      "pages": "",
+      "booktitle": "KDD",
+      "title": "Modeling delayed feedback in display advertising",
+      "author": "Olivier Chapelle",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "KDD_Chapelle14"
+    },
+    {
+      "year": "2021",
+      "booktitle": "AAAI",
+      "title": "Delayed Feedback Modeling for the Entire Space Conversion Rate Prediction",
+      "author": "Yanshi Wang and\nJie Zhang and\nQing Da and\nAnxiang Zeng",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "AAAI_ywjzqdaz21"
+    },
+    {
+      "year": "2020",
+      "booktitle": "WWW",
+      "title": "Large-scale Causal Approaches to Debiasing Post-click Conversion Rate Estimation with Multi-task Learning",
+      "author": "Wenhao Zhang and\nWentian Bao and\nXiao{-}Yang Liu and\nKeping Yang and\nQuan Lin and\nHong Wen and\nRamin Ramezani",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "Multi_IPW"
+    },
+    {
+      "year": "2018",
+      "pages": "1137–1140",
+      "booktitle": "SIGIR",
+      "title": "Entire Space Multi-Task Model: An Effective Approach for\nEstimating Post-Click Conversion Rate",
+      "author": "Xiao Ma and Liqin Zhao and Guan Huang and \nZhi Wang and Zelin Hu and Xiaoqiang Zhu and \nKun Gai",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ESMM18"
+    },
+    {
+      "year": "2020",
+      "pages": "3522--3528",
+      "booktitle": "IJCAI",
+      "title": "An Attention-based Model for Conversion Rate Prediction with Delayed Feedback via Post-click Calibration",
+      "author": "Yumin Su and\nLiang Zhang and\nQuanyu Dai and\nBo Zhang and\nJinyao Yan and\nDan Wang and\nYongjun Bao and\nSulong Xu and\nYang He and\nWeipeng Yan",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "IJCAI_SuZDZYWBXHY20"
+    },
+    {
+      "year": "2020",
+      "publisher": "{ACM}",
+      "pages": "2377--2386",
+      "booktitle": "SIGIR",
+      "title": "Entire Space Multi-Task Modeling via Post-Click Behavior Decomposition\nfor Conversion Rate Prediction",
+      "author": "Hong Wen and\nJing Zhang and\nYuan Wang and\nFuyu Lv and\nWentian Bao and\nQuan Lin and\nKeping Yang",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "SIGIR_WenZWLBLY20"
+    },
+    {
+      "year": "2019",
+      "pages": "349--358",
+      "booktitle": "CIKM",
+      "title": "Regularized Adversarial Sampling and Deep Time-aware Attention for\nClick-Through Rate Prediction",
+      "author": "Yikai Wang and\nLiang Zhang and\nQuanyu Dai and\nFuchun Sun and\nBo Zhang and\nYang He and\nWeipeng Yan and\nYongjun Bao",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "CIKM_WangZDSZHYB19"
+    },
+    {
+      "year": "2017",
+      "booktitle": "IJCAI",
+      "author": "Guo, Huifeng and Tang, Ruiming and Ye, Yunming and Li, Zhenguo and He, Xiuqiang",
+      "title": "Deepfm: a factorization-machine based neural network for ctr prediction",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "guo2017deepfm"
+    },
+    {
+      "year": "2017",
+      "pages": "1--7",
+      "booktitle": "ADKDD",
+      "author": "Wang, Ruoxi and Fu, Bin and Fu, Gang and Wang, Mingliang",
+      "title": "Deep \\& cross network for ad click predictions",
+      "ENTRYTYPE": "incollection",
+      "ID": "wang2017deep"
+    },
+    {
+      "year": "2017",
+      "journal": "IJCSIS",
+      "title": "Click Through Rate Prediction for Contextual Advertisment Using Linear\nRegression",
+      "author": "Muhammad Junaid Effendi and\nSyed Abbas Ali",
+      "ENTRYTYPE": "article",
+      "ID": "CTR_LR_IJCSIS17"
+    },
+    {
+      "year": "2010",
+      "booktitle": "ICDM",
+      "author": "Rendle, Steffen",
+      "title": "Factorization machines",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "rendle2010factorization"
+    },
+    {
+      "year": "2016",
+      "pages": "43--50",
+      "booktitle": "RecSys",
+      "author": "Juan, Yuchin and Zhuang, Yong and Chin, Wei-Sheng and Lin, Chih-Jen",
+      "title": "Field-aware factorization machines for CTR prediction",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "juan2016field"
+    },
+    {
+      "year": "2007",
+      "booktitle": "WWW",
+      "author": "Richardson, Matthew and Dominowska, Ewa and Ragno, Robert",
+      "title": "Predicting clicks: estimating the click-through rate for new ads",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "richardson2007predicting"
+    },
+    {
+      "title": "Causal Inference by Surrogate Experiments: z-Identifiability",
+      "date-modified": "2021-09-23 05:43:38 +0000",
+      "date-added": "2021-09-23 05:39:35 +0000",
+      "booktitle": "UAI",
+      "author": "Elias Bareinboim and Judea Pearl",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "Bareinboim-Pearl2012"
+    },
+    {
+      "year": "2020",
+      "notes": "Sourced from Microsoft Academic - https://academic.microsoft.com/paper/3034348890",
+      "booktitle": "SIGIR",
+      "author": "Yuta {Saito}",
+      "title": "Asymmetric Tri-training for Debiasing Missing-Not-At-Random Explicit Feedback",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "saito2020asymmetric"
+    },
+    {
+      "year": "2020",
+      "volume": "15",
+      "title": "Bayesian Regression Tree Models for Causal Inference: Regularization, Confounding, and Heterogeneous Effects (with Discussion)",
+      "pages": "965-1056",
+      "journal": "Journal of the American Statistical Association",
+      "date-modified": "2020-05-25 11:17:42 +0000",
+      "date-added": "2018-12-28 13:46:22 +0000",
+      "author": "P. Richard Hahn. Jared S. Murray. Carlos M. Carvalho",
+      "ENTRYTYPE": "article",
+      "ID": "Hahn-Murray-Carvalho2020"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv:2204.05125",
+      "author": "Wang, Hao and Chang, Tai-Wei and Liu, Tianqiao and Huang, Jianmin and Chen, Zhichao and Yu, Chao and Li, Ruopeng and Chu, Wei",
+      "title": "ESCM$^2$: Entire Space Counterfactual Multi-Task Model for Post-Click Conversion Rate Estimation",
+      "ENTRYTYPE": "article",
+      "ID": "wang2022escm"
+    },
+    {
+      "year": "2019",
+      "title": "Modified causal forests for estimating heterogeneous causal effects",
+      "journal": "arxiv.org/abs/1812.09487v2",
+      "date-modified": "2020-05-25 10:58:01 +0000",
+      "date-added": "2019-03-24 03:13:47 +0000",
+      "author": "Michael Lechner",
+      "ENTRYTYPE": "article",
+      "ID": "Lechner-2019"
+    },
+    {
+      "year": "2020",
+      "title": "Orthogonal random forest for causal inference",
+      "journal": "arxiv.org/abs/1806.03467v4",
+      "date-modified": "2020-05-25 11:06:47 +0000",
+      "date-added": "2019-03-24 03:13:47 +0000",
+      "author": "Miruna Oprescu and Vasilis Syrgkanis and Zhiwei Steven Wu",
+      "ENTRYTYPE": "article",
+      "ID": "Oprescu-etal-2020"
+    },
+    {
+      "year": "1996",
+      "volume": "91",
+      "title": "Identification of Causal Effects Using Instrumental Variables",
+      "pages": "444-455",
+      "journal": "Journal of the American Statistical Association",
+      "date-modified": "2020-05-25 11:17:42 +0000",
+      "date-added": "2018-12-28 13:46:22 +0000",
+      "author": "Joshua D. Angrist and Guido W. Imbens and Donald B. Rubin",
+      "ENTRYTYPE": "article",
+      "ID": "IV-1996"
+    },
+    {
+      "year": "2018",
+      "volume": "113",
+      "title": "Estimation and Inference of Heterogeneous Treatment Effects using Random Forests",
+      "pages": "1228-1242",
+      "journal": "Journal of the American Statistical Association",
+      "date-modified": "2020-05-25 11:17:42 +0000",
+      "date-added": "2018-12-28 13:46:22 +0000",
+      "author": "Stefan Wager and Susan Athey",
+      "ENTRYTYPE": "article",
+      "ID": "Wager-Athey-2018"
+    },
+    {
+      "year": "2019",
+      "volume": "47",
+      "title": "Generalized random forests",
+      "pages": "1148-1178",
+      "journal": "The Annals of Statistics",
+      "date-modified": "2020-05-25 10:28:39 +0000",
+      "date-added": "2018-12-28 14:56:51 +0000",
+      "author": "Susan Athey and Julia Tibshirani and Stefan Wager",
+      "ENTRYTYPE": "article",
+      "ID": "Athey-Tibshirani-Wager-2019"
+    },
+    {
+      "year": "2015",
+      "volume": "113",
+      "title": "Recursive Partitioning for Heterogeneous Causal Effects",
+      "pages": "7353-7360",
+      "journal": "PNAS",
+      "date-modified": "2020-05-25 10:25:19 +0000",
+      "date-added": "2019-01-28 02:42:58 +0000",
+      "author": "S. Athey and G. W. Imbens",
+      "ENTRYTYPE": "article",
+      "ID": "Athey-Imbens-2015"
+    },
+    {
+      "year": "2011",
+      "volume": "20",
+      "title": "Bayesian nonparametric modeling for causal inference",
+      "pages": "217–240",
+      "journal": "Journal of\nComputational and Graphical Statistics",
+      "date-modified": "2021-03-30 01:44:16 +0000",
+      "date-added": "2021-03-30 01:42:20 +0000",
+      "author": "Jennifer L Hill",
+      "ENTRYTYPE": "article",
+      "ID": "Hill2011"
+    },
+    {
+      "year": "2002",
+      "volume": "16",
+      "title": "Incremental value modeling",
+      "pages": "35-46",
+      "journal": "Journal of\nInteractive Marketing",
+      "date-modified": "2021-03-30 01:44:16 +0000",
+      "date-added": "2021-03-30 01:42:20 +0000",
+      "author": "Behram Hansotia and Brad Rukstales",
+      "ENTRYTYPE": "article",
+      "ID": "Hansotia-Rukstales2001"
+    },
+    {
+      "year": "2021",
+      "volume": "108",
+      "title": "Quasi-oracle estimation of heterogeneous treatment effects",
+      "pages": "4156–4165",
+      "journal": "Biometrika",
+      "date-modified": "2021-03-30 01:44:16 +0000",
+      "date-added": "2021-03-30 01:42:20 +0000",
+      "author": "X Nie and S Wager",
+      "ENTRYTYPE": "article",
+      "ID": "Nie-Wager2021"
+    },
+    {
+      "year": "2019",
+      "volume": "116",
+      "title": "Metalearners for\nestimating heterogeneous treatment effects using machine learning",
+      "pages": "4156–4165",
+      "journal": "PNAS",
+      "date-modified": "2021-03-30 01:44:16 +0000",
+      "date-added": "2021-03-30 01:42:20 +0000",
+      "author": "Soren R Kunzel and Jasjeet S Sekhon and Peter J Bickel and Bin Y",
+      "ENTRYTYPE": "article",
+      "ID": "Kunzel-etal2019"
+    },
+    {
+      "year": "1952",
+      "volume": "47",
+      "title": "A generalization of sampling without\nreplacement from a finite universe",
+      "pages": "663–685",
+      "journal": "Journal of the American Statistical Association",
+      "date-modified": "2021-03-30 01:44:16 +0000",
+      "date-added": "2021-03-30 01:42:20 +0000",
+      "author": "Daniel G Horvitz and Donovan J Thompson",
+      "ENTRYTYPE": "article",
+      "ID": "Horvitz-Thompson1952"
+    },
+    {
+      "year": "2020",
+      "title": "Optimal doubly robust estimation of heterogeneous causal effects",
+      "journal": "https://arxiv.org/abs/2004.14497v1",
+      "date-modified": "2020-07-14 05:12:03 +0000",
+      "date-added": "2020-07-14 05:11:40 +0000",
+      "author": "Edward H. Kennedy",
+      "ENTRYTYPE": "article",
+      "ID": "Kennedy-2020"
+    },
+    {
+      "year": "2019",
+      "booktitle": "NeurIPS Workshop",
+      "author": "Saito, Yuta",
+      "title": "Unbiased Pairwise Learning from Implicit Feedback",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "saito2019unbiased"
+    },
+    {
+      "year": "2017",
+      "notes": "Sourced from Microsoft Academic - https://academic.microsoft.com/paper/2565948352",
+      "pages": "1341--1350",
+      "booktitle": "WWW",
+      "author": "Immanuel {Bayer} and Xiangnan {He} and Bhargav {Kanagal} and Steffen {Rendle}",
+      "title": "A Generic Coordinate Descent Framework for Learning from Implicit Feedback",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "bayer2017a"
+    },
+    {
+      "year": "2008",
+      "notes": "Sourced from Microsoft Academic - https://academic.microsoft.com/paper/2101409192",
+      "pages": "263--272",
+      "booktitle": "2008 Eighth IEEE International Conference on Data Mining",
+      "author": "Yifan {Hu} and Y. {Koren} and C. {Volinsky}",
+      "title": "Collaborative Filtering for Implicit Feedback Datasets",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "hu2008collaborative"
+    },
+    {
+      "year": "2019",
+      "author": "Bowen Yuan and Meng-Yuan Yang and Jui-Yang Hsia and Hong Zhu and Zhirong Liu and Zhenhua Dong and Chih-Jen Lin",
+      "title": "One-class Field-aware Factorization Machines for Recommender Systems with Implicit Feedbacks",
+      "ENTRYTYPE": "article",
+      "ID": "2019One"
+    },
+    {
+      "year": "2021",
+      "volume": "116",
+      "title": "More Efficient Policy Learning via Optimal\nRetargeting",
+      "pages": "646-658",
+      "journal": "Journal of the American Statistical Association",
+      "date-modified": "2021-03-30 01:44:16 +0000",
+      "date-added": "2021-03-30 01:42:20 +0000",
+      "author": "Nathan Kallus",
+      "ENTRYTYPE": "article",
+      "ID": "Kallus2021"
+    },
+    {
+      "title": "Modeling task relationships in multi-task learning with multi-gate mixture-of experts",
+      "date-modified": "2021-09-23 05:43:38 +0000",
+      "date-added": "2021-09-23 05:39:35 +0000",
+      "booktitle": "KDD",
+      "author": "Jiaqi Ma and Zhe Zhao and Xinyang Yi and Jilin Chen and Lichan Hong and Ed H Chi",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "Ma-etal2018"
+    },
+    {
+      "title": "Improving Ad Click Prediction by Considering Non-displayed Events",
+      "date-modified": "2021-09-23 05:43:38 +0000",
+      "date-added": "2021-09-23 05:39:35 +0000",
+      "booktitle": "CIKM",
+      "author": "Bowen Yuan and Jui-Yang Hsia and Meng-Yuan Yang and Hong Zhu and Chih-Yao Chang and Zhenhua Dong and Chih-Jen Lin",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "Yuan-etal2019"
+    },
+    {
+      "title": "Deep & Cross Network for Ad Click Predictions",
+      "date-modified": "2021-09-23 05:43:38 +0000",
+      "date-added": "2021-09-23 05:39:35 +0000",
+      "booktitle": "ADKDD",
+      "author": "Ruoxi Wang and Bin Fu and Gang Fu and Mingliang Wang\n",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "Wang-etal2017"
+    },
+    {
+      "title": "AutoConjunction: Adaptive Model-based Feature Conjunction for CTR Prediction",
+      "date-modified": "2021-09-23 05:43:38 +0000",
+      "date-added": "2021-09-23 05:39:35 +0000",
+      "booktitle": "MDM",
+      "author": "Chih-Yao Chang and Xing Tang and Bo-Wen Yuan and Jui-Yang Hsia and Zhirong Liu and Zhenhua Dong and Xiuqiang He and Chih-Jen Lin",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "Chang-etal2020"
+    },
+    {
+      "year": "2020",
+      "notes": "Sourced from Microsoft Academic - https://academic.microsoft.com/paper/3089214483",
+      "pages": "568--569",
+      "booktitle": "Fourteenth ACM Conference on Recommender Systems",
+      "author": "Zhenhua {Dong} and Hong {Zhu} and Pengxiang {Cheng} and Xinhua {Feng} and Guohao {Cai} and Xiuqiang {He} and Jun {Xu} and Jirong {Wen}",
+      "title": "Counterfactual learning for recommender system",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "dong2020counterfactual"
+    },
+    {
+      "year": "2021",
+      "notes": "Sourced from Microsoft Academic - https://academic.microsoft.com/paper/3199916614",
+      "booktitle": "RecSys",
+      "author": "Dugang {Liu} and Pengxiang {Cheng} and Hong {Zhu} and Zhenhua {Dong} and Xiuqiang {He} and Weike {Pan} and Zhong {Ming}",
+      "title": "Mitigating Confounding Bias in Recommendation via Information Bottleneck",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "liu2021mitigating"
+    },
+    {
+      "year": "2021",
+      "volume": "116",
+      "title": "Estimation of optimal individualized treatment rules using a covariate-specific treatment effect curve with high-dimensional covariates",
+      "pages": "309-321",
+      "journal": "Journal of the American Statistical Association",
+      "date-modified": "2021-03-30 01:44:16 +0000",
+      "date-added": "2021-03-30 01:42:20 +0000",
+      "author": "Wenchuan Guo and Xiao Hua Zhou and Shujie Ma",
+      "ENTRYTYPE": "article",
+      "ID": "Guo-Zhou-Ma2021"
+    },
+    {
+      "year": "2011",
+      "title": "Targeted Learning: Causal Inference for Observational and Experimental Data",
+      "publisher": "Springer",
+      "date-modified": "2021-09-23 07:58:35 +0000",
+      "date-added": "2021-09-17 02:26:29 +0000",
+      "author": "Mark J. van der Laan and Sherri Rose",
+      "ENTRYTYPE": "book",
+      "ID": "Laan-Rose2011"
+    },
+    {
+      "year": "2018",
+      "title": "Targeted Learning in Data Science: Causal Inference for Complex Longitudinal Studies",
+      "publisher": "Springer",
+      "date-modified": "2021-09-23 07:58:35 +0000",
+      "date-added": "2021-09-17 02:26:29 +0000",
+      "author": "Mark J. van der Laan and Sherri Rose",
+      "ENTRYTYPE": "book",
+      "ID": "Laan-Rose2018"
+    },
+    {
+      "year": "2015",
+      "title": "Counterfactuals and Causal Inference: Methods and Principles for Social Research",
+      "publisher": "Cambridge University Press",
+      "edition": "Second",
+      "date-modified": "2021-09-23 07:58:35 +0000",
+      "date-added": "2021-09-17 02:26:29 +0000",
+      "author": "Stephen L. Morgan and Christopher Winship",
+      "ENTRYTYPE": "book",
+      "ID": "Morgan-Winship-2015"
+    },
+    {
+      "year": "1986",
+      "volume": "81",
+      "title": "Statistics and Causal Inference",
+      "pages": "945-960",
+      "journal": "Journal of the American Statistical Association",
+      "date-modified": "2020-05-25 11:11:09 +0000",
+      "date-added": "2018-09-10 10:33:11 +0000",
+      "author": "Paul W. Holland",
+      "ENTRYTYPE": "article",
+      "ID": "Holland1986"
+    },
+    {
+      "year": "1983",
+      "volume": "70",
+      "title": "The central role of the propensity score in observational studies for causal effects",
+      "pages": "41-55",
+      "journal": "Biometrika",
+      "date-modified": "2020-05-25 11:11:09 +0000",
+      "date-added": "2018-09-10 10:33:11 +0000",
+      "author": "Paul R. Rosenbaum and Donald B. Rubin",
+      "ENTRYTYPE": "article",
+      "ID": "Rosenbaum-Rubin1983"
+    },
+    {
+      "year": "1980",
+      "volume": "75",
+      "title": "Discussion of Randomization Analysis of Experimental Data in the Fisher Randomization Test by Basu",
+      "pages": "591-593",
+      "journal": "Journal of the American Statistical Association",
+      "date-modified": "2020-05-25 11:12:10 +0000",
+      "date-added": "2018-09-11 06:56:19 +0000",
+      "author": "Donald B. Rubin",
+      "ENTRYTYPE": "article",
+      "ID": "Rubin1980"
+    },
+    {
+      "year": "2021",
+      "volume": "116",
+      "title": "Graphical Models for Processing Missing Data",
+      "pages": "1023-1037",
+      "number": "534",
+      "journal": "Journal of the American Statistical Association",
+      "date-modified": "2021-09-28 13:16:42 +0000",
+      "date-added": "2021-09-28 13:12:19 +0000",
+      "author": "Karthika Mohan and Judea Pearl",
+      "ENTRYTYPE": "article",
+      "ID": "Mohan-Pearl2021"
+    },
+    {
+      "year": "2019",
+      "volume": "62",
+      "title": "The seven tools of causal inference, with reflections on machine learning",
+      "pages": "54-60",
+      "number": "3",
+      "journal": "Communications of the ACM",
+      "date-modified": "2021-09-23 14:56:33 +0000",
+      "date-added": "2021-09-23 14:54:43 +0000",
+      "author": "Judea Pearl",
+      "ENTRYTYPE": "article",
+      "ID": "Pearl2019"
+    },
+    {
+      "year": "2018",
+      "title": "Learning\nto Reweight Examples for Robust Deep Learning",
+      "date-modified": "2021-09-23 05:43:38 +0000",
+      "date-added": "2021-09-23 05:39:35 +0000",
+      "booktitle": "ICML",
+      "author": "Mengye Ren and Wenyuan Zeng and Bin Yang and Raquel Urtasun",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "Ren-etal2018"
+    },
+    {
+      "year": "2015",
+      "title": "Gradient-based\nhyperparameter optimization through reversible learning",
+      "date-modified": "2021-09-23 05:43:38 +0000",
+      "date-added": "2021-09-23 05:39:35 +0000",
+      "booktitle": "ICML",
+      "author": "Dougal Maclaurin and David Duvenaud and Ryan P Adams",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "Maclaurin-etal2015"
+    },
+    {
+      "year": "2018",
+      "title": "Deep Bilevel Learning",
+      "date-modified": "2021-09-23 05:43:38 +0000",
+      "date-added": "2021-09-23 05:39:35 +0000",
+      "booktitle": "ECCV",
+      "author": "Simon Jenni and Paolo Favaro",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "Jenni-Favaro2018"
+    },
+    {
+      "year": "2017",
+      "booktitle": "WWW",
+      "author": "He, Xiangnan and Liao, Lizi and Zhang, Hanwang and Nie, Liqiang and Hu, Xia and Chua, Tat-Seng",
+      "title": "Neural collaborative filtering",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "he2017neural"
+    },
+    {
+      "year": "2017",
+      "booktitle": "RecSys",
+      "author": "Abdollahpouri, Himan and Burke, Robin and Mobasher, Bamshad",
+      "title": "Controlling popularity bias in learning-to-rank recommendation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "abdollahpouri2017controlling"
+    },
+    {
+      "year": "2021",
+      "booktitle": "KDD",
+      "author": "Wang, Wenjie and Feng, Fuli and He, Xiangnan and Wang, Xiang and Chua, Tat-Seng",
+      "title": "Deconfounded recommendation for alleviating bias amplification",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "wang2021deconfounded"
+    },
+    {
+      "year": "2020",
+      "booktitle": "WSDM",
+      "author": "Saito, Yuta and Yaginuma, Suguru and Nishino, Yuta and Sakata, Hayato and Nakata, Kazuhide",
+      "title": "Unbiased recommender learning from missing-not-at-random implicit feedback",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "saito2020ips"
+    },
+    {
+      "year": "2018",
+      "address": "",
+      "publisher": "",
+      "booktitle": "SIGIR",
+      "author": "Ai, Qingyao and Bi, Keping and Luo, Cheng and Guo, Jiafeng and Croft, W Bruce",
+      "title": "Unbiased learning to rank with unbiased propensity estimation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ai2018unbiased"
+    },
+    {
+      "year": "2016",
+      "booktitle": "RecSys",
+      "title": "Are You Influenced by Others When Rating? Improve Rating Prediction\nby Conformity Modeling",
+      "author": "Yiming Liu and\nXuezhi Cao and\nYong Yu",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "DBLP:conf/recsys/LiuCY16"
+    },
+    {
+      "year": "2021",
+      "booktitle": "SIGIR",
+      "author": "Zhang, Yang and Feng, Fuli and He, Xiangnan and Wei, Tianxin and Song, Chonggang and Ling, Guohui and Zhang, Yongdong",
+      "title": "Causal intervention for leveraging popularity bias in recommendation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zhang2021causal"
+    },
+    {
+      "year": "2020",
+      "title": "Bias and Debias in Recommender System: A Survey and Future Directions",
+      "journal": "arXiv:2010.03240",
+      "date-modified": "2021-09-23 05:09:52 +0000",
+      "author": "Jiawei Chen and Hande Dong and Xiang Wang and Fuli Feng and Meng Wang and Xiangnan He",
+      "ENTRYTYPE": "article",
+      "ID": "Chen-etal2020"
+    },
+    {
+      "year": "2016",
+      "booktitle": "WWW",
+      "author": "Liang, Dawen and Charlin, Laurent and McInerney, James and Blei, David M",
+      "title": "Modeling user exposure in recommendation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "liang2016modeling"
+    },
+    {
+      "year": "2020",
+      "title": "Modeling and Counteracting Exposure Bias in Recommender Systems",
+      "journal": "arXiv:2001.04832",
+      "date-modified": "2021-09-23 05:09:52 +0000",
+      "author": "Sami Khenissi and Olfa Nasraoui",
+      "ENTRYTYPE": "article",
+      "ID": "Khenissi2020"
+    },
+    {
+      "year": "2016",
+      "volume": "113",
+      "title": "Causal inference and the data-fusion problem",
+      "pages": "7345-7352",
+      "journal": "Proceedings of the National Academy of Sciences",
+      "date-modified": "2021-09-21 02:08:35 +0000",
+      "date-added": "2021-09-21 02:06:07 +0000",
+      "author": "Elias Bareinboim and Judea Pearl",
+      "ENTRYTYPE": "article",
+      "ID": "Bareinboim-Pearl2016"
+    },
+    {
+      "year": "2008",
+      "volume": "32",
+      "title": "Does obesity shorten life? The importance of well-defined interventions to answer causal questions",
+      "pages": "S8--S14",
+      "journal": "International Journal of Obesity",
+      "date-modified": "2021-09-23 10:04:06 +0000",
+      "date-added": "2021-09-17 09:44:00 +0000",
+      "author": "Miguel A. Hern{\\'a}n and S. L. Taubman",
+      "ENTRYTYPE": "article",
+      "ID": "Hernan-Taubman2008"
+    },
+    {
+      "year": "2020",
+      "volume": "39",
+      "title": "Formulating causal questions and principled statistical answers",
+      "pages": "4922--4948",
+      "journal": "Statistics In Medicine",
+      "date-modified": "2021-09-17 13:33:35 +0000",
+      "date-added": "2021-09-17 09:37:57 +0000",
+      "author": "Els Goetghebeur and Saskia le Cessie and Bianca De Stavola and Erica EM Moodie and IngeborgWaernbaum and",
+      "ENTRYTYPE": "article",
+      "ID": "Goetghebeur-etal2020"
+    },
+    {
+      "year": "2009",
+      "title": "Causality: Models, Reasoning, and Inference",
+      "publisher": "Cambridge University Press",
+      "edition": "Second",
+      "date-modified": "2021-09-23 07:58:35 +0000",
+      "date-added": "2021-09-17 02:26:29 +0000",
+      "author": "Judea Pearl",
+      "ENTRYTYPE": "book",
+      "ID": "Pearl-2009"
+    },
+    {
+      "year": "2018",
+      "booktitle": "NeurIPS",
+      "title": "Confounding-Robust Policy Improvement",
+      "author": "Nathan Kallus and Angela Zhou",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "Kallus-Zhou2018"
+    },
+    {
+      "year": "2018",
+      "title": "Removing hidden confounding by experimental grounding",
+      "booktitle": "NeurIPS",
+      "author": "Kallus, Nathan and Puli, Aahlad Manas and Shalit, Uri",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "kallus2018removing"
+    },
+    {
+      "year": "2011",
+      "title": "Negative controls: a tool for detecting confounding and bias in observational studies",
+      "journal": "Epidemiology",
+      "author": "Marc Lipsitch and Eric Tchetgen Tchetgen and Ted Cohen",
+      "ENTRYTYPE": "article",
+      "ID": "NegControl"
+    },
+    {
+      "year": "2021",
+      "title": "Improving efficiency of inference in clinical trials with external control data",
+      "publisher": "Wiley Online Library",
+      "journal": "Biometrics",
+      "author": "Li, Xinyu and Miao, Wang and Lu, Fang and Zhou, Xiao-Hua",
+      "ENTRYTYPE": "article",
+      "ID": "li2021improving"
+    },
+    {
+      "year": "2019",
+      "title": "Causal inference and data fusion in econometrics",
+      "journal": "arXiv:1912.09104",
+      "date-modified": "2022-07-20 06:37:08 +0000",
+      "author": "H{\\\"u}nermund, Paul and Bareinboim, Elias",
+      "ENTRYTYPE": "article",
+      "ID": "hunermund2019causal"
+    },
+    {
+      "year": "2016",
+      "volume": "113",
+      "title": "Causal inference and the data-fusion problem",
+      "publisher": "National Acad Sciences",
+      "pages": "7345--7352",
+      "number": "27",
+      "journal": "Proceedings of the National Academy of Sciences",
+      "author": "Bareinboim, Elias and Pearl, Judea",
+      "ENTRYTYPE": "article",
+      "ID": "bareinboim2016causal"
+    },
+    {
+      "year": "2020",
+      "pages": "1129--79",
+      "journal": "Journal of Economic Literature",
+      "author": "Imbens, Guido W",
+      "title": "Potential outcome and directed acyclic graph approaches to causality: Relevance for empirical practice in economics",
+      "ENTRYTYPE": "article",
+      "ID": "imbens2020potential"
+    },
+    {
+      "year": "2002",
+      "pages": "553--578",
+      "journal": "Risk analysis",
+      "author": "Christopher Frey, H and Patil, Sumeet R",
+      "title": "Identification and review of sensitivity analysis methods",
+      "ENTRYTYPE": "article",
+      "ID": "christopher2002identification"
+    },
+    {
+      "year": "2016",
+      "title": "Causal inference in statistics: a primer",
+      "publisher": "Wiley",
+      "date-modified": "2021-09-23 07:57:46 +0000",
+      "date-added": "2019-05-11 16:05:37 +0000",
+      "author": "Judea Pearl and Madelyn Glymour and Nicholas P. Jewell",
+      "ENTRYTYPE": "book",
+      "ID": "Pearl-Glymour-Jewell2016"
+    },
+    {
+      "year": "2020",
+      "title": "Causal Inference: What If",
+      "publisher": "Boca Raton: Chapman and Hall/CRC",
+      "date-modified": "2021-09-23 07:54:15 +0000",
+      "date-added": "2018-10-23 00:57:18 +0000",
+      "author": "Miguel A. Hern{\\'a}n and James M. Robins",
+      "ENTRYTYPE": "book",
+      "ID": "Hernan-Robins2020"
+    },
+    {
+      "year": "1990",
+      "volume": "5",
+      "title": "On the application of probability theory to agricultural experiments. Essay on principles. Section 9",
+      "pages": "465-472",
+      "journal": "Statistical Science",
+      "date-modified": "2021-05-04 03:16:50 +0000",
+      "author": "Jerzy Splawa Neyman",
+      "ENTRYTYPE": "article",
+      "ID": "Neyman1990"
+    },
+    {
+      "year": "2020",
+      "title": "Design of Observational Studies",
+      "publisher": "Springer Nature Switzerland AG",
+      "edition": "Second",
+      "date-modified": "2021-09-16 14:32:53 +0000",
+      "date-added": "2021-09-16 14:29:33 +0000",
+      "author": "Paul R. Rosenbaum",
+      "ENTRYTYPE": "book",
+      "ID": "Rosenbaum2020"
+    },
+    {
+      "year": "2014",
+      "title": "Recovering from Selection Bias in Causal and Statistical Inference",
+      "date-modified": "2021-09-23 07:41:09 +0000",
+      "booktitle": "AAAI",
+      "author": "Elias Bareinboim and Jin Tian and Judea Pearl",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "Bareinboim-etal2014"
+    },
+    {
+      "year": "2019",
+      "title": "Identification of Causal Effect in the Presence of Selection Bias",
+      "date-modified": "2021-09-26 12:23:39 +0000",
+      "booktitle": "AAAI",
+      "author": "Juan D. Correa and Jin Tian and Elias Bareinboim",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "Correa-etal2019"
+    },
+    {
+      "year": "2020",
+      "title": "Large-scale Causal Approaches to Debiasing Post-click Conversion Rate Estimation with Multi-task Learning",
+      "booktitle": "WWW",
+      "author": "Wenhao Zhang and Wentian Bao and Xiao-Yang Liu and Keping Yang and Quan Lin and Hong Wen and Ramin Ramezani",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "Zhang-etal2020"
+    },
+    {
+      "year": "2018",
+      "title": "Turning Clicks into Purchases: Revenue Optimization for Product Search in E-Commerce",
+      "booktitle": "SIGIR",
+      "author": "Liang Wu and Diane Hu and Liangjie Hong and Huan Liu",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "Wu-etal2018"
+    },
+    {
+      "year": "2018",
+      "title": "The book of why: the new science of cause and effect",
+      "publisher": "New York: Basic Books",
+      "date-modified": "2019-03-18 04:07:03 +0000",
+      "date-added": "2019-03-18 04:03:56 +0000",
+      "author": "Judea Pearl and Dana Mackenzie",
+      "ENTRYTYPE": "book",
+      "ID": "Pearl-Mackenzie2018"
+    },
+    {
+      "year": "2022",
+      "title": "Model-Assisted Inference for Covariate-Specific Treatment Effects with High-dimensional Data",
+      "journal": "Statistica Sinica",
+      "date-modified": "2021-08-26 14:55:31 +0000",
+      "date-added": "2021-08-26 14:43:33 +0000",
+      "author": "Peng Wu and Zhiqiang Tan and Wenjie Hu and Xiao-Hua Zhou",
+      "ENTRYTYPE": "article",
+      "ID": "Wu-Tan2022"
+    },
+    {
+      "year": "2021",
+      "volume": "212",
+      "title": "Semiparametric estimation for average causal effects using propensity score-based spline",
+      "pages": "153--168",
+      "journal": "Journal of Statistical Planning and Inference",
+      "date-modified": "2021-02-22 13:28:49 +0000",
+      "date-added": "2021-02-22 13:27:13 +0000",
+      "author": "Peng Wu and Xinyi Xu and Xingwei Tong and Qing Jiang and Bo Lu",
+      "ENTRYTYPE": "article",
+      "ID": "Wu-etal-2021"
+    },
+    {
+      "year": "2022",
+      "title": "Propensity score regression for causal inference with treatment\nheterogeneity",
+      "journal": "Statistica Sinica",
+      "date-modified": "2021-08-26 14:55:31 +0000",
+      "date-added": "2021-08-26 14:43:33 +0000",
+      "author": "Peng Wu and Shasha Han and Xingwei Tong and Runze Li",
+      "ENTRYTYPE": "article",
+      "ID": "Wu-Han2022"
+    },
+    {
+      "year": "2015",
+      "title": "Handbook of Missing Data Methodology",
+      "publisher": "Chapman \\& Hall/CRC",
+      "date-modified": "2021-09-26 14:46:28 +0000",
+      "date-added": "2019-05-11 16:05:37 +0000",
+      "author": "Geert Molenberghs and Garrett Fitzmaurice and Michael G. Kenward and Anastasios Tsiatis and Geert Verbeke",
+      "ENTRYTYPE": "book",
+      "ID": "Molenberghs-etal2015"
+    },
+    {
+      "year": "2018",
+      "volume": "33",
+      "title": "Introduction to Double Robust Methods for Incomplete Data",
+      "pages": "184--197",
+      "journal": "Statistical Science",
+      "date-modified": "2021-05-08 10:40:11 +0000",
+      "date-added": "2021-05-08 10:39:18 +0000",
+      "author": "Shaun R. Seaman and Stijn Vansteelandt",
+      "ENTRYTYPE": "article",
+      "ID": "Seaman-Vansteelandt2018"
+    },
+    {
+      "year": "2007",
+      "volume": "22",
+      "title": "Comment: understanding OR, PS and DR",
+      "pages": "560-568",
+      "journal": "Statistical Science",
+      "date-modified": "2020-08-13 09:02:59 +0000",
+      "date-added": "2018-05-08 01:35:19 +0000",
+      "author": "Zhiqiang Tan",
+      "ENTRYTYPE": "article",
+      "ID": "Tan-2007"
+    },
+    {
+      "year": "2007",
+      "volume": "22",
+      "title": "Demystifying double robustness: a comparison of alternative strategies for estimating a population mean from incomplete data",
+      "pages": "523-539",
+      "journal": "Statistical Science",
+      "date-modified": "2020-05-25 10:51:28 +0000",
+      "date-added": "2018-03-09 13:55:59 +0000",
+      "author": "Joseph D.Y. Kang and Joseph L. Schafer",
+      "ENTRYTYPE": "article",
+      "ID": "Kang-Schafer-2007"
+    },
+    {
+      "year": "2023",
+      "title": "TDR-CL: Targeted Doubly Robust Collaborative Learning for Debiased Recommendations",
+      "booktitle": "ICLR",
+      "author": "Haoxuan Li and Yan Lyu and Chunyuan Zheng and Peng Wu",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "TDR"
+    },
+    {
+      "year": "2019",
+      "title": "Doubly Robust Joint Learning for Recommendation on Data Missing Not at Random",
+      "booktitle": "ICML",
+      "author": "Xiaojie Wang and Rui Zhang and Yu Sun and Jianzhong Qi",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "Wang-Zhang-Sun-Qi2019"
+    },
+    {
+      "year": "1999",
+      "volume": "14",
+      "title": "Confounding and Collapsibility in Causal Inference",
+      "pages": "29-46",
+      "number": "1",
+      "journal": "Statistical Science",
+      "date-modified": "2021-09-16 09:55:01 +0000",
+      "date-added": "2021-09-16 09:52:43 +0000",
+      "author": "Sander Greenland and James M. Robins and Judea Pearl",
+      "ENTRYTYPE": "article",
+      "ID": "Greenland-Robins-Pearl1999"
+    },
+    {
+      "year": "2021",
+      "volume": "116",
+      "title": "Discussion of Kallus and Mo, Qi, and Liu: New Objectives for Policy Learning",
+      "pages": "675-679",
+      "number": "534",
+      "journal": "Journal of the American Statistical Association",
+      "date-modified": "2021-09-16 06:53:30 +0000",
+      "date-added": "2021-09-16 06:51:54 +0000",
+      "author": "Stijn Vansteelandt and Oliver Dukes",
+      "ENTRYTYPE": "article",
+      "ID": "Vansteelandt-Dukes2021"
+    },
+    {
+      "year": "2016",
+      "volume": "45",
+      "title": "Commentary: The formal approach to quantitative causal inference in epidemiology: misguided or misrepresented?",
+      "pages": "1817--1829",
+      "number": "6",
+      "journal": "International Journal of Epidemiology",
+      "date-modified": "2021-09-16 06:50:58 +0000",
+      "date-added": "2021-09-16 06:48:53 +0000",
+      "author": "Rhian M Daniel and Bianca L de Stavola and Stijn Vansteelandt",
+      "ENTRYTYPE": "article",
+      "ID": "Daniel-etal2016"
+    },
+    {
+      "year": "1974",
+      "volume": "66",
+      "title": "Estimating causal effects of treatments in randomized and nonrandomized studies",
+      "pages": "688-701",
+      "journal": "Journal of educational psychology",
+      "date-modified": "2021-09-23 10:03:34 +0000",
+      "author": "Donald B. Rubin",
+      "ENTRYTYPE": "article",
+      "ID": "Rubin1974"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "2003",
+      "pages": "231--263",
+      "number": "2",
+      "volume": "113",
+      "journal": "Journal of econometrics",
+      "author": "Abadie, Alberto",
+      "title": "Semiparametric instrumental variable estimation of treatment response models",
+      "ENTRYTYPE": "article",
+      "ID": "abadie2003semiparametric"
+    },
+    {
+      "year": "2017",
+      "notes": "Sourced from Microsoft Academic - https://academic.microsoft.com/paper/2744538883",
+      "pages": "1517--1525",
+      "booktitle": "Proceedings of the 23rd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining",
+      "author": "Ramesh {Johari} and Pete {Koomen} and Leonid {Pekelis} and David {Walsh}",
+      "title": "Peeking at A/B Tests: Why it matters, and what to do about it",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "johari2017peeking"
+    },
+    {
+      "year": "2015",
+      "notes": "Sourced from Microsoft Academic - https://academic.microsoft.com/paper/2030660637",
+      "pages": "1--1",
+      "booktitle": "Proceedings of the 21th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining",
+      "author": "Ron {Kohavi}",
+      "title": "Online Controlled Experiments: Lessons from Running A/B/n Tests for 12 Years",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "kohavi2015online"
+    },
+    {
+      "year": "2020",
+      "journal": "NeurIPS",
+      "author": "Zifeng Wang and Xi Chen and Rui Wen and Shao-Lun Huang and Ercan E. Kuruoglu and Yefeng Zheng",
+      "title": "Information Theoretic Counterfactual Learning from Missing-Not-At-Random Feedback",
+      "ENTRYTYPE": "article",
+      "ID": "wang2020information"
+    },
+    {
+      "year": "2015",
+      "notes": "Sourced from Microsoft Academic - https://academic.microsoft.com/paper/2169068368",
+      "pages": "399--409",
+      "booktitle": "Proceedings of the 24th International Conference on World Wide Web",
+      "author": "Huan {Gui} and Ya {Xu} and Anmol {Bhasin} and Jiawei {Han}",
+      "title": "Network A/B Testing: From Sampling to Estimation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "gui2015network"
+    },
+    {
+      "year": "2015",
+      "title": "Causal Inference For Statistics Social and Biomedical Science",
+      "publisher": "Cambridge University Press",
+      "date-modified": "2021-09-23 07:55:50 +0000",
+      "date-added": "2017-07-16 15:24:11 +0000",
+      "author": "Guido W. Imbens and Donald B. Rubin",
+      "ENTRYTYPE": "book",
+      "ID": "Imbens-Rubin2015"
+    },
+    {
+      "year": "2015",
+      "volume": "113",
+      "title": "Causal inference and the data-fusion problem",
+      "pages": "7345--7352",
+      "number": "27",
+      "journal": "PNAS",
+      "date-modified": "2021-01-18 08:33:22 +0000",
+      "date-added": "2021-01-18 08:32:25 +0000",
+      "author": "Elias Bareinboima and Judea Pearla",
+      "ENTRYTYPE": "article",
+      "ID": "Bareinboima-Pearl2015"
+    },
+    {
+      "year": "2019",
+      "title": "The Surrogate Index: Combining Short-Term Proxies to Estimate Long-Term Treatment Effects More Rapidly and Precisely",
+      "journal": "NBER Working Paper No. 26463",
+      "date-modified": "2021-01-18 08:30:14 +0000",
+      "date-added": "2021-01-18 08:28:24 +0000",
+      "author": "Susan Athey and Raj Chetty and Guido Imbens and Hyunseung Kang",
+      "ENTRYTYPE": "article",
+      "ID": "Athey-Chetty-Imbens-Kang2019"
+    },
+    {
+      "year": "2020",
+      "title": "On the role of surrogates in the efficient estimation of treatment effects with limited outcome data",
+      "journal": "arXiv:2003.12408",
+      "date-modified": "2021-01-18 08:11:10 +0000",
+      "date-added": "2021-01-18 08:10:26 +0000",
+      "author": "Nathan Kallus and Xiaojie Mao",
+      "ENTRYTYPE": "article",
+      "ID": "Kallus-Mao2020"
+    },
+    {
+      "year": "2020",
+      "title": "Combining Experimental and Observational Data to Estimate Treatment Effects on Long Term Outcomes",
+      "journal": "arXiv:2006.09676",
+      "date-modified": "2021-09-26 14:36:10 +0000",
+      "date-added": "2021-01-18 08:08:50 +0000",
+      "author": "Susan Athey and Raj Chetty and Guido W. Imbens",
+      "ENTRYTYPE": "article",
+      "ID": "Athey-Chetty-Imbens2020"
+    },
+    {
+      "year": "2020",
+      "title": "Elastic Integrative Analysis of Randomized Trial and Real-World Data for Treatment Heterogeneity Estimation",
+      "journal": "arXiv:2005.10579",
+      "date-modified": "2021-01-18 07:56:50 +0000",
+      "date-added": "2021-01-18 07:55:37 +0000",
+      "author": "Shu Yang and Donglin Zeng and Xiaofei Wang",
+      "ENTRYTYPE": "article",
+      "ID": "Yang-Zeng-2020"
+    },
+    {
+      "year": "2020",
+      "volume": "115",
+      "title": "Combining Multiple Observational Data Sources to Estimate Causal Effects",
+      "pages": "1540-1554",
+      "number": "531",
+      "journal": "Journal of the American Statistical Association",
+      "date-modified": "2021-01-18 07:48:14 +0000",
+      "date-added": "2021-01-18 07:41:53 +0000",
+      "author": "Shu Yang and Peng Ding",
+      "ENTRYTYPE": "article",
+      "ID": "Yang-Ding2020"
+    },
+    {
+      "year": "2020",
+      "volume": "115",
+      "title": "An Introduction to Causal Inference",
+      "pages": "Article 7",
+      "number": "6",
+      "journal": "The International Journal of Biostatistics",
+      "date-modified": "2021-01-18 07:48:14 +0000",
+      "date-added": "2021-01-18 07:41:53 +0000",
+      "author": "Judea Pearl",
+      "ENTRYTYPE": "article",
+      "ID": "JudeaPearl2010"
+    },
+    {
+      "year": "2020",
+      "title": "Improved inference for heterogeneous treatment effects using real-world data subject to hidden confounding",
+      "journal": "arXiv:2007.12922",
+      "date-modified": "2021-01-18 07:37:30 +0000",
+      "date-added": "2021-01-18 07:35:49 +0000",
+      "author": "Shu Yang and Donglin Zeng and Xiaofei Wang",
+      "ENTRYTYPE": "article",
+      "ID": "Yang-Zeng-Wang2020"
+    },
+    {
+      "year": "2018",
+      "title": "Removing Hidden Confounding by Experimental Grounding",
+      "journal": "NeurIPS",
+      "date-modified": "2021-09-26 14:45:56 +0000",
+      "date-added": "2021-01-18 07:30:42 +0000",
+      "booktitle": "NeurIPS",
+      "author": "Nathan Kallus and Aahlad Manas Puli and Uri Shalit",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "Kallus-Puli2018"
+    },
+    {
+      "year": "2015",
+      "title": "The Self-Normalized Estimator for Counterfactual\nLearning",
+      "journal": "NeurIPS",
+      "date-modified": "2021-09-26 14:45:56 +0000",
+      "date-added": "2021-01-18 07:30:42 +0000",
+      "booktitle": "NeurIPS",
+      "author": "Adith Swaminathan and Thorsten Joachims",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "Swaminathan-Joachims2015"
+    },
+    {
+      "year": "2014",
+      "title": "Probabilistic matrix factorization with non-random missing data",
+      "journal": "ICML",
+      "date-modified": "2021-09-26 14:45:56 +0000",
+      "date-added": "2021-01-18 07:30:42 +0000",
+      "booktitle": "ICML",
+      "author": "José Miguel Hernández-Lobato and Neil Houlsby and Zoubin Ghahramani",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "Lobato-etal2014"
+    },
+    {
+      "year": "2010",
+      "title": "Training and testing of recommender systems on data missing not at random",
+      "date-modified": "2021-09-26 14:45:56 +0000",
+      "date-added": "2021-01-18 07:30:42 +0000",
+      "booktitle": "KDD",
+      "author": "Harald Steck",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "Steck2010"
+    },
+    {
+      "year": "2020",
+      "title": "Improving efficiency of inference in clinical trials with external control data",
+      "journal": "Biometrika",
+      "date-modified": "2021-09-26 14:46:15 +0000",
+      "date-added": "2021-01-18 06:21:07 +0000",
+      "author": "Xinyu Li and Wang Miao and Fang Lu and Xiao-Hua Zhou",
+      "ENTRYTYPE": "article",
+      "ID": "Li-Miao-Lu-Zhou2020"
+    },
+    {
+      "year": "2019",
+      "title": "Causal Inference and Data-Fusion in Econometrics",
+      "journal": "arXiv:1912.09104",
+      "date-modified": "2021-01-18 05:52:16 +0000",
+      "date-added": "2021-01-18 05:51:11 +0000",
+      "author": "Paul H{\\\"u}nermund and Elias Bareinboim",
+      "ENTRYTYPE": "article",
+      "ID": "Hunermund-Bareinboim2019"
+    },
+    {
+      "year": "2020",
+      "title": "Causal inference methods for combining randomized trials and observational studies: a review",
+      "journal": "arXiv:2011.08047",
+      "date-modified": "2021-01-18 05:50:07 +0000",
+      "date-added": "2021-01-18 05:48:54 +0000",
+      "author": "B{\\'e}n{\\'e}dicte Colnet and Imke Mayer and Guanhua Chen and Awa Dieng and Ruohong Li and Ga{\\\"e}l Varoquaux and Jean-Philippe Vert and ulie Josse and Shu Yang",
+      "ENTRYTYPE": "article",
+      "ID": "Colnet-Mayer2020"
+    },
+    {
+      "year": "2019",
+      "volume": "114",
+      "title": "The Blessings of Multiple Causes",
+      "pages": "1574-1596",
+      "number": "528",
+      "journal": "Journal of the American Statistical Association",
+      "date-modified": "2021-01-18 02:59:13 +0000",
+      "date-added": "2021-01-18 02:58:02 +0000",
+      "author": "Yixin Wang and David M. Blei",
+      "ENTRYTYPE": "article",
+      "ID": "Wang-Blei2019"
+    },
+    {
+      "year": "2020",
+      "notes": "Sourced from Microsoft Academic - https://academic.microsoft.com/paper/3088393583",
+      "pages": "368--377",
+      "booktitle": "Fourteenth ACM Conference on Recommender Systems",
+      "author": "Bowen {Yuan} and Yaxu {Liu} and Jui-Yang {Hsia} and Zhenhua {Dong} and Chih-Jen {Lin}",
+      "title": "Unbiased Ad Click Prediction for Position-aware Advertising Systems",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "yuan2020unbiased"
+    },
+    {
+      "year": "2020",
+      "title": "Causal Inference for Recommender Systems",
+      "booktitle": "RecSys",
+      "author": "Yixin Wang and Dawen Liang and Laurent Charlin and David M. Blei",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "Wang-Liang-Charlin-Blei2020"
+    },
+    {
+      "year": "2019",
+      "title": "The Deconfounded Recommender: A Causal Inference Approach to Recommendation",
+      "journal": "arXiv:1808.06581",
+      "author": "Yixin Wang and Dawen Liang and Laurent Charlin and David M. Blei",
+      "ENTRYTYPE": "article",
+      "ID": "Wang-Liang-Charlin-Blei2019"
+    },
+    {
+      "year": "2014",
+      "pages": "663--669",
+      "volume": "179",
+      "title": "A double robust approach to causal effects in case-control studies",
+      "journal": "American journal of epidemiology",
+      "author": "Sherri Rose and Mark J. van der Laan",
+      "ENTRYTYPE": "article",
+      "ID": "Rose-Laan2014"
+    },
+    {
+      "year": "2012",
+      "pages": "articel 26",
+      "volume": "8",
+      "title": "A General Implementation of TMLE for\nLongitudinal Data Applied to Causal Inference\nin Survival Analysis",
+      "journal": "The International Journal of Biostatistics",
+      "author": "Ori M. Stitelman and Victor De Gruttola  and Mark J. van der Laan",
+      "ENTRYTYPE": "article",
+      "ID": "Stitelman-etal2012"
+    },
+    {
+      "year": "2010",
+      "pages": "articel 18",
+      "volume": "6",
+      "title": "An Application of Collaborative Targeted Maximum Likelihood Estimation in Causal Inference and Genomics",
+      "journal": "The International Journal of Biostatistics",
+      "author": "Susan Gruber and Mark J. van der Laan",
+      "ENTRYTYPE": "article",
+      "ID": "Gruber-Laan2010"
+    },
+    {
+      "year": "2010",
+      "pages": "articel 2",
+      "volume": "6",
+      "title": "Targeted Maximum Likelihood Based Causal\nInference",
+      "journal": "The International Journal of Biostatistics",
+      "author": "Mark J. van der Laan",
+      "ENTRYTYPE": "article",
+      "ID": "Laan2010"
+    },
+    {
+      "year": "2010",
+      "pages": "articel 17",
+      "volume": "6",
+      "title": "Collaborative Double Robust Targeted\nMaximum Likelihood Estimation",
+      "journal": "The International Journal of Biostatistics",
+      "author": "Mark J. van der Laan and Susan Gruber",
+      "ENTRYTYPE": "article",
+      "ID": "Laan-Gruber2010"
+    },
+    {
+      "year": "2020",
+      "title": "Unbiased Learning for the Causal Effect of Recommendation",
+      "date-modified": "2021-09-26 14:47:24 +0000",
+      "date-added": "2021-01-18 02:42:17 +0000",
+      "booktitle": "RecSys",
+      "author": "Masahiro Sato and Sho Takemori and Janmajay Singh and Tomoko Ohkuma",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "Sato-Takemori2020"
+    },
+    {
+      "year": "2019",
+      "title": "Uplif-based Evaluation and Optimization of Recommenders",
+      "date-modified": "2021-09-26 14:47:14 +0000",
+      "date-added": "2021-01-18 02:40:19 +0000",
+      "booktitle": "RecSys",
+      "author": "Masahiro Sato and Janmajay Singh and Sho Takemori and Takashi Sonoda and Qian Zhang and Tomoko Ohkuma",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "Sato-Singh2019"
+    },
+    {
+      "year": "2020",
+      "pages": "1849-1852",
+      "booktitle": "SIGIR",
+      "title": "Dual Learning Algorithm for Delayed Conversions",
+      "author": "Yuta Saito and\nGota Morishita and\nShota Yasui",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "SIGIR_SaitoMY20"
+    },
+    {
+      "year": "2016",
+      "title": "Modeling Individual Users' Responsiveness to Maximize Recommendation Impact",
+      "date-modified": "2021-09-26 14:47:05 +0000",
+      "date-added": "2021-01-18 02:36:58 +0000",
+      "booktitle": "UMAP",
+      "author": "Masahiro Sato and Hidetaka Lzumo and Takashi Sonoda",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "Sato-Lzumo-Sonoda2016"
+    },
+    {
+      "year": "2020",
+      "title": "Causal Inference for Recommender Systems",
+      "date-modified": "2021-09-24 00:06:57 +0000",
+      "date-added": "2021-01-18 02:02:34 +0000",
+      "booktitle": "RecSys",
+      "author": "Dawen Liang and Laurent Charlin and David M. Blei",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "Liang-Charlin-Blei2020"
+    },
+    {
+      "year": "2015",
+      "title": "Scalable Recommendation with Hierarchical Poisson Factorization",
+      "date-modified": "2021-09-26 14:45:07 +0000",
+      "date-added": "2021-01-18 01:59:33 +0000",
+      "booktitle": "UAI",
+      "author": "Prem Gopalan and Jake M. Hofman and David M. Blei",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "Gopalan-Hofman-Blei2018"
+    },
+    {
+      "year": "2010",
+      "number": "4",
+      "volume": "11",
+      "journal": "Journal of Machine Learning Research",
+      "author": "Chang, Yin-Wen and Hsieh, Cho-Jui and Chang, Kai-Wei and Ringgaard, Michael and Lin, Chih-Jen",
+      "title": "Training and testing low-degree polynomial data mappings via linear SVM.",
+      "ENTRYTYPE": "article",
+      "ID": "chang2010training"
+    },
+    {
+      "year": "2016",
+      "title": "Recommendations as Treatments: Debiasing Learning and Evaluation",
+      "date-modified": "2021-09-26 14:47:40 +0000",
+      "date-added": "2021-01-18 01:42:51 +0000",
+      "booktitle": "ICML",
+      "author": "Tobias Schnabel and Adith Swaminathan and Ashudeep Singh and Navin Chandak and Thorsten Joachims",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "Schnabel-Swaminathan2016"
+    },
+    {
+      "year": "2019",
+      "booktitle": "CIKM",
+      "title": "Improving Ad Click Prediction by Considering Non-displayed Events",
+      "author": "Bo{-}Wen Yuan and\nJui{-}Yang Hsia and\nMeng{-}Yuan Yang and\nHong Zhu and\nChih{-}Yao Chang and\nZhenhua Dong and\nChih{-}Jen Lin",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "CIKM-YuanHYZCDL19"
+    },
+    {
+      "year": "2020",
+      "publisher": "{ACM}",
+      "pages": "501--509",
+      "booktitle": "WSDM",
+      "title": "Unbiased Recommender Learning from Missing-Not-At-Random Implicit\nFeedback",
+      "editor": "James Caverlee and\nXia (Ben) Hu and\nMounia Lalmas and\nWei Wang",
+      "author": "Yuta Saito and\nSuguru Yaginuma and\nYuta Nishino and\nHayato Sakata and\nKazuhide Nakata",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "crmf"
+    },
+    {
+      "year": "2018",
+      "booktitle": "SIGIR",
+      "title": "Entire Space Multi-Task Model: An Effective Approach for\nEstimating Post-Click Conversion Rate",
+      "author": "Xiao Ma and Liqin Zhao and Guan Huang and \nZhi Wang and Zelin Hu and Xiaoqiang Zhu and \nKun Gai",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ESMM"
+    },
+    {
+      "year": "2022",
+      "title": "A Generalized Doubly Robust Learning Framework for Debiasing Post-Click Conversion Rate Prediction",
+      "booktitle": "KDD",
+      "author": "Quanyu Dai and Haoxuan Li and Peng Wu and Zhenhua Dong and Xiao-Hua Zhou and Rui Zhang and Xiuqiang He and Rui Zhang and Jie Sun",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "Dai-etal2022"
+    },
+    {
+      "year": "2021",
+      "booktitle": "SIGIR",
+      "title": "Enhanced Doubly Robust Learning for Debiasing Post-Click Conversion\nRate Estimation",
+      "author": "Siyuan Guo and\nLixin Zou and\nYiding Liu and\nWenwen Ye and\nSuqi Cheng and\nShuaiqiang Wang and\nHechang Chen and\nDawei Yin and\nYi Chang",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "MRDR"
+    },
+    {
+      "year": "2019",
+      "booktitle": "SIAM",
+      "title": "Doubly Robust Prediction and Evaluation Methods Improve Uplift Modeling\nfor Observational Data",
+      "author": "Yuta Saito and\nHayato Sakata and\nKazuhide Nakata",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "SDM-SaitoSN19"
+    },
+    {
+      "year": "2021",
+      "booktitle": "ADKDD",
+      "author": "Tiankai Gu and \nKun Kuang and \nHong Zhu and \nJingjie Li and \nZhenhua Dong and\nWenjie Hu and\nZhenguo Li and \nXiuqiang He and \nYue Liu",
+      "title": "Estimating True Post-Click Conversion via Group-stratified Counterfactual Inference",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ADKDD-tgkkhz21"
+    },
+    {
+      "year": "2019",
+      "notes": "Sourced from Microsoft Academic - https://academic.microsoft.com/paper/2972548050",
+      "pages": "296--304",
+      "booktitle": "Proceedings of the 13th ACM Conference on Recommender Systems",
+      "author": "Masahiro {Sato} and Janmajay {Singh} and Sho {Takemori} and Takashi {Sonoda} and Qian {Zhang} and Tomoko {Ohkuma}",
+      "title": "Uplift-based evaluation and optimization of recommenders",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "sato2019uplift"
+    },
+    {
+      "year": "2020",
+      "notes": "Sourced from Microsoft Academic - https://academic.microsoft.com/paper/3106212003",
+      "pages": "378--387",
+      "booktitle": "Fourteenth ACM Conference on Recommender Systems",
+      "author": "Masahiro {Sato} and Sho {Takemori} and Janmajay {Singh} and Tomoko {Ohkuma}",
+      "title": "Unbiased Learning for the Causal Effect of Recommendation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "sato2020unbiased"
+    },
+    {
+      "year": "2019",
+      "pages": "1793--1799",
+      "booktitle": "Proceedings of the Twenty-Eighth International Joint Conference on\nArtificial Intelligence, {IJCAI} 2019, Macao, China, August 10-16,\n2019",
+      "title": "Unit Selection Based on Counterfactual Logic",
+      "author": "Ang Li and\nJudea Pearl",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "IJCAI-LiP19"
+    },
+    {
+      "bibsource": "dblp computer science bibliography, https://dblp.org",
+      "biburl": "https://dblp.org/rec/journals/corr/abs-2006-15772.bib",
+      "timestamp": "Wed, 01 Jul 2020 15:21:23 +0200",
+      "eprint": "2006.15772",
+      "eprinttype": "arXiv",
+      "url": "https://arxiv.org/abs/2006.15772",
+      "year": "2020",
+      "volume": "abs/2006.15772",
+      "journal": "CoRR",
+      "title": "Multi-sided Exposure Bias in Recommendation",
+      "author": "Himan Abdollahpouri and\nMasoud Mansoury",
+      "ENTRYTYPE": "article",
+      "ID": "DBLP:journals/corr/abs-2006-15772"
+    },
+    {
+      "url": "https://ideas.repec.org/a/bla/biomet/v72y2016i4p1055-1065.html",
+      "abstract": "In this article, we develop new methods for estimating average treatment effects in observational studies, in settings with more than two treatment levels, assuming unconfoundedness given pretreatment variables. We emphasize propensity score subclassification and matching methods which have been among the most popular methods in the binary treatment literature. Whereas the literature has suggested that these particular propensity‐based methods do not naturally extend to the multi‐level treatment case, we show, using the concept of weak unconfoundedness and the notion of the generalized propensity score, that adjusting for a scalar function of the pretreatment variables removes all biases associated with observed pretreatment variables. We apply the proposed methods to an analysis of the effect of treatments for fibromyalgia. We also carry out a simulation study to assess the finite sample performance of the methods relative to previously proposed methods.",
+      "doi": "10.1111/biom.12505",
+      "keywords": "",
+      "month": "December",
+      "pages": "1055-1065",
+      "number": "4",
+      "volume": "72",
+      "year": "2016",
+      "journal": "Biometrics",
+      "title": "{Propensity score matching and subclassification in observational studies with multi‐level treatments}",
+      "author": "Shu Yang and Guido W. Imbens and Zhanglin Cui and Douglas E. Faries and Zbigniew Kadziola",
+      "ENTRYTYPE": "article",
+      "ID": "RePEc:bla:biomet:v:72:y:2016:i:4:p:1055-1065"
+    },
+    {
+      "series": "NIPS'18",
+      "location": "Montr\\'{e}al, Canada",
+      "numpages": "12",
+      "pages": "8909–8920",
+      "booktitle": "Proceedings of the 32nd International Conference on Neural Information Processing Systems",
+      "abstract": "We present a new approach to the problems of evaluating and learning personalized\ndecision policies from observational data of past contexts, decisions, and outcomes.\nOnly the outcome of the enacted decision is available and the historical policy is\nunknown. These problems arise in personalized medicine using electronic health records\nand in internet advertising. Existing approaches use inverse propensity weighting\n(or, doubly robust versions) to make historical outcome (or, residual) data look like\nit were generated by a new policy being evaluated or learned. But this relies on a\nplug-in approach that rejects data points with a decision that disagrees with the\nnew policy, leading to high variance estimates and ineffective learning. We propose\na new, balance-based approach that too makes the data look like the new policy but\ndoes so directly by finding weights that optimize for balance between the weighted\ndata and the target policy in the given, finite sample, which is equivalent to minimizing\nworst-case or posterior conditional mean square error. Our policy learner proceeds\nas a two-level optimization problem over policies and weights. We demonstrate that\nthis approach markedly outperforms existing ones both in evaluation and learning,\nwhich is unsurprising given the wider support of balance-based weights. We establish\nextensive theoretical consistency guarantees and regret bounds that support this empirical\nsuccess.",
+      "address": "Red Hook, NY, USA",
+      "publisher": "Curran Associates Inc.",
+      "year": "2018",
+      "title": "Balanced Policy Evaluation and Learning",
+      "author": "Kallus, Nathan",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "policy"
+    },
+    {
+      "primaryclass": "stat.ML",
+      "archiveprefix": "arXiv",
+      "eprint": "1802.06037",
+      "year": "2018",
+      "author": "Nathan Kallus and Angela Zhou",
+      "title": "Policy Evaluation and Optimization with Continuous Treatments",
+      "ENTRYTYPE": "misc",
+      "ID": "kallus2018policy"
+    },
+    {
+      "primaryclass": "stat.ML",
+      "archiveprefix": "arXiv",
+      "eprint": "1908.01920",
+      "year": "2019",
+      "author": "Andrew Bennett and Nathan Kallus",
+      "title": "Policy Evaluation with Latent Confounders via Optimal Balance",
+      "ENTRYTYPE": "misc",
+      "ID": "bennett2019policy"
+    },
+    {
+      "year": "2018",
+      "booktitle": "International Conference on Learning Representations",
+      "author": "Yoon, Jinsung and Jordon, James and Van Der Schaar, Mihaela",
+      "title": "GANITE: Estimation of individualized treatment effects using generative adversarial nets",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "yoon2018ganite"
+    },
+    {
+      "year": "2017",
+      "journal": "arXiv:1705.08821",
+      "author": "Louizos, Christos and Shalit, Uri and Mooij, Joris and Sontag, David and Zemel, Richard and Welling, Max",
+      "title": "Causal effect inference with deep latent-variable models",
+      "ENTRYTYPE": "article",
+      "ID": "louizos2017causal"
+    },
+    {
+      "year": "2022",
+      "booktitle": "IJ-CAI",
+      "author": "Peng Wu and Haoxuan Li and Yuhao Deng and Wenjie Hu and Quanyu Dai and Zhenhua Dong and Jie Sun and Rui Zhang and Xiao-Hua Zhou",
+      "title": "On the Opportunity of Causal Learning in Recommendation Systems: Foundation, Estimation, Prediction and Challenges",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "Wu-etal2022"
+    },
+    {
+      "publisher": "Wiley Online Library",
+      "year": "2018",
+      "pages": "1767--1787",
+      "number": "11",
+      "volume": "37",
+      "journal": "Statistics in medicine",
+      "author": "Powers, Scott and Qian, Junyang and Jung, Kenneth and Schuler, Alejandro and Shah, Nigam H and Hastie, Trevor and Tibshirani, Robert",
+      "title": "Some methods for heterogeneous treatment effect estimation in high dimensions",
+      "ENTRYTYPE": "article",
+      "ID": "powers2018some"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "2009",
+      "pages": "30--37",
+      "number": "8",
+      "volume": "42",
+      "journal": "Computer",
+      "author": "Koren, Yehuda and Bell, Robert and Volinsky, Chris",
+      "title": "Matrix factorization techniques for recommender systems",
+      "ENTRYTYPE": "article",
+      "ID": "koren2009matrix"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2018",
+      "pages": "4334--4343",
+      "booktitle": "International conference on machine learning",
+      "author": "Ren, Mengye and Zeng, Wenyuan and Yang, Bin and Urtasun, Raquel",
+      "title": "Learning to reweight examples for robust deep learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ren2018learning"
+    },
+    {
+      "year": "2018",
+      "pages": "",
+      "booktitle": "WSDM",
+      "title": "Offline A/B Testing for Recommender Systems",
+      "author": "Alexandre Gilotte and Clément Calauzènes and Thomas Nedelec and Alexandre Abraham and Simon Dollé",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "Gilotte-etal2018"
+    },
+    {
+      "year": "2019",
+      "pages": "",
+      "booktitle": "WSDM",
+      "title": "Offline Evaluation to Make Decisions About PlaylistRecommendation Algorithms",
+      "author": "Alois Gruson and Praveen Chandar and Christophe Charbuillet and James McInerney and Samantha Hansen and Damien Tardieu and Ben Carterette",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "Gruson-etal2018"
+    },
+    {
+      "year": "2007",
+      "journal": "UAI",
+      "author": "Marlin, Benjamin and Zemel, Richard S and Roweis, Sam and Slaney, Malcolm",
+      "title": "Collaborative filtering and the missing at random assumption",
+      "ENTRYTYPE": "article",
+      "ID": "marlin2012collaborative"
+    },
+    {
+      "year": "2009",
+      "booktitle": "RecSys",
+      "author": "Marlin, Benjamin M and Zemel, Richard S",
+      "title": "Collaborative prediction and ranking with non-random missing data",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "marlin2009collaborative"
+    },
+    {
+      "publisher": "bepress",
+      "year": "2014",
+      "volume": "Paper 331",
+      "journal": "U.C. Berkeley Division of Biostatistics Working Paper Series",
+      "author": "Carone, Marco and D{\\'\\i}az, Iv{\\'a}n and van der Laan, Mark J",
+      "title": "Higher-order targeted minimum loss-based estimation",
+      "ENTRYTYPE": "article",
+      "ID": "carone2014higher"
+    },
+    {
+      "year": "2020",
+      "pages": "92-100",
+      "booktitle": "RecSys",
+      "title": "Doubly Robust Estimator for Ranking Metrics with Post-Click Conversions",
+      "author": "Yuta Saito",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "RecSys_Saito20"
+    },
+    {
+      "year": "2022",
+      "title": "Addressing Unmeasured Confounder for Recommendation with Sensitivity Analysis",
+      "booktitle": "KDD",
+      "author": "Sihao Ding and Peng Wu and Fuli Feng and Xiangnan He and Yitong Wang and Yong Liao and Yongdong Zhang",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ding2022addressing"
+    },
+    {
+      "year": "2023",
+      "booktitle": "ICLR",
+      "author": "Haoxuan Li and Chunyuan Zheng and Peng Wu",
+      "title": "StableDR: Stabilized Doubly Robust Learning for Recommendation on Data Missing Not at Random",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "SDR"
+    },
+    {
+      "year": "2020",
+      "booktitle": "RecSys",
+      "author": "Saito, Yuta",
+      "title": "Doubly robust estimator for ranking metrics with post-click conversions",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "saito2020doubly"
+    },
+    {
+      "year": "2018",
+      "pages": "279--287",
+      "booktitle": "Proceedings of the 12th ACM conference on recommender systems",
+      "author": "Yang, Longqi and Cui, Yin and Xuan, Yuan and Wang, Chenyang and Belongie, Serge and Estrin, Deborah",
+      "title": "Unbiased offline recommender evaluation for missing-not-at-random implicit feedback",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "yang2018unbiased"
+    }
+  ]
+}

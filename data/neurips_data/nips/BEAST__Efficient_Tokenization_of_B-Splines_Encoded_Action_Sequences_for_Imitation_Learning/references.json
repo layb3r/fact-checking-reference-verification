@@ -1,0 +1,1458 @@
+{
+  "pdf_url": "https://arxiv.org/pdf/2506.06072v3.pdf",
+  "references": [
+    {
+      "volume": "76",
+      "pages": "5--23",
+      "number": "1",
+      "year": "1857",
+      "journal": "Gauss's Theoria Motus",
+      "author": "Carl Friedrich Gauss and Charles Henry Davis",
+      "title": "Theory of the motion of the heavenly bodies moving about the sun in conic sections",
+      "ENTRYTYPE": "article",
+      "ID": "Gauss1857"
+    },
+    {
+      "year": "1788",
+      "publisher": "Desaint, Paris",
+      "author": "Joseph-Louis Lagrange",
+      "title": "M{\\'e}canique Analytique",
+      "ENTRYTYPE": "book",
+      "ID": "Lagrange1788"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2410.07864",
+      "author": "Liu, Songming and Wu, Lingxuan and Li, Bangguo and Tan, Hengkai and Chen, Huayu and Wang, Zhengyi and Xu, Ke and Su, Hang and Zhu, Jun",
+      "title": "RDT-1B: a Diffusion Foundation Model for Bimanual Manipulation",
+      "ENTRYTYPE": "article",
+      "ID": "liu2024rdt"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2405.05941",
+      "author": "Xuanlin Li and Kyle Hsu and Jiayuan Gu and Karl Pertsch and Oier Mees and Homer Rich Walke and Chuyuan Fu and Ishikaa Lunawat and Isabel Sieh and Sean Kirmani and Sergey Levine and Jiajun Wu and Chelsea Finn and Hao Su and Quan Vuong and Ted Xiao",
+      "title": "Evaluating Real-World Robot Manipulation Policies in Simulation",
+      "ENTRYTYPE": "article",
+      "ID": "li24simpler"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2023",
+      "pages": "1723--1736",
+      "booktitle": "Conference on Robot Learning",
+      "author": "Walke, Homer Rich and Black, Kevin and Zhao, Tony Z and Vuong, Quan and Zheng, Chongyi and Hansen-Estruch, Philippe and He, Andre Wang and Myers, Vivek and Kim, Moo Jin and Du, Max and others",
+      "title": "Bridgedata v2: A dataset for robot learning at scale",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "walke2023bridgedata"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2409.20537",
+      "author": "Wang, Lirui and Chen, Xinlei and Zhao, Jialiang and He, Kaiming",
+      "title": "Scaling proprioceptive-visual learning with heterogeneous pre-trained transformers",
+      "ENTRYTYPE": "article",
+      "ID": "wang2024scaling"
+    },
+    {
+      "year": "2024",
+      "volume": "36",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Liu, Bo and Zhu, Yifeng and Gao, Chongkai and Feng, Yihao and Liu, Qiang and Zhu, Yuke and Stone, Peter",
+      "title": "Libero: Benchmarking knowledge transfer for lifelong robot learning",
+      "ENTRYTYPE": "article",
+      "ID": "liu2024libero"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2015",
+      "pages": "2256--2265",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Sohl-Dickstein, Jascha and Weiss, Eric and Maheswaranathan, Niru and Ganguli, Surya",
+      "title": "Deep unsupervised learning using nonequilibrium thermodynamics",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "sohl2015deep"
+    },
+    {
+      "pages": "1715--1725",
+      "doi": "10.18653/v1/P16-1162",
+      "url": "https://aclanthology.org/P16-1162/",
+      "publisher": "Association for Computational Linguistics",
+      "address": "Berlin, Germany",
+      "year": "2016",
+      "month": "August",
+      "booktitle": "Proceedings of the 54th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+      "editor": "Erk, Katrin  and\nSmith, Noah A.",
+      "author": "Sennrich, Rico  and\nHaddow, Barry  and\nBirch, Alexandra",
+      "title": "Neural Machine Translation of Rare Words with Subword Units",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "sennrich-etal-2016-neural"
+    },
+    {
+      "url": "https://api.semanticscholar.org/CorpusID:247244535",
+      "pages": "11513-11522",
+      "year": "2022",
+      "journal": "2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "author": "Doyup Lee and Chiheon Kim and Saehoon Kim and Minsu Cho and Wook-Shin Han",
+      "title": "Autoregressive Image Generation using Residual Quantization",
+      "ENTRYTYPE": "article",
+      "ID": "Lee2022AutoregressiveIG"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "2023",
+      "pages": "2325--2332",
+      "number": "4",
+      "volume": "8",
+      "journal": "IEEE Robotics and Automation Letters",
+      "author": "Li, Ge and Jin, Zeqi and Volpp, Michael and Otto, Fabian and Lioutikov, Rudolf and Neumann, Gerhard",
+      "title": "Prodmp: A unified perspective on dynamic and probabilistic movement primitives",
+      "ENTRYTYPE": "article",
+      "ID": "li2023prodmp"
+    },
+    {
+      "url": "https://api.semanticscholar.org/CorpusID:20282961",
+      "year": "2017",
+      "booktitle": "Neural Information Processing Systems",
+      "author": "A{\\\"a}ron van den Oord and Oriol Vinyals and Koray Kavukcuoglu",
+      "title": "Neural Discrete Representation Learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "Oord2017NeuralDR"
+    },
+    {
+      "year": "2024",
+      "booktitle": "Forty-first International Conference on Machine Learning",
+      "author": "Esser, Patrick and Kulal, Sumith and Blattmann, Andreas and Entezari, Rahim and M{\\\"u}ller, Jonas and Saini, Harry and Levi, Yam and Lorenz, Dominik and Sauer, Axel and Boesel, Frederic and others",
+      "title": "Scaling rectified flow transformers for high-resolution image synthesis",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "esser2024scaling"
+    },
+    {
+      "year": "2019",
+      "volume": "32",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Song, Yang and Ermon, Stefano",
+      "title": "Generative modeling by estimating gradients of the data distribution",
+      "ENTRYTYPE": "article",
+      "ID": "song2019generative"
+    },
+    {
+      "year": "2023",
+      "pages": "4195--4205",
+      "booktitle": "Proceedings of the IEEE/CVF International Conference on Computer Vision",
+      "author": "Peebles, William and Xie, Saining",
+      "title": "Scalable diffusion models with transformers",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "peebles2023scalable"
+    },
+    {
+      "year": "2020",
+      "pages": "12438--12448",
+      "volume": "33",
+      "journal": "Advances in neural information processing systems",
+      "author": "Song, Yang and Ermon, Stefano",
+      "title": "Improved techniques for training score-based generative models",
+      "ENTRYTYPE": "article",
+      "ID": "song2020improved"
+    },
+    {
+      "year": "2020",
+      "booktitle": "International Conference on Learning Representations",
+      "author": "Song, Yang and Sohl-Dickstein, Jascha and Kingma, Diederik P and Kumar, Abhishek and Ermon, Stefano and Poole, Ben",
+      "title": "Score-Based Generative Modeling through Stochastic Differential Equations",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "song2020score"
+    },
+    {
+      "year": "2020",
+      "pages": "6840--6851",
+      "volume": "33",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Ho, Jonathan and Jain, Ajay and Abbeel, Pieter",
+      "title": "Denoising diffusion probabilistic models",
+      "ENTRYTYPE": "article",
+      "ID": "ho2020denoising"
+    },
+    {
+      "year": "2021",
+      "booktitle": "NeurIPS 2021 Workshop on Deep Generative Models and Downstream Applications",
+      "author": "Ho, Jonathan and Salimans, Tim",
+      "title": "Classifier-Free Diffusion Guidance",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ho2021classifier"
+    },
+    {
+      "year": "2021",
+      "booktitle": "ICLR",
+      "author": "Song, Jiaming and Meng, Chenlin and Ermon, Stefano",
+      "title": "Denoising Diffusion Implicit Models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "song2021denoising"
+    },
+    {
+      "year": "2021",
+      "pages": "8780--8794",
+      "volume": "34",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Dhariwal, Prafulla and Nichol, Alexander",
+      "title": "Diffusion models beat gans on image synthesis",
+      "ENTRYTYPE": "article",
+      "ID": "dhariwal2021diffusion"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2021",
+      "pages": "8162--8171",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Nichol, Alexander Quinn and Dhariwal, Prafulla",
+      "title": "Improved denoising diffusion probabilistic models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "nichol2021improved"
+    },
+    {
+      "url": "https://openreview.net/forum?id=k7FuTOWMOc7",
+      "year": "2022",
+      "editor": "Alice H. Oh and Alekh Agarwal and Danielle Belgrave and Kyunghyun Cho",
+      "booktitle": "Advances in Neural Information Processing Systems",
+      "author": "Tero Karras and Miika Aittala and Timo Aila and Samuli Laine",
+      "title": "Elucidating the Design Space of Diffusion-Based Generative Models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "karras2022elucidating"
+    },
+    {
+      "year": "2022",
+      "pages": "10684--10695",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Rombach, Robin and Blattmann, Andreas and Lorenz, Dominik and Esser, Patrick and Ommer, Bj{\\\"o}rn",
+      "title": "High-resolution image synthesis with latent diffusion models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "rombach2022high"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "2009",
+      "pages": "469--483",
+      "number": "5",
+      "volume": "57",
+      "journal": "Robotics and autonomous systems",
+      "author": "Argall, Brenna D and Chernova, Sonia and Veloso, Manuela and Browning, Brett",
+      "title": "A survey of robot learning from demonstration",
+      "ENTRYTYPE": "article",
+      "ID": "argall2009survey"
+    },
+    {
+      "publisher": "Now Publishers, Inc.",
+      "year": "2018",
+      "pages": "1--179",
+      "number": "1-2",
+      "volume": "7",
+      "journal": "Foundations and Trends{\\textregistered} in Robotics",
+      "author": "Osa, Takayuki and Pajarinen, Joni and Neumann, Gerhard and Bagnell, J Andrew and Abbeel, Pieter and Peters, Jan and others",
+      "title": "An algorithmic perspective on imitation learning",
+      "ENTRYTYPE": "article",
+      "ID": "osa2018algorithmic"
+    },
+    {
+      "year": "2018",
+      "number": "1",
+      "volume": "32",
+      "booktitle": "Proceedings of the AAAI Conference on Artificial Intelligence",
+      "author": "Perez, Ethan and Strub, Florian and De Vries, Harm and Dumoulin, Vincent and Courville, Aaron",
+      "title": "Film: Visual reasoning with a general conditioning layer",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "perez2018film"
+    },
+    {
+      "year": "2022",
+      "booktitle": "arXiv preprint arXiv:2212.06817",
+      "author": "Anthony     Brohan and  Noah Brown and  Justice Carbajal and  Yevgen Chebotar and  Joseph Dabis and  Chelsea Finn and  Keerthana Gopalakrishnan and  Karol Hausman and  Alex Herzog and  Jasmine Hsu and  Julian Ibarz and  Brian Ichter and  Alex Irpan and  Tomas Jackson and  Sally Jesmonth and  Nikhil Joshi and  Ryan Julian and  Dmitry Kalashnikov and  Yuheng Kuang and  Isabel Leal and  Kuang-Huei Lee and  Sergey Levine and  Yao Lu and  Utsav Malla and  Deeksha Manjunath and  Igor Mordatch and  Ofir Nachum and  Carolina Parada and  Jodilyn Peralta and  Emily Perez and  Karl Pertsch and  Jornell Quiambao and  Kanishka Rao and  Michael Ryoo and  Grecia Salazar and  Pannag Sanketi and  Kevin Sayed and  Jaspiar Singh and  Sumedh Sontakke and  Austin Stone and  Clayton Tan and  Huong Tran and  Vincent Vanhoucke and Steve Vega and  Quan Vuong and  Fei Xia and  Ted Xiao and  Peng Xu and  Sichun Xu and  Tianhe Yu and  Brianna Zitkovich",
+      "title": "RT-1: Robotics Transformer for Real-World Control at Scale",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "rt12022arxiv"
+    },
+    {
+      "url": "https://openreview.net/forum?id=c7rM7F7jQjN",
+      "year": "2023",
+      "booktitle": "International Conference on Learning Representations",
+      "author": "Zichen Jeff Cui and Yibin Wang and Nur Muhammad Mahi Shafiullah and Lerrel Pinto",
+      "title": "From Play to Policy: Conditional Behavior Generation from Uncurated Robot Data",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "cui2023from"
+    },
+    {
+      "year": "2023",
+      "booktitle": "Proceedings of Robotics: Science and Systems (RSS)",
+      "author": "Chi, Cheng and Feng, Siyuan and Du, Yilun and Xu, Zhenjia and Cousineau, Eric and Burchfiel, Benjamin and Song, Shuran",
+      "title": "Diffusion Policy: Visuomotor Policy Learning via Action Diffusion",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "chi2023diffusionpolicy"
+    },
+    {
+      "url": "https://openreview.net/forum?id=EdVNB2kHv1",
+      "year": "2024",
+      "booktitle": "8th Annual Conference on Robot Learning",
+      "author": "Nils Blank and Moritz Reuss and Marcel R{\\\"u}hle and {\\\"O}mer Erdin{\\c{c}} Ya{\\u{g}}murlu and Fabian Wenzel and Oier Mees and Rudolf Lioutikov",
+      "title": "Scaling Robot Policy Learning via Zero-Shot Labeling with Foundation Models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "blank2024scaling"
+    },
+    {
+      "url": "https://openreview.net/forum?id=tGbpgz6yOrI",
+      "year": "2022",
+      "booktitle": "6th Annual Conference on Robot Learning",
+      "author": "Suraj Nair and Aravind Rajeswaran and Vikash Kumar and Chelsea Finn and Abhinav Gupta",
+      "title": "R3M: A Universal Visual Representation for Robot Manipulation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "nair2022rm"
+    },
+    {
+      "organization": "IEEE",
+      "year": "2016",
+      "pages": "3406--3413",
+      "booktitle": "2016 IEEE international conference on robotics and automation (ICRA)",
+      "author": "Pinto, Lerrel and Gupta, Abhinav",
+      "title": "Supersizing self-supervision: Learning to grasp from 50k tries and 700 robot hours",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "pinto2016supersizing"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2307.15818",
+      "author": "Brohan, Anthony and Brown, Noah and Carbajal, Justice and Chebotar, Yevgen and Chen, Xi and Choromanski, Krzysztof and Ding, Tianli and Driess, Danny and Dubey, Avinava and Finn, Chelsea and others",
+      "title": "Rt-2: Vision-language-action models transfer web knowledge to robotic control",
+      "ENTRYTYPE": "article",
+      "ID": "brohan2023rt"
+    },
+    {
+      "year": "2023",
+      "howpublished": "\\url{https://arxiv.org/abs/2310.08864}",
+      "author": "Open X-Embodiment Collaboration",
+      "title": "Open {X-E}mbodiment: Robotic Learning Datasets and {RT-X} Models",
+      "ENTRYTYPE": "misc",
+      "ID": "open_x_embodiment_rt_x_2023"
+    },
+    {
+      "url": "https://openreview.net/forum?id=XMQgwiJ7KSX",
+      "year": "2023",
+      "booktitle": "7th Annual Conference on Robot Learning",
+      "author": "Brianna Zitkovich and Tianhe Yu and Sichun Xu and Peng Xu and Ted Xiao and Fei Xia and Jialin Wu and Paul Wohlhart and Stefan Welker and Ayzaan Wahid and Quan Vuong and Vincent Vanhoucke and Huong Tran and Radu Soricut and Anikait Singh and Jaspiar Singh and Pierre Sermanet and Pannag R Sanketi and Grecia Salazar and Michael S Ryoo and Krista Reymann and Kanishka Rao and Karl Pertsch and Igor Mordatch and Henryk Michalewski and Yao Lu and Sergey Levine and Lisa Lee and Tsang-Wei Edward Lee and Isabel Leal and Yuheng Kuang and Dmitry Kalashnikov and Ryan Julian and Nikhil J Joshi and Alex Irpan and brian ichter and Jasmine Hsu and Alexander Herzog and Karol Hausman and Keerthana Gopalakrishnan and Chuyuan Fu and Pete Florence and Chelsea Finn and Kumar Avinava Dubey and Danny Driess and Tianli Ding and Krzysztof Marcin Choromanski and Xi Chen and Yevgen Chebotar and Justice Carbajal and Noah Brown and Anthony Brohan and Montserrat Gonzalez Arenas and Kehang Han",
+      "title": "{RT}-2: Vision-Language-Action Models Transfer Web Knowledge to Robotic Control",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zitkovich2023rt"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2303.03378",
+      "author": "Driess, Danny and Xia, Fei and Sajjadi, Mehdi SM and Lynch, Corey and Chowdhery, Aakanksha and Ichter, Brian and Wahid, Ayzaan and Tompson, Jonathan and Vuong, Quan and Yu, Tianhe and others",
+      "title": "Palm-e: An embodied multimodal language model",
+      "ENTRYTYPE": "article",
+      "ID": "driess2023palm"
+    },
+    {
+      "year": "2023",
+      "booktitle": "Fortieth International Conference on Machine Learning",
+      "author": "Yunfan Jiang and Agrim Gupta and Zichen Zhang and Guanzhi Wang and Yongqiang Dou and Yanjun Chen and Li Fei-Fei and Anima Anandkumar and Yuke Zhu and Linxi Fan",
+      "title": "VIMA: General Robot Manipulation with Multimodal Prompts",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "jiang2023vima"
+    },
+    {
+      "year": "2023",
+      "booktitle": "Proceedings of Robotics: Science and Systems (RSS)",
+      "author": "Reuss, Moritz and Li, Maximilian and Jia, Xiaogang and Lioutikov, Rudolf",
+      "title": "Goal Conditioned Imitation Learning using Score-based Diffusion Policies",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "reuss2023goal"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2406.09246",
+      "author": "Kim, Moo Jin and Pertsch, Karl and Karamcheti, Siddharth and Xiao, Ted and Balakrishna, Ashwin and Nair, Suraj and Rafailov, Rafael and Foster, Ethan and Lam, Grace and Sanketi, Pannag and others",
+      "title": "OpenVLA: An Open-Source Vision-Language-Action Model",
+      "ENTRYTYPE": "article",
+      "ID": "kim2024openvla"
+    },
+    {
+      "year": "2021",
+      "journal": "arXiv preprint arXiv:2107.09047",
+      "author": "Hu, Edward S and Huang, Kun and Rybkin, Oleh and Jayaraman, Dinesh",
+      "title": "Know thyself: Transferable visual control policies through robot-awareness",
+      "ENTRYTYPE": "article",
+      "ID": "hu2021know"
+    },
+    {
+      "year": "2024",
+      "booktitle": "Robotics: Science and Systems",
+      "author": "Moritz Reuss and {\\\"O}mer Erdin{\\c{c}} Ya{\\u{g}}murlu and Fabian Wenzel and Rudolf Lioutikov",
+      "title": "Multimodal Diffusion Transformer: Learning Versatile Behavior from Multimodal Goals",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "reuss2024multimodal"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2402.14606",
+      "author": "Jia, Xiaogang and Blessing, Denis and Jiang, Xinkai and Reuss, Moritz and Donat, Atalay and Lioutikov, Rudolf and Neumann, Gerhard",
+      "title": "Towards diverse behaviors: A benchmark for imitation learning with human demonstrations",
+      "ENTRYTYPE": "article",
+      "ID": "jia2024towards"
+    },
+    {
+      "year": "2024",
+      "booktitle": "8th Annual Conference on Robot Learning",
+      "author": "Doshi, Ria and Walke, Homer Rich and Mees, Oier and Dasari, Sudeep and Levine, Sergey",
+      "title": "Scaling Cross-Embodied Learning: One Policy for Manipulation, Navigation, Locomotion and Aviation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "doshiscaling"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2402.19432",
+      "author": "Yang, Jonathan and Glossop, Catherine and Bhorkar, Arjun and Shah, Dhruv and Vuong, Quan and Finn, Chelsea and Sadigh, Dorsa and Levine, Sergey",
+      "title": "Pushing the limits of cross-embodiment learning for manipulation and navigation",
+      "ENTRYTYPE": "article",
+      "ID": "yang2024pushing"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2306.11706",
+      "author": "Bousmalis, Konstantinos and Vezzani, Giulia and Rao, Dushyant and Devin, Coline and Lee, Alex X and Bauza, Maria and Davchev, Todor and Zhou, Yuxiang and Gupta, Agrim and Raju, Akhil and others",
+      "title": "Robocat: A self-improving foundation agent for robotic manipulation",
+      "ENTRYTYPE": "article",
+      "ID": "bousmalis2023robocat"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2020",
+      "pages": "4455--4464",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Huang, Wenlong and Mordatch, Igor and Pathak, Deepak",
+      "title": "One policy to control them all: Shared modular policies for agent-agnostic control",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "huang2020one"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2023",
+      "pages": "2955--2974",
+      "booktitle": "Conference on Robot Learning",
+      "author": "Yang, Jonathan Heewon and Sadigh, Dorsa and Finn, Chelsea",
+      "title": "Polybot: Training One Policy Across Robots While Embracing Variability",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "yang2023polybot"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2023",
+      "pages": "416--426",
+      "booktitle": "Conference on Robot Learning",
+      "author": "Radosavovic, Ilija and Xiao, Tete and James, Stephen and Abbeel, Pieter and Malik, Jitendra and Darrell, Trevor",
+      "title": "Real-world robot learning with masked visual pre-training",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "radosavovic2023real"
+    },
+    {
+      "year": "2023",
+      "howpublished": "\\url{https://octo-models.github.io}",
+      "author": "{Octo Model Team} and Dibya Ghosh and Homer Walke and Karl Pertsch and Kevin Black and Oier Mees and Sudeep Dasari and Joey Hejna and Charles Xu and Jianlan Luo and Tobias Kreiman and {You Liang} Tan and Dorsa Sadigh and Chelsea Finn and Sergey Levine",
+      "title": "Octo: An Open-Source Generalist Robot Policy",
+      "ENTRYTYPE": "misc",
+      "ID": "octo_2023"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2306.00937",
+      "author": "Lifshitz, Shalev and Paster, Keiran and Chan, Harris and Ba, Jimmy and McIlraith, Sheila",
+      "title": "STEVE-1: A Generative Model for Text-to-Behavior in Minecraft",
+      "ENTRYTYPE": "article",
+      "ID": "lifshitz2023steve"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2311.16098",
+      "author": "Shafiullah, Nur Muhammad Mahi and Rai, Anant and Etukuru, Haritheja and Liu, Yiqian and Misra, Ishan and Chintala, Soumith and Pinto, Lerrel",
+      "title": "On Bringing Robots Home",
+      "ENTRYTYPE": "article",
+      "ID": "shafiullah2023bringing"
+    },
+    {
+      "year": "2024",
+      "booktitle": "International Conference on Learning Representations",
+      "author": "Wu, Hongtao and Jing, Ya and Cheang, Chilam and Chen, Guangzeng and Xu, Jiafeng and Li, Xinghang and Liu, Minghuan and Li, Hang and Kong, Tao",
+      "title": "Unleashing Large-Scale Video Generative Pre-training for Visual Robot Manipulation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "wu2023unleashing"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2302.12766",
+      "author": "Karamcheti, Siddharth and Nair, Suraj and Chen, Annie S and Kollar, Thomas and Finn, Chelsea and Sadigh, Dorsa and Liang, Percy",
+      "title": "Language-driven representation learning for robotics",
+      "ENTRYTYPE": "article",
+      "ID": "karamcheti2023language"
+    },
+    {
+      "primaryclass": "cs.RO",
+      "archiveprefix": "arXiv",
+      "eprint": "2309.01918",
+      "year": "2023",
+      "author": "Homanga Bharadhwaj and Jay Vakil and Mohit Sharma and Abhinav Gupta and Shubham Tulsiani and Vikash Kumar",
+      "title": "RoboAgent: Generalization and Efficiency in Robot Manipulation via Semantic Augmentations and Action Chunking",
+      "ENTRYTYPE": "misc",
+      "ID": "bharadhwaj2023roboagent"
+    },
+    {
+      "url": "https://openreview.net/forum?id=7eW6NzSE4g",
+      "year": "2023",
+      "booktitle": "Thirty-seventh Conference on Neural Information Processing Systems",
+      "author": "Denis Blessing and Onur Celik and Xiaogang Jia and Moritz Reuss and Maximilian Xiling Li and Rudolf Lioutikov and Gerhard Neumann",
+      "title": "Information Maximizing Curriculum: A Curriculum-Based Approach for Learning Versatile Skills",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "blessing2023information"
+    },
+    {
+      "year": "2018",
+      "volume": "31",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Chen, Tao and Murali, Adithyavairavan and Gupta, Abhinav",
+      "title": "Hardware conditioned policies for multi-robot transfer learning",
+      "ENTRYTYPE": "article",
+      "ID": "chen2018hardware"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2407.15002",
+      "author": "Patel, Austin and Song, Shuran",
+      "title": "GET-Zero: Graph Embodiment Transformer for Zero-shot Embodiment Generalization",
+      "ENTRYTYPE": "article",
+      "ID": "patel2024get"
+    },
+    {
+      "year": "2019",
+      "volume": "32",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Pathak, Deepak and Lu, Christopher and Darrell, Trevor and Isola, Phillip and Efros, Alexei A",
+      "title": "Learning to control self-assembling morphologies: a study of generalization via modularity",
+      "ENTRYTYPE": "article",
+      "ID": "pathak2019learning"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2401.02117",
+      "author": "Fu, Zipeng and Zhao, Tony Z and Finn, Chelsea",
+      "title": "Mobile ALOHA: Learning Bimanual Mobile Manipulation with Low-Cost Whole-Body Teleoperation",
+      "ENTRYTYPE": "article",
+      "ID": "fu2024mobile"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2304.13705",
+      "author": "Zhao, Tony Z and Kumar, Vikash and Levine, Sergey and Finn, Chelsea",
+      "title": "Learning fine-grained bimanual manipulation with low-cost hardware",
+      "ENTRYTYPE": "article",
+      "ID": "zhao2023learning"
+    },
+    {
+      "year": "2023",
+      "title": "Coherent Soft Imitation Learning",
+      "booktitle": "Advances in Neural Information Processing Systems (NeurIPS)",
+      "author": "Watson, Joe and Huang, Sandy H. and Heess, Nicolas",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "Watson2023csil"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2402.10885",
+      "author": "Ke, Tsung-Wei and Gkanatsios, Nikolaos and Fragkiadaki, Katerina",
+      "title": "3d diffuser actor: Policy diffusion with 3d scene representations",
+      "ENTRYTYPE": "article",
+      "ID": "ke20243d"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2209.03003",
+      "author": "Liu, Xingchao and Gong, Chengyue and Liu, Qiang",
+      "title": "Flow straight and fast: Learning to generate and transfer data with rectified flow",
+      "ENTRYTYPE": "article",
+      "ID": "liu2022flow"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2209.15571",
+      "author": "Albergo, Michael S and Vanden-Eijnden, Eric",
+      "title": "Building normalizing flows with stochastic interpolants",
+      "ENTRYTYPE": "article",
+      "ID": "albergo2022building"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2210.02747",
+      "author": "Lipman, Yaron and Chen, Ricky TQ and Ben-Hamu, Heli and Nickel, Maximilian and Le, Matt",
+      "title": "Flow matching for generative modeling",
+      "ENTRYTYPE": "article",
+      "ID": "lipman2022flow"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2409.04576",
+      "author": "Funk, Niklas and Urain, Julen and Carvalho, Joao and Prasad, Vignesh and Chalvatzaki, Georgia and Peters, Jan",
+      "title": "ActionFlow: Equivariant, Accurate, and Efficient Policies with Spatially Symmetric Flow Matching",
+      "ENTRYTYPE": "article",
+      "ID": "funk2024actionflow"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2409.01083",
+      "author": "Zhang, Fan and Gienger, Michael",
+      "title": "Affordance-based Robot Manipulation with Flow Matching",
+      "ENTRYTYPE": "article",
+      "ID": "zhang2024affordance"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2403.10672",
+      "author": "Braun, Max and Jaquier, No{\\'e}mie and Rozo, Leonel and Asfour, Tamim",
+      "title": "Riemannian Flow Matching Policy for Robot Motion Learning",
+      "ENTRYTYPE": "article",
+      "ID": "braun2024riemannian"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2311.13443",
+      "author": "Zheng, Qinqing and Le, Matt and Shaul, Neta and Lipman, Yaron and Grover, Aditya and Chen, Ricky TQ",
+      "title": "Guided flows for generative modeling and decision making",
+      "ENTRYTYPE": "article",
+      "ID": "zheng2023guided"
+    },
+    {
+      "year": "2018",
+      "volume": "31",
+      "journal": "Advances in neural information processing systems",
+      "author": "Chen, Ricky TQ and Rubanova, Yulia and Bettencourt, Jesse and Duvenaud, David K",
+      "title": "Neural ordinary differential equations",
+      "ENTRYTYPE": "article",
+      "ID": "chen2018neural"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2410.24164",
+      "author": "Black, Kevin and Brown, Noah and Driess, Danny and Esmail, Adnan and Equi, Michael and Finn, Chelsea and Fusai, Niccolo and Groom, Lachy and Hausman, Karol and Ichter, Brian and others",
+      "title": "$pi\\_0 $: A Vision-Language-Action Flow Model for General Robot Control",
+      "ENTRYTYPE": "article",
+      "ID": "black2024pi_0"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2409.05865",
+      "author": "Etukuru, Haritheja and Naka, Norihito and Hu, Zijin and Lee, Seungjae and Mehu, Julian and Edsinger, Aaron and Paxton, Chris and Chintala, Soumith and Pinto, Lerrel and Shafiullah, Nur Muhammad Mahi",
+      "title": "Robot utility models: General policies for zero-shot deployment in new environments",
+      "ENTRYTYPE": "article",
+      "ID": "etukuru2024robot"
+    },
+    {
+      "year": "2024",
+      "booktitle": "The Thirty-eighth Annual Conference on Neural Information Processing Systems",
+      "author": "Wang, Lirui and Chen, Xinlei and Zhao, Jialiang and He, Kaiming",
+      "title": "Scaling Proprioceptive-Visual Learning with Heterogeneous Pre-trained Transformers",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "wangscaling"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2409.12514",
+      "author": "Wen, Junjie and Zhu, Yichen and Li, Jinming and Zhu, Minjie and Wu, Kun and Xu, Zhiyuan and Liu, Ning and Cheng, Ran and Shen, Chaomin and Peng, Yaxin and others",
+      "title": "Tinyvla: Towards fast, data-efficient vision-language-action models for robotic manipulation",
+      "ENTRYTYPE": "article",
+      "ID": "wen2024tinyvla"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2411.04996",
+      "author": "Liang, Weixin and Yu, Lili and Luo, Liang and Iyer, Srinivasan and Dong, Ning and Zhou, Chunting and Ghosh, Gargi and Lewis, Mike and Yih, Wen-tau and Zettlemoyer, Luke and others",
+      "title": "Mixture-of-Transformers: A Sparse and Scalable Architecture for Multi-Modal Foundation Models",
+      "ENTRYTYPE": "article",
+      "ID": "liang2024mixture"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2407.07726",
+      "author": "Beyer, Lucas and Steiner, Andreas and Pinto, Andr{\\'e} Susano and Kolesnikov, Alexander and Wang, Xiao and Salz, Daniel and Neumann, Maxim and Alabdulmohsin, Ibrahim and Tschannen, Michael and Bugliarello, Emanuele and others",
+      "title": "Paligemma: A versatile 3b vlm for transfer",
+      "ENTRYTYPE": "article",
+      "ID": "beyer2024paligemma"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2412.03555",
+      "author": "Steiner, Andreas and Pinto, Andr{\\'e} Susano and Tschannen, Michael and Keysers, Daniel and Wang, Xiao and Bitton, Yonatan and Gritsenko, Alexey and Minderer, Matthias and Sherbondy, Anthony and Long, Shangbang and others",
+      "title": "PaliGemma 2: A Family of Versatile VLMs for Transfer",
+      "ENTRYTYPE": "article",
+      "ID": "steiner2024paligemma"
+    },
+    {
+      "year": "2023",
+      "pages": "11975--11986",
+      "booktitle": "Proceedings of the IEEE/CVF International Conference on Computer Vision",
+      "author": "Zhai, Xiaohua and Mustafa, Basil and Kolesnikov, Alexander and Beyer, Lucas",
+      "title": "Sigmoid loss for language image pre-training",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zhai2023sigmoid"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2403.08295",
+      "author": "Team, Gemma and Mesnard, Thomas and Hardin, Cassidy and Dadashi, Robert and Bhupatiraju, Surya and Pathak, Shreya and Sifre, Laurent and Rivi{\\`e}re, Morgane and Kale, Mihir Sanjay and Love, Juliette and others",
+      "title": "Gemma: Open models based on gemini research and technology",
+      "ENTRYTYPE": "article",
+      "ID": "team2024gemma"
+    },
+    {
+      "year": "2024",
+      "pages": "4818--4829",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Xiao, Bin and Wu, Haiping and Xu, Weijian and Dai, Xiyang and Hu, Houdong and Lu, Yumao and Zeng, Michael and Liu, Ce and Yuan, Lu",
+      "title": "Florence-2: Advancing a unified representation for a variety of vision tasks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "xiao2024florence"
+    },
+    {
+      "url": "https://api.semanticscholar.org/CorpusID:235657751",
+      "year": "2020",
+      "journal": "Robotics: Science and Systems XVII",
+      "author": "Corey Lynch and Pierre Sermanet",
+      "title": "Language Conditioned Imitation Learning Over Unstructured Data",
+      "ENTRYTYPE": "article",
+      "ID": "Lynch2020LanguageCI"
+    },
+    {
+      "year": "2019",
+      "volume": "32",
+      "journal": "Advances in neural information processing systems",
+      "author": "Ding, Yiming and Florensa, Carlos and Abbeel, Pieter and Phielipp, Mariano",
+      "title": "Goal-conditioned imitation learning",
+      "ENTRYTYPE": "article",
+      "ID": "ding2019goal"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2022",
+      "pages": "991--1002",
+      "booktitle": "Conference on Robot Learning",
+      "author": "Jang, Eric and Irpan, Alex and Khansari, Mohi and Kappler, Daniel and Ebert, Frederik and Lynch, Corey and Levine, Sergey and Finn, Chelsea",
+      "title": "Bc-z: Zero-shot task generalization with robotic imitation learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "jang2022bc"
+    },
+    {
+      "year": "2022",
+      "pages": "22955--22968",
+      "volume": "35",
+      "journal": "Advances in neural information processing systems",
+      "author": "Shafiullah, Nur Muhammad and Cui, Zichen and Altanzaya, Ariuntuya Arty and Pinto, Lerrel",
+      "title": "Behavior transformers: Cloning $ k $ modes with one stone",
+      "ENTRYTYPE": "article",
+      "ID": "shafiullah2022behavior"
+    },
+    {
+      "booktitle": "International Conference on Learning Representations",
+      "author": "Hu, Edward J and Wallis, Phillip and Allen-Zhu, Zeyuan and Li, Yuanzhi and Wang, Shean and Wang, Lu and Chen, Weizhu and others",
+      "title": "LoRA: Low-Rank Adaptation of Large Language Models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "hulora"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2410.06158",
+      "author": "Cheang, Chi-Lam and Chen, Guangzeng and Jing, Ya and Kong, Tao and Li, Hang and Li, Yifeng and Liu, Yuxiao and Wu, Hongtao and Xu, Jiafeng and Yang, Yichu and others",
+      "title": "Gr-2: A generative video-language-action model with web-scale knowledge for robot manipulation",
+      "ENTRYTYPE": "article",
+      "ID": "cheang2024gr"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2401.12202",
+      "author": "Liu, Peiqi and Orru, Yaswanth and Vakil, Jay and Paxton, Chris and Shafiullah, Nur Muhammad Mahi and Pinto, Lerrel",
+      "title": "Ok-robot: What really matters in integrating open-knowledge models for robotics",
+      "ENTRYTYPE": "article",
+      "ID": "liu2024ok"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "2022",
+      "pages": "7327--7334",
+      "number": "3",
+      "volume": "7",
+      "journal": "IEEE Robotics and Automation Letters",
+      "author": "Mees, Oier and Hermann, Lukas and Rosete-Beas, Erick and Burgard, Wolfram",
+      "title": "Calvin: A benchmark for language-conditioned policy learning for long-horizon robot manipulation tasks",
+      "ENTRYTYPE": "article",
+      "ID": "mees2022calvin"
+    },
+    {
+      "url": "https://openreview.net/forum?id=nDmwloEl3N",
+      "year": "2025",
+      "booktitle": "The Thirteenth International Conference on Learning Representations",
+      "author": "Moritz Reuss and Jyothish Pari and Pulkit Agrawal and Rudolf Lioutikov",
+      "title": "Efficient Diffusion Transformer Policies with Mixture of Expert Denoisers for Multitask Learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "reuss2025efficient"
+    },
+    {
+      "year": "2024",
+      "journal": "https://arxiv.org/abs/2412.15109",
+      "author": "Tian, Yang and Yang, Sizhe and Zeng, Jia and Wang, Ping and Lin, Dahua and Dong, Hao and Pang, Jiangmiao",
+      "title": "Predictive Inverse Dynamics Models are Scalable Learners for Robotic Manipulation",
+      "ENTRYTYPE": "article",
+      "ID": "tian2024seer"
+    },
+    {
+      "year": "2024",
+      "url": "https://arxiv.org/abs/2412.14803",
+      "primaryclass": "cs.CV",
+      "eprint": "2412.14803",
+      "archiveprefix": "arXiv",
+      "author": "Yucheng Hu and Yanjiang Guo and Pengchao Wang and Xiaoyu Chen and Yen-Jen Wang and Jianke Zhang and Koushil Sreenath and Chaochao Lu and Jianyu Chen",
+      "title": "Video Prediction Policy: A Generalist Robot Policy with Predictive Visual Representations",
+      "ENTRYTYPE": "misc",
+      "ID": "hu2024videopredictionpolicygeneralist"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2412.14058",
+      "author": "Li, Xinghang and Li, Peiyan and Liu, Minghuan and Wang, Dong and Liu, Jirong and Kang, Bingyi and Ma, Xiao and Kong, Tao and Zhang, Hanbo and Liu, Huaping",
+      "title": "Towards Generalist Robot Policies: What Matters in Building Vision-Language-Action Models",
+      "ENTRYTYPE": "article",
+      "ID": "li2023generalist"
+    },
+    {
+      "url": "https://openreview.net/forum?id=gqCQxObVz2",
+      "year": "2024",
+      "booktitle": "8th Annual Conference on Robot Learning",
+      "author": "Tsung-Wei Ke and Nikolaos Gkanatsios and Katerina Fragkiadaki",
+      "title": "3D Diffuser Actor: Policy Diffusion with 3D Scene Representations",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ke2024d"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2311.01378",
+      "author": "Li, Xinghang and Liu, Minghuan and Zhang, Hanbo and Yu, Cunjun and Xu, Jie and Wu, Hongtao and Cheang, Chilam and Jing, Ya and Zhang, Weinan and Liu, Huaping and Li, Hang and Kong, Tao",
+      "title": "Vision-Language Foundation Models as Effective Robot Imitators",
+      "ENTRYTYPE": "article",
+      "ID": "li2023vision"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2310.10639",
+      "author": "Black, Kevin and Nakamoto, Mitsuhiko and Atreya, Pranav and Walke, Homer and Finn, Chelsea and Kumar, Aviral and Levine, Sergey",
+      "title": "Zero-shot robotic manipulation with pretrained image-editing diffusion models",
+      "ENTRYTYPE": "article",
+      "ID": "black2023zero"
+    },
+    {
+      "primaryclass": "cs.CL",
+      "archiveprefix": "arXiv",
+      "eprint": "2104.09864",
+      "year": "2021",
+      "author": "Jianlin Su and Yu Lu and Shengfeng Pan and Bo Wen and Yunfeng Liu",
+      "title": "RoFormer: Enhanced Transformer with Rotary Position Embedding",
+      "ENTRYTYPE": "misc",
+      "ID": "su2021roformer"
+    },
+    {
+      "year": "2024",
+      "author": "Alexander Khazatsky and Karl Pertsch and Suraj Nair and Ashwin Balakrishna and Sudeep Dasari and Siddharth Karamcheti and Soroush Nasiriany and Mohan Kumar Srirama and Lawrence Yunliang Chen and Kirsty Ellis and Peter David Fagan and Joey Hejna and Masha Itkina and Marion Lepert and Yecheng Jason Ma and Patrick Tree Miller and Jimmy Wu and Suneel Belkhale and Shivin Dass and Huy Ha and Arhan Jain and Abraham Lee and Youngwoon Lee and Marius Memmel and Sungjae Park and Ilija Radosavovic and Kaiyuan Wang and Albert Zhan and Kevin Black and Cheng Chi and Kyle Beltran Hatch and Shan Lin and Jingpei Lu and Jean Mercat and Abdul Rehman and Pannag R Sanketi and Archit Sharma and Cody Simpson and Quan Vuong and Homer Rich Walke and Blake Wulfe and Ted Xiao and Jonathan Heewon Yang and Arefeh Yavary and Tony Z. Zhao and Christopher Agia and Rohan Baijal and Mateo Guaman Castro and Daphne Chen and Qiuyu Chen and Trinity Chung and Jaimyn Drake and Ethan Paul Foster and Jensen Gao and David Antonio Herrera and Minho Heo and Kyle Hsu and Jiaheng Hu and Donovon Jackson and Charlotte Le and Yunshuang Li and Kevin Lin and Roy Lin and Zehan Ma and Abhiram Maddukuri and Suvir Mirchandani and Daniel Morton and Tony Nguyen and Abigail O'Neill and Rosario Scalise and Derick Seale and Victor Son and Stephen Tian and Emi Tran and Andrew E. Wang and Yilin Wu and Annie Xie and Jingyun Yang and Patrick Yin and Yunchu Zhang and Osbert Bastani and Glen Berseth and Jeannette Bohg and Ken Goldberg and Abhinav Gupta and Abhishek Gupta and Dinesh Jayaraman and Joseph J Lim and Jitendra Malik and Roberto Martín-Martín and Subramanian Ramamoorthy and Dorsa Sadigh and Shuran Song and Jiajun Wu and Michael C. Yip and Yuke Zhu and Thomas Kollar and Sergey Levine and Chelsea Finn",
+      "title": "DROID: A Large-Scale In-The-Wild Robot Manipulation Dataset",
+      "ENTRYTYPE": "article",
+      "ID": "khazatsky2024droid"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2412.14058",
+      "author": "Li, Xinghang and Li, Peiyan and Liu, Minghuan and Wang, Dong and Liu, Jirong and Kang, Bingyi and Ma, Xiao and Kong, Tao and Zhang, Hanbo and Liu, Huaping",
+      "title": "Towards Generalist Robot Policies: What Matters in Building Vision-Language-Action Models",
+      "ENTRYTYPE": "article",
+      "ID": "li2024towards"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2410.10088",
+      "author": "Dasari, Sudeep and Mees, Oier and Zhao, Sebastian and Srirama, Mohan Kumar and Levine, Sergey",
+      "title": "The Ingredients for Robotic Diffusion Transformers",
+      "ENTRYTYPE": "article",
+      "ID": "dasari2024ingredients"
+    },
+    {
+      "organization": "Springer",
+      "year": "2022",
+      "pages": "74--92",
+      "booktitle": "European conference on computer vision",
+      "author": "Ding, Mingyu and Xiao, Bin and Codella, Noel and Luo, Ping and Wang, Jingdong and Yuan, Lu",
+      "title": "Davit: Dual attention vision transformers",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ding2022davit"
+    },
+    {
+      "year": "2019",
+      "volume": "32",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Zhang, Biao and Sennrich, Rico",
+      "title": "Root mean square layer normalization",
+      "ENTRYTYPE": "article",
+      "ID": "zhang2019root"
+    },
+    {
+      "year": "2020",
+      "journal": "arXiv preprint arXiv:2010.04245",
+      "author": "Henry, Alex and Dachapally, Prudhvi Raj and Pawar, Shubham and Chen, Yuxuan",
+      "title": "Query-key normalization for transformers",
+      "ENTRYTYPE": "article",
+      "ID": "henry2020query"
+    },
+    {
+      "year": "2020",
+      "journal": "arXiv preprint arXiv:2002.05202",
+      "author": "Shazeer, Noam",
+      "title": "Glu variants improve transformer",
+      "ENTRYTYPE": "article",
+      "ID": "shazeer2020glu"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2406.04093",
+      "author": "Gao, Leo and la Tour, Tom Dupr{\\'e} and Tillman, Henk and Goh, Gabriel and Troll, Rajan and Radford, Alec and Sutskever, Ilya and Leike, Jan and Wu, Jeffrey",
+      "title": "Scaling and evaluating sparse autoencoders",
+      "ENTRYTYPE": "article",
+      "ID": "gao2024scaling"
+    },
+    {
+      "booktitle": "8th Annual Conference on Robot Learning",
+      "author": "Zawalski, Micha{\\l} and Chen, William and Pertsch, Karl and Mees, Oier and Finn, Chelsea and Levine, Sergey",
+      "title": "Robotic Control via Embodied Chain-of-Thought Reasoning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zawalskirobotic"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2409.14411",
+      "author": "Zhu, Minjie and Zhu, Yichen and Li, Jinming and Wen, Junjie and Xu, Zhiyuan and Liu, Ning and Cheng, Ran and Shen, Chaomin and Peng, Yaxin and Feng, Feifei and others",
+      "title": "Scaling diffusion policy in transformer to 1 billion parameters for robotic manipulation",
+      "ENTRYTYPE": "article",
+      "ID": "zhu2024scaling"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2408.14037",
+      "author": "Hejna, Joey and Bhateja, Chethan and Jian, Yichen and Pertsch, Karl and Sadigh, Dorsa",
+      "title": "Re-mix: Optimizing data mixtures for large scale imitation learning",
+      "ENTRYTYPE": "article",
+      "ID": "hejna2024re"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2410.18647",
+      "author": "Lin, Fanqi and Hu, Yingdong and Sheng, Pingyue and Wen, Chuan and You, Jiacheng and Gao, Yang",
+      "title": "Data scaling laws in imitation learning for robotic manipulation",
+      "ENTRYTYPE": "article",
+      "ID": "lin2024data"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2310.17596",
+      "author": "Mandlekar, Ajay and Nasiriany, Soroush and Wen, Bowen and Akinola, Iretiayo and Narang, Yashraj and Fan, Linxi and Zhu, Yuke and Fox, Dieter",
+      "title": "Mimicgen: A data generation system for scalable robot learning using human demonstrations",
+      "ENTRYTYPE": "article",
+      "ID": "mandlekar2023mimicgen"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2405.04798",
+      "author": "Shentu, Yide and Wu, Philipp and Rajeswaran, Aravind and Abbeel, Pieter",
+      "title": "From LLMs to Actions: Latent Codes as Bridges in Hierarchical Robot Control",
+      "ENTRYTYPE": "article",
+      "ID": "shentu2024llms"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2410.08001",
+      "author": "Bu, Qingwen and Li, Hongyang and Chen, Li and Cai, Jisong and Zeng, Jia and Cui, Heming and Yao, Maoqing and Qiao, Yu",
+      "title": "Towards Synergistic, Generalized, and Efficient Dual-System for Robotic Manipulation",
+      "ENTRYTYPE": "article",
+      "ID": "bu2024towards"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2406.07539",
+      "author": "Haldar, Siddhant and Peng, Zhuoran and Pinto, Lerrel",
+      "title": "BAKU: An Efficient Transformer for Multi-Task Policy Learning",
+      "ENTRYTYPE": "article",
+      "ID": "haldar2024baku"
+    },
+    {
+      "year": "2022",
+      "pages": "31809--31826",
+      "volume": "35",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Lauren{\\c{c}}on, Hugo and Saulnier, Lucile and Wang, Thomas and Akiki, Christopher and Villanova del Moral, Albert and Le Scao, Teven and Von Werra, Leandro and Mou, Chenghao and Gonz{\\'a}lez Ponferrada, Eduardo and Nguyen, Huu and others",
+      "title": "The bigscience roots corpus: A 1.6 tb composite multilingual dataset",
+      "ENTRYTYPE": "article",
+      "ID": "laurenccon2022bigscience"
+    },
+    {
+      "year": "2022",
+      "pages": "25278--25294",
+      "volume": "35",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Schuhmann, Christoph and Beaumont, Romain and Vencu, Richard and Gordon, Cade and Wightman, Ross and Cherti, Mehdi and Coombes, Theo and Katta, Aarush and Mullis, Clayton and Wortsman, Mitchell and others",
+      "title": "Laion-5b: An open large-scale dataset for training next generation image-text models",
+      "ENTRYTYPE": "article",
+      "ID": "schuhmann2022laion"
+    },
+    {
+      "year": "2020",
+      "booktitle": "International Conference on Learning Representations",
+      "author": "Dosovitskiy, Alexey and Beyer, Lucas and Kolesnikov, Alexander and Weissenborn, Dirk and Zhai, Xiaohua and Unterthiner, Thomas and Dehghani, Mostafa and Minderer, Matthias and Heigold, Georg and Gelly, Sylvain and others",
+      "title": "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "dosovitskiy2020image"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2302.13971",
+      "author": "Touvron, Hugo and Lavril, Thibaut and Izacard, Gautier and Martinet, Xavier and Lachaux, Marie-Anne and Lacroix, Timoth{\\'e}e and Rozi{\\`e}re, Baptiste and Goyal, Naman and Hambro, Eric and Azhar, Faisal and others",
+      "title": "Llama: Open and efficient foundation language models",
+      "ENTRYTYPE": "article",
+      "ID": "touvron2023llama"
+    },
+    {
+      "year": "2024",
+      "howpublished": "\\url{https://github.com/huggingface/lerobot}",
+      "title": "LeRobot: State-of-the-art Machine Learning for Real-World Robotics in Pytorch",
+      "author": "Cadene, Remi and Alibert, Simon and Soare, Alexander and Gallouedec, Quentin and Zouitine, Adil and Wolf, Thomas",
+      "ENTRYTYPE": "misc",
+      "ID": "cadene2024lerobot"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint 2406.18977",
+      "author": "Liu, Fanfan and Yan, Feng and Zheng, Liming and Huang, Yiyang and Feng, Chengjian and Ma, Lin",
+      "title": "RoboUniView: Visual-Language Model with Unified View Representation for Robotic Manipulation",
+      "ENTRYTYPE": "article",
+      "ID": "li2024RoboUniView"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2501.09747",
+      "author": "Pertsch, Karl and Stachowicz, Kyle and Ichter, Brian and Driess, Danny and Nair, Suraj and Vuong, Quan and Mees, Oier and Finn, Chelsea and Levine, Sergey",
+      "title": "Fast: Efficient action tokenization for vision-language-action models",
+      "ENTRYTYPE": "article",
+      "ID": "pertsch2025fast"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2502.19645",
+      "author": "Kim, Moo Jin and Finn, Chelsea and Liang, Percy",
+      "title": "Fine-tuning vision-language-action models: Optimizing speed and success",
+      "ENTRYTYPE": "article",
+      "ID": "kim2025fine"
+    },
+    {
+      "url": "https://api.semanticscholar.org/CorpusID:259282800",
+      "pages": "653-660",
+      "year": "2023",
+      "journal": "2024 IEEE International Conference on Robotics and Automation (ICRA)",
+      "author": "Haoshu Fang and Hongjie Fang and Zhenyu Tang and Jirong Liu and Junbo Wang and Haoyi Zhu and Cewu Lu",
+      "title": "RH20T: A Comprehensive Robotic Dataset for Learning Diverse Skills in One-Shot",
+      "ENTRYTYPE": "article",
+      "ID": "Fang2023RH20TAC"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2411.19650",
+      "author": "Li, Qixiu and Liang, Yaobo and Wang, Zeyu and Luo, Lin and Chen, Xi and Liao, Mozheng and Wei, Fangyun and Deng, Yu and Xu, Sicheng and Zhang, Yizhong and others",
+      "title": "Cogact: A foundational vision-language-action model for synergizing cognition and action in robotic manipulation",
+      "ENTRYTYPE": "article",
+      "ID": "li2024cogact"
+    },
+    {
+      "year": "2024",
+      "url": "https://github.com/Stanford-ILIAD/openvla-mini",
+      "author": "Suneel Belkhale and Dorsa Sadigh",
+      "title": "MiniVLA: A Better VLA with a Smaller Footprint",
+      "ENTRYTYPE": "misc",
+      "ID": "belkhale2024minivla"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2024",
+      "pages": "26991--27008",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Lee, Seungjae and Wang, Yibin and Etukuru, Haritheja and Kim, H Jin and Shafiullah, Nur Muhammad Mahi and Pinto, Lerrel",
+      "title": "Behavior Generation with Latent Actions",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "lee2024behavior"
+    },
+    {
+      "url": "https://openreview.net/forum?id=VYOe2eBQeh",
+      "year": "2025",
+      "booktitle": "The Thirteenth International Conference on Learning Representations",
+      "author": "Seonghyeon Ye and Joel Jang and Byeongguk Jeon and Se June Joo and Jianwei Yang and Baolin Peng and Ajay Mandlekar and Reuben Tan and Yu-Wei Chao and Bill Yuchen Lin and Lars Liden and Kimin Lee and Jianfeng Gao and Luke Zettlemoyer and Dieter Fox and Minjoon Seo",
+      "title": "Latent Action Pretraining from Videos",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ye2025latent"
+    },
+    {
+      "booktitle": "7th Annual Conference on Robot Learning",
+      "author": "Zitkovich, Brianna and Yu, Tianhe and Xu, Sichun and Xu, Peng and Xiao, Ted and Xia, Fei and Wu, Jialin and Wohlhart, Paul and Welker, Stefan and Wahid, Ayzaan and others",
+      "title": "RT-2: Vision-Language-Action Models Transfer Web Knowledge to Robotic Control",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zitkovichrt"
+    },
+    {
+      "url": "https://arxiv.org/abs/2412.13877",
+      "primaryclass": "cs.RO",
+      "archiveprefix": "arXiv",
+      "eprint": "2412.13877",
+      "year": "2025",
+      "author": "Kun Wu and Chengkai Hou and Jiaming Liu and Zhengping Che and Xiaozhu Ju and Zhuqin Yang and Meng Li and Yinuo Zhao and Zhiyuan Xu and Guang Yang and Shichao Fan and Xinhua Wang and Fei Liao and Zhen Zhao and Guangyu Li and Zhao Jin and Lecheng Wang and Jilei Mao and Ning Liu and Pei Ren and Qiang Zhang and Yaoxu Lyu and Mengzhen Liu and Jingyang He and Yulin Luo and Zeyu Gao and Chenxuan Li and Chenyang Gu and Yankai Fu and Di Wu and Xingyu Wang and Sixiang Chen and Zhenyu Wang and Pengju An and Siyuan Qian and Shanghang Zhang and Jian Tang",
+      "title": "RoboMIND: Benchmark on Multi-embodiment Intelligence Normative Data for Robot Manipulation",
+      "ENTRYTYPE": "misc",
+      "ID": "wu2025robomindbenchmarkmultiembodimentintelligence"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2503.06669",
+      "author": "Bu, Qingwen and Cai, Jisong and Chen, Li and Cui, Xiuqi and Ding, Yan and Feng, Siyuan and Gao, Shenyuan and He, Xindong and Huang, Xu and Jiang, Shu and others",
+      "title": "AgiBot World Colosseo: A Large-scale Manipulation Platform for Scalable and Intelligent Embodied Systems",
+      "ENTRYTYPE": "article",
+      "ID": "bu2025agibot"
+    },
+    {
+      "url": "https://openreview.net/forum?id=ifo8oWSLSq",
+      "year": "2025",
+      "booktitle": "7th Robot Learning Workshop: Towards Robots with Human-Level Abilities",
+      "author": "Moritz Reuss and Hongyi Zhou and Marcel R{\\\"u}hle and {\\\"O}mer Erdin{\\c{c}} Ya{\\u{g}}murlu and Fabian Otto and Rudolf Lioutikov",
+      "title": "{FLOWER}: Democratizing Generalist Robot Policies with Efficient Vision-Language-Action Flow Policies",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "reuss2025flower"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2502.14420",
+      "author": "Zhou, Zhongyi and Zhu, Yichen and Zhu, Minjie and Wen, Junjie and Liu, Ning and Xu, Zhiyuan and Meng, Weibin and Cheng, Ran and Peng, Yaxin and Shen, Chaomin and others",
+      "title": "Chatvla: Unified multimodal understanding and robot control with vision-language-action model",
+      "ENTRYTYPE": "article",
+      "ID": "zhou2025chatvla"
+    },
+    {
+      "publisher": "Springer Science \\& Business Media",
+      "year": "2002",
+      "author": "Prautzsch, Hartmut and Boehm, Wolfgang and Paluszny, Marco",
+      "title": "B{\\'e}zier and B-spline techniques",
+      "ENTRYTYPE": "book",
+      "ID": "prautzsch2002bezier"
+    },
+    {
+      "organization": "PmLR",
+      "year": "2021",
+      "pages": "8748--8763",
+      "booktitle": "International conference on machine learning",
+      "author": "Radford, Alec and Kim, Jong Wook and Hallacy, Chris and Ramesh, Aditya and Goh, Gabriel and Agarwal, Sandhini and Sastry, Girish and Askell, Amanda and Mishkin, Pamela and Clark, Jack and others",
+      "title": "Learning transferable visual models from natural language supervision",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "radford2021learning"
+    },
+    {
+      "year": "2016",
+      "pages": "770--778",
+      "booktitle": "Proceedings of the IEEE conference on computer vision and pattern recognition",
+      "author": "He, Kaiming and Zhang, Xiangyu and Ren, Shaoqing and Sun, Jian",
+      "title": "Deep residual learning for image recognition",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "he2016deep"
+    },
+    {
+      "publisher": "Los Alamos, NM, USA",
+      "year": "1971",
+      "booktitle": "Los Alamos Sci. Lab.",
+      "author": "Boor, C de",
+      "title": "Subroutine package for calculating with b-splines",
+      "ENTRYTYPE": "incollection",
+      "ID": "boor1971subroutine"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2412.20451",
+      "author": "Li, Jinming and Zhu, Yichen and Tang, Zhibin and Wen, Junjie and Zhu, Minjie and Liu, Xiaoyu and Li, Chengmeng and Cheng, Ran and Peng, Yaxin and Feng, Feifei",
+      "title": "Improving Vision-Language-Action Models via Chain-of-Affordance",
+      "ENTRYTYPE": "article",
+      "ID": "li2024improving"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2502.05855",
+      "author": "Wen, Junjie and Zhu, Yichen and Li, Jinming and Tang, Zhibin and Shen, Chaomin and Feng, Feifei",
+      "title": "DexVLA: Vision-Language Model with Plug-In Diffusion Expert for General Robot Control",
+      "ENTRYTYPE": "article",
+      "ID": "wen2025dexvla"
+    },
+    {
+      "year": "2025",
+      "author": "Delin Qu and Haoming Song and Qizhi Chen and Yuanqi Yao and Xinyi Ye and Yan Ding and Zhigang Wang and JiaYuan Gu and Bin Zhao and Dong Wang and Xuelong Li",
+      "title": "SpatialVLA: Exploring Spatial Representations for Visual-Language-Action Models",
+      "ENTRYTYPE": "article",
+      "ID": "spatialvla2025"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2407.08693",
+      "author": "Zawalski, Micha{\\l} and Chen, William and Pertsch, Karl and Mees, Oier and Finn, Chelsea and Levine, Sergey",
+      "title": "Robotic control via embodied chain-of-thought reasoning",
+      "ENTRYTYPE": "article",
+      "ID": "zawalski2024robotic"
+    },
+    {
+      "publisher": "San Francisco, CA, USA",
+      "year": "2018",
+      "author": "Radford, Alec and Narasimhan, Karthik and Salimans, Tim and Sutskever, Ilya and others",
+      "title": "Improving language understanding by generative pre-training",
+      "ENTRYTYPE": "article",
+      "ID": "radford2018improving"
+    },
+    {
+      "organization": "Makuhari",
+      "year": "2010",
+      "pages": "1045--1048",
+      "number": "3",
+      "volume": "2",
+      "booktitle": "Interspeech",
+      "author": "Mikolov, Tomas and Karafi{\\'a}t, Martin and Burget, Lukas and Cernock{\\`y}, Jan and Khudanpur, Sanjeev",
+      "title": "Recurrent neural network based language model.",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "mikolov2010recurrent"
+    },
+    {
+      "publisher": "PsyArXiv",
+      "year": "2022",
+      "author": "Lai, Lucy and Huang, Ann Zixiang and Gershman, Samuel J",
+      "title": "Action chunking as policy compression",
+      "ENTRYTYPE": "article",
+      "ID": "lai2022action"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2016",
+      "pages": "1747--1756",
+      "booktitle": "International conference on machine learning",
+      "author": "Van Den Oord, A{\\\"a}ron and Kalchbrenner, Nal and Kavukcuoglu, Koray",
+      "title": "Pixel recurrent neural networks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "van2016pixel"
+    },
+    {
+      "year": "2024",
+      "pages": "20198--20224",
+      "volume": "37",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Szot, Andrew and Mazoure, Bogdan and Agrawal, Harsh and Hjelm, R Devon and Kira, Zsolt and Toshev, Alexander",
+      "title": "Grounding multimodal large language models in actions",
+      "ENTRYTYPE": "article",
+      "ID": "szot2024grounding"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2412.08442",
+      "author": "Szot, Andrew and Mazoure, Bogdan and Attia, Omar and Timofeev, Aleksei and Agrawal, Harsh and Hjelm, Devon and Gan, Zhe and Kira, Zsolt and Toshev, Alexander",
+      "title": "From Multimodal LLMs to Generalist Embodied Agents: Methods and Lessons",
+      "ENTRYTYPE": "article",
+      "ID": "szot2024multimodal"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "2024",
+      "journal": "IEEE Robotics and Automation Letters",
+      "author": "Scheikl, Paul Maria and Schreiber, Nicolas and Haas, Christoph and Freymuth, Niklas and Neumann, Gerhard and Lioutikov, Rudolf and Mathis-Ullrich, Franziska",
+      "title": "Movement primitive diffusion: Learning gentle robotic manipulation of deformable objects",
+      "ENTRYTYPE": "article",
+      "ID": "scheikl2024movement"
+    },
+    {
+      "url": "https://api.semanticscholar.org/CorpusID:118698454",
+      "pages": "95-126",
+      "year": "1974",
+      "journal": "Computer Aided Geometric Design",
+      "author": "William J. Gordon and Richard F. Riesenfeld",
+      "title": "B-SPLINE CURVES AND SURFACES",
+      "ENTRYTYPE": "article",
+      "ID": "Gordon1974BSPLINECA"
+    },
+    {
+      "doi": "10.1162/NECO_a_00393",
+      "keywords": "",
+      "pages": "328-373",
+      "number": "2",
+      "volume": "25",
+      "year": "2013",
+      "title": "Dynamical Movement Primitives: Learning Attractor Models for Motor Behaviors",
+      "journal": "Neural Computation",
+      "author": "Ijspeert, Auke Jan and Nakanishi, Jun and Hoffmann, Heiko and Pastor, Peter and Schaal, Stefan",
+      "ENTRYTYPE": "article",
+      "ID": "ijspeert2006dmp"
+    },
+    {
+      "year": "2013",
+      "volume": "26",
+      "journal": "Advances in neural information processing systems",
+      "author": "Paraschos, Alexandros and Daniel, Christian and Peters, Jan R and Neumann, Gerhard",
+      "title": "Probabilistic movement primitives",
+      "ENTRYTYPE": "article",
+      "ID": "paraschos2013probabilistic"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2411.10336",
+      "author": "Liao, Weiran and Li, Ge and Zhou, Hongyi and Lioutikov, Rudolf and Neumann, Gerhard",
+      "title": "BMP: Bridging the Gap between B-Spline and Movement Primitives",
+      "ENTRYTYPE": "article",
+      "ID": "liao2024bmp"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "2025",
+      "journal": "IEEE Robotics and Automation Letters",
+      "author": "Huang, Xi and Zhou, Hongyi and Li, Ge and Tang, Yucheng and Liao, Weiran and Hein, Bj{\\\"o}rn and Asfour, Tamim and Lioutikov, Rudolf",
+      "title": "MoRe-ERL: Learning Motion Residuals using Episodic Reinforcement Learning",
+      "ENTRYTYPE": "article",
+      "ID": "huang2025more"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2023",
+      "pages": "1244--1265",
+      "booktitle": "Conference on Robot Learning",
+      "author": "Otto, Fabian and Celik, Onur and Zhou, Hongyi and Ziesche, Hanna and Ngo, Vien Anh and Neumann, Gerhard",
+      "title": "Deep black-box reinforcement learning with movement primitives",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "otto2023deep"
+    },
+    {
+      "url": "https://openreview.net/forum?id=mnipav175N",
+      "year": "2024",
+      "booktitle": "The Twelfth International Conference on Learning Representations",
+      "author": "Ge Li and Hongyi Zhou and Dominik Roth and Serge Thilges and Fabian Otto and Rudolf Lioutikov and Gerhard Neumann",
+      "title": "Open the Black Box: Step-based Policy Updates for Temporally-Correlated Episodic Reinforcement Learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "li2024open"
+    },
+    {
+      "url": "https://openreview.net/forum?id=N4NhVN30ph",
+      "year": "2025",
+      "booktitle": "The Thirteenth International Conference on Learning Representations",
+      "author": "Ge Li and Dong Tian and Hongyi Zhou and Xinkai Jiang and Rudolf Lioutikov and Gerhard Neumann",
+      "title": "{TOP}-{ERL}: Transformer-based Off-Policy Episodic Reinforcement Learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "li2024top"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2306.12729",
+      "author": "Otto, Fabian and Zhou, Hongyi and Celik, Onur and Li, Ge and Lioutikov, Rudolf and Neumann, Gerhard",
+      "title": "Mp3: Movement primitive-based (re-) planning policy",
+      "ENTRYTYPE": "article",
+      "ID": "otto2023mp3"
+    },
+    {
+      "abstract": "Trajectory planning under kinodynamic constraints is fundamental for advanced robotics applications that require dexterous, reactive, and rapid skills in complex environments. These constraints, which may represent task, safety, or actuator limitations, are essential for ensuring the proper functioning of robotic platforms and preventing unexpected behaviors. Recent advances in kinodynamic planning demonstrate that learning-to-plan techniques can generate complex and reactive motions under intricate constraints. However, these techniques necessitate the analytical modeling of both the robot and the entire task, a limiting assumption when systems are extremely complex or when constructing accurate task models is prohibitive. This paper addresses this limitation by combining learning-to-plan methods with reinforcement learning, resulting in a novel integration of black-box learning of motion primitives and optimization. We evaluate our approach against state-of-the-art safe reinforcement learning methods, showing that our technique, particularly when exploiting task structure, outperforms baseline methods in challenging scenarios such as planning to hit in robot air hockey. This work demonstrates the potential of our integrated approach to enhance the performance and safety of robots operating under complex kinodynamic constraints.",
+      "url": "https://proceedings.mlr.press/v270/kicki25a.html",
+      "pdf": "https://raw.githubusercontent.com/mlresearch/v270/main/assets/kicki25a/kicki25a.pdf",
+      "publisher": "PMLR",
+      "month": "06--09 Nov",
+      "series": "Proceedings of Machine Learning Research",
+      "volume": "270",
+      "editor": "Agrawal, Pulkit and Kroemer, Oliver and Burgard, Wolfram",
+      "year": "2025",
+      "pages": "2655--2678",
+      "booktitle": "Proceedings of The 8th Conference on Robot Learning",
+      "author": "Kicki, Piotr and Tateo, Davide and Liu, Puze and G{\\\"{u}}nster, Jonas and Peters, Jan and Walas, Krzysztof",
+      "title": "Bridging the gap between Learning-to-plan, Motion Primitives and Safe Reinforcement Learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "pmlr-v270-kicki25a"
+    },
+    {
+      "abstract": "Developing efficient Vision-Language-Action (VLA) policies is crucial for practical robotics deployment, yet current approaches face prohibitive computational costs and resource requirements. Existing diffusion-based VLA policies require multi-billion-parameter models and massive datasets to achieve strong performance. We tackle this efficiency challenge with two contributions: intermediate-modality fusion, which reallocates capacity to the diffusion head by pruning up to 50% of LLM layers, and action-specific Global-AdaLN conditioning, which cuts parameters by 20% through modular adaptation. We integrate these advances into a novel 950 M-parameter VLA called FLOWER. Pretrained in just 200 H100 GPU hours, FLOWER delivers a 25.9% improvement over state-of-the-art baselines across 190 tasks spanning ten simulation and real-world benchmarks and demonstrates robustness across diverse robotic embodiments. All code, pretrained weights, and training recipes are publicly released to democratize efficient VLA development.",
+      "url": "https://proceedings.mlr.press/v305/reuss25a.html",
+      "pdf": "https://raw.githubusercontent.com/mlresearch/v305/main/assets/reuss25a/reuss25a.pdf",
+      "publisher": "PMLR",
+      "month": "27--30 Sep",
+      "series": "Proceedings of Machine Learning Research",
+      "volume": "305",
+      "editor": "Lim, Joseph and Song, Shuran and Park, Hae-Won",
+      "year": "2025",
+      "pages": "3736--3761",
+      "booktitle": "Proceedings of The 9th Conference on Robot Learning",
+      "author": "Reuss, Moritz and Zhou, Hongyi and R\\\"{u}hle, Marcel and Ya\\u{g}murlu, \\\"{O}mer Erdin\\c{c} and Otto, Fabian and Lioutikov, Rudolf",
+      "title": "FLOWER: Democratizing Generalist Robot Policies with Efficient Vision-Language-Flow Models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "pmlr-v305-reuss25a"
+    },
+    {
+      "booktitle": "9th Annual Conference on Robot Learning",
+      "author": "Jiang, Xinkai and Yuan, Qihao and Dincer, Enes Ulas and Zhou, Hongyi and Li, Ge and Li, Xueyin and Jia, Xiaogang and Schnizer, Timo and Schreiber, Nicolas and Liao, Weiran and others",
+      "title": "Iris: An immersive robot interaction system",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "jiang2025iris"
+    },
+    {
+      "year": "2024",
+      "url": "https://intuitive-robots.github.io/HDAR-Simulator/",
+      "pages": "333--342",
+      "booktitle": "Proceedings of the 2024 ACM/IEEE International Conference on Human-Robot Interaction",
+      "author": "Jiang, Xinkai and Mattes, Paul and Jia, Xiaogang and Schreiber, Nicolas and Neumann, Gerhard and Lioutikov, Rudolf",
+      "title": "A Comprehensive User Study on Augmented Reality-Based Data Collection Interfaces for Robot Learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "jiang2024comprehensive"
+    },
+    {
+      "url": "https://arxiv.org/abs/2510.20406",
+      "primaryclass": "cs.RO",
+      "archiveprefix": "arXiv",
+      "eprint": "2510.20406",
+      "year": "2025",
+      "author": "Xiaogang Jia and Qian Wang and Anrui Wang and Han A. Wang and Balázs Gyenes and Emiliyan Gospodinov and Xinkai Jiang and Ge Li and Hongyi Zhou and Weiran Liao and Xi Huang and Maximilian Beck and Moritz Reuss and Rudolf Lioutikov and Gerhard Neumann",
+      "title": "PointMapPolicy: Structured Point Cloud Processing for Multi-Modal Imitation Learning",
+      "ENTRYTYPE": "misc",
+      "ID": "jia2025pointmappolicystructuredpointcloud"
+    },
+    {
+      "year": "2024",
+      "booktitle": "8th Annual Conference on Robot Learning",
+      "author": "Jia, Xiaogang and Wang, Qian and Donat, Atalay and Xing, Bowen and Li, Ge and Zhou, Hongyi and Celik, Onur and Blessing, Denis and Lioutikov, Rudolf and Neumann, Gerhard",
+      "title": "Mail: Improving imitation learning with selective state space models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "jia2024mail"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2502.12330",
+      "author": "Jia, Xiaogang and Donat, Atalay and Huang, Xi and Zhao, Xuan and Blessing, Denis and Zhou, Hongyi and Wang, Han A and Zhang, Hanyi and Wang, Qian and Lioutikov, Rudolf and others",
+      "title": "X-il: Exploring the design space of imitation learning policies",
+      "ENTRYTYPE": "article",
+      "ID": "jia2025x"
+    },
+    {
+      "url": "https://openreview.net/forum?id=PqvMRDCJT9t",
+      "year": "2023",
+      "booktitle": "The Eleventh International Conference on Learning Representations ",
+      "author": "Yaron Lipman and Ricky T. Q. Chen and Heli Ben-Hamu and Maximilian Nickel and Matthew Le",
+      "title": "Flow Matching for Generative Modeling",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "lipman2023flow"
+    },
+    {
+      "booktitle": "The Eleventh International Conference on Learning Representations",
+      "author": "Liu, Xingchao and Gong, Chengyue and others",
+      "title": "Flow Straight and Fast: Learning to Generate and Transfer Data with Rectified Flow",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "liuflow"
+    }
+  ]
+}

@@ -1,0 +1,3938 @@
+{
+  "pdf_url": "https://arxiv.org/pdf/2510.14387v1.pdf",
+  "references": [
+    {
+      "publisher": "Morgan Kaufmann",
+      "address": "Stanford, CA",
+      "booktitle": "Proceedings of the 17th International Conference\non Machine Learning (ICML 2000)",
+      "editor": "Pat Langley",
+      "pages": "1207--1216",
+      "year": "2000",
+      "title": "Crafting Papers on Machine Learning",
+      "author": "P. Langley",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "langley00"
+    },
+    {
+      "address": "New Brunswick, MA",
+      "year": "1980",
+      "institution": "Computer Science Department, Rutgers University",
+      "title": "The Need for Biases in Learning Generalizations",
+      "author": "T. M. Mitchell",
+      "ENTRYTYPE": "techreport",
+      "ID": "mitchell80"
+    },
+    {
+      "year": "1989",
+      "school": "Department of Computer Science, Harvard University",
+      "title": "Computational Complexity of Machine Learning",
+      "author": "M. J. Kearns",
+      "ENTRYTYPE": "phdthesis",
+      "ID": "kearns89"
+    },
+    {
+      "address": "Palo Alto, CA",
+      "year": "1983",
+      "publisher": "Tioga",
+      "title": "Machine Learning: An Artificial Intelligence\nApproach, Vol. I",
+      "editor": "R. S. Michalski and J. G. Carbonell and T.\nM. Mitchell",
+      "ENTRYTYPE": "book",
+      "ID": "MachineLearningI"
+    },
+    {
+      "year": "2000",
+      "edition": "2nd",
+      "publisher": "John Wiley and Sons",
+      "title": "Pattern Classification",
+      "author": "R. O. Duda and P. E. Hart and D. G. Stork",
+      "ENTRYTYPE": "book",
+      "ID": "DudaHart2nd"
+    },
+    {
+      "year": "2021",
+      "author": "Author, N. N.",
+      "title": "Suppressed for Anonymity",
+      "ENTRYTYPE": "misc",
+      "ID": "anonymous"
+    },
+    {
+      "address": "Hillsdale, NJ",
+      "chapter": "1",
+      "editor": "J. R. Anderson",
+      "year": "1981",
+      "publisher": "Lawrence Erlbaum Associates, Inc.",
+      "pages": "1--51",
+      "booktitle": "Cognitive Skills and Their Acquisition",
+      "title": "Mechanisms of Skill Acquisition and the Law of\nPractice",
+      "author": "A. Newell and P. S. Rosenbloom",
+      "ENTRYTYPE": "incollection",
+      "ID": "Newell81"
+    },
+    {
+      "pages": "211--229",
+      "number": "3",
+      "volume": "3",
+      "year": "1959",
+      "journal": "IBM Journal of Research and Development",
+      "title": "Some Studies in Machine Learning Using the Game of\nCheckers",
+      "author": "A. L. Samuel",
+      "ENTRYTYPE": "article",
+      "ID": "Samuel59"
+    },
+    {
+      "booktitle": "ICLR",
+      "year": "2023",
+      "author": "Ilharco, Gabriel and Ribeiro, Marco Tulio and Wortsman, Mitchell and Schmidt, Ludwig and Hajishirzi, Hannaneh and Farhadi, Ali",
+      "title": "Editing models with task arithmetic",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "TaskArithmetic_ICLR2023"
+    },
+    {
+      "booktitle": "ICLR",
+      "year": "2024",
+      "author": "Zimmer, Max and Spiegel, Christoph and Pokutta, Sebastian",
+      "title": "Sparse Model Soups: A Recipe for Improved Pruning via Model Averaging",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "SparseModelSoups"
+    },
+    {
+      "journal": "arXiv preprint arXiv:2311.13827",
+      "year": "2023",
+      "author": "Zhu, Hengkun and Zou, Guohua",
+      "title": "Stability and L2-penalty in Model Averaging",
+      "ENTRYTYPE": "article",
+      "ID": "zhu2023stability"
+    },
+    {
+      "journal": "NeurIPS",
+      "year": "2023",
+      "author": "Yadav, Prateek and Tam, Derek and Choshen, Leshem and Raffel, Colin and Bansal, Mohit",
+      "title": "Resolving Interference When Merging Models",
+      "ENTRYTYPE": "article",
+      "ID": "TiesMerging_NeurIPS2023"
+    },
+    {
+      "pages": "10745--10753",
+      "number": "9",
+      "volume": "37",
+      "booktitle": "AAAI",
+      "year": "2023",
+      "author": "Yang, Enneng and Pan, Junwei and Wang, Ximei and Yu, Haibin and Shen, Li and Chen, Xihua and Xiao, Lei and Jiang, Jie and Guo, Guibing",
+      "title": "AdaTask: A task-aware adaptive learning rate approach to multi-task learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "adatask_AAAI2023"
+    },
+    {
+      "organization": "PMLR",
+      "pages": "23965--23998",
+      "booktitle": "ICML",
+      "year": "2022",
+      "author": "Wortsman, Mitchell and Ilharco, Gabriel and Gadre, Samir Ya and Roelofs, Rebecca and Gontijo-Lopes, Raphael and Morcos, Ari S and Namkoong, Hongseok and Farhadi, Ali and Carmon, Yair and Kornblith, Simon and others",
+      "title": "Model soups: averaging weights of multiple fine-tuned models improves accuracy without increasing inference time",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "Modelsoups_ICML2022"
+    },
+    {
+      "organization": "PMLR",
+      "pages": "37713--37727",
+      "booktitle": "ICML",
+      "year": "2023",
+      "author": "Wu, Chengyue and Wang, Teng and Ge, Yixiao and Lu, Zeyu and Zhou, Ruisong and Shan, Ying and Luo, Ping",
+      "title": "pi-Tuning: Transferring Multimodal Foundation Models with Optimal Multi-task Interpolation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "wu2023pi"
+    },
+    {
+      "year": "2024",
+      "journal": "ICML",
+      "author": "Ostapenko, Oleksiy and Su, Zhan and Ponti, Edoardo Maria and Charlin, Laurent and Roux, Nicolas Le and Pereira, Matheus and Caccia, Lucas and Sordoni, Alessandro",
+      "title": "Towards modular llms by building and reusing a library of loras",
+      "ENTRYTYPE": "article",
+      "ID": "ostapenko2024towards"
+    },
+    {
+      "year": "2024",
+      "journal": "ICML",
+      "author": "Muqeeth, Mohammed and Liu, Haokun and Liu, Yufan and Raffel, Colin",
+      "title": "Learning to route among specialized experts for zero-shot generalization",
+      "ENTRYTYPE": "article",
+      "ID": "muqeeth2024learning"
+    },
+    {
+      "pages": "5334--5343",
+      "booktitle": "CVPR",
+      "year": "2017",
+      "author": "Lu, Yongxi and Kumar, Abhishek and Zhai, Shuangfei and Cheng, Yu and Javidi, Tara and Feris, Rogerio",
+      "title": "Fully-adaptive feature sharing in multi-task networks with applications in person attribute classification",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "lu2017fully"
+    },
+    {
+      "pages": "11543--11552",
+      "booktitle": "CVPR",
+      "year": "2020",
+      "author": "Gao, Yuan and Bai, Haoping and Jie, Zequn and Ma, Jiayi and Jia, Kui and Liu, Wei",
+      "title": "Mtl-nas: Task-agnostic neural architecture search towards general-purpose multi-task learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "mtlnas_CVPR2020"
+    },
+    {
+      "booktitle": "NeurIPS",
+      "year": "2023",
+      "author": "Hu, Yuzheng and Xian, Ruicheng and Wu, Qilong and Fan, Qiuling and Yin, Lang and Zhao, Han",
+      "title": "Revisiting Scalarization in Multi-Task Learning: A Theoretical Perspective",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "revisitingScalarization_NeurIPS2023"
+    },
+    {
+      "booktitle": "ICLR",
+      "year": "2022",
+      "author": "Adri{\\'a}n Javaloy and Isabel Valera",
+      "title": "RotoGrad: Gradient Homogenization in Multitask Learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "javaloy2022rotograd"
+    },
+    {
+      "booktitle": "ICLR",
+      "year": "2021",
+      "author": "Wang, Zirui and Tsvetkov, Yulia",
+      "title": "Gradient Vaccine: Investigating and Improving Multi-task Optimization in Massively Multilingual Models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "wang2021gradientVaccine"
+    },
+    {
+      "booktitle": "ICLR",
+      "year": "2021",
+      "author": "Liu, Liyang and Li, Yi and Kuang, Zhanghui and Xue, Jing-Hao and Chen, Yimin and Yang, Wenming and Liao, Qingmin and Zhang, Wayne",
+      "title": "Towards Impartial Multi-task Learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "imtl_iclr2021"
+    },
+    {
+      "organization": "PMLR",
+      "pages": "16428--16446",
+      "booktitle": "ICML",
+      "year": "2022",
+      "author": "Navon, Aviv and Shamsian, Aviv and Achituve, Idan and Maron, Haggai and Kawaguchi, Kenji and Chechik, Gal and Fetaya, Ethan",
+      "title": "Multi-Task Learning as a Bargaining Game",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "nashmtl_ICML2022"
+    },
+    {
+      "volume": "31",
+      "journal": "NeurIPS",
+      "year": "2018",
+      "author": "Jacot, Arthur and Gabriel, Franck and Hongler, Cl{\\'e}ment",
+      "title": "Neural tangent kernel: Convergence and generalization in neural networks",
+      "ENTRYTYPE": "article",
+      "ID": "NTK_NeurIPS2018"
+    },
+    {
+      "pages": "305--329",
+      "number": "2",
+      "volume": "10",
+      "publisher": "IEEE",
+      "journal": "IEEE/CAA Journal of Automatica Sinica",
+      "year": "2022",
+      "author": "Zhang, Wen and Deng, Lingfei and Zhang, Lei and Wu, Dongrui",
+      "title": "A survey on negative transfer",
+      "ENTRYTYPE": "article",
+      "ID": "negative_transfer_survey_2022"
+    },
+    {
+      "journal": "TMLR",
+      "year": "2022",
+      "author": "Liu, Shikun and James, Stephen and Davison, Andrew J and Johns, Edward",
+      "title": "Auto-Lambda: Disentangling Dynamic Task Relationships",
+      "ENTRYTYPE": "article",
+      "ID": "liu2022auto_lambda"
+    },
+    {
+      "booktitle": "ICLR",
+      "year": "2023",
+      "author": "Ainsworth, Samuel and Hayase, Jonathan and Srinivasa, Siddhartha",
+      "title": "Git Re-Basin: Merging Models modulo Permutation Symmetries",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ReBasin_ICLR2023"
+    },
+    {
+      "pages": "20237--20246",
+      "booktitle": "CVPR",
+      "year": "2023",
+      "author": "Pe{\\~n}a, Fidel A Guerrero and Medeiros, Heitor Rapela and Dubail, Thomas and Aminbeidokhti, Masih and Granger, Eric and Pedersoli, Marco",
+      "title": "Re-basin via implicit Sinkhorn differentiation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ReBasin_CVPR2023"
+    },
+    {
+      "pages": "25--32",
+      "booktitle": "ICML",
+      "year": "2011",
+      "author": "He, Jingrui and Lawrence, Rick",
+      "title": "A graphbased framework for multi-task multi-view learning.",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "he2011graphbased"
+    },
+    {
+      "pages": "2902--2911",
+      "booktitle": "CVPR",
+      "year": "2021",
+      "author": "Ishihara, Keishi and Kanervisto, Anssi and Miura, Jun and Hautamaki, Ville",
+      "title": "Multi-task learning with attention for end-to-end autonomous driving",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ishihara2021multi"
+    },
+    {
+      "pages": "3068--3075",
+      "number": "01",
+      "volume": "33",
+      "booktitle": "AAAI",
+      "year": "2019",
+      "author": "Shen, Chengchao and Wang, Xinchao and Song, Jie and Sun, Li and Song, Mingli",
+      "title": "Amalgamating knowledge towards comprehensive classification",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "shen2019amalgamating"
+    },
+    {
+      "pages": "15709--15718",
+      "booktitle": "CVPR",
+      "year": "2021",
+      "author": "Jing, Yongcheng and Yang, Yiding and Wang, Xinchao and Song, Mingli and Tao, Dacheng",
+      "title": "Amalgamating knowledge from heterogeneous graph neural networks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "jing2021amalgamating"
+    },
+    {
+      "pages": "2689--2697",
+      "booktitle": "SIGKDD",
+      "year": "2019",
+      "author": "Pan, Junwei and Mao, Yizhi and Ruiz, Alfonso Lobos and Sun, Yu and Flores, Aaron",
+      "title": "Predicting different types of conversions with multi-task learning in online advertising",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "pan2019predicting"
+    },
+    {
+      "booktitle": "ICLR",
+      "year": "2023",
+      "author": "Xisen Jin and Xiang Ren and Daniel Preotiuc-Pietro and Pengxiang Cheng",
+      "title": "Dataless Knowledge Fusion by Merging Weights of Language Models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "RegMean_ICLR2023"
+    },
+    {
+      "pages": "17703--17716",
+      "volume": "35",
+      "journal": "NeurIPS",
+      "year": "2022",
+      "author": "Matena, Michael S and Raffel, Colin A",
+      "title": "Merging models with fisher-weighted averaging",
+      "ENTRYTYPE": "article",
+      "ID": "FisherMerging_NeurIPS2022"
+    },
+    {
+      "journal": "NeurIPS",
+      "year": "2023",
+      "author": "Ortiz-Jimenez, Guillermo and Favero, Alessandro and Frossard, Pascal",
+      "title": "Task Arithmetic in the Tangent Space: Improved Editing of Pre-Trained Models",
+      "ENTRYTYPE": "article",
+      "ID": "TangentSpace_NeurIPS2023"
+    },
+    {
+      "journal": "ICLR",
+      "year": "2024",
+      "author": "Tang, Anke and Shen, Li and Luo, Yong and Zhan, Yibing and Hu, Han and Du, Bo and Chen, Yixin and Tao, Dacheng",
+      "title": "Parameter Efficient Multi-task Model Fusion with Partial Linearization",
+      "ENTRYTYPE": "article",
+      "ID": "LinearizationLoRA_ICLR2024"
+    },
+    {
+      "journal": "arXiv preprint arXiv:2312.03248",
+      "year": "2023",
+      "author": "Wang, Haowen and Sun, Tao and Fan, Cong and Gu, Jinjie",
+      "title": "Customizable Combination of Parameter-Efficient Modules for Multi-Task Learning",
+      "ENTRYTYPE": "article",
+      "ID": "wang2023customizable"
+    },
+    {
+      "journal": "EMNLP",
+      "year": "2023",
+      "author": "Yi-Lin Sung and Linjie Li and Kevin Lin and Zhe Gan and Mohit Bansal and Lijuan Wang",
+      "title": "An Empirical Study of Multimodal Model Merging",
+      "ENTRYTYPE": "article",
+      "ID": "MultimodalModelMerging_EMNLP2023"
+    },
+    {
+      "pages": "2009--2018",
+      "booktitle": "EACL",
+      "year": "2023",
+      "author": "Chronopoulou, Alexandra and Peters, Matthew E and Fraser, Alexander and Dodge, Jesse",
+      "title": "AdapterSoup: Weight Averaging to Improve Generalization of Pretrained Language Models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "adaptersoup_EACL2023"
+    },
+    {
+      "booktitle": "ICLR",
+      "year": "2024",
+      "author": "Liu, Tian Yu and Golatkar, Aditya and Soatto, Stefano",
+      "title": "Tangent Transformers for Composition, Privacy and Removal",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "liu2024tangent"
+    },
+    {
+      "pages": "6840--6851",
+      "volume": "33",
+      "journal": "NeurIPS",
+      "year": "2020",
+      "author": "Ho, Jonathan and Jain, Ajay and Abbeel, Pieter",
+      "title": "Denoising diffusion probabilistic models",
+      "ENTRYTYPE": "article",
+      "ID": "ho2020denoisingdiffusion"
+    },
+    {
+      "organization": "Springer",
+      "pages": "205--221",
+      "booktitle": "ECCV",
+      "year": "2022",
+      "author": "Avrahami, Omri and Lischinski, Dani and Fried, Ohad",
+      "title": "GAN Cocktail: mixing GANs without dataset access",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "avrahami2022ganCocktail"
+    },
+    {
+      "pages": "22500--22510",
+      "booktitle": "CVPR",
+      "year": "2023",
+      "author": "Ruiz, Nataniel and Li, Yuanzhen and Jampani, Varun and Pritch, Yael and Rubinstein, Michael and Aberman, Kfir",
+      "title": "Dreambooth: Fine tuning text-to-image diffusion models for subject-driven generation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ruiz2023dreambooth"
+    },
+    {
+      "booktitle": "https://github.com/ cloneofsimo/lora",
+      "author": "Simo Ryu",
+      "title": "Merging loras",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "Mergingloras"
+    },
+    {
+      "publisher": "ed",
+      "year": "2023",
+      "author": "Ryu, Simo",
+      "title": "Low-rank adaptation for fast text-to-image diffusion fine-tuning",
+      "ENTRYTYPE": "misc",
+      "ID": "ryu2023low"
+    },
+    {
+      "pages": "4948--4954",
+      "booktitle": "EMNLP",
+      "year": "2022",
+      "author": "Lu, Peng and Kobyzev, Ivan and Rezagholizadeh, Mehdi and Rashid, Ahmad and Ghodsi, Ali and Langlais, Philippe",
+      "title": "Improving Generalization of Pre-trained Language Models via Stochastic Weight Averaging",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "lu2022improving_EMNLP2022"
+    },
+    {
+      "journal": "arXiv preprint arXiv:2401.02415",
+      "year": "2024",
+      "author": "Wu, Chengyue and Gan, Yukang and Ge, Yixiao and Lu, Zeyu and Wang, Jiahao and Feng, Ye and Luo, Ping and Shan, Ying",
+      "title": "Llama pro: Progressive llama with block expansion",
+      "ENTRYTYPE": "article",
+      "ID": "wu2024llamapro"
+    },
+    {
+      "booktitle": "NeurIPS",
+      "year": "2023",
+      "author": "Ram{\\'e}, Alexandre and Couairon, Guillaume and Shukor, Mustafa and Dancette, Corentin and Gaya, Jean-Baptiste and Soulier, Laure and Cord, Matthieu",
+      "title": "Rewarded soups: towards Pareto-optimal alignment by interpolating weights fine-tuned on diverse rewards",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "rewardedsoups_neurips2023"
+    },
+    {
+      "journal": "arXiv preprint arXiv:2405.18653",
+      "year": "2024",
+      "author": "Yang, Yutao and Zhou, Jie and Ding, Xuanwen and Huai, Tianyu and Liu, Shunyu and Chen, Qin and He, Liang and Xie, Yuan",
+      "title": "Recent Advances of Foundation Language Models-based Continual Learning: A Survey",
+      "ENTRYTYPE": "article",
+      "ID": "yang2024recent"
+    },
+    {
+      "booktitle": "NeurIPS",
+      "year": "2023",
+      "author": "Zhang, Jinghan and Chen, Shiqi and Liu, Junteng and He, Junxian",
+      "title": "Composing Parameter-Efficient Modules with Arithmetic Operations",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "pem_neurIPS2023"
+    },
+    {
+      "journal": "arXiv preprint arXiv:2312.04339",
+      "year": "2023",
+      "author": "Tam, Derek and Bansal, Mohit and Raffel, Colin",
+      "title": "Merging by Matching Models in Task Subspaces",
+      "ENTRYTYPE": "article",
+      "ID": "tam2023merging"
+    },
+    {
+      "journal": "ICLR",
+      "year": "2024",
+      "author": "Yang, Enneng and Wang, Zhenyi and Shen, Li and Liu, Shiwei and Guo, Guibing and Wang, Xingwei and Tao, Dacheng",
+      "title": "AdaMerging: Adaptive Model Merging for Multi-Task Learning",
+      "ENTRYTYPE": "article",
+      "ID": "AdaMerging_ICLR2024"
+    },
+    {
+      "booktitle": "ICLR",
+      "year": "2023",
+      "author": "Li, Tao and Huang, Zhehao and Tao, Qinghua and Wu, Yingwen and Huang, Xiaolin",
+      "title": "Trainable Weight Averaging: Efficient Training by Optimizing Historical Solutions",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "TWA_ICLR2023"
+    },
+    {
+      "journal": "ICML",
+      "year": "2024",
+      "author": "Yu, Le and Yu, Bowen and Yu, Haiyang and Huang, Fei and Li, Yongbin",
+      "title": "Language Models are Super Mario: Absorbing Abilities from Homologous Models as a Free Lunch",
+      "ENTRYTYPE": "article",
+      "ID": "DARE_Arxiv2023"
+    },
+    {
+      "journal": "ICML",
+      "year": "2024",
+      "author": "Yu, Le and Yu, Bowen and Yu, Haiyang and Huang, Fei and Li, Yongbin",
+      "title": "Language models are super mario: Absorbing abilities from homologous models as a free lunch",
+      "ENTRYTYPE": "article",
+      "ID": "MergeLM_Arxiv2023"
+    },
+    {
+      "journal": "arXiv preprint arXiv:2312.06173",
+      "year": "2023",
+      "author": "Tang, Anke and Shen, Li and Luo, Yong and Ding, Liang and Hu, Han and Du, Bo and Tao, Dacheng",
+      "title": "Concrete Subspace Learning based Interference Elimination for Multi-task Model Fusion",
+      "ENTRYTYPE": "article",
+      "ID": "tang2023concrete"
+    },
+    {
+      "journal": "arXiv preprint arXiv:2309.15698",
+      "year": "2023",
+      "author": "Li, Weishi and Peng, Yong and Zhang, Miao and Ding, Liang and Hu, Han and Shen, Li",
+      "title": "Deep model fusion: A survey",
+      "ENTRYTYPE": "article",
+      "ID": "modelfusion_survey2023"
+    },
+    {
+      "organization": "ACM",
+      "pages": "2205--2215",
+      "journal": "WWW",
+      "year": "2022",
+      "author": "Yun He and Xue Feng and Cheng Cheng and Geng Ji and Yunsong Guo and James Caverlee",
+      "title": "MetaBalance: Improving Multi-Task Recommendations via Adapting Gradient Magnitudes of Auxiliary Tasks",
+      "ENTRYTYPE": "article",
+      "ID": "MetaBalanceWWW2022"
+    },
+    {
+      "pages": "1723--1732",
+      "booktitle": "ACL",
+      "year": "2015",
+      "author": "Dong, Daxiang and Wu, Hua and He, Wei and Yu, Dianhai and Wang, Haifeng",
+      "title": "Multi-task learning for multiple language translation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "mtl_nlp_translation_acl2015"
+    },
+    {
+      "pages": "160--167",
+      "booktitle": "ICML",
+      "year": "2008",
+      "author": "Collobert, Ronan and Weston, Jason",
+      "title": "A unified architecture for natural language processing: Deep neural networks with multitask learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "mtl_nlp_icml2008"
+    },
+    {
+      "booktitle": "NeurIPS",
+      "year": "2020",
+      "author": "Zhao Chen and Jiquan Ngiam and Yanping Huang and Thang Luong and Henrik Kretzschmar and Yuning Chai and Dragomir Anguelov",
+      "title": "Just Pick a Sign: Optimizing Deep Multitask Models with Gradient Sign Dropout",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "graddrop_neurips2020"
+    },
+    {
+      "pages": "1930--1939",
+      "publisher": "{ACM}",
+      "booktitle": "SIGKDD",
+      "year": "2018",
+      "author": "Jiaqi Ma and Zhe Zhao and Xinyang Yi and Jilin Chen and Lichan Hong and Ed H. Chi",
+      "title": "Modeling Task Relationships in Multi-task Learning with Multi-gate Mixture-of-Experts",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "mmoe_kdd2018"
+    },
+    {
+      "pages": "269--278",
+      "booktitle": "RecSys",
+      "year": "2020",
+      "author": "Tang, Hongyan and Liu, Junning and Zhao, Ming and Gong, Xudong",
+      "title": "Progressive layered extraction (ple): A novel multi-task learning (mtl) model for personalized recommendations",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ple_recsys2020"
+    },
+    {
+      "organization": "PMLR",
+      "pages": "794--803",
+      "booktitle": "ICML",
+      "year": "2018",
+      "author": "Chen, Zhao and Badrinarayanan, Vijay and Lee, Chen-Yu and Rabinovich, Andrew",
+      "title": "Gradnorm: Gradient normalization for adaptive loss balancing in deep multitask networks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "gradnorm_icml2018"
+    },
+    {
+      "pages": "7482--7491",
+      "publisher": "{IEEE} Computer Society",
+      "booktitle": "CVPR",
+      "year": "2018",
+      "author": "Alex Kendall and Yarin Gal and Roberto Cipolla",
+      "title": "Multi-Task Learning Using Uncertainty to Weigh Losses for Scene Geometry and Semantics",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "uncertaintyweighting_cvpr2018"
+    },
+    {
+      "pages": "1871--1880",
+      "publisher": "Computer Vision Foundation / {IEEE}",
+      "booktitle": "CVPR",
+      "year": "2019",
+      "author": "Shikun Liu and Edward Johns and Andrew J. Davison",
+      "title": "End-To-End Multi-Task Learning With Attention",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "dwa_cvpr2019"
+    },
+    {
+      "pages": "525--536",
+      "booktitle": "NeurIPS",
+      "year": "2018",
+      "author": "Ozan Sener and Vladlen Koltun",
+      "title": "Multi-Task Learning as Multi-Objective Optimization",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "mtlasmooSenerK18_neurips2018"
+    },
+    {
+      "pages": "2237--2241",
+      "booktitle": "SIGIR",
+      "year": "2021",
+      "author": "Ding, Ke and Dong, Xin and He, Yong and Cheng, Lei and Fu, Chilin and Huan, Zhaoxin and Li, Hai and Yan, Tan and Zhang, Liang and Zhang, Xiaolu and others",
+      "title": "MSSM: a multiple-level sparse sharing model for efficient multi-task learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "MSSM_SIGIR2021"
+    },
+    {
+      "publisher": "OpenReview.net",
+      "booktitle": "ICLR",
+      "year": "2020",
+      "author": "Vipul Gupta and Santiago Akle Serrano and Dennis DeCoste",
+      "title": "Stochastic Weight Averaging in Parallel: Large-Batch Training That Generalizes Well",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "SWAP_ICLR2020"
+    },
+    {
+      "journal": "arXiv preprint arXiv:2309.10305",
+      "year": "2023",
+      "author": "Yang, Aiyuan and Xiao, Bin and Wang, Bingning and Zhang, Borong and Bian, Ce and Yin, Chao and Lv, Chenxu and Pan, Da and Wang, Dian and Yan, Dong and others",
+      "title": "Baichuan 2: Open large-scale language models",
+      "ENTRYTYPE": "article",
+      "ID": "yang2023baichuan"
+    },
+    {
+      "pages": "309--368",
+      "number": "594-604",
+      "volume": "222",
+      "publisher": "The Royal Society London",
+      "journal": "Philosophical transactions of the Royal Society of London. Series A, containing papers of a mathematical or physical character",
+      "year": "1922",
+      "author": "Fisher, Ronald A",
+      "title": "On the mathematical foundations of theoretical statistics",
+      "ENTRYTYPE": "article",
+      "ID": "fisher1922mathematical"
+    },
+    {
+      "journal": "arXiv preprint arXiv:2407.19807",
+      "year": "2024",
+      "author": "Liu, Cong and Quan, Xiaojun and Pan, Yan and Lin, Liang and Wu, Weigang and Chen, Xu",
+      "title": "Cool-Fusion: Fuse Large Language Models without Training",
+      "ENTRYTYPE": "article",
+      "ID": "liu2024cool"
+    },
+    {
+      "booktitle": "ICLR",
+      "year": "2022",
+      "author": "Edward J Hu and Yelong Shen and Phillip Wallis and Zeyuan Allen-Zhu and Yuanzhi Li and Shean Wang and Lu Wang and Weizhu Chen",
+      "title": "Lo{RA}: Low-Rank Adaptation of Large Language Models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "lora_iclr2022"
+    },
+    {
+      "pages": "1950--1965",
+      "volume": "35",
+      "journal": "NeurIPS",
+      "year": "2022",
+      "author": "Liu, Haokun and Tam, Derek and Muqeeth, Mohammed and Mohta, Jay and Huang, Tenghao and Bansal, Mohit and Raffel, Colin A",
+      "title": "Few-shot parameter-efficient fine-tuning is better and cheaper than in-context learning",
+      "ENTRYTYPE": "article",
+      "ID": "IA3_NeurIPS2022"
+    },
+    {
+      "booktitle": "ICLR",
+      "year": "2019",
+      "author": "Li, Xiang and Huang, Kaixuan and Yang, Wenhao and Wang, Shusen and Zhang, Zhihua",
+      "title": "On the Convergence of FedAvg on Non-IID Data",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ConvergenceOfFedAvg_ICLR2019"
+    },
+    {
+      "booktitle": "ICLR",
+      "year": "2020",
+      "author": "Hongyi Wang and Mikhail Yurochkin and Yuekai Sun and Dimitris Papailiopoulos and Yasaman Khazaeni",
+      "title": "Federated Learning with Matched Averaging",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "FederatedMA_ICLR2020"
+    },
+    {
+      "organization": "PMLR",
+      "pages": "1273--1282",
+      "booktitle": "AISTATS",
+      "year": "2017",
+      "author": "McMahan, Brendan and Moore, Eider and Ramage, Daniel and Hampson, Seth and y Arcas, Blaise Aguera",
+      "title": "Communication-efficient learning of deep networks from decentralized data",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "FedAvg_AISTAT2017"
+    },
+    {
+      "organization": "PMLR",
+      "pages": "4587--4604",
+      "booktitle": "ICML",
+      "year": "2022",
+      "author": "Dai, Rong and Shen, Li and He, Fengxiang and Tian, Xinmei and Tao, Dacheng",
+      "title": "Dispfl: Towards communication-efficient personalized federated learning via decentralized sparse training",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "dai2022Dispfl"
+    },
+    {
+      "pages": "10174--10183",
+      "booktitle": "Proceedings of the IEEE/CVF conference on computer vision and pattern recognition",
+      "year": "2022",
+      "author": "Zhang, Lin and Shen, Li and Ding, Liang and Tao, Dacheng and Duan, Ling-Yu",
+      "title": "Fine-tuning global model via data-free knowledge distillation for non-iid federated learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zhang2022FedFTG"
+    },
+    {
+      "pages": "22405--22418",
+      "volume": "34",
+      "journal": "NeurIPS",
+      "year": "2021",
+      "author": "Cha, Junbum and Chun, Sanghyuk and Lee, Kyungjae and Cho, Han-Cheol and Park, Seunghyun and Lee, Yunsung and Park, Sungrae",
+      "title": "Swad: Domain generalization by seeking flat minima",
+      "ENTRYTYPE": "article",
+      "ID": "SWAD_NeurIPS2021"
+    },
+    {
+      "pages": "3614--3633",
+      "number": "7",
+      "volume": "44",
+      "publisher": "IEEE",
+      "journal": "TPAMI",
+      "year": "2021",
+      "author": "Vandenhende, Simon and Georgoulis, Stamatios and Van Gansbeke, Wouter and Proesmans, Marc and Dai, Dengxin and Van Gool, Luc",
+      "title": "Multi-task learning for dense prediction tasks: A survey",
+      "ENTRYTYPE": "article",
+      "ID": "mtlsurvey_tpami2021"
+    },
+    {
+      "pages": "3994--4003",
+      "publisher": "{IEEE} Computer Society",
+      "booktitle": "CVPR",
+      "year": "2016",
+      "author": "Ishan Misra and Abhinav Shrivastava and Abhinav Gupta and Martial Hebert",
+      "title": "Cross-Stitch Networks for Multi-task Learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "CrossStitch_CVPR2016"
+    },
+    {
+      "pages": "4822--4829",
+      "publisher": "{AAAI} Press",
+      "booktitle": "AAAI",
+      "year": "2019",
+      "author": "Sebastian Ruder and Joachim Bingel and Isabelle Augenstein and Anders S{\\o}gaard",
+      "title": "Latent Multi-Task Architecture Learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "SluiceNetworks_AAAI2019"
+    },
+    {
+      "booktitle": "ICLR",
+      "year": "2023",
+      "author": "Ainsworth, Samuel and Hayase, Jonathan and Srinivasa, Siddhartha",
+      "title": "Git Re-Basin: Merging Models modulo Permutation Symmetries",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "GitReBasin_ICLR2023"
+    },
+    {
+      "pages": "29335--29347",
+      "volume": "34",
+      "journal": "NeurIPS",
+      "year": "2021",
+      "author": "Hazimeh, Hussein and Zhao, Zhe and Chowdhery, Aakanksha and Sathiamoorthy, Maheswaran and Chen, Yihua and Mazumder, Rahul and Hong, Lichan and Chi, Ed",
+      "title": "Dselect-k: Differentiable selection in the mixture of experts with applications to multi-task learning",
+      "ENTRYTYPE": "article",
+      "ID": "DselectK_NeurIPS2021"
+    },
+    {
+      "pages": "5334--5343",
+      "booktitle": "CVPR",
+      "year": "2017",
+      "author": "Lu, Yongxi and Kumar, Abhishek and Zhai, Shuangfei and Cheng, Yu and Javidi, Tara and Feris, Rogerio",
+      "title": "Fully-adaptive feature sharing in multi-task networks with applications in person attribute classification",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "Fully_CVPR2017"
+    },
+    {
+      "pages": "216--223",
+      "number": "01",
+      "volume": "33",
+      "booktitle": "AAAI",
+      "year": "2019",
+      "author": "Ma, Jiaqi and Zhao, Zhe and Chen, Jilin and Li, Ang and Hong, Lichan and Chi, Ed H",
+      "title": "Snr: Sub-network routing for flexible parameter sharing in multi-task learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "SNR_AAAI2019"
+    },
+    {
+      "journal": "ICLR",
+      "year": "2024",
+      "author": "Stoica, George and Bolya, Daniel and Bjorner, Jakob and Hearn, Taylor and Hoffman, Judy",
+      "title": "ZipIt! Merging Models from Different Tasks without Training",
+      "ENTRYTYPE": "article",
+      "ID": "ZipIt_Arxiv2023"
+    },
+    {
+      "journal": "COLM",
+      "year": "2024",
+      "author": "Huang, Chengsong and Liu, Qian and Lin, Bill Yuchen and Pang, Tianyu and Du, Chao and Lin, Min",
+      "title": "LoraHub: Efficient Cross-Task Generalization via Dynamic LoRA Composition",
+      "ENTRYTYPE": "article",
+      "ID": "LoraHub_Arxiv2023"
+    },
+    {
+      "organization": "PMLR",
+      "pages": "9120--9132",
+      "booktitle": "ICML",
+      "year": "2020",
+      "author": "Standley, Trevor and Zamir, Amir and Chen, Dawn and Guibas, Leonidas and Malik, Jitendra and Savarese, Silvio",
+      "title": "Which tasks should be learned together in multi-task learning?",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "WhichTasksShouldTogether_ICML2020"
+    },
+    {
+      "pages": "9977--9978",
+      "number": "01",
+      "volume": "33",
+      "booktitle": "AAAI",
+      "year": "2019",
+      "author": "Liu, Shengchao and Liang, Yingyu and Gitter, Anthony",
+      "title": "Loss-balanced task weighting to reduce negative transfer in multi-task learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "LBTW_AAAI2019"
+    },
+    {
+      "organization": "PMLR",
+      "pages": "3854--3863",
+      "booktitle": "ICML",
+      "year": "2020",
+      "author": "Guo, Pengsheng and Lee, Chen-Yu and Ulbricht, Daniel",
+      "title": "Learning to branch for multi-task learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "LearningtoBranch_ICML2020"
+    },
+    {
+      "pages": "5824--5836",
+      "volume": "33",
+      "journal": "NeurIPS",
+      "year": "2020",
+      "author": "Yu, Tianhe and Kumar, Saurabh and Gupta, Abhishek and Levine, Sergey and Hausman, Karol and Finn, Chelsea",
+      "title": "Gradient surgery for multi-task learning",
+      "ENTRYTYPE": "article",
+      "ID": "PCGrad_NeurIPS2020"
+    },
+    {
+      "pages": "41--75",
+      "volume": "28",
+      "publisher": "Springer",
+      "journal": "Machine learning",
+      "year": "1997",
+      "author": "Caruana, Rich",
+      "title": "Multitask learning",
+      "ENTRYTYPE": "article",
+      "ID": "SharedBottom_1997"
+    },
+    {
+      "pages": "8728--8740",
+      "volume": "33",
+      "journal": "NeurIPS",
+      "year": "2020",
+      "author": "Sun, Ximeng and Panda, Rameswar and Feris, Rogerio and Saenko, Kate",
+      "title": "Adashare: Learning what to share for efficient deep multi-task learning",
+      "ENTRYTYPE": "article",
+      "ID": "Adashare_NeurIPS2020"
+    },
+    {
+      "pages": "18878--18890",
+      "volume": "34",
+      "journal": "NeurIPS",
+      "year": "2021",
+      "author": "Liu, Bo and Liu, Xingchao and Jin, Xiaojie and Stone, Peter and Liu, Qiang",
+      "title": "Conflict-averse gradient descent for multi-task learning",
+      "ENTRYTYPE": "article",
+      "ID": "CAGrad_NeurIPS2021"
+    },
+    {
+      "journal": "arXiv preprint arXiv:2404.05188",
+      "year": "2024",
+      "author": "Cong, Tianshuo and Ran, Delong and Liu, Zesen and He, Xinlei and Liu, Jinyuan and Gong, Yichen and Li, Qi and Wang, Anyu and Wang, Xiaoyun",
+      "title": "Have You Merged My Model? On The Robustness of Large Language Model IP Protection Methods Against Model Merging",
+      "ENTRYTYPE": "article",
+      "ID": "cong2024have"
+    },
+    {
+      "journal": "arXiv preprint arXiv:2403.00108",
+      "year": "2024",
+      "author": "Liu, Hongyi and Liu, Zirui and Tang, Ruixiang and Yuan, Jiayi and Zhong, Shaochen and Chuang, Yu-Neng and Li, Li and Chen, Rui and Hu, Xia",
+      "title": "LoRA-as-an-Attack! Piercing LLM Safety Under The Share-and-Play Scenario",
+      "ENTRYTYPE": "article",
+      "ID": "liu2024lora"
+    },
+    {
+      "journal": "arXiv preprint arXiv:2402.19334",
+      "year": "2024",
+      "author": "Arora, Ansh and He, Xuanli and Mozes, Maximilian and Swain, Srinibas and Dras, Mark and Xu, Qiongkai",
+      "title": "Here's a Free Lunch: Sanitizing Backdoored Models with Model Merge",
+      "ENTRYTYPE": "article",
+      "ID": "arora2024here"
+    },
+    {
+      "journal": "arXiv preprint arXiv:2402.16107",
+      "year": "2024",
+      "author": "Wan, Fanqi and Yang, Ziyi and Zhong, Longguang and Quan, Xiaojun and Huang, Xinting and Bi, Wei",
+      "title": "FuseChat: Knowledge Fusion of Chat Models",
+      "ENTRYTYPE": "article",
+      "ID": "wan2024fusechat"
+    },
+    {
+      "journal": "ICLR",
+      "year": "2024",
+      "author": "Wan, Fanqi and Huang, Xinting and Cai, Deng and Quan, Xiaojun and Bi, Wei and Shi, Shuming",
+      "title": "Knowledge fusion of large language models",
+      "ENTRYTYPE": "article",
+      "ID": "fusionllm"
+    },
+    {
+      "journal": "ICML",
+      "year": "2024",
+      "author": "Yang, Enneng and Shen, Li and Wang, Zhenyi and Guo, Guibing and Chen, Xiaojun and Wang, Xingwei and Tao, Dacheng",
+      "title": "Representation Surgery for Multi-Task Model Merging",
+      "ENTRYTYPE": "article",
+      "ID": "surgery_icml2024"
+    },
+    {
+      "journal": "ACL-IJCNLP",
+      "year": "2021",
+      "author": "Qi, Fanchao and Li, Mukai and Chen, Yangyi and Zhang, Zhengyan and Liu, Zhiyuan and Wang, Yasheng and Sun, Maosong",
+      "title": "Hidden Killer: Invisible Textual Backdoor Attacks with Syntactic Trigger",
+      "ENTRYTYPE": "article",
+      "ID": "qi2021hiddenKiller"
+    },
+    {
+      "journal": "arXiv preprint arXiv:1708.06733",
+      "year": "2017",
+      "author": "Gu, Tianyu and Dolan-Gavitt, Brendan and Garg, Siddharth",
+      "title": "Badnets: Identifying vulnerabilities in the machine learning model supply chain",
+      "ENTRYTYPE": "article",
+      "ID": "gu2017badnets"
+    },
+    {
+      "journal": "arXiv preprint arXiv:2308.12950",
+      "year": "2023",
+      "author": "Roziere, Baptiste and Gehring, Jonas and Gloeckle, Fabian and Sootla, Sten and Gat, Itai and Tan, Xiaoqing Ellen and Adi, Yossi and Liu, Jingyu and Remez, Tal and Rapin, J{\\'e}r{\\'e}my and others",
+      "title": "Code llama: Open foundation models for code",
+      "ENTRYTYPE": "article",
+      "ID": "roziere2023_LLaMACode"
+    },
+    {
+      "pages": "220--235",
+      "number": "3",
+      "volume": "5",
+      "publisher": "Nature Publishing Group UK London",
+      "journal": "Nature Machine Intelligence",
+      "year": "2023",
+      "author": "Ding, Ning and Qin, Yujia and Yang, Guang and Wei, Fuchao and Yang, Zonghan and Su, Yusheng and Hu, Shengding and Chen, Yulin and Chan, Chi-Min and Chen, Weize and others",
+      "title": "Parameter-efficient fine-tuning of large-scale pre-trained language models",
+      "ENTRYTYPE": "article",
+      "ID": "ding2023parameter_nmi"
+    },
+    {
+      "journal": "arXiv preprint arXiv:2310.11237",
+      "year": "2023",
+      "author": "Li, Linyang and Jiang, Botian and Wang, Pengyu and Ren, Ke and Yan, Hang and Qiu, Xipeng",
+      "title": "Watermarking LLMs with Weight Quantization",
+      "ENTRYTYPE": "article",
+      "ID": "li2023watermarking"
+    },
+    {
+      "journal": "arXiv preprint arXiv:2401.12255",
+      "year": "2024",
+      "author": "Xu, Jiashu and Wang, Fei and Ma, Mingyu Derek and Koh, Pang Wei and Xiao, Chaowei and Chen, Muhao",
+      "title": "Instructional fingerprinting of large language models",
+      "ENTRYTYPE": "article",
+      "ID": "xu2024instructional"
+    },
+    {
+      "journal": "arXiv preprint arXiv:2310.10631",
+      "year": "2023",
+      "author": "Azerbayev, Zhangir and Schoelkopf, Hailey and Paster, Keiran and Santos, Marco Dos and McAleer, Stephen and Jiang, Albert Q and Deng, Jia and Biderman, Stella and Welleck, Sean",
+      "title": "Llemma: An open language model for mathematics",
+      "ENTRYTYPE": "article",
+      "ID": "azerbayev2023llemma"
+    },
+    {
+      "publisher": "OpenAI",
+      "year": "2018",
+      "author": "Radford, Alec and Narasimhan, Karthik and Salimans, Tim and Sutskever, Ilya and others",
+      "title": "Improving language understanding by generative pre-training",
+      "ENTRYTYPE": "article",
+      "ID": "gpt1_2018"
+    },
+    {
+      "pages": "9",
+      "number": "8",
+      "volume": "1",
+      "journal": "OpenAI blog",
+      "year": "2019",
+      "author": "Radford, Alec and Wu, Jeffrey and Child, Rewon and Luan, David and Amodei, Dario and Sutskever, Ilya and others",
+      "title": "Language models are unsupervised multitask learners",
+      "ENTRYTYPE": "article",
+      "ID": "gpt2_2019"
+    },
+    {
+      "pages": "1877--1901",
+      "volume": "33",
+      "journal": "NeurIPS",
+      "year": "2020",
+      "author": "Brown, Tom and Mann, Benjamin and Ryder, Nick and Subbiah, Melanie and Kaplan, Jared D and Dhariwal, Prafulla and Neelakantan, Arvind and Shyam, Pranav and Sastry, Girish and Askell, Amanda and others",
+      "title": "Language models are few-shot learners",
+      "ENTRYTYPE": "article",
+      "ID": "gpt3_2020"
+    },
+    {
+      "journal": "arXiv preprint arXiv:2406.09358",
+      "year": "2024",
+      "author": "Aithal, Sumukh K and Maini, Pratyush and Lipton, Zachary C and Kolter, J Zico",
+      "title": "Understanding Hallucinations in Diffusion Models through Mode Interpolation",
+      "ENTRYTYPE": "article",
+      "ID": "aithal2024understanding"
+    },
+    {
+      "pages": "491--500",
+      "booktitle": "WWW",
+      "year": "2019",
+      "author": "Borkan, Daniel and Dixon, Lucas and Sorensen, Jeffrey and Thain, Nithum and Vasserman, Lucy",
+      "title": "Nuanced metrics for measuring unintended bias with real data for text classification",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "CivilComments_WWW2019"
+    },
+    {
+      "journal": "Connection Science",
+      "year": "1995",
+      "author": "Robins, Anthony",
+      "title": "Catastrophic forgetting, rehearsal and pseudorehearsal",
+      "ENTRYTYPE": "article",
+      "ID": "catastrophicforgetting_1995"
+    },
+    {
+      "journal": "arXiv preprint arXiv:2404.00673",
+      "year": "2024",
+      "author": "Nguyen, Thanh Tam and Huynh, Thanh Trung and Ren, Zhao and Nguyen, Thanh Toan and Nguyen, Phi Le and Yin, Hongzhi and Nguyen, Quoc Viet Hung",
+      "title": "A survey of privacy-preserving model explanations: Privacy risks, attacks, and countermeasures",
+      "ENTRYTYPE": "article",
+      "ID": "nguyen2024survey"
+    },
+    {
+      "journal": "arXiv preprint arXiv:2307.09218",
+      "year": "2023",
+      "author": "Wang, Zhenyi and Yang, Enneng and Shen, Li and Huang, Heng",
+      "title": "A comprehensive survey of forgetting in deep learning beyond continual learning",
+      "ENTRYTYPE": "article",
+      "ID": "wang2023comprehensive"
+    },
+    {
+      "publisher": "Wiley",
+      "year": "1998",
+      "author": "Vladimir Vapnik",
+      "title": "Statistical learning theory",
+      "ENTRYTYPE": "book",
+      "ID": "statisticallearningtheory"
+    },
+    {
+      "journal": "arXiv preprint arXiv:2405.17461",
+      "year": "2024",
+      "author": "Huang, Chenyu and Ye, Peng and Chen, Tao and He, Tong and Yue, Xiangyu and Ouyang, Wanli",
+      "title": "EMR-Merging: Tuning-Free High-Performance Model Merging",
+      "ENTRYTYPE": "article",
+      "ID": "emrmerging_arxiv2024"
+    },
+    {
+      "number": "arXiv:2406.03280",
+      "year": "2024",
+      "author": "Tang, Anke and Shen, Li and Luo, Yong and Hu, Han and Do, Bo and Tao, Dacheng",
+      "title": "{{FusionBench}}: {{A Comprehensive Benchmark}} of {{Deep Model Fusion}}",
+      "ENTRYTYPE": "article",
+      "ID": "tangFusionBenchComprehensiveBenchmark2024"
+    },
+    {
+      "journal": "arXiv preprint arXiv:2403.13257",
+      "year": "2024",
+      "author": "Goddard, Charles and Siriwardhana, Shamane and Ehghaghi, Malikeh and Meyers, Luke and Karpukhin, Vlad and Benedict, Brian and McQuade, Mark and Solawetz, Jacob",
+      "title": "Arcee's MergeKit: A Toolkit for Merging Large Language Models",
+      "ENTRYTYPE": "article",
+      "ID": "arceemergekit2024"
+    },
+    {
+      "journal": "arXiv preprint arXiv:2403.06952",
+      "year": "2024",
+      "author": "Li, Jialu and Cho, Jaemin and Sung, Yi-Lin and Yoon, Jaehong and Bansal, Mohit",
+      "title": "SELMA: Learning and Merging Skill-Specific Text-to-Image Experts with Auto-Generated Data",
+      "ENTRYTYPE": "article",
+      "ID": "li2024selma"
+    },
+    {
+      "pages": "18252--18260",
+      "number": "16",
+      "volume": "38",
+      "booktitle": "AAAI",
+      "year": "2024",
+      "author": "Hu, Xinshuo and Li, Dongfang and Hu, Baotian and Zheng, Zihao and Liu, Zhenyu and Zhang, Min",
+      "title": "Separate the wheat from the chaff: Model deficiency unlearning via parameter-efficient module operation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "hu2024separate"
+    },
+    {
+      "journal": "arXiv preprint arXiv:2405.20231",
+      "year": "2024",
+      "author": "Lim, Derek and Putterman, Moe and Walters, Robin and Maron, Haggai and Jegelka, Stefanie",
+      "title": "The Empirical Impact of Neural Parameter Symmetries, or Lack Thereof",
+      "ENTRYTYPE": "article",
+      "ID": "lim2024empirical"
+    },
+    {
+      "journal": "arXiv preprint arXiv:2406.10952",
+      "year": "2024",
+      "author": "Dou, Guangyao and Liu, Zheyuan and Lyu, Qing and Ding, Kaize and Wong, Eric",
+      "title": "Avoiding Copyright Infringement via Machine Unlearning",
+      "ENTRYTYPE": "article",
+      "ID": "dou2024avoiding"
+    },
+    {
+      "journal": "arXiv preprint arXiv:2404.15737",
+      "year": "2024",
+      "author": "Klimaszewski, Mateusz and Andruszkiewicz, Piotr and Birch, Alexandra",
+      "title": "No Train but Gain: Language Arithmetic for training-free Language Adapters enhancement",
+      "ENTRYTYPE": "article",
+      "ID": "klimaszewski2024no"
+    },
+    {
+      "journal": "arXiv preprint arXiv:2402.03660v1",
+      "year": "2024",
+      "author": "Zhou, Zhanpeng and Chen, Zijun and Chen, Yilan and Zhang, Bo and Yan, Junchi",
+      "title": "Cross-Task Linearity Emerges in the Pretraining-Finetuning Paradigm",
+      "ENTRYTYPE": "article",
+      "ID": "CTL2024"
+    },
+    {
+      "journal": "arXiv preprint arXiv:2305.14122",
+      "year": "2023",
+      "author": "Chijiwa, Daiki",
+      "title": "Transferring Learning Trajectories of Neural Networks",
+      "ENTRYTYPE": "article",
+      "ID": "chijiwa2023transferring"
+    },
+    {
+      "pages": "529--551",
+      "number": "3",
+      "volume": "4",
+      "publisher": "MIT Press One Rogers Street, Cambridge, MA 02142-1209, USA journals-info~…",
+      "journal": "Data Intelligence",
+      "year": "2022",
+      "author": "Lin, Qiang and Liu, Yongbin and Wen, Wen and Tao, Zhihua and Ouyang, Chunping and Wan, Yaping",
+      "title": "Ensemble making few-shot learning stronger",
+      "ENTRYTYPE": "article",
+      "ID": "lin2022ensemble"
+    },
+    {
+      "pages": "1--22",
+      "publisher": "Springer",
+      "journal": "International Journal of Machine Learning and Cybernetics",
+      "year": "2024",
+      "author": "Ji, Shaoxiong and Tan, Yue and Saravirta, Teemu and Yang, Zhiqin and Liu, Yixin and Vasankari, Lauri and Pan, Shirui and Long, Guodong and Walid, Anwar",
+      "title": "Emerging trends in federated learning: From model fusion to federated x learning",
+      "ENTRYTYPE": "article",
+      "ID": "ji2024emerging"
+    },
+    {
+      "journal": "arXiv preprint arXiv:2401.10111",
+      "year": "2024",
+      "author": "Nguyen, Tuc and Le, Thai",
+      "title": "Marrying Adapters and Mixup to Efficiently Enhance the Adversarial Robustness of Pre-Trained Language Models for Text Classification",
+      "ENTRYTYPE": "article",
+      "ID": "nguyen2024marrying"
+    },
+    {
+      "booktitle": "ICLR",
+      "year": "2021",
+      "author": "Wang, Dequan and Shelhamer, Evan and Liu, Shaoteng and Olshausen, Bruno and Darrell, Trevor",
+      "title": "Tent: Fully Test-Time Adaptation by Entropy Minimization",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "wang2021tent"
+    },
+    {
+      "journal": "arXiv preprint arXiv:2406.09770",
+      "year": "2024",
+      "author": "Tang, Anke and Shen, Li and Luo, Yong and Liu, Shiwei and Hu, Han and Du, Bo",
+      "title": "Towards Efficient Pareto Set Approximation via Mixture of Experts Based Model Fusion",
+      "ENTRYTYPE": "article",
+      "ID": "tang2024towards"
+    },
+    {
+      "volume": "36",
+      "journal": "NeurIPS",
+      "year": "2023",
+      "author": "Wei, Alexander and Haghtalab, Nika and Steinhardt, Jacob",
+      "title": "Jailbroken: How does llm safety training fail?",
+      "ENTRYTYPE": "article",
+      "ID": "wei2024jailbroken"
+    },
+    {
+      "booktitle": "NeurIPS Datasets and Benchmarks Track",
+      "year": "2022",
+      "author": "Wu, Baoyuan and Chen, Hongrui and Zhang, Mingda and Zhu, Zihao and Wei, Shaokui and Yuan, Danni and Shen, Chao",
+      "title": "BackdoorBench: A Comprehensive Benchmark of Backdoor Learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "backdoorbench2022"
+    },
+    {
+      "journal": "ICLR",
+      "year": "2019",
+      "author": "Dan Hendrycks and Thomas Dietterich",
+      "title": "Benchmarking Neural Network Robustness to Common Corruptions and Perturbations",
+      "ENTRYTYPE": "article",
+      "ID": "hendrycks2019robustness"
+    },
+    {
+      "journal": "arXiv preprint arXiv:2406.07188",
+      "year": "2024",
+      "author": "Victor Gallego",
+      "title": "Merging Improves Self-Critique Against Jailbreak Attacks",
+      "ENTRYTYPE": "article",
+      "ID": "jailbreaks2024"
+    },
+    {
+      "organization": "IEEE",
+      "pages": "148--153",
+      "booktitle": "ROBIO",
+      "year": "2019",
+      "author": "Wang, Tianying and Zhang, Hao and Toh, Wei Qi and Zhu, Hongyuan and Tan, Cheston and Wu, Yan and Liu, Yong and Jing, Wei",
+      "title": "Efficient robotic task generalization using deep model fusion reinforcement learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "wang2019efficient"
+    },
+    {
+      "pages": "106204",
+      "publisher": "Elsevier",
+      "journal": "Neural Networks",
+      "year": "2024",
+      "author": "Csisz{\\'a}rik, Adri{\\'a}n and Kiss, Melinda F and K{\\H{o}}r{\\\"o}si-Szab{\\'o}, P{\\'e}ter and Muntag, M{\\'a}rton and Papp, Gergely and Varga, D{\\'a}niel",
+      "title": "Mode combinability: Exploring convex combinations of permutation aligned models",
+      "ENTRYTYPE": "article",
+      "ID": "csiszarik2024mode"
+    },
+    {
+      "journal": "ICLR",
+      "year": "2024",
+      "author": "Aiello, Emanuele and Yu, Lili and Nie, Yixin and Aghajanyan, Armen and Oguz, Barlas",
+      "title": "Jointly training large autoregressive multimodal models",
+      "ENTRYTYPE": "article",
+      "ID": "aiello2023jointly"
+    },
+    {
+      "journal": "arXiv preprint arXiv:2402.04051",
+      "year": "2024",
+      "author": "Ito, Akira and Yamada, Masanori and Kumagai, Atsutoshi",
+      "title": "Analysis of Linear Mode Connectivity via Permutation-Based Weight Matching",
+      "ENTRYTYPE": "article",
+      "ID": "ito2024analysis"
+    },
+    {
+      "journal": "ICML",
+      "year": "2024",
+      "author": "Navon, Aviv and Shamsian, Aviv and Fetaya, Ethan and Chechik, Gal and Dym, Nadav and Maron, Haggai",
+      "title": "Equivariant Deep Weight Space Alignment",
+      "ENTRYTYPE": "article",
+      "ID": "equivariant_ICML2024"
+    },
+    {
+      "booktitle": "Socially Responsible Language Modelling Research",
+      "year": "2023",
+      "author": "Yao, Yuanshun and Xu, Xiaojun and Liu, Yang",
+      "title": "Large Language Model Unlearning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "yao2023large"
+    },
+    {
+      "journal": "arXiv preprint arXiv:2402.10058",
+      "year": "2024",
+      "author": "Liu, Zheyuan and Dou, Guangyao and Tan, Zhaoxuan and Tian, Yijun and Jiang, Meng",
+      "title": "Towards Safer Large Language Models through Machine Unlearning",
+      "ENTRYTYPE": "article",
+      "ID": "liu2024towards"
+    },
+    {
+      "journal": "arXiv preprint arXiv:2402.05966",
+      "year": "2024",
+      "author": "Qu, Xingyu and Horvath, Samuel",
+      "title": "Rethink Model Re-Basin and the Linear Mode Connectivity",
+      "ENTRYTYPE": "article",
+      "ID": "qu2024rethink"
+    },
+    {
+      "organization": "IEEE",
+      "pages": "303--319",
+      "booktitle": "EuroS\\&P",
+      "year": "2022",
+      "author": "Thudi, Anvith and Deza, Gabriel and Chandrasekaran, Varun and Papernot, Nicolas",
+      "title": "Unrolling sgd: Understanding factors influencing machine unlearning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "thudi2022unrolling"
+    },
+    {
+      "pages": "68",
+      "volume": "23",
+      "publisher": "HeinOnline",
+      "journal": "J. Tech. L. \\& Pol'y",
+      "year": "2018",
+      "author": "Pardau, Stuart L",
+      "title": "The california consumer privacy act: Towards a european-style privacy regime in the united states",
+      "ENTRYTYPE": "article",
+      "ID": "pardau2018california"
+    },
+    {
+      "pages": "65--98",
+      "number": "1",
+      "volume": "28",
+      "publisher": "Taylor \\& Francis",
+      "journal": "Information \\& Communications Technology Law",
+      "year": "2019",
+      "author": "Hoofnagle, Chris Jay and Van Der Sloot, Bart and Borgesius, Frederik Zuiderveen",
+      "title": "The European Union general data protection regulation: what it is and what it means",
+      "ENTRYTYPE": "article",
+      "ID": "hoofnagle2019european"
+    },
+    {
+      "journal": "arXiv preprint arXiv:2405.17931",
+      "year": "2024",
+      "author": "Lu, Keming and Yu, Bowen and Huang, Fei and Fan, Yang and Lin, Runji and Zhou, Chang",
+      "title": "Online Merging Optimizers for Boosting Rewards and Mitigating Tax in Alignment",
+      "ENTRYTYPE": "article",
+      "ID": "lu2024online"
+    },
+    {
+      "primaryclass": "cs.LG",
+      "archiveprefix": "arXiv",
+      "eprint": "2406.08423",
+      "year": "2024",
+      "author": "Maciej Pióro and Maciej Wołczyk and Razvan Pascanu and Johannes von Oswald and João Sacramento",
+      "title": "State Soup: In-Context Skill Learning, Retrieval and Mixing",
+      "ENTRYTYPE": "misc",
+      "ID": "pióro2024stateSoup"
+    },
+    {
+      "organization": "PMLR",
+      "pages": "1612--1620",
+      "booktitle": "AISTATS",
+      "year": "2024",
+      "author": "Jhunjhunwala, Divyansh and Wang, Shiqiang and Joshi, Gauri",
+      "title": "FedFisher: Leveraging Fisher Information for One-Shot Federated Learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "jhunjhunwala2024fedfisher"
+    },
+    {
+      "journal": "ACL",
+      "year": "2024",
+      "author": "Huang, Shih-Cheng and Li, Pin-Zu and Hsu, Yu-Chi and Chen, Kuang-Ming and Lin, Yu Tung and Hsiao, Shih-Kai and Tsai, Richard Tzong-Han and Lee, Hung-yi",
+      "title": "Chat Vector: A Simple Approach to Equip LLMs With New Language Chat Capabilities",
+      "ENTRYTYPE": "article",
+      "ID": "huang2024chat"
+    },
+    {
+      "journal": "ICASSP Workshop",
+      "year": "2024",
+      "author": "Sundar, Anirudh S and Yang, Chao-Han Huck and Chan, David M and Ghosh, Shalini and Ravichandran, Venkatesh and Nidadavolu, Phani Sankar",
+      "title": "Multimodal Attention Merging for Improved Speech Recognition and Audio Event Classification",
+      "ENTRYTYPE": "article",
+      "ID": "sundar2023multimodal"
+    },
+    {
+      "archiveprefix": "arXiv",
+      "eprint": "2406.04607",
+      "year": "2024",
+      "author": "Daniel Yun",
+      "title": "MeGA: Merging Multiple Independently Trained Neural Networks Based on Genetic Algorithm",
+      "ENTRYTYPE": "misc",
+      "ID": "yun2024mega"
+    },
+    {
+      "year": "2023",
+      "author": "Li, Xuechen and Zhang, Tianyi and Dubois, Yann and Taori, Rohan and Gulrajani, Ishaan and Guestrin, Carlos and Liang, Percy and Hashimoto, Tatsunori B",
+      "title": "Alpacaeval: An automatic evaluator of instruction-following models",
+      "ENTRYTYPE": "misc",
+      "ID": "li2023alpacaeval"
+    },
+    {
+      "journal": "arXiv preprint arXiv:2402.18571",
+      "year": "2024",
+      "author": "Wang, Haoxiang and Lin, Yong and Xiong, Wei and Yang, Rui and Diao, Shizhe and Qiu, Shuang and Zhao, Han and Zhang, Tong",
+      "title": "Arithmetic control of llms for diverse user preferences: Directional preference alignment with multi-objective rewards",
+      "ENTRYTYPE": "article",
+      "ID": "wang2024arithmetic"
+    },
+    {
+      "journal": "arXiv preprint arXiv:2404.09977",
+      "year": "2024",
+      "author": "Nair, Nithin Gopalakrishnan and Valanarasu, Jeya Maria Jose and Patel, Vishal M",
+      "title": "MaxFusion: Plug\\&Play Multi-Modal Generation in Text-to-Image Diffusion Models",
+      "ENTRYTYPE": "article",
+      "ID": "nair2024maxfusion"
+    },
+    {
+      "primaryclass": "cs.LG",
+      "archiveprefix": "arXiv",
+      "eprint": "2406.07529",
+      "journal": "arXiv preprint arXiv:2406.07529",
+      "year": "2024",
+      "author": "Lu Li and Tianyu Zhang and Zhiqi Bu and Suyuchen Wang and Huan He and Jie Fu and Yonghui Wu and Jiang Bian and Yong Chen and Yoshua Bengio",
+      "title": "MAP: Low-compute Model Merging with Amortized Pareto Fronts via Quadratic Approximation",
+      "ENTRYTYPE": "misc",
+      "ID": "li2024map"
+    },
+    {
+      "journal": "arXiv preprint arXiv:2406.08431",
+      "year": "2024",
+      "author": "Benjamin Biggs and Arjun Seshadri and Yang Zou and Achin Jain and Aditya Golatkar and Yusheng Xie and Alessandro Achille and Ashwin Swaminathan and Stefano Soatto",
+      "title": "Diffusion Soup: Model Merging for Text-to-Image Diffusion Models",
+      "ENTRYTYPE": "article",
+      "ID": "DiffusionSoup2024"
+    },
+    {
+      "journal": "arXiv preprint arXiv:2309.12259",
+      "year": "2023",
+      "author": "Chen, Hao and Wu, Yusen and Nguyen, Phuong and Liu, Chao and Yesha, Yelena",
+      "title": "Soft Merging: A Flexible and Robust Soft Model Merging Approach for Enhanced Neural Network Performance",
+      "ENTRYTYPE": "article",
+      "ID": "chen2023soft"
+    },
+    {
+      "journal": "ICML",
+      "year": "2024",
+      "author": "Ram{\\'e}, Alexandre and Vieillard, Nino and Hussenot, L{\\'e}onard and Dadashi, Robert and Cideron, Geoffrey and Bachem, Olivier and Ferret, Johan",
+      "title": "Warm: On the benefits of weight averaged reward models",
+      "ENTRYTYPE": "article",
+      "ID": "rame2024warm"
+    },
+    {
+      "journal": "arXiv preprint arXiv:2407.02880",
+      "year": "2024",
+      "author": "Zhang, Frederic Z and Albert, Paul and Rodriguez-Opazo, Cristian and Hengel, Anton van den and Abbasnejad, Ehsan",
+      "title": "Knowledge Composition using Task Vectors with Learned Anisotropic Scaling",
+      "ENTRYTYPE": "article",
+      "ID": "zhang2024knowledge"
+    },
+    {
+      "journal": "arXiv preprint arXiv:2405.17517",
+      "year": "2024",
+      "author": "Fournier, Louis and Nabli, Adel and Aminbeidokhti, Masih and Pedersoli, Marco and Belilovsky, Eugene and Oyallon, Edouard",
+      "title": "WASH: Train your Ensemble with Communication-Efficient Weight Shuffling, then Average",
+      "ENTRYTYPE": "article",
+      "ID": "fournier2024wash"
+    },
+    {
+      "booktitle": "ICLR",
+      "year": "2019",
+      "author": "Wang, Alex and Singh, Amanpreet and Michael, Julian and Hill, Felix and Levy, Omer and Bowman, Samuel R",
+      "title": "Glue: A multi-task benchmark and analysis platform for natural language understanding",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "wang2019glue"
+    },
+    {
+      "pages": "1--42",
+      "number": "223",
+      "volume": "18",
+      "journal": "JMLR",
+      "year": "2018",
+      "author": "Jain, Prateek and Kakade, Sham M and Kidambi, Rahul and Netrapalli, Praneeth and Sidford, Aaron",
+      "title": "Parallelizing stochastic gradient descent for least squares regression: mini-batching, averaging, and model misspecification",
+      "ENTRYTYPE": "article",
+      "ID": "jain2018parallelizing"
+    },
+    {
+      "journal": "JMLR",
+      "year": "2024",
+      "author": "Caglar Demir and Arnab Sharma and Axel-Cyrille Ngonga Ngomo",
+      "title": "Adaptive Stochastic Weight Averaging",
+      "ENTRYTYPE": "article",
+      "ID": "ASWA_JMLR2024"
+    },
+    {
+      "volume": "36",
+      "journal": "NeurIPS",
+      "year": "2023",
+      "author": "Zhang, Jiangtao and Liu, Shunyu and Song, Jie and Zhu, Tongtian and Xu, Zhengqi and Song, Mingli",
+      "title": "Lookaround Optimizer: $ k $ steps around, 1 step average",
+      "ENTRYTYPE": "article",
+      "ID": "zhang2023lookaround"
+    },
+    {
+      "organization": "PMLR",
+      "pages": "1225--1234",
+      "booktitle": "ICML",
+      "year": "2016",
+      "author": "Hardt, Moritz and Recht, Ben and Singer, Yoram",
+      "title": "Train faster, generalize better: Stability of stochastic gradient descent",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "hardt2016train"
+    },
+    {
+      "journal": "ICLR",
+      "year": "2021",
+      "author": "Foret, Pierre and Kleiner, Ariel and Mobahi, Hossein and Neyshabur, Behnam",
+      "title": "Sharpness-aware minimization for efficiently improving generalization",
+      "ENTRYTYPE": "article",
+      "ID": "foret2021sharpness"
+    },
+    {
+      "archiveprefix": "arXiv",
+      "eprint": "2407.07089",
+      "year": "2024",
+      "author": "Ruochen Jin and Bojian Hou and Jiancong Xiao and Weijie Su and Li Shen",
+      "title": "Fine-Tuning Linear Layers Only Is a Simple yet Effective Way for Task Arithmetic",
+      "ENTRYTYPE": "misc",
+      "ID": "jin2024finetuninglinearlayerssimple"
+    },
+    {
+      "archiveprefix": "arXiv",
+      "eprint": "2407.08699",
+      "year": "2024",
+      "author": "Anton Alexandrov and Veselin Raychev and Mark Niklas Müller and Ce Zhang and Martin Vechev and Kristina Toutanova",
+      "title": "Mitigating Catastrophic Forgetting in Language Transfer via Model Merging",
+      "ENTRYTYPE": "misc",
+      "ID": "alexandrov2024cfllm"
+    },
+    {
+      "booktitle": "ECCV",
+      "year": "2024",
+      "author": "Daniel Marczak and Bartłomiej Twardowski and Tomasz Trzciński and Sebastian Cygert",
+      "title": "MagMax: Leveraging Model Merging for Seamless Continual Learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "marczak2024magmax"
+    },
+    {
+      "booktitle": "ICLR",
+      "year": "2017",
+      "author": "Huang, Gao and Li, Yixuan and Pleiss, Geoff and Liu, Zhuang and Hopcroft, John E and Weinberger, Kilian Q",
+      "title": "Snapshot Ensembles: Train 1, Get M for Free",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "SnapshotEnsembles"
+    },
+    {
+      "pages": "195--198",
+      "number": "5",
+      "volume": "39",
+      "booktitle": "Dokl. akad. nauk sssr",
+      "year": "1943",
+      "author": "Tikhonov, Andrey Nikolayevich and others",
+      "title": "On the stability of inverse problems",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "tikhonov1943stability"
+    },
+    {
+      "journal": "arXiv preprint arXiv:2406.15479",
+      "year": "2024",
+      "author": "Lu, Zhenyi and Fan, Chenghao and Wei, Wei and Qu, Xiaoye and Chen, Dangyang and Cheng, Yu",
+      "title": "Twin-Merging: Dynamic Integration of Modular Expertise in Model Merging",
+      "ENTRYTYPE": "article",
+      "ID": "lu2024twin"
+    },
+    {
+      "journal": "arXiv preprint arXiv:2406.15480",
+      "year": "2024",
+      "author": "Fan, Chenghao and Lu, Zhenyi and Wei, Wei and Tian, Jie and Qu, Xiaoye and Chen, Dangyang and Cheng, Yu",
+      "title": "On Giant's Shoulders: Effortless Weak to Strong by Dynamic Logits Fusion",
+      "ENTRYTYPE": "article",
+      "ID": "fan2024giant"
+    },
+    {
+      "organization": "PMLR",
+      "pages": "3222--3242",
+      "booktitle": "Conference On Learning Theory",
+      "year": "2018",
+      "author": "Neu, Gergely and Rosasco, Lorenzo",
+      "title": "Iterate averaging as regularization for stochastic gradient descent",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "neu2018iterate"
+    },
+    {
+      "organization": "Association for Computational Linguistics (ACL)",
+      "pages": "3470--3487",
+      "booktitle": "ACL",
+      "year": "2022",
+      "author": "Mishra, Swaroop and Khashabi, Daniel and Baral, Chitta and Hajishirzi, Hannaneh",
+      "title": "Cross-Task Generalization via Natural Language Crowdsourcing Instructions",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "mishra2022cross"
+    },
+    {
+      "pages": "7163--7189",
+      "booktitle": "EMNLP",
+      "year": "2021",
+      "author": "Ye, Qinyuan and Lin, Bill Yuchen and Ren, Xiang",
+      "title": "CrossFit: A Few-shot Learning Challenge for Cross-task Generalization in NLP",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ye2021crossfit"
+    },
+    {
+      "journal": "arXiv preprint arXiv:2406.11385",
+      "year": "2024",
+      "author": "Zhou, Yuyan and Song, Liang and Wang, Bingning and Chen, Weipeng",
+      "title": "MetaGPT: Merging Large Language Models Using Model Exclusive Task Arithmetic",
+      "ENTRYTYPE": "article",
+      "ID": "zhou2024metagpt"
+    },
+    {
+      "volume": "36",
+      "journal": "NeurIPS",
+      "year": "2023",
+      "author": "Jiang, Junguang and Chen, Baixu and Pan, Junwei and Wang, Ximei and Liu, Dapeng and Jiang, Jie and Long, Mingsheng",
+      "title": "ForkMerge: Mitigating Negative Transfer in Auxiliary-Task Learning",
+      "ENTRYTYPE": "article",
+      "ID": "jiang2024forkmerge"
+    },
+    {
+      "journal": "arXiv preprint arXiv:2403.08755",
+      "year": "2024",
+      "author": "Cheng, Feng and Wang, Ziyang and Sung, Yi-Lin and Lin, Yan-Bo and Bansal, Mohit and Bertasius, Gedas",
+      "title": "DAM: Dynamic Adapter Merging for Continual Video QA Learning",
+      "ENTRYTYPE": "article",
+      "ID": "cheng2024dam"
+    },
+    {
+      "journal": "ICLR",
+      "year": "2024",
+      "author": "Dekoninck, Jasper and Fischer, Marc and Beurer-Kellner, Luca and Vechev, Martin",
+      "title": "Controlled Text Generation via Language Model Arithmetic",
+      "ENTRYTYPE": "article",
+      "ID": "dekoninck2024controlled"
+    },
+    {
+      "journal": "arXiv preprint arXiv:2310.15213",
+      "year": "2023",
+      "author": "Todd, Eric and Li, Millicent L and Sharma, Arnab Sen and Mueller, Aaron and Wallace, Byron C and Bau, David",
+      "title": "Function vectors in large language models",
+      "ENTRYTYPE": "article",
+      "ID": "todd2023function"
+    },
+    {
+      "journal": "ICLR",
+      "year": "2024",
+      "author": "Adilova, Linara and Fischer, Asja and Jaggi, Martin",
+      "title": "Layerwise linear mode connectivity",
+      "ENTRYTYPE": "article",
+      "ID": "adilova2024layerwise"
+    },
+    {
+      "booktitle": "ICLR",
+      "year": "2024",
+      "author": "Wu, Xun and Huang, Shaohan and Wei, Furu",
+      "title": "MoLE: Mixture of LoRA Experts",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "wu2024mole"
+    },
+    {
+      "organization": "PMLR",
+      "pages": "3853--3861",
+      "booktitle": "AISTATS",
+      "year": "2024",
+      "author": "Ferbach, Damien and Goujaud, Baptiste and Gidel, Gauthier and Dieuleveut, Aymeric",
+      "title": "Proving linear mode connectivity of neural networks via optimal transport",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ferbach2024proving"
+    },
+    {
+      "volume": "31",
+      "journal": "NeurIPS",
+      "year": "2018",
+      "author": "Li, Hao and Xu, Zheng and Taylor, Gavin and Studer, Christoph and Goldstein, Tom",
+      "title": "Visualizing the loss landscape of neural nets",
+      "ENTRYTYPE": "article",
+      "ID": "li2018visualizing"
+    },
+    {
+      "pages": "32211--32252",
+      "booktitle": "ICML",
+      "year": "2023",
+      "author": "Song, Yang and Dhariwal, Prafulla and Chen, Mark and Sutskever, Ilya",
+      "title": "Consistency models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "song2023consistency"
+    },
+    {
+      "volume": "30",
+      "journal": "NeurIPS",
+      "year": "2017",
+      "author": "Tarvainen, Antti and Valpola, Harri",
+      "title": "Mean teachers are better role models: Weight-averaged consistency targets improve semi-supervised deep learning results",
+      "ENTRYTYPE": "article",
+      "ID": "tarvainen2017mean"
+    },
+    {
+      "journal": "ICML",
+      "year": "2024",
+      "author": "Wang, Ke and Dimitriadis, Nikolaos and Ortiz-Jimenez, Guillermo and Fleuret, Fran{\\c{c}}ois and Frossard, Pascal",
+      "title": "Localizing Task Information for Improved Model Merging and Compression",
+      "ENTRYTYPE": "article",
+      "ID": "wang2024localizingtall"
+    },
+    {
+      "journal": "arXiv preprint arXiv:2406.16768",
+      "year": "2024",
+      "author": "Ram{\\'e}, Alexandre and Ferret, Johan and Vieillard, Nino and Dadashi, Robert and Hussenot, L{\\'e}onard and Cedoz, Pierre-Louis and Sessa, Pier Giuseppe and Girgin, Sertan and Douillard, Arthur and Bachem, Olivier",
+      "title": "WARP: On the Benefits of Weight Averaged Rewarded Policies",
+      "ENTRYTYPE": "article",
+      "ID": "rame2024warp"
+    },
+    {
+      "booktitle": "ICML",
+      "year": "2024",
+      "author": "Wang, Peng and Shen, Li and Tao, Zerui and He, Shuaida and Tao, Dacheng",
+      "title": "Generalization Analysis of Stochastic Weight Averaging with General Sampling",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "wanggeneralization"
+    },
+    {
+      "pages": "27517--27527",
+      "booktitle": "CVPR",
+      "month": "June",
+      "year": "2024",
+      "author": "Saadati, Nastaran and Pham, Minh and Saleem, Nasla and Waite, Joshua R. and Balu, Aditya and Jiang, Zhanong and Hegde, Chinmay and Sarkar, Soumik",
+      "title": "DIMAT: Decentralized Iterative Merging-And-Training for Deep Learning Models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "Saadati_2024_CVPR"
+    },
+    {
+      "journal": "ICLR",
+      "year": "2024",
+      "author": "Imfeld, Moritz and Graldi, Jacopo and Giordano, Marco and Hofmann, Thomas and Anagnostidis, Sotiris and Singh, Sidak Pal",
+      "title": "Transformer fusion with optimal transport",
+      "ENTRYTYPE": "article",
+      "ID": "imfeld2024transformer"
+    },
+    {
+      "journal": "arXiv preprint arXiv:2401.04088",
+      "year": "2024",
+      "author": "Jiang, Albert Q and Sablayrolles, Alexandre and Roux, Antoine and Mensch, Arthur and Savary, Blanche and Bamford, Chris and Chaplot, Devendra Singh and Casas, Diego de las and Hanna, Emma Bou and Bressand, Florian and others",
+      "title": "Mixtral of experts",
+      "ENTRYTYPE": "article",
+      "ID": "jiang2024mixtral"
+    },
+    {
+      "journal": "arXiv preprint arXiv:2312.15166",
+      "year": "2023",
+      "author": "Kim, Dahyun and Park, Chanjun and Kim, Sanghoon and Lee, Wonsung and Song, Wonho and Kim, Yunsu and Kim, Hyeonwoo and Kim, Yungi and Lee, Hyeonju and Kim, Jihoo and others",
+      "title": "Solar 10.7 b: Scaling large language models with simple yet effective depth up-scaling",
+      "ENTRYTYPE": "article",
+      "ID": "kim2023solar"
+    },
+    {
+      "journal": "arXiv preprint arXiv:2309.11235",
+      "year": "2023",
+      "author": "Wang, Guan and Cheng, Sijie and Zhan, Xianyuan and Li, Xiangang and Song, Sen and Liu, Yang",
+      "title": "Openchat: Advancing open-source language models with mixed-quality data",
+      "ENTRYTYPE": "article",
+      "ID": "wang2023openchat"
+    },
+    {
+      "journal": "CVPR",
+      "year": "2024",
+      "author": "Xu, Zhengqi and Yuan, Ke and Wang, Huiqiong and Wang, Yong and Song, Mingli and Song, Jie",
+      "title": "Training-Free Pretrained Model Merging",
+      "ENTRYTYPE": "article",
+      "ID": "xu2024training"
+    },
+    {
+      "journal": "NAACL",
+      "year": "2024",
+      "author": "Kim, Dahyun and Park, Chanjun and Kim, Sanghoon and Lee, Wonsung and Song, Wonho and Kim, Yunsu and Kim, Hyeonwoo and Kim, Yungi and Lee, Hyeonju and Kim, Jihoo and others",
+      "title": "Solar 10.7 b: Scaling large language models with simple yet effective depth up-scaling",
+      "ENTRYTYPE": "article",
+      "ID": "kim2024solar"
+    },
+    {
+      "journal": "ICLR",
+      "year": "2023",
+      "author": "Jordan, Keller and Sedghi, Hanie and Saukh, Olga and Entezari, Rahim and Neyshabur, Behnam",
+      "title": "Repair: Renormalizing permuted activations for interpolation repair",
+      "ENTRYTYPE": "article",
+      "ID": "jordan2022repair"
+    },
+    {
+      "journal": "arXiv preprint arXiv:2401.02412",
+      "year": "2024",
+      "author": "Bansal, Rachit and Samanta, Bidisha and Dalmia, Siddharth and Gupta, Nitish and Vashishth, Shikhar and Ganapathy, Sriram and Bapna, Abhishek and Jain, Prateek and Talukdar, Partha",
+      "title": "Llm augmented llms: Expanding capabilities through composition",
+      "ENTRYTYPE": "article",
+      "ID": "Llmaugmentedllms2024"
+    },
+    {
+      "howpublished": "\\url{https://github.com/Digitous/LLM-SLERP-Merge}",
+      "author": "Digitous",
+      "title": "Spherical Linear Interpolation (SLERP) Model Merging",
+      "ENTRYTYPE": "misc",
+      "ID": "SLERP"
+    },
+    {
+      "pages": "16048--16059",
+      "booktitle": "CVPR",
+      "year": "2023",
+      "author": "Jain, Samyak and Addepalli, Sravanti and Sahu, Pawan Kumar and Dey, Priyam and Babu, R Venkatesh",
+      "title": "Dart: Diversify-aggregate-repeat training improves generalization of neural networks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "jain2023dart"
+    },
+    {
+      "journal": "arXiv preprint arXiv:2403.13257",
+      "year": "2024",
+      "author": "Goddard, Charles and Siriwardhana, Shamane and Ehghaghi, Malikeh and Meyers, Luke and Karpukhin, Vlad and Benedict, Brian and McQuade, Mark and Solawetz, Jacob",
+      "title": "Arcee's MergeKit: A Toolkit for Merging Large Language Models",
+      "ENTRYTYPE": "article",
+      "ID": "goddard2024ArceesMergeKit"
+    },
+    {
+      "pages": "2567--2577",
+      "publisher": "Association for Computational Linguistics",
+      "booktitle": "EMNLP-IJCNLP",
+      "year": "2019",
+      "author": "Jin, Qiao  and Dhingra, Bhuwan  and Liu, Zhengping  and Cohen, William  and Lu, Xinghua",
+      "title": "{P}ub{M}ed{QA}: A Dataset for Biomedical Research Question Answering",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "pubmedqa"
+    },
+    {
+      "journal": "arXiv preprint arXiv:2404.16792",
+      "year": "2024",
+      "author": "Zheng, Chujie and Wang, Ziqi and Ji, Heng and Huang, Minlie and Peng, Nanyun",
+      "title": "Weak-to-strong extrapolation expedites alignment",
+      "ENTRYTYPE": "article",
+      "ID": "zheng2024weak"
+    },
+    {
+      "journal": "arXiv preprint arXiv:2404.11531",
+      "year": "2024",
+      "author": "Mavromatis, Costas and Karypis, Petros and Karypis, George",
+      "title": "Pack of LLMs: Model Fusion at Test-Time via Perplexity Optimization",
+      "ENTRYTYPE": "article",
+      "ID": "mavromatis2024pack"
+    },
+    {
+      "journal": "arXiv preprint arXiv:2002.06715",
+      "year": "2020",
+      "author": "Wen, Yeming and Tran, Dustin and Ba, Jimmy",
+      "title": "Batchensemble: an alternative approach to efficient ensemble and lifelong learning",
+      "ENTRYTYPE": "article",
+      "ID": "wen2020batchensemble"
+    },
+    {
+      "journal": "arXiv preprint arXiv:2403.19390",
+      "year": "2024",
+      "author": "Liu, Deyuan and Wang, Zecheng and Wang, Bingning and Chen, Weipeng and Li, Chunshan and Tu, Zhiying and Chu, Dianhui and Li, Bo and Sui, Dianbo",
+      "title": "Checkpoint Merging via Bayesian Optimization in LLM Pretraining",
+      "ENTRYTYPE": "article",
+      "ID": "liu2024checkpoint"
+    },
+    {
+      "pages": "876--885",
+      "booktitle": "UAI",
+      "journal": "arXiv preprint arXiv:1803.05407",
+      "year": "2018",
+      "author": "Izmailov, P and Wilson, AG and Podoprikhin, D and Vetrov, D and Garipov, T",
+      "title": "Averaging weights leads to wider optima and better generalization",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "izmailov2018averaging"
+    },
+    {
+      "journal": "arXiv preprint arXiv:2012.12645",
+      "year": "2020",
+      "author": "Zhang, Haoyang and Wang, Ying and Dayoub, Feras and S{\\\"u}nderhauf, Niko",
+      "title": "Swa object detection",
+      "ENTRYTYPE": "article",
+      "ID": "zhang2020swa"
+    },
+    {
+      "pages": "16577--16595",
+      "volume": "35",
+      "journal": "NeurIPS",
+      "year": "2022",
+      "author": "Kaddour, Jean and Liu, Linqing and Silva, Ricardo and Kusner, Matt J",
+      "title": "When do flat minima optimizers work?",
+      "ENTRYTYPE": "article",
+      "ID": "kaddour2022flat"
+    },
+    {
+      "journal": "arXiv preprint arXiv:2310.08184",
+      "year": "2023",
+      "author": "Zheng, Hongling and Shen, Li and Tang, Anke and Luo, Yong and Hu, Han and Du, Bo and Tao, Dacheng",
+      "title": "Learn from model beyond fine-tuning: A survey",
+      "ENTRYTYPE": "article",
+      "ID": "zheng2023learn"
+    },
+    {
+      "organization": "PMLR",
+      "pages": "7015--7024",
+      "booktitle": "ICML",
+      "year": "2019",
+      "author": "Yang, Guandao and Zhang, Tianyi and Kirichenko, Polina and Bai, Junwen and Wilson, Andrew Gordon and De Sa, Chris",
+      "title": "SWALP: Stochastic weight averaging in low precision training",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "yang2019swalp"
+    },
+    {
+      "journal": "arXiv preprint arXiv:2110.03360",
+      "year": "2021",
+      "author": "Allingham, James Urquhart and Wenzel, Florian and Mariet, Zelda E and Mustafa, Basil and Puigcerver, Joan and Houlsby, Neil and Jerfel, Ghassen and Fortuin, Vincent and Lakshminarayanan, Balaji and Snoek, Jasper and others",
+      "title": "Sparse MoEs meet efficient ensembles",
+      "ENTRYTYPE": "article",
+      "ID": "allingham2021sparse"
+    },
+    {
+      "pages": "991--999",
+      "booktitle": "CVPR",
+      "year": "2015",
+      "author": "Lenc, Karel and Vedaldi, Andrea",
+      "title": "Understanding image representations by measuring their equivariance and equivalence",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "lenc2015understanding"
+    },
+    {
+      "journal": "ICLR",
+      "year": "2023",
+      "author": "Komatsuzaki, Aran and Puigcerver, Joan and Lee-Thorp, James and Ruiz, Carlos Riquelme and Mustafa, Basil and Ainslie, Joshua and Tay, Yi and Dehghani, Mostafa and Houlsby, Neil",
+      "title": "Sparse upcycling: Training mixture-of-experts from dense checkpoints",
+      "ENTRYTYPE": "article",
+      "ID": "komatsuzaki2023sparseupcycling"
+    },
+    {
+      "journal": "arXiv preprint arXiv:1909.08593",
+      "year": "2019",
+      "author": "Ziegler, Daniel M. and Stiennon, Nisan and Wu, Jeffrey and Brown, Tom B. and Radford, Alec and Amodei, Dario and Christiano, Paul and Irving, Geoffrey",
+      "title": "Fine-Tuning Language Models from Human Preferences",
+      "ENTRYTYPE": "article",
+      "ID": "RLHF2019"
+    },
+    {
+      "volume": "36",
+      "journal": "NeurIPS",
+      "year": "2023",
+      "author": "Rafailov, Rafael and Sharma, Archit and Mitchell, Eric and Manning, Christopher D and Ermon, Stefano and Finn, Chelsea",
+      "title": "Direct preference optimization: Your language model is secretly a reward model",
+      "ENTRYTYPE": "article",
+      "ID": "rafailov2023DPO"
+    },
+    {
+      "journal": "arXiv preprint arXiv:2406.14563",
+      "year": "2024",
+      "author": "Hammoud, Hasan Abed Al Kader and Michieli, Umberto and Pizzati, Fabio and Torr, Philip and Bibi, Adel and Ghanem, Bernard and Ozay, Mete",
+      "title": "Model Merging and Safety Alignment: One Bad Model Spoils the Bunch",
+      "ENTRYTYPE": "article",
+      "ID": "hammoud2024model"
+    },
+    {
+      "pages": "21828--21837",
+      "booktitle": "ICCV",
+      "year": "2023",
+      "author": "Ye, Hanrong and Xu, Dan",
+      "title": "Taskexpert: Dynamically assembling multi-task representations with memorial mixture-of-experts",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ye2023taskexpert"
+    },
+    {
+      "journal": "arXiv preprint arXiv:2402.00070",
+      "year": "2024",
+      "author": "Jiang, Yushu",
+      "title": "EvoMerge: Neuroevolution for Large Language Models",
+      "ENTRYTYPE": "article",
+      "ID": "jiang2024evomerge"
+    },
+    {
+      "journal": "arXiv preprint arXiv:2312.09148",
+      "year": "2023",
+      "author": "Chen, Anthony and Yang, Huanrui and Gan, Yulu and Gudovskiy, Denis A and Dong, Zhen and Wang, Haofan and Okuno, Tomoyuki and Nakata, Yohei and Zhang, Shanghang and Keutzer, Kurt",
+      "title": "Split-Ensemble: Efficient OOD-aware Ensemble via Task and Model Splitting",
+      "ENTRYTYPE": "article",
+      "ID": "chen2023SplitEnsemble"
+    },
+    {
+      "organization": "PMLR",
+      "pages": "1309--1318",
+      "booktitle": "ICML",
+      "year": "2018",
+      "author": "Draxler, Felix and Veschgini, Kambis and Salmhofer, Manfred and Hamprecht, Fred",
+      "title": "Essentially no barriers in neural network energy landscape",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "draxler2018essentially"
+    },
+    {
+      "organization": "IEEE",
+      "pages": "1--8",
+      "booktitle": "IJCNN",
+      "year": "2019",
+      "author": "Ji, Shaoxiong and Pan, Shirui and Long, Guodong and Li, Xue and Jiang, Jing and Huang, Zi",
+      "title": "Learning private neural language modeling with attentive aggregation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ji2019learning"
+    },
+    {
+      "pages": "22045--22055",
+      "volume": "33",
+      "journal": "NeurIPS",
+      "year": "2020",
+      "author": "Singh, Sidak Pal and Jaggi, Martin",
+      "title": "Model fusion via optimal transport",
+      "ENTRYTYPE": "article",
+      "ID": "otfusion_neurips2020"
+    },
+    {
+      "booktitle": "ACL-IJCNLP",
+      "journal": "arXiv preprint arXiv:2106.02834",
+      "year": "2021",
+      "author": "Khanuja, Simran and Johnson, Melvin and Talukdar, Partha",
+      "title": "Mergedistill: Merging pre-trained language models using distillation",
+      "ENTRYTYPE": "article",
+      "ID": "Mergedistill2021"
+    },
+    {
+      "booktitle": "ICLR",
+      "year": "2021",
+      "author": "Johannes von Oswald and Seijin Kobayashi and Alexander Meulemans and Christian Henning and Benjamin F. Grewe and Jo{\\~a}o Sacramento",
+      "title": "Neural networks with late-phase weights",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "von2020neural"
+    },
+    {
+      "pages": "5744--5760",
+      "publisher": "Association for Computational Linguistics",
+      "booktitle": "EMNLP",
+      "month": "December",
+      "year": "2022",
+      "author": "Wang, Yaqing  and Agarwal, Sahaj  and Mukherjee, Subhabrata  and Liu, Xiaodong  and Gao, Jing  and Awadallah, Ahmed Hassan  and Gao, Jianfeng",
+      "title": "{A}da{M}ix: Mixture-of-Adaptations for Parameter-efficient Model Tuning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "wang2022adamix"
+    },
+    {
+      "journal": "arXiv preprint arXiv:2208.03306",
+      "year": "2022",
+      "author": "Li, Margaret and Gururangan, Suchin and Dettmers, Tim and Lewis, Mike and Althoff, Tim and Smith, Noah A and Zettlemoyer, Luke",
+      "title": "Branch-train-merge: Embarrassingly parallel training of expert language models",
+      "ENTRYTYPE": "article",
+      "ID": "li2022branch"
+    },
+    {
+      "volume": "30",
+      "journal": "NeurIPS",
+      "year": "2017",
+      "author": "Vaswani, Ashish and Shazeer, Noam and Parmar, Niki and Uszkoreit, Jakob and Jones, Llion and Gomez, Aidan N and Kaiser, {\\L}ukasz and Polosukhin, Illia",
+      "title": "Attention is all you need",
+      "ENTRYTYPE": "article",
+      "ID": "transformer_2017"
+    },
+    {
+      "journal": "arXiv preprint arXiv:2204.03044",
+      "year": "2022",
+      "author": "Choshen, Leshem and Venezian, Elad and Slonim, Noam and Katz, Yoav",
+      "title": "Fusing finetuned models for better pretraining",
+      "ENTRYTYPE": "article",
+      "ID": "choshen2022fusing"
+    },
+    {
+      "journal": "ICASSP",
+      "year": "2023",
+      "author": "Nguyen, Dang and Nguyen, Khai and Ho, Nhat and Phung, Dinh and Bui, Hung",
+      "title": "Model fusion of heterogeneous neural networks via cross-layer alignment",
+      "ENTRYTYPE": "article",
+      "ID": "nguyen2021model"
+    },
+    {
+      "organization": "IEEE",
+      "pages": "1--5",
+      "booktitle": "ICASSP",
+      "year": "2023",
+      "author": "Nguyen, Dang and Nguyen, Trang and Nguyen, Khai and Phung, Dinh and Bui, Hung and Ho, Nhat",
+      "title": "On cross-layer alignment for model fusion of heterogeneous neural networks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "nguyen2023cross"
+    },
+    {
+      "organization": "PMLR",
+      "pages": "13857--13869",
+      "booktitle": "ICML",
+      "year": "2022",
+      "author": "Liu, Chang and Lou, Chenfei and Wang, Runzhong and Xi, Alan Yuhan and Shen, Li and Yan, Junchi",
+      "title": "Deep neural network fusion via graph matching with applications to model ensemble and federated learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "gamf_icml2022"
+    },
+    {
+      "pages": "8265--8277",
+      "volume": "35",
+      "journal": "NeurIPS",
+      "year": "2022",
+      "author": "Arpit, Devansh and Wang, Huan and Zhou, Yingbo and Xiong, Caiming",
+      "title": "Ensemble of averages: Improving model selection and boosting performance in domain generalization",
+      "ENTRYTYPE": "article",
+      "ID": "arpit2022ensemble"
+    },
+    {
+      "pages": "10821--10836",
+      "volume": "35",
+      "journal": "NeurIPS",
+      "year": "2022",
+      "author": "Rame, Alexandre and Kirchmeyer, Matthieu and Rahier, Thibaud and Rakotomamonjy, Alain and Gallinari, Patrick and Cord, Matthieu",
+      "title": "Diverse weight averaging for out-of-distribution generalization",
+      "ENTRYTYPE": "article",
+      "ID": "rame2022diverse"
+    },
+    {
+      "pages": "12313--12323",
+      "booktitle": "CVPR",
+      "year": "2023",
+      "author": "Croce, Francesco and Rebuffi, Sylvestre-Alvise and Shelhamer, Evan and Gowal, Sven",
+      "title": "Seasoning model soups for robustness to adversarial and natural distribution shifts",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "croce2023seasoning"
+    },
+    {
+      "journal": "ICLR",
+      "year": "2023",
+      "author": "Rebuffi, Sylvestre-Alvise and Croce, Francesco and Gowal, Sven",
+      "title": "Revisiting adapters with adversarial training",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "rebuffirevisiting"
+    },
+    {
+      "journal": "arXiv preprint arXiv:2407.03641",
+      "year": "2024",
+      "author": "Li, Tao and Jiang, Weisen and Liu, Fanghui and Huang, Xiaolin and Kwok, James T",
+      "title": "Scalable Learned Model Soup on a Single GPU: An Efficient Subspace Training Strategy",
+      "ENTRYTYPE": "article",
+      "ID": "li2024scalable"
+    },
+    {
+      "pages": "110--125",
+      "number": "1",
+      "volume": "2",
+      "journal": "The handbook of brain theory and neural networks",
+      "year": "2002",
+      "author": "Dietterich, Thomas G and others",
+      "title": "Ensemble learning",
+      "ENTRYTYPE": "article",
+      "ID": "ensemblelearning_book2002"
+    },
+    {
+      "pages": "e1249",
+      "number": "4",
+      "volume": "8",
+      "publisher": "Wiley Online Library",
+      "journal": "Wiley interdisciplinary reviews: data mining and knowledge discovery",
+      "year": "2018",
+      "author": "Sagi, Omer and Rokach, Lior",
+      "title": "Ensemble learning: A survey",
+      "ENTRYTYPE": "article",
+      "ID": "sagi2018ensemblesurvey"
+    },
+    {
+      "pages": "29262--29277",
+      "volume": "35",
+      "journal": "NeurIPS",
+      "year": "2022",
+      "author": "Ilharco, Gabriel and Wortsman, Mitchell and Gadre, Samir Yitzhak and Song, Shuran and Hajishirzi, Hannaneh and Kornblith, Simon and Farhadi, Ali and Schmidt, Ludwig",
+      "title": "Patching open-vocabulary models by interpolating weights",
+      "ENTRYTYPE": "article",
+      "ID": "ilharco2022patching"
+    },
+    {
+      "organization": "PMLR",
+      "pages": "3259--3269",
+      "booktitle": "ICML",
+      "year": "2020",
+      "author": "Frankle, Jonathan and Dziugaite, Gintare Karolina and Roy, Daniel and Carbin, Michael",
+      "title": "Linear mode connectivity and the lottery ticket hypothesis",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "frankle2020linear"
+    },
+    {
+      "journal": "NeurIPS Workshop",
+      "year": "2022",
+      "author": "Kaddour, Jean",
+      "title": "Stop wasting my time! saving days of imagenet and bert training with latest weight averaging",
+      "ENTRYTYPE": "article",
+      "ID": "kaddour2022stop"
+    },
+    {
+      "pages": "60853--60877",
+      "volume": "36",
+      "journal": "NeurIPS",
+      "year": "2023",
+      "author": "Zhou, Zhanpeng and Yang, Yongyi and Yang, Xiaojiang and Yan, Junchi and Hu, Wei",
+      "title": "Going beyond linear mode connectivity: The layerwise linear feature connectivity",
+      "ENTRYTYPE": "article",
+      "ID": "zhou2023going"
+    },
+    {
+      "pages": "270--282",
+      "booktitle": "ACL",
+      "year": "2023",
+      "author": "Lv, Xingtai and Ding, Ning and Qin, Yujia and Liu, Zhiyuan and Sun, Maosong",
+      "title": "Parameter-efficient weight ensembling facilitates task-level knowledge transfer",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "lv2023parameter"
+    },
+    {
+      "pages": "25739--25753",
+      "volume": "35",
+      "journal": "NeurIPS",
+      "year": "2022",
+      "author": "Yang, Xingyi and Zhou, Daquan and Liu, Songhua and Ye, Jingwen and Wang, Xinchao",
+      "title": "Deep model reassembly",
+      "ENTRYTYPE": "article",
+      "ID": "yang2022deepmodelreassembly"
+    },
+    {
+      "journal": "TMLR",
+      "year": "2023",
+      "author": "Shukor, Mustafa and Dancette, Corentin and Rame, Alexandre and Cord, Matthieu",
+      "title": "UnIVAL: Unified Model for Image, Video, Audio and Language Tasks",
+      "ENTRYTYPE": "article",
+      "ID": "shukor2023unival"
+    },
+    {
+      "journal": "arXiv preprint arXiv:2310.01886",
+      "year": "2023",
+      "author": "Jiang, Weisen and Lin, Baijiong and Shi, Han and Zhang, Yu and Kwok, James T and others",
+      "title": "Effective and Parameter-Efficient Reusing Fine-Tuned Models",
+      "ENTRYTYPE": "article",
+      "ID": "jiang2023effective"
+    },
+    {
+      "journal": "arXiv preprint arXiv:2310.01886",
+      "year": "2023",
+      "author": "Jiang, Weisen and Lin, Baijiong and Shi, Han and Zhang, Yu and Kwok, James T and others",
+      "title": "BYOM: Building Your Own Multi-Task Model For Free",
+      "ENTRYTYPE": "article",
+      "ID": "BYOM"
+    },
+    {
+      "booktitle": "ICML",
+      "year": "2024",
+      "author": "Horoi, Stefan and Camacho, Albert Manuel Orozco and Belilovsky, Eugene and Wolf, Guy",
+      "title": "Harmony in diversity: Merging neural networks with canonical correlation analysis",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "horoi2024harmony"
+    },
+    {
+      "journal": "arXiv preprint arXiv:2303.17574",
+      "year": "2023",
+      "author": "Daheim, Nico and Dziri, Nouha and Sachan, Mrinmaya and Gurevych, Iryna and Ponti, Edoardo M",
+      "title": "Elastic weight removal for faithful and abstractive dialogue generation",
+      "ENTRYTYPE": "article",
+      "ID": "daheim2023elastic"
+    },
+    {
+      "journal": "arXiv preprint arXiv:2404.14099",
+      "year": "2024",
+      "author": "Qazi, Mohammad Areeb and Almakky, Ibrahim and Hashmi, Anees Ur Rehman and Sanjeev, Santosh and Yaqub, Mohammad",
+      "title": "DynaMMo: Dynamic Model Merging for Efficient Class Incremental Learning for Medical Images",
+      "ENTRYTYPE": "article",
+      "ID": "qazi2024DynaMMo"
+    },
+    {
+      "journal": "arXiv preprint arXiv:2403.13187",
+      "year": "2024",
+      "author": "Akiba, Takuya and Shing, Makoto and Tang, Yujin and Sun, Qi and Ha, David",
+      "title": "Evolutionary optimization of model merging recipes",
+      "ENTRYTYPE": "article",
+      "ID": "akiba2024evolutionary"
+    },
+    {
+      "journal": "arXiv preprint arXiv:2405.17897",
+      "year": "2024",
+      "author": "Crisostomi, Donato and Fumero, Marco and Baieri, Daniele and Bernard, Florian and Rodol{\\`a}, Emanuele",
+      "title": "$C^{2}M^{3}$: Cycle-Consistent Multi-Model Merging",
+      "ENTRYTYPE": "article",
+      "ID": "c2m3"
+    },
+    {
+      "journal": "arXiv preprint arXiv:2402.15202",
+      "year": "2024",
+      "author": "Yi, Xin and Wang, Linlin and Wang, Xiaoling and He, Liang",
+      "title": "Fine-Grained Detoxification via Instance-Level Prefixes for Large Language Models",
+      "ENTRYTYPE": "article",
+      "ID": "yi2024fine"
+    },
+    {
+      "organization": "PMLR",
+      "pages": "5132--5143",
+      "booktitle": "ICML",
+      "year": "2020",
+      "author": "Karimireddy, Sai Praneeth and Kale, Satyen and Mohri, Mehryar and Reddi, Sashank and Stich, Sebastian and Suresh, Ananda Theertha",
+      "title": "Scaffold: Stochastic controlled averaging for federated learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "Scaffold2020"
+    },
+    {
+      "organization": "PMLR",
+      "pages": "7252--7261",
+      "booktitle": "ICML",
+      "year": "2019",
+      "author": "Yurochkin, Mikhail and Agarwal, Mayank and Ghosh, Soumya and Greenewald, Kristjan and Hoang, Nghia and Khazaeni, Yasaman",
+      "title": "Bayesian nonparametric federated learning of neural networks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "yurochkin2019PFNM"
+    },
+    {
+      "pages": "7611--7623",
+      "volume": "33",
+      "journal": "NeurIPS",
+      "year": "2020",
+      "author": "Wang, Jianyu and Liu, Qinghua and Liang, Hao and Joshi, Gauri and Poor, H Vincent",
+      "title": "Tackling the objective inconsistency problem in heterogeneous federated optimization",
+      "ENTRYTYPE": "article",
+      "ID": "Fednova_2020"
+    },
+    {
+      "organization": "PMLR",
+      "pages": "5132--5143",
+      "booktitle": "ICML",
+      "year": "2020",
+      "author": "Karimireddy, Sai Praneeth and Kale, Satyen and Mohri, Mehryar and Reddi, Sashank and Stich, Sebastian and Suresh, Ananda Theertha",
+      "title": "Scaffold: Stochastic controlled averaging for federated learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "karimireddy2020scaffold"
+    },
+    {
+      "pages": "10713--10722",
+      "booktitle": "CVPR",
+      "year": "2021",
+      "author": "Li, Qinbin and He, Bingsheng and Song, Dawn",
+      "title": "Model-contrastive federated learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "li2021model"
+    },
+    {
+      "pages": "3557--3568",
+      "volume": "33",
+      "journal": "NeurIPS",
+      "year": "2020",
+      "author": "Fallah, Alireza and Mokhtari, Aryan and Ozdaglar, Asuman",
+      "title": "Personalized federated learning with theoretical guarantees: A model-agnostic meta-learning approach",
+      "ENTRYTYPE": "article",
+      "ID": "fallah2020personalized"
+    },
+    {
+      "booktitle": "ICLR",
+      "year": "2021",
+      "author": "Durmus, Alp Emre and Yue, Zhao and Ramon, Matas and Matthew, Mattina and Paul, Whatmough and Venkatesh, Saligrama",
+      "title": "Federated Learning Based on Dynamic Regularization",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "FedDyn_2021"
+    },
+    {
+      "booktitle": "ICLR",
+      "year": "2022",
+      "author": "Huang, Tianshu and Chen, Tianlong and Liu, Sijia and Chang, Shiyu and Amini, Lisa and Wang, Zhangyang",
+      "title": "Optimizer Amalgamation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "huang2022OptimizerAmalgamation"
+    },
+    {
+      "pages": "8074--8083",
+      "booktitle": "CVPR",
+      "year": "2023",
+      "author": "Duan, Jian-hui and Li, Wenzhong and Zou, Derun and Li, Ruichen and Lu, Sanglu",
+      "title": "Federated learning with data-agnostic distribution fusion",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "FedFusion2023"
+    },
+    {
+      "organization": "PMLR",
+      "pages": "1126--1135",
+      "booktitle": "ICML",
+      "year": "2017",
+      "author": "Finn, Chelsea and Abbeel, Pieter and Levine, Sergey",
+      "title": "Model-agnostic meta-learning for fast adaptation of deep networks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "maml_2017"
+    },
+    {
+      "pages": "429--450",
+      "volume": "2",
+      "journal": "Proceedings of Machine learning and systems",
+      "year": "2020",
+      "author": "Li, Tian and Sahu, Anit Kumar and Zaheer, Manzil and Sanjabi, Maziar and Talwalkar, Ameet and Smith, Virginia",
+      "title": "Federated optimization in heterogeneous networks",
+      "ENTRYTYPE": "article",
+      "ID": "Fedprox_2020"
+    },
+    {
+      "pages": "7349--7355",
+      "booktitle": "LREC-COLING",
+      "year": "2024",
+      "author": "Thennal, DK and Nathan, Ganesh and Suchithra, MS",
+      "title": "Fisher Mask Nodes for Language Model Merging",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "thennal2024fisher"
+    },
+    {
+      "journal": "arXiv preprint arXiv:2404.16331",
+      "year": "2024",
+      "author": "Huang, Zitong and Chen, Ze and Dong, Bowen and Liang, Chaoqi and Zhou, Erjin and Zuo, Wangmeng",
+      "title": "IMWA: Iterative Model Weight Averaging Benefits Class-Imbalanced Learning Tasks",
+      "ENTRYTYPE": "article",
+      "ID": "huang2024imwa"
+    },
+    {
+      "journal": "arXiv preprint arXiv:2311.08011",
+      "year": "2023",
+      "author": "Ni, Shiwen and Chen, Dingwei and Li, Chengming and Hu, Xiping and Xu, Ruifeng and Yang, Min",
+      "title": "Forgetting before Learning: Utilizing Parametric Arithmetic for Knowledge Updating in Large Language Models",
+      "ENTRYTYPE": "article",
+      "ID": "ni2023forgetting"
+    },
+    {
+      "journal": "ICML",
+      "year": "2024",
+      "author": "Tang, Anke and Shen, Li and Luo, Yong and Yin, Nan and Zhang, Lefei and Tao, Dacheng",
+      "title": "Merging Multi-Task Models via Weight-Ensembling Mixture of Experts",
+      "ENTRYTYPE": "article",
+      "ID": "tang2024moemerging"
+    },
+    {
+      "journal": "arXiv preprint arXiv:2311.07682",
+      "year": "2023",
+      "author": "Zaman, Kerem and Choshen, Leshem and Srivastava, Shashank",
+      "title": "Fuse to Forget: Bias Reduction and Selective Memorization through Model Fusion",
+      "ENTRYTYPE": "article",
+      "ID": "zaman2023fuse"
+    },
+    {
+      "publisher": "Elsevier",
+      "journal": "Future Generation Computer Systems",
+      "year": "2023",
+      "author": "Qi, Pian and Chiaro, Diletta and Guzzo, Antonella and Ianni, Michele and Fortino, Giancarlo and Piccialli, Francesco",
+      "title": "Model aggregation techniques in federated learning: A comprehensive survey",
+      "ENTRYTYPE": "article",
+      "ID": "Survey_ModelAggregationinFL_2023"
+    },
+    {
+      "journal": "arXiv preprint arXiv:2403.00863",
+      "year": "2024",
+      "author": "Fang, Chenhao and Li, Xiaohan and Fan, Zezhong and Xu, Jianpeng and Nag, Kaushiki and Korpeoglu, Evren and Kumar, Sushant and Achan, Kannan",
+      "title": "LLM-Ensemble: Optimal Large Language Model Ensemble Method for E-commerce Product Attribute Value Extraction",
+      "ENTRYTYPE": "article",
+      "ID": "fang2024llm"
+    },
+    {
+      "journal": "arXiv preprint arXiv:1910.03771",
+      "year": "2019",
+      "author": "Wolf, Thomas and Debut, Lysandre and Sanh, Victor and Chaumond, Julien and Delangue, Clement and Moi, Anthony and Cistac, Pierric and Rault, Tim and Louf, R{\\'e}mi and Funtowicz, Morgan and others",
+      "title": "Huggingface's transformers: State-of-the-art natural language processing",
+      "ENTRYTYPE": "article",
+      "ID": "wolf2019huggingface"
+    },
+    {
+      "pages": "1485--1488",
+      "booktitle": "ACM MM",
+      "year": "2010",
+      "author": "Marcel, S{\\'e}bastien and Rodriguez, Yann",
+      "title": "Torchvision the machine-vision package of torch",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "marcel2010torchvision"
+    },
+    {
+      "howpublished": "\\url{https://github.com/rwightman/pytorch-image-models}",
+      "doi": "10.5281/zenodo.4414861",
+      "publisher": "GitHub",
+      "journal": "GitHub repository",
+      "year": "2019",
+      "author": "Ross Wightman",
+      "title": "PyTorch Image Models",
+      "ENTRYTYPE": "misc",
+      "ID": "rw2019timm"
+    },
+    {
+      "volume": "31",
+      "journal": "NeurIPS",
+      "year": "2018",
+      "author": "Garipov, Timur and Izmailov, Pavel and Podoprikhin, Dmitrii and Vetrov, Dmitry P and Wilson, Andrew G",
+      "title": "Loss surfaces, mode connectivity, and fast ensembling of dnns",
+      "ENTRYTYPE": "article",
+      "ID": "garipov2018loss"
+    },
+    {
+      "pages": "10684--10695",
+      "booktitle": "CVPR",
+      "year": "2022",
+      "author": "Rombach, Robin and Blattmann, Andreas and Lorenz, Dominik and Esser, Patrick and Ommer, Bj{\\\"o}rn",
+      "title": "High-resolution image synthesis with latent diffusion models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "stablediffusion_2022"
+    },
+    {
+      "volume": "32",
+      "journal": "NeurIPS",
+      "year": "2019",
+      "author": "Nagarajan, Vaishnavh and Kolter, J Zico",
+      "title": "Uniform convergence may be unable to explain generalization in deep learning",
+      "ENTRYTYPE": "article",
+      "ID": "nagarajan2019uniform"
+    },
+    {
+      "organization": "IEEE",
+      "pages": "731--736",
+      "booktitle": "2017 16th IEEE ICML and Applications (ICMLA)",
+      "year": "2017",
+      "author": "Smith, Joshua and Gashler, Michael",
+      "title": "An investigation of how neural networks learn from the experiences of peers through periodic weight averaging",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "smith2017investigation"
+    },
+    {
+      "journal": "ICLR",
+      "year": "2022",
+      "author": "Entezari, Rahim and Sedghi, Hanie and Saukh, Olga and Neyshabur, Behnam",
+      "title": "The role of permutation invariance in linear mode connectivity of neural networks",
+      "ENTRYTYPE": "article",
+      "ID": "lmc_iclr2022"
+    },
+    {
+      "pages": "1015--1018",
+      "booktitle": "ACM MM",
+      "year": "2015",
+      "author": "Piczak, Karol J",
+      "title": "ESC: Dataset for environmental sound classification",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "piczak2015esc"
+    },
+    {
+      "journal": "ICLR",
+      "year": "2024",
+      "author": "Wang, Lirui and Zhang, Kaiqing and Zhou, Allan and Simchowitz, Max and Tedrake, Russ",
+      "title": "PoMe: Fleet Learning via Policy Merging",
+      "ENTRYTYPE": "article",
+      "ID": "PoMe_ICLR2024"
+    },
+    {
+      "journal": "arXiv preprint arXiv:2405.16350",
+      "year": "2024",
+      "author": "Porrello, Angelo and Bonicelli, Lorenzo and Buzzega, Pietro and Millunzi, Monica and Calderara, Simone and Cucchiara, Rita",
+      "title": "A Second-Order perspective on Compositionality and Incremental Learning",
+      "ENTRYTYPE": "article",
+      "ID": "porrello2024second"
+    },
+    {
+      "pages": "11276--11284",
+      "number": "10",
+      "volume": "38",
+      "booktitle": "AAAI",
+      "year": "2024",
+      "author": "Chen, Guangyao and Peng, Peixi and Huang, Yangru and Geng, Mengyue and Tian, Yonghong",
+      "title": "Adaptive Discovering and Merging for Incremental Novel Class Discovery",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "chen2024adaptive"
+    },
+    {
+      "year": "2023",
+      "author": "Guodong, DU and Liu, Hanting and Jiang, Runhua and Yu, Shuyang and Guo, Yifei and Goh, Sim Kuan and Tang, Ho-Kin",
+      "title": "Knowledge Fusion by Evolving Language Models",
+      "ENTRYTYPE": "article",
+      "ID": "guodong2023knowledge"
+    },
+    {
+      "journal": "arXiv preprint arXiv:2403.13341",
+      "year": "2024",
+      "author": "Sanjeev, Santosh and Zhaksylyk, Nuren and Almakky, Ibrahim and Hashmi, Anees Ur Rehman and Qazi, Mohammad Areeb and Yaqub, Mohammad",
+      "title": "FissionFusion: Fast Geometric Generation and Hierarchical Souping for Medical Image Analysis",
+      "ENTRYTYPE": "article",
+      "ID": "sanjeev2024fissionfusion"
+    },
+    {
+      "organization": "IEEE",
+      "pages": "1594--1600",
+      "booktitle": "APSIPA ASC",
+      "year": "2020",
+      "author": "Wu, Cheng-En and Lee, Jia-Hong and Wan, Timmy ST and Chan, Yi-Ming and Chen, Chu-Song",
+      "title": "Merging well-trained deep cnn models for efficient inference",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "wu2020merging"
+    },
+    {
+      "organization": "PMLR",
+      "pages": "182--193",
+      "booktitle": "Proceedings of UniReps: the First Workshop on Unifying Representations in Neural Models",
+      "year": "2024",
+      "author": "Lee, Jiwoon and Lee, Jaeho",
+      "title": "Semi-Ensemble: A Simple Approach Over-parameterize Model Interpolation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "lee2024semi"
+    },
+    {
+      "publisher": "University of Toronto",
+      "year": "2008",
+      "author": "Sabetzadeh, Mehrdad",
+      "title": "Merging and consistency checking of distributed models",
+      "ENTRYTYPE": "book",
+      "ID": "sabetzadeh2008merging"
+    },
+    {
+      "organization": "Citeseer",
+      "pages": "133--138",
+      "booktitle": "AAAI Workshop",
+      "year": "1996",
+      "author": "Utans, Joachim",
+      "title": "Weight averaging for neural networks and local resampling schemes",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "utans1996weight"
+    },
+    {
+      "journal": "arXiv preprint arXiv:2404.15704",
+      "year": "2024",
+      "author": "Kang, Zuheng and He, Yayun and Wang, Jianzong and Peng, Junqing and Xiao, Jing",
+      "title": "Efficient Multi-Model Fusion with Adversarial Complementary Representation Learning",
+      "ENTRYTYPE": "article",
+      "ID": "kang2024efficient"
+    },
+    {
+      "booktitle": "ICLR",
+      "year": "2024",
+      "author": "Wang, Hongyi and Polo, Felipe Maia and Sun, Yuekai and Kundu, Souvik and Xing, Eric and Yurochkin, Mikhail",
+      "title": "Fusing Models with Complementary Expertise",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "wangfusing2024"
+    },
+    {
+      "volume": "36",
+      "journal": "NeurIPS",
+      "year": "2023",
+      "author": "Li, Kenneth and Patel, Oam and Vi{\\'e}gas, Fernanda and Pfister, Hanspeter and Wattenberg, Martin",
+      "title": "Inference-time intervention: Eliciting truthful answers from a language model",
+      "ENTRYTYPE": "article",
+      "ID": "li2023inference"
+    },
+    {
+      "journal": "arXiv preprint arXiv:2311.09344",
+      "year": "2023",
+      "author": "Chronopoulou, Alexandra and Pfeiffer, Jonas and Maynez, Joshua and Wang, Xinyi and Ruder, Sebastian and Agrawal, Priyanka",
+      "title": "Language and Task Arithmetic with Parameter-Efficient Layers for Zero-Shot Summarization",
+      "ENTRYTYPE": "article",
+      "ID": "chronopoulou2023language"
+    },
+    {
+      "journal": "arXiv preprint arXiv:2403.08994",
+      "year": "2024",
+      "author": "Gao, Lei and Niu, Yue and Tang, Tingting and Avestimehr, Salman and Annavaram, Murali",
+      "title": "Ethos: Rectifying language models in orthogonal parameter space",
+      "ENTRYTYPE": "article",
+      "ID": "gao2024ethos"
+    },
+    {
+      "journal": "ACL",
+      "year": "2024",
+      "author": "Xiao, Shitao and Liu, Zheng and Zhang, Peitian and Xing, Xingrun",
+      "title": "Lm-cocktail: Resilient tuning of language models via model merging",
+      "ENTRYTYPE": "article",
+      "ID": "Lmcocktail"
+    },
+    {
+      "pages": "245--254",
+      "booktitle": "Proceedings of the 12th annual conference on Computer graphics and interactive techniques",
+      "year": "1985",
+      "author": "Shoemake, Ken",
+      "title": "Animating rotation with quaternion curves",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "shoemake1985animating"
+    },
+    {
+      "journal": "arXiv preprint arXiv:2308.15982",
+      "year": "2023",
+      "author": "He, Shwai and Fan, Run-Ze and Ding, Liang and Shen, Li and Zhou, Tianyi and Tao, Dacheng",
+      "title": "MerA: Merging pretrained adapters for few-shot learning",
+      "ENTRYTYPE": "article",
+      "ID": "he2023mera"
+    },
+    {
+      "pages": "15300--15311",
+      "volume": "33",
+      "journal": "NeurIPS",
+      "year": "2020",
+      "author": "Tatro, Norman and Chen, Pin-Yu and Das, Payel and Melnyk, Igor and Sattigeri, Prasanna and Lai, Rongjie",
+      "title": "Optimizing mode connectivity via neuron alignment",
+      "ENTRYTYPE": "article",
+      "ID": "tatro2020optimizing"
+    },
+    {
+      "organization": "PMLR",
+      "pages": "5948--5958",
+      "booktitle": "ICML",
+      "year": "2021",
+      "author": "Lam, Thanh Chi and Hoang, Nghia and Low, Bryan Kian Hsiang and Jaillet, Patrick",
+      "title": "Model fusion for personalized learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "lam2021model"
+    },
+    {
+      "journal": "ICLR",
+      "year": "2024",
+      "author": "Li, Pingzhi and Zhang, Zhenyu and Yadav, Prateek and Sung, Yi-Lin and Cheng, Yu and Bansal, Mohit and Chen, Tianlong",
+      "title": "Merge, Then Compress: Demystify Efficient SMoE with Hints from Its Routing Policy",
+      "ENTRYTYPE": "article",
+      "ID": "li2023merge"
+    },
+    {
+      "organization": "Springer",
+      "pages": "73--91",
+      "booktitle": "ECCV",
+      "year": "2022",
+      "author": "Yang, Xingyi and Ye, Jingwen and Wang, Xinchao",
+      "title": "Factorizing knowledge in neural networks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "yang2022factorizing"
+    },
+    {
+      "journal": "arXiv preprint arXiv:2312.16240",
+      "year": "2023",
+      "author": "Ye, Peng and Huang, Chenyu and Shen, Mingzhu and Chen, Tao and Huang, Yongqi and Zhang, Yuning and Ouyang, Wanli",
+      "title": "Merging Vision Transformers from Different Tasks and Domains",
+      "ENTRYTYPE": "article",
+      "ID": "ye2023merging"
+    },
+    {
+      "journal": "arXiv preprint arXiv:2110.06978",
+      "year": "2021",
+      "author": "Beaussart, Martin and Grimberg, Felix and Hartley, Mary-Anne and Jaggi, Martin",
+      "title": "Waffle: Weighted averaging for personalized federated learning",
+      "ENTRYTYPE": "article",
+      "ID": "beaussart2021Waffle"
+    },
+    {
+      "journal": "arXiv preprint arXiv:2312.06795",
+      "year": "2023",
+      "author": "Davari, MohammadReza and Belilovsky, Eugene",
+      "title": "Model breadcrumbs: Scaling multi-task model merging with sparse masks",
+      "ENTRYTYPE": "article",
+      "ID": "davari2023modelbreadcrumbs"
+    },
+    {
+      "journal": "arXiv preprint arXiv:2403.00986",
+      "year": "2024",
+      "author": "Verma, Neha and Elbayad, Maha",
+      "title": "Merging text transformer models from different initializations",
+      "ENTRYTYPE": "article",
+      "ID": "verma2024merging"
+    },
+    {
+      "journal": "arXiv preprint arXiv:2403.19522",
+      "year": "2024",
+      "author": "Jang, Dong-Hwan and Yun, Sangdoo and Han, Dongyoon",
+      "title": "Model Stock: All we need is just a few fine-tuned models",
+      "ENTRYTYPE": "article",
+      "ID": "jang2024model"
+    },
+    {
+      "organization": "IEEE",
+      "pages": "387--391",
+      "booktitle": "BigDIA",
+      "year": "2023",
+      "author": "Zhou, Jingxuan and Xiao, Wenhua and Zhang, Dayu and Fei, Bowen and Zhang, Shuai and Chen, Fuxu",
+      "title": "Multi-Task Model Fusion with Mixture of Experts Structure",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zhou2023multi"
+    },
+    {
+      "journal": "arXiv preprint arXiv:2303.07551",
+      "year": "2023",
+      "author": "Lawson, Daniel and Qureshi, Ahmed H",
+      "title": "Merging decision transformers: Weight averaging for forming multi-task policies",
+      "ENTRYTYPE": "article",
+      "ID": "lawson2023merging"
+    },
+    {
+      "journal": "arXiv preprint arXiv:2310.11564",
+      "year": "2023",
+      "author": "Jang, Joel and Kim, Seungone and Lin, Bill Yuchen and Wang, Yizhong and Hessel, Jack and Zettlemoyer, Luke and Hajishirzi, Hannaneh and Choi, Yejin and Ammanabrolu, Prithviraj",
+      "title": "Personalized soups: Personalized large language model alignment via post-hoc parameter merging",
+      "ENTRYTYPE": "article",
+      "ID": "jang2023personalized"
+    },
+    {
+      "journal": "TMLR",
+      "year": "2024",
+      "author": "Jolicoeur-Martineau, Alexia and Gervais, Emy and Fatras, Kilian and Zhang, Yan and Lacoste-Julien, Simon",
+      "title": "Population parameter averaging (papa)",
+      "ENTRYTYPE": "article",
+      "ID": "papa2024"
+    },
+    {
+      "journal": "arXiv preprint arXiv:2306.05641",
+      "year": "2023",
+      "author": "Yamada, Masanori and Yamashita, Tomoya and Yamaguchi, Shin'ya and Chijiwa, Daiki",
+      "title": "Revisiting permutation symmetry for merging models between different datasets",
+      "ENTRYTYPE": "article",
+      "ID": "yamada2023revisiting"
+    },
+    {
+      "journal": "arXiv preprint arXiv:2303.18223",
+      "year": "2023",
+      "author": "Zhao, Wayne Xin and Zhou, Kun and Li, Junyi and Tang, Tianyi and Wang, Xiaolei and Hou, Yupeng and Min, Yingqian and Zhang, Beichen and Zhang, Junjie and Dong, Zican and others",
+      "title": "A survey of large language models",
+      "ENTRYTYPE": "article",
+      "ID": "zhao2023LLMssurvey"
+    },
+    {
+      "volume": "36",
+      "journal": "NeurIPS",
+      "year": "2023",
+      "author": "Rame, Alexandre and Couairon, Guillaume and Dancette, Corentin and Gaya, Jean-Baptiste and Shukor, Mustafa and Soulier, Laure and Cord, Matthieu",
+      "title": "Rewarded soups: towards pareto-optimal alignment by interpolating weights fine-tuned on diverse rewards",
+      "ENTRYTYPE": "article",
+      "ID": "rame2023rewarded"
+    },
+    {
+      "organization": "PMLR",
+      "pages": "3495--3506",
+      "booktitle": "ICML",
+      "year": "2023",
+      "author": "Cai, Ruisi and Zhang, Zhenyu and Wang, Zhangyang",
+      "title": "Robust weight signatures: gaining robustness as easy as patching weights?",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "cai2023robust"
+    },
+    {
+      "journal": "TMLR",
+      "year": "2024",
+      "author": "Muqeeth, Mohammed and Liu, Haokun and Raffel, Colin",
+      "title": "Soft merging of experts with adaptive routing",
+      "ENTRYTYPE": "article",
+      "ID": "muqeeth2024soft"
+    },
+    {
+      "journal": "arXiv preprint arXiv:2311.02428",
+      "year": "2023",
+      "author": "Chitale, Rajas and Vaidya, Ankit and Kane, Aditya and Ghotkar, Archana",
+      "title": "Task Arithmetic with LoRA for Continual Learning",
+      "ENTRYTYPE": "article",
+      "ID": "chitale2023task"
+    },
+    {
+      "journal": "ICLR",
+      "year": "2024",
+      "author": "Wen, Yeming and Chaudhuri, Swarat",
+      "title": "Batched Low-Rank Adaptation of Foundation Models",
+      "ENTRYTYPE": "article",
+      "ID": "fastlora_iclr2024"
+    },
+    {
+      "journal": "arXiv preprint arXiv:2311.13600",
+      "year": "2023",
+      "author": "Shah, Viraj and Ruiz, Nataniel and Cole, Forrester and Lu, Erika and Lazebnik, Svetlana and Li, Yuanzhen and Jampani, Varun",
+      "title": "Ziplora: Any subject in any style by effectively merging loras",
+      "ENTRYTYPE": "article",
+      "ID": "shah2023ziplora"
+    },
+    {
+      "pages": "18676--18686",
+      "booktitle": "ICCV",
+      "year": "2023",
+      "author": "Liu, Tian Yu and Soatto, Stefano",
+      "title": "Tangent model composition for ensembling and continual fine-tuning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "liu2023tangent_tmciccv2023"
+    },
+    {
+      "publisher": "OpenReview.net",
+      "booktitle": "ICLR",
+      "year": "2023",
+      "author": "Aran Komatsuzaki and Joan Puigcerver and James Lee{-}Thorp and Carlos Riquelme Ruiz and Basil Mustafa and Joshua Ainslie and Yi Tay and Mostafa Dehghani and Neil Houlsby",
+      "title": "Sparse Upcycling: Training Mixture-of-Experts from Dense Checkpoints",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "KomatsuzakiPLRM23"
+    },
+    {
+      "journal": "arXiv preprint arXiv:2307.05476",
+      "year": "2023",
+      "author": "Ryu, Jung Hyun and Jeon, Jaeheyoung and Cho, Jewoong and Kang, Myungjoo",
+      "title": "Fisher-Weighted Merge of Contrastive Learning Models in Sequential Recommendation",
+      "ENTRYTYPE": "article",
+      "ID": "ryu2023fisher"
+    },
+    {
+      "pages": "788--806",
+      "booktitle": "ACL",
+      "year": "2023",
+      "author": "Don-Yehiya, Shachar and Venezian, Elad and Raffel, Colin and Slonim, Noam and Choshen, Leshem",
+      "title": "ColD Fusion: Collaborative Descent for Distributed Multitask Finetuning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "don2023ColDFusion"
+    },
+    {
+      "pages": "1350--1370",
+      "booktitle": "EMNLP",
+      "year": "2023",
+      "author": "Gueta, Almog and Venezian, Elad and Raffel, Colin and Slonim, Noam and Katz, Yoav and Choshen, Leshem",
+      "title": "Knowledge is a Region in Weight Space for Fine-tuned Language Models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "gueta2023knowledge"
+    },
+    {
+      "organization": "PMLR",
+      "pages": "28656--28679",
+      "booktitle": "ICML",
+      "year": "2023",
+      "author": "Ram{\\'e}, Alexandre and Ahuja, Kartik and Zhang, Jianyu and Cord, Matthieu and Bottou, L{\\'e}on and Lopez-Paz, David",
+      "title": "Model ratatouille: Recycling diverse models for out-of-distribution generalization",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "rame2023modelratatouille"
+    },
+    {
+      "journal": "arXiv preprint arXiv:2407.01470",
+      "year": "2024",
+      "author": "Lin, Tzu-Han and Li, Chen-An and Lee, Hung-yi and Chen, Yun-Nung",
+      "title": "DogeRM: Equipping Reward Models with Domain Knowledge through Model Merging",
+      "ENTRYTYPE": "article",
+      "ID": "lin2024dogerm"
+    },
+    {
+      "pages": "4244--4252",
+      "booktitle": "IJCAI",
+      "year": "2023",
+      "author": "Tang, Anke and Luo, Yong and Hu, Han and He, Fengxiang and Su, Kehua and Du, Bo and Chen, Yixin and Tao, Dacheng",
+      "title": "Improving heterogeneous model reuse by density estimation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "tang2023improving_ijcai2023"
+    },
+    {
+      "publisher": "Association for Computational Linguistics",
+      "journal": "EMNLP",
+      "year": "2021",
+      "author": "Krause, Ben and Gotmare, Akhilesh Deepak and McCann, Bryan and Keskar, Nitish Shirish and Joty, Shafiq and Socher, Richard and Rajani, Nazneen Fatema",
+      "title": "GeDi: Generative Discriminator Guided Sequence Generation",
+      "ENTRYTYPE": "article",
+      "ID": "krause2021gedi"
+    },
+    {
+      "journal": "arXiv preprint arXiv:1909.05858",
+      "year": "2019",
+      "author": "Keskar, Nitish Shirish and McCann, Bryan and Varshney, Lav R and Xiong, Caiming and Socher, Richard",
+      "title": "Ctrl: A conditional transformer language model for controllable generation",
+      "ENTRYTYPE": "article",
+      "ID": "keskar2019ctrl"
+    },
+    {
+      "booktitle": "NeurIPS Workshop",
+      "year": "2023",
+      "author": "Sanyal, Sunny and Neerkaje, Atula Tejaswi and Kaddour, Jean and Kumar, Abhishek and others",
+      "title": "Early Weight Averaging meets High Learning Rates for LLM Pre-training",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "sanyal2023early"
+    },
+    {
+      "booktitle": "UniReps: the First Workshop on Unifying Representations in Neural Models",
+      "year": "2023",
+      "author": "Daheim, Nico and M{\\\"o}llenhoff, Thomas and Ponti, Edoardo and Gurevych, Iryna and Khan, Mohammad Emtiyaz",
+      "title": "Model Merging by Gradient Matching",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "daheim2023model"
+    },
+    {
+      "booktitle": "ICLR",
+      "year": "2024",
+      "author": "Nico Daheim and Thomas M{\\\"o}llenhoff and Edoardo Ponti and Iryna Gurevych and Mohammad Emtiyaz Khan",
+      "title": "Model Merging by Uncertainty-Based Gradient Matching",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "daheim2024model"
+    },
+    {
+      "pages": "58--67",
+      "booktitle": "SIGIR",
+      "year": "2023",
+      "author": "Du, Hanwen and Yuan, Huanhuan and Zhao, Pengpeng and Zhuang, Fuzhen and Liu, Guanfeng and Zhao, Lei and Liu, Yanchi and Sheng, Victor S",
+      "title": "Ensemble modeling with contrastive knowledge distillation for sequential recommendation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "du2023ensemble"
+    },
+    {
+      "journal": "ACL",
+      "year": "2024",
+      "author": "Fu, Tingchen and Cai, Deng and Liu, Lemao and Shi, Shuming and Yan, Rui",
+      "title": "Disperse-Then-Merge: Pushing the Limits of Instruction Tuning via Alignment Tax Reduction",
+      "ENTRYTYPE": "article",
+      "ID": "fu2024disperse"
+    },
+    {
+      "journal": "ACL",
+      "year": "2024",
+      "author": "Ziyu Zhao and Leilei Gan and Guoyin Wang and Wangchunshu Zhou and Hongxia Yang and Kun Kuang and Fei Wu",
+      "title": "LoraRetriever: Input-Aware LoRA Retrieval and Composition for Mixed Tasks in the Wild",
+      "ENTRYTYPE": "article",
+      "ID": "zhao2024loraretriever"
+    },
+    {
+      "archiveprefix": "arXiv",
+      "year": "2024",
+      "author": "Anshul Nasery and Jonathan Hayase and Pang Wei Koh and Sewoong Oh",
+      "title": "PLeaS -- Merging Models with Permutations and Least Squares",
+      "ENTRYTYPE": "misc",
+      "ID": "nasery2024pleasmergingmodels"
+    },
+    {
+      "publisher": "IEEE",
+      "journal": "TPAMI",
+      "year": "2023",
+      "author": "He, Yang and Xiao, Lingao",
+      "title": "Structured pruning for deep convolutional neural networks: A survey",
+      "ENTRYTYPE": "article",
+      "ID": "he2023structuredpruning"
+    },
+    {
+      "pages": "5113--5155",
+      "volume": "53",
+      "publisher": "Springer",
+      "journal": "Artificial Intelligence Review",
+      "year": "2020",
+      "author": "Choudhary, Tejalal and Mishra, Vipul and Goswami, Anurag and Sarangapani, Jagannathan",
+      "title": "A comprehensive survey on model compression and acceleration",
+      "ENTRYTYPE": "article",
+      "ID": "choudhary2020comprehensive"
+    },
+    {
+      "journal": "arXiv preprint arXiv:2405.09055",
+      "year": "2024",
+      "author": "Yi, Xin and Zheng, Shunfan and Wang, Linlin and Wang, Xiaoling and He, Liang",
+      "title": "A safety realignment framework via subspace-oriented model fusion for large language models",
+      "ENTRYTYPE": "article",
+      "ID": "yi2024safety"
+    },
+    {
+      "journal": "arXiv preprint arXiv:2402.18913",
+      "year": "2024",
+      "author": "Zhao, Yiran and Zhang, Wenxuan and Wang, Huiming and Kawaguchi, Kenji and Bing, Lidong",
+      "title": "AdaMergeX: Cross-Lingual Transfer with Large Language Models via Adaptive Adapter Merging",
+      "ENTRYTYPE": "article",
+      "ID": "zhao2024adamergex"
+    },
+    {
+      "journal": "ACL",
+      "year": "2024",
+      "author": "Chen, Chi and Du, Yiyang and Fang, Zheng and Wang, Ziyue and Luo, Fuwen and Li, Peng and Yan, Ming and Zhang, Ji and Huang, Fei and Sun, Maosong and others",
+      "title": "Model Composition for Multimodal Large Language Models",
+      "ENTRYTYPE": "article",
+      "ID": "chen2024model"
+    },
+    {
+      "journal": "arXiv preprint arXiv:2406.02550",
+      "year": "2024",
+      "author": "He, Tianyu and Doshi, Darshil and Das, Aritra and Gromov, Andrey",
+      "title": "Learning to grok: Emergence of in-context learning and skill composition in modular arithmetic tasks",
+      "ENTRYTYPE": "article",
+      "ID": "he2024learningtogrok"
+    },
+    {
+      "journal": "arXiv preprint arXiv:2402.11746",
+      "year": "2024",
+      "author": "Bhardwaj, Rishabh and Anh, Do Duc and Poria, Soujanya",
+      "title": "Language Models are Homer Simpson! Safety Re-Alignment of Fine-tuned Language Models through Task Arithmetic",
+      "ENTRYTYPE": "article",
+      "ID": "bhardwaj2024language"
+    },
+    {
+      "journal": "arXiv preprint arXiv:2404.02241",
+      "year": "2024",
+      "author": "Liu, Enshu and Zhu, Junyi and Lin, Zinan and Ning, Xuefei and Blaschko, Matthew B and Yekhanin, Sergey and Yan, Shengen and Dai, Guohao and Yang, Huazhong and Wang, Yu",
+      "title": "Linear Combination of Saved Checkpoints Makes Consistency and Diffusion Models Better",
+      "ENTRYTYPE": "article",
+      "ID": "lcsc_arxiv2024"
+    },
+    {
+      "journal": "arXiv preprint arXiv:2402.15414",
+      "year": "2024",
+      "author": "Asadi, Nader and Beitollahi, Mahdi and Khalil, Yasser and Li, Yinchuan and Zhang, Guojun and Chen, Xi",
+      "title": "Does Combining Parameter-efficient Modules Improve Few-shot Transfer Accuracy?",
+      "ENTRYTYPE": "article",
+      "ID": "asadi2024does"
+    },
+    {
+      "pages": "3521--3526",
+      "number": "13",
+      "volume": "114",
+      "publisher": "National Acad Sciences",
+      "journal": "Proceedings of the national academy of sciences",
+      "year": "2017",
+      "author": "Kirkpatrick, James and Pascanu, Razvan and Rabinowitz, Neil and Veness, Joel and Desjardins, Guillaume and Rusu, Andrei A and Milan, Kieran and Quan, John and Ramalho, Tiago and Grabska-Barwinska, Agnieszka and others",
+      "title": "Overcoming catastrophic forgetting in neural networks",
+      "ENTRYTYPE": "article",
+      "ID": "kirkpatrick2017overcoming"
+    },
+    {
+      "journal": "arXiv preprint arXiv:2403.11646",
+      "year": "2024",
+      "author": "Almakky, Ibrahim and Sanjeev, Santosh and Hashmi, Anees Ur Rehman and Qazi, Mohammad Areeb and Yaqub, Mohammad",
+      "title": "MedMerge: Merging Models for Effective Transfer Learning to Medical Imaging Tasks",
+      "ENTRYTYPE": "article",
+      "ID": "almakky2024medmerge"
+    },
+    {
+      "journal": "arXiv preprint arXiv:2404.13322",
+      "year": "2024",
+      "author": "Li, Kunxi and Zhan, Tianyu and Zhang, Shengyu and Kuang, Kun and Li, Jiwei and Zhao, Zhou and Wu, Fei",
+      "title": "MergeNet: Knowledge Migration across Heterogeneous Models, Tasks, and Modalities",
+      "ENTRYTYPE": "article",
+      "ID": "li2024mergenet"
+    },
+    {
+      "journal": "ICML",
+      "year": "2024",
+      "author": "Abad, Javier and Donhauser, Konstantin and Pinto, Francesco and Yang, Fanny",
+      "title": "Strong Copyright Protection for Language Models via Adaptive Model Fusion",
+      "ENTRYTYPE": "article",
+      "ID": "abad2024strongCopyright"
+    },
+    {
+      "journal": "arXiv preprint arXiv:2408.03092",
+      "year": "2024",
+      "author": "Yu, Le and Yu, Bowen and Yu, Haiyang and Huang, Fei and Li, Yongbin",
+      "title": "Extend Model Merging from Fine-Tuned to Pre-Trained Large Language Models via Weight Disentanglement",
+      "ENTRYTYPE": "article",
+      "ID": "yu2024extend"
+    },
+    {
+      "journal": "arXiv preprint arXiv:2304.13718",
+      "year": "2023",
+      "author": "Honegger, Dominik and Sch{\\\"u}rholt, Konstantin and Borth, Damian",
+      "title": "Sparsified Model Zoo Twins: Investigating Populations of Sparsified Neural Network Models",
+      "ENTRYTYPE": "article",
+      "ID": "honegger2023sparsified"
+    },
+    {
+      "journal": "arXiv preprint arXiv:2303.08774",
+      "year": "2023",
+      "author": "Achiam, Josh and Adler, Steven and Agarwal, Sandhini and Ahmad, Lama and Akkaya, Ilge and Aleman, Florencia Leoni and Almeida, Diogo and Altenschmidt, Janko and Altman, Sam and Anadkat, Shyamal and others",
+      "title": "Gpt-4 technical report",
+      "ENTRYTYPE": "article",
+      "ID": "gpt4"
+    },
+    {
+      "journal": "arXiv preprint arXiv:2312.11805",
+      "year": "2023",
+      "author": "Team, Gemini and Anil, Rohan and Borgeaud, Sebastian and Wu, Yonghui and Alayrac, Jean-Baptiste and Yu, Jiahui and Soricut, Radu and Schalkwyk, Johan and Dai, Andrew M and Hauth, Anja and others",
+      "title": "Gemini: a family of highly capable multimodal models",
+      "ENTRYTYPE": "article",
+      "ID": "gemini"
+    },
+    {
+      "pages": "1--113",
+      "number": "240",
+      "volume": "24",
+      "journal": "Journal of Machine Learning Research",
+      "year": "2023",
+      "author": "Chowdhery, Aakanksha and Narang, Sharan and Devlin, Jacob and Bosma, Maarten and Mishra, Gaurav and Roberts, Adam and Barham, Paul and Chung, Hyung Won and Sutton, Charles and Gehrmann, Sebastian and others",
+      "title": "Palm: Scaling language modeling with pathways",
+      "ENTRYTYPE": "article",
+      "ID": "palm"
+    },
+    {
+      "journal": "arXiv preprint arXiv:2302.13971",
+      "year": "2023",
+      "author": "Touvron, Hugo and Lavril, Thibaut and Izacard, Gautier and Martinet, Xavier and Lachaux, Marie-Anne and Lacroix, Timoth{\\'e}e and Rozi{\\`e}re, Baptiste and Goyal, Naman and Hambro, Eric and Azhar, Faisal and others",
+      "title": "Llama: Open and efficient foundation language models",
+      "ENTRYTYPE": "article",
+      "ID": "llama"
+    },
+    {
+      "journal": "arXiv preprint arXiv:2307.09288",
+      "year": "2023",
+      "author": "Touvron, Hugo and Martin, Louis and Stone, Kevin and Albert, Peter and Almahairi, Amjad and Babaei, Yasmine and Bashlykov, Nikolay and Batra, Soumya and Bhargava, Prajjwal and Bhosale, Shruti and others",
+      "title": "Llama 2: Open foundation and fine-tuned chat models",
+      "ENTRYTYPE": "article",
+      "ID": "touvron2023llama2"
+    },
+    {
+      "year": "2024",
+      "journal": "CCS",
+      "author": "Zhang, Jinghuai and Chi, Jianfeng and Li, Zheng and Cai, Kunlin and Zhang, Yang and Tian, Yuan",
+      "title": "BadMerging: Backdoor Attacks Against Model Merging",
+      "ENTRYTYPE": "article",
+      "ID": "zhang2024badmerging"
+    },
+    {
+      "year": "2024",
+      "journal": "ICML",
+      "author": "Zhu, Didi and Sun, Zhongyi and Li, Zexi and Shen, Tao and Yan, Ke and Ding, Shouhong and Kuang, Kun and Wu, Chao",
+      "title": "Model Tailor: Mitigating Catastrophic Forgetting in Multi-modal Large Language Models",
+      "ENTRYTYPE": "article",
+      "ID": "zhu2024model"
+    },
+    {
+      "year": "2022",
+      "pages": "7959--7971",
+      "booktitle": "CVPR",
+      "author": "Wortsman, Mitchell and Ilharco, Gabriel and Kim, Jong Wook and Li, Mike and Kornblith, Simon and Roelofs, Rebecca and Lopes, Raphael Gontijo and Hajishirzi, Hannaneh and Farhadi, Ali and Namkoong, Hongseok and others",
+      "title": "Robust fine-tuning of zero-shot models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "wortsman2022robust"
+    },
+    {
+      "year": "2024",
+      "pages": "2846--2861",
+      "booktitle": "EACL",
+      "author": "Schumann, Raphael and Mansimov, Elman and Lai, Yi-An and Pappas, Nikolaos and Gao, Xibin and Zhang, Yi",
+      "title": "Backward Compatibility During Data Updates by Weight Interpolation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "schumann2024backward"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2023",
+      "pages": "14702--14729",
+      "booktitle": "ICML",
+      "author": "Jang, Joel and Kim, Seungone and Ye, Seonghyeon and Kim, Doyoung and Logeswaran, Lajanugen and Lee, Moontae and Lee, Kyungjae and Seo, Minjoon",
+      "title": "Exploring the benefits of training expert language models over instruction tuning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "jang2023exploring"
+    },
+    {
+      "year": "2024",
+      "journal": "ACL",
+      "author": "Wang, Hanqing and Ping, Bowen and Wang, Shuo and Han, Xu and Chen, Yun and Liu, Zhiyuan and Sun, Maosong",
+      "title": "LoRA-Flow: Dynamic LoRA Fusion for Large Language Models in Generative Tasks",
+      "ENTRYTYPE": "article",
+      "ID": "wang2024lora"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2407.15762",
+      "author": "Wang, Kaiwen and Kidambi, Rahul and Sullivan, Ryan and Agarwal, Alekh and Dann, Christoph and Michi, Andrea and Gelmi, Marco and Li, Yunxuan and Gupta, Raghav and Dubey, Avinava and others",
+      "title": "Conditioned Language Policy: A General Framework for Steerable Multi-Objective Finetuning",
+      "ENTRYTYPE": "article",
+      "ID": "wang2024conditioned"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2403.07816",
+      "author": "Sukhbaatar, Sainbayar and Golovneva, Olga and Sharma, Vasu and Xu, Hu and Lin, Xi Victoria and Rozi{\\`e}re, Baptiste and Kahn, Jacob and Li, Daniel and Yih, Wen-tau and Weston, Jason and others",
+      "title": "Branch-Train-MiX: Mixing Expert LLMs into a Mixture-of-Experts LLM",
+      "ENTRYTYPE": "article",
+      "ID": "sukhbaatar2024branch"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2403.16024",
+      "author": "Thakur, Ayush and Vashisth, Rashmi",
+      "title": "A unified module for accelerating stable-diffusion: Lcm-lora",
+      "ENTRYTYPE": "article",
+      "ID": "thakur2024unified"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2406.11617",
+      "author": "Deep, Pala Tej and Bhardwaj, Rishabh and Poria, Soujanya",
+      "title": "DELLA-Merging: Reducing Interference in Model Merging through Magnitude-Based Sampling",
+      "ENTRYTYPE": "article",
+      "ID": "deep2024della"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2406.11801",
+      "author": "Hazra, Rima and Layek, Sayan and Banerjee, Somnath and Poria, Soujanya",
+      "title": "Safety Arithmetic: A Framework for Test-time Safety Alignment of Language Models by Steering Parameters and Activations",
+      "ENTRYTYPE": "article",
+      "ID": "hazra2024safety"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2406.12034",
+      "author": "Kang, Junmo and Karlinsky, Leonid and Luo, Hongyin and Wang, Zhen and Hansen, Jacob and Glass, James and Cox, David and Panda, Rameswar and Feris, Rogerio and Ritter, Alan",
+      "title": "Self-MoE: Towards Compositional Large Language Models with Self-Specialized Experts",
+      "ENTRYTYPE": "article",
+      "ID": "kang2024self"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2406.13551",
+      "author": "Dige, Omkar and Singh, Diljot and Yau, Tsz Fung and Zhang, Qixuan and Bolandraftar, Borna and Zhu, Xiaodan and Khattak, Faiza Khan",
+      "title": "Mitigating Social Biases in Language Models through Unlearning",
+      "ENTRYTYPE": "article",
+      "ID": "dige2024mitigating"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2406.15570",
+      "author": "Ram, Dhananjay and Rawal, Aditya and Hardalov, Momchil and Pappas, Nikolaos and Zha, Sheng",
+      "title": "DEM: Distribution Edited Model for Training with Mixed Data Distributions",
+      "ENTRYTYPE": "article",
+      "ID": "ram2024distribution"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2406.16797",
+      "author": "Panda, Ashwinee and Isik, Berivan and Qi, Xiangyu and Koyejo, Sanmi and Weissman, Tsachy and Mittal, Prateek",
+      "title": "Lottery Ticket Adaptation: Mitigating Destructive Interference in LLMs",
+      "ENTRYTYPE": "article",
+      "ID": "panda2024lottery"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2406.17923",
+      "author": "Pentyala, Shiva Kumar and Wang, Zhichao and Bi, Bin and Ramnath, Kiran and Mao, Xiang-Bo and Radhakrishnan, Regunathan and Asur, Sitaram and others",
+      "title": "PAFT: A Parallel Training Paradigm for Effective LLM Fine-Tuning",
+      "ENTRYTYPE": "article",
+      "ID": "pentyala2024paft"
+    },
+    {
+      "organization": "IEEE",
+      "year": "2024",
+      "pages": "13--18",
+      "booktitle": "ISIT",
+      "author": "Jhunjhunwala, Divyansh and Jali, Neharika and Joshi, Gauri and Wang, Shiqiang",
+      "title": "Erasure Coded Neural Network Inference via Fisher Averaging",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "jhunjhunwala2024erasure"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2407.03994",
+      "author": "Tao, Mingxu and Zhang, Chen and Huang, Quzhe and Ma, Tianyao and Huang, Songfang and Zhao, Dongyan and Feng, Yansong",
+      "title": "Unlocking the Potential of Model Merging for Low-Resource Languages",
+      "ENTRYTYPE": "article",
+      "ID": "tao2024unlocking"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2407.07176",
+      "author": "Yun, Jooyeol and Choo, Jaegul",
+      "title": "Scaling Up Personalized Aesthetic Assessment via Task Vector Customization",
+      "ENTRYTYPE": "article",
+      "ID": "yun2024scaling"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2407.13771",
+      "author": "Li, Wenyi and Gao, Huan-ang and Gao, Mingju and Tian, Beiwen and Zhi, Rong and Zhao, Hao",
+      "title": "Training-Free Model Merging for Multi-target Domain Adaptation",
+      "ENTRYTYPE": "article",
+      "ID": "li2024training"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2408.01119",
+      "author": "Belanec, Robert and Ostermann, Simon and Srba, Ivan and Bielikova, Maria",
+      "title": "Task Prompt Vectors: Effective Initialization through Multi-Task Soft-Prompt Transfer",
+      "ENTRYTYPE": "article",
+      "ID": "belanec2024task"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2407.00487",
+      "author": "Li, Bingdong and Di, Zixiang and Yang, Yanting and Qian, Hong and Yang, Peng and Hao, Hao and Tang, Ke and Zhou, Aimin",
+      "title": "It's Morphing Time: Unleashing the Potential of Multiple LLMs via Multi-objective Optimization",
+      "ENTRYTYPE": "article",
+      "ID": "li2024s"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2408.09485",
+      "author": "Kong, Fanshuang and Zhang, Richong and Wang, Ziqiao",
+      "title": "Activated Parameter Locating via Causal Intervention for Model Merging",
+      "ENTRYTYPE": "article",
+      "ID": "kong2024activated"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2408.13656",
+      "author": "He, Yifei and Hu, Yuzheng and Lin, Yong and Zhang, Tong and Zhao, Han",
+      "title": "Localize-and-Stitch: Efficient Model Merging via Sparse Task Arithmetic",
+      "ENTRYTYPE": "article",
+      "ID": "he2024localize"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2021",
+      "pages": "9722--9732",
+      "booktitle": "ICML",
+      "author": "Simsek, Berfin and Ged, Fran{\\c{c}}ois and Jacot, Arthur and Spadaro, Francesco and Hongler, Cl{\\'e}ment and Gerstner, Wulfram and Brea, Johanni",
+      "title": "Geometry of the loss landscape in overparameterized neural networks: Symmetries and invariances",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "simsek2021geometry"
+    },
+    {
+      "year": "2022",
+      "booktitle": "ICLR",
+      "author": "Wang, Xiang and Wang, Annie N and Zhou, Mo and Ge, Rong",
+      "title": "Plateau in Monotonic Linear Interpolation---A\" Biased\" View of Loss Landscape for Deep Networks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "wang2022plateau"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2021",
+      "pages": "769--779",
+      "booktitle": "ICML",
+      "author": "Benton, Gregory and Maddox, Wesley and Lotfi, Sanae and Wilson, Andrew Gordon Gordon",
+      "title": "Loss surface simplexes for mode connecting volumes and fast ensembling",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "benton2021loss"
+    },
+    {
+      "year": "2019",
+      "volume": "32",
+      "journal": "NeurIPS",
+      "author": "Kuditipudi, Rohith and Wang, Xiang and Lee, Holden and Zhang, Yi and Li, Zhiyuan and Hu, Wei and Ge, Rong and Arora, Sanjeev",
+      "title": "Explaining landscape connectivity of low-cost solutions for multilayer nets",
+      "ENTRYTYPE": "article",
+      "ID": "kuditipudi2019explaining"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2408.07666",
+      "author": "Yang, Enneng and Shen, Li and Guo, Guibing and Wang, Xingwei and Cao, Xiaochun and Zhang, Jie and Tao, Dacheng",
+      "title": "Model merging in llms, mllms, and beyond: Methods, theories, applications and opportunities",
+      "ENTRYTYPE": "article",
+      "ID": "yang2024model"
+    },
+    {
+      "year": "2024",
+      "volume": "36",
+      "journal": "Advances in neural information processing systems",
+      "author": "Liu, Haotian and Li, Chunyuan and Wu, Qingyang and Lee, Yong Jae",
+      "title": "Visual instruction tuning",
+      "ENTRYTYPE": "article",
+      "ID": "liu2024visual"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2023",
+      "pages": "19730--19742",
+      "booktitle": "International conference on machine learning",
+      "author": "Li, Junnan and Li, Dongxu and Savarese, Silvio and Hoi, Steven",
+      "title": "Blip-2: Bootstrapping language-image pre-training with frozen image encoders and large language models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "li2023blip"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2308.12966",
+      "author": "Bai, Jinze and Bai, Shuai and Yang, Shusheng and Wang, Shijie and Tan, Sinan and Wang, Peng and Lin, Junyang and Zhou, Chang and Zhou, Jingren",
+      "title": "Qwen-vl: A frontier large vision-language model with versatile abilities",
+      "ENTRYTYPE": "article",
+      "ID": "bai2023qwen"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2407.08733",
+      "author": "Zhou, Zihao and Liu, Shudong and Ning, Maizhen and Liu, Wei and Wang, Jindong and Wong, Derek F and Huang, Xiaowei and Wang, Qiufeng and Huang, Kaizhu",
+      "title": "Is your model really a good math reasoner? evaluating mathematical reasoning with checklist",
+      "ENTRYTYPE": "article",
+      "ID": "zhou2024your"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2310.02255",
+      "author": "Lu, Pan and Bansal, Hritik and Xia, Tony and Liu, Jiacheng and Li, Chunyuan and Hajishirzi, Hannaneh and Cheng, Hao and Chang, Kai-Wei and Galley, Michel and Gao, Jianfeng",
+      "title": "Mathvista: Evaluating mathematical reasoning of foundation models in visual contexts",
+      "ENTRYTYPE": "article",
+      "ID": "lu2023mathvista"
+    },
+    {
+      "organization": "Springer",
+      "year": "2025",
+      "pages": "169--186",
+      "booktitle": "European Conference on Computer Vision",
+      "author": "Zhang, Renrui and Jiang, Dongzhi and Zhang, Yichi and Lin, Haokun and Guo, Ziyu and Qiu, Pengshuo and Zhou, Aojun and Lu, Pan and Chang, Kai-Wei and Qiao, Yu and others",
+      "title": "Mathverse: Does your multi-modal llm truly see the diagrams in visual math problems?",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zhang2025mathverse"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2406.08100",
+      "author": "Zheng, Mingyu and Feng, Xinwei and Si, Qingyi and She, Qiaoqiao and Lin, Zheng and Jiang, Wenbin and Wang, Weiping",
+      "title": "Multimodal Table Understanding",
+      "ENTRYTYPE": "article",
+      "ID": "zheng2024multimodal"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2021",
+      "pages": "8748--8763",
+      "booktitle": "International conference on machine learning",
+      "author": "Radford, Alec and Kim, Jong Wook and Hallacy, Chris and Ramesh, Aditya and Goh, Gabriel and Agarwal, Sandhini and Sastry, Girish and Askell, Amanda and Mishkin, Pamela and Clark, Jack and others",
+      "title": "Learning transferable visual models from natural language supervision",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "radford2021learning"
+    },
+    {
+      "publisher": "Cambridge university press",
+      "year": "2012",
+      "author": "Horn, Roger A and Johnson, Charles R",
+      "title": "Matrix analysis",
+      "ENTRYTYPE": "book",
+      "ID": "horn2012matrix"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "1992",
+      "pages": "81--98",
+      "volume": "171",
+      "journal": "Linear algebra and its applications",
+      "author": "Miao, Jianming and Ben-Israel, Adi",
+      "title": "On principal angles between subspaces in Rn",
+      "ENTRYTYPE": "article",
+      "ID": "miao1992principal"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2019",
+      "pages": "1081--1090",
+      "booktitle": "International conference on machine learning",
+      "author": "Chen, Xinyang and Wang, Sinan and Long, Mingsheng and Wang, Jianmin",
+      "title": "Transferability vs. discriminability: Batch spectral penalization for adversarial domain adaptation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "chen2019transferability"
+    },
+    {
+      "year": "2023",
+      "pages": "6",
+      "number": "3",
+      "volume": "2",
+      "journal": "See https://vicuna. lmsys. org (accessed 14 April 2023)",
+      "author": "Chiang, Wei-Lin and Li, Zhuohan and Lin, Zi and Sheng, Ying and Wu, Zhanghao and Zhang, Hao and Zheng, Lianmin and Zhuang, Siyuan and Zhuang, Yonghao and Gonzalez, Joseph E and others",
+      "title": "Vicuna: An open-source chatbot impressing gpt-4 with 90\\%* chatgpt quality",
+      "ENTRYTYPE": "article",
+      "ID": "chiang2023vicuna"
+    },
+    {
+      "year": "2024",
+      "booktitle": "The Thirty-eight Conference on Neural Information Processing Systems Datasets and Benchmarks Track",
+      "author": "Wang, Zengzhi and Li, Xuefeng and Xia, Rui and Liu, Pengfei",
+      "title": "MathPile: A Billion-Token-Scale Pretraining Corpus for Math",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "wangmathpile"
+    },
+    {
+      "year": "2024",
+      "booktitle": "The Twelfth International Conference on Learning Representations",
+      "author": "Paster, Keiran and Dos Santos, Marco and Azerbayev, Zhangir and Ba, Jimmy",
+      "title": "OpenWebMath: An Open Dataset of High-Quality Mathematical Web Text",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "pasteropenwebmath"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2409.12568",
+      "author": "Han, Xiaotian and Jian, Yiren and Hu, Xuefeng and Liu, Haogeng and Wang, Yiqi and Fan, Qihang and Ai, Yuang and Huang, Huaibo and He, Ran and Yang, Zhenheng and others",
+      "title": "Infimm-webmath-40b: Advancing multimodal pre-training for enhanced mathematical reasoning",
+      "ENTRYTYPE": "article",
+      "ID": "han2024infimm"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2409.12122",
+      "author": "Yang, An and Zhang, Beichen and Hui, Binyuan and Gao, Bofei and Yu, Bowen and Li, Chengpeng and Liu, Dayiheng and Tu, Jianhong and Zhou, Jingren and Lin, Junyang and others",
+      "title": "Qwen2. 5-math technical report: Toward mathematical expert model via self-improvement",
+      "ENTRYTYPE": "article",
+      "ID": "yang2024qwen2"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2410.12881",
+      "author": "Akter, Syeda Nahida and Prabhumoye, Shrimai and Kamalu, John and Satheesh, Sanjeev and Nyberg, Eric and Patwary, Mostofa and Shoeybi, Mohammad and Catanzaro, Bryan",
+      "title": "Mind: Math informed synthetic dialogues for pretraining llms",
+      "ENTRYTYPE": "article",
+      "ID": "akter2024mind"
+    },
+    {
+      "year": "2024",
+      "booktitle": "The Thirty-eighth Annual Conference on Neural Information Processing Systems",
+      "author": "Lin, Zhenghao and Gou, Zhibin and Gong, Yeyun and Liu, Xiao and Xu, Ruochen and Lin, Chen and Yang, Yujiu and Jiao, Jian and Duan, Nan and Chen, Weizhu and others",
+      "title": "Not All Tokens Are What You Need for Pretraining",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "linnot"
+    },
+    {
+      "year": "2024",
+      "booktitle": "The Twelfth International Conference on Learning Representations",
+      "author": "Yu, Longhui and Jiang, Weisen and Shi, Han and Jincheng, YU and Liu, Zhengying and Zhang, Yu and Kwok, James and Li, Zhenguo and Weller, Adrian and Liu, Weiyang",
+      "title": "MetaMath: Bootstrap Your Own Mathematical Questions for Large Language Models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "yumetamath"
+    },
+    {
+      "year": "2024",
+      "booktitle": "The Twelfth International Conference on Learning Representations",
+      "author": "Yue, Xiang and Qu, Xingwei and Zhang, Ge and Fu, Yao and Huang, Wenhao and Sun, Huan and Su, Yu and Chen, Wenhu",
+      "title": "MAmmoTH: Building Math Generalist Models through Hybrid Instruction Tuning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "yuemammoth"
+    },
+    {
+      "year": "2024",
+      "booktitle": "Forty-first International Conference on Machine Learning",
+      "author": "Tang, Zhengyang and Zhang, Xingxing and Wang, Benyou and Wei, Furu",
+      "title": "MathScale: Scaling Instruction Tuning for Mathematical Reasoning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "tangmathscale"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2411.19865",
+      "author": "Chen, Justin Chih-Yao and Wang, Zifeng and Palangi, Hamid and Han, Rujun and Ebrahimi, Sayna and Le, Long and Perot, Vincent and Mishra, Swaroop and Bansal, Mohit and Lee, Chen-Yu and others",
+      "title": "Reverse Thinking Makes LLMs Stronger Reasoners",
+      "ENTRYTYPE": "article",
+      "ID": "chen2024reverse"
+    },
+    {
+      "year": "2024",
+      "booktitle": "The Twelfth International Conference on Learning Representations",
+      "author": "Lightman, Hunter and Kosaraju, Vineet and Burda, Yuri and Edwards, Harrison and Baker, Bowen and Lee, Teddy and Leike, Jan and Schulman, John and Sutskever, Ilya and Cobbe, Karl",
+      "title": "Let's Verify Step by Step",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "lightmanlet"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2402.03300",
+      "author": "Shao, Zhihong and Wang, Peiyi and Zhu, Qihao and Xu, Runxin and Song, Junxiao and Bi, Xiao and Zhang, Haowei and Zhang, Mingchuan and Li, YK and Wu, Y and others",
+      "title": "Deepseekmath: Pushing the limits of mathematical reasoning in open language models",
+      "ENTRYTYPE": "article",
+      "ID": "shao2024deepseekmath"
+    },
+    {
+      "year": "2024",
+      "pages": "7601--7614",
+      "booktitle": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+      "author": "Trung, Luong and Zhang, Xinbo and Jie, Zhanming and Sun, Peng and Jin, Xiaoran and Li, Hang",
+      "title": "Reft: Reasoning with reinforced fine-tuning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "trung2024reft"
+    },
+    {
+      "year": "2022",
+      "pages": "15476--15488",
+      "volume": "35",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Zelikman, Eric and Wu, Yuhuai and Mu, Jesse and Goodman, Noah",
+      "title": "Star: Bootstrapping reasoning with reasoning",
+      "ENTRYTYPE": "article",
+      "ID": "zelikman2022star"
+    },
+    {
+      "year": "2022",
+      "journal": "Transactions on Machine Learning Research",
+      "author": "Singh, Avi and Co-Reyes, John D and Agarwal, Rishabh and Anand, Ankesh and Patil, Piyush and Garcia, Xavier and Liu, Peter J and Harrison, James and Lee, Jaehoon and Xu, Kelvin and others",
+      "title": "Beyond Human Data: Scaling Self-Training for Problem-Solving with Language Models",
+      "ENTRYTYPE": "article",
+      "ID": "singhbeyond"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2410.18982",
+      "author": "Qin, Yiwei and Li, Xuefeng and Zou, Haoyang and Liu, Yixiu and Xia, Shijie and Huang, Zhen and Ye, Yixin and Yuan, Weizhe and Liu, Hector and Li, Yuanzhi and others",
+      "title": "O1 Replication Journey: A Strategic Progress Report--Part 1",
+      "ENTRYTYPE": "article",
+      "ID": "qin2024o1"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2311.07575",
+      "author": "Lin, Ziyi and Liu, Chris and Zhang, Renrui and Gao, Peng and Qiu, Longtian and Xiao, Han and Qiu, Han and Lin, Chen and Shao, Wenqi and Chen, Keqin and others",
+      "title": "Sphinx: The joint mixing of weights, tasks, and visual embeddings for multi-modal large language models",
+      "ENTRYTYPE": "article",
+      "ID": "lin2023sphinx"
+    },
+    {
+      "year": "2024",
+      "booktitle": "Forty-first International Conference on Machine Learning",
+      "author": "Yu, Le and Yu, Bowen and Yu, Haiyang and Huang, Fei and Li, Yongbin",
+      "title": "Language models are super mario: Absorbing abilities from homologous models as a free lunch",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "yu2024language"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2312.11370",
+      "author": "Gao, Jiahui and Pi, Renjie and Zhang, Jipeng and Ye, Jiacheng and Zhong, Wanjun and Wang, Yufei and Hong, Lanqing and Han, Jianhua and Xu, Hang and Li, Zhenguo and others",
+      "title": "G-llava: Solving geometric problem with multi-modal large language model",
+      "ENTRYTYPE": "article",
+      "ID": "gao2023g"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2309.12284",
+      "author": "Yu, Longhui and Jiang, Weisen and Shi, Han and Yu, Jincheng and Liu, Zhengying and Zhang, Yu and Kwok, James T and Li, Zhenguo and Weller, Adrian and Liu, Weiyang",
+      "title": "Metamath: Bootstrap your own mathematical questions for large language models",
+      "ENTRYTYPE": "article",
+      "ID": "yu2023metamath"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2309.17452",
+      "author": "Gou, Zhibin and Shao, Zhihong and Gong, Yeyun and Shen, Yelong and Yang, Yujiu and Huang, Minlie and Duan, Nan and Chen, Weizhu",
+      "title": "Tora: A tool-integrated reasoning agent for mathematical problem solving",
+      "ENTRYTYPE": "article",
+      "ID": "gou2023tora"
+    },
+    {
+      "year": "2024",
+      "pages": "9556--9567",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Yue, Xiang and Ni, Yuansheng and Zhang, Kai and Zheng, Tianyu and Liu, Ruoqi and Zhang, Ge and Stevens, Samuel and Jiang, Dongfu and Ren, Weiming and Sun, Yuxuan and others",
+      "title": "Mmmu: A massive multi-discipline multimodal understanding and reasoning benchmark for expert agi",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "yue2024mmmu"
+    },
+    {
+      "year": "2021",
+      "journal": "URL https://arxiv. org/abs/2110.14168",
+      "author": "Cobbe, Karl and Kosaraju, Vineet and Bavarian, Mohammad and Chen, Mark and Jun, Heewoo and Kaiser, Lukasz and Plappert, Matthias and Tworek, Jerry and Hilton, Jacob and Nakano, Reiichiro and others",
+      "title": "Training verifiers to solve math word problems, 2021",
+      "ENTRYTYPE": "article",
+      "ID": "cobbe2021training"
+    },
+    {
+      "year": "2021",
+      "journal": "arXiv preprint arXiv:2103.03874",
+      "author": "Hendrycks, Dan and Burns, Collin and Kadavath, Saurav and Arora, Akul and Basart, Steven and Tang, Eric and Song, Dawn and Steinhardt, Jacob",
+      "title": "Measuring mathematical problem solving with the math dataset",
+      "ENTRYTYPE": "article",
+      "ID": "hendrycks2021measuring"
+    },
+    {
+      "year": "2021",
+      "journal": "arXiv preprint arXiv:2103.09762",
+      "author": "Saha, Gobinda and Garg, Isha and Roy, Kaushik",
+      "title": "Gradient projection memory for continual learning",
+      "ENTRYTYPE": "article",
+      "ID": "saha2021gradient"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2409.12191",
+      "author": "Wang, Peng and Bai, Shuai and Tan, Sinan and Wang, Shijie and Fan, Zhihao and Bai, Jinze and Chen, Keqin and Liu, Xuejing and Wang, Jialin and Ge, Wenbin and others",
+      "title": "Qwen2-vl: Enhancing vision-language model's perception of the world at any resolution",
+      "ENTRYTYPE": "article",
+      "ID": "wang2024qwen2"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2410.17885",
+      "author": "Deng, Linger and Liu, Yuliang and Li, Bohan and Luo, Dongliang and Wu, Liang and Zhang, Chengquan and Lyu, Pengyuan and Zhang, Ziyang and Zhang, Gang and Ding, Errui and others",
+      "title": "R-cot: Reverse chain-of-thought problem generation for geometric reasoning in large multimodal models",
+      "ENTRYTYPE": "article",
+      "ID": "deng2024r"
+    },
+    {
+      "year": "2024",
+      "pages": "4663--4680",
+      "booktitle": "Findings of the Association for Computational Linguistics: EMNLP 2024",
+      "author": "Shi, Wenhao and Hu, Zhiqiang and Bin, Yi and Liu, Junhua and Yang, Yang and Ng, See Kiong and Bing, Lidong and Lee, Roy",
+      "title": "Math-LLaVA: Bootstrapping Mathematical Reasoning for Multimodal Large Language Models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "shi2024math"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2311.16483",
+      "author": "Han, Yucheng and Zhang, Chi and Chen, Xin and Yang, Xu and Wang, Zhibin and Yu, Gang and Fu, Bin and Zhang, Hanwang",
+      "title": "Chartllama: A multimodal llm for chart understanding and generation",
+      "ENTRYTYPE": "article",
+      "ID": "han2023chartllama"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2412.17451",
+      "author": "Liu, Wei and Li, Junlong and Zhang, Xiwen and Zhou, Fan and Cheng, Yu and He, Junxian",
+      "title": "Diving into Self-Evolving Training for Multimodal Reasoning",
+      "ENTRYTYPE": "article",
+      "ID": "liu2024diving"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2411.10442",
+      "author": "Wang, Weiyun and Chen, Zhe and Wang, Wenhai and Cao, Yue and Liu, Yangzhou and Gao, Zhangwei and Zhu, Jinguo and Zhu, Xizhou and Lu, Lewei and Qiao, Yu and others",
+      "title": "Enhancing the reasoning ability of multimodal large language models via mixed preference optimization",
+      "ENTRYTYPE": "article",
+      "ID": "wang2024enhancing"
+    },
+    {
+      "year": "2024",
+      "pages": "13807--13816",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Yu, Tianyu and Yao, Yuan and Zhang, Haoye and He, Taiwen and Han, Yifeng and Cui, Ganqu and Hu, Jinyi and Liu, Zhiyuan and Zheng, Hai-Tao and Sun, Maosong and others",
+      "title": "Rlhf-v: Towards trustworthy mllms via behavior alignment from fine-grained correctional human feedback",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "yu2024rlhf"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2405.17220",
+      "author": "Yu, Tianyu and Zhang, Haoye and Yao, Yuan and Dang, Yunkai and Chen, Da and Lu, Xiaoman and Cui, Ganqu and He, Taiwen and Liu, Zhiyuan and Chua, Tat-Seng and others",
+      "title": "Rlaif-v: Aligning mllms through open-source ai feedback for super gpt-4v trustworthiness",
+      "ENTRYTYPE": "article",
+      "ID": "yu2024rlaif"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2411.14432",
+      "author": "Dong, Yuhao and Liu, Zuyan and Sun, Hai-Long and Yang, Jingkang and Hu, Winston and Rao, Yongming and Liu, Ziwei",
+      "title": "Insight-v: Exploring long-chain visual reasoning with multimodal large language models",
+      "ENTRYTYPE": "article",
+      "ID": "dong2024insight"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2403.13447",
+      "author": "Zhang, Wenqiao and Lin, Tianwei and Liu, Jiang and Shu, Fangxun and Li, Haoyuan and Zhang, Lei and Wanggui, He and Zhou, Hao and Lv, Zheqi and Jiang, Hao and others",
+      "title": "HyperLLaVA: Dynamic Visual and Language Expert Tuning for Multimodal Large Language Models",
+      "ENTRYTYPE": "article",
+      "ID": "zhang2024hyperllava"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2410.02355",
+      "author": "Fang, Junfeng and Jiang, Houcheng and Wang, Kun and Ma, Yunshan and Wang, Xiang and He, Xiangnan and Chua, Tat-seng",
+      "title": "Alphaedit: Null-space constrained knowledge editing for language models",
+      "ENTRYTYPE": "article",
+      "ID": "fang2024alphaedit"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2410.23743",
+      "author": "Li, Ming and Li, Yanhong and Zhou, Tianyi",
+      "title": "What Happened in LLMs Layers when Trained for Fast vs. Slow Thinking: A Gradient Perspective",
+      "ENTRYTYPE": "article",
+      "ID": "li2024happened"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2401.17139",
+      "author": "Wei, Lai and Tan, Zhiquan and Li, Chenghai and Wang, Jindong and Huang, Weiran",
+      "title": "Diff-eRank: A Novel Rank-Based Metric for Evaluating Large Language Models",
+      "ENTRYTYPE": "article",
+      "ID": "wei2024diff"
+    },
+    {
+      "organization": "Springer",
+      "year": "2024",
+      "pages": "169--186",
+      "booktitle": "European Conference on Computer Vision",
+      "author": "Zhang, Renrui and Jiang, Dongzhi and Zhang, Yichi and Lin, Haokun and Guo, Ziyu and Qiu, Pengshuo and Zhou, Aojun and Lu, Pan and Chang, Kai-Wei and Qiao, Yu and others",
+      "title": "Mathverse: Does your multi-modal llm truly see the diagrams in visual math problems?",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zhang2024mathverse"
+    },
+    {
+      "year": "",
+      "url": "",
+      "journal": "",
+      "author": "OpenO1 Team",
+      "title": "",
+      "ENTRYTYPE": "article",
+      "ID": "supplement"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2501.12948",
+      "author": "Guo, Daya and Yang, Dejian and Zhang, Haowei and Song, Junxiao and Zhang, Ruoyu and Xu, Runxin and Zhu, Qihao and Ma, Shirong and Wang, Peiyi and Bi, Xiao and others",
+      "title": "Deepseek-r1: Incentivizing reasoning capability in llms via reinforcement learning",
+      "ENTRYTYPE": "article",
+      "ID": "guo2025deepseek"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2411.00836",
+      "author": "Zou, Chengke and Guo, Xingang and Yang, Rui and Zhang, Junyu and Hu, Bin and Zhang, Huan",
+      "title": "Dynamath: A dynamic visual benchmark for evaluating mathematical reasoning robustness of vision language models",
+      "ENTRYTYPE": "article",
+      "ID": "zou2024dynamath"
+    },
+    {
+      "year": "2024",
+      "pages": "95095--95169",
+      "volume": "37",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Wang, Ke and Pan, Junting and Shi, Weikang and Lu, Zimu and Ren, Houxing and Zhou, Aojun and Zhan, Mingjie and Li, Hongsheng",
+      "title": "Measuring multimodal mathematical reasoning with math-vision dataset",
+      "ENTRYTYPE": "article",
+      "ID": "wang2024mathvision"
+    },
+    {
+      "year": "2019",
+      "pages": "8317--8326",
+      "booktitle": "Proceedings of the IEEE/CVF conference on computer vision and pattern recognition",
+      "author": "Singh, Amanpreet and Natarajan, Vivek and Shah, Meet and Jiang, Yu and Chen, Xinlei and Batra, Dhruv and Parikh, Devi and Rohrbach, Marcus",
+      "title": "Towards vqa models that can read",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "singh2019towards"
+    },
+    {
+      "organization": "Springer",
+      "year": "2024",
+      "pages": "216--233",
+      "booktitle": "European conference on computer vision",
+      "author": "Liu, Yuan and Duan, Haodong and Zhang, Yuanhan and Li, Bo and Zhang, Songyang and Zhao, Wangbo and Yuan, Yike and Wang, Jiaqi and He, Conghui and Liu, Ziwei and others",
+      "title": "Mmbench: Is your multi-modal model an all-around player?",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "liu2024mmbench"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2504.10479",
+      "author": "Zhu, Jinguo and Wang, Weiyun and Chen, Zhe and Liu, Zhaoyang and Ye, Shenglong and Gu, Lixin and Tian, Hao and Duan, Yuchen and Su, Weijie and Shao, Jie and others",
+      "title": "Internvl3: Exploring advanced training and test-time recipes for open-source multimodal models",
+      "ENTRYTYPE": "article",
+      "ID": "zhu2025internvl3"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2505.05464",
+      "author": "Chen, Shiqi and Zhang, Jinghan and Zhu, Tongyao and Liu, Wei and Gao, Siyang and Xiong, Miao and Li, Manling and He, Junxian",
+      "title": "Bring reason to vision: Understanding perception and reasoning through model merging",
+      "ENTRYTYPE": "article",
+      "ID": "chen2025bring"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2504.08837",
+      "author": "Wang, Haozhe and Qu, Chao and Huang, Zuming and Chu, Wei and Lin, Fangzhen and Chen, Wenhu",
+      "title": "Vl-rethinker: Incentivizing self-reflection of vision-language models with reinforcement learning",
+      "ENTRYTYPE": "article",
+      "ID": "wang2025vl"
+    }
+  ]
+}

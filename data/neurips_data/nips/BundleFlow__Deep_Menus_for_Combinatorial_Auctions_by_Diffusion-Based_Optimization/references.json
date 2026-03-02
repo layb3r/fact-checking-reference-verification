@@ -1,0 +1,1183 @@
+{
+  "pdf_url": "https://arxiv.org/pdf/2502.15283v1.pdf",
+  "references": [
+    {
+      "keywords": "mechanism design, differentiable programming, game theory, multi-item auctions, auction design, generalization bounds, sample complexity, deep learning",
+      "publisher": "ACM New York, NY",
+      "year": "2024",
+      "pages": "1--53",
+      "number": "1",
+      "volume": "71",
+      "journal": "Journal of the ACM",
+      "author": "D{\\\"u}tting, Paul and Feng, Zhe and Narasimhan, Harikrishna and Parkes, David C and Ravindranath, Sai Srivatsa",
+      "title": "Optimal auctions through deep learning: Advances in differentiable economics",
+      "ENTRYTYPE": "article",
+      "ID": "dutting2024optimal"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2407.08022",
+      "author": "Ravindranath, Sai Srivatsa and Feng, Zhe and Wang, Di and Zaheer, Manzil and Mehta, Aranyak and Parkes, David C",
+      "title": "Deep Reinforcement Learning for Sequential Combinatorial Auctions",
+      "ENTRYTYPE": "article",
+      "ID": "ravindranath2024deep"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2402.11904",
+      "author": "Duan, Zhijian and Sun, Haoran and Xia, Yichong and Wang, Siqiang and Zhang, Zhilin and Yu, Chuan and Xu, Jian and Zheng, Bo and Deng, Xiaotie",
+      "title": "Scalable Virtual Valuations Combinatorial Auction Design by Combining Zeroth-Order and First-Order Optimization Method",
+      "ENTRYTYPE": "article",
+      "ID": "duan2024scalable"
+    },
+    {
+      "publisher": "Wiley-Blackwell",
+      "year": "1979",
+      "pages": "263--282",
+      "number": "2",
+      "volume": "46",
+      "journal": "The Review of Economic Studies",
+      "author": "Hammond, Peter J",
+      "title": "Straightforward individual incentive compatibility in large economies",
+      "ENTRYTYPE": "article",
+      "ID": "hammond1979straightforward"
+    },
+    {
+      "year": "2020",
+      "booktitle": "International Conference on Learning Representations",
+      "author": "Rahme, Jad and Jelassi, Samy and Weinberg, S Matthew",
+      "title": "Auction Learning as a Two-Player Game",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "rahme2020auction"
+    },
+    {
+      "year": "2022",
+      "pages": "34734--34747",
+      "volume": "35",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Ivanov, Dmitry and Safiulin, Iskander and Filippov, Igor and Balabaeva, Ksenia",
+      "title": "Optimal-er auctions through attention",
+      "ENTRYTYPE": "article",
+      "ID": "ivanov2022optimal"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2202.02872",
+      "author": "Curry, Michael and Sandholm, Tuomas and Dickerson, John",
+      "title": "Differentiable economics for randomized affine maximizer auctions",
+      "ENTRYTYPE": "article",
+      "ID": "curry2022differentiable"
+    },
+    {
+      "year": "2023",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Duan, Zhijian and Sun, Haoran and Chen, Yurong and Deng, Xiaotie",
+      "title": "A Scalable Neural Network for DSIC Affine Maximizer Auction Design",
+      "ENTRYTYPE": "article",
+      "ID": "duan2023scalable"
+    },
+    {
+      "year": "2019",
+      "pages": "215--223",
+      "booktitle": "Proceedings of the 18th International Conference on Autonomous Agents and MultiAgent Systems",
+      "author": "Shen, Weiran and Tang, Pingzhong and Zuo, Song",
+      "title": "Automated Mechanism Design via Neural Networks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "shen2019automated"
+    },
+    {
+      "publisher": "JSTOR",
+      "year": "1989",
+      "pages": "451--471",
+      "number": "H. 4",
+      "journal": "Historia: Zeitschrift f{\\\"u}r Alte Geschichte",
+      "author": "Rauh, Nicholas K",
+      "title": "Auctioneers and the Roman economy",
+      "ENTRYTYPE": "article",
+      "ID": "rauh1989auctioneers"
+    },
+    {
+      "publisher": "INFORMS",
+      "year": "2007",
+      "pages": "137--148",
+      "number": "1",
+      "volume": "19",
+      "journal": "INFORMS Journal on Computing",
+      "author": "Feng, Juan and Bhargava, Hemant K and Pennock, David M",
+      "title": "Implementing sponsored search in web search engines: Computational evaluation of alternative mechanisms",
+      "ENTRYTYPE": "article",
+      "ID": "feng2007implementing"
+    },
+    {
+      "publisher": "INFORMS",
+      "year": "2010",
+      "pages": "199--215",
+      "number": "2",
+      "volume": "29",
+      "journal": "Marketing Science",
+      "author": "Katona, Zsolt and Sarvary, Miklos",
+      "title": "The race for sponsored links: Bidding patterns for search advertising",
+      "ENTRYTYPE": "article",
+      "ID": "katona2010race"
+    },
+    {
+      "publisher": "Springer",
+      "year": "2000",
+      "pages": "229--252",
+      "number": "3",
+      "volume": "17",
+      "journal": "Journal of regulatory Economics",
+      "author": "Cramton, Peter and Schwartz, Jesse A",
+      "title": "Collusive bidding: Lessons from the FCC spectrum auctions",
+      "ENTRYTYPE": "article",
+      "ID": "cramton2000collusive"
+    },
+    {
+      "year": "2022",
+      "pages": "31--38",
+      "booktitle": "Proceedings of the 2022 ACM CCS Workshop on Decentralized Finance and Security",
+      "author": "Milionis, Jason and Hirsch, Dean and Arditi, Andy and Garimidi, Pranav",
+      "title": "A framework for single-item nft auction mechanism design",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "milionis2022framework"
+    },
+    {
+      "publisher": "INFORMS",
+      "year": "1981",
+      "pages": "58--73",
+      "number": "1",
+      "volume": "6",
+      "journal": "Mathematics of operations research",
+      "author": "Myerson, Roger B",
+      "title": "Optimal auction design",
+      "ENTRYTYPE": "article",
+      "ID": "myerson1981optimal"
+    },
+    {
+      "year": "2015",
+      "pages": "449--450",
+      "booktitle": "Proceedings of the Sixteenth ACM Conference on Economics and Computation",
+      "author": "Daskalakis, Constantinos and Deckelbaum, Alan and Tzamos, Christos",
+      "title": "Strong duality for a multiple-good monopolist",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "daskalakis2015strong"
+    },
+    {
+      "year": "2014",
+      "pages": "259--276",
+      "booktitle": "Proceedings of the fifteenth ACM conference on Economics and computation",
+      "author": "Giannakopoulos, Yiannis and Koutsoupias, Elias",
+      "title": "Duality and optimality of auctions for uniform distributions",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "giannakopoulos2014duality"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "2006",
+      "pages": "1--35",
+      "number": "1",
+      "volume": "127",
+      "journal": "Journal of Economic Theory",
+      "author": "Manelli, Alejandro M and Vincent, Daniel R",
+      "title": "Bundling as an optimal selling mechanism for a multiple-good monopolist",
+      "ENTRYTYPE": "article",
+      "ID": "manelli2006bundling"
+    },
+    {
+      "organization": "SIAM",
+      "year": "2021",
+      "pages": "1337--1356",
+      "booktitle": "Proceedings of the 2021 ACM-SIAM Symposium on Discrete Algorithms (SODA)",
+      "author": "Cai, Yang and Oikonomou, Argyris and Velegkas, Grigoris and Zhao, Mingfei",
+      "title": "An Efficient epsilon-BIC to BIC Transformation and Its Application to Black-Box Reduction in Revenue Maximization",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "cai2021efficient"
+    },
+    {
+      "organization": "Springer",
+      "year": "2021",
+      "pages": "76--94",
+      "booktitle": "International Conference on Web and Internet Economics",
+      "author": "Conitzer, Vincent and Feng, Zhe and Parkes, David C and Sodomka, Eric",
+      "title": "Welfare-preserving $\\varepsilon$-bic to bic transformation with negligible revenue loss",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "conitzer2021welfare"
+    },
+    {
+      "year": "2016",
+      "journal": "arXiv preprint arXiv:1606.08415",
+      "author": "Hendrycks, Dan and Gimpel, Kevin",
+      "title": "Gaussian error linear units (gelus)",
+      "ENTRYTYPE": "article",
+      "ID": "hendrycks2016gaussian"
+    },
+    {
+      "pages": "517--553",
+      "volume": "62",
+      "journal": "Journal of Economics Literature",
+      "title": "Combinatorial Auctions in Practice",
+      "year": "2024",
+      "author": "Ignacio Palacios-Huerta and David C. Parkes and Richard Steinberg",
+      "ENTRYTYPE": "article",
+      "ID": "palacios-huerta24"
+    },
+    {
+      "publisher": "De Gruyter",
+      "year": "2011",
+      "pages": "0000102202193517041664",
+      "number": "1",
+      "volume": "11",
+      "journal": "The BE Journal of Theoretical Economics",
+      "author": "Pavlov, Gregory",
+      "title": "Optimal mechanism for selling two goods",
+      "ENTRYTYPE": "article",
+      "ID": "pavlov2011optimal"
+    },
+    {
+      "publisher": "ACM New York, NY, USA",
+      "year": "2020",
+      "pages": "1--40",
+      "number": "4",
+      "volume": "67",
+      "journal": "Journal of the ACM (JACM)",
+      "author": "Babaioff, Moshe and Immorlica, Nicole and Lucier, Brendan and Weinberg, S Matthew",
+      "title": "A simple and approximately optimal mechanism for an additive buyer",
+      "ENTRYTYPE": "article",
+      "ID": "babaioff2020simple"
+    },
+    {
+      "year": "2012",
+      "pages": "459--478",
+      "booktitle": "Proceedings of the forty-fourth annual ACM symposium on Theory of computing",
+      "author": "Cai, Yang and Daskalakis, Constantinos and Weinberg, S Matthew",
+      "title": "An algorithmic characterization of multi-dimensional mechanisms",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "cai2012algorithmic"
+    },
+    {
+      "year": "2017",
+      "pages": "3--20",
+      "booktitle": "Proceedings of the 2017 ACM Conference on Economics and Computation",
+      "author": "Yao, Andrew Chi-Chih",
+      "title": "Dominant-strategy versus bayesian multi-item auctions: Maximum revenue determination and comparison",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "yao2017dominant"
+    },
+    {
+      "organization": "IEEE",
+      "year": "2003",
+      "pages": "574--583",
+      "booktitle": "44th Annual IEEE Symposium on Foundations of Computer Science, 2003. Proceedings.",
+      "author": "Lavi, Ron and Mu'Alem, Ahuva and Nisan, Noam",
+      "title": "Towards a characterization of truthful combinatorial auctions",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "lavi2003towards"
+    },
+    {
+      "organization": "Government Printing Office: Washington, D.C.",
+      "year": "1925",
+      "pages": "3440--3443",
+      "booktitle": "Select Comm. to Inquire into Oper., Policies, and Affairs of the U.S. Shipping Board and the U.S. Emergency Fleet Corp.",
+      "author": "{U.S. Congress}",
+      "title": "Exhibit B-1, Exhibits to Testimony",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "uscongress1925e"
+    },
+    {
+      "year": "2024",
+      "pages": "1100--1100",
+      "booktitle": "Proceedings of the 25th ACM Conference on Economics and Computation",
+      "author": "Wang, Tonghan and Jiang, Yanchen and Parkes, David C",
+      "title": "GemNet: Menu-Based, Strategy-Proof Multi-Bidder Auctions Through Deep Learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "wang2024gemnet"
+    },
+    {
+      "year": "2019",
+      "volume": "32",
+      "journal": "Advances in neural information processing systems",
+      "author": "Gasse, Maxime and Ch{\\'e}telat, Didier and Ferroni, Nicola and Charlin, Laurent and Lodi, Andrea",
+      "title": "Exact combinatorial optimization with graph convolutional neural networks",
+      "ENTRYTYPE": "article",
+      "ID": "gasse2019exact"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "2014",
+      "pages": "79--111",
+      "volume": "206",
+      "journal": "Artificial Intelligence",
+      "author": "Hutter, Frank and Xu, Lin and Hoos, Holger H and Leyton-Brown, Kevin",
+      "title": "Algorithm runtime prediction: Methods \\& evaluation",
+      "ENTRYTYPE": "article",
+      "ID": "hutter2014algorithm"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2206.14987",
+      "author": "Gupta, Prateek and Khalil, Elias B and Chet{\\'e}lat, Didier and Gasse, Maxime and Bengio, Yoshua and Lodi, Andrea and Kumar, M Pawan",
+      "title": "Lookback for learning to branch",
+      "ENTRYTYPE": "article",
+      "ID": "gupta2022lookback"
+    },
+    {
+      "publisher": "Springer",
+      "year": "2013",
+      "pages": "511--545",
+      "volume": "16",
+      "journal": "Experimental Economics",
+      "author": "Bichler, Martin and Shabalin, Pasha and Wolf, J{\\\"u}rgen",
+      "title": "Do core-selecting combinatorial clock auctions always lead to high efficiency? An experimental analysis of spectrum auction designs",
+      "ENTRYTYPE": "article",
+      "ID": "bichler2013core"
+    },
+    {
+      "organization": "IEEE",
+      "year": "2022",
+      "pages": "3105--3111",
+      "booktitle": "2022 26th international conference on pattern recognition (ICPR)",
+      "author": "Zhang, Tianyu and Banitalebi-Dehkordi, Amin and Zhang, Yong",
+      "title": "Deep reinforcement learning for exact combinatorial optimization: Learning to branch",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zhang2022deep"
+    },
+    {
+      "year": "2021",
+      "pages": "4015--4027",
+      "volume": "34",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Balcan, Maria-Florina F and Prasad, Siddharth and Sandholm, Tuomas and Vitercik, Ellen",
+      "title": "Sample complexity of tree search configuration: Cutting planes and beyond",
+      "ENTRYTYPE": "article",
+      "ID": "balcan2021sample"
+    },
+    {
+      "year": "2020",
+      "pages": "20012--20023",
+      "volume": "33",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Song, Jialin and Yue, Yisong and Dilkina, Bistra and others",
+      "title": "A general large neighborhood search framework for solving integer linear programs",
+      "ENTRYTYPE": "article",
+      "ID": "song2020general"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2023",
+      "pages": "13869--13890",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Huang, Taoan and Ferber, Aaron M and Tian, Yuandong and Dilkina, Bistra and Steiner, Benoit",
+      "title": "Searching large neighborhoods for integer linear programs with contrastive learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "huang2023searching"
+    },
+    {
+      "year": "2021",
+      "pages": "30075--30087",
+      "volume": "34",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Wu, Yaoxin and Song, Wen and Cao, Zhiguang and Zhang, Jie",
+      "title": "Learning large neighborhood search policy for integer programming",
+      "ENTRYTYPE": "article",
+      "ID": "wu2021learning"
+    },
+    {
+      "year": "2022",
+      "pages": "18514--18526",
+      "volume": "35",
+      "journal": "Advances in neural information processing systems",
+      "author": "Scavuzzo, Lara and Chen, Feng and Ch{\\'e}telat, Didier and Gasse, Maxime and Lodi, Andrea and Yorke-Smith, Neil and Aardal, Karen",
+      "title": "Learning to branch with tree mdps",
+      "ENTRYTYPE": "article",
+      "ID": "scavuzzo2022learning"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2018",
+      "pages": "344--353",
+      "booktitle": "International conference on machine learning",
+      "author": "Balcan, Maria-Florina and Dick, Travis and Sandholm, Tuomas and Vitercik, Ellen",
+      "title": "Learning to branch",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "balcan2018learning"
+    },
+    {
+      "year": "2009",
+      "pages": "267--306",
+      "volume": "36",
+      "journal": "Journal of artificial intelligence research",
+      "author": "Hutter, Frank and Hoos, Holger H and Leyton-Brown, Kevin and St{\\\"u}tzle, Thomas",
+      "title": "ParamILS: an automatic algorithm configuration framework",
+      "ENTRYTYPE": "article",
+      "ID": "hutter2009paramils"
+    },
+    {
+      "keywords": "Empirical analysis of algorithms, algorithm portfolios, combinatorial auctions, runtime prediction",
+      "numpages": "52",
+      "articleno": "22",
+      "month": "July",
+      "journal": "J. ACM",
+      "abstract": "Is it possible to predict how long an algorithm will take to solve a previously-unseen instance of an NP-complete problem? If so, what uses can be found for models that make such predictions? This article provides answers to these questions and evaluates the answers experimentally.We propose the use of supervised machine learning to build models that predict an algorithm's runtime given a problem instance. We discuss the construction of these models and describe techniques for interpreting them to gain understanding of the characteristics that cause instances to be hard or easy. We also present two applications of our models: building algorithm portfolios that outperform their constituent algorithms, and generating test distributions that emphasize hard problems.We demonstrate the effectiveness of our techniques in a case study of the combinatorial auction winner determination problem. Our experimental results show that we can build very accurate models of an algorithm's running time, interpret our models, build an algorithm portfolio that strongly outperforms the best single algorithm, and tune a standard benchmark suite to generate much harder problem instances.",
+      "doi": "10.1145/1538902.1538906",
+      "url": "https://doi.org/10.1145/1538902.1538906",
+      "issn": "0004-5411",
+      "number": "4",
+      "volume": "56",
+      "address": "New York, NY, USA",
+      "publisher": "Association for Computing Machinery",
+      "issue_date": "June 2009",
+      "year": "2009",
+      "title": "Empirical hardness models: Methodology and a case study on combinatorial auctions",
+      "author": "Leyton-Brown, Kevin and Nudelman, Eugene and Shoham, Yoav",
+      "ENTRYTYPE": "article",
+      "ID": "catshardness"
+    },
+    {
+      "publisher": "JSTOR",
+      "year": "1982",
+      "pages": "402--417",
+      "journal": "The Bell Journal of Economics",
+      "author": "Rassenti, Stephen J and Smith, Vernon L and Bulfin, Robert L",
+      "title": "A combinatorial auction mechanism for airport time slot allocation",
+      "ENTRYTYPE": "article",
+      "ID": "rassenti1982combinatorial"
+    },
+    {
+      "url": "https://www.nobelprize.org/prizes/economic-sciences/2020/press-release/",
+      "year": "2020",
+      "howpublished": "Press release",
+      "title": "The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel 2020",
+      "author": "{Royal Swedish Academy of Sciences}",
+      "ENTRYTYPE": "misc",
+      "ID": "NobelPrizeEcon2020"
+    },
+    {
+      "publisher": "Wiley Online Library",
+      "year": "1997",
+      "pages": "431--495",
+      "number": "3",
+      "volume": "6",
+      "journal": "Journal of Economics \\& Management Strategy",
+      "author": "Cramton, Peter",
+      "title": "The FCC spectrum auctions: An early assessment",
+      "ENTRYTYPE": "article",
+      "ID": "cramton1997fcc"
+    },
+    {
+      "publisher": "Cambridge University Press",
+      "year": "2004",
+      "author": "Milgrom, Paul Robert",
+      "title": "Putting auction theory to work",
+      "ENTRYTYPE": "book",
+      "ID": "milgrom2004putting"
+    },
+    {
+      "publisher": "MIT Press",
+      "year": "2006",
+      "url": "https://books.google.com/books?id=N_IYAQAAIAAJ",
+      "lccn": "2005050499",
+      "isbn": "9780262033428",
+      "author": "Cramton, P.C. and Shoham, Y. and Steinberg, R.",
+      "title": "Combinatorial Auctions",
+      "ENTRYTYPE": "book",
+      "ID": "cramton2006combinatorial"
+    },
+    {
+      "publisher": "American Economic Association",
+      "year": "1996",
+      "pages": "159--175",
+      "number": "1",
+      "volume": "10",
+      "journal": "Journal of Economic perspectives",
+      "author": "McAfee, R Preston and McMillan, John",
+      "title": "Analyzing the airwaves auction",
+      "ENTRYTYPE": "article",
+      "ID": "mcafee1996analyzing"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2303.00208",
+      "author": "Milionis, Jason and Moallemi, Ciamac C and Roughgarden, Tim",
+      "title": "A Myersonian Framework for Optimal Liquidity Provision in Automated Market Makers",
+      "ENTRYTYPE": "article",
+      "ID": "milionis2023myersonian"
+    },
+    {
+      "publisher": "American Economic Association",
+      "year": "2007",
+      "pages": "242--259",
+      "number": "1",
+      "volume": "97",
+      "journal": "American economic review",
+      "author": "Edelman, Benjamin and Ostrovsky, Michael and Schwarz, Michael",
+      "title": "Internet advertising and the generalized second-price auction: Selling billions of dollars worth of keywords",
+      "ENTRYTYPE": "article",
+      "ID": "edelman2007internet"
+    },
+    {
+      "publisher": "JSTOR",
+      "year": "1961",
+      "pages": "8--37",
+      "number": "1",
+      "volume": "16",
+      "journal": "The Journal of finance",
+      "author": "Vickrey, William",
+      "title": "Counterspeculation, auctions, and competitive sealed tenders",
+      "ENTRYTYPE": "article",
+      "ID": "vickrey1961counterspeculation"
+    },
+    {
+      "organization": "SIAM",
+      "year": "2011",
+      "pages": "734--747",
+      "booktitle": "Proceedings of the twenty-second annual ACM-SIAM symposium on Discrete Algorithms",
+      "author": "Hartline, Jason D and Kleinberg, Robert and Malekian, Azarakhsh",
+      "title": "Bayesian incentive compatibility via matchings",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "hartline2011bayesian"
+    },
+    {
+      "bibsource": "dblp computer science bibliography, https://dblp.org",
+      "biburl": "https://dblp.org/rec/journals/corr/abs-1207-5518.bib",
+      "timestamp": "Mon, 13 Aug 2018 16:48:26 +0200",
+      "eprint": "1207.5518",
+      "eprinttype": "arXiv",
+      "url": "http://arxiv.org/abs/1207.5518",
+      "year": "2012",
+      "volume": "abs/1207.5518",
+      "journal": "CoRR",
+      "title": "Optimal Multi-Dimensional Mechanism Design: Reducing Revenue to Welfare\nMaximization",
+      "author": "Yang Cai and\nConstantinos Daskalakis and\nS. Matthew Weinberg",
+      "ENTRYTYPE": "article",
+      "ID": "Cai2012"
+    },
+    {
+      "year": "2012",
+      "pages": "370--387",
+      "booktitle": "Proceedings of the 13th ACM conference on Electronic commerce",
+      "author": "Daskalakis, Constantinos and Weinberg, Seth Matthew",
+      "title": "Symmetries and optimal multi-dimensional mechanism design",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "daskalakis2012symmetries"
+    },
+    {
+      "year": "2018",
+      "pages": "354--362",
+      "booktitle": "Proceedings of the 17th International Conference on Autonomous Agents and Multiagent Systems",
+      "author": "Feng, Zhe and Narasimhan, Harikrishna and Parkes, David C",
+      "title": "Deep learning for revenue-optimal auctions with budgets",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "feng2018deep"
+    },
+    {
+      "year": "2018",
+      "pages": "261--267",
+      "booktitle": "IJCAI",
+      "author": "Golowich, Noah and Narasimhan, Harikrishna and Parkes, David C",
+      "title": "Deep Learning for Multi-Facility Location Mechanism Design.",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "golowich2018deep"
+    },
+    {
+      "publisher": "JSTOR",
+      "year": "1971",
+      "pages": "17--33",
+      "journal": "Public choice",
+      "author": "Clarke, Edward H",
+      "title": "Multipart pricing of public goods",
+      "ENTRYTYPE": "article",
+      "ID": "clarke1971multipart"
+    },
+    {
+      "year": "1973",
+      "volume": "41",
+      "urldate": "2024-02-11",
+      "title": "Incentives in Teams",
+      "publisher": "[Wiley, Econometric Society]",
+      "pages": "617--631",
+      "number": "4",
+      "journal": "Econometrica",
+      "author": "Theodore Groves",
+      "abstract": "This paper analyzes the problem of inducing the members of an organization to behave as if they formed a team. Considered is a conglomerate-type organization consisting of a set of semi-autonomous subunits that are coordinated by the organization's head. The head's incentive problem is to choose a set of employee compensation rules that will induce his subunit managers to communicate accurate information and take optimal decisions. The main result exhibits a particular set of compensation rules, an optimal incentive structure, that leads to team behavior. Particular attention is directed to the informational aspects of the problem. An extended example of a resource allocation model is discussed and the optimal incentive structure is interpreted in terms of prices charged by the head for resources allocated to the subunits.",
+      "url": "http://www.jstor.org/stable/1914085",
+      "issn": "00129682, 14680262",
+      "ENTRYTYPE": "article",
+      "ID": "groves"
+    },
+    {
+      "year": "2020",
+      "journal": "arXiv preprint arXiv:2010.06398",
+      "author": "Kuo, Kevin and Ostuni, Anthony and Horishny, Elizabeth and Curry, Michael J and Dooley, Samuel and Chiang, Ping-yeh and Goldstein, Tom and Dickerson, John P",
+      "title": "Proportionnet: Balancing fairness and revenue for auction design with deep learning",
+      "ENTRYTYPE": "article",
+      "ID": "kuo2020proportionnet"
+    },
+    {
+      "year": "2023",
+      "volume": "36",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2023/file/1577ea3eaf8dacb99f64e4496c3ecddf-Paper-Conference.pdf",
+      "title": "Data Market Design through Deep Learning",
+      "publisher": "Curran Associates, Inc.",
+      "pages": "6662--6689",
+      "editor": "A. Oh and T. Naumann and A. Globerson and K. Saenko and M. Hardt and S. Levine",
+      "booktitle": "Advances in Neural Information Processing Systems",
+      "author": "Ravindranath, Sai Srivatsa and Jiang, Yanchen and Parkes, David C",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ravindranath2023data"
+    },
+    {
+      "year": "2023",
+      "pages": "65818--65836",
+      "volume": "36",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Wang, Tonghan and D{\\\"u}tting, Paul and Ivanov, Dmitry and Talgam-Cohen, Inbal and Parkes, David C",
+      "title": "Deep contract design via discontinuous networks",
+      "ENTRYTYPE": "article",
+      "ID": "wang2023deep"
+    },
+    {
+      "publisher": "American Association for the Advancement of Science",
+      "year": "2022",
+      "pages": "eabk2607",
+      "number": "18",
+      "volume": "8",
+      "journal": "Science advances",
+      "author": "Zheng, Stephan and Trott, Alexander and Srinivasa, Sunil and Parkes, David C and Socher, Richard",
+      "title": "The AI Economist: Taxation policy design via two-level deep multiagent reinforcement learning",
+      "ENTRYTYPE": "article",
+      "ID": "zheng2022ai"
+    },
+    {
+      "year": "2021",
+      "pages": "489--503",
+      "booktitle": "Proceedings of the 2021 ACM conference on fairness, accountability, and transparency",
+      "author": "Finocchiaro, Jessie and Maio, Roland and Monachou, Faidra and Patro, Gourab K and Raghavan, Manish and Stoica, Ana-Andreea and Tsirtsis, Stratis",
+      "title": "Bridging machine learning and mechanism design towards algorithmic fairness",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "finocchiaro2021bridging"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2410.13953",
+      "author": "Wang, Tonghan and Dong, Heng and Jiang, Yanchen and Parkes, David C and Tambe, Milind",
+      "title": "On Diffusion Models for Multi-Agent Partial Observability: Shared Attractors, Error Bounds, and Composite Flow",
+      "ENTRYTYPE": "article",
+      "ID": "wang2024diffusion"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2407.18074",
+      "author": "Ivanov, Dima and D{\\\"u}tting, Paul and Talgam-Cohen, Inbal and Wang, Tonghan and Parkes, David C",
+      "title": "Principal-Agent Reinforcement Learning: Orchestrating AI Agents with Contracts",
+      "ENTRYTYPE": "article",
+      "ID": "ivanov2024principal"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2502.12530",
+      "author": "Xinyi Yang and Liang Zeng and Heng Dong and Chao Yu and Xiaoran Wu and Huazhong Yang and Yu Wang and Milind Tambe and Tonghan Wang",
+      "title": "Policy-to-Language: Train LLMs to Explain Decisions with Flow-Matching Generated Rewards",
+      "ENTRYTYPE": "article",
+      "ID": "yang2025policy"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2024",
+      "pages": "60527--60540",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Zhang, Edwin and Zhao, Sadie and Wang, Tonghan and Hossain, Safwan and Gasztowtt, Henry and Zheng, Stephan and Parkes, David C and Tambe, Milind and Chen, Yiling",
+      "title": "Position: Social Environment Design Should be Further Developed for AI-based Policy-Making",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zhang2024position"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2024",
+      "pages": "18944--18971",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Hossain, Safwan and Wang, Tonghan and Lin, Tao and Chen, Yiling and Parkes, David C and Xu, Haifeng",
+      "title": "Multi-Sender Persuasion: A Computational Perspective",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "hossain2024multi"
+    },
+    {
+      "year": "2021",
+      "journal": "arXiv preprint arXiv:2104.11455",
+      "author": "Dong, Heng and Wang, Tonghan and Liu, Jiayuan and Han, Chi and Zhang, Chongjie",
+      "title": "Birds of a feather flock together: A close look at cooperation emergence via multi-agent rl",
+      "ENTRYTYPE": "article",
+      "ID": "dong2021birds"
+    },
+    {
+      "year": "2019",
+      "pages": "935--943",
+      "booktitle": "Proceedings of the 18th International Conference on Autonomous Agents and MultiAgent Systems",
+      "author": "Song, Xinliang and Wang, Tonghan and Zhang, Chongjie",
+      "title": "Convergence of Multi-Agent Learning with a Finite Step Size in General-Sum Games",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "song2019convergence"
+    },
+    {
+      "year": "2019",
+      "journal": "arXiv preprint arXiv:1907.05181",
+      "author": "Tacchetti, Andrea and Strouse, DJ and Garnelo, Marta and Graepel, Thore and Bachrach, Yoram",
+      "title": "A neural architecture for designing truthful and efficient auctions",
+      "ENTRYTYPE": "article",
+      "ID": "tacchetti2019neural"
+    },
+    {
+      "year": "2021",
+      "pages": "17532--17542",
+      "volume": "34",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Peri, Neehar and Curry, Michael and Dooley, Samuel and Dickerson, John",
+      "title": "Preferencenet: Encoding human preferences in auction design with deep learning",
+      "ENTRYTYPE": "article",
+      "ID": "peri2021preferencenet"
+    },
+    {
+      "year": "2020",
+      "pages": "4987--4998",
+      "volume": "33",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Curry, Michael and Chiang, Ping-Yeh and Goldstein, Tom and Dickerson, John",
+      "title": "Certifying strategyproof auction networks",
+      "ENTRYTYPE": "article",
+      "ID": "curry2020certifying"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2022",
+      "pages": "6062--6073",
+      "booktitle": "International Conference on Artificial Intelligence and Statistics",
+      "author": "Curry, Michael J and Lyi, Uro and Goldstein, Tom and Dickerson, John P",
+      "title": "Learning revenue-maximizing auctions with differentiable matching",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "curry2022learning"
+    },
+    {
+      "abstract": "One of the central problems in auction design is developing an incentive-compatible mechanism that maximizes the auctioneer’s expected revenue. While theoretical approaches have encountered bottlenecks in multi-item auctions, recently, there has been much progress on finding the optimal mechanism through deep learning. However, these works either focus on a fixed set of bidders and items, or restrict the auction to be symmetric. In this work, we overcome such limitations by factoring <em>public</em> contextual information of bidders and items into the auction learning framework. We propose $\\mathtt{CITransNet}$, a context-integrated transformer-based neural network for optimal auction design, which maintains permutation-equivariance over bids and contexts while being able to find asymmetric solutions. We show by extensive experiments that $\\mathtt{CITransNet}$ can recover the known optimal solutions in single-item settings, outperform strong baselines in multi-item auctions, and generalize well to cases other than those in training.",
+      "url": "https://proceedings.mlr.press/v162/duan22a.html",
+      "pdf": "https://proceedings.mlr.press/v162/duan22a/duan22a.pdf",
+      "publisher": "PMLR",
+      "month": "17--23 Jul",
+      "series": "Proceedings of Machine Learning Research",
+      "volume": "162",
+      "editor": "Chaudhuri, Kamalika and Jegelka, Stefanie and Song, Le and Szepesvari, Csaba and Niu, Gang and Sabato, Sivan",
+      "year": "2022",
+      "pages": "5609--5626",
+      "booktitle": "Proceedings of the 39th International Conference on Machine Learning",
+      "author": "Duan, Zhijian and Tang, Jingwu and Yin, Yutong and Feng, Zhe and Yan, Xiang and Zaheer, Manzil and Deng, Xiaotie",
+      "title": "A Context-Integrated Transformer-Based Neural Network for Auction Design",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "pmlr-v162-duan22a"
+    },
+    {
+      "bibsource": "dblp computer science bibliography, https://dblp.org",
+      "biburl": "https://dblp.org/rec/conf/nips/IvanovSFB22.bib",
+      "timestamp": "Thu, 11 May 2023 17:08:22 +0200",
+      "url": "http://papers.nips.cc/paper\\_files/paper/2022/hash/e0c07bb70721255482020afca44cabf2-Abstract-Conference.html",
+      "year": "2022",
+      "booktitle": "NeurIPS",
+      "title": "Optimal-er Auctions through Attention",
+      "author": "Dmitry Ivanov and\nIskander Safiulin and\nIgor Filippov and\nKsenia Balabaeva",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "DBLP:conf/nips/IvanovSFB22"
+    },
+    {
+      "bibsource": "dblp computer science bibliography, https://dblp.org",
+      "biburl": "https://dblp.org/rec/conf/aaai/RahmeJBW21.bib",
+      "timestamp": "Wed, 02 Jun 2021 18:09:11 +0200",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/16711",
+      "year": "2021",
+      "publisher": "{AAAI} Press",
+      "pages": "5664--5672",
+      "booktitle": "Thirty-Fifth {AAAI} Conference on Artificial Intelligence, {AAAI}\n2021, Thirty-Third Conference on Innovative Applications of Artificial\nIntelligence, {IAAI} 2021, The Eleventh Symposium on Educational Advances\nin Artificial Intelligence, {EAAI} 2021, Virtual Event, February 2-9,\n2021",
+      "title": "A Permutation-Equivariant Neural Network Architecture For Auction\nDesign",
+      "author": "Jad Rahme and\nSamy Jelassi and\nJoan Bruna and\nS. Matthew Weinberg",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "rahme2021permutation"
+    },
+    {
+      "year": "2021",
+      "journal": "arXiv preprint arXiv:2107.03427",
+      "author": "Ravindranath, Sai Srivatsa and Feng, Zhe and Li, Shira and Ma, Jonathan and Kominers, Scott D and Parkes, David C",
+      "title": "Deep learning for two-sided matching",
+      "ENTRYTYPE": "article",
+      "ID": "ravindranath2021deep"
+    },
+    {
+      "publisher": "Amsterdam: North-Holland",
+      "year": "1979",
+      "pages": "321--348",
+      "number": "2",
+      "volume": "12",
+      "journal": "Aggregation and revelation of preferences",
+      "author": "Roberts, Kevin",
+      "title": "The characterization of implementable choice rules",
+      "ENTRYTYPE": "article",
+      "ID": "roberts1979characterization"
+    },
+    {
+      "year": "2013",
+      "pages": "269--286",
+      "booktitle": "Proceedings of the fourteenth ACM conference on Electronic commerce",
+      "author": "Daskalakis, Constantinos and Deckelbaum, Alan and Tzamos, Christos",
+      "title": "Mechanism design via optimal transport",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "daskalakis2013mechanism"
+    },
+    {
+      "series": "UAI'02",
+      "location": "Alberta, Canada",
+      "numpages": "8",
+      "pages": "103–110",
+      "booktitle": "Proceedings of the Eighteenth Conference on Uncertainty in Artificial Intelligence",
+      "abstract": "The aggregation of conflicting preferences is a central problem in multiagent systems. The key difficulty is that the agents may report their preferences insincerely. Mechanism design is the art of designing the rules of the game so that the agents are motivated to report their preferences truthfully and a (socially) desirable outcome is chosen. We propose an approach where a mechanism is automatically created for the preference aggregation setting at hand. This has several advantages, but the downside is that the mechanism design optimization problem needs to be solved anew each time. Focusing-on settings where side payments are not possible, we show that the mechanism design problem is NP-complete for deterministic mechanisms. This holds both for dominantstrategy implementation and for Bayes-Nash implementation. We then show that if we allow randomized mechanisms, the mechanism design problem becomes tractable. In other words, the coordinator can tackle the computational complexity introduced by its uncertainty the agents face additional uncertainty. This comes at no loss, and in some cases at a gain, in the (social) objective.",
+      "address": "San Francisco, CA, USA",
+      "publisher": "Morgan Kaufmann Publishers Inc.",
+      "isbn": "1558608974",
+      "year": "2002",
+      "title": "Complexity of Mechanism Design",
+      "author": "Conitzer, Vincent and Sandholm, Tuomas",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "conitzer2002"
+    },
+    {
+      "year": "2007",
+      "pages": "243--251",
+      "booktitle": "Proceedings of the 8th ACM Conference on Electronic Commerce",
+      "author": "Chawla, Shuchi and Hartline, Jason D and Kleinberg, Robert",
+      "title": "Algorithmic pricing via virtual valuations",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "chawla2007algorithmic"
+    },
+    {
+      "year": "2016",
+      "booktitle": "Proceedings of the 25th International Joint Conference on Artificial Intelligence",
+      "author": "Narasimhan, Harikrishna and Agarwal, Shivani Brinda and Parkes, David C",
+      "title": "Automated mechanism design without money via machine learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "narasimhan2016automated"
+    },
+    {
+      "publisher": "ACM New York, NY, USA",
+      "year": "2015",
+      "author": "D{\\\"u}tting, Paul and Fischer, Felix and Jirapinyo, Pichayut and Lai, John K and Lubin, Benjamin and Parkes, David C",
+      "title": "Payment rules through discriminant-based classifiers",
+      "ENTRYTYPE": "misc",
+      "ID": "dutting2015payment"
+    },
+    {
+      "year": "2010",
+      "pages": "1676--1679",
+      "number": "1",
+      "volume": "24",
+      "booktitle": "Proceedings of the AAAI Conference on Artificial Intelligence",
+      "author": "Guo, Mingyu and Conitzer, Vincent",
+      "title": "Computationally feasible automated mechanism design: General approach and case studies",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "guo2010computationally"
+    },
+    {
+      "publisher": "INFORMS",
+      "year": "2015",
+      "pages": "1000--1025",
+      "number": "5",
+      "volume": "63",
+      "journal": "Operations Research",
+      "author": "Sandholm, Tuomas and Likhodedov, Anton",
+      "title": "Automated design of revenue-maximizing combinatorial auctions",
+      "ENTRYTYPE": "article",
+      "ID": "sandholm2015automated"
+    },
+    {
+      "year": "2016",
+      "volume": "29",
+      "journal": "Advances in neural information processing systems",
+      "author": "Hartford, Jason S and Wright, James R and Leyton-Brown, Kevin",
+      "title": "Deep learning for predicting human strategic behavior",
+      "ENTRYTYPE": "article",
+      "ID": "hartford2016deep"
+    },
+    {
+      "series": "EC '04",
+      "location": "New York, NY, USA",
+      "keywords": "combinatorial auctions, automated mechanism design, revenue maximization",
+      "numpages": "10",
+      "pages": "132–141",
+      "booktitle": "Proceedings of the 5th ACM Conference on Electronic Commerce",
+      "abstract": "Often, an outcome must be chosen on the basis of the preferences reported by a group of agents. The key difficulty is that the agents may report their preferences insincerely to make the chosen outcome more favorable to themselves. Mechanism design is the art of designing the rules of the game so that the agents are motivated to report their preferences truthfully, and a desirable outcome is chosen. In a recently proposed approach---called automated mechanism design ---a mechanism is computed for the preference aggregation setting at hand. This has several advantages, but the downside is that the mechanism design optimization problem needs to be solved anew each time. Unlike the earlier work on automated mechanism design that studied a benevolent designer, in this paper we study automated mechanism design problems where the designer is self-interested. In this case, the center cares only about which outcome is chosen and what payments are made to it. The reason that the agents' preferences are relevant is that the center is constrained to making each agent at least as well off as the agent would have been had it not participated in the mechanism. In this setting, we show that designing optimal deterministic mechanisms is NP-complete in two important special cases: when the center is interested only in the payments made to it, and when payments are not possible and the center is interested only in the outcome chosen. We then show how allowing for randomization in the mechanism makes problems in this setting computationally easy. Finally, we show that the payment-maximizing AMD problem is closely related to an interesting variant of the optimal (revenue-maximizing) combinatorial auction design problem, where the bidders have \"best-only\" preferences. We show that here, too, designing an optimal deterministic auction is NP-complete, but designing an optimal randomized auction is easy.",
+      "doi": "10.1145/988772.988793",
+      "url": "https://doi.org/10.1145/988772.988793",
+      "address": "New York, NY, USA",
+      "publisher": "Association for Computing Machinery",
+      "isbn": "1581137710",
+      "year": "2004",
+      "title": "Self-Interested Automated Mechanism Design and Implications for Optimal Combinatorial Auctions",
+      "author": "Conitzer, Vincent and Sandholm, Tuomas",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "conitzer2004"
+    },
+    {
+      "url": "https://www.gurobi.com",
+      "year": "2023",
+      "title": "{Gurobi Optimizer Reference Manual}",
+      "author": "{Gurobi Optimization, LLC}",
+      "ENTRYTYPE": "misc",
+      "ID": "gurobi"
+    },
+    {
+      "year": "2018",
+      "booktitle": "International Conference on Learning Representations",
+      "author": "Miyato, Takeru and Kataoka, Toshiki and Koyama, Masanori and Yoshida, Yuichi",
+      "title": "Spectral Normalization for Generative Adversarial Networks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "miyato2018spectral"
+    },
+    {
+      "year": "2013",
+      "number": "1",
+      "volume": "122",
+      "journal": "Book draft. October",
+      "author": "Hartline, Jason D",
+      "title": "Mechanism design and approximation",
+      "ENTRYTYPE": "article",
+      "ID": "hartline2013mechanism"
+    },
+    {
+      "year": "2016",
+      "pages": "926--939",
+      "booktitle": "Proceedings of the forty-eighth annual ACM symposium on Theory of Computing",
+      "author": "Cai, Yang and Devanur, Nikhil R and Weinberg, S Matthew",
+      "title": "A duality based unified approach to bayesian mechanism design",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "cai2016duality"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2402.04971",
+      "author": "Wang, Tonghan and Hossain, Safwan and Lin, Tao and Chen, Yiling and Parkes, David C and Xu, Haifeng",
+      "title": "Multi-Sender Persuasion--A Computational Perspective",
+      "ENTRYTYPE": "article",
+      "ID": "wang2024multi"
+    },
+    {
+      "booktitle": "Proceedings of the 37th International Conference on Machine Learning",
+      "title": "{ROMA}: Multi-Agent Reinforcement Learning with Emergent Roles",
+      "year": "2020",
+      "author": "Wang, Tonghan and Dong, Heng and Lesser, Victor and Zhang, Chongjie",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "wang2020roma"
+    },
+    {
+      "year": "2021",
+      "booktitle": "Proceedings of the International Conference on Learning Representations (ICLR)",
+      "author": "Wang, Tonghan and Gupta, Tarun and Mahajan, Anuj and Peng, Bei and Whiteson, Shimon and Zhang, Chongjie",
+      "title": "{RODE}: Learning Roles to Decompose Multi-Agent Tasks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "wang2021rode"
+    },
+    {
+      "year": "2018",
+      "volume": "31",
+      "journal": "Advances in neural information processing systems",
+      "author": "Chen, Ricky TQ and Rubanova, Yulia and Bettencourt, Jesse and Duvenaud, David K",
+      "title": "Neural ordinary differential equations",
+      "ENTRYTYPE": "article",
+      "ID": "chen2018neural"
+    },
+    {
+      "year": "2021",
+      "pages": "1--64",
+      "number": "57",
+      "volume": "22",
+      "journal": "Journal of Machine Learning Research",
+      "author": "Papamakarios, George and Nalisnick, Eric and Rezende, Danilo Jimenez and Mohamed, Shakir and Lakshminarayanan, Balaji",
+      "title": "Normalizing flows for probabilistic modeling and inference",
+      "ENTRYTYPE": "article",
+      "ID": "papamakarios2021normalizing"
+    },
+    {
+      "year": "1838",
+      "pages": "342--349",
+      "volume": "3",
+      "journal": "Journal de math{\\'e}matiques pures et appliqu{\\'e}es",
+      "author": "Liouville, Joseph",
+      "title": "Note sur la th{\\'e}orie de la variation des constantes arbitraires",
+      "ENTRYTYPE": "article",
+      "ID": "liouville1838note"
+    },
+    {
+      "year": "2021",
+      "booktitle": "International Conference on Learning Representations",
+      "author": "Song, Yang and Sohl-Dickstein, Jascha and Kingma, Diederik P and Kumar, Abhishek and Ermon, Stefano and Poole, Ben",
+      "title": "Score-Based Generative Modeling through Stochastic Differential Equations",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "song2021score"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2209.03003",
+      "author": "Liu, Xingchao and Gong, Chengyue and Liu, Qiang",
+      "title": "Flow straight and fast: Learning to generate and transfer data with rectified flow",
+      "ENTRYTYPE": "article",
+      "ID": "liu2022flow"
+    },
+    {
+      "year": "2022",
+      "pages": "5775--5787",
+      "volume": "35",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Lu, Cheng and Zhou, Yuhao and Bao, Fan and Chen, Jianfei and Li, Chongxuan and Zhu, Jun",
+      "title": "Dpm-solver: A fast ode solver for diffusion probabilistic model sampling in around 10 steps",
+      "ENTRYTYPE": "article",
+      "ID": "lu2022dpm"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "1982",
+      "pages": "313--326",
+      "number": "3",
+      "volume": "12",
+      "journal": "Stochastic Processes and their Applications",
+      "author": "Anderson, Brian DO",
+      "title": "Reverse-time diffusion equation models",
+      "ENTRYTYPE": "article",
+      "ID": "anderson1982reverse"
+    },
+    {
+      "year": "2024",
+      "volume": "36",
+      "journal": "Advances in neural information processing systems",
+      "author": "Gruver, Nate and Stanton, Samuel and Frey, Nathan and Rudner, Tim GJ and Hotzel, Isidro and Lafrance-Vanasse, Julien and Rajpal, Arvind and Cho, Kyunghyun and Wilson, Andrew G",
+      "title": "Protein design with guided discrete diffusion",
+      "ENTRYTYPE": "article",
+      "ID": "gruver2024protein"
+    },
+    {
+      "year": "2023",
+      "pages": "23206--23217",
+      "booktitle": "Proceedings of the IEEE/CVF International Conference on Computer Vision",
+      "author": "Ceylan, Duygu and Huang, Chun-Hao P and Mitra, Niloy J",
+      "title": "Pix2video: Video editing using image diffusion",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ceylan2023pix2video"
+    },
+    {
+      "year": "2022",
+      "pages": "10684--10695",
+      "booktitle": "Proceedings of the IEEE/CVF conference on computer vision and pattern recognition",
+      "author": "Rombach, Robin and Blattmann, Andreas and Lorenz, Dominik and Esser, Patrick and Ommer, Bj{\\\"o}rn",
+      "title": "High-resolution image synthesis with latent diffusion models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "rombach2022high"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2210.02303",
+      "author": "Ho, Jonathan and Chan, William and Saharia, Chitwan and Whang, Jay and Gao, Ruiqi and Gritsenko, Alexey and Kingma, Diederik P and Poole, Ben and Norouzi, Mohammad and Fleet, David J and others",
+      "title": "Imagen video: High definition video generation with diffusion models",
+      "ENTRYTYPE": "article",
+      "ID": "ho2022imagen"
+    },
+    {
+      "year": "2022",
+      "pages": "8633--8646",
+      "volume": "35",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Ho, Jonathan and Salimans, Tim and Gritsenko, Alexey and Chan, William and Norouzi, Mohammad and Fleet, David J",
+      "title": "Video diffusion models",
+      "ENTRYTYPE": "article",
+      "ID": "ho2022video"
+    },
+    {
+      "year": "2024",
+      "booktitle": "Forty-first International Conference on Machine Learning",
+      "author": "Lou, Aaron and Meng, Chenlin and Ermon, Stefano",
+      "title": "Discrete Diffusion Modeling by Estimating the Ratios of the Data Distribution",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "lou2024discrete"
+    },
+    {
+      "year": "2023",
+      "note": "[Online; accessed 24-January-2025]",
+      "howpublished": "\\url{https://stability.ai/news/stable-diffusion-3}",
+      "title": "{Stable Diffusion 3}",
+      "author": "Stability{ }AI",
+      "ENTRYTYPE": "misc",
+      "ID": "stabilityAI2023"
+    },
+    {
+      "year": "2024",
+      "booktitle": "Forty-first International Conference on Machine Learning",
+      "author": "Esser, Patrick and Kulal, Sumith and Blattmann, Andreas and Entezari, Rahim and M{\\\"u}ller, Jonas and Saini, Harry and Levi, Yam and Lorenz, Dominik and Sauer, Axel and Boesel, Frederic and others",
+      "title": "Scaling rectified flow transformers for high-resolution image synthesis",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "esser2024scaling"
+    },
+    {
+      "year": "2020",
+      "pages": "6840--6851",
+      "volume": "33",
+      "journal": "Advances in neural information processing systems",
+      "author": "Ho, Jonathan and Jain, Ajay and Abbeel, Pieter",
+      "title": "Denoising diffusion probabilistic models",
+      "ENTRYTYPE": "article",
+      "ID": "ho2020denoising"
+    },
+    {
+      "year": "2024",
+      "booktitle": "The Twelfth International Conference on Learning Representations",
+      "author": "Kadkhodaie, Zahra and Guth, Florentin and Simoncelli, Eero P and Mallat, St{\\'e}phane",
+      "title": "Generalization in diffusion models arises from geometry-adaptive harmonic representations",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "kadkhodaie2023generalization"
+    },
+    {
+      "year": "2019",
+      "volume": "32",
+      "journal": "Advances in neural information processing systems",
+      "author": "Song, Yang and Ermon, Stefano",
+      "title": "Generative modeling by estimating gradients of the data distribution",
+      "ENTRYTYPE": "article",
+      "ID": "song2019generative"
+    },
+    {
+      "year": "2022",
+      "booktitle": "The Eleventh International Conference on Learning Representations",
+      "author": "Lipman, Yaron and Chen, Ricky TQ and Ben-Hamu, Heli and Nickel, Maximilian and Le, Matthew",
+      "title": "Flow Matching for Generative Modeling",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "lipman2022flow"
+    },
+    {
+      "year": "2000",
+      "pages": "66--76",
+      "booktitle": "Proceedings of the 2nd ACM conference on Electronic commerce",
+      "author": "Leyton-Brown, Kevin and Pearson, Mark and Shoham, Yoav",
+      "title": "Towards a universal test suite for combinatorial auction algorithms",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "leyton2000towards"
+    },
+    {
+      "year": "2017",
+      "pages": "51--59",
+      "address": "São Paulo, Brazil",
+      "booktitle": "Proceedings of the 16th Conference on Autonomous Agents and MultiAgent Systems",
+      "author": "Weiss, Michael and Lubin, Benjamin and Seuken, Sven",
+      "title": "Sats: A universal spectrum auction test suite",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "weiss2017sats"
+    },
+    {
+      "url": "https://openreview.net/forum?id=rkE3y85ee",
+      "year": "2017",
+      "booktitle": "International Conference on Learning Representations",
+      "author": "Eric Jang and Shixiang Gu and Ben Poole",
+      "title": "Categorical Reparameterization with Gumbel-Softmax",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "jang2017categorical"
+    }
+  ]
+}

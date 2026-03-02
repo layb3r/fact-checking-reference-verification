@@ -1,0 +1,642 @@
+{
+  "pdf_url": "https://arxiv.org/pdf/2510.06307v1.pdf",
+  "references": [
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2405.20200",
+      "author": "Dineen, Jacob and Kridel, Don and Dolk, Daniel and Castillo, David",
+      "title": "Unified Explanations in Machine Learning Models: A Perturbation Approach",
+      "ENTRYTYPE": "article",
+      "ID": "dineen2024unified"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2407.14259",
+      "author": "Vitsakis, Nikolas and Parekh, Amit and Konstas, Ioannis",
+      "title": "Voices in a Crowd: Searching for Clusters of Unique Perspectives",
+      "ENTRYTYPE": "article",
+      "ID": "vitsakis2024voices"
+    },
+    {
+      "note": "\\url{https://doi.org/10.1145/584091.584093}",
+      "publisher": "ACM New York, NY, USA",
+      "year": "2001",
+      "pages": "3--55",
+      "number": "1",
+      "volume": "5",
+      "journal": "ACM SIGMOBILE mobile computing and communications review",
+      "author": "Shannon, Claude Elwood",
+      "title": "A mathematical theory of communication",
+      "ENTRYTYPE": "article",
+      "ID": "shannon2001mathematical"
+    },
+    {
+      "volume": "2170",
+      "journal": "URL https://arxiv. org/abs/2310",
+      "author": "Liu, Zijun and Zhang, Yanzhe and Li, Peng and Liu, Yang and Yang, Diyi",
+      "title": "A dynamic {LLM}-powered agent network for task-oriented agent collaboration, 2024",
+      "ENTRYTYPE": "article",
+      "ID": "liu2310dynamic"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2310.20151",
+      "author": "Chen, Huaben and Ji, Wenkang and Xu, Lufeng and Zhao, Shiyu",
+      "title": "Multi-agent consensus seeking via large language models",
+      "ENTRYTYPE": "article",
+      "ID": "chen2023multi"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2410.07240",
+      "author": "Hewson, Joshua TS and Fang, Ke",
+      "title": "Evaluating internal and external dissonance of belief dynamics in social systems",
+      "ENTRYTYPE": "article",
+      "ID": "hewson2024evaluating"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2501.12868",
+      "author": "Li, Jingshu and Yang, Yitian and Liao, Q Vera and Zhang, Junti and Lee, Yi-Chieh",
+      "title": "As Confidence Aligns: Exploring the Effect of AI Confidence on Human Self-confidence in Human-AI Decision Making",
+      "ENTRYTYPE": "article",
+      "ID": "li2025confidence"
+    },
+    {
+      "publisher": "Springer",
+      "year": "2023",
+      "pages": "5750--5765",
+      "number": "5",
+      "volume": "53",
+      "journal": "Applied Intelligence",
+      "author": "Xie, Guangqiang and Xu, Haoran and Li, Yang and Hu, Xianbiao and Wang, Chang-Dong",
+      "title": "Consensus enhancement for multi-agent systems with rotating-segmentation perception",
+      "ENTRYTYPE": "article",
+      "ID": "xie2023consensus"
+    },
+    {
+      "pages": "180--192",
+      "doi": "10.18653/v1/2023.emnlp-main.13",
+      "url": "https://aclanthology.org/2023.emnlp-main.13/",
+      "publisher": "Association for Computational Linguistics",
+      "address": "Singapore",
+      "year": "2023",
+      "month": "December",
+      "booktitle": "Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing",
+      "editor": "Bouamor, Houda  and\nPino, Juan  and\nBali, Kalika",
+      "author": "Li, Huao  and\nChong, Yu  and\nStepputtis, Simon  and\nCampbell, Joseph  and\nHughes, Dana  and\nLewis, Charles  and\nSycara, Katia",
+      "title": "Theory of Mind for Multi-Agent Collaboration via Large Language Models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "li-etal-2023-theory"
+    },
+    {
+      "publisher": "Public Library of Science San Francisco, CA USA",
+      "year": "2016",
+      "pages": "e0165910",
+      "number": "11",
+      "volume": "11",
+      "journal": "PLoS one",
+      "author": "Rodriguez, Nathaniel and Bollen, Johan and Ahn, Yong-Yeol",
+      "title": "Collective dynamics of belief evolution under cognitive coherence and social conformity",
+      "ENTRYTYPE": "article",
+      "ID": "rodriguez2016collective"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "2024",
+      "pages": "124308",
+      "volume": "254",
+      "journal": "Expert systems with applications",
+      "author": "Pei, Feng and Gao, Yue and Yan, An and Zhou, Mi and Wu, Jian",
+      "title": "Conflict elimination based on opinion dynamics in fuzzy group decision-making",
+      "ENTRYTYPE": "article",
+      "ID": "pei2024conflict"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "2024",
+      "pages": "129921",
+      "volume": "648",
+      "journal": "Physica A: Statistical Mechanics and its Applications",
+      "author": "Sim{\\~o}es, Tiago SAN and Coniglio, Antonio and Herrmann, Hans J and de Arcangelis, Lucilla",
+      "title": "Modeling public opinion control by a charismatic leader",
+      "ENTRYTYPE": "article",
+      "ID": "simoes2024modeling"
+    },
+    {
+      "year": "2020",
+      "journal": "arXiv preprint arXiv:2009.03300",
+      "author": "Hendrycks, Dan and Burns, Collin and Basart, Steven and Zou, Andy and Mazeika, Mantas and Song, Dawn and Steinhardt, Jacob",
+      "title": "Measuring massive multitask language understanding",
+      "ENTRYTYPE": "article",
+      "ID": "hendrycks2020measuring"
+    },
+    {
+      "year": "2024",
+      "journal": "URL https://arxiv. org/abs/2103.03874",
+      "author": "Hendrycks, Dan and Burns, Collin and Kadavath, Saurav and Arora, Akul and Basart, Steven and Tang, Eric and Song, Dawn and Steinhardt, Jacob",
+      "title": "Measuring mathematical problem solving with the math dataset",
+      "ENTRYTYPE": "article",
+      "ID": "hendrycks2024measuring"
+    },
+    {
+      "year": "2025",
+      "pages": "arXiv--2502",
+      "journal": "arXiv e-prints",
+      "author": "Benedikt Kaesberg, Lars and Becker, Jonas and Wahle, Jan Philip and Ruas, Terry and Gipp, Bela",
+      "title": "Voting or Consensus? {D}ecision-Making in Multi-Agent Debate",
+      "ENTRYTYPE": "article",
+      "ID": "benedikt2025voting"
+    },
+    {
+      "year": "2022",
+      "pages": "24824--24837",
+      "volume": "35",
+      "journal": "Advances in neural information processing systems",
+      "author": "Wei, Jason and Wang, Xuezhi and Schuurmans, Dale and Bosma, Maarten and Xia, Fei and Chi, Ed and Le, Quoc V and Zhou, Denny and others",
+      "title": "Chain-of-thought prompting elicits reasoning in large language models",
+      "ENTRYTYPE": "article",
+      "ID": "wei2022chain"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2405.06682",
+      "author": "Renze, Matthew and Guven, Erhan",
+      "title": "Self-reflection in {LLM} agents: Effects on problem-solving performance",
+      "ENTRYTYPE": "article",
+      "ID": "renze2024self"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2203.11171",
+      "author": "Wang, Xuezhi and Wei, Jason and Schuurmans, Dale and Le, Quoc and Chi, Ed and Narang, Sharan and Chowdhery, Aakanksha and Zhou, Denny",
+      "title": "Self-consistency improves chain of thought reasoning in language models",
+      "ENTRYTYPE": "article",
+      "ID": "wang2022self"
+    },
+    {
+      "pages": "15135--15153",
+      "doi": "10.18653/v1/2023.emnlp-main.936",
+      "url": "https://aclanthology.org/2023.emnlp-main.936/",
+      "publisher": "Association for Computational Linguistics",
+      "address": "Singapore",
+      "year": "2023",
+      "month": "December",
+      "booktitle": "Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing",
+      "editor": "Bouamor, Houda  and\nPino, Juan  and\nBali, Kalika",
+      "author": "Yin, Zhangyue  and\nSun, Qiushi  and\nChang, Cheng  and\nGuo, Qipeng  and\nDai, Junqi  and\nHuang, Xuanjing  and\nQiu, Xipeng",
+      "title": "Exchange-of-Thought: Enhancing Large Language Model Capabilities through Cross-Model Communication",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "yin-etal-2023-exchange"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2409.14051",
+      "author": "Liu, Tongxuan and Wang, Xingyu and Huang, Weizhe and Xu, Wenjiang and Zeng, Yuting and Jiang, Lei and Yang, Hailong and Li, Jing",
+      "title": "Groupdebate: Enhancing the efficiency of multi-agent debate using group discussion",
+      "ENTRYTYPE": "article",
+      "ID": "liu2024groupdebate"
+    },
+    {
+      "series": "ICML'24",
+      "location": "Vienna, Austria",
+      "numpages": "31",
+      "articleno": "467",
+      "publisher": "JMLR.org",
+      "year": "2024",
+      "title": "Improving factuality and reasoning in language models through multiagent debate",
+      "author": "Du, Yilun and Li, Shuang and Torralba, Antonio and Tenenbaum, Joshua B. and Mordatch, Igor",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "10.5555/3692070.3692537"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2406.11776",
+      "author": "Li, Yunxuan and Du, Yibing and Zhang, Jiageng and Hou, Le and Grabowski, Peter and Li, Yeqing and Ie, Eugene",
+      "title": "Improving multi-agent debate with sparse communication topology",
+      "ENTRYTYPE": "article",
+      "ID": "li2024improving"
+    },
+    {
+      "pages": "6106--6131",
+      "doi": "10.18653/v1/2024.acl-long.331",
+      "url": "https://aclanthology.org/2024.acl-long.331/",
+      "publisher": "Association for Computational Linguistics",
+      "address": "Bangkok, Thailand",
+      "year": "2024",
+      "month": "August",
+      "booktitle": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+      "editor": "Ku, Lun-Wei  and\nMartins, Andre  and\nSrikumar, Vivek",
+      "author": "Wang, Qineng  and\nWang, Zihao  and\nSu, Ying  and\nTong, Hanghang  and\nSong, Yangqiu",
+      "title": "Rethinking the Bounds of {LLM} Reasoning: Are Multi-Agent Discussions the Key?",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "wang-etal-2024-rethinking-bounds"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2412.15115",
+      "author": "Yang, An and Yang, Baosong and Zhang, Beichen and Hui, Binyuan and Zheng, Bo and Yu, Bowen and Li, Chengyuan and Liu, Dayiheng and Huang, Fei and Wei, Haoran and others",
+      "title": "Qwen2.5 technical report",
+      "ENTRYTYPE": "article",
+      "ID": "yang2024qwen2"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2501.12948",
+      "author": "Guo, Daya and Yang, Dejian and Zhang, Haowei and Song, Junxiao and Zhang, Ruoyu and Xu, Runxin and Zhu, Qihao and Ma, Shirong and Wang, Peiyi and Bi, Xiao and others",
+      "title": "{Deepseek-R1}: Incentivizing reasoning capability in {LLMs} via reinforcement learning",
+      "ENTRYTYPE": "article",
+      "ID": "guo2025deepseek"
+    },
+    {
+      "pages": "257--279",
+      "doi": "10.18653/v1/2024.naacl-long.15",
+      "url": "https://aclanthology.org/2024.naacl-long.15/",
+      "publisher": "Association for Computational Linguistics",
+      "address": "Mexico City, Mexico",
+      "year": "2024",
+      "month": "June",
+      "booktitle": "Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers)",
+      "editor": "Duh, Kevin  and\nGomez, Helena  and\nBethard, Steven",
+      "author": "Wang, Zhenhailong  and\nMao, Shaoguang  and\nWu, Wenshan  and\nGe, Tao  and\nWei, Furu  and\nJi, Heng",
+      "title": "Unleashing the Emergent Cognitive Synergy in Large Language Models: A Task-Solving Agent through Multi-Persona Self-Collaboration",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "wang-etal-2024-unleashing"
+    },
+    {
+      "url": "https://arxiv.org/abs/2502.08788",
+      "primaryclass": "cs.CL",
+      "archiveprefix": "arXiv",
+      "eprint": "2502.08788",
+      "year": "2025",
+      "author": "Hangfan Zhang and Zhiyao Cui and Xinrun Wang and Qiaosheng Zhang and Zhen Wang and Dinghao Wu and Shuyue Hu",
+      "title": "If Multi-Agent Debate is the Answer, What is the Question?",
+      "ENTRYTYPE": "misc",
+      "ID": "zhang2025multiagentdebateanswerquestion"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "2025",
+      "pages": "129063",
+      "volume": "618",
+      "journal": "Neurocomputing",
+      "author": "Wang, Haotian and Du, Xiyuan and Yu, Weijiang and Chen, Qianglong and Zhu, Kun and Chu, Zheng and Yan, Lian and Guan, Yi",
+      "title": "Learning to break: Knowledge-enhanced reasoning in multi-agent debate system",
+      "ENTRYTYPE": "article",
+      "ID": "wang2025learning"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "2022",
+      "pages": "5936--5943",
+      "volume": "10",
+      "journal": "IEEE Access",
+      "author": "Geng, Hua and Wu, Hongyang and Miao, Jingli and Hou, Shuai and Chen, Zengqiang",
+      "title": "Consensus of heterogeneous multi-agent systems under directed topology",
+      "ENTRYTYPE": "article",
+      "ID": "geng2022consensus"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2402.05120",
+      "author": "Li, Junyou and Zhang, Qin and Yu, Yangbin and Fu, Qiang and Ye, Deheng",
+      "title": "More agents is all you need",
+      "ENTRYTYPE": "article",
+      "ID": "li2024more"
+    },
+    {
+      "publisher": "INFORMS",
+      "year": "2025",
+      "pages": "459--481",
+      "number": "1",
+      "volume": "50",
+      "journal": "Mathematics of Operations Research",
+      "author": "Wu, Manxi and Amin, Saurabh and Ozdaglar, Asuman",
+      "title": "Convergence and Stability of Coupled Belief-Strategy Learning Dynamics in Continuous Games",
+      "ENTRYTYPE": "article",
+      "ID": "wu2025convergence"
+    },
+    {
+      "year": "2023",
+      "pages": "823--848",
+      "volume": "78",
+      "journal": "Journal of Artificial Intelligence Research",
+      "author": "Liu, Bin and Yin, Guosheng",
+      "title": "Graphmax for Text Generation",
+      "ENTRYTYPE": "article",
+      "ID": "liu2023graphmax"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2412.20299",
+      "author": "Yao, Binwei and Cai, Zefan and Chuang, Yun-Shiuan and Yang, Shanglin and Jiang, Ming and Yang, Diyi and Hu, Junjie",
+      "title": "No Preference Left Behind: Group Distributional Preference Optimization",
+      "ENTRYTYPE": "article",
+      "ID": "yao2024no"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2403.03628",
+      "author": "Reuter, Arik and Thielmann, Anton and Weisser, Christoph and Fischer, Sebastian and S{\\\"a}fken, Benjamin",
+      "title": "{GPTopic}: Dynamic and interactive topic representations",
+      "ENTRYTYPE": "article",
+      "ID": "reuter2024gptopic"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2309.01015",
+      "author": "Zhang, Xinche and others",
+      "title": "{MPTopic}: Improving topic modeling via Masked Permuted pre-training",
+      "ENTRYTYPE": "article",
+      "ID": "zhang2023mptopic"
+    },
+    {
+      "organization": "IEEE",
+      "year": "2023",
+      "pages": "1--5",
+      "booktitle": "2023 IEEE 20th International Symposium on Biomedical Imaging (ISBI)",
+      "author": "El Jurdi, Rosana and Colliot, Olivier",
+      "title": "How precise are performance estimates for typical medical image segmentation tasks?",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "el2023precise"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2403.07185",
+      "author": "Wang, Fangxin and Liu, Yuqing and Liu, Kay and Wang, Yibo and Medya, Sourav and Yu, Philip S",
+      "title": "Uncertainty in graph neural networks: A survey",
+      "ENTRYTYPE": "article",
+      "ID": "wang2024uncertainty"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2406.15492",
+      "author": "Cisneros-Velarde, Pedro",
+      "title": "On the Principles behind Opinion Dynamics in Multi-Agent Systems of Large Language Models",
+      "ENTRYTYPE": "article",
+      "ID": "cisneros2024principles"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2502.19622",
+      "author": "Chen, Yanan and Pesaranghader, Ali and Sadhu, Tanmana",
+      "title": "Weaker {LLMs'} Opinions Also Matter: Mixture of Opinions Enhances {LLM's} Mathematical Reasoning",
+      "ENTRYTYPE": "article",
+      "ID": "chen2025weaker"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2308.03313",
+      "author": "Li, Chao and Su, Xing and Han, Haoying and Xue, Cong and Zheng, Chunmo and Fan, Chao",
+      "title": "Quantifying the impact of large language models on collective opinion dynamics",
+      "ENTRYTYPE": "article",
+      "ID": "li2023quantifying"
+    },
+    {
+      "pages": "3326--3346",
+      "doi": "10.18653/v1/2024.findings-naacl.211",
+      "url": "https://aclanthology.org/2024.findings-naacl.211/",
+      "publisher": "Association for Computational Linguistics",
+      "address": "Mexico City, Mexico",
+      "year": "2024",
+      "month": "June",
+      "booktitle": "Findings of the Association for Computational Linguistics: NAACL 2024",
+      "editor": "Duh, Kevin  and\nGomez, Helena  and\nBethard, Steven",
+      "author": "Chuang, Yun-Shiuan  and\nGoyal, Agam  and\nHarlalka, Nikunj  and\nSuresh, Siddharth  and\nHawkins, Robert  and\nYang, Sijia  and\nShah, Dhavan  and\nHu, Junjie  and\nRogers, Timothy",
+      "title": "Simulating Opinion Dynamics with Networks of {LLM}-based Agents",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "chuang-etal-2024-simulating"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2501.06322",
+      "author": "Tran, Khanh-Tung and Dao, Dung and Nguyen, Minh-Duong and Pham, Quoc-Viet and O'Sullivan, Barry and Nguyen, Hoang D",
+      "title": "Multi-Agent Collaboration Mechanisms: A Survey of {LLMs}",
+      "ENTRYTYPE": "article",
+      "ID": "tran2025multi"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2309.13007",
+      "author": "Chen, Justin Chih-Yao and Saha, Swarnadeep and Bansal, Mohit",
+      "title": "Reconcile: Round-table conference improves reasoning via consensus among diverse {LLMs}",
+      "ENTRYTYPE": "article",
+      "ID": "chen2023reconcile"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2402.06782",
+      "author": "Khan, Akbir and Hughes, John and Valentine, Dan and Ruis, Laura and Sachan, Kshitij and Radhakrishnan, Ansh and Grefenstette, Edward and Bowman, Samuel R and Rockt{\\\"a}schel, Tim and Perez, Ethan",
+      "title": "Debating with more persuasive {LLMs} leads to more truthful answers",
+      "ENTRYTYPE": "article",
+      "ID": "khan2024debating"
+    },
+    {
+      "pages": "251--267",
+      "doi": "10.18653/v1/2024.emnlp-main.16",
+      "url": "https://aclanthology.org/2024.emnlp-main.16/",
+      "publisher": "Association for Computational Linguistics",
+      "address": "Miami, Florida, USA",
+      "year": "2024",
+      "month": "November",
+      "booktitle": "Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing",
+      "editor": "Al-Onaizan, Yaser  and\nBansal, Mohit  and\nChen, Yun-Nung",
+      "author": "Taubenfeld, Amir  and\nDover, Yaniv  and\nReichart, Roi  and\nGoldstein, Ariel",
+      "title": "Systematic Biases in {LLM} Simulations of Debates",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "taubenfeld-etal-2024-systematic"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2412.06229",
+      "author": "Aryan, Prakash",
+      "title": "{LLMs} as Debate Partners: Utilizing Genetic Algorithms and Adversarial Search for Adaptive Arguments",
+      "ENTRYTYPE": "article",
+      "ID": "aryan2024llms"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2310.09139",
+      "author": "Jacob, Athul Paul and Shen, Yikang and Farina, Gabriele and Andreas, Jacob",
+      "title": "The consensus game: Language model generation via equilibrium search",
+      "ENTRYTYPE": "article",
+      "ID": "jacob2023consensus"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2411.10184",
+      "author": "Jannelli, Valeria and Schoepf, Stefan and Bickel, Matthias and Netland, Torbj{\\o}rn and Brintrup, Alexandra",
+      "title": "Agentic {LLMs} in the Supply Chain: Towards Autonomous Multi-Agent Consensus-Seeking",
+      "ENTRYTYPE": "article",
+      "ID": "jannelli2024agentic"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "2014",
+      "pages": "1480--1494",
+      "number": "6",
+      "volume": "59",
+      "journal": "IEEE Transactions on Automatic Control",
+      "author": "Clark, Andrew and Alomair, Basel and Bushnell, Linda and Poovendran, Radha",
+      "title": "Minimizing convergence error in multi-agent systems via leader selection: A supermodular optimization approach",
+      "ENTRYTYPE": "article",
+      "ID": "clark2014minimizing"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "2021",
+      "pages": "1116--1127",
+      "number": "3",
+      "volume": "8",
+      "journal": "IEEE Transactions on Control of Network Systems",
+      "author": "Yi, Yuhao and Castiglia, Timothy and Patterson, Stacy",
+      "title": "Shifting opinions in a social network through leader selection",
+      "ENTRYTYPE": "article",
+      "ID": "yi2021shifting"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2505.05103",
+      "author": "Luo, Haoxiang and Sun, Gang and Liu, Yinqiu and Zhao, Dongcheng and Niyato, Dusit and Yu, Hongfang and Dustdar, Schahram",
+      "title": "A Weighted Byzantine Fault Tolerance Consensus Driven Trusted Multiple Large Language Models Network",
+      "ENTRYTYPE": "article",
+      "ID": "luo2025weighted"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2301.04817",
+      "author": "Losa, Giuliano and Gafni, Eli",
+      "title": "Consensus in the unknown-participation message-adversary model",
+      "ENTRYTYPE": "article",
+      "ID": "losa2023consensus"
+    },
+    {
+      "organization": "Springer",
+      "year": "2024",
+      "pages": "158--173",
+      "booktitle": "International Conference on Intelligent Systems and Pattern Recognition",
+      "author": "Trad, Fouad and Chehab, Ali",
+      "title": "To ensemble or not: Assessing majority voting strategies for phishing detection with large language models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "trad2024ensemble"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "2024",
+      "journal": "IEEE Transactions on Neural Networks and Learning Systems",
+      "author": "Aeeneh, Sina and Zlatanov, Nikola and Yu, Jiangshan",
+      "title": "New Bounds on the Accuracy of Majority Voting for Multiclass Classification",
+      "ENTRYTYPE": "article",
+      "ID": "aeeneh2024new"
+    },
+    {
+      "year": "2022",
+      "pages": "168--181",
+      "booktitle": "Proceedings of the 2022 ACM on Asia Conference on Computer and Communications Security",
+      "author": "Ranchal-Pedrosa, Alejandro and Gramoli, Vincent",
+      "title": "{TRAP}: The bait of rational players to solve byzantine consensus",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ranchal2022trap"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2311.03034",
+      "author": "Tseng, Lewis and Sardina, Callie",
+      "title": "Byzantine consensus in abstract {MAC} layer",
+      "ENTRYTYPE": "article",
+      "ID": "tseng2023byzantine"
+    },
+    {
+      "year": "2013",
+      "pages": "65--73",
+      "booktitle": "Proceedings of the 2013 ACM symposium on Principles of distributed computing",
+      "author": "Vaidya, Nitin H and Garg, Vijay K",
+      "title": "Byzantine vector consensus in complete graphs",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "vaidya2013byzantine"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2412.05449",
+      "author": "Shu, Raphael and Das, Nilaksh and Yuan, Michelle and Sunkara, Monica and Zhang, Yi",
+      "title": "Towards effective {GenAI} multi-agent collaboration: Design and evaluation for enterprise applications",
+      "ENTRYTYPE": "article",
+      "ID": "shu2024towards"
+    },
+    {
+      "doi": "10.1109/COMST.2020.2969706",
+      "keywords": "Consensus protocol;Fault tolerance;Fault tolerant systems;Security;Tutorials;Blockchain;distributed consensus;fault tolerance;protocol design",
+      "pages": "1432-1465",
+      "number": "2",
+      "volume": "22",
+      "year": "2020",
+      "title": "A Survey of Distributed Consensus Protocols for Blockchain Networks",
+      "journal": "IEEE Communications Surveys \\& Tutorials",
+      "author": "Xiao, Yang and Zhang, Ning and Lou, Wenjing and Hou, Y. Thomas",
+      "ENTRYTYPE": "article",
+      "ID": "8972381"
+    },
+    {
+      "url": "https://arxiv.org/abs/2201.01322",
+      "primaryclass": "physics.soc-ph",
+      "archiveprefix": "arXiv",
+      "eprint": "2201.01322",
+      "year": "2022",
+      "author": "Antonio F. Peralta and János Kertész and Gerardo Iñiguez",
+      "title": "Opinion dynamics in social networks: From models to data",
+      "ENTRYTYPE": "misc",
+      "ID": "peralta2022opiniondynamicssocialnetworks"
+    },
+    {
+      "doi": "10.1109/ICACCS.2017.8014672",
+      "keywords": "Protocols;Peer-to-peer computing;Contracts;Bitcoin;Fault tolerance;Fault tolerant systems;Law;Blockchain;Byzantine Fault Tolerance;Consensus Protocol;Quorum Slice",
+      "pages": "1-5",
+      "number": "",
+      "volume": "",
+      "year": "2017",
+      "title": "Survey of consensus protocols on blockchain applications",
+      "booktitle": "2017 4th International Conference on Advanced Computing and Communication Systems (ICACCS)",
+      "author": "Sankar, Lakshmi Siva and Sindhu, M. and Sethumadhavan, M.",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "8014672"
+    },
+    {
+      "url": "https://arxiv.org/abs/2206.05637",
+      "primaryclass": "cs.MA",
+      "archiveprefix": "arXiv",
+      "eprint": "2206.05637",
+      "year": "2023",
+      "author": "Manxi Wu and Saurabh Amin and Asuman Ozdaglar",
+      "title": "Convergence and Stability of Coupled Belief-Strategy Learning Dynamics in Continuous Games",
+      "ENTRYTYPE": "misc",
+      "ID": "wu2023convergencestabilitycoupledbeliefstrategy"
+    },
+    {
+      "url": "https://arxiv.org/abs/0710.3536",
+      "primaryclass": "cs.GT",
+      "archiveprefix": "arXiv",
+      "eprint": "0710.3536",
+      "year": "2008",
+      "author": "Krzysztof R. Apt and Jonathan A. Zvesper",
+      "title": "Common Beliefs and Public Announcements in Strategic Games with Arbitrary Strategy Sets",
+      "ENTRYTYPE": "misc",
+      "ID": "apt2008commonbeliefspublicannouncements"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2501.13381",
+      "author": "Weng, Zhiyuan and Chen, Guikun and Wang, Wenguan",
+      "title": "Do as we do, not as you think: the conformity of large language models",
+      "ENTRYTYPE": "article",
+      "ID": "weng2025we"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2311.13240",
+      "author": "Zhu, Chiwei and Xu, Benfeng and Wang, Quan and Zhang, Yongdong and Mao, Zhendong",
+      "title": "On the calibration of large language models and alignment",
+      "ENTRYTYPE": "article",
+      "ID": "zhu2023calibration"
+    }
+  ]
+}

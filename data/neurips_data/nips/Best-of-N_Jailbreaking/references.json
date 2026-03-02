@@ -1,0 +1,1347 @@
+{
+  "pdf_url": "https://arxiv.org/pdf/2412.03556v2.pdf",
+  "references": [
+    {
+      "year": "2007",
+      "title": "Scaling Learning Algorithms Towards {AI}",
+      "publisher": "MIT Press",
+      "booktitle": "Large Scale Kernel Machines",
+      "author": "Bengio, Yoshua and LeCun, Yann",
+      "ENTRYTYPE": "incollection",
+      "ID": "Bengio+chapter2007"
+    },
+    {
+      "year": "2006",
+      "volume": "18",
+      "title": "A Fast Learning Algorithm for Deep Belief Nets",
+      "pages": "1527--1554",
+      "journal": "Neural Computation",
+      "author": "Hinton, Geoffrey E. and Osindero, Simon and Teh, Yee Whye",
+      "ENTRYTYPE": "article",
+      "ID": "Hinton06"
+    },
+    {
+      "publisher": "MIT Press",
+      "year": "2016",
+      "volume": "1",
+      "author": "Goodfellow, Ian and Bengio, Yoshua and Courville, Aaron and Bengio, Yoshua",
+      "title": "Deep learning",
+      "ENTRYTYPE": "book",
+      "ID": "goodfellow2016deep"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2410.03489",
+      "author": "Rando, Javier and Korevaar, Hannah and Brinkman, Erik and Evtimov, Ivan and Tram{\\`e}r, Florian",
+      "title": "Gradient-based jailbreak images for multimodal fusion models",
+      "ENTRYTYPE": "article",
+      "ID": "rando2024gradient"
+    },
+    {
+      "year": "2017",
+      "journal": "arXiv preprint arXiv:1711.03280",
+      "author": "Gong, Yuan and Poellabauer, Christian",
+      "title": "Crafting adversarial examples for speech paralinguistics applications",
+      "ENTRYTYPE": "article",
+      "ID": "gong2017crafting"
+    },
+    {
+      "year": "2017",
+      "journal": "arXiv preprint arXiv:1707.05373",
+      "author": "Cisse, Moustapha and Adi, Yossi and Neverova, Natalia and Keshet, Joseph",
+      "title": "Houdini: Fooling deep structured prediction models",
+      "ENTRYTYPE": "article",
+      "ID": "cisse2017houdini"
+    },
+    {
+      "year": "2018",
+      "pages": "49--64",
+      "booktitle": "27th USENIX security symposium (USENIX security 18)",
+      "author": "Yuan, Xuejing and Chen, Yuxuan and Zhao, Yue and Long, Yunhui and Liu, Xiaokang and Chen, Kai and Zhang, Shengzhi and Huang, Heqing and Wang, Xiaofeng and Gunter, Carl A",
+      "title": "$\\{$CommanderSong$\\}$: a systematic approach for practical adversarial voice recognition",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "yuan2018commandersong"
+    },
+    {
+      "organization": "IEEE",
+      "year": "2018",
+      "pages": "1--7",
+      "booktitle": "2018 IEEE security and privacy workshops (SPW)",
+      "author": "Carlini, Nicholas and Wagner, David",
+      "title": "Audio adversarial examples: Targeted attacks on speech-to-text",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "carlini2018audio"
+    },
+    {
+      "organization": "Springer",
+      "year": "2019",
+      "pages": "677--681",
+      "booktitle": "Machine Learning and Knowledge Discovery in Databases: European Conference, ECML PKDD 2018, Dublin, Ireland, September 10--14, 2018, Proceedings, Part III 18",
+      "author": "Das, Nilaksh and Shanbhogue, Madhuri and Chen, Shang-Tse and Chen, Li and Kounavis, Michael E and Chau, Duen Horng",
+      "title": "Adagio: Interactive experimentation with adversarial attack and defense for audio",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "das2019adagio"
+    },
+    {
+      "url": "https://arxiv.org/abs/1805.07820",
+      "primaryclass": "cs.LG",
+      "archiveprefix": "arXiv",
+      "eprint": "1805.07820",
+      "year": "2019",
+      "author": "Rohan Taori and Amog Kamsetty and Brenton Chu and Nikita Vemuri",
+      "title": "Targeted Adversarial Examples for Black Box Audio Systems",
+      "ENTRYTYPE": "misc",
+      "ID": "taori2019targetedadversarialexamplesblack"
+    },
+    {
+      "url": "https://arxiv.org/abs/1811.01312",
+      "primaryclass": "cs.CR",
+      "archiveprefix": "arXiv",
+      "eprint": "1811.01312",
+      "year": "2019",
+      "author": "Shreya Khare and Rahul Aralikatte and Senthil Mani",
+      "title": "Adversarial Black-Box Attacks on Automatic Speech Recognition Systems using Multi-Objective Evolutionary Optimization",
+      "ENTRYTYPE": "misc",
+      "ID": "khare2019adversarialblackboxattacksautomatic"
+    },
+    {
+      "url": "https://arxiv.org/abs/2402.16822",
+      "primaryclass": "cs.CL",
+      "archiveprefix": "arXiv",
+      "eprint": "2402.16822",
+      "year": "2024",
+      "author": "Mikayel Samvelyan and Sharath Chandra Raparthy and Andrei Lupu and Eric Hambro and Aram H. Markosyan and Manish Bhatt and Yuning Mao and Minqi Jiang and Jack Parker-Holder and Jakob Foerster and Tim Rocktäschel and Roberta Raileanu",
+      "title": "Rainbow Teaming: Open-Ended Generation of Diverse Adversarial Prompts",
+      "ENTRYTYPE": "misc",
+      "ID": "rainbowteam"
+    },
+    {
+      "url": "https://arxiv.org/abs/2408.04811",
+      "primaryclass": "cs.CR",
+      "archiveprefix": "arXiv",
+      "eprint": "2408.04811",
+      "year": "2024",
+      "author": "Moussa Koulako Bala Doumbouya and Ananjan Nandi and Gabriel Poesia and Davide Ghilardi and Anna Goldie and Federico Bianchi and Dan Jurafsky and Christopher D. Manning",
+      "title": "h4rm3l: A Dynamic Benchmark of Composable Jailbreak Attacks for LLM Safety Assessment",
+      "ENTRYTYPE": "misc",
+      "ID": "h4rm3l"
+    },
+    {
+      "url": "https://arxiv.org/abs/1801.00554",
+      "primaryclass": "cs.CL",
+      "archiveprefix": "arXiv",
+      "eprint": "1801.00554",
+      "year": "2018",
+      "author": "Moustafa Alzantot and Bharathan Balaji and Mani Srivastava",
+      "title": "Did you hear that? Adversarial Examples Against Automatic Speech Recognition",
+      "ENTRYTYPE": "misc",
+      "ID": "alzantot2018didhearthatadversarial"
+    },
+    {
+      "note": "Haize Labs",
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2410.01294",
+      "author": "Huang, Brian R.Y. and Li, Maximilian and Tang, Leonard",
+      "title": "Endless Jailbreaks with Bijection Learning",
+      "ENTRYTYPE": "article",
+      "ID": "huang2024endless"
+    },
+    {
+      "note": "\\url{https://paperswithcode.com/paper/claude-3-5-sonnet-model-card-addendum}",
+      "year": "2024",
+      "author": "Anthropic",
+      "title": "Claude 3.5 Sonnet Model Card Addendum",
+      "ENTRYTYPE": "article",
+      "ID": "anthropic2024claude35sonnet"
+    },
+    {
+      "note": "\\url{https://paperswithcode.com/paper/the-claude-3-model-family-opus-sonnet-haiku}",
+      "year": "2024",
+      "author": "Anthropic",
+      "title": "The Claude 3 Model Family: Opus, Sonnet, Haiku",
+      "ENTRYTYPE": "article",
+      "ID": "anthropic2024claude3opus"
+    },
+    {
+      "note": "\\url{https://ai.google.com/research/large-models/gemini-1-5-flash}",
+      "year": "2024",
+      "author": "Google",
+      "title": "Gemini 1.5 Flash Model Card",
+      "ENTRYTYPE": "article",
+      "ID": "google2024gemini15flash"
+    },
+    {
+      "note": "\\url{https://ai.google.com/research/large-models/gemini-1-5-pro}",
+      "year": "2024",
+      "author": "Google",
+      "title": "Gemini 1.5 Pro Model Card",
+      "ENTRYTYPE": "article",
+      "ID": "google2024gemini15pro"
+    },
+    {
+      "note": "\\url{https://openai.com/research/gpt-4o}",
+      "year": "2024",
+      "author": "OpenAI",
+      "title": "GPT-4o Model Card",
+      "ENTRYTYPE": "article",
+      "ID": "openai2024gpt4o"
+    },
+    {
+      "note": "\\url{https://openai.com/research/gpt-4o-mini}",
+      "year": "2024",
+      "author": "OpenAI",
+      "title": "GPT-4o Mini Model Card",
+      "ENTRYTYPE": "article",
+      "ID": "openai2024gpt4omini"
+    },
+    {
+      "year": "2024",
+      "journal": "Anthropic, April",
+      "author": "Anil, Cem and Durmus, Esin and Sharma, Mrinank and Benton, Joe and Kundu, Sandipan and Batson, Joshua and Rimsky, Nina and Tong, Meg and Mu, Jesse and Ford, Daniel and others",
+      "title": "Many-shot jailbreaking",
+      "ENTRYTYPE": "article",
+      "ID": "anil2024manyshotjailbreaking"
+    },
+    {
+      "primaryclass": "id='cs.CR' full_name='Cryptography and Security' is_active=True alt_name=None in_archive='cs' is_general=False description='Covers all areas of cryptography and security including authentication, public key cryptosytems, proof-carrying code, etc. Roughly includes material in ACM Subject Classes D.4.6 and E.3.'",
+      "archiveprefix": "arXiv",
+      "eprint": "2307.10490",
+      "year": "2023",
+      "author": "Eugene Bagdasaryan and Tsung-Yin Hsieh and Ben Nassi and Vitaly Shmatikov",
+      "title": "Abusing Images and Sounds for Indirect Instruction Injection in Multi-Modal LLMs",
+      "ENTRYTYPE": "misc",
+      "ID": "bagdasaryan2023abusing"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2309.00236",
+      "author": "Bailey, Luke and Ong, Euan and Russell, Stuart and Emmons, Scott",
+      "title": "Image hijacks: Adversarial images can control generative models at runtime",
+      "ENTRYTYPE": "article",
+      "ID": "bailey2023image"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2309.11751",
+      "author": "Dong, Yinpeng and Chen, Huanran and Chen, Jiawei and Fang, Zhengwei and Yang, Xiao and Zhang, Yichi and Tian, Yu and Su, Hang and Zhu, Jun",
+      "title": "How Robust is Google's Bard to Adversarial Image Attacks?",
+      "ENTRYTYPE": "article",
+      "ID": "dong2023robust"
+    },
+    {
+      "primaryclass": "cs.LG",
+      "archiveprefix": "arXiv",
+      "eprint": "2402.02309",
+      "year": "2024",
+      "author": "Zhenxing Niu and Haodong Ren and Xinbo Gao and Gang Hua and Rong Jin",
+      "title": "Jailbreaking Attack against Multimodal Large Language Model",
+      "ENTRYTYPE": "misc",
+      "ID": "niu2024jailbreaking"
+    },
+    {
+      "primaryclass": "cs.CL",
+      "archiveprefix": "arXiv",
+      "eprint": "2402.08577",
+      "year": "2024",
+      "author": "Dong Lu and Tianyu Pang and Chao Du and Qian Liu and Xianjun Yang and Min Lin",
+      "title": "Test-Time Backdoor Attacks on Multimodal Large Language Models",
+      "ENTRYTYPE": "misc",
+      "ID": "lu2024testtime"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2404.03411",
+      "author": "Chen, Shuo and Han, Zhen and He, Bailan and Ding, Zifeng and Yu, Wenqian and Torr, Philip and Tresp, Volker and Gu, Jindong",
+      "title": "Red Teaming GPT-4V: Are GPT-4V Safe Against Uni/Multi-Modal Jailbreak Attacks?",
+      "ENTRYTYPE": "article",
+      "ID": "chen2024red"
+    },
+    {
+      "primaryclass": "id='cs.CV' full_name='Computer Vision and Pattern Recognition' is_active=True alt_name=None in_archive='cs' is_general=False description='Covers image processing, computer vision, pattern recognition, and scene understanding. Roughly includes material in ACM Subject Classes I.2.10, I.4, and I.5.'",
+      "archiveprefix": "arXiv",
+      "eprint": "2403.09766",
+      "year": "2024",
+      "author": "Haochen Luo and Jindong Gu and Fengyuan Liu and Philip Torr",
+      "title": "An Image Is Worth 1000 Lies: Adversarial Transferability across Prompts on Vision-Language Models",
+      "ENTRYTYPE": "misc",
+      "ID": "luo2024image1000lies"
+    },
+    {
+      "primaryclass": "cs.CL",
+      "archiveprefix": "arXiv",
+      "eprint": "2402.08567",
+      "year": "2024",
+      "author": "Xiangming Gu and Xiaosen Zheng and Tianyu Pang and Chao Du and Qian Liu and Ye Wang and Jing Jiang and Min Lin",
+      "title": "Agent Smith: A Single Image Can Jailbreak One Million Multimodal LLM Agents Exponentially Fast",
+      "ENTRYTYPE": "misc",
+      "ID": "gu2024agentsmith"
+    },
+    {
+      "primaryclass": "id='cs.CV' full_name='Computer Vision and Pattern Recognition' is_active=True alt_name=None in_archive='cs' is_general=False description='Covers image processing, computer vision, pattern recognition, and scene understanding. Roughly includes material in ACM Subject Classes I.2.10, I.4, and I.5.'",
+      "archiveprefix": "arXiv",
+      "eprint": "2403.09792",
+      "year": "2024",
+      "author": "Yifan Li and Hangyu Guo and Kun Zhou and Wayne Xin Zhao and Ji-Rong Wen",
+      "title": "Images are Achilles' Heel of Alignment: Exploiting Visual Vulnerabilities for Jailbreaking Multimodal Large Language Models",
+      "ENTRYTYPE": "misc",
+      "ID": "li2024imagesachilles"
+    },
+    {
+      "primaryclass": "id='cs.CV' full_name='Computer Vision and Pattern Recognition' is_active=True alt_name=None in_archive='cs' is_general=False description='Covers image processing, computer vision, pattern recognition, and scene understanding. Roughly includes material in ACM Subject Classes I.2.10, I.4, and I.5.'",
+      "archiveprefix": "arXiv",
+      "eprint": "2311.16101",
+      "year": "2023",
+      "author": "Haoqin Tu and Chenhang Cui and Zijun Wang and Yiyang Zhou and Bingchen Zhao and Junlin Han and Wangchunshu Zhou and Huaxiu Yao and Cihang Xie",
+      "title": "How Many Unicorns Are in This Image? A Safety Evaluation Benchmark for Vision LLMs",
+      "ENTRYTYPE": "misc",
+      "ID": "tu2023unicorns"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2310.03185",
+      "author": "Fu, Xiaohan and Wang, Zihan and Li, Shuheng and Gupta, Rajesh K and Mireshghallah, Niloofar and Berg-Kirkpatrick, Taylor and Fernandes, Earlence",
+      "title": "Misusing Tools in Large Language Models With Visual Adversarial Examples",
+      "ENTRYTYPE": "article",
+      "ID": "fu2023misusing"
+    },
+    {
+      "archiveprefix": "arXiv",
+      "primaryclass": "cs.CY",
+      "year": "2024",
+      "author": "Anka Reuel and Ben Bucknall and Stephen Casper and Tim Fist and Lisa Soder and Onni Aarne and Lewis Hammond and Lujain Ibrahim and Alan Chan and Peter Wills and Markus Anderljung and Ben Garfinkel and Lennart Heim and Andrew Trask and Gabriel Mukobi and Rylan Schaeffer and Mauricio Baker and Sara Hooker and Irene Solaiman and Alexandra Sasha Luccioni and Nitisharn Rajkumar and Nicolas Moës and Neel Guha and Jessica Newman and Yoshua Bengio and Tobin South and Alex Pentland and Jeffrey Ladish and Sammi Kyoejo and Mykel J. Kochenderfer and Robert Trager",
+      "title": "Open Problems in Technical AI Governance",
+      "ENTRYTYPE": "misc",
+      "ID": "reuel2024open"
+    },
+    {
+      "primaryclass": "cs.CV",
+      "archiveprefix": "arXiv",
+      "eprint": "2305.16934",
+      "year": "2023",
+      "author": "Yunqing Zhao and Tianyu Pang and Chao Du and Xiao Yang and Chongxuan Li and Ngai-Man Cheung and Min Lin",
+      "title": "On Evaluating Adversarial Robustness of Large Vision-Language Models",
+      "ENTRYTYPE": "misc",
+      "ID": "zhao2023evaluating"
+    },
+    {
+      "year": "2024",
+      "booktitle": "Proceedings of the AAAI Conference on Artificial Intelligence",
+      "author": "Qi, Xiangyu and Huang, Kaixuan and Panda, Ashwinee and Henderson, Peter and Wang, Mengdi and Mittal, Prateek",
+      "title": "Visual adversarial examples jailbreak aligned large language models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "qi2024visual"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "2023",
+      "pages": "109286",
+      "volume": "137",
+      "journal": "Pattern Recognition",
+      "author": "Kim, Hoki and Park, Jinseong and Lee, Jaewook",
+      "title": "Generating transferable adversarial examples for speech classification",
+      "ENTRYTYPE": "article",
+      "ID": "kim2023generating"
+    },
+    {
+      "year": "2018",
+      "journal": "arXiv preprint arXiv:1808.05665",
+      "author": "Sch{\\\"o}nherr, Lea and Kohls, Katharina and Zeiler, Steffen and Holz, Thorsten and Kolossa, Dorothea",
+      "title": "Adversarial attacks against automatic speech recognition systems via psychoacoustic hiding",
+      "ENTRYTYPE": "article",
+      "ID": "schonherr2018adversarial"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2019",
+      "pages": "5231--5240",
+      "booktitle": "International conference on machine learning",
+      "author": "Qin, Yao and Carlini, Nicholas and Cottrell, Garrison and Goodfellow, Ian and Raffel, Colin",
+      "title": "Imperceptible, robust, and targeted adversarial examples for automatic speech recognition",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "qin2019imperceptible"
+    },
+    {
+      "year": "2019",
+      "journal": "arXiv preprint arXiv:1905.03828",
+      "author": "Neekhara, Paarth and Hussain, Shehzeen and Pandey, Prakhar and Dubnov, Shlomo and McAuley, Julian and Koushanfar, Farinaz",
+      "title": "Universal adversarial perturbations for speech recognition systems",
+      "ENTRYTYPE": "article",
+      "ID": "neekhara2019universal"
+    },
+    {
+      "year": "2020",
+      "pages": "1121--1134",
+      "booktitle": "Proceedings of the 2020 ACM SIGSAC Conference on Computer and Communications Security",
+      "author": "Li, Zhuohang and Wu, Yi and Liu, Jian and Chen, Yingying and Yuan, Bo",
+      "title": "Advpulse: Universal, synchronization-free, and targeted audio adversarial attacks via subsecond perturbations",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "li2020advpulse"
+    },
+    {
+      "year": "2021",
+      "pages": "11835--11844",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Ma, Chen and Chen, Li and Yong, Jun-Hai",
+      "title": "Simulating unknown target models for query-efficient black-box attacks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ma2021simulating"
+    },
+    {
+      "year": "2018",
+      "journal": "arXiv preprint arXiv:1801.00554",
+      "author": "Alzantot, Moustafa and Balaji, Bharathan and Srivastava, Mani",
+      "title": "Did you hear that? adversarial examples against automatic speech recognition",
+      "ENTRYTYPE": "article",
+      "ID": "alzantot2018did"
+    },
+    {
+      "year": "2018",
+      "journal": "arXiv preprint arXiv:1811.01312",
+      "author": "Khare, Shreya and Aralikatte, Rahul and Mani, Senthil",
+      "title": "Adversarial black-box attacks on automatic speech recognition systems using multi-objective evolutionary optimization",
+      "ENTRYTYPE": "article",
+      "ID": "khare2018adversarial"
+    },
+    {
+      "organization": "ISCA",
+      "year": "2020",
+      "author": "Raina, Vyas and Gales, Mark JF and Knill, Kate",
+      "title": "Universal adversarial attacks on spoken language assessment systems",
+      "ENTRYTYPE": "misc",
+      "ID": "raina2020universal"
+    },
+    {
+      "year": "2019",
+      "journal": "arXiv preprint arXiv:1908.03173",
+      "author": "Abdoli, Sajjad and Hafemann, Luiz G and Rony, Jerome and Ayed, Ismail Ben and Cardinal, Patrick and Koerich, Alessandro L",
+      "title": "Universal adversarial audio perturbations",
+      "ENTRYTYPE": "article",
+      "ID": "abdoli2019universal"
+    },
+    {
+      "year": "2017",
+      "pages": "103--117",
+      "booktitle": "Proceedings of the 2017 ACM SIGSAC conference on computer and communications security",
+      "author": "Zhang, Guoming and Yan, Chen and Ji, Xiaoyu and Zhang, Tianchen and Zhang, Taimin and Xu, Wenyuan",
+      "title": "Dolphinattack: Inaudible voice commands",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zhang2017dolphinattack"
+    },
+    {
+      "year": "2019",
+      "journal": "arXiv preprint arXiv:1904.05734",
+      "author": "Abdullah, Hadi and Garcia, Washington and Peeters, Christian and Traynor, Patrick and Butler, Kevin RB and Wilson, Joseph",
+      "title": "Practical hidden voice attacks against speech and speaker recognition systems",
+      "ENTRYTYPE": "article",
+      "ID": "abdullah2019practical"
+    },
+    {
+      "year": "2021",
+      "journal": "arXiv preprint arXiv:2104.02757",
+      "author": "Lu, Zhiyun and Han, Wei and Zhang, Yu and Cao, Liangliang",
+      "title": "Exploring targeted universal adversarial perturbations to end-to-end asr models",
+      "ENTRYTYPE": "article",
+      "ID": "lu2021exploring"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2203.16536",
+      "author": "Olivier, Raphael and Raj, Bhiksha",
+      "title": "Recent improvements of asr models in the face of adversarial attacks",
+      "ENTRYTYPE": "article",
+      "ID": "olivier2022recent"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2023",
+      "pages": "28492--28518",
+      "booktitle": "International conference on machine learning",
+      "author": "Radford, Alec and Kim, Jong Wook and Xu, Tao and Brockman, Greg and McLeavey, Christine and Sutskever, Ilya",
+      "title": "Robust speech recognition via large-scale weak supervision",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "radford2023robust"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2210.17316",
+      "author": "Olivier, Raphael and Raj, Bhiksha",
+      "title": "There is more than one kind of robustness: Fooling whisper with adversarial examples",
+      "ENTRYTYPE": "article",
+      "ID": "olivier2022there"
+    },
+    {
+      "note": "Accessed: 2024-10-28",
+      "year": "2024",
+      "howpublished": "\\url{https://cloud.google.com/vertex-ai/generative-ai/docs/multimodal/configure-safety-filters}",
+      "organization": "Google",
+      "author": "{Google Cloud}",
+      "title": "Configure safety filters - Generative {AI} on {Vertex AI}",
+      "ENTRYTYPE": "misc",
+      "ID": "googlecloud_safety"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2405.06134",
+      "author": "Raina, Vyas and Ma, Rao and McGhee, Charles and Knill, Kate and Gales, Mark",
+      "title": "Muting Whisper: A Universal Acoustic Adversarial Attack on Speech Foundation Models",
+      "ENTRYTYPE": "article",
+      "ID": "raina2024muting"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2202.00399",
+      "author": "Markert, Karla and Mirdita, Donika and B{\\\"o}ttinger, Konstantin",
+      "title": "Language dependencies in adversarial attacks on speech recognition systems",
+      "ENTRYTYPE": "article",
+      "ID": "markert2022language"
+    },
+    {
+      "organization": "IEEE",
+      "year": "2022",
+      "pages": "231--235",
+      "booktitle": "ICASSP 2022-2022 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+      "author": "Li, Juncheng B and Qu, Shuhui and Li, Xinjian and Huang, Po-Yao Bernie and Metze, Florian",
+      "title": "On adversarial robustness of large-scale audio visual learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "li2022adversarial"
+    },
+    {
+      "organization": "IEEE",
+      "year": "2022",
+      "pages": "2869--2873",
+      "booktitle": "ICASSP 2022-2022 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+      "author": "Esmaeilpour, Mohammad and Cardinal, Patrick and Koerich, Alessandro Lameiras",
+      "title": "Towards robust speech-to-text adversarial attack",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "esmaeilpour2022towards"
+    },
+    {
+      "year": "2021",
+      "pages": "2273--2290",
+      "booktitle": "30th USENIX security symposium (USENIX Security 21)",
+      "author": "Hussain, Shehzeen and Neekhara, Paarth and Dubnov, Shlomo and McAuley, Julian and Koushanfar, Farinaz",
+      "title": "$\\{$WaveGuard$\\}$: Understanding and mitigating audio adversarial examples",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "hussain2021waveguard"
+    },
+    {
+      "year": "2022",
+      "pages": "1430--1440",
+      "booktitle": "Proceedings of the 28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining",
+      "author": "Qu, Xinghua and Wei, Pengfei and Gao, Mingyong and Sun, Zhu and Ong, Yew Soon and Ma, Zejun",
+      "title": "Synthesising Audio Adversarial Examples for Automatic Speech Recognition",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "qu2022synthesising"
+    },
+    {
+      "year": "2021",
+      "journal": "arXiv preprint arXiv:2103.17122",
+      "author": "{\\.Z}elasko, Piotr and Joshi, Sonal and Shao, Yiwen and Villalba, Jesus and Trmal, Jan and Dehak, Najim and Khudanpur, Sanjeev",
+      "title": "Adversarial attacks and defenses for speech recognition systems",
+      "ENTRYTYPE": "article",
+      "ID": "zelasko2021adversarial"
+    },
+    {
+      "year": "2021",
+      "journal": "arXiv preprint arXiv:2112.03000",
+      "author": "Olivier, Raphael and Raj, Bhiksha",
+      "title": "Sequential randomized smoothing for adversarially robust speech recognition",
+      "ENTRYTYPE": "article",
+      "ID": "olivier2021sequential"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2019",
+      "pages": "1310--1320",
+      "booktitle": "international conference on machine learning",
+      "author": "Cohen, Jeremy and Rosenfeld, Elan and Kolter, Zico",
+      "title": "Certified adversarial robustness via randomized smoothing",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "cohen2019certified"
+    },
+    {
+      "year": "2023",
+      "pages": "18090--18108",
+      "volume": "36",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Deshmukh, Soham and Elizalde, Benjamin and Singh, Rita and Wang, Huaming",
+      "title": "Pengi: An audio language model for audio tasks",
+      "ENTRYTYPE": "article",
+      "ID": "deshmukh2023pengi"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2310.13289",
+      "author": "Tang, Changli and Yu, Wenyi and Sun, Guangzhi and Chen, Xianzhao and Tan, Tian and Li, Wei and Lu, Lu and Ma, Zejun and Zhang, Chao",
+      "title": "Salmonn: Towards generic hearing abilities for large language models",
+      "ENTRYTYPE": "article",
+      "ID": "tang2023salmonn"
+    },
+    {
+      "year": "2020",
+      "volume": "1",
+      "journal": "arXiv preprint arXiv:2005.14165",
+      "author": "Mann, Ben and Ryder, N and Subbiah, M and Kaplan, J and Dhariwal, P and Neelakantan, A and Shyam, P and Sastry, G and Askell, A and Agarwal, S and others",
+      "title": "Language models are few-shot learners",
+      "ENTRYTYPE": "article",
+      "ID": "mann2020language"
+    },
+    {
+      "year": "2021",
+      "journal": "arXiv preprint arXiv:2106.09685",
+      "author": "Hu, Edward J and Shen, Yelong and Wallis, Phillip and Allen-Zhu, Zeyuan and Li, Yuanzhi and Wang, Shean and Wang, Lu and Chen, Weizhu",
+      "title": "Lora: Low-rank adaptation of large language models",
+      "ENTRYTYPE": "article",
+      "ID": "hu2021lora"
+    },
+    {
+      "url": "https://arxiv.org/abs/2304.03277",
+      "primaryclass": "cs.CL",
+      "archiveprefix": "arXiv",
+      "eprint": "2304.03277",
+      "year": "2023",
+      "author": "Baolin Peng and Chunyuan Li and Pengcheng He and Michel Galley and Jianfeng Gao",
+      "title": "Instruction Tuning with GPT-4",
+      "ENTRYTYPE": "misc",
+      "ID": "peng2023instructiontuninggpt4"
+    },
+    {
+      "organization": "IEEE",
+      "year": "2023",
+      "pages": "1--8",
+      "booktitle": "2023 IEEE Automatic Speech Recognition and Understanding Workshop (ASRU)",
+      "author": "Wang, Mingqiu and Han, Wei and Shafran, Izhak and Wu, Zelin and Chiu, Chung-Cheng and Cao, Yuan and Chen, Nanxin and Zhang, Yu and Soltau, Hagen and Rubenstein, Paul K and others",
+      "title": "Slm: Bridge the thin gap between speech and text foundation models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "wang2023slm"
+    },
+    {
+      "organization": "IEEE",
+      "year": "2024",
+      "pages": "13521--13525",
+      "booktitle": "ICASSP 2024-2024 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+      "author": "Chen, Zhehuai and Huang, He and Andrusenko, Andrei and Hrinchuk, Oleksii and Puvvada, Krishna C and Li, Jason and Ghosh, Subhankar and Balam, Jagadeesh and Ginsburg, Boris",
+      "title": "Salm: Speech-augmented language model with in-context learning for speech recognition and translation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "chen2024salm"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2405.08295",
+      "author": "Das, Nilaksh and Dingliwal, Saket and Ronanki, Srikanth and Paturi, Rohit and Huang, David and Mathur, Prashant and Yuan, Jie and Bekal, Dhanush and Niu, Xing and Jayanthi, Sai Muralidhar and others",
+      "title": "SpeechVerse: A Large-scale Generalizable Audio Language Model",
+      "ENTRYTYPE": "article",
+      "ID": "das2024speechverse"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2311.07919",
+      "author": "Chu, Yunfei and Xu, Jin and Zhou, Xiaohuan and Yang, Qian and Zhang, Shiliang and Yan, Zhijie and Zhou, Chang and Zhou, Jingren",
+      "title": "Qwen-audio: Advancing universal audio understanding via unified large-scale audio-language models",
+      "ENTRYTYPE": "article",
+      "ID": "chu2023qwen"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2308.15930",
+      "author": "Shu, Yu and Dong, Siwei and Chen, Guangyao and Huang, Wenhao and Zhang, Ruihua and Shi, Daochen and Xiang, Qiqi and Shi, Yemin",
+      "title": "Llasm: Large language and speech model",
+      "ENTRYTYPE": "article",
+      "ID": "shu2023llasm"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2402.01831",
+      "author": "Kong, Zhifeng and Goel, Arushi and Badlani, Rohan and Ping, Wei and Valle, Rafael and Catanzaro, Bryan",
+      "title": "Audio flamingo: A novel audio language model with few-shot learning and dialogue abilities",
+      "ENTRYTYPE": "article",
+      "ID": "kong2024audio"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2305.10790",
+      "author": "Gong, Yuan and Luo, Hongyin and Liu, Alexander H and Karlinsky, Leonid and Glass, James",
+      "title": "Listen, think, and understand",
+      "ENTRYTYPE": "article",
+      "ID": "gong2023listen"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2310.04673",
+      "author": "Chen, Qian and Chu, Yunfei and Gao, Zhifu and Li, Zerui and Hu, Kai and Zhou, Xiaohuan and Xu, Jin and Ma, Ziyang and Wang, Wen and Zheng, Siqi and others",
+      "title": "Lauragpt: Listen, attend, understand, and regenerate audio with gpt",
+      "ENTRYTYPE": "article",
+      "ID": "chen2023lauragpt"
+    },
+    {
+      "url": "https://arxiv.org/abs/2305.16355",
+      "primaryclass": "cs.CL",
+      "archiveprefix": "arXiv",
+      "eprint": "2305.16355",
+      "year": "2023",
+      "author": "Yixuan Su and Tian Lan and Huayang Li and Jialu Xu and Yan Wang and Deng Cai",
+      "title": "PandaGPT: One Model To Instruction-Follow Them All",
+      "ENTRYTYPE": "misc",
+      "ID": "su2023pandagptmodelinstructionfollow"
+    },
+    {
+      "url": "https://arxiv.org/abs/2405.19335",
+      "primaryclass": "cs.CV",
+      "archiveprefix": "arXiv",
+      "eprint": "2405.19335",
+      "year": "2024",
+      "author": "Hanrong Ye and De-An Huang and Yao Lu and Zhiding Yu and Wei Ping and Andrew Tao and Jan Kautz and Song Han and Dan Xu and Pavlo Molchanov and Hongxu Yin",
+      "title": "X-VILA: Cross-Modality Alignment for Large Language Model",
+      "ENTRYTYPE": "misc",
+      "ID": "ye2024xvilacrossmodalityalignmentlarge"
+    },
+    {
+      "url": "https://arxiv.org/abs/2305.18500",
+      "primaryclass": "cs.CV",
+      "archiveprefix": "arXiv",
+      "eprint": "2305.18500",
+      "year": "2023",
+      "author": "Sihan Chen and Handong Li and Qunbo Wang and Zijia Zhao and Mingzhen Sun and Xinxin Zhu and Jing Liu",
+      "title": "VAST: A Vision-Audio-Subtitle-Text Omni-Modality Foundation Model and Dataset",
+      "ENTRYTYPE": "misc",
+      "ID": "chen2023vastvisionaudiosubtitletextomnimodalityfoundation"
+    },
+    {
+      "url": "https://arxiv.org/abs/2304.08345",
+      "primaryclass": "cs.LG",
+      "archiveprefix": "arXiv",
+      "eprint": "2304.08345",
+      "year": "2023",
+      "author": "Sihan Chen and Xingjian He and Longteng Guo and Xinxin Zhu and Weining Wang and Jinhui Tang and Jing Liu",
+      "title": "VALOR: Vision-Audio-Language Omni-Perception Pretraining Model and Dataset",
+      "ENTRYTYPE": "misc",
+      "ID": "chen2023valorvisionaudiolanguageomniperceptionpretraining"
+    },
+    {
+      "url": "https://arxiv.org/abs/2305.11172",
+      "primaryclass": "cs.CV",
+      "archiveprefix": "arXiv",
+      "eprint": "2305.11172",
+      "year": "2023",
+      "author": "Peng Wang and Shijie Wang and Junyang Lin and Shuai Bai and Xiaohuan Zhou and Jingren Zhou and Xinggang Wang and Chang Zhou",
+      "title": "ONE-PEACE: Exploring One General Representation Model Toward Unlimited Modalities",
+      "ENTRYTYPE": "misc",
+      "ID": "wang2023onepeaceexploringgeneralrepresentation"
+    },
+    {
+      "url": "https://arxiv.org/abs/2403.05530",
+      "primaryclass": "cs.CL",
+      "archiveprefix": "arXiv",
+      "eprint": "2403.05530",
+      "year": "2024",
+      "author": "\\text{Gemini Team}",
+      "title": "Gemini 1.5: Unlocking multimodal understanding across millions of tokens of context",
+      "ENTRYTYPE": "misc",
+      "ID": "geminiteam2024gemini15unlockingmultimodal"
+    },
+    {
+      "year": "2020",
+      "journal": "arXiv preprint arXiv:2007.13703",
+      "author": "Esmaeilpour, Mohammad and Cardinal, Patrick and Koerich, Alessandro Lameiras",
+      "title": "From sound representation to model robustness",
+      "ENTRYTYPE": "article",
+      "ID": "esmaeilpour2020sound"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "2019",
+      "pages": "2147--2159",
+      "volume": "15",
+      "journal": "IEEE Transactions on information forensics and security",
+      "author": "Esmaeilpour, Mohammad and Cardinal, Patrick and Koerich, Alessandro Lameiras",
+      "title": "A robust approach for securing audio classification against adversarial attacks",
+      "ENTRYTYPE": "article",
+      "ID": "esmaeilpour2019robust"
+    },
+    {
+      "note": "Accessed: 2024-09-17",
+      "url": "https://openai.com/index/gpt-4o-system-card/",
+      "year": "2023",
+      "author": "OpenAI",
+      "title": "GPT-4o System Card",
+      "ENTRYTYPE": "misc",
+      "ID": "openai2023gpt4o"
+    },
+    {
+      "url": "https://arxiv.org/abs/2403.13793",
+      "primaryclass": "cs.LG",
+      "archiveprefix": "arXiv",
+      "eprint": "2403.13793",
+      "year": "2024",
+      "author": "Mary Phuong and Matthew Aitchison and Elliot Catt and Sarah Cogan and Alexandre Kaskasoli and Victoria Krakovna and David Lindner and Matthew Rahtz and Yannis Assael and Sarah Hodkinson and Heidi Howard and Tom Lieberum and Ramana Kumar and Maria Abi Raad and Albert Webson and Lewis Ho and Sharon Lin and Sebastian Farquhar and Marcus Hutter and Gregoire Deletang and Anian Ruoss and Seliem El-Sayed and Sasha Brown and Anca Dragan and Rohin Shah and Allan Dafoe and Toby Shevlane",
+      "title": "Evaluating Frontier Models for Dangerous Capabilities",
+      "ENTRYTYPE": "misc",
+      "ID": "phuong2024"
+    },
+    {
+      "url": "https://cdn.openai.com/openai-preparedness-framework-beta.pdf",
+      "year": "2023",
+      "author": "OpenAI",
+      "title": "OpenAI Preparedness Framework (Beta)",
+      "ENTRYTYPE": "techreport",
+      "ID": "openaipreparedness2023"
+    },
+    {
+      "url": "https://assets.anthropic.com/m/24a47b00f10301cd/original/Anthropic-Responsible-Scaling-Policy-2024-10-15.pdf",
+      "day": "15",
+      "month": "Oct",
+      "year": "2023",
+      "author": "Anthropic",
+      "title": "Anthropic Responsible Scaling Policy",
+      "ENTRYTYPE": "misc",
+      "ID": "anthropic2023responsible"
+    },
+    {
+      "organization": "Association for Computational Linguistics",
+      "year": "2024",
+      "pages": "22139--22148",
+      "booktitle": "Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing",
+      "author": "Ramesh, Govind and Dou, Yao and Xu, Wei",
+      "title": "GPT-4 Jailbreaks Itself with Near-Perfect Success Using Self-Explanation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ramesh2024gpt"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2405.67890",
+      "author": "Kim, Minseon and others",
+      "title": "Automatic Jailbreaking of the Text-to-Image Generative AI Systems",
+      "ENTRYTYPE": "article",
+      "ID": "kim2024automatic"
+    },
+    {
+      "url": "https://api.semanticscholar.org/CorpusID:235755472",
+      "volume": "abs/2107.03374",
+      "year": "2021",
+      "journal": "ArXiv",
+      "author": "Mark Chen and Jerry Tworek and Heewoo Jun and Qiming Yuan and Henrique Pond{\\'e} and Jared Kaplan and Harrison Edwards and Yura Burda and Nicholas Joseph and Greg Brockman and Alex Ray and Raul Puri and Gretchen Krueger and Michael Petrov and Heidy Khlaaf and Girish Sastry and Pamela Mishkin and Brooke Chan and Scott Gray and Nick Ryder and Mikhail Pavlov and Alethea Power and Lukasz Kaiser and Mohammad Bavarian and Clemens Winter and Philippe Tillet and Felipe Petroski Such and David W. Cummings and Matthias Plappert and Fotios Chantzis and Elizabeth Barnes and Ariel Herbert-Voss and William H. Guss and Alex Nichol and Igor Babuschkin and Suchir Balaji and Shantanu Jain and Andrew Carr and Jan Leike and Joshua Achiam and Vedant Misra and Evan Morikawa and Alec Radford and Matthew M. Knight and Miles Brundage and Mira Murati and Katie Mayer and Peter Welinder and Bob McGrew and Dario Amodei and Sam McCandlish and Ilya Sutskever and Wojciech Zaremba",
+      "title": "Evaluating Large Language Models Trained on Code",
+      "ENTRYTYPE": "article",
+      "ID": "Chen2021EvaluatingLL"
+    },
+    {
+      "url": "https://arxiv.org/abs/2407.21783",
+      "primaryclass": "cs.AI",
+      "archiveprefix": "arXiv",
+      "eprint": "2407.21783",
+      "year": "2024",
+      "author": "Abhimanyu Dubey and Abhinav Jauhri and Abhinav Pandey and Abhishek Kadian and Ahmad Al-Dahle et al.",
+      "title": "The Llama 3 Herd of Models",
+      "ENTRYTYPE": "misc",
+      "ID": "dubey2024llama3herdmodels"
+    },
+    {
+      "howpublished": "\\url{https://assets.anthropic.com/m/61e7d27f8c8f5919/original/Claude-3-Model-Card.pdf}",
+      "year": "2023",
+      "author": "Anthropic",
+      "title": "The Claude 3 Model Family: Opus, Sonnet, Haiku",
+      "ENTRYTYPE": "misc",
+      "ID": "anthropic2023claude3"
+    },
+    {
+      "url": "https://arxiv.org/abs/2405.19103",
+      "primaryclass": "cs.CR",
+      "archiveprefix": "arXiv",
+      "eprint": "2405.19103",
+      "year": "2024",
+      "author": "Xinyue Shen and Yixin Wu and Michael Backes and Yang Zhang",
+      "title": "Voice Jailbreak Attacks Against GPT-4o",
+      "ENTRYTYPE": "misc",
+      "ID": "shen2024voicejailbreakattacksgpt4o"
+    },
+    {
+      "publisher": "HuggingFace",
+      "year": "2024",
+      "title": "Distilling an End-to-End Voice Assistant from Speech Recognition Data",
+      "author": "Held, Will and Li, Ella and Ryan, Michael and Shi, Weiyan and Zhang, Yanzhe and Yang, Diyi",
+      "ENTRYTYPE": "misc",
+      "ID": "held2024diva"
+    },
+    {
+      "url": "https://arxiv.org/abs/2206.04769",
+      "primaryclass": "cs.SD",
+      "archiveprefix": "arXiv",
+      "eprint": "2206.04769",
+      "year": "2022",
+      "author": "Benjamin Elizalde and Soham Deshmukh and Mahmoud Al Ismail and Huaming Wang",
+      "title": "CLAP: Learning Audio Concepts From Natural Language Supervision",
+      "ENTRYTYPE": "misc",
+      "ID": "elizalde2022claplearningaudioconcepts"
+    },
+    {
+      "url": "https://arxiv.org/abs/2301.12597",
+      "primaryclass": "cs.CV",
+      "archiveprefix": "arXiv",
+      "eprint": "2301.12597",
+      "year": "2023",
+      "author": "Junnan Li and Dongxu Li and Silvio Savarese and Steven Hoi",
+      "title": "BLIP-2: Bootstrapping Language-Image Pre-training with Frozen Image Encoders and Large Language Models",
+      "ENTRYTYPE": "misc",
+      "ID": "li2023blip2bootstrappinglanguageimagepretraining"
+    },
+    {
+      "url": "https://arxiv.org/abs/2304.08485",
+      "primaryclass": "cs.CV",
+      "archiveprefix": "arXiv",
+      "eprint": "2304.08485",
+      "year": "2023",
+      "author": "Haotian Liu and Chunyuan Li and Qingyang Wu and Yong Jae Lee",
+      "title": "Visual Instruction Tuning",
+      "ENTRYTYPE": "misc",
+      "ID": "liu2023visualinstructiontuning"
+    },
+    {
+      "url": "https://arxiv.org/abs/2402.05755",
+      "primaryclass": "cs.CL",
+      "archiveprefix": "arXiv",
+      "eprint": "2402.05755",
+      "year": "2024",
+      "author": "Tu Anh Nguyen and Benjamin Muller and Bokai Yu and Marta R. Costa-jussa and Maha Elbayad and Sravya Popuri and Paul-Ambroise Duquenne and Robin Algayres and Ruslan Mavlyutov and Itai Gat and Gabriel Synnaeve and Juan Pino and Benoit Sagot and Emmanuel Dupoux",
+      "title": "SpiRit-LM: Interleaved Spoken and Written Language Model",
+      "ENTRYTYPE": "misc",
+      "ID": "nguyen2024spiritlminterleavedspokenwritten"
+    },
+    {
+      "url": "https://arxiv.org/abs/2306.12925",
+      "primaryclass": "cs.CL",
+      "archiveprefix": "arXiv",
+      "eprint": "2306.12925",
+      "year": "2023",
+      "author": "Paul K. Rubenstein and Chulayuth Asawaroengchai and Duc Dung Nguyen and Ankur Bapna and Zalán Borsos and Félix de Chaumont Quitry and Peter Chen and Dalia El Badawy and Wei Han and Eugene Kharitonov and Hannah Muckenhirn and Dirk Padfield and James Qin and Danny Rozenberg and Tara Sainath and Johan Schalkwyk and Matt Sharifi and Michelle Tadmor Ramanovich and Marco Tagliasacchi and Alexandru Tudor and Mihajlo Velimirović and Damien Vincent and Jiahui Yu and Yongqiang Wang and Vicky Zayats and Neil Zeghidour and Yu Zhang and Zhishuai Zhang and Lukas Zilka and Christian Frank",
+      "title": "AudioPaLM: A Large Language Model That Can Speak and Listen",
+      "ENTRYTYPE": "misc",
+      "ID": "rubenstein2023audiopalmlargelanguagemodel"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2404.02151",
+      "author": "Andriushchenko, Maksym and Croce, Francesco and Flammarion, Nicolas",
+      "title": "Jailbreaking leading safety-aligned llms with simple adaptive attacks",
+      "ENTRYTYPE": "article",
+      "ID": "andriushchenko2024jailbreaking"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2307.15043",
+      "author": "Zou, Andy and Wang, Zifan and Carlini, Nicholas and Nasr, Milad and Kolter, J Zico and Fredrikson, Matt",
+      "title": "Universal and transferable adversarial attacks on aligned language models",
+      "ENTRYTYPE": "article",
+      "ID": "zou2023universal"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2309.01446",
+      "author": "Lapid, Raz and Langberg, Ron and Sipper, Moshe",
+      "title": "Open sesame! universal black box jailbreaking of large language models",
+      "ENTRYTYPE": "article",
+      "ID": "lapid2023open"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2310.04451",
+      "author": "Liu, Xiaogeng and Xu, Nan and Chen, Muhao and Xiao, Chaowei",
+      "title": "Autodan: Generating stealthy jailbreak prompts on aligned large language models",
+      "ENTRYTYPE": "article",
+      "ID": "liu2023autodan"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2310.08419",
+      "author": "Chao, Patrick and Robey, Alexander and Dobriban, Edgar and Hassani, Hamed and Pappas, George J and Wong, Eric",
+      "title": "Jailbreaking black box large language models in twenty queries",
+      "ENTRYTYPE": "article",
+      "ID": "chao2023jailbreaking"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2312.02119",
+      "author": "Mehrotra, Anay and Zampetakis, Manolis and Kassianik, Paul and Nelson, Blaine and Anderson, Hyrum and Singer, Yaron and Karbasi, Amin",
+      "title": "Tree of attacks: Jailbreaking black-box llms automatically",
+      "ENTRYTYPE": "article",
+      "ID": "mehrotra2023tree"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2311.03348",
+      "author": "Shah, Rusheb and Pour, Soroush and Tagade, Arush and Casper, Stephen and Rando, Javier and others",
+      "title": "Scalable and transferable black-box jailbreaks for language models via persona modulation",
+      "ENTRYTYPE": "article",
+      "ID": "shah2023scalable"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2401.06373",
+      "author": "Zeng, Yi and Lin, Hongpeng and Zhang, Jingwen and Yang, Diyi and Jia, Ruoxi and Shi, Weiyan",
+      "title": "How johnny can persuade llms to jailbreak them: Rethinking persuasion to challenge ai safety by humanizing llms",
+      "ENTRYTYPE": "article",
+      "ID": "zeng2024johnny"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2309.10253",
+      "author": "Yu, Jiahao and Lin, Xingwei and Yu, Zheng and Xing, Xinyu",
+      "title": "Gptfuzzer: Red teaming large language models with auto-generated jailbreak prompts",
+      "ENTRYTYPE": "article",
+      "ID": "yu2023gptfuzzer"
+    },
+    {
+      "year": "2024",
+      "volume": "36",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Wei, Alexander and Haghtalab, Nika and Steinhardt, Jacob",
+      "title": "Jailbroken: How does llm safety training fail?",
+      "ENTRYTYPE": "article",
+      "ID": "wei2024jailbroken"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2310.06387",
+      "author": "Wei, Zeming and Wang, Yifei and Wang, Yisen",
+      "title": "Jailbreak and guard aligned language models with only few in-context demonstrations",
+      "ENTRYTYPE": "article",
+      "ID": "wei2023jailbreak"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2311.05608",
+      "author": "Gong, Yichen and Ran, Delong and Liu, Jinyuan and Wang, Conglei and Cong, Tianshuo and Wang, Anyu and Duan, Sisi and Wang, Xiaoyun",
+      "title": "Figstep: Jailbreaking large vision-language models via typographic visual prompts",
+      "ENTRYTYPE": "article",
+      "ID": "gong2023figstep"
+    },
+    {
+      "year": "2023",
+      "booktitle": "The Twelfth International Conference on Learning Representations",
+      "author": "Shayegani, Erfan and Dong, Yue and Abu-Ghazaleh, Nael",
+      "title": "Jailbreak in pieces: Compositional adversarial attacks on multi-modal language models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "shayegani2023jailbreak"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2403.09792",
+      "author": "Li, Yifan and Guo, Hangyu and Zhou, Kun and Zhao, Wayne Xin and Wen, Ji-Rong",
+      "title": "Images are Achilles' Heel of Alignment: Exploiting Visual Vulnerabilities for Jailbreaking Multimodal Large Language Models",
+      "ENTRYTYPE": "article",
+      "ID": "li2024images"
+    },
+    {
+      "url": "https://arxiv.org/abs/2407.15211",
+      "primaryclass": "cs.CL",
+      "archiveprefix": "arXiv",
+      "eprint": "2407.15211",
+      "year": "2024",
+      "author": "Rylan Schaeffer and Dan Valentine and Luke Bailey and James Chua and Cristóbal Eyzaguirre and Zane Durante and Joe Benton and Brando Miranda and Henry Sleight and John Hughes and Rajashree Agrawal and Mrinank Sharma and Scott Emmons and Sanmi Koyejo and Ethan Perez",
+      "title": "When Do Universal Image Jailbreaks Transfer Between Vision-Language Models?",
+      "ENTRYTYPE": "misc",
+      "ID": "schaeffer2024universalimagejailbreakstransfer"
+    },
+    {
+      "url": "https://arxiv.org/abs/2202.03286",
+      "primaryclass": "cs.CL",
+      "archiveprefix": "arXiv",
+      "eprint": "2202.03286",
+      "year": "2022",
+      "author": "Ethan Perez and Saffron Huang and Francis Song and Trevor Cai and Roman Ring and John Aslanides and Amelia Glaese and Nat McAleese and Geoffrey Irving",
+      "title": "Red Teaming Language Models with Language Models",
+      "ENTRYTYPE": "misc",
+      "ID": "perez2022redteaminglanguagemodels"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2407.21787",
+      "author": "Brown, Bradley and Juravsky, Jordan and Ehrlich, Ryan and Clark, Ronald and Le, Quoc V and R{\\'e}, Christopher and Mirhoseini, Azalia",
+      "title": "Large language monkeys: Scaling inference compute with repeated sampling",
+      "ENTRYTYPE": "article",
+      "ID": "brown2024large"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2402.04249",
+      "author": "Mazeika, Mantas and Phan, Long and Yin, Xuwang and Zou, Andy and Wang, Zifan and Mu, Norman and Sakhaee, Elham and Li, Nathaniel and Basart, Steven and Li, Bo and others",
+      "title": "Harmbench: A standardized evaluation framework for automated red teaming and robust refusal",
+      "ENTRYTYPE": "article",
+      "ID": "mazeika2024harmbench"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2404.01318",
+      "author": "Chao, Patrick and Debenedetti, Edoardo and Robey, Alexander and Andriushchenko, Maksym and Croce, Francesco and Sehwag, Vikash and Dobriban, Edgar and Flammarion, Nicolas and Pappas, George J and Tramer, Florian and others",
+      "title": "Jailbreakbench: An open robustness benchmark for jailbreaking large language models",
+      "ENTRYTYPE": "article",
+      "ID": "chao2024jailbreakbench"
+    },
+    {
+      "publisher": "MIT Press",
+      "year": "2001",
+      "pages": "159--195",
+      "number": "2",
+      "volume": "9",
+      "journal": "Evolutionary computation",
+      "author": "Hansen, Nikolaus and Ostermeier, Andreas",
+      "title": "Completely derandomized self-adaptation in evolution strategies",
+      "ENTRYTYPE": "article",
+      "ID": "hansen2001completely"
+    },
+    {
+      "url": "https://arxiv.org/abs/2406.04313",
+      "primaryclass": "cs.LG",
+      "archiveprefix": "arXiv",
+      "eprint": "2406.04313",
+      "year": "2024",
+      "author": "Andy Zou and Long Phan and Justin Wang and Derek Duenas and Maxwell Lin and Maksym Andriushchenko and Rowan Wang and Zico Kolter and Matt Fredrikson and Dan Hendrycks",
+      "title": "Improving Alignment and Robustness with Circuit Breakers",
+      "ENTRYTYPE": "misc",
+      "ID": "zou2024improvingalignmentrobustnesscircuit"
+    },
+    {
+      "url": "https://arxiv.org/abs/2312.06674",
+      "primaryclass": "cs.CL",
+      "archiveprefix": "arXiv",
+      "eprint": "2312.06674",
+      "year": "2023",
+      "author": "Hakan Inan and Kartikeya Upasani and Jianfeng Chi and Rashi Rungta and Krithika Iyer and Yuning Mao and Michael Tontchev and Qing Hu and Brian Fuller and Davide Testuggine and Madian Khabsa",
+      "title": "Llama Guard: LLM-based Input-Output Safeguard for Human-AI Conversations",
+      "ENTRYTYPE": "misc",
+      "ID": "inan2023llamaguardllmbasedinputoutput"
+    },
+    {
+      "url": "https://arxiv.org/abs/2402.10260",
+      "primaryclass": "cs.LG",
+      "archiveprefix": "arXiv",
+      "eprint": "2402.10260",
+      "year": "2024",
+      "author": "Alexandra Souly and Qingyuan Lu and Dillon Bowen and Tu Trinh and Elvis Hsieh and Sana Pandey and Pieter Abbeel and Justin Svegliato and Scott Emmons and Olivia Watkins and Sam Toyer",
+      "title": "A StrongREJECT for Empty Jailbreaks",
+      "ENTRYTYPE": "misc",
+      "ID": "souly2024strongrejectjailbreaks"
+    },
+    {
+      "url": "https://arxiv.org/abs/2306.15447",
+      "primaryclass": "cs.CL",
+      "archiveprefix": "arXiv",
+      "eprint": "2306.15447",
+      "year": "2024",
+      "author": "Nicholas Carlini and Milad Nasr and Christopher A. Choquette-Choo and Matthew Jagielski and Irena Gao and Anas Awadalla and Pang Wei Koh and Daphne Ippolito and Katherine Lee and Florian Tramer and Ludwig Schmidt",
+      "title": "Are aligned neural networks adversarially aligned?",
+      "ENTRYTYPE": "misc",
+      "ID": "carlini2024alignedneuralnetworksadversarially"
+    },
+    {
+      "publisher": "Springer",
+      "year": "1992",
+      "pages": "492--518",
+      "booktitle": "Breakthroughs in statistics: Methodology and distribution",
+      "author": "Huber, Peter J",
+      "title": "Robust estimation of a location parameter",
+      "ENTRYTYPE": "incollection",
+      "ID": "huber1992robust"
+    },
+    {
+      "publisher": "Retrieved 2023-01-02, from http://arxiv. org/abs/2203.15556",
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2203.15556",
+      "author": "Hoffmann, Jordan and Borgeaud, Sebastian and Mensch, Arthur and Buchatskaya, Elena and Cai, Trevor and Rutherford, Eliza and de Las Casas, Diego and Hendricks, Lisa Anne and Welbl, Johannes and Clark, Aidan and others",
+      "title": "Training compute-optimal large language models. arXiv",
+      "ENTRYTYPE": "article",
+      "ID": "hoffmann2022training"
+    },
+    {
+      "publisher": "ACM New York, NY, USA",
+      "year": "1997",
+      "pages": "550--560",
+      "number": "4",
+      "volume": "23",
+      "journal": "ACM Transactions on mathematical software (TOMS)",
+      "author": "Zhu, Ciyou and Byrd, Richard H and Lu, Peihuang and Nocedal, Jorge",
+      "title": "Algorithm 778: L-BFGS-B: Fortran subroutines for large-scale bound-constrained optimization",
+      "ENTRYTYPE": "article",
+      "ID": "zhu1997algorithm"
+    },
+    {
+      "year": "2020",
+      "journal": "arXiv preprint arXiv:2007.00991",
+      "author": "Kharitonov, Eugene and Rivi{\\`e}re, Morgane and Synnaeve, Gabriel and Wolf, Lior and Mazar{\\'e}, Pierre-Emmanuel and Douze, Matthijs and Dupoux, Emmanuel",
+      "title": "Data Augmenting Contrastive Learning of Speech Representations in the Time Domain",
+      "ENTRYTYPE": "article",
+      "ID": "wavaugment2020"
+    },
+    {
+      "note": "arXiv:1510.08484v1",
+      "eprint": "1510.08484",
+      "year": "2015",
+      "title": "{MUSAN}: {A} {M}usic, {S}peech, and {N}oise {C}orpus",
+      "author": "David Snyder and Guoguo Chen and Daniel Povey",
+      "ENTRYTYPE": "misc",
+      "ID": "musan2015"
+    },
+    {
+      "organization": "IEEE",
+      "year": "2017",
+      "pages": "5220--5224",
+      "booktitle": "2017 IEEE international conference on acoustics, speech and signal processing (ICASSP)",
+      "author": "Ko, Tom and Peddinti, Vijayaditya and Povey, Daniel and Seltzer, Michael L and Khudanpur, Sanjeev",
+      "title": "A study on data augmentation of reverberant speech for robust speech recognition",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ko2017study"
+    },
+    {
+      "organization": "IEEE Signal Processing Society",
+      "year": "2011",
+      "booktitle": "IEEE 2011 workshop on automatic speech recognition and understanding",
+      "author": "Povey, Daniel and Ghoshal, Arnab and Boulianne, Gilles and Burget, Lukas and Glembek, Ondrej and Goel, Nagendra and Hannemann, Mirko and Motlicek, Petr and Qian, Yanmin and Schwarz, Petr and others",
+      "title": "The Kaldi speech recognition toolkit",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "povey2011kaldi"
+    },
+    {
+      "year": "2020",
+      "journal": "arXiv preprint arXiv:2001.08361",
+      "author": "Kaplan, Jared and McCandlish, Sam and Henighan, Tom and Brown, Tom B and Chess, Benjamin and Child, Rewon and Gray, Scott and Radford, Alec and Wu, Jeffrey and Amodei, Dario",
+      "title": "Scaling laws for neural language models",
+      "ENTRYTYPE": "article",
+      "ID": "kaplan2020scaling"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2408.03314",
+      "author": "Snell, Charlie and Lee, Jaehoon and Xu, Kelvin and Kumar, Aviral",
+      "title": "Scaling llm test-time compute optimally can be more effective than scaling model parameters",
+      "ENTRYTYPE": "article",
+      "ID": "snell2024scaling"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2403.02419",
+      "author": "Chen, Lingjiao and Davis, Jared Quincy and Hanin, Boris and Bailis, Peter and Stoica, Ion and Zaharia, Matei and Zou, James",
+      "title": "Are more llm calls all you need? towards scaling laws of compound inference systems",
+      "ENTRYTYPE": "article",
+      "ID": "chen2024more"
+    },
+    {
+      "urldate": "2023-09-30",
+      "url": "https://elevenlabs.io/text-to-speech",
+      "note": "Online text-to-speech engine",
+      "year": "2023",
+      "title": "ElevenLabs Text-to-Speech",
+      "author": "{ElevenLabs}",
+      "ENTRYTYPE": "misc",
+      "ID": "elevenlabs_tts"
+    },
+    {
+      "year": "2020",
+      "journal": "arXiv preprint arXiv:2004.02990",
+      "author": "Tevet, Guy and Berant, Jonathan",
+      "title": "Evaluating the evaluation of diversity in natural language generation",
+      "ENTRYTYPE": "article",
+      "ID": "tevet2020evaluating"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2310.06452",
+      "author": "Kirk, Robert and Mediratta, Ishita and Nalmpantis, Christoforos and Luketina, Jelena and Hambro, Eric and Grefenstette, Edward and Raileanu, Roberta",
+      "title": "Understanding the effects of rlhf on llm generalisation and diversity",
+      "ENTRYTYPE": "article",
+      "ID": "kirk2023understanding"
+    },
+    {
+      "publisher": "Springer",
+      "year": "1992",
+      "pages": "569--593",
+      "booktitle": "Breakthroughs in statistics: Methodology and distribution",
+      "author": "Efron, Bradley",
+      "title": "Bootstrap methods: another look at the jackknife",
+      "ENTRYTYPE": "incollection",
+      "ID": "efron1992bootstrap"
+    },
+    {
+      "note": "Accessed: [Insert access date here]",
+      "howpublished": "\\url{https://platform.openai.com/docs/guides/embeddings}",
+      "year": "2023",
+      "author": "{OpenAI}",
+      "title": "Embeddings",
+      "ENTRYTYPE": "misc",
+      "ID": "openai2023embeddings"
+    },
+    {
+      "note": "Accessed: [Insert access date here]",
+      "howpublished": "\\url{https://platform.openai.com/docs/guides/chat-completions}",
+      "year": "2023",
+      "author": "{OpenAI}",
+      "title": "Chat Completions",
+      "ENTRYTYPE": "misc",
+      "ID": "openai2023chatcompletions"
+    },
+    {
+      "year": "2018",
+      "journal": "arXiv preprint arXiv:1802.03426",
+      "author": "McInnes, Leland and Healy, John and Melville, James",
+      "title": "Umap: Uniform manifold approximation and projection for dimension reduction",
+      "ENTRYTYPE": "article",
+      "ID": "mcinnes2018umap"
+    },
+    {
+      "url": "https://arxiv.org/abs/2310.06987",
+      "primaryclass": "cs.CL",
+      "archiveprefix": "arXiv",
+      "eprint": "2310.06987",
+      "year": "2023",
+      "author": "Yangsibo Huang and Samyak Gupta and Mengzhou Xia and Kai Li and Danqi Chen",
+      "title": "Catastrophic Jailbreak of Open-source LLMs via Exploiting Generation",
+      "ENTRYTYPE": "misc",
+      "ID": "huang2023catastrophicjailbreakopensourcellms"
+    },
+    {
+      "year": "2024",
+      "pages": "4657--4674",
+      "booktitle": "33rd USENIX Security Symposium (USENIX Security 24)",
+      "author": "Yu, Jiahao and Lin, Xingwei and Yu, Zheng and Xing, Xinyu",
+      "title": "$\\{$LLM-Fuzzer$\\}$: Scaling Assessment of Large Language Model Jailbreaks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "yu2024llm"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2210.10683",
+      "author": "Chen, Yangyi and Gao, Hongcheng and Cui, Ganqu and Qi, Fanchao and Huang, Longtao and Liu, Zhiyuan and Sun, Maosong",
+      "title": "Why Should Adversarial Perturbations be Imperceptible? Rethink the Research Paradigm in Adversarial NLP",
+      "ENTRYTYPE": "article",
+      "ID": "chen2022should"
+    },
+    {
+      "url": "https://arxiv.org/abs/2410.23861",
+      "primaryclass": "cs.CL",
+      "archiveprefix": "arXiv",
+      "eprint": "2410.23861",
+      "year": "2024",
+      "author": "Hao Yang and Lizhen Qu and Ehsan Shareghi and Gholamreza Haffari",
+      "title": "Audio Is the Achilles' Heel: Red Teaming Audio Large Multimodal Models",
+      "ENTRYTYPE": "misc",
+      "ID": "yang2024audioachillesheelred"
+    },
+    {
+      "url": "https://arxiv.org/abs/2410.03489",
+      "primaryclass": "cs.CR",
+      "archiveprefix": "arXiv",
+      "eprint": "2410.03489",
+      "year": "2024",
+      "author": "Javier Rando and Hannah Korevaar and Erik Brinkman and Ivan Evtimov and Florian Tramèr",
+      "title": "Gradient-based Jailbreak Images for Multimodal Fusion Models",
+      "ENTRYTYPE": "misc",
+      "ID": "rando2024gradientbasedjailbreakimagesmultimodal"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2411.17501",
+      "author": "Stroebl, Benedikt and Kapoor, Sayash and Narayanan, Arvind",
+      "title": "Inference Scaling F-Laws: The Limits of LLM Resampling with Imperfect Verifiers",
+      "ENTRYTYPE": "article",
+      "ID": "stroebl2024inference"
+    }
+  ]
+}

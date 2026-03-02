@@ -1,0 +1,450 @@
+{
+  "pdf_url": "https://arxiv.org/pdf/2410.21151v3.pdf",
+  "references": [
+    {
+      "organization": "Springer",
+      "year": "2006",
+      "pages": "72--83",
+      "booktitle": "International conference on computers and games",
+      "author": "Coulom, R{\\'e}mi",
+      "title": "Efficient selectivity and backup operators in Monte-Carlo tree search",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "coulom2006efficient"
+    },
+    {
+      "year": "2019",
+      "journal": "arXiv preprint arXiv:1904.12901",
+      "author": "Dulac-Arnold, Gabriel and Mankowitz, Daniel and Hester, Todd",
+      "title": "Challenges of real-world reinforcement learning",
+      "ENTRYTYPE": "article",
+      "ID": "dulac2019challenges"
+    },
+    {
+      "year": "2016",
+      "journal": "arXiv preprint arXiv:1606.03667",
+      "author": "He, Ji and Ostendorf, Mari and He, Xiaodong and Chen, Jianshu and Gao, Jianfeng and Li, Lihong and Deng, Li",
+      "title": "Deep reinforcement learning with a combinatorial action space for predicting popular reddit threads",
+      "ENTRYTYPE": "article",
+      "ID": "he2016deep"
+    },
+    {
+      "year": "2015",
+      "journal": "arXiv preprint arXiv:1511.04636",
+      "author": "He, Ji and Chen, Jianshu and He, Xiaodong and Gao, Jianfeng and Li, Lihong and Deng, Li and Ostendorf, Mari",
+      "title": "Deep reinforcement learning with a natural language action space",
+      "ENTRYTYPE": "article",
+      "ID": "he2015deep"
+    },
+    {
+      "year": "2020",
+      "pages": "609--620",
+      "volume": "33",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Delarue, Arthur and Anderson, Ross and Tjandraatmadja, Christian",
+      "title": "Reinforcement learning with combinatorial actions: An application to vehicle routing",
+      "ENTRYTYPE": "article",
+      "ID": "delarue2020reinforcement"
+    },
+    {
+      "year": "2015",
+      "journal": "arXiv preprint arXiv:1512.07679",
+      "author": "Dulac-Arnold, Gabriel and Evans, Richard and van Hasselt, Hado and Sunehag, Peter and Lillicrap, Timothy and Hunt, Jonathan and Mann, Timothy and Weber, Theophane and Degris, Thomas and Coppin, Ben",
+      "title": "Deep reinforcement learning in large discrete action spaces",
+      "ENTRYTYPE": "article",
+      "ID": "dulac2015deep"
+    },
+    {
+      "publisher": "Microtome Publishing, Brookline, United States-Massachusetts",
+      "year": "2005",
+      "volume": "6",
+      "journal": "Journal of Machine Learning Research",
+      "author": "Ernst, Damien and Geurts, Pierre and Wehenkel, Louis",
+      "title": "Tree-based batch mode reinforcement learning",
+      "ENTRYTYPE": "article",
+      "ID": "ernst2005tree"
+    },
+    {
+      "year": "2017",
+      "journal": "arXiv preprint arXiv:1710.11417",
+      "author": "Farquhar, Gregory and Rockt{\\\"a}schel, Tim and Igl, Maximilian and Whiteson, Shimon",
+      "title": "Treeqn and atreec: Differentiable tree-structured models for deep reinforcement learning",
+      "ENTRYTYPE": "article",
+      "ID": "farquhar2017treeqn"
+    },
+    {
+      "year": "2017",
+      "journal": "arXiv preprint arXiv:1705.05035",
+      "author": "Metz, Luke and Ibarz, Julian and Jaitly, Navdeep and Davidson, James",
+      "title": "Discrete sequential prediction of continuous actions for deep rl",
+      "ENTRYTYPE": "article",
+      "ID": "metz2017discrete"
+    },
+    {
+      "year": "2022",
+      "pages": "34272--34286",
+      "volume": "35",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Tang, Shengpu and Makar, Maggie and Sjoding, Michael and Doshi-Velez, Finale and Wiens, Jenna",
+      "title": "Leveraging factored action spaces for efficient offline reinforcement learning in healthcare",
+      "ENTRYTYPE": "article",
+      "ID": "tang2022leveraging"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2019",
+      "pages": "4881--4890",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Oberst, Michael and Sontag, David",
+      "title": "Counterfactual off-policy evaluation with gumbel-max structural causal models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "oberst2019counterfactual"
+    },
+    {
+      "year": "2021",
+      "journal": "arXiv preprint arXiv:2110.06169",
+      "author": "Kostrikov, Ilya and Nair, Ashvin and Levine, Sergey",
+      "title": "Offline reinforcement learning with implicit q-learning",
+      "ENTRYTYPE": "article",
+      "ID": "kostrikov2021offline"
+    },
+    {
+      "year": "2020",
+      "journal": "arXiv preprint arXiv:2005.01643",
+      "author": "Levine, Sergey and Kumar, Aviral and Tucker, George and Fu, Justin",
+      "title": "Offline reinforcement learning: Tutorial, review, and perspectives on open problems",
+      "ENTRYTYPE": "article",
+      "ID": "levine2020offline"
+    },
+    {
+      "year": "2021",
+      "pages": "20132--20145",
+      "volume": "34",
+      "journal": "Advances in neural information processing systems",
+      "author": "Fujimoto, Scott and Gu, Shixiang Shane",
+      "title": "A minimalist approach to offline reinforcement learning",
+      "ENTRYTYPE": "article",
+      "ID": "fujimoto2021minimalist"
+    },
+    {
+      "year": "1977",
+      "journal": "Pittsburgh, Pa",
+      "author": "Reddy, Raj",
+      "title": "Speech understanding systems: A summary of results of the five-year research effort at carnegie mellon university",
+      "ENTRYTYPE": "article",
+      "ID": "reddy1977speech"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2019",
+      "pages": "2052--2062",
+      "booktitle": "International conference on machine learning",
+      "author": "Fujimoto, Scott and Meger, David and Precup, Doina",
+      "title": "Off-policy deep reinforcement learning without exploration",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "fujimoto2019off"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2020",
+      "pages": "1855--1865",
+      "booktitle": "International conference on artificial intelligence and statistics",
+      "author": "Silva, Andrew and Gombolay, Matthew and Killian, Taylor and Jimenez, Ivan and Son, Sung-Hyun",
+      "title": "Optimization methods for interpretable differentiable decision trees applied to reinforcement learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "silva2020optimization"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2020",
+      "pages": "3040--3051",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Farquhar, Gregory and Gustafson, Laura and Lin, Zeming and Whiteson, Shimon and Usunier, Nicolas and Synnaeve, Gabriel",
+      "title": "Growing action spaces",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "farquhar2020growing"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2408.03539",
+      "author": "Tang, Chen and Abbatematteo, Ben and Hu, Jiaheng and Chandra, Rohan and Mart{\\'\\i}n-Mart{\\'\\i}n, Roberto and Stone, Peter",
+      "title": "Deep Reinforcement Learning for Robotics: A Survey of Real-World Successes",
+      "ENTRYTYPE": "article",
+      "ID": "tang2024deep"
+    },
+    {
+      "publisher": "Nature Publishing Group",
+      "year": "2015",
+      "pages": "529--533",
+      "number": "7540",
+      "volume": "518",
+      "journal": "nature",
+      "author": "Mnih, Volodymyr and Kavukcuoglu, Koray and Silver, David and Rusu, Andrei A and Veness, Joel and Bellemare, Marc G and Graves, Alex and Riedmiller, Martin and Fidjeland, Andreas K and Ostrovski, Georg and others",
+      "title": "Human-level control through deep reinforcement learning",
+      "ENTRYTYPE": "article",
+      "ID": "mnih2015human"
+    },
+    {
+      "year": "2016",
+      "journal": "arXiv preprint arXiv:1610.03295",
+      "author": "Shalev-Shwartz, Shai and Shammah, Shaked and Shashua, Amnon",
+      "title": "Safe, multi-agent, reinforcement learning for autonomous driving",
+      "ENTRYTYPE": "article",
+      "ID": "shalev2016"
+    },
+    {
+      "organization": "IEEE",
+      "year": "2019",
+      "pages": "8248--8254",
+      "booktitle": "2019 International Conference on Robotics and Automation (ICRA)",
+      "author": "Kendall, Alex and Hawke, Jeffrey and Janz, David and Mazur, Przemyslaw and Reda, Daniele and Allen, John-Mark and Lam, Vinh-Dieu and Bewley, Alex and Shah, Amar",
+      "title": "Learning to drive in a day",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "kendall2019"
+    },
+    {
+      "doi": "10.1109/TITS.2021.3054625",
+      "pages": "1-18",
+      "number": "",
+      "volume": "",
+      "year": "2021",
+      "title": "Deep Reinforcement Learning for Autonomous Driving: A Survey",
+      "journal": "IEEE Transactions on Intelligent Transportation Systems",
+      "author": "Kiran, B Ravi and Sobh, Ibrahim and Talpaert, Victor and Mannion, Patrick and Sallab, Ahmad A. Al and Yogamani, Senthil and Pérez, Patrick",
+      "ENTRYTYPE": "article",
+      "ID": "Kiran2021"
+    },
+    {
+      "publisher": "ACM New York, NY",
+      "year": "2021",
+      "pages": "1--36",
+      "number": "1",
+      "volume": "55",
+      "journal": "ACM Computing Surveys (CSUR)",
+      "author": "Yu, Chao and Liu, Jiming and Nemati, Shamim and Yin, Guosheng",
+      "title": "Reinforcement learning in healthcare: A survey",
+      "ENTRYTYPE": "article",
+      "ID": "yu2021reinforcement"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2407.00681",
+      "author": "Yu, Peipei and Wang, Zhenyi and Zhang, Hongcai and Song, Yonghua",
+      "title": "Safe Reinforcement Learning for Power System Control: A Review",
+      "ENTRYTYPE": "article",
+      "ID": "yu2024safe"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "2020",
+      "pages": "208016--208044",
+      "volume": "8",
+      "journal": "IEEE Access",
+      "author": "Rasheed, Faizan and Yau, Kok-Lim Alvin and Noor, Rafidah Md and Wu, Celimuge and Low, Yeh-Ching",
+      "title": "Deep reinforcement learning for traffic signal control: A review",
+      "ENTRYTYPE": "article",
+      "ID": "rasheed2020deep"
+    },
+    {
+      "year": "2020",
+      "booktitle": "Offline RL Workshop, NeuroIPS",
+      "author": "Fu, Yuwei and Di, Wu and Boulet, Benoit",
+      "title": "Batch reinforcement learning in the real world: A survey",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "fu2020batch"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2019",
+      "pages": "451--473",
+      "booktitle": "Machine Learning for Healthcare Conference",
+      "author": "Yoon, Jinsung and Jordon, James and Schaar, Mihaela",
+      "title": "ASAC: Active sensing using Actor-Critic models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "yoon2019asac"
+    },
+    {
+      "publisher": "Springer",
+      "year": "2012",
+      "pages": "45--73",
+      "booktitle": "Reinforcement learning: State-of-the-art",
+      "author": "Lange, Sascha and Gabel, Thomas and Riedmiller, Martin",
+      "title": "Batch reinforcement learning",
+      "ENTRYTYPE": "incollection",
+      "ID": "lange2012batch"
+    },
+    {
+      "year": "2018",
+      "volume": "31",
+      "journal": "Advances in neural information processing systems",
+      "author": "Zahavy, Tom and Haroush, Matan and Merlis, Nadav and Mankowitz, Daniel J and Mannor, Shie",
+      "title": "Learn what not to learn: Action elimination with deep reinforcement learning",
+      "ENTRYTYPE": "article",
+      "ID": "zahavy2018learn"
+    },
+    {
+      "year": "1993",
+      "booktitle": "Proceedings of the 1993 connectionist models summer school",
+      "author": "Thrun, Sebastian and Schwartz, Anton",
+      "title": "Issues in using function approximation for reinforcement learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "thrun1993issues"
+    },
+    {
+      "year": "2016",
+      "booktitle": "4th International Conference on Learning Representations, {ICLR} 2016, San Juan, Puerto Rico, May 2-4, 2016, Conference Track Proceedings",
+      "title": "Continuous control with deep reinforcement learning",
+      "editor": "Yoshua Bengio and Yann LeCun",
+      "author": "Timothy P. Lillicrap and\nJonathan J. Hunt and\nAlexander Pritzel and\nNicolas Heess and\nTom Erez and\nYuval Tassa and\nDavid Silver and\nDaan Wierstra",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "Lillicrap2016continuous"
+    },
+    {
+      "publisher": "American Association for the Advancement of Science",
+      "year": "2018",
+      "pages": "1140--1144",
+      "number": "6419",
+      "volume": "362",
+      "journal": "Science",
+      "author": "Silver, David and Hubert, Thomas and Schrittwieser, Julian and Antonoglou, Ioannis and Lai, Matthew and Guez, Arthur and Lanctot, Marc and Sifre, Laurent and Kumaran, Dharshan and Graepel, Thore and others",
+      "title": "A general reinforcement learning algorithm that masters chess, shogi, and Go through self-play",
+      "ENTRYTYPE": "article",
+      "ID": "silver2018general"
+    },
+    {
+      "organization": "Springer",
+      "year": "2013",
+      "pages": "194--209",
+      "booktitle": "Machine Learning and Knowledge Discovery in Databases: European Conference, ECML PKDD 2013, Prague, Czech Republic, September 23-27, 2013, Proceedings, Part I 13",
+      "author": "Auger, David and Couetoux, Adrien and Teytaud, Olivier",
+      "title": "Continuous upper confidence trees with polynomial exploration--consistency",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "auger2013continuous"
+    },
+    {
+      "year": "2024",
+      "volume": "36",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Chen, Changyu and Karunasena, Ramesha and Nguyen, Thanh and Sinha, Arunesh and Varakantham, Pradeep",
+      "title": "Generative modelling of stochastic actions with arbitrary constraints in reinforcement learning",
+      "ENTRYTYPE": "article",
+      "ID": "chen2024generative"
+    },
+    {
+      "year": "2018",
+      "volume": "32",
+      "booktitle": "Proceedings of the aaai conference on artificial intelligence",
+      "author": "Tavakoli, Arash and Pardo, Fabio and Kormushev, Petar",
+      "title": "Action branching architectures for deep reinforcement learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "tavakoli2018action"
+    },
+    {
+      "year": "2020",
+      "journal": "arXiv preprint arXiv:2001.08116",
+      "author": "Van de Wiele, Tom and Warde-Farley, David and Mnih, Andriy and Mnih, Volodymyr",
+      "title": "Q-learning in enormous action spaces via amortized approximate maximization",
+      "ENTRYTYPE": "article",
+      "ID": "van2020q"
+    },
+    {
+      "year": "2018",
+      "volume": "31",
+      "journal": "Advances in neural information processing systems",
+      "author": "Nazari, Mohammadreza and Oroojlooy, Afshin and Snyder, Lawrence and Tak{\\'a}c, Martin",
+      "title": "Reinforcement learning for solving the vehicle routing problem",
+      "ENTRYTYPE": "article",
+      "ID": "nazari2018reinforcement"
+    },
+    {
+      "year": "2016",
+      "journal": "arXiv preprint arXiv:1611.09940",
+      "author": "Bello, Irwan and Pham, Hieu and Le, Quoc V and Norouzi, Mohammad and Bengio, Samy",
+      "title": "Neural combinatorial optimization with reinforcement learning",
+      "ENTRYTYPE": "article",
+      "ID": "bello2016neural"
+    },
+    {
+      "year": "2020",
+      "journal": "arXiv preprint arXiv:2006.09359",
+      "author": "Nair, Ashvin and Gupta, Abhishek and Dalal, Murtaza and Levine, Sergey",
+      "title": "Awac: Accelerating online reinforcement learning with offline datasets",
+      "ENTRYTYPE": "article",
+      "ID": "nair2020awac"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2411.11088",
+      "author": "Beeson, Alex and Ireland, David and Montana, Giovanni",
+      "title": "An Investigation of Offline Reinforcement Learning in Factorisable Action Spaces",
+      "ENTRYTYPE": "article",
+      "ID": "beeson2024investigation"
+    },
+    {
+      "year": "2018",
+      "journal": "arXiv preprint arXiv:1801.00690",
+      "author": "Tassa, Yuval and Doron, Yotam and Muldal, Alistair and Erez, Tom and Li, Yazhe and Casas, Diego de Las and Budden, David and Abdolmaleki, Abbas and Merel, Josh and Lefrancq, Andrew and others",
+      "title": "Deepmind control suite",
+      "ENTRYTYPE": "article",
+      "ID": "tassa2018deepmind"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2023",
+      "pages": "2529--2540",
+      "booktitle": "Uncertainty in Artificial Intelligence",
+      "author": "Zhao, Xutong and Pan, Yangchen and Xiao, Chenjun and Chandar, Sarath and Rajendran, Janarthanan",
+      "title": "Conditionally optimistic exploration for cooperative deep multi-agent reinforcement learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zhao2023conditionally"
+    },
+    {
+      "year": "2020",
+      "journal": "arXiv preprint arXiv:2006.14171",
+      "author": "Huang, Shengyi and Onta{\\~n}{\\'o}n, Santiago",
+      "title": "A closer look at invalid action masking in policy gradient algorithms",
+      "ENTRYTYPE": "article",
+      "ID": "huang2020closer"
+    },
+    {
+      "url": "https://arxiv.org/abs/2407.17032",
+      "primaryclass": "cs.LG",
+      "archiveprefix": "arXiv",
+      "eprint": "2407.17032",
+      "year": "2024",
+      "author": "Mark Towers and Ariel Kwiatkowski and Jordan Terry and John U. Balis and Gianluca De Cola and Tristan Deleu and Manuel Goulão and Andreas Kallinteris and Markus Krimmel and Arjun KG and Rodrigo Perez-Vicente and Andrea Pierré and Sander Schulhoff and Jun Jet Tai and Hannah Tan and Omar G. Younis",
+      "title": "Gymnasium: A Standard Interface for Reinforcement Learning Environments",
+      "ENTRYTYPE": "misc",
+      "ID": "towers2024gymnasium"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2018",
+      "pages": "1587--1596",
+      "booktitle": "International conference on machine learning",
+      "author": "Fujimoto, Scott and Hoof, Herke and Meger, David",
+      "title": "Addressing function approximation error in actor-critic methods",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "fujimoto2018addressing"
+    },
+    {
+      "year": "2020",
+      "pages": "1179--1191",
+      "volume": "33",
+      "journal": "Advances in neural information processing systems",
+      "author": "Kumar, Aviral and Zhou, Aurick and Tucker, George and Levine, Sergey",
+      "title": "Conservative q-learning for offline reinforcement learning",
+      "ENTRYTYPE": "article",
+      "ID": "kumar2020conservative"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2020",
+      "pages": "104--114",
+      "booktitle": "International conference on machine learning",
+      "author": "Agarwal, Rishabh and Schuurmans, Dale and Norouzi, Mohammad",
+      "title": "An optimistic perspective on offline reinforcement learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "agarwal2020optimistic"
+    }
+  ]
+}

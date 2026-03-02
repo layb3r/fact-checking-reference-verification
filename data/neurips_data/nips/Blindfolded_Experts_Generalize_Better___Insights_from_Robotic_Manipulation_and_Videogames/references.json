@@ -1,0 +1,622 @@
+{
+  "pdf_url": "https://arxiv.org/pdf/2510.24194v1.pdf",
+  "references": [
+    {
+      "year": "2017",
+      "volume": "30",
+      "journal": "Advances in neural information processing systems",
+      "author": "Vaswani, Ashish and Shazeer, Noam and Parmar, Niki and Uszkoreit, Jakob and Jones, Llion and Gomez, Aidan N and Kaiser, {\\L}ukasz and Polosukhin, Illia",
+      "title": "Attention is all you need",
+      "ENTRYTYPE": "article",
+      "ID": "vaswani2017attention"
+    },
+    {
+      "organization": "JMLR Workshop and Conference Proceedings",
+      "year": "2011",
+      "pages": "627--635",
+      "booktitle": "Proceedings of the fourteenth international conference on artificial intelligence and statistics",
+      "author": "Ross, St{\\'e}phane and Gordon, Geoffrey and Bagnell, Drew",
+      "title": "A reduction of imitation learning and structured prediction to no-regret online learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ross2011reduction"
+    },
+    {
+      "publisher": "SAGE Publications Sage UK: London, England",
+      "year": "2023",
+      "pages": "02783649241276017",
+      "journal": "The International Journal of Robotics Research",
+      "author": "Luo, Jianlan and Xu, Charles and Liu, Fangchen and Tan, Liam and Lin, Zipeng and Wu, Jeffrey and Abbeel, Pieter and Levine, Sergey",
+      "title": "{FMB}: a functional manipulation benchmark for generalizable robotic learning",
+      "ENTRYTYPE": "article",
+      "ID": "luo2023fmb"
+    },
+    {
+      "year": "1988",
+      "volume": "1",
+      "journal": "Advances in neural information processing systems",
+      "author": "Pomerleau, Dean A",
+      "title": "Alvinn: An autonomous land vehicle in a neural network",
+      "ENTRYTYPE": "article",
+      "ID": "pomerleau1988alvinn"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2504.03515",
+      "author": "An, Shan and Meng, Ziyu and Tang, Chao and Zhou, Yuning and Liu, Tengyu and Ding, Fangqiang and Zhang, Shufang and Mu, Yao and Song, Ran and Zhang, Wei and others",
+      "title": "Dexterous Manipulation through Imitation Learning: A Survey",
+      "ENTRYTYPE": "article",
+      "ID": "an2025dexterous"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2017",
+      "pages": "357--368",
+      "booktitle": "Conference on robot learning",
+      "author": "Finn, Chelsea and Yu, Tianhe and Zhang, Tianhao and Abbeel, Pieter and Levine, Sergey",
+      "title": "One-shot visual imitation learning via meta-learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "finn2017one"
+    },
+    {
+      "publisher": "SAGE Publications Sage UK: London, England",
+      "year": "2010",
+      "pages": "1608--1639",
+      "number": "13",
+      "volume": "29",
+      "journal": "The International Journal of Robotics Research",
+      "author": "Abbeel, Pieter and Coates, Adam and Ng, Andrew Y",
+      "title": "Autonomous helicopter aerobatics through apprenticeship learning",
+      "ENTRYTYPE": "article",
+      "ID": "abbeel2010autonomous"
+    },
+    {
+      "publisher": "ACM New York, NY, USA",
+      "year": "2018",
+      "pages": "1--14",
+      "number": "4",
+      "volume": "37",
+      "journal": "ACM Transactions On Graphics (TOG)",
+      "author": "Peng, Xue Bin and Abbeel, Pieter and Levine, Sergey and Van de Panne, Michiel",
+      "title": "Deepmimic: Example-guided deep reinforcement learning of physics-based character skills",
+      "ENTRYTYPE": "article",
+      "ID": "peng2018deepmimic"
+    },
+    {
+      "year": "2024",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Foster, Dylan J and Block, Adam and Misra, Dipendra",
+      "title": "Is behavior cloning all you need? understanding horizon in imitation learning",
+      "ENTRYTYPE": "article",
+      "ID": "foster2024behavior"
+    },
+    {
+      "year": "2010",
+      "booktitle": "International Conference on Artificial Intelligence and Statistics",
+      "author": "Ross, St{\\'e}phane and Bagnell, Drew",
+      "title": "Efficient reductions for imitation learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ross2010efficient"
+    },
+    {
+      "year": "2014",
+      "journal": "arXiv preprint arXiv:1406.5979",
+      "author": "Ross, Stephane and Bagnell, J Andrew",
+      "title": "Reinforcement and imitation learning via interactive no-regret learning",
+      "ENTRYTYPE": "article",
+      "ID": "ross2014reinforcement"
+    },
+    {
+      "year": "2020",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Xu, Tian and Li, Ziniu and Yu, Yang",
+      "title": "Error bounds of imitating policies and environments",
+      "ENTRYTYPE": "article",
+      "ID": "xu2020error"
+    },
+    {
+      "year": "2020",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Rajaraman, Nived and Yang, Lin and Jiao, Jiantao and Ramchandran, Kannan",
+      "title": "Toward the fundamental limits of imitation learning",
+      "ENTRYTYPE": "article",
+      "ID": "rajaraman2020toward"
+    },
+    {
+      "year": "2021",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Rajaraman, Nived and Han, Yanjun and Yang, Lin and Liu, Jingbo and Jiao, Jiantao and Ramchandran, Kannan",
+      "title": "On the value of interaction and function approximation in imitation learning",
+      "ENTRYTYPE": "article",
+      "ID": "rajaraman2021value"
+    },
+    {
+      "year": "2021",
+      "journal": "arXiv preprint arXiv:2102.12948",
+      "author": "Rajaraman, Nived and Han, Yanjun and Yang, Lin F and Ramchandran, Kannan and Jiao, Jiantao",
+      "title": "Provably breaking the quadratic error compounding barrier in imitation learning, optimally",
+      "ENTRYTYPE": "article",
+      "ID": "rajaraman2021provably"
+    },
+    {
+      "year": "2021",
+      "booktitle": "Conference on Robot Learning",
+      "author": "Ren, Allen and Veer, Sushant and Majumdar, Anirudha",
+      "title": "Generalization guarantees for imitation learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ren2021generalization"
+    },
+    {
+      "url": "https://openreview.net/forum?id=ZRQMCuIAcZ",
+      "year": "2023",
+      "booktitle": "ICML Workshop on New Frontiers in Learning, Control, and Dynamical Systems",
+      "author": "Adam Block and Daniel Pfrommer and Max Simchowitz",
+      "title": "On the Imitation of Non-Markovian  Demonstrations: From Low-Level Stability to High-Level Planning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "block2023on"
+    },
+    {
+      "year": "2022",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Swamy, Gokul and Choudhury, Sanjiban and Bagnell, J and Wu, Steven Z",
+      "title": "Sequence model imitation learning with unobserved contexts",
+      "ENTRYTYPE": "article",
+      "ID": "swamy2022sequence"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "2010",
+      "pages": "2696--2711",
+      "number": "29-30",
+      "volume": "411",
+      "journal": "Theoretical Computer Science",
+      "author": "Shamir, Ohad and Sabato, Sivan and Tishby, Naftali",
+      "title": "Learning and generalization with the information bottleneck",
+      "ENTRYTYPE": "article",
+      "ID": "shamir2010learning"
+    },
+    {
+      "year": "2023",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Kawaguchi, Kenji and Deng, Zhun and Ji, Xu and Huang, Jiaoyang",
+      "title": "How does information bottleneck help deep learning?",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "kawaguchi2023does"
+    },
+    {
+      "year": "2022",
+      "booktitle": "AAAI Conference on Artificial Intelligence",
+      "author": "Tamar, Aviv and Soudry, Daniel and Zisselman, Ev",
+      "title": "Regularization guarantees generalization in bayesian reinforcement learning through algorithmic stability",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "tamar2022regularization"
+    },
+    {
+      "year": "2021",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Simchowitz, Max and Tosh, Christopher and Krishnamurthy, Akshay and Hsu, Daniel J and Lykouris, Thodoris and Dudik, Miro and Schapire, Robert E",
+      "title": "Bayesian decision-making under misspecified priors with applications to meta-learning",
+      "ENTRYTYPE": "article",
+      "ID": "simchowitz2021bayesian"
+    },
+    {
+      "year": "1999",
+      "journal": "arXiv preprint physics/0004057",
+      "author": "Tishby, Naftali and Pereira, Fernando C and Bialek, William",
+      "title": "The information bottleneck method",
+      "ENTRYTYPE": "article",
+      "ID": "tishby1999information"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2502.02853",
+      "author": "Bai, Shuanghai and Zhou, Wanqi and Ding, Pengxiang and Zhao, Wei and Wang, Donglin and Chen, Badong",
+      "title": "Rethinking Latent Representations in Behavior Cloning: An Information Bottleneck Approach for Robot Manipulation",
+      "ENTRYTYPE": "article",
+      "ID": "bai2025rethinking"
+    },
+    {
+      "year": "2018",
+      "url": "https://openreview.net/pdf?id=SkeL6sCqK7",
+      "journal": "OpenReview",
+      "author": "Shwartz-Ziv, Ravid and Painsky, Amichai and Tishby, Naftali",
+      "title": "Representation compression and generalization in deep neural networks",
+      "ENTRYTYPE": "article",
+      "ID": "shwartz2018representation"
+    },
+    {
+      "year": "2024",
+      "booktitle": "International Conference on Learning Representations",
+      "author": "Tiapkin, Daniil and Belomestny, Denis and Calandriello, Daniele and Moulines, Eric and Naumov, Alexey and Perrault, Pierre and Valko, Michal and Menard, Pierre",
+      "title": "Demonstration-regularized RL",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "tiapkinregularized"
+    },
+    {
+      "publisher": "John Wiley \\& Sons",
+      "year": "2014",
+      "author": "Puterman, Martin L",
+      "title": "Markov decision processes: discrete stochastic dynamic programming",
+      "ENTRYTYPE": "book",
+      "ID": "puterman2014markov"
+    },
+    {
+      "year": "2022",
+      "pages": "187--212",
+      "number": "2",
+      "volume": "9",
+      "journal": "Annals of Data Science",
+      "author": "Wang, Qi and Ma, Yue and Zhao, Kun and Tian, Yingjie",
+      "title": "A comprehensive survey of loss functions in machine learning",
+      "ENTRYTYPE": "article",
+      "ID": "wang2022comprehensive"
+    },
+    {
+      "publisher": "MIT press Cambridge",
+      "year": "1998",
+      "author": "Sutton, Richard S and Barto, Andrew G and others",
+      "title": "Reinforcement learning: An introduction",
+      "ENTRYTYPE": "book",
+      "ID": "sutton1998reinforcement"
+    },
+    {
+      "year": "2022",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Ngampruetikorn, Vudtiwat and Schwab, David J",
+      "title": "Information bottleneck theory of high-dimensional regression: relevancy, efficiency and optimality",
+      "ENTRYTYPE": "article",
+      "ID": "ngampruetikorn2022information"
+    },
+    {
+      "year": "2017",
+      "pages": "1--35",
+      "number": "2",
+      "volume": "50",
+      "journal": "ACM Computing Surveys",
+      "author": "Hussein, Ahmed and Gaber, Mohamed Medhat and Elyan, Eyad and Jayne, Chrisina",
+      "title": "Imitation learning: A survey of learning methods",
+      "ENTRYTYPE": "article",
+      "ID": "hussein2017imitation"
+    },
+    {
+      "year": "2022",
+      "pages": "6322--6337",
+      "number": "5",
+      "volume": "35",
+      "journal": "IEEE Transactions on Neural Networks and Learning Systems",
+      "author": "Zheng, Boyuan and Verma, Sunny and Zhou, Jianlong and Tsang, Ivor W and Chen, Fang",
+      "title": "Imitation learning: Progress, taxonomies and challenges",
+      "ENTRYTYPE": "article",
+      "ID": "zheng2022imitation"
+    },
+    {
+      "year": "2017",
+      "journal": "Advances in neural information processing systems",
+      "author": "Duan, Yan and Andrychowicz, Marcin and Stadie, Bradly and Ho, Jonathan and Schneider, Jonas and Sutskever, Ilya and Abbeel, Pieter and Zaremba, Wojciech",
+      "title": "One-shot imitation learning",
+      "ENTRYTYPE": "article",
+      "ID": "duan2017one"
+    },
+    {
+      "year": "2019",
+      "pages": "124020",
+      "number": "12",
+      "volume": "2019",
+      "journal": "Journal of Statistical Mechanics: Theory and Experiment",
+      "author": "Saxe, Andrew M and Bansal, Yamini and Dapello, Joel and Advani, Madhu and Kolchinsky, Artemy and Tracey, Brendan D and Cox, David D",
+      "title": "On the information bottleneck theory of deep learning",
+      "ENTRYTYPE": "article",
+      "ID": "saxe2019information"
+    },
+    {
+      "organization": "IEEE",
+      "year": "2024",
+      "pages": "16961--16969",
+      "booktitle": "2024 IEEE International Conference on Robotics and Automation (ICRA)",
+      "author": "Luo, Jianlan and Hu, Zheyuan and Xu, Charles and Tan, You Liang and Berg, Jacob and Sharma, Archit and Schaal, Stefan and Finn, Chelsea and Gupta, Abhishek and Levine, Sergey",
+      "title": "Serl: A software suite for sample-efficient robotic reinforcement learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "luo2024serl"
+    },
+    {
+      "publisher": "SAGE Publications Sage UK: London, England",
+      "year": "2023",
+      "pages": "02783649241273668",
+      "journal": "The International Journal of Robotics Research",
+      "author": "Chi, Cheng and Xu, Zhenjia and Feng, Siyuan and Cousineau, Eric and Du, Yilun and Burchfiel, Benjamin and Tedrake, Russ and Song, Shuran",
+      "title": "Diffusion policy: Visuomotor policy learning via action diffusion",
+      "ENTRYTYPE": "article",
+      "ID": "chi2023diffusion"
+    },
+    {
+      "year": "2023",
+      "booktitle": "Robots:Science and Systems (RSS)",
+      "author": "Zhao, Tony Z and Kumar, Vikash and Levine, Sergey and Finn, Chelsea",
+      "title": "Learning fine-grained bimanual manipulation with low-cost hardware",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zhao2023learning"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2401.02117",
+      "author": "Fu, Zipeng and Zhao, Tony Z and Finn, Chelsea",
+      "title": "Mobile aloha: Learning bimanual mobile manipulation with low-cost whole-body teleoperation",
+      "ENTRYTYPE": "article",
+      "ID": "fu2024mobile"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2403.03954",
+      "author": "Ze, Yanjie and Zhang, Gu and Zhang, Kangning and Hu, Chenyuan and Wang, Muhan and Xu, Huazhe",
+      "title": "3d diffusion policy: Generalizable visuomotor policy learning via simple 3d representations",
+      "ENTRYTYPE": "article",
+      "ID": "ze20243d"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2502.16932",
+      "author": "Xue, Zhengrong and Deng, Shuying and Chen, Zhenyang and Wang, Yixuan and Yuan, Zhecheng and Xu, Huazhe",
+      "title": "Demogen: Synthetic demonstration generation for data-efficient visuomotor policy learning",
+      "ENTRYTYPE": "article",
+      "ID": "xue2025demogen"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2310.17596",
+      "author": "Mandlekar, Ajay and Nasiriany, Soroush and Wen, Bowen and Akinola, Iretiayo and Narang, Yashraj and Fan, Linxi and Zhu, Yuke and Fox, Dieter",
+      "title": "Mimicgen: A data generation system for scalable robot learning using human demonstrations",
+      "ENTRYTYPE": "article",
+      "ID": "mandlekar2023mimicgen"
+    },
+    {
+      "organization": "IEEE",
+      "year": "2024",
+      "pages": "2840--2846",
+      "booktitle": "2024 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
+      "author": "Hoque, Ryan and Mandlekar, Ajay and Garrett, Caelan and Goldberg, Ken and Fox, Dieter",
+      "title": "Intervengen: Interventional data generation for robust and data-efficient robot imitation learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "hoque2024intervengen"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2410.18907",
+      "author": "Garrett, Caelan and Mandlekar, Ajay and Wen, Bowen and Fox, Dieter",
+      "title": "SkillMimicGen: Automated Demonstration Generation for Efficient Skill Learning and Deployment",
+      "ENTRYTYPE": "article",
+      "ID": "garrett2024skillmimicgen"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2403.03949",
+      "author": "Torne, Marcel and Simeonov, Anthony and Li, Zechu and Chan, April and Chen, Tao and Gupta, Abhishek and Agrawal, Pulkit",
+      "title": "Reconciling reality through simulation: A real-to-sim-to-real approach for robust manipulation",
+      "ENTRYTYPE": "article",
+      "ID": "torne2024reconciling"
+    },
+    {
+      "organization": "IEEE",
+      "year": "2024",
+      "pages": "6892--6903",
+      "booktitle": "2024 IEEE International Conference on Robotics and Automation (ICRA)",
+      "author": "O’Neill, Abby and Rehman, Abdul and Maddukuri, Abhiram and Gupta, Abhishek and Padalkar, Abhishek and Lee, Abraham and Pooley, Acorn and Gupta, Agrim and Mandlekar, Ajay and Jain, Ajinkya and others",
+      "title": "Open x-embodiment: Robotic learning datasets and rt-x models: Open x-embodiment collaboration",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "o2024open"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2410.18647",
+      "author": "Lin, Fanqi and Hu, Yingdong and Sheng, Pingyue and Wen, Chuan and You, Jiacheng and Gao, Yang",
+      "title": "Data scaling laws in imitation learning for robotic manipulation",
+      "ENTRYTYPE": "article",
+      "ID": "lin2024data"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2405.12213",
+      "author": "Team, Octo Model and Ghosh, Dibya and Walke, Homer and Pertsch, Karl and Black, Kevin and Mees, Oier and Dasari, Sudeep and Hejna, Joey and Kreiman, Tobias and Xu, Charles and others",
+      "title": "Octo: An open-source generalist robot policy",
+      "ENTRYTYPE": "article",
+      "ID": "team2024octo"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2406.09246",
+      "author": "Kim, Moo Jin and Pertsch, Karl and Karamcheti, Siddharth and Xiao, Ted and Balakrishna, Ashwin and Nair, Suraj and Rafailov, Rafael and Foster, Ethan and Lam, Grace and Sanketi, Pannag and others",
+      "title": "Openvla: An open-source vision-language-action model",
+      "ENTRYTYPE": "article",
+      "ID": "kim2024openvla"
+    },
+    {
+      "year": "2024",
+      "pages": "78715--78765",
+      "volume": "37",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Wagenmaker, Andrew and Huang, Kevin and Ke, Liyiming and Jamieson, Kevin and Gupta, Abhishek",
+      "title": "Overcoming the Sim-to-Real Gap: Leveraging Simulation to Learn to Explore for Real-World RL",
+      "ENTRYTYPE": "article",
+      "ID": "wagenmaker2024overcoming"
+    },
+    {
+      "year": "2023",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Zisselman, Ev and Lavie, Itai and Soudry, Daniel and Tamar, Aviv",
+      "title": "Explore to generalize in zero-shot rl",
+      "ENTRYTYPE": "article",
+      "ID": "zisselman2023explore"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2408.00714",
+      "author": "Ravi, Nikhila and Gabeur, Valentin and Hu, Yuan-Ting and Hu, Ronghang and Ryali, Chaitanya and Ma, Tengyu and Khedr, Haitham and R{\\\"a}dle, Roman and Rolland, Chloe and Gustafson, Laura and others",
+      "title": "Sam 2: Segment anything in images and videos",
+      "ENTRYTYPE": "article",
+      "ID": "ravi2024sam"
+    },
+    {
+      "year": "2016",
+      "pages": "770--778",
+      "booktitle": "Proceedings of the IEEE conference on computer vision and pattern recognition",
+      "author": "He, Kaiming and Zhang, Xiangyu and Ren, Shaoqing and Sun, Jian",
+      "title": "Deep residual learning for image recognition",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "he2016deep"
+    },
+    {
+      "organization": "Ieee",
+      "year": "2009",
+      "pages": "248--255",
+      "booktitle": "2009 IEEE conference on computer vision and pattern recognition",
+      "author": "Deng, Jia and Dong, Wei and Socher, Richard and Li, Li-Jia and Li, Kai and Fei-Fei, Li",
+      "title": "Imagenet: A large-scale hierarchical image database",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "deng2009imagenet"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2022",
+      "pages": "16223--16239",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Mutti, Mirco and De Santi, Riccardo and Restelli, Marcello",
+      "title": "The importance of non-markovianity in maximum state entropy exploration",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "mutti2022importance"
+    },
+    {
+      "year": "2014",
+      "journal": "arXiv preprint arXiv:1409.1259",
+      "author": "Cho, Kyunghyun and Van Merri{\\\"e}nboer, Bart and Bahdanau, Dzmitry and Bengio, Yoshua",
+      "title": "On the properties of neural machine translation: Encoder-decoder approaches",
+      "ENTRYTYPE": "article",
+      "ID": "cho2014properties"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2020",
+      "pages": "2048--2056",
+      "booktitle": "International conference on machine learning",
+      "author": "Cobbe, Karl and Hesse, Chris and Hilton, Jacob and Schulman, John",
+      "title": "Leveraging procedural generation to benchmark reinforcement learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "cobbe2020leveraging"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2312.05742",
+      "author": "Mediratta, Ishita and You, Qingfei and Jiang, Minqi and Raileanu, Roberta",
+      "title": "The generalization gap in offline reinforcement learning",
+      "ENTRYTYPE": "article",
+      "ID": "mediratta2023generalization"
+    },
+    {
+      "year": "2015",
+      "pages": "359--483",
+      "number": "5-6",
+      "volume": "8",
+      "journal": "Foundations and Trends{\\textregistered} in Machine Learning",
+      "author": "Ghavamzadeh, Mohammad and Mannor, Shie and Pineau, Joelle and Tamar, Aviv and others",
+      "title": "Bayesian reinforcement learning: A survey",
+      "ENTRYTYPE": "article",
+      "ID": "ghavamzadeh2015bayesian"
+    },
+    {
+      "year": "2022",
+      "booktitle": "International Conference on Learning Representations",
+      "author": "Chen, Xiaoyu and Hu, Jiachen and Jin, Chi and Li, Lihong and Wang, Liwei",
+      "title": "Understanding Domain Randomization for Sim-to-real Transfer",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "chen2022understanding"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2021",
+      "pages": "8787--8798",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Raileanu, Roberta and Fergus, Rob",
+      "title": "Decoupling value and policy for generalization in reinforcement learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "raileanu2021decoupling"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2021",
+      "pages": "2020--2027",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Cobbe, Karl W and Hilton, Jacob and Klimov, Oleg and Schulman, John",
+      "title": "Phasic policy gradient",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "cobbe2021phasic"
+    },
+    {
+      "year": "2021",
+      "pages": "16",
+      "volume": "1",
+      "journal": "arXiv preprint arXiv:2111.09794",
+      "author": "Kirk, Robert and Zhang, Amy and Grefenstette, Edward and Rockt{\\\"a}schel, Tim",
+      "title": "A survey of generalisation in deep reinforcement learning",
+      "ENTRYTYPE": "article",
+      "ID": "kirk2021survey"
+    },
+    {
+      "year": "2021",
+      "pages": "5402--5415",
+      "volume": "34",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Raileanu, Roberta and Goldstein, Maxwell and Yarats, Denis and Kostrikov, Ilya and Fergus, Rob",
+      "title": "Automatic data augmentation for generalization in reinforcement learning",
+      "ENTRYTYPE": "article",
+      "ID": "raileanu2021automatic"
+    },
+    {
+      "year": "2017",
+      "journal": "arXiv preprint arXiv:1707.06347",
+      "author": "Schulman, John and Wolski, Filip and Dhariwal, Prafulla and Radford, Alec and Klimov, Oleg",
+      "title": "Proximal policy optimization algorithms",
+      "ENTRYTYPE": "article",
+      "ID": "schulman2017proximal"
+    },
+    {
+      "year": "2014",
+      "journal": "arXiv preprint arXiv:1412.6980",
+      "author": "Kingma, Diederik P",
+      "title": "Adam: A method for stochastic optimization",
+      "ENTRYTYPE": "article",
+      "ID": "kingma2014adam"
+    },
+    {
+      "isbn": "978-3-540-31816-3",
+      "abstract": "The classical approach to using utility functions suffers from the drawback of having to design and tweak the functions on a case by case basis. Inspired by examples from the animal kingdom, social sciences and games we propose empowerment, a rather universal function, defined as the information-theoretic capacity of an agent's actuation channel. The concept applies to any sensorimotoric apparatus. Empowerment as a measure reflects the properties of the apparatus as long as they are observable due to the coupling of sensors and actuators via the environment.",
+      "pages": "744--753",
+      "address": "Berlin, Heidelberg",
+      "publisher": "Springer Berlin Heidelberg",
+      "year": "2005",
+      "booktitle": "Advances in Artificial Life",
+      "title": "All Else Being Equal Be Empowered",
+      "editor": "Capcarr{\\`e}re, Mathieu S.\nand Freitas, Alex A.\nand Bentley, Peter J.\nand Johnson, Colin G.\nand Timmis, Jon",
+      "author": "Klyubin, Alexander S.\nand Polani, Daniel\nand Nehaniv, Chrystopher L.",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "10.1007/11553090_75"
+    },
+    {
+      "doi": "10.1109/ISIT.2004.1365218",
+      "keywords": "Channel capacity;Rate-distortion;Mutual information;Capacity planning;Source coding;Decoding;Auxiliary transmitters;Random variables;Distributed computing;Probability distribution",
+      "pages": "179-",
+      "number": "",
+      "volume": "",
+      "year": "2004",
+      "title": "Blahut-Arimoto algorithms for computing channel capacity and rate-distortion with side information",
+      "booktitle": "International Symposium onInformation Theory, 2004. ISIT 2004. Proceedings.",
+      "author": "Dupuis, F. and Yu, W. and Willems, F.M.J.",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "1365218"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2503.09722",
+      "author": "Simchowitz, Max and Pfrommer, Daniel and Jadbabaie, Ali",
+      "title": "The pitfalls of imitation learning when actions are continuous",
+      "ENTRYTYPE": "article",
+      "ID": "simchowitz2025pitfalls"
+    }
+  ]
+}

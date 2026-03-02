@@ -1,0 +1,484 @@
+{
+  "pdf_url": "https://arxiv.org/pdf/2506.01734v2.pdf",
+  "references": [
+    {
+      "url": "https://api.semanticscholar.org/CorpusID:273661714",
+      "volume": "abs/2410.21272",
+      "year": "2024",
+      "journal": "ArXiv",
+      "author": "Yaniv Nikankin and Anja Reusch and Aaron Mueller and Yonatan Belinkov",
+      "title": "Arithmetic Without Algorithms: Language Models Solve Math With a Bag of Heuristics",
+      "ENTRYTYPE": "article",
+      "ID": "Nikankin2024ArithmeticWA"
+    },
+    {
+      "url": "https://api.semanticscholar.org/CorpusID:272330506",
+      "volume": "abs/2409.01659",
+      "year": "2024",
+      "journal": "ArXiv",
+      "author": "Wei Zhang and Chaoqun Wan and Yonggang Zhang and Yiu-ming Cheung and Xinmei Tian and Xu Shen and Jieping Ye",
+      "title": "Interpreting and Improving Large Language Models in Arithmetic Calculation",
+      "ENTRYTYPE": "article",
+      "ID": "Zhang2024InterpretingAI"
+    },
+    {
+      "url": "https://api.semanticscholar.org/CorpusID:253522998",
+      "year": "2022",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Nikhil Kandpal and H. Deng and Adam Roberts and Eric Wallace and Colin Raffel",
+      "title": "Large Language Models Struggle to Learn Long-Tail Knowledge",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "Kandpal2022LargeLM"
+    },
+    {
+      "url": "https://api.semanticscholar.org/CorpusID:272826648",
+      "year": "2024",
+      "booktitle": "Conference on Empirical Methods in Natural Language Processing",
+      "author": "Zeping Yu and Sophia Ananiadou",
+      "title": "Interpreting Arithmetic Mechanism in Large Language Models through Comparative Neuron Analysis",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "Yu2024InterpretingAM"
+    },
+    {
+      "url": "https://api.semanticscholar.org/CorpusID:229923720",
+      "volume": "abs/2012.14913",
+      "year": "2020",
+      "journal": "ArXiv",
+      "author": "Mor Geva and R. Schuster and Jonathan Berant and Omer Levy",
+      "title": "Transformer Feed-Forward Layers Are Key-Value Memories",
+      "ENTRYTYPE": "article",
+      "ID": "Geva2020TransformerFL"
+    },
+    {
+      "url": "https://api.semanticscholar.org/CorpusID:5947965",
+      "year": "2001",
+      "journal": "Probabilistic and Causal Inference",
+      "author": "Judea Pearl",
+      "title": "Direct and Indirect Effects",
+      "ENTRYTYPE": "article",
+      "ID": "Pearl2001DirectAI"
+    },
+    {
+      "year": "2021",
+      "journal": "NeurIPS",
+      "author": "Dan Hendrycks and Collin Burns and Saurav Kadavath and Akul Arora and Steven Basart and Eric Tang and Dawn Song and Jacob Steinhardt",
+      "title": "Measuring Mathematical Problem Solving With the MATH Dataset",
+      "ENTRYTYPE": "article",
+      "ID": "hendrycksmath2021"
+    },
+    {
+      "year": "2021",
+      "journal": "arXiv preprint arXiv:2110.14168",
+      "author": "Cobbe, Karl and Kosaraju, Vineet and Bavarian, Mohammad and Chen, Mark and Jun, Heewoo and Kaiser, Lukasz and Plappert, Matthias and Tworek, Jerry and Hilton, Jacob and Nakano, Reiichiro and Hesse, Christopher and Schulman, John",
+      "title": "Training Verifiers to Solve Math Word Problems",
+      "ENTRYTYPE": "article",
+      "ID": "cobbe2021gsm8k"
+    },
+    {
+      "url": "https://api.semanticscholar.org/CorpusID:246411621",
+      "volume": "abs/2201.11903",
+      "year": "2022",
+      "journal": "ArXiv",
+      "author": "Jason Wei and Xuezhi Wang and Dale Schuurmans and Maarten Bosma and Ed H. Chi and F. Xia and Quoc Le and Denny Zhou",
+      "title": "Chain of Thought Prompting Elicits Reasoning in Large Language Models",
+      "ENTRYTYPE": "article",
+      "ID": "Wei2022ChainOT"
+    },
+    {
+      "url": "https://api.semanticscholar.org/CorpusID:261030818",
+      "volume": "abs/2308.09583",
+      "year": "2023",
+      "journal": "ArXiv",
+      "author": "Haipeng Luo and Qingfeng Sun and Can Xu and Pu Zhao and Jian-Guang Lou and Chongyang Tao and Xiubo Geng and Qingwei Lin and Shifeng Chen and Dongmei Zhang",
+      "title": "WizardMath: Empowering Mathematical Reasoning for Large Language Models via Reinforced Evol-Instruct",
+      "ENTRYTYPE": "article",
+      "ID": "Luo2023WizardMathEM"
+    },
+    {
+      "url": "https://api.semanticscholar.org/CorpusID:265697818",
+      "volume": "abs/2312.04556",
+      "year": "2023",
+      "journal": "ArXiv",
+      "author": "Simon Frieder and Julius Berner and Philipp Petersen and Thomas Lukasiewicz",
+      "title": "Large Language Models for Mathematicians",
+      "ENTRYTYPE": "article",
+      "ID": "Frieder2023LargeLMformath1"
+    },
+    {
+      "url": "https://api.semanticscholar.org/CorpusID:267365459",
+      "volume": "abs/2402.00157",
+      "year": "2024",
+      "journal": "ArXiv",
+      "author": "Janice Ahn and Rishu Verma and Renze Lou and Di Liu and Rui Zhang and Wenpeng Yin",
+      "title": "Large Language Models for Mathematical Reasoning: Progresses and Challenges",
+      "ENTRYTYPE": "article",
+      "ID": "Ahn2024LargeLMformath2"
+    },
+    {
+      "url": "https://api.semanticscholar.org/CorpusID:276317459",
+      "volume": "abs/2502.08680",
+      "year": "2025",
+      "journal": "ArXiv",
+      "author": "Safal Shrestha and Minwu Kim and Keith Ross",
+      "title": "Mathematical Reasoning in Large Language Models: Assessing Logical and Arithmetic Errors across Wide Numerical Ranges",
+      "ENTRYTYPE": "article",
+      "ID": "Shrestha2025Mathlimit1"
+    },
+    {
+      "url": "https://api.semanticscholar.org/CorpusID:258865517",
+      "year": "2023",
+      "booktitle": "Conference on Empirical Methods in Natural Language Processing",
+      "author": "Nick McKenna and Tianyi Li and Liang Cheng and Mohammad Javad Hosseini and Mark Johnson and Mark Steedman",
+      "title": "Sources of Hallucination by Large Language Models on Inference Tasks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "McKenna2023SourcesOHbias1"
+    },
+    {
+      "booktitle": "Findings of EMNLP 2020",
+      "year": "2020",
+      "author": "Katja Filippova",
+      "title": "Controlled Hallucinations:Learning to Generate Faithfully from Noisy Data",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "bias2"
+    },
+    {
+      "url": "https://api.semanticscholar.org/CorpusID:261530162",
+      "volume": "abs/2309.01219",
+      "year": "2023",
+      "journal": "ArXiv",
+      "author": "Yue Zhang and Yafu Li and Leyang Cui and Deng Cai and Lemao Liu and Tingchen Fu and Xinting Huang and Enbo Zhao and Yu Zhang and Yulong Chen and Longyue Wang and Anh Tuan Luu and Wei Bi and Freda Shi and Shuming Shi",
+      "title": "Siren's Song in the AI Ocean: A Survey on Hallucination in Large Language Models",
+      "ENTRYTYPE": "article",
+      "ID": "Zhang2023SirensSIbias3"
+    },
+    {
+      "url": "https://api.semanticscholar.org/CorpusID:265067168",
+      "volume": "abs/2311.05232",
+      "year": "2023",
+      "journal": "ArXiv",
+      "author": "Lei Huang and Weijiang Yu and Weitao Ma and Weihong Zhong and Zhangyin Feng and Haotian Wang and Qianglong Chen and Weihua Peng and Xiaocheng Feng and Bing Qin and Ting Liu",
+      "title": "A Survey on Hallucination in Large Language Models: Principles, Taxonomy, Challenges, and Open Questions",
+      "ENTRYTYPE": "article",
+      "ID": "Huang2023ASObias4"
+    },
+    {
+      "url": "https://api.semanticscholar.org/CorpusID:1346106",
+      "pages": "354-363",
+      "volume": "10",
+      "year": "1995",
+      "journal": "Statistical Science",
+      "author": "Theodore P. Hill",
+      "title": "A Statistical Derivation of the Significant-Digit Law",
+      "ENTRYTYPE": "article",
+      "ID": "benford"
+    },
+    {
+      "url": "https://api.semanticscholar.org/CorpusID:85504763",
+      "volume": "abs/1904.01557",
+      "year": "2019",
+      "journal": "ArXiv",
+      "author": "David Saxton and Edward Grefenstette and Felix Hill and Pushmeet Kohli",
+      "title": "Analysing Mathematical Reasoning Abilities of Neural Models",
+      "ENTRYTYPE": "article",
+      "ID": "mathmaticsdataset"
+    },
+    {
+      "url": "https://www.lesswrong.com/posts/AcKRB8wDpdaN6v6ru/interpreting-gpt-the-logit-lens",
+      "year": "2020",
+      "howpublished": "LessWrong",
+      "title": "Interpreting GPT: The Logit Lens",
+      "author": "Nostalgebraist",
+      "ENTRYTYPE": "misc",
+      "ID": "logitlens"
+    },
+    {
+      "url": "https://api.semanticscholar.org/CorpusID:275357888",
+      "volume": "abs/2501.04519",
+      "year": "2025",
+      "journal": "ArXiv",
+      "author": "Xinyu Guan and Li Lyna Zhang and Yifei Liu and Ning Shang and Youran Sun and Yi Zhu and Fan Yang and Mao Yang",
+      "title": "rStar-Math: Small LLMs Can Master Math Reasoning with Self-Evolved Deep Thinking",
+      "ENTRYTYPE": "article",
+      "ID": "Guan2025rStarMathSL"
+    },
+    {
+      "url": "https://api.semanticscholar.org/CorpusID:273186279",
+      "volume": "abs/2410.05229",
+      "year": "2024",
+      "journal": "ArXiv",
+      "author": "Iman Mirzadeh and Keivan Alizadeh-Vahid and Hooman Shahrokhi and Oncel Tuzel and Samy Bengio and Mehrdad Farajtabar",
+      "title": "GSM-Symbolic: Understanding the Limitations of Mathematical Reasoning in Large Language Models",
+      "ENTRYTYPE": "article",
+      "ID": "Mirzadeh2024GSMSymbolicUTmathlimit2"
+    },
+    {
+      "url": "https://api.semanticscholar.org/CorpusID:268063753",
+      "volume": "abs/2402.19255",
+      "year": "2024",
+      "journal": "ArXiv",
+      "author": "Qintong Li and Leyang Cui and Xueliang Zhao and Lingpeng Kong and Wei Bi",
+      "title": "GSM-Plus: A Comprehensive Benchmark for Evaluating the Robustness of LLMs as Mathematical Problem Solvers",
+      "ENTRYTYPE": "article",
+      "ID": "Li2024GSMPlusACmathlimit3"
+    },
+    {
+      "year": "1881",
+      "url": "https://api.semanticscholar.org/CorpusID:124556624",
+      "pages": "39",
+      "volume": "4",
+      "journal": "American Journal of Mathematics",
+      "author": "Simon Newcomb",
+      "title": "Note on the Frequency of Use of the Different Digits in Natural Numbers",
+      "ENTRYTYPE": "article",
+      "ID": "NewcombNoteOT"
+    },
+    {
+      "publisher": "American Philosophical Society",
+      "year": "1938",
+      "url": "https://books.google.com/books?id=HfUWMwEACAAJ",
+      "series": "Proceedings of the American Philosophical Society",
+      "author": "Benford, F. and Langmuir, I.",
+      "title": "The Law of Anomalous Numbers",
+      "ENTRYTYPE": "book",
+      "ID": "benford1938law"
+    },
+    {
+      "pages": "245–268",
+      "year": "2011",
+      "author": "Deckert, Joseph and Myagkov, Mikhail and Ordeshook, Peter C.",
+      "journal": "Political Analysis",
+      "number": "3",
+      "doi": "10.1093/pan/mpr014",
+      "volume": "19",
+      "title": "Benford’s Law and the Detection of Election Fraud",
+      "ENTRYTYPE": "article",
+      "ID": "benfordelection"
+    },
+    {
+      "publisher": "John Wiley \\& Sons",
+      "year": "2012",
+      "author": "Nigrini, Mark J",
+      "title": "Benford's Law: Applications for forensic accounting, auditing, and fraud detection",
+      "ENTRYTYPE": "book",
+      "ID": "benfordforensicaccounting"
+    },
+    {
+      "url": "https://arxiv.org/abs/2501.00656",
+      "primaryclass": "cs.CL",
+      "archiveprefix": "arXiv",
+      "eprint": "2501.00656",
+      "year": "2024",
+      "author": "Team OLMo and Pete Walsh and Luca Soldaini and Dirk Groeneveld and Kyle Lo and Shane Arora and Akshita Bhagia and Yuling Gu and Shengyi Huang and Matt Jordan and Nathan Lambert and Dustin Schwenk and Oyvind Tafjord and Taira Anderson and David Atkinson and Faeze Brahman and Christopher Clark and Pradeep Dasigi and Nouha Dziri and Michal Guerquin and Hamish Ivison and Pang Wei Koh and Jiacheng Liu and Saumya Malik and William Merrill and Lester James V. Miranda and Jacob Morrison and Tyler Murray and Crystal Nam and Valentina Pyatkin and Aman Rangapur and Michael Schmitz and Sam Skjonsberg and David Wadden and Christopher Wilhelm and Michael Wilson and Luke Zettlemoyer and Ali Farhadi and Noah A. Smith and Hannaneh Hajishirzi",
+      "title": "2 OLMo 2 Furious",
+      "ENTRYTYPE": "misc",
+      "ID": "olmo20242olmo2furious"
+    },
+    {
+      "url": "https://api.semanticscholar.org/CorpusID:259950998",
+      "volume": "abs/2307.09288",
+      "year": "2023",
+      "journal": "ArXiv",
+      "author": "Hugo Touvron and Louis Martin and Kevin R. Stone and Peter Albert and Amjad Almahairi and Yasmine Babaei and Niko-lay Bashlykov and Soumya Batra and Prajjwal Bhargava and Shruti Bhosale and Daniel M. Bikel and Lukas Blecher and Cris-tian Cant{\\'o}n Ferrer and Moya Chen and Guillem Cucurull and David Esiobu and Jude Fernandes and Jeremy Fu and Wenyin Fu and Brian Fuller and Cynthia Gao and Vedanuj Goswami and Naman Goyal and Anthony S. Hartshorn and Saghar Hosseini and Rui Hou and Hakan Inan and Marcin Kardas and Viktor Kerkez and Madian Khabsa and Isabel M. Kloumann and A. V. Korenev and Punit Singh Koura and Marie-Anne Lachaux and Thibaut Lavril and Jenya Lee and Diana Liskovich and Yinghai Lu and Yuning Mao and Xavier Martinet and Todor Mihaylov and Pushkar Mishra and Igor Molybog and Yixin Nie and Andrew Poulton and Jeremy Reizenstein and Rashi Rungta and Kalyan Saladi and Alan Schelten and Ruan Silva and Eric Michael Smith and R. Subramanian and Xia Tan and Binh Tang and Ross Taylor and Adina Williams and Jian Xiang Kuan and Puxin Xu and Zhengxu Yan and Iliyan Zarov and Yuchen Zhang and Angela Fan and Melissa Hall Melanie Kambadur and Sharan Narang and Aur'elien Rodriguez and Robert Stojnic and Sergey Edunov and Thomas Scialom",
+      "title": "Llama 2: Open Foundation and Fine-Tuned Chat Models",
+      "ENTRYTYPE": "article",
+      "ID": "Touvron2023Llama2O"
+    },
+    {
+      "year": "2024",
+      "month": "September",
+      "author": "Qwen Team",
+      "url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "title": "Qwen2.5: A Party of Foundation Models",
+      "ENTRYTYPE": "misc",
+      "ID": "qwen2.5"
+    },
+    {
+      "url": "https://api.semanticscholar.org/CorpusID:263830494",
+      "volume": "abs/2310.06825",
+      "year": "2023",
+      "journal": "ArXiv",
+      "author": "Albert Qiaochu Jiang and Alexandre Sablayrolles and Arthur Mensch and Chris Bamford and Devendra Singh Chaplot and Diego de Las Casas and Florian Bressand and Gianna Lengyel and Guillaume Lample and Lucile Saulnier and L'elio Renard Lavaud and Marie-Anne Lachaux and Pierre Stock and Teven Le Scao and Thibaut Lavril and Thomas Wang and Timoth{\\'e}e Lacroix and William El Sayed",
+      "title": "Mistral 7B",
+      "ENTRYTYPE": "article",
+      "ID": "Jiang2023Mistral7"
+    },
+    {
+      "url": "https://api.semanticscholar.org/CorpusID:276249117",
+      "volume": "abs/2502.06453",
+      "year": "2025",
+      "journal": "ArXiv",
+      "author": "Kaixuan Huang and Jiacheng Guo and Zihao Li and Xiang Ji and Jiawei Ge and Wenzhe Li and Yingqing Guo and Tianle Cai and Hui Yuan and Runzhe Wang and Yue Wu and Ming Yin and Shange Tang and Yangsibo Huang and Chi Jin and Xinyun Chen and Chiyuan Zhang and Mengdi Wang",
+      "title": "MATH-Perturb: Benchmarking LLMs' Math Reasoning Abilities against Hard Perturbations",
+      "ENTRYTYPE": "article",
+      "ID": "Huang2025MATHPerturbBL"
+    },
+    {
+      "url": "https://api.semanticscholar.org/CorpusID:267897678",
+      "volume": "abs/2402.14903",
+      "year": "2024",
+      "journal": "ArXiv",
+      "author": "Aaditya K. Singh and DJ Strouse",
+      "title": "Tokenization counts: the impact of tokenization on arithmetic in frontier LLMs",
+      "ENTRYTYPE": "article",
+      "ID": "Singh2024TokenizationCT"
+    },
+    {
+      "url": "https://api.semanticscholar.org/CorpusID:270062339",
+      "volume": "abs/2405.17399",
+      "year": "2024",
+      "journal": "ArXiv",
+      "author": "Sean McLeish and Arpit Bansal and Alex Stein and Neel Jain and John Kirchenbauer and Brian R. Bartoldson and Bhavya Kailkhura and Abhinav Bhatele and Jonas Geiping and Avi Schwarzschild and Tom Goldstein",
+      "title": "Transformers Can Do Arithmetic with the Right Embeddings",
+      "ENTRYTYPE": "article",
+      "ID": "McLeish2024mathalignment"
+    },
+    {
+      "url": "https://api.semanticscholar.org/CorpusID:246863983",
+      "volume": "abs/2202.07206",
+      "year": "2022",
+      "journal": "ArXiv",
+      "author": "Yasaman Razeghi and Robert L Logan IV and Matt Gardner and Sameer Singh",
+      "title": "Impact of Pretraining Term Frequencies on Few-Shot Reasoning",
+      "ENTRYTYPE": "article",
+      "ID": "Razeghi2022ImpactOP"
+    },
+    {
+      "url": "https://api.semanticscholar.org/CorpusID:259165563",
+      "pages": "3580-3599",
+      "volume": "36",
+      "year": "2023",
+      "journal": "IEEE Transactions on Knowledge and Data Engineering",
+      "author": "Shirui Pan and Linhao Luo and Yufei Wang and Chen Chen and Jiapu Wang and Xindong Wu",
+      "title": "Unifying Large Language Models and Knowledge Graphs: A Roadmap",
+      "ENTRYTYPE": "article",
+      "ID": "Pan2023UnifyingLL"
+    },
+    {
+      "series": "FAccT '21",
+      "location": "Virtual Event, Canada",
+      "numpages": "14",
+      "pages": "610–623",
+      "booktitle": "Proceedings of the 2021 ACM Conference on Fairness, Accountability, and Transparency",
+      "abstract": "The past 3 years of work in NLP have been characterized by the development and deployment of ever larger language models, especially for English. BERT, its variants, GPT-2/3, and others, most recently Switch-C, have pushed the boundaries of the possible both through architectural innovations and through sheer size. Using these pretrained models and the methodology of fine-tuning them for specific tasks, researchers have extended the state of the art on a wide array of tasks as measured by leaderboards on specific benchmarks for English. In this paper, we take a step back and ask: How big is too big? What are the possible risks associated with this technology and what paths are available for mitigating those risks? We provide recommendations including weighing the environmental and financial costs first, investing resources into curating and carefully documenting datasets rather than ingesting everything on the web, carrying out pre-development exercises evaluating how the planned approach fits into research and development goals and supports stakeholder values, and encouraging research directions beyond ever larger language models.",
+      "doi": "10.1145/3442188.3445922",
+      "url": "https://doi.org/10.1145/3442188.3445922",
+      "address": "New York, NY, USA",
+      "publisher": "Association for Computing Machinery",
+      "isbn": "9781450383097",
+      "year": "2021",
+      "title": "On the Dangers of Stochastic Parrots: Can Language Models Be Too Big? ",
+      "author": "Bender, Emily M. and Gebru, Timnit and McMillan-Major, Angelina and Shmitchell, Shmargaret",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "LMtoobig"
+    },
+    {
+      "abstract": "We propose a benchmark to measure whether a language model is truthful in generating answers to questions. The benchmark comprises 817 questions that span 38 categories, including health, law, finance and politics. We crafted questions that some humans would answer falsely due to a false belief or misconception. To perform well, models must avoid generating false answers learned from imitating human texts. We tested GPT-3, GPT-Neo/J, GPT-2 and a T5-based model. The best model was truthful on 58{\\%} of questions, while human performance was 94{\\%}. Models generated many false answers that mimic popular misconceptions and have the potential to deceive humans. The largest models were generally the least truthful. This contrasts with other NLP tasks, where performance improves with model size. However, this result is expected if false answers are learned from the training distribution. We suggest that scaling up models alone is less promising for improving truthfulness than fine-tuning using training objectives other than imitation of text from the web.",
+      "pages": "3214--3252",
+      "doi": "10.18653/v1/2022.acl-long.229",
+      "url": "https://aclanthology.org/2022.acl-long.229/",
+      "publisher": "Association for Computational Linguistics",
+      "address": "Dublin, Ireland",
+      "year": "2022",
+      "month": "May",
+      "booktitle": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+      "editor": "Muresan, Smaranda  and\nNakov, Preslav  and\nVillavicencio, Aline",
+      "author": "Lin, Stephanie  and\nHilton, Jacob  and\nEvans, Owain",
+      "title": "{T}ruthful{QA}: Measuring How Models Mimic Human Falsehoods",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "lin-etal-2022-truthfulqa"
+    },
+    {
+      "note": "Accessed: May 7, 2025",
+      "howpublished": "\\url{https://transformer-circuits.pub/2025/attribution-graphs/biology.html}",
+      "day": "26",
+      "month": "March",
+      "year": "2025",
+      "title": "On the Biology of a Large Language Model",
+      "author": "Anthropic",
+      "ENTRYTYPE": "misc",
+      "ID": "anthropic2025biology"
+    },
+    {
+      "url": "https://api.semanticscholar.org/CorpusID:264172303",
+      "volume": "abs/2310.10631",
+      "year": "2023",
+      "journal": "ArXiv",
+      "author": "Zhangir Azerbayev and Hailey Schoelkopf and Keiran Paster and Marco Dos Santos and Stephen Marcus McAleer and Albert Q. Jiang and Jia Deng and Stella Biderman and Sean Welleck",
+      "title": "Llemma: An Open Language Model For Mathematics",
+      "ENTRYTYPE": "article",
+      "ID": "Azerbayev2023LlemmaAO"
+    },
+    {
+      "url": "https://api.semanticscholar.org/CorpusID:249017743",
+      "volume": "abs/2205.11916",
+      "year": "2022",
+      "journal": "ArXiv",
+      "author": "Takeshi Kojima and Shixiang Shane Gu and Machel Reid and Yutaka Matsuo and Yusuke Iwasawa",
+      "title": "Large Language Models are Zero-Shot Reasoners",
+      "ENTRYTYPE": "article",
+      "ID": "Kojima2022LargeLM"
+    },
+    {
+      "url": "https://api.semanticscholar.org/CorpusID:246426909",
+      "volume": "abs/2203.02155",
+      "year": "2022",
+      "journal": "ArXiv",
+      "author": "Long Ouyang and Jeff Wu and Xu Jiang and Diogo Almeida and Carroll L. Wainwright and Pamela Mishkin and Chong Zhang and Sandhini Agarwal and Katarina Slama and Alex Ray and John Schulman and Jacob Hilton and Fraser Kelton and Luke E. Miller and Maddie Simens and Amanda Askell and Peter Welinder and Paul Francis Christiano and Jan Leike and Ryan J. Lowe",
+      "title": "Training language models to follow instructions with human feedback",
+      "ENTRYTYPE": "article",
+      "ID": "Ouyang2022TrainingLM"
+    },
+    {
+      "url": "https://api.semanticscholar.org/CorpusID:13756489",
+      "year": "2017",
+      "booktitle": "Neural Information Processing Systems",
+      "author": "Ashish Vaswani and Noam M. Shazeer and Niki Parmar and Jakob Uszkoreit and Llion Jones and Aidan N. Gomez and Lukasz Kaiser and Illia Polosukhin",
+      "title": "Attention is All you Need",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "Vaswani2017AttentionIA"
+    },
+    {
+      "url": "https://api.semanticscholar.org/CorpusID:206594692",
+      "pages": "770-778",
+      "year": "2015",
+      "journal": "2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "author": "Kaiming He and X. Zhang and Shaoqing Ren and Jian Sun",
+      "title": "Deep Residual Learning for Image Recognition",
+      "ENTRYTYPE": "article",
+      "ID": "He2015DeepRL"
+    },
+    {
+      "year": "2024",
+      "howpublished": "\\url{https://huggingface.co/datasets/allenai/olmo-mix-1124}",
+      "title": "Olmo-Mix-1124 Dataset",
+      "author": "AllenAI",
+      "ENTRYTYPE": "misc",
+      "ID": "olmo2024"
+    },
+    {
+      "url": "https://api.semanticscholar.org/CorpusID:270843326",
+      "volume": "abs/2408.00118",
+      "year": "2024",
+      "journal": "ArXiv",
+      "author": "Gemma Team Morgane Riviere and Shreya Pathak and Pier Giuseppe Sessa and Cassidy Hardin and Surya Bhupatiraju and L'eonard Hussenot and Thomas Mesnard and Bobak Shahriari and Alexandre Ram'e and Johan Ferret and Peter Liu and Pouya Dehghani Tafti and Abe Friesen and Michelle Casbon and Sabela Ramos and Ravin Kumar and Charline Le Lan and Sammy Jerome and Anton Tsitsulin and Nino Vieillard and Piotr Stańczyk and Sertan Girgin and Nikola Momchev and Matt Hoffman and Shantanu Thakoor and Jean-Bastien Grill and Behnam Neyshabur and Alanna Walton and Aliaksei Severyn and Alicia Parrish and Aliya Ahmad and Allen Hutchison and Alvin Abdagic and Amanda Carl and Amy Shen and Andy Brock and Andy Coenen and Anthony Laforge and Antonia Paterson and Ben Bastian and Bilal Piot and Boxi Wu and Brandon Royal and Charlie Chen and Chintu Kumar and Chris Perry and Christoper A. Welty and Christopher A. Choquette-Choo and Danila Sinopalnikov and David Weinberger and Dimple Vijaykumar and Dominika Rogozi'nska and D. Herbison and Elisa Bandy and Emma Wang and Eric Noland and Erica Moreira and Evan Senter and Evgenii Eltyshev and Francesco Visin and Gabriel Rasskin and Gary Wei and Glenn Cameron and Gus Martins and Hadi Hashemi and Hanna Klimczak-Pluci'nska and Harleen Batra and Harsh Dhand and Ivan Nardini and Jacinda Mein and Jack Zhou and James Svensson and Jeff Stanway and Jetha Chan and Jin Zhou and Joana Carrasqueira and Joana Iljazi and Jocelyn Becker and Joe Fernandez and Joost R. van Amersfoort and Josh Gordon and Josh Lipschultz and Joshua Newlan and Junsong Ji and Kareem Mohamed and Kartikeya Badola and Kat Black and Katie Millican and Keelin McDonell and Kelvin Nguyen and Kiranbir Sodhia and Kish Greene and Lars Lowe Sjoesund and Lauren Usui and L. Sifre and Lena Heuermann and Leti-cia Lago and Lilly McNealus and Livio Baldini Soares and Logan Kilpatrick and Lucas Dixon and Luciano Martins and Machel Reid and Manvinder Singh and Mark Iverson and Martin Gorner and Mat Velloso and Mateo Wirth and Matt Davidow and Matt Miller and Matthew Rahtz and Matthew Watson and Meg Risdal and Mehran Kazemi and Michael Moynihan and Ming Zhang and Minsuk Kahng and Minwoo Park and Mofi Rahman and Mohit Khatwani and Natalie Dao and Nen-shad Bardoliwalla and Nesh Devanathan and Neta Dumai and Nilay Chauhan and Oscar Wahltinez and Pankil Botarda and Parker Barnes and Paul Barham and Paul Michel and Peng-chong Jin and Petko Georgiev and Phil Culliton and Pradeep Kuppala and Ramona Comanescu and Ramona Merhej and Reena Jana and Reza Ardeshir Rokni and Rishabh Agarwal and Ryan Mullins and Samaneh Saadat and Sara Marie Mc Carthy and Sarah Perrin and S{\\'e}bastien M. R. Arnold and Se-bastian Krause and Shengyang Dai and Shruti Garg and Shruti Sheth and Sue Ronstrom and Susan Chan and Timothy Jordan and Ting Yu and Tom Eccles and Tom Hennigan and Tom{\\'a}s Kocisk{\\'y} and Tulsee Doshi and Vihan Jain and Vikas Yadav and Vilobh Meshram and Vishal Dharmadhikari and Warren Barkley and Wei Wei and Wenming Ye and Woohyun Han and Woosuk Kwon and Xiang Xu and Zhe Shen and Zhitao Gong and Zichuan Wei and Victor Cotruta and Phoebe Kirk and Anand Rao and Minh Giang and Ludovic Peran and Tris Warkentin and Eli Collins and Joelle Barral and Zoubin Ghahramani and Raia Hadsell and Daniel Sculley and Jeanine Banks and Anca Dragan and Slav Petrov and Oriol Vinyals and Jeffrey Dean and Demis Hassabis and Koray Kavukcuoglu and Cl{\\'e}ment Farabet and Elena Buchatskaya and Sebastian Borgeaud and Noah Fiedel and Armand Joulin and Kathleen Kenealy and Robert Dadashi and Alek Andreev",
+      "title": "Gemma 2: Improving Open Language Models at a Practical Size",
+      "ENTRYTYPE": "article",
+      "ID": "Riviere2024Gemma2I"
+    },
+    {
+      "abstract": "The problem of designing NLP solvers for math word problems (MWP) has seen sustained research activity and steady gains in the test accuracy. Since existing solvers achieve high performance on the benchmark datasets for elementary level MWPs containing one-unknown arithmetic word problems, such problems are often considered {``}solved{''} with the bulk of research attention moving to more complex MWPs. In this paper, we restrict our attention to English MWPs taught in grades four and lower. We provide strong evidence that the existing MWP solvers rely on shallow heuristics to achieve high performance on the benchmark datasets. To this end, we show that MWP solvers that do not have access to the question asked in the MWP can still solve a large fraction of MWPs. Similarly, models that treat MWPs as bag-of-words can also achieve surprisingly high accuracy. Further, we introduce a challenge dataset, SVAMP, created by applying carefully chosen variations over examples sampled from existing datasets. The best accuracy achieved by state-of-the-art models is substantially lower on SVAMP, thus showing that much remains to be done even for the simplest of the MWPs.",
+      "pages": "2080--2094",
+      "doi": "10.18653/v1/2021.naacl-main.168",
+      "url": "https://aclanthology.org/2021.naacl-main.168",
+      "publisher": "Association for Computational Linguistics",
+      "address": "Online",
+      "year": "2021",
+      "month": "June",
+      "booktitle": "Proceedings of the 2021 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies",
+      "author": "Patel, Arkil  and\nBhattamishra, Satwik  and\nGoyal, Navin",
+      "title": "Are {NLP} Models really able to Solve Simple Math Word Problems?",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "SVAMP"
+    }
+  ]
+}

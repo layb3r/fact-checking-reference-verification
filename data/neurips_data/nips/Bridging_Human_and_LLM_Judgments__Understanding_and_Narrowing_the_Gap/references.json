@@ -1,0 +1,452 @@
+{
+  "pdf_url": "https://arxiv.org/pdf/2508.12792v2.pdf",
+  "references": [
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2407.06551",
+      "author": "Park, Junsoo and Jwa, Seungyeon and Ren, Meiying and Kim, Daeyoung and Choi, Sanghyuk",
+      "title": "Offsetbias: Leveraging debiased data for tuning evaluators",
+      "ENTRYTYPE": "article",
+      "ID": "park2024offsetbias"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2406.07791",
+      "author": "Shi, Lin and Ma, Chiyu and Liang, Wenhua and Ma, Weicheng and Vosoughi, Soroush",
+      "title": "Judging the judges: A systematic investigation of position bias in pairwise comparative assessments by llms",
+      "ENTRYTYPE": "article",
+      "ID": "shi2024judging"
+    },
+    {
+      "journal": "URL https://blog. lmarena. ai/blog/2024/style-control",
+      "author": "Li, Tianle and Angelopoulos, Anastasios and Chiang, Wei-Lin",
+      "year": "2024",
+      "title": "Does style matter? disentangling style and substance in chatbot arena, August 2024a",
+      "ENTRYTYPE": "article",
+      "ID": "li2024does"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2402.10669",
+      "author": "Chen, Guiming Hardy and Chen, Shunian and Liu, Ziche and Jiang, Feng and Wang, Benyou",
+      "title": "Humans or llms as the judge? a study on judgement biases",
+      "ENTRYTYPE": "article",
+      "ID": "chen2024humans"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2305.17926",
+      "author": "Wang, Peiyi and Li, Lei and Chen, Liang and Cai, Zefan and Zhu, Dawei and Lin, Binghuai and Cao, Yunbo and Liu, Qi and Liu, Tianyu and Sui, Zhifang",
+      "title": "Large language models are not fair evaluators",
+      "ENTRYTYPE": "article",
+      "ID": "wang2023large"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2410.02736",
+      "author": "Ye, Jiayi and Wang, Yanbo and Huang, Yue and Chen, Dongping and Zhang, Qihui and Moniz, Nuno and Gao, Tian and Geyer, Werner and Huang, Chao and Chen, Pin-Yu and others",
+      "title": "Justice or prejudice? quantifying biases in llm-as-a-judge",
+      "ENTRYTYPE": "article",
+      "ID": "ye2024justice"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2412.13091",
+      "author": "Saad-Falcon, Jon and Vivek, Rajan and Berrios, William and Naik, Nandita Shankar and Franklin, Matija and Vidgen, Bertie and Singh, Amanpreet and Kiela, Douwe and Mehri, Shikib",
+      "title": "Lmunit: Fine-grained evaluation with natural language unit tests",
+      "ENTRYTYPE": "article",
+      "ID": "saad2024lmunit"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2503.05142",
+      "author": "Wei, Tianjun and Wen, Wei and Qiao, Ruizhi and Sun, Xing and Ma, Jianghong",
+      "title": "RocketEval: Efficient Automated LLM Evaluation via Grading Checklist",
+      "ENTRYTYPE": "article",
+      "ID": "wei2025rocketeval"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2403.02839",
+      "author": "Huang, Hui and Qu, Yingqi and Bu, Xingyuan and Zhou, Hongli and Liu, Jing and Yang, Muyun and Xu, Bing and Zhao, Tiejun",
+      "title": "An Empirical Study of LLM-as-a-Judge for LLM Evaluation: Fine-tuned Judge Model is not a General Substitute for GPT-4",
+      "ENTRYTYPE": "article",
+      "ID": "huang2024empirical"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2502.03397",
+      "author": "Zhan, Hongli and Azmat, Muneeza and Horesh, Raya and Li, Junyi Jessy and Yurochkin, Mikhail",
+      "title": "SPRI: Aligning Large Language Models with Context-Situated Principles",
+      "ENTRYTYPE": "article",
+      "ID": "zhan2025spri"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2406.06004",
+      "author": "Lee, Yebin and Park, Imseong and Kang, Myungjoo",
+      "title": "Fleur: An explainable reference-free evaluation metric for image captioning using a large multimodal model",
+      "ENTRYTYPE": "article",
+      "ID": "lee2024fleur"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2303.16634",
+      "author": "Liu, Yang and Iter, Dan and Xu, Yichong and Wang, Shuohang and Xu, Ruochen and Zhu, Chenguang",
+      "title": "G-eval: NLG evaluation using gpt-4 with better human alignment",
+      "ENTRYTYPE": "article",
+      "ID": "liu2023g"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2411.15594",
+      "author": "Gu, Jiawei and Jiang, Xuhui and Shi, Zhichao and Tan, Hexiang and Zhai, Xuehao and Xu, Chengjin and Li, Wei and Shen, Yinghan and Ma, Shengjie and Liu, Honghao and others",
+      "title": "A survey on llm-as-a-judge",
+      "ENTRYTYPE": "article",
+      "ID": "gu2024survey"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2411.16594",
+      "author": "Li, Dawei and Jiang, Bohan and Huang, Liangjie and Beigi, Alimohammad and Zhao, Chengshuai and Tan, Zhen and Bhattacharjee, Amrita and Jiang, Yuxuan and Chen, Canyu and Wu, Tianhao and others",
+      "title": "From generation to judgment: Opportunities and challenges of llm-as-a-judge",
+      "ENTRYTYPE": "article",
+      "ID": "li2024generation"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2412.05579",
+      "author": "Li, Haitao and Dong, Qian and Chen, Junjie and Su, Huixue and Zhou, Yujia and Ai, Qingyao and Ye, Ziyi and Liu, Yiqun",
+      "title": "Llms-as-judges: a comprehensive survey on llm-based evaluation methods",
+      "ENTRYTYPE": "article",
+      "ID": "li2024llms"
+    },
+    {
+      "year": "2004",
+      "pages": "74--81",
+      "booktitle": "Text summarization branches out",
+      "author": "Lin, Chin-Yew",
+      "title": "Rouge: A package for automatic evaluation of summaries",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "lin2004rouge"
+    },
+    {
+      "year": "2002",
+      "pages": "311--318",
+      "booktitle": "Proceedings of the 40th annual meeting of the Association for Computational Linguistics",
+      "author": "Papineni, Kishore and Roukos, Salim and Ward, Todd and Zhu, Wei-Jing",
+      "title": "Bleu: a method for automatic evaluation of machine translation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "papineni2002bleu"
+    },
+    {
+      "publisher": "JSTOR",
+      "year": "1952",
+      "pages": "324--345",
+      "number": "3/4",
+      "volume": "39",
+      "journal": "Biometrika",
+      "author": "Bradley, Ralph Allan and Terry, Milton E",
+      "title": "Rank analysis of incomplete block designs: I. the method of paired comparisons",
+      "ENTRYTYPE": "article",
+      "ID": "bradley1952rank"
+    },
+    {
+      "note": "Accessed: 2025-08-17",
+      "month": "April",
+      "year": "2025",
+      "howpublished": "\\url{https://openai.com/index/gpt-4-1/}",
+      "title": "Introducing GPT-4.1 in the API",
+      "author": "OpenAI",
+      "ENTRYTYPE": "misc",
+      "ID": "openai_gpt41_2025"
+    },
+    {
+      "publisher": "JSTOR",
+      "year": "1951",
+      "pages": "79--86",
+      "number": "1",
+      "volume": "22",
+      "journal": "The annals of mathematical statistics",
+      "author": "Kullback, Solomon and Leibler, Richard A",
+      "title": "On information and sufficiency",
+      "ENTRYTYPE": "article",
+      "ID": "kullback1951information"
+    },
+    {
+      "year": "2025",
+      "pages": "3046--3074",
+      "booktitle": "Proceedings of the 2025 ACM Conference on Fairness, Accountability, and Transparency",
+      "author": "Buyl, Maarten and Khalaf, Hadi and Mayrink Verdun, Claudio and Monteiro Paes, Lucas and Vieira Machado, Caio Cesar and du Pin Calmon, Flavio",
+      "title": "AI Alignment at Your Discretion",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "buyl2025ai"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2404.04475",
+      "author": "Dubois, Yann and Galambosi, Bal{\\'a}zs and Liang, Percy and Hashimoto, Tatsunori B",
+      "title": "Length-controlled alpacaeval: A simple way to debias automatic evaluators",
+      "ENTRYTYPE": "article",
+      "ID": "dubois2024length"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2406.12624",
+      "author": "Thakur, Aman Singh and Choudhary, Kartik and Ramayapally, Venkat Srinik and Vaidyanathan, Sankaran and Hupkes, Dieuwke",
+      "title": "Judging the judges: Evaluating alignment and vulnerabilities in llms-as-judges",
+      "ENTRYTYPE": "article",
+      "ID": "thakur2024judging"
+    },
+    {
+      "year": "2023",
+      "pages": "46595--46623",
+      "volume": "36",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Zheng, Lianmin and Chiang, Wei-Lin and Sheng, Ying and Zhuang, Siyuan and Wu, Zhanghao and Zhuang, Yonghao and Lin, Zi and Li, Zhuohan and Li, Dacheng and Xing, Eric and others",
+      "title": "Judging llm-as-a-judge with mt-bench and chatbot arena",
+      "ENTRYTYPE": "article",
+      "ID": "zheng2023judging"
+    },
+    {
+      "howpublished": "\\url{https://github.com/tatsu-lab/alpaca_eval}",
+      "journal": "GitHub repository",
+      "publisher": "GitHub",
+      "month": "5",
+      "year": "2023",
+      "title": "AlpacaEval: An Automatic Evaluator of Instruction-following Models",
+      "author": "Xuechen Li and Tianyi Zhang and Yann Dubois and Rohan Taori and Ishaan Gulrajani and Carlos Guestrin and Percy Liang and Tatsunori B. Hashimoto ",
+      "ENTRYTYPE": "misc",
+      "ID": "alpaca_eval"
+    },
+    {
+      "publisher": "JSTOR",
+      "year": "2001",
+      "pages": "1165--1188",
+      "journal": "Annals of statistics",
+      "author": "Benjamini, Yoav and Yekutieli, Daniel",
+      "title": "The control of the false discovery rate in multiple testing under dependency",
+      "ENTRYTYPE": "article",
+      "ID": "benjamini2001control"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2406.11939",
+      "author": "Li, Tianle and Chiang, Wei-Lin and Frick, Evan and Dunlap, Lisa and Wu, Tianhao and Zhu, Banghua and Gonzalez, Joseph E and Stoica, Ion",
+      "title": "From crowdsourced data to high-quality benchmarks: Arena-hard and benchbuilder pipeline",
+      "ENTRYTYPE": "article",
+      "ID": "li2024crowdsourced"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2410.21276",
+      "author": "Hurst, Aaron and Lerer, Adam and Goucher, Adam P and Perelman, Adam and Ramesh, Aditya and Clark, Aidan and Ostrow, AJ and Welihinda, Akila and Hayes, Alan and Radford, Alec and others",
+      "title": "Gpt-4o system card",
+      "ENTRYTYPE": "article",
+      "ID": "hurst2024gpt"
+    },
+    {
+      "url": "https://arxiv.org/abs/2501.17195",
+      "primaryclass": "cs.CL",
+      "archiveprefix": "arXiv",
+      "eprint": "2501.17195",
+      "year": "2025",
+      "author": "Andrei Alexandru and Antonia Calvi and Henry Broomfield and Jackson Golden and Kyle Dai and Mathias Leys and Maurice Burger and Max Bartolo and Roman Engeler and Sashank Pisupati and Toby Drane and Young Sun Park",
+      "title": "Atla Selene Mini: A General Purpose Evaluation Model",
+      "ENTRYTYPE": "misc",
+      "ID": "alexandru2025atlaseleneminigeneral"
+    },
+    {
+      "primaryclass": "cs.CL",
+      "archiveprefix": "arXiv",
+      "eprint": "2405.01535",
+      "year": "2024",
+      "author": "Seungone Kim and Juyoung Suk and Shayne Longpre and Bill Yuchen Lin and Jamin Shin and Sean Welleck and Graham Neubig and Moontae Lee and Kyungjae Lee and Minjoon Seo",
+      "title": "Prometheus 2: An Open Source Language Model Specialized in Evaluating Other Language Models",
+      "ENTRYTYPE": "misc",
+      "ID": "kim2024prometheus"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2407.21783",
+      "author": "Grattafiori, Aaron and Dubey, Abhimanyu and Jauhri, Abhinav and Pandey, Abhinav and Kadian, Abhishek and Al-Dahle, Ahmad and Letman, Aiesha and Mathur, Akhil and Schelten, Alan and Vaughan, Alex and others",
+      "title": "The llama 3 herd of models",
+      "ENTRYTYPE": "article",
+      "ID": "grattafiori2024llama"
+    },
+    {
+      "publisher": "MIT press",
+      "year": "2010",
+      "author": "Wooldridge, Jeffrey M",
+      "title": "Econometric analysis of cross section and panel data",
+      "ENTRYTYPE": "book",
+      "ID": "wooldridge2010econometric"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2406.05761",
+      "author": "Kim, Seungone and Suk, Juyoung and Cho, Ji Yong and Longpre, Shayne and Kim, Chaeeun and Yoon, Dongkeun and Son, Guijin and Cho, Yejin and Shafayat, Sheikh and Baek, Jinheon and others",
+      "title": "The biggen bench: A principled benchmark for fine-grained evaluation of language models with language models",
+      "ENTRYTYPE": "article",
+      "ID": "kim2024biggen"
+    },
+    {
+      "year": "2025",
+      "author": "Kelly Tang and Wei-Lin Chiang and Anastasios N. Angelopoulos",
+      "title": "Arena Explorer: A Topic Modeling Pipeline for LLM Evals \\& Analytics",
+      "ENTRYTYPE": "misc",
+      "ID": "tang2025explorer"
+    },
+    {
+      "primaryclass": "cs.AI",
+      "archiveprefix": "arXiv",
+      "eprint": "2403.04132",
+      "year": "2024",
+      "author": "Wei-Lin Chiang and Lianmin Zheng and Ying Sheng and Anastasios Nikolas Angelopoulos and Tianle Li and Dacheng Li and Hao Zhang and Banghua Zhu and Michael Jordan and Joseph E. Gonzalez and Ion Stoica",
+      "title": "Chatbot Arena: An Open Platform for Evaluating LLMs by Human Preference",
+      "ENTRYTYPE": "misc",
+      "ID": "chiang2024chatbot"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2311.11944",
+      "author": "Islam, Pranab and Kannappan, Anand and Kiela, Douwe and Qian, Rebecca and Scherrer, Nino and Vidgen, Bertie",
+      "title": "Financebench: A new benchmark for financial question answering",
+      "ENTRYTYPE": "article",
+      "ID": "islam2023financebench"
+    },
+    {
+      "publisher": "Cambridge, MA",
+      "year": "1999",
+      "pages": "61--74",
+      "number": "3",
+      "volume": "10",
+      "journal": "Advances in large margin classifiers",
+      "author": "Platt, John and others",
+      "title": "Probabilistic outputs for support vector machines and comparisons to regularized likelihood methods",
+      "ENTRYTYPE": "article",
+      "ID": "platt1999probabilistic"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2501.19047",
+      "author": "Pavlovic, Maja",
+      "title": "Understanding Model Calibration--A gentle introduction and visual exploration of calibration and the expected calibration error (ECE)",
+      "ENTRYTYPE": "article",
+      "ID": "pavlovic2025understanding"
+    },
+    {
+      "publisher": "Taylor \\& Francis",
+      "year": "1967",
+      "pages": "194--204",
+      "number": "317",
+      "volume": "62",
+      "journal": "Journal of the American Statistical Association",
+      "author": "Rao, PV and Kupper, Lawrence L",
+      "title": "Ties in paired-comparison experiments: A generalization of the Bradley-Terry model",
+      "ENTRYTYPE": "article",
+      "ID": "rao1967ties"
+    },
+    {
+      "collection": "Cambridge Series in Statistical and Probabilistic Mathematics",
+      "pages": "41–84",
+      "year": "1998",
+      "author": "Vaart, A. W. van der",
+      "publisher": "Cambridge University Press",
+      "booktitle": "Asymptotic Statistics",
+      "title": "M–and Z-Estimators",
+      "series": "Cambridge Series in Statistical and Probabilistic Mathematics",
+      "place": "Cambridge",
+      "ENTRYTYPE": "inbook",
+      "ID": "Vaart_1998"
+    },
+    {
+      "publisher": "American Psychological Association",
+      "year": "1948",
+      "pages": "221",
+      "number": "3",
+      "volume": "32",
+      "journal": "Journal of applied psychology",
+      "author": "Flesch, Rudolph",
+      "title": "A new readability yardstick.",
+      "ENTRYTYPE": "article",
+      "ID": "flesch1948new"
+    },
+    {
+      "publisher": "Institute for Simulation and Training, University of Central Florida",
+      "year": "1975",
+      "author": "Kincaid, J Peter and Fishburne Jr, Robert P and Rogers, Richard L and Chissom, Brad S",
+      "title": "Derivation of new readability formulas (automated readability index, fog count and flesch reading ease formula) for navy enlisted personnel",
+      "ENTRYTYPE": "article",
+      "ID": "kincaid1975derivation"
+    },
+    {
+      "publisher": "McGraw-Hill",
+      "year": "1952",
+      "url": "https://books.google.com/books?id=ofI0AAAAMAAJ",
+      "lccn": "51013126",
+      "isbn": "9787000014190",
+      "author": "Gunning, R.",
+      "title": "The Technique of Clear Writing",
+      "ENTRYTYPE": "book",
+      "ID": "gunning1952technique"
+    },
+    {
+      "publisher": "JSTOR",
+      "year": "1969",
+      "pages": "639--646",
+      "number": "8",
+      "volume": "12",
+      "journal": "Journal of reading",
+      "author": "Mc Laughlin, G Harry",
+      "title": "SMOG grading-a new readability formula",
+      "ENTRYTYPE": "article",
+      "ID": "mc1969smog"
+    },
+    {
+      "year": "1944",
+      "pages": "1--15",
+      "number": "2",
+      "volume": "56",
+      "journal": "Psychological Monographs",
+      "author": "Johnson, Wendell",
+      "title": "Studies in language behavior: A program of research",
+      "ENTRYTYPE": "article",
+      "ID": "johnson1944studies"
+    },
+    {
+      "publisher": "MULTILINGUAL MATTERS LTD.",
+      "year": "1997",
+      "pages": "58--71",
+      "volume": "12",
+      "journal": "British Studies in Applied Linguistics",
+      "author": "Malvern, David D and Richards, Brian J",
+      "title": "A new measure of lexical diversity",
+      "ENTRYTYPE": "article",
+      "ID": "malvern1997new"
+    },
+    {
+      "publisher": "JMLR. org",
+      "year": "2012",
+      "pages": "2063--2067",
+      "number": "1",
+      "volume": "13",
+      "journal": "The Journal of Machine Learning Research",
+      "author": "De Smedt, Tom and Daelemans, Walter",
+      "title": "Pattern for python",
+      "ENTRYTYPE": "article",
+      "ID": "de2012pattern"
+    },
+    {
+      "year": "2014",
+      "pages": "216--225",
+      "number": "1",
+      "volume": "8",
+      "booktitle": "Proceedings of the international AAAI conference on web and social media",
+      "author": "Gilbert, Eric",
+      "title": "Vader: A parsimonious rule-based model for sentiment analysis of social media text",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "hutto2014vader"
+    }
+  ]
+}

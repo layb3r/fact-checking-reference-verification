@@ -1,0 +1,441 @@
+{
+  "pdf_url": "https://arxiv.org/pdf/2506.17211v1.pdf",
+  "references": [
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2502.01694",
+      "author": "Kim, Juno and Wu, Denny and Lee, Jason and Suzuki, Taiji",
+      "title": "Metastable Dynamics of Chain-of-Thought Reasoning: Provable Benefits of Search, RL and Distillation",
+      "ENTRYTYPE": "article",
+      "ID": "kim2025metastable"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2412.08905",
+      "author": "Abdin, Marah and Aneja, Jyoti and Behl, Harkirat and Bubeck, S{\\'e}bastien and Eldan, Ronen and Gunasekar, Suriya and Harrison, Michael and Hewett, Russell J and Javaheripi, Mojan and Kauffmann, Piero and others",
+      "title": "Phi-4 technical report",
+      "ENTRYTYPE": "article",
+      "ID": "abdin2024phi"
+    },
+    {
+      "year": "2017",
+      "journal": "arXiv preprint arXiv:1707.08817",
+      "author": "Vecerik, Mel and Hester, Todd and Scholz, Jonathan and Wang, Fumin and Pietquin, Olivier and Piot, Bilal and Heess, Nicolas and Roth{\\\"o}rl, Thomas and Lampe, Thomas and Riedmiller, Martin",
+      "title": "Leveraging demonstrations for deep reinforcement learning on robotics problems with sparse rewards",
+      "ENTRYTYPE": "article",
+      "ID": "vecerik2017leveraging"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2502.17416",
+      "author": "Saunshi, Nikunj and Dikkala, Nishanth and Li, Zhiyuan and Kumar, Sanjiv and Reddi, Sashank J",
+      "title": "Reasoning with latent thoughts: On the power of looped transformers",
+      "ENTRYTYPE": "article",
+      "ID": "saunshi2025reasoning"
+    },
+    {
+      "year": "2024",
+      "booktitle": "The Twelfth International Conference on Learning Representations",
+      "author": "Gupta, Neha and Narasimhan, Harikrishna and Jitkrittum, Wittawat and Rawat, Ankit Singh and Menon, Aditya Krishna and Kumar, Sanjiv",
+      "title": "Language Model Cascades: Token-Level Uncertainty And Beyond",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "guptalanguage"
+    },
+    {
+      "year": "2024",
+      "journal": "Conference on Neural Information Processing Systems",
+      "author": "Zhang, Xuechen and Huang, Zijian and Taga, Ege Onur and Joe-Wong, Carlee and Oymak, Samet and Chen, Jiasi",
+      "title": "Efficient Contextual LLM Cascades through Budget-Constrained Policy Learning",
+      "ENTRYTYPE": "article",
+      "ID": "zhang2024efficient"
+    },
+    {
+      "year": "2022",
+      "pages": "24824--24837",
+      "volume": "35",
+      "journal": "Advances in neural information processing systems",
+      "author": "Wei, Jason and Wang, Xuezhi and Schuurmans, Dale and Bosma, Maarten and Xia, Fei and Chi, Ed and Le, Quoc V and Zhou, Denny and others",
+      "title": "Chain-of-thought prompting elicits reasoning in large language models",
+      "ENTRYTYPE": "article",
+      "ID": "wei2022chain"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2305.05176",
+      "author": "Chen, Lingjiao and Zaharia, Matei and Zou, James",
+      "title": "Frugalgpt: How to use large language models while reducing cost and improving performance",
+      "ENTRYTYPE": "article",
+      "ID": "chen2023frugalgpt"
+    },
+    {
+      "publisher": "Cambridge university press",
+      "year": "2019",
+      "volume": "49",
+      "author": "Durrett, Rick",
+      "title": "Probability: theory and examples",
+      "ENTRYTYPE": "book",
+      "ID": "durrett2019probability"
+    },
+    {
+      "publisher": "John Wiley \\& Sons",
+      "year": "1991",
+      "volume": "2",
+      "author": "Feller, William",
+      "title": "An introduction to probability theory and its applications, Volume 2",
+      "ENTRYTYPE": "book",
+      "ID": "feller1991introduction"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2503.14476",
+      "author": "Yu, Qiying and Zhang, Zheng and Zhu, Ruofei and Yuan, Yufeng and Zuo, Xiaochen and Yue, Yu and Fan, Tiantian and Liu, Gaohong and Liu, Lingjun and Liu, Xin and others",
+      "title": "Dapo: An open-source llm reinforcement learning system at scale",
+      "ENTRYTYPE": "article",
+      "ID": "yu2025dapo"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2503.22342",
+      "author": "Lin, Zhihang and Lin, Mingbao and Xie, Yuan and Ji, Rongrong",
+      "title": "CPPO: Accelerating the Training of Group Relative Policy Optimization-Based Reasoning Models",
+      "ENTRYTYPE": "article",
+      "ID": "lin2025cppo"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2504.03380",
+      "author": "Bae, Sanghwan and Hong, Jiwoo and Lee, Min Young and Kim, Hanbyul and Nam, JeongYeon and Kwak, Donghyun",
+      "title": "Online Difficulty Filtering for Reasoning Oriented Reinforcement Learning",
+      "ENTRYTYPE": "article",
+      "ID": "bae2025online"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2504.05118",
+      "author": "Yuan, Yufeng and Yu, Qiying and Zuo, Xiaochen and Zhu, Ruofei and Xu, Wenyuan and Chen, Jiaze and Wang, Chengyi and Fan, TianTian and Du, Zhengyin and Wei, Xiangpeng and others",
+      "title": "VAPO: Efficient and Reliable Reinforcement Learning for Advanced Reasoning Tasks",
+      "ENTRYTYPE": "article",
+      "ID": "yuan2025vapo"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2504.09696",
+      "author": "Zhang, Jixiao and Zuo, Chunsheng",
+      "title": "GRPO-LEAD: A Difficulty-Aware Reinforcement Learning Approach for Concise Mathematical Reasoning in Language Models",
+      "ENTRYTYPE": "article",
+      "ID": "zhang2025grpo"
+    },
+    {
+      "year": "2022",
+      "pages": "15476--15488",
+      "volume": "35",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Zelikman, Eric and Wu, Yuhuai and Mu, Jesse and Goodman, Noah",
+      "title": "Star: Bootstrapping reasoning with reasoning",
+      "ENTRYTYPE": "article",
+      "ID": "zelikman2022star"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2504.13818",
+      "author": "Xu, Yixuan Even and Savani, Yash and Fang, Fei and Kolter, Zico",
+      "title": "Not All Rollouts are Useful: Down-Sampling Rollouts in LLM Reinforcement Learning",
+      "ENTRYTYPE": "article",
+      "ID": "xu2025not"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2504.13837",
+      "author": "Yue, Yang and Chen, Zhiqi and Lu, Rui and Zhao, Andrew and Wang, Zhaokai and Song, Shiji and Huang, Gao",
+      "title": "Does Reinforcement Learning Really Incentivize Reasoning Capacity in LLMs Beyond the Base Model?",
+      "ENTRYTYPE": "article",
+      "ID": "yue2025does"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2504.09710",
+      "author": "Wang, Zhenting and Cui, Guofeng and Wan, Kun and Zhao, Wentian",
+      "title": "DUMP: Automated Distribution-Level Curriculum Learning for RL-based LLM Post-training",
+      "ENTRYTYPE": "article",
+      "ID": "wang2025dump"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2502.12143",
+      "author": "Li, Yuetai and Yue, Xiang and Xu, Zhangchen and Jiang, Fengqing and Niu, Luyao and Lin, Bill Yuchen and Ramasubramanian, Bhaskar and Poovendran, Radha",
+      "title": "Small models struggle to learn from strong reasoners",
+      "ENTRYTYPE": "article",
+      "ID": "li2025small"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2501.19393",
+      "author": "Muennighoff, Niklas and Yang, Zitong and Shi, Weijia and Li, Xiang Lisa and Fei-Fei, Li and Hajishirzi, Hannaneh and Zettlemoyer, Luke and Liang, Percy and Cand{\\`e}s, Emmanuel and Hashimoto, Tatsunori",
+      "title": "s1: Simple test-time scaling",
+      "ENTRYTYPE": "article",
+      "ID": "muennighoff2025s1"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2408.03314",
+      "author": "Snell, Charlie and Lee, Jaehoon and Xu, Kelvin and Kumar, Aviral",
+      "title": "Scaling llm test-time compute optimally can be more effective than scaling model parameters",
+      "ENTRYTYPE": "article",
+      "ID": "snell2024scaling"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2401.00448",
+      "author": "Sardana, Nikhil and Portes, Jacob and Doubov, Sasha and Frankle, Jonathan",
+      "title": "Beyond chinchilla-optimal: Accounting for inference in language model scaling laws",
+      "ENTRYTYPE": "article",
+      "ID": "sardana2023beyond"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2203.15556",
+      "author": "Hoffmann, Jordan and Borgeaud, Sebastian and Mensch, Arthur and Buchatskaya, Elena and Cai, Trevor and Rutherford, Eliza and Casas, Diego de Las and Hendricks, Lisa Anne and Welbl, Johannes and Clark, Aidan and others",
+      "title": "Training compute-optimal large language models",
+      "ENTRYTYPE": "article",
+      "ID": "hoffmann2022training"
+    },
+    {
+      "year": "2020",
+      "journal": "arXiv preprint arXiv:2001.08361",
+      "author": "Kaplan, Jared and McCandlish, Sam and Henighan, Tom and Brown, Tom B and Chess, Benjamin and Child, Rewon and Gray, Scott and Radford, Alec and Wu, Jeffrey and Amodei, Dario",
+      "title": "Scaling laws for neural language models",
+      "ENTRYTYPE": "article",
+      "ID": "kaplan2020scaling"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2402.03300",
+      "author": "Shao, Zhihong and Wang, Peiyi and Zhu, Qihao and Xu, Runxin and Song, Junxiao and Bi, Xiao and Zhang, Haowei and Zhang, Mingchuan and Li, YK and Wu, Y and others",
+      "title": "Deepseekmath: Pushing the limits of mathematical reasoning in open language models",
+      "ENTRYTYPE": "article",
+      "ID": "shao2024deepseekmath"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2501.12948",
+      "author": "Guo, Daya and Yang, Dejian and Zhang, Haowei and Song, Junxiao and Zhang, Ruoyu and Xu, Runxin and Zhu, Qihao and Ma, Shirong and Wang, Peiyi and Bi, Xiao and others",
+      "title": "Deepseek-r1: Incentivizing reasoning capability in llms via reinforcement learning",
+      "ENTRYTYPE": "article",
+      "ID": "guo2025deepseek"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2501.12599",
+      "author": "Team, Kimi and Du, Angang and Gao, Bofei and Xing, Bowei and Jiang, Changjiu and Chen, Cheng and Li, Cheng and Xiao, Chenjun and Du, Chenzhuang and Liao, Chonghua and others",
+      "title": "Kimi k1. 5: Scaling reinforcement learning with llms",
+      "ENTRYTYPE": "article",
+      "ID": "team2025kimi"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2501.17161",
+      "author": "Chu, Tianzhe and Zhai, Yuexiang and Yang, Jihan and Tong, Shengbang and Xie, Saining and Schuurmans, Dale and Le, Quoc V and Levine, Sergey and Ma, Yi",
+      "title": "Sft memorizes, rl generalizes: A comparative study of foundation model post-training",
+      "ENTRYTYPE": "article",
+      "ID": "chu2025sft"
+    },
+    {
+      "year": "2023",
+      "pages": "53728--53741",
+      "volume": "36",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Rafailov, Rafael and Sharma, Archit and Mitchell, Eric and Manning, Christopher D and Ermon, Stefano and Finn, Chelsea",
+      "title": "Direct preference optimization: Your language model is secretly a reward model",
+      "ENTRYTYPE": "article",
+      "ID": "rafailov2023direct"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2503.07572",
+      "author": "Qu, Yuxiao and Yang, Matthew YR and Setlur, Amrith and Tunstall, Lewis and Beeching, Edward Emanuel and Salakhutdinov, Ruslan and Kumar, Aviral",
+      "title": "Optimizing test-time compute via meta reinforcement fine-tuning",
+      "ENTRYTYPE": "article",
+      "ID": "qu2025optimizing"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2505.07961",
+      "author": "Zhang, Xuechen and Huang, Zijian and Ni, Chenchun and Xiong, Ziyang and Chen, Jiasi and Oymak, Samet",
+      "title": "Making Small Language Models Efficient Reasoners: Intervention, Supervision, Reinforcement",
+      "ENTRYTYPE": "article",
+      "ID": "zhang2025makingsmalllanguagemodels"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2503.04697",
+      "author": "Aggarwal, Pranjal and Welleck, Sean",
+      "title": "L1: Controlling how long a reasoning model thinks with reinforcement learning",
+      "ENTRYTYPE": "article",
+      "ID": "aggarwal2025l1"
+    },
+    {
+      "note": "\\url{https://cloud.google.com/vertex-ai/generative-ai/docs/thinking}",
+      "year": "2024",
+      "author": "Google",
+      "title": "Gemini 2.0 flash thinking mode (gemini-2.0f lash-thinking-exp-1219)",
+      "ENTRYTYPE": "misc",
+      "ID": "Gemini"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2017",
+      "pages": "482--495",
+      "booktitle": "Conference on robot learning",
+      "author": "Florensa, Carlos and Held, David and Wulfmeier, Markus and Zhang, Michael and Abbeel, Pieter",
+      "title": "Reverse curriculum generation for reinforcement learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "florensa2017reverse"
+    },
+    {
+      "year": "2017",
+      "volume": "30",
+      "journal": "Advances in neural information processing systems",
+      "author": "Andrychowicz, Marcin and Wolski, Filip and Ray, Alex and Schneider, Jonas and Fong, Rachel and Welinder, Peter and McGrew, Bob and Tobin, Josh and Pieter Abbeel, OpenAI and Zaremba, Wojciech",
+      "title": "Hindsight experience replay",
+      "ENTRYTYPE": "article",
+      "ID": "andrychowicz2017hindsight"
+    },
+    {
+      "year": "2017",
+      "journal": "arXiv preprint arXiv:1709.10087",
+      "author": "Rajeswaran, Aravind and Kumar, Vikash and Gupta, Abhishek and Vezzani, Giulia and Schulman, John and Todorov, Emanuel and Levine, Sergey",
+      "title": "Learning complex dexterous manipulation with deep reinforcement learning and demonstrations",
+      "ENTRYTYPE": "article",
+      "ID": "rajeswaran2017learning"
+    },
+    {
+      "journal": "arXiv preprint arXiv: 2409.19256",
+      "year": "2024",
+      "author": "Guangming Sheng and Chi Zhang and Zilingfeng Ye and Xibin Wu and Wang Zhang and Ru Zhang and Yanghua Peng and Haibin Lin and Chuan Wu",
+      "title": "HybridFlow: A Flexible and Efficient RLHF Framework",
+      "ENTRYTYPE": "article",
+      "ID": "sheng2024hybridflow"
+    },
+    {
+      "year": "2014",
+      "journal": "arXiv preprint arXiv:1412.6980",
+      "author": "Kingma, Diederik P",
+      "title": "Adam: A method for stochastic optimization",
+      "ENTRYTYPE": "article",
+      "ID": "kingma2014adam"
+    },
+    {
+      "year": "2021",
+      "journal": "arXiv preprint arXiv:2103.03874",
+      "author": "Hendrycks, Dan and Burns, Collin and Kadavath, Saurav and Arora, Akul and Basart, Steven and Tang, Eric and Song, Dawn and Steinhardt, Jacob",
+      "title": "Measuring mathematical problem solving with the math dataset",
+      "ENTRYTYPE": "article",
+      "ID": "hendrycks2021measuring"
+    },
+    {
+      "howpublished": "\\url{[https://huggingface.co/AI-MO/NuminaMath-CoT](https://github.com/project-numina/aimo-progress-prize/blob/main/report/numina_dataset.pdf)}",
+      "journal": "Hugging Face repository",
+      "publisher": "Numina",
+      "year": "2024",
+      "title": "NuminaMath",
+      "author": "Jia LI and Edward Beeching and Lewis Tunstall and Ben Lipkin and Roman Soletskyi and Shengyi Costa Huang and Kashif Rasul and Longhui Yu and Albert Jiang and Ziju Shen and Zihan Qin and Bin Dong and Li Zhou and Yann Fleureau and Guillaume Lample and Stanislas Polu",
+      "ENTRYTYPE": "misc",
+      "ID": "numina_math_datasets"
+    },
+    {
+      "year": "2025",
+      "month": "January",
+      "author": "Hugging Face",
+      "url": "https://github.com/huggingface/open-r1",
+      "title": "Open R1: A fully open reproduction of DeepSeek-R1",
+      "ENTRYTYPE": "misc",
+      "ID": "openr1"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2412.16720",
+      "author": "Jaech, Aaron and Kalai, Adam and Lerer, Adam and Richardson, Adam and El-Kishky, Ahmed and Low, Aiden and Helyar, Alec and Madry, Aleksander and Beutel, Alex and Carney, Alex and others",
+      "title": "Openai o1 system card",
+      "ENTRYTYPE": "article",
+      "ID": "jaech2024openai"
+    },
+    {
+      "note": "Accessed 15 May 2025",
+      "year": "2025",
+      "month": "March",
+      "institution": "Google DeepMind",
+      "howpublished": "\\url{https://blog.google/technology/google-deepmind/gemini-model-thinking-updates-march-2025/}",
+      "title": "Gemini 2.5: Our most intelligent AI model",
+      "author": "Kavukcuoglu, Koray",
+      "ENTRYTYPE": "misc",
+      "ID": "gemini25_blog"
+    },
+    {
+      "organization": "JMLR Workshop and Conference Proceedings",
+      "year": "2011",
+      "pages": "627--635",
+      "booktitle": "Proceedings of the fourteenth international conference on artificial intelligence and statistics",
+      "author": "Ross, St{\\'e}phane and Gordon, Geoffrey and Bagnell, Drew",
+      "title": "A reduction of imitation learning and structured prediction to no-regret online learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ross2011reduction"
+    },
+    {
+      "publisher": "Nature Publishing Group UK London",
+      "year": "2021",
+      "pages": "580--586",
+      "number": "7847",
+      "volume": "590",
+      "journal": "Nature",
+      "author": "Ecoffet, Adrien and Huizinga, Joost and Lehman, Joel and Stanley, Kenneth O and Clune, Jeff",
+      "title": "First return, then explore",
+      "ENTRYTYPE": "article",
+      "ID": "ecoffet2021first"
+    },
+    {
+      "organization": "Citeseer",
+      "year": "1999",
+      "pages": "278--287",
+      "volume": "99",
+      "booktitle": "Icml",
+      "author": "Ng, Andrew Y and Harada, Daishi and Russell, Stuart",
+      "title": "Policy invariance under reward transformations: Theory and application to reward shaping",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ng1999policy"
+    },
+    {
+      "year": "2018",
+      "journal": "arXiv preprint arXiv:1803.03835",
+      "author": "Schmitt, Simon and Hudson, Jonathan J and Zidek, Augustin and Osindero, Simon and Doersch, Carl and Czarnecki, Wojciech M and Leibo, Joel Z and Kuttler, Heinrich and Zisserman, Andrew and Simonyan, Karen and others",
+      "title": "Kickstarting deep reinforcement learning",
+      "ENTRYTYPE": "article",
+      "ID": "schmitt2018kickstarting"
+    },
+    {
+      "year": "2017",
+      "volume": "30",
+      "journal": "Advances in neural information processing systems",
+      "author": "Anthony, Thomas and Tian, Zheng and Barber, David",
+      "title": "Thinking fast and slow with deep learning and tree search",
+      "ENTRYTYPE": "article",
+      "ID": "anthony2017thinking"
+    },
+    {
+      "year": "2024",
+      "booktitle": "First Conference on Language Modeling",
+      "author": "Rein, David and Hou, Betty Li and Stickland, Asa Cooper and Petty, Jackson and Pang, Richard Yuanzhe and Dirani, Julien and Michael, Julian and Bowman, Samuel R",
+      "title": "Gpqa: A graduate-level google-proof q\\&a benchmark",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "rein2024gpqa"
+    },
+    {
+      "year": "2019",
+      "volume": "32",
+      "journal": "Advances in neural information processing systems",
+      "author": "Janner, Michael and Fu, Justin and Zhang, Marvin and Levine, Sergey",
+      "title": "When to trust your model: Model-based policy optimization",
+      "ENTRYTYPE": "article",
+      "ID": "janner2019trust"
+    }
+  ]
+}

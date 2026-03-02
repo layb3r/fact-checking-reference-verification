@@ -1,0 +1,1641 @@
+{
+  "pdf_url": "https://arxiv.org/pdf/2505.11293v2.pdf",
+  "references": [
+    {
+      "year": "2017",
+      "volume": "30",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf",
+      "title": "Attention is All you Need",
+      "publisher": "Curran Associates, Inc.",
+      "pages": "",
+      "booktitle": "Advances in Neural Information Processing Systems",
+      "author": "Vaswani, Ashish and Shazeer, Noam and Parmar, Niki and Uszkoreit, Jakob and Jones, Llion and Gomez, Aidan N and Kaiser, \\L ukasz and Polosukhin, Illia",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "Vaswani+2017"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2405.13131",
+      "author": "Thirukovalluru, Raghuveer and Huang, Yukun and Dhingra, Bhuwan",
+      "title": "Atomic self-consistency for better long form generations",
+      "ENTRYTYPE": "article",
+      "ID": "thirukovalluru2024atomicASC"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2305.14251",
+      "author": "Min, Sewon and Krishna, Kalpesh and Lyu, Xinxi and Lewis, Mike and Yih, Wen-tau and Koh, Pang Wei and Iyyer, Mohit and Zettlemoyer, Luke and Hajishirzi, Hannaneh",
+      "title": "Factscore: Fine-grained atomic evaluation of factual precision in long form text generation",
+      "ENTRYTYPE": "article",
+      "ID": "min2023factscore"
+    },
+    {
+      "year": "2020",
+      "pages": "821--829",
+      "volume": "14",
+      "booktitle": "Proceedings of the International AAAI Conference on Web and Social Media",
+      "author": "Arslan, Fatma and Hassan, Naeemul and Li, Chengkai and Tremayne, Mark",
+      "title": "A benchmark dataset of check-worthy factual claims",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "arslan2020benchmark"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2303.08896",
+      "author": "Manakul, Potsawee and Liusie, Adian and Gales, Mark JF",
+      "title": "Selfcheckgpt: Zero-resource black-box hallucination detection for generative large language models",
+      "ENTRYTYPE": "article",
+      "ID": "manakul2023selfcheckgpt"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2304.09848",
+      "author": "Liu, Nelson F and Zhang, Tianyi and Liang, Percy",
+      "title": "Evaluating verifiability in generative search engines",
+      "ENTRYTYPE": "article",
+      "ID": "liu2023evaluating"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2402.09267",
+      "author": "Zhang, Xiaoying and Peng, Baolin and Tian, Ye and Zhou, Jingyan and Jin, Lifeng and Song, Linfeng and Mi, Haitao and Meng, Helen",
+      "title": "Self-alignment for factuality: Mitigating hallucinations in llms via self-evaluation",
+      "ENTRYTYPE": "article",
+      "ID": "zhang2024self"
+    },
+    {
+      "publisher": "\" O'Reilly Media, Inc.\"",
+      "year": "2009",
+      "author": "Bird, Steven and Klein, Ewan and Loper, Edward",
+      "title": "Natural language processing with Python: analyzing text with the natural language toolkit",
+      "ENTRYTYPE": "book",
+      "ID": "bird2009natural"
+    },
+    {
+      "year": "2021",
+      "journal": "arXiv preprint arXiv:2104.08821",
+      "author": "Gao, Tianyu and Yao, Xingcheng and Chen, Danqi",
+      "title": "Simcse: Simple contrastive learning of sentence embeddings",
+      "ENTRYTYPE": "article",
+      "ID": "gao2021simcse"
+    },
+    {
+      "year": "2011",
+      "pages": "2825",
+      "journal": "Journal of machine learning research 12",
+      "author": "Fabian, Pedregosa",
+      "title": "Scikit-learn: Machine learning in Python",
+      "ENTRYTYPE": "article",
+      "ID": "fabian2011scikit"
+    },
+    {
+      "year": "2023",
+      "booktitle": "The Twelfth International Conference on Learning Representations",
+      "author": "Tian, Katherine and Mitchell, Eric and Yao, Huaxiu and Manning, Christopher D and Finn, Chelsea",
+      "title": "Fine-tuning language models for factuality",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "tian2023fine"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2402.15631",
+      "author": "Wang, Ante and Song, Linfeng and Peng, Baolin and Tian, Ye and Jin, Lifeng and Mi, Haitao and Su, Jinsong and Yu, Dong",
+      "title": "Fine-Grained Self-Endorsement Improves Factuality and Reasoning",
+      "ENTRYTYPE": "article",
+      "ID": "wang2024fine"
+    },
+    {
+      "year": "2022",
+      "pages": "27730--27744",
+      "volume": "35",
+      "journal": "Advances in neural information processing systems",
+      "author": "Ouyang, Long and Wu, Jeffrey and Jiang, Xu and Almeida, Diogo and Wainwright, Carroll and Mishkin, Pamela and Zhang, Chong and Agarwal, Sandhini and Slama, Katarina and Ray, Alex and others",
+      "title": "Training language models to follow instructions with human feedback",
+      "ENTRYTYPE": "article",
+      "ID": "ouyang2022training"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2212.08073",
+      "author": "Bai, Yuntao and Kadavath, Saurav and Kundu, Sandipan and Askell, Amanda and Kernion, Jackson and Jones, Andy and Chen, Anna and Goldie, Anna and Mirhoseini, Azalia and McKinnon, Cameron and others",
+      "title": "Constitutional ai: Harmlessness from ai feedback",
+      "ENTRYTYPE": "article",
+      "ID": "bai2022constitutional"
+    },
+    {
+      "year": "2023",
+      "pages": "53728--53741",
+      "volume": "36",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Rafailov, Rafael and Sharma, Archit and Mitchell, Eric and Manning, Christopher D and Ermon, Stefano and Finn, Chelsea",
+      "title": "Direct preference optimization: Your language model is secretly a reward model",
+      "ENTRYTYPE": "article",
+      "ID": "rafailov2023direct"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2402.01306",
+      "author": "Ethayarajh, Kawin and Xu, Winnie and Muennighoff, Niklas and Jurafsky, Dan and Kiela, Douwe",
+      "title": "Kto: Model alignment as prospect theoretic optimization",
+      "ENTRYTYPE": "article",
+      "ID": "ethayarajh2024kto"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2309.11495",
+      "author": "Dhuliawala, Shehzaad and Komeili, Mojtaba and Xu, Jing and Raileanu, Roberta and Li, Xian and Celikyilmaz, Asli and Weston, Jason",
+      "title": "Chain-of-verification reduces hallucination in large language models",
+      "ENTRYTYPE": "article",
+      "ID": "dhuliawala2023chain"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2311.17311",
+      "author": "Chen, Xinyun and Aksitov, Renat and Alon, Uri and Ren, Jie and Xiao, Kefan and Yin, Pengcheng and Prakash, Sushant and Sutton, Charles and Wang, Xuezhi and Zhou, Denny",
+      "title": "Universal self-consistency for large language model generation",
+      "ENTRYTYPE": "article",
+      "ID": "chen2023universal"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2411.04109",
+      "author": "Prasad, Archiki and Yuan, Weizhe and Pang, Richard Yuanzhe and Xu, Jing and Fazel-Zarandi, Maryam and Bansal, Mohit and Sukhbaatar, Sainbayar and Weston, Jason and Yu, Jane",
+      "title": "Self-Consistency Preference Optimization",
+      "ENTRYTYPE": "article",
+      "ID": "prasad2024self"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2305.18248",
+      "author": "Agrawal, Ayush and Suzgun, Mirac and Mackey, Lester and Kalai, Adam Tauman",
+      "title": "Do Language Models Know When They're Hallucinating References?",
+      "ENTRYTYPE": "article",
+      "ID": "agrawal2023language"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2203.11171",
+      "author": "Wang, Xuezhi and Wei, Jason and Schuurmans, Dale and Le, Quoc and Chi, Ed and Narang, Sharan and Chowdhery, Aakanksha and Zhou, Denny",
+      "title": "Self-consistency improves chain of thought reasoning in language models",
+      "ENTRYTYPE": "article",
+      "ID": "wang2022self"
+    },
+    {
+      "publisher": "ACM New York, NY",
+      "year": "2025",
+      "pages": "1--55",
+      "number": "2",
+      "volume": "43",
+      "journal": "ACM Transactions on Information Systems",
+      "author": "Huang, Lei and Yu, Weijiang and Ma, Weitao and Zhong, Weihong and Feng, Zhangyin and Wang, Haotian and Chen, Qianglong and Peng, Weihua and Feng, Xiaocheng and Qin, Bing and others",
+      "title": "A survey on hallucination in large language models: Principles, taxonomy, challenges, and open questions",
+      "ENTRYTYPE": "article",
+      "ID": "huang2025survey"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2204.06031",
+      "author": "AlKhamissi, Badr and Li, Millicent and Celikyilmaz, Asli and Diab, Mona and Ghazvininejad, Marjan",
+      "title": "A review on language models as knowledge bases",
+      "ENTRYTYPE": "article",
+      "ID": "alkhamissi2022review"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2308.11764",
+      "author": "Elaraby, Mohamed and Lu, Mengyin and Dunn, Jacob and Zhang, Xueying and Wang, Yu and Liu, Shizhu and Tian, Pingchuan and Wang, Yuping and Wang, Yuxuan",
+      "title": "Halo: Estimation and reduction of hallucinations in open-source weak large language models",
+      "ENTRYTYPE": "article",
+      "ID": "elaraby2023halo"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2403.18802",
+      "author": "Wei, Jerry and Yang, Chengrun and Song, Xinying and Lu, Yifeng and Hu, Nathan and Huang, Jie and Tran, Dustin and Peng, Daiyi and Liu, Ruibo and Huang, Da and others",
+      "title": "Long-form factuality in large language models",
+      "ENTRYTYPE": "article",
+      "ID": "wei2024long"
+    },
+    {
+      "note": "Accessed: 2025-03-27",
+      "howpublished": "\\url{https://github.com/kttian/factual_dpo}",
+      "year": "2024",
+      "title": "FactualDPO: Direct Preference Optimization for Factuality in Large Language Models",
+      "author": "Tian, Kevin and others",
+      "ENTRYTYPE": "misc",
+      "ID": "factual_dpo"
+    },
+    {
+      "year": "2024",
+      "booktitle": "The Twelfth International Conference on Learning Representations",
+      "author": "Xu, Can and Sun, Qingfeng and Zheng, Kai and Geng, Xiubo and Zhao, Pu and Feng, Jiazhan and Tao, Chongyang and Lin, Qingwei and Jiang, Daxin",
+      "title": "WizardLM: Empowering large pre-trained language models to follow complex instructions",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "xu2024wizardlm"
+    },
+    {
+      "organization": "Association for Computational Linguistics",
+      "year": "2023",
+      "author": "Rawte, Vipula and Chakraborty, Swagata and Pathak, Agnibh and Sarkar, Anubhav and Tonmoy, SM\\_Towhidul Islam and Chadha, Aman and Sheth, Amit and Das, Amitava",
+      "title": "The troubling emergence of hallucination in large language models-an extensive definition, quantification, and prescriptive remediations",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "rawte2023troubling"
+    },
+    {
+      "year": "2024",
+      "pages": "7346--7356",
+      "booktitle": "Findings of the Association for Computational Linguistics: EMNLP 2024",
+      "author": "Renze, Matthew",
+      "title": "The effect of sampling temperature on problem solving in large language models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "renze2024effect"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2410.15595",
+      "author": "Xiao, Wenyi and Wang, Zechuan and Gan, Leilei and Zhao, Shuai and He, Wanggui and Tuan, Luu Anh and Chen, Long and Jiang, Hao and Zhao, Zhou and Wu, Fei",
+      "title": "A Comprehensive Survey of Direct Preference Optimization: Datasets, Theories, Variants, and Applications",
+      "ENTRYTYPE": "article",
+      "ID": "xiao2024comprehensive"
+    },
+    {
+      "pages": "16363--16375",
+      "doi": "10.18653/v1/2024.findings-emnlp.955",
+      "url": "https://aclanthology.org/2024.findings-emnlp.955/",
+      "publisher": "Association for Computational Linguistics",
+      "address": "Miami, Florida, USA",
+      "year": "2024",
+      "month": "November",
+      "booktitle": "Findings of the Association for Computational Linguistics: EMNLP 2024",
+      "editor": "Al-Onaizan, Yaser  and\nBansal, Mohit  and\nChen, Yun-Nung",
+      "author": "Huang, Chao-Wei  and\nChen, Yun-Nung",
+      "title": "{F}act{A}lign: Long-form Factuality Alignment of Large Language Models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "huang2024factalign"
+    },
+    {
+      "year": "2024",
+      "pages": "3577--3588",
+      "booktitle": "Findings of the Association for Computational Linguistics: NAACL 2024",
+      "author": "Thirukovalluru, Raghuveer and Wang, Xiaolan and Chen, Jun and Li, Shuyang and Lei, Jie and Jin, Rong and Dhingra, Bhuwan",
+      "title": "SumCSE: Summary as a transformation for Contrastive Learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "thirukovalluru2024sumcse"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2407.15831",
+      "author": "Moreira, Gabriel de Souza P and Osmulski, Radek and Xu, Mengyao and Ak, Ronay and Schifferer, Benedikt and Oldridge, Even",
+      "title": "NV-Retriever: Improving text embedding models with effective hard-negative mining",
+      "ENTRYTYPE": "article",
+      "ID": "moreira2024nv"
+    },
+    {
+      "year": "2024",
+      "pages": "6",
+      "volume": "3",
+      "journal": "Salesforce AI Research Blog",
+      "author": "Meng, Rui and Liu, Ye and Joty, Shafiq Rayhan and Xiong, Caiming and Zhou, Yingbo and Yavuz, Semih",
+      "title": "Sfrembedding-mistral: enhance text retrieval with transfer learning",
+      "ENTRYTYPE": "article",
+      "ID": "meng2024sfrembedding"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2023",
+      "pages": "29542--29562",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Sachidananda, Vin and Yang, Ziyi and Zhu, Chenguang",
+      "title": "Global selection of contrastive batches via optimization on sample permutations",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "sachidananda2023global"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2019",
+      "pages": "5628--5637",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Saunshi, Nikunj and Plevrakis, Orestis and Arora, Sanjeev and Khodak, Mikhail and Khandeparkar, Hrishikesh",
+      "title": "A theoretical analysis of contrastive unsupervised representation learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "saunshi2019theoretical"
+    },
+    {
+      "year": "2015",
+      "journal": "arXiv preprint arXiv:1511.06820",
+      "author": "Liu, Yike and Shah, Neil and Koutra, Danai",
+      "title": "An empirical comparison of the summarization power of graph clustering methods",
+      "ENTRYTYPE": "article",
+      "ID": "liu2015empirical"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2410.05160",
+      "author": "Jiang, Ziyan and Meng, Rui and Yang, Xinyi and Yavuz, Semih and Zhou, Yingbo and Chen, Wenhu",
+      "title": "Vlm2vec: Training vision-language models for massive multimodal embedding tasks",
+      "ENTRYTYPE": "article",
+      "ID": "jiang2024vlm2vec"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2503.04812",
+      "author": "Lan, Zhibin and Niu, Liqiang and Meng, Fandong and Zhou, Jie and Su, Jinsong",
+      "title": "LLaVE: Large Language and Vision Embedding Models with Hardness-Weighted Contrastive Learning",
+      "ENTRYTYPE": "article",
+      "ID": "lan2025llave"
+    },
+    {
+      "address": "Englewood Cliffs, NJ",
+      "publisher": "Prentice-Hall",
+      "volume": "1",
+      "year": "1972",
+      "title": "The Theory of Parsing, Translation and Compiling",
+      "author": "Alfred V. Aho and Jeffrey D. Ullman",
+      "ENTRYTYPE": "book",
+      "ID": "Aho:72"
+    },
+    {
+      "address": "Washington, DC",
+      "publisher": "American Psychological Association",
+      "year": "1983",
+      "title": "Publications Manual",
+      "author": "{American Psychological Association}",
+      "ENTRYTYPE": "book",
+      "ID": "APA:83"
+    },
+    {
+      "doi": "10.1145/322234.322243",
+      "pages": "114--133",
+      "number": "1",
+      "volume": "28",
+      "journal": "Journal of the Association for Computing Machinery",
+      "title": "Alternation",
+      "year": "1981",
+      "author": "Ashok K. Chandra and Dexter C. Kozen and Larry J. Stockmeyer",
+      "ENTRYTYPE": "article",
+      "ID": "Chandra:81"
+    },
+    {
+      "year": "2007",
+      "pages": "33--40",
+      "booktitle": "Proceedings of the 24th International Conference on Machine Learning",
+      "author": "Andrew, Galen and Gao, Jianfeng",
+      "title": "Scalable training of {L1}-regularized log-linear models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "andrew2007scalable"
+    },
+    {
+      "address": "Cambridge, UK",
+      "publisher": "Cambridge University Press",
+      "year": "1997",
+      "title": "Algorithms on Strings, Trees and Sequences",
+      "author": "Dan Gusfield",
+      "ENTRYTYPE": "book",
+      "ID": "Gusfield:97"
+    },
+    {
+      "note": "version 2",
+      "url": "http://arxiv.org/abs/1503.06733",
+      "year": "2015",
+      "volume": "arXiv:1503.06733",
+      "journal": "Computing Research Repository",
+      "title": "Yara Parser: {A} Fast and Accurate Dependency Parser",
+      "author": "Mohammad Sadegh Rasooli and Joel R. Tetreault",
+      "ENTRYTYPE": "article",
+      "ID": "rasooli-tetrault-2015"
+    },
+    {
+      "year": "2005",
+      "volume": "6",
+      "title": "A Framework for Learning Predictive Structures from Multiple Tasks and Unlabeled Data",
+      "publisher": "JMLR.org",
+      "pages": "1817--1853",
+      "numpages": "37",
+      "month": "December",
+      "journal": "Journal of Machine Learning Research",
+      "issue_date": "12/1/2005",
+      "issn": "1532-4435",
+      "author": "Ando, Rie Kubota and Zhang, Tong",
+      "acmid": "1194905",
+      "ENTRYTYPE": "article",
+      "ID": "Ando2005"
+    },
+    {
+      "abstract": "Contrastive learning has been the dominant approach to train state-of-the-art sentence embeddings. Previous studies have typically learned sentence embeddings either through the use of human-annotated natural language inference (NLI) data or via large-scale unlabeled sentences in an unsupervised manner. However, even in the case of unlabeled data, their acquisition presents challenges in certain domains due to various reasons. due to copyright restrictions, data distribution issues, and messy formats, among other factors. To address these issues, we present SynCSE, a contrastive learning framework that trains sentence embeddings with synthetic data. Specifically, we explore utilizing large language models to synthesize the required data samples for contrastive learning, including (1) producing positive and negative annotations given unlabeled sentences SynCSE-partial, and (2) generating sentences along with their corresponding annotations from scratch SynCSE-scratch. Notably, SynCSE-scratch constitutes the first contrastive learning method to learn sentence embeddings from scratch without manually collecting any data sample. Experimental results on sentence similarity and reranking tasks indicate that both SynCSE-partial and SynCSE-scratch greatly outperform unsupervised baselines, and SynCSE-partial even achieves comparable performance to the supervised models in most settings.",
+      "pages": "3916--3932",
+      "url": "https://aclanthology.org/2023.emnlp-main.238",
+      "publisher": "Association for Computational Linguistics",
+      "address": "Singapore",
+      "year": "2023",
+      "month": "December",
+      "booktitle": "Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing",
+      "editor": "Bouamor, Houda  and\nPino, Juan  and\nBali, Kalika",
+      "author": "Zhang, Junlei  and\nLan, Zhenzhong  and\nHe, Junxian",
+      "title": "Contrastive Learning of Sentence Embeddings from Scratch",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zhang2023contrastive"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2201.04337",
+      "author": "Jiang, Ting and Jiao, Jian and Huang, Shaohan and Zhang, Zihan and Wang, Deqing and Zhuang, Fuzhen and Wei, Furu and Huang, Haizhen and Deng, Denvy and Zhang, Qi",
+      "title": "Promptbert: Improving bert sentence embeddings with prompts",
+      "ENTRYTYPE": "article",
+      "ID": "jiang2022promptbert"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2308.03281",
+      "author": "Li, Zehan and Zhang, Xin and Zhang, Yanzhao and Long, Dingkun and Xie, Pengjun and Zhang, Meishan",
+      "title": "Towards general text embeddings with multi-stage contrastive learning",
+      "ENTRYTYPE": "article",
+      "ID": "li2023towards"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2212.09741",
+      "author": "Su, Hongjin and Kasai, Jungo and Wang, Yizhong and Hu, Yushi and Ostendorf, Mari and Yih, Wen-tau and Smith, Noah A and Zettlemoyer, Luke and Yu, Tao and others",
+      "title": "One embedder, any task: Instruction-finetuned text embeddings",
+      "ENTRYTYPE": "article",
+      "ID": "su2022one"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2204.07705",
+      "author": "Wang, Yizhong and Mishra, Swaroop and Alipoormolabashi, Pegah and Kordi, Yeganeh and Mirzaei, Amirreza and Arunkumar, Anjana and Ashok, Arjun and Dhanasekaran, Arut Selvan and Naik, Atharva and Stap, David and others",
+      "title": "Super-naturalinstructions: Generalization via declarative instructions on 1600+ nlp tasks",
+      "ENTRYTYPE": "article",
+      "ID": "wang2022super"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2210.16798",
+      "author": "Chen, Yiming and Zhang, Yan and Wang, Bin and Liu, Zuozhu and Li, Haizhou",
+      "title": "Generate, discriminate and contrast: A semi-supervised sentence representation learning framework",
+      "ENTRYTYPE": "article",
+      "ID": "chen2022generate"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2020",
+      "pages": "1597--1607",
+      "booktitle": "International conference on machine learning",
+      "author": "Chen, Ting and Kornblith, Simon and Norouzi, Mohammad and Hinton, Geoffrey",
+      "title": "A simple framework for contrastive learning of visual representations",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "chen2020simple"
+    },
+    {
+      "year": "2020",
+      "pages": "6827--6839",
+      "volume": "33",
+      "journal": "Advances in neural information processing systems",
+      "author": "Tian, Yonglong and Sun, Chen and Poole, Ben and Krishnan, Dilip and Schmid, Cordelia and Isola, Phillip",
+      "title": "What makes for good views for contrastive learning?",
+      "ENTRYTYPE": "article",
+      "ID": "tian2020makes"
+    },
+    {
+      "year": "2020",
+      "journal": "arXiv preprint arXiv:2010.02037",
+      "author": "Wu, Mike and Mosse, Milan and Zhuang, Chengxu and Yamins, Daniel and Goodman, Noah",
+      "title": "Conditional negative sampling for contrastive learning of visual representations",
+      "ENTRYTYPE": "article",
+      "ID": "wu2020conditional"
+    },
+    {
+      "year": "2022",
+      "pages": "16031--16040",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Peng, Xiangyu and Wang, Kai and Zhu, Zheng and Wang, Mang and You, Yang",
+      "title": "Crafting better contrastive views for siamese representation learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "peng2022crafting"
+    },
+    {
+      "year": "2021",
+      "journal": "arXiv preprint arXiv:2112.00319",
+      "author": "Mishra, Shlok and Shah, Anshul and Bansal, Ankan and Jagannatha, Abhyuday and Sharma, Abhishek and Jacobs, David and Krishnan, Dilip",
+      "title": "Object-aware cropping for self-supervised learning",
+      "ENTRYTYPE": "article",
+      "ID": "mishra2021object"
+    },
+    {
+      "year": "2015",
+      "pages": "252--263",
+      "booktitle": "Proceedings of the 9th international workshop on semantic evaluation (SemEval 2015)",
+      "author": "Agirre, Eneko and Banea, Carmen and Cardie, Claire and Cer, Daniel and Diab, Mona and Gonzalez-Agirre, Aitor and Guo, Weiwei and Lopez-Gazpio, Inigo and Maritxalar, Montse and Mihalcea, Rada and others",
+      "title": "Semeval-2015 task 2: Semantic textual similarity, english, spanish and pilot on interpretability",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "agirre2015semeval"
+    },
+    {
+      "year": "2014",
+      "pages": "81--91",
+      "booktitle": "Proceedings of the 8th international workshop on semantic evaluation (SemEval 2014)",
+      "author": "Agirre, Eneko and Banea, Carmen and Cardie, Claire and Cer, Daniel and Diab, Mona and Gonzalez-Agirre, Aitor and Guo, Weiwei and Mihalcea, Rada and Rigau, German and Wiebe, Janyce",
+      "title": "Semeval-2014 task 10: Multilingual semantic textual similarity",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "agirre2014semeval"
+    },
+    {
+      "organization": "ACL (Association for Computational Linguistics)",
+      "year": "2016",
+      "booktitle": "SemEval-2016. 10th International Workshop on Semantic Evaluation; 2016 Jun 16-17; San Diego, CA. Stroudsburg (PA): ACL; 2016. p. 497-511.",
+      "author": "Agirre, Eneko and Banea, Carmen and Cer, Daniel and Diab, Mona and Gonzalez Agirre, Aitor and Mihalcea, Rada and Rigau Claramunt, German and Wiebe, Janyce",
+      "title": "Semeval-2016 task 1: Semantic textual similarity, monolingual and cross-lingual evaluation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "agirre2016semeval"
+    },
+    {
+      "year": "2012",
+      "pages": "385--393",
+      "booktitle": "* SEM 2012: The First Joint Conference on Lexical and Computational Semantics--Volume 1: Proceedings of the main conference and the shared task, and Volume 2: Proceedings of the Sixth International Workshop on Semantic Evaluation (SemEval 2012)",
+      "author": "Agirre, Eneko and Cer, Daniel and Diab, Mona and Gonzalez-Agirre, Aitor",
+      "title": "Semeval-2012 task 6: A pilot on semantic textual similarity",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "agirre2012semeval"
+    },
+    {
+      "year": "2013",
+      "pages": "32--43",
+      "booktitle": "Second joint conference on lexical and computational semantics (* SEM), volume 1: proceedings of the Main conference and the shared task: semantic textual similarity",
+      "author": "Agirre, Eneko and Cer, Daniel and Diab, Mona and Gonzalez-Agirre, Aitor and Guo, Weiwei",
+      "title": "* SEM 2013 shared task: Semantic textual similarity",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "agirre2013sem"
+    },
+    {
+      "year": "2017",
+      "journal": "arXiv preprint arXiv:1708.00055",
+      "author": "Cer, Daniel and Diab, Mona and Agirre, Eneko and Lopez-Gazpio, Inigo and Specia, Lucia",
+      "title": "Semeval-2017 task 1: Semantic textual similarity-multilingual and cross-lingual focused evaluation",
+      "ENTRYTYPE": "article",
+      "ID": "cer2017semeval"
+    },
+    {
+      "year": "2014",
+      "pages": "1--8",
+      "booktitle": "Proceedings of the 8th international workshop on semantic evaluation (SemEval 2014)",
+      "author": "Marelli, Marco and Bentivogli, Luisa and Baroni, Marco and Bernardi, Raffaella and Menini, Stefano and Zamparelli, Roberto",
+      "title": "Semeval-2014 task 1: Evaluation of compositional distributional semantic models on full sentences through semantic relatedness and textual entailment",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "marelli2014semeval"
+    },
+    {
+      "year": "2005",
+      "journal": "arXiv preprint cs/0506075",
+      "author": "Pang, Bo and Lee, Lillian",
+      "title": "Seeing stars: Exploiting class relationships for sentiment categorization with respect to rating scales",
+      "ENTRYTYPE": "article",
+      "ID": "pang2005seeing"
+    },
+    {
+      "year": "2004",
+      "pages": "168--177",
+      "booktitle": "Proceedings of the tenth ACM SIGKDD international conference on Knowledge discovery and data mining",
+      "author": "Hu, Minqing and Liu, Bing",
+      "title": "Mining and summarizing customer reviews",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "hu2004mining"
+    },
+    {
+      "year": "2004",
+      "journal": "arXiv preprint cs/0409058",
+      "author": "Pang, Bo and Lee, Lillian",
+      "title": "A sentimental education: Sentiment analysis using subjectivity summarization based on minimum cuts",
+      "ENTRYTYPE": "article",
+      "ID": "pang2004sentimental"
+    },
+    {
+      "publisher": "Springer",
+      "year": "2005",
+      "pages": "165--210",
+      "volume": "39",
+      "journal": "Language resources and evaluation",
+      "author": "Wiebe, Janyce and Wilson, Theresa and Cardie, Claire",
+      "title": "Annotating expressions of opinions and emotions in language",
+      "ENTRYTYPE": "article",
+      "ID": "wiebe2005annotating"
+    },
+    {
+      "year": "2000",
+      "pages": "200--207",
+      "booktitle": "Proceedings of the 23rd annual international ACM SIGIR conference on Research and development in information retrieval",
+      "author": "Voorhees, Ellen M and Tice, Dawn M",
+      "title": "Building a question answering test collection",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "voorhees2000building"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2210.07316",
+      "author": "Muennighoff, Niklas and Tazi, Nouamane and Magne, Lo{\\\"\\i}c and Reimers, Nils",
+      "title": "MTEB: Massive text embedding benchmark",
+      "ENTRYTYPE": "article",
+      "ID": "muennighoff2022mteb"
+    },
+    {
+      "year": "2016",
+      "pages": "660",
+      "volume": "2640",
+      "journal": "choice",
+      "author": "Nguyen, Tri and Rosenberg, Mir and Song, Xia and Gao, Jianfeng and Tiwary, Saurabh and Majumder, Rangan and Deng, Li",
+      "title": "MS MARCO: A human generated machine reading comprehension dataset",
+      "ENTRYTYPE": "article",
+      "ID": "nguyen2016ms"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2307.09288",
+      "author": "Touvron, Hugo and Martin, Louis and Stone, Kevin and Albert, Peter and Almahairi, Amjad and Babaei, Yasmine and Bashlykov, Nikolay and Batra, Soumya and Bhargava, Prajjwal and Bhosale, Shruti and others",
+      "title": "Llama 2: Open foundation and fine-tuned chat models",
+      "ENTRYTYPE": "article",
+      "ID": "touvron2023llama"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2305.16726",
+      "author": "Liu, Jiduan and Liu, Jiahao and Wang, Qifan and Wang, Jingang and Wu, Wei and Xian, Yunsen and Zhao, Dongyan and Chen, Kai and Yan, Rui",
+      "title": "RankCSE: Unsupervised Sentence Representations Learning via Learning to Rank",
+      "ENTRYTYPE": "article",
+      "ID": "liu2023rankcse"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "2023",
+      "journal": "IEEE/ACM Transactions on Audio, Speech, and Language Processing",
+      "author": "Zhou, Kun and Zhou, Yuanhang and Zhao, Wayne Xin and Wen, Ji-Rong",
+      "title": "Learning to Perturb for Contrastive Learning of Unsupervised Sentence Representations",
+      "ENTRYTYPE": "article",
+      "ID": "zhou2023learning"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2201.12093",
+      "author": "Wu, Qiyu and Tao, Chongyang and Shen, Tao and Xu, Can and Geng, Xiubo and Jiang, Daxin",
+      "title": "PCL: Peer-Contrastive Learning with Diverse Augmentations for Unsupervised Sentence Embeddings",
+      "ENTRYTYPE": "article",
+      "ID": "wu2022pcl"
+    },
+    {
+      "year": "2022",
+      "pages": "2159--2165",
+      "booktitle": "Proceedings of the 45th International ACM SIGIR Conference on Research and Development in Information Retrieval",
+      "author": "Wang, Wei and Ge, Liangzhu and Zhang, Jingqiao and Yang, Cheng",
+      "title": "Improving contrastive learning of sentence embeddings with case-augmented positives and retrieved negatives",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "wang2022improving"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2211.03348",
+      "author": "Zeng, Jiali and Yin, Yongjing and Jiang, Yufan and Wu, Shuangzhi and Cao, Yunbo",
+      "title": "Contrastive learning with prompt-derived virtual semantic prototypes for unsupervised sentence embedding",
+      "ENTRYTYPE": "article",
+      "ID": "zeng2022contrastive"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2203.06875",
+      "author": "Jiang, Yuxin and Zhang, Linhan and Wang, Wei",
+      "title": "Improved Universal Sentence Embeddings with Prompt-based Contrastive Learning and Energy-based Learning",
+      "ENTRYTYPE": "article",
+      "ID": "jiang2022improved"
+    },
+    {
+      "year": "2018",
+      "journal": "arXiv preprint arXiv:1807.03748",
+      "author": "Oord, Aaron van den and Li, Yazhe and Vinyals, Oriol",
+      "title": "Representation learning with contrastive predictive coding",
+      "ENTRYTYPE": "article",
+      "ID": "oord2018representation"
+    },
+    {
+      "year": "2022",
+      "pages": "24824--24837",
+      "volume": "35",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Wei, Jason and Wang, Xuezhi and Schuurmans, Dale and Bosma, Maarten and Xia, Fei and Chi, Ed and Le, Quoc V and Zhou, Denny and others",
+      "title": "Chain-of-thought prompting elicits reasoning in large language models",
+      "ENTRYTYPE": "article",
+      "ID": "wei2022chain"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2204.01691",
+      "author": "Ahn, Michael and Brohan, Anthony and Brown, Noah and Chebotar, Yevgen and Cortes, Omar and David, Byron and Finn, Chelsea and Fu, Chuyuan and Gopalakrishnan, Keerthana and Hausman, Karol and others",
+      "title": "Do as i can, not as i say: Grounding language in robotic affordances",
+      "ENTRYTYPE": "article",
+      "ID": "ahn2022can"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2303.12712",
+      "author": "Bubeck, S{\\'e}bastien and Chandrasekaran, Varun and Eldan, Ronen and Gehrke, Johannes and Horvitz, Eric and Kamar, Ece and Lee, Peter and Lee, Yin Tat and Li, Yuanzhi and Lundberg, Scott and others",
+      "title": "Sparks of artificial general intelligence: Early experiments with gpt-4",
+      "ENTRYTYPE": "article",
+      "ID": "bubeck2023sparks"
+    },
+    {
+      "primaryclass": "cs.CL",
+      "archiveprefix": "arXiv",
+      "eprint": "2309.11495",
+      "year": "2023",
+      "author": "Shehzaad Dhuliawala and Mojtaba Komeili and Jing Xu and Roberta Raileanu and Xian Li and Asli Celikyilmaz and Jason Weston",
+      "title": "Chain-of-Verification Reduces Hallucination in Large Language Models",
+      "ENTRYTYPE": "misc",
+      "ID": "dhuliawala2023chainofverification"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2204.11454",
+      "author": "Shi, Freda and Fried, Daniel and Ghazvininejad, Marjan and Zettlemoyer, Luke and Wang, Sida I",
+      "title": "Natural language to code translation with execution",
+      "ENTRYTYPE": "article",
+      "ID": "shi2022natural"
+    },
+    {
+      "year": "2018",
+      "booktitle": "International Conference on Learning Representations",
+      "author": "Chen, Xinyun and Liu, Chang and Song, Dawn",
+      "title": "Execution-guided neural program synthesis",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "chen2018execution"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2305.14975",
+      "author": "Tian, Katherine and Mitchell, Eric and Zhou, Allan and Sharma, Archit and Rafailov, Rafael and Yao, Huaxiu and Finn, Chelsea and Manning, Christopher D",
+      "title": "Just ask for calibration: Strategies for eliciting calibrated confidence scores from language models fine-tuned with human feedback",
+      "ENTRYTYPE": "article",
+      "ID": "tian2023just"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2204.06092",
+      "author": "Stelmakh, Ivan and Luan, Yi and Dhingra, Bhuwan and Chang, Ming-Wei",
+      "title": "Asqa: Factoid questions meet long-form answers",
+      "ENTRYTYPE": "article",
+      "ID": "stelmakh2022asqa"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2205.12665",
+      "author": "Rubin, Samuel Joseph Amouyal Ohad and Yoran, Ori and Wolfson, Tomer and Herzig, Jonathan and Berant, Jonathan",
+      "title": "Qampari:: An open-domain question answering benchmark for questions with many answers from multiple paragraphs",
+      "ENTRYTYPE": "article",
+      "ID": "rubin2022qampari"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2305.11694",
+      "author": "Malaviya, Chaitanya and Shaw, Peter and Chang, Ming-Wei and Lee, Kenton and Toutanova, Kristina",
+      "title": "QUEST: A Retrieval Dataset of Entity-Seeking Queries with Implicit Set Operations",
+      "ENTRYTYPE": "article",
+      "ID": "malaviya2023quest"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2307.02762",
+      "author": "Li, Ruosen and Patel, Teerth and Du, Xinya",
+      "title": "Prd: Peer rank and discussion improve large language model based evaluations",
+      "ENTRYTYPE": "article",
+      "ID": "li2023prd"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2306.17563",
+      "author": "Qin, Zhen and Jagerman, Rolf and Hui, Kai and Zhuang, Honglei and Wu, Junru and Shen, Jiaming and Liu, Tianqi and Liu, Jialu and Metzler, Donald and Wang, Xuanhui and others",
+      "title": "Large language models are effective text rankers with pairwise ranking prompting",
+      "ENTRYTYPE": "article",
+      "ID": "qin2023large"
+    },
+    {
+      "primaryclass": "cs.CL",
+      "archiveprefix": "arXiv",
+      "eprint": "2402.05120",
+      "year": "2024",
+      "author": "Junyou Li and Qin Zhang and Yangbin Yu and Qiang Fu and Deheng Ye",
+      "title": "More Agents Is All You Need",
+      "ENTRYTYPE": "article",
+      "ID": "li2024agents"
+    },
+    {
+      "year": "2019",
+      "journal": "arXiv preprint arXiv:1907.09190",
+      "author": "Fan, Angela and Jernite, Yacine and Perez, Ethan and Grangier, David and Weston, Jason and Auli, Michael",
+      "title": "ELI5: Long form question answering",
+      "ENTRYTYPE": "article",
+      "ID": "fan2019eli5"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2305.14627",
+      "author": "Gao, Tianyu and Yen, Howard and Yu, Jiatong and Chen, Danqi",
+      "title": "Enabling Large Language Models to Generate Text with Citations",
+      "ENTRYTYPE": "article",
+      "ID": "gao2023enabling"
+    },
+    {
+      "year": "2021",
+      "journal": "arXiv preprint arXiv:2112.07899",
+      "author": "Ni, Jianmo and Qu, Chen and Lu, Jing and Dai, Zhuyun and {\\'A}brego, Gustavo Hern{\\'a}ndez and Ma, Ji and Zhao, Vincent Y and Luan, Yi and Hall, Keith B and Chang, Ming-Wei and others",
+      "title": "Large dual encoders are generalizable retrievers",
+      "ENTRYTYPE": "article",
+      "ID": "ni2021large"
+    },
+    {
+      "year": "2011",
+      "pages": "2825--2830",
+      "number": "Oct",
+      "volume": "12",
+      "journal": "Journal of machine learning research",
+      "author": "Pedregosa, Fabian and Varoquaux, Ga{\\\"e}l and Gramfort, Alexandre and Michel, Vincent and Thirion, Bertrand and Grisel, Olivier and Blondel, Mathieu and Prettenhofer, Peter and Weiss, Ron and Dubourg, Vincent and others",
+      "title": "Scikit-learn: Machine learning in Python",
+      "ENTRYTYPE": "article",
+      "ID": "pedregosa2011scikit"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2210.15373",
+      "author": "Xiong, Jing and Wan, Zhongwei and Hu, Xiping and Yang, Min and Li, Chengming",
+      "title": "Self-consistent Reasoning For Solving Math Word Problems",
+      "ENTRYTYPE": "article",
+      "ID": "xiong2022self"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2312.09300",
+      "author": "Ren, Jie and Zhao, Yao and Vu, Tu and Liu, Peter J and Lakshminarayanan, Balaji",
+      "title": "Self-Evaluation Improves Selective Generation in Large Language Models",
+      "ENTRYTYPE": "article",
+      "ID": "ren2023self"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2402.06544",
+      "author": "Huang, Yukun and Liu, Yixin and Thirukovalluru, Raghuveer and Cohan, Arman and Dhingra, Bhuwan",
+      "title": "Calibrating Long-form Generations from Large Language Models",
+      "ENTRYTYPE": "article",
+      "ID": "huang2024calibrating"
+    },
+    {
+      "url": "https://www.ams.org/journals/mcom/1965-19-090/S0025-5718-1965-0178586-1/S0025-5718-1965-0178586-1.pdf",
+      "year": "1965",
+      "pages": "297--301",
+      "number": "90",
+      "volume": "19",
+      "journal": "Mathematics of Computation",
+      "author": "Cooley, James W. and Tukey, John W.",
+      "title": "An algorithm for the machine calculation of complex {F}ourier series",
+      "ENTRYTYPE": "article",
+      "ID": "ct1965"
+    },
+    {
+      "year": "2021",
+      "journal": "arXiv preprint arXiv:2107.06499",
+      "author": "Lee, Katherine and Ippolito, Daphne and Nystrom, Andrew and Zhang, Chiyuan and Eck, Douglas and Callison-Burch, Chris and Carlini, Nicholas",
+      "title": "Deduplicating training data makes language models better",
+      "ENTRYTYPE": "article",
+      "ID": "lee2021deduplicating"
+    },
+    {
+      "publisher": "Rijkuniversiteit Groningen",
+      "year": "2017",
+      "journal": "Data Science",
+      "author": "K. Bunte, M.F. Lungu",
+      "title": "Introduction to data science",
+      "ENTRYTYPE": "misc",
+      "ID": "IDS2017"
+    },
+    {
+      "note": "Accessed: 2017-08-31",
+      "howpublished": "\\url{https://www.tutorialspoint.com/r/r_boxplots.htm}",
+      "title": "{tutorialspoint} boxplots",
+      "ENTRYTYPE": "misc",
+      "ID": "Rboxplot"
+    },
+    {
+      "year": "2019",
+      "pages": "9",
+      "number": "8",
+      "volume": "1",
+      "journal": "OpenAI blog",
+      "author": "Radford, Alec and Wu, Jeffrey and Child, Rewon and Luan, David and Amodei, Dario and Sutskever, Ilya and others",
+      "title": "Language models are unsupervised multitask learners",
+      "ENTRYTYPE": "article",
+      "ID": "radford2019language"
+    },
+    {
+      "year": "2018",
+      "journal": "arXiv preprint arXiv:1810.04805",
+      "author": "Devlin, Jacob and Chang, Ming-Wei and Lee, Kenton and Toutanova, Kristina",
+      "title": "Bert: Pre-training of deep bidirectional transformers for language understanding",
+      "ENTRYTYPE": "article",
+      "ID": "devlin2018bert"
+    },
+    {
+      "year": "2021",
+      "journal": "arXiv preprint arXiv:2104.07705",
+      "author": "Izsak, Peter and Berchansky, Moshe and Levy, Omer",
+      "title": "How to train bert with an academic budget",
+      "ENTRYTYPE": "article",
+      "ID": "izsak2021train"
+    },
+    {
+      "year": "2021",
+      "journal": "arXiv preprint arXiv:2112.07210",
+      "author": "Xiong, Wenhan and O{\\u{g}}uz, Barlas and Gupta, Anchit and Chen, Xilun and Liskovich, Diana and Levy, Omer and Yih, Wen-tau and Mehdad, Yashar",
+      "title": "Simple Local Attentions Remain Competitive for Long-Context Tasks",
+      "ENTRYTYPE": "article",
+      "ID": "xiong2021simple"
+    },
+    {
+      "year": "2020",
+      "journal": "arXiv preprint arXiv:2010.00710",
+      "author": "Khandelwal, Urvashi and Fan, Angela and Jurafsky, Dan and Zettlemoyer, Luke and Lewis, Mike",
+      "title": "Nearest neighbor machine translation",
+      "ENTRYTYPE": "article",
+      "ID": "khandelwal2020nearest"
+    },
+    {
+      "year": "2021",
+      "journal": "arXiv preprint arXiv:2104.08762",
+      "author": "Das, Rajarshi and Zaheer, Manzil and Thai, Dung and Godbole, Ameya and Perez, Ethan and Lee, Jay-Yoon and Tan, Lizhen and Polymenakos, Lazaros and McCallum, Andrew",
+      "title": "Case-based reasoning for natural language queries over knowledge bases",
+      "ENTRYTYPE": "article",
+      "ID": "das2021case"
+    },
+    {
+      "year": "2019",
+      "journal": "arXiv preprint arXiv:1910.00762",
+      "author": "Jiang, Angela H and Wong, Daniel L-K and Zhou, Giulio and Andersen, David G and Dean, Jeffrey and Ganger, Gregory R and Joshi, Gauri and Kaminksy, Michael and Kozuch, Michael and Lipton, Zachary C and others",
+      "title": "Accelerating deep learning by focusing on the biggest losers",
+      "ENTRYTYPE": "article",
+      "ID": "jiang2019accelerating"
+    },
+    {
+      "year": "2020",
+      "journal": "arXiv preprint arXiv:2002.08909",
+      "author": "Guu, Kelvin and Lee, Kenton and Tung, Zora and Pasupat, Panupong and Chang, Ming-Wei",
+      "title": "Realm: Retrieval-augmented language model pre-training",
+      "ENTRYTYPE": "article",
+      "ID": "guu2020realm"
+    },
+    {
+      "year": "2021",
+      "journal": "arXiv preprint arXiv:2110.00171",
+      "author": "Xiao, Zeguan and Wu, Jiarun and Chen, Qingliang and Deng, Congjian",
+      "title": "BERT4GCN: Using BERT Intermediate Layers to Augment GCN for Aspect-based Sentiment Classification",
+      "ENTRYTYPE": "article",
+      "ID": "xiao2021bert4gcn"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "2019",
+      "pages": "535--547",
+      "number": "3",
+      "volume": "7",
+      "journal": "IEEE Transactions on Big Data",
+      "author": "Johnson, Jeff and Douze, Matthijs and J{\\'e}gou, Herv{\\'e}",
+      "title": "Billion-scale similarity search with {GPUs}",
+      "ENTRYTYPE": "article",
+      "ID": "johnson2019billion"
+    },
+    {
+      "primaryclass": "cs.CL",
+      "archiveprefix": "arXiv",
+      "eprint": "2303.08774",
+      "year": "2023",
+      "author": "OpenAI",
+      "title": "GPT-4 Technical Report",
+      "ENTRYTYPE": "misc",
+      "ID": "openai2023gpt4"
+    },
+    {
+      "primaryclass": "cs.CL",
+      "archiveprefix": "arXiv",
+      "eprint": "2204.02311",
+      "year": "2022",
+      "author": "Aakanksha Chowdhery and Sharan Narang and Jacob Devlin and Maarten Bosma and Gaurav Mishra and Adam Roberts and Paul Barham and Hyung Won Chung and Charles Sutton and Sebastian Gehrmann and Parker Schuh and Kensen Shi and Sasha Tsvyashchenko and Joshua Maynez and Abhishek Rao and Parker Barnes and Yi Tay and Noam Shazeer and Vinodkumar Prabhakaran and Emily Reif and Nan Du and Ben Hutchinson and Reiner Pope and James Bradbury and Jacob Austin and Michael Isard and Guy Gur-Ari and Pengcheng Yin and Toju Duke and Anselm Levskaya and Sanjay Ghemawat and Sunipa Dev and Henryk Michalewski and Xavier Garcia and Vedant Misra and Kevin Robinson and Liam Fedus and Denny Zhou and Daphne Ippolito and David Luan and Hyeontaek Lim and Barret Zoph and Alexander Spiridonov and Ryan Sepassi and David Dohan and Shivani Agrawal and Mark Omernick and Andrew M. Dai and Thanumalayan Sankaranarayana Pillai and Marie Pellat and Aitor Lewkowycz and Erica Moreira and Rewon Child and Oleksandr Polozov and Katherine Lee and Zongwei Zhou and Xuezhi Wang and Brennan Saeta and Mark Diaz and Orhan Firat and Michele Catasta and Jason Wei and Kathy Meier-Hellstern and Douglas Eck and Jeff Dean and Slav Petrov and Noah Fiedel",
+      "title": "PaLM: Scaling Language Modeling with Pathways",
+      "ENTRYTYPE": "misc",
+      "ID": "chowdhery2022palm"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2020",
+      "pages": "669--679",
+      "booktitle": "International Conference on Artificial Intelligence and Statistics",
+      "author": "Kawaguchi, Kenji and Lu, Haihao",
+      "title": "Ordered sgd: A new stochastic optimization framework for empirical risk minimization",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "kawaguchi2020ordered"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2022",
+      "pages": "15630--15649",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Mindermann, S{\\\"o}ren and Brauner, Jan M and Razzak, Muhammed T and Sharma, Mrinank and Kirsch, Andreas and Xu, Winnie and H{\\\"o}ltgen, Benedikt and Gomez, Aidan N and Morisot, Adrien and Farquhar, Sebastian and others",
+      "title": "Prioritized training on points that are learnable, worth learning, and not yet learnt",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "mindermann2022prioritized"
+    },
+    {
+      "year": "2020",
+      "pages": "1877--1901",
+      "volume": "33",
+      "journal": "Advances in neural information processing systems",
+      "author": "Brown, Tom and Mann, Benjamin and Ryder, Nick and Subbiah, Melanie and Kaplan, Jared D and Dhariwal, Prafulla and Neelakantan, Arvind and Shyam, Pranav and Sastry, Girish and Askell, Amanda and others",
+      "title": "Language models are few-shot learners",
+      "ENTRYTYPE": "article",
+      "ID": "brown2020language"
+    },
+    {
+      "year": "2019",
+      "journal": "arXiv preprint arXiv:1906.02243",
+      "author": "Strubell, Emma and Ganesh, Ananya and McCallum, Andrew",
+      "title": "Energy and policy considerations for deep learning in NLP",
+      "ENTRYTYPE": "article",
+      "ID": "strubell2019energy"
+    },
+    {
+      "year": "2020",
+      "journal": "arXiv preprint arXiv:2004.08900",
+      "author": "Sharir, Or and Peleg, Barak and Shoham, Yoav",
+      "title": "The cost of training nlp models: A concise overview",
+      "ENTRYTYPE": "article",
+      "ID": "sharir2020cost"
+    },
+    {
+      "year": "2021",
+      "journal": "arXiv preprint arXiv:2105.03824",
+      "author": "Lee-Thorp, James and Ainslie, Joshua and Eckstein, Ilya and Ontanon, Santiago",
+      "title": "Fnet: Mixing tokens with fourier transforms",
+      "ENTRYTYPE": "article",
+      "ID": "lee2021fnet"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2203.13240",
+      "author": "Hou, Le and Pang, Richard Yuanzhe and Zhou, Tianyi and Wu, Yuexin and Song, Xinying and Song, Xiaodan and Zhou, Denny",
+      "title": "Token dropping for efficient BERT pretraining",
+      "ENTRYTYPE": "article",
+      "ID": "hou2022token"
+    },
+    {
+      "year": "2021",
+      "journal": "arXiv preprint arXiv:2108.05036",
+      "author": "Gururangan, Suchin and Lewis, Mike and Holtzman, Ari and Smith, Noah A and Zettlemoyer, Luke",
+      "title": "Demix layers: Disentangling domains for modular language modeling",
+      "ENTRYTYPE": "article",
+      "ID": "gururangan2021demix"
+    },
+    {
+      "year": "2019",
+      "volume": "32",
+      "journal": "Advances in neural information processing systems",
+      "author": "Zellers, Rowan and Holtzman, Ari and Rashkin, Hannah and Bisk, Yonatan and Farhadi, Ali and Roesner, Franziska and Choi, Yejin",
+      "title": "Defending against neural fake news",
+      "ENTRYTYPE": "article",
+      "ID": "zellers2019defending"
+    },
+    {
+      "year": "2019",
+      "journal": "arXiv preprint arXiv:1911.02782",
+      "author": "Lo, Kyle and Wang, Lucy Lu and Neumann, Mark and Kinney, Rodney and Weld, Dan S",
+      "title": "S2ORC: The semantic scholar open research corpus",
+      "ENTRYTYPE": "article",
+      "ID": "lo2019s2orc"
+    },
+    {
+      "year": "2013",
+      "journal": "arXiv preprint arXiv:1312.3005",
+      "author": "Chelba, Ciprian and Mikolov, Tomas and Schuster, Mike and Ge, Qi and Brants, Thorsten and Koehn, Phillipp and Robinson, Tony",
+      "title": "One billion word benchmark for measuring progress in statistical language modeling",
+      "ENTRYTYPE": "article",
+      "ID": "chelba2013one"
+    },
+    {
+      "doi": "10.1109/IJCNN55064.2022.9891914",
+      "pages": "1-8",
+      "number": "",
+      "volume": "",
+      "year": "2022",
+      "title": "Compute Trends Across Three Eras of Machine Learning",
+      "booktitle": "2022 International Joint Conference on Neural Networks (IJCNN)",
+      "author": "Sevilla, Jaime and Heim, Lennart and Ho, Anson and Besiroglu, Tamay and Hobbhahn, Marius and Villalobos, Pablo",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "9891914"
+    },
+    {
+      "year": "2020",
+      "journal": "arXiv preprint arXiv:2004.05150",
+      "author": "Beltagy, Iz and Peters, Matthew E and Cohan, Arman",
+      "title": "Longformer: The long-document transformer",
+      "ENTRYTYPE": "article",
+      "ID": "beltagy2020longformer"
+    },
+    {
+      "year": "2020",
+      "pages": "17283--17297",
+      "volume": "33",
+      "journal": "Advances in neural information processing systems",
+      "author": "Zaheer, Manzil and Guruganesh, Guru and Dubey, Kumar Avinava and Ainslie, Joshua and Alberti, Chris and Ontanon, Santiago and Pham, Philip and Ravula, Anirudh and Wang, Qifan and Yang, Li and others",
+      "title": "Big bird: Transformers for longer sequences",
+      "ENTRYTYPE": "article",
+      "ID": "zaheer2020big"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2212.14034",
+      "author": "Geiping, Jonas and Goldstein, Tom",
+      "title": "Cramming: Training a Language Model on a Single GPU in One Day",
+      "ENTRYTYPE": "article",
+      "ID": "geiping2022cramming"
+    },
+    {
+      "year": "2018",
+      "journal": "arXiv preprint arXiv:1804.03235",
+      "author": "Anil, Rohan and Pereyra, Gabriel and Passos, Alexandre and Ormandi, Robert and Dahl, George E and Hinton, Geoffrey E",
+      "title": "Large scale distributed neural network training through online distillation",
+      "ENTRYTYPE": "article",
+      "ID": "anil2018large"
+    },
+    {
+      "year": "2018",
+      "journal": "arXiv preprint arXiv:1812.06162",
+      "author": "McCandlish, Sam and Kaplan, Jared and Amodei, Dario and Team, OpenAI Dota",
+      "title": "An empirical model of large-batch training",
+      "ENTRYTYPE": "article",
+      "ID": "mccandlish2018empirical"
+    },
+    {
+      "year": "2018",
+      "journal": "arXiv preprint arXiv:1804.07461",
+      "author": "Wang, Alex and Singh, Amanpreet and Michael, Julian and Hill, Felix and Levy, Omer and Bowman, Samuel R",
+      "title": "GLUE: A multi-task benchmark and analysis platform for natural language understanding",
+      "ENTRYTYPE": "article",
+      "ID": "wang2018glue"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2209.14389",
+      "author": "Krishna, Kundan and Garg, Saurabh and Bigham, Jeffrey P and Lipton, Zachary C",
+      "title": "Downstream datasets make surprisingly good pretraining corpora",
+      "ENTRYTYPE": "article",
+      "ID": "krishna2022downstream"
+    },
+    {
+      "year": "2018",
+      "volume": "12",
+      "journal": "arXiv preprint arXiv:1802.05365",
+      "author": "Peters, ME and Neumann, M and Iyyer, M and Gardner, M and Clark, C and Lee, K and Zettlemoyer, L",
+      "title": "Deep contextualized word representations. arXiv 2018",
+      "ENTRYTYPE": "article",
+      "ID": "peters2018deep"
+    },
+    {
+      "year": "2022",
+      "pages": "1877--1894",
+      "booktitle": "2022 ACM Conference on Fairness, Accountability, and Transparency",
+      "author": "Dodge, Jesse and Prewitt, Taylor and Tachet des Combes, Remi and Odmark, Erika and Schwartz, Roy and Strubell, Emma and Luccioni, Alexandra Sasha and Smith, Noah A and DeCario, Nicole and Buchanan, Will",
+      "title": "Measuring the carbon intensity of ai in cloud instances",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "dodge2022measuring"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2211.04898",
+      "author": "Liao, Baohao and Thulke, David and Hewavitharana, Sanjika and Ney, Hermann and Monz, Christof",
+      "title": "Mask More and Mask Later: Efficient Pre-training of Masked Language Models by Disentangling the [MASK] Token",
+      "ENTRYTYPE": "article",
+      "ID": "liao2022mask"
+    },
+    {
+      "year": "2015",
+      "journal": "arXiv preprint arXiv:1512.03880",
+      "author": "Gao, Jinyang and Jagadish, HV and Ooi, Beng Chin",
+      "title": "Active sampler: Light-weight accelerator for complex data analytics at scale",
+      "ENTRYTYPE": "article",
+      "ID": "gao2015active"
+    },
+    {
+      "year": "2017",
+      "pages": "1--12",
+      "booktitle": "Proceedings of the 44th annual international symposium on computer architecture",
+      "author": "Jouppi, Norman P and Young, Cliff and Patil, Nishant and Patterson, David and Agrawal, Gaurav and Bajwa, Raminder and Bates, Sarah and Bhatia, Suresh and Boden, Nan and Borchers, Al and others",
+      "title": "In-datacenter performance analysis of a tensor processing unit",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "jouppi2017datacenter"
+    },
+    {
+      "publisher": "JMLRORG",
+      "year": "2020",
+      "pages": "5485--5551",
+      "number": "1",
+      "volume": "21",
+      "journal": "The Journal of Machine Learning Research",
+      "author": "Raffel, Colin and Shazeer, Noam and Roberts, Adam and Lee, Katherine and Narang, Sharan and Matena, Michael and Zhou, Yanqi and Li, Wei and Liu, Peter J",
+      "title": "Exploring the limits of transfer learning with a unified text-to-text transformer",
+      "ENTRYTYPE": "article",
+      "ID": "raffel2020exploring"
+    },
+    {
+      "year": "2015",
+      "journal": "arXiv preprint arXiv:1511.06343",
+      "author": "Loshchilov, Ilya and Hutter, Frank",
+      "title": "Online batch selection for faster training of neural networks",
+      "ENTRYTYPE": "article",
+      "ID": "loshchilov2015online"
+    },
+    {
+      "year": "2020",
+      "pages": "17044--17056",
+      "volume": "33",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Pleiss, Geoff and Zhang, Tianyi and Elenberg, Ethan and Weinberger, Kilian Q",
+      "title": "Identifying mislabeled data using the area under the margin ranking",
+      "ENTRYTYPE": "article",
+      "ID": "pleiss2020identifying"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2019",
+      "pages": "1062--1070",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Chen, Pengfei and Liao, Ben Ben and Chen, Guangyong and Zhang, Shengyu",
+      "title": "Understanding and utilizing deep neural networks trained with noisy labels",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "chen2019understanding"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2018",
+      "pages": "2525--2534",
+      "booktitle": "International conference on machine learning",
+      "author": "Katharopoulos, Angelos and Fleuret, Fran{\\c{c}}ois",
+      "title": "Not all samples are created equal: Deep learning with importance sampling",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "katharopoulos2018not"
+    },
+    {
+      "year": "2015",
+      "journal": "arXiv preprint arXiv:1511.06481",
+      "author": "Alain, Guillaume and Lamb, Alex and Sankar, Chinnadhurai and Courville, Aaron and Bengio, Yoshua",
+      "title": "Variance reduction in sgd by distributed importance sampling",
+      "ENTRYTYPE": "article",
+      "ID": "alain2015variance"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2305.10429",
+      "author": "Xie, Sang Michael and Pham, Hieu and Dong, Xuanyi and Du, Nan and Liu, Hanxiao and Lu, Yifeng and Liang, Percy and Le, Quoc V and Ma, Tengyu and Yu, Adams Wei",
+      "title": "DoReMi: Optimizing Data Mixtures Speeds Up Language Model Pretraining",
+      "ENTRYTYPE": "article",
+      "ID": "xie2023doremi"
+    },
+    {
+      "year": "2019",
+      "journal": "arXiv preprint arXiv:1909.08053",
+      "author": "Shoeybi, Mohammad and Patwary, Mostofa and Puri, Raul and LeGresley, Patrick and Casper, Jared and Catanzaro, Bryan",
+      "title": "Megatron-lm: Training multi-billion parameter language models using model parallelism",
+      "ENTRYTYPE": "article",
+      "ID": "shoeybi2019megatron"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2303.08774",
+      "author": "Achiam, Josh and Adler, Steven and Agarwal, Sandhini and Ahmad, Lama and Akkaya, Ilge and Aleman, Florencia Leoni and Almeida, Diogo and Altenschmidt, Janko and Altman, Sam and Anadkat, Shyamal and others",
+      "title": "Gpt-4 technical report",
+      "ENTRYTYPE": "article",
+      "ID": "achiam2023gpt"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2401.00368",
+      "author": "Wang, Liang and Yang, Nan and Huang, Xiaolong and Yang, Linjun and Majumder, Rangan and Wei, Furu",
+      "title": "Improving text embeddings with large language models",
+      "ENTRYTYPE": "article",
+      "ID": "wang2023improving"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2403.20327",
+      "author": "Lee, Jinhyuk and Dai, Zhuyun and Ren, Xiaoqi and Chen, Blair and Cer, Daniel and Cole, Jeremy R and Hui, Kai and Boratko, Michael and Kapadia, Rajvi and Ding, Wen and others",
+      "title": "Gecko: Versatile Text Embeddings Distilled from Large Language Models",
+      "ENTRYTYPE": "article",
+      "ID": "lee2024gecko"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2402.15449",
+      "author": "Springer, Jacob Mitchell and Kotha, Suhas and Fried, Daniel and Neubig, Graham and Raghunathan, Aditi",
+      "title": "Repetition Improves Language Model Embeddings",
+      "ENTRYTYPE": "article",
+      "ID": "springer2024repetition"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2404.05825",
+      "author": "Wu, Mingrui and Cao, Sheng",
+      "title": "LLM-Augmented Retrieval: Enhancing Retrieval Models Through Language Models and Doc-Level Embedding",
+      "ENTRYTYPE": "article",
+      "ID": "wu2024llm"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2310.06825",
+      "author": "Jiang, Albert Q and Sablayrolles, Alexandre and Mensch, Arthur and Bamford, Chris and Chaplot, Devendra Singh and Casas, Diego de las and Bressand, Florian and Lengyel, Gianna and Lample, Guillaume and Saulnier, Lucile and others",
+      "title": "Mistral 7B",
+      "ENTRYTYPE": "article",
+      "ID": "jiang2023mistral"
+    },
+    {
+      "year": "2023",
+      "month": "March",
+      "author": "Chiang, Wei-Lin and Li, Zhuohan and Lin, Zi and Sheng, Ying and Wu, Zhanghao and Zhang, Hao and Zheng, Lianmin and Zhuang, Siyuan and Zhuang, Yonghao and Gonzalez, Joseph E. and Stoica, Ion and Xing, Eric P.",
+      "url": "https://lmsys.org/blog/2023-03-30-vicuna/",
+      "title": "Vicuna: An Open-Source Chatbot Impressing GPT-4 with 90\\%* ChatGPT Quality",
+      "ENTRYTYPE": "misc",
+      "ID": "vicuna2023"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2302.07452",
+      "author": "Lin, Sheng-Chieh and Asai, Akari and Li, Minghan and Oguz, Barlas and Lin, Jimmy and Mehdad, Yashar and Yih, Wen-tau and Chen, Xilun",
+      "title": "How to train your dragon: Diverse augmentation towards generalizable dense retrieval",
+      "ENTRYTYPE": "article",
+      "ID": "lin2023train"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2309.08929",
+      "author": "Zhao, Kaiyan and Wu, Qiyu and Cai, Xin-Qiang and Tsuruoka, Yoshimasa",
+      "title": "Leveraging Multi-lingual Positive Instances in Contrastive Learning to Improve Sentence Embedding",
+      "ENTRYTYPE": "article",
+      "ID": "zhao2023leveraging"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2204.03508",
+      "author": "Zhang, Zhihan and Yu, Wenhao and Yu, Mengxia and Guo, Zhichun and Jiang, Meng",
+      "title": "A survey of multi-task learning in natural language processing: Regarding task relatedness and training methods",
+      "ENTRYTYPE": "article",
+      "ID": "zhang2022survey"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2404.12096",
+      "author": "Zhu, Dawei and Wang, Liang and Yang, Nan and Song, Yifan and Wu, Wenhao and Wei, Furu and Li, Sujian",
+      "title": "LongEmbed: Extending Embedding Models for Long Context Retrieval",
+      "ENTRYTYPE": "article",
+      "ID": "zhu2024longembed"
+    },
+    {
+      "year": "2023",
+      "booktitle": "The 2023 Conference on Empirical Methods in Natural Language Processing",
+      "author": "Wang, Yujie and Izbicki, Mike",
+      "title": "DocSplit: Simple Contrastive Pretraining for Large Document Embeddings",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "wang2023docsplit"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2402.09906",
+      "author": "Muennighoff, Niklas and Su, Hongjin and Wang, Liang and Yang, Nan and Wei, Furu and Yu, Tao and Singh, Amanpreet and Kiela, Douwe",
+      "title": "Generative representational instruction tuning",
+      "ENTRYTYPE": "article",
+      "ID": "muennighoff2024generative"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2404.05961",
+      "author": "BehnamGhader, Parishad and Adlakha, Vaibhav and Mosbach, Marius and Bahdanau, Dzmitry and Chapados, Nicolas and Reddy, Siva",
+      "title": "Llm2vec: Large language models are secretly powerful text encoders",
+      "ENTRYTYPE": "article",
+      "ID": "behnamghader2024llm2vec"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2405.17428",
+      "author": "Lee, Chankyu and Roy, Rajarshi and Xu, Mengyao and Raiman, Jonathan and Shoeybi, Mohammad and Catanzaro, Bryan and Ping, Wei",
+      "title": "NV-Embed: Improved Techniques for Training LLMs as Generalist Embedding Models",
+      "ENTRYTYPE": "article",
+      "ID": "lee2024nv"
+    },
+    {
+      "institution": "Salesforce AI Research",
+      "howpublished": "\\url{https://blog.salesforceairesearch.com/sfr-embedded-mistral/}",
+      "year": "2024",
+      "author": "Rui Meng and Ye Liu and Shafiq Rayhan Joty and Caiming Xiong and Yingbo Zhou and Semih Yavuz",
+      "title": "SFR-Embedding-Mistral: Enhance Text Retrieval with Transfer Learning",
+      "ENTRYTYPE": "misc",
+      "ID": "meng2024sfr"
+    },
+    {
+      "url": "https://huggingface.co/Salesforce/SFR-Embedding-2_R",
+      "year": "2024",
+      "author": "Rui Meng* and Ye Liu* and Shafiq Rayhan Joty and Caiming Xiong, Yingbo Zhou and Semih Yavuz",
+      "title": "SFR-Embedding-2: Advanced Text Embedding with Multi-stage Training",
+      "ENTRYTYPE": "misc",
+      "ID": "SFR-embedding-2"
+    },
+    {
+      "year": "2018",
+      "journal": "arXiv preprint arXiv:1809.09600",
+      "author": "Yang, Zhilin and Qi, Peng and Zhang, Saizheng and Bengio, Yoshua and Cohen, William W and Salakhutdinov, Ruslan and Manning, Christopher D",
+      "title": "HotpotQA: A dataset for diverse, explainable multi-hop question answering",
+      "ENTRYTYPE": "article",
+      "ID": "yang2018hotpotqa"
+    },
+    {
+      "year": "2018",
+      "journal": "arXiv preprint arXiv:1803.05355",
+      "author": "Thorne, James and Vlachos, Andreas and Christodoulopoulos, Christos and Mittal, Arpit",
+      "title": "FEVER: a large-scale dataset for fact extraction and VERification",
+      "ENTRYTYPE": "article",
+      "ID": "thorne2018fever"
+    },
+    {
+      "year": "2023",
+      "pages": "258--266",
+      "booktitle": "Proceedings of the Sixteenth ACM International Conference on Web Search and Data Mining",
+      "author": "Dahiya, Kunal and Gupta, Nilesh and Saini, Deepak and Soni, Akshay and Wang, Yajun and Dave, Kushal and Jiao, Jian and K, Gururaj and Dey, Prasenjit and Singh, Amit and others",
+      "title": "Ngame: Negative mining-aware mini-batching for extreme classification",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "dahiya2023ngame"
+    },
+    {
+      "year": "2023",
+      "pages": "3057--3069",
+      "booktitle": "Proceedings of the 29th ACM SIGKDD Conference on Knowledge Discovery and Data Mining",
+      "author": "Yang, Zhen and Huang, Tinglin and Ding, Ming and Dong, Yuxiao and Ying, Rex and Cen, Yukuo and Geng, Yangliao and Tang, Jie",
+      "title": "Batchsampler: Sampling mini-batches for contrastive learning in vision, language, and graphs",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "yang2023batchsampler"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2407.12580",
+      "author": "Jiang, Ting and Song, Minghui and Zhang, Zihan and Huang, Haizhen and Deng, Weiwei and Sun, Feng and Zhang, Qi and Wang, Deqing and Zhuang, Fuzhen",
+      "title": "E5-v: Universal embeddings with multimodal large language models",
+      "ENTRYTYPE": "article",
+      "ID": "jiang2024e5"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2403.19651",
+      "author": "Zhang, Kai and Luan, Yi and Hu, Hexiang and Lee, Kenton and Qiao, Siyuan and Chen, Wenhu and Su, Yu and Chang, Ming-Wei",
+      "title": "Magiclens: Self-supervised image retrieval with open-ended instructions",
+      "ENTRYTYPE": "article",
+      "ID": "zhang2024magiclens"
+    },
+    {
+      "organization": "Springer",
+      "year": "2024",
+      "pages": "73--90",
+      "booktitle": "European Conference on Computer Vision",
+      "author": "Zheng, Kecheng and Zhang, Yifei and Wu, Wei and Lu, Fan and Ma, Shuailei and Jin, Xin and Chen, Wei and Shen, Yujun",
+      "title": "Dreamlip: Language-image pre-training with long captions",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zheng2024dreamlip"
+    },
+    {
+      "organization": "PmLR",
+      "year": "2021",
+      "pages": "8748--8763",
+      "booktitle": "International conference on machine learning",
+      "author": "Radford, Alec and Kim, Jong Wook and Hallacy, Chris and Ramesh, Aditya and Goh, Gabriel and Agarwal, Sandhini and Sastry, Girish and Askell, Amanda and Mishkin, Pamela and Clark, Jack and others",
+      "title": "Learning transferable visual models from natural language supervision",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "radford2021learning"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2502.08468",
+      "author": "Chen, Haonan and Wang, Liang and Yang, Nan and Zhu, Yutao and Zhao, Ziliang and Wei, Furu and Dou, Zhicheng",
+      "title": "mmE5: Improving Multimodal Multilingual Embeddings via High-quality Synthetic Data",
+      "ENTRYTYPE": "article",
+      "ID": "chen2025mme5"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2504.17432",
+      "author": "Gu, Tiancheng and Yang, Kaicheng and Feng, Ziyong and Wang, Xingjun and Zhang, Yanzhao and Long, Dingkun and Chen, Yingda and Cai, Weidong and Deng, Jiankang",
+      "title": "Breaking the Modality Barrier: Universal Embedding Learning with Multimodal LLMs",
+      "ENTRYTYPE": "article",
+      "ID": "gu2025breaking"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2412.14475",
+      "author": "Zhou, Junjie and Liu, Zheng and Liu, Ze and Xiao, Shitao and Wang, Yueze and Zhao, Bo and Zhang, Chen Jason and Lian, Defu and Xiong, Yongping",
+      "title": "MegaPairs: Massive Data Synthesis For Universal Multimodal Retrieval",
+      "ENTRYTYPE": "article",
+      "ID": "zhou2024megapairs"
+    },
+    {
+      "year": "2020",
+      "pages": "6769--6781",
+      "booktitle": "EMNLP (1)",
+      "author": "Karpukhin, Vladimir and Oguz, Barlas and Min, Sewon and Lewis, Patrick SH and Wu, Ledell and Edunov, Sergey and Chen, Danqi and Yih, Wen-tau",
+      "title": "Dense Passage Retrieval for Open-Domain Question Answering.",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "karpukhin2020dense"
+    },
+    {
+      "organization": "Springer",
+      "year": "2024",
+      "pages": "387--404",
+      "booktitle": "European Conference on Computer Vision",
+      "author": "Wei, Cong and Chen, Yang and Chen, Haonan and Hu, Hexiang and Zhang, Ge and Fu, Jie and Ritter, Alan and Chen, Wenhu",
+      "title": "Uniir: Training and benchmarking universal multimodal information retrievers",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "wei2024uniir"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2023",
+      "pages": "19730--19742",
+      "booktitle": "International conference on machine learning",
+      "author": "Li, Junnan and Li, Dongxu and Savarese, Silvio and Hoi, Steven",
+      "title": "Blip-2: Bootstrapping language-image pre-training with frozen image encoders and large language models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "li2023blip"
+    },
+    {
+      "year": "2023",
+      "pages": "11975--11986",
+      "booktitle": "Proceedings of the IEEE/CVF international conference on computer vision",
+      "author": "Zhai, Xiaohua and Mustafa, Basil and Kolesnikov, Alexander and Beyer, Lucas",
+      "title": "Sigmoid loss for language image pre-training",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zhai2023sigmoid"
+    },
+    {
+      "year": "2023",
+      "pages": "2818--2829",
+      "booktitle": "Proceedings of the IEEE/CVF conference on computer vision and pattern recognition",
+      "author": "Cherti, Mehdi and Beaumont, Romain and Wightman, Ross and Wortsman, Mitchell and Ilharco, Gabriel and Gordon, Cade and Schuhmann, Christoph and Schmidt, Ludwig and Jitsev, Jenia",
+      "title": "Reproducible scaling laws for contrastive language-image learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "cherti2023reproducible"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2412.13303",
+      "author": "Vasu, Pavan Kumar Anasosalu and Faghri, Fartash and Li, Chun-Liang and Koc, Cem and True, Nate and Antony, Albert and Santhanam, Gokul and Gabriel, James and Grasch, Peter and Tuzel, Oncel and others",
+      "title": "FastVLM: Efficient Vision Encoding for Vision Language Models",
+      "ENTRYTYPE": "article",
+      "ID": "vasu2024fastvlm"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2402.04252",
+      "author": "Sun, Quan and Wang, Jinsheng and Yu, Qiying and Cui, Yufeng and Zhang, Fan and Zhang, Xiaosong and Wang, Xinlong",
+      "title": "Eva-clip-18b: Scaling clip to 18 billion parameters",
+      "ENTRYTYPE": "article",
+      "ID": "sun2024eva"
+    },
+    {
+      "year": "2015",
+      "pages": "2641--2649",
+      "booktitle": "Proceedings of the IEEE international conference on computer vision",
+      "author": "Plummer, Bryan A and Wang, Liwei and Cervantes, Chris M and Caicedo, Juan C and Hockenmaier, Julia and Lazebnik, Svetlana",
+      "title": "Flickr30k entities: Collecting region-to-phrase correspondences for richer image-to-sentence models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "plummer2015flickr30k"
+    },
+    {
+      "organization": "Springer",
+      "year": "2014",
+      "pages": "740--755",
+      "booktitle": "Computer vision--ECCV 2014: 13th European conference, zurich, Switzerland, September 6-12, 2014, proceedings, part v 13",
+      "author": "Lin, Tsung-Yi and Maire, Michael and Belongie, Serge and Hays, James and Perona, Pietro and Ramanan, Deva and Doll{\\'a}r, Piotr and Zitnick, C Lawrence",
+      "title": "Microsoft coco: Common objects in context",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "lin2014microsoft"
+    },
+    {
+      "organization": "Springer",
+      "year": "2024",
+      "pages": "310--325",
+      "booktitle": "European Conference on Computer Vision",
+      "author": "Zhang, Beichen and Zhang, Pan and Dong, Xiaoyi and Zang, Yuhang and Wang, Jiaqi",
+      "title": "Long-clip: Unlocking the long-text capability of clip",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zhang2024long"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2410.02525",
+      "author": "Morris, John X and Rush, Alexander M",
+      "title": "Contextual document embeddings",
+      "ENTRYTYPE": "article",
+      "ID": "morris2024contextual"
+    }
+  ]
+}

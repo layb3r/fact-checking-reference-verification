@@ -1,0 +1,282 @@
+{
+  "pdf_url": "https://arxiv.org/pdf/2510.21271v2.pdf",
+  "references": [
+    {
+      "organization": "Ieee",
+      "year": "2009",
+      "pages": "248--255",
+      "booktitle": "2009 IEEE conference on computer vision and pattern recognition",
+      "author": "Deng, Jia and Dong, Wei and Socher, Richard and Li, Li-Jia and Li, Kai and Fei-Fei, Li",
+      "title": "Imagenet: A large-scale hierarchical image database",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "deng2009imagenet"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2021",
+      "pages": "5637--5664",
+      "booktitle": "International conference on machine learning",
+      "author": "Koh, Pang Wei and Sagawa, Shiori and Marklund, Henrik and Xie, Sang Michael and Zhang, Marvin and Balsubramani, Akshay and Hu, Weihua and Yasunaga, Michihiro and Phillips, Richard Lanas and Gao, Irena and others",
+      "title": "Wilds: A benchmark of in-the-wild distribution shifts",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "koh2021wilds"
+    },
+    {
+      "publisher": "ACM New York, NY, USA",
+      "year": "2020",
+      "pages": "1--46",
+      "number": "5",
+      "volume": "11",
+      "journal": "ACM Transactions on Intelligent Systems and Technology (TIST)",
+      "author": "Wilson, Garrett and Cook, Diane J",
+      "title": "A survey of unsupervised deep domain adaptation",
+      "ENTRYTYPE": "article",
+      "ID": "wilson2020survey"
+    },
+    {
+      "publisher": "Springer",
+      "year": "2024",
+      "pages": "1--34",
+      "journal": "International Journal of Computer Vision",
+      "author": "Wang, Zixin and Luo, Yadan and Zheng, Liang and Chen, Zhuoxiao and Wang, Sen and Huang, Zi",
+      "title": "In search of lost online test-time adaptation: A survey",
+      "ENTRYTYPE": "article",
+      "ID": "wang2024search"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "2022",
+      "pages": "4396--4415",
+      "number": "4",
+      "volume": "45",
+      "journal": "IEEE transactions on pattern analysis and machine intelligence",
+      "author": "Zhou, Kaiyang and Liu, Ziwei and Qiao, Yu and Xiang, Tao and Loy, Chen Change",
+      "title": "Domain generalization: A survey",
+      "ENTRYTYPE": "article",
+      "ID": "zhou2022domain"
+    },
+    {
+      "year": "2016",
+      "pages": "1--35",
+      "number": "59",
+      "volume": "17",
+      "journal": "Journal of machine learning research",
+      "author": "Ganin, Yaroslav and Ustinova, Evgeniya and Ajakan, Hana and Germain, Pascal and Larochelle, Hugo and Laviolette, Fran{\\c{c}}ois and March, Mario and Lempitsky, Victor",
+      "title": "Domain-adversarial training of neural networks",
+      "ENTRYTYPE": "article",
+      "ID": "ganin2016domain"
+    },
+    {
+      "year": "2020",
+      "journal": "arXiv preprint arXiv:2006.10726",
+      "author": "Wang, Dequan and Shelhamer, Evan and Liu, Shaoteng and Olshausen, Bruno and Darrell, Trevor",
+      "title": "Tent: Fully test-time adaptation by entropy minimization",
+      "ENTRYTYPE": "article",
+      "ID": "tent"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2022",
+      "pages": "16888--16905",
+      "booktitle": "International conference on machine learning",
+      "author": "Niu, Shuaicheng and Wu, Jiaxiang and Zhang, Yifan and Chen, Yaofo and Zheng, Shijian and Zhao, Peilin and Tan, Mingkui",
+      "title": "Efficient test-time model adaptation without forgetting",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "eata"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2302.12400",
+      "author": "Niu, Shuaicheng and Wu, Jiaxiang and Zhang, Yifan and Wen, Zhiquan and Chen, Yaofo and Zhao, Peilin and Tan, Mingkui",
+      "title": "Towards stable test-time adaptation in dynamic wild world",
+      "ENTRYTYPE": "article",
+      "ID": "sar"
+    },
+    {
+      "year": "2022",
+      "pages": "38629--38642",
+      "volume": "35",
+      "journal": "Advances in neural information processing systems",
+      "author": "Zhang, Marvin and Levine, Sergey and Finn, Chelsea",
+      "title": "Memo: Test time robustness via adaptation and augmentation",
+      "ENTRYTYPE": "article",
+      "ID": "zhang2022memo"
+    },
+    {
+      "year": "2023",
+      "pages": "11920--11929",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Song, Junha and Lee, Jungsoo and Kweon, In So and Choi, Sungha",
+      "title": "Ecotta: Memory-efficient continual test-time adaptation via self-distilled regularization",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ecotta"
+    },
+    {
+      "year": "2024",
+      "pages": "39325--39349",
+      "volume": "37",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Shin, Jin and Kim, Hyun",
+      "title": "L-TTA: Lightweight Test-Time Adaptation Using a Versatile Stem Layer",
+      "ENTRYTYPE": "article",
+      "ID": "shin2024tta"
+    },
+    {
+      "year": "2024",
+      "pages": "2062--2071",
+      "booktitle": "Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision",
+      "author": "Seto, Skyler and Theobald, Barry-John and Danieli, Federico and Jaitly, Navdeep and Busbridge, Dan",
+      "title": "REALM: Robust entropy adaptive loss minimization for improved single-sample test-time adaptation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "seto2024realm"
+    },
+    {
+      "year": "2022",
+      "pages": "7201--7211",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Wang, Qin and Fink, Olga and Van Gool, Luc and Dai, Dengxin",
+      "title": "Continual test-time domain adaptation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "cotta"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "2018",
+      "pages": "109--117",
+      "volume": "80",
+      "journal": "Pattern Recognition",
+      "author": "Li, Yanghao and Wang, Naiyan and Shi, Jianping and Hou, Xiaodi and Liu, Jiaying",
+      "title": "Adaptive batch normalization for practical domain adaptation",
+      "ENTRYTYPE": "article",
+      "ID": "bn"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2301.13018",
+      "author": "Zhao, Bowen and Chen, Chen and Xia, Shu-Tao",
+      "title": "Delta: degradation-free fully test-time adaptation",
+      "ENTRYTYPE": "article",
+      "ID": "zhao2023delta"
+    },
+    {
+      "year": "2024",
+      "pages": "2555--2565",
+      "booktitle": "Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision",
+      "author": "Marsden, Robert A and D{\\\"o}bler, Mario and Yang, Bin",
+      "title": "Universal test-time adaptation through weight ensembling, diversity weighting, and prior correction",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "roid"
+    },
+    {
+      "year": "2023",
+      "pages": "14070--14093",
+      "volume": "36",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Gong, Taesik and Kim, Yewon and Lee, Taeckyung and Chottananurak, Sorn and Lee, Sung-Ju",
+      "title": "Sotta: Robust test-time adaptation on noisy data streams",
+      "ENTRYTYPE": "article",
+      "ID": "gong2023sotta"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2403.07366",
+      "author": "Lee, Jonghyun and Jung, Dahuin and Lee, Saehyung and Park, Junsung and Shin, Juhyeon and Hwang, Uiwon and Yoon, Sungroh",
+      "title": "Entropy is not enough for test-time adaptation: From the perspective of disentangled factors",
+      "ENTRYTYPE": "article",
+      "ID": "deyo"
+    },
+    {
+      "year": "2023",
+      "pages": "15922--15932",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Yuan, Longhui and Xie, Binhui and Li, Shuang",
+      "title": "Robust test-time adaptation in dynamic scenarios",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "rotta"
+    },
+    {
+      "year": "2024",
+      "booktitle": "The Twelfth International Conference on Learning Representations",
+      "author": "Lee, Jae-Hong and Chang, Joon-Hyuk",
+      "title": "Continual momentum filtering on parameter space for online test-time adaptation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "cmf"
+    },
+    {
+      "year": "2022",
+      "pages": "295--305",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Chen, Dian and Wang, Dequan and Darrell, Trevor and Ebrahimi, Sayna",
+      "title": "Contrastive test-time adaptation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "adacontrast"
+    },
+    {
+      "year": "2023",
+      "booktitle": "2023 International Conference on Learning Representations",
+      "author": "Hong, Junyuan and Lyu, Lingjuan and Zhou, Jiayu and Spranger, Michael",
+      "title": "Mecta: Memory-economic continual test-time model adaptation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "hong2023mecta"
+    },
+    {
+      "publisher": "Toronto, ON, Canada",
+      "year": "2009",
+      "author": "Krizhevsky, Alex and Hinton, Geoffrey and others",
+      "title": "Learning multiple layers of features from tiny images",
+      "ENTRYTYPE": "article",
+      "ID": "krizhevsky2009learning"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2207.10792",
+      "author": "Jang, Minguk and Chung, Sae-Young and Chung, Hye Won",
+      "title": "Test-time adaptation via self-training with nearest neighbor information",
+      "ENTRYTYPE": "article",
+      "ID": "tast"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2306.04344",
+      "author": "Liu, Jiaming and Yang, Senqiao and Jia, Peidong and Zhang, Renrui and Lu, Ming and Guo, Yandong and Xue, Wei and Zhang, Shanghang",
+      "title": "Vida: Homeostatic visual domain adapter for continual test time adaptation",
+      "ENTRYTYPE": "article",
+      "ID": "vida"
+    },
+    {
+      "organization": "Springer",
+      "year": "2020",
+      "pages": "491--507",
+      "booktitle": "Computer Vision--ECCV 2020: 16th European Conference, Glasgow, UK, August 23--28, 2020, Proceedings, Part V 16",
+      "author": "Kolesnikov, Alexander and Beyer, Lucas and Zhai, Xiaohua and Puigcerver, Joan and Yung, Jessica and Gelly, Sylvain and Houlsby, Neil",
+      "title": "Big transfer (bit): General visual representation learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "kolesnikov2020big"
+    },
+    {
+      "year": "2021",
+      "pages": "15252--15261",
+      "booktitle": "Proceedings of the IEEE/CVF conference on computer vision and pattern recognition",
+      "author": "Lee, Seunghun and Cho, Sunghyun and Im, Sunghoon",
+      "title": "Dranet: Disentangling representation and adaptation networks for unsupervised cross-domain adaptation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "lee2021dranet"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2310.04414",
+      "author": "Sun, Xiaoxiao and Leng, Xingjian and Wang, Zijian and Yang, Yang and Huang, Zi and Zheng, Liang",
+      "title": "Cifar-10-warehouse: Broad and more realistic testbeds in model generalization analysis",
+      "ENTRYTYPE": "article",
+      "ID": "sun2023cifar"
+    },
+    {
+      "year": "2019",
+      "journal": "arXiv preprint arXiv:1903.12261",
+      "author": "Hendrycks, Dan and Dietterich, Thomas",
+      "title": "Benchmarking neural network robustness to common corruptions and perturbations",
+      "ENTRYTYPE": "article",
+      "ID": "hendrycks2019benchmarking"
+    }
+  ]
+}

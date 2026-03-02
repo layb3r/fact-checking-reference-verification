@@ -1,0 +1,245 @@
+{
+  "pdf_url": "https://arxiv.org/pdf/2510.22443v1.pdf",
+  "references": [
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2410.07177",
+      "author": "Ye, Hanrong and Zhang, Haotian and Daxberger, Erik and Chen, Lin and Lin, Zongyu and Li, Yanghao and Zhang, Bowen and You, Haoxuan and Xu, Dan and Gan, Zhe and others",
+      "title": "MM-Ego: Towards building egocentric multimodal LLMs",
+      "ENTRYTYPE": "article",
+      "ID": "ye2024mm"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2503.08221",
+      "author": "Xiao, Junbin and Huang, Nanxin and Qiu, Hao and Tao, Zhulin and Yang, Xun and Hong, Richang and Wang, Meng and Yao, Angela",
+      "title": "EgoBlind: Towards Egocentric Visual Assistance for the Blind People",
+      "ENTRYTYPE": "article",
+      "ID": "xiao2025egoblind"
+    },
+    {
+      "year": "2023",
+      "pages": "38863--38886",
+      "volume": "36",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Song, Yale and Byrne, Eugene and Nagarajan, Tushar and Wang, Huiyu and Martin, Miguel and Torresani, Lorenzo",
+      "title": "Ego4d goal-step: Toward hierarchical understanding of procedural activities",
+      "ENTRYTYPE": "article",
+      "ID": "goalstep"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2503.22152",
+      "author": "Li, Yuxuan and Veerabadran, Vijay and Iuzzolino, Michael L and Roads, Brett D and Celikyilmaz, Asli and Ridgeway, Karl",
+      "title": "EgoToM: Benchmarking Theory of Mind Reasoning from Egocentric Videos",
+      "ENTRYTYPE": "article",
+      "ID": "li2025egotom"
+    },
+    {
+      "year": "2022",
+      "pages": "3343--3360",
+      "volume": "35",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Jia, Baoxiong and Lei, Ting and Zhu, Song-Chun and Huang, Siyuan",
+      "title": "Egotaskqa: Understanding human tasks in egocentric videos",
+      "ENTRYTYPE": "article",
+      "ID": "jia2022egotaskqa"
+    },
+    {
+      "year": "2023",
+      "journal": "CoRR",
+      "author": "Chen, Yi and Ge, Yuying and Ge, Yixiao and Ding, Mingyu and Li, Bohao and Wang, Rui and Xu, Ruifeng and Shan, Ying and Liu, Xihui",
+      "title": "Egoplan-bench: Benchmarking egocentric embodied planning with multimodal large language models",
+      "ENTRYTYPE": "article",
+      "ID": "chen2023egoplan"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2407.09503",
+      "author": "Abreu, Steven and Do, Tiffany D and Ahuja, Karan and Gonzalez, Eric J and Payne, Lee and McDuff, Daniel and Gonzalez-Franco, Mar",
+      "title": "Parse-ego4d: Personal action recommendation suggestions for egocentric videos",
+      "ENTRYTYPE": "article",
+      "ID": "abreu2024parse"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2503.03803",
+      "author": "Yang, Jingkang and Liu, Shuai and Guo, Hongming and Dong, Yuhao and Zhang, Xiamengwei and Zhang, Sicheng and Wang, Pengyun and Zhou, Zitang and Xie, Binzhu and Wang, Ziyue and others",
+      "title": "Egolife: Towards egocentric life assistant",
+      "ENTRYTYPE": "article",
+      "ID": "yang2025egolife"
+    },
+    {
+      "year": "2022",
+      "pages": "18995--19012",
+      "booktitle": "Proceedings of the IEEE/CVF conference on computer vision and pattern recognition",
+      "author": "Grauman, Kristen and Westbury, Andrew and Byrne, Eugene and Chavis, Zachary and Furnari, Antonino and Girdhar, Rohit and Hamburger, Jackson and Jiang, Hao and Liu, Miao and Liu, Xingyu and others",
+      "title": "Ego4d: Around the world in 3,000 hours of egocentric video",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "grauman2022ego4d"
+    },
+    {
+      "year": "2023",
+      "pages": "46212--46244",
+      "volume": "36",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Mangalam, Karttikeya and Akshulakov, Raiymbek and Malik, Jitendra",
+      "title": "Egoschema: A diagnostic benchmark for very long-form video language understanding",
+      "ENTRYTYPE": "article",
+      "ID": "mangalam2023egoschema"
+    },
+    {
+      "year": "2024",
+      "pages": "14291--14302",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Cheng, Sijie and Guo, Zhicheng and Wu, Jingwen and Fang, Kechen and Li, Peng and Liu, Huaping and Liu, Yang",
+      "title": "Egothink: Evaluating first-person perspective thinking capability of vision-language models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "cheng2024egothink"
+    },
+    {
+      "url": "https://arxiv.org/abs/2501.06835",
+      "primaryclass": "cs.CV",
+      "archiveprefix": "arXiv",
+      "eprint": "2501.06835",
+      "year": "2025",
+      "author": "Fan Zhang and Miao Liu and Hao Zheng and Xinyi Zheng and Weizhe Lin and Per Ola Kristensson and Junxiao Shen and Kai Cao and Wenqi Zhou and Walterio Mayol-Cuevas",
+      "title": "X-LeBench: A Benchmark for Extremely Long Egocentric Video Understanding",
+      "ENTRYTYPE": "misc",
+      "ID": "zhang2025xlebenchbenchmarkextremely"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2410.11623",
+      "author": "Cheng, Sijie and Fang, Kechen and Yu, Yangyang and Zhou, Sicheng and Li, Bohao and Tian, Ye and Li, Tingguang and Han, Lei and Liu, Yang",
+      "title": "Videgothink: Assessing egocentric video understanding capabilities for embodied ai",
+      "ENTRYTYPE": "article",
+      "ID": "cheng2024videgothink"
+    },
+    {
+      "year": "2023",
+      "pages": "59708--59728",
+      "volume": "36",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Rawles, Christopher and Li, Alice and Rodriguez, Daniel and Riva, Oriana and Lillicrap, Timothy",
+      "title": "Androidinthewild: A large-scale dataset for android device control",
+      "ENTRYTYPE": "article",
+      "ID": "rawles2023androidinthewild"
+    },
+    {
+      "year": "2024",
+      "journal": "ACL",
+      "author": "Koh, Jing Yu and Lo, Robert and Jang, Lawrence and Duvvur, Vikram and Lim, Ming Chong and Huang, Po-Yu and Neubig, Graham and Zhou, Shuyan and Salakhutdinov, Ruslan and Fried, Daniel",
+      "title": "VisualWebArena: Evaluating Multimodal Agents on Realistic Visual Web Tasks",
+      "ENTRYTYPE": "article",
+      "ID": "koh2024visualwebarena"
+    },
+    {
+      "primaryclass": "cs.CL",
+      "archiveprefix": "arXiv",
+      "eprint": "2306.06070",
+      "year": "2023",
+      "author": "Xiang Deng and Yu Gu and Boyuan Zheng and Shijie Chen and Samuel Stevens and Boshi Wang and Huan Sun and Yu Su",
+      "title": "Mind2Web: Towards a Generalist Agent for the Web",
+      "ENTRYTYPE": "misc",
+      "ID": "deng2023mind2web"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2502.13923",
+      "author": "Bai, Shuai and Chen, Keqin and Liu, Xuejing and Wang, Jialin and Ge, Wenbin and Song, Sibo and Dang, Kai and Wang, Peng and Wang, Shijie and Tang, Jun and others",
+      "title": "{Qwen2.5-VL technical report}",
+      "ENTRYTYPE": "article",
+      "ID": "bai2025qwen2"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2412.05271",
+      "author": "Chen, Zhe and Wang, Weiyun and Cao, Yue and Liu, Yangzhou and Gao, Zhangwei and Cui, Erfei and Zhu, Jinguo and Ye, Shenglong and Tian, Hao and Liu, Zhaoyang and others",
+      "title": "Expanding performance boundaries of open-source multimodal models with model, data, and test-time scaling",
+      "ENTRYTYPE": "article",
+      "ID": "chen2024expanding"
+    },
+    {
+      "url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+      "year": "2024",
+      "title": "Llama 3.2: Connect 2024 Vision, Edge, and Mobile Devices",
+      "author": "{Meta AI}",
+      "ENTRYTYPE": "misc",
+      "ID": "meta2024llama32"
+    },
+    {
+      "url": "https://ai.meta.com/blog/llama-4-multimodal-intelligence/",
+      "year": "2025",
+      "title": "The Llama 4 Herd: The Beginning of a New Era of Natively Multimodal AI Innovation",
+      "author": "{Meta AI}",
+      "ENTRYTYPE": "misc",
+      "ID": "meta2025llama4"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2308.13561",
+      "author": "Engel, Jakob and Somasundaram, Kiran and Goesele, Michael and Sun, Albert and Gamino, Alexander and Turner, Andrew and Talattof, Arjang and Yuan, Arnie and Souti, Bilal and Meredith, Brighid and others",
+      "title": "Project aria: A new tool for egocentric multi-modal ai research",
+      "ENTRYTYPE": "article",
+      "ID": "engel2023project"
+    },
+    {
+      "url": "https://arxiv.org/abs/1908.10084",
+      "publisher": "Association for Computational Linguistics",
+      "year": "2019",
+      "month": "11",
+      "booktitle": "Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing",
+      "author": "Reimers, Nils and Gurevych, Iryna",
+      "title": "Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "reimers-2019-sentence-bert"
+    },
+    {
+      "copyright": "arXiv.org perpetual, non-exclusive license",
+      "year": "2022",
+      "publisher": "arXiv",
+      "title": "Robust Speech Recognition via Large-Scale Weak Supervision",
+      "author": "Radford, Alec and Kim, Jong Wook and Xu, Tao and Brockman, Greg and McLeavey, Christine and Sutskever, Ilya",
+      "url": "https://arxiv.org/abs/2212.04356",
+      "doi": "10.48550/ARXIV.2212.04356",
+      "ENTRYTYPE": "misc",
+      "ID": "radford2022whisper"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2504.13180",
+      "author": "Cho, Jang Hyun and Madotto, Andrea and Mavroudi, Effrosyni and Afouras, Triantafyllos and Nagarajan, Tushar and Maaz, Muhammad and Song, Yale and Ma, Tengyu and Hu, Shuming and Jain, Suyog and others",
+      "title": "PerceptionLM: Open-Access Data and Models for Detailed Visual Understanding",
+      "ENTRYTYPE": "article",
+      "ID": "cho2025perceptionlm"
+    },
+    {
+      "url": "https://arxiv.org/abs/2501.12948",
+      "primaryclass": "cs.CL",
+      "archiveprefix": "arXiv",
+      "eprint": "2501.12948",
+      "year": "2025",
+      "author": "DeepSeek-AI",
+      "title": "DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning",
+      "ENTRYTYPE": "misc",
+      "ID": "deepseekai2025deepseekr1incentivizingreasoningcapability"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv",
+      "author": "Andy Zeng and Maria Attarian and Brian Ichter and Krzysztof Choromanski and Adrian Wong and Stefan Welker and Federico Tombari and Aveek Purohit and Michael Ryoo and Vikas Sindhwani and Johnny Lee and Vincent Vanhoucke and Pete Florence",
+      "title": "Socratic Models: Composing Zero-Shot Multimodal Reasoning with Language",
+      "ENTRYTYPE": "article",
+      "ID": "zeng2022socraticmodels"
+    },
+    {
+      "year": "2024",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Chandrasegaran, Keshigeyan and Gupta, Agrim and Hadzic, Lea M and Kota, Taran and He, Jimming and Eyzaguirre, Crist{\\'o}bal and Durante, Zane and Li, Manling and Wu, Jiajun and Li, Fei-Fei",
+      "title": "Hourvideo: 1-hour video-language understanding",
+      "ENTRYTYPE": "article",
+      "ID": "chandrasegaran2024hourvideo"
+    }
+  ]
+}

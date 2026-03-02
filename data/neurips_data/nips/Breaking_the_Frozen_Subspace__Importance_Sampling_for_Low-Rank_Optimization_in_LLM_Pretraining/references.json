@@ -1,0 +1,1005 @@
+{
+  "pdf_url": "https://arxiv.org/pdf/2502.05790v3.pdf",
+  "references": [
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2406.02214",
+      "author": "Han, Andi and Li, Jiaxiang and Huang, Wei and Hong, Mingyi and Takeda, Akiko and Jawanpuria, Pratik and Mishra, Bamdev",
+      "title": "SLTrain: a sparse plus low-rank approach for parameter and memory efficient pretraining",
+      "ENTRYTYPE": "article",
+      "ID": "han2024sltrain"
+    },
+    {
+      "publisher": "MDPI",
+      "year": "2023",
+      "pages": "499",
+      "number": "3",
+      "volume": "11",
+      "journal": "Mathematics",
+      "author": "Zhang, Mumin and Wang, Yuzhi and Zhang, Haochen and Peng, Zhiyun and Tang, Junjie",
+      "title": "A novel and robust wind speed prediction method based on spatial features of wind farm cluster",
+      "ENTRYTYPE": "article",
+      "ID": "zhang2023novel"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "2022",
+      "pages": "101698",
+      "volume": "50",
+      "journal": "Sustainable Energy Technologies and Assessments",
+      "author": "Zhang, Haochen and Peng, Zhiyun and Tang, Junjie and Dong, Ming and Wang, Ke and Li, Wenyuan",
+      "title": "A multi-layer extreme learning machine refined by sparrow search algorithm and weighted mean filter for short-term multi-step wind speed forecasting",
+      "ENTRYTYPE": "article",
+      "ID": "zhang2022multi"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2310.04948",
+      "author": "Cao, Defu and Jia, Furong and Arik, Sercan O and Pfister, Tomas and Zheng, Yixiang and Ye, Wen and Liu, Yan",
+      "title": "Tempo: Prompt-based generative pre-trained transformer for time series forecasting",
+      "ENTRYTYPE": "article",
+      "ID": "cao2023tempo"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2509.01822",
+      "author": "Ye, Wen and Liu, Jinbo and Cao, Defu and Yang, Wei and Liu, Yan",
+      "title": "When LLM Meets Time Series: Can LLMs Perform Multi-Step Time Series Reasoning and Inference",
+      "ENTRYTYPE": "article",
+      "ID": "ye2025llm"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2403.03507",
+      "author": "Zhao, Jiawei and Zhang, Zhenyu and Chen, Beidi and Wang, Zhangyang and Anandkumar, Anima and Tian, Yuandong",
+      "title": "Galore: Memory-efficient llm training by gradient low-rank projection",
+      "ENTRYTYPE": "article",
+      "ID": "zhao2024galore"
+    },
+    {
+      "year": "2025",
+      "booktitle": "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+      "author": "Liu, Xinxin  and\nThomas, Aaron  and\nZhang, Cheng  and\nCheng, Jianyi  and\nZhao, Yiren  and\nGao, Xitong",
+      "title": "Refining Salience-Aware Sparse Fine-Tuning Strategies for Language Models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ltz+25"
+    },
+    {
+      "year": "2025",
+      "booktitle": "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+      "author": "Hui, Tingfeng  and\nZhang, Zhenyu  and\nWang, Shuohuan  and\nXu, Weiran  and\nSun, Yu  and\nWu, Hua",
+      "title": "{HFT}: Half Fine-Tuning for Large Language Models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "hzw+25"
+    },
+    {
+      "year": "2025",
+      "pages": "19460--19473",
+      "booktitle": "Findings of the Association for Computational Linguistics: ACL 2025",
+      "author": "Li, Pengxiang and Yin, Lu and Gao, Xiaowei and Liu, Shiwei",
+      "title": "Outlier-weighed Layerwise Sampling for LLM Fine-tuning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "lygl25"
+    },
+    {
+      "year": "2025",
+      "pages": "1--50",
+      "number": "151",
+      "volume": "26",
+      "journal": "Journal of Machine Learning Research",
+      "author": "Moghaddam, Amirreza Neshaei and Olshevsky, Alex and Gharesifard, Bahman",
+      "title": "Sample complexity of the linear quadratic regulator: A reinforcement learning lens",
+      "ENTRYTYPE": "article",
+      "ID": "mog25"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2510.01643",
+      "author": "Aliakbarpour, Maryam and Braverman, Vladimir and Yin, Junze and Zhang, Haochen",
+      "title": "Support Basis: Fast Attention Beyond Bounded Entries",
+      "ENTRYTYPE": "article",
+      "ID": "abyz25"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "2024",
+      "journal": "IEEE Control Systems Letters",
+      "author": "Moghaddam, Amirreza Neshaei and Gharesifard, Bahman",
+      "title": "Gradient Flow Approximations in Temporal Difference Learning",
+      "ENTRYTYPE": "article",
+      "ID": "mg24"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2502.14210",
+      "author": "Moghaddam, Amirreza Neshaei and Olshevsky, Alex and Gharesifard, Bahman",
+      "title": "Sample Complexity of Linear Quadratic Regulator Without Initial Stability",
+      "ENTRYTYPE": "article",
+      "ID": "mog25_arxiv"
+    },
+    {
+      "year": "2024",
+      "pages": "57018--57049",
+      "volume": "37",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Pan, Rui and Liu, Xiang and Diao, Shizhe and Pi, Renjie and Zhang, Jipeng and Han, Chi and Zhang, Tong",
+      "title": "Lisa: Layerwise importance sampling for memory-efficient large language model fine-tuning",
+      "ENTRYTYPE": "article",
+      "ID": "pld+24"
+    },
+    {
+      "year": "2014",
+      "journal": "arXiv preprint arXiv:1412.6980",
+      "author": "Kingma, Diederik P",
+      "title": "Adam: A method for stochastic optimization",
+      "ENTRYTYPE": "article",
+      "ID": "kingma2014adam"
+    },
+    {
+      "year": "2017",
+      "journal": "arXiv preprint arXiv:1709.04546",
+      "author": "Zhang, Zijun and Ma, Lin and Li, Zongpeng and Wu, Chuan",
+      "title": "Normalized direction-preserving adam",
+      "ENTRYTYPE": "article",
+      "ID": "zhang2017normalized"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2406.16793",
+      "author": "Zhang, Yushun and Chen, Congliang and Li, Ziniu and Ding, Tian and Wu, Chenwei and Ye, Yinyu and Luo, Zhi-Quan and Sun, Ruoyu",
+      "title": "Adam-mini: Use fewer learning rates to gain more",
+      "ENTRYTYPE": "article",
+      "ID": "zhang2024adam-mini"
+    },
+    {
+      "publisher": "SIAM",
+      "year": "2009",
+      "pages": "1574--1609",
+      "number": "4",
+      "volume": "19",
+      "journal": "SIAM Journal on optimization",
+      "author": "Nemirovski, Arkadi and Juditsky, Anatoli and Lan, Guanghui and Shapiro, Alexander",
+      "title": "Robust stochastic approximation approach to stochastic programming",
+      "ENTRYTYPE": "article",
+      "ID": "nemirovski2009robust"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2401.04067",
+      "author": "Hendrickx, Julien and Olshevsky, Alex",
+      "title": "Convex SGD: Generalization Without Early Stopping",
+      "ENTRYTYPE": "article",
+      "ID": "hendrickx2024convex"
+    },
+    {
+      "publisher": "Morgan Kaufmann",
+      "address": "Stanford, CA",
+      "booktitle": "Proceedings of the 17th International Conference\non Machine Learning (ICML 2000)",
+      "editor": "Pat Langley",
+      "pages": "1207--1216",
+      "year": "2000",
+      "title": "Crafting Papers on Machine Learning",
+      "author": "P. Langley",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "langley00"
+    },
+    {
+      "address": "New Brunswick, MA",
+      "year": "1980",
+      "institution": "Computer Science Department, Rutgers University",
+      "title": "The Need for Biases in Learning Generalizations",
+      "author": "T. M. Mitchell",
+      "ENTRYTYPE": "techreport",
+      "ID": "mitchell80"
+    },
+    {
+      "year": "1989",
+      "school": "Department of Computer Science, Harvard University",
+      "title": "Computational Complexity of Machine Learning",
+      "author": "M. J. Kearns",
+      "ENTRYTYPE": "phdthesis",
+      "ID": "kearns89"
+    },
+    {
+      "address": "Palo Alto, CA",
+      "year": "1983",
+      "publisher": "Tioga",
+      "title": "Machine Learning: An Artificial Intelligence\nApproach, Vol. I",
+      "editor": "R. S. Michalski and J. G. Carbonell and T.\nM. Mitchell",
+      "ENTRYTYPE": "book",
+      "ID": "MachineLearningI"
+    },
+    {
+      "year": "2000",
+      "edition": "2nd",
+      "publisher": "John Wiley and Sons",
+      "title": "Pattern Classification",
+      "author": "R. O. Duda and P. E. Hart and D. G. Stork",
+      "ENTRYTYPE": "book",
+      "ID": "DudaHart2nd"
+    },
+    {
+      "year": "2021",
+      "author": "Author, N. N.",
+      "title": "Suppressed for Anonymity",
+      "ENTRYTYPE": "misc",
+      "ID": "anonymous"
+    },
+    {
+      "address": "Hillsdale, NJ",
+      "chapter": "1",
+      "editor": "J. R. Anderson",
+      "year": "1981",
+      "publisher": "Lawrence Erlbaum Associates, Inc.",
+      "pages": "1--51",
+      "booktitle": "Cognitive Skills and Their Acquisition",
+      "title": "Mechanisms of Skill Acquisition and the Law of\nPractice",
+      "author": "A. Newell and P. S. Rosenbloom",
+      "ENTRYTYPE": "incollection",
+      "ID": "Newell81"
+    },
+    {
+      "pages": "211--229",
+      "number": "3",
+      "volume": "3",
+      "year": "1959",
+      "journal": "IBM Journal of Research and Development",
+      "title": "Some Studies in Machine Learning Using the Game of\nCheckers",
+      "author": "A. L. Samuel",
+      "ENTRYTYPE": "article",
+      "ID": "Samuel59"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2410.11289",
+      "author": "He, Yutong and Li, Pengrui and Hu, Yipeng and Chen, Chuyan and Yuan, Kun",
+      "title": "Subspace Optimization for Large Language Models with Convergence Guarantees",
+      "ENTRYTYPE": "article",
+      "ID": "he2024subspace"
+    },
+    {
+      "year": "2021",
+      "journal": "arXiv preprint arXiv:2106.09685",
+      "author": "Hu, Edward J and Shen, Yelong and Wallis, Phillip and Allen-Zhu, Zeyuan and Li, Yuanzhi and Wang, Shean and Wang, Lu and Chen, Weizhu",
+      "title": "Lora: Low-rank adaptation of large language models",
+      "ENTRYTYPE": "article",
+      "ID": "hu2021lora"
+    },
+    {
+      "year": "2023",
+      "booktitle": "The Twelfth International Conference on Learning Representations",
+      "author": "Lialin, Vladislav and Muckatira, Sherin and Shivagunde, Namrata and Rumshisky, Anna",
+      "title": "Relora: High-rank training through low-rank updates",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "lialin2023relora"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2407.08296",
+      "author": "Zhang, Zhenyu and Jaiswal, Ajay and Yin, Lu and Liu, Shiwei and Zhao, Jiawei and Tian, Yuandong and Wang, Zhangyang",
+      "title": "Q-galore: Quantized galore with int4 projection and layer-adaptive low-rank gradients",
+      "ENTRYTYPE": "article",
+      "ID": "zhang2024q-galore"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2406.17660",
+      "author": "Muhamed, Aashiq and Li, Oscar and Woodruff, David and Diab, Mona and Smith, Virginia",
+      "title": "Grass: Compute efficient low-memory llm training with structured sparse gradients",
+      "ENTRYTYPE": "article",
+      "ID": "muhamed2024grass"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2018",
+      "pages": "4596--4604",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Shazeer, Noam and Stern, Mitchell",
+      "title": "Adafactor: Adaptive learning rates with sublinear memory cost",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "shazeer2018adafactor"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2307.02047",
+      "author": "Luo, Yang and Ren, Xiaozhe and Zheng, Zangwei and Jiang, Zhuo and Jiang, Xin and You, Yang",
+      "title": "Came: Confidence-guided adaptive memory efficient optimization",
+      "ENTRYTYPE": "article",
+      "ID": "luo2023came"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2410.16029",
+      "author": "Das, Arijit",
+      "title": "Natural GaLore: Accelerating GaLore for memory-efficient LLM Training and Fine-tuning",
+      "ENTRYTYPE": "article",
+      "ID": "das2024natural"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2403.14958",
+      "author": "Zhao, Pengxiang and Li, Ping and Gu, Yingjie and Zheng, Yi and K{\\\"o}lker, Stephan Ludger and Wang, Zhefeng and Yuan, Xiaoming",
+      "title": "Adapprox: Adaptive Approximation in Adam Optimization via Randomized Low-Rank Matrices",
+      "ENTRYTYPE": "article",
+      "ID": "zhao2024adapprox"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2405.16002",
+      "author": "Song, Minhak and Ahn, Kwangjun and Yun, Chulhee",
+      "title": "Does SGD really happen in tiny subspaces?",
+      "ENTRYTYPE": "article",
+      "ID": "song2024does"
+    },
+    {
+      "year": "2018",
+      "journal": "arXiv preprint arXiv:1812.04754",
+      "author": "Gur-Ari, Guy and Roberts, Daniel A and Dyer, Ethan",
+      "title": "Gradient descent happens in a tiny subspace",
+      "ENTRYTYPE": "article",
+      "ID": "gur2018gradient"
+    },
+    {
+      "year": "2024",
+      "volume": "36",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Li, Bingrui and Chen, Jianfei and Zhu, Jun",
+      "title": "Memory efficient optimizers with 4-bit states",
+      "ENTRYTYPE": "article",
+      "ID": "li2024memory"
+    },
+    {
+      "year": "2021",
+      "journal": "arXiv preprint arXiv:2110.02861",
+      "author": "Dettmers, Tim and Lewis, Mike and Shleifer, Sam and Zettlemoyer, Luke",
+      "title": "8-bit optimizers via block-wise quantization",
+      "ENTRYTYPE": "article",
+      "ID": "dettmers20218"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2405.18858",
+      "author": "He, Yutong and Hu, Jie and Huang, Xinmeng and Lu, Songtao and Wang, Bin and Yuan, Kun",
+      "title": "Distributed Bilevel Optimization with Communication Compression",
+      "ENTRYTYPE": "article",
+      "ID": "he2024distributed"
+    },
+    {
+      "year": "2024",
+      "volume": "36",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Liu, Zirui and Wang, Guanchu and Zhong, Shaochen Henry and Xu, Zhaozhuo and Zha, Daochen and Tang, Ruixiang Ryan and Jiang, Zhimeng Stephen and Zhou, Kaixiong and Chaudhary, Vipin and Xu, Shuai and others",
+      "title": "Winner-take-all column row sampling for memory efficient adaptation of language model",
+      "ENTRYTYPE": "article",
+      "ID": "liu2024winner"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "2024",
+      "journal": "IEEE Transactions on Automatic Control",
+      "author": "Huang, Kun and Pu, Shi",
+      "title": "Cedas: A compressed decentralized stochastic gradient method with improved convergence",
+      "ENTRYTYPE": "article",
+      "ID": "huang2024cedas"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2401.04151",
+      "author": "Xia, Wenhan and Qin, Chengwei and Hazan, Elad",
+      "title": "Chain of lora: Efficient fine-tuning of language models via residual learning",
+      "ENTRYTYPE": "article",
+      "ID": "xia2024chain"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2309.02411",
+      "author": "Zi, Bojia and Qi, Xianbiao and Wang, Lingzhi and Wang, Jianan and Wong, Kam-Fai and Zhang, Lei",
+      "title": "Delta-lora: Fine-tuning high-rank parameters with the delta of low-rank matrices",
+      "ENTRYTYPE": "article",
+      "ID": "zi2023delta"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2402.16141",
+      "author": "Meng, Xiangdi and Dai, Damai and Luo, Weiyao and Yang, Zhe and Wu, Shaoxiang and Wang, Xiaochen and Wang, Peiyi and Dong, Qingxiu and Chen, Liang and Sui, Zhifang",
+      "title": "Periodiclora: Breaking the low-rank bottleneck in lora optimization",
+      "ENTRYTYPE": "article",
+      "ID": "meng2024periodiclora"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2405.12130",
+      "author": "Jiang, Ting and Huang, Shaohan and Luo, Shengyue and Zhang, Zihan and Huang, Haizhen and Wei, Furu and Deng, Weiwei and Sun, Feng and Zhang, Qi and Wang, Deqing and others",
+      "title": "MoRA: High-Rank Updating for Parameter-Efficient Fine-Tuning",
+      "ENTRYTYPE": "article",
+      "ID": "jiang2024mora"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "2022",
+      "pages": "3411--3420",
+      "number": "3",
+      "volume": "45",
+      "journal": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+      "author": "Li, Tao and Tan, Lei and Huang, Zhehao and Tao, Qinghua and Liu, Yipeng and Huang, Xiaolin",
+      "title": "Low dimensional trajectory hypothesis is true: Dnns can be trained in tiny subspaces",
+      "ENTRYTYPE": "article",
+      "ID": "li2022low"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "2023",
+      "journal": "IEEE Open Journal of Control Systems",
+      "author": "Cosson, Romain and Jadbabaie, Ali and Makur, Anuran and Reisizadeh, Amirhossein and Shah, Devavrat",
+      "title": "Low-Rank Gradient Descent",
+      "ENTRYTYPE": "article",
+      "ID": "cosson2023low"
+    },
+    {
+      "organization": "IEEE",
+      "year": "2023",
+      "pages": "3315--3320",
+      "booktitle": "2023 62nd IEEE Conference on Decision and Control (CDC)",
+      "author": "Jadbabaie, Ali and Makur, Anuran and Reisizadeh, Amirhossein",
+      "title": "Adaptive Low-Rank Gradient Descent",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "jadbabaie2023adaptive"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2402.03293",
+      "author": "Hao, Yongchang and Cao, Yanshuai and Mou, Lili",
+      "title": "Flora: Low-Rank Adapters Are Secretly Gradient Compressors",
+      "ENTRYTYPE": "article",
+      "ID": "hao2024flora"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2408.10280",
+      "author": "Lin, Cheng and Li, Lujun and Li, Dezhi and Zou, Jie and Luo, Wenhan and Xue, Wei and Guo, Yike",
+      "title": "NoRA: Nested Low-Rank Adaptation for Efficient Fine-Tuning Large Models",
+      "ENTRYTYPE": "article",
+      "ID": "lin2024nora"
+    },
+    {
+      "year": "2022",
+      "pages": "28386--28399",
+      "volume": "35",
+      "journal": "Advances in neural information processing systems",
+      "author": "Zhang, Yushun and Chen, Congliang and Shi, Naichen and Sun, Ruoyu and Luo, Zhi-Quan",
+      "title": "Adam can converge without any modification on update rules",
+      "ENTRYTYPE": "article",
+      "ID": "zhang2022adam"
+    },
+    {
+      "year": "2019",
+      "journal": "arXiv preprint arXiv:1902.09843",
+      "author": "Luo, Liangchen and Xiong, Yuanhao and Liu, Yan and Sun, Xu",
+      "title": "Adaptive gradient methods with dynamic bound of learning rate",
+      "ENTRYTYPE": "article",
+      "ID": "luo2019adaptive"
+    },
+    {
+      "year": "2024",
+      "pages": "2960--2969",
+      "booktitle": "Proceedings of the 30th ACM SIGKDD Conference on Knowledge Discovery and Data Mining",
+      "author": "Wang, Bohan and Zhang, Yushun and Zhang, Huishuai and Meng, Qi and Sun, Ruoyu and Ma, Zhi-Ming and Liu, Tie-Yan and Luo, Zhi-Quan and Chen, Wei",
+      "title": "Provable adaptivity of adam under non-uniform smoothness",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "wang2024provable"
+    },
+    {
+      "year": "2020",
+      "journal": "arXiv preprint arXiv:2003.02395",
+      "author": "D{\\'e}fossez, Alexandre and Bottou, L{\\'e}on and Bach, Francis and Usunier, Nicolas",
+      "title": "A simple convergence proof of adam and adagrad",
+      "ENTRYTYPE": "article",
+      "ID": "defossez2020simple"
+    },
+    {
+      "year": "2024",
+      "volume": "36",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Li, Haochuan and Rakhlin, Alexander and Jadbabaie, Ali",
+      "title": "Convergence of adam under relaxed assumptions",
+      "ENTRYTYPE": "article",
+      "ID": "li2024convergence"
+    },
+    {
+      "year": "2019",
+      "journal": "arXiv preprint arXiv:1904.01145",
+      "author": "Kozak, David and Becker, Stephen and Doostan, Alireza and Tenorio, Luis",
+      "title": "Stochastic subspace descent",
+      "ENTRYTYPE": "article",
+      "ID": "kozak2019stochastic"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2407.11239",
+      "author": "Jaiswal, Ajay and Yin, Lu and Zhang, Zhenyu and Liu, Shiwei and Zhao, Jiawei and Tian, Yuandong and Wang, Zhangyang",
+      "title": "From galore to welore: How low-rank weights non-uniformly emerge from low-rank gradients",
+      "ENTRYTYPE": "article",
+      "ID": "jaiswal2024welore"
+    },
+    {
+      "year": "2020",
+      "pages": "1--67",
+      "number": "140",
+      "volume": "21",
+      "journal": "Journal of machine learning research",
+      "author": "Raffel, Colin and Shazeer, Noam and Roberts, Adam and Lee, Katherine and Narang, Sharan and Matena, Michael and Zhou, Yanqi and Li, Wei and Liu, Peter J",
+      "title": "Exploring the limits of transfer learning with a unified text-to-text transformer",
+      "ENTRYTYPE": "article",
+      "ID": "raffel2020c4"
+    },
+    {
+      "year": "2023",
+      "pages": "3106--3130",
+      "volume": "36",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Portes, Jacob and Trott, Alexander and Havens, Sam and King, Daniel and Venigalla, Abhinav and Nadeem, Moin and Sardana, Nikhil and Khudia, Daya and Frankle, Jonathan",
+      "title": "MosaicBERT: A bidirectional encoder optimized for fast pretraining",
+      "ENTRYTYPE": "article",
+      "ID": "portes2023mosaicbert"
+    },
+    {
+      "year": "2020",
+      "journal": "arXiv preprint arXiv:2010.11934",
+      "author": "Xue, L",
+      "title": "mt5: A massively multilingual pre-trained text-to-text transformer",
+      "ENTRYTYPE": "article",
+      "ID": "xue2020mt5"
+    },
+    {
+      "year": "2022",
+      "pages": "30016--30030",
+      "volume": "35",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Hoffmann, Jordan and Borgeaud, Sebastian and Mensch, Arthur and Buchatskaya, Elena and Cai, Trevor and Rutherford, Eliza and de Las Casas, Diego and Hendricks, Lisa Anne and Welbl, Johannes and Clark, Aidan and others",
+      "title": "An empirical analysis of compute-optimal large language model training",
+      "ENTRYTYPE": "article",
+      "ID": "hoffmann2022scalinglaw"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2407.21783",
+      "author": "Dubey, Abhimanyu and Jauhri, Abhinav and Pandey, Abhinav and Kadian, Abhishek and Al-Dahle, Ahmad and Letman, Aiesha and Mathur, Akhil and Schelten, Alan and Yang, Amy and Fan, Angela and others",
+      "title": "The llama 3 herd of models",
+      "ENTRYTYPE": "article",
+      "ID": "llama3"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2404.14219",
+      "author": "Abdin, Marah and Aneja, Jyoti and Awadalla, Hany and Awadallah, Ahmed and Awan, Ammar Ahmad and Bach, Nguyen and Bahree, Amit and Bakhtiari, Arash and Bao, Jianmin and Behl, Harkirat and others",
+      "title": "Phi-3 technical report: A highly capable language model locally on your phone",
+      "ENTRYTYPE": "article",
+      "ID": "phi3"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2310.06825",
+      "author": "Jiang, Albert Q and Sablayrolles, Alexandre and Mensch, Arthur and Bamford, Chris and Chaplot, Devendra Singh and Casas, Diego de las and Bressand, Florian and Lengyel, Gianna and Lample, Guillaume and Saulnier, Lucile and others",
+      "title": "Mistral 7B",
+      "ENTRYTYPE": "article",
+      "ID": "mistral"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2303.08774",
+      "author": "Achiam, Josh and Adler, Steven and Agarwal, Sandhini and Ahmad, Lama and Akkaya, Ilge and Aleman, Florencia Leoni and Almeida, Diogo and Altenschmidt, Janko and Altman, Sam and Anadkat, Shyamal and others",
+      "title": "Gpt-4 technical report",
+      "ENTRYTYPE": "article",
+      "ID": "gpt4"
+    },
+    {
+      "year": "2020",
+      "journal": "arXiv preprint arXiv:2005.14165",
+      "author": "Brown, Tom B",
+      "title": "Language models are few-shot learners",
+      "ENTRYTYPE": "article",
+      "ID": "brown2020language"
+    },
+    {
+      "year": "2022",
+      "pages": "27730--27744",
+      "volume": "35",
+      "journal": "Advances in neural information processing systems",
+      "author": "Ouyang, Long and Wu, Jeffrey and Jiang, Xu and Almeida, Diogo and Wainwright, Carroll and Mishkin, Pamela and Zhang, Chong and Agarwal, Sandhini and Slama, Katarina and Ray, Alex and others",
+      "title": "Training language models to follow instructions with human feedback",
+      "ENTRYTYPE": "article",
+      "ID": "ouyang2022training"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2307.09288",
+      "author": "Touvron, Hugo and Martin, Louis and Stone, Kevin and Albert, Peter and Almahairi, Amjad and Babaei, Yasmine and Bashlykov, Nikolay and Batra, Soumya and Bhargava, Prajjwal and Bhosale, Shruti and others",
+      "title": "Llama 2: Open foundation and fine-tuned chat models",
+      "ENTRYTYPE": "article",
+      "ID": "touvron2023llama"
+    },
+    {
+      "publisher": "San Francisco, CA, USA",
+      "journal": "OpenAI",
+      "year": "2018",
+      "author": "Radford, Alec and Narasimhan, Karthik and Salimans, Tim and Sutskever, Ilya and others",
+      "title": "Improving language understanding by generative pre-training",
+      "ENTRYTYPE": "article",
+      "ID": "radford2018improving"
+    },
+    {
+      "year": "2023",
+      "pages": "1--113",
+      "number": "240",
+      "volume": "24",
+      "journal": "Journal of Machine Learning Research",
+      "author": "Chowdhery, Aakanksha and Narang, Sharan and Devlin, Jacob and Bosma, Maarten and Mishra, Gaurav and Roberts, Adam and Barham, Paul and Chung, Hyung Won and Sutton, Charles and Gehrmann, Sebastian and others",
+      "title": "Palm: Scaling language modeling with pathways",
+      "ENTRYTYPE": "article",
+      "ID": "chowdhery2023palm"
+    },
+    {
+      "year": "2021",
+      "pages": "1--15",
+      "booktitle": "Proceedings of the International Conference for High Performance Computing, Networking, Storage and Analysis",
+      "author": "Narayanan, Deepak and Shoeybi, Mohammad and Casper, Jared and LeGresley, Patrick and Patwary, Mostofa and Korthikanti, Vijay and Vainbrand, Dmitri and Kashinkunti, Prethvi and Bernauer, Julie and Catanzaro, Bryan and others",
+      "title": "Efficient large-scale language model training on gpu clusters using megatron-lm",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "narayanan2021efficient"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2307.08691",
+      "author": "Dao, Tri",
+      "title": "Flashattention-2: Faster attention with better parallelism and work partitioning (2023)",
+      "ENTRYTYPE": "article",
+      "ID": "dao2023flashattention"
+    },
+    {
+      "year": "2022",
+      "pages": "16344--16359",
+      "volume": "35",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Dao, Tri and Fu, Dan and Ermon, Stefano and Rudra, Atri and R{\\'e}, Christopher",
+      "title": "Flashattention: Fast and memory-efficient exact attention with io-awareness",
+      "ENTRYTYPE": "article",
+      "ID": "dao2022flashattention"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2407.11722",
+      "author": "Chitsaz, Kamran and Fournier, Quentin and Mordido, Gon{\\c{c}}alo and Chandar, Sarath",
+      "title": "Exploring Quantization for Efficient Pre-Training of Transformer Language Models",
+      "ENTRYTYPE": "article",
+      "ID": "chitsaz2024exploring"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2023",
+      "pages": "24020--24044",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Markov, Ilia and Vladu, Adrian and Guo, Qi and Alistarh, Dan",
+      "title": "Quantized distributed training of large models with convergence guarantees",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "markov2023quantized"
+    },
+    {
+      "year": "2023",
+      "pages": "10271--10298",
+      "volume": "36",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Wortsman, Mitchell and Dettmers, Tim and Zettlemoyer, Luke and Morcos, Ari and Farhadi, Ali and Schmidt, Ludwig",
+      "title": "Stable and low-precision training for large-scale vision-language models",
+      "ENTRYTYPE": "article",
+      "ID": "wortsman2023stable"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2021",
+      "pages": "5506--5518",
+      "booktitle": "International conference on machine learning",
+      "author": "Kim, Sehoon and Gholami, Amir and Yao, Zhewei and Mahoney, Michael W and Keutzer, Kurt",
+      "title": "I-bert: Integer-only bert quantization",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "kim2021bert"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2410.16103",
+      "author": "Robert, Thomas and Safaryan, Mher and Modoranu, Ionut-Vlad and Alistarh, Dan",
+      "title": "LDAdam: Adaptive Optimization from Low-Dimensional Gradient Statistics",
+      "ENTRYTYPE": "article",
+      "ID": "robert2024ldadam"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2410.01623",
+      "author": "Chen, Xi and Feng, Kaituo and Li, Changsheng and Lai, Xunhao and Yue, Xiangyu and Yuan, Ye and Wang, Guoren",
+      "title": "Fira: Can We Achieve Full-rank Training of LLMs Under Low-rank Constraint?",
+      "ENTRYTYPE": "article",
+      "ID": "chen2024fira"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2412.17316",
+      "author": "Chen, Yifang and Huo, Jiayan and Li, Xiaoyu and Liang, Yingyu and Shi, Zhenmei and Song, Zhao",
+      "title": "Fast Gradient Computation for RoPE Attention in Almost Linear Time",
+      "ENTRYTYPE": "article",
+      "ID": "chl+24"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2412.06148",
+      "author": "Chen, Yifang and Li, Xiaoyu and Liang, Yingyu and Shi, Zhenmei and Song, Zhao",
+      "title": "The computational limits of state-space models and mamba via the lens of circuit complexity",
+      "ENTRYTYPE": "article",
+      "ID": "cll+24"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2307.02419",
+      "author": "Gao, Yeqi and Song, Zhao and Xie, Shenghao",
+      "title": "In-context learning for attention scheme: from single softmax regression to multiple softmax regression via a tensor trick",
+      "ENTRYTYPE": "article",
+      "ID": "gsx23"
+    },
+    {
+      "year": "2023",
+      "pages": "63117--63135",
+      "volume": "36",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Alman, Josh and Song, Zhao",
+      "title": "Fast attention requires bounded entries",
+      "ENTRYTYPE": "article",
+      "ID": "as23"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2306.02295",
+      "author": "Sinha, Ritwik and Song, Zhao and Zhou, Tianyi",
+      "title": "A mathematical abstraction for balancing the trade-off between creativity and reality in large language models",
+      "ENTRYTYPE": "article",
+      "ID": "ssz23_tradeoff"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2405.16411",
+      "author": "Liang, Yingyu and Shi, Zhenmei and Song, Zhao and Zhou, Yufa",
+      "title": "Tensor attention training: Provably efficient learning of higher-order transformers",
+      "ENTRYTYPE": "article",
+      "ID": "lssz24"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2405.05219",
+      "author": "Liang, Yingyu and Liu, Heshan and Shi, Zhenmei and Song, Zhao and Yin, Junze",
+      "title": "Conv-basis: A new paradigm for efficient attention inference and gradient computation in transformers",
+      "ENTRYTYPE": "article",
+      "ID": "lls+24"
+    },
+    {
+      "booktitle": "Proceedings of the 31st ACM SIGKDD Conference on Knowledge Discovery and Data Mining V.2",
+      "year": "2025",
+      "title": "The Expressibility of Polynomial based Attention Scheme",
+      "author": "Song, Zhao and Wang, Chongxi and Xu, Guangyi and Yin, Junze",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "sxy23"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2309.13482",
+      "author": "Song, Zhao and Wang, Weixin and Yin, Junze",
+      "title": "A unified scheme of resnet and softmax",
+      "ENTRYTYPE": "article",
+      "ID": "swy23"
+    },
+    {
+      "year": "2025",
+      "booktitle": "Findings of the Association for Computational Linguistics: ACL 2025",
+      "author": "Zhang, Haochen  and\nZhang, Tianyi  and\nYin, Junze  and\nGal, Oren  and\nShrivastava, Anshumali  and\nBraverman, Vladimir",
+      "title": "{C}o{VE}: Compressed Vocabulary Expansion Makes Better {LLM}-based Recommender Systems",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zzy+25"
+    },
+    {
+      "booktitle": "Proceedings of the Forty-First Conference on Uncertainty in Artificial Intelligence",
+      "year": "2025",
+      "title": "Dynamic maintenance of kernel density estimation data structure: from practice to theory",
+      "author": "Liang, Jiehao and Song, Zhao and Xu, Zhaozhuo and Yin, Junze and Zhuo, Danyang",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "lsx+25"
+    },
+    {
+      "url": "https://openreview.net/forum?id=eKXicUVKCs",
+      "year": "2025",
+      "booktitle": "Forty-second International Conference on Machine Learning",
+      "author": "Yuzhou Gu and Zhao Song and Junze Yin",
+      "title": "Binary Hypothesis Testing for Softmax Models and Leverage Score Models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "gsy25"
+    },
+    {
+      "url": "https://openreview.net/forum?id=qxRQ9f9zMv",
+      "year": "2025",
+      "booktitle": "The 41st Conference on Uncertainty in Artificial Intelligence",
+      "author": "Yeqi Gao and Zhao Song and Weixin Wang and Junze Yin",
+      "title": "A Fast Optimization View: Reformulating Single Layer Attention in {LLM} Based on Tensor and {SVM} Trick, and Solving It in Matrix Multiplication Time",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "gswy23"
+    },
+    {
+      "year": "2025",
+      "booktitle": "International Conference on Artificial Intelligence and Statistics",
+      "author": "Gao, Yeqi and Song, Zhao and Yin, Junze",
+      "title": "An iterative algorithm for rescaled hyperbolic functions regression",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "gsy23_hyper"
+    },
+    {
+      "url": "https://openreview.net/forum?id=P8rTCT6g45",
+      "year": "2024",
+      "booktitle": "The Thirty-eighth Annual Conference on Neural Information Processing Systems",
+      "author": "Kaizhao Liang and Bo Liu and Lizhang Chen and qiang liu",
+      "title": "Memory-Efficient {LLM} Training with Online Subspace Descent",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "llcl24"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2308.10502",
+      "author": "Gao, Yeqi and Song, Zhao and Yin, Junze",
+      "title": "GradientCoin: A Peer-to-Peer Decentralized Large Language Models",
+      "ENTRYTYPE": "article",
+      "ID": "gsy23_coin"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2024",
+      "pages": "208--216",
+      "booktitle": "International Conference on Artificial Intelligence and Statistics",
+      "author": "Song, Zhao and Yin, Junze and Zhang, Lichen",
+      "title": "Solving attention kernel regression problem via pre-conditioner",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "syz23"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2311.15390",
+      "author": "Li, Zhihang and Song, Zhao and Wang, Zifan and Yin, Junze",
+      "title": "Local Convergence of Approximate Newton Method for Two Layer Nonlinear Regression",
+      "ENTRYTYPE": "article",
+      "ID": "lswy23"
+    },
+    {
+      "url": "https://openreview.net/forum?id=N0gT4A0jNV",
+      "year": "2024",
+      "booktitle": "The Twelfth International Conference on Learning Representations",
+      "author": "Yuzhou Gu and Zhao Song and Junze Yin and Lichen Zhang",
+      "title": "Low Rank Matrix Completion via Robust Alternating Minimization in Nearly Linear Time",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "gsyz23"
+    },
+    {
+      "year": "2025",
+      "booktitle": "The Thirteenth International Conference on Learning Representations",
+      "author": "Song, Zhao and Ye, Mingquan and Yin, Junze and Zhang, Lichen",
+      "title": "Efficient Alternating Minimization with Applications to Weighted Low Rank Approximation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "syyz23_weighted"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2309.10129",
+      "author": "Zhang, Haochen and Chen, Xi and Yang, Lin F",
+      "title": "Adaptive Liquidity Provision in Uniswap V3 with Deep Reinforcement Learning",
+      "ENTRYTYPE": "article",
+      "ID": "zcy23"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2411.00401",
+      "author": "Zhang, Zhi and Chow, Chris and Zhang, Yasi and Sun, Yanchao and Zhang, Haochen and Jiang, Eric Hanchen and Liu, Han and Huang, Furong and Cui, Yuchen and Padilla, Oscar Hernan Madrid",
+      "title": "Statistical guarantees for lifelong reinforcement learning using pac-bayesian theory",
+      "ENTRYTYPE": "article",
+      "ID": "zcz+24"
+    },
+    {
+      "year": "2024",
+      "booktitle": "The Thirty-eighth Annual Conference on Neural Information Processing Systems",
+      "author": "Liu, Junyan and Li, Yunfan and Wang, Ruosong and Yang, Lin",
+      "title": "Uniform Last-Iterate Guarantee for Bandits and Reinforcement Learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "llwy24"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2024",
+      "pages": "2764--2772",
+      "booktitle": "International Conference on Artificial Intelligence and Statistics",
+      "author": "Li, Yunfan and Yang, Lin",
+      "title": "On the Model-Misspecification in Reinforcement Learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ly24"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2023",
+      "pages": "19995--20034",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Li, Yunfan and Wang, Yiran and Cheng, Yu and Yang, Lin",
+      "title": "Low-switching policy gradient with exploration via online sensitivity sampling",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "lwcy23"
+    },
+    {
+      "year": "2021",
+      "booktitle": "Proceedings of the AAAI conference on artificial intelligence",
+      "author": "Zhang, Junzi and Kim, Jongho and O'Donoghue, Brendan and Boyd, Stephen",
+      "title": "Sample efficient reinforcement learning with REINFORCE",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zhang2021sample"
+    },
+    {
+      "organization": "IEEE",
+      "year": "2021",
+      "pages": "000131--000136",
+      "booktitle": "2021 IEEE 21st international symposium on computational intelligence and informatics (CINTI)",
+      "author": "Zakharenkov, Anton and Makarov, Ilya",
+      "title": "Deep reinforcement learning with dqn vs. ppo in vizdoom",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zakharenkov2021deep"
+    },
+    {
+      "year": "2019",
+      "booktitle": "International conference on learning representations",
+      "author": "Engstrom, Logan and Ilyas, Andrew and Santurkar, Shibani and Tsipras, Dimitris and Janoos, Firdaus and Rudolph, Larry and Madry, Aleksander",
+      "title": "Implementation matters in deep rl: A case study on ppo and trpo",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "engstrom2019implementation"
+    },
+    {
+      "url": "https://arxiv.org/abs/2508.15809",
+      "primaryclass": "cs.CL",
+      "archiveprefix": "arXiv",
+      "eprint": "2508.15809",
+      "year": "2025",
+      "author": "Songyuan Sui and Hongyi Liu and Serena Liu and Li Li and Soo-Hyun Choi and Rui Chen and Xia Hu",
+      "title": "Chain-of-Query: Unleashing the Power of LLMs in SQL-Aided Table Understanding via Multi-Agent Collaboration",
+      "ENTRYTYPE": "misc",
+      "ID": "sui2025chainofqueryunleashingpowerllms"
+    },
+    {
+      "url": "https://arxiv.org/abs/2407.05952",
+      "primaryclass": "cs.DB",
+      "archiveprefix": "arXiv",
+      "eprint": "2407.05952",
+      "year": "2025",
+      "author": "Nikhil Abhyankar and Vivek Gupta and Dan Roth and Chandan K. Reddy",
+      "title": "H-STAR: LLM-driven Hybrid SQL-Text Adaptive Reasoning on Tables",
+      "ENTRYTYPE": "misc",
+      "ID": "abhyankar2025hstarllmdrivenhybridsqltext"
+    },
+    {
+      "url": "https://arxiv.org/abs/2411.08516",
+      "primaryclass": "cs.CL",
+      "archiveprefix": "arXiv",
+      "eprint": "2411.08516",
+      "year": "2024",
+      "author": "Deyi Ji and Lanyun Zhu and Siqi Gao and Peng Xu and Hongtao Lu and Jieping Ye and Feng Zhao",
+      "title": "Tree-of-Table: Unleashing the Power of LLMs for Enhanced Large-Scale Table Understanding",
+      "ENTRYTYPE": "misc",
+      "ID": "ji2024treeoftableunleashingpowerllms"
+    },
+    {
+      "url": "https://arxiv.org/abs/2403.11886",
+      "primaryclass": "cs.CL",
+      "archiveprefix": "arXiv",
+      "eprint": "2403.11886",
+      "year": "2024",
+      "author": "Xiang Huang and Sitao Cheng and Shanshan Huang and Jiayu Shen and Yong Xu and Chaoyun Zhang and Yuzhong Qu",
+      "title": "QueryAgent: A Reliable and Efficient Reasoning Framework with Environmental Feedback-based Self-Correction",
+      "ENTRYTYPE": "misc",
+      "ID": "huang2024queryagentreliableefficientreasoning"
+    }
+  ]
+}

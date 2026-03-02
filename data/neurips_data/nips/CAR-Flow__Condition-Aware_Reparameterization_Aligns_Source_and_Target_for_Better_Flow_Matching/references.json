@@ -1,0 +1,1182 @@
+{
+  "pdf_url": "https://arxiv.org/pdf/2509.19300v2.pdf",
+  "references": [
+    {
+      "year": "2020",
+      "pages": "6840--6851",
+      "volume": "33",
+      "journal": "Advances in neural information processing systems",
+      "author": "Ho, Jonathan and Jain, Ajay and Abbeel, Pieter",
+      "title": "Denoising diffusion probabilistic models",
+      "ENTRYTYPE": "article",
+      "ID": "ho2020denoising"
+    },
+    {
+      "year": "2021",
+      "pages": "8780--8794",
+      "volume": "34",
+      "journal": "Advances in neural information processing systems",
+      "author": "Dhariwal, Prafulla and Nichol, Alexander",
+      "title": "Diffusion models beat gans on image synthesis",
+      "ENTRYTYPE": "article",
+      "ID": "dhariwal2021diffusion"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2307.01952",
+      "author": "Podell, Dustin and English, Zion and Lacey, Kyle and Blattmann, Andreas and Dockhorn, Tim and M{\\\"u}ller, Jonas and Penna, Joe and Rombach, Robin",
+      "title": "Sdxl: Improving latent diffusion models for high-resolution image synthesis",
+      "ENTRYTYPE": "article",
+      "ID": "podell2023sdxl"
+    },
+    {
+      "year": "2023",
+      "pages": "4195--4205",
+      "booktitle": "Proceedings of the IEEE/CVF International Conference on Computer Vision",
+      "author": "Peebles, William and Xie, Saining",
+      "title": "Scalable diffusion models with transformers",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "peebles2023scalable"
+    },
+    {
+      "year": "2022",
+      "pages": "10684--10695",
+      "booktitle": "Proceedings of the IEEE/CVF conference on computer vision and pattern recognition",
+      "author": "Rombach, Robin and Blattmann, Andreas and Lorenz, Dominik and Esser, Patrick and Ommer, Bj{\\\"o}rn",
+      "title": "High-resolution image synthesis with latent diffusion models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "rombach2022high"
+    },
+    {
+      "organization": "Pmlr",
+      "year": "2021",
+      "pages": "8821--8831",
+      "booktitle": "International conference on machine learning",
+      "author": "Ramesh, Aditya and Pavlov, Mikhail and Goh, Gabriel and Gray, Scott and Voss, Chelsea and Radford, Alec and Chen, Mark and Sutskever, Ilya",
+      "title": "Zero-shot text-to-image generation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ramesh2021zero"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2021",
+      "pages": "8162--8171",
+      "booktitle": "International conference on machine learning",
+      "author": "Nichol, Alexander Quinn and Dhariwal, Prafulla",
+      "title": "Improved denoising diffusion probabilistic models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "nichol2021improved"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2409.04429",
+      "author": "Wu, Yecheng and Zhang, Zhuoyang and Chen, Junyu and Tang, Haotian and Li, Dacheng and Fang, Yunhao and Zhu, Ligeng and Xie, Enze and Yin, Hongxu and Yi, Li and others",
+      "title": "Vila-u: a unified foundation model integrating visual understanding and generation",
+      "ENTRYTYPE": "article",
+      "ID": "wu2024vila"
+    },
+    {
+      "year": "2024",
+      "booktitle": "Forty-first international conference on machine learning",
+      "author": "Esser, Patrick and Kulal, Sumith and Blattmann, Andreas and Entezari, Rahim and M{\\\"u}ller, Jonas and Saini, Harry and Levi, Yam and Lorenz, Dominik and Sauer, Axel and Boesel, Frederic and others",
+      "title": "Scaling rectified flow transformers for high-resolution image synthesis",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "esser2024scaling"
+    },
+    {
+      "year": "2024",
+      "booktitle": "The Twelfth International Conference on Learning Representations",
+      "author": "Chen, Junsong and Jincheng, YU and Chongjian, GE and Yao, Lewei and Xie, Enze and Wang, Zhongdao and Kwok, James and Luo, Ping and Lu, Huchuan and Li, Zhenguo",
+      "title": "PixArt-$\\alpha$: Fast Training of Diffusion Transformer for Photorealistic Text-to-Image Synthesis",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "chenpixart"
+    },
+    {
+      "year": "2017",
+      "pages": "5907--5915",
+      "booktitle": "Proceedings of the IEEE international conference on computer vision",
+      "author": "Zhang, Han and Xu, Tao and Li, Hongsheng and Zhang, Shaoting and Wang, Xiaogang and Huang, Xiaolei and Metaxas, Dimitris N",
+      "title": "Stackgan: Text to photo-realistic image synthesis with stacked generative adversarial networks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zhang2017stackgan"
+    },
+    {
+      "year": "2018",
+      "pages": "1316--1324",
+      "booktitle": "Proceedings of the IEEE conference on computer vision and pattern recognition",
+      "author": "Xu, Tao and Zhang, Pengchuan and Huang, Qiuyuan and Zhang, Han and Gan, Zhe and Huang, Xiaolei and He, Xiaodong",
+      "title": "Attngan: Fine-grained text to image generation with attentional generative adversarial networks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "xu2018attngan"
+    },
+    {
+      "publisher": "ACM New York, NY, USA",
+      "year": "2023",
+      "pages": "1--39",
+      "number": "4",
+      "volume": "56",
+      "journal": "ACM Computing Surveys",
+      "author": "Yang, Ling and Zhang, Zhilong and Song, Yang and Hong, Shenda and Xu, Runsheng and Zhao, Yue and Zhang, Wentao and Cui, Bin and Yang, Ming-Hsuan",
+      "title": "Diffusion models: A comprehensive survey of methods and applications",
+      "ENTRYTYPE": "article",
+      "ID": "yang2023diffusion"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2410.08184",
+      "author": "Liang, Zhengyang and He, Hao and Yang, Ceyuan and Dai, Bo",
+      "title": "Scaling laws for diffusion transformers",
+      "ENTRYTYPE": "article",
+      "ID": "liang2024scaling"
+    },
+    {
+      "organization": "Springer",
+      "year": "2024",
+      "pages": "23--40",
+      "booktitle": "European Conference on Computer Vision",
+      "author": "Ma, Nanye and Goldstein, Mark and Albergo, Michael S and Boffi, Nicholas M and Vanden-Eijnden, Eric and Xie, Saining",
+      "title": "Sit: Exploring flow and diffusion-based generative models with scalable interpolant transformers",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ma2024sit"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2209.03003",
+      "author": "Liu, Xingchao and Gong, Chengyue and Liu, Qiang",
+      "title": "Flow straight and fast: Learning to generate and transfer data with rectified flow",
+      "ENTRYTYPE": "article",
+      "ID": "liu2022flow"
+    },
+    {
+      "year": "2020",
+      "journal": "arXiv preprint arXiv:2011.13456",
+      "author": "Song, Yang and Sohl-Dickstein, Jascha and Kingma, Diederik P and Kumar, Abhishek and Ermon, Stefano and Poole, Ben",
+      "title": "Score-based generative modeling through stochastic differential equations",
+      "ENTRYTYPE": "article",
+      "ID": "song2020score"
+    },
+    {
+      "howpublished": "\\url{https://github.com/black-forest-labs/flux}",
+      "year": "2024",
+      "title": "FLUX",
+      "author": "Black Forest Labs",
+      "ENTRYTYPE": "misc",
+      "ID": "flux2024"
+    },
+    {
+      "year": "2020",
+      "journal": "arXiv preprint arXiv:2010.11929",
+      "author": "Dosovitskiy, Alexey and Beyer, Lucas and Kolesnikov, Alexander and Weissenborn, Dirk and Zhai, Xiaohua and Unterthiner, Thomas and Dehghani, Mostafa and Minderer, Matthias and Heigold, Georg and Gelly, Sylvain and others",
+      "title": "An image is worth 16x16 words: Transformers for image recognition at scale",
+      "ENTRYTYPE": "article",
+      "ID": "dosovitskiy2020image"
+    },
+    {
+      "year": "2021",
+      "pages": "3558--3568",
+      "booktitle": "Proceedings of the IEEE/CVF conference on computer vision and pattern recognition",
+      "author": "Changpinyo, Soravit and Sharma, Piyush and Ding, Nan and Soricut, Radu",
+      "title": "Conceptual 12m: Pushing web-scale image-text pre-training to recognize long-tail visual concepts",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "changpinyo2021conceptual"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2309.15807",
+      "author": "Dai, Xiaoliang and Hou, Ji and Ma, Chih-Yao and Tsai, Sam and Wang, Jialiang and Wang, Rui and Zhang, Peizhao and Vandenhende, Simon and Wang, Xiaofang and Dubey, Abhimanyu and others",
+      "title": "Emu: Enhancing image generation models using photogenic needles in a haystack",
+      "ENTRYTYPE": "article",
+      "ID": "dai2023emu"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2410.02740",
+      "author": "Lai, Zhengfeng and Saveris, Vasileios and Chen, Chen and Chen, Hong-You and Zhang, Haotian and Zhang, Bowen and Tebar, Juan Lao and Hu, Wenze and Gan, Zhe and Grasch, Peter and others",
+      "title": "Revisit large-scale image-caption data in pre-training multimodal foundation models",
+      "ENTRYTYPE": "article",
+      "ID": "lai2024revisit"
+    },
+    {
+      "year": "2023",
+      "pages": "8",
+      "number": "3",
+      "volume": "2",
+      "journal": "Computer Science. https://cdn. openai. com/papers/dall-e-3. pdf",
+      "author": "Betker, James and Goh, Gabriel and Jing, Li and Brooks, Tim and Wang, Jianfeng and Li, Linjie and Ouyang, Long and Zhuang, Juntang and Lee, Joyce and Guo, Yufei and others",
+      "title": "Improving image generation with better captions",
+      "ENTRYTYPE": "article",
+      "ID": "betker2023improving"
+    },
+    {
+      "url": "https://arxiv.org/abs/2410.13720",
+      "primaryclass": "cs.CV",
+      "archiveprefix": "arXiv",
+      "eprint": "2410.13720",
+      "year": "2025",
+      "author": "Adam Polyak and Amit Zohar and Andrew Brown and Andros Tjandra and Animesh Sinha and Ann Lee and Apoorv Vyas and Bowen Shi and Chih-Yao Ma and Ching-Yao Chuang and David Yan and Dhruv Choudhary and Dingkang Wang and Geet Sethi and Guan Pang and Haoyu Ma and Ishan Misra and Ji Hou and Jialiang Wang and Kiran Jagadeesh and Kunpeng Li and Luxin Zhang and Mannat Singh and Mary Williamson and Matt Le and Matthew Yu and Mitesh Kumar Singh and Peizhao Zhang and Peter Vajda and Quentin Duval and Rohit Girdhar and Roshan Sumbaly and Sai Saketh Rambhatla and Sam Tsai and Samaneh Azadi and Samyak Datta and Sanyuan Chen and Sean Bell and Sharadh Ramaswamy and Shelly Sheynin and Siddharth Bhattacharya and Simran Motwani and Tao Xu and Tianhe Li and Tingbo Hou and Wei-Ning Hsu and Xi Yin and Xiaoliang Dai and Yaniv Taigman and Yaqiao Luo and Yen-Cheng Liu and Yi-Chiao Wu and Yue Zhao and Yuval Kirstain and Zecheng He and Zijian He and Albert Pumarola and Ali Thabet and Artsiom Sanakoyeu and Arun Mallya and Baishan Guo and Boris Araya and Breena Kerr and Carleigh Wood and Ce Liu and Cen Peng and Dimitry Vengertsev and Edgar Schonfeld and Elliot Blanchard and Felix Juefei-Xu and Fraylie Nord and Jeff Liang and John Hoffman and Jonas Kohler and Kaolin Fire and Karthik Sivakumar and Lawrence Chen and Licheng Yu and Luya Gao and Markos Georgopoulos and Rashel Moritz and Sara K. Sampson and Shikai Li and Simone Parmeggiani and Steve Fine and Tara Fowler and Vladan Petrovic and Yuming Du",
+      "title": "Movie Gen: A Cast of Media Foundation Models",
+      "ENTRYTYPE": "misc",
+      "ID": "polyak2025moviegencastmedia"
+    },
+    {
+      "school": "University of Oxford",
+      "year": "2021",
+      "author": "Patrick Kidger",
+      "title": "{O}n {N}eural {D}ifferential {E}quations",
+      "ENTRYTYPE": "phdthesis",
+      "ID": "kidger2021on"
+    },
+    {
+      "url": "https://arxiv.org/abs/1706.08500",
+      "primaryclass": "cs.LG",
+      "archiveprefix": "arXiv",
+      "eprint": "1706.08500",
+      "year": "2018",
+      "author": "Martin Heusel and Hubert Ramsauer and Thomas Unterthiner and Bernhard Nessler and Sepp Hochreiter",
+      "title": "GANs Trained by a Two Time-Scale Update Rule Converge to a Local Nash Equilibrium",
+      "ENTRYTYPE": "misc",
+      "ID": "heusel2018ganstrainedtimescaleupdate"
+    },
+    {
+      "url": "https://arxiv.org/abs/1405.0312",
+      "primaryclass": "cs.CV",
+      "archiveprefix": "arXiv",
+      "eprint": "1405.0312",
+      "year": "2015",
+      "author": "Tsung-Yi Lin and Michael Maire and Serge Belongie and Lubomir Bourdev and Ross Girshick and James Hays and Pietro Perona and Deva Ramanan and C. Lawrence Zitnick and Piotr Dollár",
+      "title": "Microsoft COCO: Common Objects in Context",
+      "ENTRYTYPE": "misc",
+      "ID": "lin2015microsoftcococommonobjects"
+    },
+    {
+      "url": "https://arxiv.org/abs/2103.00020",
+      "primaryclass": "cs.CV",
+      "archiveprefix": "arXiv",
+      "eprint": "2103.00020",
+      "year": "2021",
+      "author": "Alec Radford and Jong Wook Kim and Chris Hallacy and Aditya Ramesh and Gabriel Goh and Sandhini Agarwal and Girish Sastry and Amanda Askell and Pamela Mishkin and Jack Clark and Gretchen Krueger and Ilya Sutskever",
+      "title": "Learning Transferable Visual Models From Natural Language Supervision",
+      "ENTRYTYPE": "misc",
+      "ID": "radford2021learningtransferablevisualmodels"
+    },
+    {
+      "url": "https://arxiv.org/abs/2104.08718",
+      "primaryclass": "cs.CV",
+      "archiveprefix": "arXiv",
+      "eprint": "2104.08718",
+      "year": "2022",
+      "author": "Jack Hessel and Ari Holtzman and Maxwell Forbes and Ronan Le Bras and Yejin Choi",
+      "title": "CLIPScore: A Reference-free Evaluation Metric for Image Captioning",
+      "ENTRYTYPE": "misc",
+      "ID": "hessel2022clipscorereferencefreeevaluationmetric"
+    },
+    {
+      "url": "https://arxiv.org/abs/2305.01569",
+      "primaryclass": "cs.CV",
+      "archiveprefix": "arXiv",
+      "eprint": "2305.01569",
+      "year": "2023",
+      "author": "Yuval Kirstain and Adam Polyak and Uriel Singer and Shahbuland Matiana and Joe Penna and Omer Levy",
+      "title": "Pick-a-Pic: An Open Dataset of User Preferences for Text-to-Image Generation",
+      "ENTRYTYPE": "misc",
+      "ID": "kirstain2023pickapicopendatasetuser"
+    },
+    {
+      "url": "https://arxiv.org/abs/2402.17245",
+      "primaryclass": "cs.CV",
+      "archiveprefix": "arXiv",
+      "eprint": "2402.17245",
+      "year": "2024",
+      "author": "Daiqing Li and Aleks Kamko and Ehsan Akhgari and Ali Sabet and Linmiao Xu and Suhail Doshi",
+      "title": "Playground v2.5: Three Insights towards Enhancing Aesthetic Quality in Text-to-Image Generation",
+      "ENTRYTYPE": "misc",
+      "ID": "li2024playgroundv25insightsenhancing"
+    },
+    {
+      "url": "https://arxiv.org/abs/2310.11513",
+      "primaryclass": "cs.CV",
+      "archiveprefix": "arXiv",
+      "eprint": "2310.11513",
+      "year": "2023",
+      "author": "Dhruba Ghosh and Hanna Hajishirzi and Ludwig Schmidt",
+      "title": "GenEval: An Object-Focused Framework for Evaluating Text-to-Image Alignment",
+      "ENTRYTYPE": "misc",
+      "ID": "ghosh2023genevalobjectfocusedframeworkevaluating"
+    },
+    {
+      "url": "https://arxiv.org/abs/2310.18235",
+      "primaryclass": "cs.CV",
+      "archiveprefix": "arXiv",
+      "eprint": "2310.18235",
+      "year": "2024",
+      "author": "Jaemin Cho and Yushi Hu and Roopal Garg and Peter Anderson and Ranjay Krishna and Jason Baldridge and Mohit Bansal and Jordi Pont-Tuset and Su Wang",
+      "title": "Davidsonian Scene Graph: Improving Reliability in Fine-grained Evaluation for Text-to-Image Generation",
+      "ENTRYTYPE": "misc",
+      "ID": "cho2024davidsonianscenegraphimproving"
+    },
+    {
+      "url": "https://arxiv.org/abs/2307.06350",
+      "primaryclass": "cs.CV",
+      "archiveprefix": "arXiv",
+      "eprint": "2307.06350",
+      "year": "2023",
+      "author": "Kaiyi Huang and Kaiyue Sun and Enze Xie and Zhenguo Li and Xihui Liu",
+      "title": "T2I-CompBench: A Comprehensive Benchmark for Open-world Compositional Text-to-image Generation",
+      "ENTRYTYPE": "misc",
+      "ID": "huang2023t2icompbenchcomprehensivebenchmarkopenworld"
+    },
+    {
+      "url": "https://arxiv.org/abs/2304.05977",
+      "primaryclass": "cs.CV",
+      "archiveprefix": "arXiv",
+      "eprint": "2304.05977",
+      "year": "2023",
+      "author": "Jiazheng Xu and Xiao Liu and Yuchen Wu and Yuxuan Tong and Qinkai Li and Ming Ding and Jie Tang and Yuxiao Dong",
+      "title": "ImageReward: Learning and Evaluating Human Preferences for Text-to-Image Generation",
+      "ENTRYTYPE": "misc",
+      "ID": "xu2023imagerewardlearningevaluatinghuman"
+    },
+    {
+      "url": "https://arxiv.org/abs/2210.08402",
+      "primaryclass": "cs.CV",
+      "archiveprefix": "arXiv",
+      "eprint": "2210.08402",
+      "year": "2022",
+      "author": "Christoph Schuhmann and Romain Beaumont and Richard Vencu and Cade Gordon and Ross Wightman and Mehdi Cherti and Theo Coombes and Aarush Katta and Clayton Mullis and Mitchell Wortsman and Patrick Schramowski and Srivatsa Kundurthy and Katherine Crowson and Ludwig Schmidt and Robert Kaczmarczyk and Jenia Jitsev",
+      "title": "LAION-5B: An open large-scale dataset for training next generation image-text models",
+      "ENTRYTYPE": "misc",
+      "ID": "schuhmann2022laion5bopenlargescaledataset"
+    },
+    {
+      "url": "https://arxiv.org/abs/2410.11795",
+      "primaryclass": "cs.CV",
+      "archiveprefix": "arXiv",
+      "eprint": "2410.11795",
+      "year": "2024",
+      "author": "Zhiyuan Ma and Yuzhu Zhang and Guoli Jia and Liangliang Zhao and Yichao Ma and Mingjie Ma and Gaofeng Liu and Kaiyan Zhang and Jianjun Li and Bowen Zhou",
+      "title": "Efficient Diffusion Models: A Comprehensive Survey from Principles to Practices",
+      "ENTRYTYPE": "misc",
+      "ID": "ma2024efficientdiffusionmodelscomprehensive"
+    },
+    {
+      "url": "https://arxiv.org/abs/1706.03762",
+      "primaryclass": "cs.CL",
+      "archiveprefix": "arXiv",
+      "eprint": "1706.03762",
+      "year": "2023",
+      "author": "Ashish Vaswani and Noam Shazeer and Niki Parmar and Jakob Uszkoreit and Llion Jones and Aidan N. Gomez and Lukasz Kaiser and Illia Polosukhin",
+      "title": "Attention Is All You Need",
+      "ENTRYTYPE": "misc",
+      "ID": "vaswani2023attentionneed"
+    },
+    {
+      "url": "https://arxiv.org/abs/2304.12526",
+      "primaryclass": "cs.CV",
+      "archiveprefix": "arXiv",
+      "eprint": "2304.12526",
+      "year": "2023",
+      "author": "Zhendong Wang and Yifan Jiang and Huangjie Zheng and Peihao Wang and Pengcheng He and Zhangyang Wang and Weizhu Chen and Mingyuan Zhou",
+      "title": "Patch Diffusion: Faster and More Data-Efficient Training of Diffusion Models",
+      "ENTRYTYPE": "misc",
+      "ID": "wang2023patchdiffusionfasterdataefficient"
+    },
+    {
+      "url": "https://arxiv.org/abs/2204.06125",
+      "primaryclass": "cs.CV",
+      "archiveprefix": "arXiv",
+      "eprint": "2204.06125",
+      "year": "2022",
+      "author": "Aditya Ramesh and Prafulla Dhariwal and Alex Nichol and Casey Chu and Mark Chen",
+      "title": "Hierarchical Text-Conditional Image Generation with CLIP Latents",
+      "ENTRYTYPE": "misc",
+      "ID": "ramesh2022hierarchicaltextconditionalimagegeneratio"
+    },
+    {
+      "url": "https://arxiv.org/abs/2205.11487",
+      "primaryclass": "cs.CV",
+      "archiveprefix": "arXiv",
+      "eprint": "2205.11487",
+      "year": "2022",
+      "author": "Chitwan Saharia and William Chan and Saurabh Saxena and Lala Li and Jay Whang and Emily Denton and Seyed Kamyar Seyed Ghasemipour and Burcu Karagol Ayan and S. Sara Mahdavi and Rapha Gontijo Lopes and Tim Salimans and Jonathan Ho and David J Fleet and Mohammad Norouzi",
+      "title": "Photorealistic Text-to-Image Diffusion Models with Deep Language Understanding",
+      "ENTRYTYPE": "misc",
+      "ID": "saharia2022photorealistictexttoimagediffusionmodels"
+    },
+    {
+      "url": "https://arxiv.org/abs/2312.02139",
+      "primaryclass": "cs.CV",
+      "archiveprefix": "arXiv",
+      "eprint": "2312.02139",
+      "year": "2024",
+      "author": "Ali Hatamizadeh and Jiaming Song and Guilin Liu and Jan Kautz and Arash Vahdat",
+      "title": "DiffiT: Diffusion Vision Transformers for Image Generation",
+      "ENTRYTYPE": "misc",
+      "ID": "hatamizadeh2024diffitdiffusionvisiontransformers"
+    },
+    {
+      "url": "https://arxiv.org/abs/2312.04557",
+      "primaryclass": "cs.CV",
+      "archiveprefix": "arXiv",
+      "eprint": "2312.04557",
+      "year": "2024",
+      "author": "Shoufa Chen and Mengmeng Xu and Jiawei Ren and Yuren Cong and Sen He and Yanping Xie and Animesh Sinha and Ping Luo and Tao Xiang and Juan-Manuel Perez-Rua",
+      "title": "GenTron: Diffusion Transformers for Image and Video Generation",
+      "ENTRYTYPE": "misc",
+      "ID": "chen2024gentrondiffusiontransformersimage"
+    },
+    {
+      "year": "2020",
+      "booktitle": "International Conference on Learning Representations",
+      "author": "Lan, Zhenzhong and Chen, Mingda and Goodman, Sebastian and Gimpel, Kevin and Sharma, Piyush and Soricut, Radu",
+      "title": "ALBERT: A Lite BERT for Self-supervised Learning of Language Representations",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "lanalbert"
+    },
+    {
+      "url": "https://arxiv.org/abs/2312.09181",
+      "primaryclass": "cs.CV",
+      "archiveprefix": "arXiv",
+      "eprint": "2312.09181",
+      "year": "2024",
+      "author": "Huijie Zhang and Yifu Lu and Ismail Alkhouri and Saiprasad Ravishankar and Dogyoon Song and Qing Qu",
+      "title": "Improving Efficiency of Diffusion Models via Multi-Stage Framework and Tailored Multi-Decoder Architectures",
+      "ENTRYTYPE": "misc",
+      "ID": "zhang2024improvingefficiencydiffusionmodels"
+    },
+    {
+      "pages": "9713–9728",
+      "year": "2024",
+      "author": "Toker, Michael and Orgad, Hadas and Ventura, Mor and Arad, Dana and Belinkov, Yonatan",
+      "publisher": "Association for Computational Linguistics",
+      "booktitle": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+      "doi": "10.18653/v1/2024.acl-long.524",
+      "url": "http://dx.doi.org/10.18653/v1/2024.acl-long.524",
+      "title": "Diffusion Lens: Interpreting Text Encoders in Text-to-Image Pipelines",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "Toker_2024"
+    },
+    {
+      "url": "https://arxiv.org/abs/2401.05252",
+      "primaryclass": "cs.CV",
+      "archiveprefix": "arXiv",
+      "eprint": "2401.05252",
+      "year": "2024",
+      "author": "Junsong Chen and Yue Wu and Simian Luo and Enze Xie and Sayak Paul and Ping Luo and Hang Zhao and Zhenguo Li",
+      "title": "PIXART-{$\\delta$}: Fast and Controllable Image Generation with Latent Consistency Models",
+      "ENTRYTYPE": "misc",
+      "ID": "chen2024pixartdeltafastcontrollableimage"
+    },
+    {
+      "url": "https://arxiv.org/abs/2403.04692",
+      "primaryclass": "cs.CV",
+      "archiveprefix": "arXiv",
+      "eprint": "2403.04692",
+      "year": "2024",
+      "author": "Junsong Chen and Chongjian Ge and Enze Xie and Yue Wu and Lewei Yao and Xiaozhe Ren and Zhongdao Wang and Ping Luo and Huchuan Lu and Zhenguo Li",
+      "title": "PixArt-$\\Sigma$: Weak-to-Strong Training of Diffusion Transformer for 4K Text-to-Image Generation",
+      "ENTRYTYPE": "misc",
+      "ID": "chen2024pixartsigmaweaktostrongtrainingdiffusion"
+    },
+    {
+      "url": "https://arxiv.org/abs/2303.09522",
+      "primaryclass": "cs.CV",
+      "archiveprefix": "arXiv",
+      "eprint": "2303.09522",
+      "year": "2023",
+      "author": "Andrey Voynov and Qinghao Chu and Daniel Cohen-Or and Kfir Aberman",
+      "title": "P+: Extended Textual Conditioning in Text-to-Image Generation",
+      "ENTRYTYPE": "misc",
+      "ID": "voynov2023pextendedtextualconditioning"
+    },
+    {
+      "url": "https://arxiv.org/abs/2306.10804",
+      "primaryclass": "cs.CV",
+      "archiveprefix": "arXiv",
+      "eprint": "2306.10804",
+      "year": "2023",
+      "author": "Yuanzhi Zhu and Zhaohai Li and Tianwei Wang and Mengchao He and Cong Yao",
+      "title": "Conditional Text Image Generation with Diffusion Models",
+      "ENTRYTYPE": "misc",
+      "ID": "zhu2023conditionaltextimagegeneration"
+    },
+    {
+      "url": "https://arxiv.org/abs/2309.17400",
+      "primaryclass": "cs.CV",
+      "archiveprefix": "arXiv",
+      "eprint": "2309.17400",
+      "year": "2024",
+      "author": "Kevin Clark and Paul Vicol and Kevin Swersky and David J Fleet",
+      "title": "Directly Fine-Tuning Diffusion Models on Differentiable Rewards",
+      "ENTRYTYPE": "misc",
+      "ID": "kevin2024directlyfinetuningdiffusionmodels"
+    },
+    {
+      "url": "https://arxiv.org/abs/2306.09341",
+      "primaryclass": "cs.CV",
+      "archiveprefix": "arXiv",
+      "eprint": "2306.09341",
+      "year": "2023",
+      "author": "Xiaoshi Wu and Yiming Hao and Keqiang Sun and Yixiong Chen and Feng Zhu and Rui Zhao and Hongsheng Li",
+      "title": "Human Preference Score v2: A Solid Benchmark for Evaluating Human Preferences of Text-to-Image Synthesis",
+      "ENTRYTYPE": "misc",
+      "ID": "xiaoshi2023humanpreferencescorev2"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2023",
+      "pages": "7480--7512",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Dehghani, Mostafa and Djolonga, Josip and Mustafa, Basil and Padlewski, Piotr and Heek, Jonathan and Gilmer, Justin and Steiner, Andreas Peter and Caron, Mathilde and Geirhos, Robert and Alabdulmohsin, Ibrahim and others",
+      "title": "Scaling vision transformers to 22 billion parameters",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "dehghani2023scaling"
+    },
+    {
+      "year": "2022",
+      "booktitle": "Winter Conference on Applications of Computer Vision (WACV)",
+      "title": "{Sandwich Batch Normalization: A Drop-In Replacement for Feature Distribution Heterogeneity}",
+      "author": "Xinyu Gong and Wuyang Chen and Tianlong Chen and Zhangyang Wang",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "gong2022sandwich-norm"
+    },
+    {
+      "year": "2021",
+      "pages": "19822--19835",
+      "volume": "34",
+      "journal": "Advances in neural information processing systems",
+      "author": "Ding, Ming and Yang, Zhuoyi and Hong, Wenyi and Zheng, Wendi and Zhou, Chang and Yin, Da and Lin, Junyang and Zou, Xu and Shao, Zhou and Yang, Hongxia and others",
+      "title": "Cogview: Mastering text-to-image generation via transformers",
+      "ENTRYTYPE": "article",
+      "ID": "ding2021cogview"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "2024",
+      "pages": "127063",
+      "volume": "568",
+      "journal": "Neurocomputing",
+      "author": "Su, Jianlin and Ahmed, Murtadha and Lu, Yu and Pan, Shengfeng and Bo, Wen and Liu, Yunfeng",
+      "title": "Roformer: Enhanced transformer with rotary position embedding",
+      "ENTRYTYPE": "article",
+      "ID": "su2024roformer"
+    },
+    {
+      "year": "2023",
+      "pages": "15903--15935",
+      "volume": "36",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Xu, Jiazheng and Liu, Xiao and Wu, Yuchen and Tong, Yuxuan and Li, Qinkai and Ding, Ming and Tang, Jie and Dong, Yuxiao",
+      "title": "Imagereward: Learning and evaluating human preferences for text-to-image generation",
+      "ENTRYTYPE": "article",
+      "ID": "xu2023imagereward"
+    },
+    {
+      "url": "https://arxiv.org/abs/2106.15282",
+      "primaryclass": "cs.CV",
+      "archiveprefix": "arXiv",
+      "eprint": "2106.15282",
+      "year": "2021",
+      "author": "Jonathan Ho and Chitwan Saharia and William Chan and David J. Fleet and Mohammad Norouzi and Tim Salimans",
+      "title": "Cascaded Diffusion Models for High Fidelity Image Generation",
+      "ENTRYTYPE": "misc",
+      "ID": "ho2021cascadeddiffusionmodelshigh"
+    },
+    {
+      "url": "https://arxiv.org/abs/1909.08593",
+      "primaryclass": "cs.CL",
+      "archiveprefix": "arXiv",
+      "eprint": "1909.08593",
+      "year": "2020",
+      "author": "Daniel M. Ziegler and Nisan Stiennon and Jeffrey Wu and Tom B. Brown and Alec Radford and Dario Amodei and Paul Christiano and Geoffrey Irving",
+      "title": "Fine-Tuning Language Models from Human Preferences",
+      "ENTRYTYPE": "misc",
+      "ID": "ziegler2020finetuninglanguagemodelshuman"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2410.10629",
+      "author": "Xie, Enze and Chen, Junsong and Chen, Junyu and Cai, Han and Tang, Haotian and Lin, Yujun and Zhang, Zhekai and Li, Muyang and Zhu, Ligeng and Lu, Yao and others",
+      "title": "Sana: Efficient high-resolution image synthesis with linear diffusion transformers",
+      "ENTRYTYPE": "article",
+      "ID": "xie2024sana"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "2025",
+      "journal": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+      "author": "Huang, Kaiyi and Duan, Chengqi and Sun, Kaiyue and Xie, Enze and Li, Zhenguo and Liu, Xihui",
+      "title": "T2I-CompBench++: An Enhanced and Comprehensive Benchmark for Compositional Text-to-Image Generation",
+      "ENTRYTYPE": "article",
+      "ID": "huang2025t2i"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2501.17811",
+      "author": "Chen, Xiaokang and Wu, Zhiyu and Liu, Xingchao and Pan, Zizheng and Liu, Wen and Xie, Zhenda and Yu, Xingkai and Ruan, Chong",
+      "title": "Janus-pro: Unified multimodal understanding and generation with data and model scaling",
+      "ENTRYTYPE": "article",
+      "ID": "chen2025janus"
+    },
+    {
+      "year": "2019",
+      "booktitle": "Proc. NeurIPS",
+      "author": "Song, Y. and Ermon, S.",
+      "title": "{Generative modeling by estimating gradients of the data distribution}",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "song2019generative"
+    },
+    {
+      "url": "https://arxiv.org/abs/2304.07193",
+      "primaryclass": "cs.CV",
+      "archiveprefix": "arXiv",
+      "eprint": "2304.07193",
+      "year": "2024",
+      "author": "Maxime Oquab and Timothée Darcet and Théo Moutakanni and Huy Vo and Marc Szafraniec and Vasil Khalidov and Pierre Fernandez and Daniel Haziza and Francisco Massa and Alaaeldin El-Nouby and Mahmoud Assran and Nicolas Ballas and Wojciech Galuba and Russell Howes and Po-Yao Huang and Shang-Wen Li and Ishan Misra and Michael Rabbat and Vasu Sharma and Gabriel Synnaeve and Hu Xu and Hervé Jegou and Julien Mairal and Patrick Labatut and Armand Joulin and Piotr Bojanowski",
+      "title": "DINOv2: Learning Robust Visual Features without Supervision",
+      "ENTRYTYPE": "misc",
+      "ID": "oquab2024dinov2learningrobustvisual"
+    },
+    {
+      "booktitle": "Proc. ICLR",
+      "year": "2025",
+      "author": "Sihyun Yu and Sangkyung Kwak and Huiwon Jang and Jongheon Jeong and Jonathan Huang and Jinwoo Shin and Saining Xie",
+      "title": "Representation Alignment for Generation: Training Diffusion Transformers Is Easier Than You Think",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "yu2025representationalignmentgenerationtraining"
+    },
+    {
+      "url": "https://arxiv.org/abs/2504.10483",
+      "primaryclass": "cs.CV",
+      "archiveprefix": "arXiv",
+      "eprint": "2504.10483",
+      "year": "2025",
+      "author": "Xingjian Leng and Jaskirat Singh and Yunzhong Hou and Zhenchang Xing and Saining Xie and Liang Zheng",
+      "title": "REPA-E: Unlocking VAE for End-to-End Tuning with Latent Diffusion Transformers",
+      "ENTRYTYPE": "misc",
+      "ID": "leng2025repaeunlockingvaeendtoend"
+    },
+    {
+      "url": "https://arxiv.org/abs/2501.01423",
+      "primaryclass": "cs.CV",
+      "archiveprefix": "arXiv",
+      "eprint": "2501.01423",
+      "year": "2025",
+      "author": "Jingfeng Yao and Bin Yang and Xinggang Wang",
+      "title": "Reconstruction vs. Generation: Taming Optimization Dilemma in Latent Diffusion Models",
+      "ENTRYTYPE": "misc",
+      "ID": "yao2025reconstructionvsgenerationtaming"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "1980",
+      "pages": "19--26",
+      "number": "1",
+      "volume": "6",
+      "journal": "Journal of computational and applied mathematics",
+      "author": "Dormand, John R and Prince, Peter J",
+      "title": "A family of embedded Runge-Kutta formulae",
+      "ENTRYTYPE": "article",
+      "ID": "dormand1980family"
+    },
+    {
+      "author": "P. Guo and A.~G. Schwing",
+      "booktitle": "https://arxiv.org/abs/2502.09616",
+      "year": "2025",
+      "title": "{Variational Rectified Flow Matching}",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "GuoARXIV2025"
+    },
+    {
+      "year": "2007",
+      "title": "Scaling Learning Algorithms Towards {AI}",
+      "publisher": "MIT Press",
+      "booktitle": "Large Scale Kernel Machines",
+      "author": "Bengio, Y. and LeCun, Y.",
+      "ENTRYTYPE": "incollection",
+      "ID": "Bengio+chapter2007"
+    },
+    {
+      "year": "2006",
+      "title": "A Fast Learning Algorithm for Deep Belief Nets",
+      "journal": "Neural Computation",
+      "author": "Hinton, G.~E. and Osindero, S. and Teh, Y.~W.",
+      "ENTRYTYPE": "article",
+      "ID": "Hinton06"
+    },
+    {
+      "publisher": "MIT Press",
+      "year": "2016",
+      "author": "Goodfellow, I. and Bengio, Y. and Courville, A. and Bengio, Y.",
+      "title": "Deep learning",
+      "ENTRYTYPE": "book",
+      "ID": "goodfellow2016deep"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2303.08797",
+      "author": "Albergo, M. and Boffi, N. and Vanden-Eijnden, E.",
+      "title": "Stochastic interpolants: A unifying framework for flows and diffusions",
+      "ENTRYTYPE": "article",
+      "ID": "albergo2023stochastic"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2209.14577",
+      "author": "Liu, Q.",
+      "title": "Rectified flow: A marginal preserving approach to optimal transport",
+      "ENTRYTYPE": "article",
+      "ID": "liu2022rectified"
+    },
+    {
+      "year": "2018",
+      "booktitle": "Proc. NeurIPS",
+      "author": "Chen, R. and Rubanova, Y. and Bettencourt, J. and Duvenaud, D.",
+      "title": "Neural ordinary differential equations",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ChenARXIV2018"
+    },
+    {
+      "year": "2021",
+      "booktitle": "Proc. ICLR",
+      "title": "{Score-based generative modeling through stochastic differential equations}",
+      "author": "Y. Song and J. Sohl-Dickstein and D. Kingma and A. Kumar and S. Ermon and B. Poole",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "SongICLR2021"
+    },
+    {
+      "year": "2023",
+      "booktitle": "Proc. ICLR",
+      "title": "Flow Matching for Generative Modeling",
+      "author": "Y. Lipman and R. Chen and H. Ben-Hamu and M. Nickel and M. Le",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "LipmanICLR2023"
+    },
+    {
+      "year": "2018",
+      "booktitle": "Proc. ICLR",
+      "title": "{FFJORD: Free-form continuous dynamics for scalable reversible generative models}",
+      "author": "W. Grathwohl and R. Chen and J. Bettencourt and I. Sutskever and D. Duvenaud",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "GrathwohlICLR2018"
+    },
+    {
+      "year": "1989",
+      "journal": "Maximum Entropy and Bayesian Methods",
+      "title": "{The eigenvalues of mega-dimensional matrices}",
+      "author": "J. Skilling",
+      "ENTRYTYPE": "article",
+      "ID": "Skilling1989"
+    },
+    {
+      "year": "2014",
+      "booktitle": "Proc. ICLR",
+      "title": "{Auto-Encoding Variational Bayes}",
+      "author": "D. Kingma and M. Welling",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "KingmaICLR2014"
+    },
+    {
+      "year": "2023",
+      "booktitle": "Proc. ICLR",
+      "author": "Liu, X. and Gong, C. and Liu, Q.",
+      "title": "Flow straight and fast: Learning to generate and transfer data with rectified flow",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "liu2023flow"
+    },
+    {
+      "year": "2023",
+      "booktitle": "Proc. ICLR",
+      "author": "Albergo, M. and Vanden-Eijnden, E.",
+      "title": "Building normalizing flows with stochastic interpolants",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "albergo2023building"
+    },
+    {
+      "year": "2021",
+      "booktitle": "Proc. ICLR",
+      "author": "Song, J. and Meng, C. and Ermon, S.",
+      "title": "Denoising diffusion implicit models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "song2021denoising"
+    },
+    {
+      "year": "2024",
+      "journal": "Nature Reviews Bioengineering",
+      "author": "Guo, Z. and Liu, J. and Wang, Y. and Chen, M. and Wang, D. and Xu, D. and Cheng, J.",
+      "title": "Diffusion models in bioinformatics and computational biology",
+      "ENTRYTYPE": "article",
+      "ID": "guo2024diffusion"
+    },
+    {
+      "year": "2022",
+      "booktitle": "Proc. ICLR",
+      "author": "Song, Y. and Shen, L. and Xing, L. and Ermon, S.",
+      "title": "Solving inverse problems in medical imaging with score-based generative models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "song2022solving"
+    },
+    {
+      "year": "2021",
+      "booktitle": "Proc. NeurIPS",
+      "author": "Jalal, A. and Arvinte, M. and Daras, G. and Price, E. and Dimakis, A. and Tamir, J.",
+      "title": "Robust compressed sensing {MRI} with deep generative priors",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "jalal2021robust"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "2023",
+      "journal": "IEEE Robotics and Automation Letters",
+      "author": "Kapelyukh, I. and Vosylius, V. and Johns, E.",
+      "title": "{DALL-E-Bot: Introducing web-scale diffusion models to robotics}",
+      "ENTRYTYPE": "article",
+      "ID": "kapelyukh2023dall"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2208.11970",
+      "author": "Luo, C.",
+      "title": "Understanding diffusion models: A unified perspective",
+      "ENTRYTYPE": "article",
+      "ID": "luo2022understanding"
+    },
+    {
+      "year": "2003",
+      "journal": "Tina-Vision Memo",
+      "author": "Bromiley, P.",
+      "title": "Products and convolutions of Gaussian probability density functions",
+      "ENTRYTYPE": "article",
+      "ID": "bromiley2003products"
+    },
+    {
+      "year": "2023",
+      "booktitle": "Proc. ICML",
+      "author": "Pooladian, A.-A. and Ben-Hamu, H. and Domingo-Enrich, C. and Amos, B. and Lipman, Y. and Chen, R.",
+      "title": "Multisample Flow Matching: Straightening Flows with Minibatch Couplings",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "pooladian2023multisample"
+    },
+    {
+      "year": "2024",
+      "journal": "TMLR",
+      "author": "Tong, A. and Malkin, N. and Huguet, G. and Zhang, Y. and Rector-Brooks, J. and Fatras, K. and Wolf, G. and Bengio, Y.",
+      "title": "Improving and generalizing flow-based generative models with minibatch optimal transport",
+      "ENTRYTYPE": "article",
+      "ID": "tong2023improving"
+    },
+    {
+      "year": "2023",
+      "booktitle": "Proc. ICML",
+      "author": "Lee, S. and Kim, B. and Ye, J. C.",
+      "title": "Minimizing trajectory curvature of ode-based generative models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "lee2023minimizing"
+    },
+    {
+      "year": "2021",
+      "booktitle": "Proc. NeurIPS",
+      "author": "De Bortoli, V. and Thornton, J. and Heng, J. and Doucet, A.",
+      "title": "Diffusion schr{\\\"o}dinger bridge with applications to score-based generative modeling",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "de2021diffusion"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2208.14699",
+      "author": "Liu, X. and Wu, L. and Ye, M. and Liu, Q.",
+      "title": "Let us build bridges: Understanding and extending diffusion generative models",
+      "ENTRYTYPE": "article",
+      "ID": "liu2022let"
+    },
+    {
+      "year": "2024",
+      "booktitle": "Proc. NeurIPS",
+      "author": "Shi, Y. and De Bortoli, V. and Campbell, A. and Doucet, A.",
+      "title": "Diffusion Schr{\\\"o}dinger bridge matching",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "shi2024diffusion"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2310.03725",
+      "author": "Albergo, M. and Goldstein, M. and Boffi, N. and Ranganath, R. and Vanden-Eijnden, E.",
+      "title": "Stochastic interpolants with data-dependent couplings",
+      "ENTRYTYPE": "article",
+      "ID": "albergo2024sto"
+    },
+    {
+      "year": "2014",
+      "booktitle": "Proc. NeurIPS",
+      "author": "Goodfellow, I. and Pouget-Abadie, J. and Mirza, M. and Xu, B. and Warde-Farley, D. and Ozair, S. and Courville, A. and Bengio, Y.",
+      "title": "Generative adversarial nets",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "goodfellow2014generative"
+    },
+    {
+      "year": "2015",
+      "booktitle": "Proc. ICML",
+      "author": "Rezende, D. and Mohamed, S.",
+      "title": "Variational inference with normalizing flows",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "rezende2015variational"
+    },
+    {
+      "year": "2015",
+      "booktitle": "Proc. ICML",
+      "author": "Sohl-Dickstein, J. and Weiss, E. and Maheswaranathan, N. and Ganguli, S.",
+      "title": "Deep unsupervised learning using nonequilibrium thermodynamics",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "sohl2015deep"
+    },
+    {
+      "year": "2021",
+      "booktitle": "Proc. NeurIPS",
+      "author": "Song, Y. and Durkan, C. and Murray, I. and Ermon, S.",
+      "title": "Maximum likelihood training of score-based diffusion models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "song2021maximum"
+    },
+    {
+      "year": "2022",
+      "booktitle": "Proc. ICLR",
+      "author": "Xiao, Z. and Kreis, K. and Vahdat, A.",
+      "title": "Tackling the generative learning trilemma with denoising diffusion {GAN}s",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "xiao2022tackling"
+    },
+    {
+      "year": "2024",
+      "booktitle": "Proc. NeurIPS",
+      "author": "Bansal, A. and Borgnia, E. and Chu, H.-M. and Li, J. and Kazemi, H. and Huang, F. and Goldblum, M. and Geiping, J. and Goldstein, T.",
+      "title": "Cold diffusion: Inverting arbitrary image transforms without noise",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "bansal2024cold"
+    },
+    {
+      "year": "2022",
+      "booktitle": "Proc. ICML",
+      "author": "Lu, C. and Zheng, K. and Bao, F. and Chen, J. and Li, C. and Zhu, J.",
+      "title": "{Maximum likelihood training for score-based diffusion ODEs by high order denoising score matching}",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "lu2022maximum"
+    },
+    {
+      "year": "2013",
+      "journal": "Communications on Pure and Applied Mathematics",
+      "author": "Tabak, E. and Turner, C.",
+      "title": "A family of nonparametric density estimation algorithms",
+      "ENTRYTYPE": "article",
+      "ID": "tabak2013family"
+    },
+    {
+      "year": "2022",
+      "booktitle": "Proc. NeurIPS",
+      "author": "Saharia, C. and Chan, W. and Saxena, S. and Li, L. and Whang, J. and Denton, E. and Ghasemipour, K. and Gontijo Lopes, R. and Karagol Ayan, B. and Salimans, T. and Ho, J. and Fleet, D. J. and Mohammad Norouzi, M.",
+      "title": "Photorealistic text-to-image diffusion models with deep language understanding",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "saharia2022photorealistic"
+    },
+    {
+      "year": "2021",
+      "booktitle": "Proc. NeurIPS",
+      "author": "Rozen, N. and Grover, A. and Nickel, M. and Lipman, Y.",
+      "title": "Moser flow: Divergence-based generative modeling on manifolds",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "rozen2021moser"
+    },
+    {
+      "year": "2017",
+      "booktitle": "Proc. ICLR",
+      "author": "Dinh, L. and Sohl-Dickstein, J. and Bengio, S.",
+      "title": "Density estimation using real nvp",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "dinh2017density"
+    },
+    {
+      "year": "2018",
+      "booktitle": "Proc. ICML",
+      "author": "Huang, C.-W. and Krueger, D. and Lacoste, A. and Courville, A.",
+      "title": "Neural autoregressive flows",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "huang2018neural"
+    },
+    {
+      "year": "2017",
+      "booktitle": "Proc. ICML",
+      "author": "Arjovsky, M. and Chintala, S. and Bottou, L.",
+      "title": "Wasserstein generative adversarial networks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "arjovsky2017wasserstein"
+    },
+    {
+      "year": "2019",
+      "booktitle": "Proc. NeurIPS",
+      "author": "Durkan, C. and Bekasov, A. and Murray, I. and Papamakarios, G.",
+      "title": "Neural spline flows",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "durkan2019neural"
+    },
+    {
+      "year": "2019",
+      "booktitle": "Proc. ICLR",
+      "author": "Grathwohl, W. and Chen, R. and Bettencourt, J. and Duvenaud, D.",
+      "title": "Scalable reversible generative models with free-form continuous dynamics",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "grathwohl2019scalable"
+    },
+    {
+      "publisher": "Taylor \\& Francis",
+      "year": "1990",
+      "journal": "Communications in Statistics-Simulation and Computation",
+      "author": "Hutchinson, M.",
+      "title": "{A stochastic estimator of the trace of the influence matrix for Laplacian smoothing splines}",
+      "ENTRYTYPE": "article",
+      "ID": "hutchinson1989stochastic"
+    },
+    {
+      "year": "2020",
+      "booktitle": "Proc. ICML",
+      "author": "Finlay, C. and Jacobsen, J.-H. and Nurbekyan, L. and Oberman, A.",
+      "title": "How to train your neural ODE: the world of Jacobian and kinetic regularization",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "finlay2020train"
+    },
+    {
+      "year": "2021",
+      "booktitle": "Proc. AAAI",
+      "author": "Onken, D. and Fung, S.~W. and Li, X. and Ruthotto, L.",
+      "title": "{OT-F}low: Fast and accurate continuous normalizing flows via optimal transport",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "onken2021ot"
+    },
+    {
+      "year": "2022",
+      "booktitle": "Proc. ICML",
+      "author": "Ben-Hamu, H. and Cohen, S. and Bose, J. and Amos, B. and Nickel, M. and Grover, A. and Chen, R. and Lipman, Y.",
+      "title": "Matching Normalizing Flows and Probability Paths on Manifolds",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ben2022matching"
+    },
+    {
+      "year": "2022",
+      "booktitle": "Proc. ICML",
+      "author": "Hoogeboom, E. and Satorras, V.~G. and Vignac, C. and Welling, M.",
+      "title": "Equivariant diffusion for molecule generation in 3d",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "hoogeboom2022equivariant"
+    },
+    {
+      "institution": "University of Toronto",
+      "year": "2009",
+      "author": "Krizhevsky, A.",
+      "title": "Learning multiple layers of features from tiny images",
+      "ENTRYTYPE": "techreport",
+      "ID": "krizhevsky2009learning"
+    },
+    {
+      "year": "2016",
+      "booktitle": "Proc. CVPR",
+      "author": "He, K. and Zhang, X. and Ren, S. and Sun, J.",
+      "title": "Deep residual learning for image recognition",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "he2016deep"
+    },
+    {
+      "year": "2015",
+      "booktitle": "Proc. MICCAI",
+      "author": "Ronneberger, O. and Fischer, P. and Brox, T.",
+      "title": "U-net: Convolutional networks for biomedical image segmentation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ronneberger2015u"
+    },
+    {
+      "year": "1998",
+      "journal": "Proceedings of the IEEE",
+      "author": "LeCun, Y. and Bottou, L. and Bengio, Y. and Haffner, P.",
+      "title": "Gradient-based learning applied to document recognition",
+      "ENTRYTYPE": "article",
+      "ID": "lecun1998gradient"
+    },
+    {
+      "publisher": "Taylor \\& Francis",
+      "year": "2022",
+      "journal": "Stochastic Analysis and Applications",
+      "author": "Jornet, Marc",
+      "title": "Liouville’s equations for random systems",
+      "ENTRYTYPE": "article",
+      "ID": "jornet2022liouville"
+    },
+    {
+      "publisher": "Springer",
+      "year": "2023",
+      "journal": "SeMA Journal",
+      "author": "Jornet, Marc",
+      "title": "Theory and methods for random differential equations: a survey",
+      "ENTRYTYPE": "article",
+      "ID": "jornet2023theory"
+    },
+    {
+      "publisher": "World Scientific",
+      "year": "2007",
+      "journal": "Modern physics letters B",
+      "author": "Tarasov, Vasily E",
+      "title": "Liouville and Bogoliubov equations with fractional derivatives",
+      "ENTRYTYPE": "article",
+      "ID": "tarasov2007liouville"
+    },
+    {
+      "publisher": "Springer",
+      "year": "2003",
+      "journal": "Transport in porous media",
+      "author": "Shvidler, Mark and Karasaki, Kenzi",
+      "title": "Probability density functions for solute transport in random field",
+      "ENTRYTYPE": "article",
+      "ID": "shvidler2003probability"
+    },
+    {
+      "publisher": "Springer",
+      "year": "2018",
+      "author": "Xiaoying. Han",
+      "title": "Random Ordinary Differential Equations and Their Numerical Solution",
+      "ENTRYTYPE": "book",
+      "ID": "xiaoying2018random"
+    },
+    {
+      "year": "1964",
+      "pages": "40--69",
+      "volume": "16",
+      "booktitle": "Proc. Sympos. Appl. Math",
+      "author": "Bharucha-Reid, AT",
+      "title": "On the theory of random equations",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "bharucha1964theory"
+    },
+    {
+      "year": "2018",
+      "version": "0.3.13",
+      "url": "http://github.com/jax-ml/jax",
+      "title": "{JAX}: composable transformations of {P}ython+{N}um{P}y programs",
+      "author": "James Bradbury and Roy Frostig and Peter Hawkins and Matthew James Johnson and Chris Leary and Dougal Maclaurin and George Necula and Adam Paszke and Jake Vander{P}las and Skye Wanderman-{M}ilne and Qiao Zhang",
+      "ENTRYTYPE": "misc",
+      "ID": "jax2018github"
+    },
+    {
+      "organization": "Ieee",
+      "year": "2009",
+      "pages": "248--255",
+      "booktitle": "2009 IEEE conference on computer vision and pattern recognition",
+      "author": "Deng, Jia and Dong, Wei and Socher, Richard and Li, Li-Jia and Li, Kai and Fei-Fei, Li",
+      "title": "Imagenet: A large-scale hierarchical image database",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "deng2009imagenet"
+    },
+    {
+      "publisher": "Springer",
+      "year": "1996",
+      "author": "Risken, Hannes and Risken, Hannes",
+      "title": "Fokker-planck equation",
+      "ENTRYTYPE": "book",
+      "ID": "risken1996fokker"
+    }
+  ]
+}

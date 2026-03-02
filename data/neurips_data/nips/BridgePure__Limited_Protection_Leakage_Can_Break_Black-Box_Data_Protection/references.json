@@ -1,0 +1,754 @@
+{
+  "pdf_url": "https://arxiv.org/pdf/2412.21061v2.pdf",
+  "references": [
+    {
+      "note": "tech. report",
+      "url": "https://www.cs.toronto.edu/~kriz/learning-features-2009-TR.pdf",
+      "year": "2009",
+      "author": "Krizhevsky, Alex",
+      "title": "Learning multiple layers of features from tiny images",
+      "ENTRYTYPE": "unpublished",
+      "ID": "Krishevsky09"
+    },
+    {
+      "organization": "IEEE Computer Society",
+      "pages": "212--212",
+      "booktitle": "2024 IEEE Symposium on Security and Privacy (SP)",
+      "year": "2024",
+      "author": "Shan, Shawn and Ding, Wenxin and Passananti, Josephine and Wu, Stanley and Zheng, Haitao and Zhao, Ben Y",
+      "title": "Nightshade: Prompt-Specific Poisoning Attacks on Text-to-Image Generative Models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ShanDPWZZ24"
+    },
+    {
+      "pages": "1589--1604",
+      "booktitle": "29th USENIX security symposium (USENIX Security 20)",
+      "year": "2020",
+      "author": "Shan, Shawn and Wenger, Emily and Zhang, Jiayun and Li, Huiying and Zheng, Haitao and Zhao, Ben Y",
+      "title": "Fawkes: Protecting privacy against unauthorized deep learning models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ShanWZLZZ20"
+    },
+    {
+      "url": "https://openreview.net/forum?id=_i3ASPp12WS",
+      "booktitle": "International Conference on Learning Representations",
+      "year": "2021",
+      "author": "Changhao Shi and Chester Holtz and Gal Mishne",
+      "title": "Online Adversarial Purification based on Self-supervised Learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ShiHM21"
+    },
+    {
+      "organization": "PMLR",
+      "pages": "12062--12072",
+      "booktitle": "International Conference on Machine Learning",
+      "year": "2021",
+      "author": "Yoon, Jongmin and Hwang, Sung Ju and Lee, Juho",
+      "title": "Adversarial purification with score-based generative models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "YoonHL21"
+    },
+    {
+      "booktitle": "International Conference on Machine Learning (ICML)",
+      "year": "2022",
+      "author": "Nie, Weili and Guo, Brandon and Huang, Yujia and Xiao, Chaowei and Vahdat, Arash and Anandkumar, Anima",
+      "title": "Diffusion models for adversarial purification",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "NieGHXVA22"
+    },
+    {
+      "organization": "IEEE",
+      "pages": "358--386",
+      "booktitle": "2024 IEEE Conference on Secure and Trustworthy Machine Learning (SaTML)",
+      "year": "2024",
+      "author": "Dolatabadi, Hadi M and Erfani, Sarah and Leckie, Christopher",
+      "title": "The devil’s advocate: Shattering the illusion of unexploitable data using diffusion models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "DolatabadiEL24"
+    },
+    {
+      "pages": "8910--8921",
+      "booktitle": "Proceedings of the 31st ACM International Conference on Multimedia",
+      "year": "2023",
+      "author": "Jiang, Wan and Diao, Yunfeng and Wang, He and Sun, Jianxin and Wang, Meng and Hong, Richang",
+      "title": "Unlearnable examples give a false sense of security: Piercing through unexploitable data with learnable examples",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "JiangDWSWH23"
+    },
+    {
+      "url": "https://openreview.net/forum?id=ZeihWodDVh",
+      "booktitle": "The Thirty-eighth Annual Conference on Neural Information Processing Systems",
+      "year": "2024",
+      "author": "Omead Pooladzandi and Sunay Gajanan Bhat and Jeffrey Jiang and Alexander Branch and Gregory Pottie",
+      "title": "PureGen: Universal Data Purification for Train-Time Poison Defense via Generative Model Dynamics",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "PooladzandiBJBP124"
+    },
+    {
+      "url": "https://openreview.net/forum?id=0LBNdbmQCM",
+      "booktitle": "Forty-first International Conference on Machine Learning",
+      "year": "2024",
+      "author": "Yi Yu and Yufei Wang and Song Xia and Wenhan Yang and Shijian Lu and Yap-peng Tan and Alex Kot",
+      "title": "Purify Unlearnable Examples via Rate-Constrained Variational Autoencoders",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "YuWXYLTK24"
+    },
+    {
+      "booktitle": "ICLR",
+      "year": "2021",
+      "author": "Hanxun Huang and Xingjun Ma and Sarah Monazam Erfani and James Bailey and Yisen Wang",
+      "title": "Unlearnable Examples: Making Personal Data Unexploitable",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "HuangMEBW21"
+    },
+    {
+      "url": "https://openreview.net/forum?id=FKksTayvGo",
+      "booktitle": "The Twelfth International Conference on Learning Representations",
+      "year": "2024",
+      "author": "Linqi Zhou and Aaron Lou and Samar Khanna and Stefano Ermon",
+      "title": "Denoising Diffusion Bridge Models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ZhouLKE24"
+    },
+    {
+      "booktitle": "Forty-first International Conference on Machine Learning",
+      "year": "2024",
+      "author": "Chen, Chaochao and Zhang, Jiaming and Li, Yuyuan and Han, Zhongxuan",
+      "title": "One for All: A Universal Generator for Concept Unlearnability via Multi-Modal Alignment",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ChenZLH24"
+    },
+    {
+      "pages": "21349--21358",
+      "number": "19",
+      "volume": "38",
+      "booktitle": "Proceedings of the AAAI Conference on Artificial Intelligence",
+      "year": "2024",
+      "author": "Liu, Shuang and Wang, Yihan and Gao, Xiao-Shan",
+      "title": "Game-theoretic unlearnable example generator",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "LiuWG24"
+    },
+    {
+      "pages": "3984--3993",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "year": "2023",
+      "author": "Zhang, Jiaming and Ma, Xingjun and Yi, Qi and Sang, Jitao and Jiang, Yu-Gang and Wang, Yaowei and Xu, Changsheng",
+      "title": "Unlearnable clusters: Towards label-agnostic unlearnable examples",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ZhangMYSJWX23"
+    },
+    {
+      "volume": "32",
+      "journal": "Advances in Neural Information Processing Systems",
+      "year": "2019",
+      "author": "Feng, Ji and Cai, Qi-Zhi and Zhou, Zhi-Hua",
+      "title": "Learning to confuse: Generating training time adversarial data with auto-encoder",
+      "ENTRYTYPE": "article",
+      "ID": "FengCZ19"
+    },
+    {
+      "pages": "30339--30351",
+      "volume": "34",
+      "booktitle": "Advances in Neural Information Processing Systems",
+      "year": "2021",
+      "author": "Fowl, Liam and Goldblum, Micah and Chiang, Ping-yeh and Geiping, Jonas and Czaja, Wojciech and Goldstein, Tom",
+      "title": "Adversarial examples make strong poisons",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "FowlGCGCG21"
+    },
+    {
+      "pages": "2367--2376",
+      "booktitle": "Proceedings of the 28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining",
+      "year": "2022",
+      "author": "Yu, Da and Zhang, Huishuai and Chen, Wei and Yin, Jian and Liu, Tie-Yan",
+      "title": "Availability attacks create shortcuts",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "YuZCYL22"
+    },
+    {
+      "organization": "PMLR",
+      "pages": "12230--12240",
+      "booktitle": "International Conference on Machine Learning",
+      "year": "2021",
+      "author": "Yuan, Chia-Hung and Wu, Shan-Hung",
+      "title": "Neural Tangent Generalization Attacks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "YuanW21"
+    },
+    {
+      "editor": "S. Koyejo and S. Mohamed and A. Agarwal and D. Belgrave and K. Cho and A. Oh",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2022/file/af66ac99716a64476c07ae8b089d59f8-Paper-Conference.pdf",
+      "pages": "27374--27386",
+      "volume": "35",
+      "publisher": "Curran Associates, Inc.",
+      "booktitle": "Advances in Neural Information Processing Systems",
+      "year": "2022",
+      "author": "Sandoval-Segura, Pedro and Singla, Vasu and Geiping, Jonas and Goldblum, Micah and Goldstein, Tom and Jacobs, David",
+      "title": "Autoregressive Perturbations for Data Poisoning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "SandovalSGGGJ22"
+    },
+    {
+      "url": "https://openreview.net/forum?id=baUQQPwQiAg",
+      "booktitle": "International Conference on Learning Representations",
+      "year": "2022",
+      "author": "Shaopeng Fu and Fengxiang He and Yang Liu and Li Shen and Dacheng Tao",
+      "title": "Robust Unlearnable Examples: Protecting Data Privacy Against Adversarial Learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "FuHLST22"
+    },
+    {
+      "url": "https://openreview.net/forum?id=f0a_dWEYg-Td",
+      "booktitle": "The Eleventh International Conference on Learning Representations",
+      "year": "2023",
+      "author": "Hao He and Kaiwen Zha and Dina Katabi",
+      "title": "Indiscriminate Poisoning Attacks on Unsupervised Contrastive Learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "HeZK23"
+    },
+    {
+      "url": "https://openreview.net/forum?id=p7G8t5FVn2h",
+      "booktitle": "The Eleventh International Conference on Learning Representations",
+      "year": "2023",
+      "author": "Shutong Wu and Sizhe Chen and Cihang Xie and Xiaolin Huang",
+      "title": "One-Pixel Shortcut: On the Learning Preference of Deep Neural Networks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "WuCXH23"
+    },
+    {
+      "publisher": "Simon and Schuster",
+      "year": "2023",
+      "author": "Hill, Kashmir",
+      "title": "Your Face Belongs to Us: The Secretive Startup Dismantling Your Privacy",
+      "ENTRYTYPE": "book",
+      "ID": "Hill23"
+    },
+    {
+      "organization": "PMLR",
+      "pages": "20763--20786",
+      "booktitle": "International Conference on Machine Learning",
+      "year": "2023",
+      "author": "Liang, Chumeng and Wu, Xiaoyu and Hua, Yang and Zhang, Jiaru and Xue, Yiming and Song, Tao and Xue, Zhengui and Ma, Ruhui and Guan, Haibing",
+      "title": "Adversarial example does good: Preventing painting imitation from diffusion models via adversarial examples",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "LiangWHZXSXMG23"
+    },
+    {
+      "journal": "arXiv preprint arXiv:1411.7923",
+      "year": "2014",
+      "author": "Yi, Dong and Lei, Zhen and Liao, Shengcai and Li, Stan Z",
+      "title": "Learning face representation from scratch",
+      "ENTRYTYPE": "article",
+      "ID": "YiLLL14"
+    },
+    {
+      "organization": "Ieee",
+      "pages": "248--255",
+      "booktitle": "2009 IEEE conference on computer vision and pattern recognition",
+      "year": "2009",
+      "author": "Deng, Jia and Dong, Wei and Socher, Richard and Li, Li-Jia and Li, Kai and Fei-Fei, Li",
+      "title": "Imagenet: A large-scale hierarchical image database",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "DengDSLLL09"
+    },
+    {
+      "address": "Sydney, Australia",
+      "booktitle": "4th International IEEE Workshop on  3D Representation and Recognition (3dRR-13)",
+      "year": "2013",
+      "author": "Jonathan Krause and Michael Stark and Jia Deng and Li Fei-Fei",
+      "title": "3D Object Representations for Fine-Grained Categorization",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "JonathanMJL13"
+    },
+    {
+      "booktitle": "IEEE Conference on Computer Vision and Pattern Recognition",
+      "year": "2012",
+      "author": "Parkhi, O. M. and Vedaldi, A. and Zisserman, A. and Jawahar, C.~V.",
+      "title": "Cats and Dogs",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ParkhiVZJ12"
+    },
+    {
+      "volume": "25",
+      "journal": "Advances in neural information processing systems",
+      "year": "2012",
+      "author": "Krizhevsky, Alex and Sutskever, Ilya and Hinton, Geoffrey E",
+      "title": "Imagenet classification with deep convolutional neural networks",
+      "ENTRYTYPE": "article",
+      "ID": "KrizhevskySH12"
+    },
+    {
+      "pages": "16209--16225",
+      "volume": "34",
+      "journal": "Advances in Neural Information Processing Systems",
+      "year": "2021",
+      "author": "Tao, Lue and Feng, Lei and Yi, Jinfeng and Huang, Sheng-Jun and Chen, Songcan",
+      "title": "Better safe than sorry: Preventing delusive adversaries with adversarial training",
+      "ENTRYTYPE": "article",
+      "ID": "TaoFYHC21"
+    },
+    {
+      "booktitle": "International Conference on Learning Representations",
+      "year": "2018",
+      "author": "Madry, Aleksander and Makelov, Aleksandar and Schmidt, Ludwig and Tsipras, Dimitris and Vladu, Adrian",
+      "title": "Towards Deep Learning Models Resistant to Adversarial Attacks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "MadryMSTV18"
+    },
+    {
+      "url": "https://iccv23-arow.github.io/pdf/arow-0025.pdf",
+      "booktitle": "4th Workshop on Adversarial Robustness In the Real World (AROW), ICCV 2023",
+      "year": "2023",
+      "author": "Qin, Tianrui and Gao, Xitong and Zhao, Juanjuan and Ye, Kejiang and Xu, Cheng-Zhong",
+      "title": "Learning the unlearnable: Adversarial augmentations suppress unlearnable example attacks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "QinGZYX23"
+    },
+    {
+      "pages": "17211--17219",
+      "number": "15",
+      "volume": "38",
+      "booktitle": "Proceedings of the AAAI Conference on Artificial Intelligence",
+      "year": "2024",
+      "author": "Zhu, Yifan and Yu, Lijia and Gao, Xiao-Shan",
+      "title": "Detection and defense of unlearnable examples",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ZhuYG24"
+    },
+    {
+      "organization": "PMLR",
+      "pages": "22473--22487",
+      "booktitle": "International conference on machine learning",
+      "year": "2023",
+      "author": "Liu, Zhuoran and Zhao, Zhengyu and Larson, Martha",
+      "title": "Image shortcut squeezing: Countering perturbative availability poisons with compression",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "LiuZL23"
+    },
+    {
+      "url": "https://openreview.net/forum?id=9MO7bjoAfIA",
+      "booktitle": "The Eleventh International Conference on Learning Representations",
+      "year": "2023",
+      "author": "Sizhe Chen and Geng Yuan and Xinwen Cheng and Yifan Gong and Minghai Qin and Yanzhi Wang and Xiaolin Huang",
+      "title": "Self-Ensemble Protection: Training Checkpoints Are Good Data Protectors",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ChenYCGQWH22"
+    },
+    {
+      "url": "https://openreview.net/forum?id=-htnolWDLvP",
+      "booktitle": "The Eleventh International Conference on Learning Representations",
+      "year": "2023",
+      "author": "Jie Ren and Han Xu and Yuxuan Wan and Xingjun Ma and Lichao Sun and Jiliang Tang",
+      "title": "Transferable Unlearnable Examples",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "RenXWMST23"
+    },
+    {
+      "url": "https://openreview.net/forum?id=FbUSCraXEB",
+      "booktitle": "The Thirty-eighth Annual Conference on Neural Information Processing Systems",
+      "year": "2024",
+      "author": "Yihan Wang and Yifan Zhu and Xiao-Shan Gao",
+      "title": "Efficient Availability Attacks against Supervised and Contrastive Learning Simultaneously",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "WangZG24"
+    },
+    {
+      "url": "https://openreview.net/forum?id=Sw0O2ESxbf",
+      "year": "2024",
+      "author": "Bin Fang and Bo Li and Shuang Wu and Shouhong Ding and Tianyi Zheng and Ran Yi and Lizhuang Ma",
+      "title": "Collapsing the Learning: Crafting Broadly Transferable Unlearnable Examples",
+      "ENTRYTYPE": "misc",
+      "ID": "FangLWDZYM24"
+    },
+    {
+      "url": "https://openreview.net/forum?id=zKvm1ETDOq",
+      "booktitle": "The Eleventh International Conference on Learning Representations",
+      "year": "2023",
+      "author": "Rui Wen and Zhengyu Zhao and Zhuoran Liu and Michael Backes and Tianhao Wang and Yang Zhang",
+      "title": "Is Adversarial Training Really a Silver Bullet for Mitigating Data Poisoning?",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "WenZLBWZ23"
+    },
+    {
+      "url": "https://openreview.net/forum?id=BkJ3ibb0-",
+      "booktitle": "International Conference on Learning Representations",
+      "year": "2018",
+      "author": "Pouya Samangouei and Maya Kabkab and Rama Chellappa",
+      "title": "Defense-{GAN}: Protecting Classifiers Against Adversarial Attacks Using Generative Models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "SamangoueiKC18"
+    },
+    {
+      "pages": "1711--1724",
+      "volume": "29",
+      "publisher": "IEEE",
+      "journal": "IEEE Transactions on Image Processing",
+      "year": "2019",
+      "author": "Mustafa, Aamir and Khan, Salman H and Hayat, Munawar and Shen, Jianbing and Shao, Ling",
+      "title": "Image super-resolution as a defense against adversarial attacks",
+      "ENTRYTYPE": "article",
+      "ID": "MustafaKHSS19"
+    },
+    {
+      "url": "https://openreview.net/forum?id=4VL5QWQFBV",
+      "booktitle": "The Thirty-eighth Annual Conference on Neural Information Processing Systems",
+      "year": "2024",
+      "author": "Junqiang Huang and Zhaojun Guo and Ge Luo and Zhenxing Qian and Sheng Li and Xinpeng Zhang",
+      "title": "Disentangled Style Domain for Implicit \\$z\\$-Watermark Towards Copyright Protection",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "HuangGLQLZ24"
+    },
+    {
+      "journal": "arXiv preprint arXiv:2406.12027",
+      "year": "2024",
+      "author": "H{\\\"o}nig, Robert and Rando, Javier and Carlini, Nicholas and Tram{\\`e}r, Florian",
+      "title": "Adversarial Perturbations Cannot Reliably Protect Artists From Generative AI",
+      "ENTRYTYPE": "article",
+      "ID": "HonigRCT24"
+    },
+    {
+      "organization": "PMLR",
+      "pages": "8748--8763",
+      "booktitle": "International conference on machine learning",
+      "year": "2021",
+      "author": "Radford, Alec and Kim, Jong Wook and Hallacy, Chris and Ramesh, Aditya and Goh, Gabriel and Agarwal, Sandhini and Sastry, Girish and Askell, Amanda and Mishkin, Pamela and Clark, Jack and others",
+      "title": "Learning transferable visual models from natural language supervision",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "RadfordKHRGASAMC21"
+    },
+    {
+      "organization": "PMLR",
+      "pages": "1597--1607",
+      "booktitle": "International conference on machine learning",
+      "year": "2020",
+      "author": "Chen, Ting and Kornblith, Simon and Norouzi, Mohammad and Hinton, Geoffrey",
+      "title": "A simple framework for contrastive learning of visual representations",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ChenKMH20"
+    },
+    {
+      "pages": "10684--10695",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "year": "2022",
+      "author": "Rombach, Robin and Blattmann, Andreas and Lorenz, Dominik and Esser, Patrick and Ommer, Bj\\\"orn",
+      "title": "High-Resolution Image Synthesis With Latent Diffusion Models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "RombachBLEO22"
+    },
+    {
+      "organization": "PMLR",
+      "pages": "19730--19742",
+      "booktitle": "International conference on machine learning",
+      "year": "2023",
+      "author": "Li, Junnan and Li, Dongxu and Savarese, Silvio and Hoi, Steven",
+      "title": "Blip-2: Bootstrapping language-image pre-training with frozen image encoders and large language models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "LiLSH23"
+    },
+    {
+      "pages": "2187--2204",
+      "booktitle": "32nd USENIX Security Symposium (USENIX Security 23)",
+      "year": "2023",
+      "author": "Shan, Shawn and Cryan, Jenna and Wenger, Emily and Zheng, Haitao and Hanocka, Rana and Zhao, Ben Y",
+      "title": "Glaze: Protecting artists from style mimicry by $\\{$Text-to-Image$\\}$ models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ShanCWZHZ23"
+    },
+    {
+      "booktitle": "Proceedings of International Conference on Computer Vision (ICCV)",
+      "year": "2015",
+      "author": "Liu, Ziwei and Luo, Ping and Wang, Xiaogang and Tang, Xiaoou",
+      "title": "Deep Learning Face Attributes in the Wild",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "LLWT15"
+    },
+    {
+      "journal": "arXiv preprint arXiv:2205.01992",
+      "year": "2022",
+      "author": "Cin{\\`a}, Antonio Emanuele and Grosse, Kathrin and Demontis, Ambra and Vascon, Sebastiano and Zellinger, Werner and Moser, Bernhard A and Oprea, Alina and Biggio, Battista and Pelillo, Marcello and Roli, Fabio",
+      "title": "Wild Patterns Reloaded: A Survey of Machine Learning Security against Training Data Poisoning",
+      "ENTRYTYPE": "article",
+      "ID": "CinaGDVZMOBPR22"
+    },
+    {
+      "url": "https://doi.org/10.1145/3128572.3140451",
+      "booktitle": "Proceedings of the 10th ACM Workshop on Artificial Intelligence and Security {(AISec)}",
+      "year": "2017",
+      "author": "Luis Mu{\\~ n}oz-Gonz{\\' a}lez and Battista Biggio and Ambra Demontis and Andrea Paudice and Vasin Wongrassamee and Emil C. Lupu and Fabio Roli",
+      "title": "Towards Poisoning of Deep Learning Algorithms with Back-gradient Optimization",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "GonzalezBDPWLR17"
+    },
+    {
+      "url": "http://proceedings.mlr.press/v139/suya21a/suya21a.pdf",
+      "pages": "10000--10010",
+      "booktitle": "Proceedings of the 38th International Conference on Machine Learning",
+      "year": "2021",
+      "author": "Suya, Fnu and Mahloujifar, Saeed and Suri, Anshuman and Evans, David and Tian, Yuan",
+      "title": "Model-targeted poisoning attacks with provable convergence",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "SuyaMSET21"
+    },
+    {
+      "pages": "3520--3532",
+      "booktitle": "Advances in Neural Information Processing Systems {(NeurIPS)}",
+      "year": "2017",
+      "author": "Steinhardt, Jacob and Koh, Pang Wei and Liang, Percy",
+      "title": "Certified defenses for data poisoning attacks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "SteinhardtKL17"
+    },
+    {
+      "url": "https://proceedings.mlr.press/v70/koh17a/koh17a.pdf",
+      "pages": "1885--1894",
+      "booktitle": "Proceedings of the 34th International Conference on Machine Learning {(ICML)}",
+      "year": "2017",
+      "author": "Koh, Pang Wei and Liang, Percy",
+      "title": "Understanding black-box predictions via influence functions",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "KohL17"
+    },
+    {
+      "url": "https://doi.org/10.1007/s10994-021-06119-y",
+      "pages": "1–-47",
+      "volume": "111",
+      "journal": "Machine Learning",
+      "year": "2022",
+      "author": "Pang Wei Koh and Jacob Steinhardt and Percy Liang",
+      "title": "Stronger Data Poisoning Attacks Break Data Sanitization Defenses",
+      "ENTRYTYPE": "article",
+      "ID": "KohSL18"
+    },
+    {
+      "url": "",
+      "booktitle": "Proceedings of the 40th International Conference on Machine Learning",
+      "year": "2023",
+      "author": "Lu, Yiwei and Kamath, Gautam and Yu, Yaoliang",
+      "title": "Exploring the Limits of Model-Targeted Indiscriminate Data Poisoning Attacks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "LuKY23"
+    },
+    {
+      "url": "https://openreview.net/forum?id=x4hmIsWu7e",
+      "journal": "Transactions on Machine Learning Research",
+      "year": "2022",
+      "author": "Lu, Yiwei and Kamath, Gautam and Yu, Yaoliang",
+      "title": "Indiscriminate Data Poisoning Attacks on Neural Networks",
+      "ENTRYTYPE": "article",
+      "ID": "LuKY22"
+    },
+    {
+      "url": "https://icml.cc/2012/papers/880.pdf",
+      "pages": "1467–-1474",
+      "booktitle": "Proceedings of the 29th International Conference on Machine Learning {(ICML)}",
+      "year": "2012",
+      "author": "Battista Biggio and Blaine Nelson and Pavel Laskov",
+      "title": "Poisoning attacks against support vector machines",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "BiggioNL12"
+    },
+    {
+      "organization": "IEEE",
+      "pages": "327--343",
+      "booktitle": "2024 IEEE Conference on Secure and Trustworthy Machine Learning (SaTML)",
+      "year": "2024",
+      "author": "Lu, Yiwei and Yang, Matthew YR and Kamath, Gautam and Yu, Yaoliang",
+      "title": "Indiscriminate Data Poisoning Attacks on Pre-trained Feature Extractors",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "LuYKY24"
+    },
+    {
+      "url": "https://doi.org/10.1109/EuroSP51992.2021.00021",
+      "pages": "159--178",
+      "booktitle": "{IEEE} European Symposium on Security and Privacy ({EuroS\\&P})",
+      "year": "2021",
+      "author": "Aghakhani, Hojjat and Meng, Dongyu and Wang, Yu-Xiang and Kruegel, Christopher and Vigna, Giovanni",
+      "title": "Bullseye polytope: A scalable clean-label poisoning attack with improved transferability",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "AghakhaniMWKV20"
+    },
+    {
+      "url": "https://doi.org/10.1007/978-3-030-58583-9_9",
+      "pages": "142–-158",
+      "booktitle": "European Conference on Computer Vision",
+      "year": "2020",
+      "author": "Guo, Junfeng and Liu, Cong",
+      "title": "Practical Poisoning Attacks on Neural Networks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "GuoL20"
+    },
+    {
+      "url": "https://proceedings.neurips.cc/paper/2018/file/22722a343513ed45f14905eb07621686-Paper.pdf",
+      "pages": "6103--6113",
+      "booktitle": "Advances in Neural Information Processing Systems {(NeurIPS)}",
+      "year": "2018",
+      "author": "Shafahi, Ali and Huang, W. Ronny and Najibi, Mahyar and Suciu, Octavian and Studer, Christoph and Dumitras, Tudor and Goldstein, Tom",
+      "title": "Poison Frogs! Targeted Clean-Label Poisoning Attacks on Neural Networks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ShafahiHNSSDG18"
+    },
+    {
+      "url": "https://openreview.net/forum?id=01olnfLIbD",
+      "booktitle": "International Conference on Learning Representations",
+      "year": "2021",
+      "author": "Jonas Geiping and Liam H Fowl and W. Ronny Huang and Wojciech Czaja and Gavin Taylor and Michael Moeller and Tom Goldstein",
+      "title": "Witches' Brew: ial Scale Data Poisoning via Gradient Matching",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "GeipingFHCTMG20"
+    },
+    {
+      "url": "https://proceedings.mlr.press/v97/zhu19a.html",
+      "pages": "7614--7623",
+      "booktitle": "International Conference on Machine Learning",
+      "year": "2019",
+      "author": "Zhu, Chen and Huang, W Ronny and Li, Hengduo and Taylor, Gavin and Studer, Christoph and Goldstein, Tom",
+      "title": "Transferable clean-label poisoning attacks on deep neural nets",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ZhuHLTSG19e"
+    },
+    {
+      "note": "arXiv:1708.06733",
+      "url": "https://arxiv.org/abs/1708.06733",
+      "year": "2017",
+      "author": "Gu, Tianyu and Dolan-Gavitt, Brendan and Garg, Siddharth",
+      "title": "Badnets: Identifying vulnerabilities in the machine learning model supply chain",
+      "ENTRYTYPE": "unpublished",
+      "ID": "GuDG17"
+    },
+    {
+      "url": "https://papers.nips.cc/paper/2018/hash/280cf18baf4311c92aa5a042336587d3-Abstract.html",
+      "booktitle": "Advances in Neural Information Processing Systems {(NeurIPS)}",
+      "year": "2018",
+      "author": "Brandon Tran and Jerry Li and Aleksander Madry",
+      "title": "Spectral Signatures in Backdoor Attacks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "TranLM18"
+    },
+    {
+      "note": "arXiv:1712.05526",
+      "url": "https://arxiv.org/abs/1712.05526",
+      "year": "2017",
+      "author": "Chen, Xinyun and Liu, Chang and Li, Bo and Lu, Kimberly and Song, Dawn",
+      "title": "Targeted backdoor attacks on deep learning systems using data poisoning",
+      "ENTRYTYPE": "unpublished",
+      "ID": "ChenLLLS17"
+    },
+    {
+      "url": "https://doi.org/10.1609/aaai.v34i07.6871",
+      "booktitle": "Proceedings of the {AAAI} Conference on Artificial Intelligence",
+      "year": "2020",
+      "author": "Saha, Aniruddha and Subramanya, Akshayvarun and Pirsiavash, Hamed",
+      "title": "Hidden trigger backdoor attacks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "SahaSP20"
+    },
+    {
+      "pages": "7132--7141",
+      "booktitle": "Proceedings of the IEEE conference on computer vision and pattern recognition",
+      "year": "2018",
+      "author": "Hu, Jie and Shen, Li and Sun, Gang",
+      "title": "Squeeze-and-excitation networks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "HuSS18"
+    },
+    {
+      "pages": "4510--4520",
+      "booktitle": "Proceedings of the IEEE conference on computer vision and pattern recognition",
+      "year": "2018",
+      "author": "Sandler, Mark and Howard, Andrew and Zhu, Menglong and Zhmoginov, Andrey and Chen, Liang-Chieh",
+      "title": "Mobilenetv2: Inverted residuals and linear bottlenecks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "SandlerHZZC18"
+    },
+    {
+      "pages": "4700--4708",
+      "booktitle": "Proceedings of the IEEE conference on computer vision and pattern recognition",
+      "year": "2017",
+      "author": "Huang, Gao and Liu, Zhuang and Van Der Maaten, Laurens and Weinberger, Kilian Q",
+      "title": "Densely connected convolutional networks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "HuangLVW17"
+    },
+    {
+      "url": "https://openreview.net/forum?id=YicbFdNTTy",
+      "year": "2021",
+      "booktitle": "International Conference on Learning Representations",
+      "author": "Alexey Dosovitskiy and Lucas Beyer and Alexander Kolesnikov and Dirk Weissenborn and Xiaohua Zhai and Thomas Unterthiner and Mostafa Dehghani and Matthias Minderer and Georg Heigold and Sylvain Gelly and Jakob Uszkoreit and Neil Houlsby",
+      "title": "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "DosovitskiyBKWZUDMHGUH21"
+    },
+    {
+      "pages": "32--42",
+      "booktitle": "Proceedings of the IEEE/CVF international conference on computer vision",
+      "year": "2021",
+      "author": "Touvron, Hugo and Cord, Matthieu and Sablayrolles, Alexandre and Synnaeve, Gabriel and J{\\'e}gou, Herv{\\'e}",
+      "title": "Going deeper with image transformers",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "TouvronCSSJ21"
+    },
+    {
+      "url": "https://openreview.net/forum?id=PxTIG12RRHS",
+      "booktitle": "International Conference on Learning Representations",
+      "year": "2021",
+      "author": "Yang Song and Jascha Sohl-Dickstein and Diederik P Kingma and Abhishek Kumar and Stefano Ermon and Ben Poole",
+      "title": "Score-Based Generative Modeling through Stochastic Differential Equations",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "SongSKKEP21"
+    },
+    {
+      "booktitle": "International Conference on Learning Representations",
+      "year": "2022",
+      "author": "Radiya-Dixit, Evani and Hong, Sanghyun and Carlini, Nicholas and Tramer, Florian",
+      "title": "Data Poisoning Won’t Save You From Facial Recognition",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "RadiyaHCT22"
+    },
+    {
+      "volume": "262",
+      "publisher": "Springer",
+      "year": "1984",
+      "author": "Doob, Joseph L",
+      "title": "Classical potential theory and its probabilistic counterpart",
+      "ENTRYTYPE": "book",
+      "ID": "DoobD84"
+    },
+    {
+      "volume": "2",
+      "publisher": "Cambridge university press",
+      "year": "2000",
+      "author": "Rogers, L Chris G and Williams, David",
+      "title": "Diffusions, Markov processes, and martingales: It{\\^o} calculus",
+      "ENTRYTYPE": "book",
+      "ID": "RogersW00"
+    },
+    {
+      "year": "2024",
+      "pages": "24398--24407",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Zhao, Zhengyue and Duan, Jinhao and Xu, Kaidi and Wang, Chenan and Zhang, Rui and Du, Zidong and Guo, Qi and Hu, Xing",
+      "title": "Can protective perturbation safeguard personal data from being exploited by stable diffusion?",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zhao2024can"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2404.13320",
+      "author": "Xue, Haotian and Chen, Yongxin",
+      "title": "Pixel is a barrier: Diffusion models are more adversarially robust than we think",
+      "ENTRYTYPE": "article",
+      "ID": "xue2024pixel"
+    },
+    {
+      "pages": "10657--10677",
+      "volume": "36",
+      "journal": "Advances in Neural Information Processing Systems",
+      "year": "2023",
+      "author": "Cao, Bochuan and Li, Changjiang and Wang, Ting and Jia, Jinyuan and Li, Bo and Chen, Jinghui",
+      "title": "Impress: {{Evaluating}} the Resilience of Imperceptible Perturbations against Unauthorized Data Usage in Diffusion-Based Generative Ai",
+      "ENTRYTYPE": "article",
+      "ID": "CaoLWJLC23"
+    }
+  ]
+}

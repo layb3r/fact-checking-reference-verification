@@ -1,0 +1,492 @@
+{
+  "pdf_url": "https://arxiv.org/pdf/2309.13886v2.pdf",
+  "references": [
+    {
+      "year": "2013",
+      "pages": "1819--1837",
+      "number": "8",
+      "volume": "26",
+      "journal": "{IEEE} Transactions on Knowledge and Data Engineering",
+      "author": "Zhang, Min-Ling and Zhou, Zhi-Hua",
+      "title": "A review on multi-label learning algorithms",
+      "ENTRYTYPE": "article",
+      "ID": "zhang2013review"
+    },
+    {
+      "year": "2021",
+      "pages": "7955--7974",
+      "number": "11",
+      "volume": "44",
+      "journal": "{IEEE} Transactions on Pattern Analysis and Machine Intelligence",
+      "author": "Liu, Weiwei and Wang, Haobo and Shen, Xiaobo and Tsang, Ivor W",
+      "title": "The emerging trends of multi-label learning",
+      "ENTRYTYPE": "article",
+      "ID": "liu2021emerging"
+    },
+    {
+      "year": "2009",
+      "address": "Miami, Florida",
+      "pages": "1643--1650",
+      "booktitle": "Proceedings of the {IEEE/CVF} Conference on Computer Vision and Pattern\nRecognition",
+      "title": "Multi-label sparse coding for automatic image annotation",
+      "author": "Changhu Wang and\nShuicheng Yan and\nLei Zhang and\nHong{-}Jiang Zhang",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "wang2009multi"
+    },
+    {
+      "year": "2017",
+      "address": "Tokyo, Japan",
+      "pages": "115--124",
+      "booktitle": "Proceedings of the 40-th International {ACM} {SIGIR} Conference on\nResearch and Development in Information Retrieval",
+      "title": "Deep Learning for Extreme Multi-label Text Classification",
+      "author": "Jingzhou Liu and\nWei{-}Cheng Chang and\nYuexin Wu and\nYiming Yang",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "liu2017deep"
+    },
+    {
+      "year": "2020",
+      "address": "Seattle, WA",
+      "pages": "13981--13990",
+      "booktitle": "Proceedings of the {IEEE/CVF} Conference on Computer Vision and Pattern Recognition",
+      "title": "Label Distribution Learning on Auxiliary Label Space Graphs for Facial\nExpression Recognition",
+      "author": "Shikai Chen and\nJianfeng Wang and\nYuedong Chen and\nZhongchao Shi and\nXin Geng and\nYong Rui",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "chen2020label"
+    },
+    {
+      "year": "2021",
+      "address": "virtual",
+      "pages": "933--942",
+      "booktitle": "Proceedings of the {IEEE/CVF} Conference on Computer Vision and Pattern Recognition",
+      "title": "Multi-Label Learning From Single Positive Labels",
+      "author": "Elijah Cole and\nOisin Mac Aodha and\nTitouan Lorieul and\nPietro Perona and\nDan Morris and\nNebojsa Jojic",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "cole2021multi"
+    },
+    {
+      "address": "virtual",
+      "year": "2022",
+      "booktitle": "Advances in Neural Information Processing Systems",
+      "author": "Ning Xu and Congyu Qiao and Jiaqi Lv and Xin Geng and Min-Ling Zhang",
+      "title": "One Positive Label is Sufficient: Single-Positive Multi-Label Learning with Label Enhancement",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "xu2022one"
+    },
+    {
+      "year": "2022",
+      "address": "Tel Aviv, Israel",
+      "pages": "423--440",
+      "volume": "13684",
+      "booktitle": "Proceedings of 17th European Conference on Computer Vision",
+      "title": "Acknowledging the Unknown for Multi-label Learning with Single Positive\nLabels",
+      "author": "Donghao Zhou and\nPengfei Chen and\nQiong Wang and\nGuangyong Chen and\nPheng{-}Ann Heng",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zhou2022acknowledging"
+    },
+    {
+      "address": "virtual",
+      "year": "2022",
+      "booktitle": "Advances in Neural Information Processing Systems",
+      "author": "Ming-Kun Xie and Jia-Hao Xiao and Sheng-Jun Huang",
+      "title": "Label-Aware Global Consistency for Multi-Label Learning with Single Positive Labels",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "xielabel"
+    },
+    {
+      "year": "2011",
+      "address": "Budapest, Hungary",
+      "pages": "341--358",
+      "volume": "19",
+      "booktitle": "Proceedings of the 24th annual conference on learning theory",
+      "title": "On the Consistency of Multi-Label Learning",
+      "author": "Wei Gao and\nZhi{-}Hua Zhou",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "gao2011consistency"
+    },
+    {
+      "year": "2017",
+      "address": "Sydney, NSW, Australia",
+      "pages": "3780--3788",
+      "volume": "70",
+      "booktitle": "Proceedings of the 34th International Conference on Machine Learning",
+      "title": "A Unified View of Multi-Label Performance Measures",
+      "author": "Xi{-}Zhu Wu and\nZhi{-}Hua Zhou",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "wu2017unified"
+    },
+    {
+      "year": "2022",
+      "pages": "5199--5210",
+      "number": "9",
+      "volume": "44",
+      "journal": "{IEEE} Transactions on Pattern Analysis and Machine Intelligence",
+      "title": "Multi-Label Classification With Label-Specific Feature Generation:\n{A} Wrapped Approach",
+      "author": "Ze{-}Bang Yu and\nMin{-}Ling Zhang",
+      "ENTRYTYPE": "article",
+      "ID": "yu2021multi"
+    },
+    {
+      "year": "2000",
+      "journal": "CoRR",
+      "title": "The information bottleneck method",
+      "author": "Naftali Tishby and\nFernando C. N. Pereira and\nWilliam Bialek",
+      "ENTRYTYPE": "article",
+      "ID": "tishby2000information"
+    },
+    {
+      "year": "2017",
+      "address": "Toulon, France",
+      "booktitle": "Proceedings of 5th International Conference on Learning Representations",
+      "title": "Deep Variational Information Bottleneck",
+      "author": "Alexander A. Alemi and\nIan Fischer and\nJoshua V. Dillon and\nKevin Murphy",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "AlemiFD017"
+    },
+    {
+      "year": "2019",
+      "address": "Long Beach, California",
+      "pages": "5628--5637",
+      "volume": "97",
+      "booktitle": "Proceedings of the 36th International Conference on Machine Learning",
+      "title": "A Theoretical Analysis of Contrastive Unsupervised Representation\nLearning",
+      "author": "Nikunj Saunshi and\nOrestis Plevrakis and\nSanjeev Arora and\nMikhail Khodak and\nHrishikesh Khandeparkar",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "SaunshiPAKK19"
+    },
+    {
+      "year": "2020",
+      "address": "Seattle, WA",
+      "pages": "9726--9735",
+      "booktitle": "Proceedings of the {IEEE/CVF} Conference on Computer Vision and Pattern Recognition",
+      "title": "Momentum Contrast for Unsupervised Visual Representation Learning",
+      "author": "Kaiming He and\nHaoqi Fan and\nYuxin Wu and\nSaining Xie and\nRoss B. Girshick",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "he2020momentum"
+    },
+    {
+      "year": "2018",
+      "address": "Montr{\\'{e}}al, Canada",
+      "pages": "439--450",
+      "booktitle": "Advances in Neural Information Processing Systems 31",
+      "title": "Implicit Reparameterization Gradients",
+      "author": "Mikhail Figurnov and\nShakir Mohamed and\nAndriy Mnih",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "figurnov2018implicit"
+    },
+    {
+      "year": "2004",
+      "pages": "1757--1771",
+      "number": "9",
+      "volume": "37",
+      "journal": "Pattern recognition",
+      "author": "Boutell, Matthew R and Luo, Jiebo and Shen, Xipeng and Brown, Christopher M",
+      "title": "Learning multi-label scene classification",
+      "ENTRYTYPE": "article",
+      "ID": "boutell2004learning"
+    },
+    {
+      "year": "2011",
+      "pages": "333--359",
+      "number": "3",
+      "volume": "85",
+      "journal": "Machine learning",
+      "author": "Read, Jesse and Pfahringer, Bernhard and Holmes, Geoff and Frank, Eibe",
+      "title": "Classifier chains for multi-label classification",
+      "ENTRYTYPE": "article",
+      "ID": "read2011classifier"
+    },
+    {
+      "year": "2001",
+      "address": "Vancouver, BC, Canada",
+      "pages": "681--687",
+      "booktitle": "Advances in Neural Information Processing Systems 14",
+      "title": "A kernel method for multi-labelled classification",
+      "author": "Andr{\\'{e}} Elisseeff and\nJason Weston",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "elisseeff2001kernel"
+    },
+    {
+      "year": "2008",
+      "pages": "133--153",
+      "number": "2",
+      "volume": "73",
+      "journal": "Machine learning",
+      "author": "F{\\\"u}rnkranz, Johannes and H{\\\"u}llermeier, Eyke and Loza Menc{\\'\\i}a, Eneldo and Brinker, Klaus",
+      "title": "Multilabel classification via calibrated label ranking",
+      "ENTRYTYPE": "article",
+      "ID": "furnkranz2008multilabel"
+    },
+    {
+      "year": "2019",
+      "address": "Long Beach, CA",
+      "pages": "5177--5186",
+      "booktitle": "Proceedings of the {IEEE/CVF} Conference on Computer Vision and Pattern Recognition",
+      "title": "Multi-Label Image Recognition With Graph Convolutional Networks",
+      "author": "Zhao{-}Min Chen and\nXiu{-}Shen Wei and\nPeng Wang and\nYanwen Guo",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "chen2019multi"
+    },
+    {
+      "year": "2022",
+      "pages": "9860--9871",
+      "number": "12",
+      "volume": "44",
+      "journal": "{IEEE} Transactions on Pattern Analysis and Machine Intelligence",
+      "title": "Collaborative Learning of Label Semantics and Deep Label-Specific\nFeatures for Multi-Label Classification",
+      "author": "Jun{-}Yi Hang and\nMin{-}Ling Zhang",
+      "ENTRYTYPE": "article",
+      "ID": "hang2021collaborative"
+    },
+    {
+      "year": "2010",
+      "address": "Atlanta, Georgia",
+      "booktitle": "Proceedings of the 24th {AAAI} Conference on Artificial Intelligence",
+      "title": "Multi-Label Learning with Weak Label",
+      "author": "Yu{-}Yin Sun and\nYin Zhang and\nZhi{-}Hua Zhou",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "sun2010multi"
+    },
+    {
+      "year": "2013",
+      "address": "Lake Tahoe, Nevada",
+      "pages": "2301--2309",
+      "booktitle": "Advances in Neural Information Processing Systems 26",
+      "title": "Speedup Matrix Completion with Side Information: Application to Multi-Label\nLearning",
+      "author": "Miao Xu and\nRong Jin and\nZhi{-}Hua Zhou",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "xu2013speedup"
+    },
+    {
+      "year": "2014",
+      "address": "Beijing, China",
+      "pages": "593--601",
+      "volume": "32",
+      "booktitle": "Proceedings of the 31th International Conference on Machine Learning",
+      "title": "Large-scale Multi-label Learning with Missing Labels",
+      "author": "Hsiang{-}Fu Yu and\nPrateek Jain and\nPurushottam Kar and\nInderjit S. Dhillon",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "yu2014large"
+    },
+    {
+      "year": "2016",
+      "address": "San Francisco, CA",
+      "pages": "1275--1284",
+      "booktitle": "Proceedings of the 22nd {ACM} {SIGKDD} International Conference on\nKnowledge Discovery and Data Mining",
+      "title": "Robust Extreme Multi-label Learning",
+      "author": "Chang Xu and\nDacheng Tao and\nChao Xu",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "xu2016robust"
+    },
+    {
+      "year": "2017",
+      "address": "San Francisco, California",
+      "pages": "2838--2844",
+      "booktitle": "Proceedings of the 21st {AAAI} Conference on Artificial Intelligence",
+      "title": "Learning Deep Latent Space for Multi-Label Classification",
+      "author": "Chih{-}Kuan Yeh and\nWei{-}Chieh Wu and\nWei{-}Jen Ko and\nYu{-}Chiang Frank Wang",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "yeh2017learning"
+    },
+    {
+      "year": "2019",
+      "address": "Shanghai, China",
+      "pages": "982--987",
+      "booktitle": "Proceedings of the {IEEE} International Conference on Multimedia and Expo",
+      "title": "Robust Embedding Framework with Dynamic Hypergraph Fusion for Multi-label\nClassification",
+      "author": "Kaixiang Wang",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "wang2019robust"
+    },
+    {
+      "year": "2014",
+      "address": "Stockholm, Sweden",
+      "pages": "1964--1968",
+      "booktitle": "Proceedings of the 22nd International Conference on Pattern Recognition",
+      "title": "Multi-label Learning with Missing Labels",
+      "author": "Baoyuan Wu and\nZhilei Liu and\nShangfei Wang and\nBao{-}Gang Hu and\nQiang Ji",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "wu2014multi"
+    },
+    {
+      "year": "2016",
+      "address": "Las Vegas, NV",
+      "pages": "770--778",
+      "booktitle": "Proceedings of the {IEEE/CVF} Conference on Computer Vision and Pattern Recognition",
+      "title": "Deep Residual Learning for Image Recognition",
+      "author": "Kaiming He and\nXiangyu Zhang and\nShaoqing Ren and\nJian Sun",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "he2016deep"
+    },
+    {
+      "year": "2017",
+      "address": "Long Beach, CA",
+      "pages": "5998--6008",
+      "booktitle": "Advances in Neural Information Processing Systems 30",
+      "title": "Attention is All you Need",
+      "author": "Ashish Vaswani and\nNoam Shazeer and\nNiki Parmar and\nJakob Uszkoreit and\nLlion Jones and\nAidan N. Gomez and\nLukasz Kaiser and\nIllia Polosukhin",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "vaswani2017attention"
+    },
+    {
+      "year": "2015",
+      "address": "San Diego, CA",
+      "booktitle": "Proceedings of the 3rd International Conference on Learning Representations",
+      "title": "Adam: {A} Method for Stochastic Optimization",
+      "author": "Diederik P. Kingma and\nJimmy Ba",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "KingmaB14"
+    },
+    {
+      "year": "2021",
+      "address": "virtual",
+      "pages": "2340--2350",
+      "booktitle": "Proceedings of the {IEEE/CVF} Conference on Computer Vision and Pattern Recognition",
+      "title": "Re-Labeling ImageNet: From Single to Multi-Labels, From Global to\nLocalized Labels",
+      "author": "Sangdoo Yun and\nSeong Joon Oh and\nByeongho Heo and\nDongyoon Han and\nJunsuk Choe and\nSanghyuk Chun",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "YunOHHCC21"
+    },
+    {
+      "year": "2010",
+      "pages": "303--338",
+      "number": "2",
+      "volume": "88",
+      "journal": "International Journal of Computer Vision",
+      "title": "The Pascal Visual Object Classes {(VOC)} Challenge",
+      "author": "Mark Everingham and\nLuc Van Gool and\nChristopher K. I. Williams and\nJohn M. Winn and\nAndrew Zisserman",
+      "ENTRYTYPE": "article",
+      "ID": "EveringhamGWWZ10"
+    },
+    {
+      "year": "2014",
+      "address": "Zurich, Switzerland",
+      "pages": "740--755",
+      "volume": "8693",
+      "booktitle": "Proceedings of 13th European Conference on Computer Vision",
+      "title": "Microsoft {COCO:} Common Objects in Context",
+      "author": "Tsung{-}Yi Lin and\nMichael Maire and\nSerge J. Belongie and\nJames Hays and\nPietro Perona and\nDeva Ramanan and\nPiotr Doll{\\'{a}}r and\nC. Lawrence Zitnick",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "LinMBHPRDZ14"
+    },
+    {
+      "year": "2009",
+      "address": "Santorini Island, Greece",
+      "booktitle": "Proceedings of the 8th {ACM} International Conference on Image and\nVideo Retrieval",
+      "title": "{NUS-WIDE:} a real-world web image database from National University\nof Singapore",
+      "author": "Tat{-}Seng Chua and\nJinhui Tang and\nRichang Hong and\nHaojie Li and\nZhiping Luo and\nYantao Zheng",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ChuaTHLLZ09"
+    },
+    {
+      "publisher": "California Institute of Technology",
+      "year": "2011",
+      "author": "Wah, Catherine and Branson, Steve and Welinder, Peter and Perona, Pietro and Belongie, Serge",
+      "title": "The caltech-ucsd birds-200-2011 dataset",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "wah2011caltech"
+    },
+    {
+      "year": "2014",
+      "address": "Beijing, China",
+      "pages": "1629--1637",
+      "booktitle": "Proceedings of the 31th International Conference on Machine Learning",
+      "title": "Learnability of the Superset Label Learning Problem",
+      "author": "Li{-}Ping Liu and\nThomas G. Dietterich",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "LiuD14"
+    },
+    {
+      "year": "2017",
+      "address": "Toulon, France",
+      "booktitle": "Proceedings of the 5th International Conference on Learning Representations",
+      "title": "Understanding deep learning requires rethinking generalization",
+      "author": "Chiyuan Zhang and\nSamy Bengio and\nMoritz Hardt and\nBenjamin Recht and\nOriol Vinyals",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ZhangBHRV17"
+    },
+    {
+      "isbn": "978-0-262-01825-8",
+      "year": "2012",
+      "publisher": "{MIT} Press",
+      "series": "Adaptive computation and machine learning",
+      "title": "Foundations of Machine Learning",
+      "author": "Mehryar Mohri and\nAfshin Rostamizadeh and\nAmeet Talwalkar",
+      "ENTRYTYPE": "book",
+      "ID": "Foundations"
+    },
+    {
+      "year": "2022",
+      "pages": "4459--4471",
+      "number": "6",
+      "volume": "52",
+      "journal": "{IEEE} Transactions on Cybernetics",
+      "title": "Towards Class-Imbalance Aware Multi-Label Learning",
+      "author": "Min{-}Ling Zhang and\nYu{-}Kun Li and\nHao Yang and\nXu{-}Ying Liu",
+      "ENTRYTYPE": "article",
+      "ID": "ZhangLYL22"
+    },
+    {
+      "publisher": "JMLR. org",
+      "year": "2006",
+      "pages": "1--30",
+      "volume": "7",
+      "journal": "The Journal of Machine learning research",
+      "author": "Dem{\\v{s}}ar, Janez",
+      "title": "Statistical comparisons of classifiers over multiple data sets",
+      "ENTRYTYPE": "article",
+      "ID": "demvsar2006statistical"
+    },
+    {
+      "address": "New Orleans, LA",
+      "year": "2022",
+      "pages": "14461--14470",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Zhao, Yunrui and Xu, Qianqian and Jiang, Yangbangyan and Wen, Peisong and Huang, Qingming",
+      "title": "Dist-pu: Positive-unlabeled learning from a label distribution perspective",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zhao2022dist"
+    },
+    {
+      "address": "New Orleans, LA",
+      "year": "2022",
+      "pages": "14156--14165",
+      "booktitle": "Proceedings of the {IEEE/CVF} Conference on Computer Vision and Pattern Recognition",
+      "author": "Kim, Youngwook and Kim, Jae Myung and Akata, Zeynep and Lee, Jungwoo",
+      "title": "Large loss matters in weakly supervised multi-label classification",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "kim2022large"
+    },
+    {
+      "address": "Vancover, BC, Canada",
+      "year": "2023",
+      "pages": "3408--3417",
+      "booktitle": "Proceedings of the {IEEE/CVF} Conference on Computer Vision and Pattern Recognition",
+      "title": "Bridging the Gap Between Model Explanations in Partially Annotated\nMulti-Label Classification",
+      "author": "Youngwook Kim and\nJae{-}Myung Kim and\nJieun Jeong and\nCordelia Schmid and\nZeynep Akata and\nJungwoo Lee",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "KimKJSA023"
+    },
+    {
+      "address": "Virtual",
+      "year": "2021",
+      "pages": "8532--8544",
+      "booktitle": "Advances in Neural Information Processing Systems 34",
+      "title": "Mixture Proportion Estimation and {PU} Learning: {A} Modern Approach",
+      "author": "Saurabh Garg and\nYifan Wu and\nAlexander J. Smola and\nSivaraman Balakrishnan and\nZachary C. Lipton",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "GargWSBL21"
+    },
+    {
+      "address": "Honolulu, Hawaii",
+      "organization": "PMLR",
+      "year": "2023",
+      "pages": "22249--22265",
+      "volume": "202",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Liu, Biao and Xu, Ning and Lv, Jiaqi and Geng, Xin",
+      "title": "Revisiting pseudo-label for single-positive multi-label learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "liu2023revisiting"
+    }
+  ]
+}

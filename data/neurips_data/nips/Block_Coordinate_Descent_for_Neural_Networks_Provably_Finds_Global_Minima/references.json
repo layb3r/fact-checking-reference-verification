@@ -1,0 +1,519 @@
+{
+  "pdf_url": "https://arxiv.org/pdf/2510.22667v1.pdf",
+  "references": [
+    {
+      "organization": "PMLR",
+      "year": "2019",
+      "pages": "7313--7323",
+      "booktitle": "International conference on machine learning",
+      "author": "Zeng, Jinshan and Lau, Tim Tsz-Kit and Lin, Shaobo and Yao, Yuan",
+      "title": "Global convergence of block coordinate descent in deep learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zeng2019global"
+    },
+    {
+      "year": "2016",
+      "pages": "770--778",
+      "booktitle": "Proceedings of the IEEE conference on computer vision and pattern recognition",
+      "author": "He, Kaiming and Zhang, Xiangyu and Ren, Shaoqing and Sun, Jian",
+      "title": "Deep residual learning for image recognition",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "he2016deep"
+    },
+    {
+      "year": "2020",
+      "pages": "5417--5428",
+      "volume": "33",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Frei, Spencer and Cao, Yuan and Gu, Quanquan",
+      "title": "Agnostic learning of a single neuron with gradient descent",
+      "ENTRYTYPE": "article",
+      "ID": "frei2020agnostic"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "2005",
+      "pages": "4203--4215",
+      "number": "12",
+      "volume": "51",
+      "journal": "IEEE transactions on information theory",
+      "author": "Candes, Emmanuel J and Tao, Terence",
+      "title": "Decoding by linear programming",
+      "ENTRYTYPE": "article",
+      "ID": "candes2005decoding"
+    },
+    {
+      "publisher": "American Mathematical Society",
+      "year": "2001",
+      "url": "https://books.google.co.jp/books?id=mCX_cWL6rqwC",
+      "series": "Mathematical surveys and monographs",
+      "lccn": "2001041310",
+      "isbn": "9780821837924",
+      "author": "Ledoux, M.",
+      "title": "The Concentration of Measure Phenomenon",
+      "ENTRYTYPE": "book",
+      "ID": "ledoux2001concentration"
+    },
+    {
+      "publisher": "Springer",
+      "year": "2008",
+      "pages": "253--263",
+      "volume": "28",
+      "journal": "Constructive approximation",
+      "author": "Baraniuk, Richard and Davenport, Mark and DeVore, Ronald and Wakin, Michael",
+      "title": "A simple proof of the restricted isometry property for random matrices",
+      "ENTRYTYPE": "article",
+      "ID": "baraniuk2008simple"
+    },
+    {
+      "publisher": "Cambridge university press",
+      "year": "2019",
+      "volume": "48",
+      "author": "Wainwright, Martin J",
+      "title": "High-dimensional statistics: A non-asymptotic viewpoint",
+      "ENTRYTYPE": "book",
+      "ID": "wainwright2019high"
+    },
+    {
+      "year": "2018",
+      "volume": "31",
+      "journal": "Advances in neural information processing systems",
+      "author": "Jacot, Arthur and Gabriel, Franck and Hongler, Cl{\\'e}ment",
+      "title": "Neural tangent kernel: Convergence and generalization in neural networks",
+      "ENTRYTYPE": "article",
+      "ID": "jacot2018neural"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2019",
+      "pages": "242--252",
+      "booktitle": "International conference on machine learning",
+      "author": "Allen-Zhu, Zeyuan and Li, Yuanzhi and Song, Zhao",
+      "title": "A convergence theory for deep learning via over-parameterization",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "allen2019convergence"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2019",
+      "pages": "322--332",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Arora, Sanjeev and Du, Simon and Hu, Wei and Li, Zhiyuan and Wang, Ruosong",
+      "title": "Fine-grained analysis of optimization and generalization for overparameterized two-layer neural networks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "arora2019fine"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2019",
+      "pages": "1675--1685",
+      "booktitle": "International conference on machine learning",
+      "author": "Du, Simon and Lee, Jason and Li, Haochuan and Wang, Liwei and Zhai, Xiyu",
+      "title": "Gradient descent finds global minima of deep neural networks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "du2019gradient"
+    },
+    {
+      "publisher": "Springer",
+      "year": "2020",
+      "pages": "467--492",
+      "volume": "109",
+      "journal": "Machine learning",
+      "author": "Zou, Difan and Cao, Yuan and Zhou, Dongruo and Gu, Quanquan",
+      "title": "Gradient descent optimizes over-parameterized deep ReLU networks",
+      "ENTRYTYPE": "article",
+      "ID": "zou2020gradient"
+    },
+    {
+      "year": "2017",
+      "pages": "4344--4352",
+      "booktitle": "Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition",
+      "author": "Jia, Kui and Tao, Dacheng and Gao, Shenghua and Xu, Xiangmin",
+      "title": "Improving training of deep neural networks via singular value bounding",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "jia2017improving"
+    },
+    {
+      "year": "2021",
+      "pages": "1429--1439",
+      "volume": "34",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Ye, Tian and Du, Simon S",
+      "title": "Global convergence of gradient descent for asymmetric low-rank matrix factorization",
+      "ENTRYTYPE": "article",
+      "ID": "ye2021global"
+    },
+    {
+      "year": "2017",
+      "volume": "30",
+      "journal": "Advances in neural information processing systems",
+      "author": "Bartlett, Peter L and Foster, Dylan J and Telgarsky, Matus J",
+      "title": "Spectrally-normalized margin bounds for neural networks",
+      "ENTRYTYPE": "article",
+      "ID": "bartlett2017spectrally"
+    },
+    {
+      "publisher": "MIT press",
+      "year": "2018",
+      "author": "Mohri, Mehryar and Rostamizadeh, Afshin and Talwalkar, Ameet",
+      "title": "Foundations of machine learning",
+      "ENTRYTYPE": "book",
+      "ID": "mohri2018foundations"
+    },
+    {
+      "year": "2017",
+      "volume": "30",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Zhang, Ziming and Brand, Matthew",
+      "title": "Convergent block coordinate descent for training tikhonov regularized deep neural networks",
+      "ENTRYTYPE": "article",
+      "ID": "zhang2017convergent"
+    },
+    {
+      "year": "2018",
+      "journal": "arXiv preprint arXiv:1803.09082",
+      "author": "Lau, Tim Tsz-Kit and Zeng, Jinshan and Wu, Baoyuan and Yao, Yuan",
+      "title": "A proximal block coordinate descent algorithm for deep neural network training",
+      "ENTRYTYPE": "article",
+      "ID": "lau2018proximal"
+    },
+    {
+      "year": "2020",
+      "journal": "arXiv preprint arXiv:2006.10123",
+      "author": "Patel, Ravi G and Trask, Nathaniel A and Gulian, Mamikon A and Cyr, Eric C",
+      "title": "A block coordinate descent optimizer for classification problems exploiting convexity",
+      "ENTRYTYPE": "article",
+      "ID": "patel2020block"
+    },
+    {
+      "year": "2020",
+      "series": "Proceedings of Machine Learning Research",
+      "pages": "3362--3371",
+      "volume": "108",
+      "publisher": "PMLR",
+      "editor": "Chiappa, Silvia and Calandra, Roberto",
+      "author": "Gu, Fangda and Askari, Armin and Ghaoui, Laurent El",
+      "booktitle": "Proceedings of the Twenty Third International Conference on\nArtificial Intelligence and Statistics",
+      "title": "Fenchel Lifted Networks: A Lagrange Relaxation of Neural Network\nTraining",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "Gu2020-vx"
+    },
+    {
+      "eprint": "1805.01532",
+      "primaryclass": "cs.LG",
+      "archiveprefix": "arXiv",
+      "year": "2018",
+      "month": "May",
+      "author": "Askari, Armin and Negiar, Geoffrey and Sambharya, Rajiv and\nEl Ghaoui, Laurent",
+      "title": "Lifted Neural Networks",
+      "journal": "arXiv preprint arXiv:1805.01532",
+      "ENTRYTYPE": "article",
+      "ID": "Askari2018-hf"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2014",
+      "pages": "10--19",
+      "booktitle": "Artificial Intelligence and Statistics",
+      "author": "Carreira-Perpinan, Miguel and Wang, Weiran",
+      "title": "Distributed optimization of deeply nested systems",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "carreira2014distributed"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2206.09379",
+      "author": "Zhang, Hui and Zhou, Shenglong and Li, Geoffrey Ye and Xiu, Naihua",
+      "title": "0/1 deep neural networks via block coordinate descent",
+      "ENTRYTYPE": "article",
+      "ID": "zhang20220"
+    },
+    {
+      "organization": "IEEE",
+      "year": "2021",
+      "pages": "3895--3899",
+      "booktitle": "ICASSP 2021-2021 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+      "author": "Qiao, Linbo and Sun, Tao and Pan, Hengyue and Li, Dongsheng",
+      "title": "Inertial proximal deep learning alternating minimization for efficient neutral network training",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "qiao2021inertial"
+    },
+    {
+      "publisher": "Springer",
+      "year": "2024",
+      "pages": "909--923",
+      "number": "4",
+      "volume": "18",
+      "journal": "Optimization Letters",
+      "author": "Xu, Jintao and Bao, Chenglong and Xing, Wenxun",
+      "title": "Convergence rates of training deep neural networks via alternating minimization methods",
+      "ENTRYTYPE": "article",
+      "ID": "xu2024convergence"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "2021",
+      "pages": "348--357",
+      "volume": "139",
+      "journal": "Neural Networks",
+      "author": "Nakamura, Kensuke and Soatto, Stefano and Hong, Byung-Woo",
+      "title": "Block-cyclic stochastic coordinate descent for deep neural networks",
+      "ENTRYTYPE": "article",
+      "ID": "nakamura2021block"
+    },
+    {
+      "year": "2020",
+      "series": "Proceedings of Machine Learning Research",
+      "pages": "3756--3786",
+      "volume": "125",
+      "publisher": "PMLR",
+      "editor": "Abernethy, Jacob and Agarwal, Shivani",
+      "author": "Yehudai, Gilad and Ohad, Shamir",
+      "booktitle": "Proceedings of Thirty Third Conference on Learning Theory",
+      "title": "Learning a Single Neuron with Gradient Methods",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "Yehudai2020-hb"
+    },
+    {
+      "year": "2017",
+      "journal": "arXiv preprint arXiv:1712.05438",
+      "author": "Nitanda, Atsushi and Suzuki, Taiji",
+      "title": "Stochastic particle gradient descent for infinite ensembles",
+      "ENTRYTYPE": "article",
+      "ID": "nitanda2017stochastic"
+    },
+    {
+      "year": "2018",
+      "volume": "31",
+      "journal": "Advances in neural information processing systems",
+      "author": "Chizat, Lenaic and Bach, Francis",
+      "title": "On the global convergence of gradient descent for over-parameterized models using optimal transport",
+      "ENTRYTYPE": "article",
+      "ID": "chizat2018global"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2019",
+      "pages": "2388--2464",
+      "booktitle": "Conference on learning theory",
+      "author": "Mei, Song and Misiakiewicz, Theodor and Montanari, Andrea",
+      "title": "Mean-field theory of two-layers neural networks: dimension-free bounds and kernel limit",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "mei2019mean"
+    },
+    {
+      "year": "2020",
+      "journal": "arXiv preprint arXiv:2002.01987",
+      "author": "Tzen, Belinda and Raginsky, Maxim",
+      "title": "A mean-field theory of lazy training in two-layer neural nets: entropic regularization and controlled McKean-Vlasov dynamics",
+      "ENTRYTYPE": "article",
+      "ID": "tzen2020mean"
+    },
+    {
+      "publisher": "Springer",
+      "year": "2001",
+      "pages": "475--494",
+      "volume": "109",
+      "journal": "Journal of optimization theory and applications",
+      "author": "Tseng, Paul",
+      "title": "Convergence of a block coordinate descent method for nondifferentiable minimization",
+      "ENTRYTYPE": "article",
+      "ID": "tseng2001convergence"
+    },
+    {
+      "year": "2018",
+      "volume": "31",
+      "journal": "Advances in neural information processing systems",
+      "author": "Li, Hao and Xu, Zheng and Taylor, Gavin and Studer, Christoph and Goldstein, Tom",
+      "title": "Visualizing the loss landscape of neural nets",
+      "ENTRYTYPE": "article",
+      "ID": "li2018visualizing"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2018",
+      "pages": "4433--4441",
+      "booktitle": "International conference on machine learning",
+      "author": "Safran, Itay and Shamir, Ohad",
+      "title": "Spurious local minima are common in two-layer relu neural networks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "safran2018spurious"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2016",
+      "pages": "2722--2731",
+      "booktitle": "International conference on machine learning",
+      "author": "Taylor, Gavin and Burmeister, Ryan and Xu, Zheng and Singh, Bharat and Patel, Ankit and Goldstein, Tom",
+      "title": "Training neural networks without gradients: A scalable admm approach",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "taylor2016training"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2015",
+      "pages": "1376--1401",
+      "booktitle": "Conference on learning theory",
+      "author": "Neyshabur, Behnam and Tomioka, Ryota and Srebro, Nathan",
+      "title": "Norm-based capacity control in neural networks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "neyshabur2015norm"
+    },
+    {
+      "url": "https://openreview.net/forum?id=ByeGzlrKwH",
+      "year": "2020",
+      "booktitle": "International Conference on Learning Representations",
+      "author": "Taiji Suzuki and Hiroshi Abe and Tomoaki Nishimura",
+      "title": "Compression based bound for non-compressed network: unified generalization error analysis of large compressible deep neural network",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "suzuki2020compression"
+    },
+    {
+      "year": "2019",
+      "volume": "32",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Wei, Colin and Ma, Tengyu",
+      "title": "Data-dependent sample complexity of deep neural networks via lipschitz augmentation",
+      "ENTRYTYPE": "article",
+      "ID": "wei2019data"
+    },
+    {
+      "year": "2017",
+      "journal": "arXiv preprint arXiv:1707.09564",
+      "author": "Neyshabur, Behnam and Bhojanapalli, Srinadh and Srebro, Nathan",
+      "title": "A pac-bayesian approach to spectrally-normalized margin bounds for neural networks",
+      "ENTRYTYPE": "article",
+      "ID": "neyshabur2017pac"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2018",
+      "pages": "297--299",
+      "booktitle": "Conference On Learning Theory",
+      "author": "Golowich, Noah and Rakhlin, Alexander and Shamir, Ohad",
+      "title": "Size-independent sample complexity of neural networks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "golowich2018size"
+    },
+    {
+      "year": "2018",
+      "journal": "arXiv preprint arXiv:1806.05159",
+      "author": "Li, Xingguo and Lu, Junwei and Wang, Zhaoran and Haupt, Jarvis and Zhao, Tuo",
+      "title": "On tighter generalization bound for deep neural networks: Cnns, resnets, and beyond",
+      "ENTRYTYPE": "article",
+      "ID": "li2018tighter"
+    },
+    {
+      "year": "2019",
+      "pages": "1--17",
+      "number": "63",
+      "volume": "20",
+      "journal": "Journal of Machine Learning Research",
+      "author": "Bartlett, Peter L and Harvey, Nick and Liaw, Christopher and Mehrabian, Abbas",
+      "title": "Nearly-tight VC-dimension and pseudodimension bounds for piecewise linear neural networks",
+      "ENTRYTYPE": "article",
+      "ID": "bartlett2019nearly"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2018",
+      "pages": "254--263",
+      "booktitle": "International conference on machine learning",
+      "author": "Arora, Sanjeev and Ge, Rong and Neyshabur, Behnam and Zhang, Yi",
+      "title": "Stronger generalization bounds for deep nets via a compression approach",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "arora2018stronger"
+    },
+    {
+      "year": "2019",
+      "volume": "32",
+      "journal": "Advances in neural information processing systems",
+      "author": "Allen-Zhu, Zeyuan and Li, Yuanzhi and Liang, Yingyu",
+      "title": "Learning and generalization in overparameterized neural networks, going beyond two layers",
+      "ENTRYTYPE": "article",
+      "ID": "allen2019learning"
+    },
+    {
+      "year": "2019",
+      "volume": "32",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Allen-Zhu, Zeyuan and Li, Yuanzhi",
+      "title": "What can resnet learn efficiently, going beyond kernels?",
+      "ENTRYTYPE": "article",
+      "ID": "allen2019can"
+    },
+    {
+      "year": "2021",
+      "journal": "arXiv preprint arXiv:2105.05228",
+      "author": "Pham, Huy Tuan and Nguyen, Phan-Minh",
+      "title": "Global convergence of three-layer neural networks in the mean field regime",
+      "ENTRYTYPE": "article",
+      "ID": "pham2021global"
+    },
+    {
+      "year": "2023",
+      "pages": "201--357",
+      "number": "3",
+      "volume": "6",
+      "journal": "Mathematical Statistics and Learning",
+      "author": "Nguyen, Phan-Minh and Pham, Huy Tuan",
+      "title": "A rigorous framework for the mean field limit of multilayer neural networks",
+      "ENTRYTYPE": "article",
+      "ID": "nguyen2023rigorous"
+    },
+    {
+      "url": "https://openreview.net/forum?id=PINRbk7h01",
+      "year": "2023",
+      "booktitle": "The Eleventh International Conference on Learning Representations ",
+      "author": "Arindam Banerjee and Pedro Cisneros-Velarde and Libin Zhu and Misha Belkin",
+      "title": "Restricted Strong Convexity of Deep Learning Models with Smooth Activations",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "banerjee2023restricted"
+    },
+    {
+      "organization": "Springer",
+      "year": "2016",
+      "pages": "795--811",
+      "booktitle": "Machine Learning and Knowledge Discovery in Databases: European Conference, ECML PKDD 2016, Riva del Garda, Italy, September 19-23, 2016, Proceedings, Part I 16",
+      "author": "Karimi, Hamed and Nutini, Julie and Schmidt, Mark",
+      "title": "Linear convergence of gradient and proximal-gradient methods under the polyak-{\\l}ojasiewicz condition",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "karimi2016linear"
+    },
+    {
+      "publisher": "Russian Academy of Sciences, Branch of Mathematical Sciences",
+      "year": "1963",
+      "pages": "643--653",
+      "number": "4",
+      "volume": "3",
+      "journal": "Zhurnal vychislitel'noi matematiki i matematicheskoi fiziki",
+      "author": "Polyak, Boris Teodorovich",
+      "title": "Gradient methods for minimizing functionals",
+      "ENTRYTYPE": "article",
+      "ID": "polyak1963gradient"
+    },
+    {
+      "publisher": "Now Publishers, Inc.",
+      "year": "2011",
+      "pages": "1--122",
+      "number": "1",
+      "volume": "3",
+      "journal": "Foundations and Trends{\\textregistered} in Machine learning",
+      "author": "Boyd, Stephen and Parikh, Neal and Chu, Eric and Peleato, Borja and Eckstein, Jonathan and others",
+      "title": "Distributed optimization and statistical learning via the alternating direction method of multipliers",
+      "ENTRYTYPE": "article",
+      "ID": "boyd2011distributed"
+    },
+    {
+      "year": "2017",
+      "pages": "1--35",
+      "number": "91",
+      "volume": "18",
+      "journal": "Journal of Machine Learning Research",
+      "author": "Mahajan, Dhruv and Keerthi, S Sathiya and Sundararajan, S",
+      "title": "A distributed block coordinate descent method for training l1 regularized linear classifiers",
+      "ENTRYTYPE": "article",
+      "ID": "mahajan2017distributed"
+    }
+  ]
+}

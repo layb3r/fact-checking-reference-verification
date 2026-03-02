@@ -1,0 +1,963 @@
+{
+  "pdf_url": "https://arxiv.org/pdf/2505.23883v2.pdf",
+  "references": [
+    {
+      "year": "2024",
+      "pages": "19412--19424",
+      "booktitle": "CVPR",
+      "author": "Stevens, Samuel and Wu, Jiaman and Thompson, Matthew J and Campolongo, Elizabeth G and Song, Chan Hee and Carlyn, David Edward and Dong, Li and Dahdul, Wasila M and Stewart, Charles and Berger-Wolf, Tanya and others",
+      "title": "Bioclip: A vision foundation model for the tree of life",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "stevens2024bioclip"
+    },
+    {
+      "year": "2021",
+      "pages": "12884--12893",
+      "booktitle": "CVPR",
+      "author": "Van Horn, Grant and Cole, Elijah and Beery, Sara and Wilber, Kimberly and Belongie, Serge and Mac Aodha, Oisin",
+      "title": "Benchmarking representation learning for natural world image collections",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "van2021benchmarking"
+    },
+    {
+      "organization": "Springer",
+      "year": "2024",
+      "pages": "35--50",
+      "booktitle": "ECCV",
+      "author": "Abbasi, Reza and Rohban, Mohammad Hossein and Baghshah, Mahdieh Soleymani",
+      "title": "Deciphering the role of representation disentanglement: Investigating compositional generalization in clip models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "abbasi2024deciphering"
+    },
+    {
+      "organization": "Springer",
+      "year": "2024",
+      "pages": "220--238",
+      "booktitle": "ECCV",
+      "author": "Alper, Morris and Averbuch-Elor, Hadar",
+      "title": "Emergent visual-semantic hierarchies in image-text representations",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "alper2024emergent"
+    },
+    {
+      "year": "2022",
+      "pages": "18134--18144",
+      "booktitle": "CVPR",
+      "author": "Xu, Jiarui and De Mello, Shalini and Liu, Sifei and Byeon, Wonmin and Breuel, Thomas and Kautz, Jan and Wang, Xiaolong",
+      "title": "Groupvit: Semantic segmentation emerges from text supervision",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "xu2022groupvit"
+    },
+    {
+      "year": "2021",
+      "pages": "9650--9660",
+      "booktitle": "ICCV",
+      "author": "Caron, Mathilde and Touvron, Hugo and Misra, Ishan and J{\\'e}gou, Herv{\\'e} and Mairal, Julien and Bojanowski, Piotr and Joulin, Armand",
+      "title": "Emerging properties in self-supervised vision transformers",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "caron2021emerging"
+    },
+    {
+      "pages": "1--30",
+      "year": "2022",
+      "journal": "TMLR",
+      "author": "Wei, Jason and Tay, Yi and Bommasani, Rishi and Raffel, Colin and Zoph, Barret and Borgeaud, Sebastian and Yogatama, Dani and Bosma, Maarten and Zhou, Denny and Metzler, Donald and others",
+      "title": "Emergent abilities of large language models",
+      "ENTRYTYPE": "article",
+      "ID": "wei2022emergent"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2503.05788",
+      "author": "Berti, Leonardo and Giorgi, Flavio and Kasneci, Gjergji",
+      "title": "Emergent Abilities in Large Language Models: A Survey",
+      "ENTRYTYPE": "article",
+      "ID": "berti2025emergent"
+    },
+    {
+      "year": "2024",
+      "pages": "102101--102120",
+      "volume": "37",
+      "booktitle": "NeurIPS",
+      "author": "Yang, Chih-Hsuan and Feuer, Benjamin and Jubery, Talukder and Deng, Zi and Nakkab, Andre and Hasan, Md Zahid and Chiranjeevi, Shivani and Marshall, Kelly and Baishnab, Nirmal and Singh, Asheesh and others",
+      "title": "BioTrove: A Large Curated Image Dataset Enabling AI for Biodiversity",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "yang2024biotrove"
+    },
+    {
+      "organization": "IEEE",
+      "year": "2025",
+      "pages": "1197--1206",
+      "booktitle": "WACV",
+      "author": "Santamaria, Julian D and Isaza, Claudia and Giraldo, Jhony H",
+      "title": "CATALOG: A Camera Trap Language-guided Contrastive Learning Model",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "santamaria2025catalog"
+    },
+    {
+      "publisher": "Springer",
+      "year": "2024",
+      "pages": "3770--3786",
+      "number": "9",
+      "volume": "132",
+      "journal": "IJCV",
+      "author": "Gabeff, Valentin and Ru{\\ss}wurm, Marc and Tuia, Devis and Mathis, Alexander",
+      "title": "WildCLIP: Scene and animal attribute retrieval from camera trap data with domain-adapted vision-language models",
+      "ENTRYTYPE": "article",
+      "ID": "gabeff2024wildclip"
+    },
+    {
+      "organization": "IEEE",
+      "year": "2025",
+      "pages": "1765--1774",
+      "booktitle": "WACV",
+      "author": "Sastry, Srikumar and Khanal, Subash and Dhakal, Aayush and Ahmad, Adeel and Jacobs, Nathan",
+      "title": "Taxabind: A unified embedding space for ecological applications",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "sastry2025taxabind"
+    },
+    {
+      "publisher": "Nature Publishing Group UK London",
+      "year": "2023",
+      "pages": "47--60",
+      "number": "7972",
+      "volume": "620",
+      "journal": "Nature",
+      "author": "Wang, Hanchen and Fu, Tianfan and Du, Yuanqi and Gao, Wenhao and Huang, Kexin and Liu, Ziming and Chandak, Payal and Liu, Shengchao and Van Katwyk, Peter and Deac, Andreea and others",
+      "title": "Scientific discovery in the age of artificial intelligence",
+      "ENTRYTYPE": "article",
+      "ID": "wang2023scientific"
+    },
+    {
+      "publisher": "American Association for the Advancement of Science",
+      "year": "2023",
+      "pages": "1123--1130",
+      "number": "6637",
+      "volume": "379",
+      "journal": "Science",
+      "author": "Lin, Zeming and Akin, Halil and Rao, Roshan and Hie, Brian and Zhu, Zhongkai and Lu, Wenting and Smetanin, Nikita and Verkuil, Robert and Kabeli, Ori and Shmueli, Yaniv and others",
+      "title": "Evolutionary-scale prediction of atomic-level protein structure with a language model",
+      "ENTRYTYPE": "article",
+      "ID": "lin2023evolutionary"
+    },
+    {
+      "publisher": "National Academy of Sciences",
+      "year": "2021",
+      "pages": "e2016239118",
+      "number": "15",
+      "volume": "118",
+      "journal": "Proceedings of the National Academy of Sciences",
+      "author": "Rives, Alexander and Meier, Joshua and Sercu, Tom and Goyal, Siddharth and Lin, Zeming and Liu, Jason and Guo, Demi and Ott, Myle and Zitnick, C Lawrence and Ma, Jerry and others",
+      "title": "Biological structure and function emerge from scaling unsupervised learning to 250 million protein sequences",
+      "ENTRYTYPE": "article",
+      "ID": "rives2021biological"
+    },
+    {
+      "publisher": "American Association for the Advancement of Science",
+      "year": "2023",
+      "pages": "1416--1421",
+      "number": "6677",
+      "volume": "382",
+      "journal": "Science",
+      "author": "Lam, Remi and Sanchez-Gonzalez, Alvaro and Willson, Matthew and Wirnsberger, Peter and Fortunato, Meire and Alet, Ferran and Ravuri, Suman and Ewalds, Timo and Eaton-Rosen, Zach and Hu, Weihua and others",
+      "title": "Learning skillful medium-range global weather forecasting",
+      "ENTRYTYPE": "article",
+      "ID": "lam2023learning"
+    },
+    {
+      "publisher": "Nature Publishing Group",
+      "year": "2021",
+      "pages": "583--589",
+      "number": "7873",
+      "volume": "596",
+      "journal": "Nature",
+      "author": "Jumper, John and Evans, Richard and Pritzel, Alexander and Green, Tim and Figurnov, Michael and Ronneberger, Olaf and Tunyasuvunakool, Kathryn and Bates, Russ and {\\v{Z}}{\\'\\i}dek, Augustin and Potapenko, Anna and others",
+      "title": "Highly accurate protein structure prediction with AlphaFold",
+      "ENTRYTYPE": "article",
+      "ID": "jumper2021highly"
+    },
+    {
+      "publisher": "Nature Publishing Group UK London",
+      "year": "2023",
+      "pages": "570--578",
+      "number": "7992",
+      "volume": "624",
+      "journal": "Nature",
+      "author": "Boiko, Daniil A and MacKnight, Robert and Kline, Ben and Gomes, Gabe",
+      "title": "Autonomous chemical research with large language models",
+      "ENTRYTYPE": "article",
+      "ID": "boiko2023autonomous"
+    },
+    {
+      "publisher": "Nature Publishing Group UK London",
+      "year": "2023",
+      "pages": "80--85",
+      "number": "7990",
+      "volume": "624",
+      "journal": "Nature",
+      "author": "Merchant, Amil and Batzner, Simon and Schoenholz, Samuel S and Aykol, Muratahan and Cheon, Gowoon and Cubuk, Ekin Dogus",
+      "title": "Scaling deep learning for materials discovery",
+      "ENTRYTYPE": "article",
+      "ID": "merchant2023scaling"
+    },
+    {
+      "publisher": "Nature Publishing Group UK London",
+      "year": "2024",
+      "pages": "1--21",
+      "journal": "Nature Reviews Materials",
+      "author": "Tran, Huan and Gurnani, Rishi and Kim, Chiho and Pilania, Ghanshyam and Kwon, Ha-Kyung and Lively, Ryan P and Ramprasad, Rampi",
+      "title": "Design of functional and sustainable polymers assisted by artificial intelligence",
+      "ENTRYTYPE": "article",
+      "ID": "tran2024design"
+    },
+    {
+      "publisher": "Nature Publishing Group",
+      "year": "2023",
+      "pages": "533--538",
+      "number": "7970",
+      "volume": "619",
+      "journal": "Nature",
+      "author": "Bi, Kaifeng and Xie, Lingxi and Zhang, Hengheng and Chen, Xin and Gu, Xiaotao and Tian, Qi",
+      "title": "Accurate medium-range global weather forecasting with 3D neural networks",
+      "ENTRYTYPE": "article",
+      "ID": "bi2023accurate"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "2021",
+      "number": "4",
+      "volume": "2",
+      "journal": "The Innovation",
+      "author": "Xu, Yongjun and Liu, Xin and Cao, Xin and Huang, Changping and Liu, Enke and Qian, Sen and Liu, Xingchen and Wu, Yanjun and Dong, Fengliang and Qiu, Cheng-Wei and others",
+      "title": "Artificial intelligence: A powerful paradigm for scientific research",
+      "ENTRYTYPE": "article",
+      "ID": "xu2021artificial"
+    },
+    {
+      "year": "2023",
+      "pages": "20496--20506",
+      "booktitle": "ICCV",
+      "author": "Khan, Faizan Farooq and Li, Xiang and Temple, Andrew J and Elhoseiny, Mohamed",
+      "title": "Fishnet: A large-scale dataset and benchmark for fish recognition, detection, and functional trait prediction",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "khan2023fishnet"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "2018",
+      "pages": "2251--2265",
+      "number": "9",
+      "volume": "41",
+      "journal": "IEEE TPAMI",
+      "author": "Xian, Yongqin and Lampert, Christoph H and Schiele, Bernt and Akata, Zeynep",
+      "title": "Zero-shot learning—a comprehensive evaluation of the good, the bad and the ugly",
+      "ENTRYTYPE": "article",
+      "ID": "xian2018zero"
+    },
+    {
+      "note": "Kaggle",
+      "howpublished": "\\url{https://kaggle.com/competitions/herbarium-2019-fgvc6}",
+      "year": "2019",
+      "title": "Herbarium Challenge 2019 - FGVC6 ",
+      "author": "Kiat Chuan Tan and Yulong Liu",
+      "ENTRYTYPE": "misc",
+      "ID": "herbarium-2019-fgvc6"
+    },
+    {
+      "year": "2020",
+      "pages": "249--253",
+      "booktitle": "Proceedings of the 7th ACM IKDD CoDS and 25th COMAD",
+      "author": "Singh, Davinder and Jain, Naman and Jain, Pranjali and Kayal, Pratik and Kumawat, Sudhakar and Batra, Nipun",
+      "title": "PlantDoc: A dataset for visual plant disease detection",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "singh2020plantdoc"
+    },
+    {
+      "year": "2015",
+      "pages": "595--604",
+      "booktitle": "CVPR",
+      "author": "Van Horn, Grant and Branson, Steve and Farrell, Ryan and Haber, Scott and Barry, Jessie and Ipeirotis, Panos and Perona, Pietro and Belongie, Serge",
+      "title": "Building a bird recognition app and large scale dataset with citizen scientists: The fine print in fine-grained dataset collection",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "van2015building"
+    },
+    {
+      "year": "2022",
+      "pages": "7492--7501",
+      "booktitle": "CVPR",
+      "author": "Vaze, Sagar and Han, Kai and Vedaldi, Andrea and Zisserman, Andrew",
+      "title": "Generalized category discovery",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "vaze2022generalized"
+    },
+    {
+      "publisher": "National Academy of Sciences",
+      "year": "2020",
+      "pages": "24652--24663",
+      "number": "40",
+      "volume": "117",
+      "journal": "Proceedings of the National Academy of Sciences",
+      "author": "Papyan, Vardan and Han, XY and Donoho, David L",
+      "title": "Prevalence of neural collapse during the terminal phase of deep learning training",
+      "ENTRYTYPE": "article",
+      "ID": "papyan2020prevalence"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "2022",
+      "pages": "224--241",
+      "volume": "59",
+      "journal": "Applied and Computational Harmonic Analysis",
+      "author": "Lu, Jianfeng and Steinerberger, Stefan",
+      "title": "Neural collapse under cross-entropy loss",
+      "ENTRYTYPE": "article",
+      "ID": "lu2022neural"
+    },
+    {
+      "year": "2022",
+      "pages": "1--43",
+      "journal": "Transactions on Machine Learning Research",
+      "author": "Kothapalli, Vignesh",
+      "title": "Neural Collapse: A Review on Modelling Principles and Generalization",
+      "ENTRYTYPE": "article",
+      "ID": "kothapallineural"
+    },
+    {
+      "year": "2022",
+      "pages": "31697--31710",
+      "volume": "35",
+      "booktitle": "NeurIPS",
+      "author": "Zhou, Jinxin and You, Chong and Li, Xiao and Liu, Kangning and Liu, Sheng and Qu, Qing and Zhu, Zhihui",
+      "title": "Are all losses created equal: A neural collapse perspective",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zhou2022all"
+    },
+    {
+      "organization": "IEEE",
+      "year": "2024",
+      "pages": "7115--7119",
+      "booktitle": "ICASSP",
+      "author": "Gill, Jaidev and Vakilian, Vala and Thrampoulidis, Christos",
+      "title": "Engineering the Neural Collapse Geometry of Supervised-Contrastive Loss",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "gill2024engineering"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2506.09082",
+      "author": "Mai, Zheda and Chowdhury, Arpita and Wang, Zihe and Jeon, Sooyoung and Wang, Lemeng and Hou, Jiacheng and Chao, Wei-Lun",
+      "title": "AVA-Bench: Atomic Visual Ability Benchmark for Vision Foundation Models",
+      "ENTRYTYPE": "article",
+      "ID": "mai2025ava"
+    },
+    {
+      "year": "2021",
+      "pages": "29820--29834",
+      "volume": "34",
+      "booktitle": "NeurIPS",
+      "author": "Zhu, Zhihui and Ding, Tianyu and Zhou, Jinxin and Li, Xiao and You, Chong and Sulam, Jeremias and Qu, Qing",
+      "title": "A geometric analysis of neural collapse with unconstrained features",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zhu2021geometric"
+    },
+    {
+      "year": "2020",
+      "pages": "18661--18673",
+      "volume": "33",
+      "booktitle": "NeurIPS",
+      "author": "Khosla, Prannay and Teterwak, Piotr and Wang, Chen and Sarna, Aaron and Tian, Yonglong and Isola, Phillip and Maschinot, Aaron and Liu, Ce and Krishnan, Dilip",
+      "title": "Supervised contrastive learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "khosla2020supervised"
+    },
+    {
+      "year": "2019",
+      "journal": "arXiv preprint arXiv:1911.04623",
+      "author": "Wang, Yan and Chao, Wei-Lun and Weinberger, Kilian Q and Van Der Maaten, Laurens",
+      "title": "Simpleshot: Revisiting nearest-neighbor classification for few-shot learning",
+      "ENTRYTYPE": "article",
+      "ID": "wang2019simpleshot"
+    },
+    {
+      "year": "2024",
+      "pages": "126500--126514",
+      "volume": "37",
+      "booktitle": "NeurIPS",
+      "author": "Vendrow, Edward and Pantazis, Omiros and Shepard, Alexander and Brostow, Gabriel and Jones, Kate and Mac Aodha, Oisin and Beery, Sara and Van Horn, Grant",
+      "title": "INQUIRE: A natural world text-to-image retrieval benchmark",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "vendrow2024inquire"
+    },
+    {
+      "publisher": "American Association for the Advancement of Science",
+      "year": "2021",
+      "pages": "871--876",
+      "number": "6557",
+      "volume": "373",
+      "journal": "Science",
+      "author": "Baek, Minkyung and DiMaio, Frank and Anishchenko, Ivan and Dauparas, Justas and Ovchinnikov, Sergey and Lee, Gyu Rie and Wang, Jue and Cong, Qian and Kinch, Lisa N and Schaeffer, R Dustin and others",
+      "title": "Accurate prediction of protein structures and interactions using a three-track neural network",
+      "ENTRYTYPE": "article",
+      "ID": "baek2021accurate"
+    },
+    {
+      "publisher": "Nature Publishing Group US New York",
+      "year": "2021",
+      "pages": "100--106",
+      "number": "1",
+      "volume": "18",
+      "journal": "Nature methods",
+      "author": "Stringer, Carsen and Wang, Tim and Michaelos, Michalis and Pachitariu, Marius",
+      "title": "Cellpose: a generalist algorithm for cellular segmentation",
+      "ENTRYTYPE": "article",
+      "ID": "stringer2021cellpose"
+    },
+    {
+      "pages": "2579--2605",
+      "number": "86",
+      "volume": "9",
+      "year": "2008",
+      "journal": "Journal of Machine Learning Research",
+      "title": "Visualizing Data using t-SNE",
+      "author": "Laurens van der Maaten and Geoffrey Hinton",
+      "ENTRYTYPE": "article",
+      "ID": "JMLR:v9:vandermaaten08a"
+    },
+    {
+      "isbn": "978-1-4214-0794-4",
+      "address": "Baltimore, MD",
+      "publisher": "Johns Hopkins University Press",
+      "year": "2013",
+      "edition": "4",
+      "author": "Gene H. Golub and Charles F. Van Loan",
+      "title": "Matrix Computations",
+      "ENTRYTYPE": "book",
+      "ID": "golub2013matrix"
+    },
+    {
+      "year": "2017",
+      "journal": "arXiv preprint arXiv:1711.05225",
+      "author": "Rajpurkar, Pranav and Irvin, Jeremy and Zhu, Kaylie and Yang, Brandon and Mehta, Hershel and Duan, Tony and Ding, Daisy and Bagul, Aarti and Langlotz, Curtis and Shpanskaya, Katie and others",
+      "title": "Chexnet: Radiologist-level pneumonia detection on chest x-rays with deep learning",
+      "ENTRYTYPE": "article",
+      "ID": "rajpurkar2017chexnet"
+    },
+    {
+      "year": "2023",
+      "pages": "11975--11986",
+      "booktitle": "ICCV",
+      "author": "Zhai, Xiaohua and Mustafa, Basil and Kolesnikov, Alexander and Beyer, Lucas",
+      "title": "Sigmoid loss for language image pre-training",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zhai2023sigmoid"
+    },
+    {
+      "pages": "1--32",
+      "year": "2024",
+      "journal": "TMLR",
+      "author": "Oquab, Maxime and Darcet, Timoth{\\'e}e and Moutakanni, Th{\\'e}o and Vo, Huy and Szafraniec, Marc and Khalidov, Vasil and Fernandez, Pierre and Haziza, Daniel and Massa, Francisco and El-Nouby, Alaaeldin and others",
+      "title": "DINOv2: Learning Robust Visual Features without Supervision",
+      "ENTRYTYPE": "article",
+      "ID": "oquab2024dinov2"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2508.10104",
+      "author": "Sim{\\'e}oni, Oriane and Vo, Huy V and Seitzer, Maximilian and Baldassarre, Federico and Oquab, Maxime and Jose, Cijo and Khalidov, Vasil and Szafraniec, Marc and Yi, Seungeun and Ramamonjisoa, Micha{\\\"e}l and others",
+      "title": "Dinov3",
+      "ENTRYTYPE": "article",
+      "ID": "simeoni2025dinov3"
+    },
+    {
+      "pages": "1--17",
+      "year": "2022",
+      "booktitle": "NeurIPS",
+      "author": "Christoph Schuhmann and\nRomain Beaumont and\nRichard Vencu and\nCade W Gordon and\nRoss Wightman and\nMehdi Cherti and\nTheo Coombes and\nAarush Katta and\nClayton Mullis and\nMitchell Wortsman and\nPatrick Schramowski and\nSrivatsa R Kundurthy and\nKatherine Crowson and\nLudwig Schmidt and\nRobert Kaczmarczyk and\nJenia Jitsev",
+      "title": "{LAION}-5B: An open large-scale dataset for training next generation image-text models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "schuhmann2022laionb"
+    },
+    {
+      "pages": "1--21",
+      "year": "2021",
+      "booktitle": "ICLR",
+      "author": "Alexey Dosovitskiy and Lucas Beyer and Alexander Kolesnikov and Dirk Weissenborn and Xiaohua Zhai and Thomas Unterthiner and Mostafa Dehghani and Matthias Minderer and Georg Heigold and Sylvain Gelly and Jakob Uszkoreit and Neil Houlsby",
+      "title": "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "dosovitskiy2021an"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2021",
+      "pages": "8748--8763",
+      "booktitle": "ICML",
+      "author": "Radford, Alec and Kim, Jong Wook and Hallacy, Chris and Ramesh, Aditya and Goh, Gabriel and Agarwal, Sandhini and Sastry, Girish and Askell, Amanda and Mishkin, Pamela and Clark, Jack and others",
+      "title": "Learning transferable visual models from natural language supervision",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "radford2021learning"
+    },
+    {
+      "publisher": "Kaggle",
+      "url": "https://www.kaggle.com/datasets/gpiosenka/100-bird-species",
+      "year": "2023",
+      "month": "05",
+      "author": "Gerald Piosenka",
+      "title": "Birds 525 Species - Image Classification",
+      "ENTRYTYPE": "misc",
+      "ID": "piosenka2023birds"
+    },
+    {
+      "publisher": "Nature Publishing Group UK London",
+      "year": "2015",
+      "pages": "371--375",
+      "number": "7539",
+      "volume": "518",
+      "journal": "Nature",
+      "author": "Lamichhaney, Sangeet and Berglund, Jonas and Alm{\\'e}n, Markus S{\\\"a}llman and Maqbool, Khurram and Grabherr, Manfred and Martinez-Barrio, Alvaro and Promerov{\\'a}, Marta and Rubin, Carl-Johan and Wang, Chao and Zamani, Neda and others",
+      "title": "Evolution of Darwin’s finches and their beaks revealed by genome sequencing",
+      "ENTRYTYPE": "article",
+      "ID": "lamichhaney2015evolution"
+    },
+    {
+      "publisher": "Springer",
+      "year": "2010",
+      "pages": "1--14",
+      "volume": "7",
+      "journal": "Frontiers in zoology",
+      "author": "Padial, Jos{\\'e} M and Miralles, Aur{\\'e}lien and De la Riva, Ignacio and Vences, Miguel",
+      "title": "The integrative future of taxonomy",
+      "ENTRYTYPE": "article",
+      "ID": "padial2010integrative"
+    },
+    {
+      "year": "2023",
+      "pages": "1-33",
+      "booktitle": "ICLR",
+      "author": "Chen, Xi and Wang, Xiao and Changpinyo, Soravit and Piergiovanni, AJ and Padlewski, Piotr and Salz, Daniel and Goodman, Sebastian and Grycner, Adam and Mustafa, Basil and Beyer, Lucas and others",
+      "title": "PaLI: A Jointly-Scaled Multilingual Language-Image Model",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "chenpali"
+    },
+    {
+      "organization": "IEEE",
+      "year": "2009",
+      "pages": "248--255",
+      "booktitle": "CVPR",
+      "author": "Deng, Jia and Dong, Wei and Socher, Richard and Li, Li-Jia and Li, Kai and Fei-Fei, Li",
+      "title": "Imagenet: A large-scale hierarchical image database",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "deng2009imagenet"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "2016",
+      "pages": "1499--1503",
+      "number": "10",
+      "volume": "23",
+      "journal": "IEEE signal processing letters",
+      "author": "Zhang, Kaipeng and Zhang, Zhanpeng and Li, Zhifeng and Qiao, Yu",
+      "title": "Joint face detection and alignment using multitask cascaded convolutional networks",
+      "ENTRYTYPE": "article",
+      "ID": "zhang2016joint"
+    },
+    {
+      "year": "2017",
+      "pages": "2001--2010",
+      "booktitle": "CVPR",
+      "author": "Rebuffi, Sylvestre-Alvise and Kolesnikov, Alexander and Sperl, Georg and Lampert, Christoph H",
+      "title": "icarl: Incremental classifier and representation learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "rebuffi2017icarl"
+    },
+    {
+      "year": "2019",
+      "volume": "32",
+      "booktitle": "NeurIPS",
+      "author": "Rolnick, David and Ahuja, Arun and Schwarz, Jonathan and Lillicrap, Timothy and Wayne, Gregory",
+      "title": "Experience replay for continual learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "rolnick2019experience"
+    },
+    {
+      "year": "2022",
+      "url": "https://meta-album.github.io/",
+      "booktitle": "NeurIPS",
+      "author": "Ullah, Ihsan and Carrion, Dustin and Escalera, Sergio and Guyon, Isabelle M and Huisman, Mike and Mohr, Felix and van Rijn, Jan N and Sun, Haozhe and Vanschoren, Joaquin and Vu, Phan Anh",
+      "title": "Meta-Album: Multi-domain Meta-Dataset for Few-Shot Image Classification",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "meta-album-2022"
+    },
+    {
+      "volume": "37",
+      "year": "2024",
+      "pages": "36285--36313",
+      "author": "Zahra Gharaee and Scott C. Lowe and ZeMing Gong and Pablo Millan Arias\nand Nicholas Pellegrino and Austin T. Wang and Joakim Bruslund Haurum\nand Iuliia Zarubiieva and Lila Kari and Dirk Steinke and Graham W. Taylor\nand Paul Fieguth and Angel X. Chang\n",
+      "booktitle": "NeurIPS",
+      "title": "{BIOSCAN-5M}: A Multimodal Dataset for Insect Biodiversity",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "gharaee2024bioscan5m"
+    },
+    {
+      "year": "2024",
+      "pages": "28608--28618",
+      "booktitle": "CVPR",
+      "author": "Han, Guangxing and Lim, Ser-Nam",
+      "title": "Few-shot object detection with foundation models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "han2024few"
+    },
+    {
+      "organization": "IEEE",
+      "year": "2025",
+      "pages": "1319--1329",
+      "booktitle": "WACV",
+      "author": "Damm, Simon and Laszkiewicz, Mike and Lederer, Johannes and Fischer, Asja",
+      "title": "Anomalydino: Boosting patch-based few-shot anomaly detection with dinov2",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "damm2025anomalydino"
+    },
+    {
+      "publisher": "Wiley Online Library",
+      "year": "1936",
+      "pages": "179--188",
+      "number": "2",
+      "volume": "7",
+      "journal": "Annals of eugenics",
+      "author": "Fisher, Ronald A",
+      "title": "The use of multiple measurements in taxonomic problems",
+      "ENTRYTYPE": "article",
+      "ID": "fisher1936use"
+    },
+    {
+      "publisher": "Hugging Face",
+      "doi": "10.57967/hf/1972",
+      "url": "https://huggingface.co/datasets/imageomics/TreeOfLife-10M",
+      "year": "2023",
+      "title": "{TreeOfLife-10M}",
+      "author": "Samuel Stevens and Jiaman Wu and Matthew J Thompson and Elizabeth G Campolongo and Chan Hee Song and David Edward Carlyn and Li Dong and Wasila M Dahdul and Charles Stewart and Tanya Berger-Wolf and Wei-Lun Chao and Yu Su",
+      "ENTRYTYPE": "article",
+      "ID": "treeoflife_10m"
+    },
+    {
+      "series": "PEARC '21",
+      "location": "Boston, MA, USA",
+      "keywords": "artificial intelligence, data analytics, high performance computing",
+      "numpages": "4",
+      "articleno": "35",
+      "booktitle": "Practice and Experience in Advanced Research Computing 2021: Evolution Across All Dimensions",
+      "doi": "10.1145/3437359.3465593",
+      "url": "https://doi.org/10.1145/3437359.3465593",
+      "address": "New York, NY, USA",
+      "publisher": "Association for Computing Machinery",
+      "isbn": "9781450382922",
+      "year": "2021",
+      "title": "Bridges-2: A Platform for Rapidly-Evolving and Data Intensive Research",
+      "author": "Brown, Shawn T. and Buitrago, Paola and Hanna, Edward and Sanielevici, Sergiu and Scibek, Robin and Nystrom, Nicholas A.",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "10.1145/3437359.3465593"
+    },
+    {
+      "title": "Ohio Supercomputer Center",
+      "author": "Ohio Supercomputer Center",
+      "year": "1987",
+      "url": "http://osc.edu/ark:/19495/f5s1ph73",
+      "ark": "ark:/19495/f5s1ph73",
+      "ENTRYTYPE": "misc",
+      "ID": "OhioSupercomputerCenter1987"
+    },
+    {
+      "url": "https://kaggle.com/competitions/inaturalist-2021",
+      "year": "2021",
+      "publisher": "Kaggle",
+      "title": "iNat Challenge 2021 - FGVC8",
+      "author": "Van Horn, Grant and Mac Aodha, Oisin",
+      "ENTRYTYPE": "misc",
+      "ID": "inat2021"
+    },
+    {
+      "volume": "36",
+      "year": "2023",
+      "publisher": "Curran Associates, Inc.",
+      "pages": "43593--43619",
+      "author": "Gharaee, Z. and Gong, Z. and Pellegrino, N. and Zarubiieva, I. and Haurum, J. B. and Lowe, S. C. and McKeown, J. T. A. and Ho, C. Y. and McLeod, J. and Wei, Y. C. and Agda, J. and Ratnasingham, S. and Steinke, D. and Chang, A. X. and Taylor, G. W. and Fieguth, P.",
+      "booktitle": "NeurIPS",
+      "title": "A Step Towards Worldwide Biodiversity Assessment: The {BIOSCAN-1M} Insect Dataset",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "gharaee2023bioscan1m"
+    },
+    {
+      "copyright": "Creative Commons Attribution Non Commercial 4.0 International",
+      "year": "2024",
+      "month": "May",
+      "publisher": "The Global Biodiversity Information Facility",
+      "title": "{GBIF} Occurrence Download",
+      "author": "GBIF.org",
+      "keywords": "GBIF, biodiversity, species occurrences",
+      "url": "https://doi.org/10.15468/dl.bfv433",
+      "doi": "10.15468/DL.BFV433",
+      "ENTRYTYPE": "article",
+      "ID": "GBIF-DOI"
+    },
+    {
+      "note": "Accessed via GBIF.org (Occurrence Snapshot: 10.15468/DL.BFV433) 2024-05-01",
+      "publisher": "iNaturalist.org",
+      "title": "{iNaturalist Research-grade Observations}",
+      "author": "iNaturalist contributors and iNaturalist",
+      "ENTRYTYPE": "misc",
+      "ID": "iNat-research-grade"
+    },
+    {
+      "doi": "10.1038/s41467-024-51899-1",
+      "year": "2024",
+      "number": "7586",
+      "volume": "15",
+      "journal": "Nature Communications",
+      "title": "Herbarium collections remain essential in the age of community science",
+      "author": "Isaac Eckert and Anne Bruneau and Deborah A. Metsger and Simon Joly and T. A. Dickinson and Laura J. Pollock",
+      "ENTRYTYPE": "article",
+      "ID": "eckert-biodiversity-2024"
+    },
+    {
+      "pages": "15914",
+      "year": "2022",
+      "month": "September",
+      "author": "Katija, Kakani and Orenstein, Eric and Schlining, Brian and Lundsten, Lonny and Barnard, Kevin and Sainz, Giovanna and Boulais, Oceane and Cromwell, Megan and Butler, Erin and Woodward, Benjamin and Bell, Katherine L. C.",
+      "journal": "Scientific Reports",
+      "urldate": "2025-05-13",
+      "number": "1",
+      "doi": "10.1038/s41598-022-19939-2",
+      "url": "https://www.nature.com/articles/s41598-022-19939-2",
+      "shorttitle": "{FathomNet}",
+      "issn": "2045-2322",
+      "volume": "12",
+      "title": "{FathomNet}: {A} global image database for enabling artificial intelligence in the ocean",
+      "ENTRYTYPE": "article",
+      "ID": "katija_fathomnet_2022"
+    },
+    {
+      "publisher": "Wiley Online Library",
+      "year": "2010",
+      "pages": "433--459",
+      "number": "4",
+      "volume": "2",
+      "journal": "Wiley interdisciplinary reviews: computational statistics",
+      "author": "Abdi, Herv{\\'e} and Williams, Lynne J",
+      "title": "Principal component analysis",
+      "ENTRYTYPE": "article",
+      "ID": "abdi2010principal"
+    },
+    {
+      "note": "Accessed May 15, 2025",
+      "url": "https://www.flickr.com/",
+      "author": "Flickr",
+      "ENTRYTYPE": "misc",
+      "ID": "flickr"
+    },
+    {
+      "note": "Accessed May 15, 2025",
+      "url": "https://www.si.edu/",
+      "author": "Smithsonian Institution",
+      "ENTRYTYPE": "misc",
+      "ID": "smithsonian"
+    },
+    {
+      "note": "Accessed August 2024",
+      "url": "https://eol.org",
+      "author": "{Encyclopedia of Life (EOL)}",
+      "ENTRYTYPE": "misc",
+      "ID": "eol"
+    },
+    {
+      "archiveprefix": "arXiv",
+      "eprint": "2405.12930",
+      "year": "2024",
+      "author": "Andres Hernandez and Zhongqi Miao and Luisa Vargas and Sara Beery and Rahul Dodhia and Juan Lavista",
+      "title": "Pytorch-Wildlife: A Collaborative Deep Learning Framework for Conservation",
+      "ENTRYTYPE": "misc",
+      "ID": "hernandez2024pytorchwildlife"
+    },
+    {
+      "archiveprefix": "arXiv",
+      "eprint": "1907.06772",
+      "year": "2019",
+      "author": "Sara Beery and Dan Morris and Siyu Yang",
+      "title": "Efficient Pipeline for Camera Trap Image Review",
+      "ENTRYTYPE": "misc",
+      "ID": "beery2019efficient"
+    },
+    {
+      "year": "2024",
+      "version": "v1.2.2",
+      "url": "https://github.com/gnames/gnverifier",
+      "title": "{GNverifier -- a reconciler and resolver of scientific names against more than 100 data sources}",
+      "month": "November",
+      "license": "MIT",
+      "doi": "10.5281/zenodo.10070488",
+      "author": "Mozzherin, Dmitry",
+      "ENTRYTYPE": "article",
+      "ID": "Mozzherin_GNverifier_--_a_2024"
+    },
+    {
+      "url": "https://doi.org/10.15468/39omei",
+      "doi": "10.15468/39omei",
+      "publisher": "GBIF Secretariat",
+      "year": "2023",
+      "title": "{GBIF Backbone Taxonomy}",
+      "author": "{GBIF Secretariat}",
+      "ENTRYTYPE": "article",
+      "ID": "GBIF_Backbone_2023"
+    },
+    {
+      "publisher": "Hugging Face",
+      "doi": "10.57967/hf/1981",
+      "url": "https://huggingface.co/datasets/imageomics/rare-species",
+      "year": "2023",
+      "title": "Rare Species",
+      "author": "Samuel Stevens and Jiaman Wu and Matthew J Thompson and Elizabeth G Campolongo and Chan Hee Song and David Edward Carlyn and Li Dong and Wasila M Dahdul and Charles Stewart and Tanya Berger-Wolf and Wei-Lun Chao and Yu Su",
+      "ENTRYTYPE": "article",
+      "ID": "rare_species_2023"
+    },
+    {
+      "url": "https://nc.iucnredlist.org/redlist/content/attachment_files/2025-1_RL_Table_1a.pdf",
+      "year": "2025",
+      "month": "March",
+      "author": "IUCN",
+      "title": "{IUCN Red List Summary Table 1a}",
+      "ENTRYTYPE": "misc",
+      "ID": "iucn2025-count"
+    },
+    {
+      "note": "Accessed on 14 May 2025",
+      "howpublished": "\\url{https://www.iucnredlist.org/search?dl=true&permalink=fd473452-551c-4561-a2b2-fb51fe51d7b7}",
+      "year": "2025",
+      "title": "The {IUCN Red List of Threatened Species}. Version 2025-1",
+      "author": "IUCN",
+      "ENTRYTYPE": "misc",
+      "ID": "iucn2025-search"
+    },
+    {
+      "note": "Version 1.283. Canadian Museum of Nature. Occurrence dataset https://doi.org/10.15468/kowta4 accessed via GBIF.org on 2025-05-22.",
+      "doi": "10.15468/6e8nje",
+      "year": "2025",
+      "version": "1.83",
+      "publisher": "{Canadian Museum of Nature}",
+      "title": "{Canadian Museum of Nature Herbarium}",
+      "author": "J. Doubt and R. Blades and A. Tyrell",
+      "ENTRYTYPE": "article",
+      "ID": "fungi-imgs"
+    },
+    {
+      "note": "Version 68.409. MNHN - Museum national d'Histoire naturelle. Occurrence dataset https://doi.org/10.15468/fjjmkb accessed via GBIF.org on 2025-05-14. https://www.gbif.org/occurrence/417149247. Collected in France (licensed under http://creativecommons.org/licenses/by/4.0/)",
+      "doi": "10.15468/fjjmkb",
+      "year": "2025",
+      "version": "68.409",
+      "publisher": "{MNHN - Museum national d'Histoire naturelle}",
+      "title": "{The fossil collection (F) of the Muséum national d'Histoire naturelle (MNHN - Paris)}",
+      "author": "MNHN and S. Chagnoux",
+      "ENTRYTYPE": "article",
+      "ID": "fossil-imgs"
+    },
+    {
+      "note": "Occurrence dataset https://doi.org/10.5519/qd.x8gq8f5t accessed via GBIF.org on 2025-05-14. https://www.gbif.org/occurrence/1056329684. Collected in Suriname\nby The Trustees of the Natural History Museum, London (licensed under http://creativecommons.org/licenses/by/4.0/)",
+      "year": "2025",
+      "title": "{Natural History Museum (London) Collection Specimens}",
+      "author": "Natural History Museum and Benjamin Drew",
+      "ENTRYTYPE": "article",
+      "ID": "amphib-specimen"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "2019",
+      "journal": "IEEE Transactions on Circuits and Systems for Video Technology",
+      "author": "Yousif, Hayder and Kays, Roland and He, Zhihai",
+      "title": "Dynamic Programming Selection of Object Proposals for Sequence-Level Animal Species Classification in the Wild",
+      "ENTRYTYPE": "article",
+      "ID": "yousif2019dynamic-ENA24"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2202.02283",
+      "author": "V{\\'e}lez, Juliana and Castiblanco-Camacho, Paula J and Tabak, Michael A and Chalmers, Carl and Fergus, Paul and Fieberg, John",
+      "title": "Choosing an Appropriate Platform and Workflow for Processing Camera Trap Data using Artificial Intelligence",
+      "ENTRYTYPE": "article",
+      "ID": "velez2022choosing-orinoquia"
+    },
+    {
+      "url": "http://rave.ohiolink.edu/etdc/view?acc_num=osu1721417695430687",
+      "year": "2024",
+      "school": "The Ohio State University",
+      "title": "Optimized Classification in Camera Trap Images: An Approach with Smart Camera Traps, Machine Learning, and Human Inference",
+      "author": "Balasubramaniam, S.",
+      "ENTRYTYPE": "mastersthesis",
+      "ID": "balasubramaniam2024-oh-small"
+    },
+    {
+      "howpublished": "https://lila.science/datasets/island-conservation-camera-traps/",
+      "title": "Island Conservation Camera Traps",
+      "author": "Island Conservation",
+      "ENTRYTYPE": "misc",
+      "ID": "island-ct"
+    },
+    {
+      "year": "2024",
+      "month": "July",
+      "howpublished": "https://lila.science/datasets/desert-lion-conservation-camera-traps/",
+      "title": "Desert Lion Conservation Camera Traps",
+      "author": "Desert Lion Conservation",
+      "ENTRYTYPE": "misc",
+      "ID": "lion-ct"
+    },
+    {
+      "howpublished": "https://lila.science/datasets",
+      "title": "Labeled Information Library of Alexandria: Biology and Conservation {(LILA-BC)}",
+      "author": "",
+      "ENTRYTYPE": "misc",
+      "ID": "lila-datasets"
+    },
+    {
+      "howpublished": "\\url{https://github.com/facebook/ThreatExchange}",
+      "journal": "GitHub repository",
+      "publisher": "GitHub",
+      "year": "2019",
+      "title": "ThreatExchance",
+      "author": "{Facebook, Inc}",
+      "ENTRYTYPE": "misc",
+      "ID": "facebook2019pdq"
+    },
+    {
+      "publisher": "Nature Publishing Group UK London",
+      "year": "2022",
+      "pages": "792",
+      "number": "1",
+      "volume": "13",
+      "journal": "Nature communications",
+      "author": "Tuia, Devis and Kellenberger, Benjamin and Beery, Sara and Costelloe, Blair R and Zuffi, Silvia and Risse, Benjamin and Mathis, Alexander and Mathis, Mackenzie W and van Langevelde, Frank and Burghardt, Tilo and others",
+      "title": "Perspectives in machine learning for wildlife conservation",
+      "ENTRYTYPE": "article",
+      "ID": "tuia2022perspectives"
+    },
+    {
+      "doi": "10.1126/science.aan1362",
+      "publisher": "American Association for the Advancement of Science",
+      "year": "2017",
+      "pages": "800--801",
+      "number": "6340",
+      "volume": "356",
+      "journal": "Science",
+      "author": "Lindenmayer, David and Scheele, Ben",
+      "title": "Do not publish",
+      "ENTRYTYPE": "article",
+      "ID": "lindenmayer2017do"
+    },
+    {
+      "year": "2025",
+      "url": "https://github.com/Imageomics/distributed-downloader",
+      "title": "{Distributed-downloader}",
+      "license": "MIT",
+      "doi": "10.5281/zenodo.17418004",
+      "author": "Kopanev, Andrei and Thompson, Matthew J and Campolongo, Elizabeth G",
+      "ENTRYTYPE": "article",
+      "ID": "Kopanev_Distributed-downloader_2025"
+    }
+  ]
+}

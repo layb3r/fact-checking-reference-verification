@@ -1,0 +1,604 @@
+{
+  "pdf_url": "https://arxiv.org/pdf/2510.20639v1.pdf",
+  "references": [
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2403.17834",
+      "author": "Hamamci, Ibrahim Ethem and Er, Sezgin and Almas, Furkan and Simsek, Ayse Gulnihan and Esirgun, Sevval Nil and Dogan, Irem and Dasdelen, Muhammed Furkan and Durugol, Omer Faruk and Wittmann, Bastian and Amiranashvili, Tamaz and others",
+      "title": "Developing Generalist Foundation Models from a Multimodal Dataset for 3D Computed Tomography",
+      "ENTRYTYPE": "article",
+      "ID": "hamamci2024developing"
+    },
+    {
+      "publisher": "Radiological Society of North America",
+      "year": "2023",
+      "pages": "e230803",
+      "number": "1",
+      "volume": "309",
+      "journal": "Radiology",
+      "author": "McCollough, Cynthia H and Rajiah, Prabhakar Shantha",
+      "title": "Milestones in CT: past, present, and future",
+      "ENTRYTYPE": "article",
+      "ID": "mccollough2023milestones"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "2024",
+      "pages": "102996",
+      "volume": "91",
+      "journal": "Medical image analysis",
+      "author": "Zhang, Shaoting and Metaxas, Dimitris",
+      "title": "On the challenges and perspectives of foundation models for medical image analysis",
+      "ENTRYTYPE": "article",
+      "ID": "zhang2024challenges"
+    },
+    {
+      "year": "2022",
+      "pages": "574--584",
+      "booktitle": "Proceedings of the IEEE/CVF winter conference on applications of computer vision",
+      "author": "Hatamizadeh, Ali and Tang, Yucheng and Nath, Vishwesh and Yang, Dong and Myronenko, Andriy and Landman, Bennett and Roth, Holger R and Xu, Daguang",
+      "title": "Unetr: Transformers for 3d medical image segmentation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "hatamizadeh2022unetr"
+    },
+    {
+      "year": "2023",
+      "pages": "28541--28564",
+      "volume": "36",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Li, Chunyuan and Wong, Cliff and Zhang, Sheng and Usuyama, Naoto and Liu, Haotian and Yang, Jianwei and Naumann, Tristan and Poon, Hoifung and Gao, Jianfeng",
+      "title": "Llava-med: Training a large language-and-vision assistant for biomedicine in one day",
+      "ENTRYTYPE": "article",
+      "ID": "li2023llava"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2302.13971",
+      "author": "Touvron, Hugo and Lavril, Thibaut and Izacard, Gautier and Martinet, Xavier and Lachaux, Marie-Anne and Lacroix, Timoth{\\'e}e and Rozi{\\`e}re, Baptiste and Goyal, Naman and Hambro, Eric and Azhar, Faisal and others",
+      "title": "Llama: Open and efficient foundation language models",
+      "ENTRYTYPE": "article",
+      "ID": "touvron2023llama"
+    },
+    {
+      "organization": "Springer",
+      "year": "2024",
+      "pages": "396--416",
+      "booktitle": "European Conference on Computer Vision",
+      "author": "Wang, Yi and Li, Kunchang and Li, Xinhao and Yu, Jiashuo and He, Yinan and Chen, Guo and Pei, Baoqi and Zheng, Rongkun and Wang, Zun and others",
+      "title": "Internvideo2: Scaling foundation models for multimodal video understanding",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "wang2024internvideo2"
+    },
+    {
+      "publisher": "Nature Publishing Group UK London",
+      "year": "2023",
+      "pages": "23",
+      "number": "1",
+      "volume": "2",
+      "journal": "Communications Engineering",
+      "author": "Pati, Sarthak and Thakur, Siddhesh P and Hamamc{\\i}, {\\.I}brahim Ethem and Baid, Ujjwal and Baheti, Bhakti and Bhalerao, Megh and G{\\\"u}ley, Orhun and Mouchtaris, Sofia and Lang, David and Thermos, Spyridon and others",
+      "title": "GaNDLF: the generally nuanced deep learning framework for scalable end-to-end clinical workflows",
+      "ENTRYTYPE": "article",
+      "ID": "pati2023gandlf"
+    },
+    {
+      "publisher": "Radiological Society of North America",
+      "year": "2025",
+      "pages": "e240650",
+      "number": "2",
+      "volume": "314",
+      "journal": "Radiology",
+      "author": "Hwang, Eui Jin and Goo, Jin Mo and Park, Chang Min",
+      "title": "AI applications for thoracic imaging: considerations for best practice",
+      "ENTRYTYPE": "article",
+      "ID": "hwang2025ai"
+    },
+    {
+      "year": "2024",
+      "pages": "rs--3",
+      "journal": "Research Square",
+      "author": "Blankemeier, Louis and Cohen, Joseph Paul and Kumar, Ashwin and Van Veen, Dave and Gardezi, Syed Jamal Safdar and Paschali, Magdalini and Chen, Zhihong and Delbrouck, Jean-Benoit and Reis, Eduardo and Truyts, Cesar and others",
+      "title": "Merlin: A vision language foundation model for 3d computed tomography",
+      "ENTRYTYPE": "article",
+      "ID": "blankemeier2024merlin"
+    },
+    {
+      "organization": "Springer",
+      "year": "2024",
+      "pages": "126--143",
+      "booktitle": "European Conference on Computer Vision",
+      "author": "Hamamci, Ibrahim Ethem and Er, Sezgin and Sekuboyina, Anjany and Simsar, Enis and Tezcan, Alperen and Simsek, Ayse Gulnihan and Esirgun, Sevval Nil and Almas, Furkan and Do{\\u{g}}an, Irem and Dasdelen, Muhammed Furkan and others",
+      "title": "Generatect: Text-conditional generation of 3d chest ct volumes",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "hamamci2024generatect"
+    },
+    {
+      "organization": "Springer",
+      "year": "2024",
+      "pages": "476--486",
+      "booktitle": "International Conference on Medical Image Computing and Computer-Assisted Intervention",
+      "author": "Hamamci, Ibrahim Ethem and Er, Sezgin and Menze, Bjoern",
+      "title": "Ct2rep: Automated radiology report generation for 3d medical imaging",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "hamamci2024ct2rep"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "2025",
+      "pages": "103551",
+      "journal": "Medical Image Analysis",
+      "author": "Zhao, Zihao and Liu, Yuxiao and Wu, Han and Wang, Mei and Li, Yonghao and Wang, Sheng and Teng, Lin and Liu, Disheng and Cui, Zhiming and Wang, Qian and others",
+      "title": "CLIP in medical imaging: A survey",
+      "ENTRYTYPE": "article",
+      "ID": "zhao2025clip"
+    },
+    {
+      "booktitle": "The Thirteenth International Conference on Learning Representations",
+      "year": "2025",
+      "author": "Shui, Zhongyi and Zhang, Jianpeng and Cao, Weiwei and Wang, Sinuo and Guo, Ruizhe and Lu, Le and Zhang, Ling and Liang, Tingbo and Yang, Lin and Ye, Xianghua and others",
+      "title": "Large-scale and Fine-grained Vision-language Pre-training for Enhanced CT Image Understanding",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "shuilarge"
+    },
+    {
+      "organization": "PmLR",
+      "year": "2021",
+      "pages": "8748--8763",
+      "booktitle": "International conference on machine learning",
+      "author": "Radford, Alec and Kim, Jong Wook and Hallacy, Chris and Ramesh, Aditya and Goh, Gabriel and Agarwal, Sandhini and Sastry, Girish and Askell, Amanda and Mishkin, Pamela and Clark, Jack and others",
+      "title": "Learning transferable visual models from natural language supervision",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "radford2021learning"
+    },
+    {
+      "publisher": "Nature Publishing Group UK London",
+      "year": "2022",
+      "pages": "1399--1406",
+      "number": "12",
+      "volume": "6",
+      "journal": "Nature biomedical engineering",
+      "author": "Tiu, Ekin and Talius, Ellie and Patel, Pujan and Langlotz, Curtis P and Ng, Andrew Y and Rajpurkar, Pranav",
+      "title": "Expert-level detection of pathologies from unannotated chest X-ray images via self-supervised learning",
+      "ENTRYTYPE": "article",
+      "ID": "tiu2022expert"
+    },
+    {
+      "publisher": "Springer",
+      "year": "2024",
+      "pages": "2817--2825",
+      "number": "5",
+      "volume": "34",
+      "journal": "European radiology",
+      "author": "Jeblick, Katharina and Schachtner, Balthasar and Dexl, Jakob and Mittermeier, Andreas and St{\\\"u}ber, Anna Theresa and Topalis, Johanna and Weber, Tobias and Wesp, Philipp and Sabel, Bastian Oliver and Ricke, Jens and others",
+      "title": "ChatGPT makes medicine easy to swallow: an exploratory case study on simplified radiology reports",
+      "ENTRYTYPE": "article",
+      "ID": "jeblick2024chatgpt"
+    },
+    {
+      "year": "2023",
+      "pages": "7433--7442",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Tanida, Tim and M{\\\"u}ller, Philip and Kaissis, Georgios and Rueckert, Daniel",
+      "title": "Interactive and explainable region-guided radiology report generation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "tanida2023interactive"
+    },
+    {
+      "publisher": "Massachusetts Medical Society",
+      "year": "2024",
+      "pages": "AIoa2300138",
+      "number": "3",
+      "volume": "1",
+      "journal": "Nejm Ai",
+      "author": "Tu, Tao and Azizi, Shekoofeh and Driess, Danny and Schaekermann, Mike and Amin, Mohamed and Chang, Pi-Chuan and Carroll, Andrew and Lau, Charles and Tanno, Ryutaro and Ktena, Ira and others",
+      "title": "Towards generalist biomedical AI",
+      "ENTRYTYPE": "article",
+      "ID": "tu2024towards"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "2024",
+      "journal": "IEEE Transactions on Medical Imaging",
+      "author": "Xu, Yanwu and Sun, Li and Peng, Wei and Jia, Shuyue and Morrison, Katelyn and Perer, Adam and Zandifar, Afrooz and Visweswaran, Shyam and Eslami, Motahhare and Batmanghelich, Kayhan",
+      "title": "Medsyn: Text-guided anatomy-aware synthesis of high-fidelity 3d ct images",
+      "ENTRYTYPE": "article",
+      "ID": "xu2024medsyn"
+    },
+    {
+      "booktitle": "The Twelfth International Conference on Learning Representations",
+      "year": "2024",
+      "author": "Yu, Lijun and Lezama, Jose and Gundavarapu, Nitesh Bharadwaj and Versari, Luca and Sohn, Kihyuk and Minnen, David and Cheng, Yong and Gupta, Agrim and Gu, Xiuye and Hauptmann, Alexander G and others",
+      "title": "Language Model Beats Diffusion-Tokenizer is key to visual generation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "magvitv2"
+    },
+    {
+      "year": "2020",
+      "pages": "1439--1449",
+      "booktitle": "Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+      "author": "Chen, Zhihong and Song, Yan and Chang, Tsung-Hui and Wan, Xiang",
+      "title": "Generating Radiology Reports via Memory-driven Transformer",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "chen2020generating"
+    },
+    {
+      "organization": "IEEE",
+      "year": "2025",
+      "pages": "4430--4441",
+      "booktitle": "2025 IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)",
+      "author": "Guo, Pengfei and Zhao, Can and Yang, Dong and Xu, Ziyue and Nath, Vishwesh and Tang, Yucheng and Simon, Benjamin and Belue, Mason and Harmon, Stephanie and Turkbey, Baris and others",
+      "title": "Maisi: Medical ai for synthetic imaging",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "guo2025maisi"
+    },
+    {
+      "year": "2024",
+      "pages": "27616--27646",
+      "volume": "37",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Abu-Hussein, Shady and Giryes, Raja",
+      "title": "Udpm: Upsampling diffusion probabilistic models",
+      "ENTRYTYPE": "article",
+      "ID": "abu2024udpm"
+    },
+    {
+      "year": "2023",
+      "pages": "18467--18476",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Zhang, Jiahui and Zhan, Fangneng and Theobalt, Christian and Lu, Shijian",
+      "title": "Regularized vector quantization for tokenized image synthesis",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zhang2023regularized"
+    },
+    {
+      "year": "2024",
+      "pages": "8850--8860",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Zeng, Yan and Wei, Guoqiang and Zheng, Jiani and Zou, Jiaxin and Wei, Yang and Zhang, Yuchen and Li, Hang",
+      "title": "Make pixels dance: High-dynamic video generation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zeng2024make"
+    },
+    {
+      "organization": "Springer",
+      "year": "2022",
+      "pages": "140--159",
+      "booktitle": "European Conference on Computer Vision",
+      "author": "Liu, Weiyang and Liu, Zhen and Paull, Liam and Weller, Adrian and Sch{\\\"o}lkopf, Bernhard",
+      "title": "Structural causal 3d reconstruction",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "liu2022structural"
+    },
+    {
+      "year": "2012",
+      "volume": "25",
+      "journal": "Advances in neural information processing systems",
+      "author": "Krizhevsky, Alex and Sutskever, Ilya and Hinton, Geoffrey E",
+      "title": "Imagenet classification with deep convolutional neural networks",
+      "ENTRYTYPE": "article",
+      "ID": "krizhevsky2012imagenet"
+    },
+    {
+      "year": "2025",
+      "booktitle": "The Thirteenth International Conference on Learning Representations",
+      "author": "Scannell, Aidan and Nakhaeinezhadfard, Mohammadreza and Kujanp{\\\"a}{\\\"a}, Kalle and Zhao, Yi and Luck, Kevin Sebastian and Solin, Arno and Pajarinen, Joni",
+      "title": "Discrete Codebook World Models for Continuous Control",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "scannelldiscrete"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2501.03575",
+      "author": "Agarwal, Niket and Ali, Arslan and Bala, Maciej and Balaji, Yogesh and Barker, Erik and Cai, Tiffany and Chattopadhyay, Prithvijit and Chen, Yongxin and Cui, Yin and Ding, Yifan and others",
+      "title": "Cosmos world foundation model platform for physical ai",
+      "ENTRYTYPE": "article",
+      "ID": "agarwal2025cosmos"
+    },
+    {
+      "organization": "Springer",
+      "year": "2022",
+      "pages": "328--345",
+      "booktitle": "European conference on computer vision",
+      "author": "Yao, Ting and Pan, Yingwei and Li, Yehao and Ngo, Chong-Wah and Mei, Tao",
+      "title": "Wave-vit: Unifying wavelet and transformers for visual representation learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "yao2022wave"
+    },
+    {
+      "year": "2024",
+      "pages": "59597--59620",
+      "volume": "37",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Tseng, Albert and Sun, Qingyao and Hou, David and De Sa, Christopher M",
+      "title": "Qtip: Quantization with trellises and incoherence processing",
+      "ENTRYTYPE": "article",
+      "ID": "tseng2024qtip"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "2016",
+      "pages": "47--57",
+      "number": "1",
+      "volume": "3",
+      "journal": "IEEE Transactions on computational imaging",
+      "author": "Zhao, Hang and Gallo, Orazio and Frosio, Iuri and Kautz, Jan",
+      "title": "Loss functions for image restoration with neural networks",
+      "ENTRYTYPE": "article",
+      "ID": "zhao2016loss"
+    },
+    {
+      "year": "2014",
+      "volume": "27",
+      "journal": "Advances in neural information processing systems",
+      "author": "Goodfellow, Ian J and Pouget-Abadie, Jean and Mirza, Mehdi and Xu, Bing and Warde-Farley, David and Ozair, Sherjil and Courville, Aaron and Bengio, Yoshua",
+      "title": "Generative adversarial nets",
+      "ENTRYTYPE": "article",
+      "ID": "goodfellow2014generative"
+    },
+    {
+      "year": "2020",
+      "volume": "10",
+      "booktitle": "CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "author": "Esser, Patrick and Rombach, Robin and Ommer, Bj{\\\"o}rn",
+      "title": "Taming transformers for high-resolution image synthesis. 2021 IEEE",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "esser2021taming"
+    },
+    {
+      "year": "2017",
+      "volume": "30",
+      "journal": "Advances in neural information processing systems",
+      "author": "Van Den Oord, Aaron and Vinyals, Oriol and others",
+      "title": "Neural discrete representation learning",
+      "ENTRYTYPE": "article",
+      "ID": "van2017neural"
+    },
+    {
+      "year": "2017",
+      "pages": "4681--4690",
+      "booktitle": "Proceedings of the IEEE conference on computer vision and pattern recognition",
+      "author": "Ledig, Christian and Theis, Lucas and Husz{\\'a}r, Ferenc and Caballero, Jose and Cunningham, Andrew and Acosta, Alejandro and Aitken, Andrew and Tejani, Alykhan and Totz, Johannes and Wang, Zehan and others",
+      "title": "Photo-realistic single image super-resolution using a generative adversarial network",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ledig2017photo"
+    },
+    {
+      "year": "2018",
+      "pages": "586--595",
+      "booktitle": "Proceedings of the IEEE conference on computer vision and pattern recognition",
+      "author": "Zhang, Richard and Isola, Phillip and Efros, Alexei A and Shechtman, Eli and Wang, Oliver",
+      "title": "The unreasonable effectiveness of deep features as a perceptual metric",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zhang2018perceptual"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "2020",
+      "pages": "2772--2781",
+      "number": "9",
+      "volume": "39",
+      "journal": "IEEE transactions on medical imaging",
+      "author": "Zhou, Tao and Fu, Huazhu and Chen, Geng and Shen, Jianbing and Shao, Ling",
+      "title": "Hi-net: hybrid-fusion network for multi-modal MR image synthesis",
+      "ENTRYTYPE": "article",
+      "ID": "zhou2020hi"
+    },
+    {
+      "url": "https://arxiv.org/abs/2204.06125",
+      "primaryclass": "cs.CV",
+      "archiveprefix": "arXiv",
+      "eprint": "2204.06125",
+      "year": "2022",
+      "author": "Aditya Ramesh and Prafulla Dhariwal and Alex Nichol and Casey Chu and Mark Chen",
+      "title": "Hierarchical Text-Conditional Image Generation with CLIP Latents",
+      "ENTRYTYPE": "misc",
+      "ID": "ramesh2022hierarchical"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2017",
+      "pages": "1771--1779",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Kalchbrenner, Nal and Oord, A{\\\"a}ron and Simonyan, Karen and Danihelka, Ivo and Vinyals, Oriol and Graves, Alex and Kavukcuoglu, Koray",
+      "title": "Video pixel networks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "kalchbrenner2016video"
+    },
+    {
+      "year": "2019",
+      "journal": "arXiv preprint arXiv:1906.02634",
+      "author": "Weissenborn, Dirk and T{\\\"a}ckstr{\\\"o}m, Oscar and Uszkoreit, Jakob",
+      "title": "Scaling autoregressive video models",
+      "ENTRYTYPE": "article",
+      "ID": "weissenborn2019scaling"
+    },
+    {
+      "organization": "Springer",
+      "year": "2022",
+      "pages": "17--33",
+      "booktitle": "European conference on computer vision",
+      "author": "Chen, Liangyu and Chu, Xiaojie and Zhang, Xiangyu and Sun, Jian",
+      "title": "Simple baselines for image restoration",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "chen2022simple"
+    },
+    {
+      "organization": "IEEE",
+      "year": "2010",
+      "pages": "2366--2369",
+      "booktitle": "2010 20th international conference on pattern recognition",
+      "author": "Hore, Alain and Ziou, Djemel",
+      "title": "Image quality metrics: PSNR vs. SSIM",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "hore2010image"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "2004",
+      "pages": "600--612",
+      "number": "4",
+      "volume": "13",
+      "journal": "IEEE transactions on image processing",
+      "author": "Wang, Zhou and Bovik, Alan C and Sheikh, Hamid R and Simoncelli, Eero P",
+      "title": "Image quality assessment: from error visibility to structural similarity",
+      "ENTRYTYPE": "article",
+      "ID": "ssim"
+    },
+    {
+      "year": "2014",
+      "author": "Diederik, Kingma",
+      "title": "Adam: A method for stochastic optimization",
+      "ENTRYTYPE": "article",
+      "ID": "diederik2014adam"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2018",
+      "pages": "794--803",
+      "booktitle": "International conference on machine learning",
+      "author": "Chen, Zhao and Badrinarayanan, Vijay and Lee, Chen-Yu and Rabinovich, Andrew",
+      "title": "Gradnorm: Gradient normalization for adaptive loss balancing in deep multitask networks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "gradnorm"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2407.21783",
+      "author": "Grattafiori, Aaron and Dubey, Abhimanyu and Jauhri, Abhinav and Pandey, Abhinav and Kadian, Abhishek and Al-Dahle, Ahmad and Letman, Aiesha and Mathur, Akhil and Schelten, Alan and Vaughan, Alex and others",
+      "title": "The llama 3 herd of models",
+      "ENTRYTYPE": "article",
+      "ID": "grattafiori2024llama"
+    },
+    {
+      "organization": "Springer",
+      "year": "2024",
+      "pages": "23--40",
+      "booktitle": "European Conference on Computer Vision",
+      "author": "Ma, Nanye and Goldstein, Mark and Albergo, Michael S and Boffi, Nicholas M and Vanden-Eijnden, Eric and Xie, Saining",
+      "title": "Sit: Exploring flow and diffusion-based generative models with scalable interpolant transformers",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ma2024sit"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2310.00426",
+      "author": "Chen, Junsong and Yu, Jincheng and Ge, Chongjian and Yao, Lewei and Xie, Enze and Wu, Yue and Wang, Zhongdao and Kwok, James and Luo, Ping and Lu, Huchuan and others",
+      "title": "Pixart-$\\alpha$: Fast training of diffusion transformer for photorealistic text-to-image synthesis",
+      "ENTRYTYPE": "article",
+      "ID": "chen2023pixart"
+    },
+    {
+      "year": "2020",
+      "pages": "1--67",
+      "number": "140",
+      "volume": "21",
+      "journal": "Journal of machine learning research",
+      "author": "Raffel, Colin and Shazeer, Noam and Roberts, Adam and Lee, Katherine and Narang, Sharan and Matena, Michael and Zhou, Yanqi and Li, Wei and Liu, Peter J",
+      "title": "Exploring the limits of transfer learning with a unified text-to-text transformer",
+      "ENTRYTYPE": "article",
+      "ID": "raffel2020exploring"
+    },
+    {
+      "year": "2025",
+      "booktitle": "Medical Imaging with Deep Learning-Short Papers",
+      "author": "Hamamci, Ibrahim Ethem and Er, Sezgin and Shit, Suprosanna and Reynaud, Hadrien and Kainz, Bernhard and Menze, Bjoern",
+      "title": "CRG Score: A Distribution-Aware Clinical Metric for Radiology Report Generation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "hamamci2025crg"
+    },
+    {
+      "year": "2002",
+      "pages": "311--318",
+      "booktitle": "Proceedings of the 40th annual meeting of the Association for Computational Linguistics",
+      "author": "Papineni, Kishore and Roukos, Salim and Ward, Todd and Zhu, Wei-Jing",
+      "title": "Bleu: a method for automatic evaluation of machine translation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "bleu"
+    },
+    {
+      "year": "2005",
+      "pages": "65--72",
+      "booktitle": "Proceedings of the acl workshop on intrinsic and extrinsic evaluation measures for machine translation and/or summarization",
+      "author": "Banerjee, Satanjeev and Lavie, Alon",
+      "title": "METEOR: An automatic metric for MT evaluation with improved correlation with human judgments",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "meteor"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "2021",
+      "pages": "101857",
+      "volume": "67",
+      "journal": "Medical image analysis",
+      "author": "Draelos, Rachel Lea and Dov, David and Mazurowski, Maciej A and Lo, Joseph Y and Henao, Ricardo and Rubin, Geoffrey D and Carin, Lawrence",
+      "title": "Machine-learning-based multiple abnormality prediction with large-scale chest computed tomography volumes",
+      "ENTRYTYPE": "article",
+      "ID": "draelos2021machine"
+    },
+    {
+      "year": "2023",
+      "pages": "34892--34916",
+      "volume": "36",
+      "journal": "Advances in neural information processing systems",
+      "author": "Liu, Haotian and Li, Chunyuan and Wu, Qingyang and Lee, Yong Jae",
+      "title": "Visual instruction tuning",
+      "ENTRYTYPE": "article",
+      "ID": "liu2023visual"
+    },
+    {
+      "year": "2019",
+      "author": "DenOtter, Tami D and Schubert, Johanna",
+      "title": "Hounsfield unit",
+      "ENTRYTYPE": "misc",
+      "ID": "denotter2019hounsfield"
+    },
+    {
+      "publisher": "NIH Public Access",
+      "year": "2014",
+      "pages": "1013",
+      "number": "5",
+      "volume": "203",
+      "journal": "AJR. American journal of roentgenology",
+      "author": "Lamba, Ramit and McGahan, John P and Corwin, Michael T and Li, Chin-Shang and Tran, Tien and Seibert, J Anthony and Boone, John M",
+      "title": "CT Hounsfield numbers of soft tissues on unenhanced abdominal CT scans: variability between two different manufacturers’ MDCT scanners",
+      "ENTRYTYPE": "article",
+      "ID": "lamba2014ct"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2211.02701",
+      "author": "Cardoso, M Jorge and Li, Wenqi and Brown, Richard and Ma, Nic and Kerfoot, Eric and Wang, Yiheng and Murrey, Benjamin and Myronenko, Andriy and Zhao, Can and Yang, Dong and others",
+      "title": "Monai: An open-source framework for deep learning in healthcare",
+      "ENTRYTYPE": "article",
+      "ID": "cardoso2022monai"
+    },
+    {
+      "series": "NIPS'12",
+      "location": "Lake Tahoe, Nevada",
+      "numpages": "9",
+      "pages": "1097–1105",
+      "booktitle": "Proceedings of the 26th International Conference on Neural Information Processing Systems - Volume 1",
+      "address": "Red Hook, NY, USA",
+      "publisher": "Curran Associates Inc.",
+      "year": "2012",
+      "title": "ImageNet classification with deep convolutional neural networks",
+      "author": "Krizhevsky, Alex and Sutskever, Ilya and Hinton, Geoffrey E.",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "alexnet"
+    },
+    {
+      "eprint": " \nhttps://doi.org/10.1148/ryai.210315",
+      "url": " \nhttps://doi.org/10.1148/ryai.210315\n",
+      "doi": "10.1148/ryai.210315",
+      "year": "0",
+      "pages": "e210315",
+      "number": "ja",
+      "volume": "0",
+      "journal": "Radiology: Artificial Intelligence",
+      "title": "RadImageNet: An Open Radiologic Deep Learning Research Dataset for Effective Transfer Learning",
+      "author": "Mei, Xueyan and Liu, Zelong and Robson, Philip and Marinelli, Brett and Huang, Mingqian and Doshi, Amish and Jacobi, Adam and Cao, Chendi and Link, Katherine E. and Yang, Thomas and Wang, Ying and Greenspan, Hayit and Deyer, Timothy and Fayad, Zahi A. and Yang, Yang",
+      "ENTRYTYPE": "article",
+      "ID": "radimagenet"
+    }
+  ]
+}

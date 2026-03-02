@@ -1,0 +1,698 @@
+{
+  "pdf_url": "https://arxiv.org/pdf/2506.07961v2.pdf",
+  "references": [
+    {
+      "organization": "IEEE",
+      "year": "2021",
+      "pages": "4613--4619",
+      "booktitle": "2021 IEEE international conference on robotics and automation (ICRA)",
+      "author": "Johns, Edward",
+      "title": "Coarse-to-fine imitation learning: Robot manipulation from a single demonstration",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "johns2021coarse"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2304.13705",
+      "author": "Zhao, Tony Z and Kumar, Vikash and Levine, Sergey and Finn, Chelsea",
+      "title": "Learning fine-grained bimanual manipulation with low-cost hardware",
+      "ENTRYTYPE": "article",
+      "ID": "zhao2023learning"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2212.06817",
+      "author": "Brohan, Anthony and Brown, Noah and Carbajal, Justice and Chebotar, Yevgen and Dabis, Joseph and Finn, Chelsea and Gopalakrishnan, Keerthana and Hausman, Karol and Herzog, Alex and Hsu, Jasmine and others",
+      "title": "Rt-1: Robotics transformer for real-world control at scale",
+      "ENTRYTYPE": "article",
+      "ID": "brohan2022rt"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2203.06173",
+      "author": "Xiao, Tete and Radosavovic, Ilija and Darrell, Trevor and Malik, Jitendra",
+      "title": "Masked visual pre-training for motor control",
+      "ENTRYTYPE": "article",
+      "ID": "xiao2022masked"
+    },
+    {
+      "organization": "PmLR",
+      "year": "2021",
+      "pages": "8748--8763",
+      "booktitle": "International conference on machine learning",
+      "author": "Radford, Alec and Kim, Jong Wook and Hallacy, Chris and Ramesh, Aditya and Goh, Gabriel and Agarwal, Sandhini and Sastry, Girish and Askell, Amanda and Mishkin, Pamela and Clark, Jack and others",
+      "title": "Learning transferable visual models from natural language supervision",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "radford2021learning"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2023",
+      "pages": "3949--3965",
+      "booktitle": "Conference on Robot Learning",
+      "author": "Gervet, Theophile and Xian, Zhou and Gkanatsios, Nikolaos and Fragkiadaki, Katerina",
+      "title": "Act3D: 3D Feature Field Transformers for Multi-Task Robotic Manipulation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "gervet2023act3d"
+    },
+    {
+      "year": "2024",
+      "booktitle": "8th Annual Conference on Robot Learning",
+      "author": "Ke, Tsung-Wei and Gkanatsios, Nikolaos and Fragkiadaki, Katerina",
+      "title": "3D Diffuser Actor: Policy Diffusion with 3D Scene Representations",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "3d-da"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2023",
+      "pages": "785--799",
+      "booktitle": "Conference on Robot Learning",
+      "author": "Shridhar, Mohit and Manuelli, Lucas and Fox, Dieter",
+      "title": "Perceiver-actor: A multi-task transformer for robotic manipulation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "shridhar2023perceiver"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2023",
+      "pages": "694--710",
+      "booktitle": "Conference on Robot Learning",
+      "author": "Goyal, Ankit and Xu, Jie and Guo, Yijie and Blukis, Valts and Chao, Yu-Wei and Fox, Dieter",
+      "title": "Rvt: Robotic view transformer for 3d object manipulation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "goyal2023rvt"
+    },
+    {
+      "year": "2024",
+      "booktitle": "RSS 2024 Workshop: Data Generation for Robotics",
+      "author": "Goyal, Ankit and Blukis, Valts and Xu, Jie and Guo, Yijie and Chao, Yu-Wei and Fox, Dieter",
+      "title": "RVT-2: Learning Precise Manipulation from Few Demonstrations",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "goyal2024rvt"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2023",
+      "pages": "175--187",
+      "booktitle": "Conference on Robot Learning",
+      "author": "Guhur, Pierre-Louis and Chen, Shizhe and Pinel, Ricardo Garcia and Tapaswi, Makarand and Laptev, Ivan and Schmid, Cordelia",
+      "title": "Instruction-driven history-aware policies for robotic manipulations",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "guhur2023instruction"
+    },
+    {
+      "booktitle": "8th Annual Conference on Robot Learning",
+      "author": "Kim, Moo Jin and Pertsch, Karl and Karamcheti, Siddharth and Xiao, Ted and Balakrishna, Ashwin and Nair, Suraj and Rafailov, Rafael and Foster, Ethan P and Sanketi, Pannag R and Vuong, Quan and others",
+      "title": "OpenVLA: An Open-Source Vision-Language-Action Model",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "kimopenvla"
+    },
+    {
+      "journal": "URL https://arxiv. org/abs/2410.24164",
+      "author": "Black, Kevin and Brown, Noah and Driess, Danny and Esmail, Adnan and Equi, Michael and Finn, Chelsea and Fusai, Niccolo and Groom, Lachy and Hausman, Karol and Ichter, Brian and others",
+      "title": "$\\pi$0: A vision-language-action flow model for general robot control, 2024",
+      "ENTRYTYPE": "article",
+      "ID": "black2410pi0"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2409.12514",
+      "author": "Wen, Junjie and Zhu, Yichen and Li, Jinming and Zhu, Minjie and Wu, Kun and Xu, Zhiyuan and Liu, Ning and Cheng, Ran and Shen, Chaomin and Peng, Yaxin and others",
+      "title": "Tinyvla: Towards fast, data-efficient vision-language-action models for robotic manipulation",
+      "ENTRYTYPE": "article",
+      "ID": "wen2024tinyvla"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2412.14058",
+      "author": "Li, Xinghang and Li, Peiyan and Liu, Minghuan and Wang, Dong and Liu, Jirong and Kang, Bingyi and Ma, Xiao and Kong, Tao and Zhang, Hanbo and Liu, Huaping",
+      "title": "Towards generalist robot policies: What matters in building vision-language-action models",
+      "ENTRYTYPE": "article",
+      "ID": "li2024towards"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2410.06158",
+      "author": "Cheang, Chi-Lam and Chen, Guangzeng and Jing, Ya and Kong, Tao and Li, Hang and Li, Yifeng and Liu, Yuxiao and Wu, Hongtao and Xu, Jiafeng and Yang, Yichu and others",
+      "title": "Gr-2: A generative video-language-action model with web-scale knowledge for robot manipulation",
+      "ENTRYTYPE": "article",
+      "ID": "cheang2024gr"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "2025",
+      "journal": "IEEE Robotics and Automation Letters",
+      "author": "Li, Peiyan and Wu, Hongtao and Huang, Yan and Cheang, Chilam and Wang, Liang and Kong, Tao",
+      "title": "GR-MG: Leveraging Partially-Annotated Data Via Multi-Modal Goal-Conditioned Policy",
+      "ENTRYTYPE": "article",
+      "ID": "li2025gr"
+    },
+    {
+      "year": "2024",
+      "booktitle": "International Conference on Learning Representations",
+      "author": "Wu, Hongtao and Jing, Ya and Cheang, Chilam and Chen, Guangzeng and Xu, Jiafeng and Li, Xinghang and Liu, Minghuan and Li, Hang and Kong, Tao",
+      "title": "Unleashing Large-Scale Video Generative Pre-training for Visual Robot Manipulation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "wu2023unleashing"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2311.01378",
+      "author": "Li, Xinghang and Liu, Minghuan and Zhang, Hanbo and Yu, Cunjun and Xu, Jie and Wu, Hongtao and Cheang, Chilam and Jing, Ya and Zhang, Weinan and Liu, Huaping and others",
+      "title": "Vision-language foundation models as effective robot imitators",
+      "ENTRYTYPE": "article",
+      "ID": "li2023vision"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2501.15830",
+      "author": "Qu, Delin and Song, Haoming and Chen, Qizhi and Yao, Yuanqi and Ye, Xinyi and Ding, Yan and Wang, Zhigang and Gu, JiaYuan and Zhao, Bin and Wang, Dong and others",
+      "title": "SpatialVLA: Exploring Spatial Representations for Visual-Language-Action Model",
+      "ENTRYTYPE": "article",
+      "ID": "qu2025spatialvla"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2023",
+      "pages": "1006--1021",
+      "booktitle": "Conference on Robot Learning",
+      "author": "Sundaresan, Priya and Belkhale, Suneel and Sadigh, Dorsa and Bohg, Jeannette",
+      "title": "KITE: Keypoint-Conditioned Policies for Semantic Manipulation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "sundaresan2023kite"
+    },
+    {
+      "year": "2024",
+      "pages": "arXiv--2403",
+      "journal": "arXiv e-prints",
+      "author": "Ze, Yanjie and Zhang, Gu and Zhang, Kangning and Hu, Chenyuan and Wang, Muhan and Xu, Huazhe",
+      "title": "3d diffusion policy",
+      "ENTRYTYPE": "article",
+      "ID": "ze20243d"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2023",
+      "pages": "1761--1781",
+      "booktitle": "Conference on Robot Learning",
+      "author": "Chen, Shizhe and Pinel, Ricardo Garcia and Schmid, Cordelia and Laptev, Ivan",
+      "title": "PolarNet: 3D Point Clouds for Language-Guided Robotic Manipulation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "chen2023polarnet"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2503.08950",
+      "author": "Yang, Rujia and Chen, Geng and Wen, Chuan and Gao, Yang",
+      "title": "FP3: A 3D Foundation Policy for Robotic Manipulation",
+      "ENTRYTYPE": "article",
+      "ID": "yang2025fp3"
+    },
+    {
+      "year": "2022",
+      "pages": "23192--23204",
+      "volume": "35",
+      "journal": "Advances in neural information processing systems",
+      "author": "Qian, Guocheng and Li, Yuchen and Peng, Houwen and Mai, Jinjie and Hammoud, Hasan and Elhoseiny, Mohamed and Ghanem, Bernard",
+      "title": "Pointnext: Revisiting pointnet++ with improved training and scaling strategies",
+      "ENTRYTYPE": "article",
+      "ID": "qian2022pointnext"
+    },
+    {
+      "year": "2024",
+      "journal": "The International Journal of Robotics Research",
+      "title": "Diffusion Policy: Visuomotor Policy Learning via Action Diffusion",
+      "author": "Cheng Chi and Zhenjia Xu and Siyuan Feng and Eric Cousineau and Yilun Du and Benjamin Burchfiel and Russ Tedrake and Shuran Song",
+      "ENTRYTYPE": "article",
+      "ID": "chi2024diffusionpolicy"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2310.06773",
+      "author": "Zhou, Junsheng and Wang, Jinsheng and Ma, Baorui and Liu, Yu-Shen and Huang, Tiejun and Wang, Xinlong",
+      "title": "Uni3d: Exploring unified 3d representation at scale",
+      "ENTRYTYPE": "article",
+      "ID": "zhou2023uni3d"
+    },
+    {
+      "url": "https://openreview.net/forum?id=W0zgY2mBTA8",
+      "year": "2023",
+      "booktitle": "7th Annual Conference on Robot Learning",
+      "author": "Zhou Xian and Nikolaos Gkanatsios and Theophile Gervet and Tsung-Wei Ke and Katerina Fragkiadaki",
+      "title": "ChainedDiffuser: Unifying Trajectory Diffusion and Keypose Prediction for Robotic Manipulation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "xian2023chaineddiffuser"
+    },
+    {
+      "booktitle": "International Conference on Learning Representations",
+      "author": "Jaegle, Andrew and Borgeaud, Sebastian and Alayrac, Jean-Baptiste and Doersch, Carl and Ionescu, Catalin and Ding, David and Koppula, Skanda and Zoran, Daniel and Brock, Andrew and Shelhamer, Evan and others",
+      "title": "Perceiver IO: A General Architecture for Structured Inputs \\& Outputs",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "jaegleperceiver"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2307.15818",
+      "author": "Brohan, Anthony and Brown, Noah and Carbajal, Justice and Chebotar, Yevgen and Chen, Xi and Choromanski, Krzysztof and Ding, Tianli and Driess, Danny and Dubey, Avinava and Finn, Chelsea and others",
+      "title": "Rt-2: Vision-language-action models transfer web knowledge to robotic control",
+      "ENTRYTYPE": "article",
+      "ID": "brohan2023rt"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2502.05855",
+      "author": "Wen, Junjie and Zhu, Yichen and Li, Jinming and Tang, Zhibin and Shen, Chaomin and Feng, Feifei",
+      "title": "DexVLA: Vision-Language Model with Plug-In Diffusion Expert for General Robot Control",
+      "ENTRYTYPE": "article",
+      "ID": "wen2025dexvla"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2411.19650",
+      "author": "Li, Qixiu and Liang, Yaobo and Wang, Zeyu and Luo, Lin and Chen, Xi and Liao, Mozheng and Wei, Fangyun and Deng, Yu and Xu, Sicheng and Zhang, Yizhong and others",
+      "title": "Cogact: A foundational vision-language-action model for synergizing cognition and action in robotic manipulation",
+      "ENTRYTYPE": "article",
+      "ID": "li2024cogact"
+    },
+    {
+      "organization": "IEEE",
+      "year": "2024",
+      "pages": "6892--6903",
+      "booktitle": "2024 IEEE International Conference on Robotics and Automation (ICRA)",
+      "author": "O’Neill, Abby and Rehman, Abdul and Maddukuri, Abhiram and Gupta, Abhishek and Padalkar, Abhishek and Lee, Abraham and Pooley, Acorn and Gupta, Agrim and Mandlekar, Ajay and Jain, Ajinkya and others",
+      "title": "Open x-embodiment: Robotic learning datasets and rt-x models: Open x-embodiment collaboration 0",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "o2024open"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2501.09747",
+      "author": "Pertsch, Karl and Stachowicz, Kyle and Ichter, Brian and Driess, Danny and Nair, Suraj and Vuong, Quan and Mees, Oier and Finn, Chelsea and Levine, Sergey",
+      "title": "Fast: Efficient action tokenization for vision-language-action models",
+      "ENTRYTYPE": "article",
+      "ID": "pertsch2025fast"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2403.09631",
+      "author": "Zhen, Haoyu and Qiu, Xiaowen and Chen, Peihao and Yang, Jincheng and Yan, Xin and Du, Yilun and Hong, Yining and Gan, Chuang",
+      "title": "3d-vla: A 3d vision-language-action generative world model",
+      "ENTRYTYPE": "article",
+      "ID": "zhen20243d"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "2020",
+      "pages": "3019--3026",
+      "number": "2",
+      "volume": "5",
+      "journal": "IEEE Robotics and Automation Letters",
+      "author": "James, Stephen and Ma, Zicong and Arrojo, David Rovick and Davison, Andrew J",
+      "title": "Rlbench: The robot learning benchmark \\& learning environment",
+      "ENTRYTYPE": "article",
+      "ID": "james2020rlbench"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2503.07511",
+      "author": "Li, Chengmeng and Wen, Junjie and Peng, Yan and Peng, Yaxin and Feng, Feifei and Zhu, Yichen",
+      "title": "PointVLA: Injecting the 3D World into Vision-Language-Action Models",
+      "ENTRYTYPE": "article",
+      "ID": "li2025pointvla"
+    },
+    {
+      "year": "2022",
+      "pages": "13739--13748",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "James, Stephen and Wada, Kentaro and Laidlow, Tristan and Davison, Andrew J",
+      "title": "Coarse-to-fine q-attention: Efficient learning for visual robotic manipulation via discretisation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "james2022coarse"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2401.12046",
+      "author": "Huang, Haojie and Howell, Owen and Wang, Dian and Zhu, Xupeng and Walters, Robin and Platt, Robert",
+      "title": "Fourier transporter: Bi-equivariant robotic manipulation in 3d",
+      "ENTRYTYPE": "article",
+      "ID": "huang2024fourier"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2306.10474",
+      "author": "Zhang, Tong and Hu, Yingdong and Cui, Hanchen and Zhao, Hang and Gao, Yang",
+      "title": "A universal semantic-geometric representation for robotic manipulation",
+      "ENTRYTYPE": "article",
+      "ID": "zhang2023universal"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2406.10721",
+      "author": "Yuan, Wentao and Duan, Jiafei and Blukis, Valts and Pumacay, Wilbert and Krishna, Ranjay and Murali, Adithyavairavan and Mousavian, Arsalan and Fox, Dieter",
+      "title": "Robopoint: A vision-language model for spatial affordance prediction for robotics",
+      "ENTRYTYPE": "article",
+      "ID": "yuan2024robopoint"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2407.07726",
+      "author": "Beyer, Lucas and Steiner, Andreas and Pinto, Andr{\\'e} Susano and Kolesnikov, Alexander and Wang, Xiao and Salz, Daniel and Neumann, Maxim and Alabdulmohsin, Ibrahim and Tschannen, Michael and Bugliarello, Emanuele and others",
+      "title": "Paligemma: A versatile 3b vlm for transfer",
+      "ENTRYTYPE": "article",
+      "ID": "beyer2024paligemma"
+    },
+    {
+      "year": "2023",
+      "pages": "11975--11986",
+      "booktitle": "Proceedings of the IEEE/CVF international conference on computer vision",
+      "author": "Zhai, Xiaohua and Mustafa, Basil and Kolesnikov, Alexander and Beyer, Lucas",
+      "title": "Sigmoid loss for language image pre-training",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zhai2023sigmoid"
+    },
+    {
+      "abstract": "This paper describes SentencePiece, a language-independent subword tokenizer and detokenizer designed for Neural-based text processing, including Neural Machine Translation. It provides open-source C++ and Python implementations for subword units. While existing subword segmentation tools assume that the input is pre-tokenized into word sequences, SentencePiece can train subword models directly from raw sentences, which allows us to make a purely end-to-end and language independent system. We perform a validation experiment of NMT on English-Japanese machine translation, and find that it is possible to achieve comparable accuracy to direct subword training from raw sentences. We also compare the performance of subword training and segmentation with various configurations. SentencePiece is available under the Apache 2 license at \\url{https://github.com/google/sentencepiece}.",
+      "pages": "66--71",
+      "doi": "10.18653/v1/D18-2012",
+      "url": "https://aclanthology.org/D18-2012/",
+      "publisher": "Association for Computational Linguistics",
+      "address": "Brussels, Belgium",
+      "year": "2018",
+      "month": "November",
+      "booktitle": "Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing: System Demonstrations",
+      "editor": "Blanco, Eduardo  and\nLu, Wei",
+      "author": "Kudo, Taku  and\nRichardson, John",
+      "title": "{S}entence{P}iece: A simple and language independent subword tokenizer and detokenizer for Neural Text Processing",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "kudo-richardson-2018-sentencepiece"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2403.08295",
+      "author": "Team, Gemma and Mesnard, Thomas and Hardin, Cassidy and Dadashi, Robert and Bhupatiraju, Surya and Pathak, Shreya and Sifre, Laurent and Rivi{\\`e}re, Morgane and Kale, Mihir Sanjay and Love, Juliette and others",
+      "title": "Gemma: Open models based on gemini research and technology",
+      "ENTRYTYPE": "article",
+      "ID": "team2024gemma"
+    },
+    {
+      "organization": "Springer",
+      "year": "2020",
+      "pages": "402--419",
+      "booktitle": "Computer Vision--ECCV 2020: 16th European Conference, Glasgow, UK, August 23--28, 2020, Proceedings, Part II 16",
+      "author": "Teed, Zachary and Deng, Jia",
+      "title": "Raft: Recurrent all-pairs field transforms for optical flow",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "teed2020raft"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "2025",
+      "pages": "100207",
+      "journal": "Biomimetic Intelligence and Robotics",
+      "author": "Zhang, Liding and Cai, Kuanqi and Sun, Zewei and Bing, Zhenshan and Wang, Chaoqun and Figueredo, Luis and Haddadin, Sami and Knoll, Alois",
+      "title": "Motion planning for robotics: A review for sampling-based planners",
+      "ENTRYTYPE": "article",
+      "ID": "zhang2025motion"
+    },
+    {
+      "year": "2012",
+      "volume": "19",
+      "note": "\\url{https://ompl.kavrakilab.org}",
+      "title": "The {O}pen {M}otion {P}lanning {L}ibrary",
+      "pages": "72--82",
+      "number": "4",
+      "month": "December",
+      "journal": "{IEEE} Robotics \\& Automation Magazine",
+      "doi": "10.1109/MRA.2012.2205651",
+      "author": "Ioan A. {\\c{S}}ucan and Mark Moll and Lydia E. Kavraki",
+      "ENTRYTYPE": "article",
+      "ID": "sucan2012the-open-motion-planning-library"
+    },
+    {
+      "doi": "10.1109/ACCESS.2025.3550028",
+      "keywords": "Path planning;Robots;Tuning;Genetic algorithms;Heuristic algorithms;Planning;Optimization methods;Costs;Collision avoidance;Agricultural robots;Path planning;agricultural robot;parameter tuning;robotic manipulator;genetic algorithm",
+      "pages": "46091-46105",
+      "number": "",
+      "volume": "13",
+      "year": "2025",
+      "title": "Evolutionary Parameter Tuning Method for a Graph-Based Path Planning Algorithm in Agricultural Robotic Manipulators",
+      "journal": "IEEE Access",
+      "author": "Abdollah Vaghefi, Seyed and Faisal Ibrahim, Mohd and Hairi Mohd Zaman, Mohd",
+      "ENTRYTYPE": "article",
+      "ID": "10918997"
+    },
+    {
+      "year": "2014",
+      "journal": "arXiv preprint arXiv:1404.3785",
+      "author": "Coleman, David and Sucan, Ioan and Chitta, Sachin and Correll, Nikolaus",
+      "title": "Reducing the barrier to entry of complex robotic software: a moveit! case study",
+      "ENTRYTYPE": "article",
+      "ID": "coleman2014reducing"
+    },
+    {
+      "organization": "IEEE",
+      "year": "2000",
+      "pages": "995--1001",
+      "volume": "2",
+      "booktitle": "Proceedings 2000 ICRA. Millennium conference. IEEE international conference on robotics and automation. Symposia proceedings (Cat. No. 00CH37065)",
+      "author": "Kuffner, James J and LaValle, Steven M",
+      "title": "RRT-connect: An efficient approach to single-query path planning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "kuffner2000rrt"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2402.08191",
+      "author": "Pumacay, Wilbert and Singh, Ishika and Duan, Jiafei and Krishna, Ranjay and Thomason, Jesse and Fox, Dieter",
+      "title": "The colosseum: A benchmark for evaluating generalization for robotic manipulation",
+      "ENTRYTYPE": "article",
+      "ID": "pumacay2024colosseum"
+    },
+    {
+      "year": "2019",
+      "journal": "arXiv preprint arXiv:1906.11176",
+      "author": "James, Stephen and Freese, Marc and Davison, Andrew J",
+      "title": "Pyrep: Bringing v-rep to deep robot learning",
+      "ENTRYTYPE": "article",
+      "ID": "james2019pyrep"
+    },
+    {
+      "organization": "IEEE",
+      "year": "2013",
+      "pages": "1321--1326",
+      "booktitle": "2013 IEEE/RSJ international conference on intelligent robots and systems",
+      "author": "Rohmer, Eric and Singh, Surya PN and Freese, Marc",
+      "title": "V-REP: A versatile and scalable robot simulation framework",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "rohmer2013v"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2022",
+      "pages": "991--1002",
+      "booktitle": "Conference on Robot Learning",
+      "author": "Jang, Eric and Irpan, Alex and Khansari, Mohi and Kappler, Daniel and Ebert, Frederik and Lynch, Corey and Levine, Sergey and Finn, Chelsea",
+      "title": "Bc-z: Zero-shot task generalization with robotic imitation learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "jang2022bc"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2023",
+      "pages": "416--426",
+      "booktitle": "Conference on Robot Learning",
+      "author": "Radosavovic, Ilija and Xiao, Tete and James, Stephen and Abbeel, Pieter and Malik, Jitendra and Darrell, Trevor",
+      "title": "Real-world robot learning with masked visual pre-training",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "radosavovic2023real"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2203.12601",
+      "author": "Nair, Suraj and Rajeswaran, Aravind and Kumar, Vikash and Finn, Chelsea and Gupta, Abhinav",
+      "title": "R3m: A universal visual representation for robot manipulation",
+      "ENTRYTYPE": "article",
+      "ID": "nair2022r3m"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2410.24164",
+      "author": "Black, Kevin and Brown, Noah and Driess, Danny and Esmail, Adnan and Equi, Michael and Finn, Chelsea and Fusai, Niccolo and Groom, Lachy and Hausman, Karol and Ichter, Brian and others",
+      "title": "$\\backslash\\pi_0$: A Vision-Language-Action Flow Model for     General Robot Control",
+      "ENTRYTYPE": "article",
+      "ID": "black2024pi_0"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2504.16054",
+      "author": "Intelligence, Physical and Black, Kevin and Brown, Noah and Darpinian, James and Dhabalia, Karan and Driess, Danny and Esmail, Adnan and Equi, Michael and Finn, Chelsea and Fusai, Niccolo and others",
+      "title": "$\\pi$0.5: a Vision-Language-Action Model with Open-World Generalization",
+      "ENTRYTYPE": "article",
+      "ID": "intelligence2025pi_"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2311.00926",
+      "author": "Yuan, Wentao and Murali, Adithyavairavan and Mousavian, Arsalan and Fox, Dieter",
+      "title": "M2t2: Multi-task masked transformer for object-centric pick and place",
+      "ENTRYTYPE": "article",
+      "ID": "yuan2023m2t2"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2504.15037",
+      "author": "Zhang, Huanyu and Li, Chengzu and Wu, Wenshan and Mao, Shaoguang and Vuli{\\'c}, Ivan and Zhang, Zhang and Wang, Liang and Tan, Tieniu and Wei, Furu and others",
+      "title": "A Call for New Recipes to Enhance Spatial Reasoning in MLLMs",
+      "ENTRYTYPE": "article",
+      "ID": "zhang2025call"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2409.12191",
+      "author": "Wang, Peng and Bai, Shuai and Tan, Sinan and Wang, Shijie and Fan, Zhihao and Bai, Jinze and Chen, Keqin and Liu, Xuejing and Wang, Jialin and Ge, Wenbin and others",
+      "title": "Qwen2-vl: Enhancing vision-language model's perception of the world at any resolution",
+      "ENTRYTYPE": "article",
+      "ID": "wang2024qwen2"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2502.13923",
+      "author": "Bai, Shuai and Chen, Keqin and Liu, Xuejing and Wang, Jialin and Ge, Wenbin and Song, Sibo and Dang, Kai and Wang, Peng and Wang, Shijie and Tang, Jun and others",
+      "title": "Qwen2. 5-vl technical report",
+      "ENTRYTYPE": "article",
+      "ID": "bai2025qwen2"
+    },
+    {
+      "year": "2024",
+      "booktitle": "Forty-first International Conference on Machine Learning",
+      "author": "Karamcheti, Siddharth and Nair, Suraj and Balakrishna, Ashwin and Liang, Percy and Kollar, Thomas and Sadigh, Dorsa",
+      "title": "Prismatic vlms: Investigating the design space of visually-conditioned language models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "karamcheti2024prismatic"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "2021",
+      "pages": "1682--1698",
+      "number": "3",
+      "volume": "53",
+      "journal": "IEEE Transactions on Cybernetics",
+      "author": "Cong, Yang and Chen, Ronghan and Ma, Bingtao and Liu, Hongsen and Hou, Dongdong and Yang, Chenguang",
+      "title": "A comprehensive study of 3-D vision-based robot manipulation",
+      "ENTRYTYPE": "article",
+      "ID": "cong2021comprehensive"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2021",
+      "pages": "726--747",
+      "booktitle": "Conference on Robot Learning",
+      "author": "Zeng, Andy and Florence, Pete and Tompson, Jonathan and Welker, Stefan and Chien, Jonathan and Attarian, Maria and Armstrong, Travis and Krasin, Ivan and Duong, Dan and Sindhwani, Vikas and others",
+      "title": "Transporter networks: Rearranging the visual world for robotic manipulation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zeng2021transporter"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2411.18623",
+      "author": "Jia, Yueru and Liu, Jiaming and Chen, Sixiang and Gu, Chenyang and Wang, Zhilue and Luo, Longzan and Lee, Lily and Wang, Pengwei and Wang, Zhongyuan and Zhang, Renrui and others",
+      "title": "Lift3d foundation policy: Lifting 2d large-scale pretrained models for robust 3d robotic manipulation",
+      "ENTRYTYPE": "article",
+      "ID": "jia2024lift3d"
+    },
+    {
+      "year": "2020",
+      "journal": "arXiv preprint arXiv:2011.02398",
+      "author": "Zhang, Kevin and Sharma, Mohit and Liang, Jacky and Kroemer, Oliver",
+      "title": "A modular robotic arm control stack for research: Franka-interface and frankapy",
+      "ENTRYTYPE": "article",
+      "ID": "zhang2020modular"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2403.00729",
+      "author": "Wen, Chuan and Jayaraman, Dinesh and Gao, Yang",
+      "title": "Can Transformers Capture Spatial Relations between Objects?",
+      "ENTRYTYPE": "article",
+      "ID": "wen2024can"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2412.15115",
+      "author": "Yang, An and Yang, Baosong and Zhang, Beichen and Hui, Binyuan and Zheng, Bo and Yu, Bowen and Li, Chengyuan and Liu, Dayiheng and Huang, Fei and Wei, Haoran and others",
+      "title": "Qwen2. 5 technical report",
+      "ENTRYTYPE": "article",
+      "ID": "yang2024qwen2"
+    },
+    {
+      "year": "2023",
+      "pages": "34892--34916",
+      "volume": "36",
+      "journal": "Advances in neural information processing systems",
+      "author": "Liu, Haotian and Li, Chunyuan and Wu, Qingyang and Lee, Yong Jae",
+      "title": "Visual instruction tuning",
+      "ENTRYTYPE": "article",
+      "ID": "liu2023visual"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2406.18158",
+      "author": "Qian, Shengyi and Mo, Kaichun and Blukis, Valts and Fouhey, David F and Fox, Dieter and Goyal, Ankit",
+      "title": "3d-mvp: 3d multiview pretraining for robotic manipulation",
+      "ENTRYTYPE": "article",
+      "ID": "qian20243d"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2304.07193",
+      "author": "Oquab, Maxime and Darcet, Timoth{\\'e}e and Moutakanni, Th{\\'e}o and Vo, Huy and Szafraniec, Marc and Khalidov, Vasil and Fernandez, Pierre and Haziza, Daniel and Massa, Francisco and El-Nouby, Alaaeldin and others",
+      "title": "Dinov2: Learning robust visual features without supervision",
+      "ENTRYTYPE": "article",
+      "ID": "oquab2023dinov2"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2410.01345",
+      "author": "Garcia, Ricardo and Chen, Shizhe and Schmid, Cordelia",
+      "title": "Towards Generalizable Vision-Language Robotic Manipulation: A Benchmark and LLM-guided 3D Policy",
+      "ENTRYTYPE": "article",
+      "ID": "garcia2024towards"
+    },
+    {
+      "year": "2024",
+      "pages": "4840--4851",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Wu, Xiaoyang and Jiang, Li and Wang, Peng-Shuai and Liu, Zhijian and Liu, Xihui and Qiao, Yu and Ouyang, Wanli and He, Tong and Zhao, Hengshuang",
+      "title": "Point transformer v3: Simpler faster stronger",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "wu2024point"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv:2304.02643",
+      "author": "Kirillov, Alexander and Mintun, Eric and Ravi, Nikhila and Mao, Hanzi and Rolland, Chloe and Gustafson, Laura and Xiao, Tete and Whitehead, Spencer and Berg, Alexander C. and Lo, Wan-Yen and Doll{\\'a}r, Piotr and Girshick, Ross",
+      "title": "Segment Anything",
+      "ENTRYTYPE": "article",
+      "ID": "kirillov2023segany"
+    },
+    {
+      "url": "https://github.com/meta-llama/llama3/blob/main/MODEL_CARD.md",
+      "year": "2024",
+      "author": "AI@Meta",
+      "title": "Llama 3 Model Card",
+      "ENTRYTYPE": "article",
+      "ID": "llama3modelcard"
+    },
+    {
+      "year": "2023",
+      "pages": "72983--73007",
+      "volume": "36",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Minderer, Matthias and Gritsenko, Alexey and Houlsby, Neil",
+      "title": "Scaling open-vocabulary object detection",
+      "ENTRYTYPE": "article",
+      "ID": "minderer2023scaling"
+    }
+  ]
+}

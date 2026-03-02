@@ -1,0 +1,637 @@
+{
+  "pdf_url": "https://arxiv.org/pdf/2505.12207v3.pdf",
+  "references": [
+    {
+      "publisher": "MDPI",
+      "year": "2025",
+      "pages": "698",
+      "number": "4",
+      "volume": "17",
+      "journal": "Remote Sensing",
+      "author": "Wang, Shaohua and Xu, Dachuan and Liang, Haojian and Bai, Yongqing and Li, Xiao and Zhou, Junyuan and Su, Cheng and Wei, Wenyu",
+      "title": "Advances in Deep Learning Applications for Plant Disease and Pest Detection: A Review",
+      "ENTRYTYPE": "article",
+      "ID": "wang2025advances"
+    },
+    {
+      "publisher": "Oxford University Press",
+      "year": "2023",
+      "pages": "nwac290",
+      "number": "4",
+      "volume": "10",
+      "journal": "National Science Review",
+      "author": "Wu, Bingfang and Zhang, Miao and Zeng, Hongwei and Tian, Fuyou and Potgieter, Andries B and Qin, Xingli and Yan, Nana and Chang, Sheng and Zhao, Yan and Dong, Qinghan and others",
+      "title": "Challenges and opportunities in remote sensing-based crop monitoring: A review",
+      "ENTRYTYPE": "article",
+      "ID": "wu2023challenges"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "2024",
+      "journal": "IEEE Geoscience and Remote Sensing Magazine",
+      "author": "Li, Xiang and Wen, Congcong and Hu, Yuan and Yuan, Zhenghang and Zhu, Xiao Xiang",
+      "title": "Vision-language models in remote sensing: Current progress and future trends",
+      "ENTRYTYPE": "article",
+      "ID": "li2024vision"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2405.19055",
+      "author": "Yuan, Shuai and Lin, Guancong and Zhang, Lixian and Dong, Runmin and Zhang, Jinxiao and Chen, Shuang and Zheng, Juepeng and Wang, Jie and Fu, Haohuan",
+      "title": "FUSU: A multi-temporal-source land use change segmentation dataset for fine-grained urban semantic understanding",
+      "ENTRYTYPE": "article",
+      "ID": "yuan2024fusu"
+    },
+    {
+      "year": "2019",
+      "pages": "1",
+      "number": "4",
+      "volume": "1",
+      "journal": "Smart agriculture",
+      "author": "Wenjiang, Huang and Yue, Shi and Yingying, Dong and Huichun, Ye and Mingquan, Wu and Bei, Cui and Linyi, Liu",
+      "title": "Progress and prospects of crop diseases and pests monitoring by remote sensing",
+      "ENTRYTYPE": "article",
+      "ID": "wenjiang2019progress"
+    },
+    {
+      "publisher": "Nature Publishing Group UK London",
+      "year": "2022",
+      "pages": "5473",
+      "number": "1",
+      "volume": "12",
+      "journal": "Scientific Reports",
+      "author": "Ma, Chunyan and Liu, Mingxing and Ding, Fan and Li, Changchun and Cui, Yingqi and Chen, Weinan and Wang, Yilin",
+      "title": "Wheat growth monitoring and yield estimation based on remote sensing data assimilation into the SAFY crop growth model",
+      "ENTRYTYPE": "article",
+      "ID": "ma2022wheat"
+    },
+    {
+      "year": "2023",
+      "pages": "3",
+      "number": "2",
+      "volume": "1",
+      "journal": "arXiv preprint arXiv:2308.12966",
+      "author": "Bai, Jinze and Bai, Shuai and Yang, Shusheng and Wang, Shijie and Tan, Sinan and Wang, Peng and Lin, Junyang and Zhou, Chang and Zhou, Jingren",
+      "title": "Qwen-vl: A frontier large vision-language model with versatile abilities",
+      "ENTRYTYPE": "article",
+      "ID": "bai2023qwen"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2302.13971",
+      "author": "Touvron, Hugo and Lavril, Thibaut and Izacard, Gautier and Martinet, Xavier and Lachaux, Marie-Anne and Lacroix, Timoth{\\'e}e and Rozi{\\`e}re, Baptiste and Goyal, Naman and Hambro, Eric and Azhar, Faisal and others",
+      "title": "Llama: Open and efficient foundation language models",
+      "ENTRYTYPE": "article",
+      "ID": "touvron2023llama"
+    },
+    {
+      "year": "2024",
+      "pages": "arXiv--2403",
+      "journal": "arXiv e-prints",
+      "author": "Pang, Chao and Wu, Jiang and Li, Jiayu and Liu, Yi and Sun, Jiaxing and Li, Weijia and Weng, Xingxing and Wang, Shuai and Feng, Litong and Xia, Gui-Song and others",
+      "title": "H2rsvlm: Towards helpful and honest remote sensing large vision language model",
+      "ENTRYTYPE": "article",
+      "ID": "pang2024h2rsvlm"
+    },
+    {
+      "year": "2023",
+      "pages": "19325--19337",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Lin, Zhiqiu and Yu, Samuel and Kuang, Zhiyi and Pathak, Deepak and Ramanan, Deva",
+      "title": "Multimodality helps unimodality: Cross-modal few-shot learning with multimodal models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "lin2023multimodality"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "2022",
+      "pages": "68--78",
+      "volume": "129",
+      "journal": "Environmental Science \\& Policy",
+      "author": "Wang, Minzi and Wander, Michelle and Mueller, Steffen and Martin, Nico and Dunn, Jennifer B",
+      "title": "Evaluation of survey and remote sensing data products used to estimate land use change in the United States: Evolving issues and emerging opportunities",
+      "ENTRYTYPE": "article",
+      "ID": "wang2022evaluation"
+    },
+    {
+      "publisher": "Springer",
+      "year": "2024",
+      "pages": "10",
+      "number": "1",
+      "volume": "7",
+      "journal": "Sustainable earth reviews",
+      "author": "Sporchia, Fabio and Antonelli, Marta and Aguilar-Mart{\\'\\i}nez, Alicia and Bach-Faig, Anna and Caro, Dario and Davis, Kyle F and Sonnino, Roberta and Galli, Alessandro",
+      "title": "Zero hunger: future challenges and the way forward towards the achievement of sustainable development goal 2",
+      "ENTRYTYPE": "article",
+      "ID": "sporchia2024zero"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "2024",
+      "journal": "IEEE Geoscience and Remote Sensing Magazine",
+      "author": "Zheng, Juepeng and Yuan, Shuai and others",
+      "title": "A Review of Individual Tree Crown Detection and Delineation From Optical Remote Sensing Images: Current progress and future",
+      "ENTRYTYPE": "article",
+      "ID": "zheng2024review"
+    },
+    {
+      "author": "M. Weiss and F. Jacob and G. Duveiller",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0034425719304213",
+      "doi": "https://doi.org/10.1016/j.rse.2019.111402",
+      "issn": "0034-4257",
+      "year": "2020",
+      "pages": "111402",
+      "volume": "236",
+      "journal": "Remote Sensing of Environment",
+      "title": "Remote sensing for agricultural applications: A meta-review",
+      "ENTRYTYPE": "article",
+      "ID": "weiss2020remote"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2402.14289",
+      "author": "Zhou, Baichuan and Hu, Ying and Weng, Xi and Jia, Junlong and Luo, Jie and Liu, Xien and Wu, Ji and Huang, Lei",
+      "title": "Tinyllava: A framework of small-scale large multimodal models",
+      "ENTRYTYPE": "article",
+      "ID": "TinyLLaVA"
+    },
+    {
+      "year": "2024",
+      "pages": "24185--24198",
+      "booktitle": "Proceedings of the IEEE/CVF conference on computer vision and pattern recognition",
+      "author": "Chen, Zhe and Wu, Jiannan and Wang, Wenhai and Su, Weijie and Chen, Guo and Xing, Sen and Zhong, Muyan and Zhang, Qinglong and Zhu, Xizhou and Lu, Lewei and others",
+      "title": "Internvl: Scaling up vision foundation models and aligning for generic visual-linguistic tasks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "InternVL2"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2401.16420",
+      "author": "Dong, Xiaoyi and Zhang, Pan and Zang, Yuhang and Cao, Yuhang and Wang, Bin and Ouyang, Linke and Wei, Xilin and Zhang, Songyang and Duan, Haodong and Cao, Maosong and others",
+      "title": "Internlm-xcomposer2: Mastering free-form text-image composition and comprehension in vision-language large model",
+      "ENTRYTYPE": "article",
+      "ID": "XComposer2"
+    },
+    {
+      "year": "2024",
+      "pages": "26296--26306",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Liu, Haotian and Li, Chunyuan and Li, Yuheng and Lee, Yong Jae",
+      "title": "Improved baselines with visual instruction tuning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "LLaVA-NeXT"
+    },
+    {
+      "url": "https://openreview.net/forum?id=vvoWPYqZJA",
+      "year": "2023",
+      "booktitle": "Thirty-seventh Conference on Neural Information Processing Systems",
+      "author": "Wenliang Dai and Junnan Li and Dongxu Li and Anthony Tiong and Junqi Zhao and Weisheng Wang and Boyang Li and Pascale Fung and Steven Hoi",
+      "title": "Instruct{BLIP}: Towards General-purpose Vision-Language Models with Instruction Tuning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "InstrucBLIP"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2407.07895",
+      "author": "Li, Feng and Zhang, Renrui and Zhang, Hao and Zhang, Yuanhan and Li, Bo and Li, Wei and Ma, Zejun and Li, Chunyuan",
+      "title": "Llava-next-interleave: Tackling multi-image, video, and 3d in large multimodal models",
+      "ENTRYTYPE": "article",
+      "ID": "LLaVA-NeXT-Interleave"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2405.01483",
+      "author": "Jiang, Dongfu and He, Xuan and Zeng, Huaye and Wei, Cong and Ku, Max and Liu, Qian and Chen, Wenhu",
+      "title": "Mantis: Interleaved multi-image instruction tuning",
+      "ENTRYTYPE": "article",
+      "ID": "Mantis"
+    },
+    {
+      "year": "2024",
+      "pages": "87874--87907",
+      "volume": "37",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Lauren{\\c{c}}on, Hugo and Tronchon, L{\\'e}o and Cord, Matthieu and Sanh, Victor",
+      "title": "What matters when building vision-language models?",
+      "ENTRYTYPE": "article",
+      "ID": "Idefics2"
+    },
+    {
+      "note": "Accessed: 2025-04-22",
+      "howpublished": "\\url{https://openai.com/index/hello-gpt-4o/}",
+      "year": "2024",
+      "title": "Hello GPT-4o",
+      "author": "OpenAI",
+      "ENTRYTYPE": "misc",
+      "ID": "openai2024gpt4o"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2312.11805",
+      "author": "Team, Gemini and Anil, Rohan and Borgeaud, Sebastian and Alayrac, Jean-Baptiste and Yu, Jiahui and Soricut, Radu and Schalkwyk, Johan and Dai, Andrew M and Hauth, Anja and Millican, Katie and others",
+      "title": "Gemini: a family of highly capable multimodal models",
+      "ENTRYTYPE": "article",
+      "ID": "team2023gemini"
+    },
+    {
+      "note": "Accessed: 2025-04-22",
+      "howpublished": "\\url{https://www.anthropic.com}",
+      "year": "2024",
+      "title": "The Claude 3 Model Family: Opus, Sonnet, Haiku",
+      "author": "Anthropic",
+      "ENTRYTYPE": "misc",
+      "ID": "anthropic2024claude3"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2412.10302",
+      "author": "Wu, Zhiyu and Chen, Xiaokang and Pan, Zizheng and Liu, Xingchao and Liu, Wen and Dai, Damai and Gao, Huazuo and Ma, Yiyang and Wu, Chengyue and Wang, Bingxuan and others",
+      "title": "Deepseek-vl2: Mixture-of-experts vision-language models for advanced multimodal understanding",
+      "ENTRYTYPE": "article",
+      "ID": "deepseekvl2"
+    },
+    {
+      "year": "2024",
+      "pages": "9556--9567",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Yue, Xiang and Ni, Yuansheng and Zhang, Kai and Zheng, Tianyu and Liu, Ruoqi and Zhang, Ge and Stevens, Samuel and Jiang, Dongfu and Ren, Weiming and Sun, Yuxuan and others",
+      "title": "Mmmu: A massive multi-discipline multimodal understanding and reasoning benchmark for expert agi",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "yue2024mmmu"
+    },
+    {
+      "year": "2025",
+      "pages": "10707--10715",
+      "number": "10",
+      "volume": "39",
+      "booktitle": "Proceedings of the AAAI Conference on Artificial Intelligence",
+      "author": "Zhou, Baichuan and Yang, Haote and Chen, Dairong and Ye, Junyan and Bai, Tianyi and Yu, Jinhua and Zhang, Songyang and Lin, Dahua and He, Conghui and Li, Weijia",
+      "title": "Urbench: A comprehensive benchmark for evaluating large multimodal models in multi-view urban scenarios",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zhou2025urbench"
+    },
+    {
+      "year": "2019",
+      "journal": "arXiv preprint arXiv:1908.10084",
+      "author": "Reimers, Nils and Gurevych, Iryna",
+      "title": "Sentence-bert: Sentence embeddings using siamese bert-networks",
+      "ENTRYTYPE": "article",
+      "ID": "reimers2019sentence"
+    },
+    {
+      "keywords": "Remote sensing (RS), Vision language model (VLM), Multi-modal large language model (MLLM)",
+      "author": "Yuan Hu and Jianlong Yuan and Congcong Wen and Xiaonan Lu and Yu Liu and Xiang Li",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0924271625001352",
+      "doi": "https://doi.org/10.1016/j.isprsjprs.2025.03.028",
+      "issn": "0924-2716",
+      "year": "2025",
+      "pages": "272-286",
+      "volume": "224",
+      "journal": "ISPRS Journal of Photogrammetry and Remote Sensing",
+      "title": "RSGPT: A remote sensing vision language model and benchmark",
+      "ENTRYTYPE": "article",
+      "ID": "Hu2025RSGPT"
+    },
+    {
+      "year": "2024",
+      "volume": "37",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2024/file/05b7f821234f66b78f99e7803fffa78a-Paper-Datasets_and_Benchmarks_Track.pdf",
+      "title": "VRSBench: A Versatile Vision-Language Benchmark Dataset for Remote Sensing Image Understanding",
+      "publisher": "Curran Associates, Inc.",
+      "pages": "3229--3242",
+      "editor": "A. Globerson and L. Mackey and D. Belgrave and A. Fan and U. Paquet and J. Tomczak and C. Zhang",
+      "booktitle": "Advances in Neural Information Processing Systems",
+      "author": "Li, Xiang and Ding, Jian and Elhoseiny, Mohamed",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "Li2024VRSBench"
+    },
+    {
+      "series": "AAAI'24/IAAI'24/EAAI'24",
+      "numpages": "9",
+      "articleno": "609",
+      "booktitle": "Proceedings of the Thirty-Eighth AAAI Conference on Artificial Intelligence and Thirty-Sixth Conference on Innovative Applications of Artificial Intelligence and Fourteenth Symposium on Educational Advances in Artificial Intelligence",
+      "doi": "10.1609/aaai.v38i6.28357",
+      "url": "https://doi.org/10.1609/aaai.v38i6.28357",
+      "publisher": "AAAI Press",
+      "isbn": "978-1-57735-887-9",
+      "year": "2024",
+      "title": "EarthVQA: towards queryable earth via relational reasoning-based remote sensing visual question answering",
+      "author": "Wang, Junjue and Zheng, Zhuo and Chen, Zihang and Ma, Ailong and Zhong, Yanfei",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "Wang2024EarthVQA"
+    },
+    {
+      "isbn": "978-3-031-72904-1",
+      "pages": "440--457",
+      "address": "Cham",
+      "publisher": "Springer Nature Switzerland",
+      "year": "2025",
+      "booktitle": "Computer Vision -- ECCV 2024",
+      "title": "LHRS-Bot: Empowering Remote Sensing with VGI-Enhanced Large Multimodal Language Model",
+      "editor": "Leonardis, Ale{\\v{s}}\nand Ricci, Elisa\nand Roth, Stefan\nand Russakovsky, Olga\nand Sattler, Torsten\nand Varol, G{\\\"u}l",
+      "author": "Muhtar, Dilxat\nand Li, Zhenshi\nand Gu, Feng\nand Zhang, Xueliang\nand Xiao, Pengfeng",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "Muhtar2025LHRSBot"
+    },
+    {
+      "url": "https://arxiv.org/abs/2503.23771",
+      "primaryclass": "cs.CV",
+      "archiveprefix": "arXiv",
+      "eprint": "2503.23771",
+      "year": "2025",
+      "author": "Fengxiang Wang and Hongzhen Wang and Mingshuo Chen and Di Wang and Yulin Wang and Zonghao Guo and Qiang Ma and Long Lan and Wenjing Yang and Jing Zhang and Zhiyuan Liu and Maosong Sun",
+      "title": "XLRS-Bench: Could Your Multimodal LLMs Understand Extremely Large Ultra-High-Resolution Remote Sensing Imagery?",
+      "ENTRYTYPE": "misc",
+      "ID": "wang2025xlrsbenchmultimodalllmsunderstand"
+    },
+    {
+      "publisher": "Frontiers Media SA",
+      "year": "2023",
+      "pages": "1064399",
+      "volume": "13",
+      "journal": "Frontiers in Plant Science",
+      "author": "Lan, Yubin and Guo, Yaqi and Chen, Qizhen and Lin, Shaoming and Chen, Yuntong and Deng, Xiaoling",
+      "title": "Visual question answering model for fruit tree disease decision-making based on multimodal deep learning",
+      "ENTRYTYPE": "article",
+      "ID": "lan2023visual"
+    },
+    {
+      "organization": "Springer",
+      "year": "2024",
+      "pages": "157--170",
+      "booktitle": "European Conference on Computer Vision",
+      "author": "Liu, Xiang and Liu, Zhaoxiang and Hu, Huan and Chen, Zezhou and Wang, Kohou and Wang, Kai and Lian, Shiguo",
+      "title": "A Multimodal Benchmark Dataset and Model for Crop Disease Diagnosis",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "liu2024cddm"
+    },
+    {
+      "year": "2024",
+      "pages": "26689--26699",
+      "booktitle": "Proceedings of the IEEE/CVF conference on computer vision and pattern recognition",
+      "author": "Lin, Ji and Yin, Hongxu and Ping, Wei and Molchanov, Pavlo and Shoeybi, Mohammad and Han, Song",
+      "title": "Vila: On pre-training for visual language models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "lin2024vila"
+    },
+    {
+      "year": "2024",
+      "pages": "13299--13308",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Li, Bohao and Ge, Yuying and Ge, Yixiao and Wang, Guangzhi and Wang, Rui and Zhang, Ruimao and Shan, Ying",
+      "title": "Seed-bench: Benchmarking multimodal large language models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "li2024seed"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2404.16006",
+      "author": "Ying, Kaining and Meng, Fanqing and Wang, Jin and Li, Zhiqian and Lin, Han and Yang, Yue and Zhang, Hao and Zhang, Wenbo and Lin, Yuqi and Liu, Shuo and others",
+      "title": "Mmt-bench: A comprehensive multimodal benchmark for evaluating large vision-language models towards multitask agi",
+      "ENTRYTYPE": "article",
+      "ID": "ying2024mmt"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2408.13257",
+      "author": "Zhang, Yi-Fan and Zhang, Huanyu and Tian, Haochen and Fu, Chaoyou and Zhang, Shuangqing and Wu, Junfei and Li, Feng and Wang, Kun and Wen, Qingsong and Zhang, Zhang and others",
+      "title": "MME-RealWorld: Could Your Multimodal LLM Challenge High-Resolution Real-World Scenarios that are Difficult for Humans?",
+      "ENTRYTYPE": "article",
+      "ID": "zhang2024mme"
+    },
+    {
+      "year": "2021",
+      "pages": "8751--8761",
+      "booktitle": "Proceedings of the IEEE/CVF conference on computer vision and pattern recognition",
+      "author": "Yang, Zhengyuan and Lu, Yijuan and Wang, Jianfeng and Yin, Xi and Florencio, Dinei and Wang, Lijuan and Zhang, Cha and Zhang, Lei and Luo, Jiebo",
+      "title": "Tap: Text-aware pre-training for text-vqa and text-caption",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "yang2021tap"
+    },
+    {
+      "year": "2017",
+      "pages": "6904--6913",
+      "booktitle": "Proceedings of the IEEE conference on computer vision and pattern recognition",
+      "author": "Goyal, Yash and Khot, Tejas and Summers-Stay, Douglas and Batra, Dhruv and Parikh, Devi",
+      "title": "Making the v in vqa matter: Elevating the role of image understanding in visual question answering",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "goyal2017making"
+    },
+    {
+      "year": "2019",
+      "pages": "8948--8957",
+      "booktitle": "Proceedings of the IEEE/CVF international conference on computer vision",
+      "author": "Agrawal, Harsh and Desai, Karan and Wang, Yufei and Chen, Xinlei and Jain, Rishabh and Johnson, Mark and Batra, Dhruv and Parikh, Devi and Lee, Stefan and Anderson, Peter",
+      "title": "Nocaps: Novel object captioning at scale",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "agrawal2019nocaps"
+    },
+    {
+      "year": "2019",
+      "pages": "3195--3204",
+      "booktitle": "Proceedings of the IEEE/cvf conference on computer vision and pattern recognition",
+      "author": "Marino, Kenneth and Rastegari, Mohammad and Farhadi, Ali and Mottaghi, Roozbeh",
+      "title": "Ok-vqa: A visual question answering benchmark requiring external knowledge",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "marino2019ok"
+    },
+    {
+      "year": "2019",
+      "pages": "6700--6709",
+      "booktitle": "Proceedings of the IEEE/CVF conference on computer vision and pattern recognition",
+      "author": "Hudson, Drew A and Manning, Christopher D",
+      "title": "Gqa: A new dataset for real-world visual reasoning and compositional question answering",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "hudson2019gqa"
+    },
+    {
+      "publisher": "Nature Publishing Group UK London",
+      "year": "2024",
+      "pages": "28203",
+      "number": "1",
+      "volume": "14",
+      "journal": "Scientific Reports",
+      "author": "Nanavaty, Akash and Sharma, Rishikesh and Pandita, Bhuman and Goyal, Ojasva and Rallapalli, Srinivas and Mandal, Murari and Singh, Vaibhav Kumar and Narang, Pratik and Chamola, Vinay",
+      "title": "Integrating deep learning for visual question answering in Agricultural Disease Diagnostics: Case Study of Wheat Rust",
+      "ENTRYTYPE": "article",
+      "ID": "nanavaty2024integrating"
+    },
+    {
+      "year": "2024",
+      "pages": "27831--27840",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Kuckreja, Kartik and Danish, Muhammad Sohail and Naseer, Muzammal and Das, Abhijit and Khan, Salman and Khan, Fahad Shahbaz",
+      "title": "Geochat: Grounded large vision-language model for remote sensing",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "kuckreja2024geochat"
+    },
+    {
+      "organization": "Springer",
+      "year": "2024",
+      "pages": "440--457",
+      "booktitle": "European Conference on Computer Vision",
+      "author": "Muhtar, Dilxat and Li, Zhenshi and Gu, Feng and Zhang, Xueliang and Xiao, Pengfeng",
+      "title": "Lhrs-bot: Empowering remote sensing with vgi-enhanced large multimodal language model",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "muhtar2024lhrs"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "2024",
+      "journal": "IEEE Transactions on Geoscience and Remote Sensing",
+      "author": "Zhang, Wei and Cai, Miaoxin and Zhang, Tong and Zhuang, Yin and Mao, Xuerui",
+      "title": "Earthgpt: A universal multi-modal large language model for multi-sensor image comprehension in remote sensing domain",
+      "ENTRYTYPE": "article",
+      "ID": "zhang2024earthgpt"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "2024",
+      "journal": "IEEE Transactions on Geoscience and Remote Sensing",
+      "author": "Lan, Long and Wang, Fengxiang and Zheng, Xiangtao and Wang, Zengmao and Liu, Xinwang",
+      "title": "Efficient prompt tuning of large vision-language model for fine-grained ship classification",
+      "ENTRYTYPE": "article",
+      "ID": "lan2024efficient"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2303.08774",
+      "author": "Achiam, Josh and Adler, Steven and Agarwal, Sandhini and Ahmad, Lama and Akkaya, Ilge and Aleman, Florencia Leoni and Almeida, Diogo and Altenschmidt, Janko and Altman, Sam and Anadkat, Shyamal and others",
+      "title": "Gpt-4 technical report",
+      "ENTRYTYPE": "article",
+      "ID": "achiam2023gpt"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2504.10568",
+      "author": "Gauba, Aruna and Pi, Irene and Man, Yunze and Pang, Ziqi and Adve, Vikram S and Wang, Yu-Xiong",
+      "title": "AgMMU: A Comprehensive Agricultural Multimodal Understanding and Reasoning Benchmark",
+      "ENTRYTYPE": "article",
+      "ID": "gauba2025agmmu"
+    },
+    {
+      "bibsource": "dblp computer science bibliography, https://dblp.org",
+      "biburl": "https://dblp.org/rec/journals/corr/abs-2412-00465.bib",
+      "timestamp": "Thu, 09 Jan 2025 18:55:02 +0100",
+      "eprint": "2412.00465",
+      "eprinttype": "arXiv",
+      "doi": "10.48550/ARXIV.2412.00465",
+      "url": "https://doi.org/10.48550/arXiv.2412.00465",
+      "year": "2024",
+      "volume": "abs/2412.00465",
+      "journal": "CoRR",
+      "title": "AgriBench: {A} Hierarchical Agriculture Benchmark for Multimodal Large\nLanguage Models",
+      "author": "Yutong Zhou and\nMasahiro Ryo",
+      "ENTRYTYPE": "article",
+      "ID": "yutong2024agribench"
+    },
+    {
+      "url": "https://arxiv.org/abs/2412.02158",
+      "primaryclass": "cs.CV",
+      "archiveprefix": "arXiv",
+      "eprint": "2412.02158",
+      "year": "2024",
+      "author": "Liqiong Wang and Teng Jin and Jinyu Yang and Ales Leonardis and Fangyi Wang and Feng Zheng",
+      "title": "Agri-LLaVA: Knowledge-Infused Large Multimodal Assistant on Agricultural Pests and Diseases",
+      "ENTRYTYPE": "misc",
+      "ID": "wang2024agrillava"
+    },
+    {
+      "doi": "10.1109/WACV61041.2025.00555",
+      "keywords": "Computer vision;Codes;Computational modeling;Large language models;Pipelines;Oral communication;Agriculture;Data models;Tuning",
+      "pages": "5687-5696",
+      "number": "",
+      "volume": "",
+      "year": "2025",
+      "title": "AgroGPT : Efficient Agricultural Vision-Language Model with Expert Tuning",
+      "booktitle": "2025 IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)",
+      "author": "Awais, Muhammad and Salem Abdulla Alharthi, Ali Husain and Kumar, Amandeep and Cholakkal, Hisham and Anwer, Rao Muhammad",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "Awais2025AgroGPT"
+    },
+    {
+      "url": "https://arxiv.org/abs/2407.11743",
+      "primaryclass": "cs.CV",
+      "archiveprefix": "arXiv",
+      "eprint": "2407.11743",
+      "year": "2024",
+      "author": "Josh Veitch-Michaelis and Andrew Cottam and Daniella Schweizer and Eben N. Broadbent and David Dao and Ce Zhang and Angelica Almeyda Zambrano and Simeon Max",
+      "title": "OAM-TCD: A globally diverse dataset of high-resolution tree cover maps",
+      "ENTRYTYPE": "misc",
+      "ID": "veitchmichaelis2024oamtcdgloballydiversedataset"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "2021",
+      "pages": "95--121",
+      "volume": "173",
+      "journal": "ISPRS Journal of Photogrammetry and Remote Sensing",
+      "author": "Zheng, Juepeng and Fu, Haohuan and Li, Weijia and Wu, Wenzhao and Yu, Le and Yuan, Shuai and Tao, Wai Yuk William and Pang, Tan Kian and Kanniah, Kasturi Devi",
+      "title": "Growing status observation for oil palm trees using Unmanned Aerial Vehicle (UAV) images",
+      "ENTRYTYPE": "article",
+      "ID": "zheng2021growing"
+    },
+    {
+      "year": "2020",
+      "month": "June",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "title": "Agriculture-Vision: A Large Aerial Image Database for Agricultural Pattern Analysis",
+      "author": "Chiu, Mang Tik and Xu, Xingqian and Wei, Yunchao and Huang, Zilong and Schwing, Alexander G. and Brunner, Robert and Khachatrian, Hrant and Karapetyan, Hovnatan and Dozier, Ivan and Rose, Greg and Wilson, David and Tudor, Adrian and Hovakimyan, Naira and Huang, Thomas S. and Shi, Honghui",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "Chiu_2020_CVPR"
+    },
+    {
+      "year": "2024",
+      "pages": "9583--9594",
+      "number": "12",
+      "volume": "46",
+      "journal": "IEEE Trans. on Pattern Analysis and Machine Intelligence (T-PAMI)",
+      "title": "{PhenoBench --- A Large Dataset and Benchmarks for Semantic Image Interpretation\nin the Agricultural Domain}",
+      "author": "Jan Weyler and Federico Magistri and Elias Marks and Yue Linn Chong and Matteo Sodano \nand Gianmarco Roggiolani and Nived Chebrolu and Cyrill Stachniss and Jens Behley",
+      "ENTRYTYPE": "article",
+      "ID": "weyler2024pami"
+    },
+    {
+      "year": "2019",
+      "pages": "8787--8796",
+      "booktitle": "IEEE CVPR",
+      "author": "Xiaoping Wu and Chi Zhan and Yukun Lai and Ming-Ming Cheng and Jufeng Yang",
+      "title": "IP102: A Large-Scale Benchmark Dataset for Insect Pest Recognition",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "Wu2019Insect"
+    },
+    {
+      "year": "2016",
+      "journal": "arXiv preprint arXiv:1610.03677",
+      "author": "Bargoti, Suchet and Underwood, James",
+      "title": "Deep Fruit Detection in Orchards",
+      "ENTRYTYPE": "article",
+      "ID": "bargoti2016deep"
+    },
+    {
+      "year": "2024",
+      "journal": "The IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Kuckreja, Kartik and Danish, Muhammad S. and Naseer, Muzammal and Das, Abhijit and Khan, Salman and Khan, Fahad S.",
+      "title": "GeoChat: Grounded Large Vision-Language Model for Remote Sensing",
+      "ENTRYTYPE": "article",
+      "ID": "kuckreja2023geochat"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2505.21375",
+      "author": "Wang, Fengxiang and Chen, Mingshuo and Li, Yueying and Wang, Di and Wang, Haotian and Guo, Zonghao and Wang, Zefan and Shan, Boqi and Lan, Long and Wang, Yulin and others",
+      "title": "GeoLLaVA-8K: Scaling Remote-Sensing Multimodal Large Language Models to 8K Resolution",
+      "ENTRYTYPE": "article",
+      "ID": "wang2025geollava"
+    },
+    {
+      "url": "https://openreview.net/forum?id=JtjzUXPEaCu",
+      "year": "2021",
+      "booktitle": "Thirty-fifth Conference on Neural Information Processing Systems Datasets and Benchmarks Track (Round 2)",
+      "author": "Gabriel Tseng and Ivan Zvonkov and Catherine Lilian Nakalembe and Hannah Kerner",
+      "title": "CropHarvest: A global dataset for crop-type classification",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "tseng2021cropharvest"
+    }
+  ]
+}

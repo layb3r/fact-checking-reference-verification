@@ -1,0 +1,1546 @@
+{
+  "pdf_url": "https://arxiv.org/pdf/2512.11480v2.pdf",
+  "references": [
+    {
+      "url": "https://arxiv.org/abs/2501.09732",
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2501.09732",
+      "author": "Ma, Nanye and Tong, Shangyuan and Jia, Haolin and Hu, Hexiang and Su, Yu-Chuan and Zhang, Mingda and Yang, Xuan and Li, Yandong and Jaakkola, Tommi and Jia, Xuhui and Xie, Saining",
+      "title": "Inference-Time Scaling for Diffusion Models beyond Scaling Denoising Steps",
+      "ENTRYTYPE": "article",
+      "ID": "ma2025inference"
+    },
+    {
+      "url": "https://arxiv.org/abs/2410.06264",
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2410.06264",
+      "author": "Liu, Sulin and Nam, Juno and Campbell, Andrew and Stärk, Hannes and Xu, Yilun and Jaakkola, Tommi and Gómez-Bombarelli, Rafael",
+      "title": "Think While You Generate: Discrete Diffusion with Planned Denoising",
+      "ENTRYTYPE": "article",
+      "ID": "liu2024ddpd"
+    },
+    {
+      "url": "https://arxiv.org/abs/2503.09642",
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2503.09642",
+      "author": "Peng, Xiangyu and Zheng, Zangwei and Shen, Chenhui and Young, Tom and Guo, Xinying and Wang, Binluo and Xu, Hang and Liu, Hongxin and Jiang, Mingyan and Li, Wenjun and Wang, Yuhui and Ye, Anbang and Ren, Gang and Ma, Qianran and Liang, Wanying and Lian, Xiang and Wu, Xiwen and Zhong, Yuting and Li, Zhuangyan and Gong, Chaoyu and Lei, Guojun and Cheng, Leijun and Zhang, Limin and Li, Minghao and Zhang, Ruijie and Hu, Silan and Huang, Shijie and Wang, Xiaokang and Zhao, Yuanheng and Wang, Yuqi and Wei, Ziang and You, Yang",
+      "title": "Open-Sora 2.0: Training a Commercial-Level Video Generation Model in \\$200k",
+      "ENTRYTYPE": "article",
+      "ID": "peng2025opensora"
+    },
+    {
+      "url": "https://arxiv.org/abs/2502.04128",
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2502.04128",
+      "author": "Ye, Zhen and Zhu, Xinfa and Chan, Chi-Min and Wang, Xinsheng and Tan, Xu and Lei, Jiahe and Peng, Yi and Liu, Haohe and Jin, Yizhu and Dai, Zheqi and Lin, Hongzhan and Chen, Jianyi and Du, Xingjian and Xue, Liumeng and Chen, Yunlin and Li, Zhifei and Xie, Lei and Kong, Qiuqiang and Guo, Yike and Xue, Wei",
+      "title": "Llasa: Scaling Train-Time and Inference-Time Compute for Llama-based Speech Synthesis",
+      "ENTRYTYPE": "article",
+      "ID": "ye2025llasa"
+    },
+    {
+      "year": "2021",
+      "journal": "arXiv preprint arXiv:2110.14168",
+      "author": "Cobbe, Karl and Kosaraju, Vineet and Bavarian, Mohammad and Chen, Mark and Jun, Heewoo and Kaiser, Lukasz and Plappert, Matthias and Tworek, Jerry and Hilton, Jacob and Nakano, Reiichiro and others",
+      "title": "Training verifiers to solve math word problems",
+      "ENTRYTYPE": "article",
+      "ID": "cobbe2021training"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2402.06457",
+      "author": "Hosseini, Arian and Yuan, Xingdi and Malkin, Nikolay and Courville, Aaron and Sordoni, Alessandro and Agarwal, Rishabh",
+      "title": "V-star: Training verifiers for self-taught reasoners",
+      "ENTRYTYPE": "article",
+      "ID": "hosseini2024v"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2304.06767",
+      "author": "Dong, Hanze and Xiong, Wei and Goyal, Deepanshu and Zhang, Yihan and Chow, Winnie and Pan, Rui and Diao, Shizhe and Zhang, Jipeng and Shum, Kashun and Zhang, Tong",
+      "title": "Raft: Reward ranked finetuning for generative foundation model alignment",
+      "ENTRYTYPE": "article",
+      "ID": "dong2023raft"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2502.14565",
+      "author": "Lee, Hyunseok and Oh, Seunghyuk and Kim, Jaehyung and Shin, Jinwoo and Tack, Jihoon",
+      "title": "Revise: Learning to refine at test-time via intrinsic self-verification",
+      "ENTRYTYPE": "article",
+      "ID": "lee2025revise"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2502.07202",
+      "author": "Yoon, Jaesik and Cho, Hyeonseo and Baek, Doojin and Bengio, Yoshua and Ahn, Sungjin",
+      "title": "Monte Carlo Tree Diffusion for System 2 Planning",
+      "ENTRYTYPE": "article",
+      "ID": "yoon2025monte"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2501.18427",
+      "author": "Xie, Enze and Chen, Junsong and Zhao, Yuyang and Yu, Jincheng and Zhu, Ligeng and Wu, Chengyue and Lin, Yujun and Zhang, Zhekai and Li, Muyang and Chen, Junyu and others",
+      "title": "Sana 1.5: Efficient scaling of training-time and inference-time compute in linear diffusion transformer",
+      "ENTRYTYPE": "article",
+      "ID": "xie2025sana"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2503.12271",
+      "author": "Li, Shufan and Kallidromitis, Konstantinos and Gokul, Akash and Koneru, Arsh and Kato, Yusuke and Kozuka, Kazuki and Grover, Aditya",
+      "title": "Reflect-DiT: Inference-Time Scaling for Text-to-Image Diffusion Transformers via In-Context Reflection",
+      "ENTRYTYPE": "article",
+      "ID": "li2025reflect"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2503.24320",
+      "author": "Cong, Wenyan and Zhu, Hanqing and Wang, Peihao and Liu, Bangya and Xu, Dejia and Wang, Kevin and Pan, David Z and Wang, Yan and Fan, Zhiwen and Wang, Zhangyang",
+      "title": "Can Test-Time Scaling Improve World Foundation Model?",
+      "ENTRYTYPE": "article",
+      "ID": "cong2025can"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2503.24235",
+      "author": "Zhang, Qiyuan and Lyu, Fuyuan and Sun, Zexu and Wang, Lei and Zhang, Weixu and Guo, Zhihan and Wang, Yufei and King, Irwin and Liu, Xue and Ma, Chen",
+      "title": "What, How, Where, and How Well? A Survey on Test-Time Scaling in Large Language Models",
+      "ENTRYTYPE": "article",
+      "ID": "zhang2025and"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2503.09567",
+      "author": "Chen, Qiguang and Qin, Libo and Liu, Jinhao and Peng, Dengyun and Guan, Jiannan and Wang, Peng and Hu, Mengkang and Zhou, Yuhang and Gao, Te and Che, Wangxiang",
+      "title": "Towards reasoning era: A survey of long chain-of-thought for reasoning large language models",
+      "ENTRYTYPE": "article",
+      "ID": "chen2025towards"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2501.09685",
+      "author": "Uehara, Masatoshi and Zhao, Yulai and Wang, Chenyu and Li, Xiner and Regev, Aviv and Levine, Sergey and Biancalani, Tommaso",
+      "title": "Inference-Time Alignment in Diffusion Models with Reward-Guided Generation: Tutorial and Review",
+      "ENTRYTYPE": "article",
+      "ID": "uehara2025inference"
+    },
+    {
+      "location": "Nice, France",
+      "publisher": "ACM Press",
+      "pages": "179--188",
+      "year": "2004",
+      "booktitle": "Proceedings of the EUROGRAPHICS/ACM SIGGRAPH Symposium on Geometry Processing",
+      "title": "Laplacian Surface Editing",
+      "author": "Olga Sorkine and Daniel Cohen-Or and Yaron Lipman and Marc Alexa and Christian Rössl and Hans-Peter Seidel",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "LaplacianMeshEditing:2004"
+    },
+    {
+      "pages": "109--116",
+      "year": "2007",
+      "booktitle": "Proceedings of EUROGRAPHICS/ACM SIGGRAPH Symposium on Geometry Processing",
+      "title": "As-Rigid-As-Possible Surface Modeling",
+      "author": "Olga Sorkine and Marc Alexa",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ARAP_modeling:2007"
+    },
+    {
+      "doi": "10.2312/SBM/SBM05/053-062",
+      "isbn": "3-905673-30-4",
+      "issn": "1812-3503",
+      "publisher": "The Eurographics Association",
+      "year": "2005",
+      "author": "Schmidt, Ryan and Wyvill, B. and Sousa, M. C. and Jorge, J. A.",
+      "title": "{ShapeShop: Sketch-Based Solid Modeling with BlobTrees}",
+      "editor": "Joaquim Armando Pires Jorge and Takeo Igarashi",
+      "booktitle": "Eurographics Workshop on Sketch-Based Interfaces and Modeling",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "10.2312/SBM/SBM05/053-062"
+    },
+    {
+      "year": "2019",
+      "booktitle": "CVPR",
+      "author": "Wang, Weiyue and Ceylan, Duygu and Mech, Radomir and Neumann, Ulrich",
+      "title": "3DN: 3D Deformation Network",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "wang20193dn"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2201.13168",
+      "author": "Hertz, Amir and Perel, Or and Giryes, Raja and Sorkine-Hornung, Olga and Cohen-Or, Daniel",
+      "title": "SPAGHETTI: Editing Implicit Shapes Through Part Aware Generation",
+      "ENTRYTYPE": "article",
+      "ID": "hertz2022spaghetti"
+    },
+    {
+      "year": "2022",
+      "booktitle": "arXiv preprint arXiv:2208.01626",
+      "author": "Hertz, Amir and Mokady, Ron and Tenenbaum, Jay and Aberman, Kfir and Pritch, Yael and Cohen-Or, Daniel",
+      "title": "Prompt-to-prompt image editing with cross attention control",
+      "ENTRYTYPE": "article",
+      "ID": "hertz2022prompt"
+    },
+    {
+      "url": "https://arxiv.org/abs/2307.15131",
+      "primaryclass": "cs.CV",
+      "archiveprefix": "arXiv",
+      "eprint": "2307.15131",
+      "year": "2023",
+      "author": "Xiangyu Wang and Jingsen Zhu and Qi Ye and Yuchi Huo and Yunlong Ran and Zhihua Zhong and Jiming Chen",
+      "title": "Seal-3D: Interactive Pixel-Level Editing for Neural Radiance Fields",
+      "ENTRYTYPE": "misc",
+      "ID": "wang2023seal3dinteractivepixellevelediting"
+    },
+    {
+      "doi": "10.1109/CVPR52729.2023.01197",
+      "url": "https://doi.org/10.1109/CVPR52729.2023.01197",
+      "year": "2023",
+      "publisher": "IEEE",
+      "pages": "12439--12448",
+      "booktitle": "{IEEE/CVF} Conference on Computer Vision and Pattern Recognition, {CVPR} 2023, Vancouver, BC, Canada, June 17-24, 2023",
+      "title": "NeuralEditor: Editing Neural Radiance Fields via Manipulating Point Clouds",
+      "author": "Jun{-}Kun Chen and Jipeng Lyu and Yu{-}Xiong Wang",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "DBLP:conf/cvpr/ChenLW23"
+    },
+    {
+      "url": "https://arxiv.org/abs/2312.02157",
+      "primaryclass": "cs.CV",
+      "archiveprefix": "arXiv",
+      "eprint": "2312.02157",
+      "year": "2023",
+      "author": "Can Wang and Mingming He and Menglei Chai and Dongdong Chen and Jing Liao",
+      "title": "Mesh-Guided Neural Implicit Field Editing",
+      "ENTRYTYPE": "misc",
+      "ID": "wang2023meshguidedneuralimplicitfield"
+    },
+    {
+      "doi": "10.1145/3641519.3657412",
+      "url": "https://doi.org/10.1145/3641519.3657412",
+      "year": "2024",
+      "publisher": "{ACM}",
+      "pages": "110",
+      "booktitle": "{ACM} {SIGGRAPH} 2024 Conference Papers, {SIGGRAPH} 2024, Denver, CO, USA, 27 July 2024–1 August 2024",
+      "title": "CNS-Edit: 3D Shape Editing via Coupled Neural Shape Optimization",
+      "editor": "Andres Burbano and Denis Zorin and Wojciech Jarosz",
+      "author": "Jingyu Hu and Ka{-}Hei Hui and Zhengzhe Liu and Hao Zhang and Chi{-}Wing Fu",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "DBLP:conf/siggraph/HuHLZF24"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2502.02891",
+      "author": "Rubab, Fizza and Tong, Yiying",
+      "title": "INST-Sculpt: Interactive Stroke-based Neural SDF Sculpting",
+      "ENTRYTYPE": "article",
+      "ID": "rubab2025inst"
+    },
+    {
+      "year": "2024",
+      "pages": "20902--20911",
+      "booktitle": "Proceedings of the IEEE/CVF conference on computer vision and pattern recognition",
+      "author": "Wang, Junjie and Fang, Jiemin and Zhang, Xiaopeng and Xie, Lingxi and Tian, Qi",
+      "title": "Gaussianeditor: Editing 3d gaussians delicately with text instructions",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "wang2024gaussianeditor"
+    },
+    {
+      "organization": "Springer",
+      "year": "2024",
+      "pages": "55--71",
+      "booktitle": "European Conference on Computer Vision",
+      "author": "Wu, Jing and Bian, Jia-Wang and Li, Xinghui and Wang, Guangrun and Reid, Ian and Torr, Philip and Prisacariu, Victor Adrian",
+      "title": "Gaussctrl: Multi-view consistent text-driven 3d gaussian splatting editing",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "wu2024gaussctrl"
+    },
+    {
+      "year": "2024",
+      "pages": "1--4",
+      "booktitle": "SIGGRAPH Asia 2024 Technical Communications",
+      "author": "Liu, Kunhao and Zhan, Fangneng and Xu, Muyu and Theobalt, Christian and Shao, Ling and Lu, Shijian",
+      "title": "Stylegaussian: Instant 3d style transfer with gaussian splatting",
+      "ENTRYTYPE": "incollection",
+      "ID": "liu2024stylegaussian"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2306.09551",
+      "author": "Yu, Lu and Xiang, Wei and Han, Kang",
+      "title": "Edit-diffnerf: Editing 3d neural radiance fields using 2d diffusion model",
+      "ENTRYTYPE": "article",
+      "ID": "yu2023edit"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2401.00208",
+      "author": "Jiang, Han and Sun, Haosen and Li, Ruoxuan and Tang, Chi-Keung and Tai, Yu-Wing",
+      "title": "Inpaint4DNeRF: Promptable Spatio-Temporal NeRF Inpainting with Generative Diffusion Models",
+      "ENTRYTYPE": "article",
+      "ID": "jiang2023inpaint4dnerf"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2306.05668",
+      "author": "Zhou, Xingchen and He, Ying and Yu, F Richard and Li, Jianqiang and Li, You",
+      "title": "Repaint-nerf: Nerf editting via semantic masks and diffusion models",
+      "ENTRYTYPE": "article",
+      "ID": "zhou2023repaint"
+    },
+    {
+      "year": "2024",
+      "pages": "6679--6688",
+      "booktitle": "Proceedings of the IEEE/CVF conference on computer vision and pattern recognition",
+      "author": "Dihlmann, Jan-Niklas and Engelhardt, Andreas and Lensch, Hendrik",
+      "title": "Signerf: Scene integrated generation for neural radiance fields",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "dihlmann2024signerf"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2209.14988",
+      "author": "Poole, Ben and Jain, Ajay and Barron, Jonathan T and Mildenhall, Ben",
+      "title": "Dreamfusion: Text-to-3d using 2d diffusion",
+      "ENTRYTYPE": "article",
+      "ID": "poole2022dreamfusion"
+    },
+    {
+      "url": "https://arxiv.org/abs/2407.21783",
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2407.21783",
+      "author": "{Meta AI}",
+      "title": "The {Llama 3} Herd of Models",
+      "ENTRYTYPE": "article",
+      "ID": "meta2024llama3"
+    },
+    {
+      "url": "https://arxiv.org/abs/2303.08774",
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2303.08774",
+      "author": "{OpenAI}",
+      "title": "{GPT}-4 Technical Report",
+      "ENTRYTYPE": "article",
+      "ID": "openai2023gpt4"
+    },
+    {
+      "note": "Accessed: 2025-05-16",
+      "howpublished": "\\url{https://arxiv.org/abs/2410.21276}",
+      "year": "2024",
+      "author": "{OpenAI}",
+      "title": "GPT-4o System Card",
+      "ENTRYTYPE": "misc",
+      "ID": "openai2024gpt4o"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2501.19054",
+      "author": "Wang, Ruiyu and Yuan, Yu and Sun, Shizhao and Bian, Jiang",
+      "title": "Text-to-CAD Generation Through Infusing Visual Feedback in Large Language Models",
+      "ENTRYTYPE": "article",
+      "ID": "wang2025text"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2502.03997",
+      "author": "Yuan, Yu and Sun, Shizhao and Liu, Qi and Bian, Jiang",
+      "title": "CAD-Editor: A Locate-then-Infill Framework with Automated Training Data Synthesis for Text-Based CAD Editing",
+      "ENTRYTYPE": "article",
+      "ID": "yuan2025cad"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2411.05823",
+      "author": "Zhang, Zhanwei and Sun, Shizhao and Wang, Wenxiao and Cai, Deng and Bian, Jiang",
+      "title": "FlexCAD: Unified and Versatile Controllable CAD Generation with Fine-tuned Large Language Models",
+      "ENTRYTYPE": "article",
+      "ID": "zhang2024flexcad"
+    },
+    {
+      "publisher": "American Society of Mechanical Engineers Digital Collection",
+      "year": "2024",
+      "number": "1",
+      "volume": "146",
+      "journal": "Journal of Mechanical Design",
+      "author": "Deng, Yuanzhe and Chen, James and Olechowski, Alison",
+      "title": "What sets proficient and expert users apart? Results of a Computer-Aided Design experiment",
+      "ENTRYTYPE": "article",
+      "ID": "deng2024sets"
+    },
+    {
+      "publisher": "ACM New York, NY, USA",
+      "year": "2018",
+      "pages": "1--16",
+      "number": "6",
+      "volume": "37",
+      "journal": "ACM Transactions on Graphics (TOG)",
+      "author": "Du, Tao and Inala, Jeevana Priya and Pu, Yewen and Spielberg, Andrew and Schulz, Adriana and Rus, Daniela and Solar-Lezama, Armando and Matusik, Wojciech",
+      "title": "Inversecsg: Automatic conversion of 3d models to csg trees",
+      "ENTRYTYPE": "article",
+      "ID": "du2018inversecsg"
+    },
+    {
+      "year": "2022",
+      "pages": "3",
+      "number": "2",
+      "volume": "1",
+      "journal": "ICLR",
+      "author": "Hu, Edward J and Shen, Yelong and Wallis, Phillip and Allen-Zhu, Zeyuan and Li, Yuanzhi and Wang, Shean and Wang, Lu and Chen, Weizhu and others",
+      "title": "Lora: Low-rank adaptation of large language models.",
+      "ENTRYTYPE": "article",
+      "ID": "hu2022lora"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2203.13944",
+      "author": "Jayaraman, Pradeep Kumar and Lambourne, Joseph G and Desai, Nishkrit and Willis, Karl DD and Sanghi, Aditya and Morris, Nigel JW",
+      "title": "Solidgen: An autoregressive model for direct b-rep synthesis",
+      "ENTRYTYPE": "article",
+      "ID": "jayaraman2022solidgen"
+    },
+    {
+      "year": "2020",
+      "pages": "8776--8786",
+      "volume": "33",
+      "journal": "Advances in neural information processing systems",
+      "author": "Kania, Kacper and Zieba, Maciej and Kajdanowicz, Tomasz",
+      "title": "UCSG-NET-unsupervised discovering of constructive solid geometry tree",
+      "ENTRYTYPE": "article",
+      "ID": "kania2020ucsg"
+    },
+    {
+      "year": "2024",
+      "pages": "4713--4722",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Khan, Mohammad Sadil and Dupont, Elona and Ali, Sk Aziz and Cherenkova, Kseniya and Kacem, Anis and Aouada, Djamila",
+      "title": "Cad-signet: Cad language inference from point clouds using layer-wise sketch instance guided attention",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "khan2024cad"
+    },
+    {
+      "year": "2024",
+      "pages": "7552--7579",
+      "volume": "37",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Khan, Mohammad Sadil and Sinha, Sankalp and Uddin, Talha and Stricker, Didier and Ali, Sk Aziz and Afzal, Muhammad Zeshan",
+      "title": "Text2cad: Generating sequential cad designs from beginner-to-expert level text prompts",
+      "ENTRYTYPE": "article",
+      "ID": "khan2024text2cad"
+    },
+    {
+      "year": "2024",
+      "pages": "8461--8470",
+      "booktitle": "Proceedings of the 32nd ACM International Conference on Multimedia",
+      "author": "Li, Xueyang and Song, Yu and Lou, Yunzhong and Zhou, Xiangdong",
+      "title": "CAD Translator: An Effective Drive for Text to 3D Parametric Computer-Aided Design Generative Modeling",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "li2024cad"
+    },
+    {
+      "year": "2024",
+      "pages": "27154--27163",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Ma, Weijian and Chen, Shuaiqi and Lou, Yunzhong and Li, Xueyang and Zhou, Xiangdong",
+      "title": "Draw Step by Step: Reconstructing CAD Construction Sequences from Point Clouds via Multimodal Diffusion.",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ma2024draw"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2307.14377",
+      "author": "Makatura, Liane and Foshey, Michael and Wang, Bohan and H{\\\"a}hnLein, Felix and Ma, Pingchuan and Deng, Bolei and Tjandrasuwita, Megan and Spielberg, Andrew and Owens, Crystal Elaine and Chen, Peter Yichen and others",
+      "title": "How can large language models help humans in design and manufacturing?",
+      "ENTRYTYPE": "article",
+      "ID": "makatura2023can"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2302.13971",
+      "author": "Touvron, Hugo and Lavril, Thibaut and Izacard, Gautier and Martinet, Xavier and Lachaux, Marie-Anne and Lacroix, Timoth{\\'e}e and Rozi{\\`e}re, Baptiste and Goyal, Naman and Hambro, Eric and Azhar, Faisal and others",
+      "title": "Llama: Open and efficient foundation language models",
+      "ENTRYTYPE": "article",
+      "ID": "touvron2023llama"
+    },
+    {
+      "year": "2022",
+      "pages": "1622--1631",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Wang, Kehan and Zheng, Jia and Zhou, Zihan",
+      "title": "Neural face identification in a 2d wireframe projection of a manifold object",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "wang2022neural"
+    },
+    {
+      "year": "2021",
+      "pages": "2105--2114",
+      "booktitle": "Proceedings of the IEEE/CVF conference on computer vision and pattern recognition",
+      "author": "Willis, Karl DD and Jayaraman, Pradeep Kumar and Lambourne, Joseph G and Chu, Hang and Pu, Yewen",
+      "title": "Engineering sketch generation for computer-aided design",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "willis2021engineering"
+    },
+    {
+      "year": "2021",
+      "pages": "6772--6782",
+      "booktitle": "Proceedings of the IEEE/CVF International Conference on Computer Vision",
+      "author": "Wu, Rundi and Xiao, Chang and Zheng, Changxi",
+      "title": "Deepcad: A deep generative network for computer-aided design models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "wu2021deepcad"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2207.04632",
+      "author": "Xu, Xiang and Willis, Karl DD and Lambourne, Joseph G and Cheng, Chin-Yi and Jayaraman, Pradeep Kumar and Furukawa, Yasutaka",
+      "title": "Skexgen: Autoregressive generation of cad construction sequences with disentangled codebooks",
+      "ENTRYTYPE": "article",
+      "ID": "xu2022skexgen"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2307.00149",
+      "author": "Xu, Xiang and Jayaraman, Pradeep Kumar and Lambourne, Joseph G and Willis, Karl DD and Furukawa, Yasutaka",
+      "title": "Hierarchical neural coding for controllable cad model generation",
+      "ENTRYTYPE": "article",
+      "ID": "xu2023hierarchical"
+    },
+    {
+      "publisher": "ACM New York, NY, USA",
+      "year": "2024",
+      "pages": "1--14",
+      "number": "4",
+      "volume": "43",
+      "journal": "ACM Transactions on Graphics (TOG)",
+      "author": "Xu, Xiang and Lambourne, Joseph and Jayaraman, Pradeep and Wang, Zhengqing and Willis, Karl and Furukawa, Yasutaka",
+      "title": "Brepgen: A b-rep generative diffusion model with structured latent geometry",
+      "ENTRYTYPE": "article",
+      "ID": "xu2024brepgen"
+    },
+    {
+      "year": "2022",
+      "pages": "11768--11778",
+      "booktitle": "Proceedings of the IEEE/CVF conference on computer vision and pattern recognition",
+      "author": "Yu, Fenggen and Chen, Zhiqin and Li, Manyi and Sanghi, Aditya and Shayani, Hooman and Mahdavi-Amiri, Ali and Zhang, Hao",
+      "title": "Capri-net: Learning compact cad shapes with adaptive primitive assembly",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "yu2022capri"
+    },
+    {
+      "year": "2023",
+      "pages": "22807--22819",
+      "volume": "36",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Yu, Fenggen and Chen, Qimin and Tanveer, Maham and Mahdavi Amiri, Ali and Zhang, Hao",
+      "title": "D $\\^{} 2$ CSG: Unsupervised learning of compact CSG trees with dual complements and dropouts",
+      "ENTRYTYPE": "article",
+      "ID": "yu2023d"
+    },
+    {
+      "year": "2023",
+      "number": "2",
+      "volume": "1",
+      "journal": "arXiv preprint arXiv:2303.18223",
+      "author": "Zhao, Wayne Xin and Zhou, Kun and Li, Junyi and Tang, Tianyi and Wang, Xiaolei and Hou, Yupeng and Min, Yingqian and Zhang, Beichen and Zhang, Junjie and Dong, Zican and others",
+      "title": "A survey of large language models",
+      "ENTRYTYPE": "article",
+      "ID": "zhao2023survey"
+    },
+    {
+      "year": "2022",
+      "pages": "11850--11860",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Uy, Mikaela Angelina and Chang, Yen-Yu and Sung, Minhyuk and Goel, Purvi and Lambourne, Joseph G and Birdal, Tolga and Guibas, Leonidas J",
+      "title": "Point2cyl: Reverse engineering 3d objects from point clouds to extrusion cylinders",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "uy2022point2cyl"
+    },
+    {
+      "abstract": "We present DiffusionBERT, a new generative masked language model based on discrete dif- fusion models. Diffusion models and many pre- trained language models have a shared training objective, i.e., denoising, making it possible to combine the two powerful models and enjoy the best of both worlds. On the one hand, dif- fusion models offer a promising training strat- egy that helps improve the generation quality. On the other hand, pre-trained denoising lan- guage models (e.g., BERT) can be used as a good initialization that accelerates convergence. We explore training BERT to learn the reverse process of a discrete diffusion process with an absorbing state and elucidate several designs to improve it. First, we propose a new noise schedule for the forward diffusion process that controls the degree of noise added at each step based on the information of each token. Sec- ond, we investigate several designs of incorpo- rating the time step into BERT. Experiments on unconditional text generation demonstrate that DiffusionBERT achieves significant improve- ment over existing diffusion models for text (e.g., D3PM and Diffusion-LM) and previous generative masked language models in terms of perplexity and BLEU score. Promising re- sults in conditional generation tasks show that DiffusionBERT can generate texts of compa- rable quality and more diverse than a series of established baselines.",
+      "pages": "4521--4534",
+      "doi": "10.18653/v1/2023.acl-long.248",
+      "url": "https://aclanthology.org/2023.acl-long.248",
+      "publisher": "Association for Computational Linguistics",
+      "address": "Toronto, Canada",
+      "year": "2023",
+      "month": "July",
+      "booktitle": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+      "author": "He, Zhengfu  and\nSun, Tianxiang  and\nTang, Qiong  and\nWang, Kuanning  and\nHuang, Xuanjing  and\nQiu, Xipeng",
+      "title": "{D}iffusion{BERT}: Improving Generative Masked Language Models with Diffusion Models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "he-etal-2023-diffusionbert"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2210.08933",
+      "author": "Gong, Shansan and Li, Mukai and Feng, Jiangtao and Wu, Zhiyong and Kong, LingPeng",
+      "title": "Diffuseq: Sequence to sequence text generation with diffusion models",
+      "ENTRYTYPE": "article",
+      "ID": "gong2022diffuseq"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2303.06574",
+      "author": "Li, Yifan and Zhou, Kun and Zhao, Wayne Xin and Wen, Ji-Rong",
+      "title": "Diffusion Models for Non-autoregressive Text Generation: A Survey",
+      "ENTRYTYPE": "article",
+      "ID": "li2023diffusion"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2305.04044",
+      "author": "Zhou, Kun and Li, Yifan and Zhao, Wayne Xin and Wen, Ji-Rong",
+      "title": "Diffusion-nat: Self-prompting discrete diffusion for non-autoregressive text generation",
+      "ENTRYTYPE": "article",
+      "ID": "zhou2023diffusion"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2303.07576",
+      "author": "Zhu, Yuansong and Zhao, Yu",
+      "title": "Diffusion models in nlp: A survey",
+      "ENTRYTYPE": "article",
+      "ID": "zou2023diffusion"
+    },
+    {
+      "year": "2022",
+      "pages": "1--9",
+      "booktitle": "SIGGRAPH Asia 2022 Conference Papers",
+      "author": "Lambourne, Joseph George and Willis, Karl and Jayaraman, Pradeep Kumar and Zhang, Longfei and Sanghi, Aditya and Malekshan, Kamal Rahimi",
+      "title": "Reconstructing editable prismatic CAD from rounded voxel models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "lambourne2022reconstructing"
+    },
+    {
+      "year": "2023",
+      "pages": "16816--16826",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Li, Pu and Guo, Jianwei and Zhang, Xiaopeng and Yan, Dong-Ming",
+      "title": "SECAD-Net: Self-Supervised CAD Reconstruction by Learning Sketch-Extrude Operations",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "li2023secad"
+    },
+    {
+      "organization": "Springer",
+      "year": "2022",
+      "pages": "482--498",
+      "booktitle": "European Conference on Computer Vision",
+      "author": "Ren, Daxuan and Zheng, Jianmin and Cai, Jianfei and Li, Jiatong and Zhang, Junzhe",
+      "title": "ExtrudeNet: Unsupervised inverse sketch-and-extrude for shape parsing",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ren2022extrudenet"
+    },
+    {
+      "year": "2020",
+      "journal": "arXiv preprint arXiv:2005.00341",
+      "author": "Dhariwal, Prafulla and Jun, Heewoo and Payne, Christine and Kim, Jong Wook and Radford, Alec and Sutskever, Ilya",
+      "title": "Jukebox: A generative model for music",
+      "ENTRYTYPE": "article",
+      "ID": "dhariwal2020jukebox"
+    },
+    {
+      "publisher": "ACM New York, NY, USA",
+      "year": "2021",
+      "pages": "1--24",
+      "number": "4",
+      "volume": "40",
+      "journal": "ACM Transactions on Graphics (TOG)",
+      "author": "Willis, Karl DD and Pu, Yewen and Luo, Jieliang and Chu, Hang and Du, Tao and Lambourne, Joseph G and Solar-Lezama, Armando and Matusik, Wojciech",
+      "title": "Fusion 360 gallery: A dataset and environment for programmatic cad construction from human design sequences",
+      "ENTRYTYPE": "article",
+      "ID": "willis2021fusion"
+    },
+    {
+      "year": "2019",
+      "pages": "9601--9611",
+      "booktitle": "Proceedings of the IEEE/CVF conference on computer vision and pattern recognition",
+      "author": "Koch, Sebastian and Matveev, Albert and Jiang, Zhongshi and Williams, Francis and Artemov, Alexey and Burnaev, Evgeny and Alexa, Marc and Zorin, Denis and Panozzo, Daniele",
+      "title": "Abc: A big cad model dataset for geometric deep learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "koch2019abc"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2304.04746",
+      "author": "Chen, Jiaao and Zhang, Aston and Li, Mu and Smola, Alex and Yang, Diyi",
+      "title": "A cheaper and better diffusion language model with soft-masked noise",
+      "ENTRYTYPE": "article",
+      "ID": "chen2023cheaper"
+    },
+    {
+      "year": "2019",
+      "pages": "4171--4186",
+      "booktitle": "Proceedings of NAACL-HLT",
+      "author": "Kenton, Jacob Devlin Ming-Wei Chang and Toutanova, Lee Kristina",
+      "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "kenton2019bert"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2021",
+      "pages": "461--470",
+      "booktitle": "Conference on Robot Learning",
+      "author": "Xiang, Yu and Xie, Christopher and Mousavian, Arsalan and Fox, Dieter",
+      "title": "Learning rgb-d feature embeddings for unseen object instance segmentation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "xiang2021learning"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2211.11679",
+      "author": "Lu, Yangxiao and Chen, Yuqiao and Ruozzi, Nicholas and Xiang, Yu",
+      "title": "Mean shift mask transformer for unseen object instance segmentation",
+      "ENTRYTYPE": "article",
+      "ID": "lu2022mean"
+    },
+    {
+      "year": "2021",
+      "pages": "16259--16268",
+      "booktitle": "Proceedings of the IEEE/CVF international conference on computer vision",
+      "author": "Zhao, Hengshuang and Jiang, Li and Jia, Jiaya and Torr, Philip HS and Koltun, Vladlen",
+      "title": "Point transformer",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zhao2021point"
+    },
+    {
+      "year": "2022",
+      "pages": "16949--16958",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Park, Chunghyun and Jeong, Yoonwoo and Cho, Minsu and Park, Jaesik",
+      "title": "Fast point transformer",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "park2022fast"
+    },
+    {
+      "publisher": "Springer",
+      "year": "2021",
+      "pages": "187--199",
+      "volume": "7",
+      "journal": "Computational Visual Media",
+      "author": "Guo, Meng-Hao and Cai, Jun-Xiong and Liu, Zheng-Ning and Mu, Tai-Jiang and Martin, Ralph R and Hu, Shi-Min",
+      "title": "Pct: Point cloud transformer",
+      "ENTRYTYPE": "article",
+      "ID": "guo2021pct"
+    },
+    {
+      "year": "2022",
+      "pages": "33330--33342",
+      "volume": "35",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Wu, Xiaoyang and Lao, Yixing and Jiang, Li and Liu, Xihui and Zhao, Hengshuang",
+      "title": "Point transformer v2: Grouped vector attention and partition-based pooling",
+      "ENTRYTYPE": "article",
+      "ID": "wu2022point"
+    },
+    {
+      "year": "2022",
+      "pages": "19313--19322",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Yu, Xumin and Tang, Lulu and Rao, Yongming and Huang, Tiejun and Zhou, Jie and Lu, Jiwen",
+      "title": "Point-bert: Pre-training 3d point cloud transformers with masked point modeling",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "yu2022point"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2015",
+      "pages": "2256--2265",
+      "booktitle": "International conference on machine learning",
+      "author": "Sohl-Dickstein, Jascha and Weiss, Eric and Maheswaranathan, Niru and Ganguli, Surya",
+      "title": "Deep unsupervised learning using nonequilibrium thermodynamics",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "sohl2015deep"
+    },
+    {
+      "year": "2021",
+      "pages": "8780--8794",
+      "volume": "34",
+      "journal": "Advances in neural information processing systems",
+      "author": "Dhariwal, Prafulla and Nichol, Alexander",
+      "title": "Diffusion models beat gans on image synthesis",
+      "ENTRYTYPE": "article",
+      "ID": "dhariwal2021diffusion"
+    },
+    {
+      "year": "2020",
+      "pages": "6840--6851",
+      "volume": "33",
+      "journal": "Advances in neural information processing systems",
+      "author": "Ho, Jonathan and Jain, Ajay and Abbeel, Pieter",
+      "title": "Denoising diffusion probabilistic models",
+      "ENTRYTYPE": "article",
+      "ID": "ho2020denoising"
+    },
+    {
+      "year": "2020",
+      "journal": "arXiv preprint arXiv:2010.02502",
+      "author": "Song, Jiaming and Meng, Chenlin and Ermon, Stefano",
+      "title": "Denoising diffusion implicit models",
+      "ENTRYTYPE": "article",
+      "ID": "song2020denoising"
+    },
+    {
+      "year": "2022",
+      "pages": "10684--10695",
+      "booktitle": "Proceedings of the IEEE/CVF conference on computer vision and pattern recognition",
+      "author": "Rombach, Robin and Blattmann, Andreas and Lorenz, Dominik and Esser, Patrick and Ommer, Bj{\\\"o}rn",
+      "title": "High-resolution image synthesis with latent diffusion models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "rombach2022high"
+    },
+    {
+      "year": "2022",
+      "pages": "3",
+      "number": "2",
+      "volume": "1",
+      "journal": "arXiv preprint arXiv:2204.06125",
+      "author": "Ramesh, Aditya and Dhariwal, Prafulla and Nichol, Alex and Chu, Casey and Chen, Mark",
+      "title": "Hierarchical text-conditional image generation with clip latents",
+      "ENTRYTYPE": "article",
+      "ID": "ramesh2022hierarchical"
+    },
+    {
+      "year": "2018",
+      "pages": "5515--5523",
+      "booktitle": "Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition",
+      "author": "Sharma, Gopal and Goyal, Rishabh and Liu, Difan and Kalogerakis, Evangelos and Maji, Subhransu",
+      "title": "Csgnet: Neural shape parser for constructive solid geometry",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "sharma2018csgnet"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "2018",
+      "pages": "44--58",
+      "volume": "88",
+      "journal": "Automation in Construction",
+      "author": "Czerniawski, T and Sankaran, B and Nahangi, M and Haas, C and Leite, F",
+      "title": "6D DBSCAN-based segmentation of building point clouds for planar object classification",
+      "ENTRYTYPE": "article",
+      "ID": "czerniawski20186d"
+    },
+    {
+      "publisher": "Springer",
+      "year": "2011",
+      "pages": "1--13",
+      "number": "2",
+      "volume": "2",
+      "journal": "3D Research",
+      "author": "Borrmann, Dorit and Elseberg, Jan and Lingemann, Kai and N{\\\"u}chter, Andreas",
+      "title": "The 3d hough transform for plane detection in point clouds: A review and a new accumulator design",
+      "ENTRYTYPE": "article",
+      "ID": "borrmann20113d"
+    },
+    {
+      "year": "2018",
+      "pages": "2965--2973",
+      "booktitle": "Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition",
+      "author": "Fang, Hao and Lafarge, Florent and Desbrun, Mathieu",
+      "title": "Planar shape detection at structural scales",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "fang2018planar"
+    },
+    {
+      "year": "2015",
+      "pages": "103--1",
+      "number": "4",
+      "volume": "34",
+      "journal": "ACM Trans. Graph.",
+      "author": "Monszpart, Aron and Mellado, Nicolas and Brostow, Gabriel J and Mitra, Niloy J",
+      "title": "RAPter: rebuilding man-made scenes with regular arrangements of planes.",
+      "ENTRYTYPE": "article",
+      "ID": "monszpart2015rapter"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "2020",
+      "pages": "1764--1771",
+      "number": "2",
+      "volume": "5",
+      "journal": "IEEE Robotics and Automation Letters",
+      "author": "Sommer, Christiane and Sun, Yumin and Guibas, Leonidas and Cremers, Daniel and Birdal, Tolga",
+      "title": "From planes to corners: Multi-purpose primitive detection in unorganized 3d point clouds",
+      "ENTRYTYPE": "article",
+      "ID": "sommer2020planes"
+    },
+    {
+      "publisher": "ACM New York, NY, USA",
+      "year": "2023",
+      "pages": "1--15",
+      "number": "4",
+      "volume": "42",
+      "journal": "ACM Transactions on Graphics (TOG)",
+      "author": "Xu, Rui and Dou, Zhiyang and Wang, Ningna and Xin, Shiqing and Chen, Shuangmin and Jiang, Mingyan and Guo, Xiaohu and Wang, Wenping and Tu, Changhe",
+      "title": "Globally consistent normal orientation for point clouds by regularizing the winding-number field",
+      "ENTRYTYPE": "article",
+      "ID": "xu2023globally"
+    },
+    {
+      "year": "2011",
+      "pages": "1--12",
+      "booktitle": "ACM SIGGRAPH 2011 papers",
+      "author": "Li, Yangyan and Wu, Xiaokun and Chrysathou, Yiorgos and Sharf, Andrei and Cohen-Or, Daniel and Mitra, Niloy J",
+      "title": "Globfit: Consistently fitting primitives by discovering global relations",
+      "ENTRYTYPE": "incollection",
+      "ID": "li2011globfit"
+    },
+    {
+      "organization": "Wiley Online Library",
+      "year": "2007",
+      "pages": "214--226",
+      "number": "2",
+      "volume": "26",
+      "booktitle": "Computer graphics forum",
+      "author": "Schnabel, Ruwen and Wahl, Roland and Klein, Reinhard",
+      "title": "Efficient RANSAC for point-cloud shape detection",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "schnabel2007efficient"
+    },
+    {
+      "publisher": "Springer",
+      "year": "2015",
+      "pages": "1--12",
+      "volume": "6",
+      "journal": "3D Research",
+      "author": "Tran, Trung-Thien and Cao, Van-Toan and Laurendeau, Denis",
+      "title": "Extraction of reliable primitives from unorganized point clouds",
+      "ENTRYTYPE": "article",
+      "ID": "tran2015extraction"
+    },
+    {
+      "year": "2019",
+      "journal": "arXiv preprint arXiv:1907.11692",
+      "author": "Liu, Yinhan and Ott, Myle and Goyal, Naman and Du, Jingfei and Joshi, Mandar and Chen, Danqi and Levy, Omer and Lewis, Mike and Zettlemoyer, Luke and Stoyanov, Veselin",
+      "title": "Roberta: A robustly optimized bert pretraining approach",
+      "ENTRYTYPE": "article",
+      "ID": "liu2019roberta"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2202.08005",
+      "author": "Wettig, Alexander and Gao, Tianyu and Zhong, Zexuan and Chen, Danqi",
+      "title": "Should you mask 15\\% in masked language modeling?",
+      "ENTRYTYPE": "article",
+      "ID": "wettig2022should"
+    },
+    {
+      "year": "2022",
+      "pages": "16000--16009",
+      "booktitle": "Proceedings of the IEEE/CVF conference on computer vision and pattern recognition",
+      "author": "He, Kaiming and Chen, Xinlei and Xie, Saining and Li, Yanghao and Doll{\\'a}r, Piotr and Girshick, Ross",
+      "title": "Masked autoencoders are scalable vision learners",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "he2022masked"
+    },
+    {
+      "year": "2017",
+      "volume": "30",
+      "journal": "Advances in neural information processing systems",
+      "author": "Vaswani, Ashish and Shazeer, Noam and Parmar, Niki and Uszkoreit, Jakob and Jones, Llion and Gomez, Aidan N and Kaiser, {\\L}ukasz and Polosukhin, Illia",
+      "title": "Attention is all you need",
+      "ENTRYTYPE": "article",
+      "ID": "vaswani2017attention"
+    },
+    {
+      "year": "2017",
+      "pages": "652--660",
+      "booktitle": "Proceedings of the IEEE conference on computer vision and pattern recognition",
+      "author": "Qi, Charles R and Su, Hao and Mo, Kaichun and Guibas, Leonidas J",
+      "title": "Pointnet: Deep learning on point sets for 3d classification and segmentation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "qi2017pointnet"
+    },
+    {
+      "year": "2017",
+      "volume": "30",
+      "journal": "Advances in neural information processing systems",
+      "author": "Qi, Charles Ruizhongtai and Yi, Li and Su, Hao and Guibas, Leonidas J",
+      "title": "Pointnet++: Deep hierarchical feature learning on point sets in a metric space",
+      "ENTRYTYPE": "article",
+      "ID": "qi2017pointnet++"
+    },
+    {
+      "year": "2021",
+      "pages": "17981--17993",
+      "volume": "34",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Austin, Jacob and Johnson, Daniel D and Ho, Jonathan and Tarlow, Daniel and Van Den Berg, Rianne",
+      "title": "Structured denoising diffusion models in discrete state-spaces",
+      "ENTRYTYPE": "article",
+      "ID": "austin2021structured"
+    },
+    {
+      "year": "2021",
+      "pages": "6062--6070",
+      "booktitle": "Proceedings of the IEEE/CVF conference on computer vision and pattern recognition",
+      "author": "Xu, Xianghao and Peng, Wenzhe and Cheng, Chin-Yi and Willis, Karl DD and Ritchie, Daniel",
+      "title": "Inferring cad modeling sequences using zone graphs",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "xu2021inferring"
+    },
+    {
+      "year": "2023",
+      "pages": "8486--8495",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Ye, Yunfan and Yi, Renjiao and Gao, Zhirui and Zhu, Chenyang and Cai, Zhiping and Xu, Kai",
+      "title": "NEF: Neural Edge Fields for 3D Parametric Curve Reconstruction from Multi-view Images",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ye2023nef"
+    },
+    {
+      "year": "2020",
+      "pages": "20167--20178",
+      "volume": "33",
+      "journal": "Advances in neural information processing systems",
+      "author": "Wang, Xiaogang and Xu, Yuelang and Xu, Kai and Tagliasacchi, Andrea and Zhou, Bin and Mahdavi-Amiri, Ali and Zhang, Hao",
+      "title": "Pie-net: Parametric inference of point cloud edges",
+      "ENTRYTYPE": "article",
+      "ID": "wang2020pie"
+    },
+    {
+      "organization": "Springer",
+      "year": "2020",
+      "pages": "261--276",
+      "booktitle": "Computer Vision--ECCV 2020: 16th European Conference, Glasgow, UK, August 23--28, 2020, Proceedings, Part VII 16",
+      "author": "Sharma, Gopal and Liu, Difan and Maji, Subhransu and Kalogerakis, Evangelos and Chaudhuri, Siddhartha and M{\\v{e}}ch, Radom{\\'\\i}r",
+      "title": "Parsenet: A parametric surface fitting network for 3d point clouds",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "sharma2020parsenet"
+    },
+    {
+      "year": "2019",
+      "journal": "arXiv preprint arXiv:1906.12337",
+      "author": "Smirnov, Dmitriy and Bessmeltsev, Mikhail and Solomon, Justin",
+      "title": "Learning manifold patch-based representations of man-made shapes",
+      "ENTRYTYPE": "article",
+      "ID": "smirnov2019learning"
+    },
+    {
+      "publisher": "ACM New York, NY, USA",
+      "year": "2022",
+      "pages": "1--18",
+      "number": "4",
+      "volume": "41",
+      "journal": "ACM Transactions on Graphics (TOG)",
+      "author": "Guo, Haoxiang and Liu, Shilin and Pan, Hao and Liu, Yang and Tong, Xin and Guo, Baining",
+      "title": "Complexgen: Cad reconstruction by b-rep chain complex generation",
+      "ENTRYTYPE": "article",
+      "ID": "guo2022complexgen"
+    },
+    {
+      "publisher": "ACM New York, NY, USA",
+      "year": "1981",
+      "pages": "381--395",
+      "number": "6",
+      "volume": "24",
+      "journal": "Communications of the ACM",
+      "author": "Fischler, Martin A and Bolles, Robert C",
+      "title": "Random sample consensus: a paradigm for model fitting with applications to image analysis and automated cartography",
+      "ENTRYTYPE": "article",
+      "ID": "fischler1981random"
+    },
+    {
+      "note": "Accessed: 20-Oct-2023",
+      "howpublished": "\\url{https://www.opencascade.com/}",
+      "title": "OpenCASCADE",
+      "ENTRYTYPE": "misc",
+      "ID": "opencascade"
+    },
+    {
+      "publisher": "ACM New York, NY, USA",
+      "year": "1972",
+      "pages": "11--15",
+      "number": "1",
+      "volume": "15",
+      "journal": "Communications of the ACM",
+      "author": "Duda, Richard O and Hart, Peter E",
+      "title": "Use of the Hough transformation to detect lines and curves in pictures",
+      "ENTRYTYPE": "article",
+      "ID": "duda1972use"
+    },
+    {
+      "publisher": "Ieee",
+      "year": "1989",
+      "pages": "859--872",
+      "number": "8",
+      "volume": "11",
+      "journal": "IEEE Transactions on pattern analysis and machine intelligence",
+      "author": "Teh, C-H and Chin, Roland T.",
+      "title": "On the detection of dominant points on digital curves",
+      "ENTRYTYPE": "article",
+      "ID": "teh1989detection"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "1986",
+      "pages": "161--173",
+      "number": "2",
+      "volume": "15",
+      "journal": "Journal of computational and applied mathematics",
+      "author": "Dierckx, Paul",
+      "title": "An algorithm for fitting data over a circle using tensor product splines",
+      "ENTRYTYPE": "article",
+      "ID": "dierckx1986algorithm"
+    },
+    {
+      "volume": "abs/2212.10325",
+      "year": "2022",
+      "journal": "ArXiv",
+      "author": "Hongyi Yuan and Zheng Yuan and Chuanqi Tan and Fei Huang and Songfang Huang",
+      "title": "SeqDiffuSeq: Text Diffusion with Encoder-Decoder Transformers",
+      "ENTRYTYPE": "article",
+      "ID": "Yuan2022SeqDiffuSeqTD"
+    },
+    {
+      "year": "2021",
+      "volume": "34",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2021/file/67d96d458abdef21792e6d8e590244e7-Paper.pdf",
+      "title": "Argmax Flows and Multinomial Diffusion: Learning Categorical Distributions",
+      "publisher": "Curran Associates, Inc.",
+      "pages": "12454--12465",
+      "editor": "M. Ranzato and A. Beygelzimer and Y. Dauphin and P.S. Liang and J. Wortman Vaughan",
+      "booktitle": "Advances in Neural Information Processing Systems",
+      "author": "Hoogeboom, Emiel and Nielsen, Didrik and Jaini, Priyank and Forr\\'{e}, Patrick and Welling, Max",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "NEURIPS2021_argmaxflows"
+    },
+    {
+      "year": "2022",
+      "pages": "4328--4343",
+      "volume": "35",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Li, Xiang and Thickstun, John and Gulrajani, Ishaan and Liang, Percy S and Hashimoto, Tatsunori B",
+      "title": "Diffusion-lm improves controllable text generation",
+      "ENTRYTYPE": "article",
+      "ID": "li2022diffusion"
+    },
+    {
+      "year": "2013",
+      "journal": "arXiv preprint arXiv:1312.6114",
+      "author": "Kingma, Diederik P and Welling, Max",
+      "title": "Auto-encoding variational bayes",
+      "ENTRYTYPE": "article",
+      "ID": "kingma2013auto"
+    },
+    {
+      "year": "2022",
+      "pages": "10696--10706",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Gu, Shuyang and Chen, Dong and Bao, Jianmin and Wen, Fang and Zhang, Bo and Chen, Dongdong and Yuan, Lu and Guo, Baining",
+      "title": "Vector quantized diffusion model for text-to-image synthesis",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "gu2022vector"
+    },
+    {
+      "year": "2019",
+      "journal": "arXiv preprint arXiv:1902.04094",
+      "author": "Wang, Alex and Cho, Kyunghyun",
+      "title": "BERT has a mouth, and it must speak: BERT as a Markov random field language model",
+      "ENTRYTYPE": "article",
+      "ID": "wang2019bert"
+    },
+    {
+      "year": "2023",
+      "pages": "7226--7236",
+      "booktitle": "Proceedings of the IEEE/CVF International Conference on Computer Vision",
+      "author": "Zhang, Junyi and Guo, Jiaqi and Sun, Shizhao and Lou, Jian-Guang and Zhang, Dongmei",
+      "title": "Layoutdiffusion: Improving graphic layout generation by discrete diffusion probabilistic models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zhang2023layoutdiffusion"
+    },
+    {
+      "year": "2017",
+      "volume": "30",
+      "journal": "Advances in neural information processing systems",
+      "author": "Van Den Oord, Aaron and Vinyals, Oriol and others",
+      "title": "Neural discrete representation learning",
+      "ENTRYTYPE": "article",
+      "ID": "van2017neural"
+    },
+    {
+      "year": "2005",
+      "number": "9",
+      "volume": "6",
+      "journal": "Journal of Machine Learning Research",
+      "author": "Banerjee, Arindam and Dhillon, Inderjit S and Ghosh, Joydeep and Sra, Suvrit and Ridgeway, Greg",
+      "title": "Clustering on the Unit Hypersphere using von Mises-Fisher Distributions.",
+      "ENTRYTYPE": "article",
+      "ID": "banerjee2005clustering"
+    },
+    {
+      "year": "2019",
+      "volume": "32",
+      "journal": "Advances in neural information processing systems",
+      "author": "Rao, Roshan and Bhattacharya, Nicholas and Thomas, Neil and Duan, Yan and Chen, Peter and Canny, John and Abbeel, Pieter and Song, Yun",
+      "title": "Evaluating protein transfer learning with TAPE",
+      "ENTRYTYPE": "article",
+      "ID": "rao2019evaluating"
+    },
+    {
+      "year": "2021",
+      "journal": "arXiv preprint arXiv:2106.05630",
+      "author": "Zeng, Mingliang and Tan, Xu and Wang, Rui and Ju, Zeqian and Qin, Tao and Liu, Tie-Yan",
+      "title": "Musicbert: Symbolic music understanding with large-scale pre-training",
+      "ENTRYTYPE": "article",
+      "ID": "zeng2021musicbert"
+    },
+    {
+      "year": "2021",
+      "journal": "arXiv preprint arXiv:2108.05542",
+      "author": "Kalyan, Katikapalli Subramanyam and Rajasekharan, Ajit and Sangeetha, Sivanesan",
+      "title": "Ammus: A survey of transformer-based pretrained models in natural language processing",
+      "ENTRYTYPE": "article",
+      "ID": "kalyan2021ammus"
+    },
+    {
+      "doi": "10.1109/ICASSP49357.2023.10096189",
+      "keywords": "Codes;Speech coding;Computational modeling;Signal processing;Tokenization;Question answering (information retrieval);Acoustics;Spoken Language Understanding;Speech Translation;Spoken Question Answering",
+      "pages": "1-5",
+      "number": "",
+      "volume": "",
+      "year": "2023",
+      "title": "T5lephone: Bridging Speech and Text Self-Supervised Models for Spoken Language Understanding Via Phoneme Level T5",
+      "booktitle": "ICASSP 2023 - 2023 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+      "author": "Hsu, Chan-Jan and Chung, Ho-Lam and Lee, Hung-Yi and Tsao, Yu",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "T5lephone"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2409.14810",
+      "author": "Li, Li and Cheng, Mingyue and Liu, Zhiding and Zhang, Hao and Liu, Qi and Chen, Enhong",
+      "title": "Pre-trained Language Model and Knowledge Distillation for Lightweight Sequential Recommendation",
+      "ENTRYTYPE": "article",
+      "ID": "li2024pre"
+    },
+    {
+      "year": "2023",
+      "pages": "14133--14149",
+      "booktitle": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+      "author": "Liang, Ziran and Lu, Yuyin and Chen, HeGang and Rao, Yanghui",
+      "title": "Graph-based Relation Mining for Context-free Out-of-vocabulary Word Embedding Learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "liang2023graph"
+    },
+    {
+      "publisher": "Nature Publishing Group UK London",
+      "year": "2023",
+      "pages": "485--496",
+      "number": "5",
+      "volume": "5",
+      "journal": "Nature Machine Intelligence",
+      "author": "Vu, Mai Ha and Akbar, Rahmad and Robert, Philippe A and Swiatczak, Bartlomiej and Sandve, Geir Kjetil and Greiff, Victor and Haug, Dag Trygve Truslew",
+      "title": "Linguistically inspired roadmap for building biologically reliable protein language models",
+      "ENTRYTYPE": "article",
+      "ID": "vu2023linguistically"
+    },
+    {
+      "year": "2020",
+      "journal": "arXiv preprint arXiv:2005.14165",
+      "author": "Brown, Tom B",
+      "title": "Language models are few-shot learners",
+      "ENTRYTYPE": "article",
+      "ID": "brown2020language"
+    },
+    {
+      "publisher": "Oxford University Press",
+      "year": "2022",
+      "pages": "2102--2110",
+      "number": "8",
+      "volume": "38",
+      "journal": "Bioinformatics",
+      "author": "Brandes, Nadav and Ofer, Dan and Peleg, Yam and Rappoport, Nadav and Linial, Michal",
+      "title": "ProteinBERT: a universal deep-learning model of protein sequence and function",
+      "ENTRYTYPE": "article",
+      "ID": "brandes2022proteinbert"
+    },
+    {
+      "year": "2021",
+      "journal": "arXiv preprint arXiv:2103.07162",
+      "author": "Kao, Wei-Tsung and Lee, Hung-yi",
+      "title": "Is BERT a Cross-Disciplinary Knowledge Learner? A Surprising Finding of Pre-trained Models' Transferability",
+      "ENTRYTYPE": "article",
+      "ID": "kao2021bert"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2410.02084",
+      "author": "Xu, Weihan and McAuley, Julian and Berg-Kirkpatrick, Taylor and Dubnov, Shlomo and Dong, Hao-Wen",
+      "title": "Generating Symbolic Music from Natural Language Prompts using an LLM-Enhanced Dataset",
+      "ENTRYTYPE": "article",
+      "ID": "xu2024generating"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2402.16445",
+      "author": "Lv, Liuzhenghao and Lin, Zongying and Li, Hao and Liu, Yuyang and Cui, Jiaxi and Chen, Calvin Yu-Chian and Yuan, Li and Tian, Yonghong",
+      "title": "Prollama: A protein large language model for multi-task protein language processing",
+      "ENTRYTYPE": "article",
+      "ID": "lv2024prollama"
+    },
+    {
+      "year": "2023",
+      "pages": "1766--1776",
+      "booktitle": "Proceedings of the 32nd ACM International Conference on Information and Knowledge Management",
+      "author": "Ma, Weijian and Xu, Minyang and Li, Xueyang and Zhou, Xiangdong",
+      "title": "Multicad: Contrastive representation learning for multi-modal 3d computer-aided design models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ma2023multicad"
+    },
+    {
+      "year": "2023",
+      "pages": "4456--4465",
+      "booktitle": "Proceedings of the IEEE/CVF conference on computer vision and pattern recognition",
+      "author": "Cheng, Yen-Chi and Lee, Hsin-Ying and Tulyakov, Sergey and Schwing, Alexander G and Gui, Liang-Yan",
+      "title": "Sdfusion: Multimodal 3d shape completion, reconstruction, and generation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "cheng2023sdfusion"
+    },
+    {
+      "note": "Accessed: 2025-04-29",
+      "howpublished": "\\url{https://github.com/tpaviot/pythonocc-core}",
+      "year": "2025",
+      "title": "pythonocc-core: 3D CAD/BRep Modeling for Python",
+      "author": "Thomas Paviot and Contributors",
+      "ENTRYTYPE": "misc",
+      "ID": "pythonocc"
+    },
+    {
+      "note": "Accessed: 2025-04-29",
+      "howpublished": "\\url{https://github.com/mikedh/trimesh}",
+      "year": "2025",
+      "title": "trimesh: A pure Python library for loading and using triangular meshes",
+      "author": "Dawson-Haggerty, Michael and Contributors",
+      "ENTRYTYPE": "misc",
+      "ID": "trimesh"
+    },
+    {
+      "note": "Accessed: 2025-04-29",
+      "howpublished": "\\url{https://github.com/marian42/mesh_to_sdf}",
+      "year": "2025",
+      "title": "mesh\\_to\\_sdf: Convert meshes to SDFs using a simple ray casting method",
+      "author": "Marian Kleineberg",
+      "ENTRYTYPE": "misc",
+      "ID": "mesh_to_sdf"
+    },
+    {
+      "year": "2024",
+      "pages": "22227--22238",
+      "booktitle": "Proceedings of the IEEE/CVF conference on computer vision and pattern recognition",
+      "author": "Wu, Tong and Yang, Guandao and Li, Zhibing and Zhang, Kai and Liu, Ziwei and Guibas, Leonidas and Lin, Dahua and Wetzstein, Gordon",
+      "title": "Gpt-4v (ision) is a human-aligned evaluator for text-to-3d generation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "wu2024gpt"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2412.14042",
+      "author": "Rukhovich, Danila and Dupont, Elona and Mallis, Dimitrios and Cherenkova, Kseniya and Kacem, Anis and Aouada, Djamila",
+      "title": "CAD-Recode: Reverse Engineering CAD Code from Point Clouds",
+      "ENTRYTYPE": "article",
+      "ID": "rukhovich2024cad"
+    },
+    {
+      "year": "1901",
+      "pages": "547--579",
+      "volume": "37",
+      "journal": "Bulletin de la Société Vaudoise des Sciences Naturelles",
+      "title": "Étude comparative de la distribution florale dans une portion des Alpes et des Jura",
+      "author": "Jaccard, Paul",
+      "ENTRYTYPE": "article",
+      "ID": "jaccard1901distribution"
+    },
+    {
+      "year": "1977",
+      "author": "Barrow, Harry G and Tenenbaum, Jay M and Bolles, Robert C and Wolf, Helen C",
+      "title": "Parametric correspondence and chamfer matching: Two new techniques for image matching",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "barrow1977parametric"
+    },
+    {
+      "year": "1966",
+      "number": "8",
+      "volume": "10",
+      "booktitle": "Soviet physics-doklady",
+      "author": "Lcvenshtcin, VI",
+      "title": "Binary coors capable or ‘correcting deletions, insertions, and reversals",
+      "ENTRYTYPE": "article",
+      "ID": "levenshtein1966binary"
+    },
+    {
+      "doi": "10.1109/18.61115",
+      "year": "1991",
+      "pages": "145--151",
+      "number": "1",
+      "volume": "37",
+      "journal": "IEEE Transactions on Information Theory",
+      "title": "Divergence Measures Based on the Shannon Entropy",
+      "author": "Lin, Jianhua",
+      "ENTRYTYPE": "article",
+      "ID": "lin1991divergence"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2505.17097",
+      "author": "Li, Yanshu and Yang, JianJiang and Yang, Ziteng and Li, Bozheng and He, Hongyang and Yao, Zhengtao and Han, Ligong and Chen, Yingjie Victor and Fei, Songlin and Liu, Dongfang and others",
+      "title": "Cama: Enhancing multimodal in-context learning with context-aware modulated attention",
+      "ENTRYTYPE": "article",
+      "ID": "li2025cama"
+    },
+    {
+      "url": "https://openreview.net/forum?id=9ffYcEiNw9",
+      "year": "2025",
+      "booktitle": "Second Conference on Language Modeling",
+      "author": "Yanshu Li and Yi Cao and Hongyang He and Qisen Cheng and Xiang Fu and Xi Xiao and Tianyang Wang and Ruixiang Tang",
+      "title": "M{\\texttwosuperior}{IV}: Towards Efficient and Fine-grained Multimodal In-Context Learning via Representation Engineering",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "li2025miv"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2509.06160",
+      "author": "Wang, Haozhe and Que, Haoran and Xu, Qixin and Liu, Minghao and Zhou, Wangchunshu and Feng, Jiazhan and Zhong, Wanjun and Ye, Wei and Yang, Tong and Huang, Wenhao and others",
+      "title": "Reverse-Engineered Reasoning for Open-Ended Generation",
+      "ENTRYTYPE": "article",
+      "ID": "wang2025reverse"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2509.03646",
+      "author": "Wang, Haozhe and Xu, Qixin and Liu, Che and Wu, Junhong and Lin, Fangzhen and Chen, Wenhu",
+      "title": "Emergent Hierarchical Reasoning in LLMs through Reinforcement Learning",
+      "ENTRYTYPE": "article",
+      "ID": "wang2025emergent"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2504.08837",
+      "author": "Wang, Haozhe and Qu, Chao and Huang, Zuming and Chu, Wei and Lin, Fangzhen and Chen, Wenhu",
+      "title": "Vl-rethinker: Incentivizing self-reflection of vision-language models with reinforcement learning",
+      "ENTRYTYPE": "article",
+      "ID": "wang2025vl"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2502.00691",
+      "author": "Wang, Haozhe and Li, Long and Qu, Chao and Zhu, Fengming and Xu, Weidi and Chu, Wei and Lin, Fangzhen",
+      "title": "To code or not to code? adaptive tool integration for math language models via expectation-maximization",
+      "ENTRYTYPE": "article",
+      "ID": "wang2025code"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2505.15966",
+      "author": "Wang, Haozhe and Su, Alex and and Ren, Weiming and Lin, Fangzhen and Chen, Wenhu",
+      "title": "Pixel reasoner: Incentivizing pixel-space reasoning with curiosity-driven reinforcement learning",
+      "ENTRYTYPE": "article",
+      "ID": "wang2025pixel"
+    },
+    {
+      "year": "2020",
+      "journal": "arXiv preprint arXiv:2003.01373",
+      "author": "Wang, Haozhe and Zhou, Jiale and He, Xuming",
+      "title": "Learning context-aware task reasoning for efficient meta-reinforcement learning",
+      "ENTRYTYPE": "article",
+      "ID": "wang2020learning"
+    },
+    {
+      "year": "2023",
+      "pages": "2976--2987",
+      "booktitle": "Proceedings of the ieee/cvf international conference on computer vision",
+      "author": "Wu, Yu and Wei, Yana and Wang, Haozhe and Liu, Yongfei and Yang, Sibei and He, Xuming",
+      "title": "Grounded image text matching with mismatched relation reasoning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "wu2023grounded"
+    },
+    {
+      "pages": "9298-9309",
+      "year": "2023",
+      "month": "October",
+      "booktitle": "Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)",
+      "title": "Zero-1-to-3: Zero-shot One Image to 3D Object",
+      "author": "Liu, Ruoshi and Wu, Rundi and Van Hoorick, Basile and Tokmakov, Pavel and Zakharov, Sergey and Vondrick, Carl",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "Liu_2023_zero_1_to_3"
+    },
+    {
+      "doi": "10.48550/arXiv.2211.10440",
+      "pages": "300--309",
+      "year": "2023",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "author": "Chen-Hsuan Lin and Jun Gao and Luming Tang and Towaki Takikawa and\nXiaohui Zeng and Xun Huang and Karsten Kreis and Sanja Fidler and\nMing-Yu Liu and Tsung-Yi Lin",
+      "title": "{M}agic3{D}: High-Resolution Text-to-3D Content Creation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "lin2023magic3d"
+    },
+    {
+      "doi": "10.48550/arXiv.2310.16818",
+      "note": "arXiv:2310.16818",
+      "year": "2024",
+      "booktitle": "International Conference on Learning Representations (ICLR)",
+      "author": "Jingxiang Sun and Bo Zhang and Ruizhi Shao and Lizhen Wang and\nWen Liu and Zhenda Xie and Yebin Liu",
+      "title": "DreamCraft3D: Hierarchical 3D Generation with Bootstrapped Diffusion Prior",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "sun2024dreamcraft3d"
+    },
+    {
+      "doi": "10.48550/arXiv.2410.12928",
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2410.12928",
+      "author": "Jingxiang Sun and Cheng Peng and Ruizhi Shao and Yuan-Chen Guo and\nXiaochen Zhao and Yangguang Li and Yanpei Cao and Bo Zhang and Yebin Liu",
+      "title": "DreamCraft3D++: Efficient Hierarchical 3D Generation with Multi-Plane Reconstruction Model",
+      "ENTRYTYPE": "article",
+      "ID": "sun2024dreamcraft3dpp"
+    },
+    {
+      "doi": "10.48550/arXiv.2310.08529",
+      "note": "arXiv:2310.08529",
+      "year": "2024",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "author": "Taoran Yi and Jiemin Fang and Junjie Wang and Guanjun Wu and Lingxi Xie and\nXiaopeng Zhang and Wenyu Liu and Qi Tian and Xinggang Wang",
+      "title": "GaussianDreamer: Fast Generation from Text to 3D Gaussians by Bridging 2D and 3D Diffusion Models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "yi2024gaussiandreamer"
+    },
+    {
+      "doi": "10.48550/arXiv.2406.09850",
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2406.09850",
+      "author": "Trapoom Ukarapol and Kevin Pruvost",
+      "title": "GradeADreamer: Enhanced Text-to-3D Generation Using Gaussian Splatting and Multi-View Diffusion",
+      "ENTRYTYPE": "article",
+      "ID": "ukarapol2024gradeadreamer"
+    },
+    {
+      "doi": "10.48550/arXiv.2303.12789",
+      "note": "arXiv:2303.12789",
+      "year": "2023",
+      "booktitle": "Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)",
+      "author": "Ayaan Haque and Matthew Tancik and Alexei~A. Efros and Aleksander Holynski and Angjoo Kanazawa",
+      "title": "Instruct-NeRF2NeRF: Editing 3D Scenes with Instructions",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "haque2023in2n"
+    },
+    {
+      "doi": "10.48550/arXiv.2306.13455",
+      "note": "arXiv:2306.13455",
+      "year": "2023",
+      "booktitle": "ACM SIGGRAPH Asia",
+      "author": "Jingyu Zhuang and Chen Wang and Lingjie Liu and Liang Lin and Guanbin Li",
+      "title": "DreamEditor: Text-Driven 3D Scene Editing with Neural Fields",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zhuang2023dreameditor"
+    },
+    {
+      "doi": "10.48550/arXiv.2311.16037",
+      "note": "arXiv:2311.16037",
+      "year": "2024",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "author": "Jiemin Fang and Junjie Wang and Xiaopeng Zhang and Lingxi Xie and Qi Tian",
+      "title": "GaussianEditor: Editing 3D Gaussians Delicately with Text Instructions",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "fang2024gaussianeditor"
+    }
+  ]
+}

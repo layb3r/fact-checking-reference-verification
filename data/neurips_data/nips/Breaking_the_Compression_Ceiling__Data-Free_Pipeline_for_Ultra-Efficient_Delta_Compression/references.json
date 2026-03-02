@@ -1,0 +1,927 @@
+{
+  "pdf_url": "https://arxiv.org/pdf/2505.13563v3.pdf",
+  "references": [
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2503.06676",
+      "author": "Huang, Chenyu and Ye, Peng and Wang, Xiaohui and Zheng, Shenghe and Qi, Biqing and Bai, Lei and Ouyang, Wanli and Chen, Tao",
+      "title": "Seeing Delta Parameters as JPEG Images: Data-Free Delta Compression with Discrete Cosine Transform",
+      "ENTRYTYPE": "article",
+      "ID": "huang2025seeing"
+    },
+    {
+      "year": "2024",
+      "pages": "9117--9152",
+      "volume": "37",
+      "journal": "Advances in neural information processing systems",
+      "author": "Lu, Haiquan and Zhou, Yefan and Liu, Shiwei and Wang, Zhangyang and Mahoney, Michael W and Yang, Yaoqing",
+      "title": "Alphapruning: Using heavy-tailed self regularization theory for improved layer-wise pruning of large language models",
+      "ENTRYTYPE": "article",
+      "ID": "lu2024alphapruning"
+    },
+    {
+      "year": "2024",
+      "pages": "109350--109380",
+      "volume": "37",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Li, Wei and Li, Lujun and Lee, Mark and Sun, Shengjie",
+      "title": "Adaptive layer sparsity for large language models via activation correlation assessment",
+      "ENTRYTYPE": "article",
+      "ID": "li2024adaptive"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2311.13171",
+      "author": "Yadav, Prateek and Choshen, Leshem and Raffel, Colin and Bansal, Mohit",
+      "title": "Compeft: Compression for communicating parameter efficient updates via sparsification and quantization",
+      "ENTRYTYPE": "article",
+      "ID": "yadav2023compeft"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2410.09344",
+      "author": "Deng, Wenlong and Zhao, Yize and Vakilian, Vala and Chen, Minghui and Li, Xiaoxiao and Thrampoulidis, Christos",
+      "title": "DARE the Extreme: Revisiting Delta-Parameter Pruning For Fine-Tuned Models",
+      "ENTRYTYPE": "article",
+      "ID": "deng2024dare"
+    },
+    {
+      "year": "2024",
+      "booktitle": "Forty-first International Conference on Machine Learning",
+      "author": "Yu, Le and Yu, Bowen and Yu, Haiyang and Huang, Fei and Li, Yongbin",
+      "title": "Language models are super mario: Absorbing abilities from homologous models as a free lunch",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "yu2024language"
+    },
+    {
+      "year": "2024",
+      "pages": "13579--13600",
+      "volume": "37",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Liu, James and Xiao, Guangxuan and Li, Kai and Lee, Jason D and Han, Song and Dao, Tri and Cai, Tianle",
+      "title": "Bitdelta: Your fine-tune may only be worth one bit",
+      "ENTRYTYPE": "article",
+      "ID": "liu2024bitdelta"
+    },
+    {
+      "year": "2024",
+      "pages": "31056--31077",
+      "volume": "37",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Ping, Bowen and Wang, Shuo and Wang, Hanqing and Han, Xu and Xu, Yuzhuang and Yan, Yukun and Chen, Yun and Chang, Baobao and Liu, Zhiyuan and Sun, Maosong",
+      "title": "Delta-come: Training-free delta-compression with mixed-precision for large language models",
+      "ENTRYTYPE": "article",
+      "ID": "ping2024delta"
+    },
+    {
+      "email": "tulu@allenai.org",
+      "year": "2024",
+      "author": "\nNathan Lambert and \nJacob Morrison and \nValentina Pyatkin and \nShengyi Huang and \nHamish Ivison and \nFaeze Brahman and \nLester James V. Miranda and \nAlisa Liu and \nNouha Dziri and \nShane Lyu and \nYuling Gu and \nSaumya Malik and \nVictoria Graf and \nJena D. Hwang and \nJiangjiang Yang and\nRonan Le Bras and\nOyvind Tafjord and\nChris Wilhelm and\nLuca Soldaini and \nNoah A. Smith and \nYizhong Wang and \nPradeep Dasigi and \nHannaneh Hajishirzi\n",
+      "title": "Tülu 3: Pushing Frontiers in Open Language Model Post-Training",
+      "ENTRYTYPE": "article",
+      "ID": "lambert2024tulu3"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2407.10671",
+      "author": "An Yang and Baosong Yang and Binyuan Hui and Bo Zheng and Bowen Yu and Chang Zhou and Chengpeng Li and Chengyuan Li and Dayiheng Liu and Fei Huang and Guanting Dong and Haoran Wei and Huan Lin and Jialong Tang and Jialin Wang and Jian Yang and Jianhong Tu and Jianwei Zhang and Jianxin Ma and Jin Xu and Jingren Zhou and Jinze Bai and Jinzheng He and Junyang Lin and Kai Dang and Keming Lu and Keqin Chen and Kexin Yang and Mei Li and Mingfeng Xue and Na Ni and Pei Zhang and Peng Wang and Ru Peng and Rui Men and Ruize Gao and Runji Lin and Shijie Wang and Shuai Bai and Sinan Tan and Tianhang Zhu and Tianhao Li and Tianyu Liu and Wenbin Ge and Xiaodong Deng and Xiaohuan Zhou and Xingzhang Ren and Xinyu Zhang and Xipin Wei and Xuancheng Ren and Yang Fan and Yang Yao and Yichang Zhang and Yu Wan and Yunfei Chu and Yuqiong Liu and Zeyu Cui and Zhenru Zhang and Zhihao Fan",
+      "title": "Qwen2 Technical Report",
+      "ENTRYTYPE": "article",
+      "ID": "qwen2"
+    },
+    {
+      "year": "2025",
+      "author": "Qwen Team",
+      "title": "Qwen3Guard Technical Report",
+      "ENTRYTYPE": "article",
+      "ID": "qwen3guard"
+    },
+    {
+      "year": "2021",
+      "journal": "arXiv preprint arXiv:2108.07732",
+      "author": "Austin, Jacob and Odena, Augustus and Nye, Maxwell and Bosma, Maarten and Michalewski, Henryk and Dohan, David and Jiang, Ellen and Cai, Carrie and Terry, Michael and Le, Quoc and others",
+      "title": "Program Synthesis with Large Language Models",
+      "ENTRYTYPE": "article",
+      "ID": "austin2021program"
+    },
+    {
+      "issn": "2958-1796",
+      "doi": "10.21437/Interspeech.2015-354",
+      "pages": "1488--1492",
+      "booktitle": "Interspeech 2015",
+      "year": "2015",
+      "author": "Nikko Strom",
+      "title": "Scalable distributed DNN training using commodity GPU cloud computing",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "strom15_interspeech"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "1966",
+      "pages": "399--401",
+      "number": "3",
+      "volume": "12",
+      "journal": "IEEE transactions on information theory",
+      "author": "Golomb, Solomon",
+      "title": "Run-length encodings (corresp.)",
+      "ENTRYTYPE": "article",
+      "ID": "golomb1966run"
+    },
+    {
+      "organization": "IEEE",
+      "year": "2019",
+      "pages": "1--8",
+      "booktitle": "2019 International Joint Conference on Neural Networks (IJCNN)",
+      "author": "Sattler, Felix and Wiedemann, Simon and M{\\\"u}ller, Klaus-Robert and Samek, Wojciech",
+      "title": "Sparse binary compression: Towards distributed deep learning with minimal communication",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "sattler2019sparse"
+    },
+    {
+      "publisher": "Wiley Online Library",
+      "year": "2003",
+      "journal": "Wiley Encyclopedia of Telecommunications",
+      "author": "Berger, Toby",
+      "title": "Rate-distortion theory",
+      "ENTRYTYPE": "article",
+      "ID": "berger2003rate"
+    },
+    {
+      "publisher": "John Wiley \\& Sons",
+      "year": "1999",
+      "author": "Cover, Thomas M",
+      "title": "Elements of information theory",
+      "ENTRYTYPE": "book",
+      "ID": "cover1999elements"
+    },
+    {
+      "url": "https://openreview.net/forum?id=7Bywt2mQsCe",
+      "year": "2021",
+      "booktitle": "Thirty-fifth Conference on Neural Information Processing Systems Datasets and Benchmarks Track (Round 2)",
+      "author": "Dan Hendrycks and Collin Burns and Saurav Kadavath and Akul Arora and Steven Basart and Eric Tang and Dawn Song and Jacob Steinhardt",
+      "title": "Measuring Mathematical Problem Solving With the {MATH} Dataset",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "hendrycks2021measuring"
+    },
+    {
+      "year": "2024",
+      "booktitle": "First Conference on Language Modeling",
+      "author": "Rein, David and Hou, Betty Li and Stickland, Asa Cooper and Petty, Jackson and Pang, Richard Yuanzhe and Dirani, Julien and Michael, Julian and Bowman, Samuel R",
+      "title": "Gpqa: A graduate-level google-proof q\\&a benchmark",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "rein2024gpqa"
+    },
+    {
+      "year": "2021",
+      "journal": "Proceedings of the International Conference on Learning Representations (ICLR)",
+      "author": "Dan Hendrycks and Collin Burns and Steven Basart and Andy Zou and Mantas Mazeika and Dawn Song and Jacob Steinhardt",
+      "title": "Measuring Massive Multitask Language Understanding",
+      "ENTRYTYPE": "article",
+      "ID": "hendryckstest2021"
+    },
+    {
+      "year": "2021",
+      "journal": "arXiv preprint arXiv:2110.08193",
+      "author": "Parrish, Alicia and Chen, Angelica and Nangia, Nikita and Padmakumar, Vishakh and Phang, Jason and Thompson, Jana and Htut, Phu Mon and Bowman, Samuel R",
+      "title": "BBQ: A hand-built bias benchmark for question answering",
+      "ENTRYTYPE": "article",
+      "ID": "parrish2021bbq"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2410.08666",
+      "author": "Jiang, Yanfeng and Yang, Zelan and Chen, Bohua and Li, Shen and Li, Yong and Li, Tao",
+      "title": "DeltaDQ: Ultra-High Delta Compression for Fine-Tuned LLMs via Group-wise Dropout and Separate Quantization",
+      "ENTRYTYPE": "article",
+      "ID": "jiang2024deltadq"
+    },
+    {
+      "year": "2024",
+      "pages": "122741--122769",
+      "volume": "37",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Huang, Chenyu and Ye, Peng and Chen, Tao and He, Tong and Yue, Xiangyu and Ouyang, Wanli",
+      "title": "Emr-merging: Tuning-free high-performance model merging",
+      "ENTRYTYPE": "article",
+      "ID": "huang2024emr"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2212.04089",
+      "author": "Ilharco, Gabriel and Ribeiro, Marco Tulio and Wortsman, Mitchell and Gururangan, Suchin and Schmidt, Ludwig and Hajishirzi, Hannaneh and Farhadi, Ali",
+      "title": "Editing models with task arithmetic",
+      "ENTRYTYPE": "article",
+      "ID": "ilharco2022editing"
+    },
+    {
+      "year": "2015",
+      "volume": "28",
+      "journal": "Advances in neural information processing systems",
+      "author": "Han, Song and Pool, Jeff and Tran, John and Dally, William",
+      "title": "Learning both weights and connections for efficient neural network",
+      "ENTRYTYPE": "article",
+      "ID": "han2015learning"
+    },
+    {
+      "year": "2020",
+      "journal": "arXiv preprint arXiv:2010.07611",
+      "author": "Lee, Jaeho and Park, Sejun and Mo, Sangwoo and Ahn, Sungsoo and Shin, Jinwoo",
+      "title": "Layer-adaptive sparsity for the magnitude-based pruning",
+      "ENTRYTYPE": "article",
+      "ID": "lee2020layer"
+    },
+    {
+      "year": "2024",
+      "pages": "78905--78935",
+      "volume": "37",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Lu, Zhenyi and Fan, Chenghao and Wei, Wei and Qu, Xiaoye and Chen, Dangyang and Cheng, Yu",
+      "title": "Twin-merging: Dynamic integration of modular expertise in model merging",
+      "ENTRYTYPE": "article",
+      "ID": "lu2024twin"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2411.16815",
+      "author": "Zheng, Shenghe and Wang, Hongzhi",
+      "title": "Free-merging: Fourier transform for model merging with lightweight experts",
+      "ENTRYTYPE": "article",
+      "ID": "zheng2024free"
+    },
+    {
+      "publisher": "MIT Press",
+      "year": "1991",
+      "pages": "79--87",
+      "number": "1",
+      "volume": "3",
+      "journal": "Neural computation",
+      "author": "Jacobs, Robert A and Jordan, Michael I and Nowlan, Steven J and Hinton, Geoffrey E",
+      "title": "Adaptive mixtures of local experts",
+      "ENTRYTYPE": "article",
+      "ID": "jacobs1991adaptive"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "2025",
+      "journal": "IEEE Transactions on Circuits and Systems for Video Technology",
+      "author": "Ye, Peng and Huang, Chenyu and Shen, Mingzhu and Chen, Tao and Huang, Yongqi and Ouyang, Wanli",
+      "title": "Dynamic model merging with mixture of weights",
+      "ENTRYTYPE": "article",
+      "ID": "ye2025dynamic"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2310.02575",
+      "author": "Yang, Enneng and Wang, Zhenyi and Shen, Li and Liu, Shiwei and Guo, Guibing and Wang, Xingwei and Tao, Dacheng",
+      "title": "Adamerging: Adaptive model merging for multi-task learning",
+      "ENTRYTYPE": "article",
+      "ID": "yang2023adamerging"
+    },
+    {
+      "year": "2023",
+      "pages": "7093--7115",
+      "volume": "36",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Yadav, Prateek and Tam, Derek and Choshen, Leshem and Raffel, Colin A and Bansal, Mohit",
+      "title": "Ties-merging: Resolving interference when merging models",
+      "ENTRYTYPE": "article",
+      "ID": "yadav2023ties"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2022",
+      "pages": "23965--23998",
+      "booktitle": "International conference on machine learning",
+      "author": "Wortsman, Mitchell and Ilharco, Gabriel and Gadre, Samir Ya and Roelofs, Rebecca and Gontijo-Lopes, Raphael and Morcos, Ari S and Namkoong, Hongseok and Farhadi, Ali and Carmon, Yair and Kornblith, Simon and others",
+      "title": "Model soups: averaging weights of multiple fine-tuned models improves accuracy without increasing inference time",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "wortsman2022model"
+    },
+    {
+      "year": "2022",
+      "pages": "17703--17716",
+      "volume": "35",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Matena, Michael S and Raffel, Colin A",
+      "title": "Merging models with fisher-weighted averaging",
+      "ENTRYTYPE": "article",
+      "ID": "matena2022merging"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2212.09849",
+      "author": "Jin, Xisen and Ren, Xiang and Preotiuc-Pietro, Daniel and Cheng, Pengxiang",
+      "title": "Dataless knowledge fusion by merging weights of language models",
+      "ENTRYTYPE": "article",
+      "ID": "jin2022dataless"
+    },
+    {
+      "organization": "PmLR",
+      "year": "2021",
+      "pages": "8748--8763",
+      "booktitle": "International conference on machine learning",
+      "author": "Radford, Alec and Kim, Jong Wook and Hallacy, Chris and Ramesh, Aditya and Goh, Gabriel and Agarwal, Sandhini and Sastry, Girish and Askell, Amanda and Mishkin, Pamela and Clark, Jack and others",
+      "title": "Learning transferable visual models from natural language supervision",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "radford2021learning"
+    },
+    {
+      "organization": "IEEE",
+      "year": "2010",
+      "pages": "3485--3492",
+      "booktitle": "2010 IEEE computer society conference on computer vision and pattern recognition",
+      "author": "Xiao, Jianxiong and Hays, James and Ehinger, Krista A and Oliva, Aude and Torralba, Antonio",
+      "title": "Sun database: Large-scale scene recognition from abbey to zoo",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "xiao2010sun"
+    },
+    {
+      "year": "2013",
+      "pages": "554--561",
+      "booktitle": "Proceedings of the IEEE international conference on computer vision workshops",
+      "author": "Krause, Jonathan and Stark, Michael and Deng, Jia and Fei-Fei, Li",
+      "title": "3d object representations for fine-grained categorization",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "krause20133d"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "2017",
+      "pages": "1865--1883",
+      "number": "10",
+      "volume": "105",
+      "journal": "Proceedings of the IEEE",
+      "author": "Cheng, Gong and Han, Junwei and Lu, Xiaoqiang",
+      "title": "Remote sensing image scene classification: Benchmark and state of the art",
+      "ENTRYTYPE": "article",
+      "ID": "cheng2017remote"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "2019",
+      "pages": "2217--2226",
+      "number": "7",
+      "volume": "12",
+      "journal": "IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing",
+      "author": "Helber, Patrick and Bischke, Benjamin and Dengel, Andreas and Borth, Damian",
+      "title": "Eurosat: A novel dataset and deep learning benchmark for land use and land cover classification",
+      "ENTRYTYPE": "article",
+      "ID": "helber2019eurosat"
+    },
+    {
+      "organization": "Granada",
+      "year": "2011",
+      "pages": "4",
+      "number": "2",
+      "volume": "2011",
+      "booktitle": "NIPS workshop on deep learning and unsupervised feature learning",
+      "author": "Netzer, Yuval and Wang, Tao and Coates, Adam and Bissacco, Alessandro and Wu, Baolin and Ng, Andrew Y and others",
+      "title": "Reading digits in natural images with unsupervised feature learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "netzer2011reading"
+    },
+    {
+      "organization": "IEEE",
+      "year": "2011",
+      "pages": "1453--1460",
+      "booktitle": "The 2011 international joint conference on neural networks",
+      "author": "Stallkamp, Johannes and Schlipsing, Marc and Salmen, Jan and Igel, Christian",
+      "title": "The German traffic sign recognition benchmark: a multi-class classification competition",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "stallkamp2011german"
+    },
+    {
+      "year": "1998",
+      "journal": "http://yann. lecun. com/exdb/mnist/",
+      "author": "LeCun, Yann",
+      "title": "The MNIST database of handwritten digits",
+      "ENTRYTYPE": "article",
+      "ID": "lecun1998mnist"
+    },
+    {
+      "year": "2014",
+      "pages": "3606--3613",
+      "booktitle": "Proceedings of the IEEE conference on computer vision and pattern recognition",
+      "author": "Cimpoi, Mircea and Maji, Subhransu and Kokkinos, Iasonas and Mohamed, Sammy and Vedaldi, Andrea",
+      "title": "Describing textures in the wild",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "cimpoi2014describing"
+    },
+    {
+      "year": "2021",
+      "journal": "arXiv preprint arXiv:2107.03374",
+      "author": "Chen, Mark and Tworek, Jerry and Jun, Heewoo and Yuan, Qiming and Pinto, Henrique Ponde De Oliveira and Kaplan, Jared and Edwards, Harri and Burda, Yuri and Joseph, Nicholas and Brockman, Greg and others",
+      "title": "Evaluating large language models trained on code",
+      "ENTRYTYPE": "article",
+      "ID": "chen2021evaluating"
+    },
+    {
+      "year": "2021",
+      "journal": "arXiv preprint arXiv:2109.07958",
+      "author": "Lin, Stephanie and Hilton, Jacob and Evans, Owain",
+      "title": "Truthfulqa: Measuring how models mimic human falsehoods",
+      "ENTRYTYPE": "article",
+      "ID": "lin2021truthfulqa"
+    },
+    {
+      "year": "2021",
+      "journal": "arXiv preprint arXiv:2110.14168",
+      "author": "Cobbe, Karl and Kosaraju, Vineet and Bavarian, Mohammad and Chen, Mark and Jun, Heewoo and Kaiser, Lukasz and Plappert, Matthias and Tworek, Jerry and Hilton, Jacob and Nakano, Reiichiro and others",
+      "title": "Training verifiers to solve math word problems",
+      "ENTRYTYPE": "article",
+      "ID": "cobbe2021training"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2306.08568",
+      "author": "Luo, Ziyang and Xu, Can and Zhao, Pu and Sun, Qingfeng and Geng, Xiubo and Hu, Wenxiang and Tao, Chongyang and Ma, Jing and Lin, Qingwei and Jiang, Daxin",
+      "title": "WizardCoder: Empowering Code Large Language Models with Evol-Instruct",
+      "ENTRYTYPE": "article",
+      "ID": "luo2023wizardcoder"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2308.09583",
+      "author": "Luo, Haipeng and Sun, Qingfeng and Xu, Can and Zhao, Pu and Lou, Jianguang and Tao, Chongyang and Geng, Xiubo and Lin, Qingwei and Chen, Shifeng and Zhang, Dongmei",
+      "title": "WizardMath: Empowering Mathematical Reasoning for Large Language Models via Reinforced Evol-Instruct",
+      "ENTRYTYPE": "article",
+      "ID": "luo2023wizardmath"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2307.09288",
+      "author": "Touvron, Hugo and Martin, Louis and Stone, Kevin and Albert, Peter and Almahairi, Amjad and Babaei, Yasmine and Bashlykov, Nikolay and Batra, Soumya and Bhargava, Prajjwal and Bhosale, Shruti and others",
+      "title": "Llama 2: Open foundation and fine-tuned chat models",
+      "ENTRYTYPE": "article",
+      "ID": "touvron2023llama"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2406.03280",
+      "author": "Tang, Anke and Shen, Li and Luo, Yong and Hu, Han and Du, Bo and Tao, Dacheng",
+      "title": "Fusionbench: A comprehensive benchmark of deep model fusion",
+      "ENTRYTYPE": "article",
+      "ID": "tang2024fusionbench"
+    },
+    {
+      "year": "2020",
+      "pages": "1--67",
+      "number": "140",
+      "volume": "21",
+      "journal": "Journal of machine learning research",
+      "author": "Raffel, Colin and Shazeer, Noam and Roberts, Adam and Lee, Katherine and Narang, Sharan and Matena, Michael and Zhou, Yanqi and Li, Wei and Liu, Peter J",
+      "title": "Exploring the limits of transfer learning with a unified text-to-text transformer",
+      "ENTRYTYPE": "article",
+      "ID": "raffel2020exploring"
+    },
+    {
+      "year": "2019",
+      "journal": "arXiv preprint arXiv:1907.11692",
+      "author": "Liu, Yinhan and Ott, Myle and Goyal, Naman and Du, Jingfei and Joshi, Mandar and Chen, Danqi and Levy, Omer and Lewis, Mike and Zettlemoyer, Luke and Stoyanov, Veselin",
+      "title": "Roberta: A robustly optimized bert pretraining approach",
+      "ENTRYTYPE": "article",
+      "ID": "liu2019roberta"
+    },
+    {
+      "year": "2018",
+      "journal": "arXiv preprint arXiv:1804.07461",
+      "author": "Wang, Alex and Singh, Amanpreet and Michael, Julian and Hill, Felix and Levy, Omer and Bowman, Samuel R",
+      "title": "GLUE: A multi-task benchmark and analysis platform for natural language understanding",
+      "ENTRYTYPE": "article",
+      "ID": "wang2018glue"
+    },
+    {
+      "publisher": "MIT Press One Rogers Street, Cambridge, MA 02142-1209, USA journals-info~…",
+      "year": "2019",
+      "pages": "625--641",
+      "volume": "7",
+      "journal": "Transactions of the Association for Computational Linguistics",
+      "author": "Warstadt, Alex and Singh, Amanpreet and Bowman, Samuel R",
+      "title": "Neural network acceptability judgments",
+      "ENTRYTYPE": "article",
+      "ID": "warstadt2019neural"
+    },
+    {
+      "year": "2013",
+      "pages": "1631--1642",
+      "booktitle": "Proceedings of the 2013 conference on empirical methods in natural language processing",
+      "author": "Socher, Richard and Perelygin, Alex and Wu, Jean and Chuang, Jason and Manning, Christopher D and Ng, Andrew Y and Potts, Christopher",
+      "title": "Recursive deep models for semantic compositionality over a sentiment treebank",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "socher2013recursive"
+    },
+    {
+      "year": "2005",
+      "booktitle": "Third international workshop on paraphrasing (IWP2005)",
+      "author": "Dolan, Bill and Brockett, Chris",
+      "title": "Automatically constructing a corpus of sentential paraphrases",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "dolan2005automatically"
+    },
+    {
+      "year": "2017",
+      "journal": "arXiv preprint arXiv:1708.00055",
+      "author": "Cer, Daniel and Diab, Mona and Agirre, Eneko and Lopez-Gazpio, Inigo and Specia, Lucia",
+      "title": "Semeval-2017 task 1: Semantic textual similarity-multilingual and cross-lingual focused evaluation",
+      "ENTRYTYPE": "article",
+      "ID": "cer2017semeval"
+    },
+    {
+      "year": "2017",
+      "author": "Iyer, Shankar and Dandekar, Nikhil and Csernai, Korn{\\'e}l and others",
+      "title": "First quora dataset release: Question pairs. data. quora. com",
+      "ENTRYTYPE": "article",
+      "ID": "iyer2017first"
+    },
+    {
+      "year": "2017",
+      "journal": "arXiv preprint arXiv:1704.05426",
+      "author": "Williams, Adina and Nangia, Nikita and Bowman, Samuel R",
+      "title": "A broad-coverage challenge corpus for sentence understanding through inference",
+      "ENTRYTYPE": "article",
+      "ID": "williams2017broad"
+    },
+    {
+      "year": "2016",
+      "journal": "arXiv preprint arXiv:1606.05250",
+      "author": "Rajpurkar, Pranav and Zhang, Jian and Lopyrev, Konstantin and Liang, Percy",
+      "title": "Squad: 100,000+ questions for machine comprehension of text",
+      "ENTRYTYPE": "article",
+      "ID": "rajpurkar2016squad"
+    },
+    {
+      "year": "2007",
+      "pages": "1--9",
+      "booktitle": "Proceedings of the ACL-PASCAL workshop on textual entailment and paraphrasing",
+      "author": "Giampiccolo, Danilo and Magnini, Bernardo and Dagan, Ido and Dolan, William B",
+      "title": "The third pascal recognizing textual entailment challenge",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "giampiccolo2007third"
+    },
+    {
+      "year": "2017",
+      "pages": "6904--6913",
+      "booktitle": "Proceedings of the IEEE conference on computer vision and pattern recognition",
+      "author": "Goyal, Yash and Khot, Tejas and Summers-Stay, Douglas and Batra, Dhruv and Parikh, Devi",
+      "title": "Making the v in vqa matter: Elevating the role of image understanding in visual question answering",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "goyal2017making"
+    },
+    {
+      "year": "2018",
+      "journal": "arXiv preprint arXiv:1811.00491",
+      "author": "Suhr, Alane and Zhou, Stephanie and Zhang, Ally and Zhang, Iris and Bai, Huajun and Artzi, Yoav",
+      "title": "A corpus for reasoning about natural language grounded in photographs",
+      "ENTRYTYPE": "article",
+      "ID": "suhr2018corpus"
+    },
+    {
+      "organization": "Springer",
+      "year": "2014",
+      "pages": "740--755",
+      "booktitle": "Computer Vision--ECCV 2014: 13th European Conference, Zurich, Switzerland, September 6-12, 2014, Proceedings, Part V 13",
+      "author": "Lin, Tsung-Yi and Maire, Michael and Belongie, Serge and Hays, James and Perona, Pietro and Ramanan, Deva and Doll{\\'a}r, Piotr and Zitnick, C Lawrence",
+      "title": "Microsoft coco: Common objects in context",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "lin2014microsoft"
+    },
+    {
+      "year": "2002",
+      "pages": "311--318",
+      "booktitle": "Proceedings of the 40th annual meeting of the Association for Computational Linguistics",
+      "author": "Papineni, Kishore and Roukos, Salim and Ward, Todd and Zhu, Wei-Jing",
+      "title": "Bleu: a method for automatic evaluation of machine translation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "papineni2002bleu"
+    },
+    {
+      "year": "2015",
+      "pages": "4566--4575",
+      "booktitle": "Proceedings of the IEEE conference on computer vision and pattern recognition",
+      "author": "Vedantam, Ramakrishna and Lawrence Zitnick, C and Parikh, Devi",
+      "title": "Cider: Consensus-based image description evaluation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "vedantam2015cider"
+    },
+    {
+      "year": "2005",
+      "pages": "65--72",
+      "booktitle": "Proceedings of the acl workshop on intrinsic and extrinsic evaluation measures for machine translation and/or summarization",
+      "author": "Banerjee, Satanjeev and Lavie, Alon",
+      "title": "METEOR: An automatic metric for MT evaluation with improved correlation with human judgments",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "banerjee2005meteor"
+    },
+    {
+      "year": "2004",
+      "pages": "74--81",
+      "booktitle": "Text summarization branches out",
+      "author": "Lin, Chin-Yew",
+      "title": "Rouge: A package for automatic evaluation of summaries",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "lin2004rouge"
+    },
+    {
+      "year": "2023",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Wenhui Wang and Hangbo Bao and Li Dong and Johan Bjorck and Zhiliang Peng and Qiang Liu and Kriti Aggarwal and Owais Khan Mohammed and Saksham Singhal and Subhojit Som and Furu Wei",
+      "title": "Image as a foreign language: {BEiT} pretraining for vision and vision-language tasks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "beit3"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2412.00054",
+      "author": "Qi, Biqing and Li, Fangyuan and Wang, Zhen and Gao, Junqi and Li, Dong and Ye, Peng and Zhou, Bowen",
+      "title": "Less is More: Efficient Model Merging with Binary Task Switch",
+      "ENTRYTYPE": "article",
+      "ID": "qi2024less"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2210.17323",
+      "author": "Frantar, Elias and Ashkboos, Saleh and Hoefler, Torsten and Alistarh, Dan",
+      "title": "Gptq: Accurate post-training quantization for generative pre-trained transformers",
+      "ENTRYTYPE": "article",
+      "ID": "frantar2022gptq"
+    },
+    {
+      "year": "2024",
+      "pages": "19489--19498",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Lin, Sihao and Lyu, Pumeng and Liu, Dongrui and Tang, Tao and Liang, Xiaodan and Song, Andy and Chang, Xiaojun",
+      "title": "Mlp can be a good transformer learner",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "lin2024mlp"
+    },
+    {
+      "year": "2023",
+      "booktitle": "Workshop on Efficient Systems for Foundation Models@ ICML2023",
+      "author": "Isik, Berivan and Kumbong, Hermann and Ning, Wanyi and Yao, Xiaozhe and Koyejo, Sanmi and Zhang, Ce",
+      "title": "Gpt-zip: Deep compression of finetuned large language models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "isik2023gpt"
+    },
+    {
+      "year": "2025",
+      "pages": "110--127",
+      "booktitle": "Proceedings of the Twentieth European Conference on Computer Systems",
+      "author": "Yao, Xiaozhe and Hu, Qinghao and Klimovic, Ana",
+      "title": "DeltaZip: Efficient Serving of Multiple Full-Model-Tuned LLMs",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "yao2025deltazip"
+    },
+    {
+      "url": "https://zenodo.org/records/12608602",
+      "doi": "10.5281/zenodo.12608602",
+      "version": "v0.4.3",
+      "publisher": "Zenodo",
+      "year": "2024",
+      "month": "07",
+      "title": "The Language Model Evaluation Harness",
+      "author": "Gao, Leo and Tow, Jonathan and Abbasi, Baber and Biderman, Stella and Black, Sid and DiPofi, Anthony and Foster, Charles and Golding, Laurence and Hsu, Jeffrey and Le Noac'h, Alain and Li, Haonan and McDonell, Kyle and Muennighoff, Niklas and Ociepa, Chris and Phang, Jason and Reynolds, Laria and Schoelkopf, Hailey and Skowron, Aviya and Sutawika, Lintang and Tang, Eric and Thite, Anish and Wang, Ben and Wang, Kevin and Zou, Andy",
+      "ENTRYTYPE": "misc",
+      "ID": "eval-harness"
+    },
+    {
+      "url": "https://openreview.net/forum?id=1qvx610Cu7",
+      "year": "2023",
+      "booktitle": "Thirty-seventh Conference on Neural Information Processing Systems",
+      "author": "Liu, Jiawei and Xia, Chunqiu Steven and Wang, Yuyao and Zhang, Lingming",
+      "title": "Is Your Code Generated by Chat{GPT} Really Correct? Rigorous Evaluation of Large Language Models for Code Generation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "evalplus"
+    },
+    {
+      "year": "2015",
+      "journal": "arXiv preprint arXiv:1510.00149",
+      "author": "Han, Song and Mao, Huizi and Dally, William J",
+      "title": "Deep compression: Compressing deep neural networks with pruning, trained quantization and huffman coding",
+      "ENTRYTYPE": "article",
+      "ID": "han2015deep"
+    },
+    {
+      "year": "2018",
+      "pages": "2383--2389",
+      "volume": "330",
+      "booktitle": "IJCAI",
+      "author": "Li, Guiying and Qian, Chao and Jiang, Chunhui and Lu, Xiaofen and Tang, Ke",
+      "title": "Optimization based Layer-wise Magnitude-based Pruning for DNN Compression.",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "li2018optimization"
+    },
+    {
+      "year": "2019",
+      "journal": "Available on https://www. kaggle. com/puneet6060/intel-image-classification, Online",
+      "author": "Bansal, Puneet",
+      "title": "Intel image classification",
+      "ENTRYTYPE": "article",
+      "ID": "bansal2019intel"
+    },
+    {
+      "address": "Colorado Springs, CO",
+      "month": "June",
+      "year": "2011",
+      "booktitle": "First Workshop on Fine-Grained Visual Categorization, IEEE Conference on Computer Vision and Pattern Recognition",
+      "title": "Novel Dataset for Fine-Grained Image Categorization",
+      "author": "Aditya Khosla and Nityananda Jayadevaprakash and Bangpeng Yao and Li Fei-Fei",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "KhoslaYaoJayadevaprakashFeiFei_FGVC2011"
+    },
+    {
+      "year": "2017",
+      "journal": "arXiv preprint arXiv:1708.07747",
+      "author": "Xiao, Han and Rasul, Kashif and Vollgraf, Roland",
+      "title": "Fashion-mnist: a novel image dataset for benchmarking machine learning algorithms",
+      "ENTRYTYPE": "article",
+      "ID": "xiao2017fashion"
+    },
+    {
+      "journal": "URL https://kaggle. com/competitions/dogs-vs-cats",
+      "author": "Cukierski, Will",
+      "title": "Dogs vs. cats, 2013",
+      "ENTRYTYPE": "article",
+      "ID": "cukierskidogs"
+    },
+    {
+      "howpublished": "\\url{https://www.kaggle.com/datasets/utkarshsaxenadn/landscape-recognition-image-dataset-12k-images}",
+      "publisher": "Kaggle",
+      "title": "Landscape Recognition",
+      "author": "DeepNets",
+      "ENTRYTYPE": "misc",
+      "ID": "Landscape"
+    },
+    {
+      "howpublished": "\\url{https://www.kaggle.com/datasets/alxmamaev/flowers-recognition}",
+      "publisher": "Kaggle",
+      "title": "Flowers Recognition",
+      "author": "Alexander Mamaev",
+      "ENTRYTYPE": "misc",
+      "ID": "Flowers"
+    },
+    {
+      "publisher": "California Institute of Technology",
+      "year": "2011",
+      "author": "Wah, Catherine and Branson, Steve and Welinder, Peter and Perona, Pietro and Belongie, Serge",
+      "title": "The caltech-ucsd birds-200-2011 dataset",
+      "ENTRYTYPE": "article",
+      "ID": "wah2011caltech"
+    },
+    {
+      "organization": "JMLR Workshop and Conference Proceedings",
+      "year": "2011",
+      "pages": "215--223",
+      "booktitle": "Proceedings of the fourteenth international conference on artificial intelligence and statistics",
+      "author": "Coates, Adam and Ng, Andrew and Lee, Honglak",
+      "title": "An analysis of single-layer networks in unsupervised feature learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "coates2011analysis"
+    },
+    {
+      "organization": "IEEE",
+      "year": "2017",
+      "pages": "2921--2926",
+      "booktitle": "2017 international joint conference on neural networks (IJCNN)",
+      "author": "Cohen, Gregory and Afshar, Saeed and Tapson, Jonathan and Van Schaik, Andre",
+      "title": "EMNIST: Extending MNIST to handwritten letters",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "cohen2017emnist"
+    },
+    {
+      "publisher": "Toronto, ON, Canada",
+      "year": "2009",
+      "author": "Krizhevsky, Alex and Hinton, Geoffrey and others",
+      "title": "Learning multiple layers of features from tiny images",
+      "ENTRYTYPE": "article",
+      "ID": "krizhevsky2009learning"
+    },
+    {
+      "organization": "IEEE",
+      "year": "2021",
+      "pages": "235--243",
+      "booktitle": "2021 5th International Conference on Computer, Communication and Signal Processing (ICCCSP)",
+      "author": "Ahmed, M Israk and Mamun, Shahriyar Mahmud and Asif, Asif Uz Zaman",
+      "title": "Dcnn-based vegetable image classification using transfer learning: A comparative study",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ahmed2021dcnn"
+    },
+    {
+      "year": "2014",
+      "booktitle": "European Conference on Computer Vision",
+      "author": "Bossard, Lukas and Guillaumin, Matthieu and Van Gool, Luc",
+      "title": "Food-101 -- Mining Discriminative Components with Random Forests",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "bossard14"
+    },
+    {
+      "year": "2017",
+      "pages": "164--169",
+      "booktitle": "Proceedings of the 8th ACM on Multimedia Systems Conference",
+      "author": "Pogorelov, Konstantin and Randel, Kristin Ranheim and Griwodz, Carsten and Eskeland, Sigrun Losada and de Lange, Thomas and Johansen, Dag and Spampinato, Concetto and Dang-Nguyen, Duc-Tien and Lux, Mathias and Schmidt, Peter Thelin and others",
+      "title": "Kvasir: A multi-class image dataset for computer aided gastrointestinal disease detection",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "pogorelov2017kvasir"
+    },
+    {
+      "publisher": "Wiley Online Library",
+      "year": "2021",
+      "pages": "e2020EA001604",
+      "number": "5",
+      "volume": "8",
+      "journal": "Earth and Space Science",
+      "author": "Xiao, Haixia and Zhang, Feng and Shen, Zhongping and Wu, Kun and Zhang, Jinglin",
+      "title": "Classification of weather phenomenon from images by using deep convolutional neural network",
+      "ENTRYTYPE": "article",
+      "ID": "xiao2021classification"
+    },
+    {
+      "organization": "IEEE",
+      "year": "2012",
+      "pages": "3498--3505",
+      "booktitle": "2012 IEEE conference on computer vision and pattern recognition",
+      "author": "Parkhi, Omkar M and Vedaldi, Andrea and Zisserman, Andrew and Jawahar, CV",
+      "title": "Cats and dogs",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "parkhi2012cats"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "2023",
+      "pages": "108941",
+      "volume": "47",
+      "journal": "Data in Brief",
+      "author": "Ahmed, Sarder Iftekhar and Ibrahim, Muhammad and Nadim, Md and Rahman, Md Mizanur and Shejunti, Maria Mehjabin and Jabid, Taskeed and Ali, Md Sawkat",
+      "title": "MangoLeafBD: A comprehensive image dataset to classify diseased and healthy mango leaves",
+      "ENTRYTYPE": "article",
+      "ID": "ahmed2023mangoleafbd"
+    },
+    {
+      "year": "2011",
+      "booktitle": "Proceedings of the NIPS Workshop on Deep Learning and Unsupervised Feature Learning",
+      "author": "Yuval, Netzer",
+      "title": "Reading digits in natural images with unsupervised feature learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "yuval2011reading"
+    },
+    {
+      "url": "https://github.com/AI-Lab-Makerere/ibean/",
+      "year": "2020",
+      "month": "January",
+      "title": "Bean disease dataset",
+      "author": "Makerere AI Lab",
+      "ENTRYTYPE": "misc",
+      "ID": "beansdata"
+    },
+    {
+      "year": "2018",
+      "author": "CCHANG",
+      "publisher": "Kaggle",
+      "doi": "10.34740/KAGGLE/DS/81794",
+      "howpublished": "\\url{https://www.kaggle.com/ds/81794}",
+      "title": "Garbage Classification",
+      "ENTRYTYPE": "misc",
+      "ID": "cchang_2018"
+    },
+    {
+      "year": "2018",
+      "pages": "26--42",
+      "number": "1",
+      "volume": "10",
+      "journal": "Acta Universitatis Sapientiae, Informatica",
+      "author": "Muresan, Horea and Oltean, Mihai",
+      "title": "Fruit recognition from images using deep learning",
+      "ENTRYTYPE": "article",
+      "ID": "muresan2018fruit"
+    },
+    {
+      "year": "2019",
+      "pages": "50--59",
+      "booktitle": "Proceedings of the 5th International Workshop on Multimedia Assisted Dietary Management",
+      "author": "Jalal, Mona and Wang, Kaihong and Jefferson, Sankara and Zheng, Yi and Nsoesie, Elaine O and Betke, Margrit",
+      "title": "Scraping social media photos posted in Kenya and elsewhere to detect and analyze food types",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "jalal2019scraping"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2019",
+      "pages": "5907--5915",
+      "booktitle": "International conference on machine learning",
+      "author": "Song, Hwanjun and Kim, Minseok and Lee, Jae-Gil",
+      "title": "Selfie: Refurbishing unclean samples for robust deep learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "song2019selfie"
+    },
+    {
+      "publisher": "Springer",
+      "year": "1997",
+      "pages": "41--75",
+      "volume": "28",
+      "journal": "Machine learning",
+      "author": "Caruana, Rich",
+      "title": "Multitask learning",
+      "ENTRYTYPE": "article",
+      "ID": "caruana1997multitask"
+    }
+  ]
+}

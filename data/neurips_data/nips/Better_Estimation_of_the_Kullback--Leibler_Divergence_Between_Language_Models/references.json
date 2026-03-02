@@ -1,0 +1,455 @@
+{
+  "pdf_url": "https://arxiv.org/pdf/2504.10637v3.pdf",
+  "references": [
+    {
+      "year": "1951",
+      "title": "On Information and Sufficiency",
+      "journal": "The Annals of Mathematical Statistics",
+      "author": "S. Kullback and R. A. Leibler",
+      "url": "http://www.jstor.org/stable/2236703",
+      "ENTRYTYPE": "article",
+      "ID": "kldiv"
+    },
+    {
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2018/file/dead35fa1512ad67301d09326177c42f-Paper.pdf",
+      "year": "2018",
+      "booktitle": "Advances in Neural Information Processing Systems",
+      "author": "Geffner, Tomas and Domke, Justin",
+      "title": "Using Large Ensembles of Control Variates for\nVariational Inference",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "geffner2018using"
+    },
+    {
+      "url": "https://aclanthology.org/2024.findings-emnlp.479/",
+      "year": "2024",
+      "booktitle": "Findings of the Association for Computational Linguistics: EMNLP 2024",
+      "author": "Stoehr, Niklas  and\nDu, Kevin  and\nSn{\\ae}bjarnarson, V{\\'e}steinn  and\nWest, Robert  and\nCotterell, Ryan  and\nSchein, Aaron",
+      "title": "Activation Scaling for Steering and Interpreting Language Models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "stoehr-etal-2024-activation"
+    },
+    {
+      "urldate": "2020-03-07",
+      "note": "\\url{http://joschu.net/blog/kl-approx.html}",
+      "url": "http://joschu.net/blog/kl-approx.html",
+      "year": "2020",
+      "title": "Approximating {KL} Divergence",
+      "author": "John Schulman",
+      "ENTRYTYPE": "misc",
+      "ID": "klblog"
+    },
+    {
+      "year": "2017",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2017/file/d5e2c0adad503c91f91df240d0cd4e49-Paper.pdf",
+      "title": "Deep Reinforcement Learning from Human Preferences",
+      "booktitle": "Advances in Neural Information Processing Systems",
+      "author": "Christiano, Paul F. and Leike, Jan and Brown, Tom and Martic, Miljan and Legg, Shane and Amodei, Dario",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "rlhf"
+    },
+    {
+      "year": "2022",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2022/file/b1efde53be364a73914f58805a001731-Paper-Conference.pdf",
+      "title": "Training Language Models to Follow Instructions with Human Feedback",
+      "booktitle": "Advances in Neural Information Processing Systems",
+      "author": "Ouyang, Long and Wu, Jeffrey and Jiang, Xu and Almeida, Diogo and Wainwright, Carroll and Mishkin, Pamela and Zhang, Chong and Agarwal, Sandhini and Slama, Katarina and Ray, Alex and Schulman, John and Hilton, Jacob and Kelton, Fraser and Miller, Luke and Simens, Maddie and Askell, Amanda and Welinder, Peter and Christiano, Paul F. and Leike, Jan and Lowe, Ryan",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "instructgpt"
+    },
+    {
+      "year": "1945",
+      "pages": "81--91",
+      "volume": "37",
+      "journal": "Bulletin of the Calcutta Mathematical Society",
+      "title": "Information and the accuracy attainable in the estimation of statistical parameters",
+      "author": "Rao, C. R.",
+      "ENTRYTYPE": "article",
+      "ID": "rao1945information"
+    },
+    {
+      "doi": "10.1214/aoms/1177730491",
+      "publisher": "Institute of Mathematical Statistics",
+      "year": "1947",
+      "pages": "105--110",
+      "number": "1",
+      "volume": "18",
+      "journal": "The Annals of Mathematical Statistics",
+      "title": "Conditional expectation and unbiased sequential estimation",
+      "author": "Blackwell, David",
+      "ENTRYTYPE": "article",
+      "ID": "blackwell1947conditional"
+    },
+    {
+      "year": "2020",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2020/file/1f89885d556929e98d3ef9b86448f951-Paper.pdf",
+      "title": "Learning to summarize with human feedback",
+      "booktitle": "Advances in Neural Information Processing Systems",
+      "author": "Stiennon, Nisan and Ouyang, Long and Wu, Jeffrey and Ziegler, Daniel and Lowe, Ryan and Voss, Chelsea and Radford, Alec and Amodei, Dario and Christiano, Paul F.",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "summarizehf"
+    },
+    {
+      "year": "2002",
+      "url": "https://books.google.ch/books?id=DApvQgAACAAJ",
+      "author": "Ross, Sheldon M.",
+      "title": "Simulation",
+      "ENTRYTYPE": "book",
+      "ID": "sheldon2002simulation"
+    },
+    {
+      "year": "1998",
+      "url": "https://link.springer.com/book/10.1007/b98854",
+      "author": "Lehmann, E. L. and Casella, George",
+      "title": "Theory of Point Estimation",
+      "ENTRYTYPE": "book",
+      "ID": "lehmanncasella"
+    },
+    {
+      "year": "2004",
+      "url": "https://doi.org/10.1007/978-1-4757-4145-2",
+      "author": "Robert, Christian P. and Casella, George",
+      "title": "Monte Carlo Statistical Methods",
+      "ENTRYTYPE": "book",
+      "ID": "mcbook"
+    },
+    {
+      "year": "1952",
+      "title": "A Generalization of Sampling Without Replacement From a Finite Universe",
+      "journal": "Journal of the American Statistical Association",
+      "author": "D. G. Horvitz and D. J. Thompson",
+      "url": "http://www.jstor.org/stable/2280784",
+      "ENTRYTYPE": "article",
+      "ID": "horvitz-thompson-estimator"
+    },
+    {
+      "year": "1990",
+      "volume": "85",
+      "urldate": "2025-01-20",
+      "title": "Sampling-Based Approaches to Calculating Marginal Densities",
+      "publisher": "[American Statistical Association, Taylor & Francis, Ltd.]",
+      "pages": "398--409",
+      "number": "410",
+      "journal": "Journal of the American Statistical Association",
+      "author": "Alan E. Gelfand and Adrian F. M. Smith",
+      "url": "http://www.jstor.org/stable/2289776",
+      "issn": "01621459, 1537274X",
+      "ENTRYTYPE": "article",
+      "ID": "gelfandsmith"
+    },
+    {
+      "year": "1996",
+      "title": "{R}ao--{B}lackwellisation of Sampling Schemes",
+      "journal": "Biometrika",
+      "author": "George Casella and Christian P. Robert",
+      "url": "http://www.jstor.org/stable/2337434",
+      "ENTRYTYPE": "article",
+      "ID": "casellarobert"
+    },
+    {
+      "author": "L. M. Bregman",
+      "url": "https://www.sciencedirect.com/science/article/pii/0041555367900407",
+      "year": "1967",
+      "journal": "USSR Computational Mathematics and Mathematical Physics",
+      "title": "The relaxation method of finding the common point of convex sets and its application to the solution of problems in convex programming",
+      "ENTRYTYPE": "article",
+      "ID": "bregman"
+    },
+    {
+      "eprint": "https://direct.mit.edu/tacl/article-pdf/doi/10.1162/tacl\\_a\\_00536/2067865/tacl\\_a\\_00536.pdf",
+      "url": "https://doi.org/10.1162/tacl\\_a\\_00536",
+      "doi": "10.1162/tacl_a_00536",
+      "issn": "2307-387X",
+      "month": "01",
+      "year": "2023",
+      "pages": "102-121",
+      "volume": "11",
+      "journal": "Transactions of the Association for Computational Linguistics",
+      "title": "Locally Typical Sampling",
+      "author": "Meister, Clara and Pimentel, Tiago and Wiher, Gian and Cotterell, Ryan",
+      "ENTRYTYPE": "article",
+      "ID": "typicalsampling"
+    },
+    {
+      "url": "https://doi.org/10.1007/BF02018661",
+      "year": "1967",
+      "journal": "Studia Scientiarum Mathematicarum Hungarica",
+      "author": "Csisz{\\'a}r, Imre",
+      "title": "On information-type measure of difference of probability distributions and indirect observations",
+      "ENTRYTYPE": "article",
+      "ID": "csiszar1967information"
+    },
+    {
+      "year": "2002",
+      "title": "On Choosing and Bounding Probability Metrics",
+      "journal": "International Statistical Review / Revue Internationale de Statistique",
+      "author": "Alison L. Gibbs and Francis Edward Su",
+      "url": "http://www.jstor.org/stable/1403865",
+      "ENTRYTYPE": "article",
+      "ID": "gibbs"
+    },
+    {
+      "url": "https://aclanthology.org/2023.emnlp-main.530",
+      "year": "2023",
+      "booktitle": "Proceedings of the Conference on Empirical Methods in Natural Language Processing",
+      "author": "Havrilla, Alexander  and\nZhuravinskyi, Maksym  and\nPhung, Duy  and\nTiwari, Aman  and\nTow, Jonathan  and\nBiderman, Stella  and\nAnthony, Quentin  and\nCastricato, Louis",
+      "title": "trl{X}: A Framework for Large Scale Reinforcement Learning from Human Feedback",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "trlx"
+    },
+    {
+      "howpublished": "\\url{https://github.com/huggingface/trl}",
+      "journal": "GitHub repository",
+      "publisher": "GitHub",
+      "year": "2020",
+      "title": "TRL: Transformer Reinforcement Learning",
+      "author": "Leandro von Werra and Younes Belkada and Lewis Tunstall and Edward Beeching and Tristan Thrush and Nathan Lambert and Shengyi Huang and Kashif Rasul and Quentin Gallouédec",
+      "ENTRYTYPE": "misc",
+      "ID": "trl"
+    },
+    {
+      "url": "https://d4mucfpksywv.cloudfront.net/better-language-models/language_models_are_unsupervised_multitask_learners.pdf",
+      "year": "2019",
+      "author": "Radford, Alec and Wu, Jeff and Child, Rewon and Luan, David and Amodei, Dario and Sutskever, Ilya",
+      "title": "Language Models are Unsupervised Multitask Learners",
+      "ENTRYTYPE": "misc",
+      "ID": "radford2019language"
+    },
+    {
+      "url": "https://aclanthology.org/2024.naacl-long.381/",
+      "year": "2024",
+      "booktitle": "Proceedings of the Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers)",
+      "author": "Svete, Anej  and\nCotterell, Ryan",
+      "title": "Transformers Can Represent $n$-gram Language Models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "svete-cotterell-2024-transformers"
+    },
+    {
+      "institution": "Meta",
+      "primaryclass": "cs.CL",
+      "archiveprefix": "arXiv",
+      "eprint": "2307.09288",
+      "url": "https://ai.meta.com/research/publications/llama-2-open-foundation-and-fine-tuned-chat-models/",
+      "year": "2023",
+      "author": "Meta",
+      "title": "{Llama} 2: Open Foundation and Fine-Tuned Chat Models",
+      "ENTRYTYPE": "techreport",
+      "ID": "llama2"
+    },
+    {
+      "year": "2017",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf",
+      "title": "Attention is All you Need",
+      "booktitle": "Advances in Neural Information Processing Systems",
+      "author": "Vaswani, Ashish and Shazeer, Noam and Parmar, Niki and Uszkoreit, Jakob and Jones, Llion and Gomez, Aidan N and Kaiser, {\\L}ukasz and Polosukhin, Illia",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "NIPS2017_3f5ee243"
+    },
+    {
+      "url": "https://aclanthology.org/P11-1015",
+      "year": "2011",
+      "booktitle": "Proceedings of the Annual Meeting of the Association for Computational Linguistics: Human Language Technologies",
+      "author": "Maas, Andrew L.  and\nDaly, Raymond E.  and\nPham, Peter T.  and\nHuang, Dan  and\nNg, Andrew Y.  and\nPotts, Christopher",
+      "title": "Learning Word Vectors for Sentiment Analysis",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "imdb"
+    },
+    {
+      "url": "https://arxiv.org/pdf/2305.18290.pdf",
+      "booktitle": "Advances in Neural Information Processing Systems",
+      "year": "2023",
+      "author": "Rafael Rafailov and Archit Sharma and Eric Mitchell and Stefano Ermon and Christopher D. Manning and Chelsea Finn",
+      "title": "Direct Preference Optimization: Your Language Model is Secretly a Reward Model",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "dpo"
+    },
+    {
+      "url": "https://openreview.net/forum?id=3zKtaqxLhW",
+      "year": "2024",
+      "booktitle": "The International Conference on Learning Representations",
+      "author": "Rishabh Agarwal and Nino Vieillard and Yongchao Zhou and Piotr Stanczyk and Sabela Ramos Garea and Matthieu Geist and Olivier Bachem",
+      "title": "On-Policy Distillation of Language Models: Learning from Self-Generated Mistakes",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "agarwal2024onpolicy"
+    },
+    {
+      "url": "https://proceedings.mlr.press/v139/chung21a.html",
+      "year": "2021",
+      "booktitle": "Proceedings of the International Conference on Machine Learning",
+      "author": "Chung, Wesley and Thomas, Valentin and Machado, Marlos C. and Roux, Nicolas Le",
+      "title": "Beyond Variance Reduction: Understanding the True Impact of Baselines on Policy Optimization",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "pmlr-v139-chung21a"
+    },
+    {
+      "url": "https://aclanthology.org/2024.acl-long.714/",
+      "year": "2024",
+      "booktitle": "Proceedings of the Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+      "author": "Du, Kevin  and\nSn{\\ae}bjarnarson, V{\\'e}steinn  and\nStoehr, Niklas  and\nWhite, Jennifer  and\nSchein, Aaron  and\nCotterell, Ryan",
+      "title": "Context versus Prior Knowledge in Language Models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "du-etal-2024-context"
+    },
+    {
+      "url": "https://aclanthology.org/2024.acl-long.807/",
+      "year": "2024",
+      "booktitle": "Proceedings of the Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+      "author": "Borenstein, Nadav  and\nSvete, Anej  and\nChan, Robin  and\nValvoda, Josef  and\nNowak, Franz  and\nAugenstein, Isabelle  and\nChodroff, Eleanor  and\nCotterell, Ryan",
+      "title": "What Languages are Easy to Language-Model? A Perspective from Learning Probabilistic Regular Languages",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "borenstein-etal-2024-languages"
+    },
+    {
+      "url": "https://arxiv.org/abs/2306.06264",
+      "journal": "Computing Research Repository",
+      "volume": "arXiv:2306.06264",
+      "year": "2023",
+      "author": "Pouya Pezeshkpour",
+      "title": "Measuring and Modifying Factual Knowledge in Large Language Models",
+      "ENTRYTYPE": "article",
+      "ID": "pezeshkpour2023"
+    },
+    {
+      "url": "https://arxiv.org/abs/1707.06347",
+      "journal": "Computing Research Repository",
+      "volume": "arXiv:1707.06347",
+      "year": "2017",
+      "author": "John Schulman and Filip Wolski and Prafulla Dhariwal and Alec Radford and Oleg Klimov",
+      "title": "Proximal Policy Optimization Algorithms",
+      "ENTRYTYPE": "article",
+      "ID": "ppo"
+    },
+    {
+      "url": "https://doi.org/10.1007/BF00992696",
+      "year": "1992",
+      "journal": "Machine Learning",
+      "author": "Williams, R. J.",
+      "title": "Simple statistical gradient-following algorithms for connectionist reinforcement learning",
+      "ENTRYTYPE": "article",
+      "ID": "williams1992simple"
+    },
+    {
+      "url": "https://aclanthology.org/D09-1005/",
+      "year": "2009",
+      "booktitle": "Proceedings of the Conference on Empirical Methods in Natural Language Processing",
+      "author": "Li, Zhifei  and\nEisner, Jason",
+      "title": "First- and Second-Order Expectation Semirings with Applications to Minimum-Risk Training on Translation Forests",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "li-eisner-2009-first"
+    },
+    {
+      "author": "Daniel J. Lehmann",
+      "url": "https://www.sciencedirect.com/science/article/pii/0304397577900561",
+      "doi": "https://doi.org/10.1016/0304-3975(77)90056-1",
+      "year": "1977",
+      "journal": "Theoretical Computer Science",
+      "title": "Algebraic structures for transitive closure",
+      "ENTRYTYPE": "article",
+      "ID": "lehmann"
+    },
+    {
+      "url": "https://aclanthology.org/2024.naacl-long.382/",
+      "year": "2024",
+      "booktitle": "Proceedings of the Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers)",
+      "author": "Malagutti, Luca  and\nBuinovskij, Andrius  and\nSvete, Anej  and\nMeister, Clara  and\nAmini, Afra  and\nCotterell, Ryan",
+      "title": "The Role of $n$-gram Smoothing in the Age of Neural Networks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "malagutti-etal-2024-role"
+    },
+    {
+      "url": "https://aclanthology.org/2024.findings-acl.659/",
+      "year": "2024",
+      "booktitle": "Findings of the Association for Computational Linguistics: ACL 2024",
+      "author": "Du, Li  and\nLee, Holden  and\nEisner, Jason  and\nCotterell, Ryan",
+      "title": "When is a Language Process a Language Model?",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "du-etal-2024-language"
+    },
+    {
+      "url": "https://aclanthology.org/2024.emnlp-main.550/",
+      "year": "2024",
+      "booktitle": "Proceedings of the Conference on Empirical Methods in Natural Language Processing",
+      "editor": "Al-Onaizan, Yaser  and\nBansal, Mohit  and\nChen, Yun-Nung",
+      "author": "Svete, Anej  and\nBorenstein, Nadav  and\nZhou, Mike  and\nAugenstein, Isabelle  and\nCotterell, Ryan",
+      "title": "Can Transformers Learn $n$-gram Language Models?",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "svete-etal-2024-transformers"
+    },
+    {
+      "year": "2024",
+      "url": "https://arxiv.org/pdf/2405.11143",
+      "journal": "Computing Research Repository",
+      "author": "Jian Hu and Xibin Wu and Zilin Zhu and Xianyu and Weixun Wang and Dehao Zhang and Yu Cao",
+      "title": "Open{RLHF}: An Easy-to-use, Scalable and High-performance {RLHF} Framework",
+      "ENTRYTYPE": "article",
+      "ID": "hu2024openrlhf"
+    },
+    {
+      "volume": "arXiv:2409.19256",
+      "url": "https://arxiv.org/pdf/2409.19256",
+      "journal": "Computing Research Repository",
+      "year": "2024",
+      "author": "Guangming Sheng and Chi Zhang and Zilingfeng Ye and Xibin Wu and Wang Zhang and Ru Zhang and Yanghua Peng and Haibin Lin and Chuan Wu",
+      "title": "{HybridFlow}: A Flexible and Efficient {RLHF} Framework",
+      "ENTRYTYPE": "article",
+      "ID": "sheng2024hybridflow"
+    },
+    {
+      "url": "https://arxiv.org/pdf/2310.06825",
+      "volume": "arXiv:2310.06825",
+      "journal": "Computing Research Repository",
+      "year": "2023",
+      "author": "Albert Q. Jiang and Alexandre Sablayrolles and Arthur Mensch and Chris Bamford and Devendra Singh Chaplot and Diego de las Casas and Florian Bressand and Gianna Lengyel and Guillaume Lample and Lucile Saulnier and Lélio Renard Lavaud and Marie-Anne Lachaux and Pierre Stock and Teven Le Scao and Thibaut Lavril and Thomas Wang and Timothée Lacroix and William El Sayed",
+      "title": "Mistral 7B",
+      "ENTRYTYPE": "article",
+      "ID": "jiang2023mistral7b"
+    },
+    {
+      "url": "https://openreview.net/forum?id=BOorDpKHiJ",
+      "year": "2024",
+      "booktitle": "Proceedings of the International Conference on Machine Learning",
+      "author": "Ganqu Cui and Lifan Yuan and Ning Ding and Guanming Yao and Bingxiang He and Wei Zhu and Yuan Ni and Guotong Xie and Ruobing Xie and Yankai Lin and Zhiyuan Liu and Maosong Sun",
+      "title": "{UltraFeedback}: Boosting Language Models with Scaled {AI} Feedback",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "cui2024ultrafeedback"
+    },
+    {
+      "url": "https://openreview.net/forum?id=aKkAwZB6JV",
+      "year": "2024",
+      "booktitle": "Proceedings of the Conference on Language Modeling",
+      "author": "Lewis Tunstall and Edward Emanuel Beeching and Nathan Lambert and Nazneen Rajani and Kashif Rasul and Younes Belkada and Shengyi Huang and Leandro Von Werra and Cl{\\'e}mentine Fourrier and Nathan Habib and Nathan Sarrazin and Omar Sanseviero and Alexander M Rush and Thomas Wolf",
+      "title": "Zephyr: Direct Distillation of {LM} Alignment",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "tunstall2024zephyr"
+    },
+    {
+      "url": "https://doi.org/10.1142/S0129054108005644",
+      "doi": "10.1142/S0129054108005644",
+      "year": "2008",
+      "pages": "219-242",
+      "number": "01",
+      "volume": "19",
+      "journal": "International Journal of Foundations of Computer Science",
+      "title": "On the Computation of the Relative Entropy of Probabilistic Automata",
+      "author": "Cortes, Corinna and Mohri, Mehryar and Rastogi, Ashish and Riley, Michael",
+      "ENTRYTYPE": "article",
+      "ID": "klp"
+    },
+    {
+      "doi": "10.1109/ICASSP.2007.366913",
+      "year": "2007",
+      "title": "Approximating the {K}ullback {L}eibler Divergence Between {G}aussian Mixture Models",
+      "booktitle": "Proceedings of the IEEE International Conference on Acoustics, Speech and Signal Processing",
+      "author": "Hershey, John R. and Olsen, Peder A.",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "klapprox"
+    },
+    {
+      "url": "https://web.archive.org/web/20240623112236/https://liacs.leidenuniv.nl/~hoogeboomhj/second/codingcomputations.pdf",
+      "year": "2015",
+      "author": "Hendrik Jan Hoogeboom",
+      "title": "Undecidable Problems for Context-free Grammars",
+      "ENTRYTYPE": "misc",
+      "ID": "hoogeboomhj"
+    }
+  ]
+}

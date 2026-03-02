@@ -1,0 +1,595 @@
+{
+  "pdf_url": "https://arxiv.org/pdf/2507.00469v1.pdf",
+  "references": [
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2312.17432",
+      "author": "Tang, Yunlong and Bi, Jing and Xu, Siting and Song, Luchuan and Liang, Susan and Wang, Teng and Zhang, Daoan and An, Jie and Lin, Jingyang and Zhu, Rongyi and others",
+      "title": "Video understanding with large language models: A survey",
+      "ENTRYTYPE": "article",
+      "ID": "tang2023video"
+    },
+    {
+      "year": "2023",
+      "pages": "119336--119360",
+      "volume": "37",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Qian, Rui and Dong, Xiaoyi and Zhang, Pan and Zang, Yuhang and Ding, Shuangrui and Lin, Dahua and Wang, Jiaqi",
+      "title": "Streaming long video understanding with large language models",
+      "ENTRYTYPE": "article",
+      "ID": "qian2024streaming"
+    },
+    {
+      "year": "2024",
+      "pages": "12585--12602",
+      "booktitle": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+      "author": "Maaz, Muhammad and Rasheed, Hanoona and Khan, Salman and Khan, Fahad",
+      "title": "Video-ChatGPT: Towards Detailed Video Understanding via Large Vision and Language Models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "maaz2024video"
+    },
+    {
+      "year": "2023",
+      "pages": "24214--24223",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Villa, Andr{\\'e}s and Alc{\\'a}zar, Juan Le{\\'o}n and Alfarra, Motasem and Alhamoud, Kumail and Hurtado, Julio and Heilbron, Fabian Caba and Soto, Alvaro and Ghanem, Bernard",
+      "title": "Pivot: Prompting for video continual learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "villa2023pivot"
+    },
+    {
+      "year": "2022",
+      "pages": "3961--3970",
+      "booktitle": "Proceedings of the IEEE/CVF winter conference on applications of computer vision",
+      "author": "Doshi, Keval and Yilmaz, Yasin",
+      "title": "Rethinking video anomaly detection-a continual learning approach",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "doshi2022rethinking"
+    },
+    {
+      "year": "2024",
+      "pages": "70213--70229",
+      "volume": "37",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Tang, Tianqi and Deldari, Shohreh and Xue, Hao and De Melo, Celso and Salim, Flora",
+      "title": "Vilco-bench: Video language continual learning benchmark",
+      "ENTRYTYPE": "article",
+      "ID": "tang2024vilco"
+    },
+    {
+      "year": "2022",
+      "pages": "23716--23736",
+      "volume": "35",
+      "journal": "Advances in neural information processing systems",
+      "author": "Alayrac, Jean-Baptiste and Donahue, Jeff and Luc, Pauline and Miech, Antoine and Barr, Iain and Hasson, Yana and Lenc, Karel and Mensch, Arthur and Millican, Katherine and Reynolds, Malcolm and others",
+      "title": "Flamingo: a visual language model for few-shot learning",
+      "ENTRYTYPE": "article",
+      "ID": "alayrac2022flamingo"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2023",
+      "pages": "19730--19742",
+      "booktitle": "International conference on machine learning",
+      "author": "Li, Junnan and Li, Dongxu and Savarese, Silvio and Hoi, Steven",
+      "title": "Blip-2: Bootstrapping language-image pre-training with frozen image encoders and large language models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "li2023blip"
+    },
+    {
+      "year": "2024",
+      "pages": "3921--3932",
+      "booktitle": "Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing",
+      "author": "Cai, Chen and Wang, Zheng and Gao, Jianjun and Liu, Wenyang and Lu, Ye and Zhang, Runzhong and Yap, Kim-Hui",
+      "title": "Empowering Large Language Model for Continual Video Question Answering with Collaborative Prompting",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "cai2024empowering"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2303.16199",
+      "author": "Zhang, Renrui and Han, Jiaming and Liu, Chris and Gao, Peng and Zhou, Aojun and Hu, Xiangfei and Yan, Shilin and Lu, Pan and Li, Hongsheng and Qiao, Yu",
+      "title": "Llama-adapter: Efficient fine-tuning of language models with zero-init attention",
+      "ENTRYTYPE": "article",
+      "ID": "zhang2023llama_adapter"
+    },
+    {
+      "publisher": "Cold Spring Harbor Lab",
+      "year": "2001",
+      "pages": "252--256",
+      "number": "5",
+      "volume": "8",
+      "journal": "Learning \\& Memory",
+      "author": "Squire, Larry R and Schmolck, Heike and Stark, Shauna M",
+      "title": "Impaired auditory recognition memory in amnesic patients with medial temporal lobe lesions",
+      "ENTRYTYPE": "article",
+      "ID": "squire2001impaired"
+    },
+    {
+      "year": "2014",
+      "pages": "6--17",
+      "volume": "34",
+      "journal": "Frontiers of neurology and neuroscience",
+      "author": "Schultz, Christian and Engelhardt, Maren",
+      "title": "Anatomy of the hippocampal formation.",
+      "ENTRYTYPE": "article",
+      "ID": "schultz2014anatomy"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "2011",
+      "pages": "515--525",
+      "number": "10",
+      "volume": "34",
+      "journal": "Trends in neurosciences",
+      "author": "Yassa, Michael A and Stark, Craig EL",
+      "title": "Pattern separation in the hippocampus",
+      "ENTRYTYPE": "article",
+      "ID": "yassa2011pattern"
+    },
+    {
+      "publisher": "Frontiers Media SA",
+      "year": "2012",
+      "pages": "146",
+      "volume": "6",
+      "journal": "Frontiers in human neuroscience",
+      "author": "Olsen, Rosanna K and Moses, Sandra N and Riggs, Lily and Ryan, Jennifer D",
+      "title": "The hippocampus supports multiple cognitive processes through relational binding and comparison",
+      "ENTRYTYPE": "article",
+      "ID": "olsen2012hippocampus"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2402.01364",
+      "author": "Wu, Tongtong and Luo, Linhao and Li, Yuan-Fang and Pan, Shirui and Vu, Thuy-Trang and Haffari, Gholamreza",
+      "title": "Continual learning for large language models: A survey",
+      "ENTRYTYPE": "article",
+      "ID": "wu2024continual"
+    },
+    {
+      "year": "2022",
+      "pages": "6107--6122",
+      "booktitle": "Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing",
+      "author": "Scialom, Thomas and Chakrabarty, Tuhin and Muresan, Smaranda",
+      "title": "Fine-tuned Language Models are Continual Learners",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "scialom2022fine"
+    },
+    {
+      "year": "2024",
+      "pages": "663--677",
+      "booktitle": "Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers)",
+      "author": "Wang, Yifan and Liu, Yafei and Shi, Chufan and Li, Haoling and Chen, Chen and Lu, Haonan and Yang, Yujiu",
+      "title": "InsCL: A Data-efficient Continual Learning Paradigm for Fine-tuning Large Language Models with Instructions",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "wang2024inscl"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2310.06762",
+      "author": "Wang, Xiao and Zhang, Yuansen and Chen, Tianze and Gao, Songyang and Jin, Senjie and Yang, Xianjun and Xi, Zhiheng and Zheng, Rui and Zou, Yicheng and Gui, Tao and others",
+      "title": "Trace: A comprehensive benchmark for continual learning in large language models",
+      "ENTRYTYPE": "article",
+      "ID": "wang2023trace"
+    },
+    {
+      "year": "2023",
+      "pages": "12573--12589",
+      "booktitle": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+      "author": "Mok, Jisoo and Do, Jaeyoung and Lee, Sungjin and Taghavi, Tara and Yu, Seunghak and Yoon, Sungroh",
+      "title": "Large-scale lifelong learning of in-context instructions and how to tackle it",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "mok2023large"
+    },
+    {
+      "year": "2023",
+      "booktitle": "The Eleventh International Conference on Learning Representations",
+      "author": "Razdaibiedina, Anastasia and Mao, Yuning and Hou, Rui and Khabsa, Madian and Lewis, Mike and Almahairi, Amjad",
+      "title": "Progressive Prompts: Continual Learning for Language Models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "razdaibiedinaprogressive"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2023",
+      "pages": "14702--14729",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Jang, Joel and Kim, Seungone and Ye, Seonghyeon and Kim, Doyoung and Logeswaran, Lajanugen and Lee, Moontae and Lee, Kyungjae and Seo, Minjoon",
+      "title": "Exploring the benefits of training expert language models over instruction tuning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "jang2023exploring"
+    },
+    {
+      "year": "2023",
+      "pages": "1250--1259",
+      "volume": "37",
+      "booktitle": "Proceedings of the AAAI Conference on Artificial Intelligence",
+      "author": "Lei, Stan Weixian and Gao, Difei and Wu, Jay Zhangjie and Wang, Yuxuan and Liu, Wei and Zhang, Mengmi and Shou, Mike Zheng",
+      "title": "Symbolic replay: Scene graph as prompt for continual learning on vqa task",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "lei2023symbolic"
+    },
+    {
+      "year": "2023",
+      "pages": "2953--2962",
+      "booktitle": "Proceedings of the IEEE/CVF International Conference on Computer Vision",
+      "author": "Qian, Zi and Wang, Xin and Duan, Xuguang and Qin, Pengda and Li, Yuhong and Zhu, Wenwu",
+      "title": "Decouple before interact: Multi-modal prompt learning for continual visual question answering",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "qian2023decouple"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2403.08755",
+      "author": "Cheng, Feng and Wang, Ziyang and Sung, Yi-Lin and Lin, Yan-Bo and Bansal, Mohit and Bertasius, Gedas",
+      "title": "Dam: Dynamic adapter merging for continual video qa learning",
+      "ENTRYTYPE": "article",
+      "ID": "cheng2024dam"
+    },
+    {
+      "year": "2023",
+      "pages": "19102--19112",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Zhang, Xi and Zhang, Feifei and Xu, Changsheng",
+      "title": "Vqacl: A novel visual question answering continual learning setting",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zhang2023vqacl"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "2022",
+      "pages": "87--110",
+      "number": "1",
+      "volume": "45",
+      "journal": "IEEE transactions on pattern analysis and machine intelligence",
+      "author": "Han, Kai and Wang, Yunhe and Chen, Hanting and Chen, Xinghao and Guo, Jianyuan and Liu, Zhenhua and Tang, Yehui and Xiao, An and Xu, Chunjing and Xu, Yixing and others",
+      "title": "A survey on vision transformer",
+      "ENTRYTYPE": "article",
+      "ID": "han2022survey"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2019",
+      "pages": "3925--3934",
+      "booktitle": "International conference on machine learning",
+      "author": "Li, Xilai and Zhou, Yingbo and Wu, Tianfu and Socher, Richard and Xiong, Caiming",
+      "title": "Learn to grow: A continual structure learning framework for overcoming catastrophic forgetting",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "li2019learn"
+    },
+    {
+      "year": "2019",
+      "booktitle": "International conference on learning representations",
+      "author": "Hu, Wenpeng and Lin, Zhou and Liu, Bing and Tao, Chongyang and Tao, Zhengwei Tao and Zhao, Dongyan and Ma, Jinwen and Yan, Rui",
+      "title": "Overcoming catastrophic forgetting for continual learning via model adaptation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "hu2019overcoming"
+    },
+    {
+      "year": "2023",
+      "pages": "4300--4316",
+      "booktitle": "Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing",
+      "author": "Ko, Dohwan and Lee, Ji and Kang, Woo-Young and Roh, Byungseok and Kim, Hyunwoo",
+      "title": "Large Language Models are Temporal and Causal Reasoners for Video Question Answering",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ko2023large"
+    },
+    {
+      "year": "2022",
+      "pages": "139--149",
+      "booktitle": "Proceedings of the IEEE/CVF conference on computer vision and pattern recognition",
+      "author": "Wang, Zifeng and Zhang, Zizhao and Lee, Chen-Yu and Zhang, Han and Sun, Ruoxi and Ren, Xiaoqi and Su, Guolong and Perot, Vincent and Dy, Jennifer and Pfister, Tomas",
+      "title": "Learning to prompt for continual learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "wang2022learning"
+    },
+    {
+      "year": "2021",
+      "pages": "9777--9786",
+      "booktitle": "Proceedings of the IEEE/CVF conference on computer vision and pattern recognition",
+      "author": "Xiao, Junbin and Shang, Xindi and Yao, Angela and Chua, Tat-Seng",
+      "title": "Next-qa: Next phase of question-answering to explaining temporal actions",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "xiao2021next"
+    },
+    {
+      "year": "2021",
+      "pages": "1166--1174",
+      "volume": "35",
+      "booktitle": "Proceedings of the aaai conference on artificial intelligence",
+      "author": "Choi, Seongho and On, Kyoung-Woon and Heo, Yu-Jung and Seo, Ahjeong and Jang, Youwon and Lee, Minsu and Zhang, Byoung-Tak",
+      "title": "Dramaqa: Character-centered video story understanding with hierarchical qa",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "choi2021dramaqa"
+    },
+    {
+      "year": "2021",
+      "booktitle": "Thirty-fifth Conference on Neural Information Processing Systems Datasets and Benchmarks Track (Round 2)",
+      "author": "Wu, Bo and Yu, Shoubin and Chen, Zhenfang and Tenenbaum, Joshua B and Gan, Chuang",
+      "title": "STAR: A Benchmark for Situated Reasoning in Real-World Videos",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "wu2star"
+    },
+    {
+      "organization": "Springer",
+      "year": "2022",
+      "pages": "631--648",
+      "booktitle": "European conference on computer vision",
+      "author": "Wang, Zifeng and Zhang, Zizhao and Ebrahimi, Sayna and Sun, Ruoxi and Zhang, Han and Lee, Chen-Yu and Ren, Xiaoqi and Su, Guolong and Perot, Vincent and Dy, Jennifer and others",
+      "title": "Dualprompt: Complementary prompting for rehearsal-free continual learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "wang2022dualprompt"
+    },
+    {
+      "year": "2023",
+      "pages": "11483--11493",
+      "booktitle": "Proceedings of the IEEE/CVF International Conference on Computer Vision",
+      "author": "Gao, Qiankun and Zhao, Chen and Sun, Yifan and Xi, Teng and Zhang, Gang and Ghanem, Bernard and Zhang, Jian",
+      "title": "A unified continual learning framework with general parameter-efficient tuning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "gao2023unified"
+    },
+    {
+      "year": "2020",
+      "booktitle": "International Conference on Learning Representations",
+      "author": "Dosovitskiy, Alexey and Beyer, Lucas and Kolesnikov, Alexander and Weissenborn, Dirk and Zhai, Xiaohua and Unterthiner, Thomas and Dehghani, Mostafa and Minderer, Matthias and Heigold, G and Gelly, S and others",
+      "title": "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "dosovitskiy2020image"
+    },
+    {
+      "organization": "PmLR",
+      "year": "2021",
+      "pages": "8748--8763",
+      "booktitle": "International conference on machine learning",
+      "author": "Radford, Alec and Kim, Jong Wook and Hallacy, Chris and Ramesh, Aditya and Goh, Gabriel and Agarwal, Sandhini and Sastry, Girish and Askell, Amanda and Mishkin, Pamela and Clark, Jack and others",
+      "title": "Learning transferable visual models from natural language supervision",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "radford2021learning"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2302.13971",
+      "author": "Touvron, Hugo and Lavril, Thibaut and Izacard, Gautier and Martinet, Xavier and Lachaux, Marie-Anne and Lacroix, Timoth{\\'e}e and Rozi{\\`e}re, Baptiste and Goyal, Naman and Hambro, Eric and Azhar, Faisal and others",
+      "title": "Llama: Open and efficient foundation language models",
+      "ENTRYTYPE": "article",
+      "ID": "touvron2023llama"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2307.09288",
+      "author": "Touvron, Hugo and Martin, Louis and Stone, Kevin and Albert, Peter and Almahairi, Amjad and Babaei, Yasmine and Bashlykov, Nikolay and Batra, Soumya and Bhargava, Prajjwal and Bhosale, Shruti and others",
+      "title": "Llama 2: Open foundation and fine-tuned chat models",
+      "ENTRYTYPE": "article",
+      "ID": "touvron2023llama2"
+    },
+    {
+      "year": "2008",
+      "number": "11",
+      "volume": "9",
+      "journal": "Journal of machine learning research",
+      "author": "Van der Maaten, Laurens and Hinton, Geoffrey",
+      "title": "Visualizing data using t-SNE.",
+      "ENTRYTYPE": "article",
+      "ID": "van2008visualizing"
+    },
+    {
+      "publisher": "ACM New York, NY",
+      "year": "2025",
+      "pages": "1--35",
+      "number": "8",
+      "volume": "57",
+      "journal": "ACM Computing Surveys",
+      "author": "Zheng, Junhao and Qiu, Shengjie and Shi, Chengming and Ma, Qianli",
+      "title": "Towards lifelong learning of large language models: A survey",
+      "ENTRYTYPE": "article",
+      "ID": "zheng2025towards"
+    },
+    {
+      "publisher": "ACM New York, NY",
+      "year": "2025",
+      "pages": "1--38",
+      "number": "5",
+      "volume": "57",
+      "journal": "ACM Computing Surveys",
+      "author": "Yang, Yutao and Zhou, Jie and Ding, Xuanwen and Huai, Tianyu and Liu, Shunyu and Chen, Qin and Xie, Yuan and He, Liang",
+      "title": "Recent advances of foundation language models-based continual learning: A survey",
+      "ENTRYTYPE": "article",
+      "ID": "yang2025recent"
+    },
+    {
+      "year": "2024",
+      "pages": "57817--57840",
+      "volume": "37",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Chen, Cheng and Zhu, Junchen and Luo, Xu and Shen, Hengtao and Song, Jingkuan and Gao, Lianli",
+      "title": "Coin: A benchmark of continual instruction tuning for multimodel large language models",
+      "ENTRYTYPE": "article",
+      "ID": "chen2024coin"
+    },
+    {
+      "year": "2020",
+      "pages": "8968--8975",
+      "number": "05",
+      "volume": "34",
+      "booktitle": "Proceedings of the AAAI conference on artificial intelligence",
+      "author": "Sun, Yu and Wang, Shuohuan and Li, Yukun and Feng, Shikun and Tian, Hao and Wu, Hua and Wang, Haifeng",
+      "title": "Ernie 2.0: A continual pre-training framework for language understanding",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "sun2020ernie"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "2024",
+      "pages": "106492",
+      "volume": "179",
+      "journal": "Neural Networks",
+      "author": "Cossu, Andrea and Carta, Antonio and Passaro, Lucia and Lomonaco, Vincenzo and Tuytelaars, Tinne and Bacciu, Davide",
+      "title": "Continual pre-training mitigates forgetting in language and vision",
+      "ENTRYTYPE": "article",
+      "ID": "cossu2024continual"
+    },
+    {
+      "year": "2023",
+      "pages": "6485--6493",
+      "booktitle": "Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision",
+      "author": "Lee, Kuan-Ying and Zhong, Yuanyi and Wang, Yu-Xiong",
+      "title": "Do pre-trained models benefit equally in continual learning?",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "lee2023pre"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2302.03241",
+      "author": "Ke, Zixuan and Shao, Yijia and Lin, Haowei and Konishi, Tatsuya and Kim, Gyuhak and Liu, Bing",
+      "title": "Continual pre-training of language models",
+      "ENTRYTYPE": "article",
+      "ID": "ke2023continual"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2311.16206",
+      "author": "He, Jinghan and Guo, Haiyun and Tang, Ming and Wang, Jinqiao",
+      "title": "Continual instruction tuning for large multimodal models",
+      "ENTRYTYPE": "article",
+      "ID": "he2023continual"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2411.02564",
+      "author": "Cao, Meng and Liu, Yuyang and Liu, Yingfei and Wang, Tiancai and Dong, Jiahua and Ding, Henghui and Zhang, Xiangyu and Reid, Ian and Liang, Xiaodan",
+      "title": "Continual llava: Continual instruction tuning in large vision-language models",
+      "ENTRYTYPE": "article",
+      "ID": "cao2024continual"
+    },
+    {
+      "year": "2023",
+      "journal": "CoRR",
+      "author": "Zhang, Han and Gui, Lin and Zhai, Yuanzhao and Wang, Hui and Lei, Yu and Xu, Ruifeng",
+      "title": "Copf: Continual learning human preference through optimal policy fitting",
+      "ENTRYTYPE": "article",
+      "ID": "zhang2023copf"
+    },
+    {
+      "year": "2023",
+      "pages": "32340--32359",
+      "volume": "36",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Suhr, Alane and Artzi, Yoav",
+      "title": "Continual learning for instruction following from realtime feedback",
+      "ENTRYTYPE": "article",
+      "ID": "suhr2023continual"
+    },
+    {
+      "year": "2023",
+      "pages": "2474--2483",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Alssum, Lama and Alcazar, Juan Leon and Ramazanova, Merey and Zhao, Chen and Ghanem, Bernard",
+      "title": "Just a glimpse: Rethinking temporal information for video continual learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "alssum2023just"
+    },
+    {
+      "year": "2006",
+      "author": "Cer, Daniel M and O'Reilly, Randall C",
+      "title": "Neural mechanisms of binding in the hippocampus and neocortex: insights from computational models.",
+      "ENTRYTYPE": "misc",
+      "ID": "cer2006neural"
+    },
+    {
+      "publisher": "American Association for the Advancement of Science",
+      "year": "2007",
+      "pages": "961--966",
+      "number": "5814",
+      "volume": "315",
+      "journal": "science",
+      "author": "Leutgeb, Jill K and Leutgeb, Stefan and Moser, May-Britt and Moser, Edvard I",
+      "title": "Pattern separation in the dentate gyrus and CA3 of the hippocampus",
+      "ENTRYTYPE": "article",
+      "ID": "leutgeb2007pattern"
+    },
+    {
+      "year": "2022",
+      "pages": "10728--10737",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Chen, Geng and Zhang, Wendong and Lu, Han and Gao, Siyu and Wang, Yunbo and Long, Mingsheng and Yang, Xiaokang",
+      "title": "Continual predictive learning from videos",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "chen2022continual"
+    },
+    {
+      "year": "2024",
+      "pages": "8419--8429",
+      "booktitle": "Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision",
+      "author": "Chawla, Hemang and Varma, Arnav and Arani, Elahe and Zonooz, Bahram",
+      "title": "Continual learning of unsupervised monocular depth from videos",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "chawla2024continual"
+    },
+    {
+      "organization": "IEEE",
+      "year": "2023",
+      "pages": "3240--3244",
+      "booktitle": "2023 IEEE International Conference on Image Processing (ICIP)",
+      "author": "Castagnolo, Giulia and Spampinato, Concetto and Rundo, Francesco and Giordano, Daniela and Palazzo, Simone",
+      "title": "A baseline on continual learning methods for video action recognition",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "castagnolo2023baseline"
+    },
+    {
+      "year": "2021",
+      "pages": "13698--13707",
+      "booktitle": "Proceedings of the IEEE/CVF international conference on computer vision",
+      "author": "Park, Jaeyoo and Kang, Minsoo and Han, Bohyung",
+      "title": "Class-incremental learning for action recognition in videos",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "park2021class"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2308.08747",
+      "author": "Luo, Yun and Yang, Zhen and Meng, Fandong and Li, Yafu and Zhou, Jie and Zhang, Yue",
+      "title": "An empirical study of catastrophic forgetting in large language models during continual fine-tuning",
+      "ENTRYTYPE": "article",
+      "ID": "luo2023empirical"
+    },
+    {
+      "year": "2023",
+      "pages": "19148--19158",
+      "booktitle": "Proceedings of the IEEE/CVF International Conference on Computer Vision",
+      "author": "Zhang, Gengwei and Wang, Liyuan and Kang, Guoliang and Chen, Ling and Wei, Yunchao",
+      "title": "Slca: Slow learner with classifier alignment for continual learning on a pre-trained model",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zhang2023slca"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "2022",
+      "pages": "102329",
+      "volume": "217",
+      "journal": "Progress in Neurobiology",
+      "author": "Stoianov, Ivilin and Maisto, Domenico and Pezzulo, Giovanni",
+      "title": "The hippocampal formation as a hierarchical generative model supporting generative replay and continual learning",
+      "ENTRYTYPE": "article",
+      "ID": "stoianov2022hippocampal"
+    },
+    {
+      "year": "2017",
+      "volume": "30",
+      "journal": "Advances in neural information processing systems",
+      "author": "Shin, Hanul and Lee, Jung Kwon and Kim, Jaehong and Kim, Jiwon",
+      "title": "Continual learning with deep generative replay",
+      "ENTRYTYPE": "article",
+      "ID": "shin2017continual"
+    },
+    {
+      "year": "2019",
+      "volume": "32",
+      "journal": "Advances in neural information processing systems",
+      "author": "Rolnick, David and Ahuja, Arun and Schwarz, Jonathan and Lillicrap, Timothy and Wayne, Gregory",
+      "title": "Experience replay for continual learning",
+      "ENTRYTYPE": "article",
+      "ID": "rolnick2019experience"
+    }
+  ]
+}

@@ -1,0 +1,1701 @@
+{
+  "pdf_url": "https://arxiv.org/pdf/2502.07480v3.pdf",
+  "references": [
+    {
+      "publisher": "Springer Science \\& Business Media",
+      "year": "2013",
+      "volume": "31",
+      "author": "Devroye, Luc and Gy{\\\"o}rfi, L{\\'a}szl{\\'o} and Lugosi, G{\\'a}bor",
+      "title": "A probabilistic theory of pattern recognition",
+      "ENTRYTYPE": "book",
+      "ID": "devroye2013probabilistic"
+    },
+    {
+      "publisher": "North-Holland",
+      "year": "1989",
+      "pages": "71--82",
+      "number": "1",
+      "volume": "23",
+      "journal": "Journal of statistical planning and Inference",
+      "author": "Devroye, Luc and Krzy, Adam and others",
+      "title": "An equivalence theorem for L1 convergence of the kernel regression estimate",
+      "ENTRYTYPE": "article",
+      "ID": "devroye1989equivalence"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2204.14126",
+      "author": "Radhakrishnan, Adityanarayanan and Belkin, Mikhail and Uhler, Caroline",
+      "title": "Wide and Deep Neural Networks Achieve Optimality for Classification",
+      "ENTRYTYPE": "article",
+      "ID": "radhakrishnan2022wide"
+    },
+    {
+      "year": "2018",
+      "volume": "31",
+      "journal": "Advances in neural information processing systems",
+      "author": "Belkin, Mikhail and Hsu, Daniel J and Mitra, Partha",
+      "title": "Overfitting or perfect fitting? risk bounds for classification and regression rules that interpolate",
+      "ENTRYTYPE": "article",
+      "ID": "belkin2018overfitting"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2018",
+      "pages": "541--549",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Belkin, Mikhail and Ma, Siyuan and Mandal, Soumik",
+      "title": "To understand deep learning we need to understand kernel learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "belkin2018understand"
+    },
+    {
+      "publisher": "JMLRORG",
+      "year": "2021",
+      "pages": "10104--10172",
+      "number": "1",
+      "volume": "22",
+      "journal": "The Journal of Machine Learning Research",
+      "author": "Muthukumar, Vidya and Narang, Adhyyan and Subramanian, Vignesh and Belkin, Mikhail and Hsu, Daniel and Sahai, Anant",
+      "title": "Classification vs regression in overparameterized regimes: Does the loss function matter?",
+      "ENTRYTYPE": "article",
+      "ID": "muthukumar2021classification"
+    },
+    {
+      "publisher": "JMLRORG",
+      "year": "2021",
+      "pages": "5721--5750",
+      "number": "1",
+      "volume": "22",
+      "journal": "The Journal of Machine Learning Research",
+      "author": "Chatterji, Niladri S and Long, Philip M",
+      "title": "Finite-sample analysis of interpolating linear classifiers in the overparameterized regime",
+      "ENTRYTYPE": "article",
+      "ID": "chatterji2021finite"
+    },
+    {
+      "year": "2021",
+      "pages": "4907--4918",
+      "volume": "34",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Ardeshir, Navid and Sanford, Clayton and Hsu, Daniel J",
+      "title": "Support vector machines and linear regression coincide with very high-dimensional features",
+      "ENTRYTYPE": "article",
+      "ID": "ardeshir2021support"
+    },
+    {
+      "publisher": "Oxford University Press",
+      "year": "2022",
+      "pages": "435--495",
+      "number": "2",
+      "volume": "11",
+      "journal": "Information and Inference: A Journal of the IMA",
+      "author": "Deng, Zeyu and Kammoun, Abla and Thrampoulidis, Christos",
+      "title": "A model of double descent for high-dimensional binary linear classification",
+      "ENTRYTYPE": "article",
+      "ID": "deng2022model"
+    },
+    {
+      "year": "2019",
+      "journal": "arXiv preprint arXiv:1911.01544",
+      "author": "Montanari, Andrea and Ruan, Feng and Sohn, Youngtak and Yan, Jun",
+      "title": "The generalization error of max-margin linear classifiers: High-dimensional asymptotics in the overparametrized regime",
+      "ENTRYTYPE": "article",
+      "ID": "montanari2019generalization"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2022",
+      "pages": "5853--5875",
+      "booktitle": "International Conference on Artificial Intelligence and Statistics",
+      "author": "McRae, Andrew D and Karnik, Santhosh and Davenport, Mark and Muthukumar, Vidya K",
+      "title": "Harmless interpolation in regression and classification with structured features",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "mcrae2022harmless"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2303.07475",
+      "author": "Lai, Kuo-Wei and Muthukumar, Vidya",
+      "title": "General loss functions lead to (approximate) interpolation in high dimensions",
+      "ENTRYTYPE": "article",
+      "ID": "lai2023general"
+    },
+    {
+      "year": "2021",
+      "pages": "8407--8418",
+      "volume": "34",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Cao, Yuan and Gu, Quanquan and Belkin, Mikhail",
+      "title": "Risk bounds for over-parameterized maximum margin classification on sub-gaussian mixtures",
+      "ENTRYTYPE": "article",
+      "ID": "cao2021risk"
+    },
+    {
+      "year": "1968",
+      "pages": "517--524",
+      "booktitle": "Proceedings of the 1968 23rd ACM national conference",
+      "author": "Shepard, Donald",
+      "title": "A two-dimensional interpolation function for irregularly-spaced data",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "shepard1968two"
+    },
+    {
+      "publisher": "SIAM",
+      "year": "2022",
+      "pages": "260--284",
+      "number": "1",
+      "volume": "4",
+      "journal": "SIAM Journal on Mathematics of Data Science",
+      "author": "Wang, Ke and Thrampoulidis, Christos",
+      "title": "Binary classification of gaussian mixtures: Abundance of support vectors, benign overfitting, and regularization",
+      "ENTRYTYPE": "article",
+      "ID": "wang2022binary"
+    },
+    {
+      "publisher": "Cambridge university press",
+      "year": "2018",
+      "volume": "47",
+      "author": "Vershynin, Roman",
+      "title": "High-dimensional probability: An introduction with applications in data science",
+      "ENTRYTYPE": "book",
+      "ID": "vershynin2018high"
+    },
+    {
+      "year": "2010",
+      "journal": "arXiv preprint arXiv:1011.3027",
+      "author": "Vershynin, Roman",
+      "title": "Introduction to the non-asymptotic analysis of random matrices",
+      "ENTRYTYPE": "article",
+      "ID": "vershynin2010introduction"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "2006",
+      "pages": "83--121",
+      "volume": "13",
+      "journal": "Handbooks in operations research and management science",
+      "author": "Devroye, Luc",
+      "title": "Nonuniform random variate generation",
+      "ENTRYTYPE": "article",
+      "ID": "devroye2006nonuniform"
+    },
+    {
+      "year": "2024",
+      "booktitle": "Forty-first International Conference on Machine Learning",
+      "author": "Barzilai, Daniel and Shamir, Ohad",
+      "title": "Generalization in Kernel Regression Under Realistic Assumptions",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "barzilai2024generalization"
+    },
+    {
+      "year": "2024",
+      "booktitle": "The Thirty-eighth Annual Conference on Neural Information Processing Systems",
+      "author": "Medvedev, Marko and Vardi, Gal and Srebro, Nathan",
+      "title": "Overfitting Behaviour of Gaussian Kernel Ridgeless Regression: Varying Bandwidth or Dimensionality",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "medvedev2024overfitting"
+    },
+    {
+      "year": "2024",
+      "volume": "37",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Harel, Itamar and Hoza, William M and Vardi, Gal and Evron, Itay and Srebro, Nathan and Soudry, Daniel",
+      "title": "Provable Tempered Overfitting of Minimal Nets and Typical Nets",
+      "ENTRYTYPE": "article",
+      "ID": "harel2024provable"
+    },
+    {
+      "year": "2024",
+      "booktitle": "The Thirty-eighth Annual Conference on Neural Information Processing Systems",
+      "author": "Cheng, Tin Sum and Lucchi, Aurelien and Kratsios, Anastasis and Belius, David",
+      "title": "A Comprehensive Analysis on the Learning Curve in Kernel Ridge Regression",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "cheng2024comprehensive"
+    },
+    {
+      "year": "2024",
+      "booktitle": "Forty-first International Conference on Machine Learning",
+      "author": "Cheng, Tin Sum and Lucchi, Aurelien and Kratsios, Anastasis and Belius, David",
+      "title": "Characterizing Overfitting in Kernel Ridgeless Regression Through the Eigenspectrum",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "cheng2024characterizing"
+    },
+    {
+      "publisher": "SIAM",
+      "year": "2023",
+      "pages": "854--872",
+      "number": "4",
+      "volume": "5",
+      "journal": "SIAM Journal on Mathematics of Data Science",
+      "author": "Beaglehole, Daniel and Belkin, Mikhail and Pandit, Parthe",
+      "title": "On the inconsistency of kernel ridgeless regression in fixed dimensions",
+      "ENTRYTYPE": "article",
+      "ID": "beaglehole2023inconsistency"
+    },
+    {
+      "year": "2024",
+      "volume": "36",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Haas, Moritz and Holzm{\\\"u}ller, David and Luxburg, Ulrike and Steinwart, Ingo",
+      "title": "Mind the spikes: Benign overfitting of kernels and neural networks in fixed dimension",
+      "ENTRYTYPE": "article",
+      "ID": "haas2024mind"
+    },
+    {
+      "year": "2024",
+      "volume": "36",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Li, Yicheng and Lin, Qian",
+      "title": "On the asymptotic learning curves of kernel ridge regression under power-law decay",
+      "ENTRYTYPE": "article",
+      "ID": "li2024asymptotic"
+    },
+    {
+      "publisher": "Oxford University Press",
+      "year": "2024",
+      "pages": "asae057",
+      "journal": "Biometrika",
+      "author": "Zhang, Haobo and Lu, Weihao and Lin, Qian",
+      "title": "The phase diagram of kernel interpolation in large dimensions",
+      "ENTRYTYPE": "article",
+      "ID": "zhang2024phase"
+    },
+    {
+      "year": "2022",
+      "pages": "4558--4570",
+      "volume": "35",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Xiao, Lechao and Hu, Hong and Misiakiewicz, Theodor and Lu, Yue and Pennington, Jeffrey",
+      "title": "Precise learning curves and higher-order scalings for dot-product kernel regression",
+      "ENTRYTYPE": "article",
+      "ID": "xiao2022precise"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "1998",
+      "pages": "209--227",
+      "number": "2",
+      "volume": "65",
+      "journal": "Journal of Multivariate Analysis",
+      "author": "Devroye, Luc and Gy{\\\"o}rfi, Laszlo and Krzy{\\.z}ak, Adam",
+      "title": "The {H}ilbert kernel regression estimate",
+      "ENTRYTYPE": "article",
+      "ID": "devroye1998hilbert"
+    },
+    {
+      "publisher": "JSTOR",
+      "year": "1964",
+      "pages": "359--372",
+      "journal": "Sankhy{\\=a}: The Indian Journal of Statistics, Series A",
+      "author": "Watson, Geoffrey S",
+      "title": "Smooth regression analysis",
+      "ENTRYTYPE": "article",
+      "ID": "watson1964smooth"
+    },
+    {
+      "publisher": "SIAM",
+      "year": "1964",
+      "pages": "141--142",
+      "number": "1",
+      "volume": "9",
+      "journal": "Theory of Probability \\& Its Applications",
+      "author": "Nadaraya, Elizbar A",
+      "title": "On estimating regression",
+      "ENTRYTYPE": "article",
+      "ID": "nadaraya1964estimating"
+    },
+    {
+      "publisher": "SIAM",
+      "year": "1970",
+      "pages": "134--137",
+      "number": "1",
+      "volume": "15",
+      "journal": "Theory of Probability \\& Its Applications",
+      "author": "Nadaraya, {\\'E} A",
+      "title": "Remarks on non-parametric estimates for density functions and regression curves",
+      "ENTRYTYPE": "article",
+      "ID": "nadaraya1970remarks"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "1967",
+      "pages": "21--27",
+      "number": "1",
+      "volume": "13",
+      "journal": "IEEE transactions on information theory",
+      "author": "Cover, Thomas and Hart, Peter",
+      "title": "Nearest neighbor pattern classification",
+      "ENTRYTYPE": "article",
+      "ID": "cover1967nearest"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2019",
+      "pages": "1611--1619",
+      "booktitle": "The 22nd International Conference on Artificial Intelligence and Statistics",
+      "author": "Belkin, Mikhail and Rakhlin, Alexander and Tsybakov, Alexandre B",
+      "title": "Does data interpolation contradict statistical optimality?",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "belkin2019does"
+    },
+    {
+      "publisher": "National Acad Sciences",
+      "year": "2023",
+      "pages": "e2208779120",
+      "number": "14",
+      "volume": "120",
+      "journal": "Proceedings of the National Academy of Sciences",
+      "author": "Radhakrishnan, Adityanarayanan and Belkin, Mikhail and Uhler, Caroline",
+      "title": "Wide and deep neural networks achieve consistency for classification",
+      "ENTRYTYPE": "article",
+      "ID": "radhakrishnan2023wide"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2405.15539",
+      "author": "Eilers, Luke and Memmesheimer, Raoul-Martin and Goedeke, Sven",
+      "title": "A generalized neural tangent kernel for surrogate gradient learning",
+      "ENTRYTYPE": "article",
+      "ID": "eilers2024generalized"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2410.12783",
+      "author": "Abedsoltan, Amirhesam and Radhakrishnan, Adityanarayanan and Wu, Jingfeng and Belkin, Mikhail",
+      "title": "Context-Scaling versus Task-Scaling in In-Context Learning",
+      "ENTRYTYPE": "article",
+      "ID": "abedsoltan2024context"
+    },
+    {
+      "publisher": "Cambridge University Press",
+      "year": "1980",
+      "pages": "623--634",
+      "number": "3",
+      "volume": "17",
+      "journal": "Journal of Applied Probability",
+      "author": "Holst, Lars",
+      "title": "On the lengths of the pieces of a stick broken at random",
+      "ENTRYTYPE": "article",
+      "ID": "holst1980lengths"
+    },
+    {
+      "publisher": "SIAM",
+      "year": "2009",
+      "author": "Shorack, Galen R and Wellner, Jon A",
+      "title": "Empirical processes with applications to statistics",
+      "ENTRYTYPE": "book",
+      "ID": "shorack2009empirical"
+    },
+    {
+      "publisher": "ACM New York, NY, USA",
+      "year": "2021",
+      "pages": "107--115",
+      "number": "3",
+      "volume": "64",
+      "journal": "Communications of the ACM",
+      "author": "Zhang, Chiyuan and Bengio, Samy and Hardt, Moritz and Recht, Benjamin and Vinyals, Oriol",
+      "title": "Understanding deep learning (still) requires rethinking generalization",
+      "ENTRYTYPE": "article",
+      "ID": "zhang2021understanding"
+    },
+    {
+      "year": "2022",
+      "pages": "1182--1195",
+      "volume": "35",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Mallinar, Neil and Simon, James and Abedsoltan, Amirhesam and Pandit, Parthe and Belkin, Misha and Nakkiran, Preetum",
+      "title": "Benign, tempered, or catastrophic: Toward a refined taxonomy of overfitting",
+      "ENTRYTYPE": "article",
+      "ID": "mallinar2022benign"
+    },
+    {
+      "year": "2023",
+      "pages": "123--1",
+      "volume": "24",
+      "journal": "J. Mach. Learn. Res.",
+      "author": "Tsigler, Alexander and Bartlett, Peter L",
+      "title": "Benign overfitting in ridge regression.",
+      "ENTRYTYPE": "article",
+      "ID": "tsigler2023benign"
+    },
+    {
+      "publisher": "Institute of Mathematical Statistics",
+      "year": "2022",
+      "pages": "949--986",
+      "number": "2",
+      "volume": "50",
+      "journal": "The Annals of Statistics",
+      "author": "Hastie, Trevor and Montanari, Andrea and Rosset, Saharon and Tibshirani, Ryan J",
+      "title": "Surprises in high-dimensional ridgeless least squares interpolation",
+      "ENTRYTYPE": "article",
+      "ID": "hastie2022surprises"
+    },
+    {
+      "publisher": "Cambridge University Press",
+      "year": "2021",
+      "pages": "87--201",
+      "volume": "30",
+      "journal": "Acta numerica",
+      "author": "Bartlett, Peter L and Montanari, Andrea and Rakhlin, Alexander",
+      "title": "Deep learning: a statistical viewpoint",
+      "ENTRYTYPE": "article",
+      "ID": "bartlett2021deep"
+    },
+    {
+      "publisher": "Institute of Mathematical Statistics",
+      "year": "2022",
+      "pages": "2816--2847",
+      "number": "5",
+      "volume": "50",
+      "journal": "The Annals of Statistics",
+      "author": "Montanari, Andrea and Zhong, Yiqiao",
+      "title": "The interpolation phase transition in neural networks: Memorization and generalization under lazy training",
+      "ENTRYTYPE": "article",
+      "ID": "montanari2022interpolation"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "2022",
+      "pages": "3--84",
+      "volume": "59",
+      "journal": "Applied and Computational Harmonic Analysis",
+      "author": "Mei, Song and Misiakiewicz, Theodor and Montanari, Andrea",
+      "title": "Generalization error of random feature and kernel methods: hypercontractivity and kernel matrix concentration",
+      "ENTRYTYPE": "article",
+      "ID": "mei2022generalization"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2022",
+      "pages": "4310--4312",
+      "booktitle": "Conference on Learning Theory",
+      "author": "Montanari, Andrea and Saeed, Basil N",
+      "title": "Universality of empirical risk minimization",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "montanari2022universality"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "2022",
+      "journal": "IEEE Transactions on Information Theory",
+      "author": "Hu, Hong and Lu, Yue M",
+      "title": "Universality laws for high-dimensional learning with random features",
+      "ENTRYTYPE": "article",
+      "ID": "hu2022universality"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2305.02657",
+      "author": "Li, Yicheng and Yu, Zixiong and Chen, Guhan and Lin, Qian",
+      "title": "Statistical Optimality of Deep Wide Neural Networks",
+      "ENTRYTYPE": "article",
+      "ID": "li2023statistical"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "2020",
+      "pages": "868--890",
+      "number": "3",
+      "volume": "48",
+      "journal": "Applied and Computational Harmonic Analysis",
+      "author": "Lin, Junhong and Rudi, Alessandro and Rosasco, Lorenzo and Cevher, Volkan",
+      "title": "Optimal rates for spectral algorithms with least-squares regression over Hilbert spaces",
+      "ENTRYTYPE": "article",
+      "ID": "lin2020optimal"
+    },
+    {
+      "publisher": "JMLRORG",
+      "year": "2020",
+      "pages": "8464--8501",
+      "number": "1",
+      "volume": "21",
+      "journal": "The Journal of Machine Learning Research",
+      "author": "Fischer, Simon and Steinwart, Ingo",
+      "title": "Sobolev norm learning rates for regularized least-squares algorithms",
+      "ENTRYTYPE": "article",
+      "ID": "fischer2020sobolev"
+    },
+    {
+      "year": "2021",
+      "pages": "10131--10143",
+      "volume": "34",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Cui, Hugo and Loureiro, Bruno and Krzakala, Florent and Zdeborov{\\'a}, Lenka",
+      "title": "Generalization error rates in kernel regression: The crossover from the noiseless to noisy regime",
+      "ENTRYTYPE": "article",
+      "ID": "cui2021generalization"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2022",
+      "pages": "3410--3440",
+      "booktitle": "Conference on Learning Theory",
+      "author": "Buchholz, Simon",
+      "title": "Kernel interpolation in Sobolev spaces is not consistent in low dimensions",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "buchholz2022kernel"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2021",
+      "pages": "3889--3897",
+      "booktitle": "International Conference on Artificial Intelligence and Statistics",
+      "author": "Richards, Dominic and Mourtada, Jaouad and Rosasco, Lorenzo",
+      "title": "Asymptotics of ridge (less) regression under general source condition",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "richards2021asymptotics"
+    },
+    {
+      "year": "2020",
+      "pages": "10112--10123",
+      "volume": "33",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Wu, Denny and Xu, Ji",
+      "title": "On the Optimal Weighted $\\ell_2 $ Regularization in Overparameterized Linear Regression",
+      "ENTRYTYPE": "article",
+      "ID": "wu2020optimal"
+    },
+    {
+      "year": "2010",
+      "number": "2",
+      "volume": "11",
+      "journal": "Journal of Machine Learning Research",
+      "author": "Rosasco, Lorenzo and Belkin, Mikhail and De Vito, Ernesto",
+      "title": "On learning with integral operators.",
+      "ENTRYTYPE": "article",
+      "ID": "rosasco2010learning"
+    },
+    {
+      "publisher": "Springer Science \\& Business Media",
+      "year": "2012",
+      "volume": "2044",
+      "author": "Atkinson, Kendall and Han, Weimin",
+      "title": "Spherical harmonics and approximations on the unit sphere: an introduction",
+      "ENTRYTYPE": "book",
+      "ID": "atkinson2012spherical"
+    },
+    {
+      "year": "2011",
+      "pages": "21--63",
+      "volume": "4",
+      "journal": "Dolomites Research Notes on Approximation",
+      "author": "Fasshauer, Gregory E",
+      "title": "Positive definite kernels: past, present and future",
+      "ENTRYTYPE": "article",
+      "ID": "fasshauer2011positive"
+    },
+    {
+      "publisher": "American Mathematical Soc.",
+      "year": "1939",
+      "volume": "23",
+      "author": "Szeg, Gabor",
+      "title": "Orthogonal polynomials",
+      "ENTRYTYPE": "book",
+      "ID": "szeg1939orthogonal"
+    },
+    {
+      "publisher": "JMLR. org",
+      "year": "2006",
+      "pages": "2303--2328",
+      "volume": "7",
+      "journal": "The Journal of Machine Learning Research",
+      "author": "Braun, Mikio L",
+      "title": "Accurate error bounds for the eigenvalues of the kernel matrix",
+      "ENTRYTYPE": "article",
+      "ID": "braun2006accurate"
+    },
+    {
+      "publisher": "Springer",
+      "year": "2015",
+      "pages": "35--63",
+      "volume": "9",
+      "journal": "Complex Analysis and Operator Theory",
+      "author": "Mas, Andr{\\'e} and Ruymgaart, Frits",
+      "title": "High-dimensional principal projections",
+      "ENTRYTYPE": "article",
+      "ID": "mas2015high"
+    },
+    {
+      "publisher": "JSTOR",
+      "year": "2017",
+      "pages": "110--133",
+      "number": "1",
+      "volume": "23",
+      "journal": "Bernoulli",
+      "author": "Koltchinskii, Vladimir and Lounici, Karim",
+      "title": "Concentration inequalities and moment bounds for sample covariance operators",
+      "ENTRYTYPE": "article",
+      "ID": "koltchinskii2017concentration"
+    },
+    {
+      "year": "2020",
+      "pages": "479--494",
+      "number": "2",
+      "volume": "148",
+      "journal": "Proceedings of the American Mathematical Society",
+      "author": "Jirak, Moritz and Wahl, Martin",
+      "title": "Perturbation bounds for eigenspaces under a relative gap condition",
+      "ENTRYTYPE": "article",
+      "ID": "jirak2020perturbation"
+    },
+    {
+      "year": "2018",
+      "journal": "arXiv preprint arXiv:1812.02108",
+      "author": "Valdivia, Ernesto Araya",
+      "title": "Relative concentration bounds for the spectrum of kernel matrices",
+      "ENTRYTYPE": "article",
+      "ID": "valdivia2018relative"
+    },
+    {
+      "publisher": "Now Publishers, Inc.",
+      "year": "2015",
+      "pages": "1--230",
+      "number": "1-2",
+      "volume": "8",
+      "journal": "Foundations and Trends{\\textregistered} in Machine Learning",
+      "author": "Tropp, Joel A and others",
+      "title": "An introduction to matrix concentration inequalities",
+      "ENTRYTYPE": "article",
+      "ID": "tropp2015introduction"
+    },
+    {
+      "year": "2020",
+      "pages": "15568--15578",
+      "volume": "33",
+      "journal": "Advances in neural information processing systems",
+      "author": "Jacot, Arthur and Simsek, Berfin and Spadaro, Francesco and Hongler, Cl{\\'e}ment and Gabriel, Franck",
+      "title": "Kernel alignment risk estimator: Risk prediction from training data",
+      "ENTRYTYPE": "article",
+      "ID": "jacot2020kernel"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2210.08571",
+      "author": "Cheng, Chen and Montanari, Andrea",
+      "title": "Dimension free ridge regression",
+      "ENTRYTYPE": "article",
+      "ID": "cheng2022dimension"
+    },
+    {
+      "publisher": "National Acad Sciences",
+      "year": "2020",
+      "pages": "30063--30070",
+      "number": "48",
+      "volume": "117",
+      "journal": "Proceedings of the National Academy of Sciences",
+      "author": "Bartlett, Peter L and Long, Philip M and Lugosi, G{\\'a}bor and Tsigler, Alexander",
+      "title": "Benign overfitting in linear regression",
+      "ENTRYTYPE": "article",
+      "ID": "bartlett2020benign"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2020",
+      "pages": "1024--1034",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Bordelon, Blake and Canatar, Abdulkadir and Pehlevan, Cengiz",
+      "title": "Spectrum dependent learning curves in kernel regression and wide neural networks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "bordelon2020spectrum"
+    },
+    {
+      "publisher": "Nature Publishing Group UK London",
+      "year": "2021",
+      "pages": "2914",
+      "number": "1",
+      "volume": "12",
+      "journal": "Nature communications",
+      "author": "Canatar, Abdulkadir and Bordelon, Blake and Pehlevan, Cengiz",
+      "title": "Spectral bias and task-model alignment explain generalization in kernel regression and infinitely wide neural networks",
+      "ENTRYTYPE": "article",
+      "ID": "canatar2021spectral"
+    },
+    {
+      "year": "2021",
+      "journal": "arXiv preprint arXiv:2110.03922",
+      "author": "Simon, James B and Dickens, Madeline and Karkada, Dhruva and DeWeese, Michael R",
+      "title": "The Eigenlearning Framework: A Conservation Law Perspective on Kernel Regression and Wide Neural Networks",
+      "ENTRYTYPE": "article",
+      "ID": "simon2021eigenlearning"
+    },
+    {
+      "year": "2021",
+      "pages": "20657--20668",
+      "volume": "34",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Koehler, Frederic and Zhou, Lijia and Sutherland, Danica J and Srebro, Nathan",
+      "title": "Uniform convergence of interpolators: Gaussian width, norm bounds and benign overfitting",
+      "ENTRYTYPE": "article",
+      "ID": "koehler2021uniform"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2303.01372",
+      "author": "Bach, Francis",
+      "title": "High-dimensional analysis of double descent for linear regression with random projections",
+      "ENTRYTYPE": "article",
+      "ID": "bach2023high"
+    },
+    {
+      "year": "2021",
+      "author": "Ghorbani, Behrooz and Mei, Song and Misiakiewicz, Theodor and Montanari, Andrea",
+      "title": "Linearized two-layers neural networks in high dimension",
+      "ENTRYTYPE": "article",
+      "ID": "ghorbani2021linearized"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2020",
+      "pages": "3452--3462",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Gerace, Federica and Loureiro, Bruno and Krzakala, Florent and M{\\'e}zard, Marc and Zdeborov{\\'a}, Lenka",
+      "title": "Generalisation error in learning with random features and the hidden manifold model",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "gerace2020generalisation"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2303.15809",
+      "author": "Li, Yicheng and Zhang, Haobo and Lin, Qian",
+      "title": "Kernel interpolation generalizes poorly",
+      "ENTRYTYPE": "article",
+      "ID": "li2023kernel"
+    },
+    {
+      "publisher": "Springer",
+      "year": "2012",
+      "pages": "363--417",
+      "volume": "35",
+      "journal": "Constructive Approximation",
+      "author": "Steinwart, Ingo and Scovel, Clint",
+      "title": "Mercer’s theorem on general domains: On the interaction between measures, kernels, and RKHSs",
+      "ENTRYTYPE": "article",
+      "ID": "steinwart2012mercer"
+    },
+    {
+      "publisher": "Cambridge university press",
+      "year": "2012",
+      "author": "Horn, Roger A and Johnson, Charles R",
+      "title": "Matrix analysis",
+      "ENTRYTYPE": "book",
+      "ID": "horn2012matrix"
+    },
+    {
+      "school": "Universit{\\\"a}ts-und Landesbibliothek Bonn",
+      "year": "2005",
+      "author": "Braun, Mikio Ludwig",
+      "title": "Spectral properties of the kernel matrix and their relation to kernel methods in machine learning",
+      "ENTRYTYPE": "phdthesis",
+      "ID": "braun2005spectral"
+    },
+    {
+      "year": "2000",
+      "volume": "13",
+      "journal": "Advances in neural information processing systems",
+      "author": "Smola, Alex and Ov{\\'a}ri, Zolt{\\'a}n and Williamson, Robert C",
+      "title": "Regularization with dot-product kernels",
+      "ENTRYTYPE": "article",
+      "ID": "smola2000regularization"
+    },
+    {
+      "publisher": "Springer",
+      "year": "2013",
+      "author": "Dai, Feng",
+      "title": "Approximation theory and harmonic analysis on spheres and balls",
+      "ENTRYTYPE": "book",
+      "ID": "dai2013approximation"
+    },
+    {
+      "year": "2009",
+      "journal": "arXiv preprint arXiv:0901.2639",
+      "author": "Szmytkowski, Radoslaw",
+      "title": "A note on parameter derivatives of classical orthogonal polynomials",
+      "ENTRYTYPE": "article",
+      "ID": "szmytkowski2009note"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "1991",
+      "pages": "226--234",
+      "number": "2",
+      "volume": "64",
+      "journal": "Journal of approximation theory",
+      "author": "Loh{\\\"o}fer, Georg",
+      "title": "Inequalities for Legendre functions and Gegenbauer functions",
+      "ENTRYTYPE": "article",
+      "ID": "lohofer1991inequalities"
+    },
+    {
+      "publisher": "Courier Dover Publications",
+      "year": "2015",
+      "author": "Artin, Emil",
+      "title": "The gamma function",
+      "ENTRYTYPE": "book",
+      "ID": "artin2015gamma"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2021",
+      "pages": "8119--8129",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Nguyen, Quynh and Mondelli, Marco and Montufar, Guido F",
+      "title": "Tight bounds on the smallest eigenvalue of the neural tangent kernel for deep relu networks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "nguyen2021tight"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "1986",
+      "pages": "141--158",
+      "volume": "80",
+      "journal": "Linear Algebra and its Applications",
+      "author": "Dancis, Jerome",
+      "title": "A quantitative formulation of Sylvester's law of inertia. III",
+      "ENTRYTYPE": "article",
+      "ID": "dancis1986quantitative"
+    },
+    {
+      "year": "2012",
+      "volume": "5",
+      "journal": "Internet publication, PDF",
+      "author": "Rivasplata, Omar",
+      "title": "Subgaussian random variables: An expository note",
+      "ENTRYTYPE": "article",
+      "ID": "rivasplata2012subgaussian"
+    },
+    {
+      "publisher": "Springer",
+      "year": "2016",
+      "pages": "378--398",
+      "number": "1",
+      "volume": "26",
+      "journal": "The Journal of Geometric Analysis",
+      "author": "Han, Xiaolong",
+      "title": "Spherical harmonics with maximal L p (2 $<$ p $\\leq$ 6) norm growth",
+      "ENTRYTYPE": "article",
+      "ID": "han2016spherical"
+    },
+    {
+      "year": "1987",
+      "pages": "487--491",
+      "number": "3",
+      "volume": "101",
+      "journal": "Proceedings of the American Mathematical Society",
+      "author": "Duoandikoetxea, Javier",
+      "title": "Reverse H{\\\"o}lder inequalities for spherical harmonics",
+      "ENTRYTYPE": "article",
+      "ID": "duoandikoetxea1987reverse"
+    },
+    {
+      "publisher": "Springer Science \\& Business Media",
+      "year": "2012",
+      "author": "De la Pena, Victor and Gin{\\'e}, Evarist",
+      "title": "Decoupling: from dependence to independence",
+      "ENTRYTYPE": "book",
+      "ID": "de2012decoupling"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2020",
+      "pages": "2683--2711",
+      "booktitle": "Conference on Learning Theory",
+      "author": "Liang, Tengyuan and Rakhlin, Alexander and Zhai, Xiyu",
+      "title": "On the multiple descent of minimum-norm interpolants and restricted lower isometry of kernels",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "liang2020multiple"
+    },
+    {
+      "year": "2019",
+      "journal": "arXiv preprint arXiv:1912.01198",
+      "author": "Cao, Yuan and Fang, Zhiying and Wu, Yue and Zhou, Ding-Xuan and Gu, Quanquan",
+      "title": "Towards understanding the spectral bias of deep learning",
+      "ENTRYTYPE": "article",
+      "ID": "cao2019towards"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2018",
+      "pages": "1348--1361",
+      "booktitle": "Conference On Learning Theory",
+      "author": "Belkin, Mikhail",
+      "title": "Approximation beats concentration? An approximation view on inference with smooth radial kernels",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "belkin2018approximation"
+    },
+    {
+      "year": "2015",
+      "number": "1",
+      "volume": "3",
+      "journal": "Proceeding Series of the Brazilian Society of Computational and Applied Mathematics",
+      "author": "Azevedo, Douglas and Menegatto, Valdir A",
+      "title": "Eigenvalues of dot-product kernels on the sphere",
+      "ENTRYTYPE": "article",
+      "ID": "azevedo2015eigenvalues"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2021",
+      "pages": "3394--3402",
+      "booktitle": "International conference on artificial intelligence and statistics",
+      "author": "Scetbon, Meyer and Harchaoui, Zaid",
+      "title": "A spectral analysis of dot-product kernels",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "scetbon2021spectral"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2204.10425",
+      "author": "Misiakiewicz, Theodor",
+      "title": "Spectrum of inner-product kernel matrices in the polynomial regime and multiple descent phenomenon in kernel ridge regression",
+      "ENTRYTYPE": "article",
+      "ID": "misiakiewicz2022spectrum"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2211.07844",
+      "author": "Murray, Michael and Jin, Hui and Bowman, Benjamin and Montufar, Guido",
+      "title": "Characterizing the spectrum of the NTK via a power series expansion",
+      "ENTRYTYPE": "article",
+      "ID": "murray2022characterizing"
+    },
+    {
+      "year": "2021",
+      "journal": "arXiv preprint arXiv:2109.09304",
+      "author": "Wang, Zhichao and Zhu, Yizhe",
+      "title": "Deformed semicircle law and concentration of nonlinear random matrices for ultra-wide neural networks",
+      "ENTRYTYPE": "article",
+      "ID": "wang2021deformed"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "2020",
+      "pages": "84--105",
+      "number": "1",
+      "volume": "1",
+      "journal": "IEEE Journal on Selected Areas in Information Theory",
+      "author": "Oymak, Samet and Soltanolkotabi, Mahdi",
+      "title": "Toward moderate overparameterization: Global convergence guarantees for training shallow neural networks",
+      "ENTRYTYPE": "article",
+      "ID": "oymak2020toward"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2211.14810",
+      "author": "Barzilai, Daniel and Geifman, Amnon and Galun, Meirav and Basri, Ronen",
+      "title": "A kernel perspective of skip connections in convolutional networks",
+      "ENTRYTYPE": "article",
+      "ID": "barzilai2022kernel"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2307.14531",
+      "author": "Geifman, Amnon and Barzilai, Daniel and Basri, Ronen and Galun, Meirav",
+      "title": "Controlling the Inductive Bias of Wide Neural Networks by Modifying the Kernel's Spectrum",
+      "ENTRYTYPE": "article",
+      "ID": "geifman2023controlling"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2019",
+      "pages": "1370--1378",
+      "booktitle": "The 22nd international conference on artificial intelligence and statistics",
+      "author": "Ali, Alnur and Kolter, J Zico and Tibshirani, Ryan J",
+      "title": "A continuous-time view of early stopping for least squares regression",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ali2019continuous"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2019",
+      "pages": "1675--1685",
+      "booktitle": "International conference on machine learning",
+      "author": "Du, Simon and Lee, Jason and Li, Haochuan and Wang, Liwei and Zhai, Xiyu",
+      "title": "Gradient descent finds global minima of deep neural networks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "du2019gradient"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2020",
+      "pages": "4542--4551",
+      "booktitle": "International conference on machine learning",
+      "author": "Huang, Jiaoyang and Yau, Horng-Tzer",
+      "title": "Dynamics of deep neural networks and neural tangent hierarchy",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "huang2020dynamics"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2019",
+      "pages": "322--332",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Arora, Sanjeev and Du, Simon and Hu, Wei and Li, Zhiyuan and Wang, Ruosong",
+      "title": "Fine-grained analysis of optimization and generalization for overparameterized two-layer neural networks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "arora2019fine"
+    },
+    {
+      "year": "2020",
+      "pages": "7710--7721",
+      "volume": "33",
+      "journal": "Advances in neural information processing systems",
+      "author": "Fan, Zhou and Wang, Zhichao",
+      "title": "Spectra of the conjugate kernel and neural tangent kernel for linear-width neural networks",
+      "ENTRYTYPE": "article",
+      "ID": "fan2020spectra"
+    },
+    {
+      "year": "2020",
+      "journal": "arXiv preprint arXiv:2009.14397",
+      "author": "Bietti, Alberto and Bach, Francis",
+      "title": "Deep equals shallow for ReLU networks in kernel regimes",
+      "ENTRYTYPE": "article",
+      "ID": "bietti2020deep"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2020",
+      "pages": "685--694",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Basri, Ronen and Galun, Meirav and Geifman, Amnon and Jacobs, David and Kasten, Yoni and Kritchman, Shira",
+      "title": "Frequency bias in neural networks for input of non-uniform density",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "basri2020frequency"
+    },
+    {
+      "year": "2021",
+      "journal": "arXiv preprint arXiv:2106.03212",
+      "author": "Li, Zhu and Zhou, Zhi-Hua and Gretton, Arthur",
+      "title": "Towards an understanding of benign overfitting in neural networks",
+      "ENTRYTYPE": "article",
+      "ID": "li2021towards"
+    },
+    {
+      "publisher": "JSTOR",
+      "year": "2018",
+      "pages": "247--279",
+      "number": "1",
+      "volume": "46",
+      "journal": "The Annals of Statistics",
+      "author": "Dobriban, Edgar and Wager, Stefan",
+      "title": "High-dimensional asymptotics of prediction: Ridge regression and classification",
+      "ENTRYTYPE": "article",
+      "ID": "dobriban2018high"
+    },
+    {
+      "year": "2019",
+      "volume": "32",
+      "journal": "Advances in neural information processing systems",
+      "author": "Lee, Jaehoon and Xiao, Lechao and Schoenholz, Samuel and Bahri, Yasaman and Novak, Roman and Sohl-Dickstein, Jascha and Pennington, Jeffrey",
+      "title": "Wide neural networks of any depth evolve as linear models under gradient descent",
+      "ENTRYTYPE": "article",
+      "ID": "lee2019wide"
+    },
+    {
+      "year": "2018",
+      "volume": "31",
+      "journal": "Advances in neural information processing systems",
+      "author": "Jacot, Arthur and Gabriel, Franck and Hongler, Cl{\\'e}ment",
+      "title": "Neural tangent kernel: Convergence and generalization in neural networks",
+      "ENTRYTYPE": "article",
+      "ID": "jacot2018neural"
+    },
+    {
+      "publisher": "Springer",
+      "year": "2007",
+      "pages": "331--368",
+      "volume": "7",
+      "journal": "Foundations of Computational Mathematics",
+      "author": "Caponnetto, Andrea and De Vito, Ernesto",
+      "title": "Optimal rates for the regularized least-squares algorithm",
+      "ENTRYTYPE": "article",
+      "ID": "caponnetto2007optimal"
+    },
+    {
+      "year": "2009",
+      "pages": "79--93",
+      "booktitle": "COLT",
+      "author": "Steinwart, Ingo and Hush, Don R and Scovel, Clint and others",
+      "title": "Optimal Rates for Regularized Least Squares Regression.",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "steinwart2009optimal"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2310.00987",
+      "author": "Cheng, Tin Sum and Lucchi, Aurelien and Dokmani{\\'c}, Ivan and Kratsios, Anastasis and Belius, David",
+      "title": "A Theoretical Analysis of the Test Error of Finite-Rank Kernel Ridge Regression",
+      "ENTRYTYPE": "article",
+      "ID": "cheng2023theoretical"
+    },
+    {
+      "publisher": "IOP Publishing",
+      "year": "2020",
+      "pages": "124001",
+      "number": "12",
+      "volume": "2020",
+      "journal": "Journal of Statistical Mechanics: Theory and Experiment",
+      "author": "Spigler, Stefano and Geiger, Mario and Wyart, Matthieu",
+      "title": "Asymptotic learning curves of kernel methods: empirical data versus teacher--student paradigm",
+      "ENTRYTYPE": "article",
+      "ID": "spigler2020asymptotic"
+    },
+    {
+      "year": "2005",
+      "author": "Caponnetto, Andrea and Vito, Ernesto De",
+      "title": "Fast rates for regularized least-squares algorithm",
+      "ENTRYTYPE": "article",
+      "ID": "caponnetto2005fast"
+    },
+    {
+      "year": "2020",
+      "journal": "arXiv preprint arXiv:2009.10683",
+      "author": "Chen, Lin and Xu, Sheng",
+      "title": "Deep neural tangent kernel and laplace kernel have the same rkhs",
+      "ENTRYTYPE": "article",
+      "ID": "chen2020deep"
+    },
+    {
+      "year": "2019",
+      "volume": "32",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Basri, Ronen and Jacobs, David and Kasten, Yoni and Kritchman, Shira",
+      "title": "The convergence rate of neural networks for learned functions of different frequencies",
+      "ENTRYTYPE": "article",
+      "ID": "ronen2019convergence"
+    },
+    {
+      "year": "2021",
+      "journal": "arXiv preprint arXiv:2104.03093",
+      "author": "Belfer, Yuval and Geifman, Amnon and Galun, Meirav and Basri, Ronen",
+      "title": "Spectral analysis of the neural tangent kernel for deep residual networks",
+      "ENTRYTYPE": "article",
+      "ID": "belfer2021spectral"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2021",
+      "pages": "11762--11772",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Yang, Greg and Littwin, Etai",
+      "title": "Tensor programs iib: Architectural universality of neural tangent kernel training dynamics",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "yang2021tensor"
+    },
+    {
+      "year": "2022",
+      "pages": "30362--30377",
+      "volume": "35",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Bowman, Benjamin and Montufar, Guido F",
+      "title": "Spectral bias outside the training set for deep networks in the kernel regime",
+      "ENTRYTYPE": "article",
+      "ID": "bowman2022spectral"
+    },
+    {
+      "year": "2022",
+      "pages": "11253--11265",
+      "volume": "35",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Geifman, Amnon and Galun, Meirav and Jacobs, David and Ronen, Basri",
+      "title": "On the spectral bias of convolutional neural tangent and gaussian process kernels",
+      "ENTRYTYPE": "article",
+      "ID": "geifman2022spectral"
+    },
+    {
+      "organization": "Springer",
+      "year": "2006",
+      "pages": "154--168",
+      "booktitle": "International Conference on Computational Learning Theory",
+      "author": "Minh, Ha Quang and Niyogi, Partha and Yao, Yuan",
+      "title": "Mercer’s theorem, feature maps, and smoothing",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "minh2006mercer"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "2006",
+      "pages": "4635--4643",
+      "number": "10",
+      "volume": "52",
+      "journal": "IEEE Transactions on Information Theory",
+      "author": "Steinwart, Ingo and Hush, Don and Scovel, Clint",
+      "title": "An explicit description of the reproducing kernel Hilbert spaces of Gaussian RBF kernels",
+      "ENTRYTYPE": "article",
+      "ID": "steinwart2006explicit"
+    },
+    {
+      "publisher": "Cambridge University Press",
+      "year": "2014",
+      "author": "O'Donnell, Ryan",
+      "title": "Analysis of boolean functions",
+      "ENTRYTYPE": "book",
+      "ID": "o2014analysis"
+    },
+    {
+      "year": "2019",
+      "journal": "arXiv preprint arXiv:1907.10599",
+      "author": "Yang, Greg and Salman, Hadi",
+      "title": "A fine-grained spectral perspective on neural networks",
+      "ENTRYTYPE": "article",
+      "ID": "yang2019fine"
+    },
+    {
+      "year": "2017",
+      "journal": "arXiv preprint arXiv:1711.00165",
+      "author": "Lee, Jaehoon and Bahri, Yasaman and Novak, Roman and Schoenholz, Samuel S and Pennington, Jeffrey and Sohl-Dickstein, Jascha",
+      "title": "Deep neural networks as gaussian processes",
+      "ENTRYTYPE": "article",
+      "ID": "lee2017deep"
+    },
+    {
+      "publisher": "National Acad Sciences",
+      "year": "2019",
+      "pages": "15849--15854",
+      "number": "32",
+      "volume": "116",
+      "journal": "Proceedings of the National Academy of Sciences",
+      "author": "Belkin, Mikhail and Hsu, Daniel and Ma, Siyuan and Mandal, Soumik",
+      "title": "Reconciling modern machine-learning practice and the classical bias--variance trade-off",
+      "ENTRYTYPE": "article",
+      "ID": "belkin2019reconciling"
+    },
+    {
+      "publisher": "JMLR. org",
+      "year": "2018",
+      "pages": "2822--2878",
+      "number": "1",
+      "volume": "19",
+      "journal": "The Journal of Machine Learning Research",
+      "author": "Soudry, Daniel and Hoffer, Elad and Nacson, Mor Shpigel and Gunasekar, Suriya and Srebro, Nathan",
+      "title": "The implicit bias of gradient descent on separable data",
+      "ENTRYTYPE": "article",
+      "ID": "soudry2018implicit"
+    },
+    {
+      "year": "2022",
+      "volume": "35",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Safran, Itay and Vardi, Gal and Lee, Jason D",
+      "title": "On the Effective Number of Linear Regions in Shallow Univariate ReLU Networks: Convergence Guarantees and Implicit Bias",
+      "ENTRYTYPE": "article",
+      "ID": "safraneffective2022"
+    },
+    {
+      "year": "2018",
+      "author": "Mohri, Mehryar and Rostamizadeh, Afshin and Talwalkar, Ameet",
+      "title": "Foundations of machine learning",
+      "ENTRYTYPE": "book",
+      "ID": "mohri2018foundations"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2023",
+      "pages": "3173--3228",
+      "booktitle": "The Thirty Sixth Annual Conference on Learning Theory",
+      "author": "Frei, Spencer and Vardi, Gal and Bartlett, Peter and Srebro, Nathan",
+      "title": "Benign overfitting in linear classifiers and leaky relu networks from kkt conditions for margin maximization",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "frei2023benign"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2302.07263",
+      "author": "Manoj, Naren Sarayu and Srebro, Nathan",
+      "title": "Interpolation Learning With Minimum Description Length",
+      "ENTRYTYPE": "article",
+      "ID": "manoj2023interpolation"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2019",
+      "pages": "2595--2623",
+      "booktitle": "Conference on Learning Theory",
+      "author": "Rakhlin, Alexander and Zhai, Xiyu",
+      "title": "Consistency of interpolation with Laplace kernels is a high-dimensional phenomenon",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "rakhlin2019consistency"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2023",
+      "pages": "11094--11117",
+      "booktitle": "International Conference on Artificial Intelligence and Statistics",
+      "author": "Xu, Xingyu and Gu, Yuantao",
+      "title": "Benign overfitting of non-smooth neural networks beyond lazy training",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "xu2023benign"
+    },
+    {
+      "year": "2017",
+      "journal": "5th International Conference on Learning Representations,\n{ICLR}",
+      "author": "Zhang, Chiyuan and Bengio, Samy and Hardt, Moritz and Recht, Benjamin and Vinyals, Oriol",
+      "title": "Understanding deep learning requires rethinking generalization",
+      "ENTRYTYPE": "article",
+      "ID": "zhang2017understanding"
+    },
+    {
+      "year": "2020",
+      "booktitle": "8th International Conference on Learning Representations (ICLR)",
+      "title": "Gradient Descent Maximizes the Margin of Homogeneous Neural Networks",
+      "author": "Kaifeng Lyu and\nJian Li",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "lyu2020gradient"
+    },
+    {
+      "year": "2020",
+      "pages": "17176--17186",
+      "volume": "33",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Ji, Ziwei and Telgarsky, Matus",
+      "title": "Directional convergence and alignment in deep learning",
+      "ENTRYTYPE": "article",
+      "ID": "ji2020directional"
+    },
+    {
+      "publisher": "SIAM",
+      "year": "1990",
+      "author": "Clarke, F. H. ",
+      "title": "Optimization and Nonsmooth Analysis",
+      "ENTRYTYPE": "book",
+      "ID": "Clarke-1990-Optimization"
+    },
+    {
+      "publisher": "Wiley Online Library",
+      "year": "1965",
+      "pages": "395--436",
+      "number": "3",
+      "volume": "27",
+      "journal": "Journal of the Royal Statistical Society: Series B (Methodological)",
+      "author": "Pyke, Ronald",
+      "title": "Spacings",
+      "ENTRYTYPE": "article",
+      "ID": "pyke1965spacings"
+    },
+    {
+      "year": "2022",
+      "pages": "37024--37036",
+      "volume": "35",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Vardi, Gal and Shamir, Ohad and Srebro, Nati",
+      "title": "On margin maximization in linear and relu networks",
+      "ENTRYTYPE": "article",
+      "ID": "vardi2022margin"
+    },
+    {
+      "year": "1997",
+      "pages": "26",
+      "number": "1-58",
+      "volume": "31",
+      "journal": "Flavors of geometry",
+      "author": "Ball, Keith",
+      "title": "An elementary introduction to modern convex geometry",
+      "ENTRYTYPE": "article",
+      "ID": "ball1997elementary"
+    },
+    {
+      "publisher": "Cambridge University Press",
+      "year": "2021",
+      "pages": "203--248",
+      "volume": "30",
+      "journal": "Acta Numerica",
+      "author": "Belkin, Mikhail",
+      "title": "Fit without fear: remarkable mathematical phenomena of deep learning through the prism of interpolation",
+      "ENTRYTYPE": "article",
+      "ID": "belkin2021fit"
+    },
+    {
+      "year": "2020",
+      "pages": "1329--1347",
+      "number": "3",
+      "volume": "48",
+      "journal": "The Annals of Statistics",
+      "author": "Liang, Tengyuan and Rakhlin, Alexander",
+      "title": "Just interpolate: Kernel “ridgeless” regression can generalize",
+      "ENTRYTYPE": "article",
+      "ID": "liang2020just"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2022",
+      "pages": "2668--2703",
+      "booktitle": "Conference on Learning Theory",
+      "author": "Frei, Spencer and Chatterji, Niladri S and Bartlett, Peter",
+      "title": "Benign overfitting without linearity: Neural network classifiers trained by gradient descent for noisy linear data",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "frei2022benign"
+    },
+    {
+      "year": "2022",
+      "pages": "25237--25250",
+      "volume": "35",
+      "journal": "Advances in neural information processing systems",
+      "author": "Cao, Yuan and Chen, Zixiang and Belkin, Misha and Gu, Quanquan",
+      "title": "Benign overfitting in two-layer convolutional neural networks",
+      "ENTRYTYPE": "article",
+      "ID": "cao2022benign"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2303.04145",
+      "author": "Kou, Yiwen and Chen, Zixiang and Chen, Yuanzhou and Gu, Quanquan",
+      "title": "Benign Overfitting for Two-layer ReLU Networks",
+      "ENTRYTYPE": "article",
+      "ID": "kou2023benign"
+    },
+    {
+      "year": "2023",
+      "pages": "1--39",
+      "number": "117",
+      "volume": "24",
+      "journal": "Journal of Machine Learning Research",
+      "author": "Chatterji, Niladri S and Long, Philip M",
+      "title": "Deep linear networks can benignly overfit when shallow ones do",
+      "ENTRYTYPE": "article",
+      "ID": "chatterji2023deep"
+    },
+    {
+      "publisher": "Springer",
+      "year": "2013",
+      "pages": "1463--1499",
+      "number": "4",
+      "volume": "56",
+      "journal": "Journal of Global Optimization",
+      "author": "Dutta, Joydeep and Deb, Kalyanmoy and Tulshyan, Rupesh and Arora, Ramnik",
+      "title": "Approximate KKT points and a proximity measure for termination",
+      "ENTRYTYPE": "article",
+      "ID": "dutta2013approximate"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2208.12591",
+      "author": "Vardi, Gal",
+      "title": "On the implicit bias in deep-learning algorithms",
+      "ENTRYTYPE": "article",
+      "ID": "vardi2022implicit"
+    },
+    {
+      "publisher": "SIAM",
+      "year": "2020",
+      "pages": "1167--1180",
+      "number": "4",
+      "volume": "2",
+      "journal": "SIAM Journal on Mathematics of Data Science",
+      "author": "Belkin, Mikhail and Hsu, Daniel and Xu, Ji",
+      "title": "Two models of double descent for weak features",
+      "ENTRYTYPE": "article",
+      "ID": "belkin2020two"
+    },
+    {
+      "year": "2023",
+      "volume": "1",
+      "journal": "ACM/IMS Journal of Data Science",
+      "author": "Zhou, Lijia and Koehler, Frederic and Sutherland, Danica J and Srebro, Nathan",
+      "title": "Optimistic rates: A unifying theory for interpolation learning and regularization in linear regression",
+      "ENTRYTYPE": "article",
+      "ID": "zhou2023optimistic"
+    },
+    {
+      "year": "2019",
+      "volume": "32",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Nagarajan, Vaishnavh and Kolter, J Zico",
+      "title": "Uniform convergence may be unable to explain generalization in deep learning",
+      "ENTRYTYPE": "article",
+      "ID": "nagarajan2019uniform"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2021",
+      "pages": "11704--11715",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Yang, Zitong and Bai, Yu and Mei, Song",
+      "title": "Exact gap between generalization error and uniform convergence in random feature models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "yang2021exact"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2020",
+      "pages": "7263--7272",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Negrea, Jeffrey and Dziugaite, Gintare Karolina and Roy, Daniel",
+      "title": "In defense of uniform convergence: Generalization via derandomization with an application to interpolating predictors",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "negrea2020defense"
+    },
+    {
+      "publisher": "JMLR.org",
+      "year": "2021",
+      "pages": "9297--9311",
+      "number": "1",
+      "volume": "22",
+      "journal": "The Journal of Machine Learning Research",
+      "author": "Bartlett, Peter L and Long, Philip M",
+      "title": "Failures of model-dependent generalization bounds for least-norm interpolation",
+      "ENTRYTYPE": "article",
+      "ID": "bartlett2021failures"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2021",
+      "pages": "490--499",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Bachmann, Gregor and Moosavi-Dezfooli, Seyed-Mohsen and Hofmann, Thomas",
+      "title": "Uniform convergence, adversarial spheres and a simple remedy",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "bachmann2021uniform"
+    },
+    {
+      "year": "2023",
+      "pages": "1--40",
+      "number": "113",
+      "volume": "24",
+      "journal": "Journal of Machine Learning Research",
+      "author": "Shamir, Ohad",
+      "title": "The Implicit Bias of Benign Overfitting",
+      "ENTRYTYPE": "article",
+      "ID": "shamir2023implicit"
+    },
+    {
+      "organization": "IEEE",
+      "year": "2021",
+      "pages": "4030--4034",
+      "booktitle": "ICASSP 2021-2021 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+      "author": "Wang, Ke and Thrampoulidis, Christos",
+      "title": "Benign overfitting in binary classification of gaussian mixtures",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "wang2021abenign"
+    },
+    {
+      "year": "2023",
+      "pages": "1--27",
+      "number": "20",
+      "volume": "24",
+      "journal": "Journal of Machine Learning Research",
+      "author": "Liang, Tengyuan and Recht, Benjamin",
+      "title": "Interpolating Classifiers Make Few Mistakes",
+      "ENTRYTYPE": "article",
+      "ID": "liang2023interpolating"
+    },
+    {
+      "year": "2019",
+      "volume": "112",
+      "journal": "Center for Brains, Minds and Machines (CBMM) Memo",
+      "author": "Poggio, Tomaso and Liao, Qianli",
+      "title": "Generalization in deep network classifiers trained with the square loss",
+      "ENTRYTYPE": "article",
+      "ID": "poggio2019generalization"
+    },
+    {
+      "year": "2021",
+      "pages": "24164--24179",
+      "volume": "34",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Wang, Ke and Muthukumar, Vidya and Thrampoulidis, Christos",
+      "title": "Benign overfitting in multiclass classification: All roads lead to interpolation",
+      "ENTRYTYPE": "article",
+      "ID": "wang2021bbenign"
+    },
+    {
+      "year": "2022",
+      "pages": "16495--16508",
+      "volume": "35",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Hu, Tianyang and Wang, Jun and Wang, Wenjia and Li, Zhenguo",
+      "title": "Understanding square loss in training overparametrized neural network classifiers",
+      "ENTRYTYPE": "article",
+      "ID": "hu2022understanding"
+    },
+    {
+      "year": "2020",
+      "pages": "8907--8920",
+      "volume": "33",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Thrampoulidis, Christos and Oymak, Samet and Soltanolkotabi, Mahdi",
+      "title": "Theoretical insights into multiclass classification: A high-dimensional asymptotic view",
+      "ENTRYTYPE": "article",
+      "ID": "thrampoulidis2020theoretical"
+    },
+    {
+      "year": "2020",
+      "journal": "arXiv preprint arXiv:2009.08092",
+      "author": "Nakkiran, Preetum and Bansal, Yamini",
+      "title": "Distributional generalization: A new kind of generalization",
+      "ENTRYTYPE": "article",
+      "ID": "nakkiran2020distributional"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2303.01353",
+      "author": "Boursier, Etienne and Flammarion, Nicolas",
+      "title": "Penalising the biases in norm regularisation enforces sparsity",
+      "ENTRYTYPE": "article",
+      "ID": "boursier2023penalising"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2019",
+      "pages": "2667--2690",
+      "booktitle": "Conference on Learning Theory",
+      "author": "Savarese, Pedro and Evron, Itay and Soudry, Daniel and Srebro, Nathan",
+      "title": "How do infinite width bounded norm networks look in function space?",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "savarese2019infinite"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2206.07892",
+      "author": "Glasgow, Margalit and Wei, Colin and Wootters, Mary and Ma, Tengyu",
+      "title": "Max-Margin Works while Large Margin Fails: Generalization without Uniform Convergence",
+      "ENTRYTYPE": "article",
+      "ID": "glasgow2022max"
+    },
+    {
+      "year": "2024",
+      "booktitle": "The Twelfth International Conference on Learning Representations",
+      "author": "Joshi, Nirmit and Vardi, Gal and Srebro, Nathan",
+      "title": "Noisy Interpolation Learning with Shallow Univariate ReLU Networks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "joshi2024noisy"
+    },
+    {
+      "year": "2024",
+      "volume": "36",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Kornowski, Guy and Yehudai, Gilad and Shamir, Ohad",
+      "title": "From tempered to benign overfitting in relu neural networks",
+      "ENTRYTYPE": "article",
+      "ID": "kornowski2024tempered"
+    },
+    {
+      "publisher": "Wiley Online Library",
+      "year": "2022",
+      "pages": "667--766",
+      "number": "4",
+      "volume": "75",
+      "journal": "Communications on Pure and Applied Mathematics",
+      "author": "Mei, Song and Montanari, Andrea",
+      "title": "The generalization error of random features regression: Precise asymptotics and the double descent curve",
+      "ENTRYTYPE": "article",
+      "ID": "mei2022generalizationrandomfeat"
+    },
+    {
+      "publisher": "Princeton University Press",
+      "year": "2009",
+      "author": "Stein, Elias M and Shakarchi, Rami",
+      "title": "Real analysis: measure theory, integration, and Hilbert spaces",
+      "ENTRYTYPE": "book",
+      "ID": "stein2009real"
+    },
+    {
+      "booktitle": "International Conference on Learning Representations",
+      "author": "Pope, Phil and Zhu, Chen and Abdelkader, Ahmed and Goldblum, Micah and Goldstein, Tom",
+      "year": "2021",
+      "title": "The Intrinsic Dimension of Images and Its Impact on Learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "pope2021intrinsic"
+    }
+  ]
+}

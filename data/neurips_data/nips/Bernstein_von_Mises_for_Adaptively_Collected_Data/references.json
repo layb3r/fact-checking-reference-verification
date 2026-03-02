@@ -1,0 +1,436 @@
+{
+  "pdf_url": "https://arxiv.org/pdf/2511.06639v1.pdf",
+  "references": [
+    {
+      "year": "2017",
+      "volume": "30",
+      "journal": "Advances in neural information processing systems",
+      "author": "Berkenkamp, Felix and Turchetta, Matteo and Schoellig, Angela and Krause, Andreas",
+      "title": "Safe model-based reinforcement learning with stability guarantees",
+      "ENTRYTYPE": "article",
+      "ID": "berkenkamp2017safe"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2211.10257",
+      "author": "Sussex, Scott and Makarova, Anastasiia and Krause, Andreas",
+      "title": "Model-based causal bayesian optimization",
+      "ENTRYTYPE": "article",
+      "ID": "sussex2022model"
+    },
+    {
+      "publisher": "JSTOR",
+      "year": "1982",
+      "pages": "154--166",
+      "journal": "The Annals of Statistics",
+      "author": "Lai, Tze Leung and Wei, Ching Zong",
+      "title": "Least squares estimates in stochastic regression models with applications to identification and control of dynamic systems",
+      "ENTRYTYPE": "article",
+      "ID": "lai1982least"
+    },
+    {
+      "publisher": "National Academy of Sciences",
+      "year": "2021",
+      "pages": "e2014602118",
+      "number": "15",
+      "volume": "118",
+      "journal": "Proceedings of the national academy of sciences",
+      "author": "Hadad, Vitor and Hirshberg, David A and Zhan, Ruohan and Wager, Stefan and Athey, Susan",
+      "title": "Confidence intervals for policy evaluation in adaptive experiments",
+      "ENTRYTYPE": "article",
+      "ID": "hadad2021confidence"
+    },
+    {
+      "publisher": "Academic Press",
+      "year": "1985",
+      "pages": "4--22",
+      "number": "1",
+      "volume": "6",
+      "journal": "Advances in applied mathematics",
+      "author": "Lai, Tze Leung and Robbins, Herbert",
+      "title": "Asymptotically efficient adaptive allocation rules",
+      "ENTRYTYPE": "article",
+      "ID": "lai1985asymptotically"
+    },
+    {
+      "publisher": "Springer",
+      "year": "2002",
+      "pages": "235--256",
+      "volume": "47",
+      "journal": "Machine learning",
+      "author": "Auer, Peter and Cesa-Bianchi, Nicolo and Fischer, Paul",
+      "title": "Finite-time analysis of the multiarmed bandit problem",
+      "ENTRYTYPE": "article",
+      "ID": "auer2002finite"
+    },
+    {
+      "organization": "Springer",
+      "year": "2012",
+      "pages": "199--213",
+      "booktitle": "International conference on algorithmic learning theory",
+      "author": "Kaufmann, Emilie and Korda, Nathaniel and Munos, R{\\'e}mi",
+      "title": "Thompson sampling: An asymptotically optimal finite-time analysis",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "kaufmann2012thompson"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2408.04595",
+      "author": "Khamaru, Koulik and Zhang, Cun-Hui",
+      "title": "Inference with the upper confidence bound algorithm",
+      "ENTRYTYPE": "article",
+      "ID": "khamaru2024inference"
+    },
+    {
+      "publisher": "Cambridge university press",
+      "year": "2000",
+      "volume": "3",
+      "author": "Van der Vaart, Aad W",
+      "title": "Asymptotic statistics",
+      "ENTRYTYPE": "book",
+      "ID": "van2000asymptotic"
+    },
+    {
+      "year": "2012",
+      "author": "Kleijn, Bas JK and Van der Vaart, Aad W",
+      "title": "The Bernstein-von-Mises theorem under misspecification",
+      "ENTRYTYPE": "article",
+      "ID": "kleijn2012bernstein"
+    },
+    {
+      "institution": "Working Paper",
+      "year": "2014",
+      "author": "Connault, Benjamin",
+      "title": "A weakly dependent bernstein--von mises theorem",
+      "ENTRYTYPE": "techreport",
+      "ID": "connault2014weakly"
+    },
+    {
+      "publisher": "Taylor \\& Francis",
+      "year": "1989",
+      "pages": "231--240",
+      "number": "405",
+      "volume": "84",
+      "journal": "Journal of the American statistical association",
+      "author": "Tsay, Ruey S",
+      "title": "Testing and modeling threshold autoregressive processes",
+      "ENTRYTYPE": "article",
+      "ID": "tsay1989testing"
+    },
+    {
+      "year": "2020",
+      "pages": "9818--9829",
+      "volume": "33",
+      "journal": "Advances in neural information processing systems",
+      "author": "Zhang, Kelly and Janson, Lucas and Murphy, Susan",
+      "title": "Inference for batched bandits",
+      "ENTRYTYPE": "article",
+      "ID": "zhang2020inference"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2020",
+      "pages": "3155--3164",
+      "booktitle": "International Conference on Artificial Intelligence and Statistics",
+      "author": "Aglietti, Virginia and Lu, Xiaoyu and Paleyes, Andrei and Gonz{\\'a}lez, Javier",
+      "title": "Causal bayesian optimization",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "aglietti2020causal"
+    },
+    {
+      "year": "2010",
+      "pages": "661--670",
+      "booktitle": "Proceedings of the 19th international conference on World wide web",
+      "author": "Li, Lihong and Chu, Wei and Langford, John and Schapire, Robert E",
+      "title": "A contextual-bandit approach to personalized news article recommendation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "li2010contextual"
+    },
+    {
+      "year": "2011",
+      "volume": "24",
+      "journal": "Advances in neural information processing systems",
+      "author": "Chapelle, Olivier and Li, Lihong",
+      "title": "An empirical evaluation of thompson sampling",
+      "ENTRYTYPE": "article",
+      "ID": "chapelle2011empirical"
+    },
+    {
+      "publisher": "British Medical Journal Publishing Group",
+      "year": "2020",
+      "pages": "e034723",
+      "number": "8",
+      "volume": "10",
+      "journal": "BMJ open",
+      "author": "Aguilera, Adrian and Figueroa, Caroline A and Hernandez-Ramos, Rosa and Sarkar, Urmimala and Cemballi, Anupama and Gomez-Pathak, Laura and Miramontes, Jose and Yom-Tov, Elad and Chakraborty, Bibhas and Yan, Xiaoxi and others",
+      "title": "mHealth app using machine learning to increase physical activity in diabetes and depression: clinical trial protocol for the DIAMANTE Study",
+      "ENTRYTYPE": "article",
+      "ID": "aguilera2020mhealth"
+    },
+    {
+      "publisher": "JMIR publications Toronto, Canada",
+      "year": "2017",
+      "pages": "e338",
+      "number": "10",
+      "volume": "19",
+      "journal": "Journal of medical Internet research",
+      "author": "Yom-Tov, Elad and Feraru, Guy and Kozdoba, Mark and Mannor, Shie and Tennenholtz, Moshe and Hochberg, Irit",
+      "title": "Encouraging physical activity in patients with diabetes: intervention using a reinforcement learning system",
+      "ENTRYTYPE": "article",
+      "ID": "yom2017encouraging"
+    },
+    {
+      "year": "2019",
+      "pages": "47--79",
+      "number": "1",
+      "volume": "11",
+      "journal": "Journal of Educational Data Mining",
+      "author": "Rafferty, Anna and Ying, Huiji and Williams, Joseph and others",
+      "title": "Statistical consequences of using multi-armed bandits to conduct adaptive educational experiments",
+      "ENTRYTYPE": "article",
+      "ID": "rafferty2019statistical"
+    },
+    {
+      "publisher": "JSTOR",
+      "year": "1994",
+      "pages": "211--220",
+      "journal": "Lecture Notes-Monograph Series",
+      "author": "Dawid, AP",
+      "title": "Selection paradoxes of Bayesian inference",
+      "ENTRYTYPE": "article",
+      "ID": "dawid1994selection"
+    },
+    {
+      "publisher": "bepress",
+      "year": "2008",
+      "author": "van der Laan, Mark J",
+      "title": "The construction and analysis of adaptive group sequential designs",
+      "ENTRYTYPE": "article",
+      "ID": "van2008construction"
+    },
+    {
+      "publisher": "Springer",
+      "year": "2009",
+      "author": "Gut, Allan",
+      "title": "Stopped random walks",
+      "ENTRYTYPE": "book",
+      "ID": "gut2009stopped"
+    },
+    {
+      "year": "2017",
+      "journal": "arXiv preprint arXiv:1701.07274",
+      "author": "Li, Yuxi",
+      "title": "Deep reinforcement learning: An overview",
+      "ENTRYTYPE": "article",
+      "ID": "li2017deep"
+    },
+    {
+      "publisher": "ACM New York, NY",
+      "year": "2021",
+      "pages": "1--36",
+      "number": "1",
+      "volume": "55",
+      "journal": "ACM Computing Surveys (CSUR)",
+      "author": "Yu, Chao and Liu, Jiming and Nemati, Shamim and Yin, Guosheng",
+      "title": "Reinforcement learning in healthcare: A survey",
+      "ENTRYTYPE": "article",
+      "ID": "yu2021reinforcement"
+    },
+    {
+      "publisher": "SAGE Publications Sage UK: London, England",
+      "year": "2013",
+      "pages": "1238--1274",
+      "number": "11",
+      "volume": "32",
+      "journal": "The International Journal of Robotics Research",
+      "author": "Kober, Jens and Bagnell, J Andrew and Peters, Jan",
+      "title": "Reinforcement learning in robotics: A survey",
+      "ENTRYTYPE": "article",
+      "ID": "kober2013reinforcement"
+    },
+    {
+      "publisher": "Mass Medical Soc",
+      "year": "2016",
+      "pages": "65--74",
+      "number": "1",
+      "volume": "375",
+      "journal": "New England Journal of Medicine",
+      "author": "Bhatt, Deepak L and Mehta, Cyrus",
+      "title": "Adaptive designs for clinical trials",
+      "ENTRYTYPE": "article",
+      "ID": "bhatt2016adaptive"
+    },
+    {
+      "publisher": "Institute of Mathematical Statistics",
+      "year": "2024",
+      "pages": "100--114",
+      "number": "1",
+      "volume": "39",
+      "journal": "Statistical Science",
+      "author": "Rainforth, Tom and Foster, Adam and Ivanova, Desi R and Bickford Smith, Freddie",
+      "title": "Modern Bayesian experimental design",
+      "ENTRYTYPE": "article",
+      "ID": "rainforth2024modern"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2504.05661",
+      "author": "Lee, Jeyong and Choi, Junhyeok and Chae, Minwoo",
+      "title": "Online Bernstein-von Mises theorem",
+      "ENTRYTYPE": "article",
+      "ID": "lee2025online"
+    },
+    {
+      "year": "2021",
+      "pages": "1--112",
+      "number": "265",
+      "volume": "22",
+      "journal": "Journal of Machine Learning Research",
+      "author": "Wang, Feicheng and Janson, Lucas",
+      "title": "Exact asymptotics for linear quadratic adaptive control",
+      "ENTRYTYPE": "article",
+      "ID": "wang2021exact"
+    },
+    {
+      "publisher": "Institute of Mathematical Statistics",
+      "year": "2024",
+      "pages": "2613--2640",
+      "number": "6",
+      "volume": "52",
+      "journal": "The Annals of Statistics",
+      "author": "Waudby-Smith, Ian and Arbour, David and Sinha, Ritwik and Kennedy, Edward H and Ramdas, Aaditya",
+      "title": "Time-uniform central limit theory and asymptotic confidence sequences",
+      "ENTRYTYPE": "article",
+      "ID": "waudby2024time"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2301.05365",
+      "author": "Nair, Yash and Janson, Lucas",
+      "title": "Randomization tests for adaptively collected data",
+      "ENTRYTYPE": "article",
+      "ID": "nair2023randomization"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2018",
+      "pages": "1194--1203",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Deshpande, Yash and Mackey, Lester and Syrgkanis, Vasilis and Taddy, Matt",
+      "title": "Accurate inference for adaptive linear models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "deshpande2018accurate"
+    },
+    {
+      "year": "2021",
+      "pages": "28548--28559",
+      "volume": "34",
+      "journal": "Advances in neural information processing systems",
+      "author": "Bibaut, Aur{\\'e}lien and Dimakopoulou, Maria and Kallus, Nathan and Chambaz, Antoine and van Der Laan, Mark",
+      "title": "Post-contextual-bandit inference",
+      "ENTRYTYPE": "article",
+      "ID": "bibaut2021post"
+    },
+    {
+      "year": "2016",
+      "pages": "713",
+      "number": "2",
+      "volume": "44",
+      "journal": "Annals of statistics",
+      "author": "Luedtke, Alexander R and Van Der Laan, Mark J",
+      "title": "Statistical inference for the mean outcome under a possibly non-unique optimal treatment strategy",
+      "ENTRYTYPE": "article",
+      "ID": "luedtke2016statistical"
+    },
+    {
+      "publisher": "JSTOR",
+      "year": "2021",
+      "pages": "1055--1080",
+      "number": "2",
+      "volume": "49",
+      "journal": "The Annals of Statistics",
+      "author": "Howard, Steven R and Ramdas, Aaditya and McAuliffe, Jon and Sekhon, Jasjeet",
+      "title": "Time-uniform, nonparametric, nonasymptotic confidence sequences",
+      "ENTRYTYPE": "article",
+      "ID": "howard2021time"
+    },
+    {
+      "year": "2021",
+      "pages": "1--44",
+      "number": "246",
+      "volume": "22",
+      "journal": "Journal of Machine Learning Research",
+      "author": "Kaufmann, Emilie and Koolen, Wouter M",
+      "title": "Mixture martingales revisited with applications to sequential tests and confidence intervals",
+      "ENTRYTYPE": "article",
+      "ID": "kaufmann2021mixture"
+    },
+    {
+      "year": "2011",
+      "volume": "24",
+      "journal": "Advances in neural information processing systems",
+      "author": "Abbasi-Yadkori, Yasin and P{\\'a}l, D{\\'a}vid and Szepesv{\\'a}ri, Csaba",
+      "title": "Improved algorithms for linear stochastic bandits",
+      "ENTRYTYPE": "article",
+      "ID": "abbasi2011improved"
+    },
+    {
+      "year": "2014",
+      "author": "Bochkina, Natalia A and Green, Peter J",
+      "title": "The Bernstein--von Mises theorem and nonregular models",
+      "ENTRYTYPE": "article",
+      "ID": "bochkina2014bernstein"
+    },
+    {
+      "publisher": "Springer",
+      "year": "2019",
+      "pages": "355--380",
+      "journal": "Foundations of modern statistics",
+      "author": "Bochkina, Natalia",
+      "title": "Bernstein--von Mises theorem and misspecified models: A review",
+      "ENTRYTYPE": "article",
+      "ID": "bochkina2019bernstein"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2308.07803",
+      "author": "Koers, Geerten and Szab{\\'o}, Botond and van der Vaart, Aad",
+      "title": "Misspecified Bernstein-Von Mises theorem for hierarchical models",
+      "ENTRYTYPE": "article",
+      "ID": "koers2023misspecified"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2018",
+      "pages": "1261--1269",
+      "booktitle": "International Conference on Artificial Intelligence and Statistics",
+      "author": "Nie, Xinkun and Tian, Xiaoying and Taylor, Jonathan and Zou, James",
+      "title": "Why adaptively collected data have negative bias and how to correct for it",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "nie2018adaptively"
+    },
+    {
+      "publisher": "Springer",
+      "year": "1991",
+      "author": "Mehrmann, Volker Ludwig",
+      "title": "The autonomous linear quadratic control problem: theory and numerical solution",
+      "ENTRYTYPE": "book",
+      "ID": "mehrmann1991autonomous"
+    },
+    {
+      "year": "2015",
+      "author": "Castillo, Isma{\\\"e}l and Rousseau, Judith",
+      "title": "A Bernstein--von Mises theorem for smooth functionals in semiparametric models",
+      "ENTRYTYPE": "article",
+      "ID": "castillo2015bernstein"
+    },
+    {
+      "year": "2020",
+      "journal": "arXiv preprint arXiv:2008.07146",
+      "author": "Saito, Yuta and Shunsuke Aihara and Megumi Matsutani and Yusuke Narita",
+      "title": "Large-scale Open Dataset, Pipeline, and Benchmark for Bandit Algorithms",
+      "ENTRYTYPE": "article",
+      "ID": "saito2020large"
+    }
+  ]
+}

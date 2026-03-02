@@ -1,0 +1,692 @@
+{
+  "pdf_url": "https://arxiv.org/pdf/2506.10967v2.pdf",
+  "references": [
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2302.13971",
+      "author": "Touvron, Hugo and Lavril, Thibaut and Izacard, Gautier and Martinet, Xavier and Lachaux, Marie-Anne and Lacroix, Timoth{\\'e}e and Rozi{\\`e}re, Baptiste and Goyal, Naman and Hambro, Eric and Azhar, Faisal and others",
+      "title": "Llama: Open and efficient foundation language models",
+      "ENTRYTYPE": "article",
+      "ID": "touvron2023llama"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2307.09288",
+      "author": "Touvron, Hugo and Martin, Louis and Stone, Kevin and Albert, Peter and Almahairi, Amjad and Babaei, Yasmine and Bashlykov, Nikolay and Batra, Soumya and Bhargava, Prajjwal and Bhosale, Shruti and others",
+      "title": "Llama 2: Open foundation and fine-tuned chat models",
+      "ENTRYTYPE": "article",
+      "ID": "touvron2023llama2"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2310.06825",
+      "author": "Jiang, Albert Q and Sablayrolles, Alexandre and Mensch, Arthur and Bamford, Chris and Chaplot, Devendra Singh and Casas, Diego de las and Bressand, Florian and Lengyel, Gianna and Lample, Guillaume and Saulnier, Lucile and others",
+      "title": "Mistral 7B",
+      "ENTRYTYPE": "article",
+      "ID": "jiang2023mistral"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2309.16609",
+      "author": "Bai, Jinze and Bai, Shuai and Chu, Yunfei and Cui, Zeyu and Dang, Kai and Deng, Xiaodong and Fan, Yang and Ge, Wenbin and Han, Yu and Huang, Fei and others",
+      "title": "Qwen technical report",
+      "ENTRYTYPE": "article",
+      "ID": "bai2023qwen"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2412.15115",
+      "author": "Yang, An and Yang, Baosong and Zhang, Beichen and Hui, Binyuan and Zheng, Bo and Yu, Bowen and Li, Chengyuan and Liu, Dayiheng and Huang, Fei and Wei, Haoran and others",
+      "title": "Qwen2.5 technical report",
+      "ENTRYTYPE": "article",
+      "ID": "yang2024qwen2"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2403.17297",
+      "author": "Cai, Zheng and Cao, Maosong and Chen, Haojiong and Chen, Kai and Chen, Keyu and Chen, Xin and Chen, Xun and Chen, Zehui and Chen, Zhi and Chu, Pei and others",
+      "title": "Internlm2 technical report",
+      "ENTRYTYPE": "article",
+      "ID": "cai2024internlm2"
+    },
+    {
+      "year": "2023",
+      "pages": "34892--34916",
+      "volume": "36",
+      "journal": "Advances in neural information processing systems",
+      "author": "Liu, Haotian and Li, Chunyuan and Wu, Qingyang and Lee, Yong Jae",
+      "title": "Visual instruction tuning",
+      "ENTRYTYPE": "article",
+      "ID": "liu2023llava"
+    },
+    {
+      "year": "2024",
+      "pages": "26296--26306",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Liu, Haotian and Li, Chunyuan and Li, Yuheng and Lee, Yong Jae",
+      "title": "Improved baselines with visual instruction tuning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "liu2024llava1.5"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2408.03326",
+      "author": "Li, Bo and Zhang, Yuanhan and Guo, Dong and Zhang, Renrui and Li, Feng and Zhang, Hao and Zhang, Kaichen and Zhang, Peiyuan and Li, Yanwei and Liu, Ziwei and others",
+      "title": "Llava-onevision: Easy visual task transfer",
+      "ENTRYTYPE": "article",
+      "ID": "li2024llava-ov"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2409.12191",
+      "author": "Wang, Peng and Bai, Shuai and Tan, Sinan and Wang, Shijie and Fan, Zhihao and Bai, Jinze and Chen, Keqin and Liu, Xuejing and Wang, Jialin and Ge, Wenbin and others",
+      "title": "Qwen2-vl: Enhancing vision-language model's perception of the world at any resolution",
+      "ENTRYTYPE": "article",
+      "ID": "wang2024qwen2-vl"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2502.13923",
+      "author": "Bai, Shuai and Chen, Keqin and Liu, Xuejing and Wang, Jialin and Ge, Wenbin and Song, Sibo and Dang, Kai and Wang, Peng and Wang, Shijie and Tang, Jun and others",
+      "title": "Qwen2.5-vl technical report",
+      "ENTRYTYPE": "article",
+      "ID": "bai2025qwen2.5-vl"
+    },
+    {
+      "year": "2024",
+      "pages": "24185--24198",
+      "booktitle": "Proceedings of the IEEE/CVF conference on computer vision and pattern recognition",
+      "author": "Chen, Zhe and Wu, Jiannan and Wang, Wenhai and Su, Weijie and Chen, Guo and Xing, Sen and Zhong, Muyan and Zhang, Qinglong and Zhu, Xizhou and Lu, Lewei and others",
+      "title": "Internvl: Scaling up vision foundation models and aligning for generic visual-linguistic tasks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "chen2024internvl"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2412.05271",
+      "author": "Chen, Zhe and Wang, Weiyun and Cao, Yue and Liu, Yangzhou and Gao, Zhangwei and Cui, Erfei and Zhu, Jinguo and Ye, Shenglong and Tian, Hao and Liu, Zhaoyang and others",
+      "title": "Expanding performance boundaries of open-source multimodal models with model, data, and test-time scaling",
+      "ENTRYTYPE": "article",
+      "ID": "chen2024internvl2"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2504.10479",
+      "author": "Zhu, Jinguo and Wang, Weiyun and Chen, Zhe and Liu, Zhaoyang and Ye, Shenglong and Gu, Lixin and Duan, Yuchen and Tian, Hao and Su, Weijie and Shao, Jie and others",
+      "title": "InternVL3: Exploring Advanced Training and Test-Time Recipes for Open-Source Multimodal Models",
+      "ENTRYTYPE": "article",
+      "ID": "zhu2025internvl3"
+    },
+    {
+      "year": "2024",
+      "pages": "121475--121499",
+      "volume": "37",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Wang, Weihan and Lv, Qingsong and Yu, Wenmeng and Hong, Wenyi and Qi, Ji and Wang, Yan and Ji, Junhui and Yang, Zhuoyi and Zhao, Lei and XiXuan, Song and others",
+      "title": "Cogvlm: Visual expert for pretrained language models",
+      "ENTRYTYPE": "article",
+      "ID": "wang2024cogvlm"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2408.16500",
+      "author": "Hong, Wenyi and Wang, Weihan and Ding, Ming and Yu, Wenmeng and Lv, Qingsong and Wang, Yan and Cheng, Yean and Huang, Shiyu and Ji, Junhui and Xue, Zhao and others",
+      "title": "Cogvlm2: Visual language models for image and video understanding",
+      "ENTRYTYPE": "article",
+      "ID": "hong2024cogvlm2"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2403.08295",
+      "author": "Team, Gemma and Mesnard, Thomas and Hardin, Cassidy and Dadashi, Robert and Bhupatiraju, Surya and Pathak, Shreya and Sifre, Laurent and Rivi{\\`e}re, Morgane and Kale, Mihir Sanjay and Love, Juliette and others",
+      "title": "Gemma: Open models based on gemini research and technology",
+      "ENTRYTYPE": "article",
+      "ID": "team2024gemma"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2404.06395",
+      "author": "Hu, Shengding and Tu, Yuge and Han, Xu and He, Chaoqun and Cui, Ganqu and Long, Xiang and Zheng, Zhi and Fang, Yewei and Huang, Yuxiang and Zhao, Weilin and others",
+      "title": "Minicpm: Unveiling the potential of small language models with scalable training strategies",
+      "ENTRYTYPE": "article",
+      "ID": "hu2024minicpm"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2408.01800",
+      "author": "Yao, Yuan and Yu, Tianyu and Zhang, Ao and Wang, Chongyi and Cui, Junbo and Zhu, Hongji and Cai, Tianchi and Li, Haoyu and Zhao, Weilin and He, Zhihui and others",
+      "title": "Minicpm-v: A gpt-4v level mllm on your phone",
+      "ENTRYTYPE": "article",
+      "ID": "yao2024minicpm-v"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2306.02858",
+      "author": "Zhang, Hang and Li, Xin and Bing, Lidong",
+      "title": "Video-llama: An instruction-tuned audio-visual language model for video understanding",
+      "ENTRYTYPE": "article",
+      "ID": "zhang2023videollama"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2311.10122",
+      "author": "Lin, Bin and Ye, Yang and Zhu, Bin and Cui, Jiaxi and Ning, Munan and Jin, Peng and Yuan, Li",
+      "title": "Video-llava: Learning united visual representation by alignment before projection",
+      "ENTRYTYPE": "article",
+      "ID": "lin2023videollava"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2410.02713",
+      "author": "Zhang, Yuanhan and Wu, Jinming and Li, Wei and Li, Bo and Ma, Zejun and Liu, Ziwei and Li, Chunyuan",
+      "title": "Video instruction tuning with synthetic data",
+      "ENTRYTYPE": "article",
+      "ID": "zhang2024llava-video"
+    },
+    {
+      "year": "2024",
+      "month": "January",
+      "author": "Liu, Haotian and Li, Chunyuan and Li, Yuheng and Li, Bo and Zhang, Yuanhan and Shen, Sheng and Lee, Yong Jae",
+      "url": "https://llava-vl.github.io/blog/2024-01-30-llava-next/",
+      "title": "LLaVA-NeXT: Improved reasoning, OCR, and world knowledge",
+      "ENTRYTYPE": "misc",
+      "ID": "liu2024llava-next"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2403.03003",
+      "author": "Luo, Gen and Zhou, Yiyi and Zhang, Yuxin and Zheng, Xiawu and Sun, Xiaoshuai and Ji, Rongrong",
+      "title": "Feast your eyes: Mixture-of-resolution adaptation for multimodal large language models",
+      "ENTRYTYPE": "article",
+      "ID": "luo2024llava-hr"
+    },
+    {
+      "organization": "Springer",
+      "year": "2024",
+      "pages": "390--406",
+      "booktitle": "European Conference on Computer Vision",
+      "author": "Guo, Zonghao and Xu, Ruyi and Yao, Yuan and Cui, Junbo and Ni, Zanlin and Ge, Chunjiang and Chua, Tat-Seng and Liu, Zhiyuan and Huang, Gao",
+      "title": "Llava-uhd: an lmm perceiving any aspect ratio and high-resolution images",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "guo2024llava-uhd"
+    },
+    {
+      "year": "2017",
+      "volume": "30",
+      "journal": "Advances in neural information processing systems",
+      "author": "Vaswani, Ashish and Shazeer, Noam and Parmar, Niki and Uszkoreit, Jakob and Jones, Llion and Gomez, Aidan N and Kaiser, {\\L}ukasz and Polosukhin, Illia",
+      "title": "Attention is all you need",
+      "ENTRYTYPE": "article",
+      "ID": "vaswani2017transformer"
+    },
+    {
+      "organization": "Springer",
+      "year": "2024",
+      "pages": "19--35",
+      "booktitle": "European Conference on Computer Vision",
+      "author": "Chen, Liang and Zhao, Haozhe and Liu, Tianyu and Bai, Shuai and Lin, Junyang and Zhou, Chang and Chang, Baobao",
+      "title": "An image is worth 1/2 tokens after layer 2: Plug-and-play inference acceleration for large vision-language models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "chen2024fastv"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2410.17247",
+      "author": "Xing, Long and Huang, Qidong and Dong, Xiaoyi and Lu, Jiajie and Zhang, Pan and Zang, Yuhang and Cao, Yuhang and He, Conghui and Wang, Jiaqi and Wu, Feng and others",
+      "title": "Pyramiddrop: Accelerating your large vision-language models via pyramid visual redundancy reduction",
+      "ENTRYTYPE": "article",
+      "ID": "xing2024pyramiddrop"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2410.04417",
+      "author": "Zhang, Yuan and Fan, Chun-Kai and Ma, Junpeng and Zheng, Wenzhao and Huang, Tao and Cheng, Kuan and Gudovskiy, Denis and Okuno, Tomoyuki and Nakata, Yohei and Keutzer, Kurt and others",
+      "title": "Sparsevlm: Visual token sparsification for efficient vision-language model inference",
+      "ENTRYTYPE": "article",
+      "ID": "zhang2024sparsevlm"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2502.11494",
+      "author": "Wen, Zichen and Gao, Yifeng and Wang, Shaobo and Zhang, Junyuan and Zhang, Qintong and Li, Weijia and He, Conghui and Zhang, Linfeng",
+      "title": "Stop looking for important tokens in multimodal language models: Duplication matters more",
+      "ENTRYTYPE": "article",
+      "ID": "wen2025dart"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2503.02175",
+      "author": "Alvar, Saeed Ranjbar and Singh, Gursimran and Akbari, Mohammad and Zhang, Yong",
+      "title": "DivPrune: Diversity-based Visual Token Pruning for Large Multimodal Models",
+      "ENTRYTYPE": "article",
+      "ID": "alvar2025divprune"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2503.11549",
+      "author": "Jeddi, Ahmadreza and Baghbanzadeh, Negin and Dolatabadi, Elham and Taati, Babak",
+      "title": "Similarity-aware token pruning: Your vlm but faster",
+      "ENTRYTYPE": "article",
+      "ID": "jeddi2025saint"
+    },
+    {
+      "publisher": "Cambridge University Press",
+      "year": "1975",
+      "pages": "83--122",
+      "number": "1",
+      "volume": "7",
+      "journal": "Advances in Applied Probability",
+      "author": "Macchi, Odile",
+      "title": "The coincidence approach to stochastic point processes",
+      "ENTRYTYPE": "article",
+      "ID": "macchi1975dpp"
+    },
+    {
+      "publisher": "Now Publishers, Inc.",
+      "year": "2012",
+      "pages": "123--286",
+      "number": "2--3",
+      "volume": "5",
+      "journal": "Foundations and Trends{\\textregistered} in Machine Learning",
+      "author": "Kulesza, Alex and Taskar, Ben and others",
+      "title": "Determinantal point processes for machine learning",
+      "ENTRYTYPE": "article",
+      "ID": "kulesza2012dppml"
+    },
+    {
+      "year": "2018",
+      "volume": "31",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Chen, Laming and Zhang, Guoxin and Zhou, Eric",
+      "title": "Fast greedy map inference for determinantal point process to improve recommendation diversity",
+      "ENTRYTYPE": "article",
+      "ID": "chen2018fast-map-dpp"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2018",
+      "pages": "716--725",
+      "booktitle": "International conference on machine learning",
+      "author": "Celis, Elisa and Keswani, Vijay and Straszak, Damian and Deshpande, Amit and Kathuria, Tarun and Vishnoi, Nisheeth",
+      "title": "Fair and diverse DPP-based data summarization",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "celis2018p-dpp"
+    },
+    {
+      "year": "2024",
+      "pages": "1286--1295",
+      "booktitle": "Proceedings of the 33rd ACM International Conference on Information and Knowledge Management",
+      "author": "Li, Xueqi and Cong, Gao and Xiao, Guoqing and Xu, Yang and Jiang, Wenjun and Li, Kenli",
+      "title": "On Evaluation Metrics for Diversity-enhanced Recommendations",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "li2024evaluation"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2501.02885",
+      "author": "Sun, Hui and Lu, Shiyin and Wang, Huanyu and Chen, Qing-Guo and Xu, Zhao and Luo, Weihua and Zhang, Kaifu and Li, Ming",
+      "title": "MDP3: A Training-free Approach for List-wise Frame Selection in Video-LLMs",
+      "ENTRYTYPE": "article",
+      "ID": "sun2025mdp3"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2403.15388",
+      "author": "Shang, Yuzhang and Cai, Mu and Xu, Bingxin and Lee, Yong Jae and Yan, Yan",
+      "title": "Llava-prumerge: Adaptive token reduction for efficient large multimodal models",
+      "ENTRYTYPE": "article",
+      "ID": "shang2024llava-prumerge"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2412.04467",
+      "author": "Yang, Senqiao and Chen, Yukang and Tian, Zhuotao and Wang, Chengyao and Li, Jingyao and Yu, Bei and Jia, Jiaya",
+      "title": "Visionzip: Longer is better but not necessary in vision language models",
+      "ENTRYTYPE": "article",
+      "ID": "yang2024visionzip"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2409.10994",
+      "author": "Song, Dingjie and Wang, Wenjun and Chen, Shunian and Wang, Xidong and Guan, Michael and Wang, Benyou",
+      "title": "Less is more: A simple yet effective token reduction method for efficient multi-modal llms",
+      "ENTRYTYPE": "article",
+      "ID": "song2024trim"
+    },
+    {
+      "year": "2022",
+      "pages": "16344--16359",
+      "volume": "35",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Dao, Tri and Fu, Dan and Ermon, Stefano and Rudra, Atri and R{\\'e}, Christopher",
+      "title": "Flashattention: Fast and memory-efficient exact attention with io-awareness",
+      "ENTRYTYPE": "article",
+      "ID": "dao2022flashattention"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2406.16852",
+      "author": "Zhang, Peiyuan and Zhang, Kaichen and Li, Bo and Zeng, Guangtao and Yang, Jingkang and Zhang, Yuanhan and Wang, Ziyue and Tan, Haoran and Li, Chunyuan and Liu, Ziwei",
+      "title": "Long context transfer from language to vision",
+      "ENTRYTYPE": "article",
+      "ID": "zhang2024longva"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2408.10188",
+      "author": "Chen, Yukang and Xue, Fuzhao and Li, Dacheng and Hu, Qinghao and Zhu, Ligeng and Li, Xiuyu and Fang, Yunhao and Tang, Haotian and Yang, Shang and Liu, Zhijian and others",
+      "title": "Longvila: Scaling long-context visual language models for long videos",
+      "ENTRYTYPE": "article",
+      "ID": "chen2024longvila"
+    },
+    {
+      "organization": "Springer",
+      "year": "2024",
+      "pages": "323--340",
+      "booktitle": "European Conference on Computer Vision",
+      "author": "Li, Yanwei and Wang, Chengyao and Jia, Jiaya",
+      "title": "Llama-vid: An image is worth 2 tokens in large language models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "li2024llama-vid"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2406.12275",
+      "author": "Ye, Xubing and Gan, Yukang and Huang, Xiaoke and Ge, Yixiao and Tang, Yansong",
+      "title": "Voco-llama: Towards vision compression with large language models",
+      "ENTRYTYPE": "article",
+      "ID": "ye2024voco-llama"
+    },
+    {
+      "year": "2024",
+      "pages": "50168--50188",
+      "volume": "37",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Hu, Wenbo and Dou, Zi-Yi and Li, Liunian and Kamath, Amita and Peng, Nanyun and Chang, Kai-Wei",
+      "title": "Matryoshka query transformer for large vision-language models",
+      "ENTRYTYPE": "article",
+      "ID": "hu2024mqt-llava"
+    },
+    {
+      "year": "2024",
+      "booktitle": "Workshop on Video-Language Models@ NeurIPS 2024",
+      "author": "Cai, Mu and Yang, Jianwei and Gao, Jianfeng and Lee, Yong Jae",
+      "title": "Matryoshka multimodal models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "cai2024m3"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2501.03895",
+      "author": "Zhang, Shaolei and Fang, Qingkai and Yang, Zhe and Feng, Yang",
+      "title": "LLaVA-Mini: Efficient Image and Video Large Multimodal Models with One Vision Token",
+      "ENTRYTYPE": "article",
+      "ID": "zhang2025llava-mini"
+    },
+    {
+      "year": "2025",
+      "pages": "22128--22136",
+      "volume": "39",
+      "booktitle": "Proceedings of the AAAI Conference on Artificial Intelligence",
+      "author": "Ye, Weihao and Wu, Qiong and Lin, Wenhao and Zhou, Yiyi",
+      "title": "Fit and prune: Fast and training-free visual token pruning for multi-modal large language models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ye2025fitprune"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2411.10803",
+      "author": "Liu, Ting and Shi, Liangtao and Hong, Richang and Hu, Yue and Yin, Quanjun and Zhang, Linfeng",
+      "title": "Multi-Stage Vision Token Dropping: Towards Efficient Multimodal Large Language Model",
+      "ENTRYTYPE": "article",
+      "ID": "liu2024mustdrop"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2412.01818",
+      "author": "Zhang, Qizhe and Cheng, Aosong and Lu, Ming and Zhuo, Zhiyong and Wang, Minqi and Cao, Jiajun and Guo, Shaobo and She, Qi and Zhang, Shanghang",
+      "title": "[CLS] Attention is All You Need for Training-Free Visual Token Pruning: Make VLM Inference Faster",
+      "ENTRYTYPE": "article",
+      "ID": "zhang2024fastervlm"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2502.11501",
+      "author": "Wen, Zichen and Gao, Yifeng and Li, Weijia and He, Conghui and Zhang, Linfeng",
+      "title": "Token Pruning in Multimodal Large Language Models: Are We Solving the Right Problem?",
+      "ENTRYTYPE": "article",
+      "ID": "wen2025problem"
+    },
+    {
+      "publisher": "Springer",
+      "year": "2011",
+      "pages": "275--293",
+      "volume": "186",
+      "journal": "Annals of Operations Research",
+      "author": "Porumbel, Daniel Cosmin and Hao, Jin-Kao and Glover, Fred",
+      "title": "A simple and effective algorithm for the MaxMin diversity problem",
+      "ENTRYTYPE": "article",
+      "ID": "porumbel2011mmdp"
+    },
+    {
+      "organization": "PmLR",
+      "year": "2021",
+      "pages": "8748--8763",
+      "booktitle": "International conference on machine learning",
+      "author": "Radford, Alec and Kim, Jong Wook and Hallacy, Chris and Ramesh, Aditya and Goh, Gabriel and Agarwal, Sandhini and Sastry, Girish and Askell, Amanda and Mishkin, Pamela and Clark, Jack and others",
+      "title": "Learning transferable visual models from natural language supervision",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "radford2021clip"
+    },
+    {
+      "year": "2023",
+      "pages": "11975--11986",
+      "booktitle": "Proceedings of the IEEE/CVF international conference on computer vision",
+      "author": "Zhai, Xiaohua and Mustafa, Basil and Kolesnikov, Alexander and Beyer, Lucas",
+      "title": "Sigmoid loss for language image pre-training",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zhai2023siglip"
+    },
+    {
+      "year": "2015",
+      "pages": "2425--2433",
+      "booktitle": "Proceedings of the IEEE international conference on computer vision",
+      "author": "Antol, Stanislaw and Agrawal, Aishwarya and Lu, Jiasen and Mitchell, Margaret and Batra, Dhruv and Zitnick, C Lawrence and Parikh, Devi",
+      "title": "Vqa: Visual question answering",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "antol2015vqa"
+    },
+    {
+      "year": "2017",
+      "pages": "6904--6913",
+      "booktitle": "Proceedings of the IEEE conference on computer vision and pattern recognition",
+      "author": "Goyal, Yash and Khot, Tejas and Summers-Stay, Douglas and Batra, Dhruv and Parikh, Devi",
+      "title": "Making the v in vqa matter: Elevating the role of image understanding in visual question answering",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "goyal2017vqav2"
+    },
+    {
+      "year": "2019",
+      "pages": "6700--6709",
+      "booktitle": "Proceedings of the IEEE/CVF conference on computer vision and pattern recognition",
+      "author": "Hudson, Drew A and Manning, Christopher D",
+      "title": "Gqa: A new dataset for real-world visual reasoning and compositional question answering",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "hudson2019gqa"
+    },
+    {
+      "year": "2018",
+      "pages": "3608--3617",
+      "booktitle": "Proceedings of the IEEE conference on computer vision and pattern recognition",
+      "author": "Gurari, Danna and Li, Qing and Stangl, Abigale J and Guo, Anhong and Lin, Chi and Grauman, Kristen and Luo, Jiebo and Bigham, Jeffrey P",
+      "title": "Vizwiz grand challenge: Answering visual questions from blind people",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "gurari2018vizwiz"
+    },
+    {
+      "year": "2022",
+      "pages": "2507--2521",
+      "volume": "35",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Lu, Pan and Mishra, Swaroop and Xia, Tanglin and Qiu, Liang and Chang, Kai-Wei and Zhu, Song-Chun and Tafjord, Oyvind and Clark, Peter and Kalyan, Ashwin",
+      "title": "Learn to explain: Multimodal reasoning via thought chains for science question answering",
+      "ENTRYTYPE": "article",
+      "ID": "lu2022sqa"
+    },
+    {
+      "year": "2019",
+      "pages": "8317--8326",
+      "booktitle": "Proceedings of the IEEE/CVF conference on computer vision and pattern recognition",
+      "author": "Singh, Amanpreet and Natarajan, Vivek and Shah, Meet and Jiang, Yu and Chen, Xinlei and Batra, Dhruv and Parikh, Devi and Rohrbach, Marcus",
+      "title": "Towards vqa models that can read",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "singh2019textvqa"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2305.10355",
+      "author": "Li, Yifan and Du, Yifan and Zhou, Kun and Wang, Jinpeng and Zhao, Wayne Xin and Wen, Ji-Rong",
+      "title": "Evaluating object hallucination in large vision-language models",
+      "ENTRYTYPE": "article",
+      "ID": "li2023pope"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2306.13394",
+      "author": "Fu, Chaoyou and Chen, Peixian and Shen, Yunhang and Qin, Yulei and Zhang, Mengdan and Lin, Xu and Yang, Jinrui and Zheng, Xiawu and Li, Ke and Sun, Xing and Wu, Yunsheng and Ji, Rongrong",
+      "title": "MME: A Comprehensive Evaluation Benchmark for Multimodal Large Language Models",
+      "ENTRYTYPE": "misc",
+      "ID": "fu2024mme"
+    },
+    {
+      "organization": "Springer",
+      "year": "2025",
+      "pages": "216--233",
+      "booktitle": "European Conference on Computer Vision",
+      "author": "Liu, Yuan and Duan, Haodong and Zhang, Yuanhan and Li, Bo and Zhang, Songyang and Zhao, Wangbo and Yuan, Yike and Wang, Jiaqi and He, Conghui and Liu, Ziwei and others",
+      "title": "Mmbench: Is your multi-modal model an all-around player?",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "liu2025mmbench"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2308.02490",
+      "author": "Yu, Weihao and Yang, Zhengyuan and Li, Linjie and Wang, Jianfeng and Lin, Kevin and Liu, Zicheng and Wang, Xinchao and Wang, Lijuan",
+      "title": "Mm-vet: Evaluating large multimodal models for integrated capabilities",
+      "ENTRYTYPE": "article",
+      "ID": "yu2023mmvet"
+    },
+    {
+      "year": "2024",
+      "pages": "14375--14385",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Guan, Tianrui and Liu, Fuxiao and Wu, Xiyang and Xian, Ruiqi and Li, Zongxia and Liu, Xiaoyu and Wang, Xijun and Chen, Lichang and Huang, Furong and Yacoob, Yaser and others",
+      "title": "Hallusionbench: an advanced diagnostic suite for entangled language hallucination and visual illusion in large vision-language models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "guan2024hallbench"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2203.10244",
+      "author": "Masry, Ahmed and Long, Do Xuan and Tan, Jia Qing and Joty, Shafiq and Hoque, Enamul",
+      "title": "Chartqa: A benchmark for question answering about charts with visual and logical reasoning",
+      "ENTRYTYPE": "article",
+      "ID": "masry2022chartqa"
+    },
+    {
+      "organization": "Springer",
+      "year": "2016",
+      "pages": "235--251",
+      "booktitle": "Computer Vision--ECCV 2016: 14th European Conference, Amsterdam, The Netherlands, October 11--14, 2016, Proceedings, Part IV 14",
+      "author": "Kembhavi, Aniruddha and Salvato, Mike and Kolve, Eric and Seo, Minjoon and Hajishirzi, Hannaneh and Farhadi, Ali",
+      "title": "A diagram is worth a dozen images",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "kembhavi2016ai2d"
+    },
+    {
+      "publisher": "Springer",
+      "year": "2024",
+      "pages": "220102",
+      "number": "12",
+      "volume": "67",
+      "journal": "Science China Information Sciences",
+      "author": "Liu, Yuliang and Li, Zhang and Huang, Mingxin and Yang, Biao and Yu, Wenwen and Li, Chunyuan and Yin, Xu-Cheng and Liu, Cheng-Lin and Jin, Lianwen and Bai, Xiang",
+      "title": "OCRBench: on the hidden mystery of OCR in large multimodal models",
+      "ENTRYTYPE": "article",
+      "ID": "liu2024ocrbench"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2406.04264",
+      "author": "Zhou, Junjie and Shu, Yan and Zhao, Bo and Wu, Boya and Xiao, Shitao and Yang, Xi and Xiong, Yongping and Zhang, Bo and Huang, Tiejun and Liu, Zheng",
+      "title": "Mlvu: A comprehensive benchmark for multi-task long video understanding",
+      "ENTRYTYPE": "article",
+      "ID": "zhou2024mlvu"
+    },
+    {
+      "year": "2024",
+      "pages": "22195--22206",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Li, Kunchang and Wang, Yali and He, Yinan and Li, Yizhuo and Wang, Yi and Liu, Yi and Wang, Zun and Xu, Jilan and Chen, Guo and Luo, Ping and others",
+      "title": "Mvbench: A comprehensive multi-modal video understanding benchmark",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "li2024mvbench"
+    },
+    {
+      "year": "2024",
+      "pages": "28828--28857",
+      "volume": "37",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Wu, Haoning and Li, Dongxu and Chen, Bei and Li, Junnan",
+      "title": "Longvideobench: A benchmark for long-context interleaved video-language understanding",
+      "ENTRYTYPE": "article",
+      "ID": "wu2024longvideobench"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2405.21075",
+      "author": "Fu, Chaoyou and Dai, Yuhan and Luo, Yongdong and Li, Lei and Ren, Shuhuai and Zhang, Renrui and Wang, Zihan and Zhou, Chenyu and Shen, Yunhang and Zhang, Mengdan and others",
+      "title": "Video-mme: The first-ever comprehensive evaluation benchmark of multi-modal llms in video analysis",
+      "ENTRYTYPE": "article",
+      "ID": "fu2024videomme"
+    },
+    {
+      "year": "2023",
+      "month": "March",
+      "author": "Chiang, Wei-Lin and Li, Zhuohan and Lin, Zi and Sheng, Ying and Wu, Zhanghao and Zhang, Hao and Zheng, Lianmin and Zhuang, Siyuan and Zhuang, Yonghao and Gonzalez, Joseph E. and Stoica, Ion and Xing, Eric P.",
+      "url": "https://lmsys.org/blog/2023-03-30-vicuna/",
+      "title": "Vicuna: An Open-Source Chatbot Impressing GPT-4 with 90\\%* ChatGPT Quality",
+      "ENTRYTYPE": "misc",
+      "ID": "vicuna2023"
+    },
+    {
+      "organization": "Springer",
+      "year": "2014",
+      "pages": "740--755",
+      "booktitle": "Computer Vision--ECCV 2014: 13th European Conference, Zurich, Switzerland, September 6-12, 2014, Proceedings, Part V 13",
+      "author": "Lin, Tsung-Yi and Maire, Michael and Belongie, Serge and Hays, James and Perona, Pietro and Ramanan, Deva and Doll{\\'a}r, Piotr and Zitnick, C Lawrence",
+      "title": "Microsoft coco: Common objects in context",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "lin2014mscoco"
+    },
+    {
+      "publisher": "Springer",
+      "year": "2017",
+      "pages": "32--73",
+      "volume": "123",
+      "journal": "International journal of computer vision",
+      "author": "Krishna, Ranjay and Zhu, Yuke and Groth, Oliver and Johnson, Justin and Hata, Kenji and Kravitz, Joshua and Chen, Stephanie and Kalantidis, Yannis and Li, Li-Jia and Shamma, David A and others",
+      "title": "Visual genome: Connecting language and vision using crowdsourced dense image annotations",
+      "ENTRYTYPE": "article",
+      "ID": "krishna2017visualgenome"
+    },
+    {
+      "year": "2017",
+      "journal": "Dataset available from https://github.com/openimages",
+      "author": "Krasin, Ivan and Duerig, Tom and Alldrin, Neil and Ferrari, Vittorio and Abu-El-Haija, Sami and Kuznetsova, Alina and Rom, Hassan and Uijlings, Jasper and Popov, Stefan and Veit, Andreas and others",
+      "title": "Openimages: A public dataset for large-scale multi-label and multi-class image classification",
+      "ENTRYTYPE": "article",
+      "ID": "krasin2017openimages"
+    }
+  ]
+}

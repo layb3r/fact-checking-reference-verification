@@ -1,0 +1,412 @@
+{
+  "pdf_url": "https://arxiv.org/pdf/2410.04039v5.pdf",
+  "references": [
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2304.12749",
+      "author": "Gai, Yu and Zhou, Liyi and Qin, Kaihua and Song, Dawn and Gervais, Arthur",
+      "title": "Blockchain large language models",
+      "ENTRYTYPE": "article",
+      "ID": "gai2023blockchain"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2309.05520",
+      "author": "Chen, Chong and Su, Jianzhong and Chen, Jiachi and Wang, Yanlin and Bi, Tingting and Wang, Yanli and Lin, Xingwei and Chen, Ting and Zheng, Zibin",
+      "title": "When chatgpt meets smart contract vulnerability detection: How far are we?",
+      "ENTRYTYPE": "article",
+      "ID": "chen2023chatgpt"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2014",
+      "booktitle": "Proceedings of ICML",
+      "author": "Le, Quoc and Mikolov, Tomas",
+      "title": "Distributed representations of sentences and documents",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "le2014distributed"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2408.12986",
+      "author": "Risse, Niklas and B{\\\"o}hme, Marcel",
+      "title": "Top Score on the Wrong Exam: On Benchmarking in Machine Learning for Vulnerability Detection",
+      "ENTRYTYPE": "article",
+      "ID": "risse2024top"
+    },
+    {
+      "year": "2019",
+      "booktitle": "Proceedings of NAACL",
+      "author": "Devlin, Jacob and Chang, Ming-Wei and Lee, Kenton and Toutanova, Kristina",
+      "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "devlin2019bert"
+    },
+    {
+      "year": "2019",
+      "journal": "arXiv preprint arXiv:1907.11692",
+      "author": "Liu, Yinhan and Ott, Myle and Goyal, Naman and Du, Xuezhe and Joshi, Mandar and Chen, Danqi and Levy, Omer and Lewis, Mike and Zettlemoyer, Luke and Stoyanov, Veselin",
+      "title": "Roberta: A robustly optimized bert pretraining approach",
+      "ENTRYTYPE": "article",
+      "ID": "liu2019roberta"
+    },
+    {
+      "year": "2024",
+      "journal": "Neurocomputing",
+      "author": "Su, Jianlin and Ahmed, Murtadha and Lu, Yu and Pan, Shengfeng and Bo, Wen and Liu, Yunfeng",
+      "title": "Roformer: Enhanced transformer with rotary position embedding",
+      "ENTRYTYPE": "article",
+      "ID": "su2024roformer"
+    },
+    {
+      "year": "2022",
+      "booktitle": "Proceedings of NeurIPS",
+      "author": "Dao, Tri and Fu, Dan and Ermon, Stefano and Rudra, Atri and R{\\'e}, Christopher",
+      "title": "Flashattention: Fast and memory-efficient exact attention with io-awareness",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "dao2022flashattention"
+    },
+    {
+      "year": "2017",
+      "booktitle": "Proceedings of NeurIPS",
+      "author": "Vaswani, A",
+      "title": "Attention is all you need",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "vaswani2017attention"
+    },
+    {
+      "year": "2008",
+      "journal": "Satoshi Nakamoto",
+      "author": "Nakamoto, Satoshi",
+      "title": "Bitcoin: A peer-to-peer electronic cash system",
+      "ENTRYTYPE": "article",
+      "ID": "nakamoto2008bitcoin"
+    },
+    {
+      "publisher": "Oxford University Press",
+      "year": "2021",
+      "journal": "The Review of financial studies",
+      "author": "Saleh, Fahad",
+      "title": "Blockchain without waste: Proof-of-stake",
+      "ENTRYTYPE": "article",
+      "ID": "saleh2021blockchain"
+    },
+    {
+      "year": "2002",
+      "author": "Back, Adam and others",
+      "title": "Hashcash-a denial of service counter-measure",
+      "ENTRYTYPE": "article",
+      "ID": "back2002hashcash"
+    },
+    {
+      "organization": "IEEE",
+      "year": "2019",
+      "booktitle": "Proceedings of the 2019 International Conference on Networking and Network Applications (NaNA)",
+      "author": "Yang, Lingxiao and Dong, Xuewen and Xing, Siyu and Zheng, Jiawei and Gu, Xinyu and Song, Xiongfei",
+      "title": "An abnormal transaction detection mechanim on bitcoin",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "yang2019abnormal"
+    },
+    {
+      "year": "2022",
+      "booktitle": "Proceedings of the 4th ACM Conference on Advances in Financial Technologies",
+      "author": "Werner, Sam and Perez, Daniel and Gudgeon, Lewis and Klages-Mundt, Ariah and Harz, Dominik and Knottenbelt, William",
+      "title": "Sok: Decentralized finance (defi)",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "werner2022sok"
+    },
+    {
+      "organization": "IEEE",
+      "year": "2019",
+      "booktitle": "2019 IEEE 39th international conference on distributed computing systems (ICDCS)",
+      "author": "Saad, Muhammad and Cook, Victor and Nguyen, Lan and Thai, My T and Mohaisen, Aziz",
+      "title": "Partitioning attacks on bitcoin: Colliding space, time, and logic",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "saad2019partitioning"
+    },
+    {
+      "year": "2012",
+      "booktitle": "Proceedings of the 2012 ACM conference on Computer and communications security",
+      "author": "Karame, Ghassan O and Androulaki, Elli and Capkun, Srdjan",
+      "title": "Double-spending fast payments in bitcoin",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "karame2012double"
+    },
+    {
+      "organization": "Springer",
+      "year": "2020",
+      "booktitle": "Financial Cryptography and Data Security: FC 2019 International Workshops",
+      "author": "Eskandari, Shayan and Moosavi, Seyedehmahsa and Clark, Jeremy",
+      "title": "Sok: Transparent dishonesty: front-running attacks on blockchain",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "eskandari2020sok"
+    },
+    {
+      "year": "2024",
+      "journal": "International Journal of Advanced Computer Science \\& Applications",
+      "author": "Aldaham, Thanyah and HAMDI, Hedi",
+      "title": "Enhancing Digital Financial Security with LSTM and Blockchain Technology.",
+      "ENTRYTYPE": "article",
+      "ID": "aldaham2024enhancing"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2303.08774",
+      "author": "Achiam, Josh and Adler, Steven and Agarwal, Sandhini and Ahmad, Lama and Akkaya, Ilge and Aleman, Florencia Leoni and Almeida, Diogo and Altenschmidt, Janko and Altman, Sam and Anadkat, Shyamal and others",
+      "title": "Gpt-4 technical report",
+      "ENTRYTYPE": "article",
+      "ID": "achiam2023gpt"
+    },
+    {
+      "year": "2022",
+      "journal": "Advances in neural information processing systems",
+      "author": "Wei, Jason and Wang, Xuezhi and Schuurmans, Dale and Bosma, Maarten and Xia, Fei and Chi, Ed and Le, Quoc V and Zhou, Denny and others",
+      "title": "Chain-of-thought prompting elicits reasoning in large language models",
+      "ENTRYTYPE": "article",
+      "ID": "wei2022chain"
+    },
+    {
+      "year": "2011",
+      "journal": "Journal of machine learning research",
+      "author": "Pedregosa, Fabian and Varoquaux, Ga{\\\"e}l and Gramfort, Alexandre and Michel, Vincent and Thirion, Bertrand and Grisel, Olivier and Blondel, Mathieu and Prettenhofer, Peter and Weiss, Ron and Dubourg, Vincent and others",
+      "title": "Scikit-learn: Machine learning in Python",
+      "ENTRYTYPE": "article",
+      "ID": "pedregosa2011scikit"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2309.12307",
+      "author": "Chen, Yukang and Qian, Shengju and Tang, Haotian and Lai, Xin and Liu, Zhijian and Han, Song and Jia, Jiaya",
+      "title": "Longlora: Efficient fine-tuning of long-context large language models",
+      "ENTRYTYPE": "article",
+      "ID": "chen2023longlora"
+    },
+    {
+      "year": "2014",
+      "journal": "arXiv preprint arXiv:1412.6980",
+      "author": "Kingma, Diederik P",
+      "title": "Adam: A method for stochastic optimization",
+      "ENTRYTYPE": "article",
+      "ID": "kingma2014adam"
+    },
+    {
+      "year": "2020",
+      "journal": "arXiv preprint arXiv:2011.02578",
+      "author": "Sohn, Kihyuk and Li, Chun-Liang and Yoon, Jinsung and Jin, Minho and Pfister, Tomas",
+      "title": "Learning and evaluating representations for deep one-class classification",
+      "ENTRYTYPE": "article",
+      "ID": "sohn2020learning"
+    },
+    {
+      "note": "Accessed: 2024-11-16",
+      "url": "https://fravoll.github.io/solidity-patterns/emergency_stop.html",
+      "year": "2024",
+      "title": "Emergency Stop - Solidity Patterns",
+      "author": "Francesco Ravazzi",
+      "ENTRYTYPE": "misc",
+      "ID": "emergency_stop_pattern"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "2024",
+      "pages": "100207",
+      "journal": "Blockchain: Research and Applications",
+      "author": "Hasan, Mohammad and Rahman, Mohammad Shahriar and Janicke, Helge and Sarker, Iqbal H",
+      "title": "Detecting anomalies in blockchain transactions using machine learning classifiers and explainability analysis",
+      "ENTRYTYPE": "article",
+      "ID": "hasan2024detecting"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "2022",
+      "pages": "289--318",
+      "number": "1",
+      "volume": "25",
+      "journal": "IEEE Communications Surveys \\& Tutorials",
+      "author": "Hassan, Muneeb Ul and Rehmani, Mubashir Husain and Chen, Jinjun",
+      "title": "Anomaly detection in blockchain networks: A comprehensive survey",
+      "ENTRYTYPE": "article",
+      "ID": "hassan2022anomaly"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2020",
+      "pages": "7487--7498",
+      "booktitle": "International conference on machine learning",
+      "author": "Parisotto, Emilio and Song, Francis and Rae, Jack and Pascanu, Razvan and Gulcehre, Caglar and Jayakumar, Siddhant and Jaderberg, Max and Kaufman, Raphael Lopez and Clark, Aidan and Noury, Seb and others",
+      "title": "Stabilizing transformers for reinforcement learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "parisotto2020stabilizing"
+    },
+    {
+      "organization": "IEEE",
+      "year": "2019",
+      "pages": "8--15",
+      "booktitle": "2019 IEEE Automatic Speech Recognition and Understanding Workshop (ASRU)",
+      "author": "Zeyer, Albert and Bahar, Parnia and Irie, Kazuki and Schl{\\\"u}ter, Ralf and Ney, Hermann",
+      "title": "A comparison of transformer and lstm encoder decoder models for asr",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zeyer2019comparison"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2202.07125",
+      "author": "Wen, Qingsong and Zhou, Tian and Zhang, Chaoli and Chen, Weiqi and Ma, Ziqing and Yan, Junchi and Sun, Liang",
+      "title": "Transformers in time series: A survey",
+      "ENTRYTYPE": "article",
+      "ID": "wen2022transformers"
+    },
+    {
+      "year": "2020",
+      "journal": "arXiv preprint arXiv:2006.03654",
+      "author": "He, Pengcheng and Liu, Xiaodong and Gao, Jianfeng and Chen, Weizhu",
+      "title": "Deberta: Decoding-enhanced bert with disentangled attention",
+      "ENTRYTYPE": "article",
+      "ID": "he2020deberta"
+    },
+    {
+      "year": "2020",
+      "journal": "arXiv preprint arXiv:2003.10555",
+      "author": "Clark, K",
+      "title": "Electra: Pre-training text encoders as discriminators rather than generators",
+      "ENTRYTYPE": "article",
+      "ID": "clark2020electra"
+    },
+    {
+      "year": "2018",
+      "journal": "arXiv preprint arXiv:1807.03748",
+      "author": "Oord, Aaron van den and Li, Yazhe and Vinyals, Oriol",
+      "title": "Representation learning with contrastive predictive coding",
+      "ENTRYTYPE": "article",
+      "ID": "oord2018representation"
+    },
+    {
+      "year": "2021",
+      "pages": "15750--15758",
+      "booktitle": "Proceedings of the IEEE/CVF conference on computer vision and pattern recognition",
+      "author": "Chen, Xinlei and He, Kaiming",
+      "title": "Exploring simple siamese representation learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "chen2021exploring"
+    },
+    {
+      "organization": "EDP Sciences",
+      "year": "2018",
+      "pages": "00037",
+      "volume": "23",
+      "booktitle": "ITM web of conferences",
+      "author": "W{\\k{e}}glarczyk, Stanis{\\l}aw",
+      "title": "Kernel density estimation and its application",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "wkeglarczyk2018kernel"
+    },
+    {
+      "year": "2021",
+      "journal": "arXiv preprint arXiv:2111.15367",
+      "author": "Wang, Jianian and Zhang, Sheng and Xiao, Yanghua and Song, Rui",
+      "title": "A review on graph neural network methods in financial applications",
+      "ENTRYTYPE": "article",
+      "ID": "wang2021review"
+    },
+    {
+      "school": "University of British Columbia",
+      "year": "2023",
+      "author": "Appiah, Robert",
+      "title": "MultiVul-GCN: automatic smart contract vulnerability detection using multi-graph convolutional networks",
+      "ENTRYTYPE": "phdthesis",
+      "ID": "appiah2023multivul"
+    },
+    {
+      "publisher": "MDPI",
+      "year": "2024",
+      "pages": "1",
+      "number": "1",
+      "volume": "25",
+      "journal": "Sensors",
+      "author": "Chang, Ze and Cai, Yunfei and Liu, Xiao Fan and Xie, Zhenping and Liu, Yuan and Zhan, Qianyi",
+      "title": "Anomalous Node Detection in Blockchain Networks Based on Graph Neural Networks",
+      "ENTRYTYPE": "article",
+      "ID": "chang2024anomalous"
+    },
+    {
+      "organization": "Springer",
+      "year": "2022",
+      "pages": "909--925",
+      "booktitle": "International Conference on Computing, Communications, and Cyber-Security",
+      "author": "Sharma, Amit and Singh, Pradeep Kumar and Podoplelova, Elizaveta and Gavrilenko, Vadim and Tselykh, Alexey and Bozhenyuk, Alexander",
+      "title": "Graph neural network-based anomaly detection in blockchain network",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "sharma2022graph"
+    },
+    {
+      "organization": "IEEE",
+      "year": "2024",
+      "pages": "674--682",
+      "booktitle": "2024 IEEE 23rd International Conference on Trust, Security and Privacy in Computing and Communications (TrustCom)",
+      "author": "Xia, Qi and Ansu, Badjie and Gao, Jianbin and Grace, Mupoyi Ntuala and Xia, Hu and Amankona, Obiri Isaac",
+      "title": "A Novel Time Series Approach to Anomaly Detection and Correction for Complex Blockchain Transaction Networks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "xia2024novel"
+    },
+    {
+      "publisher": "VLDB Endowment",
+      "year": "2022",
+      "pages": "1779--1797",
+      "number": "9",
+      "volume": "15",
+      "journal": "Proceedings of the VLDB Endowment",
+      "author": "Schmidl, Sebastian and Wenig, Phillip and Papenbrock, Thorsten",
+      "title": "Anomaly detection in time series: a comprehensive evaluation",
+      "ENTRYTYPE": "article",
+      "ID": "schmidl2022anomaly"
+    },
+    {
+      "publisher": "ACM New York, NY",
+      "year": "2024",
+      "pages": "1--42",
+      "number": "1",
+      "volume": "57",
+      "journal": "ACM Computing Surveys",
+      "author": "Zamanzadeh Darban, Zahra and Webb, Geoffrey I and Pan, Shirui and Aggarwal, Charu and Salehi, Mahsa",
+      "title": "Deep learning for time series anomaly detection: A survey",
+      "ENTRYTYPE": "article",
+      "ID": "zamanzadeh2024deep"
+    },
+    {
+      "year": "2023",
+      "number": "3",
+      "volume": "14",
+      "journal": "International Journal of Advanced Computer Science and Applications",
+      "author": "Maheshwari, Rohan and VA, Sriram Praveen and Shobha, G and Shetty, Jyoti and Chala, Arjuna and Watanuki, Hugo",
+      "title": "Illicit activity detection in bitcoin transactions using timeseries analysis",
+      "ENTRYTYPE": "article",
+      "ID": "maheshwari2023illicit"
+    },
+    {
+      "year": "2010",
+      "journal": "Machine learning",
+      "author": "Ben-David, Shai and Blitzer, John and Crammer, Koby and Kulesza, Alex and Pereira, Fernando and Vaughan, Jennifer Wortman",
+      "title": "A theory of learning from different domains",
+      "ENTRYTYPE": "article",
+      "ID": "ben2010theory"
+    },
+    {
+      "year": "2006",
+      "volume": "19",
+      "journal": "Advances in neural information processing systems",
+      "author": "Ben-David, Shai and Blitzer, John and Crammer, Koby and Pereira, Fernando",
+      "title": "Analysis of representations for domain adaptation",
+      "ENTRYTYPE": "article",
+      "ID": "ben2006analysis"
+    },
+    {
+      "year": "2023",
+      "pages": "2189--2197",
+      "booktitle": "Proceedings of the ACM Web Conference 2023",
+      "author": "Hu, Sihao and Zhang, Zhen and Luo, Bingqiao and Lu, Shengliang and He, Bingsheng and Liu, Ling",
+      "title": "Bert4eth: A pre-trained transformer for ethereum fraud detection",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "bert4eth"
+    }
+  ]
+}

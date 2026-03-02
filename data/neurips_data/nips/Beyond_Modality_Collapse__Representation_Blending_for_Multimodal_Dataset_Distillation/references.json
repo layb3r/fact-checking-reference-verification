@@ -1,0 +1,1764 @@
+{
+  "pdf_url": "https://arxiv.org/pdf/2505.14705v1.pdf",
+  "references": [
+    {
+      "url": "https://openreview.net/forum?id=2y8XnaIiB8",
+      "year": "2024",
+      "booktitle": "TMLR",
+      "author": "Xindi Wu and Byron Zhang and Zhiwei Deng and Olga Russakovsky",
+      "title": "Vision-Language Dataset Distillation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "wu2024visionlanguage"
+    },
+    {
+      "year": "2024",
+      "booktitle": "ICML",
+      "author": "Xu, Yue and Lin, Zhilin and Qiu, Yusong and Lu, Cewu and Li, Yong-Lu",
+      "title": "Low-Rank Similarity Mining for Multimodal Dataset Distillation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "xu2024lors"
+    },
+    {
+      "year": "2024",
+      "booktitle": "ICML",
+      "author": "Lee, Yongmin and Chung, Hye Won",
+      "title": "SelMatch: Effectively scaling up dataset distillation via selection-based initialization and partial updates by trajectory matching",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "lee2024selmatch"
+    },
+    {
+      "year": "2017",
+      "journal": "arXiv preprint arXiv:1703.06476",
+      "author": "Bachem, Olivier and Lucic, Mario and Krause, Andreas",
+      "title": "Practical coreset constructions for machine learning",
+      "ENTRYTYPE": "article",
+      "ID": "bach"
+    },
+    {
+      "year": "2010",
+      "booktitle": "UAI",
+      "author": "Chen, Yutian and Welling, Max and Smola, Alex",
+      "title": "Super-samples from kernel herding",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "chen"
+    },
+    {
+      "year": "2005",
+      "booktitle": "Proceedings of the twenty-first annual symposium on Computational geometry",
+      "author": "Har-Peled, Sariel and Kushal, Akash",
+      "title": "Smaller coresets for k-median and k-means clustering",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "har"
+    },
+    {
+      "year": "2018",
+      "booktitle": "ICLR",
+      "author": "Sener, Ozan and Savarese, Silvio",
+      "title": "Active learning for convolutional neural networks: A core-set approach",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "sener"
+    },
+    {
+      "year": "2005",
+      "journal": "Journal of Machine Learning Research",
+      "author": "Tsang, Ivor W and Kwok, James T and Cheung, Pak-Ming and Cristianini, Nello",
+      "title": "Core vector machines: Fast SVM training on very large data sets.",
+      "ENTRYTYPE": "article",
+      "ID": "tsang"
+    },
+    {
+      "year": "2023",
+      "booktitle": "ICLR",
+      "author": "Liu, Ping and Yu, Xin and Zhou, Joey Tianyi",
+      "title": "Meta knowledge condensation for federated learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "liu2022"
+    },
+    {
+      "year": "2020",
+      "journal": "arXiv preprint arXiv:2006.08572",
+      "author": "Bohdal, Ondrej and Yang, Yongxin and Hospedales, Timothy",
+      "title": "Flexible dataset distillation: Learn labels instead of images",
+      "ENTRYTYPE": "article",
+      "ID": "boh"
+    },
+    {
+      "year": "2020",
+      "booktitle": "NeurIPS",
+      "author": "Brown, Tom and Mann, Benjamin and Ryder, Nick and Subbiah, Melanie and Kaplan, Jared D and Dhariwal, Prafulla and Neelakantan, Arvind and Shyam, Pranav and Sastry, Girish and Askell, Amanda and others",
+      "title": "Language models are few-shot learners",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "brown2020language"
+    },
+    {
+      "year": "2018",
+      "journal": "arXiv preprint arXiv:1811.10959",
+      "author": "Wang, Tongzhou and Zhu, Jun-Yan and Torralba, Antonio and Efros, Alexei A",
+      "title": "Dataset distillation",
+      "ENTRYTYPE": "article",
+      "ID": "wang2018dataset"
+    },
+    {
+      "year": "2021",
+      "booktitle": "ICML",
+      "author": "Zhao, Bo and Bilen, Hakan",
+      "title": "Dataset condensation with differentiable siamese augmentation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zhao2021dataset"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2208.00311",
+      "author": "Jiang, Zixuan and Gu, Jiaqi and Liu, Mingjie and Pan, David Z",
+      "title": "Delving into effective gradient matching for dataset condensation",
+      "ENTRYTYPE": "article",
+      "ID": "jiang2022delving"
+    },
+    {
+      "year": "2022",
+      "booktitle": "ICML",
+      "author": "Kim, Jang-Hyun and Kim, Jinuk and Oh, Seong Joon and Yun, Sangdoo and Song, Hwanjun and Jeong, Joonhyun and Ha, Jung-Woo and Song, Hyun Oh",
+      "title": "Dataset condensation via efficient synthetic-data parameterization",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "kim2022dataset"
+    },
+    {
+      "year": "2022",
+      "pages": "4750--4759",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Cazenavette, George and Wang, Tongzhou and Torralba, Antonio and Efros, Alexei A and Zhu, Jun-Yan",
+      "title": "Dataset distillation by matching training trajectories",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "cazenavette2022dataset"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2211.11004",
+      "author": "Du, Jiawei and Jiang, Yidi and Tan, Vincent TF and Zhou, Joey Tianyi and Li, Haizhou",
+      "title": "Minimizing the accumulated trajectory error to improve dataset distillation",
+      "ENTRYTYPE": "article",
+      "ID": "du2022minimizing"
+    },
+    {
+      "year": "2023",
+      "booktitle": "ICML",
+      "author": "Cui, Justin and Wang, Ruochen and Si, Si and Hsieh, Cho-Jui",
+      "title": "Scaling Up Dataset Distillation to ImageNet-1K with Constant Memory",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "cui2022scaling"
+    },
+    {
+      "year": "2017",
+      "journal": "arXiv preprint arXiv:1708.00489",
+      "author": "Sener, Ozan and Savarese, Silvio",
+      "title": "Active learning for convolutional neural networks: A core-set approach",
+      "ENTRYTYPE": "article",
+      "ID": "k-center"
+    },
+    {
+      "year": "2023",
+      "booktitle": "WACV",
+      "author": "Zhao, Bo and Bilen, Hakan",
+      "title": "Dataset condensation with distribution matching",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "DM"
+    },
+    {
+      "year": "2022",
+      "booktitle": "CVPR",
+      "author": "Wang, Kai and Zhao, Bo and Peng, Xiangyu and Zhu, Zheng and Yang, Shuo and Wang, Shuo and Huang, Guan and Bilen, Hakan and Wang, Xinchao and You, Yang",
+      "title": "Cafe: Learning to condense dataset by aligning features",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "wang2022cafe"
+    },
+    {
+      "year": "2025",
+      "booktitle": "CVPR",
+      "author": "Shaobo Wang and Yicun Yang and Zhiyuan Liu and Chenghao Sun and Xuming Hu and Conghui He and Linfeng Zhang",
+      "title": "Dataset Distillation with Neural Characteristic Function: A Minmax Perspective",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "Minmax2025wang"
+    },
+    {
+      "year": "1979",
+      "journal": "Journal of the royal statistical society. series c (applied statistics)",
+      "author": "Hartigan, John A and Wong, Manchek A",
+      "title": "Algorithm AS 136: A k-means clustering algorithm",
+      "ENTRYTYPE": "article",
+      "ID": "kmeans"
+    },
+    {
+      "year": "2018",
+      "journal": "arXiv preprint arXiv:1811.10959",
+      "author": "Wang, Tongzhou and Zhu, Jun-Yan and Torralba, Antonio and Efros, Alexei A",
+      "title": "Dataset distillation",
+      "ENTRYTYPE": "article",
+      "ID": "dd2018"
+    },
+    {
+      "year": "2022",
+      "booktitle": "CVPR",
+      "author": "Cazenavette, George and Wang, Tongzhou and Torralba, Antonio and Efros, Alexei A and Zhu, Jun-Yan",
+      "title": "Dataset distillation by matching training trajectories",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "mtt"
+    },
+    {
+      "year": "2021",
+      "booktitle": "ICLR",
+      "author": "Zhao, Bo and Mopuri, Konda Reddy and Bilen, Hakan",
+      "title": "Dataset Condensation with Gradient Matching.",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "dc2021"
+    },
+    {
+      "year": "2021",
+      "booktitle": "ICML",
+      "author": "Zhao, Bo and Bilen, Hakan",
+      "title": "Dataset condensation with differentiable siamese augmentation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "dsa2021"
+    },
+    {
+      "organization": "IEEE",
+      "year": "2021",
+      "pages": "1--8",
+      "booktitle": "2021 International Joint Conference on Neural Networks (IJCNN)",
+      "author": "Sucholutsky, Ilia and Schonlau, Matthias",
+      "title": "Soft-label dataset distillation and text dataset distillation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "soft2021"
+    },
+    {
+      "year": "2021",
+      "booktitle": "NeurIPS",
+      "author": "Nguyen, Timothy and Novak, Roman and Xiao, Lechao and Lee, Jaehoon",
+      "title": "Dataset distillation with infinitely wide convolutional networks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "wideDD"
+    },
+    {
+      "year": "2022",
+      "booktitle": "ICML",
+      "author": "Kim, Jang-Hyun and Kim, Jinuk and Oh, Seong Joon and Yun, Sangdoo and Song, Hwanjun and Jeong, Joonhyun and Ha, Jung-Woo and Song, Hyun Oh",
+      "title": "Dataset condensation via efficient synthetic-data parameterization",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "idc"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2208.10494",
+      "author": "Lee, Hae Beom and Lee, Dong Bok and Hwang, Sung Ju",
+      "title": "Dataset condensation with latent space knowledge factorization and sharing",
+      "ENTRYTYPE": "article",
+      "ID": "kfs"
+    },
+    {
+      "year": "2022",
+      "booktitle": "NeurIPS",
+      "author": "Loo, Noel and Hasani, Ramin and Amini, Alexander and Rus, Daniela",
+      "title": "Efficient dataset distillation using random feature approximation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "rfad"
+    },
+    {
+      "year": "2024",
+      "booktitle": "ICLR",
+      "author": "Guo, Ziyao and Wang, Kai and Cazenavette, George and LI, HUI and Zhang, Kaipeng and You, Yang",
+      "title": "Towards Lossless Dataset Distillation via Difficulty-Aligned Trajectory Matching",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "datm"
+    },
+    {
+      "year": "2023",
+      "booktitle": "NeurIPS",
+      "author": "Du, Jiawei and Shi, Qin and Zhou, Joey Tianyi",
+      "title": "Sequential Subset Matching for Dataset Distillation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "seqmatch"
+    },
+    {
+      "year": "2020",
+      "journal": "arXiv preprint arXiv:2011.00050",
+      "author": "Nguyen, Timothy and Chen, Zhourong and Lee, Jaehoon",
+      "title": "Dataset meta-learning from kernel ridge-regression",
+      "ENTRYTYPE": "article",
+      "ID": "kip1"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2206.00719",
+      "author": "Zhou, Yongchao and Nezhadarya, Ehsan and Ba, Jimmy",
+      "title": "Dataset distillation using neural feature regression",
+      "ENTRYTYPE": "article",
+      "ID": "frepo"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2206.02916",
+      "author": "Deng, Zhiwei and Russakovsky, Olga",
+      "title": "Remember the past: Distilling datasets into addressable memories for neural networks",
+      "ENTRYTYPE": "article",
+      "ID": "rtp"
+    },
+    {
+      "year": "2022",
+      "booktitle": "NeurIPS",
+      "author": "Liu, Songhua and Wang, Kai and Yang, Xingyi and Ye, Jingwen and Wang, Xinchao",
+      "title": "Dataset distillation via factorization",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "haba"
+    },
+    {
+      "year": "2014",
+      "booktitle": "ECCV",
+      "author": "Zeiler, Matthew D and Fergus, Rob",
+      "title": "Visualizing and understanding convolutional networks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zeiler2014"
+    },
+    {
+      "year": "2018",
+      "volume": "31",
+      "journal": "Advances in neural information processing systems",
+      "author": "Han, Bo and Yao, Quanming and Yu, Xingrui and Niu, Gang and Xu, Miao and Hu, Weihua and Tsang, Ivor and Sugiyama, Masashi",
+      "title": "Co-teaching: Robust training of deep neural networks with extremely noisy labels",
+      "ENTRYTYPE": "article",
+      "ID": "coteaching2018"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "2020",
+      "pages": "101759",
+      "volume": "65",
+      "journal": "Medical image analysis",
+      "author": "Karimi, Davood and Dou, Haoran and Warfield, Simon K and Gholipour, Ali",
+      "title": "Deep learning with noisy labels: Exploring techniques and remedies in medical image analysis",
+      "ENTRYTYPE": "article",
+      "ID": "noisylearning1"
+    },
+    {
+      "year": "2020",
+      "journal": "arXiv preprint arXiv:2002.07394",
+      "author": "Li, Junnan and Socher, Richard and Hoi, Steven CH",
+      "title": "Dividemix: Learning with noisy labels as semi-supervised learning",
+      "ENTRYTYPE": "article",
+      "ID": "noisylearning2"
+    },
+    {
+      "year": "2021",
+      "pages": "1373--1411",
+      "volume": "70",
+      "journal": "Journal of Artificial Intelligence Research",
+      "author": "Northcutt, Curtis and Jiang, Lu and Chuang, Isaac",
+      "title": "Confident learning: Estimating uncertainty in dataset labels",
+      "ENTRYTYPE": "article",
+      "ID": "noisylearning3"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2017",
+      "pages": "233--242",
+      "booktitle": "International conference on machine learning",
+      "author": "Arpit, Devansh and Jastrz{\\k{e}}bski, Stanis{\\l}aw and Ballas, Nicolas and Krueger, David and Bengio, Emmanuel and Kanwal, Maxinder S and Maharaj, Tegan and Fischer, Asja and Courville, Aaron and Bengio, Yoshua and others",
+      "title": "A closer look at memorization in deep networks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "memorize_easy2017"
+    },
+    {
+      "year": "2009",
+      "pages": "1",
+      "number": "1",
+      "volume": "6",
+      "journal": "URl: https://www. cs. toronto. edu/kriz/cifar. html",
+      "author": "Krizhevsky, Alex and Nair, Vinod and Hinton, Geoffrey",
+      "title": "{CIFAR}-10 and {CIFAR}-100 datasets",
+      "ENTRYTYPE": "article",
+      "ID": "cifar10"
+    },
+    {
+      "year": "2009",
+      "booktitle": "CVPR",
+      "author": "Deng, Jia and Dong, Wei and Socher, Richard and Li, Li-Jia and Li, Kai and Fei-Fei, Li",
+      "title": "Imagenet: A large-scale hierarchical image database",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "imagenet"
+    },
+    {
+      "year": "2016",
+      "booktitle": "CVPR",
+      "author": "He, Kaiming and Zhang, Xiangyu and Ren, Shaoqing and Sun, Jian",
+      "title": "Deep residual learning for image recognition",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "resnet"
+    },
+    {
+      "organization": "British Machine Vision Association",
+      "year": "2016",
+      "booktitle": "British Machine Vision Conference 2016",
+      "author": "Zagoruyko, Sergey and Komodakis, Nikos",
+      "title": "Wide Residual Networks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "wideres"
+    },
+    {
+      "year": "2017",
+      "pages": "5927--5935",
+      "booktitle": "Proceedings of the IEEE conference on computer vision and pattern recognition",
+      "author": "Han, Dongyoon and Kim, Jiwhan and Kim, Junmo",
+      "title": "Deep pyramidal residual networks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "pyramid"
+    },
+    {
+      "year": "2017",
+      "author": "Loshchilov, Ilya and Hutter, Frank",
+      "title": "SGDR: Stochastic Gradient Descent with Warm Restarts",
+      "ENTRYTYPE": "article",
+      "ID": "cosine"
+    },
+    {
+      "year": "1983",
+      "pages": "543--547",
+      "volume": "269",
+      "booktitle": "Dokl. akad. nauk Sssr",
+      "author": "Nesterov, Yurii E",
+      "title": "A method for solving the convex programming problem with convergence rate {$O (1/k^2)$}",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "sgd"
+    },
+    {
+      "year": "1998",
+      "pages": "142",
+      "number": "9",
+      "volume": "17",
+      "journal": "On-line learning in neural networks",
+      "author": "Bottou, L{\\'e}on and others",
+      "title": "Online learning and stochastic approximations",
+      "ENTRYTYPE": "article",
+      "ID": "sgd2"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2204.12451",
+      "author": "Zhou, Daquan and Yu, Zhiding and Xie, Enze and Xiao, Chaowei and Anandkumar, Anima and Feng, Jiashi and Alvarez, Jose M",
+      "title": "Understanding The Robustness in Vision Transformers",
+      "ENTRYTYPE": "article",
+      "ID": "zhou2022understanding"
+    },
+    {
+      "year": "2015",
+      "booktitle": "ICLR (Poster)",
+      "author": "Kingma, Diederik P and Ba, Jimmy",
+      "title": "Adam: A Method for Stochastic Optimization",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "adam"
+    },
+    {
+      "publisher": "ACM New York, NY, USA",
+      "year": "2021",
+      "pages": "107--115",
+      "number": "3",
+      "volume": "64",
+      "journal": "Communications of the ACM",
+      "author": "Zhang, Chiyuan and Bengio, Samy and Hardt, Moritz and Recht, Benjamin and Vinyals, Oriol",
+      "title": "Understanding deep learning (still) requires rethinking generalization",
+      "ENTRYTYPE": "article",
+      "ID": "rethink"
+    },
+    {
+      "year": "2019",
+      "volume": "32",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Zhang, Michael and Lucas, James and Ba, Jimmy and Hinton, Geoffrey E",
+      "title": "Lookahead optimizer: k steps forward, 1 step back",
+      "ENTRYTYPE": "article",
+      "ID": "lookahead"
+    },
+    {
+      "year": "2020",
+      "booktitle": "International Conference on Learning Representations",
+      "author": "Foret, Pierre and Kleiner, Ariel and Mobahi, Hossein and Neyshabur, Behnam",
+      "title": "Sharpness-aware Minimization for Efficiently Improving Generalization",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "sam"
+    },
+    {
+      "year": "2021",
+      "journal": "arXiv preprint arXiv:2106.01548",
+      "author": "Chen, Xiangning and Hsieh, Cho-Jui and Gong, Boqing",
+      "title": "When Vision Transformers Outperform ResNets without Pretraining or Strong Data Augmentations",
+      "ENTRYTYPE": "article",
+      "ID": "vitsam"
+    },
+    {
+      "publisher": "JMLR. org",
+      "year": "2014",
+      "pages": "1929--1958",
+      "number": "1",
+      "volume": "15",
+      "journal": "The journal of machine learning research",
+      "author": "Srivastava, Nitish and Hinton, Geoffrey and Krizhevsky, Alex and Sutskever, Ilya and Salakhutdinov, Ruslan",
+      "title": "Dropout: a simple way to prevent neural networks from overfitting",
+      "ENTRYTYPE": "article",
+      "ID": "dropout"
+    },
+    {
+      "year": "2019",
+      "journal": "arXiv preprint arXiv:1907.02610",
+      "author": "Qin, Chongli and Martens, James and Gowal, Sven and Krishnan, Dilip and Dvijotham, Krishnamurthy and Fawzi, Alhussein and De, Soham and Stanforth, Robert and Kohli, Pushmeet",
+      "title": "Adversarial robustness through local linearization",
+      "ENTRYTYPE": "article",
+      "ID": "linear"
+    },
+    {
+      "year": "1995",
+      "pages": "529--536",
+      "booktitle": "Advances in neural information processing systems",
+      "author": "Hochreiter, Sepp and Schmidhuber, J{\\\"u}rgen",
+      "title": "Simplifying neural nets by discovering flat minima",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "1995flat"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2017",
+      "pages": "1019--1028",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Dinh, Laurent and Pascanu, Razvan and Bengio, Samy and Bengio, Yoshua",
+      "title": "Sharp minima can generalize for deep nets",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "sharp2017"
+    },
+    {
+      "year": "2017",
+      "booktitle": "5th International Conference on Learning Representations, ICLR 2017",
+      "author": "Keskar, Nitish Shirish and Nocedal, Jorge and Tang, Ping Tak Peter and Mudigere, Dheevatsa and Smelyanskiy, Mikhail",
+      "title": "On large-batch training for deep learning: Generalization gap and sharp minima",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "sharp2016"
+    },
+    {
+      "year": "2019",
+      "booktitle": "International Conference on Learning Representations",
+      "author": "Jiang, Yiding and Neyshabur, Behnam and Mobahi, Hossein and Krishnan, Dilip and Bengio, Samy",
+      "title": "Fantastic Generalization Measures and Where to Find Them",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "40study"
+    },
+    {
+      "year": "2020",
+      "pages": "21476--21487",
+      "volume": "33",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Liu, Chen and Salzmann, Mathieu and Lin, Tao and Tomioka, Ryota and S{\\\"u}sstrunk, Sabine",
+      "title": "On the loss landscape of adversarial training: Identifying challenges and how to overcome them",
+      "ENTRYTYPE": "article",
+      "ID": "atlosslandscape"
+    },
+    {
+      "year": "2018",
+      "journal": "arXiv preprint arXiv:1805.09501",
+      "author": "Cubuk, Ekin D and Zoph, Barret and Mane, Dandelion and Vasudevan, Vijay and Le, Quoc V",
+      "title": "Autoaugment: Learning augmentation policies from data",
+      "ENTRYTYPE": "article",
+      "ID": "autoaugment"
+    },
+    {
+      "year": "2017",
+      "journal": "arXiv preprint arXiv:1708.04552",
+      "author": "DeVries, Terrance and Taylor, Graham W",
+      "title": "Improved regularization of convolutional neural networks with cutout",
+      "ENTRYTYPE": "article",
+      "ID": "cutout"
+    },
+    {
+      "year": "2019",
+      "journal": "arXiv preprint arXiv:1905.02249",
+      "author": "Berthelot, David and Carlini, Nicholas and Goodfellow, Ian and Papernot, Nicolas and Oliver, Avital and Raffel, Colin",
+      "title": "Mixmatch: A holistic approach to semi-supervised learning",
+      "ENTRYTYPE": "article",
+      "ID": "mixmatch"
+    },
+    {
+      "organization": "Springer",
+      "year": "2016",
+      "pages": "646--661",
+      "booktitle": "European conference on computer vision",
+      "author": "Huang, Gao and Sun, Yu and Liu, Zhuang and Sedra, Daniel and Weinberger, Kilian Q",
+      "title": "Deep networks with stochastic depth",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "depth"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2020",
+      "pages": "9636--9647",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Tsuzuku, Yusuke and Sato, Issei and Sugiyama, Masashi",
+      "title": "Normalized flat minima: Exploring scale invariant definition of flat minima for neural networks using pac-bayesian analysis",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "flat2020"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2019",
+      "pages": "888--896",
+      "booktitle": "The 22nd international conference on artificial intelligence and statistics",
+      "author": "Liang, Tengyuan and Poggio, Tomaso and Rakhlin, Alexander and Stokes, James",
+      "title": "Fisher-rao metric, geometry, and complexity of neural networks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "infom2019"
+    },
+    {
+      "year": "2017",
+      "journal": "arXiv preprint arXiv:1707.09564",
+      "author": "Neyshabur, Behnam and Bhojanapalli, Srinadh and Srebro, Nathan",
+      "title": "A pac-bayesian approach to spectrally-normalized margin bounds for neural networks",
+      "ENTRYTYPE": "article",
+      "ID": "pac2017"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2018",
+      "pages": "254--263",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Arora, Sanjeev and Ge, Rong and Neyshabur, Behnam and Zhang, Yi",
+      "title": "Stronger generalization bounds for deep nets via a compression approach",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "compress2018"
+    },
+    {
+      "year": "2018",
+      "journal": "arXiv preprint arXiv:1803.03635",
+      "author": "Frankle, Jonathan and Carbin, Michael",
+      "title": "The lottery ticket hypothesis: Finding sparse, trainable neural networks",
+      "ENTRYTYPE": "article",
+      "ID": "lottery2018"
+    },
+    {
+      "year": "1999",
+      "pages": "164--170",
+      "booktitle": "Proceedings of the twelfth annual conference on Computational learning theory",
+      "author": "McAllester, David A",
+      "title": "PAC-Bayesian model averaging",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "pac1999"
+    },
+    {
+      "year": "2017",
+      "author": "Paszke, Adam and Gross, Sam and Chintala, Soumith and Chanan, Gregory and Yang, Edward and DeVito, Zachary and Lin, Zeming and Desmaison, Alban and Antiga, Luca and Lerer, Adam",
+      "title": "Automatic differentiation in pytorch",
+      "ENTRYTYPE": "article",
+      "ID": "pytorch"
+    },
+    {
+      "howpublished": "\\url{https://github.com/rwightman/pytorch-image-models}",
+      "doi": "10.5281/zenodo.4414861",
+      "journal": "GitHub repository",
+      "publisher": "GitHub",
+      "year": "2019",
+      "title": "PyTorch Image Models",
+      "author": "Ross Wightman",
+      "ENTRYTYPE": "misc",
+      "ID": "timm"
+    },
+    {
+      "year": "2017",
+      "journal": "arXiv preprint arXiv:1703.11008",
+      "author": "Dziugaite, Gintare Karolina and Roy, Daniel M",
+      "title": "Computing nonvacuous generalization bounds for deep (stochastic) neural networks with many more parameters than training data",
+      "ENTRYTYPE": "article",
+      "ID": "2017computing"
+    },
+    {
+      "year": "2019",
+      "pages": "9078--9086",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Moosavi-Dezfooli, Seyed-Mohsen and Fawzi, Alhussein and Uesato, Jonathan and Frossard, Pascal",
+      "title": "Robustness via curvature regularization, and vice versa",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "2019robustness_gen"
+    },
+    {
+      "year": "2017",
+      "volume": "30",
+      "journal": "Advances in neural information processing systems",
+      "author": "Neyshabur, Behnam and Bhojanapalli, Srinadh and McAllester, David and Srebro, Nati",
+      "title": "Exploring generalization in deep learning",
+      "ENTRYTYPE": "article",
+      "ID": "2017exploring"
+    },
+    {
+      "year": "2021",
+      "pages": "11557--11568",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Pham, Hieu and Dai, Zihang and Xie, Qizhe and Le, Quoc V",
+      "title": "Meta pseudo labels",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "2021meta"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2021",
+      "pages": "4904--4916",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Jia, Chao and Yang, Yinfei and Xia, Ye and Chen, Yi-Ting and Parekh, Zarana and Pham, Hieu and Le, Quoc and Sung, Yun-Hsuan and Li, Zhen and Duerig, Tom",
+      "title": "Scaling up visual and vision-language representation learning with noisy text supervision",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "jia2021scaling"
+    },
+    {
+      "year": "2021",
+      "booktitle": "ICCV",
+      "author": "Liu, Ze and Lin, Yutong and Cao, Yue and Hu, Han and Wei, Yixuan and Zhang, Zheng and Lin, Stephen and Guo, Baining",
+      "title": "Swin transformer: Hierarchical vision transformer using shifted windows",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "swin"
+    },
+    {
+      "year": "2021",
+      "booktitle": "NeurIPS",
+      "author": "Tolstikhin, Ilya O and Houlsby, Neil and Kolesnikov, Alexander and Beyer, Lucas and Zhai, Xiaohua and Unterthiner, Thomas and Yung, Jessica and Steiner, Andreas and Keysers, Daniel and Uszkoreit, Jakob and others",
+      "title": "Mlp-mixer: An all-mlp architecture for vision",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "mlp"
+    },
+    {
+      "year": "2021",
+      "booktitle": "ICML",
+      "author": "Touvron, Hugo and Cord, Matthieu and Douze, Matthijs and Massa, Francisco and Sablayrolles, Alexandre and J{\\'e}gou, Herv{\\'e}",
+      "title": "Training data-efficient image transformers \\& distillation through attention",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "deit"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2204.12451",
+      "author": "Zhou, Daquan and Yu, Zhiding and Xie, Enze and Xiao, Chaowei and Anandkumar, Anima and Feng, Jiashi and Alvarez, Jose M",
+      "title": "Understanding The Robustness in Vision Transformers",
+      "ENTRYTYPE": "article",
+      "ID": "robust_vit"
+    },
+    {
+      "year": "2021",
+      "journal": "arXiv preprint arXiv:2110.03141",
+      "author": "Du, Jiawei and Yan, Hanshu and Feng, Jiashi and Zhou, Joey Tianyi and Zhen, Liangli and Goh, Rick Siow Mong and Tan, Vincent YF",
+      "title": "Efficient Sharpness-aware Minimization for Improved Training of Neural Networks",
+      "ENTRYTYPE": "article",
+      "ID": "esam"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2203.02714",
+      "author": "Liu, Yong and Mai, Siqi and Chen, Xiangning and Hsieh, Cho-Jui and You, Yang",
+      "title": "Towards Efficient and Scalable Sharpness-Aware Minimization",
+      "ENTRYTYPE": "article",
+      "ID": "looksam"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2203.08065",
+      "author": "Zhuang, Juntang and Gong, Boqing and Yuan, Liangzhe and Cui, Yin and Adam, Hartwig and Dvornek, Nicha and Tatikonda, Sekhar and Duncan, James and Liu, Ting",
+      "title": "Surrogate Gap Minimization Improves Sharpness-Aware Training",
+      "ENTRYTYPE": "article",
+      "ID": "gsam"
+    },
+    {
+      "year": "2019",
+      "volume": "32",
+      "journal": "Advances in neural information processing systems",
+      "author": "He, Haowei and Huang, Gao and Yuan, Yang",
+      "title": "Asymmetric valleys: Beyond sharp and flat local minima",
+      "ENTRYTYPE": "article",
+      "ID": "he2019asymmetric"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2021",
+      "pages": "4772--4784",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Jastrzebski, Stanislaw and Arpit, Devansh and Astrand, Oliver and Kerg, Giancarlo B and Wang, Huan and Xiong, Caiming and Socher, Richard and Cho, Kyunghyun and Geras, Krzysztof J",
+      "title": "Catastrophic fisher explosion: Early phase fisher matrix impacts generalization",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "fisher2021"
+    },
+    {
+      "year": "2017",
+      "journal": "arXiv preprint arXiv:1711.05101",
+      "author": "Loshchilov, Ilya and Hutter, Frank",
+      "title": "Decoupled weight decay regularization",
+      "ENTRYTYPE": "article",
+      "ID": "weightdecay2017"
+    },
+    {
+      "publisher": "IOP Publishing",
+      "year": "2019",
+      "pages": "124018",
+      "number": "12",
+      "volume": "2019",
+      "journal": "Journal of Statistical Mechanics: Theory and Experiment",
+      "author": "Chaudhari, Pratik and Choromanska, Anna and Soatto, Stefano and LeCun, Yann and Baldassi, Carlo and Borgs, Christian and Chayes, Jennifer and Sagun, Levent and Zecchina, Riccardo",
+      "title": "Entropy-sgd: Biasing gradient descent into wide valleys",
+      "ENTRYTYPE": "article",
+      "ID": "chaudhari2019entropy"
+    },
+    {
+      "year": "2020",
+      "journal": "arXiv preprint arXiv:2006.08217",
+      "author": "Heo, Byeongho and Chun, Sanghyuk and Oh, Seong Joon and Han, Dongyoon and Yun, Sangdoo and Kim, Gyuwan and Uh, Youngjung and Ha, Jung-Woo",
+      "title": "Adamp: Slowing down the slowdown for momentum optimizers on scale-invariant weights",
+      "ENTRYTYPE": "article",
+      "ID": "adamp2020"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2021",
+      "pages": "5905--5914",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Kwon, Jungmin and Kim, Jeongseop and Park, Hyunseo and Choi, In Kwon",
+      "title": "Asam: Adaptive sharpness-aware minimization for scale-invariant learning of deep neural networks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "asam2021"
+    },
+    {
+      "year": "2017",
+      "journal": "arXiv preprint arXiv:1712.09913",
+      "author": "Li, Hao and Xu, Zheng and Taylor, Gavin and Studer, Christoph and Goldstein, Tom",
+      "title": "Visualizing the loss landscape of neural nets",
+      "ENTRYTYPE": "article",
+      "ID": "visualizing_lanscapre"
+    },
+    {
+      "year": "2021",
+      "pages": "8156--8165",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Zheng, Yaowei and Zhang, Richong and Mao, Yongyi",
+      "title": "Regularizing neural networks via adversarial model perturbation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "amp2021"
+    },
+    {
+      "year": "2020",
+      "pages": "2958--2969",
+      "volume": "33",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Wu, Dongxian and Xia, Shu-Tao and Wang, Yisen",
+      "title": "Adversarial weight perturbation helps robust generalization",
+      "ENTRYTYPE": "article",
+      "ID": "awp2020"
+    },
+    {
+      "year": "2015",
+      "number": "7",
+      "volume": "2",
+      "journal": "arXiv preprint arXiv:1503.02531",
+      "author": "Hinton, Geoffrey and Vinyals, Oriol and Dean, Jeff and others",
+      "title": "Distilling the knowledge in a neural network",
+      "ENTRYTYPE": "article",
+      "ID": "knowledge2015"
+    },
+    {
+      "year": "2020",
+      "booktitle": "ECCV",
+      "author": "Kolesnikov, Alexander and Beyer, Lucas and Zhai, Xiaohua and Puigcerver, Joan and Yung, Jessica and Gelly, Sylvain and Houlsby, Neil",
+      "title": "Big transfer (bit): General visual representation learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "imagenet21k"
+    },
+    {
+      "year": "2017",
+      "pages": "843--852",
+      "booktitle": "Proceedings of the IEEE international conference on computer vision",
+      "author": "Sun, Chen and Shrivastava, Abhinav and Singh, Saurabh and Gupta, Abhinav",
+      "title": "Revisiting unreasonable effectiveness of data in deep learning era",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "jft300"
+    },
+    {
+      "publisher": "JMLR. org",
+      "year": "2019",
+      "pages": "1997--2017",
+      "number": "1",
+      "volume": "20",
+      "journal": "The Journal of Machine Learning Research",
+      "author": "Elsken, Thomas and Metzen, Jan Hendrik and Hutter, Frank",
+      "title": "Neural architecture search: A survey",
+      "ENTRYTYPE": "article",
+      "ID": "nassurvey"
+    },
+    {
+      "publisher": "ACM New York, NY, USA",
+      "year": "2021",
+      "pages": "1--34",
+      "number": "4",
+      "volume": "54",
+      "journal": "ACM Computing Surveys (CSUR)",
+      "author": "Ren, Pengzhen and Xiao, Yun and Chang, Xiaojun and Huang, Po-Yao and Li, Zhihui and Chen, Xiaojiang and Wang, Xin",
+      "title": "A comprehensive survey of neural architecture search: Challenges and solutions",
+      "ENTRYTYPE": "article",
+      "ID": "nas3"
+    },
+    {
+      "year": "2019",
+      "pages": "1946--1956",
+      "booktitle": "Proceedings of the 25th ACM SIGKDD international conference on knowledge discovery \\& data mining",
+      "author": "Jin, Haifeng and Song, Qingquan and Hu, Xia",
+      "title": "Auto-keras: An efficient neural architecture search system",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "nas2"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2018",
+      "pages": "4095--4104",
+      "booktitle": "International conference on machine learning",
+      "author": "Pham, Hieu and Guan, Melody and Zoph, Barret and Le, Quoc and Dean, Jeff",
+      "title": "Efficient neural architecture search via parameters sharing",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "nas1"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2205.14959",
+      "author": "Kim, Jang-Hyun and Kim, Jinuk and Oh, Seong Joon and Yun, Sangdoo and Song, Hwanjun and Jeong, Joonhyun and Ha, Jung-Woo and Song, Hyun Oh",
+      "title": "Dataset Condensation via Efficient Synthetic-Data Parameterization",
+      "ENTRYTYPE": "article",
+      "ID": "idc2022"
+    },
+    {
+      "year": "2021",
+      "booktitle": "ICLR",
+      "author": "Dosovitskiy, Alexey and Beyer, Lucas and Kolesnikov, Alexander and Weissenborn, Dirk and Zhai, Xiaohua and Unterthiner, Thomas and Dehghani, Mostafa and Minderer, Matthias and Heigold, Georg and Gelly, Sylvain and others",
+      "title": "An image is worth 16x16 words: Transformers for image recognition at scale",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "vit"
+    },
+    {
+      "year": "2018",
+      "booktitle": "ICLR",
+      "author": "Zhang, Hongyi and Cisse, Moustapha and Dauphin, Yann N and Lopez-Paz, David",
+      "title": "mixup: Beyond empirical risk minimization",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "mixup"
+    },
+    {
+      "year": "2020",
+      "journal": "arXiv preprint arXiv:2011.00050",
+      "author": "Nguyen, Timothy and Chen, Zhourong and Lee, Jaehoon",
+      "title": "Dataset meta-learning from kernel ridge-regression",
+      "ENTRYTYPE": "article",
+      "ID": "nguyen2020dataset"
+    },
+    {
+      "year": "2021",
+      "booktitle": "NeurIPS",
+      "author": "Nguyen, Timothy and Novak, Roman and Xiao, Lechao and Lee, Jaehoon",
+      "title": "Dataset distillation with infinitely wide convolutional networks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "kip2"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2015",
+      "pages": "2113--2122",
+      "booktitle": "International conference on machine learning",
+      "author": "Maclaurin, Dougal and Duvenaud, David and Adams, Ryan",
+      "title": "Gradient-based hyperparameter optimization through reversible learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "maclaurin2015gradient"
+    },
+    {
+      "year": "2018",
+      "pages": "4367--4375",
+      "booktitle": "Proceedings of the IEEE conference on computer vision and pattern recognition",
+      "author": "Gidaris, Spyros and Komodakis, Nikos",
+      "title": "Dynamic few-shot visual learning without forgetting",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "convnet"
+    },
+    {
+      "year": "2011",
+      "author": "Netzer, Yuval and Wang, Tao and Coates, Adam and Bissacco, Alessandro and Wu, Bo and Ng, Andrew Y",
+      "title": "Reading digits in natural images with unsupervised feature learning",
+      "ENTRYTYPE": "article",
+      "ID": "svnh"
+    },
+    {
+      "year": "2015",
+      "pages": "3",
+      "number": "7",
+      "volume": "7",
+      "journal": "CS 231N",
+      "author": "Le, Ya and Yang, Xuan",
+      "title": "Tiny imagenet visual recognition challenge",
+      "ENTRYTYPE": "article",
+      "ID": "tinyimg"
+    },
+    {
+      "publisher": "Ieee",
+      "year": "1998",
+      "pages": "2278--2324",
+      "number": "11",
+      "volume": "86",
+      "journal": "Proceedings of the IEEE",
+      "author": "LeCun, Yann and Bottou, L{\\'e}on and Bengio, Yoshua and Haffner, Patrick",
+      "title": "Gradient-based learning applied to document recognition",
+      "ENTRYTYPE": "article",
+      "ID": "lenet"
+    },
+    {
+      "year": "2012",
+      "volume": "25",
+      "journal": "Advances in neural information processing systems",
+      "author": "Krizhevsky, Alex and Sutskever, Ilya and Hinton, Geoffrey E",
+      "title": "Imagenet classification with deep convolutional neural networks",
+      "ENTRYTYPE": "article",
+      "ID": "Alexnet"
+    },
+    {
+      "year": "2014",
+      "journal": "arXiv preprint arXiv:1409.1556",
+      "author": "Simonyan, Karen and Zisserman, Andrew",
+      "title": "Very deep convolutional networks for large-scale image recognition",
+      "ENTRYTYPE": "article",
+      "ID": "vgg"
+    },
+    {
+      "year": "2023",
+      "booktitle": "ICML",
+      "author": "Cui, Justin and Wang, Ruochen and Si, Si and Hsieh, Cho-Jui",
+      "title": "Scaling Up Dataset Distillation to ImageNet-1K with Constant Memory",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "tesla"
+    },
+    {
+      "year": "2015",
+      "number": "7",
+      "volume": "2",
+      "journal": "arXiv preprint arXiv:1503.02531",
+      "author": "Hinton, Geoffrey and Vinyals, Oriol and Dean, Jeff and others",
+      "title": "Distilling the knowledge in a neural network",
+      "ENTRYTYPE": "article",
+      "ID": "hinton_kd"
+    },
+    {
+      "year": "2021",
+      "journal": "arXiv preprint arXiv:2103.15851",
+      "author": "Rosasco, Andrea and Carta, Antonio and Cossu, Andrea and Lomonaco, Vincenzo and Bacciu, Davide",
+      "title": "Distilled Replay: Overcoming Forgetting through Synthetic Samples",
+      "ENTRYTYPE": "article",
+      "ID": "rosasco2021distilled"
+    },
+    {
+      "organization": "IEEE",
+      "year": "2020",
+      "pages": "305--309",
+      "booktitle": "2020 IEEE International Conference on Image Processing (ICIP)",
+      "author": "Li, Guang and Togo, Ren and Ogawa, Takahiro and Haseyama, Miki",
+      "title": "Soft-label anonymous gastric x-ray image distillation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "li2020soft"
+    },
+    {
+      "year": "2020",
+      "journal": "arXiv preprint arXiv:2008.04489",
+      "author": "Goetz, Jack and Tewari, Ambuj",
+      "title": "Federated learning via synthetic data",
+      "ENTRYTYPE": "article",
+      "ID": "goetz2020federated"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2021",
+      "pages": "10553--10563",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Vicol, Paul and Metz, Luke and Sohl-Dickstein, Jascha",
+      "title": "Unbiased gradient estimation in unrolled computation graphs with persistent evolution strategies",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "vicol2021unbiased"
+    },
+    {
+      "year": "2021",
+      "journal": "arXiv preprint arXiv:2108.02598",
+      "author": "Jiang, Yidi and Sharma, Bidisha and Madhavi, Maulik and Li, Haizhou",
+      "title": "Knowledge distillation from BERT transformer to speech transformer for intent classification",
+      "ENTRYTYPE": "article",
+      "ID": "jiang2021knowledge"
+    },
+    {
+      "publisher": "Springer",
+      "year": "2021",
+      "pages": "1789--1819",
+      "number": "6",
+      "volume": "129",
+      "journal": "International Journal of Computer Vision",
+      "author": "Gou, Jianping and Yu, Baosheng and Maybank, Stephen J and Tao, Dacheng",
+      "title": "Knowledge distillation: A survey",
+      "ENTRYTYPE": "article",
+      "ID": "gou2021knowledge"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2013",
+      "pages": "1310--1318",
+      "booktitle": "International conference on machine learning",
+      "author": "Pascanu, Razvan and Mikolov, Tomas and Bengio, Yoshua",
+      "title": "On the difficulty of training recurrent neural networks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "pascanu2013difficulty"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2019",
+      "pages": "4556--4565",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Metz, Luke and Maheswaranathan, Niru and Nixon, Jeremy and Freeman, Daniel and Sohl-Dickstein, Jascha",
+      "title": "Understanding and correcting pathologies in the training of learned optimizers",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "metz2019understanding"
+    },
+    {
+      "year": "2018",
+      "journal": "arXiv preprint arXiv:1803.02021",
+      "author": "Wu, Yuhuai and Ren, Mengye and Liao, Renjie and Grosse, Roger",
+      "title": "Understanding short-horizon bias in stochastic meta-optimization",
+      "ENTRYTYPE": "article",
+      "ID": "wu2018understanding"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2205.14083",
+      "author": "Du, Jiawei and Zhou, Daquan and Feng, Jiashi and Tan, Vincent YF and Zhou, Joey Tianyi",
+      "title": "Sharpness-Aware Training for Free",
+      "ENTRYTYPE": "article",
+      "ID": "saf"
+    },
+    {
+      "publisher": "Springer",
+      "year": "2021",
+      "pages": "1789--1819",
+      "number": "6",
+      "volume": "129",
+      "journal": "International Journal of Computer Vision",
+      "author": "Gou, Jianping and Yu, Baosheng and Maybank, Stephen J and Tao, Dacheng",
+      "title": "Knowledge distillation: A survey",
+      "ENTRYTYPE": "article",
+      "ID": "kd3"
+    },
+    {
+      "year": "2019",
+      "pages": "4794--4802",
+      "booktitle": "Proceedings of the IEEE/CVF international conference on computer vision",
+      "author": "Cho, Jang Hyun and Hariharan, Bharath",
+      "title": "On the efficacy of knowledge distillation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "kd2"
+    },
+    {
+      "year": "2016",
+      "journal": "arXiv preprint arXiv:1606.07947",
+      "author": "Kim, Yoon and Rush, Alexander M",
+      "title": "Sequence-level knowledge distillation",
+      "ENTRYTYPE": "article",
+      "ID": "kd1"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2207.09639",
+      "author": "Cui, Justin and Wang, Ruochen and Si, Si and Hsieh, Cho-Jui",
+      "title": "DC-BENCH: Dataset Condensation Benchmark",
+      "ENTRYTYPE": "article",
+      "ID": "dcbench"
+    },
+    {
+      "year": "2018",
+      "journal": "arXiv preprint arXiv:1810.04805",
+      "author": "Devlin, Jacob and Chang, Ming-Wei and Lee, Kenton and Toutanova, Kristina",
+      "title": "Bert: Pre-training of deep bidirectional transformers for language understanding",
+      "ENTRYTYPE": "article",
+      "ID": "devlin2018bert"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2206.00240",
+      "author": "Dong, Tian and Zhao, Bo and Lyu, Lingjuan",
+      "title": "Privacy for Free: How does Dataset Condensation Help Privacy?",
+      "ENTRYTYPE": "article",
+      "ID": "dong2022privacy"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2022",
+      "pages": "22234--22259",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Vicol, Paul and Lorraine, Jonathan P and Pedregosa, Fabian and Duvenaud, David and Grosse, Roger B",
+      "title": "On implicit bias in overparameterized bilevel optimization",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "vicol2022implicit"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2301.07014",
+      "author": "Ruonan Yu and Songhua Liu and Xinchao Wang",
+      "title": "Dataset Distillation: A Comprehensive Review",
+      "ENTRYTYPE": "article",
+      "ID": "songhuaReview23"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2301.05603",
+      "author": "Lei, Shiye and Tao, Dacheng",
+      "title": "A Comprehensive Survey to Dataset Distillation",
+      "ENTRYTYPE": "article",
+      "ID": "taoreview"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2209.14609",
+      "author": "Li, Guang and Togo, Ren and Ogawa, Takahiro and Haseyama, Miki",
+      "title": "Dataset Distillation using Parameter Pruning",
+      "ENTRYTYPE": "article",
+      "ID": "li2022dataset"
+    },
+    {
+      "year": "2024",
+      "booktitle": "CVPR",
+      "author": "Yang, Lihe and Kang, Bingyi and Huang, Zilong and Xu, Xiaogang and Feng, Jiashi and Zhao, Hengshuang",
+      "title": "Depth Anything: Unleashing the Power of Large-Scale Unlabeled Data",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "depthanything"
+    },
+    {
+      "year": "2020",
+      "journal": "arXiv preprint arXiv:2010.11929",
+      "author": "Dosovitskiy, Alexey and Beyer, Lucas and Kolesnikov, Alexander and Weissenborn, Dirk and Zhai, Xiaohua and Unterthiner, Thomas and  Dehghani, Mostafa and Minderer, Matthias and Heigold, Georg and Gelly, Sylvain and Uszkoreit, Jakob and Houlsby, Neil",
+      "title": "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale",
+      "ENTRYTYPE": "article",
+      "ID": "dosovitskiy2020"
+    },
+    {
+      "year": "2024",
+      "booktitle": "NeurIPS",
+      "author": "Cai, Zhongang and Yin, Wanqi and Zeng, Ailing and Wei, Chen and Sun, Qingping and Yanjun, Wang and Pang, Hui En and Mei, Haiyi and Zhang, Mingyuan and Zhang, Lei and others",
+      "title": "Smpler-x: Scaling up expressive human pose and shape estimation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "cai2024smpler"
+    },
+    {
+      "year": "2024",
+      "booktitle": "CVPR",
+      "author": "Zheng, Guangze and Lin, Shijie and Zuo, Haobo and Fu, Changhong and Pan, Jia",
+      "title": "NetTrack: Tracking Highly Dynamic Objects with a Net",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zheng2024nettrack"
+    },
+    {
+      "year": "2024",
+      "booktitle": "NeurIPS",
+      "author": "Yin, Zeyuan and Xing, Eric and Shen, Zhiqiang",
+      "title": "Squeeze, recover and relabel: Dataset condensation at imagenet scale from a new perspective",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "sre"
+    },
+    {
+      "year": "2023",
+      "booktitle": "CVPR",
+      "title": "Minimizing the Accumulated Trajectory Error To Improve Dataset Distillation",
+      "author": "Du, Jiawei and Jiang, Yidi and Tan, Vincent Y. F. and Zhou, Joey Tianyi and Li, Haizhou",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "FTD"
+    },
+    {
+      "year": "2018",
+      "booktitle": "CVPR",
+      "author": "Sandler, Mark and Howard, Andrew and Zhu, Menglong and Zhmoginov, Andrey and Chen, Liang-Chieh",
+      "title": "Mobilenetv2: Inverted residuals and linear bottlenecks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "Mobilenetv2"
+    },
+    {
+      "year": "2018",
+      "booktitle": "ECCV",
+      "title": "ShuffleNet V2: Practical Guidelines for Efficient CNN Architecture Design",
+      "author": "Ma, Ningning and Zhang, Xiangyu and Zheng, Hai-Tao and Sun, Jian",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "Shuffle"
+    },
+    {
+      "year": "2019",
+      "booktitle": "ICML",
+      "author": "Tan, Mingxing and Le, Quoc",
+      "title": "Efficientnet: Rethinking model scaling for convolutional neural networks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "efficientnet"
+    },
+    {
+      "publisher": "Springer",
+      "year": "2019",
+      "pages": "1--48",
+      "number": "1",
+      "volume": "6",
+      "journal": "Journal of big data",
+      "author": "Shorten, Connor and Khoshgoftaar, Taghi M",
+      "title": "A survey on image data augmentation for deep learning",
+      "ENTRYTYPE": "article",
+      "ID": "shorten2019survey"
+    },
+    {
+      "year": "2020",
+      "journal": "arXiv preprint arXiv:2001.08361",
+      "author": "Kaplan, Jared and McCandlish, Sam and Henighan, Tom and Brown, Tom B and Chess, Benjamin and Child, Rewon and Gray, Scott and Radford, Alec and Wu, Jeffrey and Amodei, Dario",
+      "title": "Scaling laws for neural language models",
+      "ENTRYTYPE": "article",
+      "ID": "kaplan2020scaling"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2203.15556",
+      "author": "Hoffmann, Jordan and Borgeaud, Sebastian and Mensch, Arthur and Buchatskaya, Elena and Cai, Trevor and Rutherford, Eliza and Casas, Diego de Las and Hendricks, Lisa Anne and Welbl, Johannes and Clark, Aidan and others",
+      "title": "Training compute-optimal large language models",
+      "ENTRYTYPE": "article",
+      "ID": "hoffmann2022training"
+    },
+    {
+      "year": "2019",
+      "booktitle": "CVPR",
+      "title": "Large-scale interactive object segmentation with human annotators",
+      "author": "Rodrigo Benenson and Stefan Popov and Vittorio Ferrari",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "OpenImagesSegmentation"
+    },
+    {
+      "year": "2020",
+      "journal": "arXiv preprint arXiv:2101.00027",
+      "author": "Gao, Leo and Biderman, Stella and Black, Sid and Golding, Laurence and Hoppe, Travis and Foster, Charles and Phang, Jason and He, Horace and Thite, Anish and Nabeshima, Noa and others",
+      "title": "The pile: An 800gb dataset of diverse text for language modeling",
+      "ENTRYTYPE": "article",
+      "ID": "gao2020pile"
+    },
+    {
+      "year": "2022",
+      "booktitle": "ICML",
+      "author": "Lee, Saehyung and Chun, Sanghyuk and Jung, Sangwon and Yun, Sangdoo and Yoon, Sungroh",
+      "title": "Dataset condensation with contrastive signals",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "lee2022dataset"
+    },
+    {
+      "year": "2023",
+      "booktitle": "AISTAS",
+      "author": "Shin, Seungjae and Bae, Heesun and Shin, Donghyeok and Joo, Weonyoung and Moon, Il-Chul",
+      "title": "Loss-curvature matching for dataset selection and condensation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "shin2023loss"
+    },
+    {
+      "year": "2023",
+      "journal": "Transactions on Machine Learning Research",
+      "author": "Sachdeva, Noveen and McAuley, Julian",
+      "title": "Data Distillation: A Survey",
+      "ENTRYTYPE": "article",
+      "ID": "sachdeva2023data"
+    },
+    {
+      "year": "2023",
+      "journal": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+      "author": "Lei, Shiye and Tao, Dacheng",
+      "title": "A comprehensive survey of dataset distillation",
+      "ENTRYTYPE": "article",
+      "ID": "lei2023comprehensive"
+    },
+    {
+      "year": "2023",
+      "journal": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+      "author": "Yu, Ruonan and Liu, Songhua and Wang, Xinchao",
+      "title": "Dataset distillation: A comprehensive review",
+      "ENTRYTYPE": "article",
+      "ID": "yu2023dataset"
+    },
+    {
+      "year": "2023",
+      "booktitle": "NeurIPS",
+      "author": "Xing Wei and Anjia Cao and Funing Yang and Zhiheng Ma",
+      "title": "Sparse Parameterization for Epitomic Dataset Distillation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "wei2023sparse"
+    },
+    {
+      "year": "2024",
+      "booktitle": "NeurIPS",
+      "author": "Shin, Donghyeok and Shin, Seungjae and Moon, Il-Chul",
+      "title": "Frequency Domain-based Dataset Distillation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "shin2024frequency"
+    },
+    {
+      "year": "2024",
+      "booktitle": "CVPR",
+      "author": "Xin, Zhang and Jiawei, Du and Yunsong, Li and Weiying, Xie and Joey Tianyi Zhou",
+      "title": "Spanning Training Progress: Temporal Dual-Depth Scoring (TDDS) for Enhanced Dataset Pruning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zhang2024TDDS"
+    },
+    {
+      "year": "2022",
+      "booktitle": "NeurIPS",
+      "author": "Liu, Songhua and Wang, Kai and Yang, Xingyi and Ye, Jingwen and Wang, Xinchao",
+      "title": "Dataset distillation via factorization",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "liu2022dataset_nips2022"
+    },
+    {
+      "year": "2024",
+      "booktitle": "CVPR",
+      "author": "Shao, Shitong and Yin, Zeyuan and Zhou, Muxin and Zhang, Xindong and Shen, Zhiqiang",
+      "title": "Generalized Large-Scale Data Condensation via Various Backbone and Statistical Matching",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "shao2023generalized"
+    },
+    {
+      "year": "2023",
+      "booktitle": "ICCV",
+      "author": "Sajedi, Ahmad and Khaki, Samir and Amjadian, Ehsan and Liu, Lucy Z. and Lawryshyn, Yuri A. and Plataniotis, Konstantinos N.",
+      "title": "{DataDAM}: Efficient Dataset Distillation with Attention Matching",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "sajedi2023datadam"
+    },
+    {
+      "year": "2024",
+      "booktitle": "CVPR",
+      "author": "Sun, Peng and Shi, Bei and Yu, Daiwei and Lin, Tao",
+      "title": "On the Diversity and Realism of Distilled Dataset: An Efficient Dataset Distillation Paradigm",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "sun2024diversity"
+    },
+    {
+      "year": "2024",
+      "booktitle": "CVPR",
+      "author": "Deng, Wenxiao and Li, Wenbin and Ding, Tianyu and Wang, Lei and Zhang, Hongguang and Huang, Kuihua and Huo, Jing and Gao, Yang",
+      "title": "Exploiting Inter-sample and Inter-feature Relations in Dataset Distillation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "deng2024iid"
+    },
+    {
+      "year": "2023",
+      "author": "Yin, Zeyuan and Shen, Zhiqiang",
+      "title": "Dataset Distillation in Large Data Era",
+      "ENTRYTYPE": "article",
+      "ID": "yin2023dataset"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2404.07976",
+      "author": "Zhou, Muxin and Yin, Zeyuan and Shao, Shitong and Shen, Zhiqiang",
+      "title": "Self-supervised Dataset Distillation: A Good Compression Is All You Need",
+      "ENTRYTYPE": "article",
+      "ID": "zhou2024self"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2405.09150",
+      "author": "Ma, Zhiheng and Cao, Anjia and Yang, Funing and Wei, Xing",
+      "title": "Curriculum Dataset Distillation",
+      "ENTRYTYPE": "article",
+      "ID": "ma2024curriculum"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2403.10045",
+      "author": "Xue, Eric and Li, Yijiang and Liu, Haoyang and Shen, Yifan and Wang, Haohan",
+      "title": "Towards Adversarially Robust Dataset Distillation by Curvature\nRegularization",
+      "ENTRYTYPE": "article",
+      "ID": "xuel2024curvature"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2502.05673",
+      "author": "Liu, Ping and Du, Jiawei",
+      "title": "The Evolution of Dataset Distillation: Toward Scalable and Generalizable Solutions",
+      "ENTRYTYPE": "article",
+      "ID": "liu2025evolution"
+    },
+    {
+      "year": "2024",
+      "booktitle": "Adv. Neural Inf. Process. Syst. (NeurIPS)",
+      "author": "Du, Jiawei and Zhang, Xin and Hu, Juncheng and Huang, Wenxin and Zhou, Joey Tianyi",
+      "title": "Diversity-Driven Synthesis: Enhancing Dataset Distillation through Directed Weight Adjustment",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "dwa2024neurips"
+    },
+    {
+      "year": "2021",
+      "pages": "8748--8763",
+      "booktitle": "Proceedings of the 38th International Conference on Machine Learning",
+      "author": "Radford, Alec and Kim, Jong Wook and Hallacy, Chris and Ramesh, Aditya and Goh, Gabriel and Agarwal, Sandhini and Sastry, Girish and Askell, Amanda and Mishkin, Pamela and Clark, Jack and Krueger, Gretchen and Sutskever, Ilya",
+      "title": "Learning Transferable Visual Models From Natural Language Supervision",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "radford21a"
+    },
+    {
+      "doi": "10.1016/j.patrec.2019.07.007",
+      "publisher": "Elsevier",
+      "year": "2019",
+      "pages": "581--587",
+      "volume": "125",
+      "journal": "Pattern Recognition Letters",
+      "author": "Lu, Yao and Corander, Jukka and Yang, Zhirong",
+      "title": "Doubly Stochastic Neighbor Embedding on Spheres",
+      "ENTRYTYPE": "article",
+      "ID": "lu2019doubly"
+    },
+    {
+      "year": "2015",
+      "pages": "2641--2649",
+      "booktitle": "Proceedings of the IEEE international conference on computer vision",
+      "author": "Plummer, Bryan A and Wang, Liwei and Cervantes, Chris M and Caicedo, Juan C and Hockenmaier, Julia and Lazebnik, Svetlana",
+      "title": "Flickr30k entities: Collecting region-to-phrase correspondences for richer image-to-sentence models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "Flickr"
+    },
+    {
+      "organization": "Springer",
+      "year": "2014",
+      "pages": "740--755",
+      "booktitle": "Computer Vision--ECCV 2014: 13th European Conference, Zurich, Switzerland, September 6-12, 2014, Proceedings, Part V 13",
+      "author": "Lin, Tsung-Yi and Maire, Michael and Belongie, Serge and Hays, James and Perona, Pietro and Ramanan, Deva and Doll{\\'a}r, Piotr and Zitnick, C Lawrence",
+      "title": "Microsoft coco: Common objects in context",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "COCO"
+    },
+    {
+      "year": "2009",
+      "pages": "1121--1128",
+      "booktitle": "Proceedings of the 26th Annual International Conference on Machine Learning",
+      "author": "Welling, Max",
+      "title": "Herding dynamical weights to learn",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "c-herd"
+    },
+    {
+      "publisher": "Springer Science \\& Business Media",
+      "year": "2009",
+      "author": "Farahani, Reza Zanjirani and Hekmatfar, Masoud",
+      "title": "Facility location: concepts, models, algorithms and case studies",
+      "ENTRYTYPE": "book",
+      "ID": "c-kcenter"
+    },
+    {
+      "year": "2018",
+      "journal": "arXiv preprint arXiv:1812.05159",
+      "author": "Toneva, Mariya and Sordoni, Alessandro and Combes, Remi Tachet des and Trischler, Adam and Bengio, Yoshua and Gordon, Geoffrey J",
+      "title": "An empirical study of example forgetting during deep neural network learning",
+      "ENTRYTYPE": "article",
+      "ID": "c-forget"
+    },
+    {
+      "year": "2018",
+      "journal": "arXiv preprint arXiv:1807.03748",
+      "author": "Oord, Aaron van den and Li, Yazhe and Vinyals, Oriol",
+      "title": "Representation learning with contrastive predictive coding",
+      "ENTRYTYPE": "article",
+      "ID": "InfoNCE"
+    },
+    {
+      "booktitle": "CVPR",
+      "year": "2025",
+      "author": "Zhiqiang Shen and Ammar Sherif and Zeyuan Yin and Shitong Shao",
+      "title": "DELT: A Simple Diversity-driven EarlyLate Training for Dataset Distillation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "shen2024delt"
+    },
+    {
+      "url": "https://openreview.net/forum?id=S7Evzt9uit3",
+      "year": "2022",
+      "editor": "Alice H. Oh and Alekh Agarwal and Danielle Belgrave and Kyunghyun Cho",
+      "booktitle": "Advances in Neural Information Processing Systems",
+      "author": "Weixin Liang and Yuhui Zhang and Yongchan Kwon and Serena Yeung and James Zou",
+      "title": "Mind the Gap: Understanding the Modality Gap in Multi-modal Contrastive Representation Learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "liang2022mind"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2021",
+      "pages": "1059--1071",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Brock, Andy and De, Soham and Smith, Samuel L and Simonyan, Karen",
+      "title": "High-performance large-scale image recognition without normalization",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "brock2021high"
+    },
+    {
+      "year": "2020",
+      "pages": "10428--10436",
+      "booktitle": "Proceedings of the IEEE/CVF conference on computer vision and pattern recognition",
+      "author": "Radosavovic, Ilija and Kosaraju, Raj Prateek and Girshick, Ross and He, Kaiming and Doll{\\'a}r, Piotr",
+      "title": "Designing network design spaces",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "regnet"
+    },
+    {
+      "year": "2019",
+      "journal": "arXiv preprint arXiv:1910.01108",
+      "author": "Sanh, Victor and Debut, Lysandre and Chaumond, Julien and Wolf, Thomas",
+      "title": "DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter",
+      "ENTRYTYPE": "article",
+      "ID": "sanh2019distilbert"
+    },
+    {
+      "url": "https://openreview.net/forum?id=V3C8p78sDa",
+      "year": "2022",
+      "booktitle": "International Conference on Learning Representations",
+      "author": "Samira Abnar and Mostafa Dehghani and Behnam Neyshabur and Hanie Sedghi",
+      "title": "Exploring the Limits of Large Scale Pre-training",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "abnar2022exploring"
+    },
+    {
+      "year": "2023",
+      "pages": "1--113",
+      "number": "240",
+      "volume": "24",
+      "journal": "Journal of Machine Learning Research",
+      "author": "Chowdhery, Aakanksha and Narang, Sharan and Devlin, Jacob and Bosma, Maarten and Mishra, Gaurav and Roberts, Adam and Barham, Paul and Chung, Hyung Won and Sutton, Charles and Gehrmann, Sebastian and others",
+      "title": "Palm: Scaling language modeling with pathways",
+      "ENTRYTYPE": "article",
+      "ID": "chowdhery2023palm"
+    },
+    {
+      "year": "2021",
+      "journal": "arXiv preprint arXiv:2108.07258",
+      "author": "Bommasani, Rishi and Hudson, Drew A and Adeli, Ehsan and Altman, Russ and Arora, Simran and von Arx, Sydney and Bernstein, Michael S and Bohg, Jeannette and Bosselut, Antoine and Brunskill, Emma and others",
+      "title": "On the opportunities and risks of foundation models",
+      "ENTRYTYPE": "article",
+      "ID": "bommasani2021opportunities"
+    },
+    {
+      "url": "https://openreview.net/forum?id=QmYNBVukex",
+      "year": "2024",
+      "booktitle": "The Twelfth International Conference on Learning Representations",
+      "author": "Feiyang Kang and Hoang Anh Just and Yifan Sun and Himanshu Jahagirdar and Yuanzhi Zhang and Rongxing Du and Anit Kumar Sahu and Ruoxi Jia",
+      "title": "Get more for less: Principled Data Selection for Warming Up Fine-Tuning in {LLM}s",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "kang2024get"
+    },
+    {
+      "url": "https://openreview.net/forum?id=eLLBILFRsA",
+      "year": "2025",
+      "booktitle": "The Thirteenth International Conference on Learning Representations",
+      "author": "Huimin LU and Masaru Isonuma and Junichiro Mori and Ichiro Sakata",
+      "title": "UniDetox: Universal Detoxification of Large Language Models via Dataset Distillation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "lu2025unidetox"
+    },
+    {
+      "publisher": "The Association for Natural Language Processing",
+      "year": "2025",
+      "pages": "252--282",
+      "number": "1",
+      "volume": "32",
+      "journal": "Journal of Natural Language Processing",
+      "author": "Maekawa, Aru and Kosugi, Satoshi and Funakoshi, Kotaro and Okumura, Manabu",
+      "title": "Dilm: Distilling dataset into language model for text-level dataset distillation",
+      "ENTRYTYPE": "article",
+      "ID": "maekawa2025dilm"
+    },
+    {
+      "year": "2024",
+      "pages": "6296--6304",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Wang, Ziyu and Xu, Yue and Lu, Cewu and Li, Yong-Lu",
+      "title": "Dancing with still images: video distillation via static-dynamic disentanglement",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "wang2024dancing"
+    },
+    {
+      "year": "2025",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Ding, Guodong and Chen, Rongyu and Yao, Angela",
+      "title": "Condensing Action Segmentation Datasets via Generative Network Inversion",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ding2025condensing"
+    },
+    {
+      "year": "2024",
+      "booktitle": "Forty-first International Conference on Machine Learning",
+      "author": "Liu, Yang and Bo, Deyu and Shi, Chuan",
+      "title": "Graph distillation with eigenbasis matching",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "liu2023graph"
+    },
+    {
+      "year": "2024",
+      "booktitle": "Forty-first International Conference on Machine Learning",
+      "author": "Zhang, Yuchen and Zhang, Tianle and Wang, Kai and Guo, Ziyao and Liang, Yuxuan and Bresson, Xavier and Jin, Wei and You, Yang",
+      "title": "Navigating complexity: Toward lossless graph condensation via expanding window matching",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zhang2024navigating"
+    },
+    {
+      "year": "2023",
+      "pages": "34892--34916",
+      "volume": "36",
+      "journal": "Advances in neural information processing systems",
+      "author": "Liu, Haotian and Li, Chunyuan and Wu, Qingyang and Lee, Yong Jae",
+      "title": "Visual instruction tuning",
+      "ENTRYTYPE": "article",
+      "ID": "liu2023visual"
+    },
+    {
+      "url": "https://openreview.net/forum?id=lLmqxkfSIw",
+      "year": "2024",
+      "booktitle": "The Twelfth International Conference on Learning Representations",
+      "author": "Zhiliang Peng and Wenhui Wang and Li Dong and Yaru Hao and Shaohan Huang and Shuming Ma and Qixiang Ye and Furu Wei",
+      "title": "Grounding Multimodal Large Language Models to the World",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "peng2024grounding"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2306.15195",
+      "author": "Chen, Keqin and Zhang, Zhao and Zeng, Weili and Zhang, Richong and Zhu, Feng and Zhao, Rui",
+      "title": "Shikra: Unleashing multimodal llm's referential dialogue magic",
+      "ENTRYTYPE": "article",
+      "ID": "chen2023shikra"
+    },
+    {
+      "year": "2019",
+      "booktitle": "NAACL-HLT",
+      "author": "Kim, Chris Dongjoo and Kim, Byeongchang and Lee, Hyunmin and Kim, Gunhee",
+      "title": "AudioCaps: Generating Captions for Audios in The Wild",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "audiocaps"
+    },
+    {
+      "organization": "IEEE",
+      "year": "2023",
+      "pages": "1--5",
+      "booktitle": "ICASSP 2023-2023 IEEE international Conference on acoustics, Speech and signal processing (ICASSP)",
+      "author": "Schmid, Florian and Koutini, Khaled and Widmer, Gerhard",
+      "title": "Efficient large-scale audio tagging via transformer-to-cnn knowledge distillation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "schmid2023efficient"
+    },
+    {
+      "organization": "IEEE",
+      "year": "2017",
+      "pages": "776--780",
+      "booktitle": "2017 IEEE international conference on acoustics, speech and signal processing (ICASSP)",
+      "author": "Gemmeke, Jort F and Ellis, Daniel PW and Freedman, Dylan and Jansen, Aren and Lawrence, Wade and Moore, R Channing and Plakal, Manoj and Ritter, Marvin",
+      "title": "Audio set: An ontology and human-labeled dataset for audio events",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "audioset"
+    },
+    {
+      "year": "2017",
+      "journal": "arXiv preprint arXiv:1704.04861",
+      "author": "Howard, Andrew G",
+      "title": "Mobilenets: Efficient convolutional neural networks for mobile vision applications",
+      "ENTRYTYPE": "article",
+      "ID": "mobilenet"
+    }
+  ]
+}

@@ -1,0 +1,697 @@
+{
+  "pdf_url": "https://arxiv.org/pdf/2506.06271v2.pdf",
+  "references": [
+    {
+      "publisher": "ACM New York, NY, USA",
+      "year": "2021",
+      "pages": "1--13",
+      "number": "4",
+      "volume": "40",
+      "journal": "ACM Transactions on Graphics (ToG)",
+      "author": "Lombardi, Stephen and Simon, Tomas and Schwartz, Gabriel and Zollhoefer, Michael and Sheikh, Yaser and Saragih, Jason",
+      "title": "Mixture of volumetric primitives for efficient neural rendering",
+      "ENTRYTYPE": "article",
+      "ID": "lombardi2021mixture"
+    },
+    {
+      "year": "2024",
+      "pages": "130--141",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Saito, Shunsuke and Schwartz, Gabriel and Simon, Tomas and Li, Junxuan and Nam, Giljoo",
+      "title": "Relightable gaussian codec avatars",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "saito2024relightable"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2410.08188",
+      "author": "He, Mingming and Clausen, Pascal and Ta{\\c{s}}el, Ahmet Levent and Ma, Li and Pilarski, Oliver and Xian, Wenqi and Rikker, Laszlo and Yu, Xueming and Burgert, Ryan and Yu, Ning and others",
+      "title": "DifFRelight: Diffusion-Based Facial Performance Relighting",
+      "ENTRYTYPE": "article",
+      "ID": "he2024diffrelight"
+    },
+    {
+      "year": "2023",
+      "pages": "1--11",
+      "booktitle": "SIGGRAPH Asia 2023 Conference Papers",
+      "author": "Yang, Haotian and Zheng, Mingwu and Feng, Wanquan and Huang, Haibin and Lai, Yu-Kun and Wan, Pengfei and Wang, Zhongyuan and Ma, Chongyang",
+      "title": "Towards practical capture of high-fidelity relightable avatars",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "yang2023towards"
+    },
+    {
+      "year": "2024",
+      "pages": "1--11",
+      "booktitle": "SIGGRAPH Asia 2024 Conference Papers",
+      "author": "Li, Junxuan and Cao, Chen and Schwartz, Gabriel and Khirodkar, Rawal and Richardt, Christian and Simon, Tomas and Sheikh, Yaser and Saito, Shunsuke",
+      "title": "URAvatar: Universal Relightable Gaussian Codec Avatars",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "li2024uravatar"
+    },
+    {
+      "year": "2025",
+      "volume": "2501.14726",
+      "journal": "arXiv.org",
+      "author": "Shaofei Wang and Tomas Simon and Igor Santesteban and Timur Bagautdinov and Junxuan Li and Vasu Agrawal and Fabian Prada and Shoou-I Yu and Pace Nalbone and Matt Gramlich and Roman Lubachersky and Chenglei Wu and Javier Romero and Jason Saragih and Michael Zollhoefer and Andreas Geiger and Siyu Tang and Shunsuke Saito",
+      "title": "Relightable Full-body Gaussian Codec Avatars",
+      "ENTRYTYPE": "article",
+      "ID": "WangARXIV2025"
+    },
+    {
+      "publisher": "ACM New York, NY, USA",
+      "year": "2021",
+      "pages": "99--106",
+      "number": "1",
+      "volume": "65",
+      "journal": "Communications of the ACM",
+      "author": "Mildenhall, Ben and Srinivasan, Pratul P and Tancik, Matthew and Barron, Jonathan T and Ramamoorthi, Ravi and Ng, Ren",
+      "title": "Nerf: Representing scenes as neural radiance fields for view synthesis",
+      "ENTRYTYPE": "article",
+      "ID": "mildenhall2021nerf"
+    },
+    {
+      "year": "2023",
+      "pages": "1--11",
+      "booktitle": "SIGGRAPH Asia 2023 Conference Papers",
+      "author": "Sarkar, Kripasindhu and B{\\\"u}hler, Marcel C and Li, Gengyan and Wang, Daoye and Vicini, Delio and Riviere, J{\\'e}r{\\'e}my and Zhang, Yinda and Orts-Escolano, Sergio and Gotardo, Paulo and Beeler, Thabo and others",
+      "title": "LitNeRF: Intrinsic Radiance Decomposition for High-Quality View Synthesis and Relighting of Faces",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "sarkar2023litnerf"
+    },
+    {
+      "publisher": "ACM New York, NY, USA",
+      "year": "2019",
+      "pages": "1--12",
+      "number": "4",
+      "volume": "38",
+      "journal": "ACM Transactions on Graphics (TOG)",
+      "author": "Meka, Abhimitra and Haene, Christian and Pandey, Rohit and Zollh{\\\"o}fer, Michael and Fanello, Sean and Fyffe, Graham and Kowdle, Adarsh and Yu, Xueming and Busch, Jay and Dourgarian, Jason and others",
+      "title": "Deep reflectance fields: high-quality facial reflectance field inference from color gradient illumination",
+      "ENTRYTYPE": "article",
+      "ID": "meka2019deep"
+    },
+    {
+      "publisher": "ACM New York, NY, USA",
+      "year": "2021",
+      "pages": "1--15",
+      "number": "4",
+      "volume": "40",
+      "journal": "ACM Transactions on Graphics (ToG)",
+      "author": "Bi, Sai and Lombardi, Stephen and Saito, Shunsuke and Simon, Tomas and Wei, Shih-En and Mcphail, Kevyn and Ramamoorthi, Ravi and Sheikh, Yaser and Saragih, Jason",
+      "title": "Deep relightable appearance models for animatable faces",
+      "ENTRYTYPE": "article",
+      "ID": "bi2021deep"
+    },
+    {
+      "year": "2023",
+      "pages": "12769--12779",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Li, Junxuan and Saito, Shunsuke and Simon, Tomas and Lombardi, Stephen and Li, Hongdong and Saragih, Jason",
+      "title": "Megane: Morphable eyeglass and avatar network",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "li2023megane"
+    },
+    {
+      "year": "2022",
+      "booktitle": "33rd British Machine Vision Conference",
+      "author": "Rao, Pramod and BR, Mallikarjun and Fox, Gereon and Weyrich, Tim and Bickel, Bernd and Seidel, Hans-Peter and Pfister, Hanspeter and Matusik, Wojciech and Tewari, Ayush and Theobalt, Christian and others",
+      "title": "Vorf: Volumetric relightable faces",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "rao2022vorf"
+    },
+    {
+      "year": "2023",
+      "pages": "22581--22591",
+      "booktitle": "Proceedings of the IEEE/CVF International Conference on Computer Vision",
+      "author": "Xu, Yingyan and Zoss, Gaspard and Chandran, Prashanth and Gross, Markus and Bradley, Derek and Gotardo, Paulo",
+      "title": "Renerf: Relightable neural radiance fields with nearfield lighting",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "xu2023renerf"
+    },
+    {
+      "year": "2020",
+      "pages": "81",
+      "number": "4",
+      "volume": "39",
+      "journal": "ACM Trans. Graph.",
+      "author": "Riviere, J{\\'e}r{\\'e}my and Gotardo, Paulo FU and Bradley, Derek and Ghosh, Abhijeet and Beeler, Thabo",
+      "title": "Single-shot high-quality facial geometry and skin appearance capture.",
+      "ENTRYTYPE": "article",
+      "ID": "riviere2020single"
+    },
+    {
+      "year": "2023",
+      "pages": "16836--16846",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Azinovi{\\'c}, Dejan and Maury, Olivier and Hery, Christophe and Nie{\\ss}ner, Matthias and Thies, Justus",
+      "title": "High-res facial appearance capture from polarized smartphone images",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "azinovic2023high"
+    },
+    {
+      "year": "2000",
+      "pages": "145--156",
+      "booktitle": "Proceedings of the 27th annual conference on Computer graphics and interactive techniques",
+      "author": "Debevec, Paul and Hawkins, Tim and Tchou, Chris and Duiker, Haarm-Pieter and Sarokin, Westley and Sagar, Mark",
+      "title": "Acquiring the reflectance field of a human face",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "debevec2000acquiring"
+    },
+    {
+      "publisher": "Citeseer",
+      "year": "2004",
+      "pages": "309--320",
+      "volume": "4",
+      "journal": "Rendering Techniques",
+      "author": "Hawkins, Tim and Wenger, Andreas and Tchou, Chris and Gardner, Andrew and G{\\\"o}ransson, Fredrik and Debevec, Paul E",
+      "title": "Animatable Facial Reflectance Fields.",
+      "ENTRYTYPE": "article",
+      "ID": "hawkins2004animatable"
+    },
+    {
+      "publisher": "ACM New York, NY, USA",
+      "year": "2005",
+      "pages": "756--764",
+      "number": "3",
+      "volume": "24",
+      "journal": "ACM Transactions on Graphics (TOG)",
+      "author": "Wenger, Andreas and Gardner, Andrew and Tchou, Chris and Unger, Jonas and Hawkins, Tim and Debevec, Paul",
+      "title": "Performance relighting and reflectance transformation with time-multiplexed illumination",
+      "ENTRYTYPE": "article",
+      "ID": "wenger2005performance"
+    },
+    {
+      "organization": "IEEE",
+      "year": "2011",
+      "pages": "611--618",
+      "booktitle": "2011 IEEE International Conference on Automatic Face \\& Gesture Recognition (FG)",
+      "author": "Stratou, Giota and Ghosh, Abhijeet and Debevec, Paul and Morency, Louis-Philippe",
+      "title": "Effect of illumination on automatic expression recognition: a novel 3D relightable facial database",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "stratou2011effect"
+    },
+    {
+      "year": "2007",
+      "pages": "2",
+      "number": "10",
+      "volume": "9",
+      "journal": "Rendering Techniques",
+      "author": "Ma, Wan-Chun and Hawkins, Tim and Peers, Pieter and Chabert, Charles-Felix and Weiss, Malte and Debevec, Paul E and others",
+      "title": "Rapid Acquisition of Specular and Diffuse Normal Maps from Polarized Spherical Gradient Illumination.",
+      "ENTRYTYPE": "article",
+      "ID": "ma2007rapid"
+    },
+    {
+      "organization": "IET",
+      "year": "2006",
+      "pages": "127--133",
+      "booktitle": "The 3rd European Conference on Visual Media Production (CVMP 2006)-Part of the 2nd Multimedia Conference 2006",
+      "author": "Jones, Andrew and Gardner, Andrew and Bolas, Mark and Mcdowall, Ian and Debevec, Paul",
+      "title": "Simulating Spatially Varying Lighting on a Live Performance",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "jones2006simulating"
+    },
+    {
+      "publisher": "The Eurographics Association",
+      "year": "2022",
+      "pages": "5--8",
+      "journal": "EG 2022-Short Papers",
+      "author": "Xu, Yingyan and Riviere, J{\\'e}r{\\'e}my and Zoss, Gaspard and Chandran, Prashanth and Bradley, Derek and Gotardo, Paulo",
+      "title": "Improved Lighting Models for Facial Appearance Capture",
+      "ENTRYTYPE": "article",
+      "ID": "xu2022improved"
+    },
+    {
+      "year": "2023",
+      "pages": "139--1",
+      "number": "4",
+      "volume": "42",
+      "journal": "ACM Trans. Graph.",
+      "author": "Kerbl, Bernhard and Kopanas, Georgios and Leimk{\\\"u}hler, Thomas and Drettakis, George",
+      "title": "3d gaussian splatting for real-time radiance field rendering.",
+      "ENTRYTYPE": "article",
+      "ID": "kerbl20233d"
+    },
+    {
+      "year": "2024",
+      "pages": "1--11",
+      "booktitle": "ACM SIGGRAPH 2024 Conference Papers",
+      "author": "Huang, Binbin and Yu, Zehao and Chen, Anpei and Geiger, Andreas and Gao, Shenghua",
+      "title": "2d gaussian splatting for geometrically accurate radiance fields",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "huang20242d"
+    },
+    {
+      "year": "2024",
+      "pages": "21644--21653",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Liang, Zhihao and Zhang, Qi and Feng, Ying and Shan, Ying and Jia, Kui",
+      "title": "Gs-ir: 3d gaussian splatting for inverse rendering",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "liang2024gs"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2312.05133",
+      "author": "Shi, Yahao and Wu, Yanmin and Wu, Chenming and Liu, Xing and Zhao, Chen and Feng, Haocheng and Liu, Jingtuo and Zhang, Liangjun and Zhang, Jian and Zhou, Bin and others",
+      "title": "Gir: 3d gaussian inverse rendering for relightable scene factorization",
+      "ENTRYTYPE": "article",
+      "ID": "shi2023gir"
+    },
+    {
+      "year": "2024",
+      "pages": "5322--5332",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Jiang, Yingwenqi and Tu, Jiadong and Liu, Yuan and Gao, Xifeng and Long, Xiaoxiao and Wang, Wenping and Ma, Yuexin",
+      "title": "Gaussianshader: 3d gaussian splatting with shading functions for reflective surfaces",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "jiang2024gaussianshader"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2408.12282",
+      "author": "Dihlmann, Jan-Niklas and Majumdar, Arjun and Engelhardt, Andreas and Braun, Raphael and Lensch, Hendrik",
+      "title": "Subsurface Scattering for 3D Gaussian Splatting",
+      "ENTRYTYPE": "article",
+      "ID": "dihlmann2024subsurface"
+    },
+    {
+      "year": "2024",
+      "pages": "20299--20309",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Qian, Shenhan and Kirschstein, Tobias and Schoneveld, Liam and Davoli, Davide and Giebenhain, Simon and Nie{\\ss}ner, Matthias",
+      "title": "Gaussianavatars: Photorealistic head avatars with rigged 3d gaussians",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "qian2024gaussianavatars"
+    },
+    {
+      "year": "2024",
+      "pages": "1--11",
+      "booktitle": "SIGGRAPH Asia 2024 Conference Papers",
+      "author": "Giebenhain, Simon and Kirschstein, Tobias and R{\\\"u}nz, Martin and Agapito, Lourdes and Nie{\\ss}ner, Matthias",
+      "title": "Npga: Neural parametric gaussian avatars",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "giebenhain2024npga"
+    },
+    {
+      "year": "2016",
+      "pages": "2387--2395",
+      "booktitle": "Proceedings of the IEEE conference on computer vision and pattern recognition",
+      "author": "Thies, Justus and Zollhofer, Michael and Stamminger, Marc and Theobalt, Christian and Nie{\\ss}ner, Matthias",
+      "title": "Face2face: Real-time face capture and reenactment of rgb videos",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "thies2016face2face"
+    },
+    {
+      "organization": "vol. 2012",
+      "year": "2012",
+      "pages": "1--7",
+      "volume": "2012",
+      "booktitle": "Acm Siggraph",
+      "author": "Burley, Brent and Studios, Walt Disney Animation",
+      "title": "Physically-based shading at disney",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "burley2012physically"
+    },
+    {
+      "publisher": "ACM New York, NY, USA",
+      "year": "2023",
+      "pages": "1--28",
+      "number": "6",
+      "volume": "42",
+      "journal": "ACM Transactions on Graphics (TOG)",
+      "author": "Bangaru, Sai Praveen and Wu, Lifan and Li, Tzu-Mao and Munkberg, Jacob and Bernstein, Gilbert and Ragan-Kelley, Jonathan and Durand, Fr{\\'e}do and Lefohn, Aaron and He, Yong",
+      "title": "Slang. d: Fast, modular and differentiable shader programming",
+      "ENTRYTYPE": "article",
+      "ID": "bangaru2023slang"
+    },
+    {
+      "year": "2007",
+      "pages": "18th",
+      "volume": "2007",
+      "journal": "Rendering techniques",
+      "author": "Walter, Bruce and Marschner, Stephen R and Li, Hongsong and Torrance, Kenneth E",
+      "title": "Microfacet Models for Refraction through Rough Surfaces.",
+      "ENTRYTYPE": "article",
+      "ID": "walter2007microfacet"
+    },
+    {
+      "organization": "Wiley Online Library",
+      "year": "1994",
+      "pages": "233--246",
+      "number": "3",
+      "volume": "13",
+      "booktitle": "Computer graphics forum",
+      "author": "Schlick, Christophe",
+      "title": "An inexpensive BRDF model for physically-based rendering",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "schlick1994inexpensive"
+    },
+    {
+      "publisher": "ACM New York, NY, USA",
+      "year": "1982",
+      "pages": "7--24",
+      "number": "1",
+      "volume": "1",
+      "journal": "ACM Transactions on Graphics (ToG)",
+      "author": "Cook, Robert L and Torrance, Kenneth E.",
+      "title": "A reflectance model for computer graphics",
+      "ENTRYTYPE": "article",
+      "ID": "cook1982reflectance"
+    },
+    {
+      "year": "2013",
+      "pages": "1",
+      "number": "3",
+      "volume": "4",
+      "journal": "Proc. Physically Based Shading Theory Practice",
+      "author": "Karis, Brian and Games, Epic",
+      "title": "Real shading in unreal engine 4",
+      "ENTRYTYPE": "article",
+      "ID": "karis2013real"
+    },
+    {
+      "year": "1986",
+      "pages": "143--150",
+      "booktitle": "Proceedings of the 13th annual conference on Computer graphics and interactive techniques",
+      "author": "Kajiya, James T",
+      "title": "The rendering equation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "kajiya1986rendering"
+    },
+    {
+      "url": "https://arxiv.org/abs/2409.06765",
+      "primaryclass": "cs.CV",
+      "archiveprefix": "arXiv",
+      "journal": "arXiv preprint arXiv:2409.06765",
+      "eprint": "2409.06765",
+      "year": "2024",
+      "author": "Vickie Ye and Ruilong Li and Justin Kerr and Matias Turkulainen and Brent Yi and Zhuoyang Pan and Otto Seiskari and Jianbo Ye and Jeffrey Hu and Matthew Tancik and Angjoo Kanazawa",
+      "title": "gsplat: An Open-Source Library for {Gaussian} Splatting",
+      "ENTRYTYPE": "article",
+      "ID": "gsplat"
+    },
+    {
+      "journal": "NeurIPS Track on Datasets and Benchmarks",
+      "year": "2024",
+      "title": "{Codec Avatar Studio: Paired Human Captures for Complete, Driveable, and Generalizable Avatars}",
+      "author": "Julieta Martinez and Emily Kim and Javier Romero and Timur Bagautdinov and Shunsuke Saito and Shoou-I Yu and Stuart Anderson and Michael Zollhöfer and Te-Li Wang and Shaojie Bai and Chenghui Li and Shih-En Wei and Rohan Joshi and Wyatt Borsos and Tomas Simon and Jason Saragih and Paul Theodosis and Alexander Greene and Anjani Josyula and Silvio Mano Maeta and Andrew I. Jewett and Simon Venshtain and Christopher Heilman and Yueh-Tung Chen and Sidi Fu and Mohamed Ezzeldin A. Elshaer and Tingfang Du and Longhua Wu and Shen-Chi Chen and Kai Kang and Michael Wu and Youssef Emad and Steven Longay and Ashley Brewer and Hitesh Shah and James Booth and Taylor Koska and Kayla Haidle and Matt Andromalos and Joanna Hsu and Thomas Dauer and Peter Selednik and Tim Godisart and Scott Ardisson and Matthew Cipperly and Ben Humberston and Lon Farr and Bob Hansen and Peihong Guo and Dave Braun and Steven Krenn and He Wen and Lucas Evans and Natalia Fadeeva and Matthew Stewart and Gabriel Schwartz and Divam Gupta and Gyeongsik Moon and Kaiwen Guo and Yuan Dong and Yichen Xu and Takaaki Shiratori and Fabian Prada and Bernardo R. Pires and Bo Peng and Julia Buffalini and Autumn Trimble and Kevyn McPhail and Melissa Schoeller and Yaser Sheikh",
+      "ENTRYTYPE": "article",
+      "ID": "martinez2024codec"
+    },
+    {
+      "year": "2019",
+      "volume": "32",
+      "title": "PyTorch: An Imperative Style, High-Performance Deep Learning Library",
+      "pages": "",
+      "booktitle": "Advances in Neural Information Processing Systems",
+      "author": "Paszke, Adam and Gross, Sam and Massa, Francisco and Lerer, Adam and Bradbury, James and Chanan, Gregory and Killeen, Trevor and Lin, Zeming and Gimelshein, Natalia and Antiga, Luca and Desmaison, Alban and Kopf, Andreas and Yang, Edward and DeVito, Zachary and Raison, Martin and Tejani, Alykhan and Chilamkurthy, Sasank and Steiner, Benoit and Fang, Lu and Bai, Junjie and Chintala, Soumith",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "paszke2019pytorch"
+    },
+    {
+      "url": "https://github.com/ShenhanQian/VHAP",
+      "doi": "10.5281/zenodo.14988309",
+      "month": "sep",
+      "year": "2024",
+      "author": "Qian, Shenhan",
+      "title": "VHAP: Versatile Head Alignment with Adaptive Appearance Priors",
+      "ENTRYTYPE": "misc",
+      "ID": "qian2024vhap"
+    },
+    {
+      "year": "2017",
+      "pages": "194--1",
+      "number": "6",
+      "volume": "36",
+      "journal": "ACM Trans. Graph.",
+      "author": "Li, Tianye and Bolkart, Timo and Black, Michael J and Li, Hao and Romero, Javier",
+      "title": "Learning a model of facial shape and expression from 4D scans.",
+      "ENTRYTYPE": "article",
+      "ID": "li2017learning"
+    },
+    {
+      "year": "2018",
+      "pages": "586--595",
+      "booktitle": "Proceedings of the IEEE conference on computer vision and pattern recognition",
+      "author": "Zhang, Richard and Isola, Phillip and Efros, Alexei A and Shechtman, Eli and Wang, Oliver",
+      "title": "The unreasonable effectiveness of deep features as a perceptual metric",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zhang2018unreasonable"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "2004",
+      "pages": "600--612",
+      "number": "4",
+      "volume": "13",
+      "journal": "IEEE transactions on image processing",
+      "author": "Wang, Zhou and Bovik, Alan C and Sheikh, Hamid R and Simoncelli, Eero P",
+      "title": "Image quality assessment: from error visibility to structural similarity",
+      "ENTRYTYPE": "article",
+      "ID": "wang2004image"
+    },
+    {
+      "year": "2024",
+      "pages": "9150038",
+      "volume": "3",
+      "journal": "CAAI Artificial Intelligence Research",
+      "author": "Zheng, Peng and Gao, Dehong and Fan, Deng-Ping and Liu, Li and Laaksonen, Jorma and Ouyang, Wanli and Sebe, Nicu",
+      "title": "Bilateral Reference for High-Resolution Dichotomous Image Segmentation",
+      "ENTRYTYPE": "article",
+      "ID": "zheng2024birefnet"
+    },
+    {
+      "year": "2022",
+      "pages": "18697--18709",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Zheng, Yinglin and Yang, Hao and Zhang, Ting and Bao, Jianmin and Chen, Dongdong and Huang, Yangyu and Yuan, Lu and Chen, Dong and Zeng, Ming and Wen, Fang",
+      "title": "General facial representation learning in a visual-linguistic manner",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zheng2022farl"
+    },
+    {
+      "year": "2022",
+      "booktitle": "The IEEE Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)",
+      "title": "VFHQ: A High-Quality Dataset and Benchmark for Video Face Super-Resolution",
+      "author": "Liangbin Xie and Xintao Wang and Honglun Zhang and Chao Dong and Ying Shan",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "xie2022vfhq"
+    },
+    {
+      "organization": "Wiley Online Library",
+      "year": "2022",
+      "pages": "365--378",
+      "number": "2",
+      "volume": "41",
+      "booktitle": "Computer graphics forum",
+      "author": "Rainer, Gilles and Bousseau, Adrien and Ritschel, Tobias and Drettakis, George",
+      "title": "Neural precomputed radiance transfer",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "rainer2022neural"
+    },
+    {
+      "year": "2023",
+      "pages": "157--164",
+      "booktitle": "Seminal Graphics Papers: Pushing the Boundaries, Volume 2",
+      "author": "Blanz, Volker and Vetter, Thomas",
+      "title": "A morphable model for the synthesis of 3D faces",
+      "ENTRYTYPE": "incollection",
+      "ID": "blanz2023morphable"
+    },
+    {
+      "organization": "Ieee",
+      "year": "2009",
+      "pages": "296--301",
+      "booktitle": "2009 sixth IEEE international conference on advanced video and signal based surveillance",
+      "author": "Paysan, Pascal and Knothe, Reinhard and Amberg, Brian and Romdhani, Sami and Vetter, Thomas",
+      "title": "A 3D face model for pose and illumination invariant face recognition",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "paysan20093d"
+    },
+    {
+      "year": "2021",
+      "pages": "64--73",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Ma, Shugao and Simon, Tomas and Saragih, Jason and Wang, Dawei and Li, Yuecheng and De La Torre, Fernando and Sheikh, Yaser",
+      "title": "Pixel codec avatars",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ma2021pixel"
+    },
+    {
+      "publisher": "ACM New York, NY, USA",
+      "year": "2023",
+      "pages": "1--16",
+      "number": "1",
+      "volume": "43",
+      "journal": "ACM Transactions on Graphics",
+      "author": "Zhao, Xiaochen and Wang, Lizhen and Sun, Jingxiang and Zhang, Hongwen and Suo, Jinli and Liu, Yebin",
+      "title": "Havatar: High-fidelity head avatar via facial model conditioned neural radiance field",
+      "ENTRYTYPE": "article",
+      "ID": "zhao2023havatar"
+    },
+    {
+      "publisher": "ACM New York, NY, USA",
+      "year": "2023",
+      "pages": "1--14",
+      "number": "4",
+      "volume": "42",
+      "journal": "ACM Transactions on Graphics (TOG)",
+      "author": "Kirschstein, Tobias and Qian, Shenhan and Giebenhain, Simon and Walter, Tim and Nie{\\ss}ner, Matthias",
+      "title": "Nersemble: Multi-view radiance field reconstruction of human heads",
+      "ENTRYTYPE": "article",
+      "ID": "kirschstein2023nersemble"
+    },
+    {
+      "year": "2023",
+      "pages": "4574--4584",
+      "booktitle": "Proceedings of the IEEE/CVF conference on computer vision and pattern recognition",
+      "author": "Zielonka, Wojciech and Bolkart, Timo and Thies, Justus",
+      "title": "Instant volumetric head avatars",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zielonka2023instant"
+    },
+    {
+      "organization": "Wiley Online Library",
+      "year": "2024",
+      "pages": "e15117",
+      "number": "6",
+      "volume": "43",
+      "booktitle": "Computer Graphics Forum",
+      "author": "Garbin, Stephan J and Kowalski, Marek and Estellers, Virginia and Szymanowicz, Stanislaw and Rezaeifar, Shideh and Shen, Jingjing and Johnson, Matthew A and Valentin, Julien",
+      "title": "VolTeMorph: Real-time, Controllable and Generalizable Animation of Volumetric Representations",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "garbin2024voltemorph"
+    },
+    {
+      "year": "2024",
+      "pages": "1--10",
+      "booktitle": "ACM SIGGRAPH 2024 Conference Papers",
+      "author": "Ma, Shengjie and Weng, Yanlin and Shao, Tianjia and Zhou, Kun",
+      "title": "3d gaussian blendshapes for head avatar animation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ma20243d"
+    },
+    {
+      "year": "2024",
+      "pages": "1931--1941",
+      "booktitle": "Proceedings of the IEEE/CVF conference on computer vision and pattern recognition",
+      "author": "Xu, Yuelang and Chen, Benwang and Li, Zhe and Zhang, Hongwen and Wang, Lizhen and Zheng, Zerong and Liu, Yebin",
+      "title": "Gaussian head avatar: Ultra high-fidelity head avatar via dynamic gaussians",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "xu2024gaussian"
+    },
+    {
+      "year": "2023",
+      "pages": "21057--21067",
+      "booktitle": "Proceedings of the IEEE/CVF conference on computer vision and pattern recognition",
+      "author": "Zheng, Yufeng and Yifan, Wang and Wetzstein, Gordon and Black, Michael J and Hilliges, Otmar",
+      "title": "Pointavatar: Deformable point-based head avatars from videos",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zheng2023pointavatar"
+    },
+    {
+      "year": "2011",
+      "pages": "1--10",
+      "booktitle": "Proceedings of the 2011 SIGGRAPH Asia Conference",
+      "author": "Ghosh, Abhijeet and Fyffe, Graham and Tunwattanapong, Borom and Busch, Jay and Yu, Xueming and Debevec, Paul",
+      "title": "Multiview face capture using polarized spherical gradient illumination",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ghosh2011multiview"
+    },
+    {
+      "publisher": "ACM New York, NY, USA",
+      "year": "2019",
+      "pages": "1--19",
+      "number": "6",
+      "volume": "38",
+      "journal": "ACM Transactions on Graphics (ToG)",
+      "author": "Guo, Kaiwen and Lincoln, Peter and Davidson, Philip and Busch, Jay and Yu, Xueming and Whalen, Matt and Harvey, Geoff and Orts-Escolano, Sergio and Pandey, Rohit and Dourgarian, Jason and others",
+      "title": "The relightables: Volumetric performance capture of humans with realistic relighting",
+      "ENTRYTYPE": "article",
+      "ID": "guo2019relightables"
+    },
+    {
+      "publisher": "ACM New York, NY, USA",
+      "year": "2018",
+      "pages": "1--13",
+      "number": "4",
+      "volume": "37",
+      "journal": "ACM Transactions on Graphics (ToG)",
+      "author": "Xu, Zexiang and Sunkavalli, Kalyan and Hadap, Sunil and Ramamoorthi, Ravi",
+      "title": "Deep image-based relighting from optimal sparse samples",
+      "ENTRYTYPE": "article",
+      "ID": "xu2018deep"
+    },
+    {
+      "publisher": "ACM New York, NY, USA",
+      "year": "2021",
+      "pages": "1--17",
+      "number": "1",
+      "volume": "40",
+      "journal": "ACM Transactions on Graphics (TOG)",
+      "author": "Zhang, Xiuming and Fanello, Sean and Tsai, Yun-Ta and Sun, Tiancheng and Xue, Tianfan and Pandey, Rohit and Orts-Escolano, Sergio and Davidson, Philip and Rhemann, Christoph and Debevec, Paul and others",
+      "title": "Neural light transport for relighting and view synthesis",
+      "ENTRYTYPE": "article",
+      "ID": "zhang2021neural"
+    },
+    {
+      "publisher": "ACM New York, NY, USA",
+      "year": "2020",
+      "pages": "1--21",
+      "number": "6",
+      "volume": "39",
+      "journal": "ACM Transactions on Graphics (TOG)",
+      "author": "Meka, Abhimitra and Pandey, Rohit and Haene, Christian and Orts-Escolano, Sergio and Barnum, Peter and David-Son, Philip and Erickson, Daniel and Zhang, Yinda and Taylor, Jonathan and Bouaziz, Sofien and others",
+      "title": "Deep relightable textures: volumetric performance capture with neural rendering",
+      "ENTRYTYPE": "article",
+      "ID": "meka2020deep"
+    },
+    {
+      "year": "2021",
+      "pages": "43--1",
+      "number": "4",
+      "volume": "40",
+      "journal": "ACM Trans. Graph.",
+      "author": "Pandey, Rohit and Orts-Escolano, Sergio and Legendre, Chloe and Haene, Christian and Bouaziz, Sofien and Rhemann, Christoph and Debevec, Paul E and Fanello, Sean Ryan",
+      "title": "Total relighting: learning to relight portraits for background replacement.",
+      "ENTRYTYPE": "article",
+      "ID": "pandey2021total"
+    },
+    {
+      "year": "2019",
+      "pages": "79--1",
+      "number": "4",
+      "volume": "38",
+      "journal": "ACM Trans. Graph.",
+      "author": "Sun, Tiancheng and Barron, Jonathan T and Tsai, Yun-Ta and Xu, Zexiang and Yu, Xueming and Fyffe, Graham and Rhemann, Christoph and Busch, Jay and Debevec, Paul E and Ramamoorthi, Ravi",
+      "title": "Single image portrait relighting.",
+      "ENTRYTYPE": "article",
+      "ID": "sun2019single"
+    },
+    {
+      "publisher": "ACM New York, NY, USA",
+      "year": "2020",
+      "pages": "1--13",
+      "number": "6",
+      "volume": "39",
+      "journal": "ACM Transactions on Graphics (ToG)",
+      "author": "Wang, Zhibo and Yu, Xin and Lu, Ming and Wang, Quan and Qian, Chen and Xu, Feng",
+      "title": "Single image portrait relighting via explicit multiple reflectance channel modeling",
+      "ENTRYTYPE": "article",
+      "ID": "wang2020single"
+    },
+    {
+      "publisher": "ACM New York, NY, USA",
+      "year": "2022",
+      "pages": "1--21",
+      "number": "6",
+      "volume": "41",
+      "journal": "ACM Transactions on Graphics (TOG)",
+      "author": "Yeh, Yu-Ying and Nagano, Koki and Khamis, Sameh and Kautz, Jan and Liu, Ming-Yu and Wang, Ting-Chun",
+      "title": "Learning to relight portrait images via a virtual light stage and synthetic-to-real adaptation",
+      "ENTRYTYPE": "article",
+      "ID": "yeh2022learning"
+    }
+  ]
+}

@@ -1,0 +1,936 @@
+{
+  "pdf_url": "https://arxiv.org/pdf/2510.17626v2.pdf",
+  "references": [
+    {
+      "year": "2022",
+      "howpublished": "\\url{https://github.com/huggingface/accelerate}",
+      "author": "Sylvain Gugger and Lysandre Debut and Thomas Wolf and Philipp Schmid and Zachary Mueller and Sourab Mangrulkar and Marc Sun and Benjamin Bossan",
+      "title": "Accelerate: Training and inference at scale made simple, efficient and adaptable.",
+      "ENTRYTYPE": "misc",
+      "ID": "accelerate"
+    },
+    {
+      "year": "2022",
+      "howpublished": "\\url{https://github.com/huggingface/peft}",
+      "author": "Sourab Mangrulkar and Sylvain Gugger and Lysandre Debut and Younes Belkada and Sayak Paul and Benjamin Bossan",
+      "title": "PEFT: State-of-the-art Parameter-Efficient Fine-Tuning methods",
+      "ENTRYTYPE": "misc",
+      "ID": "peft"
+    },
+    {
+      "howpublished": "\\url{https://developers.google.com/custom-search/v1/overview}",
+      "author": "{Google Developers}",
+      "title": "Custom Search JSON API ",
+      "ENTRYTYPE": "misc",
+      "ID": "googlecse"
+    },
+    {
+      "howpublished": "\\url{https://github.com/googleapis/google-api-python-client}",
+      "author": "Google",
+      "title": "Google API Python Client",
+      "ENTRYTYPE": "misc",
+      "ID": "googleapiclient"
+    },
+    {
+      "howpublished": "\\url{https://www.crummy.com/software/BeautifulSoup/}",
+      "title": "Beautiful Soup Documentation",
+      "author": "Leonard Richardson",
+      "ENTRYTYPE": "misc",
+      "ID": "beautifulsoup"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2017",
+      "pages": "17--26",
+      "booktitle": "Conference on Robot Learning",
+      "author": "Lomonaco, Vincenzo and Maltoni, Davide",
+      "title": "Core50: a new dataset and benchmark for continuous object recognition",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "lomonaco2017core50"
+    },
+    {
+      "publisher": "Nature Publishing Group",
+      "year": "2022",
+      "pages": "1185--1197",
+      "number": "12",
+      "volume": "4",
+      "journal": "Nature Machine Intelligence",
+      "author": "van de Ven, Gido M and Tuytelaars, Tinne and Tolias, Andreas S",
+      "title": "Three types of incremental learning",
+      "ENTRYTYPE": "article",
+      "ID": "van2022three"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "2024",
+      "journal": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+      "author": "Wang, Liyuan and Zhang, Xingxing and Su, Hang and Zhu, Jun",
+      "title": "A comprehensive survey of continual learning: Theory, method and application",
+      "ENTRYTYPE": "article",
+      "ID": "wang2024comprehensive"
+    },
+    {
+      "organization": "IEEE",
+      "year": "2022",
+      "pages": "2749--2755",
+      "booktitle": "2022 26th International Conference on Pattern Recognition (ICPR)",
+      "author": "Yildiz, Burak and Khademi, Seyran and Siebes, Ronald Maria and Van Gemert, Jan",
+      "title": "Amstertime: A visual place recognition benchmark dataset for severe domain shift",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "yildiz2022amstertime"
+    },
+    {
+      "organization": "Springer",
+      "year": "2020",
+      "pages": "699--715",
+      "booktitle": "Computer Vision--ECCV 2020: 16th European Conference, Glasgow, UK, August 23--28, 2020, Proceedings, Part XVI 16",
+      "author": "Iscen, Ahmet and Zhang, Jeffrey and Lazebnik, Svetlana and Schmid, Cordelia",
+      "title": "Memory-efficient incremental learning through feature adaptation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "iscen2020memory"
+    },
+    {
+      "year": "2017",
+      "volume": "30",
+      "journal": "Advances in neural information processing systems",
+      "author": "Lopez-Paz, David and Ranzato, Marc'Aurelio",
+      "title": "Gradient episodic memory for continual learning",
+      "ENTRYTYPE": "article",
+      "ID": "lopez2017gradient"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "1999",
+      "pages": "128--135",
+      "number": "4",
+      "volume": "3",
+      "journal": "Trends in cognitive sciences",
+      "author": "French, Robert M",
+      "title": "Catastrophic forgetting in connectionist networks",
+      "ENTRYTYPE": "article",
+      "ID": "french1999catastrophic"
+    },
+    {
+      "year": "2018",
+      "volume": "32 (1)",
+      "booktitle": "Proceedings of the AAAI conference on artificial intelligence",
+      "author": "Kemker, Ronald and McClure, Marc and Abitino, Angelina and Hayes, Tyler and Kanan, Christopher",
+      "title": "Measuring catastrophic forgetting in neural networks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "kemker2018measuring"
+    },
+    {
+      "year": "2021",
+      "booktitle": "Thirty-fifth conference on neural information processing systems datasets and benchmarks track (round 2)",
+      "author": "Lin, Zhiqiu and Shi, Jia and Pathak, Deepak and Ramanan, Deva",
+      "title": "The {CLEAR} benchmark: Continual learning on real-world imagery",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "lin2021clear"
+    },
+    {
+      "publisher": "American Psychological Association",
+      "year": "1975",
+      "pages": "192",
+      "number": "3",
+      "volume": "104",
+      "journal": "Journal of experimental psychology: General",
+      "author": "Rosch, Eleanor",
+      "title": "Cognitive representations of semantic categories.",
+      "ENTRYTYPE": "article",
+      "ID": "rosch1975cognitive"
+    },
+    {
+      "organization": "IEEE",
+      "year": "2013",
+      "pages": "955--962",
+      "booktitle": "Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "author": "Berg, Tamara L and Belhumeur, Peter N",
+      "title": "POOF: Part-Based One-vs-One Features for Fine-Grained Categorization, Face Verification, and Attribute Estimation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "berg2013poof"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2021",
+      "pages": "8748--8763",
+      "booktitle": "International conference on machine learning",
+      "author": "Radford, Alec and Kim, Jong Wook and Hallacy, Chris and Ramesh, Aditya and Goh, Gabriel and Agarwal, Sandhini and Sastry, Girish and Askell, Amanda and Mishkin, Pamela and Clark, Jack and others",
+      "title": "Learning transferable visual models from natural language supervision",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "radford2021clip"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2023",
+      "pages": "19730--19742",
+      "booktitle": "International conference on machine learning",
+      "author": "Li, Junnan and Li, Dongxu and Savarese, Silvio and Hoi, Steven",
+      "title": "Blip-2: Bootstrapping language-image pre-training with frozen image encoders and large language models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "li2023blip"
+    },
+    {
+      "year": "2021",
+      "pages": "9640--9649",
+      "booktitle": "Proceedings of the IEEE/CVF international conference on computer vision",
+      "author": "Chen, Xinlei and Xie, Saining and He, Kaiming",
+      "title": "An empirical study of training self-supervised vision transformers",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "chen2021empirical"
+    },
+    {
+      "note": "Featured Certification",
+      "url": "https://openreview.net/forum?id=a68SUt6zFt",
+      "year": "2024",
+      "issn": "2835-8856",
+      "journal": "Transactions on Machine Learning Research",
+      "author": "Maxime Oquab and Timoth{\\'e}e Darcet and Th{\\'e}o Moutakanni and Huy V. Vo and Marc Szafraniec and Vasil Khalidov and Pierre Fernandez and Daniel Haziza and Francisco Massa and Alaaeldin El-Nouby and Mido Assran and Nicolas Ballas and Wojciech Galuba and Russell Howes and Po-Yao Huang and Shang-Wen Li and Ishan Misra and Michael Rabbat and Vasu Sharma and Gabriel Synnaeve and Hu Xu and Herve Jegou and Julien Mairal and Patrick Labatut and Armand Joulin and Piotr Bojanowski",
+      "title": "{DINO}v2: Learning Robust Visual Features without Supervision",
+      "ENTRYTYPE": "article",
+      "ID": "oquab2023dinov2"
+    },
+    {
+      "year": "2022",
+      "pages": "10684--10695",
+      "booktitle": "Proceedings of the IEEE/CVF conference on Computer Vision and Pattern Recognition",
+      "author": "Rombach, Robin and Blattmann, Andreas and Lorenz, Dominik and Esser, Patrick and Ommer, Bj{\\\"o}rn",
+      "title": "High-resolution image synthesis with latent diffusion models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "rombach2022high"
+    },
+    {
+      "year": "2018",
+      "pages": "8769--8778",
+      "booktitle": "Proceedings of the IEEE conference on Computer Vision and Pattern Recognition",
+      "author": "Van Horn, Grant and Mac Aodha, Oisin and Song, Yang and Cui, Yin and Sun, Chen and Shepard, Alex and Adam, Hartwig and Perona, Pietro and Belongie, Serge",
+      "title": "The {iNaturalist} species classification and detection dataset",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "van2018inaturalist"
+    },
+    {
+      "publisher": "JSTOR",
+      "year": "1947",
+      "pages": "50--60",
+      "journal": "The annals of mathematical statistics",
+      "author": "Mann, Henry B and Whitney, Donald R",
+      "title": "On a test of whether one of two random variables is stochastically larger than the other",
+      "ENTRYTYPE": "article",
+      "ID": "mann1947test"
+    },
+    {
+      "year": "2017",
+      "pages": "1--8",
+      "booktitle": "Proceedings of the IEEE conference on Computer Vision and Pattern Recognition workshops",
+      "author": "Tafazzoli, Faezeh and Frigui, Hichem and Nishiyama, Keishin",
+      "title": "A large and diverse dataset for improved vehicle make and model recognition",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "tafazzoli2017large"
+    },
+    {
+      "year": "2020",
+      "pages": "240--241",
+      "booktitle": "Proceedings of the IEEE/CVF conference on Computer Vision and Pattern Recognition workshops",
+      "author": "Mi, Fei and Kong, Lingjing and Lin, Tao and Yu, Kaicheng and Faltings, Boi",
+      "title": "Generalized class incremental learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "mi2020generalized"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "2019",
+      "pages": "1040--1046",
+      "volume": "207",
+      "journal": "Journal of cleaner production",
+      "author": "Nakamoto, Yuya and Nishijima, Daisuke and Kagawa, Shigemi",
+      "title": "The role of vehicle lifetime extensions of countries on global {CO2} emissions",
+      "ENTRYTYPE": "article",
+      "ID": "nakamoto2019role"
+    },
+    {
+      "publisher": "Springer",
+      "year": "2021",
+      "pages": "1--13",
+      "volume": "13",
+      "journal": "European Transport Research Review",
+      "author": "Held, Maximilian and Rosat, Nicolas and Georges, Gil and Pengg, Hermann and Boulouchos, Konstantinos",
+      "title": "Lifespans of passenger cars in {Europe}: empirical modelling of fleet turnover dynamics",
+      "ENTRYTYPE": "article",
+      "ID": "held2021lifespans"
+    },
+    {
+      "url": "https://openreview.net/forum?id=di52zR8xgf",
+      "year": "2024",
+      "booktitle": "The Twelfth International Conference on Learning Representations",
+      "author": "Dustin Podell and Zion English and Kyle Lacey and Andreas Blattmann and Tim Dockhorn and Jonas M{\\\"u}ller and Joe Penna and Robin Rombach",
+      "title": "{SDXL}: Improving Latent Diffusion Models for High-Resolution Image Synthesis",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "podell2023sdxl"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "2023",
+      "pages": "10795--10816",
+      "number": "9",
+      "volume": "45",
+      "journal": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+      "author": "Zhang, Yifan and Kang, Bingyi and Hooi, Bryan and Yan, Shuicheng and Feng, Jiashi",
+      "title": "Deep long-tailed learning: A survey",
+      "ENTRYTYPE": "article",
+      "ID": "zhang2023deep"
+    },
+    {
+      "publisher": "Springer",
+      "year": "1992",
+      "pages": "196--202",
+      "booktitle": "Breakthroughs in statistics: Methodology and distribution",
+      "author": "Wilcoxon, Frank",
+      "title": "Individual comparisons by ranking methods",
+      "ENTRYTYPE": "incollection",
+      "ID": "wilcoxon1992individual"
+    },
+    {
+      "year": "2019",
+      "pages": "2537--2546",
+      "booktitle": "Proceedings of the IEEE/CVF conference on Computer Vision and Pattern Recognition",
+      "author": "Liu, Ziwei and Miao, Zhongqi and Zhan, Xiaohang and Wang, Jiayun and Gong, Boqing and Yu, Stella X",
+      "title": "Large-scale long-tailed recognition in an open world",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "liu2019large"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "2022",
+      "pages": "103552",
+      "volume": "223",
+      "journal": "Computer Vision and Image Understanding",
+      "author": "Fabbrizzi, Simone and Papadopoulos, Symeon and Ntoutsi, Eirini and Kompatsiaris, Ioannis",
+      "title": "A survey on bias in visual datasets",
+      "ENTRYTYPE": "article",
+      "ID": "fabbrizzi2022survey"
+    },
+    {
+      "year": "2022",
+      "booktitle": "Transformers 4 Vision CVPR Workshop",
+      "title": "Simpler is Better: off-the-shelf Continual Learning Through Pretrained Backbones",
+      "author": "Pelosin, Francesco",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "pelosin2022simpler"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2021",
+      "pages": "10347--10357",
+      "booktitle": "International conference on machine learning",
+      "author": "Touvron, Hugo and Cord, Matthieu and Douze, Matthijs and Massa, Francisco and Sablayrolles, Alexandre and J{\\'e}gou, Herv{\\'e}",
+      "title": "Training data-efficient image transformers \\& distillation through attention",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "touvron2021training"
+    },
+    {
+      "url": "https://arxiv.org/abs/1801.01401",
+      "year": "2018",
+      "booktitle": "International Conference on Learning Representations (ICLR)",
+      "author": "Bińkowski, Mikołaj and Sutherland, Dougal J and Arbel, Michael and Gretton, Arthur",
+      "title": "Demystifying {MMD} {GAN}s",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "binkowski2018demystifying"
+    },
+    {
+      "url": "https://openreview.net/forum?id=Bkg6RiCqY7",
+      "year": "2019",
+      "booktitle": "International Conference on Learning Representations",
+      "author": "Ilya Loshchilov and Frank Hutter",
+      "title": "Decoupled Weight Decay Regularization",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "loshchilov2018decoupled"
+    },
+    {
+      "year": "to appear",
+      "booktitle": "Proceedings of the IEEE conference on Computer Vision and Pattern Recognition (CVPR 2025)",
+      "author": "Sn{\\ae}bjarnarson, V{\\'e}steinn and Du, Kevin and Stoehr, Niklas and Belongie, Serge and Cotterell, Ryan and Lang, Nico and Frank, Stella",
+      "title": "Taxonomy-Aware Evaluation of Vision-Language Models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "snaebjarnarson2025taxonomy"
+    },
+    {
+      "year": "2018",
+      "volume": "31",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2018/file/fface8385abbf94b4593a0ed53a0c70f-Paper.pdf",
+      "title": "Modern Neural Networks Generalize on Small Data Sets",
+      "publisher": "Curran Associates, Inc.",
+      "pages": "",
+      "editor": "S. Bengio and H. Wallach and H. Larochelle and K. Grauman and N. Cesa-Bianchi and R. Garnett",
+      "booktitle": "Advances in Neural Information Processing Systems",
+      "author": "Olson, Matthew and Wyner, Abraham and Berk, Richard",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "NEURIPS2018_fface838"
+    },
+    {
+      "year": "2020",
+      "volume": "33",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2020/file/481fbfa59da2581098e841b7afc122f1-Paper.pdf",
+      "title": "Hyperparameter Ensembles for Robustness and Uncertainty Quantification",
+      "publisher": "Curran Associates, Inc.",
+      "pages": "6514--6527",
+      "editor": "H. Larochelle and M. Ranzato and R. Hadsell and M.F. Balcan and H. Lin",
+      "booktitle": "Advances in Neural Information Processing Systems",
+      "author": "Wenzel, Florian and Snoek, Jasper and Tran, Dustin and Jenatton, Rodolphe",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "NEURIPS2020_481fbfa5"
+    },
+    {
+      "year": "2017",
+      "pages": "2001--2010",
+      "booktitle": "Proceedings of the IEEE conference on Computer Vision and Pattern Recognition",
+      "author": "Rebuffi, Sylvestre-Alvise and Kolesnikov, Alexander and Sperl, Georg and Lampert, Christoph H",
+      "title": "icarl: Incremental classifier and representation learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "rebuffi2017icarl"
+    },
+    {
+      "year": "2019",
+      "month": "June",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "title": "Do Better ImageNet Models Transfer Better?",
+      "author": "Kornblith, Simon and Shlens, Jonathon and Le, Quoc V.",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "Kornblith_2019_CVPR"
+    },
+    {
+      "url": "https://openreview.net/forum?id=YicbFdNTTy",
+      "year": "2021",
+      "booktitle": "International Conference on Learning Representations",
+      "author": "Dosovitskiy, Alexey and Beyer, Lucas and Kolesnikov, Alexander and Weissenborn, Dirk and Zhai, Xiaohua and Unterthiner, Thomas and Dehghani, Mostafa and Minderer, Matthias and Heigold, Georg and Gelly, Sylvain and Uszkoreit, Jakob and Houlsby, Neil",
+      "title": "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "dosovitskiy2021an"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "2013",
+      "pages": "2624--2637",
+      "number": "11",
+      "volume": "35",
+      "journal": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+      "author": "Mensink, Thomas and Verbeek, Jakob and Perronnin, Florent and Csurka, Gabriela",
+      "title": "Distance-based image classification: Generalizing to new classes at near-zero cost",
+      "ENTRYTYPE": "article",
+      "ID": "mensink2013distance"
+    },
+    {
+      "year": "2023",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "author": "Zhu, Yuxiang and Zhang, Qian and et al.",
+      "title": "Vision-Language Pretraining for Fine-Grained Image Classification: An Empirical Study with {GPT}-4 and {CLIP}",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zhu2023vision"
+    },
+    {
+      "year": "2024",
+      "pages": "17542--17552",
+      "booktitle": "Proceedings of the IEEE/CVF conference on Computer Vision and Pattern Recognition",
+      "author": "Saha, Oindrila and Van Horn, Grant and Maji, Subhransu",
+      "title": "Improved zero-shot classification by adapting {VLM}s with text descriptions",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "saha2024improved"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2303.08774",
+      "author": "Achiam, Josh and Adler, Steven and Agarwal, Sandhini and Ahmad, Lama and Akkaya, Ilge and Aleman, Florencia Leoni and Almeida, Diogo and Altenschmidt, Janko and Altman, Sam and Anadkat, Shyamal and others",
+      "title": "{GPT}-4 technical report",
+      "ENTRYTYPE": "article",
+      "ID": "achiam2023gpt"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2412.15115",
+      "author": "Yang, An and Yang, Baosong and Zhang, Beichen and Hui, Binyuan and Zheng, Bo and Yu, Bowen and Li, Chengyuan and Liu, Dayiheng and Huang, Fei and Wei, Haoran and others",
+      "title": "Qwen2. 5 technical report",
+      "ENTRYTYPE": "article",
+      "ID": "yang2024qwen2"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2309.16609",
+      "author": "Jinze Bai and Shuai Bai and Yunfei Chu and Zeyu Cui and Kai Dang and Xiaodong Deng and Yang Fan and Wenbin Ge and Yu Han and Fei Huang and Binyuan Hui and Luo Ji and Mei Li and Junyang Lin and Runji Lin and Dayiheng Liu and Gao Liu and Chengqiang Lu and Keming Lu and Jianxin Ma and Rui Men and Xingzhang Ren and Xuancheng Ren and Chuanqi Tan and Sinan Tan and Jianhong Tu and Peng Wang and Shijie Wang and Wei Wang and Shengguang Wu and Benfeng Xu and Jin Xu and An Yang and Hao Yang and Jian Yang and Shusheng Yang and Yang Yao and Bowen Yu and Hongyi Yuan and Zheng Yuan and Jianwei Zhang and Xingxuan Zhang and Yichang Zhang and Zhenru Zhang and Chang Zhou and Jingren Zhou and Xiaohuan Zhou and Tianhang Zhu",
+      "title": "Qwen Technical Report",
+      "ENTRYTYPE": "article",
+      "ID": "qwen"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "2024",
+      "pages": "106492",
+      "journal": "Neural Networks",
+      "author": "Cossu, Andrea and Carta, Antonio and Passaro, Lucia and Lomonaco, Vincenzo and Tuytelaars, Tinne and Bacciu, Davide",
+      "title": "Continual pre-training mitigates forgetting in language and vision",
+      "ENTRYTYPE": "article",
+      "ID": "cossu2024continual"
+    },
+    {
+      "year": "2017",
+      "pages": "5",
+      "volume": "2",
+      "booktitle": "Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition Workshop",
+      "author": "Moschoglou, Stylianos and Papaioannou, Athanasios and Sagonas, Christos and Deng, Jiankang and Kotsia, Irene and Zafeiriou, Stefanos",
+      "title": "{AgeDB}: the first manually collected, in-the-wild age database",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "moschoglou2017agedb"
+    },
+    {
+      "year": "2024",
+      "pages": "37988--38006",
+      "volume": "37",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Prabhu, Ameya and Sinha, Shiven and Kumaraguru, Ponnurangam and Torr, Philip and Sener, Ozan and Dokania, Puneet",
+      "title": "{RanDumb}: Random Representations Outperform Online Continually Learned Representations",
+      "ENTRYTYPE": "article",
+      "ID": "prabhu2024randumb"
+    },
+    {
+      "year": "2018",
+      "pages": "6172--6180",
+      "booktitle": "Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition",
+      "author": "Christie, Gordon and Fendley, Neil and Wilson, James and Mukherjee, Ryan",
+      "title": "Functional map of the world",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "christie2018functional"
+    },
+    {
+      "pages": "6932-6943",
+      "year": "2025",
+      "month": "February",
+      "booktitle": "Proceedings of the Winter Conference on Applications of Computer Vision (WACV)",
+      "title": "Temporal Dynamics in Visual Data: Analyzing the Impact of Time on Classification Accuracy",
+      "author": "P\\'egeot, Tom and Feillet, Eva and Popescu, Adrian and Kucher, Inna and Delezoide, Bertrand",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "pegeot2025wacv"
+    },
+    {
+      "year": "2023",
+      "pages": "27092--27112",
+      "volume": "36",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Gadre, Samir Yitzhak and Ilharco, Gabriel and Fang, Alex and Hayase, Jonathan and Smyrnis, Georgios and Nguyen, Thao and Marten, Ryan and Wortsman, Mitchell and Ghosh, Dhruba and Zhang, Jieyu and others",
+      "title": "Datacomp: In search of the next generation of multimodal datasets",
+      "ENTRYTYPE": "article",
+      "ID": "gadre2023datacomp"
+    },
+    {
+      "year": "2015",
+      "pages": "1--7",
+      "booktitle": "Proceedings of the IEEE International Conference on Computer Vision Workshops",
+      "author": "Ginosar, Shiry and Rakelly, Kate and Sachs, Sarah and Yin, Brian and Efros, Alexei A",
+      "title": "A century of portraits: A visual historical record of american high school yearbooks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ginosar2015yearbook"
+    },
+    {
+      "year": "2023",
+      "pages": "79858--79885",
+      "volume": "36",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Fan, Ying and Watkins, Olivia and Du, Yuqing and Liu, Hao and Ryu, Moonkyung and Boutilier, Craig and Abbeel, Pieter and Ghavamzadeh, Mohammad and Lee, Kangwook and Lee, Kimin",
+      "title": "{DPOK}: Reinforcement learning for fine-tuning text-to-image diffusion models",
+      "ENTRYTYPE": "article",
+      "ID": "fan2023dpok"
+    },
+    {
+      "year": "2008",
+      "pages": "39--43",
+      "booktitle": "Proceedings of the 1st ACM international conference on Multimedia information retrieval",
+      "author": "Huiskes, Mark J and Lew, Michael S",
+      "title": "The mir flickr retrieval evaluation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "huiskes2008mir"
+    },
+    {
+      "year": "2014",
+      "volume": "27",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2014/file/19ea3982b415d7bb3363917eb3d60c4a-Paper.pdf",
+      "title": "Learning Deep Features for Scene Recognition using Places Database",
+      "publisher": "Curran Associates, Inc.",
+      "pages": "",
+      "editor": "Z. Ghahramani and M. Welling and C. Cortes and N. Lawrence and K.Q. Weinberger",
+      "booktitle": "Advances in Neural Information Processing Systems",
+      "author": "Zhou, Bolei and Lapedriza, Agata and Xiao, Jianxiong and Torralba, Antonio and Oliva, Aude",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "NIPS2014_19ea3982"
+    },
+    {
+      "organization": "Springer",
+      "year": "2024",
+      "pages": "219--236",
+      "booktitle": "European Conference on Computer Vision",
+      "author": "Yu, Yu-Chu and Huang, Chi-Pin and Chen, Jr-Jen and Chang, Kai-Po and Lai, Yung-Hsuan and Yang, Fu-En and Wang, Yu-Chiang Frank",
+      "title": "Select and distill: Selective dual-teacher knowledge transfer for continual learning on vision-language models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "yu2024select"
+    },
+    {
+      "organization": "Springer",
+      "year": "2014",
+      "pages": "446--461",
+      "booktitle": "Computer vision--ECCV 2014: 13th European conference, zurich, Switzerland, September 6-12, 2014, proceedings, part VI 13",
+      "author": "Bossard, Lukas and Guillaumin, Matthieu and Van Gool, Luc",
+      "title": "Food-101--mining discriminative components with random forests",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "bossard2014food"
+    },
+    {
+      "organization": "IEEE",
+      "year": "2008",
+      "pages": "722--729",
+      "booktitle": "2008 Sixth Indian conference on computer vision, graphics \\& image processing",
+      "author": "Nilsback, Maria-Elena and Zisserman, Andrew",
+      "title": "Automated flower classification over a large number of classes",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "nilsback2008automated"
+    },
+    {
+      "year": "2022",
+      "pages": "3",
+      "number": "2",
+      "volume": "1",
+      "journal": "ICLR",
+      "author": "Hu, Edward J and Shen, Yelong and Wallis, Phillip and Allen-Zhu, Zeyuan and Li, Yuanzhi and Wang, Shean and Wang, Lu and Chen, Weizhu and others",
+      "title": "{LoRA}: Low-rank adaptation of large language models.",
+      "ENTRYTYPE": "article",
+      "ID": "hu2022lora"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "2019",
+      "pages": "2217--2226",
+      "number": "7",
+      "volume": "12",
+      "journal": "IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing",
+      "author": "Helber, Patrick and Bischke, Benjamin and Dengel, Andreas and Borth, Damian",
+      "title": "Eurosat: A novel dataset and deep learning benchmark for land use and land cover classification",
+      "ENTRYTYPE": "article",
+      "ID": "helber2019eurosat"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "2022",
+      "pages": "5513--5533",
+      "number": "5",
+      "volume": "45",
+      "journal": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+      "author": "Masana, Marc and Liu, Xialei and Twardowski, Bart{\\l}omiej and Menta, Mikel and Bagdanov, Andrew D and Van De Weijer, Joost",
+      "title": "Class-incremental learning: survey and performance evaluation on image classification",
+      "ENTRYTYPE": "article",
+      "ID": "masana2022survey"
+    },
+    {
+      "year": "2015",
+      "pages": "211--252",
+      "number": "3",
+      "volume": "115",
+      "journal": "International Journal of Computer Vision",
+      "title": "{ImageNet} Large Scale Visual Recognition Challenge",
+      "author": "Olga Russakovsky and\nJia Deng and\nHao Su and\nJonathan Krause and\nSanjeev Satheesh and\nSean Ma and\nZhiheng Huang and\nAndrej Karpathy and\nAditya Khosla and\nMichael S. Bernstein and\nAlexander C. Berg and\nFei{-}Fei Li",
+      "ENTRYTYPE": "article",
+      "ID": "olga2015_ilsvrc"
+    },
+    {
+      "note": "{https://www.cs.toronto.edu/\\textasciitilde kriz/learning-features-2009-TR.pdf}",
+      "year": "2009",
+      "title": "Learning multiple layers of features from tiny images",
+      "publisher": "Technical report, University of Toronto",
+      "institution": "University of Toronto",
+      "address": "Toronto, Ontario, Canada",
+      "author": "Krizhevsky, Alex and Hinton, Geoffrey",
+      "ENTRYTYPE": "techreport",
+      "ID": "krizhevsky2009learning"
+    },
+    {
+      "year": "2020",
+      "pages": "2575--2584",
+      "booktitle": "Proceedings of the IEEE/CVF conference on Computer Vision and Pattern Recognition",
+      "author": "Weyand, Tobias and Araujo, Andre and Cao, Bingyi and Sim, Jack",
+      "title": "Google landmarks dataset v2--a large-scale benchmark for instance-level recognition and retrieval",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "weyand2020google"
+    },
+    {
+      "year": "2024",
+      "pages": "83024--83047",
+      "volume": "37",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Zhuang, Huiping and Chen, Yizhu and Fang, Di and He, Run and Tong, Kai and Wei, Hongxin and Zeng, Ziqian and Chen, Cen",
+      "title": "{GACL}: Exemplar-free generalized analytic continual learning",
+      "ENTRYTYPE": "article",
+      "ID": "zhuang2024gacl"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "2021",
+      "pages": "8927--8948",
+      "number": "12",
+      "volume": "44",
+      "journal": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+      "author": "Wei, Xiu-Shen and Song, Yi-Zhe and Mac Aodha, Oisin and Wu, Jianxin and Peng, Yuxin and Tang, Jinhui and Yang, Jian and Belongie, Serge",
+      "title": "Fine-grained image analysis with deep learning: A survey",
+      "ENTRYTYPE": "article",
+      "ID": "wei2021fine"
+    },
+    {
+      "url": "https://openreview.net/forum?id=u5iEaBIfpU",
+      "year": "2024",
+      "booktitle": "NeurIPS 2024 Workshop on Scalable Continual Learning for Lifelong Foundation Models",
+      "author": "Haotian Zhang and Junting Zhou and Haowei Lin and Hang Ye and Jianhua Zhu and Zihao Wang and Liangcai Gao and Yizhou Wang and Yitao Liang",
+      "title": "{CL}oG: Benchmarking Continual Learning of Image Generation Models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zhang2024clog"
+    },
+    {
+      "organization": "IEEE",
+      "year": "2011",
+      "pages": "1521--1528",
+      "booktitle": "CVPR 2011",
+      "author": "Torralba, Antonio and Efros, Alexei A",
+      "title": "Unbiased look at dataset bias",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "torralba2011unbiased"
+    },
+    {
+      "year": "2023",
+      "month": "January",
+      "note": " https://github.com/ultralytics/ultralytics",
+      "title": "{Ultralytics YOLO, version 8.0.0}",
+      "license": "AGPL-3.0",
+      "author": "Jocher, Glenn and Qiu, Jing and Chaurasia, Ayush",
+      "ENTRYTYPE": "misc",
+      "ID": "Jocher_Ultralytics_YOLO_2023"
+    },
+    {
+      "year": "2024",
+      "pages": "107984--108011",
+      "volume": "37",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Wang, Ao and Chen, Hui and Liu, Lihao and Chen, Kai and Lin, Zijia and Han, Jungong and others",
+      "title": "Yolov10: Real-time end-to-end object detection",
+      "ENTRYTYPE": "article",
+      "ID": "wang2024yolov10"
+    },
+    {
+      "organization": "Springer",
+      "year": "2014",
+      "pages": "740--755",
+      "booktitle": "Computer vision--ECCV 2014: 13th European conference, zurich, Switzerland, September 6-12, 2014, proceedings, part v 13",
+      "author": "Lin, Tsung-Yi and Maire, Michael and Belongie, Serge and Hays, James and Perona, Pietro and Ramanan, Deva and Doll{\\'a}r, Piotr and Zitnick, C Lawrence",
+      "title": "Microsoft {COCO}: Common objects in context",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "lin2014microsoft"
+    },
+    {
+      "publisher": "ACM New York, NY, USA",
+      "year": "2016",
+      "pages": "64--73",
+      "number": "2",
+      "volume": "59",
+      "journal": "Communications of the ACM",
+      "author": "Thomee, Bart and Shamma, David A and Friedland, Gerald and Elizalde, Benjamin and Ni, Karl and Poland, Douglas and Borth, Damian and Li, Li-Jia",
+      "title": "Yfcc100m: The new data in multimedia research",
+      "ENTRYTYPE": "article",
+      "ID": "thomee2016yfcc100m"
+    },
+    {
+      "year": "2022",
+      "pages": "25278--25294",
+      "volume": "35",
+      "journal": "Advances in neural information processing systems",
+      "author": "Schuhmann, Christoph and Beaumont, Romain and Vencu, Richard and Gordon, Cade and Wightman, Ross and Cherti, Mehdi and Coombes, Theo and Katta, Aarush and Mullis, Clayton and Wortsman, Mitchell and others",
+      "title": "{LAION}-5b: An open large-scale dataset for training next generation image-text models",
+      "ENTRYTYPE": "article",
+      "ID": "schuhmann2022laion"
+    },
+    {
+      "publisher": "Springer",
+      "year": "2008",
+      "pages": "157--173",
+      "volume": "77",
+      "journal": "International journal of computer vision",
+      "author": "Russell, Bryan C and Torralba, Antonio and Murphy, Kevin P and Freeman, William T",
+      "title": "{LabelMe}: a database and web-based tool for image annotation",
+      "ENTRYTYPE": "article",
+      "ID": "russell2008labelme"
+    },
+    {
+      "organization": "IEEE",
+      "year": "2009",
+      "pages": "248--255",
+      "booktitle": "2009 IEEE conference on Computer Vision and Pattern Recognition",
+      "author": "Deng, Jia and Dong, Wei and Socher, Richard and Li, Li-Jia and Li, Kai and Fei-Fei, Li",
+      "title": "{ImageNet}: A large-scale hierarchical image database",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "deng2009imagenet"
+    },
+    {
+      "url": "https://openreview.net/forum?id=dnVNYctP3S",
+      "year": "2022",
+      "booktitle": "NeurIPS 2022 Workshop on Distribution Shifts: Connecting Methods and Applications",
+      "author": "Paul Janson and Wenxuan Zhang and Rahaf Aljundi and Mohamed Elhoseiny",
+      "title": "A Simple Baseline that Questions the Use of Pretrained-Models in Continual Learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "janson2022simple"
+    },
+    {
+      "year": "2023",
+      "pages": "12022--12053",
+      "volume": "36",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "McDonnell, Mark D and Gong, Dong and Parvaneh, Amin and Abbasnejad, Ehsan and Van den Hengel, Anton",
+      "title": "{RanPAC}: Random projections and pre-trained models for continual learning",
+      "ENTRYTYPE": "article",
+      "ID": "mcdonnell2024ranpac"
+    },
+    {
+      "year": "2023",
+      "pages": "6582--6595",
+      "volume": "36",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Goswami, Dipam and Liu, Yuyang and Twardowski, Bart{\\l}omiej and Van De Weijer, Joost",
+      "title": "{FeCAM}: Exploiting the heterogeneity of class distributions in exemplar-free continual learning",
+      "ENTRYTYPE": "article",
+      "ID": "goswami2024fecam"
+    },
+    {
+      "publisher": "Springer",
+      "year": "2020",
+      "pages": "1956--1981",
+      "number": "7",
+      "volume": "128",
+      "journal": "International journal of computer vision",
+      "author": "Kuznetsova, Alina and Rom, Hassan and Alldrin, Neil and Uijlings, Jasper and Krasin, Ivan and Pont-Tuset, Jordi and Kamali, Shahab and Popov, Stefan and Malloci, Matteo and Kolesnikov, Alexander and others",
+      "title": "The open images dataset v4: Unified image classification, object detection, and visual relationship detection at scale",
+      "ENTRYTYPE": "article",
+      "ID": "kuznetsova2020open"
+    },
+    {
+      "url": "https://openreview.net/forum?id=Ha6RTeWMd0",
+      "year": "2025",
+      "booktitle": "The Thirteenth International Conference on Learning Representations",
+      "author": "Nikhila Ravi and Valentin Gabeur and Yuan-Ting Hu and Ronghang Hu and Chaitanya Ryali and Tengyu Ma and Haitham Khedr and Roman R{\\\"a}dle and Chloe Rolland and Laura Gustafson and Eric Mintun and Junting Pan and Kalyan Vasudev Alwala and Nicolas Carion and Chao-Yuan Wu and Ross Girshick and Piotr Dollar and Christoph Feichtenhofer",
+      "title": "{SAM} 2: Segment Anything in Images and Videos",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ravi2024sam2"
+    },
+    {
+      "publisher": "ACM New York, NY, USA",
+      "year": "2021",
+      "pages": "1--12",
+      "number": "6",
+      "volume": "40",
+      "journal": "ACM Transactions on Graphics (TOG)",
+      "author": "Luo, Xuan and Zhang, Xuaner and Yoo, Paul and Martin-Brualla, Ricardo and Lawrence, Jason and Seitz, Steven M",
+      "title": "Time-travel rephotography",
+      "ENTRYTYPE": "article",
+      "ID": "luo2021time"
+    },
+    {
+      "pages": "1204--1228",
+      "doi": "10.18653/v1/2024.acl-long.66",
+      "url": "https://aclanthology.org/2024.acl-long.66/",
+      "publisher": "Association for Computational Linguistics",
+      "address": "Bangkok, Thailand",
+      "year": "2024",
+      "month": "August",
+      "booktitle": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+      "editor": "Ku, Lun-Wei  and\nMartins, Andre  and\nSrikumar, Vivek",
+      "author": "Chu, Zheng  and\nChen, Jingchang  and\nChen, Qianglong  and\nYu, Weijiang  and\nWang, Haotian  and\nLiu, Ming  and\nQin, Bing",
+      "title": "{T}ime{B}ench: A Comprehensive Evaluation of Temporal Reasoning Abilities in Large Language Models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "chu-etal-2024-timebench"
+    },
+    {
+      "year": "2013",
+      "pages": "554--561",
+      "month": "June",
+      "booktitle": "Proceedings of the IEEE International Conference on Computer Vision (ICCV) Workshops",
+      "author": "Krause, Jonathan and Stark, Michael and Deng, Jia and Fei-Fei, Li",
+      "title": "{3D} object representations for fine-grained categorization",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "krause20133d"
+    },
+    {
+      "year": "2015",
+      "pages": "3973--3981",
+      "booktitle": "Proceedings of the IEEE conference on Computer Vision and Pattern Recognition",
+      "author": "Yang, Linjie and Luo, Ping and Change Loy, Chen and Tang, Xiaoou",
+      "title": "A large-scale car dataset for fine-grained categorization and verification",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "yang2015large"
+    },
+    {
+      "note": "(accepted at The Eleventh CVPR'24 Workshop on Fine-Grained Visual Categorization)",
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2503.12385",
+      "author": "Hu, Yutao and Li, Sen and Yan, Jincheng and Shao, Wenqi and Luo, Xiaoyan",
+      "title": "Car-1000: A New Large Scale Fine-Grained Visual Categorization Dataset",
+      "ENTRYTYPE": "article",
+      "ID": "hu2025car"
+    },
+    {
+      "url": "https://arxiv.org/abs/2310.16226",
+      "year": "2024",
+      "author": "Saurabh Garg and Hadi Pour Ansari and Mehrdad Farajtabar and Sachin Mehta and Raviteja Vemulapalli and Oncel Tuzel and Vaishaal Shankar and Fartash Faghri",
+      "booktitle": "ICLR",
+      "title": "{TiC-CLIP}: Continual Training of {CLIP} Models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "tic-clip-v2"
+    },
+    {
+      "year": "2008",
+      "pages": "259--285",
+      "journal": "Product experience",
+      "author": "Hekkert, Paul and Leder, Helmut",
+      "title": "Product aesthetics",
+      "ENTRYTYPE": "article",
+      "ID": "hekkert2008product"
+    },
+    {
+      "publisher": "MIT press",
+      "year": "2008",
+      "author": "Dunne, Anthony",
+      "title": "Hertzian tales: Electronic products, aesthetic experience, and critical design",
+      "ENTRYTYPE": "book",
+      "ID": "dunne2008hertzian"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "2010",
+      "pages": "311--344",
+      "number": "4",
+      "volume": "31",
+      "journal": "Design Studies",
+      "author": "Crilly, Nathan",
+      "title": "The roles that artefacts play: technical, social and aesthetic functions",
+      "ENTRYTYPE": "article",
+      "ID": "crilly2010roles"
+    },
+    {
+      "year": "2011",
+      "pages": "460--475",
+      "number": "1",
+      "volume": "2",
+      "journal": "Debates in the digital humanities",
+      "author": "Manovich, Lev",
+      "title": "Trending: The promises and the challenges of big social data",
+      "ENTRYTYPE": "article",
+      "ID": "manovich2011trending"
+    },
+    {
+      "publisher": "Routledge",
+      "year": "2012",
+      "pages": "85--97",
+      "booktitle": "Studying Mobile Media",
+      "author": "Palmer, Daniel",
+      "title": "{iPhone} photography: Mediating visions of social space",
+      "ENTRYTYPE": "incollection",
+      "ID": "palmer2012iphone"
+    }
+  ]
+}

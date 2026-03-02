@@ -1,0 +1,1365 @@
+{
+  "pdf_url": "https://arxiv.org/pdf/2408.03459v5.pdf",
+  "references": [
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2211.06506",
+      "author": "Wang, Zhichao and Engel, Andrew and Sarwate, Anand and Dumitriu, Ioana and Chiang, Tony",
+      "title": "Spectral evolution and invariance in linear-width neural networks",
+      "ENTRYTYPE": "article",
+      "ID": "wang2022spectral"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2205.01445",
+      "author": "Ba, Jimmy and Erdogdu, Murat A and Suzuki, Taiji and Wang, Zhichao and Wu, Denny and Yang, Greg",
+      "title": "High-dimensional asymptotics of feature learning: How one gradient step improves the representation",
+      "ENTRYTYPE": "article",
+      "ID": "ba2022high"
+    },
+    {
+      "year": "2010",
+      "journal": "arXiv preprint arXiv:1011.3027",
+      "author": "Vershynin, Roman",
+      "title": "Introduction to the non-asymptotic analysis of random matrices",
+      "ENTRYTYPE": "article",
+      "ID": "vershynin2010introduction"
+    },
+    {
+      "year": "2024",
+      "booktitle": "Proceedings of the International Conference on Learning Representations",
+      "author": "Khanov, Maxim and Burapacheep, Jirayu and Li, Yixuan",
+      "title": "ARGS: Alignment as Reward-Guided Search",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "khanov2024alignment"
+    },
+    {
+      "publisher": "Cambridge university press",
+      "year": "2018",
+      "volume": "47",
+      "author": "Vershynin, Roman",
+      "title": "High-dimensional probability: An introduction with applications in data science",
+      "ENTRYTYPE": "book",
+      "ID": "vershynin2018high"
+    },
+    {
+      "year": "2020",
+      "pages": "7710--7721",
+      "volume": "33",
+      "journal": "Advances in neural information processing systems",
+      "author": "Fan, Zhou and Wang, Zhichao",
+      "title": "Spectra of the conjugate kernel and neural tangent kernel for linear-width neural networks",
+      "ENTRYTYPE": "article",
+      "ID": "fan2020spectra"
+    },
+    {
+      "year": "2021",
+      "pages": "2570--2582",
+      "volume": "34",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Velikanov, Maksim and Yarotsky, Dmitry",
+      "title": "Explicit loss asymptotics in the gradient descent training of neural networks",
+      "ENTRYTYPE": "article",
+      "ID": "velikanov2021explicit"
+    },
+    {
+      "year": "2018",
+      "volume": "31",
+      "journal": "Advances in neural information processing systems",
+      "author": "Li, Yuanzhi and Liang, Yingyu",
+      "title": "Learning overparameterized neural networks via stochastic gradient descent on structured data",
+      "ENTRYTYPE": "article",
+      "ID": "li2018learning"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2312.09390",
+      "author": "Burns, Collin and Izmailov, Pavel and Kirchner, Jan Hendrik and Baker, Bowen and Gao, Leo and Aschenbrenner, Leopold and Chen, Yining and Ecoffet, Adrien and Joglekar, Manas and Leike, Jan and others",
+      "title": "Weak-to-strong generalization: Eliciting strong capabilities with weak supervision",
+      "ENTRYTYPE": "article",
+      "ID": "burns2023weak"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2210.01892",
+      "author": "Scherlis, Adam and Sachan, Kshitij and Jermyn, Adam S and Benton, Joe and Shlegeris, Buck",
+      "title": "Polysemanticity and capacity in neural networks",
+      "ENTRYTYPE": "article",
+      "ID": "scherlis2022polysemanticity"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2403.03867",
+      "author": "Jiang, Yibo and Rajendran, Goutham and Ravikumar, Pradeep and Aragam, Bryon and Veitch, Victor",
+      "title": "On the Origins of Linear Representations in Large Language Models",
+      "ENTRYTYPE": "article",
+      "ID": "jiang2024origins"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2311.03658",
+      "author": "Park, Kiho and Choe, Yo Joong and Veitch, Victor",
+      "title": "The linear representation hypothesis and the geometry of large language models",
+      "ENTRYTYPE": "article",
+      "ID": "park2023linear"
+    },
+    {
+      "year": "2008",
+      "pages": "5--9",
+      "number": "2",
+      "volume": "9",
+      "journal": "J. Inequal. Pure and Appl. Math",
+      "author": "Hoorfar, Abdolhossein and Hassani, Mehdi",
+      "title": "Inequalities on the Lambert W function and hyperpower function",
+      "ENTRYTYPE": "article",
+      "ID": "hoorfar2008inequalities"
+    },
+    {
+      "year": "2023",
+      "pages": "2",
+      "journal": "Transformer Circuits Thread",
+      "author": "Bricken, Trenton and Templeton, Adly and Batson, Joshua and Chen, Brian and Jermyn, Adam and Conerly, Tom and Turner, Nick and Anil, Cem and Denison, Carson and Askell, Amanda and others",
+      "title": "Towards monosemanticity: Decomposing language models with dictionary learning",
+      "ENTRYTYPE": "article",
+      "ID": "bricken2023towards"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2209.10652",
+      "author": "Elhage, Nelson and Hume, Tristan and Olsson, Catherine and Schiefer, Nicholas and Henighan, Tom and Kravec, Shauna and Hatfield-Dodds, Zac and Lasenby, Robert and Drain, Dawn and Chen, Carol and others",
+      "title": "Toy models of superposition",
+      "ENTRYTYPE": "article",
+      "ID": "elhage2022toy"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2305.01610",
+      "author": "Gurnee, Wes and Nanda, Neel and Pauly, Matthew and Harvey, Katherine and Troitskii, Dmitrii and Bertsimas, Dimitris",
+      "title": "Finding neurons in a haystack: Case studies with sparse probing",
+      "ENTRYTYPE": "article",
+      "ID": "gurnee2023finding"
+    },
+    {
+      "publisher": "National Acad Sciences",
+      "year": "2020",
+      "pages": "24652--24663",
+      "number": "40",
+      "volume": "117",
+      "journal": "Proceedings of the National Academy of Sciences",
+      "author": "Papyan, Vardan and Han, XY and Donoho, David L",
+      "title": "Prevalence of neural collapse during the terminal phase of deep learning training",
+      "ENTRYTYPE": "article",
+      "ID": "papyan2020prevalence"
+    },
+    {
+      "year": "2017",
+      "volume": "30",
+      "journal": "Advances in neural information processing systems",
+      "author": "Vaswani, Ashish and Shazeer, Noam and Parmar, Niki and Uszkoreit, Jakob and Jones, Llion and Gomez, Aidan N and Kaiser, {\\L}ukasz and Polosukhin, Illia",
+      "title": "Attention is all you need",
+      "ENTRYTYPE": "article",
+      "ID": "vaswani2017attention"
+    },
+    {
+      "year": "2024",
+      "volume": "36",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Rafailov, Rafael and Sharma, Archit and Mitchell, Eric and Manning, Christopher D and Ermon, Stefano and Finn, Chelsea",
+      "title": "Direct preference optimization: Your language model is secretly a reward model",
+      "ENTRYTYPE": "article",
+      "ID": "rafailov2024direct"
+    },
+    {
+      "publisher": "US Government printing office",
+      "year": "1968",
+      "volume": "55",
+      "author": "Abramowitz, Milton and Stegun, Irene A",
+      "title": "Handbook of mathematical functions with formulas, graphs, and mathematical tables",
+      "ENTRYTYPE": "book",
+      "ID": "abramowitz1968handbook"
+    },
+    {
+      "copyright": "arXiv.org perpetual, non-exclusive license",
+      "year": "2022",
+      "publisher": "arXiv",
+      "title": "Discovering Language Model Behaviors with Model-Written Evaluations",
+      "keywords": "Computation and Language (cs.CL), Artificial Intelligence (cs.AI), Machine Learning (cs.LG), FOS: Computer and information sciences, FOS: Computer and information sciences",
+      "author": "Perez, Ethan and Ringer, Sam and Lukošiūtė, Kamilė and Nguyen, Karina and Chen, Edwin and Heiner, Scott and Pettit, Craig and Olsson, Catherine and Kundu, Sandipan and Kadavath, Saurav and Jones, Andy and Chen, Anna and Mann, Ben and Israel, Brian and Seethor, Bryan and McKinnon, Cameron and Olah, Christopher and Yan, Da and Amodei, Daniela and Amodei, Dario and Drain, Dawn and Li, Dustin and Tran-Johnson, Eli and Khundadze, Guro and Kernion, Jackson and Landis, James and Kerr, Jamie and Mueller, Jared and Hyun, Jeeyoon and Landau, Joshua and Ndousse, Kamal and Goldberg, Landon and Lovitt, Liane and Lucas, Martin and Sellitto, Michael and Zhang, Miranda and Kingsland, Neerav and Elhage, Nelson and Joseph, Nicholas and Mercado, Noemí and DasSarma, Nova and Rausch, Oliver and Larson, Robin and McCandlish, Sam and Johnston, Scott and Kravec, Shauna and {El Showk}, Sheer and Lanham, Tamera and Telleen-Lawton, Timothy and Brown, Tom and Henighan, Tom and Hume, Tristan and Bai, Yuntao and Hatfield-Dodds, Zac and Clark, Jack and Bowman, Samuel R. and Askell, Amanda and Grosse, Roger and Hernandez, Danny and Ganguli, Deep and Hubinger, Evan and Schiefer, Nicholas and Kaplan, Jared",
+      "url": "https://arxiv.org/abs/2212.09251",
+      "doi": "10.48550/ARXIV.2212.09251",
+      "ENTRYTYPE": "misc",
+      "ID": "perez2022discovering"
+    },
+    {
+      "publisher": "Springer",
+      "year": "2023",
+      "pages": "167--192",
+      "booktitle": "High Dimensional Probability IX: The Ethereal Volume",
+      "author": "Sambale, Holger",
+      "title": "Some notes on concentration for $\\alpha$-subexponential random variables",
+      "ENTRYTYPE": "incollection",
+      "ID": "sambale2023some"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2305.18290",
+      "author": "Rafailov, Rafael and Sharma, Archit and Mitchell, Eric and Ermon, Stefano and Manning, Christopher D and Finn, Chelsea",
+      "title": "Direct preference optimization: Your language model is secretly a reward model",
+      "ENTRYTYPE": "article",
+      "ID": "rafailov2023direct"
+    },
+    {
+      "year": "2019",
+      "journal": "arXiv preprint arXiv:1909.08593",
+      "author": "Ziegler, Daniel M and Stiennon, Nisan and Wu, Jeffrey and Brown, Tom B and Radford, Alec and Amodei, Dario and Christiano, Paul and Irving, Geoffrey",
+      "title": "Fine-tuning language models from human preferences",
+      "ENTRYTYPE": "article",
+      "ID": "ziegler2019fine"
+    },
+    {
+      "year": "2017",
+      "volume": "30",
+      "journal": "Advances in neural information processing systems",
+      "author": "Christiano, Paul F and Leike, Jan and Brown, Tom and Martic, Miljan and Legg, Shane and Amodei, Dario",
+      "title": "Deep reinforcement learning from human preferences",
+      "ENTRYTYPE": "article",
+      "ID": "christiano2017deep"
+    },
+    {
+      "publisher": "JSTOR",
+      "year": "1952",
+      "pages": "324--345",
+      "number": "3/4",
+      "volume": "39",
+      "journal": "Biometrika",
+      "author": "Bradley, Ralph Allan and Terry, Milton E",
+      "title": "Rank analysis of incomplete block designs: I. The method of paired comparisons",
+      "ENTRYTYPE": "article",
+      "ID": "bradley1952rank"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2307.09288",
+      "author": "Touvron, Hugo and Martin, Louis and Stone, Kevin and Albert, Peter and Almahairi, Amjad and Babaei, Yasmine and Bashlykov, Nikolay and Batra, Soumya and Bhargava, Prajjwal and Bhosale, Shruti and others",
+      "title": "Llama 2: Open foundation and fine-tuned chat models",
+      "ENTRYTYPE": "article",
+      "ID": "touvron2023llama"
+    },
+    {
+      "year": "2018",
+      "journal": "arXiv preprint arXiv:1802.03426",
+      "author": "McInnes, Leland and Healy, John and Melville, James",
+      "title": "Umap: Uniform manifold approximation and projection for dimension reduction",
+      "ENTRYTYPE": "article",
+      "ID": "mcinnes2018umap"
+    },
+    {
+      "year": "2018",
+      "booktitle": "International Conference on Learning Representations",
+      "author": "Loshchilov, Ilya and Hutter, Frank",
+      "title": "Decoupled Weight Decay Regularization",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "loshchilov2018decoupled"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2307.15043",
+      "author": "Zou, Andy and Wang, Zifan and Kolter, J Zico and Fredrikson, Matt",
+      "title": "Universal and transferable adversarial attacks on aligned language models",
+      "ENTRYTYPE": "article",
+      "ID": "zou2023universal"
+    },
+    {
+      "year": "2023",
+      "howpublished": "\\url{https://simonwillison.net/series/prompt-injection/}",
+      "author": "Simon Willison",
+      "title": "Prompt injection",
+      "ENTRYTYPE": "misc",
+      "ID": "willison2023prompt"
+    },
+    {
+      "year": "2023",
+      "howpublished": "\\url{https://www.jailbreakchat.com/}",
+      "author": "Alex Albert",
+      "title": "Jailbreak Chat",
+      "ENTRYTYPE": "misc",
+      "ID": "albert2023jailbreak"
+    },
+    {
+      "year": "2022",
+      "pages": "27730--27744",
+      "volume": "35",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Ouyang, Long and Wu, Jeffrey and Jiang, Xu and Almeida, Diogo and Wainwright, Carroll and Mishkin, Pamela and Zhang, Chong and Agarwal, Sandhini and Slama, Katarina and Ray, Alex and others",
+      "title": "Training language models to follow instructions with human feedback",
+      "ENTRYTYPE": "article",
+      "ID": "ouyang2022training"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2204.05862",
+      "author": "Bai, Yuntao and Jones, Andy and Ndousse, Kamal and Askell, Amanda and Chen, Anna and DasSarma, Nova and Drain, Dawn and Fort, Stanislav and Ganguli, Deep and Henighan, Tom and others",
+      "title": "Training a helpful and harmless assistant with reinforcement learning from human feedback",
+      "ENTRYTYPE": "article",
+      "ID": "bai2022training"
+    },
+    {
+      "year": "2020",
+      "pages": "1877--1901",
+      "volume": "33",
+      "journal": "Advances in neural information processing systems",
+      "author": "Brown, Tom and Mann, Benjamin and Ryder, Nick and Subbiah, Melanie and Kaplan, Jared D and Dhariwal, Prafulla and Neelakantan, Arvind and Shyam, Pranav and Sastry, Girish and Askell, Amanda and others",
+      "title": "Language models are few-shot learners",
+      "ENTRYTYPE": "article",
+      "ID": "brown2020language"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2305.10403",
+      "author": "Anil, Rohan and Dai, Andrew M and Firat, Orhan and Johnson, Melvin and Lepikhin, Dmitry and Passos, Alexandre and Shakeri, Siamak and Taropa, Emanuel and Bailey, Paige and Chen, Zhifeng and others",
+      "title": "Palm 2 technical report",
+      "ENTRYTYPE": "article",
+      "ID": "anil2023palm"
+    },
+    {
+      "year": "2023",
+      "howpublished": "https://www.anthropic.com/index/introducing-claude",
+      "author": "Anthropic",
+      "title": "Introducing claude",
+      "ENTRYTYPE": "misc",
+      "ID": "anthropic2023claude"
+    },
+    {
+      "journal": "arXiv preprint arXiv:1909.08593",
+      "year": "2019",
+      "author": "Daniel M. Ziegler and Nisan Stiennon and Jeffrey Wu and Tom B. Brown and Alec Radford and Dario Amodei and Paul Christiano and Geoffrey Irving",
+      "title": "Fine-Tuning Language Models from Human Preferences",
+      "ENTRYTYPE": "article",
+      "ID": "ziegler2019finetuning"
+    },
+    {
+      "journal": "arXiv preprint arXiv:2303.08774",
+      "year": "2023",
+      "author": "OpenAI",
+      "title": "GPT-4 Technical Report",
+      "ENTRYTYPE": "article",
+      "ID": "openai2023gpt4"
+    },
+    {
+      "year": "2022",
+      "journal": "Transactions on Machine Learning Research",
+      "author": "Wei, Jason and Tay, Yi and Bommasani, Rishi and Raffel, Colin and Zoph, Barret and Borgeaud, Sebastian and Yogatama, Dani and Bosma, Maarten and Zhou, Denny and Metzler, Donald and others",
+      "title": "Emergent Abilities of Large Language Models",
+      "ENTRYTYPE": "article",
+      "ID": "wei2022emergent"
+    },
+    {
+      "year": "2020",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Stiennon, Nisan and Ouyang, Long and Wu, Jeffrey and Ziegler, Daniel and Lowe, Ryan and Voss, Chelsea and Radford, Alec and Amodei, Dario and Christiano, Paul F",
+      "title": "Learning to summarize with human feedback",
+      "ENTRYTYPE": "article",
+      "ID": "stiennon2020learning"
+    },
+    {
+      "booktitle": "International Conference on Machine Learning",
+      "year": "2021",
+      "author": "Kimin Lee and Laura Smith and Pieter Abbeel",
+      "title": "PEBBLE: Feedback-Efficient Interactive Reinforcement Learning via Relabeling Experience and Unsupervised Pre-training",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "lee2021pebble"
+    },
+    {
+      "journal": "arXiv preprint arXiv:2112.09332",
+      "year": "2022",
+      "author": "Reiichiro Nakano and Jacob Hilton and Suchir Balaji and Jeff Wu and Long Ouyang and Christina Kim and Christopher Hesse and Shantanu Jain and Vineet Kosaraju and William Saunders and Xu Jiang and Karl Cobbe and Tyna Eloundou and Gretchen Krueger and Kevin Button and Matthew Knight and Benjamin Chess and John Schulman",
+      "title": "WebGPT: Browser-assisted question-answering with human feedback",
+      "ENTRYTYPE": "article",
+      "ID": "nakano2022webgpt"
+    },
+    {
+      "journal": "arXiv preprint arXiv:2206.11871",
+      "year": "2023",
+      "author": "Charlie Snell and Ilya Kostrikov and Yi Su and Mengjiao Yang and Sergey Levine",
+      "title": "Offline RL for Natural Language Generation with Implicit Language Q Learning",
+      "ENTRYTYPE": "article",
+      "ID": "snell2023offline"
+    },
+    {
+      "journal": "arXiv preprint arXiv:2302.02676",
+      "year": "2023",
+      "author": "Hao Liu and Carmelo Sferrazza and Pieter Abbeel",
+      "title": "Chain of Hindsight Aligns Language Models with Feedback",
+      "ENTRYTYPE": "article",
+      "ID": "liu2023chain"
+    },
+    {
+      "journal": "arXiv preprint arXiv:2304.05302",
+      "year": "2023",
+      "author": "Zheng Yuan and Hongyi Yuan and Chuanqi Tan and Wei Wang and Songfang Huang and Fei Huang",
+      "title": "RRHF: Rank Responses to Align Language Models with Human Feedback without tears",
+      "ENTRYTYPE": "article",
+      "ID": "yuan2023rrhf"
+    },
+    {
+      "journal": "arXiv preprint arXiv:2209.14375",
+      "year": "2022",
+      "author": "Amelia Glaese and Nat McAleese and Maja Trębacz and John Aslanides and Vlad Firoiu and Timo Ewalds and Maribeth Rauh and Laura Weidinger and Martin Chadwick and Phoebe Thacker and Lucy Campbell-Gillingham and Jonathan Uesato and Po-Sen Huang and Ramona Comanescu and Fan Yang and Abigail See and Sumanth Dathathri and Rory Greig and Charlie Chen and Doug Fritz and Jaume Sanchez Elias and Richard Green and Soňa Mokrá and Nicholas Fernando and Boxi Wu and Rachel Foley and Susannah Young and Iason Gabriel and William Isaac and John Mellor and Demis Hassabis and Koray Kavukcuoglu and Lisa Anne Hendricks and Geoffrey Irving",
+      "title": "Improving alignment of dialogue agents via targeted human judgements",
+      "ENTRYTYPE": "article",
+      "ID": "glaese2022improving"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2307.15217",
+      "author": "Casper, Stephen and Davies, Xander and Shi, Claudia and Gilbert, Thomas Krendl and Scheurer, J{\\'e}r{\\'e}my and Rando, Javier and Freedman, Rachel and Korbak, Tomasz and Lindner, David and Freire, Pedro and others",
+      "title": "Open problems and fundamental limitations of reinforcement learning from human feedback",
+      "ENTRYTYPE": "article",
+      "ID": "casper2023open"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2212.08073",
+      "author": "Bai, Yuntao and Kadavath, Saurav and Kundu, Sandipan and Askell, Amanda and Kernion, Jackson and Jones, Andy and Chen, Anna and Goldie, Anna and Mirhoseini, Azalia and McKinnon, Cameron and others",
+      "title": "Constitutional ai: Harmlessness from ai feedback",
+      "ENTRYTYPE": "article",
+      "ID": "bai2022constitutional"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2309.00267",
+      "author": "Lee, Harrison and Phatale, Samrat and Mansoor, Hassan and Lu, Kellie and Mesnard, Thomas and Bishop, Colton and Carbune, Victor and Rastogi, Abhinav",
+      "title": "Rlaif: Scaling reinforcement learning from human feedback with ai feedback",
+      "ENTRYTYPE": "article",
+      "ID": "lee2023rlaif"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2304.11082",
+      "author": "Wolf, Yotam and Wies, Noam and Levine, Yoav and Shashua, Amnon",
+      "title": "Fundamental limitations of alignment in large language models",
+      "ENTRYTYPE": "article",
+      "ID": "wolf2023fundamental"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2310.12036",
+      "author": "Azar, Mohammad Gheshlaghi and Rowland, Mark and Piot, Bilal and Guo, Daniel and Calandriello, Daniele and Valko, Michal and Munos, R{\\'e}mi",
+      "title": "A general theoretical paradigm to understand learning from human preferences",
+      "ENTRYTYPE": "article",
+      "ID": "azar2023general"
+    },
+    {
+      "year": "2018",
+      "volume": "31",
+      "journal": "Advances in neural information processing systems",
+      "author": "Li, Hao and Xu, Zheng and Taylor, Gavin and Studer, Christoph and Goldstein, Tom",
+      "title": "Visualizing the loss landscape of neural nets",
+      "ENTRYTYPE": "article",
+      "ID": "li2018visualizing"
+    },
+    {
+      "year": "2018",
+      "journal": "arXiv preprint arXiv:1810.02054",
+      "author": "Du, Simon S and Zhai, Xiyu and Poczos, Barnabas and Singh, Aarti",
+      "title": "Gradient descent provably optimizes over-parameterized neural networks",
+      "ENTRYTYPE": "article",
+      "ID": "du2018gradient"
+    },
+    {
+      "year": "2018",
+      "volume": "31",
+      "journal": "Advances in neural information processing systems",
+      "author": "Jacot, Arthur and Gabriel, Franck and Hongler, Cl{\\'e}ment",
+      "title": "Neural tangent kernel: Convergence and generalization in neural networks",
+      "ENTRYTYPE": "article",
+      "ID": "jacot2018neural"
+    },
+    {
+      "publisher": "Oxford University Press",
+      "year": "2022",
+      "pages": "435--495",
+      "number": "2",
+      "volume": "11",
+      "journal": "Information and Inference: A Journal of the IMA",
+      "author": "Deng, Zeyu and Kammoun, Abla and Thrampoulidis, Christos",
+      "title": "A model of double descent for high-dimensional binary linear classification",
+      "ENTRYTYPE": "article",
+      "ID": "deng2022model"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2018",
+      "pages": "2835--2843",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Liang, Shiyu and Sun, Ruoyu and Li, Yixuan and Srikant, Rayadurgam",
+      "title": "Understanding the loss surface of neural networks for binary classification",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "liang2018understanding"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "2021",
+      "pages": "179--197",
+      "volume": "138",
+      "journal": "Neural Networks",
+      "author": "Kim, Yongdai and Ohn, Ilsang and Kim, Dongha",
+      "title": "Fast convergence rates of deep neural networks for classification",
+      "ENTRYTYPE": "article",
+      "ID": "kim2021fast"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2306.17492",
+      "author": "Song, Feifan and Yu, Bowen and Li, Minghao and Yu, Haiyang and Huang, Fei and Li, Yongbin and Wang, Houfeng",
+      "title": "Preference ranking optimization for human alignment",
+      "ENTRYTYPE": "article",
+      "ID": "song2023preference"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2304.06767",
+      "author": "Dong, Hanze and Xiong, Wei and Goyal, Deepanshu and Pan, Rui and Diao, Shizhe and Zhang, Jipeng and Shum, Kashun and Zhang, Tong",
+      "title": "Raft: Reward ranked finetuning for generative foundation model alignment",
+      "ENTRYTYPE": "article",
+      "ID": "dong2023raft"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2310.19852",
+      "author": "Ji, Jiaming and Qiu, Tianyi and Chen, Boyuan and Zhang, Borong and Lou, Hantao and Wang, Kaile and Duan, Yawen and He, Zhonghao and Zhou, Jiayi and Zhang, Zhaowei and others",
+      "title": "Ai alignment: A comprehensive survey",
+      "ENTRYTYPE": "article",
+      "ID": "ji2023ai"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2206.01717",
+      "author": "Shi, Zhenmei and Wei, Junyi and Liang, Yingyu",
+      "title": "A theoretical analysis on feature learning in neural networks: Emergence from inputs and advantage over fixed features",
+      "ENTRYTYPE": "article",
+      "ID": "shi2022theoretical"
+    },
+    {
+      "year": "2021",
+      "journal": "arXiv preprint arXiv:2109.13916",
+      "author": "Hendrycks, Dan and Carlini, Nicholas and Schulman, John and Steinhardt, Jacob",
+      "title": "Unsolved problems in ml safety",
+      "ENTRYTYPE": "article",
+      "ID": "hendrycks2021unsolved"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2308.14752",
+      "author": "Park, Peter S and Goldstein, Simon and O'Gara, Aidan and Chen, Michael and Hendrycks, Dan",
+      "title": "AI deception: A survey of examples, risks, and potential solutions",
+      "ENTRYTYPE": "article",
+      "ID": "park2023ai"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2303.09387",
+      "author": "Carroll, Micah and Chan, Alan and Ashton, Henry and Krueger, David",
+      "title": "Characterizing Manipulation from AI Systems",
+      "ENTRYTYPE": "article",
+      "ID": "carroll2023characterizing"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2310.13548",
+      "author": "Sharma, Mrinank and Tong, Meg and Korbak, Tomasz and Duvenaud, David and Askell, Amanda and Bowman, Samuel R and Cheng, Newton and Durmus, Esin and Hatfield-Dodds, Zac and Johnston, Scott R and others",
+      "title": "Towards understanding sycophancy in language models",
+      "ENTRYTYPE": "article",
+      "ID": "sharma2023towards"
+    },
+    {
+      "year": "2018",
+      "journal": "arXiv preprint arXiv:1811.07871",
+      "author": "Leike, Jan and Krueger, David and Everitt, Tom and Martic, Miljan and Maini, Vishal and Legg, Shane",
+      "title": "Scalable agent alignment via reward modeling: a research direction",
+      "ENTRYTYPE": "article",
+      "ID": "leike2018scalable"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2302.04023",
+      "author": "Bang, Yejin and Cahyawijaya, Samuel and Lee, Nayeon and Dai, Wenliang and Su, Dan and Wilie, Bryan and Lovenia, Holy and Ji, Ziwei and Yu, Tiezheng and Chung, Willy and others",
+      "title": "A multitask, multilingual, multimodal evaluation of chatgpt on reasoning, hallucination, and interactivity",
+      "ENTRYTYPE": "article",
+      "ID": "bang2023multitask"
+    },
+    {
+      "year": "2019",
+      "journal": "arXiv preprint arXiv:1906.01820",
+      "author": "Hubinger, Evan and van Merwijk, Chris and Mikulik, Vladimir and Skalse, Joar and Garrabrant, Scott",
+      "title": "Risks from learned optimization in advanced machine learning systems",
+      "ENTRYTYPE": "article",
+      "ID": "hubinger2019risks"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2309.00667",
+      "author": "Berglund, Lukas and Stickland, Asa Cooper and Balesni, Mikita and Kaufmann, Max and Tong, Meg and Korbak, Tomasz and Kokotajlo, Daniel and Evans, Owain",
+      "title": "Taken out of context: On measuring situational awareness in LLMs",
+      "ENTRYTYPE": "article",
+      "ID": "berglund2023taken"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2209.00626",
+      "author": "Ngo, Richard and Chan, Lawrence and Mindermann, S{\\\"o}ren",
+      "title": "The alignment problem from a deep learning perspective",
+      "ENTRYTYPE": "article",
+      "ID": "ngo2022alignment"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2305.15324",
+      "author": "Shevlane, Toby and Farquhar, Sebastian and Garfinkel, Ben and Phuong, Mary and Whittlestone, Jess and Leung, Jade and Kokotajlo, Daniel and Marchal, Nahema and Anderljung, Markus and Kolt, Noam and others",
+      "title": "Model evaluation for extreme risks",
+      "ENTRYTYPE": "article",
+      "ID": "shevlane2023model"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2210.01790",
+      "author": "Shah, Rohin and Varma, Vikrant and Kumar, Ramana and Phuong, Mary and Krakovna, Victoria and Uesato, Jonathan and Kenton, Zac",
+      "title": "Goal misgeneralization: Why correct specifications aren't enough for correct goals",
+      "ENTRYTYPE": "article",
+      "ID": "shah2022goal"
+    },
+    {
+      "year": "2022",
+      "booktitle": "International Conference on Learning Representations",
+      "author": "Pan, Alexander and Bhatia, Kush and Steinhardt, Jacob",
+      "title": "The Effects of Reward Misspecification: Mapping and Mitigating Misaligned Models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "pan2022effects"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2310.06825",
+      "author": "Jiang, Albert Q and Sablayrolles, Alexandre and Mensch, Arthur and Bamford, Chris and Chaplot, Devendra Singh and Casas, Diego de las and Bressand, Florian and Lengyel, Gianna and Lample, Guillaume and Saulnier, Lucile and others",
+      "title": "Mistral 7B",
+      "ENTRYTYPE": "article",
+      "ID": "jiang2023mistral"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2312.00886",
+      "author": "Munos, R{\\'e}mi and Valko, Michal and Calandriello, Daniele and Azar, Mohammad Gheshlaghi and Rowland, Mark and Guo, Zhaohan Daniel and Tang, Yunhao and Geist, Matthieu and Mesnard, Thomas and Michi, Andrea and others",
+      "title": "Nash Learning from Human Feedback",
+      "ENTRYTYPE": "article",
+      "ID": "munos2023nash"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2310.13639",
+      "author": "Hejna, Joey and Rafailov, Rafael and Sikchi, Harshit and Finn, Chelsea and Niekum, Scott and Knox, W Bradley and Sadigh, Dorsa",
+      "title": "Contrastive Prefence Learning: Learning from Human Feedback without RL",
+      "ENTRYTYPE": "article",
+      "ID": "hejna2023contrastive"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2310.12773",
+      "author": "Dai, Josef and Pan, Xuehai and Sun, Ruiyang and Ji, Jiaming and Xu, Xinbo and Liu, Mickel and Wang, Yizhou and Yang, Yaodong",
+      "title": "Safe rlhf: Safe reinforcement learning from human feedback",
+      "ENTRYTYPE": "article",
+      "ID": "dai2023safe"
+    },
+    {
+      "year": "2019",
+      "volume": "32",
+      "journal": "Advances in neural information processing systems",
+      "author": "Arora, Sanjeev and Du, Simon S and Hu, Wei and Li, Zhiyuan and Salakhutdinov, Russ R and Wang, Ruosong",
+      "title": "On exact computation with an infinitely wide neural net",
+      "ENTRYTYPE": "article",
+      "ID": "arora2019exact"
+    },
+    {
+      "year": "2019",
+      "volume": "32",
+      "journal": "Advances in neural information processing systems",
+      "author": "Goldt, Sebastian and Advani, Madhu and Saxe, Andrew M and Krzakala, Florent and Zdeborov{\\'a}, Lenka",
+      "title": "Dynamics of stochastic gradient descent for two-layer neural networks in the teacher-student setup",
+      "ENTRYTYPE": "article",
+      "ID": "goldt2019dynamics"
+    },
+    {
+      "year": "2023",
+      "booktitle": "Thirty-seventh Conference on Neural Information Processing Systems",
+      "author": "Wang, Yuanhao and Liu, Qinghua and Jin, Chi",
+      "title": "Is RLHF More Difficult than Standard RL? A Theoretical Perspective",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "wang2023rlhf"
+    },
+    {
+      "publisher": "AAAS",
+      "year": "2023",
+      "pages": "0024",
+      "volume": "6",
+      "journal": "Research",
+      "author": "Xu, Mengjia and Rangamani, Akshay and Liao, Qianli and Galanti, Tomer and Poggio, Tomaso",
+      "title": "Dynamics in deep classifiers trained with the square loss: Normalization, low rank, neural collapse, and generalization bounds",
+      "ENTRYTYPE": "article",
+      "ID": "xu2023dynamics"
+    },
+    {
+      "year": "2021",
+      "journal": "arXiv preprint arXiv:2106.09685",
+      "author": "Hu, Edward J and Shen, Yelong and Wallis, Phillip and Allen-Zhu, Zeyuan and Li, Yuanzhi and Wang, Shean and Wang, Lu and Chen, Weizhu",
+      "title": "Lora: Low-rank adaptation of large language models",
+      "ENTRYTYPE": "article",
+      "ID": "hu2021lora"
+    },
+    {
+      "year": "2019",
+      "volume": "32",
+      "journal": "Advances in neural information processing systems",
+      "author": "Allen-Zhu, Zeyuan and Li, Yuanzhi and Liang, Yingyu",
+      "title": "Learning and generalization in overparameterized neural networks, going beyond two layers",
+      "ENTRYTYPE": "article",
+      "ID": "allen2019learning"
+    },
+    {
+      "year": "2020",
+      "pages": "3349--3356",
+      "volume": "34",
+      "booktitle": "Proceedings of the AAAI Conference on Artificial Intelligence",
+      "author": "Cao, Yuan and Gu, Quanquan",
+      "title": "Generalization error bounds of gradient descent for learning over-parameterized deep relu networks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "cao2020generalization"
+    },
+    {
+      "year": "2022",
+      "pages": "23479--23494",
+      "volume": "35",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Subramanian, Vignesh and Arya, Rahul and Sahai, Anant",
+      "title": "Generalization for multiclass classification with overparameterized linear models",
+      "ENTRYTYPE": "article",
+      "ID": "subramanian2022generalization"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2019",
+      "pages": "322--332",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Arora, Sanjeev and Du, Simon and Hu, Wei and Li, Zhiyuan and Wang, Ruosong",
+      "title": "Fine-grained analysis of optimization and generalization for overparameterized two-layer neural networks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "arora2019fine"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2018",
+      "pages": "254--263",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Arora, Sanjeev and Ge, Rong and Neyshabur, Behnam and Zhang, Yi",
+      "title": "Stronger generalization bounds for deep nets via a compression approach",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "arora2018stronger"
+    },
+    {
+      "year": "2022",
+      "pages": "31459--31473",
+      "volume": "35",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Lotfi, Sanae and Finzi, Marc and Kapoor, Sanyam and Potapczynski, Andres and Goldblum, Micah and Wilson, Andrew G",
+      "title": "Pac-bayes compression bounds so tight that they can explain generalization",
+      "ENTRYTYPE": "article",
+      "ID": "lotfi2022pac"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2312.17173",
+      "author": "Lotfi, Sanae and Finzi, Marc and Kuang, Yilun and Rudner, Tim GJ and Goldblum, Micah and Wilson, Andrew Gordon",
+      "title": "Non-vacuous generalization bounds for large language models",
+      "ENTRYTYPE": "article",
+      "ID": "lotfi2023non"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2310.05199",
+      "author": "Shen, Wei and Zheng, Rui and Zhan, Wenyu and Zhao, Jun and Dou, Shihan and Gui, Tao and Zhang, Qi and Huang, Xuanjing",
+      "title": "Loose lips sink ships: Mitigating length bias in reinforcement learning from human feedback",
+      "ENTRYTYPE": "article",
+      "ID": "shen2023loose"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2403.19159",
+      "author": "Park, Ryan and Rafailov, Rafael and Ermon, Stefano and Finn, Chelsea",
+      "title": "Disentangling length from quality in direct preference optimization",
+      "ENTRYTYPE": "article",
+      "ID": "park2024disentangling"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2402.13228",
+      "author": "Pal, Arka and Karkhanis, Deep and Dooley, Samuel and Roberts, Manley and Naidu, Siddartha and White, Colin",
+      "title": "Smaug: Fixing Failure Modes of Preference Optimisation with DPO-Positive",
+      "ENTRYTYPE": "article",
+      "ID": "pal2024smaug"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2404.12358",
+      "author": "Rafailov, Rafael and Hejna, Joey and Park, Ryan and Finn, Chelsea",
+      "title": "From $ r $ to $ Q* $: Your Language Model is Secretly a Q-Function",
+      "ENTRYTYPE": "article",
+      "ID": "rafailov2024r"
+    },
+    {
+      "year": "2022",
+      "pages": "38516--38532",
+      "volume": "35",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Izmailov, Pavel and Kirichenko, Polina and Gruver, Nate and Wilson, Andrew G",
+      "title": "On feature learning in the presence of spurious correlations",
+      "ENTRYTYPE": "article",
+      "ID": "izmailov2022feature"
+    },
+    {
+      "year": "2020",
+      "pages": "5850--5861",
+      "volume": "33",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Fort, Stanislav and Dziugaite, Gintare Karolina and Paul, Mansheej and Kharaghani, Sepideh and Roy, Daniel M and Ganguli, Surya",
+      "title": "Deep learning versus kernel learning: an empirical study of loss landscape geometry and the time evolution of the neural tangent kernel",
+      "ENTRYTYPE": "article",
+      "ID": "fort2020deep"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2021",
+      "pages": "11727--11737",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Yang, Greg and Hu, Edward J",
+      "title": "Tensor programs iv: Feature learning in infinite-width neural networks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "yang2021tensor"
+    },
+    {
+      "year": "2020",
+      "pages": "2970--2979",
+      "booktitle": "Proceedings of the IEEE/CVF conference on computer vision and pattern recognition",
+      "author": "Liu, Jialun and Sun, Yifan and Han, Chuchu and Dou, Zhaopeng and Li, Wenhui",
+      "title": "Deep representation learning on long-tailed data: A learnable embedding augmentation perspective",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "liu2020deep"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2209.14863",
+      "author": "Mousavi-Hosseini, Alireza and Park, Sejun and Girotti, Manuela and Mitliagkas, Ioannis and Erdogdu, Murat A",
+      "title": "Neural networks efficiently learn low-dimensional representations with sgd",
+      "ENTRYTYPE": "article",
+      "ID": "mousavi2022neural"
+    },
+    {
+      "year": "2020",
+      "journal": "arXiv preprint arXiv:2012.13255",
+      "author": "Aghajanyan, Armen and Zettlemoyer, Luke and Gupta, Sonal",
+      "title": "Intrinsic dimensionality explains the effectiveness of language model fine-tuning",
+      "ENTRYTYPE": "article",
+      "ID": "aghajanyan2020intrinsic"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2202.10054",
+      "author": "Kumar, Ananya and Raghunathan, Aditi and Jones, Robbie and Ma, Tengyu and Liang, Percy",
+      "title": "Fine-tuning can distort pretrained features and underperform out-of-distribution",
+      "ENTRYTYPE": "article",
+      "ID": "kumar2022fine"
+    },
+    {
+      "year": "2023",
+      "pages": "71911--71947",
+      "volume": "36",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Tian, Yuandong and Wang, Yiping and Chen, Beidi and Du, Simon S",
+      "title": "Scan and snap: Understanding training dynamics and token composition in 1-layer transformer",
+      "ENTRYTYPE": "article",
+      "ID": "tian2023scan"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2019",
+      "pages": "162--183",
+      "booktitle": "Algorithmic Learning Theory",
+      "author": "Attias, Idan and Kontorovich, Aryeh and Mansour, Yishay",
+      "title": "Improved generalization bounds for robust learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "attias2019improved"
+    },
+    {
+      "year": "2017",
+      "journal": "arXiv preprint arXiv:1703.11008",
+      "author": "Dziugaite, Gintare Karolina and Roy, Daniel M",
+      "title": "Computing nonvacuous generalization bounds for deep (stochastic) neural networks with many more parameters than training data",
+      "ENTRYTYPE": "article",
+      "ID": "dziugaite2017computing"
+    },
+    {
+      "year": "2020",
+      "journal": "arXiv preprint arXiv:2012.04115",
+      "author": "Valle-P{\\'e}rez, Guillermo and Louis, Ard A",
+      "title": "Generalization bounds for deep learning",
+      "ENTRYTYPE": "article",
+      "ID": "valle2020generalization"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "2019",
+      "pages": "2995--3021",
+      "number": "5",
+      "volume": "65",
+      "journal": "IEEE Transactions on Information Theory",
+      "author": "Lei, Yunwen and Dogan, {\\\"U}r{\\\"u}n and Zhou, Ding-Xuan and Kloft, Marius",
+      "title": "Data-dependent generalization bounds for multi-class classification",
+      "ENTRYTYPE": "article",
+      "ID": "lei2019data"
+    },
+    {
+      "year": "2024",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Shawn Im and Yixuan Li",
+      "title": "Understanding the Learning Dynamics of Alignment with Human Feedback",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "im2024understanding"
+    },
+    {
+      "year": "2024",
+      "journal": "International Conference on Learning Representations",
+      "author": "Liu, Tianqi and Zhao, Yao and Joshi, Rishabh and Khalman, Misha and Saleh, Mohammad and Liu, Peter J and Liu, Jialu",
+      "title": "Statistical rejection sampling improves preference optimization",
+      "ENTRYTYPE": "article",
+      "ID": "liu2023statistical"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2402.01306",
+      "author": "Ethayarajh, Kawin and Xu, Winnie and Muennighoff, Niklas and Jurafsky, Dan and Kiela, Douwe",
+      "title": "Kto: Model alignment as prospect theoretic optimization",
+      "ENTRYTYPE": "article",
+      "ID": "ethayarajh2024kto"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2312.11456",
+      "author": "Xiong, Wei and Dong, Hanze and Ye, Chenlu and Zhong, Han and Jiang, Nan and Zhang, Tong",
+      "title": "Gibbs sampling from human feedback: A provable kl-constrained framework for rlhf",
+      "ENTRYTYPE": "article",
+      "ID": "xiong2023gibbs"
+    },
+    {
+      "howpublished": "\\url{https://github.com/huggingface/trl}",
+      "journal": "GitHub repository",
+      "publisher": "GitHub",
+      "year": "2020",
+      "title": "TRL: Transformer Reinforcement Learning",
+      "author": "Leandro von Werra and Younes Belkada and Lewis Tunstall and Edward Beeching and Tristan Thrush and Nathan Lambert and Shengyi Huang",
+      "ENTRYTYPE": "misc",
+      "ID": "vonwerra2022trl"
+    },
+    {
+      "pages": "38--45",
+      "url": "https://www.aclweb.org/anthology/2020.emnlp-demos.6",
+      "publisher": "Association for Computational Linguistics",
+      "address": "Online",
+      "year": "2020",
+      "month": "October",
+      "booktitle": "Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing: System Demonstrations",
+      "author": "Thomas Wolf and Lysandre Debut and Victor Sanh and Julien Chaumond and Clement Delangue and Anthony Moi and Pierric Cistac and Tim Rault and Rémi Louf and Morgan Funtowicz and Joe Davison and Sam Shleifer and Patrick von Platen and Clara Ma and Yacine Jernite and Julien Plu and Canwen Xu and Teven Le Scao and Sylvain Gugger and Mariama Drame and Quentin Lhoest and Alexander M. Rush",
+      "title": "Transformers: State-of-the-Art Natural Language Processing",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "wolf-etal-2020-transformers"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2402.05749",
+      "author": "Tang, Yunhao and Guo, Zhaohan Daniel and Zheng, Zeyu and Calandriello, Daniele and Munos, R{\\'e}mi and Rowland, Mark and Richemond, Pierre Harvey and Valko, Michal and Pires, Bernardo {\\'A}vila and Piot, Bilal",
+      "title": "Generalized Preference Optimization: A Unified Approach to Offline Alignment",
+      "ENTRYTYPE": "article",
+      "ID": "tang2024generalized"
+    },
+    {
+      "publisher": "Cambridge university press",
+      "year": "2019",
+      "volume": "48",
+      "author": "Wainwright, Martin J",
+      "title": "High-dimensional statistics: A non-asymptotic viewpoint",
+      "ENTRYTYPE": "book",
+      "ID": "wainwright2019high"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2405.14734",
+      "author": "Meng, Yu and Xia, Mengzhou and Chen, Danqi",
+      "title": "Simpo: Simple preference optimization with a reference-free reward",
+      "ENTRYTYPE": "article",
+      "ID": "meng2024simpo"
+    },
+    {
+      "pdf": "https://raw.githubusercontent.com/mlresearch/v235/main/assets/ethayarajh24a/ethayarajh24a.pdf",
+      "publisher": "PMLR",
+      "month": "21--27 Jul",
+      "series": "Proceedings of Machine Learning Research",
+      "volume": "235",
+      "editor": "Salakhutdinov, Ruslan and Kolter, Zico and Heller, Katherine and Weller, Adrian and Oliver, Nuria and Scarlett, Jonathan and Berkenkamp, Felix",
+      "year": "2024",
+      "pages": "12634--12651",
+      "booktitle": "Proceedings of the 41st International Conference on Machine Learning",
+      "author": "Ethayarajh, Kawin and Xu, Winnie and Muennighoff, Niklas and Jurafsky, Dan and Kiela, Douwe",
+      "title": "Model Alignment as Prospect Theoretic Optimization",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "pmlr-v235-ethayarajh24a"
+    },
+    {
+      "pdf": "https://raw.githubusercontent.com/mlresearch/v235/main/assets/zeng24c/zeng24c.pdf",
+      "publisher": "PMLR",
+      "month": "21--27 Jul",
+      "series": "Proceedings of Machine Learning Research",
+      "volume": "235",
+      "editor": "Salakhutdinov, Ruslan and Kolter, Zico and Heller, Katherine and Weller, Adrian and Oliver, Nuria and Scarlett, Jonathan and Berkenkamp, Felix",
+      "year": "2024",
+      "pages": "58348--58365",
+      "booktitle": "Proceedings of the 41st International Conference on Machine Learning",
+      "author": "Zeng, Yongcheng and Liu, Guoqing and Ma, Weiyu and Yang, Ning and Zhang, Haifeng and Wang, Jun",
+      "title": "Token-level Direct Preference Optimization",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "pmlr-v235-zeng24c"
+    },
+    {
+      "pdf": "https://raw.githubusercontent.com/mlresearch/v235/main/assets/calandriello24a/calandriello24a.pdf",
+      "publisher": "PMLR",
+      "month": "21--27 Jul",
+      "series": "Proceedings of Machine Learning Research",
+      "volume": "235",
+      "editor": "Salakhutdinov, Ruslan and Kolter, Zico and Heller, Katherine and Weller, Adrian and Oliver, Nuria and Scarlett, Jonathan and Berkenkamp, Felix",
+      "year": "2024",
+      "pages": "5409--5435",
+      "booktitle": "Proceedings of the 41st International Conference on Machine Learning",
+      "author": "Calandriello, Daniele and Guo, Zhaohan Daniel and Munos, Remi and Rowland, Mark and Tang, Yunhao and Avila Pires, Bernardo and Richemond, Pierre Harvey and Le Lan, Charline and Valko, Michal and Liu, Tianqi and Joshi, Rishabh and Zheng, Zeyu and Piot, Bilal",
+      "title": "Human Alignment of Large Language Models through Online Preference Optimisation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "pmlr-v235-calandriello24a"
+    },
+    {
+      "pdf": "https://raw.githubusercontent.com/mlresearch/v235/main/assets/muldrew24a/muldrew24a.pdf",
+      "publisher": "PMLR",
+      "month": "21--27 Jul",
+      "series": "Proceedings of Machine Learning Research",
+      "volume": "235",
+      "editor": "Salakhutdinov, Ruslan and Kolter, Zico and Heller, Katherine and Weller, Adrian and Oliver, Nuria and Scarlett, Jonathan and Berkenkamp, Felix",
+      "year": "2024",
+      "pages": "36577--36590",
+      "booktitle": "Proceedings of the 41st International Conference on Machine Learning",
+      "author": "Muldrew, William and Hayes, Peter and Zhang, Mingtian and Barber, David",
+      "title": "Active Preference Learning for Large Language Models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "pmlr-v235-muldrew24a"
+    },
+    {
+      "pdf": "https://raw.githubusercontent.com/mlresearch/v235/main/assets/ray-chowdhury24a/ray-chowdhury24a.pdf",
+      "publisher": "PMLR",
+      "month": "21--27 Jul",
+      "series": "Proceedings of Machine Learning Research",
+      "volume": "235",
+      "editor": "Salakhutdinov, Ruslan and Kolter, Zico and Heller, Katherine and Weller, Adrian and Oliver, Nuria and Scarlett, Jonathan and Berkenkamp, Felix",
+      "year": "2024",
+      "pages": "42258--42274",
+      "booktitle": "Proceedings of the 41st International Conference on Machine Learning",
+      "author": "Ray Chowdhury, Sayak and Kini, Anush and Natarajan, Nagarajan",
+      "title": "Provably Robust {DPO}: Aligning Language Models with Noisy Feedback",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "pmlr-v235-ray-chowdhury24a"
+    },
+    {
+      "pdf": "https://raw.githubusercontent.com/mlresearch/v235/main/assets/tajwar24a/tajwar24a.pdf",
+      "publisher": "PMLR",
+      "month": "21--27 Jul",
+      "series": "Proceedings of Machine Learning Research",
+      "volume": "235",
+      "editor": "Salakhutdinov, Ruslan and Kolter, Zico and Heller, Katherine and Weller, Adrian and Oliver, Nuria and Scarlett, Jonathan and Berkenkamp, Felix",
+      "year": "2024",
+      "pages": "47441--47474",
+      "booktitle": "Proceedings of the 41st International Conference on Machine Learning",
+      "author": "Tajwar, Fahim and Singh, Anikait and Sharma, Archit and Rafailov, Rafael and Schneider, Jeff and Xie, Tengyang and Ermon, Stefano and Finn, Chelsea and Kumar, Aviral",
+      "title": "Preference Fine-Tuning of {LLM}s Should Leverage Suboptimal, On-Policy Data",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "pmlr-v235-tajwar24a"
+    },
+    {
+      "pdf": "https://raw.githubusercontent.com/mlresearch/v235/main/assets/nika24a/nika24a.pdf",
+      "publisher": "PMLR",
+      "month": "21--27 Jul",
+      "series": "Proceedings of Machine Learning Research",
+      "volume": "235",
+      "editor": "Salakhutdinov, Ruslan and Kolter, Zico and Heller, Katherine and Weller, Adrian and Oliver, Nuria and Scarlett, Jonathan and Berkenkamp, Felix",
+      "year": "2024",
+      "pages": "38145--38186",
+      "booktitle": "Proceedings of the 41st International Conference on Machine Learning",
+      "author": "Nika, Andi and Mandal, Debmalya and Kamalaruban, Parameswaran and Tzannetos, Georgios and Radanovic, Goran and Singla, Adish",
+      "title": "Reward Model Learning vs. Direct Policy Optimization: A Comparative Analysis of Learning from Human Preferences",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "pmlr-v235-nika24a"
+    },
+    {
+      "pdf": "https://raw.githubusercontent.com/mlresearch/v235/main/assets/xu24h/xu24h.pdf",
+      "publisher": "PMLR",
+      "month": "21--27 Jul",
+      "series": "Proceedings of Machine Learning Research",
+      "volume": "235",
+      "editor": "Salakhutdinov, Ruslan and Kolter, Zico and Heller, Katherine and Weller, Adrian and Oliver, Nuria and Scarlett, Jonathan and Berkenkamp, Felix",
+      "year": "2024",
+      "pages": "54983--54998",
+      "booktitle": "Proceedings of the 41st International Conference on Machine Learning",
+      "author": "Xu, Shusheng and Fu, Wei and Gao, Jiaxuan and Ye, Wenjie and Liu, Weilin and Mei, Zhiyu and Wang, Guangju and Yu, Chao and Wu, Yi",
+      "title": "Is {DPO} Superior to {PPO} for {LLM} Alignment? {A} Comprehensive Study",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "pmlr-v235-xu24h"
+    },
+    {
+      "pdf": "https://raw.githubusercontent.com/mlresearch/v235/main/assets/liu24r/liu24r.pdf",
+      "publisher": "PMLR",
+      "month": "21--27 Jul",
+      "series": "Proceedings of Machine Learning Research",
+      "volume": "235",
+      "editor": "Salakhutdinov, Ruslan and Kolter, Zico and Heller, Katherine and Weller, Adrian and Oliver, Nuria and Scarlett, Jonathan and Berkenkamp, Felix",
+      "year": "2024",
+      "pages": "31015--31031",
+      "booktitle": "Proceedings of the 41st International Conference on Machine Learning",
+      "author": "Liu, Tianlin and Guo, Shangmin and Bianco, Leonardo and Calandriello, Daniele and Berthet, Quentin and Llinares-L\\'{o}pez, Felipe and Hoffmann, Jessica and Dixon, Lucas and Valko, Michal and Blondel, Mathieu",
+      "title": "Decoding-time Realignment of Language Models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "pmlr-v235-liu24r"
+    },
+    {
+      "year": "2024",
+      "booktitle": "Forty-first International Conference on Machine Learning",
+      "author": "Xiong, Wei and Dong, Hanze and Ye, Chenlu and Wang, Ziqi and Zhong, Han and Ji, Heng and Jiang, Nan and Zhang, Tong",
+      "title": "Iterative preference learning from human feedback: Bridging theory and practice for rlhf under kl-constraint",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "xiong2024iterative"
+    },
+    {
+      "year": "2024",
+      "booktitle": "Forty-first International Conference on Machine Learning",
+      "author": "Gao, Songyang and Ge, Qiming and Shen, Wei and Dou, Shihan and Ye, Junjie and Wang, Xiao and Zheng, Rui and Zou, Yicheng and Chen, Zhi and Yan, Hang and others",
+      "title": "Linear Alignment: A Closed-form Solution for Aligning Human Preferences without Tuning and Feedback",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "gaolinear"
+    },
+    {
+      "year": "2024",
+      "booktitle": "Forty-first International Conference on Machine Learning",
+      "author": "Yang, Rui and Pan, Xiaoman and Luo, Feng and Qiu, Shuang and Zhong, Han and Yu, Dong and Chen, Jianshu",
+      "title": "Rewards-in-Context: Multi-objective Alignment of Foundation Models with Dynamic Preference Adjustment",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "yangrewards"
+    },
+    {
+      "year": "2024",
+      "booktitle": "Forty-first International Conference on Machine Learning",
+      "author": "Chakraborty, Souradip and Qiu, Jiahao and Yuan, Hui and Koppel, Alec and Manocha, Dinesh and Huang, Furong and Bedi, Amrit and Wang, Mengdi",
+      "title": "MaxMin-RLHF: Alignment with Diverse Human Preferences",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "chakrabortymaxmin"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2016",
+      "pages": "1225--1234",
+      "booktitle": "International conference on machine learning",
+      "author": "Hardt, Moritz and Recht, Ben and Singer, Yoram",
+      "title": "Train faster, generalize better: Stability of stochastic gradient descent",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "hardt2016train"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2017",
+      "pages": "2159--2167",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Liu, Tongliang and Lugosi, G{\\'a}bor and Neu, Gergely and Tao, Dacheng",
+      "title": "Algorithmic stability and hypothesis complexity",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "liu2017algorithmic"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2022",
+      "pages": "3773--3793",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Chen, Xiaoyu and Zhong, Han and Yang, Zhuoran and Wang, Zhaoran and Wang, Liwei",
+      "title": "Human-in-the-loop: Provably efficient preference-based reinforcement learning with general function approximation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "chen2022human"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2023",
+      "pages": "43037--43067",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Zhu, Banghua and Jordan, Michael and Jiao, Jiantao",
+      "title": "Principled reinforcement learning with human feedback from pairwise or k-wise comparisons",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zhu2023principled"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2407.21783",
+      "author": "Dubey, Abhimanyu and Jauhri, Abhinav and Pandey, Abhinav and Kadian, Abhishek and Al-Dahle, Ahmad and Letman, Aiesha and Mathur, Akhil and Schelten, Alan and Yang, Amy and Fan, Angela and others",
+      "title": "The llama 3 herd of models",
+      "ENTRYTYPE": "article",
+      "ID": "dubey2024llama"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2402.05070",
+      "author": "Sorensen, Taylor and Moore, Jared and Fisher, Jillian and Gordon, Mitchell and Mireshghallah, Niloofar and Rytting, Christopher Michael and Ye, Andre and Jiang, Liwei and Lu, Ximing and Dziri, Nouha and others",
+      "title": "A roadmap to pluralistic alignment",
+      "ENTRYTYPE": "article",
+      "ID": "sorensen2024roadmap"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2306.16388",
+      "author": "Durmus, Esin and Nguyen, Karina and Liao, Thomas I and Schiefer, Nicholas and Askell, Amanda and Bakhtin, Anton and Chen, Carol and Hatfield-Dodds, Zac and Hernandez, Danny and Joseph, Nicholas and others",
+      "title": "Towards measuring the representation of subjective global opinions in language models",
+      "ENTRYTYPE": "article",
+      "ID": "durmus2023towards"
+    },
+    {
+      "year": "2025",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Min-Hsuan Yeh and Jeffrey Wang and Xuefeng Du and Seongheon Park and Leitian Tao and Shawn Im and Yixuan Li",
+      "title": "Position: Challenges and Future Directions of Data-Centric AI Alignment",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "yeh2025challenges"
+    },
+    {
+      "year": "2025",
+      "booktitle": "Proceedings of the International Conference on Learning Representations",
+      "author": "Leitian Tao and Yixuan Li",
+      "title": "Your Weak LLM is Secretly a Strong Teacher for Alignment",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "tao2025weaktostrong"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2210.00045",
+      "author": "Zhao, Yao and Khalman, Misha and Joshi, Rishabh and Narayan, Shashi and Saleh, Mohammad and Liu, Peter J",
+      "title": "Calibrating sequence likelihood improves conditional language generation",
+      "ENTRYTYPE": "article",
+      "ID": "zhao2022calibrating"
+    },
+    {
+      "publisher": "Pantheon Books",
+      "year": "2012",
+      "author": "Haidt, Jonathan",
+      "title": "The Righteous Mind: Why Good People are Divided by Politics and Religion",
+      "ENTRYTYPE": "book",
+      "ID": "haidt2012righteous"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "1992",
+      "pages": "1--65",
+      "volume": "25",
+      "journal": "Advances in Experimental Social Psychology",
+      "author": "Schwartz, Shalom H",
+      "title": "Universals in the content and structure of values: Theoretical advances and empirical tests in 20 countries",
+      "ENTRYTYPE": "article",
+      "ID": "schwartz1992universals"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2410.13828",
+      "author": "Yuan, Hui and Zeng, Yifan and Wu, Yue and Wang, Huazheng and Wang, Mengdi and Leqi, Liu",
+      "title": "A Common Pitfall of Margin-based Language Model Alignment: Gradient Entanglement",
+      "ENTRYTYPE": "article",
+      "ID": "yuan2024common"
+    },
+    {
+      "year": "2024",
+      "pages": "101928--101968",
+      "volume": "37",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Chen, Angelica and Malladi, Sadhika and Zhang, Lily and Chen, Xinyi and Zhang, Qiuyi Richard and Ranganath, Rajesh and Cho, Kyunghyun",
+      "title": "Preference learning algorithms do not learn preference rankings",
+      "ENTRYTYPE": "article",
+      "ID": "chen2024preference"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2410.08847",
+      "author": "Razin, Noam and Malladi, Sadhika and Bhaskar, Adithya and Chen, Danqi and Arora, Sanjeev and Hanin, Boris",
+      "title": "Unintentional unalignment: Likelihood displacement in direct preference optimization",
+      "ENTRYTYPE": "article",
+      "ID": "razin2024unintentional"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2405.16964",
+      "author": "Yan, Yuzi and Li, Jialian and Zhang, Yipin and Yan, Dong",
+      "title": "Exploring the LLM journey from cognition to expression with linear representations",
+      "ENTRYTYPE": "article",
+      "ID": "yan2024exploring"
+    },
+    {
+      "year": "2024",
+      "pages": "70793--70827",
+      "volume": "37",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Pitis, Silviu and Xiao, Ziang and Le Roux, Nicolas and Sordoni, Alessandro",
+      "title": "Improving context-aware preference modeling for language models",
+      "ENTRYTYPE": "article",
+      "ID": "pitis2024improving"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2406.08469",
+      "author": "Chen, Daiwei and Chen, Yi and Rege, Aniket and Vinayak, Ramya Korlakai",
+      "title": "Pal: Pluralistic alignment framework for learning from heterogeneous preferences",
+      "ENTRYTYPE": "article",
+      "ID": "chen2024pal"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2503.06358",
+      "author": "Shenfeld, Idan and Faltings, Felix and Agrawal, Pulkit and Pacchiano, Aldo",
+      "title": "Language model personalization via reward factorization",
+      "ENTRYTYPE": "article",
+      "ID": "shenfeld2025language"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2503.08796",
+      "author": "Son, Seongho and Bankes, William and Yoon, Sangwoong and Ramesh, Shyam Sundhar and Tang, Xiaohang and Bogunovic, Ilija",
+      "title": "Robust Multi-Objective Controlled Decoding of Large Language Models",
+      "ENTRYTYPE": "article",
+      "ID": "son2025robust"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2502.16320",
+      "author": "Shirali, Ali and Nasr-Esfahany, Arash and Alomar, Abdullah and Mirtaheri, Parsa and Abebe, Rediet and Procaccia, Ariel",
+      "title": "Direct Alignment with Heterogeneous Preferences",
+      "ENTRYTYPE": "article",
+      "ID": "shirali2025direct"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2502.15145",
+      "author": "Xiong, Nuoya and Singh, Aarti",
+      "title": "Projection Optimization: A General Framework for Multi-Objective and Multi-Group RLHF",
+      "ENTRYTYPE": "article",
+      "ID": "xiong2025projection"
+    }
+  ]
+}

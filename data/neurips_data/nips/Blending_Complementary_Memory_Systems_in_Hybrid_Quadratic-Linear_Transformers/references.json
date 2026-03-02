@@ -1,0 +1,4402 @@
+{
+  "pdf_url": "https://arxiv.org/pdf/2506.00744v2.pdf",
+  "references": [
+    {
+      "year": "2015",
+      "title": "Neural machine translation by jointly learning to\nalign and translate",
+      "month": "May",
+      "booktitle": "Int. Conf. on Learning Representations (ICLR)",
+      "author": "Bahdanau, Dzmitry and Cho, Kyunghyun and\nBengio, Yoshua",
+      "address": "San Diego, {CA}, {USA}",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "bahdanau2014neural"
+    },
+    {
+      "publisher": "Morgan Kaufmann",
+      "address": "Stanford, CA",
+      "booktitle": "Proceedings of the 17th International Conference\non Machine Learning (ICML 2000)",
+      "editor": "Pat Langley",
+      "pages": "1207--1216",
+      "year": "2000",
+      "title": "Crafting Papers on Machine Learning",
+      "author": "P. Langley",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "langley00"
+    },
+    {
+      "address": "New Brunswick, MA",
+      "year": "1980",
+      "institution": "Computer Science Department, Rutgers University",
+      "title": "The Need for Biases in Learning Generalizations",
+      "author": "T. M. Mitchell",
+      "ENTRYTYPE": "techreport",
+      "ID": "mitchell80"
+    },
+    {
+      "year": "1989",
+      "school": "Department of Computer Science, Harvard University",
+      "title": "Computational Complexity of Machine Learning",
+      "author": "M. J. Kearns",
+      "ENTRYTYPE": "phdthesis",
+      "ID": "kearns89"
+    },
+    {
+      "address": "Palo Alto, CA",
+      "year": "1983",
+      "publisher": "Tioga",
+      "title": "Machine Learning: An Artificial Intelligence\nApproach, Vol. I",
+      "editor": "R. S. Michalski and J. G. Carbonell and T.\nM. Mitchell",
+      "ENTRYTYPE": "book",
+      "ID": "MachineLearningI"
+    },
+    {
+      "year": "2000",
+      "edition": "2nd",
+      "publisher": "John Wiley and Sons",
+      "title": "Pattern Classification",
+      "author": "R. O. Duda and P. E. Hart and D. G. Stork",
+      "ENTRYTYPE": "book",
+      "ID": "DudaHart2nd"
+    },
+    {
+      "year": "2020",
+      "author": "Author, N. N.",
+      "title": "Suppressed for Anonymity",
+      "ENTRYTYPE": "misc",
+      "ID": "anonymous"
+    },
+    {
+      "address": "Hillsdale, NJ",
+      "chapter": "1",
+      "editor": "J. R. Anderson",
+      "year": "1981",
+      "publisher": "Lawrence Erlbaum Associates, Inc.",
+      "pages": "1--51",
+      "booktitle": "Cognitive Skills and Their Acquisition",
+      "title": "Mechanisms of Skill Acquisition and the Law of\nPractice",
+      "author": "A. Newell and P. S. Rosenbloom",
+      "ENTRYTYPE": "incollection",
+      "ID": "Newell81"
+    },
+    {
+      "pages": "211--229",
+      "number": "3",
+      "volume": "3",
+      "year": "1959",
+      "journal": "IBM Journal of Research and Development",
+      "title": "Some Studies in Machine Learning Using the Game of\nCheckers",
+      "author": "A. L. Samuel",
+      "ENTRYTYPE": "article",
+      "ID": "Samuel59"
+    },
+    {
+      "year": "2020",
+      "month": "July",
+      "address": "Virtual only",
+      "booktitle": "Proc. Int. Conf. on Machine Learning (ICML)",
+      "author": "Katharopoulos, Angelos and Vyas, Apoorv and Pappas, Nikolaos and Fleuret, Fran{\\c{c}}ois",
+      "title": "Transformers are {RNN}s: Fast autoregressive transformers with linear attention",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "katharopoulos2020transformers"
+    },
+    {
+      "year": "2016",
+      "address": "Barcelona, Spain",
+      "month": "December",
+      "pages": "4331--4339",
+      "booktitle": "Proc. Advances in Neural Information Processing Systems (NIPS)",
+      "author": "Ba, Jimmy and Hinton, Geoffrey E and Mnih, Volodymyr and Leibo, Joel Z and Ionescu, Catalin",
+      "title": "Using fast weights to attend to the recent past",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ba2016using"
+    },
+    {
+      "year": "2017",
+      "title": "Attention is All you Need",
+      "pages": "5998--6008",
+      "month": "December",
+      "booktitle": "Proc. Advances in Neural Information Processing Systems (NIPS)",
+      "author": "Vaswani, Ashish and Shazeer, Noam and Parmar, Niki and\nUszkoreit, Jakob and Jones, Llion and Gomez, Aidan N and\nKaiser, {\\L}ukasz and Polosukhin, Illia",
+      "address": "Long Beach, {CA}, {USA}",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "trafo"
+    },
+    {
+      "year": "1987",
+      "month": "July",
+      "address": "Seatle, WA, USA",
+      "pages": "177--186",
+      "booktitle": "Proc. Conf. of Cognitive Science Society",
+      "author": "Hinton, Geoffrey E and Plaut, David C",
+      "title": "Using fast weights to deblur old memories",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "hinton1987using"
+    },
+    {
+      "month": "September",
+      "address": "Amsterdam, Netherlands",
+      "year": "1993",
+      "pages": "460--463",
+      "booktitle": "International Conference on Artificial Neural Networks (ICANN)",
+      "author": "Schmidhuber, J{\\\"u}rgen",
+      "title": "Reducing the ratio between learning complexity and number of time varying variables in fully recurrent nets",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "schmidhuber1993reducing"
+    },
+    {
+      "year": "1992",
+      "pages": "131--139",
+      "number": "1",
+      "volume": "4",
+      "journal": "Neural Computation",
+      "author": "Schmidhuber, J{\\\"u}rgen",
+      "title": "Learning to control fast-weight memories: An alternative to dynamic recurrent networks",
+      "ENTRYTYPE": "article",
+      "ID": "schmidhuber1992learning"
+    },
+    {
+      "year": "1981",
+      "howpublished": "Internal Report 81-2, Goettingen: Department of Neurobiology, Max Planck Intitute for Biophysical Chemistry",
+      "author": "von der Malsburg, Christoph",
+      "title": "The correlation theory of brain function",
+      "ENTRYTYPE": "misc",
+      "ID": "von1981correlation"
+    },
+    {
+      "year": "2025",
+      "journal": "Preprint arXiv:2503.14376",
+      "author": "Beck, Maximilian and P{\\\"o}ppel, Korbinian and Lippe, Phillip and Hochreiter, Sepp",
+      "title": "Tiled Flash Linear Attention: More Efficient Linear RNN and xLSTM Kernels",
+      "ENTRYTYPE": "article",
+      "ID": "beck2025tiled"
+    },
+    {
+      "year": "2017",
+      "month": "December",
+      "address": "Long Beach, CA, USA",
+      "booktitle": "NIPS Metalearning Workshop",
+      "author": "Schlag, Imanol and Schmidhuber, J{\\\"u}rgen",
+      "title": "Gated fast weights for on-the-fly neural program generation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "schlag2017gated"
+    },
+    {
+      "year": "2019",
+      "month": "May",
+      "address": "New Orleans, LA, USA",
+      "booktitle": "Int. Conf. on Learning Representations (ICLR)",
+      "author": "David Saxton and Edward Grefenstette and Felix Hill and Pushmeet Kohli",
+      "title": "Analysing Mathematical Reasoning Abilities of Neural Models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "saxton2018analysing"
+    },
+    {
+      "year": "2025",
+      "month": "April",
+      "address": "Vancouver, Canada",
+      "booktitle": "Int. Conf. on Learning Representations (ICLR)",
+      "author": "Grazzi, Riccardo and Siems, Julien and Franke, J{\\\"o}rg KH and Zela, Arber and Hutter, Frank and Pontil, Massimiliano",
+      "title": "Unlocking state-tracking in linear {RNN}s through negative eigenvalues",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "grazzi2024unlocking"
+    },
+    {
+      "year": "2024",
+      "journal": "Preprint arXiv:2402.19427",
+      "author": "De, Soham and Smith, Samuel L and Fernando, Anushan and Botev, Aleksandar and Cristian-Muraru, George and Gu, Albert and Haroun, Ruba and Berrada, Leonard and Chen, Yutian and Srinivasan, Srivatsan and others",
+      "title": "Griffin: Mixing gated linear recurrences with local attention for efficient language models",
+      "ENTRYTYPE": "article",
+      "ID": "de2024griffin"
+    },
+    {
+      "year": "2024",
+      "month": "December",
+      "address": "Vancouver, Canada",
+      "booktitle": "Proc. Advances in Neural Information Processing Systems (NeurIPS)",
+      "author": "Beck, Maximilian and P{\\\"o}ppel, Korbinian and Spanring, Markus and Auer, Andreas and Prudnikova, Oleksandra and Kopp, Michael and Klambauer, G{\\\"u}nter and Brandstetter, Johannes and Hochreiter, Sepp",
+      "title": "x{LSTM}: Extended long short-term memory",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "beck2024xlstm"
+    },
+    {
+      "year": "2025",
+      "month": "April",
+      "address": "Vancouver, Canada",
+      "booktitle": "Int. Conf. on Learning Representations (ICLR)",
+      "author": "Yang, Songlin and Kautz, Jan and Hatamizadeh, Ali",
+      "title": "Gated Delta Networks: Improving {M}amba2 with Delta Rule",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "yang2024gated"
+    },
+    {
+      "year": "2024",
+      "journal": "Preprint arXiv:2404.07143",
+      "author": "Munkhdalai, Tsendsuren and Faruqui, Manaal and Gopal, Siddharth",
+      "title": "Leave no context behind: Efficient infinite context transformers with infini-attention",
+      "ENTRYTYPE": "article",
+      "ID": "munkhdalai2024leave"
+    },
+    {
+      "year": "2021",
+      "month": "May",
+      "address": "Virtual only",
+      "booktitle": "Int. Conf. on Learning Representations (ICLR)",
+      "author": "Alexey Dosovitskiy and Lucas Beyer and Alexander Kolesnikov and Dirk Weissenborn and Xiaohua Zhai and Thomas Unterthiner and Mostafa Dehghani and Matthias Minderer and Georg Heigold and Sylvain Gelly and Jakob Uszkoreit and Neil Houlsby",
+      "title": "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "dosovitskiy2021an"
+    },
+    {
+      "year": "2021",
+      "booktitle": "Int. Conf. on Learning Representations (ICLR)",
+      "month": "May",
+      "address": "Virtual only",
+      "author": "Xizhou Zhu and Weijie Su and Lewei Lu and Bin Li and Xiaogang Wang and Jifeng Dai",
+      "title": "Deformable {DETR}: Deformable Transformers for End-to-End Object Detection",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zhu2021deformable"
+    },
+    {
+      "pages": "77--80",
+      "number": "6",
+      "volume": "4",
+      "year": "1991",
+      "journal": "Applied Mathematics Letters",
+      "title": "Turing Computability with Neural Nets",
+      "author": "H. T. Siegelmann and E. D. Sontag",
+      "ENTRYTYPE": "article",
+      "ID": "siegelmann91turing"
+    },
+    {
+      "year": "2019",
+      "month": "May",
+      "address": "New Orleans, LA, USA",
+      "booktitle": "Int. Conf. on Learning Representations (ICLR)",
+      "author": "Mostafa Dehghani and Stephan Gouws and Oriol Vinyals and Jakob Uszkoreit and Lukasz Kaiser",
+      "title": "Universal Transformers",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "dehghani2018universal"
+    },
+    {
+      "year": "2005",
+      "pages": "383--389",
+      "month": "September",
+      "address": "Warsaw, Poland",
+      "booktitle": "Proc. Int. Conf. on Artificial Neural Networks (ICANN)",
+      "title": "Evolving Modular Fast-Weight Networks for Control",
+      "author": "Faustino J. Gomez and\nJ{\\\"{u}}rgen Schmidhuber",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "GomezS05"
+    },
+    {
+      "year": "2017",
+      "address": "Toulon, France",
+      "month": "April",
+      "booktitle": "Int. Conf. on Learning Representations (ICLR)",
+      "author": "Ha, David and Dai, Andrew and Le, Quoc V",
+      "title": "Hypernetworks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ha2017hypernetworks"
+    },
+    {
+      "month": "July",
+      "address": "Stockholm, Sweden",
+      "year": "2018",
+      "pages": "3559--3568",
+      "booktitle": "Proc. Int. Conf. on Machine Learning (ICML)",
+      "author": "Miconi, Thomas and Stanley, Kenneth and Clune, Jeff",
+      "title": "Differentiable plasticity: training plastic neural networks with backpropagation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "pmlr-v80-miconi18a"
+    },
+    {
+      "month": "May",
+      "address": "New Orleans, LA, USA",
+      "year": "2019",
+      "booktitle": "Int. Conf. on Learning Representations (ICLR)",
+      "author": "Thomas Miconi and Aditya Rawal and Jeff Clune and Kenneth O. Stanley",
+      "title": "Backpropamine: training self-modifying neural networks with differentiable neuromodulated plasticity",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "miconi2018backpropamine"
+    },
+    {
+      "year": "2020",
+      "journal": "Preprint arXiv:2006.03555",
+      "author": "Choromanski, Krzysztof and Likhosherstov, Valerii and Dohan, David and Song, Xingyou and Davis, Jared and Sarlos, Tamas and Belanger, David and Colwell, Lucy and Weller, Adrian",
+      "title": "Masked Language Modeling for Proteins via Linearly Scalable Long-Context Transformers",
+      "ENTRYTYPE": "article",
+      "ID": "choromanski2020masked"
+    },
+    {
+      "year": "1982",
+      "pages": "2554--2558",
+      "number": "8",
+      "volume": "79",
+      "journal": "Proc. of the National Academy of Sciences",
+      "author": "Hopfield, John J",
+      "title": "Neural networks and physical systems with emergent collective computational abilities",
+      "ENTRYTYPE": "article",
+      "ID": "hopfield1982neural"
+    },
+    {
+      "year": "1969",
+      "pages": "960--962",
+      "number": "5197",
+      "volume": "222",
+      "journal": "Nature",
+      "author": "Willshaw, David J and Buneman, O Peter and Longuet-Higgins, Hugh Christopher",
+      "title": "Non-holographic associative memory",
+      "ENTRYTYPE": "article",
+      "ID": "willshaw1969non"
+    },
+    {
+      "publisher": "MIT press",
+      "year": "1988",
+      "author": "Kanerva, Pentti",
+      "title": "Sparse distributed memory",
+      "ENTRYTYPE": "book",
+      "ID": "kanerva1988sparse"
+    },
+    {
+      "year": "2019",
+      "journal": "Preprint arXiv:1910.06611",
+      "author": "Schlag, Imanol and Smolensky, Paul and Fernandez, Roland and Jojic, Nebojsa and Schmidhuber, J{\\\"u}rgen and Gao, Jianfeng",
+      "title": "Enhancing the transformer with explicit relational encoding for math problem solving",
+      "ENTRYTYPE": "article",
+      "ID": "schlag2019enhancing"
+    },
+    {
+      "year": "2021",
+      "address": "Virtual only",
+      "booktitle": "Int. Conf. on Learning Representations (ICLR)",
+      "author": "Choromanski, Krzysztof and Likhosherstov, Valerii and Dohan, David and Song, Xingyou and Gane, Andreea and Sarlos, Tamas and Hawkins, Peter and Davis, Jared and Mohiuddin, Afroz and Kaiser, Lukasz and others",
+      "title": "Rethinking Attention with Performers",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "choromanski2020rethinking"
+    },
+    {
+      "year": "2018",
+      "journal": "Preprint arXiv:1812.01243",
+      "author": "Shen, Zhuoran and Zhang, Mingyuan and Zhao, Haiyu and Yi, Shuai and Li, Hongsheng",
+      "title": "Efficient Attention: Attention with Linear Complexities",
+      "ENTRYTYPE": "article",
+      "ID": "shen2018efficient"
+    },
+    {
+      "year": "2021",
+      "month": "May",
+      "address": "Virtual only",
+      "booktitle": "Int. Conf. on Learning Representations (ICLR)",
+      "author": "Schlag, Imanol and Munkhdalai, Tsendsuren and Schmidhuber, J{\\\"u}rgen",
+      "title": "Learning Associative Inference Using Fast Weight Memory",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "schlag2020fastweightmemory"
+    },
+    {
+      "year": "2018",
+      "pages": "9981--9993",
+      "month": "December",
+      "address": "Montr\\'eal, Canada",
+      "booktitle": "Proc. Advances in Neural Information Processing Systems (NIPS)",
+      "author": "Schlag, Imanol and Schmidhuber, J{\\\"u}rgen",
+      "title": "Learning to reason with third order tensor products",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "schlag2018learning"
+    },
+    {
+      "year": "2016",
+      "title": "Long Short-Term Memory-Networks for Machine Reading",
+      "pages": "551--561",
+      "month": "November",
+      "booktitle": "Proc. Conf. on Empirical Methods in Natural Language Processing (EMNLP)",
+      "author": "Jianpeng Cheng and Li Dong and Mirella Lapata",
+      "address": "Austin, {TX}, {USA}",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "cheng16"
+    },
+    {
+      "year": "2017",
+      "title": "A structured self-attentive sentence embedding",
+      "month": "April",
+      "booktitle": "Int. Conf. on Learning Representations (ICLR)",
+      "author": "Lin, Zhouhan and Feng, Minwei and\nSantos, Cicero Nogueira dos and Yu, Mo and\nXiang, Bing and Zhou, Bowen and Bengio, Yoshua",
+      "address": "Toulon, France",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "lin2017structured"
+    },
+    {
+      "year": "2016",
+      "title": "A Decomposable Attention Model for Natural Language\nInference",
+      "pages": "2249--2255",
+      "month": "November",
+      "booktitle": "Proc. Conf. on Empirical Methods in Natural Language Processing (EMNLP)",
+      "author": "Ankur P. Parikh and Oscar T{\\\"{a}}ckstr{\\\"{o}}m and\nDipanjan Das and Jakob Uszkoreit",
+      "address": "Austin, {TX}, {USA}",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ParikhT0U16"
+    },
+    {
+      "pages": "3159--3166",
+      "year": "2019",
+      "title": "Character-level language modeling with deeper\nself-attention",
+      "month": "January",
+      "booktitle": "Proc. Conference on Artificial Intelligence ({AAAI})",
+      "author": "Al-Rfou, Rami and Choe, Dokook and Constant, Noah and\nGuo, Mandy and Jones, Llion",
+      "address": "Honolulu, {HI}, {USA}",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "al2018character"
+    },
+    {
+      "year": "2019",
+      "title": "Transformer-{XL}: Attentive language models beyond a\nfixed-length context",
+      "pages": "2978--2988",
+      "month": "July",
+      "booktitle": "Proc. Association for Computational Linguistics (ACL)",
+      "author": "Dai, Zihang and Yang, Zhilin and Yang, Yiming and\nCohen, William W and Carbonell, Jaime and Le, Quoc V and\nSalakhutdinov, Ruslan",
+      "address": "Florence, Italy",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "dai2019transformerxlacl"
+    },
+    {
+      "year": "2019",
+      "title": "Adaptive input representations for neural language\nmodeling",
+      "month": "May",
+      "booktitle": "Int. Conf. on Learning Representations (ICLR)",
+      "author": "Baevski, Alexei and Auli, Michael",
+      "address": "New Orleans, {LA}, {USA}",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "baevski2018adaptive"
+    },
+    {
+      "year": "2019",
+      "title": "Language Models are Unsupervised Multitask Learners",
+      "howpublished": "[Online]. :\nhttps://blog.openai.com/better-language-models/",
+      "author": "Alec Radford and Jeffrey Wu and Rewon Child and\nDavid Luan and Dario Amodei and Ilya Sutskever",
+      "ENTRYTYPE": "misc",
+      "ID": "gpt2"
+    },
+    {
+      "year": "2019",
+      "title": "{BERT:} Pre-training of Deep Bidirectional\nTransformers for Language Understanding",
+      "pages": "4171--4186",
+      "month": "June",
+      "booktitle": "Proc. North American Chapter of the Association for Computational Linguistics on Human Language Technologies (NAACL-HLT)",
+      "author": "Jacob Devlin and Ming{-}Wei Chang and Kenton Lee and\nKristina Toutanova",
+      "address": "Minneapolis, {MN}, {USA}",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "devlin2019bert"
+    },
+    {
+      "year": "1997",
+      "volume": "9",
+      "title": "Long short-term memory",
+      "pages": "1735--1780",
+      "number": "8",
+      "journal": "Neural computation",
+      "author": "Hochreiter, Sepp and Schmidhuber, J{\\\"u}rgen",
+      "ENTRYTYPE": "article",
+      "ID": "hochreiter1997long"
+    },
+    {
+      "year": "2020",
+      "month": "December",
+      "address": "Virtual only",
+      "booktitle": "Proc. Advances in Neural Information Processing Systems (NeurIPS)",
+      "author": "Brown, Tom B and others",
+      "title": "Language models are few-shot learners",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "gpt3"
+    },
+    {
+      "year": "2024",
+      "month": "July",
+      "address": "Vienna, Austria",
+      "booktitle": "Proc. Int. Conf. on Machine Learning (ICML)",
+      "title": "Transformers are {SSM}s: Generalized Models and Efficient Algorithms\nThrough Structured State Space Duality",
+      "author": "Tri Dao and\nAlbert Gu",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "DaoG24"
+    },
+    {
+      "year": "2017",
+      "address": "Toulon, France",
+      "month": "April",
+      "booktitle": "Int. Conf. on Learning Representations (ICLR)",
+      "author": "Merity, Stephen and Xiong, Caiming and Bradbury, James and Socher, Richard",
+      "title": "Pointer sentinel mixture models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "merity2016pointer"
+    },
+    {
+      "year": "1982",
+      "pages": "27--39",
+      "number": "1",
+      "volume": "46",
+      "journal": "Biological cybernetics",
+      "author": "Feldman, Jerome A",
+      "title": "Dynamic connections in neural networks",
+      "ENTRYTYPE": "article",
+      "ID": "feldman1982dynamic"
+    },
+    {
+      "year": "2020",
+      "address": "Virtual only",
+      "booktitle": "Proc. Advances in Neural Information Processing Systems (NeurIPS)",
+      "author": "Galanti, Tomer and Wolf, Lior",
+      "title": "On the Modularity of Hypernetworks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "galanti2020hyper"
+    },
+    {
+      "year": "2020",
+      "howpublished": "NeurIPS Workshop on Meta-Learning, Virtual only",
+      "author": "Kirsch, Louis and Schmidhuber, J{\\\"u}rgen",
+      "title": "Meta-Learning Backpropagation And Improving It",
+      "ENTRYTYPE": "misc",
+      "ID": "kirsch2020meta"
+    },
+    {
+      "year": "2021",
+      "pages": "14122--14134",
+      "month": "December",
+      "address": "Virtual only",
+      "booktitle": "Proc. Advances in Neural Information Processing Systems (NeurIPS)",
+      "title": "Meta Learning Backpropagation And Improving It",
+      "author": "Louis Kirsch and\nJ{\\\"{u}}rgen Schmidhuber",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "KirschS21"
+    },
+    {
+      "year": "2019",
+      "pages": "13310--13321",
+      "month": "December",
+      "address": "Vancouver, Canada",
+      "booktitle": "Proc. Advances in Neural Information Processing Systems (NeurIPS)",
+      "title": "Metalearned Neural Memory",
+      "author": "Tsendsuren Munkhdalai and\nAlessandro Sordoni and\nTong Wang and\nAdam Trischler",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "MunkhdalaiSWT19"
+    },
+    {
+      "year": "2018",
+      "journal": "Preprint arXiv:1807.05076",
+      "author": "Munkhdalai, Tsendsuren and Trischler, Adam",
+      "title": "Metalearning with {H}ebbian fast weights",
+      "ENTRYTYPE": "article",
+      "ID": "munkhdalai2018metalearning"
+    },
+    {
+      "month": "August",
+      "address": "Sydney, Australia",
+      "year": "2017",
+      "pages": "2554--2563",
+      "booktitle": "Proc. Int. Conf. on Machine Learning (ICML)",
+      "author": "Munkhdalai, Tsendsuren and Yu, Hong",
+      "title": "Meta networks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "munkhdalai2017meta"
+    },
+    {
+      "year": "2018",
+      "address": "Vancouver, Cananda",
+      "booktitle": "Int. Conf. on Learning Representations (ICLR)",
+      "author": "Brock, Andrew and Lim, Theodore and Ritchie, James M and Weston, Nick",
+      "title": "Smash: one-shot model architecture search through hypernetworks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "brock2017smash"
+    },
+    {
+      "year": "2016",
+      "title": "Dynamic Filter Networks",
+      "address": "Barcelona, Spain",
+      "pages": "667--675",
+      "booktitle": "Proc. Advances in Neural Information Processing Systems (NIPS)",
+      "author": "Jia, Xu and De Brabandere, Bert and Tuytelaars, Tinne and Gool, Luc V",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "NIPS2016_8bf1211f"
+    },
+    {
+      "year": "2016",
+      "pages": "30--38",
+      "address": "Las Vegas, {NV}, {USA}",
+      "booktitle": "Proc. {IEEE} Conf. on Computer Vision and Pattern Recognition (CVPR)",
+      "author": "Noh, Hyeonwoo and Seo, Paul Hongsuck and Han, Bohyung",
+      "title": "Image question answering using convolutional neural network with dynamic parameter prediction",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "noh2016image"
+    },
+    {
+      "year": "2015",
+      "month": "June",
+      "address": "Boston, MA, USA",
+      "pages": "4840--4848",
+      "booktitle": "Proc. {IEEE} Conf. on Computer Vision and Pattern Recognition (CVPR)",
+      "title": "A Dynamic Convolutional Layer for short rangeweather prediction",
+      "author": "Benjamin Klein and\nLior Wolf and\nYehuda Afek",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "KleinWA15"
+    },
+    {
+      "year": "1990",
+      "pages": "159--216",
+      "number": "1-2",
+      "volume": "46",
+      "journal": "Artificial intelligence",
+      "author": "Smolensky, Paul",
+      "title": "Tensor product variable binding and the representation of symbolic structures in connectionist systems",
+      "ENTRYTYPE": "article",
+      "ID": "smolensky1990tensor"
+    },
+    {
+      "year": "2016",
+      "month": "May",
+      "address": "San Juan, Puerto Rico",
+      "booktitle": "Int. Conf. on Learning Representations (ICLR)",
+      "author": "Clevert, Djork-Arn{\\'e} and Unterthiner, Thomas and Hochreiter, Sepp",
+      "title": "Fast and accurate deep network learning by exponential linear units ({ELU}s)",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "clevert2015fast"
+    },
+    {
+      "pages": "186--191",
+      "address": "Brussels, Belgium",
+      "year": "2018",
+      "month": "October",
+      "booktitle": "Proc. Conf. on Machine Translation",
+      "author": "Post, Matt",
+      "title": "A Call for Clarity in Reporting {BLEU} Scores",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "post2018"
+    },
+    {
+      "year": "2002",
+      "pages": "311--318",
+      "address": "Philadelphia, {PA}, {USA}",
+      "month": "July",
+      "booktitle": "Proc. Association for Computational Linguistics (ACL)",
+      "author": "Papineni, Kishore and Roukos, Salim and Ward, Todd and Zhu, Wei-Jing",
+      "title": "Bleu: a method for automatic evaluation of machine translation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "papineni2002bleu"
+    },
+    {
+      "month": "May",
+      "year": "2021",
+      "address": "Virtual only",
+      "booktitle": "Int. Conf. on Learning Representations (ICLR)",
+      "author": "Yi Tay and Mostafa Dehghani and Samira Abnar and Yikang Shen and Dara Bahri and Philip Pham and Jinfeng Rao and Liu Yang and Sebastian Ruder and Donald Metzler",
+      "title": "Long Range Arena: A Benchmark for Efficient Transformers",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "tay2020long"
+    },
+    {
+      "year": "1991",
+      "month": "March",
+      "number": "FKI-147-91",
+      "institution": "Institut f\\\"{u}r Informatik,\nTechnische Universit\\\"{a}t M\\\"{u}nchen",
+      "title": " Learning to Control Fast-Weight Memories: An Alternative to\nRecurrent Nets",
+      "author": "J\\\"urgen Schmidhuber",
+      "ENTRYTYPE": "techreport",
+      "ID": "Schmidhuber:91fastweights"
+    },
+    {
+      "year": "2019",
+      "title": "Language Modeling with Deep {T}ransformers",
+      "pages": "3905-3909",
+      "month": "September",
+      "booktitle": "Proc. Interspeech",
+      "author": "Irie, Kazuki and Zeyer, Albert and Schl\\\"uter, Ralf and\nNey, Hermann",
+      "address": "Graz, Austria",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "irie19:trafolm"
+    },
+    {
+      "year": "2019",
+      "title": "Training Language Models for Long-Span Cross-Sentence Evaluation",
+      "pages": "419--426",
+      "month": "December",
+      "booktitle": "Proc. IEEE Automatic Speech Recog. and Understanding Workshop (ASRU)",
+      "author": "Irie, Kazuki and Zeyer, Albert and Schl\\\"uter, Ralf and\nNey, Hermann",
+      "address": "Sentosa, Singapore",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "irie19asru"
+    },
+    {
+      "address": "Virtual only",
+      "month": "April",
+      "year": "2020",
+      "booktitle": "Int. Conf. on Learning Representations (ICLR)",
+      "author": "Jack W. Rae and Anna Potapenko and Siddhant M. Jayakumar and Chloe Hillier and Timothy P. Lillicrap",
+      "title": "Compressive Transformers for Long-Range Sequence Modelling",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "rae2020compressive"
+    },
+    {
+      "pages": "1--9",
+      "address": "Brussels, Belgium",
+      "year": "2018",
+      "month": "October",
+      "booktitle": "Proc. Conf. on Machine Translation: Research Papers",
+      "author": "Ott, Myle  and Edunov, Sergey  and Grangier, David  and Auli, Michael",
+      "title": "Scaling Neural Machine Translation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ott2018"
+    },
+    {
+      "year": "2019",
+      "address": "Minneapolis, {MN}, {USA}",
+      "month": "June",
+      "pages": "48--53",
+      "booktitle": "Proc. North American Chapter of the Association for Computational Linguistics on Human Language Technologies (NAACL-HLT), Demonstrations",
+      "title": "fairseq: {A} Fast, Extensible Toolkit for Sequence Modeling",
+      "author": "Myle Ott and\nSergey Edunov and\nAlexei Baevski and\nAngela Fan and\nSam Gross and\nNathan Ng and\nDavid Grangier and\nMichael Auli",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "OttEBFGNGA19"
+    },
+    {
+      "year": "2013",
+      "howpublished": "Preprint arXiv:1308.0850",
+      "author": "Graves, Alex",
+      "title": "Generating sequences with recurrent neural networks",
+      "ENTRYTYPE": "misc",
+      "ID": "graves2013generating"
+    },
+    {
+      "address": "Virtual only",
+      "month": "May",
+      "year": "2021",
+      "booktitle": "Int. Conf. on Learning Representations (ICLR)",
+      "author": "Irwan Bello",
+      "title": "Lambda{N}etworks: Modeling long-range Interactions without Attention",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "bello2021lambdanetworks"
+    },
+    {
+      "address": "Virtual only",
+      "month": "May",
+      "year": "2021",
+      "booktitle": "Int. Conf. on Learning Representations (ICLR)",
+      "author": "Hubert Ramsauer and Bernhard Sch{\\\"a}fl and Johannes Lehner and Philipp Seidl and Michael Widrich and Lukas Gruber and Markus Holzleitner and Thomas Adler and David Kreil and Michael K Kopp and G{\\\"u}nter Klambauer and Johannes Brandstetter and Sepp Hochreiter",
+      "title": "Hopfield Networks is All You Need",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ramsauer2021hopfield"
+    },
+    {
+      "year": "2016",
+      "month": "December",
+      "address": "Barcelona, Spain",
+      "pages": "1172--1180",
+      "booktitle": "Proc. Advances in Neural Information Processing Systems (NIPS)",
+      "title": "Dense Associative Memory for Pattern Recognition",
+      "author": "Dmitry Krotov and\nJohn J. Hopfield",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "KrotovH16"
+    },
+    {
+      "year": "2016",
+      "title": "Neural Machine Translation of Rare Words with Subword\nUnits",
+      "pages": "1715--1725",
+      "month": "August",
+      "booktitle": "Proc. Association for Computational Linguistics (ACL)",
+      "author": "Rico Sennrich and Barry Haddow and Alexandra Birch",
+      "address": "Berlin, Germany",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "sennrich16bpe"
+    },
+    {
+      "year": "2019",
+      "title": "PyTorch: An Imperative Style, High-Performance Deep Learning Library",
+      "pages": "8026--8037",
+      "month": "December",
+      "address": "Vancouver, Canada",
+      "booktitle": "Proc. Advances in Neural Information Processing Systems (NeurIPS)",
+      "author": "Paszke, Adam and others",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "NEURIPS2019_bdbca288"
+    },
+    {
+      "year": "2014",
+      "pages": "1929--1958",
+      "number": "1",
+      "volume": "15",
+      "journal": "The Journal of Machine Learning Research",
+      "author": "Srivastava, Nitish and Hinton, Geoffrey and Krizhevsky, Alex and Sutskever, Ilya and Salakhutdinov, Ruslan",
+      "title": "Dropout: a simple way to prevent neural networks from overfitting",
+      "ENTRYTYPE": "article",
+      "ID": "srivastava2014dropout"
+    },
+    {
+      "year": "2015",
+      "address": "San Diego, CA, USA",
+      "month": "May",
+      "booktitle": "Int. Conf. on Learning Representations (ICLR)",
+      "author": "Kingma, Diederik P and Ba, Jimmy",
+      "title": "Adam: A method for stochastic optimization",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "kingma2014adam"
+    },
+    {
+      "year": "2017",
+      "pages": "288--299",
+      "number": "2",
+      "volume": "168",
+      "journal": "Journal of Statistical Physics",
+      "author": "Demircigil, Mete and Heusel, Judith and L{\\\"o}we, Matthias and Upgang, Sven and Vermet, Franck",
+      "title": "On a model of associative memory with huge storage capacity",
+      "ENTRYTYPE": "article",
+      "ID": "demircigil2017model"
+    },
+    {
+      "year": "1949",
+      "pages": "78",
+      "volume": "62",
+      "journal": "A Wiley Book in Clinical Psychology",
+      "author": "Hebb, Donald Olding",
+      "title": "The organization of behavior; a neuropsycholocigal theory",
+      "ENTRYTYPE": "article",
+      "ID": "hebb1949organization"
+    },
+    {
+      "year": "1961",
+      "pages": "36--45",
+      "number": "1",
+      "volume": "1",
+      "journal": "Kybern.",
+      "title": "Die Lernmatrix",
+      "author": "Karl Steinbuch",
+      "ENTRYTYPE": "article",
+      "ID": "steinbuch61"
+    },
+    {
+      "year": "1963",
+      "pages": "846--862",
+      "number": "6",
+      "volume": "12",
+      "journal": "{IEEE} Transactions on Electronic Computers",
+      "title": "Learning Matrices and Their Applications",
+      "author": "Karl Steinbuch and\nUwe A. W. Piske",
+      "ENTRYTYPE": "article",
+      "ID": "steinbuchP63"
+    },
+    {
+      "year": "1968",
+      "pages": "113--119",
+      "number": "3",
+      "volume": "5",
+      "journal": "Kybernetik",
+      "author": "Anderson, James A",
+      "title": "A memory storage model utilizing spatial correlation functions",
+      "ENTRYTYPE": "article",
+      "ID": "anderson1968memory"
+    },
+    {
+      "year": "1972",
+      "pages": "353--359",
+      "number": "4",
+      "volume": "21",
+      "journal": "{IEEE} Transactions on Computers",
+      "title": "Correlation Matrix Memories",
+      "author": "Teuvo Kohonen",
+      "ENTRYTYPE": "article",
+      "ID": "kohonen72"
+    },
+    {
+      "year": "1980",
+      "pages": "19--31",
+      "number": "1",
+      "volume": "36",
+      "journal": "Biological cybernetics",
+      "author": "Palm, G{\\\"u}nther",
+      "title": "On associative memory",
+      "ENTRYTYPE": "article",
+      "ID": "palm1980associative"
+    },
+    {
+      "year": "1974",
+      "pages": "101--120",
+      "number": "1-2",
+      "volume": "19",
+      "journal": "Mathematical biosciences",
+      "author": "Little, William A",
+      "title": "The existence of persistent states in the brain",
+      "ENTRYTYPE": "article",
+      "ID": "little1974existence"
+    },
+    {
+      "year": "1988",
+      "pages": "49--60",
+      "number": "1",
+      "volume": "18",
+      "journal": "IEEE Transactions on Systems, Man, and Cybernetics",
+      "author": "Kosko, Bart",
+      "title": "Bidirectional associative memories",
+      "ENTRYTYPE": "article",
+      "ID": "kosko1988bidirectional"
+    },
+    {
+      "pages": "4344--4353",
+      "address": "Hong Kong, China",
+      "year": "2019",
+      "month": "November",
+      "booktitle": "Proc. Conf. on Empirical Methods in Natural Language Processing (EMNLP)",
+      "author": "Tsai, Yao-Hung Hubert  and\nBai, Shaojie  and\nYamada, Makoto  and\nMorency, Louis-Philippe  and\nSalakhutdinov, Ruslan",
+      "title": "Transformer Dissection: An Unified Understanding for Transformer's Attention via the Lens of Kernel",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "tsai2019"
+    },
+    {
+      "year": "2014",
+      "journal": "Preprint arXiv:1410.4615",
+      "author": "Zaremba, Wojciech and Sutskever, Ilya",
+      "title": "Learning to execute",
+      "ENTRYTYPE": "article",
+      "ID": "zaremba2014learning"
+    },
+    {
+      "year": "2020",
+      "journal": "Preprint arXiv:2002.09402",
+      "author": "Fan, Angela and Lavril, Thibaut and Grave, Edouard and Joulin, Armand and Sukhbaatar, Sainbayar",
+      "title": "Addressing Some Limitations of {T}ransformers with Feedback Memory",
+      "ENTRYTYPE": "article",
+      "ID": "fan2020addressing"
+    },
+    {
+      "year": "2016",
+      "pages": "521--535",
+      "volume": "4",
+      "journal": "Transactions of the Association for Computational Linguistics (TACL)",
+      "title": "Assessing the Ability of LSTMs to Learn Syntax-Sensitive Dependencies",
+      "author": "Tal Linzen and\nEmmanuel Dupoux and\nYoav Goldberg",
+      "ENTRYTYPE": "article",
+      "ID": "LinzenDG16"
+    },
+    {
+      "year": "2018",
+      "pages": "4731--4736",
+      "address": "Brussels, Belgium",
+      "month": "October",
+      "booktitle": "Proc. Conf. on Empirical Methods in Natural Language Processing (EMNLP)",
+      "title": "The importance of Being Recurrent for Modeling Hierarchical Structure",
+      "author": "Ke Tran and\nArianna Bisazza and\nChristof Monz",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "TranBM18"
+    },
+    {
+      "month": "July",
+      "year": "2020",
+      "address": "Virtual only",
+      "pages": "7487--7498",
+      "booktitle": "Proc. Int. Conf. on Machine Learning (ICML)",
+      "author": "Parisotto, Emilio and Song, Francis and Rae, Jack and Pascanu, Razvan and Gulcehre, Caglar and Jayakumar, Siddhant and Jaderberg, Max and Kaufman, Raphael Lopez and Clark, Aidan and Noury, Seb and Botvinick, Matthew M. and Heess, Nicolas and Hadsell, Raia",
+      "title": "Stabilizing {T}ransformers for reinforcement learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "parisotto2020stabilizing"
+    },
+    {
+      "year": "2020",
+      "pages": "7487--7498",
+      "month": "July",
+      "address": "Virtual only",
+      "booktitle": "Proc. Int. Conf. on Machine Learning (ICML)",
+      "title": "Stabilizing Transformers for Reinforcement Learning",
+      "author": "Emilio Parisotto and\nH. Francis Song and\nJack W. Rae and\nRazvan Pascanu and\n{\\c{C}}aglar G{\\\"{u}}l{\\c{c}}ehre and\nSiddhant M. Jayakumar and\nMax Jaderberg and\nRapha{\\\"{e}}l Lopez Kaufman and\nAidan Clark and\nSeb Noury and\nMatthew Botvinick and\nNicolas Heess and\nRaia Hadsell",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ParisottoSRPGJJ20"
+    },
+    {
+      "year": "2018",
+      "journal": "Preprint arXiv:1804.06511",
+      "author": "Keller, T Anderson and Sridhar, Sharath Nittur and Wang, Xin",
+      "title": "Fast Weight Long Short-Term Memory",
+      "ENTRYTYPE": "article",
+      "ID": "keller2018fast"
+    },
+    {
+      "year": "2021",
+      "address": "Virtual only",
+      "month": "May",
+      "booktitle": "Int. Conf. on Learning Representations (ICLR)",
+      "author": "Parisotto, Emilio and Salakhutdinov, Ruslan",
+      "title": "Efficient Transformers in Reinforcement Learning using Actor-Learner Distillation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "parisotto2021efficient"
+    },
+    {
+      "month": "May",
+      "address": "Virtual only",
+      "year": "2021",
+      "booktitle": "ICLR Neural Compression Workshop",
+      "author": "Kazuki Irie and J{\\\"u}rgen Schmidhuber",
+      "title": "Training and Generating Neural Networks in Compressed Weight Space",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "irie2021training"
+    },
+    {
+      "year": "2019",
+      "journal": "Preprint arXiv:1910.03552",
+      "author": "K{\\\"u}ttler, Heinrich and Nardelli, Nantas and Lavril, Thibaut and Selvatici, Marco and Sivakumar, Viswanath and Rockt{\\\"a}schel, Tim and Grefenstette, Edward",
+      "title": "Torchbeast: A {P}y{T}orch platform for distributed {RL}",
+      "ENTRYTYPE": "article",
+      "ID": "kuttler2019torchbeast"
+    },
+    {
+      "year": "2018",
+      "pages": "1406--1415",
+      "month": "July",
+      "address": "Stockholm, Sweden",
+      "booktitle": "Proc. Int. Conf. on Machine Learning (ICML)",
+      "title": "{IMPALA:} Scalable Distributed Deep-{RL} with Importance Weighted Actor-Learner\nArchitectures",
+      "author": "Lasse Espeholt and\nHubert Soyer and\nR{\\'{e}}mi Munos and\nKaren Simonyan and\nVolodymyr Mnih and\nTom Ward and\nYotam Doron and\nVlad Firoiu and\nTim Harley and\nIain Dunning and\nShane Legg and\nKoray Kavukcuoglu",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "EspeholtSMSMWDF18"
+    },
+    {
+      "year": "2016",
+      "pages": "1928--1937",
+      "month": "June",
+      "address": "New York City, {NY}, {USA}",
+      "booktitle": "Proc. Int. Conf. on Machine Learning (ICML)",
+      "title": "Asynchronous Methods for Deep Reinforcement Learning",
+      "author": "Volodymyr Mnih and\nAdri{\\`{a}} Puigdom{\\`{e}}nech Badia and\nMehdi Mirza and\nAlex Graves and\nTimothy P. Lillicrap and\nTim Harley and\nDavid Silver and\nKoray Kavukcuoglu",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "MnihBMGLHSK16"
+    },
+    {
+      "year": "2016",
+      "publisher": "{AAAI} Press",
+      "pages": "1476--1483",
+      "month": "February",
+      "address": "Phoenix, {AZ}, {USA}",
+      "booktitle": "Proc. {AAAI} Conf. on Artificial Intelligence",
+      "title": "Increasing the Action Gap: New Operators for Reinforcement Learning",
+      "author": "Marc G. Bellemare and\nGeorg Ostrovski and\nArthur Guez and\nPhilip S. Thomas and\nR{\\'{e}}mi Munos",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "BellemareOGTM16"
+    },
+    {
+      "year": "2016",
+      "journal": "Preprint arXiv:1612.03801",
+      "author": "Beattie, Charles and Leibo, Joel Z and Teplyashin, Denis and Ward, Tom and Wainwright, Marcus and K{\\\"u}ttler, Heinrich and Lefrancq, Andrew and Green, Simon and Vald{\\'e}s, V{\\'\\i}ctor and Sadik, Amir and others",
+      "title": "Deepmind lab",
+      "ENTRYTYPE": "article",
+      "ID": "beattie2016deepmind"
+    },
+    {
+      "year": "2018",
+      "journal": "Preprint arXiv:1801.08116",
+      "author": "Leibo, Joel Z and d'Autume, Cyprien de Masson and Zoran, Daniel and Amos, David and Beattie, Charles and Anderson, Keith and Casta{\\~n}eda, Antonio Garc{\\'\\i}a and Sanchez, Manuel and Green, Simon and Gruslys, Audrunas and others",
+      "title": "Psychlab: a psychology laboratory for deep reinforcement learning agents",
+      "ENTRYTYPE": "article",
+      "ID": "leibo2018psychlab"
+    },
+    {
+      "address": "Virtual only",
+      "year": "2020",
+      "booktitle": "Int. Conf. on Learning Representations (ICLR)",
+      "author": "Łukasz Kaiser and Mohammad Babaeizadeh and Piotr Miłos and Błażej Osiński and Roy H Campbell and Konrad Czechowski and Dumitru Erhan and Chelsea Finn and Piotr Kozakowski and Sergey Levine and Afroz Mohiuddin and Ryan Sepassi and George Tucker and Henryk Michalewski",
+      "title": "Model Based Reinforcement Learning for Atari",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "Kaiser2020Model"
+    },
+    {
+      "publisher": "Nature Publishing Group",
+      "year": "2020",
+      "pages": "604--609",
+      "number": "7839",
+      "volume": "588",
+      "journal": "Nature",
+      "author": "Schrittwieser, Julian and Antonoglou, Ioannis and Hubert, Thomas and Simonyan, Karen and Sifre, Laurent and Schmitt, Simon and Guez, Arthur and Lockhart, Edward and Hassabis, Demis and Graepel, Thore and others",
+      "title": "Mastering {A}tari, {G}o, {C}hess and {S}hogi by planning with a learned model",
+      "ENTRYTYPE": "article",
+      "ID": "schrittwieser2020mastering"
+    },
+    {
+      "year": "2015",
+      "month": "July",
+      "address": "Lille, France",
+      "booktitle": "Deep Learning Workshop, International Conference on Machine Learning (ICML)",
+      "author": "Nair, Arun and Srinivasan, Praveen and Blackwell, Sam and Alcicek, Cagdas and Fearon, Rory and De Maria, Alessandro and Panneershelvam, Vedavyas and Suleyman, Mustafa and Beattie, Charles and Petersen, Stig and others",
+      "title": "Massively parallel methods for deep reinforcement learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "nair2015massively"
+    },
+    {
+      "year": "2021",
+      "month": "July",
+      "address": "Virtual only",
+      "booktitle": "Proc. Int. Conf. on Machine Learning (ICML)",
+      "author": "Imanol Schlag and Kazuki Irie and J\\\"urgen Schmidhuber",
+      "title": "Linear {T}ransformers Are Secretly Fast Weight Programmers",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "schlag2021linear"
+    },
+    {
+      "year": "2021",
+      "address": "Virtual only",
+      "booktitle": "Int. Conf. on Learning Representations (ICLR)",
+      "author": "Peng, Hao and Pappas, Nikolaos and Yogatama, Dani and Schwartz, Roy and Smith, Noah A and Kong, Lingpeng",
+      "title": "Random Feature Attention",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "peng2021random"
+    },
+    {
+      "year": "2021",
+      "address": "Virtual only",
+      "month": "May",
+      "booktitle": "Int. Conf. on Learning Representations (ICLR)",
+      "author": "Andrychowicz, Marcin and Raichuk, Anton and Stanczyk, Piotr and Orsini, Manu and Girgin, Sertan and Marinier, Rapha{\\\"e}l and Hussenot, L{\\'e}onard and Geist, Matthieu and Pietquin, Olivier and Michalski, Marcin and others",
+      "title": "What matters for on-policy deep actor-critic methods? A large scale study",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "andrychowicz2021matters"
+    },
+    {
+      "pages": "92--99",
+      "address": "New Orleans, {LA}, {USA}",
+      "year": "2018",
+      "month": "June",
+      "booktitle": "Proc. North American Chapter of the Association for Computational Linguistics (NAACL): Student Research Workshop",
+      "author": "Nangia, Nikita  and\nBowman, Samuel",
+      "title": "{L}ist{O}ps: A Diagnostic Dataset for Latent Tree Learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "nangia-bowman-2018-listops"
+    },
+    {
+      "year": "2021",
+      "journal": "Preprint arXiv:2103.05247",
+      "author": "Lu, Kevin and Grover, Aditya and Abbeel, Pieter and Mordatch, Igor",
+      "title": "Pretrained transformers as universal computation engines",
+      "ENTRYTYPE": "article",
+      "ID": "lu2021pretrained"
+    },
+    {
+      "year": "2013",
+      "month": "December",
+      "address": "Lake Tahoe, {NV}, USA",
+      "booktitle": "NIPS Deep Learning Workshop",
+      "author": "Mnih, Volodymyr and Kavukcuoglu, Koray and Silver, David and Graves, Alex and Antonoglou, Ioannis\nand Wierstra, Daan and Riedmiller, Martin",
+      "title": "Playing {A}tari with deep reinforcement learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "mnih2013playing"
+    },
+    {
+      "year": "2020",
+      "pages": "156--171",
+      "volume": "8",
+      "journal": "Transactions of the Association for Computational Linguistics",
+      "author": "Hahn, Michael",
+      "title": "Theoretical limitations of self-attention in neural sequence models",
+      "ENTRYTYPE": "article",
+      "ID": "hahn2020theoretical"
+    },
+    {
+      "year": "2000",
+      "volume": "12",
+      "title": "Learning to forget: Continual prediction with {LSTM}",
+      "pages": "2451--2471",
+      "number": "10",
+      "journal": "Neural computation",
+      "author": "Gers, Felix A and Schmidhuber, J{\\\"u}rgen and\nCummins, Fred",
+      "ENTRYTYPE": "article",
+      "ID": "gers2000learning"
+    },
+    {
+      "address": "Virtual only",
+      "month": "May",
+      "year": "2021",
+      "booktitle": "Int. Conf. on Learning Representations (ICLR)",
+      "author": "Francois Charton and Amaury Hayat and Guillaume Lample",
+      "title": "Learning advanced mathematical computations from examples",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "charton2021learning"
+    },
+    {
+      "year": "1990",
+      "number": "FKI-126-90",
+      "institution": "Institut f\\\"{u}r Informatik,\nTechnische Universit\\\"{a}t M\\\"{u}nchen",
+      "title": "Making the world differentiable:\nOn Using Fully Recurrent Self-Supervised Neural Networks for\nDynamic Reinforcement Learning and Planning in Non-Stationary\nEnvironments",
+      "author": "J\\\"urgen Schmidhuber",
+      "ENTRYTYPE": "techreport",
+      "ID": "Schmidhuber:90diff"
+    },
+    {
+      "year": "2018",
+      "pages": "523--562",
+      "volume": "61",
+      "journal": "Journal of Artificial Intelligence Research",
+      "author": "Machado, Marlos C and Bellemare, Marc G and Talvitie, Erik and Veness, Joel and Hausknecht, Matthew and Bowling, Michael",
+      "title": "Revisiting the arcade learning environment: Evaluation protocols and open problems for general agents",
+      "ENTRYTYPE": "article",
+      "ID": "machado2018revisiting"
+    },
+    {
+      "year": "2018",
+      "pages": "740--745",
+      "month": "July",
+      "address": "Melbourne, Australia",
+      "booktitle": "Proc. Association for Computational Linguistics (ACL)",
+      "title": "On the Practical Computational Power of Finite Precision RNNs for\nLanguage Recognition",
+      "editor": "Iryna Gurevych and\nYusuke Miyao",
+      "author": "Gail Weiss and\nYoav Goldberg and\nEran Yahav",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "weissGY18"
+    },
+    {
+      "address": "Los Angeles, {CA}, {USA}",
+      "pages": "96--104",
+      "month": "August",
+      "booktitle": "Proc. {IRE} WESCON Convention Record",
+      "year": "1960",
+      "author": "Widrow, Bernard and Hoff, Marcian E",
+      "title": "Adaptive switching circuits",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "widrow1960adaptive"
+    },
+    {
+      "year": "2015",
+      "pages": "529--533",
+      "number": "7540",
+      "volume": "518",
+      "journal": "Nature",
+      "author": "Mnih, Volodymyr and Kavukcuoglu, Koray and Silver, David and Rusu, Andrei A and Veness, Joel and Bellemare, Marc G and Graves, Alex and Riedmiller, Martin and Fidjeland, Andreas K and Ostrovski, Georg and others",
+      "title": "Human-level control through deep reinforcement learning",
+      "ENTRYTYPE": "article",
+      "ID": "mnih2015human"
+    },
+    {
+      "year": "2019",
+      "pages": "12329--12338",
+      "month": "December",
+      "address": "Vancouver, Canada",
+      "booktitle": "Proc. Advances in Neural Information Processing Systems (NeurIPS)",
+      "title": "Towards Interpretable Reinforcement Learning Using Attention Augmented\nAgents",
+      "author": "Alexander Mott and\nDaniel Zoran and\nMike Chrzanowski and\nDaan Wierstra and\nDanilo Jimenez Rezende",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "MottZCWR19"
+    },
+    {
+      "year": "2020",
+      "pages": "507--517",
+      "month": "July",
+      "address": "Virtual only",
+      "booktitle": "Proc. Int. Conf. on Machine Learning (ICML)",
+      "title": "Agent57: Outperforming the Atari Human Benchmark",
+      "author": "Adri{\\`{a}} Puigdom{\\`{e}}nech Badia and\nBilal Piot and\nSteven Kapturowski and\nPablo Sprechmann and\nAlex Vitvitskyi and\nZhaohan Daniel Guo and\nCharles Blundell",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "BadiaPKSVGB20"
+    },
+    {
+      "year": "2021",
+      "journal": "Preprint arXiv:2106.02039",
+      "author": "Janner, Michael and Li, Qiyang and Levine, Sergey",
+      "title": "Reinforcement Learning as One Big Sequence Modeling Problem",
+      "ENTRYTYPE": "article",
+      "ID": "janner2021reinforcement"
+    },
+    {
+      "year": "2021",
+      "journal": "Preprint arXiv:2106.01345",
+      "author": "Chen, Lili and Lu, Kevin and Rajeswaran, Aravind and Lee, Kimin and Grover, Aditya and Laskin, Michael and Abbeel, Pieter and Srinivas, Aravind and Mordatch, Igor",
+      "title": "Decision Transformer: Reinforcement Learning via Sequence Modeling",
+      "ENTRYTYPE": "article",
+      "ID": "chen2021decision"
+    },
+    {
+      "year": "2019",
+      "journal": "Preprint arXiv:1912.02877",
+      "author": "Srivastava, Rupesh Kumar and Shyam, Pranav and Mutz, Filipe and Ja{\\'s}kowski, Wojciech and Schmidhuber, J{\\\"u}rgen",
+      "title": "Training agents using upside-down reinforcement learning",
+      "ENTRYTYPE": "article",
+      "ID": "srivastava2019training"
+    },
+    {
+      "year": "2019",
+      "journal": "Preprint arXiv:1912.02875",
+      "author": "Schmidhuber, Juergen",
+      "title": "Reinforcement Learning Upside Down: Don't Predict Rewards--Just Map Them to Actions",
+      "ENTRYTYPE": "article",
+      "ID": "schmidhuber2019reinforcement"
+    },
+    {
+      "year": "2014",
+      "journal": "Preprint arXiv:1410.5401",
+      "author": "Graves, Alex and Wayne, Greg and Danihelka, Ivo",
+      "title": "Neural turing machines",
+      "ENTRYTYPE": "article",
+      "ID": "graves2014neural"
+    },
+    {
+      "year": "2016",
+      "pages": "471--476",
+      "number": "7626",
+      "volume": "538",
+      "journal": "Nature",
+      "author": "Graves, Alex and Wayne, Greg and Reynolds, Malcolm and Harley, Tim and Danihelka, Ivo and Grabska-Barwi{\\'n}ska, Agnieszka and Colmenarejo, Sergio G{\\'o}mez and Grefenstette, Edward and Ramalho, Tiago and Agapiou, John and others",
+      "title": "Hybrid computing using a neural network with dynamic external memory",
+      "ENTRYTYPE": "article",
+      "ID": "graves2016hybrid"
+    },
+    {
+      "year": "2015",
+      "title": "Highway Networks",
+      "month": "July",
+      "booktitle": "the Deep Learning workshop at Int. Conf. on Machine\nLearning (ICML)",
+      "author": "Srivastava, Rupesh K and Greff, Klaus and\nSchmidhuber, J{\\\"u}rgen",
+      "address": "Lille, France",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "srivastava2015icml"
+    },
+    {
+      "year": "1990",
+      "pages": "265--272",
+      "number": "1-3",
+      "volume": "42",
+      "journal": "Physica D: Nonlinear Phenomena",
+      "author": "Hanson, Stephen Jos{\\'e}",
+      "title": "A stochastic version of the delta rule",
+      "ENTRYTYPE": "article",
+      "ID": "hanson1990stochastic"
+    },
+    {
+      "year": "2016",
+      "title": "Layer Normalization",
+      "journal": "Preprint arXiv:1607.06450",
+      "author": "Ba, Jimmy Lei and Kiros, Jamie Ryan and\nHinton, Geoffrey E",
+      "ENTRYTYPE": "article",
+      "ID": "ba2016layer"
+    },
+    {
+      "year": "2016",
+      "title": "Identity Mappings in Deep Residual Networks",
+      "pages": "630--645",
+      "month": "October",
+      "booktitle": "Proc. European Conf. on Computer Vision (ECCV)",
+      "author": "Kaiming He and Xiangyu Zhang and Shaoqing Ren and\nJian Sun",
+      "address": "Amsterdam, Netherlands",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "HeZRS16"
+    },
+    {
+      "year": "2012",
+      "journal": "{COURSERA}: Neural Networks for\nMachine Learning, 4",
+      "title": "Lecture 6.5-\n{RMSP}rop: Divide the gradient by a running average of\nits recent magnitude",
+      "author": "Tieleman, Tijmen and Hinton, Geoffrey",
+      "ENTRYTYPE": "article",
+      "ID": "rmsprop"
+    },
+    {
+      "year": "2018",
+      "journal": "Preprint arXiv:1808.03578",
+      "author": "Frazier-Logue, Noah and Hanson, Stephen Jos{\\'e}",
+      "title": "Dropout is a special case of the stochastic delta rule: Faster and more accurate deep learning",
+      "ENTRYTYPE": "article",
+      "ID": "frazier2018dropout"
+    },
+    {
+      "year": "2010",
+      "pages": "619--626",
+      "booktitle": "Proc. Conference on Genetic and Evolutionary Computation (GECCO)",
+      "author": "Koutn{\\'i}k, Jan and Gomez, Faustino and Schmidhuber, J{\\\"u}rgen",
+      "title": "Evolving neural networks in compressed weight space",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "koutnik2010evolving"
+    },
+    {
+      "address": "Lugano, Switzerland",
+      "month": "March",
+      "year": "2010",
+      "booktitle": "Proc. Conf. on Artificial General Intelligence",
+      "author": "Koutn{\\'i}k, Jan and Gomez, Faustino and Schmidhuber, J{\\\"u}rgen",
+      "title": "Searching for minimal neural networks in fourier space",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "koutnik2010searching"
+    },
+    {
+      "year": "2012",
+      "journal": "Preprint arXiv:1212.6521",
+      "author": "Koutn{\\'i}k, Jan and Schmidhuber, Juergen and Gomez, Faustino",
+      "title": "A frequency-domain encoding for neuroevolution",
+      "ENTRYTYPE": "article",
+      "ID": "koutnik2012frequency"
+    },
+    {
+      "year": "2012",
+      "month": "September",
+      "address": "Taormina, Italy",
+      "pages": "316--326",
+      "booktitle": "Proc. Int. Conf. on Parallel Problem Solving from Nature",
+      "author": "Gomez, Faustino and Koutn{\\'\\i}k, Jan and Schmidhuber, J{\\\"u}rgen",
+      "title": "Compressed network complexity search",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "gomez2012compressed"
+    },
+    {
+      "year": "2012",
+      "pages": "337--346",
+      "month": "September",
+      "address": "Taormina, Italy",
+      "booktitle": "Proc. Int. Conf. on Parallel Problem Solving from Nature",
+      "title": "Generalized Compressed Network Search",
+      "author": "Rupesh Kumar Srivastava and\nJ{\\\"{u}}rgen Schmidhuber and\nFaustino J. Gomez",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "srivastavaSG12"
+    },
+    {
+      "year": "2020",
+      "journal": "arXiv preprint arXiv:2009.11443",
+      "author": "Le, Hung and Venkatesh, Svetha",
+      "title": "Neurocoder: Learning General-Purpose Computation Using Stored Neural Programs",
+      "ENTRYTYPE": "article",
+      "ID": "le2020neurocoder"
+    },
+    {
+      "address": "Virtual only",
+      "month": "May",
+      "year": "2020",
+      "booktitle": "Int. Conf. on Learning Representations (ICLR)",
+      "author": "Hung Le and Truyen Tran and Svetha Venkatesh",
+      "title": "Neural Stored-program Memory",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "Le2020Neural"
+    },
+    {
+      "year": "2013",
+      "pages": "83--93",
+      "volume": "42",
+      "journal": "Neural networks",
+      "author": "Fabisch, Alexander and Kassahun, Yohannes and W{\\\"o}hrle, Hendrik and Kirchner, Frank",
+      "title": "Learning in compressed space",
+      "ENTRYTYPE": "article",
+      "ID": "fabisch2013learning"
+    },
+    {
+      "year": "2016",
+      "pages": "517--524",
+      "address": "Denver, {CO}, {USA}",
+      "month": "July",
+      "booktitle": "Proc. Genetic and Evolutionary Computation Conference (GECCO)",
+      "author": "van Steenkiste, Sjoerd and Koutn{\\'\\i}k, Jan and Driessens, Kurt and Schmidhuber, J{\\\"u}rgen",
+      "title": "A wavelet-based encoding for neuroevolution",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "van2016wavelet"
+    },
+    {
+      "address": "Virtual only",
+      "month": "May",
+      "year": "2021",
+      "booktitle": "Int. Conf. on Learning Representations (ICLR)",
+      "author": "Faccio, Francesco and Kirsch, Louis and Schmidhuber, J{\\\"u}rgen",
+      "title": "Parameter-based Value Functions",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "faccio2020parameter"
+    },
+    {
+      "year": "2020",
+      "howpublished": "Preprint arXiv:2002.11448",
+      "author": "Unterthiner, Thomas and Keysers, Daniel and Gelly, Sylvain and Bousquet, Olivier and Tolstikhin, Ilya",
+      "title": "Predicting neural network accuracy from weights",
+      "ENTRYTYPE": "misc",
+      "ID": "unterthiner2020predicting"
+    },
+    {
+      "year": "2020",
+      "howpublished": "Preprint arXiv:2002.11833",
+      "author": "Harb, Jean and Schaul, Tom and Precup, Doina and Bacon, Pierre-Luc",
+      "title": "Policy evaluation networks",
+      "ENTRYTYPE": "misc",
+      "ID": "harb2020policy"
+    },
+    {
+      "year": "1974",
+      "pages": "90--93",
+      "number": "1",
+      "volume": "100",
+      "journal": "IEEE Transactions on Computers",
+      "author": "Ahmed, Nasir and Natarajan, T. and Rao, Kamisetty R",
+      "title": "Discrete cosine transform",
+      "ENTRYTYPE": "article",
+      "ID": "ahmed1974discrete"
+    },
+    {
+      "year": "2021",
+      "journal": "Preprint arXiv:2102.01951",
+      "author": "Lazaridou, Angeliki and Kuncoro, Adhiguna and Gribovskaya, Elena and Agrawal, Devang and Liska, Adam and Terzi, Tayfun and Gimenez, Mai and d'Autume, Cyprien de Masson and Ruder, Sebastian and Yogatama, Dani and others",
+      "title": "Pitfalls of Static Language Modelling",
+      "ENTRYTYPE": "article",
+      "ID": "lazaridou2021pitfalls"
+    },
+    {
+      "year": "2001",
+      "pages": "87--94",
+      "volume": "2130",
+      "month": "August",
+      "address": "Vienna, Austria",
+      "booktitle": "Proc. Int. Conf. on Artificial Neural Networks ({ICANN})",
+      "title": "Learning to Learn Using Gradient Descent",
+      "author": "Sepp Hochreiter and\nA. Steven Younger and\nPeter R. Conwell",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "hochreiter2001learning"
+    },
+    {
+      "year": "1992",
+      "month": "November",
+      "number": "CU-CS-627-92",
+      "institution": "Dept. of Comp. Sci., University of Colorado at Boulder",
+      "title": "Steps towards ``Self-Referential'' Learning",
+      "author": "J\\\"urgen Schmidhuber",
+      "ENTRYTYPE": "techreport",
+      "ID": "Schmidhuber:92selfref"
+    },
+    {
+      "year": "1993",
+      "month": "September",
+      "pages": "446-451",
+      "address": "Amsterdam, Netherlands",
+      "booktitle": "Proc. Int. Conf. on\nArtificial Neural Networks (ICANN)",
+      "title": "A self-referential  weight matrix",
+      "author": "J\\\"urgen Schmidhuber",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "Schmidhuber:93selfreficann"
+    },
+    {
+      "year": "1993",
+      "pages": "191-195",
+      "month": "May",
+      "address": "Brighton, {UK}",
+      "booktitle": "Proc. {IEE} Int. Conf. on  Artificial Neural Networks",
+      "title": "An introspective  network that can learn to run its own\nweight change algorithm",
+      "author": "J\\\"urgen Schmidhuber",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "Schmidhuber:93selfrefann"
+    },
+    {
+      "year": "1993",
+      "address": "San Francisco, {CA}, {USA}",
+      "month": "March",
+      "booktitle": "Proc. {IEEE} Int. Conf. on Neural Networks (ICNN)",
+      "title": "A neural network that embeds its own meta-levels",
+      "author": "J\\\"urgen Schmidhuber",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "Schmidhuber:93selfrefieee"
+    },
+    {
+      "year": "2020",
+      "address": "Virtual only",
+      "title": "Implicit Neural Representations with Periodic Activation Functions",
+      "pages": "7462--7473",
+      "booktitle": "Proc. Advances in Neural Information Processing Systems (NeurIPS)",
+      "author": "Sitzmann, Vincent and Martel, Julien and Bergman, Alexander and Lindell, David and Wetzstein, Gordon",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "sitzmann20"
+    },
+    {
+      "year": "2012",
+      "volume": "6",
+      "journal": "URL http://prize. hutter1. net",
+      "author": "Hutter, Marcus",
+      "title": "The human knowledge compression contest",
+      "ENTRYTYPE": "article",
+      "ID": "hutter2012human"
+    },
+    {
+      "year": "2018",
+      "journal": "Preprint arXiv:1803.08240",
+      "author": "Merity, Stephen and Keskar, Nitish Shirish and Socher, Richard",
+      "title": "An analysis of neural language modeling at multiple scales",
+      "ENTRYTYPE": "article",
+      "ID": "merity2018analysis"
+    },
+    {
+      "year": "2016",
+      "journal": "Preprint arXiv:1608.06027",
+      "author": "Rocki, Kamil M",
+      "title": "Surprisal-driven feedback in recurrent networks",
+      "ENTRYTYPE": "article",
+      "ID": "rocki2016surprisal"
+    },
+    {
+      "year": "2018",
+      "title": "{RADMM}: Recurrent Adaptive Mixture Model with\nApplications to Domain Robust Language Modeling",
+      "pages": "6079-6083",
+      "month": "April",
+      "booktitle": "Proc. {IEEE} Int. Conf. on Acoustics, Speech and\nSignal Processing (ICASSP)",
+      "author": "Irie, Kazuki and Kumar, Shankar and Nirschl, Michael and\nLiao, Hank",
+      "address": "Calgary, Canada",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "irie18:radmm"
+    },
+    {
+      "year": "2019",
+      "address": "New Orleans, {LA}, {USA}",
+      "booktitle": "Int. Conf. on Learning Representations (ICLR)",
+      "author": "Jonathan Frankle and Michael Carbin",
+      "title": "The Lottery Ticket Hypothesis: Finding Sparse, Trainable Neural Networks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "frankle2018"
+    },
+    {
+      "publisher": "Kluwer",
+      "year": "1997",
+      "pages": "293--309",
+      "booktitle": "Learning to learn",
+      "author": "Schmidhuber, J{\\\"u}rgen and Zhao, Jieyu and Schraudolph, Nicol N",
+      "title": "Reinforcement learning with self-modifying policies",
+      "ENTRYTYPE": "incollection",
+      "ID": "schmidhuber1998reinforcement"
+    },
+    {
+      "address": "Long Beach, {CA}, {USA}",
+      "month": "December",
+      "year": "2017",
+      "pages": "6467--6476",
+      "booktitle": "Proc. Advances in Neural Information Processing Systems (NeurIPS)",
+      "title": "Gradient Episodic Memory for Continual Learning",
+      "author": "David Lopez{-}Paz and\nMarc'Aurelio Ranzato",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "Lopez-PazR17"
+    },
+    {
+      "year": "1990",
+      "address": "San Diego, {CA}, {USA}",
+      "month": "June",
+      "pages": "553--559",
+      "booktitle": "Proc. Int. Joint Conf. on Neural Networks (IJCNN)",
+      "author": "Cotter, Neil E and Conwell, Peter R",
+      "title": "Fixed-weight networks can learn",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "cotter1990fixed"
+    },
+    {
+      "year": "1991",
+      "month": "July",
+      "address": "Seattle, {WA}, {USA}",
+      "pages": "799--801",
+      "booktitle": "Proc. Int. Joint Conf. on Neural Networks (IJCNN)",
+      "author": "Cotter, Neil E and Conwell, Peter R",
+      "title": "Learning algorithms and fixed dynamics",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "cotter1991learning"
+    },
+    {
+      "address": "Barcelona, Spain",
+      "year": "2016",
+      "pages": "3981--3989",
+      "month": "December",
+      "booktitle": "Proc. Advances in Neural Information Processing Systems (NeurIPS)",
+      "title": "Learning to learn by gradient descent by gradient descent",
+      "author": "Marcin Andrychowicz and\nMisha Denil and\nSergio Gomez Colmenarejo and\nMatthew W. Hoffman and\nDavid Pfau and\nTom Schaul and\nNando de Freitas",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "AndrychowiczDCH16"
+    },
+    {
+      "address": "Palo Alto, {CA}, {USA}",
+      "month": "March",
+      "year": "2013",
+      "booktitle": "{AAAI} Spring Symposium Lifelong Machine Learning",
+      "title": "Lifelong Machine Learning Systems: Beyond Learning Algorithms",
+      "author": "Daniel L. Silver and\nQiang Yang and\nLianghao Li",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "SilverYL13"
+    },
+    {
+      "address": "Atlanta, {GA}, {USA}",
+      "month": "July",
+      "page": "1306--1313",
+      "year": "2010",
+      "booktitle": "Proc. {AAAI} Conf. on Artificial Intelligence",
+      "title": "Toward an Architecture for Never-Ending Language Learning",
+      "author": "Andrew Carlson and\nJustin Betteridge and\nBryan Kisiel and\nBurr Settles and\nEstevam R. Hruschka Jr. and\nTom M. Mitchell",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "CarlsonBKSHM10"
+    },
+    {
+      "year": "2019",
+      "month": "December",
+      "address": "Vancouver, Canada",
+      "pages": "348--358",
+      "booktitle": "Proc. Advances in Neural Information Processing Systems (NeurIPS)",
+      "title": "Experience Replay for Continual Learning",
+      "author": "David Rolnick and\nArun Ahuja and\nJonathan Schwarz and\nTimothy P. Lillicrap and\nGregory Wayne",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "RolnickASLW19"
+    },
+    {
+      "year": "2017",
+      "pages": "1480--1490",
+      "address": "Sydney, Australia",
+      "month": "August",
+      "booktitle": "Proc. Int. Conf. on Machine Learning (ICML)",
+      "title": "{DARLA:} Improving Zero-Shot Transfer in Reinforcement Learning",
+      "editor": "Doina Precup and\nYee Whye Teh",
+      "author": "Irina Higgins and\nArka Pal and\nAndrei A. Rusu and\nLo{\\\"{\\i}}c Matthey and\nChristopher Burgess and\nAlexander Pritzel and\nMatthew Botvinick and\nCharles Blundell and\nAlexander Lerchner",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "HigginsPRMBPBBL17"
+    },
+    {
+      "year": "2020",
+      "journal": "Preprint arXiv:2008.08076",
+      "author": "Shuster, Kurt and Urbanek, Jack and Dinan, Emily and Szlam, Arthur and Weston, Jason",
+      "title": "Deploying Lifelong Open-Domain Dialogue Learning",
+      "ENTRYTYPE": "article",
+      "ID": "shuster2020deploying"
+    },
+    {
+      "year": "2016",
+      "pages": "1842--1850",
+      "address": "New York City, {NY}, {USA}",
+      "month": "June",
+      "booktitle": "Proc. Int. Conf. on Machine Learning (ICML)",
+      "title": "Meta-Learning with Memory-Augmented Neural Networks",
+      "author": "Adam Santoro and\nSergey Bartunov and\nMatthew Botvinick and\nDaan Wierstra and\nTimothy P. Lillicrap",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "SantoroBBWL16"
+    },
+    {
+      "year": "2019",
+      "journal": "Preprint arXiv:1905.03030",
+      "author": "Ortega, Pedro A and Wang, Jane X and Rowland, Mark and Genewein, Tim and Kurth-Nelson, Zeb and Pascanu, Razvan and Heess, Nicolas and Veness, Joel and Pritzel, Alex and Sprechmann, Pablo and others",
+      "title": "Meta-learning of sequential strategies",
+      "ENTRYTYPE": "article",
+      "ID": "ortega2019meta"
+    },
+    {
+      "year": "2016",
+      "journal": "Preprint arXiv:1611.02779",
+      "author": "Duan, Yan and Schulman, John and Chen, Xi and Bartlett, Peter L and Sutskever, Ilya and Abbeel, Pieter",
+      "title": "{RL}$^2$: Fast reinforcement learning via slow reinforcement learning",
+      "ENTRYTYPE": "article",
+      "ID": "duan2016rl"
+    },
+    {
+      "address": "London, {UK}",
+      "month": "July",
+      "year": "2017",
+      "booktitle": "Proc. Annual Meeting of the Cognitive Science Society (CogSci)",
+      "title": "Learning to reinforcement learn",
+      "author": "Jane Wang and\nZeb Kurth{-}Nelson and\nHubert Soyer and\nJoel Z. Leibo and\nDhruva Tirumala and\nR{\\'{e}}mi Munos and\nCharles Blundell and\nDharshan Kumaran and\nMatt M. Botvinick",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "wang2016learning"
+    },
+    {
+      "year": "2021",
+      "pages": "5637--5664",
+      "address": "Virtual only",
+      "booktitle": "Proc. Int. Conf. on Machine Learning (ICML)",
+      "author": "Koh, Pang Wei and Sagawa, Shiori and Xie, Sang Michael and Zhang, Marvin and Balsubramani, Akshay and Hu, Weihua and Yasunaga, Michihiro and Phillips, Richard Lanas and Gao, Irena and Lee, Tony and others",
+      "title": "Wilds: A benchmark of in-the-wild distribution shifts",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "koh2021wilds"
+    },
+    {
+      "year": "2018",
+      "pages": "3661--3670",
+      "address": "Stockholm, Sweden",
+      "month": "July",
+      "booktitle": "Proc. Int. Conf. on Machine Learning (ICML)",
+      "title": "Rapid Adaptation with Conditionally Shifted Neurons",
+      "author": "Tsendsuren Munkhdalai and\nXingdi Yuan and\nSoroush Mehri and\nAdam Trischler",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "MunkhdalaiYMT18"
+    },
+    {
+      "year": "2009",
+      "pages": "150--155",
+      "month": "March",
+      "address": "Arlington, VA, USA",
+      "booktitle": "Proc. Conf. on Artificial General Intelligence (AGI)",
+      "author": "Nivel, Eric and Th{\\'o}risson, Kristinn R",
+      "title": "Self-programming: Operationalizing autonomy",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "nivel2009self"
+    },
+    {
+      "year": "2018",
+      "pages": "20",
+      "volume": "5",
+      "journal": "Frontiers in Robotics and AI",
+      "author": "Wang, Pei and Li, Xiang and Hammer, Patrick",
+      "title": "Self in {NARS}, an {AGI} System",
+      "ENTRYTYPE": "article",
+      "ID": "wang2018self"
+    },
+    {
+      "year": "2020",
+      "pages": "89--90",
+      "month": "July",
+      "address": "Canc{\\'{u}}n, Mexico",
+      "booktitle": "Proc. Genetic and Evolutionary Computation Conference {(GECCO)}, Companion Volume",
+      "title": "Adaptive reinforcement learning through evolving self-modifying neural\nnetworks",
+      "author": "Samuel Schmidgall",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "Schmidgall20"
+    },
+    {
+      "year": "1997",
+      "pages": "105--130",
+      "number": "1",
+      "volume": "28",
+      "journal": "Machine Learning",
+      "author": "Schmidhuber, J{\\\"u}rgen and Zhao, Jieyu and Wiering, Marco",
+      "title": "Shifting inductive bias with success-story algorithm, adaptive {L}evin search, and incremental self-improvement",
+      "ENTRYTYPE": "article",
+      "ID": "schmidhuber1997shifting"
+    },
+    {
+      "address": "Punta Cana, Dominican Republic",
+      "month": "November",
+      "year": "2021",
+      "booktitle": "Proc. Conf. on Empirical Methods in Natural Language Processing (EMNLP)",
+      "author": "R\\'obert Csord\\'as and Kazuki Irie and J\\\"urgen Schmidhuber",
+      "title": "The Devil is in the Detail: Simple Tricks Improve Systematic Generalization of Transformers",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "csordas2021devil"
+    },
+    {
+      "publisher": "Springer",
+      "year": "2007",
+      "pages": "31--62",
+      "booktitle": "Artificial general intelligence",
+      "author": "Wang, Pei",
+      "title": "The logic of intelligence",
+      "ENTRYTYPE": "incollection",
+      "ID": "wang2007logic"
+    },
+    {
+      "year": "2020",
+      "author": "Eagleman, David",
+      "title": "Livewired: The inside story of the ever-changing brain",
+      "ENTRYTYPE": "book",
+      "ID": "eagleman2020livewired"
+    },
+    {
+      "year": "2020",
+      "address": "Virtual only",
+      "booktitle": "Proc. Advances in Neural Information Processing Systems (NeurIPS)",
+      "month": "December",
+      "title": "Meta-Learning through {H}ebbian Plasticity in Random Networks",
+      "author": "Elias Najarro and Sebastian Risi",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "NajarroR20"
+    },
+    {
+      "year": "2020",
+      "pages": "2048--2056",
+      "month": "July",
+      "address": "Virtual only",
+      "booktitle": "Proc. Int. Conf. on Machine Learning (ICML)",
+      "title": "Leveraging Procedural Generation to Benchmark Reinforcement Learning",
+      "author": "Karl Cobbe and\nChristopher Hesse and\nJacob Hilton and\nJohn Schulman",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "CobbeHHS20"
+    },
+    {
+      "year": "2021",
+      "month": "December",
+      "address": "Virtual only",
+      "booktitle": "Proc. Advances in Neural Information Processing Systems (NeurIPS)",
+      "author": "Kazuki Irie and Imanol Schlag and R\\'obert Csord\\'as and J\\\"urgen Schmidhuber",
+      "title": "Going Beyond Linear Transformers with Recurrent Fast Weight Programmers",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "irie2021going"
+    },
+    {
+      "school": "Technische Universit{\\\"a}t M{\\\"u}nchen",
+      "year": "1987",
+      "author": "Schmidhuber, J{\\\"u}rgen",
+      "title": "Evolutionary principles in self-referential learning, or on learning how to learn: the meta-meta-... hook",
+      "ENTRYTYPE": "phdthesis",
+      "ID": "schmidhuber1987evolutionary"
+    },
+    {
+      "month": "July",
+      "address": "Stockholm, Sweden",
+      "year": "2018",
+      "pages": "3559--3568",
+      "booktitle": "Proc. Int. Conf. on Machine Learning (ICML)",
+      "author": "Miconi, Thomas and Stanley, Kenneth and Clune, Jeff",
+      "title": "Differentiable plasticity: training plastic neural networks with backpropagation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "miconi18a"
+    },
+    {
+      "year": "2016",
+      "pages": "129--139",
+      "month": "July",
+      "address": "New York, NY, USA",
+      "booktitle": "Proc. Conf. on Artificial General Intelligence (AGI)",
+      "title": "Growing Recursive Self-Improvers",
+      "author": "Bas R. Steunebrink and\nKristinn R. Th{\\'{o}}risson and\nJ{\\\"{u}}rgen Schmidhuber",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "SteunebrinkTS16"
+    },
+    {
+      "year": "2006",
+      "publisher": "Springer",
+      "booktitle": "Artificial General Intelligence",
+      "title": "G\\\"{o}del machines: Fully Self-Referential \nOptimal Universal Self-Improvers",
+      "author": "J{\\\"{u}}rgen Schmidhuber",
+      "ENTRYTYPE": "incollection",
+      "ID": "Schmidhuber:04agi"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "1964",
+      "pages": "1--22",
+      "number": "1",
+      "volume": "7",
+      "journal": "Information and control",
+      "author": "Solomonoff, Ray J",
+      "title": "A formal theory of inductive inference. Part I",
+      "ENTRYTYPE": "article",
+      "ID": "solomonoff1964formal"
+    },
+    {
+      "year": "1990",
+      "number": "FKI-126-90, \\url{http://people.idsia.ch/~juergen/FKI-126-90_(revised)bw_ocr.pdf}",
+      "institution": "Tech. Univ. Munich",
+      "title": "Making the world differentiable:\nOn Using Fully Recurrent Self-Supervised Neural Networks for\nDynamic Reinforcement Learning and Planning in Non-Stationary\nEnvironments",
+      "author": "J{\\\"{u}}rgen Schmidhuber",
+      "ENTRYTYPE": "techreport",
+      "ID": "Schmidhuber:90diffenglish"
+    },
+    {
+      "year": "1987",
+      "note": "http://www.idsia.ch/\\~{ }juergen/diploma.html",
+      "title": "{Evolutionary principles in self-referential learning, or\non learning how to learn: the meta-meta-... hook.\nInstitut f\\\"{u}r Informatik,\nTechnische Universit\\\"{a}t M\\\"{u}nchen}",
+      "author": "J{\\\"{u}}rgen Schmidhuber",
+      "ENTRYTYPE": "misc",
+      "ID": "Schmidhuber:87long"
+    },
+    {
+      "year": "2017",
+      "pages": "1126--1135",
+      "address": "Sydney, Australia",
+      "month": "August",
+      "booktitle": "Proc. Int. Conf. on Machine Learning (ICML)",
+      "title": "Model-Agnostic Meta-Learning for Fast Adaptation of Deep Networks",
+      "author": "Chelsea Finn and\nPieter Abbeel and\nSergey Levine",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "FinnAL17"
+    },
+    {
+      "year": "2018",
+      "address": "Vancouver, Canada",
+      "month": "April",
+      "booktitle": "Int. Conf. on Learning Representations (ICLR)",
+      "title": "Meta-Learning and Universality: Deep Representations and Gradient Descent can Approximate any Learning Algorithm",
+      "author": "Chelsea Finn and\nSergey Levine",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "FinnL18"
+    },
+    {
+      "year": "2021",
+      "pages": "9288--9300",
+      "address": "Virtual only",
+      "month": "July",
+      "booktitle": "Proc. Int. Conf. on Machine Learning (ICML)",
+      "title": "Meta-Learning Bidirectional Update Rules",
+      "author": "Mark Sandler and\nMax Vladymyrov and\nAndrey Zhmoginov and\nNolan Miller and\nTom Madams and\nAndrew Jackson and\nBlaise Ag{\\\"{u}}era y Arcas",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "sandler21"
+    },
+    {
+      "address": "Virtual only",
+      "month": "December",
+      "year": "2021",
+      "booktitle": "Conference on Neural Information Processing Systems (NeurIPS), Track on Datasets and Benchmarks",
+      "author": "Lin, Zhiqiu and Shi, Jia and Pathak, Deepak and Ramanan, Deva",
+      "title": "The {CLEAR} {B}enchmark: {C}ontinual {LEA}rning on {R}eal-{W}orld {I}magery",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "lin2021clear"
+    },
+    {
+      "year": "2020",
+      "address": "Virtual Only",
+      "month": "December",
+      "booktitle": "Proc. Advances in Neural Information Processing Systems (NeurIPS)",
+      "title": "Neural Controlled Differential Equations for Irregular Time Series",
+      "author": "Patrick Kidger and\nJames Morrill and\nJames Foster and\nTerry J. Lyons",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "KidgerMFL20"
+    },
+    {
+      "year": "2017",
+      "month": "March",
+      "pages": "1--11",
+      "number": "5",
+      "volume": "1",
+      "journal": "Communications in Mathematics and Statistics",
+      "author": "Weinan E",
+      "title": "A proposal on machine learning via dynamical systems",
+      "ENTRYTYPE": "article",
+      "ID": "weinan2017proposal"
+    },
+    {
+      "year": "2018",
+      "pages": "3282--3291",
+      "month": "July",
+      "address": "Stockholm, Sweden",
+      "booktitle": "Proc. Int. Conf. on Machine Learning (ICML)",
+      "title": "Beyond Finite Layer Neural Networks: Bridging Deep Architectures and Numerical Differential Equations",
+      "author": "Yiping Lu and\nAoxiao Zhong and\nQuanzheng Li and\nBin Dong",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "LuZLD18"
+    },
+    {
+      "year": "2018",
+      "pages": "6572--6583",
+      "month": "December",
+      "address": "Montr{\\'{e}}al, Canada",
+      "booktitle": "Proc. Advances in Neural Information Processing Systems (NeurIPS)",
+      "title": "Neural Ordinary Differential Equations",
+      "author": "Tian Qi Chen and\nYulia Rubanova and\nJesse Bettencourt and\nDavid Duvenaud",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ChenRBD18"
+    },
+    {
+      "year": "2018",
+      "pages": "2811--2818",
+      "month": "February",
+      "address": "New Orleans, {LA}, {USA}",
+      "booktitle": "Proc. {AAAI} Conf. on Artificial Intelligence",
+      "title": "Reversible Architectures for Arbitrarily Deep Residual Neural Networks",
+      "author": "Bo Chang and\nLili Meng and\nEldad Haber and\nLars Ruthotto and\nDavid Begert and\nElliot Holtham",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ChangMHRBH18"
+    },
+    {
+      "year": "2018",
+      "address": "New Orleans, {LA}, {USA}",
+      "month": "February",
+      "pages": "3142--3148",
+      "booktitle": "Proc. {AAAI} Conf. on Artificial Intelligence",
+      "title": "Learning Across Scales - Multiscale Methods for Convolution Neural\nNetworks",
+      "author": "Eldad Haber and\nLars Ruthotto and\nElliot Holtham and\nSeong{-}Hwan Jun",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "HaberRHJ18"
+    },
+    {
+      "year": "2018",
+      "month": "April",
+      "address": "Vancouver, Canada",
+      "booktitle": "Int. Conf. on Learning Representations (ICLR)",
+      "title": "Multi-level Residual Networks from Dynamical Systems View",
+      "author": "Bo Chang and\nLili Meng and\nEldad Haber and\nFrederick Tung and\nDavid Begert",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ChangMHTB18"
+    },
+    {
+      "journal": "Inverse Problems",
+      "title": "Stable architectures for deep neural networks",
+      "author": "Eldad Haber and Lars Ruthotto",
+      "pages": "014004",
+      "number": "1",
+      "volume": "34",
+      "month": "December",
+      "year": "2017",
+      "ENTRYTYPE": "article",
+      "ID": "Haber_2017"
+    },
+    {
+      "year": "2017",
+      "journal": "Preprint arXiv:1710.04110",
+      "author": "Mozer, Michael C and Kazakov, Denis and Lindsey, Robert V",
+      "title": "Discrete event, continuous time {RNN}s",
+      "ENTRYTYPE": "article",
+      "ID": "mozer2017discrete"
+    },
+    {
+      "year": "2019",
+      "pages": "5321--5331",
+      "month": "December",
+      "address": "Vancouver, Canada",
+      "booktitle": "Proc. Advances in Neural Information Processing Systems (NeurIPS)",
+      "title": "Latent Ordinary Differential Equations for Irregularly-Sampled Time\nSeries",
+      "author": "Yulia Rubanova and\nTian Qi Chen and\nDavid Duvenaud",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "RubanovaCD19"
+    },
+    {
+      "year": "2019",
+      "pages": "7377--7388",
+      "address": "Vancouver, Canada",
+      "month": "December",
+      "booktitle": "Proc. Advances in Neural Information Processing Systems (NeurIPS)",
+      "title": "{GRU}-{ODE}-{B}ayes: Continuous Modeling of Sporadically-Observed Time Series",
+      "author": "Edward De Brouwer and\nJaak Simm and\nAdam Arany and\nYves Moreau",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "BrouwerSAM19"
+    },
+    {
+      "year": "2021",
+      "address": "Virtual only",
+      "month": "December",
+      "booktitle": "Proc. Advances in Neural Information Processing Systems (NeurIPS)",
+      "author": "Fermanian, Adeline and Marion, Pierre and Vert, Jean-Philippe and Biau, G{\\'e}rard",
+      "title": "Framing {RNN} as a kernel method: A neural {ODE} approach",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "fermanian2021framing"
+    },
+    {
+      "year": "2020",
+      "address": "Virtual only",
+      "month": "December",
+      "booktitle": "Proc. Advances in Neural Information Processing Systems (NeurIPS)",
+      "title": "Ode to an {ODE}",
+      "author": "Krzysztof Marcin Choromanski and\nJared Quincy Davis and\nValerii Likhosherstov and\nXingyou Song and\nJean{-}Jacques E. Slotine and\nJacob Varley and\nHonglak Lee and\nAdrian Weller and\nVikas Sindhwani",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ChoromanskiDLSS20"
+    },
+    {
+      "year": "2018",
+      "pages": "3029--3039",
+      "month": "December",
+      "address": "Montr{\\'{e}}al, Canada",
+      "booktitle": "Proc. Advances in Neural Information Processing Systems (NeurIPS)",
+      "title": "{NAIS}-{N}et: Stable Deep Networks from Non-Autonomous Differential Equations",
+      "author": "Marco Ciccone and\nMarco Gallieri and\nJonathan Masci and\nChristian Osendorfer and\nFaustino J. Gomez",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "CicconeGMOG18"
+    },
+    {
+      "year": "2019",
+      "address": "Vancouver, Canada",
+      "month": "December",
+      "pages": "5152--5162",
+      "booktitle": "Proc. Advances in Neural Information Processing Systems (NeurIPS)",
+      "title": "{ANODEV2:} {A} Coupled Neural {ODE} Framework",
+      "author": "Tianjun Zhang and\nZhewei Yao and\nAmir Gholami and\nJoseph E. Gonzalez and\nKurt Keutzer and\nMichael W. Mahoney and\nGeorge Biros",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ZhangYGGKMB19"
+    },
+    {
+      "year": "2020",
+      "pages": "1339--1343",
+      "address": "Virtual only",
+      "month": "July",
+      "booktitle": "Proc. Conf. on Learning Theory (COLT)",
+      "title": "{ODE}-Inspired Analysis for the Biological Version of {O}ja's Rule in\nSolving Streaming {PCA}",
+      "author": "Chi{-}Ning Chou and\nMien Brabeeba Wang",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ChouW20"
+    },
+    {
+      "year": "1992",
+      "pages": "229--240",
+      "number": "2",
+      "volume": "5",
+      "journal": "Neural Networks",
+      "author": "Hornik, Kurt and Kuan, C-M",
+      "title": "Convergence analysis of local feature extraction algorithms",
+      "ENTRYTYPE": "article",
+      "ID": "hornik1992convergence"
+    },
+    {
+      "year": "1989",
+      "pages": "459--473",
+      "number": "6",
+      "volume": "2",
+      "journal": "Neural networks",
+      "author": "Sanger, Terence D",
+      "title": "Optimal unsupervised learning in a single-layer linear feedforward neural network",
+      "ENTRYTYPE": "article",
+      "ID": "sanger1989optimal"
+    },
+    {
+      "year": "1995",
+      "pages": "11--23",
+      "number": "1",
+      "volume": "8",
+      "journal": "Neural Networks",
+      "author": "Plumbley, Mark D",
+      "title": "Lyapunov functions for convergence of principal component algorithms",
+      "ENTRYTYPE": "article",
+      "ID": "plumbley1995lyapunov"
+    },
+    {
+      "year": "1985",
+      "pages": "69--84",
+      "number": "1",
+      "volume": "106",
+      "journal": "Journal of mathematical analysis and applications",
+      "author": "Oja, Erkki and Karhunen, Juha",
+      "title": "On stochastic approximation of the eigenvectors and eigenvalues of the expectation of a random matrix",
+      "ENTRYTYPE": "article",
+      "ID": "oja1985stochastic"
+    },
+    {
+      "publisher": "Institute for Cognitive Science, University of California, San Diego",
+      "year": "1985",
+      "volume": "8501",
+      "author": "Williams, Ronald J",
+      "title": "Feature discovery through error-correction learning",
+      "ENTRYTYPE": "book",
+      "ID": "williams1985feature"
+    },
+    {
+      "year": "2021",
+      "school": "Mathematical Institute, University of Oxford",
+      "title": "On Neural Differential Equations",
+      "author": "Kidger, Patrick",
+      "ENTRYTYPE": "phdthesis",
+      "ID": "kidger2022neural"
+    },
+    {
+      "year": "1995",
+      "pages": "915--922",
+      "number": "5",
+      "volume": "7",
+      "journal": "Neural Computation",
+      "title": "Time-Domain Solutions of {O}ja's Equations",
+      "author": "John L. {Wyatt Jr.} and\nIbrahim M. Elfadel",
+      "ENTRYTYPE": "article",
+      "ID": "WyattE95"
+    },
+    {
+      "year": "2018",
+      "journal": "Preprint arXiv:1811.00075",
+      "author": "Bagnall, Anthony and Dau, Hoang Anh and Lines, Jason and Flynn, Michael and Large, James and Bostrom, Aaron and Southam, Paul and Keogh, Eamonn",
+      "title": "The {UEA} multivariate time series classification archive, 2018",
+      "ENTRYTYPE": "article",
+      "ID": "bagnall2018uea"
+    },
+    {
+      "year": "2022",
+      "month": "July",
+      "address": "Baltimore, {MD}, {USA}",
+      "booktitle": "Proc. Int. Conf. on Machine Learning (ICML)",
+      "author": "Irie, Kazuki and Csord{\\'a}s, R{\\'o}bert and Schmidhuber, J{\\\"u}rgen",
+      "title": "The Dual Form of Neural Networks Revisited: Connecting Test Time Predictions to Training Patterns via Spotlights of Attention",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "irie2022dual"
+    },
+    {
+      "year": "2021",
+      "pages": "7829--7838",
+      "address": "Virtual only",
+      "month": "July",
+      "booktitle": "Proc. Int. Conf. on Machine Learning (ICML)",
+      "title": "Neural Rough Differential Equations for Long Time Series",
+      "author": "James Morrill and\nCristopher Salvi and\nPatrick Kidger and\nJames Foster",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "morrillSKF21"
+    },
+    {
+      "year": "2020",
+      "address": "Virtual only",
+      "month": "December",
+      "booktitle": "Proc. Advances in Neural Information Processing Systems (NeurIPS)",
+      "title": "Model-based Reinforcement Learning for Semi-Markov Decision Processes\nwith Neural {ODE}s",
+      "author": "Jianzhun Du and\nJoseph Futoma and\nFinale Doshi{-}Velez",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "DuFD20"
+    },
+    {
+      "year": "2022",
+      "month": "April",
+      "address": "Virtual only",
+      "booktitle": "Int. Conf. on Learning Representations (ICLR)",
+      "author": "Deleu, Tristan and Kanaa, David and Feng, Leo and Kerg, Giancarlo and Bengio, Yoshua and Lajoie, Guillaume and Bacon, Pierre-Luc",
+      "title": "Continuous-Time Meta-Learning with Forward Mode Differentiation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "deleu2022continuous"
+    },
+    {
+      "year": "2022",
+      "journal": "Preprint arXiv:2205.00002",
+      "author": "von der Malsburg, Christoph and Stadelmann, Thilo and Grewe, Benjamin F",
+      "title": "A Theory of Natural Intelligence",
+      "ENTRYTYPE": "article",
+      "ID": "von2022theory"
+    },
+    {
+      "year": "1990",
+      "pages": "179--211",
+      "number": "2",
+      "volume": "14",
+      "journal": "Cognitive science",
+      "author": "Elman, Jeffrey L",
+      "title": "Finding structure in time",
+      "ENTRYTYPE": "article",
+      "ID": "elman1990finding"
+    },
+    {
+      "year": "2016",
+      "title": "Deep Residual Learning for Image Recognition",
+      "pages": "770--778",
+      "month": "June",
+      "booktitle": "{IEEE} Conf. on Computer Vision and Pattern Recognition\n({CVPR})",
+      "author": "Kaiming He and Xiangyu Zhang and Shaoqing Ren and\nJian Sun",
+      "address": "Las Vegas, {NV}, {USA}",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "resnet"
+    },
+    {
+      "year": "2021",
+      "journal": "Preprint arXiv:2106.11028",
+      "author": "Morrill, James and Kidger, Patrick and Yang, Lingyi and Lyons, Terry",
+      "title": "Neural controlled differential equations for online prediction tasks",
+      "ENTRYTYPE": "article",
+      "ID": "morrill2021neural"
+    },
+    {
+      "year": "1982",
+      "pages": "267--273",
+      "number": "3",
+      "volume": "15",
+      "journal": "Journal of mathematical biology",
+      "author": "Oja, Erkki",
+      "title": "Simplified neuron model as a principal component analyzer",
+      "ENTRYTYPE": "article",
+      "ID": "oja1982simplified"
+    },
+    {
+      "year": "1964",
+      "pages": "917--936",
+      "number": "6",
+      "volume": "25",
+      "journal": "Automation and Remote Control",
+      "author": "Aizerman, Mark A. and Braverman, Emmanuil M. and Rozonoer, Lev I.",
+      "title": "Theoretical foundations of potential function method in pattern recognition",
+      "ENTRYTYPE": "article",
+      "ID": "aizerman1964theoretical"
+    },
+    {
+      "year": "2018",
+      "journal": "Preprint arXiv:1804.03209",
+      "author": "Warden, Pete",
+      "title": "Speech commands: A dataset for limited-vocabulary speech recognition",
+      "ENTRYTYPE": "article",
+      "ID": "warden2018speech"
+    },
+    {
+      "address": "Singapore",
+      "month": "September",
+      "year": "2019",
+      "pages": "1--4",
+      "booktitle": "Proc. Computing in Cardiology (CinC)",
+      "title": "Early Prediction of Sepsis from Clinical Data: the {P}hysio{N}et/Computing\nin Cardiology Challenge 2019",
+      "author": "Matthew A. Reyna and\nChristopher Josef and\nSalman Seyedi and\nRussell Jeter and\nSupreeth P. Shashikumar and\nM. Brandon Westover and\nAshish Sharma and\nShamim Nemati and\nGari D. Clifford",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ReynaJSJSWSNC19"
+    },
+    {
+      "year": "1996",
+      "pages": "1072--1094",
+      "number": "4",
+      "volume": "28",
+      "journal": "Advances in applied probability",
+      "author": "Fort, Jean-Claude and Pages, Gilles",
+      "title": "Convergence of stochastic algorithms: From the {K}ushner--{C}lark theorem to the {L}yapounov functional method",
+      "ENTRYTYPE": "article",
+      "ID": "fort1996convergence"
+    },
+    {
+      "year": "1993",
+      "pages": "801--806",
+      "number": "6",
+      "volume": "6",
+      "journal": "Neural networks",
+      "author": "Funahashi, Ken-ichi and Nakamura, Yuichi",
+      "title": "Approximation of dynamical systems by continuous time recurrent neural networks",
+      "ENTRYTYPE": "article",
+      "ID": "funahashi1993approximation"
+    },
+    {
+      "publisher": "Los Alamos National Laboratory, Los Alamos",
+      "year": "1987",
+      "journal": "Technical Report No. LA-UR-87-2662",
+      "author": "Lapedes, Alan and Farber, Robert",
+      "title": "Nonlinear signal processing using neural networks: Prediction and system modelling",
+      "ENTRYTYPE": "article",
+      "ID": "lapedes1987nonlinear"
+    },
+    {
+      "year": "1991",
+      "pages": "49",
+      "volume": "10",
+      "booktitle": "Some Problems on the Theory of Dynamical Systems in Applied Sciences-Proceedings of the Symposium",
+      "author": "Sato, Masa-aki and Murakami, Yoshihiko",
+      "title": "Learning Nonlinear Dynamics by Recurrent Neural",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "sato1991learning"
+    },
+    {
+      "year": "1992",
+      "pages": "25--48",
+      "number": "1",
+      "volume": "118",
+      "journal": "Chemical Engineering Communications",
+      "author": "Rico-Martinez, Ramiro and Krischer, K and Kevrekidis, Ioannis and Kube, MC and Hudson, JL",
+      "title": "Discrete-vs. continuous-time nonlinear signal processing of Cu electrodissolution data",
+      "ENTRYTYPE": "article",
+      "ID": "rico1992discrete"
+    },
+    {
+      "year": "1987",
+      "pages": "2229",
+      "number": "19",
+      "volume": "59",
+      "journal": "Physical review letters",
+      "author": "Pineda, Fernando J",
+      "title": "Generalization of back-propagation to recurrent neural networks",
+      "ENTRYTYPE": "article",
+      "ID": "pineda1987generalization"
+    },
+    {
+      "year": "1989",
+      "pages": "263--269",
+      "number": "2",
+      "volume": "1",
+      "journal": "Neural Computation",
+      "author": "Pearlmutter, Barak A",
+      "title": "Learning state space trajectories in recurrent neural networks",
+      "ENTRYTYPE": "article",
+      "ID": "pearlmutter1989learning"
+    },
+    {
+      "year": "2014",
+      "pages": "1229--1262",
+      "number": "7",
+      "volume": "25",
+      "journal": "IEEE Transactions on Neural Networks and Learning Systems",
+      "author": "Zhang, Huaguang and Wang, Zhanshan and Liu, Derong",
+      "title": "A comprehensive review of stability analysis of continuous-time recurrent neural networks",
+      "ENTRYTYPE": "article",
+      "ID": "zhang2014comprehensive"
+    },
+    {
+      "year": "2022",
+      "month": "April",
+      "address": "Virtual only",
+      "booktitle": "Int. Conf. on Learning Representations (ICLR)",
+      "author": "Rusch, T Konstantin and Mishra, Siddhartha and Erichson, N Benjamin and Mahoney, Michael W",
+      "title": "Long Expressive Memory for Sequence Modeling",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "rusch2021long"
+    },
+    {
+      "year": "2021",
+      "pages": "9168--9178",
+      "month": "July",
+      "address": "Virtual only",
+      "booktitle": "Proc. Int. Conf. on Machine Learning (ICML)",
+      "author": "Rusch, T Konstantin and Mishra, Siddhartha",
+      "title": "Un{ICORNN}: A recurrent model for learning very long time dependencies",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "rusch2021unicornn"
+    },
+    {
+      "year": "1989",
+      "pages": "61--68",
+      "number": "01",
+      "volume": "1",
+      "journal": "International journal of neural systems",
+      "author": "Oja, Erkki",
+      "title": "Neural networks, principal components, and subspaces",
+      "ENTRYTYPE": "article",
+      "ID": "oja1989neural"
+    },
+    {
+      "year": "2020",
+      "address": "Virtual only",
+      "booktitle": "Proc. Advances in Neural Information Processing Systems (NeurIPS)",
+      "author": "Du, Jianzhun and Futoma, Joseph and Doshi-Velez, Finale",
+      "title": "Model-based reinforcement learning for semi-{M}arkov decision processes with neural {ODE}s",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "du2020model"
+    },
+    {
+      "year": "2017",
+      "month": "April",
+      "address": "Toulon, France,",
+      "booktitle": "Int. Conf. on Learning Representations (ICLR)",
+      "title": "Learning to Repeat: Fine Grained Action Repetition for Deep Reinforcement\nLearning",
+      "author": "Sahil Sharma and\nAravind S. Lakshminarayanan and\nBalaraman Ravindran",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "SharmaLR17"
+    },
+    {
+      "address": "Vilamoura, Portugal",
+      "month": "October",
+      "year": "2012",
+      "publisher": "{IEEE}",
+      "pages": "5026--5033",
+      "booktitle": "{IEEE/RSJ} Int. Conf. on Intelligent Robots and\nSystems ({IROS})",
+      "title": "Mu{J}o{C}o: {A} physics engine for model-based control",
+      "author": "Emanuel Todorov and\nTom Erez and\nYuval Tassa",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "todorovET12"
+    },
+    {
+      "year": "2016",
+      "address": "San Juan, Puerto Rico",
+      "month": "May",
+      "booktitle": "Int. Conf. on Learning Representations (ICLR)",
+      "title": "Continuous control with deep reinforcement learning",
+      "author": "Timothy P. Lillicrap and\nJonathan J. Hunt and\nAlexander Pritzel and\nNicolas Heess and\nTom Erez and\nYuval Tassa and\nDavid Silver and\nDaan Wierstra",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "lillicrapHPHETS15"
+    },
+    {
+      "year": "2021",
+      "month": "July",
+      "address": "Virtual only",
+      "booktitle": "Proc. Int. Conf. on Machine Learning (ICML)",
+      "title": "Continuous-time Model-based Reinforcement Learning",
+      "author": "{\\c{C}}agatay Yildiz and\nMarkus Heinonen and\nHarri L{\\\"{a}}hdesm{\\\"{a}}ki",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "YildizHL21"
+    },
+    {
+      "year": "1994",
+      "author": "Puterman, Martin L",
+      "title": "Markov decision processes: discrete stochastic dynamic programming",
+      "ENTRYTYPE": "book",
+      "ID": "puterman2014markov"
+    },
+    {
+      "address": "Beijing, China",
+      "month": "June",
+      "year": "2014",
+      "booktitle": "Proc. Int. Conf. on Machine Learning (ICML)",
+      "title": "Deterministic Policy Gradient Algorithms",
+      "author": "Silver, David and Lever, Guy and Heess, Nicolas and Degris, Thomas and Wierstra, Daan and Riedmiller, Martin",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "Silver2014"
+    },
+    {
+      "year": "1999",
+      "address": "Denver, CO, USA",
+      "month": "November",
+      "pages": "1008--1014",
+      "booktitle": "Proc. Advances in Neural Information Processing Systems (NIPS)",
+      "title": "Actor-Critic Algorithms",
+      "author": "Vijay R. Konda and\nJohn N. Tsitsiklis",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "kondaactorcritic"
+    },
+    {
+      "school": "University of Massachusetts Amherst",
+      "author": "Sutton, Richard S",
+      "year": "1984",
+      "title": "Temporal Credit Assignment in Reinforcement Learning",
+      "ENTRYTYPE": "phdthesis",
+      "ID": "sutton1984temporal"
+    },
+    {
+      "year": "2005",
+      "pages": "280--291",
+      "month": "October",
+      "address": "Porto, Portugal",
+      "booktitle": "Proc. European Conference on Machine\nLearning (ECML)",
+      "title": "Natural Actor-Critic",
+      "author": "Jan Peters and\nSethu Vijayakumar and\nStefan Schaal",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "PetersVS05"
+    },
+    {
+      "keywords": "Actor-Critic methods, Compatible function approximation, Natural gradients, Policy-gradient methods, Reinforcement learning, Robot learning",
+      "address": "Amsterdam, The Netherlands, The Netherlands",
+      "publisher": "Elsevier Science Publishers B. V.",
+      "acmid": "1352986",
+      "numpages": "11",
+      "pages": "1180--1190",
+      "year": "2008",
+      "month": "March",
+      "number": "7-9",
+      "volume": "71",
+      "issue_date": "March, 2008",
+      "journal": "Neurocomput.",
+      "title": "Natural Actor-Critic",
+      "author": "Peters, Jan and Schaal, Stefan",
+      "ENTRYTYPE": "article",
+      "ID": "Peters:2008:NA:1352927.1352986"
+    },
+    {
+      "year": "2013",
+      "author": "Camacho, Eduardo F and Bordons, Carlos",
+      "title": "Model predictive control",
+      "ENTRYTYPE": "book",
+      "ID": "camacho2013model"
+    },
+    {
+      "year": "2000",
+      "pages": "789--814",
+      "number": "6",
+      "volume": "36",
+      "journal": "Automatica",
+      "author": "Mayne, David Q and Rawlings, James B and Rao, Christopher V and Scokaert, Pierre OM",
+      "title": "Constrained model predictive control: Stability and optimality",
+      "ENTRYTYPE": "article",
+      "ID": "mayne2000constrained"
+    },
+    {
+      "year": "2020",
+      "month": "April",
+      "address": "Virtual only",
+      "booktitle": "Int. Conf. on Learning Representations (ICLR)",
+      "author": "Clavera, Ignasi and Fu, Violet and Abbeel, Pieter",
+      "title": "Model-augmented actor-critic: Backpropagating through paths",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "clavera2020model"
+    },
+    {
+      "year": "2019",
+      "booktitle": "Int. Conf. on Learning Representations (ICLR)",
+      "month": "May",
+      "adddress": "New Orleans, LA, USA",
+      "author": "Lowrey, Kendall and Rajeswaran, Aravind and Kakade, Sham and Todorov, Emanuel and Mordatch, Igor",
+      "title": "Plan online, learn offline: Efficient learning and exploration via model-based control",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "lowrey2018plan"
+    },
+    {
+      "year": "2019",
+      "journal": "Preprint arXiv:1908.06012",
+      "author": "Hong, Zhang-Wei and Pajarinen, Joni and Peters, Jan",
+      "title": "Model-based lookahead reinforcement learning",
+      "ENTRYTYPE": "article",
+      "ID": "hong2019model"
+    },
+    {
+      "year": "2020",
+      "month": "April",
+      "address": "Virtual only",
+      "booktitle": "Int. Conf. on Learning Representations (ICLR)",
+      "author": "Wang, Tingwu and Ba, Jimmy",
+      "title": "Exploring model-based planning with policy networks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "wang2019exploring"
+    },
+    {
+      "school": "Massachusetts Institute of Technology",
+      "year": "2005",
+      "author": "Richards, Arthur George",
+      "title": "Robust constrained model predictive control",
+      "ENTRYTYPE": "phdthesis",
+      "ID": "richards2005robust"
+    },
+    {
+      "year": "1962",
+      "author": "Pontryagin, Liev S. and Boltyanskii, VG and Gamkrelidze, RV and Mishchenko, EF",
+      "title": "LS Pontryagin Selected Works: The Mathematical Theory of Optimal Processes",
+      "ENTRYTYPE": "book",
+      "ID": "pontryagin1962"
+    },
+    {
+      "year": "1901",
+      "pages": "559--572",
+      "number": "11",
+      "volume": "2",
+      "journal": "The London, Edinburgh, and Dublin philosophical magazine and journal of science",
+      "author": "Pearson, Karl",
+      "title": "{LIII}. {O}n lines and planes of closest fit to systems of points in space",
+      "ENTRYTYPE": "article",
+      "ID": "pearson1901liii"
+    },
+    {
+      "year": "1933",
+      "pages": "417",
+      "number": "6",
+      "volume": "24",
+      "journal": "Journal of educational psychology",
+      "author": "Hotelling, Harold",
+      "title": "Analysis of a complex of statistical variables into principal components.",
+      "ENTRYTYPE": "article",
+      "ID": "hotelling1933analysis"
+    },
+    {
+      "year": "2021",
+      "pages": "12873--12883",
+      "address": "Virtual only",
+      "month": "June",
+      "booktitle": "Proc. {IEEE} Conf. on Computer Vision and Pattern Recognition (CVPR)",
+      "title": "Taming Transformers for High-Resolution Image Synthesis",
+      "author": "Patrick Esser and\nRobin Rombach and\nBj{\\\"{o}}rn Ommer",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "EsserRO21"
+    },
+    {
+      "year": "2019",
+      "pages": "9165--9174",
+      "month": "December",
+      "address": "Vancouver, Canada",
+      "booktitle": "Proc. Advances in Neural Information Processing Systems (NeurIPS)",
+      "title": "Write, Execute, Assess: Program Synthesis with a {REPL}",
+      "author": "Kevin Ellis and\nMaxwell I. Nye and\nYewen Pu and\nFelix Sosa and\nJosh Tenenbaum and\nArmando Solar{-}Lezama",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "EllisNPSTS19"
+    },
+    {
+      "year": "2021",
+      "month": "May",
+      "address": "Virtual only",
+      "booktitle": "Int. Conf. on Learning Representations (ICLR)",
+      "title": "Towards Faster and Stabilized {GAN} Training for High-fidelity Few-shot Image Synthesis",
+      "author": "Bingchen Liu and\nYizhe Zhu and\nKunpeng Song and\nAhmed Elgammal",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "LiuZSE21"
+    },
+    {
+      "year": "2020",
+      "pages": "58--66",
+      "volume": "127",
+      "journal": "Neural Networks",
+      "title": "Generative Adversarial Networks are special cases of Artificial Curiosity\n{(1990)} and also closely related to Predictability Minimization {(1991)}",
+      "author": "J{\\\"{u}}rgen Schmidhuber",
+      "ENTRYTYPE": "article",
+      "ID": "Schmidhuber20"
+    },
+    {
+      "year": "2020",
+      "pages": "8204--8213",
+      "address": "Seattle, WA, USA",
+      "month": "June",
+      "booktitle": "Proc. {IEEE} Conf. on Computer Vision and Pattern Recognition (CVPR)",
+      "title": "A {U}-{N}et Based Discriminator for Generative Adversarial Networks",
+      "author": "Edgar Sch{\\\"{o}}nfeld and\nBernt Schiele and\nAnna Khoreva",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "schonfeldSK20"
+    },
+    {
+      "year": "2020",
+      "address": "Seattle, WA, USA",
+      "month": "June",
+      "booktitle": "Proc. {IEEE} Conf. on Computer Vision and Pattern Recognition (CVPR)",
+      "title": "Analyzing and Improving the Image Quality of StyleGAN",
+      "author": "Tero Karras and\nSamuli Laine and\nMiika Aittala and\nJanne Hellsten and\nJaakko Lehtinen and\nTimo Aila",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "KarrasLAHLA20"
+    },
+    {
+      "year": "2021",
+      "pages": "14745--14758",
+      "month": "December",
+      "address": "Virtual only",
+      "booktitle": "Proc. Advances in Neural Information Processing Systems (NeurIPS)",
+      "title": "Trans{GAN}: Two Pure Transformers Can Make One Strong {GAN}, and That\nCan Scale Up",
+      "author": "Yifan Jiang and\nShiyu Chang and\nZhangyang Wang",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "jiangCW21"
+    },
+    {
+      "year": "2019",
+      "pages": "8901--8908",
+      "month": "January",
+      "address": "Honolulu, HI, USA",
+      "booktitle": "Proc. {AAAI} Conf. on Artificial Intelligence",
+      "title": "A Layer-Based Sequential Framework for Scene Generation with {GAN}s",
+      "author": "Mehmet Ozgur Turkoglu and\nWilliam Thong and\nLuuk J. Spreeuwers and\nBerkay Kicanaoglu",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "TurkogluTSK19"
+    },
+    {
+      "year": "2020",
+      "address": "Virtual only",
+      "month": "December",
+      "booktitle": "Proc. Advances in Neural Information Processing Systems (NeurIPS)",
+      "title": "Differentiable Augmentation for Data-Efficient {GAN} Training",
+      "author": "Shengyu Zhao and\nZhijian Liu and\nJi Lin and\nJun{-}Yan Zhu and\nSong Han",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ZhaoLLZ020"
+    },
+    {
+      "year": "2020",
+      "address": "Virtual only",
+      "month": "December",
+      "booktitle": "Proc. Advances in Neural Information Processing Systems (NeurIPS)",
+      "title": "Training Generative Adversarial Networks with Limited Data",
+      "author": "Tero Karras and\nMiika Aittala and\nJanne Hellsten and\nSamuli Laine and\nJaakko Lehtinen and\nTimo Aila",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "KarrasAHLLA20"
+    },
+    {
+      "year": "2015",
+      "pages": "1462--1471",
+      "month": "July",
+      "address": "Lille, France",
+      "booktitle": "Proc. Int. Conf. on Machine Learning (ICML)",
+      "title": "{DRAW:} {A} Recurrent Neural Network For Image Generation",
+      "author": "Karol Gregor and\nIvo Danihelka and\nAlex Graves and\nDanilo Jimenez Rezende and\nDaan Wierstra",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "GregorDGRW15"
+    },
+    {
+      "year": "2017",
+      "pages": "6626--6637",
+      "month": "December",
+      "address": "Long Beach, CA, USA",
+      "booktitle": "Proc. Advances in Neural Information Processing Systems (NIPS)",
+      "title": "{GAN}s Trained by a Two Time-Scale Update Rule Converge to a Local Nash Equilibrium",
+      "author": "Martin Heusel and\nHubert Ramsauer and\nThomas Unterthiner and\nBernhard Nessler and\nSepp Hochreiter",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "HeuselRUNH17"
+    },
+    {
+      "year": "2022",
+      "month": "June",
+      "address": "New Orleans, LA, USA",
+      "pages": "11410--11420",
+      "booktitle": "Proc. {IEEE} Conf. on Computer Vision and Pattern Recognition (CVPR)",
+      "author": "Parmar, Gaurav and Zhang, Richard and Zhu, Jun-Yan",
+      "title": "On aliased resizing and surprising subtleties in {GAN} evaluation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "parmar2022aliased"
+    },
+    {
+      "year": "2022",
+      "pages": "9660--9677",
+      "month": "July",
+      "address": "Baltimore, {MA}, {USA}",
+      "booktitle": "Proc. Int. Conf. on Machine Learning (ICML)",
+      "title": "A Modern Self-Referential Weight Matrix That Learns to Modify Itself",
+      "author": "Kazuki Irie and\nImanol Schlag and\nR{\\'{o}}bert Csord{\\'{a}}s and\nJ{\\\"{u}}rgen Schmidhuber",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "IrieSCS22"
+    },
+    {
+      "year": "2010",
+      "howpublished": "https://web.archive.org/web/20120312111546/http://yehar.com:80/blog/?p=167, Internet Archive",
+      "author": "Olli Niemitalo",
+      "title": "A method for training artificial neural networks to generate missing data within a variable context",
+      "ENTRYTYPE": "misc",
+      "ID": "Niemitalo2010"
+    },
+    {
+      "year": "2014",
+      "pages": "2672--2680",
+      "month": "December",
+      "address": "Montr\\'eal, Canada",
+      "booktitle": "Proc. Advances in Neural Information Processing Systems (NIPS)",
+      "title": "Generative Adversarial Nets",
+      "author": "Ian J. Goodfellow and\nJean Pouget{-}Abadie and\nMehdi Mirza and\nBing Xu and\nDavid Warde{-}Farley and\nSherjil Ozair and\nAaron C. Courville and\nYoshua Bengio",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "GoodfellowPMXWOCB14"
+    },
+    {
+      "year": "1991",
+      "pages": "222--227",
+      "booktitle": "Proc. Int. Conf. on simulation of adaptive behavior: From animals to animats",
+      "author": "Schmidhuber, J{\\\"u}rgen",
+      "title": "A possibility for implementing curiosity and boredom in model-building neural controllers",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "schmidhuber1991possibility"
+    },
+    {
+      "year": "1990",
+      "volume": "90",
+      "journal": "Institut f{\\\"u}r Informatik, Technische Universit{\\\"a}t M{\\\"u}nchen. Technical Report FKI-126",
+      "author": "Schmidhuber, J{\\\"u}rgen",
+      "title": "Making the world differentiable: On using fully recurrent self-supervised neural networks for dynamic reinforcement learning and planning in non-stationary environments",
+      "ENTRYTYPE": "article",
+      "ID": "schmidhuber1990making"
+    },
+    {
+      "year": "2020",
+      "month": "April",
+      "address": "Virtual only",
+      "booktitle": "Int. Conf. on Learning Representations (ICLR)",
+      "title": "High Fidelity Speech Synthesis with Adversarial Networks",
+      "author": "Mikolaj Binkowski and\nJeff Donahue and\nSander Dieleman and\nAidan Clark and\nErich Elsen and\nNorman Casagrande and\nLuis C. Cobo and\nKaren Simonyan",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "BinkowskiDDCECC20"
+    },
+    {
+      "year": "2019",
+      "pages": "4302--4313",
+      "month": "December",
+      "address": "Vancouver, Canada",
+      "booktitle": "Proc. Advances in Neural Information Processing Systems (NeurIPS)",
+      "title": "Training Language {GAN}s from Scratch",
+      "author": "Cyprien de Masson d'Autume and\nShakir Mohamed and\nMihaela Rosca and\nJack W. Rae",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "dAutumeMRR19"
+    },
+    {
+      "year": "2022",
+      "month": "December",
+      "address": "New Orleans, {LA}, {USA}",
+      "booktitle": "Proc. Advances in Neural Information Processing Systems (NeurIPS)",
+      "author": "Irie, Kazuki and Faccio, Francesco and Schmidhuber, J{\\\"u}rgen",
+      "title": "Neural Differential Equations for Learning to Program Neural Nets Through Continuous Learning Rules",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "irie2022neural"
+    },
+    {
+      "year": "2015",
+      "pages": "234--241",
+      "booktitle": "Proc. Int. Conf. Medical Image Computing and Computer-Assisted Intervention - {MICCAI}",
+      "month": "October",
+      "address": "Munich, Germany",
+      "title": "U-Net: Convolutional Networks for Biomedical Image Segmentation",
+      "author": "Olaf Ronneberger and\nPhilipp Fischer and\nThomas Brox",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "RonnebergerFB15"
+    },
+    {
+      "year": "2021",
+      "pages": "8780--8794",
+      "address": "Virtual only",
+      "month": "December",
+      "booktitle": "Proc. Advances in Neural Information Processing Systems (NeurIPS)",
+      "title": "Diffusion Models Beat {GAN}s on Image Synthesis",
+      "author": "Prafulla Dhariwal and\nAlexander Quinn Nichol",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "DhariwalN21"
+    },
+    {
+      "year": "2020",
+      "address": "Virtual only",
+      "month": "December",
+      "booktitle": "Proc. Advances in Neural Information Processing Systems (NeurIPS)",
+      "title": "Denoising Diffusion Probabilistic Models",
+      "author": "Jonathan Ho and\nAjay Jain and\nPieter Abbeel",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "HoJA20"
+    },
+    {
+      "month": "May",
+      "address": "Virtual only",
+      "year": "2021",
+      "booktitle": "Int. Conf. on Learning Representations (ICLR)",
+      "title": "Score-Based Generative Modeling through Stochastic Differential Equations",
+      "author": "Yang Song and\nJascha Sohl{-}Dickstein and\nDiederik P. Kingma and\nAbhishek Kumar and\nStefano Ermon and\nBen Poole",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "song21"
+    },
+    {
+      "year": "2017",
+      "month": "April",
+      "address": "Toulon, France",
+      "booktitle": "Int. Conf. on Learning Representations (ICLR)",
+      "title": "Pixel{CNN}++: Improving the Pixel{CNN} with Discretized Logistic Mixture Likelihood and Other Modifications",
+      "author": "Tim Salimans and\nAndrej Karpathy and\nXi Chen and\nDiederik P. Kingma",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "SalimansK0K17"
+    },
+    {
+      "year": "2015",
+      "pages": "2256--2265",
+      "month": "July",
+      "address": "Lille, France",
+      "booktitle": "Proc. Int. Conf. on Machine Learning (ICML)",
+      "title": "Deep Unsupervised Learning using Nonequilibrium Thermodynamics",
+      "author": "Jascha Sohl{-}Dickstein and\nEric A. Weiss and\nNiru Maheswaranathan and\nSurya Ganguli",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "SohlDicksteinW15"
+    },
+    {
+      "year": "2014",
+      "month": "April",
+      "address": "Banff, Canada",
+      "booktitle": "Int. Conf. on Learning Representations (ICLR)",
+      "title": "Auto-Encoding Variational Bayes",
+      "author": "Diederik P. Kingma and\nMax Welling",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "KingmaW13"
+    },
+    {
+      "year": "2015",
+      "pages": "3730--3738",
+      "address": "Santiago, Chile",
+      "month": "December",
+      "booktitle": "Proc. {IEEE} Int. Conf. on Computer Vision (ICCV)",
+      "title": "Deep Learning Face Attributes in the Wild",
+      "author": "Ziwei Liu and\nPing Luo and\nXiaogang Wang and\nXiaoou Tang",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "LiuLWT15"
+    },
+    {
+      "year": "2015",
+      "journal": "Preprint arXiv:1506.03365",
+      "author": "Yu, Fisher and Seff, Ari and Zhang, Yinda and Song, Shuran and Funkhouser, Thomas and Xiao, Jianxiong",
+      "title": "{LSUN}: Construction of a large-scale image dataset using deep learning with humans in the loop",
+      "ENTRYTYPE": "article",
+      "ID": "yu2015lsun"
+    },
+    {
+      "year": "2020",
+      "pages": "8185--8194",
+      "month": "June",
+      "address": "Virtual only",
+      "booktitle": "Proc. {IEEE} Conf. on Computer Vision and Pattern Recognition (CVPR)",
+      "title": "Star{GAN} v2: Diverse Image Synthesis for Multiple Domains",
+      "author": "Yunjey Choi and\nYoungjung Uh and\nJaejun Yoo and\nJung{-}Woo Ha",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ChoiUYH20"
+    },
+    {
+      "year": "2019",
+      "pages": "4401--4410",
+      "month": "June",
+      "address": "Long Beach, CA, USA",
+      "booktitle": "Proc. {IEEE} Conf. on Computer Vision and Pattern Recognition (CVPR)",
+      "title": "A Style-Based Generator Architecture for Generative Adversarial Networks",
+      "author": "Tero Karras and\nSamuli Laine and\nTimo Aila",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "KarrasLA19"
+    },
+    {
+      "month": "December",
+      "address": "Virtual only",
+      "year": "2021",
+      "pages": "852--863",
+      "booktitle": "Proc. Advances in Neural Information Processing Systems (NeurIPS)",
+      "title": "Alias-Free Generative Adversarial Networks",
+      "author": "Tero Karras and\nMiika Aittala and\nSamuli Laine and\nErik H{\\\"{a}}rk{\\\"{o}}nen and\nJanne Hellsten and\nJaakko Lehtinen and\nTimo Aila",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "KarrasALHHLA21"
+    },
+    {
+      "year": "2017",
+      "journal": "Preprint arXiv:1705.02894",
+      "author": "Lim, Jae Hyun and Ye, Jong Chul",
+      "title": "Geometric {GAN}",
+      "ENTRYTYPE": "article",
+      "ID": "lim2017geometric"
+    },
+    {
+      "year": "2017",
+      "pages": "5523--5533",
+      "month": "December",
+      "address": "Long Beach, CA, {USA}",
+      "booktitle": "Proc. Advances in Neural Information Processing Systems (NIPS)",
+      "title": "Hierarchical Implicit Models and Likelihood-Free Variational Inference",
+      "author": "Dustin Tran and\nRajesh Ranganath and\nDavid M. Blei",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "TranRB17"
+    },
+    {
+      "year": "2017",
+      "month": "April",
+      "address": "Toulon, France",
+      "booktitle": "Int. Conf. on Learning Representations (ICLR)",
+      "title": "Optimization as a Model for Few-Shot Learning",
+      "author": "Sachin Ravi and\nHugo Larochelle",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "RaviL17"
+    },
+    {
+      "year": "2016",
+      "pages": "3630--3638",
+      "address": "Barcelona, Spain",
+      "month": "December",
+      "booktitle": "Proc. Advances in Neural Information Processing Systems (NIPS)",
+      "title": "Matching Networks for One Shot Learning",
+      "author": "Oriol Vinyals and\nCharles Blundell and\nTim Lillicrap and\nKoray Kavukcuoglu and\nDaan Wierstra",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "VinyalsBLKW16"
+    },
+    {
+      "year": "2018",
+      "month": "April",
+      "address": "Vancouver, Canada",
+      "booktitle": "Int. Conf. on Learning Representations (ICLR)",
+      "title": "Progressive Growing of {GAN}s for Improved Quality, Stability, and Variation",
+      "author": "Tero Karras and\nTimo Aila and\nSamuli Laine and\nJaakko Lehtinen",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "KarrasALL18"
+    },
+    {
+      "year": "1949",
+      "pages": "403--433",
+      "volume": "1",
+      "booktitle": "Proc. Berkeley Symposium on Mathematical Statistics and Probability",
+      "author": "Feller, William",
+      "title": "On the theory of stochastic processes, with particular reference to applications",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "feller1949theory"
+    },
+    {
+      "pages": "26-53",
+      "number": "1",
+      "volume": "24",
+      "year": "1976",
+      "title": "Singular value decompositions and digital image processing",
+      "journal": "{IEEE} Transactions on Acoustics, Speech, and Signal Processing",
+      "author": "Andrews, Harry C. and Patterson, Claude L.",
+      "ENTRYTYPE": "article",
+      "ID": "Andrews1976"
+    },
+    {
+      "year": "2017",
+      "pages": "6467--6476",
+      "address": "Long Beach, CA, {USA}",
+      "month": "December",
+      "booktitle": "Proc. Advances in Neural Information Processing Systems (NIPS)",
+      "title": "Gradient Episodic Memory for Continual Learning",
+      "author": "David Lopez{-}Paz and\nMarc'Aurelio Ranzato",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "LopezPazR17"
+    },
+    {
+      "year": "2020",
+      "pages": "1153--1164",
+      "address": "Virtual only",
+      "booktitle": "Proc. Int. Conf. on Machine Learning (ICML)",
+      "title": "Task{N}orm: Rethinking Batch Normalization for Meta-Learning",
+      "author": "John Bronskill and\nJonathan Gordon and\nJames Requeima and\nSebastian Nowozin and\nRichard E. Turner",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "Bronskill0RNT20"
+    },
+    {
+      "year": "1989",
+      "pages": "109--165",
+      "volume": "24",
+      "booktitle": "Psychology of learning and motivation",
+      "author": "McCloskey, Michael and Cohen, Neal J",
+      "title": "Catastrophic interference in connectionist networks: The sequential learning problem",
+      "ENTRYTYPE": "incollection",
+      "ID": "mccloskey1989catastrophic"
+    },
+    {
+      "year": "1990",
+      "pages": "285",
+      "number": "2",
+      "volume": "97",
+      "journal": "Psychological review",
+      "author": "Ratcliff, Roger",
+      "title": "Connectionist models of recognition memory: constraints imposed by learning and forgetting functions.",
+      "ENTRYTYPE": "article",
+      "ID": "ratcliff1990connectionist"
+    },
+    {
+      "year": "1999",
+      "pages": "128--135",
+      "number": "4",
+      "volume": "3",
+      "journal": "Trends in cognitive sciences",
+      "author": "French, Robert M",
+      "title": "Catastrophic forgetting in connectionist networks",
+      "ENTRYTYPE": "article",
+      "ID": "french1999catastrophic"
+    },
+    {
+      "publisher": "Springer",
+      "year": "1982",
+      "author": "Grossberg, Stephen T",
+      "title": "Studies of mind and brain: Neural principles of learning, perception, development, cognition, and motor control",
+      "ENTRYTYPE": "book",
+      "ID": "grossberg82studies"
+    },
+    {
+      "year": "1990",
+      "pages": "764--771",
+      "booktitle": "12th Annual Conference. CSS Pod",
+      "author": "Kortge, Chris A",
+      "title": "Episodic memory in connectionist networks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "kortge1990episodic"
+    },
+    {
+      "year": "1991",
+      "pages": "173--178",
+      "volume": "1",
+      "booktitle": "Proc. Cognitive science society conference",
+      "author": "French, Robert M",
+      "title": "Using semi-distributed representations to overcome catastrophic forgetting in connectionist networks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "french1991using"
+    },
+    {
+      "year": "2017",
+      "pages": "3521--3526",
+      "number": "13",
+      "volume": "114",
+      "journal": "Proc. National academy of sciences",
+      "author": "Kirkpatrick, James and Pascanu, Razvan and Rabinowitz, Neil and Veness, Joel and Desjardins, Guillaume and Rusu, Andrei A and Milan, Kieran and Quan, John and Ramalho, Tiago and Grabska-Barwinska, Agnieszka and others",
+      "title": "Overcoming catastrophic forgetting in neural networks",
+      "ENTRYTYPE": "article",
+      "ID": "kirkpatrick2017overcoming"
+    },
+    {
+      "year": "2018",
+      "pages": "4535--4544",
+      "month": "July",
+      "address": "Stockholm, Sweden",
+      "booktitle": "Proc. Int. Conf. on Machine Learning (ICML)",
+      "title": "Progress {\\&} Compress: {A} scalable framework for continual learning",
+      "author": "Jonathan Schwarz and\nWojciech Czarnecki and\nJelena Luketina and\nAgnieszka Grabska{-}Barwinska and\nYee Whye Teh and\nRazvan Pascanu and\nRaia Hadsell",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "Schwarz0LGTPH18"
+    },
+    {
+      "year": "1999",
+      "pages": "272--283",
+      "number": "2",
+      "volume": "10",
+      "journal": "IEEE Transactions on Neural Networks",
+      "author": "Younger, A Steven and Conwell, Peter R and Cotter, Neil E",
+      "title": "Fixed-weight on-line learning",
+      "ENTRYTYPE": "article",
+      "ID": "younger1999fixed"
+    },
+    {
+      "address": "Vancouver, Cananda",
+      "year": "2018",
+      "booktitle": "Int. Conf. on Learning Representations (ICLR)",
+      "author": "Nikhil Mishra and Mostafa Rohaninejad and Xi Chen and Pieter Abbeel",
+      "title": "A Simple Neural Attentive Meta-Learner",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "mishra2018a"
+    },
+    {
+      "year": "2015",
+      "pages": "1332--1338",
+      "number": "6266",
+      "volume": "350",
+      "journal": "Science",
+      "author": "Lake, Brenden M and Salakhutdinov, Ruslan and Tenenbaum, Joshua B",
+      "title": "Human-level concept learning through probabilistic program induction",
+      "ENTRYTYPE": "article",
+      "ID": "lake2015human"
+    },
+    {
+      "year": "2019",
+      "journal": "Preprint arXiv:1909.06576",
+      "author": "Deleu, Tristan and W{\\\"u}rfl, Tobias and Samiei, Mandana and Cohen, Joseph Paul and Bengio, Yoshua",
+      "title": "Torchmeta: A meta-learning library for {P}y{T}orch",
+      "ENTRYTYPE": "article",
+      "ID": "deleu2019torchmeta"
+    },
+    {
+      "year": "2018",
+      "pages": "719--729",
+      "address": "Montr{\\'{e}}al, Canada",
+      "month": "December",
+      "booktitle": "Proc. Advances in Neural Information Processing Systems (NeurIPS)",
+      "title": "{TADAM:} Task dependent adaptive metric for improved few-shot learning",
+      "author": "Boris N. Oreshkin and\nPau Rodr{\\'{\\i}}guez L{\\'{o}}pez and\nAlexandre Lacoste",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "OreshkinLL18"
+    },
+    {
+      "year": "1998",
+      "howpublished": "URL http://yann. lecun. com/exdb/mnist",
+      "author": "LeCun, Yann and Cortes, Corinna and Burges, Christopher JC",
+      "title": "The {MNIST} database of handwritten digits",
+      "ENTRYTYPE": "misc",
+      "ID": "lecun1998mnist"
+    },
+    {
+      "year": "2009",
+      "school": "Computer Science Department, University of Toronto",
+      "title": "Learning multiple layers of features from tiny images",
+      "author": "Alex Krizhevsky",
+      "ENTRYTYPE": "mastersthesis",
+      "ID": "krizhevsky"
+    },
+    {
+      "year": "2017",
+      "journal": "Preprint arXiv:1708.07747",
+      "author": "Xiao, Han and Rasul, Kashif and Vollgraf, Roland",
+      "title": "Fashion-{MNIST}: a novel image dataset for benchmarking machine learning algorithms",
+      "ENTRYTYPE": "article",
+      "ID": "xiao2017fashion"
+    },
+    {
+      "year": "2021",
+      "month": "May",
+      "address": "Virtual only",
+      "booktitle": "Int. Conf. on Learning Representations (ICLR)",
+      "title": "Efficient Continual Learning with Modular Networks and Task-Driven\nPriors",
+      "author": "Tom Veniat and\nLudovic Denoyer and\nMarc'Aurelio Ranzato",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "VeniatDR21"
+    },
+    {
+      "year": "1994",
+      "school": "University of Texas at Austin,\nAustin, TX, USA",
+      "author": "Ring, Mark B.",
+      "title": "Continual Learning in Reinforcement Environments",
+      "ENTRYTYPE": "phdthesis",
+      "ID": "ring1994continual"
+    },
+    {
+      "year": "2016",
+      "journal": "Preprint arXiv:1606.04671",
+      "author": "Rusu, Andrei A and Rabinowitz, Neil C and Desjardins, Guillaume and Soyer, Hubert and Kirkpatrick, James and Kavukcuoglu, Koray and Pascanu, Razvan and Hadsell, Raia",
+      "title": "Progressive neural networks",
+      "ENTRYTYPE": "article",
+      "ID": "rusu2016progressive"
+    },
+    {
+      "year": "2017",
+      "pages": "3987--3995",
+      "address": "Sydney, Australia",
+      "month": "August",
+      "booktitle": "Proc. Int. Conf. on Machine Learning (ICML)",
+      "title": "Continual Learning Through Synaptic Intelligence",
+      "author": "Friedemann Zenke and\nBen Poole and\nSurya Ganguli",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ZenkePG17"
+    },
+    {
+      "year": "1995",
+      "pages": "123--146",
+      "number": "2",
+      "volume": "7",
+      "journal": "Connection Science",
+      "author": "Robins, Anthony",
+      "title": "Catastrophic forgetting, rehearsal and pseudorehearsal",
+      "ENTRYTYPE": "article",
+      "ID": "robins1995catastrophic"
+    },
+    {
+      "year": "2022",
+      "month": "December",
+      "address": "New Orleans, LA, USA",
+      "booktitle": "Proc. Advances in Neural Information Processing Systems (NeurIPS)",
+      "title": "A simple but strong baseline for online continual learning: Repeated Augmented Rehearsal",
+      "author": "Yaqian Zhang and\nBernhard Pfahringer and\nEibe Frank and\nAlbert Bifet and\nNick Jin Sean Lim and\nYunzhe Jia",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ZhangPFBLJ22"
+    },
+    {
+      "address": "Baltimore, MD, USA",
+      "month": "June",
+      "year": "1992",
+      "pages": "437--442",
+      "volume": "1",
+      "booktitle": "Proc. International Joint Conference on Neural Networks (IJCNN)",
+      "author": "Naik, Devang K and Mammone, Richard J",
+      "title": "Meta-neural networks that learn by learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "naik1992meta"
+    },
+    {
+      "year": "2022",
+      "month": "November",
+      "address": "New Orleans, LA, USA",
+      "booktitle": "Proc. Advances in Neural Information Processing Systems (NeurIPS)",
+      "author": "Chan, Stephanie CY and Santoro, Adam and Lampinen, Andrew Kyle and Wang, Jane X and Singh, Aaditya K and Richemond, Pierre Harvey and McClelland, James and Hill, Felix",
+      "title": "Data distributional properties drive emergent in-context learning in transformers",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "chan2022data"
+    },
+    {
+      "year": "2023",
+      "month": "May",
+      "address": "Kigali, Rwanda",
+      "booktitle": "Int. Conf. on Learning Representations (ICLR)",
+      "title": "What learning algorithm is in-context learning? Investigations with linear models",
+      "author": "Ekin Aky{\\\"{u}}rek and\nDale Schuurmans and\nJacob Andreas and\nTengyu Ma and\nDenny Zhou",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "akyurek2022learning"
+    },
+    {
+      "month": "November",
+      "address": "New Orleans, LA, USA",
+      "year": "2022",
+      "booktitle": "NeurIPS Workshop on Memory in Artificial and Real Intelligence (MemARI)",
+      "author": "Chan, Stephanie CY and Dasgupta, Ishita and Kim, Junkyung and Kumaran, Dharshan and Lampinen, Andrew K and Hill, Felix",
+      "title": "Transformers generalize differently from information stored in context vs in weights",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "chan2022transformers"
+    },
+    {
+      "month": "November",
+      "address": "New Orleans, LA, USA",
+      "year": "2022",
+      "booktitle": "NeurIPS Workshop on Memory in Artificial and Real Intelligence (MemARI)",
+      "author": "Kirsch, Louis and Harrison, James and Sohl-Dickstein, Jascha and Metz, Luke",
+      "title": "General-purpose in-context learning by meta-learning transformers",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "kirsch2022general"
+    },
+    {
+      "year": "2022",
+      "month": "April",
+      "address": "Virtual only",
+      "booktitle": "Int. Conf. on Learning Representations (ICLR)",
+      "title": "An Explanation of In-context Learning as Implicit Bayesian Inference",
+      "author": "Sang Michael Xie and\nAditi Raghunathan and\nPercy Liang and\nTengyu Ma",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "XieRL022"
+    },
+    {
+      "year": "2023",
+      "address": "Honolulu, HI, {USA}",
+      "month": "July",
+      "booktitle": "Proc. Int. Conf. on Machine Learning (ICML)",
+      "title": "Transformers Learn In-Context by Gradient Descent",
+      "author": "Johannes von Oswald and\nEyvind Niklasson and\nEttore Randazzo and\nJo{\\~{a}}o Sacramento and\nAlexander Mordvintsev and\nAndrey Zhmoginov and\nMax Vladymyrov",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "von2022transformers"
+    },
+    {
+      "year": "2023",
+      "pages": "4005--4019",
+      "month": "July",
+      "address": "Toronto, Canada",
+      "booktitle": "Proc. Findings Association for Computational Linguistics ({ACL})",
+      "title": "Why Can {GPT} Learn In-Context? Language Models Secretly Perform Gradient Descent as Meta-Optimizers",
+      "author": "Damai Dai and\nYutao Sun and\nLi Dong and\nYaru Hao and\nShuming Ma and\nZhifang Sui and\nFuru Wei",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "dai2022can"
+    },
+    {
+      "year": "1998",
+      "pages": "181--209",
+      "booktitle": "Learning to learn",
+      "author": "Thrun, Sebastian",
+      "title": "Lifelong learning algorithms",
+      "ENTRYTYPE": "incollection",
+      "ID": "thrun1998lifelong"
+    },
+    {
+      "year": "1997",
+      "pages": "41--75",
+      "volume": "28",
+      "journal": "Machine learning",
+      "author": "Caruana, Rich",
+      "title": "Multitask learning",
+      "ENTRYTYPE": "article",
+      "ID": "caruana1997multitask"
+    },
+    {
+      "year": "2023",
+      "journal": "Preprint arXiv:2309.05858",
+      "author": "von Oswald, Johannes and Niklasson, Eyvind and Schlegel, Maximilian and Kobayashi, Seijin and Zucchet, Nicolas and Scherrer, Nino and Miller, Nolan and Sandler, Mark and Vladymyrov, Max and Pascanu, Razvan and others",
+      "title": "Uncovering mesa-optimization algorithms in {T}ransformers",
+      "ENTRYTYPE": "article",
+      "ID": "von2023uncovering"
+    },
+    {
+      "year": "2023",
+      "journal": "Preprint arXiv:2305.12907",
+      "author": "Coda-Forno, Julian and Binz, Marcel and Akata, Zeynep and Botvinick, Matthew and Wang, Jane X and Schulz, Eric",
+      "title": "Meta-in-context learning in large language models",
+      "ENTRYTYPE": "article",
+      "ID": "coda2023meta"
+    },
+    {
+      "year": "2023",
+      "address": "Kigali, Rwanda",
+      "month": "May",
+      "booktitle": "ICLR Workshop on Mathematical and Empirical Understanding of Foundation Models",
+      "author": "Irie, Kazuki and Schmidhuber, J{\\\"u}rgen",
+      "title": "Accelerating Neural Self-Improvement via Bootstrapping",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "irie2023accelerating"
+    },
+    {
+      "year": "2023",
+      "month": "May",
+      "address": "Kigali, Rwanda",
+      "booktitle": "Int. Conf. on Learning Representations (ICLR)",
+      "author": "Kazuki Irie and J{\\\"u}rgen Schmidhuber",
+      "title": "Images as Weight Matrices: Sequential Image Generation Through Synaptic Learning Rules",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "irie2023image"
+    },
+    {
+      "year": "2016",
+      "journal": "arXiv preprint arXiv:1610.06072",
+      "author": "Bosc, Tom",
+      "title": "Learning to learn neural networks",
+      "ENTRYTYPE": "article",
+      "ID": "bosc2016learning"
+    },
+    {
+      "year": "2015",
+      "address": "Montreal, Canada",
+      "month": "December",
+      "booktitle": "NIPS Workshop on Reasoning, Attention, Memory",
+      "title": "Learning to learn neural networks",
+      "author": "Bosc, Tom",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "bosc2015learning"
+    },
+    {
+      "year": "2023",
+      "pages": "1--28",
+      "journal": "Machine Learning",
+      "author": "Huisman, Mike and Moerland, Thomas M and Plaat, Aske and van Rijn, Jan N",
+      "title": "Are {LSTM}s good few-shot learners?",
+      "ENTRYTYPE": "article",
+      "ID": "huisman2023lstms"
+    },
+    {
+      "year": "2022",
+      "journal": "Transactions on Machine Learning Research\n(TMLR)",
+      "author": "Reed, Scott and Zolna, Konrad and Parisotto, Emilio and Colmenarejo, Sergio Gomez and Novikov, Alexander and Barth-Maron, Gabriel and Gimenez, Mai and Sulsky, Yury and Kay, Jackie and Springenberg, Jost Tobias and others",
+      "title": "A generalist agent",
+      "ENTRYTYPE": "article",
+      "ID": "reed2022generalist"
+    },
+    {
+      "year": "2023",
+      "month": "May",
+      "address": "Kigali, Rwanda",
+      "booktitle": "Int. Conf. on Learning Representations (ICLR)",
+      "title": "In-context Reinforcement Learning with Algorithm Distillation",
+      "author": "Michael Laskin and\nLuyu Wang and\nJunhyuk Oh and\nEmilio Parisotto and\nStephen Spencer and\nRichie Steigerwald and\nDJ Strouse and\nSteven Stenberg Hansen and\nAngelos Filos and\nEthan A. Brooks and\nMaxime Gazeau and\nHimanshu Sahni and\nSatinder Singh and\nVolodymyr Mnih",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "laskin2022context"
+    },
+    {
+      "year": "2021",
+      "pages": "24261--24272",
+      "month": "December",
+      "address": "Virtual only",
+      "booktitle": "Proc. Advances in Neural Information Processing Systems (NeurIPS)",
+      "title": "{MLP}-{M}ixer: An all-{MLP} Architecture for Vision",
+      "author": "Ilya O. Tolstikhin and\nNeil Houlsby and\nAlexander Kolesnikov and\nLucas Beyer and\nXiaohua Zhai and\nThomas Unterthiner and\nJessica Yung and\nAndreas Steiner and\nDaniel Keysers and\nJakob Uszkoreit and\nMario Lucic and\nAlexey Dosovitskiy",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "TolstikhinHKBZU21"
+    },
+    {
+      "year": "2016",
+      "journal": "Preprint arXiv:1607.08022",
+      "author": "Ulyanov, Dmitry and Vedaldi, Andrea and Lempitsky, Victor",
+      "title": "Instance normalization: The missing ingredient for fast stylization",
+      "ENTRYTYPE": "article",
+      "ID": "ulyanov2016instance"
+    },
+    {
+      "year": "2015",
+      "pages": "448--456",
+      "month": "July",
+      "address": "Lille, France",
+      "booktitle": "Proc. Int. Conf. on Machine Learning (ICML)",
+      "title": "Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift",
+      "author": "Sergey Ioffe and\nChristian Szegedy",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "IoffeS15"
+    },
+    {
+      "month": "December",
+      "address": "Granada, Spain",
+      "year": "2011",
+      "booktitle": "NIPS Workshop on Deep Learning and Unsupervised Feature Learning",
+      "author": "Yuval, Netzer",
+      "title": "Reading digits in natural images with unsupervised feature learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "yuval2011reading"
+    },
+    {
+      "year": "2023",
+      "address": "Sentosa, Singapore",
+      "booktitle": "Proc. Conf. on Empirical Methods in Natural Language Processing (EMNLP)",
+      "author": "Kazuki Irie and R\\'obert Csord\\'as and J\\\"urgen Schmidhuber",
+      "title": "Practical Computational Power of Linear Transformers and Their Recurrent and Self-Referential Extensions",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "irie2023practical"
+    },
+    {
+      "year": "2022",
+      "month": "December",
+      "pages": "11048--11064",
+      "address": "Abu Dhabi, UAE",
+      "booktitle": "Proc. Conf. on Empirical Methods in Natural Language Processing (EMNLP)",
+      "title": "Rethinking the Role of Demonstrations: What Makes In-Context Learning\nWork?",
+      "author": "Sewon Min and\nXinxi Lyu and\nAri Holtzman and\nMikel Artetxe and\nMike Lewis and\nHannaneh Hajishirzi and\nLuke Zettlemoyer",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "MinLHALHZ22"
+    },
+    {
+      "year": "2022",
+      "month": "December",
+      "address": "Abu Dhabi, UAE",
+      "booktitle": "Proc. Conf. on Empirical Methods in Natural Language Processing (EMNLP)",
+      "pages": "2422--2437",
+      "title": "Ground-Truth Labels Matter: {A} Deeper Look into Input-Label Demonstrations",
+      "author": "Kang Min Yoo and\nJunyeob Kim and\nHyuhng Joon Kim and\nHyunsoo Cho and\nHwiyeol Jo and\nSang{-}Woo Lee and\nSang{-}goo Lee and\nTaeuk Kim",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "YooKKCJLLK22"
+    },
+    {
+      "year": "2021",
+      "pages": "11909--11919",
+      "address": "Virtual only",
+      "month": "July",
+      "booktitle": "Proc. Int. Conf. on Machine Learning (ICML)",
+      "title": "Addressing Catastrophic Forgetting in Few-Shot Problems",
+      "author": "Pau Ching Yap and\nHippolyt Ritter and\nDavid Barber",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "yapRB21"
+    },
+    {
+      "year": "2019",
+      "pages": "1818--1828",
+      "month": "December",
+      "address": "Vancouver, BC, Canada",
+      "booktitle": "Proc. Advances in Neural Information Processing Systems (NeurIPS)",
+      "title": "Meta-Learning Representations for Continual Learning",
+      "author": "Khurram Javed and\nMartha White",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "JavedW19"
+    },
+    {
+      "year": "2020",
+      "month": "December",
+      "address": "Virtual only",
+      "booktitle": "Proc. Advances in Neural Information Processing Systems (NeurIPS)",
+      "title": "Online Fast Adaptation and Knowledge Accumulation {(OSAKA):} a New\nApproach to Continual Learning",
+      "author": "Massimo Caccia and\nPau Rodr{\\'{\\i}}guez and\nOleksiy Ostapenko and\nFabrice Normandin and\nMin Lin and\nLucas Page{-}Caccia and\nIssam Hadj Laradji and\nIrina Rish and\nAlexandre Lacoste and\nDavid V{\\'{a}}zquez and\nLaurent Charlin",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "CacciaRONLPLRLV20"
+    },
+    {
+      "year": "2020",
+      "pages": "992--1001",
+      "booktitle": "Proc. European Conf. on Artificial Intelligence ({ECAI})",
+      "month": "August",
+      "title": "Learning to Continually Learn",
+      "author": "Shawn Beaulieu and\nLapo Frati and\nThomas Miconi and\nJoel Lehman and\nKenneth O. Stanley and\nJeff Clune and\nNick Cheney",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "BeaulieuFMLSCC20"
+    },
+    {
+      "year": "2019",
+      "journal": "Preprint arXiv:1906.05201",
+      "author": "He, Xu and Sygnowski, Jakub and Galashov, Alexandre and Rusu, Andrei A and Teh, Yee Whye and Pascanu, Razvan",
+      "title": "Task agnostic continual learning via meta learning",
+      "ENTRYTYPE": "article",
+      "ID": "he2019task"
+    },
+    {
+      "year": "2018",
+      "month": "December",
+      "address": "Montr\\'eal, Canada",
+      "booktitle": "NeurIPS Workshop on Continual Learning",
+      "author": "Hsu, Yen-Chang and Liu, Yen-Cheng and Ramasamy, Anita and Kira, Zsolt",
+      "title": "Re-evaluating continual learning scenarios: A categorization and case for strong baselines",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "hsu2018re"
+    },
+    {
+      "year": "2018",
+      "month": "December",
+      "address": "Montr\\'eal, Canada",
+      "booktitle": "NeurIPS Workshop on Continual Learning",
+      "author": "Van de Ven, Gido M and Tolias, Andreas S",
+      "title": "Three scenarios for continual learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "van2019three"
+    },
+    {
+      "year": "2018",
+      "pages": "144--161",
+      "month": "September",
+      "address": "Munich, Germany",
+      "booktitle": "Proc. European Conf. on Computer Vision (ECCV)",
+      "title": "Memory Aware Synapses: Learning What (not) to Forget",
+      "author": "Rahaf Aljundi and\nFrancesca Babiloni and\nMohamed Elhoseiny and\nMarcus Rohrbach and\nTinne Tuytelaars",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "AljundiBERT18"
+    },
+    {
+      "year": "2016",
+      "pages": "614--629",
+      "month": "October",
+      "address": "Amsterdam, Netherlands",
+      "booktitle": "Proc. European Conf. on Computer Vision (ECCV)",
+      "title": "Learning Without Forgetting",
+      "author": "Zhizhong Li and\nDerek Hoiem",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "LiH16"
+    },
+    {
+      "year": "2013",
+      "pages": "2310--2318",
+      "month": "December",
+      "address": "Lake Tahoe, NV, USA",
+      "booktitle": "Proc. Advances in Neural Information Processing Systems (NIPS)",
+      "title": "Compete to Compute",
+      "author": "Rupesh Kumar Srivastava and\nJonathan Masci and\nSohrob Kazerounian and\nFaustino J. Gomez and\nJ{\\\"{u}}rgen Schmidhuber",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "SrivastavaMKGS13"
+    },
+    {
+      "year": "2021",
+      "pages": "21592--21604",
+      "month": "December",
+      "address": "Virtual only",
+      "booktitle": "Proc. Advances in Neural Information Processing Systems (NeurIPS)",
+      "title": "Generative vs. Discriminative: Rethinking The Meta-Continual Learning",
+      "author": "Mohammadamin Banayeeanzade and Rasoul Mirzaiezadeh and\nHosein Hasani and\nMahdieh Soleymani",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "BanayeeanzadeMH21"
+    },
+    {
+      "year": "2018",
+      "journal": "Preprint arXiv:1809.10635",
+      "author": "Van de Ven, Gido M and Tolias, Andreas S",
+      "title": "Generative replay with feedback connections as a general strategy for continual learning",
+      "ENTRYTYPE": "article",
+      "ID": "van2018generative"
+    },
+    {
+      "pages": "3--71",
+      "number": "1-2",
+      "volume": "28",
+      "year": "1988",
+      "journal": "Cognition",
+      "author": "Fodor, Jerry A and Pylyshyn, Zenon W",
+      "title": "Connectionism and cognitive architecture: A critical analysis",
+      "ENTRYTYPE": "article",
+      "ID": "fodor1988connectionism"
+    },
+    {
+      "year": "1995",
+      "pages": "419",
+      "number": "3",
+      "volume": "102",
+      "journal": "Psychological review",
+      "author": "McClelland, James L and McNaughton, Bruce L and O'Reilly, Randall C",
+      "title": "Why there are complementary learning systems in the hippocampus and neocortex: insights from the successes and failures of connectionist models of learning and memory.",
+      "ENTRYTYPE": "article",
+      "ID": "mcclelland1995there"
+    },
+    {
+      "year": "2021",
+      "address": "Virtual only",
+      "booktitle": "Workshop on Distribution Shifts, NeurIPS",
+      "author": "Kazuki Irie and Imanol Schlag and R\\'obert Csord\\'as and J\\\"urgen Schmidhuber",
+      "title": "Improving Baselines in the Wild",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "irie2021improving"
+    },
+    {
+      "year": "2019",
+      "pages": "7957--7968",
+      "month": "December",
+      "address": "Vancouver, Canada",
+      "booktitle": "Proc. Advances in Neural Information Processing Systems (NeurIPS)",
+      "title": "Fast and Flexible Multi-Task Classification using Conditional Neural Adaptive Processes",
+      "author": "James Requeima and\nJonathan Gordon and\nJohn Bronskill and\nSebastian Nowozin and\nRichard E. Turner",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "Requeima0BNT19"
+    },
+    {
+      "year": "2020",
+      "month": "April",
+      "address": "Addis Ababa, Ethiopia",
+      "booktitle": "Int. Conf. on Learning Representations (ICLR)",
+      "title": "Meta-Dataset: {A} Dataset of Datasets for Learning to Learn from Few\nExamples",
+      "author": "Eleni Triantafillou and\nTyler Zhu and\nVincent Dumoulin and\nPascal Lamblin and\nUtku Evci and\nKelvin Xu and\nRoss Goroshin and\nCarles Gelada and\nKevin Swersky and\nPierre{-}Antoine Manzagol and\nHugo Larochelle",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "TriantafillouZD20"
+    },
+    {
+      "publisher": "Citeseer",
+      "author": "urgen Schmidhuber, J",
+      "title": "ON LEARNING HOW TO LEARN LEARNING STRATEGIES Technical Report FKI-198-94 (revised)",
+      "ENTRYTYPE": "article",
+      "ID": "urgenlearning"
+    },
+    {
+      "year": "1994",
+      "month": "November",
+      "number": "FKI-198-94",
+      "institution": "Institut f\\\"{u}r Informatik,\nTechnische Universit\\\"{a}t M\\\"{u}nchen",
+      "title": "On Learning How to Learn Learning Strategies",
+      "author": "J\\\"urgen Schmidhuber",
+      "ENTRYTYPE": "techreport",
+      "ID": "Schmidhubermeta2"
+    },
+    {
+      "year": "1995",
+      "pages": "42--49",
+      "booktitle": "Proc. Workshop on Genetic Programming at ML95",
+      "author": "J\\\"urgen Schmidhuber",
+      "title": "Beyond ``genetic programming\": Incremental self-improvement",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "schmidhuber1995beyond"
+    },
+    {
+      "year": "2018",
+      "journal": "Preprint arXiv:1802.08864",
+      "author": "J\\\"urgen Schmidhuber",
+      "title": "One big net for everything",
+      "ENTRYTYPE": "article",
+      "ID": "schmidhuber2018one"
+    },
+    {
+      "year": "2017",
+      "pages": "1311--1320",
+      "month": "August",
+      "address": "Sydney, Australia",
+      "booktitle": "Proc. Int. Conf. on Machine Learning (ICML)",
+      "title": "Automated Curriculum Learning for Neural Networks",
+      "author": "Alex Graves and\nMarc G. Bellemare and\nJacob Menick and\nR{\\'{e}}mi Munos and\nKoray Kavukcuoglu",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "GravesBMMK17"
+    },
+    {
+      "year": "2019",
+      "month": "May",
+      "address": "New Orleans, LA, USA",
+      "booktitle": "Int. Conf. on Learning Representations (ICLR)",
+      "title": "Learning to Learn without Forgetting by Maximizing Transfer and Minimizing\nInterference",
+      "author": "Matthew Riemer and\nIgnacio Cases and\nRobert Ajemian and\nMiao Liu and\nIrina Rish and\nYuhai Tu and\nGerald Tesauro",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "RiemerCALRTT19"
+    },
+    {
+      "year": "2017",
+      "pages": "2990--2999",
+      "month": "December",
+      "address": "Long Beach, CA, {USA}",
+      "booktitle": "Proc. Advances in Neural Information Processing Systems (NIPS)",
+      "title": "Continual Learning with Deep Generative Replay",
+      "author": "Hanul Shin and\nJung Kwon Lee and\nJaehong Kim and\nJiwon Kim",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ShinLKK17"
+    },
+    {
+      "month": "December",
+      "address": "New Orleans, {LA}, {USA}",
+      "year": "2023",
+      "booktitle": "Proc. Advances in Neural Information Processing Systems (NeurIPS)",
+      "author": "Lee, Soochan and Son, Jaehyeon and Kim, Gunhee",
+      "title": "Recasting Continual Learning as Sequence Modeling",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "lee2023recasting"
+    },
+    {
+      "year": "2022",
+      "pages": "139--149",
+      "address": "New Orleans, LA, USA",
+      "month": "June",
+      "booktitle": "Proc. {IEEE} Conf. on Computer Vision and Pattern Recognition (CVPR)",
+      "title": "Learning to Prompt for Continual Learning",
+      "author": "Zifeng Wang and\nZizhao Zhang and\nChen{-}Yu Lee and\nHan Zhang and\nRuoxi Sun and\nXiaoqi Ren and\nGuolong Su and\nVincent Perot and\nJennifer G. Dy and\nTomas Pfister",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "wangl2p2022"
+    },
+    {
+      "year": "2022",
+      "pages": "631--648",
+      "month": "October",
+      "address": "Tel Aviv, Israel",
+      "booktitle": "Proc. European Conf. on Computer Vision (ECCV)",
+      "title": "DualPrompt: Complementary Prompting for Rehearsal-Free Continual Learning",
+      "author": "Zifeng Wang and\nZizhao Zhang and\nSayna Ebrahimi and\nRuoxi Sun and\nHan Zhang and\nChen{-}Yu Lee and\nXiaoqi Ren and\nGuolong Su and\nVincent Perot and\nJennifer G. Dy and\nTomas Pfister",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "wangdualpt2022"
+    },
+    {
+      "year": "2021",
+      "month": "May",
+      "address": "Virtual only",
+      "booktitle": "Int. Conf. on Learning Representations (ICLR)",
+      "title": "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale",
+      "author": "Alexey Dosovitskiy and Lucas Beyer and\nAlexander Kolesnikov and\nDirk Weissenborn and\nXiaohua Zhai and\nThomas Unterthiner and\nMostafa Dehghani and\nMatthias Minderer and\nGeorg Heigold and\nSylvain Gelly and\nJakob Uszkoreit and\nNeil Houlsby",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "DosovitskiyB0WZ21"
+    },
+    {
+      "year": "2020",
+      "pages": "386--402",
+      "month": "August",
+      "address": "Glasgow, UK",
+      "booktitle": "Proc. European Conf. on Computer Vision (ECCV)",
+      "title": "Adversarial Continual Learning",
+      "author": "Sayna Ebrahimi and\nFranziska Meier and\nRoberto Calandra and\nTrevor Darrell and\nMarcus Rohrbach",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "EbrahimiMCDR20"
+    },
+    {
+      "year": "2011",
+      "journal": "Google (Books/OCR), Tech. Rep.[Online]. Available: http://yaroslavvb. blogspot. it/2011/09/notmnist-dataset. html",
+      "author": "Bulatov, Yaroslav",
+      "title": "Notmnist dataset",
+      "ENTRYTYPE": "article",
+      "ID": "bulatov2011notmnist"
+    },
+    {
+      "address": "Granada, Spain",
+      "month": "December",
+      "year": "2011",
+      "booktitle": "NIPS workshop on deep learning and unsupervised feature learning",
+      "author": "Netzer, Yuval and Wang, Tao and Coates, Adam and Bissacco, Alessandro and Wu, Baolin and Ng, Andrew Y and others",
+      "title": "Reading digits in natural images with unsupervised feature learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "netzer2011reading"
+    },
+    {
+      "year": "1995",
+      "pages": "551--573",
+      "number": "3",
+      "volume": "50",
+      "journal": "Journal of Computer and System Sciences",
+      "author": "Helmbold, David P and Warmuth, Manfred K",
+      "title": "On weak learning",
+      "ENTRYTYPE": "article",
+      "ID": "helmbold1995weak"
+    },
+    {
+      "year": "2025",
+      "journal": "Preprint arXiv:2502.10297",
+      "author": "Siems, Julien and Carstensen, Timur and Zela, Arber and Hutter, Frank and Pontil, Massimiliano and Grazzi, Riccardo",
+      "title": "DeltaProduct: Improving State-Tracking in Linear {RNN}s via Householder Products",
+      "ENTRYTYPE": "article",
+      "ID": "siems2025deltaproduct"
+    },
+    {
+      "year": "2024",
+      "publisher": "OpenReview.net",
+      "month": "July",
+      "address": "Vienna, Austria",
+      "booktitle": "Proc. Int. Conf. on Machine Learning (ICML)",
+      "title": "Simple linear attention language models balance the recall-throughput\ntradeoff",
+      "author": "Simran Arora and\nSabri Eyuboglu and\nMichael Zhang and\nAman Timalsina and\nSilas Alberti and\nJames Zou and\nAtri Rudra and\nChristopher R{\\'{e}}",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "AroraEZTA0RR24"
+    },
+    {
+      "year": "2024",
+      "month": "December",
+      "address": "Vancouver, Canada",
+      "booktitle": "Proc. Advances in Neural Information Processing Systems (NeurIPS)",
+      "author": "Yang, Songlin and Wang, Bailin and Zhang, Yu and Shen, Yikang and Kim, Yoon",
+      "title": "Parallelizing Linear Transformers with the Delta Rule over Sequence Length",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "yang2024parallelizing"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "2002",
+      "pages": "505--510",
+      "number": "12",
+      "volume": "6",
+      "journal": "Trends in cognitive sciences",
+      "author": "O'Reilly, Randall C and Norman, Kenneth A",
+      "title": "Hippocampal and neocortical contributions to memory: Advances in the complementary learning systems framework",
+      "ENTRYTYPE": "article",
+      "ID": "o2002hippocampal"
+    },
+    {
+      "year": "2024",
+      "month": "December",
+      "address": "Vancouver, Canada",
+      "booktitle": "Proc. Advances in Neural Information Processing Systems (NeurIPS)",
+      "title": "The Fine{W}eb Datasets: Decanting the Web for the Finest Text Data at Scale",
+      "author": "Guilherme Penedo and\nHynek Kydl{\\'{\\i}}cek and\nLoubna Ben Allal and\nAnton Lozhkov and\nMargaret Mitchell and\nColin A. Raffel and\nLeandro von Werra and\nThomas Wolf",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "PenedoKALMRW024"
+    },
+    {
+      "year": "2023",
+      "journal": "Preprint arXiv:2307.08691",
+      "author": "Dao, Tri",
+      "title": "Flashattention-2: Faster attention with better parallelism and work partitioning",
+      "ENTRYTYPE": "article",
+      "ID": "dao2023flashattention"
+    },
+    {
+      "year": "2024",
+      "month": "January",
+      "url": "https://github.com/fla-org/flash-linear-attention",
+      "author": "Yang, Songlin and Zhang, Yu",
+      "title": "FLA: A Triton-Based Library for Hardware-Efficient Implementations of Linear Attention Mechanism",
+      "ENTRYTYPE": "misc",
+      "ID": "yang2024fla"
+    },
+    {
+      "year": "2025",
+      "month": "January",
+      "url": "https://github.com/fla-org/flame",
+      "author": "Zhang, Yu and Yang, Songlin",
+      "title": "Flame: Flash Language Modeling Made Easy",
+      "ENTRYTYPE": "misc",
+      "ID": "yang2025flame"
+    },
+    {
+      "url": "https://zenodo.org/records/12608602",
+      "doi": "10.5281/zenodo.12608602",
+      "version": "v0.4.3",
+      "publisher": "Zenodo",
+      "year": "2024",
+      "month": "07",
+      "title": "The Language Model Evaluation Harness",
+      "author": "Gao, Leo and Tow, Jonathan and Abbasi, Baber and Biderman, Stella and Black, Sid and DiPofi, Anthony and Foster, Charles and Golding, Laurence and Hsu, Jeffrey and Le Noac'h, Alain and Li, Haonan and McDonell, Kyle and Muennighoff, Niklas and Ociepa, Chris and Phang, Jason and Reynolds, Laria and Schoelkopf, Hailey and Skowron, Aviya and Sutawika, Lintang and Tang, Eric and Thite, Anish and Wang, Ben and Wang, Kevin and Zou, Andy",
+      "ENTRYTYPE": "misc",
+      "ID": "evalharness"
+    },
+    {
+      "year": "2024",
+      "month": "July",
+      "address": "Vienna, Austria",
+      "booktitle": "Proc. Int. Conf. on Machine Learning (ICML)",
+      "title": "Gated Linear Attention Transformers with Hardware-Efficient Training",
+      "author": "Songlin Yang and\nBailin Wang and\nYikang Shen and\nRameswar Panda and\nYoon Kim",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "YangWSPK24"
+    },
+    {
+      "year": "2023",
+      "journal": "Preprint arXiv:2307.08621",
+      "author": "Sun, Yutao and Dong, Li and Huang, Shaohan and Ma, Shuming and Xia, Yuqing and Xue, Jilong and Wang, Jianyong and Wei, Furu",
+      "title": "Retentive network: A successor to transformer for large language models",
+      "ENTRYTYPE": "article",
+      "ID": "sun2023retentive"
+    },
+    {
+      "year": "2016",
+      "address": "Berlin, Germany",
+      "month": "August",
+      "booktitle": "Proc. Association for Computational Linguistics (ACL)",
+      "title": "The {LAMBADA} dataset: Word prediction requiring a broad discourse context",
+      "author": "Denis Paperno and\nGerm{\\'{a}}n Kruszewski and\nAngeliki Lazaridou and\nQuan Ngoc Pham and\nRaffaella Bernardi and\nSandro Pezzelle and\nMarco Baroni and\nGemma Boleda and\nRaquel Fern{\\'{a}}ndez",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "PapernoKLPBPBBF16"
+    },
+    {
+      "year": "2020",
+      "month": "February",
+      "address": "New York, NY, USA",
+      "booktitle": "Proc. {AAAI} Conf. on Artificial Intelligence",
+      "title": "{PIQA:} Reasoning about Physical Commonsense in Natural Language",
+      "author": "Yonatan Bisk and\nRowan Zellers and\nRonan Le Bras and\nJianfeng Gao and\nYejin Choi",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "BiskZLGC20"
+    },
+    {
+      "year": "2019",
+      "month": "August",
+      "address": "Florence, Italy",
+      "booktitle": "Proc. Association for Computational Linguistics (ACL)",
+      "title": "HellaSwag: Can a Machine Really Finish Your Sentence?",
+      "author": "Rowan Zellers and\nAri Holtzman and\nYonatan Bisk and\nAli Farhadi and\nYejin Choi",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ZellersHBFC19"
+    },
+    {
+      "year": "2020",
+      "month": "February",
+      "address": "New York, NY, USA",
+      "booktitle": "Proc. {AAAI} Conf. on Artificial Intelligence",
+      "title": "WinoGrande: An Adversarial Winograd Schema Challenge at Scale",
+      "author": "Keisuke Sakaguchi and\nRonan Le Bras and\nChandra Bhagavatula and\nYejin Choi",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "SakaguchiBBC20"
+    },
+    {
+      "year": "2018",
+      "journal": "Preprint arXiv:1803.05457",
+      "author": "Clark, Peter and Cowhey, Isaac and Etzioni, Oren and Khot, Tushar and Sabharwal, Ashish and Schoenick, Carissa and Tafjord, Oyvind",
+      "title": "Think you have solved question answering? {T}ry {ARC}, the {AI}2 reasoning challenge",
+      "ENTRYTYPE": "article",
+      "ID": "clark2018think"
+    },
+    {
+      "year": "2023",
+      "journal": "Preprint arXiv:2304.09433",
+      "author": "Arora, Simran and Yang, Brandon and Eyuboglu, Sabri and Narayan, Avanika and Hojel, Andrew and Trummer, Immanuel and R{\\'e}, Christopher",
+      "title": "Language models enable simple systems for generating structured views of heterogeneous data lakes",
+      "ENTRYTYPE": "article",
+      "ID": "arora2023language"
+    },
+    {
+      "year": "2019",
+      "month": "June",
+      "address": "Minneapolis, MN, USA",
+      "booktitle": "Proc. North American Chapter of the Association for Computational Linguistics on Human Language Technologies (NAACL-HLT)",
+      "title": "OpenCeres: When Open Information Extraction Meets the Semi-Structured Web",
+      "author": "Colin Lockard and\nPrashant Shiralkar and\nXin Luna Dong",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "LockardSD19"
+    },
+    {
+      "year": "2018",
+      "month": "July",
+      "address": "Melbourne, Australia",
+      "booktitle": "Proc. Association for Computational Linguistics (ACL)",
+      "title": "Know What You Don't Know: Unanswerable Questions for {SQ}u{AD}",
+      "author": "Pranav Rajpurkar and\nRobin Jia and\nPercy Liang",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "RajpurkarJL18"
+    },
+    {
+      "year": "2023",
+      "journal": "Preprint arXiv:2307.09288",
+      "author": "Touvron, Hugo and Martin, Louis and Stone, Kevin and Albert, Peter and Almahairi, Amjad and Babaei, Yasmine and Bashlykov, Nikolay and Batra, Soumya and Bhargava, Prajjwal and Bhosale, Shruti and others",
+      "title": "Llama 2: Open foundation and fine-tuned chat models",
+      "ENTRYTYPE": "article",
+      "ID": "touvron2023llama"
+    },
+    {
+      "year": "2024",
+      "journal": "Preprint arXiv:2406.07887",
+      "author": "Waleffe, Roger and Byeon, Wonmin and Riach, Duncan and Norick, Brandon and Korthikanti, Vijay and Dao, Tri and Gu, Albert and Hatamizadeh, Ali and Singh, Sudhakar and Narayanan, Deepak and others",
+      "title": "An empirical study of mamba-based language models",
+      "ENTRYTYPE": "article",
+      "ID": "waleffe2024empirical"
+    },
+    {
+      "year": "2024",
+      "journal": "Preprint arXiv:2406.07522",
+      "author": "Ren, Liliang and Liu, Yang and Lu, Yadong and Shen, Yelong and Liang, Chen and Chen, Weizhu",
+      "title": "Samba: Simple hybrid state space models for efficient unlimited context language modeling",
+      "ENTRYTYPE": "article",
+      "ID": "ren2024samba"
+    },
+    {
+      "year": "2022",
+      "address": "Baltimore, MA, {USA}",
+      "month": "July",
+      "booktitle": "Proc. Int. Conf. on Machine Learning (ICML)",
+      "title": "Transformer Quality in Linear Time",
+      "author": "Weizhe Hua and\nZihang Dai and\nHanxiao Liu and\nQuoc V. Le",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "HuaDLL22"
+    },
+    {
+      "year": "2024",
+      "month": "December",
+      "address": "Vancouver, Canada",
+      "booktitle": "Proc. Advances in Neural Information Processing Systems (NeurIPS)",
+      "title": "{B'MOJO}: Hybrid State Space Realizations of Foundation Models with Eidetic and Fading Memory",
+      "author": "Luca Zancato and\nArjun Seshadri and\nYonatan Dukler and\nAditya Golatkar and\nYantao Shen and\nBenjamin Bowman and\nMatthew Trager and\nAlessandro Achille and\nStefano Soatto",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ZancatoSDG0BTAS24"
+    },
+    {
+      "year": "2024",
+      "journal": "Preprint arXiv:2412.13328",
+      "author": "Nunez, Elvis and Zancato, Luca and Bowman, Benjamin and Golatkar, Aditya and Xia, Wei and Soatto, Stefano",
+      "title": "Expansion Span: Combining Fading Memory and Retrieval in Hybrid State Space Models",
+      "ENTRYTYPE": "article",
+      "ID": "nunez2024expansion"
+    },
+    {
+      "year": "2024",
+      "journal": "Preprint arXiv:2411.13676",
+      "author": "Dong, Xin and Fu, Yonggan and Diao, Shizhe and Byeon, Wonmin and Chen, Zijia and Mahabaleshwarkar, Ameya Sunil and Liu, Shih-Yang and Van Keirsbilck, Matthijs and Chen, Min-Hung and Suhara, Yoshi and others",
+      "title": "Hymba: A hybrid-head architecture for small language models",
+      "ENTRYTYPE": "article",
+      "ID": "dong2024hymba"
+    },
+    {
+      "year": "2024",
+      "booktitle": "Conference on Language Modeling (COLM)",
+      "author": "Gu, Albert and Dao, Tri",
+      "title": "Mamba: Linear-time sequence modeling with selective state spaces",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "gu2023mamba"
+    },
+    {
+      "year": "2017",
+      "month": "April",
+      "address": "Toulon, France",
+      "booktitle": "Int. Conf. on Learning Representations (ICLR)",
+      "title": "Quasi-Recurrent Neural Networks",
+      "author": "James Bradbury and\nStephen Merity and\nCaiming Xiong and\nRichard Socher",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "Bradbury17"
+    },
+    {
+      "year": "2018",
+      "pages": "4470--4481",
+      "month": "November",
+      "address": "Brussels, Belgium",
+      "booktitle": "Proc. Conf. on Empirical Methods in Natural Language Processing (EMNLP)",
+      "title": "Simple Recurrent Units for Highly Parallelizable Recurrence",
+      "author": "Tao Lei and\nYu Zhang and\nSida I. Wang and\nHui Dai and\nYoav Artzi",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "LeiZWDA18"
+    },
+    {
+      "year": "1998",
+      "pages": "99--134",
+      "number": "1-2",
+      "volume": "101",
+      "journal": "Artificial intelligence",
+      "author": "Kaelbling, Leslie Pack and Littman, Michael L and Cassandra, Anthony R",
+      "title": "Planning and acting in partially observable stochastic domains",
+      "ENTRYTYPE": "article",
+      "ID": "kaelbling1998planning"
+    },
+    {
+      "year": "2023",
+      "month": "December",
+      "address": "New Orleans, LA, USA",
+      "booktitle": "Proc. Advances in Neural Information Processing Systems (NeurIPS)",
+      "title": "Hierarchically Gated Recurrent Neural Network for Sequence Modeling",
+      "author": "Zhen Qin and\nSonglin Yang and\nYiran Zhong",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "QinYZ23"
+    },
+    {
+      "year": "2011",
+      "address": "Stanford, CA, USA",
+      "month": "March",
+      "booktitle": "Logical Formalizations of Commonsense Reasoning, {AAAI} Spring Symposium, Technical Report SS-11-06",
+      "title": "The Winograd Schema Challenge",
+      "author": "Hector J. Levesque",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "Levesque11"
+    },
+    {
+      "year": "2016",
+      "address": "Austin, TX, USA",
+      "month": "November",
+      "booktitle": "Proc. Conf. on Empirical Methods in Natural Language Processing (EMNLP)",
+      "title": "{SQ}u{AD}: 100,000+ Questions for Machine Comprehension of Text",
+      "author": "Pranav Rajpurkar and\nJian Zhang and\nKonstantin Lopyrev and\nPercy Liang",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "RajpurkarZLL16"
+    },
+    {
+      "year": "2011",
+      "month": "July",
+      "address": "Beijing, China",
+      "booktitle": "Proc. of International Conference on Research and Development in Information Retrieval ({SIGIR})",
+      "title": "From one tree to a forest: a unified solution for structured web data extraction",
+      "author": "Qiang Hao and\nRui Cai and\nYanwei Pang and\nLei Zhang",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "HaoCPZ11"
+    },
+    {
+      "year": "2020",
+      "pages": "7096--7116",
+      "month": "November",
+      "address": "Virtual only",
+      "booktitle": "Proc. Conf. on Empirical Methods in Natural Language Processing (EMNLP)",
+      "title": "On the Ability and Limitations of Transformers to Recognize Formal Languages",
+      "author": "Satwik Bhattamishra and Kabir Ahuja and Navin Goyal",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "BhattamishraAG20"
+    },
+    {
+      "year": "2024",
+      "pages": "543--561",
+      "volume": "12",
+      "journal": "Transactions of the Association for Computational Linguistics (TACL)",
+      "author": "Strobl, Lena and Merrill, William and Weiss, Gail and Chiang, David and Angluin, Dana",
+      "title": "What formal languages can transformers express? a survey",
+      "ENTRYTYPE": "article",
+      "ID": "strobl2024formal"
+    },
+    {
+      "year": "2024",
+      "month": "December",
+      "address": "Vancouver, Canada",
+      "booktitle": "Proc. Advances in Neural Information Processing Systems (NeurIPS)",
+      "title": "The Expressive Capacity of State Space Models: {A} Formal Language\nPerspective",
+      "author": "Yash Raj Sarrof and\nYana Veitsman and\nMichael Hahn",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "SarrofV024"
+    },
+    {
+      "year": "2024",
+      "month": "July",
+      "address": "Vienna, Austria",
+      "booktitle": "Proc. Int. Conf. on Machine Learning (ICML)",
+      "title": "The Illusion of State in State-Space Models",
+      "author": "William Merrill and\nJackson Petty and\nAshish Sabharwal",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "MerrillPS24"
+    },
+    {
+      "year": "2023",
+      "pages": "531--545",
+      "volume": "11",
+      "journal": "Transactions of the Association for Computational Linguistics (TACL)",
+      "author": "Merrill, William and Sabharwal, Ashish",
+      "title": "The parallelism tradeoff: Limitations of log-precision transformers",
+      "ENTRYTYPE": "article",
+      "ID": "merrill2023parallelism"
+    },
+    {
+      "year": "2025",
+      "month": "April",
+      "address": "Vancouver, Canada",
+      "booktitle": "Int. Conf. on Learning Representations (ICLR)",
+      "author": "Kim, Juno and Suzuki, Taiji",
+      "title": "Transformers provably solve parity efficiently with chain of thought",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "kim2025transformers"
+    },
+    {
+      "year": "2025",
+      "journal": "Preprint arXiv:2501.16085",
+      "author": "Hui, Mude and Zhu, Rui-Jie and Yang, Songlin and Zhang, Yu and Wang, Zirui and Zhou, Yuyin and Eshraghian, Jason and Xie, Cihang",
+      "title": "{ARF}low: Autogressive Flow with Hybrid Linear Attention",
+      "ENTRYTYPE": "article",
+      "ID": "hui2025arflow"
+    },
+    {
+      "year": "2023",
+      "month": "December",
+      "address": "New Orleans, LA, USA",
+      "booktitle": "Proc. Advances in Neural Information Processing Systems (NeurIPS)",
+      "title": "When Do Transformers Shine in {RL}? {D}ecoupling Memory from Credit Assignment",
+      "author": "Tianwei Ni and\nMichel Ma and\nBenjamin Eysenbach and\nPierre{-}Luc Bacon",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "NiMEB23"
+    },
+    {
+      "year": "2019",
+      "number": "1",
+      "volume": "10",
+      "journal": "Nature communications",
+      "author": "Hung, Chia-Chun and Lillicrap, Timothy and Abramson, Josh and Wu, Yan and Mirza, Mehdi and Carnevale, Federico and Ahuja, Arun and Wayne, Greg",
+      "title": "Optimizing agent behavior over long time scales by transporting value",
+      "ENTRYTYPE": "article",
+      "ID": "hung2019optimizing"
+    },
+    {
+      "year": "2019",
+      "journal": "Preprint arXiv:1910.07207",
+      "author": "Christodoulou, Petros",
+      "title": "Soft actor-critic for discrete action settings",
+      "ENTRYTYPE": "article",
+      "ID": "christodoulou2019soft"
+    },
+    {
+      "month": "July",
+      "address": "Stockholm, Sweden",
+      "year": "2018",
+      "booktitle": "Proc. Int. Conf. on Machine Learning (ICML)",
+      "author": "Haarnoja, Tuomas and Zhou, Aurick and Hartikainen, Kristian and Tucker, George and Ha, Sehoon and Tan, Jie and Kumar, Vikash and Zhu, Henry and Gupta, Abhishek and Abbeel, Pieter and others",
+      "title": "Soft actor-critic algorithms and applications",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "haarnoja2018soft"
+    },
+    {
+      "year": "2024",
+      "volume": "568",
+      "journal": "Neurocomputing",
+      "author": "Su, Jianlin and Ahmed, Murtadha and Lu, Yu and Pan, Shengfeng and Bo, Wen and Liu, Yunfeng",
+      "title": "Roformer: Enhanced transformer with rotary position embedding",
+      "ENTRYTYPE": "article",
+      "ID": "su2024roformer"
+    },
+    {
+      "year": "2025",
+      "month": "July",
+      "address": "Vienna, Austria",
+      "booktitle": "Proc. Findings of Association for Computational Linguistics ({ACL-Findings})",
+      "author": "Irie, Kazuki",
+      "title": "Why Are Positional Encodings Nonessential for Deep Autoregressive Transformers? {R}evisiting a Petroglyph",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "irie2024positional"
+    },
+    {
+      "year": "2023",
+      "month": "December",
+      "address": "New Orleans, LA, USA",
+      "booktitle": "Proc. Advances in Neural Information Processing Systems (NeurIPS)",
+      "title": "The Impact of Positional Encoding on Length Generalization in Transformers",
+      "author": "Amirhossein Kazemnejad and  Inkit Padhi and\nKarthikeyan Natesan Ramamurthy and\nPayel Das and\nSiva Reddy",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "KazemnejadPRDR23"
+    },
+    {
+      "year": "2022",
+      "pages": "1382--1390",
+      "month": "December",
+      "address": "Abu Dhabi, United Arab Emirates",
+      "booktitle": "Findings of Conf. on Empirical Methods in Natural Language Processing (EMNLP-Findings)",
+      "title": "Transformer Language Models without Positional Encodings Still Learn Positional Information",
+      "author": "Adi Haviv and\nOri Ram and\nOfir Press and\nPeter Izsak and\nOmer Levy",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "avivRPIL22"
+    }
+  ]
+}

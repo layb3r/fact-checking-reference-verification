@@ -1,0 +1,397 @@
+{
+  "pdf_url": "https://arxiv.org/pdf/2510.10790v1.pdf",
+  "references": [
+    {
+      "publisher": "Frontiers Research Foundation",
+      "year": "2010",
+      "pages": "200",
+      "volume": "4",
+      "journal": "Frontiers in neuroscience",
+      "author": "Meunier, David and Lambiotte, Renaud and Bullmore, Edward T",
+      "title": "Modular and hierarchically modular organization of brain networks",
+      "ENTRYTYPE": "article",
+      "ID": "meunier2010modular"
+    },
+    {
+      "publisher": "Oxford University Press",
+      "year": "2022",
+      "pages": "nwab102",
+      "number": "3",
+      "volume": "9",
+      "journal": "National Science Review",
+      "author": "Liang, Junhao and Wang, Sheng-Jun and Zhou, Changsong",
+      "title": "Less is more: wiring-economical modular networks support self-sustained firing-economical neural avalanches for efficient processing",
+      "ENTRYTYPE": "article",
+      "ID": "liang2022less"
+    },
+    {
+      "publisher": "MDPI",
+      "year": "2023",
+      "pages": "5366",
+      "number": "14",
+      "volume": "16",
+      "journal": "Energies",
+      "author": "Maksymov, Ivan S",
+      "title": "Analogue and physical reservoir computing using water waves: Applications in power engineering and beyond",
+      "ENTRYTYPE": "article",
+      "ID": "maksymov2023analogue"
+    },
+    {
+      "publisher": "American Association for the Advancement of Science",
+      "year": "2019",
+      "pages": "eaay6946",
+      "number": "12",
+      "volume": "5",
+      "journal": "Science advances",
+      "author": "Hughes, Tyler W and Williamson, Ian AD and Minkov, Momchil and Fan, Shanhui",
+      "title": "Wave physics as an analog recurrent neural network",
+      "ENTRYTYPE": "article",
+      "ID": "hughes2019wave"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "2024",
+      "pages": "4288--4305",
+      "volume": "23",
+      "journal": "Computational and Structural Biotechnology Journal",
+      "author": "Balkenhol, Johannes and H{\\\"a}ndel, Barbara and Biswas, Sounak and Grohmann, Johannes and Kistowski, J{\\'o}akim v and Prada, Juan and Bosman, Conrado A and Ehrenreich, Hannelore and Wojcik, Sonja M and Kounev, Samuel and others",
+      "title": "Beyond-local neural information processing in neuronal networks",
+      "ENTRYTYPE": "article",
+      "ID": "balkenhol2024beyond"
+    },
+    {
+      "publisher": "National Academy of Sciences",
+      "year": "2025",
+      "pages": "e2321319121",
+      "number": "1",
+      "volume": "122",
+      "journal": "Proceedings of the National Academy of Sciences",
+      "author": "Liboni, Luisa HB and Budzinski, Roberto C and Busch, Alexandra N and L{\\\"o}we, Sindy and Keller, Thomas A and Welling, Max and Muller, Lyle E",
+      "title": "Image segmentation with traveling waves in an exactly solvable recurrent neural network",
+      "ENTRYTYPE": "article",
+      "ID": "liboni2025image"
+    },
+    {
+      "url": "https://openreview.net/forum?id=p4S5Z6Sah4",
+      "year": "2024",
+      "booktitle": "The Twelfth International Conference on Learning Representations",
+      "author": "T. Anderson Keller and Lyle Muller and Terrence Sejnowski and Max Welling",
+      "title": "Traveling Waves Encode The Recent Past and Enhance Sequence Learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "keller2024traveling"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2023",
+      "pages": "16168--16189",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Keller, T Anderson and Welling, Max",
+      "title": "Neural wave machines: learning spatiotemporally structured representations with locally coupled oscillatory recurrent neural networks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "keller2023neural"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2017",
+      "pages": "933--941",
+      "booktitle": "International conference on machine learning",
+      "author": "Dauphin, Yann N and Fan, Angela and Auli, Michael and Grangier, David",
+      "title": "Language modeling with gated convolutional networks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "dauphin2017language"
+    },
+    {
+      "year": "2016",
+      "journal": "arXiv preprint arXiv:1606.08415",
+      "author": "Hendrycks, Dan and Gimpel, Kevin",
+      "title": "Gaussian error linear units (gelus)",
+      "ENTRYTYPE": "article",
+      "ID": "hendrycks2016gaussian"
+    },
+    {
+      "publisher": "Wiley Online Library",
+      "year": "2021",
+      "pages": "e01470",
+      "number": "4",
+      "volume": "91",
+      "journal": "Ecological Monographs",
+      "author": "Auger-M{\\'e}th{\\'e}, Marie and Newman, Ken and Cole, Diana and Empacher, Fanny and Gryba, Rowenna and King, Aaron A and Leos-Barajas, Vianey and Mills Flemming, Joanna and Nielsen, Anders and Petris, Giovanni and others",
+      "title": "A guide to state--space modeling of ecological time series",
+      "ENTRYTYPE": "article",
+      "ID": "auger2021guide"
+    },
+    {
+      "publisher": "Mary Ann Liebert, Inc., publishers 140 Huguenot Street, 3rd Floor New~…",
+      "year": "2021",
+      "pages": "3--21",
+      "number": "1",
+      "volume": "9",
+      "journal": "Big data",
+      "author": "Torres, Jos{\\'e} F and Hadjout, Dalil and Sebaa, Abderrazak and Mart{\\'\\i}nez-{\\'A}lvarez, Francisco and Troncoso, Alicia",
+      "title": "Deep learning for time series forecasting: a survey",
+      "ENTRYTYPE": "article",
+      "ID": "torres2021deep"
+    },
+    {
+      "year": "2023",
+      "pages": "6778--6786",
+      "booktitle": "Proceedings of the Thirty-Second International Joint Conference on Artificial Intelligence",
+      "author": "Wen, Qingsong and Zhou, Tian and Zhang, Chaoli and Chen, Weiqi and Ma, Ziqing and Yan, Junchi and Sun, Liang",
+      "title": "Transformers in time series: a survey",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "wen2023transformers"
+    },
+    {
+      "publisher": "Nature Publishing Group UK London",
+      "year": "2013",
+      "pages": "585--590",
+      "number": "7451",
+      "volume": "497",
+      "journal": "Nature",
+      "author": "Rigotti, Mattia and Barak, Omri and Warden, Melissa R and Wang, Xiao-Jing and Daw, Nathaniel D and Miller, Earl K and Fusi, Stefano",
+      "title": "The importance of mixed selectivity in complex cognitive tasks",
+      "ENTRYTYPE": "article",
+      "ID": "rigotti2013importance"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "2024",
+      "journal": "Trends in Cognitive Sciences",
+      "author": "Foster, Maya and Scheinost, Dustin",
+      "title": "Brain states as wave-like motifs",
+      "ENTRYTYPE": "article",
+      "ID": "foster2024brain"
+    },
+    {
+      "publisher": "Public Library of Science San Francisco, CA USA",
+      "year": "2021",
+      "pages": "e3001234",
+      "number": "5",
+      "volume": "19",
+      "journal": "PLoS biology",
+      "author": "Doelling, Keith B and Assaneo, M Florencia",
+      "title": "Neural oscillations are a start toward understanding brain activity rather than the end",
+      "ENTRYTYPE": "article",
+      "ID": "doelling2021neural"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "2022",
+      "pages": "323--335",
+      "number": "4",
+      "volume": "45",
+      "journal": "Trends in Neurosciences",
+      "author": "Esghaei, Moein and Treue, Stefan and Vidyasagar, Trichur R",
+      "title": "Dynamic coupling of oscillatory neural activity and its roles in visual attention",
+      "ENTRYTYPE": "article",
+      "ID": "esghaei2022dynamic"
+    },
+    {
+      "publisher": "Nature Publishing Group UK London",
+      "year": "2024",
+      "pages": "2289",
+      "number": "1",
+      "volume": "15",
+      "journal": "Nature Communications",
+      "author": "Xia, Jie and Liu, Cirong and Li, Jiao and Meng, Yao and Yang, Siqi and Chen, Huafu and Liao, Wei",
+      "title": "Decomposing cortical activity through neuronal tracing connectome-eigenmodes in marmosets",
+      "ENTRYTYPE": "article",
+      "ID": "xia2024decomposing"
+    },
+    {
+      "year": "2018",
+      "pages": "95--104",
+      "booktitle": "The 41st international ACM SIGIR conference on research \\& development in information retrieval",
+      "author": "Lai, Guokun and Chang, Wei-Cheng and Yang, Yiming and Liu, Hanxiao",
+      "title": "Modeling long-and short-term temporal patterns with deep neural networks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "lai2018modeling"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2208.04933",
+      "author": "Smith, Jimmy TH and Warrington, Andrew and Linderman, Scott W",
+      "title": "Simplified state space layers for sequence modeling",
+      "ENTRYTYPE": "article",
+      "ID": "smith2022simplified"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2023",
+      "pages": "26670--26698",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Orvieto, Antonio and Smith, Samuel L and Gu, Albert and Fernando, Anushan and Gulcehre, Caglar and Pascanu, Razvan and De, Soham",
+      "title": "Resurrecting recurrent neural networks for long sequences",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "orvieto2023resurrecting"
+    },
+    {
+      "year": "2022",
+      "pages": "38614--38628",
+      "volume": "35",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Irie, Kazuki and Faccio, Francesco and Schmidhuber, J{\\\"u}rgen",
+      "title": "Neural differential equations for learning to program neural nets through continuous learning rules",
+      "ENTRYTYPE": "article",
+      "ID": "irie2022neural"
+    },
+    {
+      "year": "2020",
+      "pages": "6696--6707",
+      "volume": "33",
+      "journal": "Advances in neural information processing systems",
+      "author": "Kidger, Patrick and Morrill, James and Foster, James and Lyons, Terry",
+      "title": "Neural controlled differential equations for irregular time series",
+      "ENTRYTYPE": "article",
+      "ID": "kidger2020neural"
+    },
+    {
+      "year": "2018",
+      "journal": "arXiv preprint arXiv:1811.00075",
+      "author": "Bagnall, Anthony and Dau, Hoang Anh and Lines, Jason and Flynn, Michael and Large, James and Bostrom, Aaron and Southam, Paul and Keogh, Eamonn",
+      "title": "The UEA multivariate time series classification archive, 2018",
+      "ENTRYTYPE": "article",
+      "ID": "bagnall2018uea"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2024",
+      "pages": "49822--49844",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Walker, Benjamin and Mcleod, Andrew Donald and Qin, Tiexin and Cheng, Yichuan and Li, Haoliang and Lyons, Terry",
+      "title": "Log Neural Controlled Differential Equations: The Lie Brackets Make A Difference",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "walker2024log"
+    },
+    {
+      "publisher": "American Association for the Advancement of Science",
+      "year": "2022",
+      "pages": "eabj5861",
+      "number": "6585",
+      "volume": "375",
+      "journal": "Science",
+      "author": "Campagnola, Luke and Seeman, Stephanie C and Chartrand, Thomas and Kim, Lisa and Hoggarth, Alex and Gamlin, Clare and Ito, Shinya and Trinh, Jessica and Davoudian, Pasha and Radaelli, Cristina and others",
+      "title": "Local connectivity and synaptic dynamics in mouse and human neocortex",
+      "ENTRYTYPE": "article",
+      "ID": "campagnola2022local"
+    },
+    {
+      "publisher": "Nature Publishing Group UK London",
+      "year": "2019",
+      "pages": "253--271",
+      "number": "5",
+      "volume": "20",
+      "journal": "Nature Reviews Neuroscience",
+      "author": "Alcam{\\'\\i}, Pepe and Pereda, Alberto E",
+      "title": "Beyond plasticity: the dynamic impact of electrical synapses on neural circuits",
+      "ENTRYTYPE": "article",
+      "ID": "alcami2019beyond"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "2012",
+      "pages": "207--218",
+      "number": "4",
+      "volume": "16",
+      "journal": "Trends in cognitive sciences",
+      "author": "Fuster, Joaqu{\\'\\i}n M and Bressler, Steven L",
+      "title": "Cognit activation: a mechanism enabling temporal integration in working memory",
+      "ENTRYTYPE": "article",
+      "ID": "fuster2012cognit"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "2017",
+      "pages": "1071--1084",
+      "number": "6",
+      "volume": "94",
+      "journal": "Neuron",
+      "author": "Richards, Blake A and Frankland, Paul W",
+      "title": "The persistence and transience of memory",
+      "ENTRYTYPE": "article",
+      "ID": "richards2017persistence"
+    },
+    {
+      "publisher": "Nature Publishing Group UK London",
+      "year": "2009",
+      "pages": "113--125",
+      "number": "2",
+      "volume": "10",
+      "journal": "Nature Reviews Neuroscience",
+      "author": "Buonomano, Dean V and Maass, Wolfgang",
+      "title": "State-dependent computations: spatiotemporal processing in cortical networks",
+      "ENTRYTYPE": "article",
+      "ID": "buonomano2009state"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "2001",
+      "pages": "202--208",
+      "number": "2",
+      "volume": "11",
+      "journal": "Current opinion in neurobiology",
+      "author": "Dale, Anders M and Halgren, Eric",
+      "title": "Spatiotemporal mapping of brain activity by integration of multiple imaging modalities",
+      "ENTRYTYPE": "article",
+      "ID": "dale2001spatiotemporal"
+    },
+    {
+      "organization": "OpenReview",
+      "year": "2021",
+      "booktitle": "International Conference on Learning Representations (ICLR 2021)",
+      "author": "Rusch, T Konstantin and Mishra, Siddhartha",
+      "title": "Coupled Oscillatory Recurrent Neural Network (coRNN): An accurate and (gradient) stable architecture for learning long time dependencies",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "rusch2021coupled"
+    },
+    {
+      "year": "2019",
+      "pages": "4171--4186",
+      "booktitle": "Proceedings of the 2019 conference of the North American chapter of the association for computational linguistics: human language technologies, volume 1 (long and short papers)",
+      "author": "Devlin, Jacob and Chang, Ming-Wei and Lee, Kenton and Toutanova, Kristina",
+      "title": "Bert: Pre-training of deep bidirectional transformers for language understanding",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "devlin2019bert"
+    },
+    {
+      "year": "2017",
+      "volume": "30",
+      "journal": "Advances in neural information processing systems",
+      "author": "Vaswani, Ashish and Shazeer, Noam and Parmar, Niki and Uszkoreit, Jakob and Jones, Llion and Gomez, Aidan N and Kaiser, {\\L}ukasz and Polosukhin, Illia",
+      "title": "Attention is all you need",
+      "ENTRYTYPE": "article",
+      "ID": "vaswani2017attention"
+    },
+    {
+      "url": "https://openreview.net/forum?id=GRMfXcAAFh",
+      "year": "2025",
+      "booktitle": "The Thirteenth International Conference on Learning Representations",
+      "author": "T. Konstantin Rusch and Daniela Rus",
+      "title": "Oscillatory State-Space Models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "rusch2025oscillatory"
+    },
+    {
+      "year": "2023",
+      "pages": "46786--46806",
+      "volume": "36",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Lanthaler, Samuel and Rusch, T Konstantin and Mishra, Siddhartha",
+      "title": "Neural oscillators are universal",
+      "ENTRYTYPE": "article",
+      "ID": "lanthaler2023neural"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "2023",
+      "pages": "2258--2273",
+      "number": "14",
+      "volume": "111",
+      "journal": "Neuron",
+      "author": "Watakabe, Akiya and Skibbe, Henrik and Nakae, Ken and Abe, Hiroshi and Ichinohe, Noritaka and Rachmadi, Muhammad Febrian and Wang, Jian and Takaji, Masafumi and Mizukami, Hiroaki and Woodward, Alexander and others",
+      "title": "Local and long-distance organization of prefrontal cortex circuits in the marmoset brain",
+      "ENTRYTYPE": "article",
+      "ID": "watakabe2023local"
+    }
+  ]
+}

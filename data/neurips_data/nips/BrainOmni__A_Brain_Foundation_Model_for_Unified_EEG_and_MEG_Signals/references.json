@@ -1,0 +1,967 @@
+{
+  "pdf_url": "https://arxiv.org/pdf/2505.18185v3.pdf",
+  "references": [
+    {
+      "year": "2023",
+      "booktitle": "Proc. NeurIPS",
+      "author": "Yang, Chaoqi and Westover, M Brandon and Sun, Jimeng",
+      "title": "{BIOT}: {B}iosignal transformer for cross-data learning in the wild",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "yang2023biot"
+    },
+    {
+      "year": "2023",
+      "booktitle": "Proc. NeurIPS",
+      "author": "Yi, Ke and Wang, Yansen and Ren, Kan and Li, Dongsheng",
+      "title": "Learning topology-agnostic {EEG} representations with geometry-aware modeling",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "yi2023learning"
+    },
+    {
+      "year": "2024",
+      "booktitle": "Proc. ICLR",
+      "author": "Jiang, Weibang and Zhao, Liming and Lu, Bao-liang",
+      "title": "Large Brain Model for Learning Generic Representations with Tremendous {EEG} Data in {BCI}",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "jiang2024large"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2502.01678",
+      "author": "Wang, Yihe and Huang, Nan and Mammone, Nadia and Cecchi, Marco and Zhang, Xiang",
+      "title": "{LEAD}: {L}arge Foundation Model for {EEG}-Based {A}lzheimer's Disease Detection",
+      "ENTRYTYPE": "article",
+      "ID": "wang2025leadlargefoundationmodel"
+    },
+    {
+      "year": "2025",
+      "booktitle": "Proc. ICLR",
+      "author": "Wang, Jiquan and Zhao, Sha and Luo, Zhiling and Zhou, Yangxuan and Jiang, Haiteng and Li, Shijian and Li, Tao and Pan, Gang",
+      "title": "{CBraMod}: {A} Criss-Cross Brain Foundation Model for {EEG} Decoding",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "wang2025cbramod"
+    },
+    {
+      "year": "2019",
+      "booktitle": "Proc. ACL",
+      "author": "Devlin, Jacob and Chang, Ming-Wei and Lee, Kenton and Toutanova, Kristina",
+      "title": "{BERT}: {P}re-training of deep bidirectional {T}ransformers for language understanding",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "devlin-etal-2019-bert"
+    },
+    {
+      "year": "2022",
+      "booktitle": "Proc. CVPR",
+      "author": "He, Kaiming and Chen, Xinlei and Xie, Saining and Li, Yanghao and Doll{\\'a}r, Piotr and Girshick, Ross",
+      "title": "Masked autoencoders are scalable vision learners",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "He_2022_CVPR"
+    },
+    {
+      "year": "1994",
+      "pages": "35--42",
+      "volume": "32",
+      "journal": "Medical \\& biological engineering \\& computing",
+      "author": "H{\\\"a}m{\\\"a}l{\\\"a}inen, Matti S and Ilmoniemi, Risto J",
+      "title": "Interpreting magnetic fields of the brain: {M}inimum norm estimates",
+      "ENTRYTYPE": "article",
+      "ID": "hamalainen-illmoniemi-1994-mne"
+    },
+    {
+      "year": "2023",
+      "pages": "18813",
+      "number": "1",
+      "volume": "13",
+      "journal": "Scientific Reports",
+      "author": "Sharma, Neha and Upadhyay, Avinash and Sharma, Manoj and Singhal, Amit",
+      "title": "Deep temporal networks for {EEG}-based motor imagery recognition",
+      "ENTRYTYPE": "article",
+      "ID": "sharma2023deep"
+    },
+    {
+      "year": "2021",
+      "pages": "7071",
+      "number": "1",
+      "volume": "11",
+      "journal": "Scientific Reports",
+      "author": "Gannouni, Sofien and Aledaily, Arwa and Belwafi, Kais and Aboalsamh, Hatim",
+      "title": "Emotion detection using electroencephalography signals and a zero-time windowing-based epoch estimation and relevant electrode identification",
+      "ENTRYTYPE": "article",
+      "ID": "gannouni2021emotion"
+    },
+    {
+      "year": "2025",
+      "pages": "902--912",
+      "number": "4",
+      "volume": "28",
+      "journal": "Nature Neuroscience",
+      "author": "Littlejohn, Kaylo T and Cho, Cheol Jun and Liu, Jessie R and Silva, Alexander B and Yu, Bohan and Anderson, Vanessa R and Kurtz-Miott, Cady M and Brosler, Samantha and Kashyap, Anshul P and Hallinan, Irina P and others",
+      "title": "A streaming brain-to-voice neuroprosthesis to restore naturalistic communication",
+      "ENTRYTYPE": "article",
+      "ID": "littlejohn2025streaming"
+    },
+    {
+      "year": "2023",
+      "pages": "1097--1107",
+      "number": "10",
+      "volume": "5",
+      "journal": "Nature Machine Intelligence",
+      "author": "D{\\'e}fossez, Alexandre and Caucheteux, Charlotte and Rapin, J{\\'e}r{\\'e}my and Kabeli, Ori and King, Jean-R{\\'e}mi",
+      "title": "Decoding speech perception from non-invasive brain recordings",
+      "ENTRYTYPE": "article",
+      "ID": "defossez2023decoding"
+    },
+    {
+      "year": "2024",
+      "booktitle": "Proc. ICLR",
+      "author": "Yohann Benchetrit and Hubert Banville and Jean-Remi King",
+      "title": "Brain decoding: {T}oward real-time reconstruction of visual perception",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "benchetrit2024brain"
+    },
+    {
+      "year": "2023",
+      "pages": "e1750--e1762",
+      "number": "17",
+      "volume": "100",
+      "journal": "Neurology",
+      "author": "Jing, Jin and Ge, Wendong and Hong, Shenda and Fernandes, Marta Bento and Lin, Zhen and Yang, Chaoqi and An, Sungtae and Struck, Aaron F and Herlopian, Aline and Karakis, Ioannis and others",
+      "title": "Development of expert-level classification of seizures and rhythmic and periodic patterns during {EEG} interpretation",
+      "ENTRYTYPE": "article",
+      "ID": "jing2023development"
+    },
+    {
+      "year": "2022",
+      "pages": "710--719",
+      "volume": "31",
+      "journal": "IEEE Transactions on Neural Systems and Rehabilitation Engineering",
+      "author": "Song, Yonghao and Zheng, Qingqing and Liu, Bingchuan and Gao, Xiaorong",
+      "title": "{EEG Conformer}: {C}onvolutional transformer for {EEG} decoding and visualization",
+      "ENTRYTYPE": "article",
+      "ID": "song2023eegconformer"
+    },
+    {
+      "year": "2023",
+      "pages": "e46769",
+      "number": "1",
+      "volume": "2",
+      "journal": "JMIR AI",
+      "author": "Yang, Chaoqi and Xiao, Cao and Westover, M Brandon and Sun, Jimeng and others",
+      "title": "Self-supervised electroencephalogram representation learning for automatic sleep staging: {M}odel development and evaluation study",
+      "ENTRYTYPE": "article",
+      "ID": "yang2023self"
+    },
+    {
+      "publisher": "Psychology Press",
+      "year": "2003",
+      "author": "Lu, Zhong-Lin and Kaufman, Lloyd",
+      "title": "Magnetic source imaging of the human brain",
+      "ENTRYTYPE": "book",
+      "ID": "lu2003magnetic"
+    },
+    {
+      "journal": "Neurocomput.",
+      "number": "C",
+      "volume": "568",
+      "year": "2024",
+      "title": "{R}o{F}ormer: {E}nhanced transformer with Rotary Position Embedding",
+      "author": "Su, Jianlin and Ahmed, Murtadha and Lu, Yu and Pan, Shengfeng and Bo, Wen and Liu, Yunfeng",
+      "ENTRYTYPE": "article",
+      "ID": "su2024rope"
+    },
+    {
+      "year": "2019",
+      "pages": "2924--2935",
+      "number": "10",
+      "volume": "66",
+      "journal": "IEEE Transactions on Biomedical Engineering",
+      "author": "Yang, Su and Bornot, Jose Miguel Sanchez and Wong-Lin, Kongfatt and Prasad, Girijesh",
+      "title": "{M/EEG}-based bio-markers to predict the {MCI} and {A}lzheimer's disease: a review from the {ML} perspective",
+      "ENTRYTYPE": "article",
+      "ID": "yang2019m"
+    },
+    {
+      "year": "2020",
+      "pages": "102378",
+      "volume": "28",
+      "journal": "NeuroImage: Clinical",
+      "author": "Nugent, Allison C and Ballard, Elizabeth D and Gilbert, Jessica R and Tewarie, Prejaas K and Brookes, Matthew J and Zarate Jr, Carlos A",
+      "title": "Multilayer {MEG} functional connectivity as a potential marker for suicidal thoughts in major depressive disorder",
+      "ENTRYTYPE": "article",
+      "ID": "nugent2020multilayer"
+    },
+    {
+      "year": "2022",
+      "pages": "104752",
+      "volume": "139",
+      "journal": "Neuroscience \\& Biobehavioral Reviews",
+      "author": "Slater, Jessica and Joober, Ridha and Koborsy, Brenda Lynn and Mitchell, Samantha and Sahlas, Ella and Palmer, Caroline",
+      "title": "Can electroencephalography ({EEG}) identify {ADHD} subtypes? {A} systematic review",
+      "ENTRYTYPE": "article",
+      "ID": "slater2022can"
+    },
+    {
+      "pages": "257–286",
+      "year": "2012",
+      "author": "Ahlfors, Seppo P. and Hämäläinen, Matti S.",
+      "publisher": "Cambridge University Press",
+      "title": "Handbook of Neural Activity Measurement",
+      "chapter": "{MEG} and {EEG}: {S}ource estimation",
+      "place": "Cambridge",
+      "ENTRYTYPE": "inbook",
+      "ID": "Ahlfors_Hämäläinen_2012"
+    },
+    {
+      "year": "2021",
+      "booktitle": "Proc. BIBE",
+      "author": "Sdoukopoulou, Glykeria and Antonakakis, Marios and Modde, Gabriel and Wolters, Carsten H and Zervakis, Michalis",
+      "title": "Interictal spike classification in pharmacoresistant epilepsy using combined {EEG} and {MEG}",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "sdoukopoulou2021interictal"
+    },
+    {
+      "year": "2015",
+      "pages": "e0118753",
+      "number": "3",
+      "volume": "10",
+      "journal": "PloS one",
+      "author": "Aydin, {\\\"U}mit and Vorwerk, Johannes and D{\\\"u}mpelmann, Matthias and K{\\\"u}pper, Philipp and Kugel, Harald and Heers, Marcel and Wellmer, J{\\\"o}rg and Kellinghaus, Christoph and Haueisen, Jens and Rampp, Stefan and others",
+      "title": "Combined {EEG/MEG} can outperform single modality {EEG} or {MEG} source reconstruction in presurgical epilepsy diagnosis",
+      "ENTRYTYPE": "article",
+      "ID": "aydin2015combined"
+    },
+    {
+      "year": "2005",
+      "pages": "59--68",
+      "number": "1",
+      "volume": "46",
+      "journal": "Epilepsia",
+      "author": "Iwasaki, Masaki and Pestana, Elia and Burgess, Richard C and L{\\\"u}ders, Hans O and Shamoto, Hiroshi and Nakasato, Nobukazu",
+      "title": "Detection of epileptiform activity by human interpreters: {B}linded comparison between electroencephalography and magnetoencephalography",
+      "ENTRYTYPE": "article",
+      "ID": "iwasaki2005detection"
+    },
+    {
+      "year": "2019",
+      "pages": "9",
+      "number": "8",
+      "volume": "1",
+      "journal": "OpenAI blog",
+      "author": "Radford, Alec and Wu, Jeffrey and Child, Rewon and Luan, David and Amodei, Dario and Sutskever, Ilya and others",
+      "title": "Language models are unsupervised multitask learners",
+      "ENTRYTYPE": "article",
+      "ID": "radford2019language"
+    },
+    {
+      "year": "2022",
+      "booktitle": "Proc. NeurIPS",
+      "author": "Ouyang, Long and Wu, Jeff and Jiang, Xu and Almeida, Diogo and Wainwright, Carroll L and Mishkin, Pamela and Zhang, Chong and Agarwal, Sandhini and Slama, Katarina and Ray, Alex and others",
+      "title": "Training language models to follow instructions with human feedback",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ouyang2022training"
+    },
+    {
+      "year": "2021",
+      "booktitle": "Proc. ICML",
+      "author": "Radford, Alec and Kim, Jong Wook and Hallacy, Chris and Ramesh, Aditya and Goh, Gabriel and Agarwal, Sandhini and Sastry, Girish and Askell, Amanda and Mishkin, Pamela and Clark, Jack and others",
+      "title": "Learning transferable visual models from natural language supervision",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "radford2021learning"
+    },
+    {
+      "year": "2023",
+      "booktitle": "Proc. EMNLP",
+      "author": "Zhang, Hang and Li, Xin and Bing, Lidong",
+      "title": "{Video-LLaMA}: {A}n Instruction-tuned Audio-Visual Language Model for Video Understanding",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zhang2023video"
+    },
+    {
+      "year": "2020",
+      "booktitle": "Proc. NeurIPS",
+      "author": "Baevski, Alexei and Zhou, Henry and Mohamed, Abdelrahman and Auli, Michael",
+      "title": "{Wav2Vec 2.0}: {A} framework for self-supervised learning of speech representations",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "baevski2020wav2vec"
+    },
+    {
+      "year": "2021",
+      "pages": "3451--3460",
+      "volume": "29",
+      "journal": "IEEE/ACM transactions on audio, speech, and language processing",
+      "author": "Hsu, Wei-Ning and Bolte, Benjamin and Tsai, Yao-Hung Hubert and Lakhotia, Kushal and Salakhutdinov, Ruslan and Mohamed, Abdelrahman",
+      "title": "{HuBERT}: {S}elf-supervised speech representation learning by masked prediction of hidden units",
+      "ENTRYTYPE": "article",
+      "ID": "hsu2021hubert"
+    },
+    {
+      "year": "2022",
+      "pages": "1505--1518",
+      "number": "6",
+      "volume": "16",
+      "journal": "IEEE Journal of Selected Topics in Signal Processing",
+      "author": "Chen, Sanyuan and Wang, Chengyi and Chen, Zhengyang and Wu, Yu and Liu, Shujie and Chen, Zhuo and Li, Jinyu and Kanda, Naoyuki and Yoshioka, Takuya and Xiao, Xiong and others",
+      "title": "{WavLM}: {L}arge-scale self-supervised pre-training for full stack speech processing",
+      "ENTRYTYPE": "article",
+      "ID": "chen2022wavlm"
+    },
+    {
+      "year": "2021",
+      "pages": "653659",
+      "volume": "15",
+      "journal": "Frontiers in Human Neuroscience",
+      "author": "Kostas, Demetres and Aroca-Ouellette, Stephane and Rudzicz, Frank",
+      "title": "{BENDR}: {U}sing transformers and a contrastive self-supervised learning task to learn from massive amounts of {EEG} data",
+      "ENTRYTYPE": "article",
+      "ID": "kostas2021bendr"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2402.10251",
+      "author": "Yuan, Zhizhang and Shen, Fanqi and Li, Meng and Yu, Yuguo and Tan, Chenhao and Yang, Yang",
+      "title": "{BrainWave}: {A} Brain Signal Foundation Model for Clinical Applications",
+      "ENTRYTYPE": "article",
+      "ID": "yuan2024brainwave"
+    },
+    {
+      "year": "2025",
+      "booktitle": "Proc. ICLR",
+      "author": "Chau, Geeling and Wang, Christopher and Talukder, Sabera J and Subramaniam, Vighnesh and Soedarmadji, Saraswati and Yue, Yisong and Katz, Boris and Barbu, Andrei",
+      "title": "Population {T}ransformer: {L}earning Population-level Representations of Intracranial Activity",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "chau2024population"
+    },
+    {
+      "year": "2022",
+      "pages": "119177",
+      "volume": "255",
+      "journal": "Neuroimage",
+      "author": "Hauk, Olaf and Stenroos, Matti and Treder, Matthias S",
+      "title": "Towards an objective evaluation of {EEG/MEG} source estimation methods--{T}he linear approach",
+      "ENTRYTYPE": "article",
+      "ID": "hauk2022towards"
+    },
+    {
+      "year": "1985",
+      "pages": "290--299",
+      "number": "4",
+      "volume": "62",
+      "journal": "Electroencephalography and Clinical Neurophysiology/Evoked Potentials Section",
+      "author": "Scherg, Michael and Von Cramon, Detlev",
+      "title": "A new interpretation of the generators of {BAEP} waves {I--V}: {R}esults of a spatio-temporal dipole model",
+      "ENTRYTYPE": "article",
+      "ID": "scherg1985new"
+    },
+    {
+      "year": "1987",
+      "pages": "406--414",
+      "number": "6",
+      "journal": "IEEE Transactions on Biomedical Engineering",
+      "author": "He, Bin and Musha, Toshimitsu and Okamoto, Yoshiwo and Homma, Saburo and Nakajima, Yoshio and Sato, Toshio",
+      "title": "Electric dipole tracing in the brain by means of the boundary element method and its accuracy",
+      "ENTRYTYPE": "article",
+      "ID": "he1987electric"
+    },
+    {
+      "year": "1993",
+      "pages": "162--176",
+      "number": "2",
+      "volume": "5",
+      "journal": "Journal of cognitive neuroscience",
+      "author": "Dale, Anders M and Sereno, Martin I",
+      "title": "Improved localizadon of cortical activity by combining {EEG} and {MEG} with {MRI} cortical surface reconstruction: {A} linear approach",
+      "ENTRYTYPE": "article",
+      "ID": "dale1993improved"
+    },
+    {
+      "year": "1994",
+      "pages": "49--65",
+      "number": "1",
+      "volume": "18",
+      "journal": "International Journal of psychophysiology",
+      "author": "Pascual-Marqui, Roberto D and Michel, Christoph M and Lehmann, Dietrich",
+      "title": "Low resolution electromagnetic tomography: {A} new method for localizing electrical activity in the brain",
+      "ENTRYTYPE": "article",
+      "ID": "pascual1994low"
+    },
+    {
+      "year": "2008",
+      "pages": "205--215",
+      "volume": "20",
+      "journal": "Brain topography",
+      "author": "Peyk, Peter and Schupp, Harald T and Elbert, Thomas and Jungh{\\\"o}fer, Markus",
+      "title": "Emotion processing in the visual brain: {A} {MEG} analysis",
+      "ENTRYTYPE": "article",
+      "ID": "peyk2008emotion"
+    },
+    {
+      "year": "2014",
+      "pages": "368",
+      "volume": "8",
+      "journal": "Frontiers in neuroscience",
+      "author": "Su, Li and Zulfiqar, Isma and Jamshed, Fawad and Fonteneau, Elisabeth and Marslen-Wilson, William",
+      "title": "Mapping tonotopic organization in human temporal cortex: {R}epresentational similarity analysis in {EMEG} source space",
+      "ENTRYTYPE": "article",
+      "ID": "su2014mapping"
+    },
+    {
+      "year": "2019",
+      "booktitle": "Proc. BIBE",
+      "author": "Dimakopoulos, Vasileios S and Antonakakis, Marios and Moeddel, Gabriel and Wellmer, J{\\\"o}rg and Rampp, Stefan and Zervakis, Michalis and Wolters, Carsten H",
+      "title": "Combined {EEG/MEG} Source Reconstruction of Epileptic Activity using a Two-Phase Spike Clustering Approach",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "dimakopoulos2019combined"
+    },
+    {
+      "year": "2023",
+      "journal": "Transactions on Machine Learning Research",
+      "author": "Alexandre D{\\'e}fossez and Jade Copet and Gabriel Synnaeve and Yossi Adi",
+      "title": "High Fidelity Neural Audio Compression",
+      "ENTRYTYPE": "article",
+      "ID": "defossez2022high"
+    },
+    {
+      "year": "2021",
+      "pages": "495--507",
+      "volume": "30",
+      "journal": "IEEE/ACM Transactions on Audio, Speech, and Language Processing",
+      "author": "Zeghidour, Neil and Luebs, Alejandro and Omran, Ahmed and Skoglund, Jan and Tagliasacchi, Marco",
+      "title": "Soundstream: {A}n end-to-end neural audio codec",
+      "ENTRYTYPE": "article",
+      "ID": "zeghidour2021soundstream"
+    },
+    {
+      "year": "2023",
+      "pages": "862",
+      "number": "1",
+      "volume": "10",
+      "journal": "Scientific data",
+      "author": "Gwilliams, Laura and Flick, Graham and Marantz, Alec and Pylkk{\\\"a}nen, Liina and Poeppel, David and King, Jean-R{\\'e}mi",
+      "title": "Introducing {MEG-MASC} a high-quality magneto-encephalography dataset for evaluating natural speech processing",
+      "ENTRYTYPE": "article",
+      "ID": "Gwilliams2023"
+    },
+    {
+      "year": "2022",
+      "pages": "278",
+      "number": "1",
+      "volume": "9",
+      "journal": "Scientific Data",
+      "author": "Armeni, Kristijan and G{\\\"u}{\\c{c}}l{\\\"u}, Umut and van Gerven, Marcel and Schoffelen, Jan-Mathijs",
+      "title": "A 10-hour within-participant magnetoencephalography narrative dataset to test models of language comprehension",
+      "ENTRYTYPE": "article",
+      "ID": "Armeni2022"
+    },
+    {
+      "publisher": "OpenNeuro",
+      "howpublished": "10.18112/openneuro.ds002680.v1.2.0",
+      "year": "2021",
+      "title": "\"Go-nogo categorization and detection task\"",
+      "author": "Arnaud Delorme",
+      "ENTRYTYPE": "misc",
+      "ID": "ds002680:1.2.0"
+    },
+    {
+      "howpublished": "doi:10.18112/openneuro.ds002721.v1.0.3",
+      "year": "2024",
+      "title": "\"An {EEG} dataset recorded during affective music listening\"",
+      "author": "Ian Daly and Nicoletta Nicolaou and Duncan Williams and Faustina Hwang and Alexis Kirke and Eduardo Miranda and Slawomir J. Nasuto",
+      "ENTRYTYPE": "misc",
+      "ID": "ds002721:1.0.3"
+    },
+    {
+      "publisher": "OpenNeuro",
+      "howpublished": "10.18112/openneuro.ds003478.v1.1.0",
+      "year": "2021",
+      "title": "\"{EEG}: {D}epression rest\"",
+      "author": "James F Cavanagh  jcavanagh@unm.edu",
+      "ENTRYTYPE": "misc",
+      "ID": "ds003478:1.1.0"
+    },
+    {
+      "publisher": "OpenNeuro",
+      "howpublished": "10.18112/openneuro.ds003555.v1.0.1",
+      "year": "2021",
+      "title": "\"Dataset of {EEG} recordings of pediatric patients with epilepsy based on the 10-20 system \"",
+      "author": "Dorottya Cserpan and Ece Boran and Richard Rosch and San Pietro Lo Biundo and Georgia Ramantani and Johannes Sarnthein",
+      "ENTRYTYPE": "misc",
+      "ID": "ds003555:1.0.1"
+    },
+    {
+      "publisher": "OpenNeuro",
+      "howpublished": "10.18112/openneuro.ds003682.v1.0.0",
+      "year": "2021",
+      "title": "\"Model-based aversive learning in humans is supported by preferential task state reactivation\"",
+      "author": "Toby Wise and Yunzhe Liu and Fatima Chowdhury and Raymond J. Dolan",
+      "ENTRYTYPE": "misc",
+      "ID": "ds003682:1.0.0"
+    },
+    {
+      "publisher": "OpenNeuro",
+      "howpublished": "doi:10.18112/openneuro.ds003775.v1.2.1",
+      "year": "2022",
+      "title": "\"{SRM} Resting-state {EEG}\"",
+      "author": "Christoffer Hatlestad-Hall and Trine Waage Rygvold and Stein Andersson",
+      "ENTRYTYPE": "misc",
+      "ID": "ds003775:1.2.1"
+    },
+    {
+      "publisher": "OpenNeuro",
+      "howpublished": "doi:10.18112/openneuro.ds004107.v1.0.0",
+      "year": "2022",
+      "title": "\"{MIND DATA}\"",
+      "author": "M.P. Weisend and F.M. Hanlon and R. Montano and S.P. Ahlfors and A.C. Leuthold and D. Pantazis and J.C. Mosher and A.P. Georgopoulos and M.S. Hamalainen and C.J. Aine",
+      "ENTRYTYPE": "misc",
+      "ID": "ds004107:1.0.0"
+    },
+    {
+      "publisher": "OpenNeuro",
+      "howpublished": "doi:10.18112/openneuro.ds004148.v1.0.1",
+      "year": "2022",
+      "title": "\"A test-retest resting and cognitive state {EEG} dataset\"",
+      "author": "Yulin Wang and Wei Duan and Debo Dong and Lihong Ding and Xu Lei",
+      "ENTRYTYPE": "misc",
+      "ID": "ds004148:1.0.1"
+    },
+    {
+      "publisher": "OpenNeuro",
+      "howpublished": "doi:10.18112/openneuro.ds004078.v1.2.1",
+      "year": "2023",
+      "title": "\"A synchronized multimodal neuroimaging dataset to study brain language processing\"",
+      "author": "Shaonan Wang and Xiaohan Zhang and Jiajun Zhang and Chengqing Zong",
+      "ENTRYTYPE": "misc",
+      "ID": "ds004078:1.2.1"
+    },
+    {
+      "publisher": "OSF",
+      "url": "https://osf.io/qdzgh/",
+      "year": "2025",
+      "title": "\"Kymata Soto Language Dataset: an electro-magnetoencephalographic dataset for natural speech processing\"",
+      "author": "ChenTianyi Yang and Oliver Parish and Anastasia Klimovich-Gray and Cai Wingfield and William D. Marslen-Wilson and Chao Zhang and Alex Woolgar and Andrew Thwaites",
+      "ENTRYTYPE": "misc",
+      "ID": "kymatasoto"
+    },
+    {
+      "publisher": "OpenNeuro",
+      "howpublished": "doi:10.18112/openneuro.ds004186.v2.0.0",
+      "year": "2022",
+      "title": "\"{HBN} {EO/EC} task\"",
+      "author": "Alexander LM and Escalera J and Ai L and Andreotti C and Febre K and Mangone A and Vega-Potler N and Langer N and Alexander A and Kovacs M and Litke S and O'Hagan B and Andersen J and Bronstein B and Bui A and Bushey M and Butler H and Castagna V and Camacho N and Chan E and Citera D and Clucas J and Cohen S and Dufek S and Eaves M and Fradera B and Gardner J and Grant-Villegas N and Green G and Gregory C and Hart E and Harris S and Horton M and Kahn D and Kabotyanski K and Karmel B and Kelly SP and Kleinman K and Koo B and Kramer E and Lennon E and Lord C and Mantello G and Margolis A and Merikangas KR and Milham J and Minniti G and Neuhaus R and Levine A and Osman Y and Parra LC and Pugh KR and Racanello A and Restrepo A and Saltzman T and Septimus B and Tobe R and Waltz R and Williams A and Yeo A and Castellanos FX and Klein A and Paus T and Leventhal BL and Craddock RC and Koplewicz HS and Milham MP",
+      "ENTRYTYPE": "misc",
+      "ID": "ds004186:2.0.0"
+    },
+    {
+      "publisher": "OpenNeuro",
+      "howpublished": "doi:10.18112/openneuro.ds004212.v2.0.1",
+      "year": "2024",
+      "title": "\"THINGS-{MEG}\"",
+      "author": "Martin N. Hebart and Oliver Contier and Lina Teichmann and Adam H. Rockter and Charles Zheng and Alexis Kidder and Anna Corriveau and Maryam Vaziri-Pashkam and Chris I. Baker",
+      "ENTRYTYPE": "misc",
+      "ID": "ds004212:2.0.1"
+    },
+    {
+      "publisher": "OpenNeuro",
+      "howpublished": "doi:10.18112/openneuro.ds004276.v1.0.0",
+      "year": "2022",
+      "title": "\"Auditory single word recognition in {MEG}\"",
+      "author": "Phoebe Gaston and Christian Brodbeck and Colin Phillips and Ellen Lau",
+      "ENTRYTYPE": "misc",
+      "ID": "ds004276:1.0.0"
+    },
+    {
+      "publisher": "OpenNeuro",
+      "howpublished": "doi:10.18112/openneuro.ds004330.v1.0.0",
+      "year": "2022",
+      "title": "\"The spatiotemporal neural dynamics of object recognition for natural images and line drawings ({MEG})\"",
+      "author": "Johannes J.D. Singer and Radoslaw M. Cichy and Martin N. Hebart",
+      "ENTRYTYPE": "misc",
+      "ID": "ds004330:1.0.0"
+    },
+    {
+      "publisher": "OpenNeuro",
+      "howpublished": "doi:10.18112/openneuro.ds004357.v1.0.1",
+      "year": "2024",
+      "title": "\"Features-{EEG}\"",
+      "author": "Grootswagers, Tijl and Robinson, Amanda and Shatek, Sofia and Carlson, Thomas",
+      "ENTRYTYPE": "misc",
+      "ID": "ds004357:1.0.1"
+    },
+    {
+      "publisher": "OpenNeuro",
+      "howpublished": "doi:10.18112/openneuro.ds004796.v1.0.9",
+      "year": "2024",
+      "title": "\"A Polish Electroencephalography, {A}lzheimer’s Risk-genes, Lifestyle and Neuroimaging (PEARL-Neuro) Database\"",
+      "author": "Dzianok Patrycja and Kublik Ewa",
+      "ENTRYTYPE": "misc",
+      "ID": "ds004796:1.0.9"
+    },
+    {
+      "publisher": "OpenNeuro",
+      "howpublished": "doi:10.18112/openneuro.ds005241.v1.1.0",
+      "year": "2024",
+      "title": "\"{NeuroMorph}: {A} High-Temporal Resolution {MEG} Dataset for Morpheme-Based Linguistic Analysis\"",
+      "author": "Amilleah Rodriguez and Dan Zhao and Kyra Wilson and Ritika Saboo and Sergey V Samsonau and Alec Marantz",
+      "ENTRYTYPE": "misc",
+      "ID": "ds005241:1.1.0"
+    },
+    {
+      "publisher": "OpenNeuro",
+      "howpublished": "doi:10.18112/openneuro.ds005261.v3.0.0",
+      "year": "2025",
+      "title": "\"Gloups\\_{MEG}\"",
+      "author": "Snezana Todorovic and Elin Runnqvist and Valerie Chanoine and Jean-Michel Badier",
+      "ENTRYTYPE": "misc",
+      "ID": "ds005261:3.0.0"
+    },
+    {
+      "publisher": "OpenNeuro",
+      "howpublished": "doi:10.18112/openneuro.ds005279.v1.0.3",
+      "year": "2024",
+      "title": "\"Picture-Word Interference Dataset\"",
+      "author": "Hsi T. Wei and Farhan B. Faisal and Tamara Beck and Claire Shao and Jed A. Meltzer",
+      "ENTRYTYPE": "misc",
+      "ID": "ds005279:1.0.3"
+    },
+    {
+      "publisher": "OpenNeuro",
+      "howpublished": "doi:10.18112/openneuro.ds005505.v1.0.1",
+      "year": "2025",
+      "title": "\"Healthy Brain Network ({HBN}) {EEG} - {R}elease 1\"",
+      "author": "Seyed Yahya Shirazi and Alexandre Franco and Maurício Scopel Hoffmann and Nathalia B. Esper and Dung Truong and Arnaud Delorme and Michael Milham and Scott Makeig",
+      "ENTRYTYPE": "misc",
+      "ID": "ds005505:1.0.1"
+    },
+    {
+      "publisher": "OpenNeuro",
+      "howpublished": "doi:10.18112/openneuro.ds005506.v1.0.1",
+      "year": "2025",
+      "title": "\"Healthy Brain Network ({HBN}) {EEG} - {R}elease 2\"",
+      "author": "Seyed Yahya Shirazi and Alexandre Franco and Maurício Scopel Hoffmann and Nathalia B. Esper and Dung Truong and Arnaud Delorme and Michael Milham and Scott Makeig",
+      "ENTRYTYPE": "misc",
+      "ID": "ds005506:1.0.1"
+    },
+    {
+      "publisher": "OpenNeuro",
+      "howpublished": "doi:10.18112/openneuro.ds005507.v1.0.1",
+      "year": "2025",
+      "title": "\"Healthy Brain Network ({HBN}) {EEG} - {R}elease 3\"",
+      "author": "Seyed Yahya Shirazi and Alexandre Franco and Maurício Scopel Hoffmann and Nathalia B. Esper and Dung Truong and Arnaud Delorme and Michael Milham and Scott Makeig",
+      "ENTRYTYPE": "misc",
+      "ID": "ds005507:1.0.1"
+    },
+    {
+      "publisher": "OpenNeuro",
+      "howpublished": "doi:10.18112/openneuro.ds005508.v1.0.1",
+      "year": "2025",
+      "title": "\"Healthy Brain Network ({HBN}) {EEG} - {R}elease 4\"",
+      "author": "Seyed Yahya Shirazi and Alexandre Franco and Maurício Scopel Hoffmann and Nathalia B. Esper and Dung Truong and Arnaud Delorme and Michael Milham and Scott Makeig",
+      "ENTRYTYPE": "misc",
+      "ID": "ds005508:1.0.1"
+    },
+    {
+      "publisher": "OpenNeuro",
+      "howpublished": "doi:10.18112/openneuro.ds005509.v1.0.1",
+      "year": "2025",
+      "title": "\"Healthy Brain Network ({HBN}) {EEG} - {R}elease 5\"",
+      "author": "Seyed Yahya Shirazi and Alexandre Franco and Maurício Scopel Hoffmann and Nathalia B. Esper and Dung Truong and Arnaud Delorme and Michael Milham and Scott Makeig",
+      "ENTRYTYPE": "misc",
+      "ID": "ds005509:1.0.1"
+    },
+    {
+      "publisher": "OpenNeuro",
+      "howpublished": "doi:10.18112/openneuro.ds005510.v1.0.1",
+      "year": "2025",
+      "title": "\"Healthy Brain Network ({HBN}) {EEG} - {R}elease 6\"",
+      "author": "Seyed Yahya Shirazi and Alexandre Franco and Maurício Scopel Hoffmann and Nathalia B. Esper and Dung Truong and Arnaud Delorme and Michael Milham and Scott Makeig",
+      "ENTRYTYPE": "misc",
+      "ID": "ds005510:1.0.1"
+    },
+    {
+      "publisher": "OpenNeuro",
+      "howpublished": "doi:10.18112/openneuro.ds005511.v1.0.1",
+      "year": "2025",
+      "title": "\"Healthy Brain Network ({HBN}) {EEG} - {R}elease 7\"",
+      "author": "Seyed Yahya Shirazi and Alexandre Franco and Maurício Scopel Hoffmann and Nathalia B. Esper and Dung Truong and Arnaud Delorme and Michael Milham and Scott Makeig",
+      "ENTRYTYPE": "misc",
+      "ID": "ds005511:1.0.1"
+    },
+    {
+      "publisher": "OpenNeuro",
+      "howpublished": "doi:10.18112/openneuro.ds005512.v1.0.1",
+      "year": "2025",
+      "title": "\"Healthy Brain Network ({HBN}) {EEG} - {R}elease 8\"",
+      "author": "Seyed Yahya Shirazi and Alexandre Franco and Maurício Scopel Hoffmann and Nathalia B. Esper and Dung Truong and Arnaud Delorme and Michael Milham and Scott Makeig",
+      "ENTRYTYPE": "misc",
+      "ID": "ds005512:1.0.1"
+    },
+    {
+      "publisher": "OpenNeuro",
+      "howpublished": "doi:10.18112/openneuro.ds005620.v1.0.0",
+      "year": "2024",
+      "title": "\"A repeated awakening study exploring the capacity of complexity measures to capture dreaming during propofol sedation\"",
+      "author": "Imad J. Bajwa1 and Andre S. Nilsen1 and René Skukies1,3 and Arnfinn Aamodt1 and Gernot Ernst2 and Johan F. Storm1 and Bjørn E. Juel1,2",
+      "ENTRYTYPE": "misc",
+      "ID": "ds005620:1.0.0"
+    },
+    {
+      "publisher": "OpenNeuro",
+      "howpublished": "doi:10.18112/openneuro.ds005697.v1.0.2",
+      "year": "2024",
+      "title": "\"PerceiveImagine\"",
+      "author": "Weilong Li and Hua Fan",
+      "ENTRYTYPE": "misc",
+      "ID": "ds005697:1.0.2"
+    },
+    {
+      "pages": "196",
+      "volume": "10",
+      "howpublished": "doi: 10.3389/fnins.2016.00196",
+      "year": "2016",
+      "journal": "Frontiers in Neuroscience",
+      "title": "The Temple University Hospital {EEG} Data Corpus",
+      "author": "Iyad Obeid and Joseph Picone",
+      "ENTRYTYPE": "article",
+      "ID": "TUAB2016"
+    },
+    {
+      "url": "https://doi.org/10.6084/m9.figshare.4244171.v2",
+      "howpublished": "doi: 10.6084/m9.figshare.4244171.v2",
+      "year": "2016",
+      "title": "{MDD} Patients and Healthy Controls {EEG} Data ({N}ew)",
+      "author": "Mumtaz, Wajid",
+      "ENTRYTYPE": "misc",
+      "ID": "MDD2016"
+    },
+    {
+      "year": "2025",
+      "pages": "488",
+      "number": "1",
+      "volume": "12",
+      "journal": "Scientific Data",
+      "title": "A multi-day and high-quality {EEG} dataset for motor imagery brain-computer interface",
+      "author": "Yang, Banghua and Rong, Fenqi and Xie, Yunlong and Li, Du and Zhang, Jiayang and Li, Fu and Shi, Guangming and Gao, Xiaorong",
+      "ENTRYTYPE": "article",
+      "ID": "Yang2025"
+    },
+    {
+      "year": "2004",
+      "pages": "1034-43",
+      "number": "6",
+      "volume": "51",
+      "journal": "IEEE Transactions on Biomedical Engineering",
+      "title": "{BCI2000}: a general-purpose brain-computer interface ({BCI}) system",
+      "author": "Schalk, Gerwin and McFarland, Dennis J. and Hinterberger, Thilo and Birbaumer, Niels and Wolpaw, Jonathan R.",
+      "ENTRYTYPE": "article",
+      "ID": "Schalk2004"
+    },
+    {
+      "year": "2023",
+      "pages": "740",
+      "number": "1",
+      "volume": "10",
+      "journal": "Scientific Data",
+      "title": "A Large Finer-grained Affective Computing {EEG} Dataset",
+      "author": "Chen, Jingjing and Wang, Xiaobin and Huang, Chen and Hu, Xin and Shen, Xinke and Zhang, Dan",
+      "ENTRYTYPE": "article",
+      "ID": "Chen2023"
+    },
+    {
+      "publisher": "OpenNeuro",
+      "howpublished": "doi:10.18112/openneuro.ds002778.v1.0.5",
+      "year": "2021",
+      "title": "\"{UC} {S}an {D}iego Resting State {EEG} Data from Patients with {P}arkinson's Disease\"",
+      "author": "Alexander P. Rockhill and Nicko Jackson and Jobi George and Adam Aron and Nicole C. Swann",
+      "ENTRYTYPE": "misc",
+      "ID": "ds002778:1.0.5"
+    },
+    {
+      "publisher": "OpenNeuro",
+      "howpublished": "doi:10.18112/openneuro.ds005234.v2.1.7",
+      "year": "2024",
+      "title": "\"Perception of vowel sounds in children with autism spectrum disorders and typically developing children ({MEG/ERF} study)\"",
+      "author": "Kirill A. Fadeev and Ilacai V. Romero Reyes and Dzerassa D. Goiaeva and Tatyana S. Obukhova and Tatyana M. Ovsiannikova and Andrey O. Prokofyev and Anna M. Rytikova and Artyom Y. Novikov and Vladimir V. Kozunov and Tatyana A. Stroganova and Elena V. Orekhova",
+      "ENTRYTYPE": "misc",
+      "ID": "ds005234:2.1.7"
+    },
+    {
+      "author": "Guiomar Niso and Christine Rogers and Jeremy T. Moreau and Li-Yuan Chen and Cecile Madjar and Samir Das and Elizabeth Bock and François Tadel and Alan C. Evans and Pierre Jolicoeur and Sylvain Baillet",
+      "year": "2016",
+      "pages": "1182-1187",
+      "volume": "124",
+      "journal": "NeuroImage",
+      "title": "{OMEGA}: {T}he Open {MEG} Archive",
+      "ENTRYTYPE": "article",
+      "ID": "NISO20161182"
+    },
+    {
+      "publisher": "OpenNeuro",
+      "howpublished": "doi:10.18112/openneuro.ds006035.v1.0.0",
+      "year": "2025",
+      "title": "\"somatomotor\"",
+      "author": "Fa-Hsuan Lin and Deirdre Foxe von Pechmann and Kaisu Lankinen and Seppo Ahlfors and Bruce Rosen and Jyrki Ahveninen and Matti Hämäläinen and Tommi Raij",
+      "ENTRYTYPE": "misc",
+      "ID": "ds006035:1.0.0"
+    },
+    {
+      "publisher": "OpenNeuro",
+      "howpublished": "doi:10.18112/openneuro.ds004504.v1.0.2",
+      "year": "2023",
+      "title": "\"A dataset of 88 {EEG} recordings from: {A}lzheimer's disease, {F}rontotemporal dementia and Healthy subjects\"",
+      "author": "Andreas Miltiadous and Katerina D. Tzimourta and Theodora Afrantou and Panagiotis Ioannidis and Nikolaos Grigoriadis and Dimitrios G. Tsalikakis and Pantelis Angelidis and Markos G. Tsipouras and Evripidis Glavas and Nikolaos Giannakeas and Alexandros T. Tzallas",
+      "ENTRYTYPE": "misc",
+      "ID": "ds004504:1.0.2"
+    },
+    {
+      "publisher": "OpenNeuro",
+      "howpublished": "doi:10.18112/openneuro.ds003568.v1.0.4",
+      "year": "2023",
+      "title": "\"Mood induction in MDD and healthy adolescents\"",
+      "author": "Lucrezia Liuzzi AND Katharine Chang AND Hanna Keren AND Charles Zheng AND Dipta Saha AND Dylan Nielson AND Argyris Stringaris",
+      "ENTRYTYPE": "misc",
+      "ID": "ds003568:1.0.4"
+    },
+    {
+      "author": "Jason R. Taylor and Nitin Williams and Rhodri Cusack and Tibor Auer and Meredith A. Shafto and Marie Dixon and Lorraine K. Tyler and  Cam-CAN and Richard N. Henson",
+      "year": "2017",
+      "pages": "262-269",
+      "volume": "144",
+      "journal": "NeuroImage",
+      "title": "The {C}ambridge Centre for Ageing and Neuroscience ({C}am-{CAN}) data repository: {S}tructural and functional {MRI}, {MEG}, and cognitive data from a cross-sectional adult lifespan sample",
+      "ENTRYTYPE": "article",
+      "ID": "TAYLOR2017262"
+    },
+    {
+      "year": "2022",
+      "title": "{T}ransformer Convolutional Neural Networks for Automated Artifact Detection in Scalp {EEG}",
+      "booktitle": "Proc. EMBC",
+      "author": "Peh, Wei Yan and Yao, Yuanyuan and Dauwels, Justin",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "Wei2022"
+    },
+    {
+      "pages": "e46769",
+      "volume": "2",
+      "year": "2023",
+      "journal": "JMIR AI",
+      "title": "Self-Supervised Electroencephalogram Representation Learning for Automatic Sleep Staging: {M}odel Development and Evaluation Study",
+      "author": "Yang, Chaoqi and Xiao, Cao and Westover, M Brandon and Sun, Jimeng",
+      "ENTRYTYPE": "article",
+      "ID": "Yang2023contrawr"
+    },
+    {
+      "year": "2023",
+      "pages": "e1750--e1762",
+      "number": "17",
+      "volume": "100",
+      "journal": "Neurology",
+      "author": "Jing, Jin and Ge, Wendong and Hong, Shenda and Fernandes, Marta Bento and Lin, Zhen and Yang, Chaoqi and An, Sungtae and Struck, Aaron F and Herlopian, Aline and Karakis, Ioannis and others",
+      "title": "Development of expert-level classification of seizures and rhythmic and periodic patterns during EEG interpretation",
+      "ENTRYTYPE": "article",
+      "ID": "PMID:36878708"
+    },
+    {
+      "journal": "arXiv preprint arXiv.2106.11170",
+      "title": "{T}ransformer-based Spatial-Temporal Feature Learning for {EEG} Decoding",
+      "year": "2021",
+      "author": "Song, Yonghao and Jia, Xueyu and Yang, Lie and Xie, Longhan",
+      "ENTRYTYPE": "article",
+      "ID": "sttransformer"
+    },
+    {
+      "year": "2024",
+      "pages": "24574",
+      "number": "1",
+      "volume": "14",
+      "journal": "Scientific Reports",
+      "author": "Hirano, Ryoji and Asai, Miyako and Nakasato, Nobukazu and Kanno, Akitake and Uda, Takehiro and Tsuyuguchi, Naohiro and Yoshimura, Masaki and Shigihara, Yoshihito and Okada, Toyoji and Hirata, Masayuki",
+      "title": "Deep learning based automatic detection and dipole estimation of epileptic discharges in {MEG}: a multi-center study",
+      "ENTRYTYPE": "article",
+      "ID": "FAMED"
+    },
+    {
+      "year": "2018",
+      "pages": "1350692",
+      "number": "1",
+      "volume": "2018",
+      "journal": "Journal of Engineering",
+      "author": "Hasasneh, Ahmad and Kampel, Nikolas and Sripad, Praveen and Shah, N Jon and Dammers, J{\\\"u}rgen",
+      "title": "Deep learning approach for automatic classification of ocular and cardiac artifacts in {MEG} data",
+      "ENTRYTYPE": "article",
+      "ID": "hasasneh2018deep"
+    },
+    {
+      "year": "2021",
+      "pages": "14651--14667",
+      "number": "21",
+      "volume": "33",
+      "journal": "Neural Computing and Applications",
+      "author": "Giovannetti, Antonio and Susi, Gianluca and Casti, Paola and Mencattini, Arianna and Pusil, Sandra and L{\\'o}pez, Mar{\\'\\i}a Eugenia and Di Natale, Corrado and Martinelli, Eugenio",
+      "title": "{Deep-MEG}: spatiotemporal {CNN} features and multiband ensemble classification for predicting the early signs of {A}lzheimer’s disease with magnetoencephalography",
+      "ENTRYTYPE": "article",
+      "ID": "giovannetti2021deep"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "2001",
+      "pages": "14--30",
+      "number": "6",
+      "volume": "18",
+      "journal": "IEEE Signal Processing Magazine",
+      "author": "Baillet, Sylvain and Mosher, John C and Leahy, Richard M",
+      "title": "Electromagnetic brain mapping",
+      "ENTRYTYPE": "article",
+      "ID": "baillet2001electromagnetic"
+    },
+    {
+      "year": "2014",
+      "pages": "590--607",
+      "volume": "100",
+      "journal": "NeuroImage",
+      "author": "Vorwerk, J and Cho, J-H and Rampp, S and Hamer, H and Kn{\\\"o}sche, TR and Wolters, CH",
+      "title": "A guideline for head volume conductor modeling in {EEG} and {MEG}",
+      "ENTRYTYPE": "article",
+      "ID": "vorwerk2014guideline"
+    },
+    {
+      "year": "1989",
+      "pages": "382--391",
+      "number": "3",
+      "volume": "36",
+      "journal": "IEEE Transactions on Biomedical Engineering",
+      "author": "Oostendorp, Thom F and van Oosterom, Adriaan",
+      "title": "Source parameter estimation in inhomogeneous volume conductors of arbitrary shape",
+      "ENTRYTYPE": "article",
+      "ID": "oostendorp1989source"
+    },
+    {
+      "year": "2004",
+      "pages": "1612--1621",
+      "number": "4",
+      "volume": "21",
+      "journal": "NeuroImage",
+      "author": "Hauk, Olaf",
+      "title": "Keep it simple: a case for using classical minimum norm estimation in the analysis of {EEG} and {MEG} data",
+      "ENTRYTYPE": "article",
+      "ID": "hauk2004keep"
+    },
+    {
+      "year": "2006",
+      "pages": "160--171",
+      "number": "1",
+      "volume": "31",
+      "journal": "NeuroImage",
+      "author": "Lin, Fa-Hsuan and Witzel, Thomas and Ahlfors, Seppo P and Stufflebeam, Steven M and Belliveau, John W and H{\\\"a}m{\\\"a}l{\\\"a}inen, Matti S",
+      "title": "Assessing and improving the spatial accuracy in {MEG} source localization by depth-weighted minimum-norm estimates",
+      "ENTRYTYPE": "article",
+      "ID": "lin2006assessing"
+    },
+    {
+      "year": "2020",
+      "booktitle": "Proc. Interspeech",
+      "author": "Tagliasacchi, Marco and Li, Yunpeng and Misiunas, Karolis and Roblek, Dominik",
+      "title": "{SEANet}: {A} Multi-Modal Speech Enhancement Network",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "tagliasacchi2020seanet"
+    }
+  ]
+}

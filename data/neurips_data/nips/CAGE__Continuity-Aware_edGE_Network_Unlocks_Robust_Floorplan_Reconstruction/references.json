@@ -1,0 +1,1161 @@
+{
+  "pdf_url": "https://arxiv.org/pdf/2509.15459v2.pdf",
+  "references": [
+    {
+      "doi": "10.1109/3DIMPVT.2011.39",
+      "year": "2011",
+      "pages": "275--281",
+      "booktitle": "2011 International Conference on 3D Imaging, Modeling, Processing, Visualization and Transmission (3DIMPVT)",
+      "title": "3D Reconstruction of Interior Wall Surfaces under Occlusion and Clutter",
+      "author": "Antonio Adan and Daniel Huber",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "adan2011reconstruction"
+    },
+    {
+      "doi": "10.1016/j.autcon.2020.103338",
+      "year": "2020",
+      "pages": "103338",
+      "volume": "120",
+      "journal": "Automation in Construction",
+      "title": "Unsupervised Reconstruction of Building Information Modeling Wall Objects from Point Cloud Data",
+      "author": "Maarten Bassier and Maarten Vergauwen",
+      "ENTRYTYPE": "article",
+      "ID": "bassier2020unsupervised"
+    },
+    {
+      "doi": "10.1260/1478-0771.8.1.55",
+      "year": "2010",
+      "pages": "55--73",
+      "number": "1",
+      "volume": "8",
+      "journal": "International Journal of Architectural Computing",
+      "title": "Automated 3D Reconstruction of Interiors from Point Clouds",
+      "author": "Angela Budroni and Jan Boehm",
+      "ENTRYTYPE": "article",
+      "ID": "budroni2010automated"
+    },
+    {
+      "doi": "10.1109/CVPR.2014.546",
+      "year": "2014",
+      "pages": "628--635",
+      "booktitle": "IEEE Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "title": "Piecewise Planar and Compact Floorplan Reconstruction from Images",
+      "author": "Ricardo Cabral and Yasutaka Furukawa",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "cabral2014piecewise"
+    },
+    {
+      "doi": "10.1007/978-3-030-58452-8_13",
+      "year": "2020",
+      "pages": "213--229",
+      "booktitle": "European Conference on Computer Vision (ECCV)",
+      "title": "End-to-End Object Detection with Transformers",
+      "author": "Nicolas Carion and Francisco Massa and Gabriel Synnaeve and Nicolas Usunier and Alexander Kirillov and Sergey Zagoruyko",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "detr"
+    },
+    {
+      "doi": "10.1109/ICCV.2019.00275",
+      "year": "2019",
+      "pages": "2661--2670",
+      "booktitle": "IEEE International Conference on Computer Vision (ICCV)",
+      "title": "Floor-SP: Inverse CAD for Floorplans by Sequential Room-Wise Shortest Path",
+      "author": "Jiacheng Chen and Chen Liu and Jiaye Wu and Yasutaka Furukawa",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "floorsp"
+    },
+    {
+      "doi": "10.1109/CVPR52688.2022.01601",
+      "year": "2022",
+      "pages": "16448--16457",
+      "booktitle": "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "title": "HEAT: Holistic Edge Attention Transformer for Structured Reconstruction",
+      "author": "Jiacheng Chen and Yiming Qian and Yasutaka Furukawa",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "heat"
+    },
+    {
+      "url": "https://arxiv.org/abs/2112.10764",
+      "year": "2021",
+      "journal": "arXiv preprint arXiv:2112.10764",
+      "title": "Mask2Former for Video Instance Segmentation",
+      "author": "Bowen Cheng and Anwesa Choudhuri and Ishan Misra and Alexander Kirillov and Rohit Girdhar and Alexander G. Schwing",
+      "ENTRYTYPE": "article",
+      "ID": "cheng2021mask2former"
+    },
+    {
+      "doi": "10.1007/978-3-030-58542-6_36",
+      "year": "2020",
+      "pages": "596--612",
+      "booktitle": "European Conference on Computer Vision (ECCV)",
+      "title": "SceneCAD: Predicting Object Alignments and Layouts in RGB-D Scans",
+      "author": "Armen Avetisyan and Tatiana Khanova and Christopher Choy and Denver Dash and Angela Dai and Matthias Nie{\\ss}ner",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "scenecad"
+    },
+    {
+      "doi": "10.1109/CVPR.2017.261",
+      "year": "2017",
+      "pages": "2432--2443",
+      "booktitle": "Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "title": "ScanNet: Richly-annotated 3D Reconstructions of Indoor Scenes",
+      "author": "Angela Dai and Angel X. Chang and Manolis Savva and Maciej Halber and Thomas Funkhouser and Matthias Nie{\\ss}ner",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "dai2017scannet"
+    },
+    {
+      "doi": "10.3138/FM57-6770-U75U-7727",
+      "year": "1973",
+      "pages": "112--122",
+      "number": "2",
+      "volume": "10",
+      "journal": "Cartographica: The International Journal for Geographic Information and Geovisualization",
+      "title": "Algorithms for the Reduction of the Number of Points Required to Represent a Digitized Line or Its Caricature",
+      "author": "David H. Douglas and Thomas K. Peucker",
+      "ENTRYTYPE": "article",
+      "ID": "douglas1973algorithms"
+    },
+    {
+      "doi": "10.1109/ICCV.2009.5459197",
+      "year": "2009",
+      "pages": "80--87",
+      "booktitle": "Proceedings of the IEEE International Conference on Computer Vision (ICCV)",
+      "title": "Reconstructing Building Interiors from Images",
+      "author": "Yasutaka Furukawa and Brian Curless and Steven M. Seitz and Richard Szeliski",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "furukawa2009reconstructing"
+    },
+    {
+      "doi": "10.1109/ICCV.2017.322",
+      "year": "2017",
+      "pages": "2961--2969",
+      "booktitle": "Proceedings of the IEEE International Conference on Computer Vision (ICCV)",
+      "title": "Mask R-CNN",
+      "author": "Kaiming He and Georgia Gkioxari and Piotr Doll{\\'a}r and Ross Girshick",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "he2017mask"
+    },
+    {
+      "doi": "10.1109/ICCV.2015.156",
+      "year": "2015",
+      "pages": "1323--1331",
+      "booktitle": "Proceedings of the IEEE International Conference on Computer Vision (ICCV)",
+      "title": "Structured Indoor Modeling",
+      "author": "Satoshi Ikehata and Hang Yang and Yasutaka Furukawa",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ikehata2015structured"
+    },
+    {
+      "url": "https://arxiv.org/abs/1412.6980",
+      "year": "2015",
+      "booktitle": "Proceedings of the International Conference on Learning Representations (ICLR)",
+      "title": "Adam: A Method for Stochastic Optimization",
+      "author": "Diederik P. Kingma and Jimmy Ba",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "kingma2015adam"
+    },
+    {
+      "doi": "10.1109/CVPR52688.2022.01155",
+      "year": "2022",
+      "pages": "11823--11832",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "title": "Instance Segmentation with Mask-Supervised Polygonal Boundary Transformers",
+      "author": "Justin Lazarow and Weijian Xu and Zhuowen Tu",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "lazarow2022instance"
+    },
+    {
+      "doi": "10.1109/CVPR42600.2020.00915",
+      "year": "2020",
+      "pages": "9128--9137",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "title": "PolyTransform: Deep Polygon Transformer for Instance Segmentation",
+      "author": "Justin Liang and Namdar Homayounfar and Wei-Chiu Ma and Yuwen Xiong and Rui Hu and Raquel Urtasun",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "liang2020polytransform"
+    },
+    {
+      "doi": "10.1109/ICCV.2019.01028",
+      "year": "2019",
+      "pages": "10181--10190",
+      "booktitle": "Proceedings of the IEEE International Conference on Computer Vision (ICCV)",
+      "title": "Floorplan-Jigsaw: Jointly Estimating Scene Layout and Aligning Partial Scans",
+      "author": "Cheng Lin and Changjian Li and Wenping Wang",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "lin2019floorplanjigsaw"
+    },
+    {
+      "doi": "10.1007/978-3-030-01216-8_13",
+      "year": "2018",
+      "pages": "203--219",
+      "booktitle": "Proceedings of the European Conference on Computer Vision (ECCV)",
+      "title": "FloorNet: A Unified Framework for Floorplan Reconstruction from 3D Scans",
+      "author": "Chen Liu and Jiaye Wu and Yasutaka Furukawa",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "liu2018floornet"
+    },
+    {
+      "doi": "10.1007/s001380050068",
+      "year": "1997",
+      "pages": "150--158",
+      "number": "3",
+      "volume": "10",
+      "journal": "Machine Vision and Applications",
+      "title": "A System to Understand Hand-drawn Floor Plans Using Subgraph Isomorphism and Hough Transform",
+      "author": "Josep Llad{\\'o}s and Jaime L{\\'o}pez-Krahe and Enric Mart{\\'i}",
+      "ENTRYTYPE": "article",
+      "ID": "llados1997system"
+    },
+    {
+      "doi": "10.1109/CVPR52688.2022.00867",
+      "year": "2022",
+      "pages": "8844--8854",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "title": "TrackFormer: Multi-Object Tracking with Transformers",
+      "author": "Tim Meinhardt and Alexander Kirillov and Laura Leal-Taix{\\'e} and Christoph Feichtenhofer",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "meinhardt2022trackformer"
+    },
+    {
+      "doi": "10.1109/3DV.2016.79",
+      "year": "2016",
+      "pages": "565--571",
+      "booktitle": "Proceedings of the Fourth International Conference on 3D Vision (3DV)",
+      "title": "V-Net: Fully Convolutional Neural Networks for Volumetric Medical Image Segmentation",
+      "author": "Fausto Milletari and Nassir Navab and Seyed-Ahmad Ahmadi",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "milletari2016vnet"
+    },
+    {
+      "doi": "10.1145/2766995",
+      "year": "2015",
+      "pages": "103:1--103:12",
+      "number": "4",
+      "volume": "34",
+      "journal": "ACM Transactions on Graphics (TOG)",
+      "title": "RAPter: Rebuilding Man-made Scenes with Regular Arrangements of Planes",
+      "author": "Aron Monszpart and Nicolas Mellado and Gabriel J. Brostow and Niloy J. Mitra",
+      "ENTRYTYPE": "article",
+      "ID": "monszpart2015rapter"
+    },
+    {
+      "doi": "10.1109/3DIMPVT.2010.39",
+      "year": "2010",
+      "pages": "305--312",
+      "booktitle": "Proceedings of the Fifth International Conference on 3D Imaging, Modeling, Processing, Visualization and Transmission (3DPVT)",
+      "title": "Toward Automated Modeling of Floor Plans",
+      "author": "Brian Okorn and Xuehan Xiong and Burcu Akinci and Daniel Huber",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "okorn2010toward"
+    },
+    {
+      "doi": "10.1109/ICIP.2012.6467216",
+      "year": "2012",
+      "pages": "1777--1780",
+      "booktitle": "Proceedings of the IEEE International Conference on Image Processing (ICIP)",
+      "title": "Planar 3D Modeling of Building Interiors from Point Cloud Data",
+      "author": "Victor Sanchez and Avideh Zakhor",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "sanchez2012planar"
+    },
+    {
+      "isbn": "978-0471982326",
+      "year": "1998",
+      "publisher": "John Wiley \\& Sons",
+      "title": "Theory of Linear and Integer Programming",
+      "author": "Alexander Schrijver",
+      "ENTRYTYPE": "book",
+      "ID": "schrijver1998theory"
+    },
+    {
+      "doi": "10.1109/ICCV48922.2021.01574",
+      "year": "2021",
+      "pages": "16014--16023",
+      "booktitle": "Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)",
+      "title": "MonteFloor: Extending MCTS for Reconstructing Accurate Large-Scale Floor Plans",
+      "author": "Sinisa Stekovic and Mahdi Rad and Friedrich Fraundorfer and Vincent Lepetit",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "stekovic2021montefloor"
+    },
+    {
+      "doi": "10.1109/ICCV48922.2021.00415",
+      "year": "2021",
+      "pages": "4166--4175",
+      "booktitle": "Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)",
+      "title": "PlaneTR: Structure-Guided Transformers for 3D Plane Recovery",
+      "author": "Bin Tan and Nan Xue and Song Bai and Tianfu Wu and Gui-Song Xia",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "tan2021planetr"
+    },
+    {
+      "url": "https://arxiv.org/abs/1706.03762",
+      "year": "2017",
+      "pages": "5998--6008",
+      "volume": "30",
+      "booktitle": "Advances in Neural Information Processing Systems (NeurIPS)",
+      "title": "Attention Is All You Need",
+      "author": "Ashish Vaswani and Noam Shazeer and Niki Parmar and Jakob Uszkoreit and Llion Jones and Aidan N. Gomez and {\\L}ukasz Kaiser and Illia Polosukhin",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "vaswani2017attention"
+    },
+    {
+      "url": "https://arxiv.org/abs/2105.15203",
+      "year": "2021",
+      "pages": "12077--12090",
+      "volume": "34",
+      "booktitle": "Advances in Neural Information Processing Systems (NeurIPS)",
+      "author": "Enze Xie and Wenhai Wang and Zhiding Yu and Anima Anandkumar and Jose M. Alvarez and Ping Luo",
+      "title": "SegFormer: Simple and Efficient Design for Semantic Segmentation with Transformers",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "xie2021segformer"
+    },
+    {
+      "doi": "10.1016/j.autcon.2012.10.006",
+      "year": "2013",
+      "pages": "325--337",
+      "volume": "31",
+      "journal": "Automation in Construction",
+      "author": "Xuehan Xiong and Antonio Adan and Burcu Akinci and Daniel Huber",
+      "title": "Automatic Creation of Semantically Rich 3D Building Models from Laser Scanner Data",
+      "ENTRYTYPE": "article",
+      "ID": "xiong2013automatic"
+    },
+    {
+      "doi": "10.1109/CVPR46437.2021.00423",
+      "year": "2021",
+      "pages": "4257--4266",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "author": "Yifan Xu and Weijian Xu and David Cheung and Zhuowen Tu",
+      "title": "Line Segment Detection Using Transformers Without Edges",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "xu2021letr"
+    },
+    {
+      "doi": "10.1109/CVPR42600.2020.00286",
+      "year": "2020",
+      "pages": "2788--2797",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "author": "Nan Xue and Tianfu Wu and Song Bai and Fu-Dong Wang and Gui-Song Xia and Liangpei Zhang and Philip H. S. Torr",
+      "title": "Holistically-Attracted Wireframe Parsing",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "xue2020hawp"
+    },
+    {
+      "doi": "10.1109/CVPR52688.2022.00929",
+      "year": "2022",
+      "pages": "9519--9528",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "author": "Xiang Zhang and Yongwen Su and Subarna Tripathi and Zhuowen Tu",
+      "title": "Text Spotting Transformers",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zhang2022text"
+    },
+    {
+      "doi": "10.1007/978-3-030-58545-7_30",
+      "year": "2020",
+      "pages": "283--299",
+      "booktitle": "Proceedings of the European Conference on Computer Vision (ECCV)",
+      "author": "Jia Zheng and Junfei Zhang and Jing Li and Rui Tang and Shenghua Gao and Zihan Zhou",
+      "title": "Structured3D: A Large Photo-Realistic Dataset for Structured 3D Modeling",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "structured3d"
+    },
+    {
+      "url": "https://arxiv.org/abs/2010.04159",
+      "year": "2021",
+      "booktitle": "International Conference on Learning Representations (ICLR)",
+      "author": "Xizhou Zhu and Weijie Su and Lewei Lu and Bin Li and Xiaogang Wang and Jifeng Dai",
+      "title": "Deformable DETR: Deformable Transformers for End-to-End Object Detection",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zhu2021deformable"
+    },
+    {
+      "year": "2023",
+      "pages": "845--854",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Yue, Yuanwen and Kontogianni, Theodora and Schindler, Konrad and Engelmann, Francis",
+      "title": "Connecting the dots: Floorplan reconstruction using two-level queries",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "roomformer"
+    },
+    {
+      "year": "2023",
+      "pages": "48781--48792",
+      "volume": "36",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Su, Jheng-Wei and Tung, Kuei-Yu and Peng, Chi-Han and Wonka, Peter and Chu, Hung-Kuo James",
+      "title": "Slibo-net: Floorplan reconstruction via slicing box representation with local geometry regularization",
+      "ENTRYTYPE": "article",
+      "ID": "slibonet"
+    },
+    {
+      "organization": "Springer",
+      "year": "2024",
+      "pages": "322--339",
+      "booktitle": "European Conference on Computer Vision",
+      "author": "Liu, Yuzhou and Zhu, Lingjie and Ma, Xiaodong and Ye, Hanqiao and Gao, Xiang and Zheng, Xianwei and Shen, Shuhan",
+      "title": "PolyRoom: Room-aware Transformer for Floorplan Reconstruction",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "polyroom"
+    },
+    {
+      "organization": "Springer",
+      "year": "2024",
+      "pages": "1--17",
+      "booktitle": "European Conference on Computer Vision",
+      "author": "Xu, Honghao and Xu, Juzhan and Huang, Zeyu and Xu, Pengfei and Huang, Hui and Hu, Ruizhen",
+      "title": "FRI-Net: Floorplan Reconstruction via Room-wise Implicit Representation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "frinet"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "2025",
+      "journal": "IEEE Transactions on Visualization and Computer Graphics",
+      "author": "Sun, Qian and Fang, Chenrong and Liu, Shuang and Sun, Yidan and Shang, Yu and He, Ying",
+      "title": "PolyGraph: a Graph-based Method for Floorplan Reconstruction from 3D Scans",
+      "ENTRYTYPE": "article",
+      "ID": "polygraph"
+    },
+    {
+      "year": "2021",
+      "pages": "10012--10022",
+      "booktitle": "Proceedings of the IEEE/CVF international conference on computer vision",
+      "author": "Liu, Ze and Lin, Yutong and Cao, Yue and Hu, Han and Wei, Yixuan and Zhang, Zheng and Lin, Stephen and Guo, Baining",
+      "title": "Swin transformer: Hierarchical vision transformer using shifted windows",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "swint_v1"
+    },
+    {
+      "year": "2022",
+      "pages": "12009--12019",
+      "booktitle": "Proceedings of the IEEE/CVF conference on computer vision and pattern recognition",
+      "author": "Liu, Ze and Hu, Han and Lin, Yutong and Yao, Zhuliang and Xie, Zhenda and Wei, Yixuan and Ning, Jia and Cao, Yue and Zhang, Zheng and Dong, Li and others",
+      "title": "Swin transformer v2: Scaling up capacity and resolution",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "swint_v2"
+    },
+    {
+      "year": "2016",
+      "pages": "770--778",
+      "booktitle": "Proceedings of the IEEE conference on computer vision and pattern recognition",
+      "author": "He, Kaiming and Zhang, Xiangyu and Ren, Shaoqing and Sun, Jian",
+      "title": "Deep residual learning for image recognition",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "resnet"
+    },
+    {
+      "year": "2023",
+      "pages": "1863--1888",
+      "volume": "36",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Chen, Jiacheng and Deng, Ruizhi and Furukawa, Yasutaka",
+      "title": "Polydiffuse: Polygonal shape reconstruction via guided set diffusion models",
+      "ENTRYTYPE": "article",
+      "ID": "polydiffuse"
+    },
+    {
+      "year": "2017",
+      "pages": "2980--2988",
+      "booktitle": "Proceedings of the IEEE international conference on computer vision",
+      "author": "Lin, Tsung-Yi and Goyal, Priya and Girshick, Ross and He, Kaiming and Doll{\\'a}r, Piotr",
+      "title": "Focal loss for dense object detection",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "lin2017focal"
+    },
+    {
+      "year": "2022",
+      "pages": "13619--13627",
+      "booktitle": "Proceedings of the IEEE/CVF conference on computer vision and pattern recognition",
+      "author": "Li, Feng and Zhang, Hao and Liu, Shilong and Guo, Jian and Ni, Lionel M and Zhang, Lei",
+      "title": "Dn-detr: Accelerate detr training by introducing query denoising",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "dn_detr"
+    },
+    {
+      "year": "2020",
+      "pages": "45--54",
+      "booktitle": "Proceedings of the IEEE/CVF conference on computer vision and pattern recognition",
+      "author": "Chen, Zhiqin and Tagliasacchi, Andrea and Zhang, Hao",
+      "title": "Bsp-net: Generating compact meshes via binary space partitioning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "bspnet"
+    },
+    {
+      "organization": "Ieee",
+      "year": "2016",
+      "pages": "565--571",
+      "booktitle": "2016 fourth international conference on 3D vision (3DV)",
+      "author": "Milletari, Fausto and Navab, Nassir and Ahmadi, Seyed-Ahmad",
+      "title": "V-net: Fully convolutional neural networks for volumetric medical image segmentation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "vnet"
+    },
+    {
+      "year": "2020",
+      "booktitle": "European Conference on Computer Vision (ECCV)",
+      "author": "Stekovic, Sinisa and Hampali, Shreyas and Rad, Mahdi and Sarkar, Sayan Deb and Fraundorfer, Friedrich and Lepetit, Vincent",
+      "title": "General 3d room layout from a single view by render-and-compare",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "stekovic2020general"
+    },
+    {
+      "pages": "12407-12415",
+      "year": "2021",
+      "booktitle": "IEEE/CVF International Conference on Computer Vision (ICCV)",
+      "author": "Zhang, Fuyang and Xu, Xiang and Nauata, Nelson and Furukawa, Yasutaka",
+      "title": "Structured outdoor architecture reconstruction by exploration and classification",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zhang2021structured"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "2023",
+      "pages": "490--501",
+      "volume": "196",
+      "journal": "ISPRS Journal of Photogrammetry and Remote Sensing",
+      "author": "Han, Jiali and Liu, Yuzhou and Rong, Mengqi and Zheng, Xianwei and Shen, Shuhan",
+      "title": "{FloorUSG}: Indoor floorplan reconstruction by unifying {2D} semantics and {3D} geometry",
+      "ENTRYTYPE": "article",
+      "ID": "han2023floorusg"
+    },
+    {
+      "pages": "1047-1056",
+      "year": "2019",
+      "booktitle": "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "author": "Sun, Cheng and Hsiao, Chi-Wei and Sun, Min and Chen, Hwann-Tzong",
+      "title": "{HorizonNet}: Learning room layout with {1D} representation and pano stretch data augmentation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "sun2019horizonnet"
+    },
+    {
+      "pages": "1644-1653",
+      "year": "2022",
+      "booktitle": "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "author": "Jiang, Zhigang and Xiang, Zhongzheng and Xu, Jinhua and Zhao, Ming",
+      "title": "{LGT-Net}: Indoor panoramic room layout estimation with geometry-aware {Transformer} network",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "jiang2022lgt"
+    },
+    {
+      "pages": "11737-11746",
+      "year": "2022",
+      "booktitle": "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "author": "Zheng, Zhaohua and Li, Jianfang and Zhu, Lingjie and Li, Honghua and Petzold, Frank and Tan, Ping",
+      "title": "{GAT-CADNet}: Graph attention network for panoptic symbol spotting in {CAD} drawings",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zheng2022gat"
+    },
+    {
+      "pages": "10108-10117",
+      "year": "2021",
+      "booktitle": "IEEE/CVF International Conference on Computer Vision (ICCV)",
+      "author": "Fan, Zhiwen and Zhu, Lingjie and Li, Honghua and Chen, Xiaohao and Zhu, Siyu and Tan, Ping",
+      "title": "{FloorPlanCAD}: A large-scale {CAD} drawing dataset for panoptic symbol spotting",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "fan2021floorplancad"
+    },
+    {
+      "year": "2020",
+      "booktitle": "International Conference on Learning Representations (ICLR)",
+      "author": "Zhu, Xizhou and Su, Weijie and Lu, Lewei and Li, Bin and Wang, Xiaogang and Dai, Jifeng",
+      "title": "Deformable {DETR}: Deformable {Transformers} for end-to-end object detection",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zhu2020deformable"
+    },
+    {
+      "year": "2020",
+      "booktitle": "International Conference on Learning Representations (ICLR)",
+      "author": "Dosovitskiy, Alexey and Beyer, Lucas and Kolesnikov, Alexander and Weissenborn, Dirk and Zhai, Xiaohua and Unterthiner, Thomas and Dehghani, Mostafa and Minderer, Matthias and Heigold, Georg and Gelly, Sylvain and others",
+      "title": "An image is worth 16$\\times$16 words: Transformers for image recognition at scale",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "dosovitskiy2020image"
+    },
+    {
+      "year": "2023",
+      "pages": "1863--1888",
+      "booktitle": "Advances in Neural Information Processing Systems (NeurIPS)",
+      "author": "Chen, Jiacheng and Deng, Ruizhi and Furukawa, Yasutaka",
+      "title": "{PolyDiffuse}: Polygonal shape reconstruction via guided set diffusion models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "chen2023polydiffuse"
+    },
+    {
+      "pages": "4485-4493",
+      "year": "2017",
+      "booktitle": "IEEE Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "author": "Castrejon, Lluis and Kundu, Kaustav and Urtasun, Raquel and Fidler, Sanja",
+      "title": "Annotating object instances with a polygon-{RNN}",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "castrejon2017annotating"
+    },
+    {
+      "publisher": "MIT press",
+      "year": "1997",
+      "pages": "1735--1780",
+      "number": "8",
+      "volume": "9",
+      "journal": "Neural Computation",
+      "author": "Hochreiter, Sepp and Schmidhuber, J{\\\"u}rgen",
+      "title": "Long short-term memory",
+      "ENTRYTYPE": "article",
+      "ID": "hochreiter1997long"
+    },
+    {
+      "pages": "12190-12199",
+      "year": "2020",
+      "booktitle": "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "author": "Xie, Enze and Sun, Peize and Song, Xiaoge and Wang, Wenhai and Liu, Xuebo and Liang, Ding and Shen, Chunhua and Luo, Ping",
+      "title": "{PolarMask}: Single shot instance segmentation with polar representation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "xie2020polarmask"
+    },
+    {
+      "pages": "8530-8539",
+      "year": "2020",
+      "booktitle": "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "author": "Peng, Sida and Jiang, Wen and Pi, Huaijin and Li, Xiuli and Bao, Hujun and Zhou, Xiaowei",
+      "title": "Deep snake for real-time instance segmentation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "peng2020deep"
+    },
+    {
+      "pages": "18653-18663",
+      "year": "2023",
+      "booktitle": "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "author": "Liu, Jiang and Ding, Hui and Cai, Zhaowei and Zhang, Yuting and Satzoda, Ravi Kumar and Mahadevan, Vijay and Manmatha, R",
+      "title": "{PolyFormer}: Referring image segmentation as sequential polygon generation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "liu2023polyformer"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "2023",
+      "pages": "15--27",
+      "volume": "199",
+      "journal": "ISPRS Journal of Photogrammetry and Remote Sensing",
+      "author": "Hu, Yuan and Wang, Zhibin and Huang, Zhou and Liu, Yu",
+      "title": "{PolyBuilding}: Polygon {Transformer} for building extraction",
+      "ENTRYTYPE": "article",
+      "ID": "hu2023polybuilding"
+    },
+    {
+      "pages": "4255-4264",
+      "year": "2021",
+      "booktitle": "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "author": "Xu, Yifan and Xu, Weijian and Cheung, David and Tu, Zhuowen",
+      "title": "Line segment detection using {Transformers} without edges",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "xu2021line"
+    },
+    {
+      "pages": "2785-2794",
+      "year": "2020",
+      "booktitle": "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "author": "Xue, Nan and Wu, Tianfu and Bai, Song and Wang, Fudong and Xia, Gui-Song and Zhang, Liangpei and Torr, Philip HS",
+      "title": "Holistically-attracted wireframe parsing",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "xue2020holistically"
+    },
+    {
+      "pages": "565-571",
+      "year": "2016",
+      "booktitle": "International Conference on 3D Vision (3DV)",
+      "author": "Milletari, Fausto and Navab, Nassir and Ahmadi, Seyed-Ahmad",
+      "title": "V-Net: Fully convolutional neural networks for volumetric medical image segmentation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "milletari2016v"
+    },
+    {
+      "pages": "770-778",
+      "year": "2016",
+      "booktitle": "IEEE Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "author": "He, Kaiming and Zhang, Xiangyu and Ren, Shaoqing and Sun, Jian",
+      "title": "Deep residual learning for image recognition",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "he2016deep"
+    },
+    {
+      "year": "2015",
+      "booktitle": "International Conference on Learning Representations (ICLR)",
+      "author": "Kingma, Diederik P and Ba, Jimmy",
+      "title": "Adam: A method for stochastic optimization",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "kingma2014adam"
+    },
+    {
+      "pages": "3376-3384",
+      "year": "2023",
+      "booktitle": "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "author": "Ibrahem, Hatem and Salem, Ahmed and Kang, Hyun-Soo",
+      "title": "{ST-RoomNet}: Learning room layout estimation from single image through unsupervised spatial transformations",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ibrahem2023st"
+    },
+    {
+      "pages": "1280-1289",
+      "year": "2022",
+      "booktitle": "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "author": "Cheng, Bowen and Misra, Ishan and Schwing, Alexander G and Kirillov, Alexander and Girdhar, Rohit",
+      "title": "Masked-attention mask {Transformer} for universal image segmentation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "cheng2022masked"
+    },
+    {
+      "pages": "8630-8638",
+      "year": "2020",
+      "booktitle": "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "author": "Li, Muxingzi and Lafarge, Florent and Marlet, Renaud",
+      "title": "Approximating shapes in images with low-complexity polygons",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "li2020approximating"
+    },
+    {
+      "pages": "4875-4884",
+      "year": "2017",
+      "booktitle": "IEEE International Conference on Computer Vision (ICCV)",
+      "author": "Lee, Chen-Yu and Badrinarayanan, Vijay and Malisiewicz, Tomasz and Rabinovich, Andrew",
+      "title": "{RoomNet}: End-to-end room layout estimation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "lee2017roomnet"
+    },
+    {
+      "pages": "9992-10002",
+      "year": "2021",
+      "booktitle": "IEEE/CVF International Conference on Computer Vision (ICCV)",
+      "author": "Liu, Ze and Lin, Yutong and Cao, Yue and Hu, Han and Wei, Yixuan and Zhang, Zheng and Lin, Stephen and Guo, Baining",
+      "title": "Swin {Transformer}: Hierarchical vision {Transformer} using shifted windows",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "liu2021swin"
+    },
+    {
+      "year": "2019",
+      "booktitle": "Proceedings of NAACL-HLT",
+      "author": "Kenton, Jacob Devlin Ming-Wei Chang and Toutanova, Lee Kristina",
+      "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "kenton2019bert"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "2019",
+      "pages": "837--850",
+      "number": "4",
+      "volume": "42",
+      "journal": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+      "author": "Favreau, Jean-Dominique and Lafarge, Florent and Bousseau, Adrien and Auvolat, Alex",
+      "title": "Extracting geometric structures in images with {Delaunay} point processes",
+      "ENTRYTYPE": "article",
+      "ID": "favreau2019extracting"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2308.05736",
+      "author": "Liao, Bencheng and Chen, Shaoyu and Zhang, Yunchi and Jiang, Bo and Zhang, Qian and Liu, Wenyu and Huang, Chang and Wang, Xinggang",
+      "title": "{MapTRv2}: An end-to-end framework for online vectorized {HD} map construction",
+      "ENTRYTYPE": "article",
+      "ID": "liao2023maptrv2"
+    },
+    {
+      "publisher": "IEEE",
+      "pages": "5182-5189",
+      "number": "6",
+      "volume": "9",
+      "year": "2024",
+      "journal": "IEEE Robotics and Automation Letters",
+      "author": "Liu, Hongmin and Cao, Chengyang and Ye, Hanqiao and Cui, Hainan and Gao, Wei and Wang, Xing and Shen, Shuhan",
+      "title": "Lightweight Structured Line Map Based Visual Localization",
+      "ENTRYTYPE": "article",
+      "ID": "liu2024lightweight"
+    },
+    {
+      "year": "2024",
+      "pages": "18029--18038",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "author": "Chen, Changan and Wang, Rui and Vogel, Christoph and Pollefeys, Marc",
+      "title": "{F3Loc}: Fusion and Filtering for Floorplan Localization",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "chen2024f3loc"
+    },
+    {
+      "organization": "IEEE",
+      "year": "2021",
+      "pages": "9030--9037",
+      "booktitle": "2021 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
+      "author": "Li, Jun and Chan, Chee Leong and Le Chan, Jian and Li, Zhengguo and Wan, Kong Wah and Yau, Wei Yun",
+      "title": "Cognitive navigation for indoor environment using floorplan",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "li2021cognitive"
+    },
+    {
+      "publisher": "ACM New York, NY, USA",
+      "year": "2023",
+      "pages": "1--15",
+      "number": "4",
+      "volume": "42",
+      "journal": "ACM Transactions on Graphics (TOG)",
+      "author": "Huang, Jingwei and Zhang, Shanshan and Duan, Bo and Zhang, Yanfeng and Guo, Xiaoyang and Sun, Mingwei and Yi, Li",
+      "title": "ArrangementNet: learning scene arrangements for vectorized indoor scene modeling",
+      "ENTRYTYPE": "article",
+      "ID": "huang2023arrangementnet"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "2021",
+      "pages": "44--55",
+      "volume": "175",
+      "journal": "ISPRS Journal of Photogrammetry and Remote Sensing",
+      "author": "Fang, Hao and Lafarge, Florent and Pan, Cihui and Huang, Hui",
+      "title": "Floorplan generation from 3D point clouds: A space partitioning approach",
+      "ENTRYTYPE": "article",
+      "ID": "fang2021floorplan"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "2023",
+      "pages": "105097",
+      "volume": "156",
+      "journal": "Automation in Construction",
+      "author": "Xiong, Biao and Jin, Yusheng and Li, Fashuai and Chen, Yuwei and Zou, Yiquan and Zhou, Zhize",
+      "title": "Knowledge-driven inference for automatic reconstruction of indoor detailed as-built BIMs from laser scanning data",
+      "ENTRYTYPE": "article",
+      "ID": "xiong2023knowledge"
+    },
+    {
+      "year": "2023",
+      "pages": "14171--14180",
+      "booktitle": "Proceedings of the IEEE/CVF International Conference on Computer Vision",
+      "author": "Jiang, Jingen and Zhao, Mingyang and Xin, Shiqing and Yang, Yanchao and Wang, Hanxiao and Jia, Xiaohong and Yan, Dong-Ming",
+      "title": "Structure-aware surface reconstruction via primitive assembly",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "jiang2023structure"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "2024",
+      "pages": "103655",
+      "volume": "168",
+      "journal": "Computer-Aided Design",
+      "author": "Fayolle, Pierre-Alain and Friedrich, Markus",
+      "title": "A survey of methods for converting unstructured data to CSG Models",
+      "ENTRYTYPE": "article",
+      "ID": "fayolle2024survey"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "2024",
+      "pages": "110532",
+      "journal": "Pattern Recognition",
+      "author": "Zhu, Qinfeng and Fan, Lei and Weng, Ningxin",
+      "title": "Advancements in point cloud data augmentation for deep learning: A survey",
+      "ENTRYTYPE": "article",
+      "ID": "zhu2024advancements"
+    },
+    {
+      "year": "2024",
+      "pages": "27778--27787",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Huang, Shangfeng and Wang, Ruisheng and Guo, Bo and Yang, Hongxin",
+      "title": "PBWR: Parametric-building-wireframe reconstruction from aerial LiDAR point clouds",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "huang2024pbwr"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "2016",
+      "pages": "94--103",
+      "volume": "54",
+      "journal": "Computers \\& Graphics",
+      "author": "Ochmann, Sebastian and Vock, Richard and Wessel, Raoul and Klein, Reinhard",
+      "title": "Automatic reconstruction of parametric building models from indoor point clouds",
+      "ENTRYTYPE": "article",
+      "ID": "ochmann2016automatic"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "2023",
+      "pages": "104828",
+      "volume": "150",
+      "journal": "Automation in Construction",
+      "author": "Ma, Zhiliang and Liu, Yu and Li, Jiayi",
+      "title": "Review on automated quality inspection of precast concrete components",
+      "ENTRYTYPE": "article",
+      "ID": "ma2023review"
+    },
+    {
+      "year": "2024",
+      "volume": "36",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Chen, Jiacheng and Deng, Ruizhi and Furukawa, Yasutaka",
+      "title": "Polydiffuse: Polygonal shape reconstruction via guided set diffusion models",
+      "ENTRYTYPE": "article",
+      "ID": "chen2024polydiffuse"
+    },
+    {
+      "year": "2017",
+      "pages": "2195--2203",
+      "booktitle": "Proceedings of the IEEE International Conference on Computer Vision",
+      "author": "Liu, Chen and Wu, Jiajun and Kohli, Pushmeet and Furukawa, Yasutaka",
+      "title": "Raster-to-vector: Revisiting floorplan transformation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "liu2017raster"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "2012",
+      "pages": "1--43",
+      "number": "1",
+      "volume": "4",
+      "journal": "IEEE Transactions on Computational Intelligence and AI in games",
+      "author": "Browne, Cameron B and Powley, Edward and Whitehouse, Daniel and Lucas, Simon M and Cowling, Peter I and Rohlfshagen, Philipp and Tavener, Stephen and Perez, Diego and Samothrakis, Spyridon and Colton, Simon",
+      "title": "A survey of monte carlo tree search methods",
+      "ENTRYTYPE": "article",
+      "ID": "browne2012survey"
+    },
+    {
+      "year": "2020",
+      "pages": "45--54",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Chen, Zhiqin and Tagliasacchi, Andrea and Zhang, Hao",
+      "title": "Bsp-net: Generating compact meshes via binary space partitioning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "chen2020bsp"
+    },
+    {
+      "organization": "IEEE",
+      "year": "2011",
+      "pages": "275--281",
+      "booktitle": "2011 International Conference on 3D Imaging, Modeling, Processing, Visualization and Transmission",
+      "author": "Adan, Antonio and Huber, Daniel",
+      "title": "3D reconstruction of interior wall surfaces under occlusion and clutter",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "adan20113d"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "2001",
+      "pages": "304--314",
+      "number": "3",
+      "volume": "23",
+      "journal": "IEEE Transactions on pattern analysis and machine intelligence",
+      "author": "Marshall, David and Lukacs, Gabor and Martin, Ralph",
+      "title": "Robust segmentation of primitives from range data in the presence of geometric degeneracy",
+      "ENTRYTYPE": "article",
+      "ID": "marshall2001robust"
+    },
+    {
+      "publisher": "ACM New York, NY, USA",
+      "year": "1981",
+      "pages": "381--395",
+      "number": "6",
+      "volume": "24",
+      "journal": "Communications of the ACM",
+      "author": "Fischler, Martin A and Bolles, Robert C",
+      "title": "Random sample consensus: a paradigm for model fitting with applications to image analysis and automated cartography",
+      "ENTRYTYPE": "article",
+      "ID": "fischler1981random"
+    },
+    {
+      "organization": "Springer",
+      "year": "2020",
+      "pages": "213--229",
+      "booktitle": "European conference on computer vision",
+      "author": "Carion, Nicolas and Massa, Francisco and Synnaeve, Gabriel and Usunier, Nicolas and Kirillov, Alexander and Zagoruyko, Sergey",
+      "title": "End-to-end object detection with transformers",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "carion2020end"
+    },
+    {
+      "year": "2020",
+      "pages": "6840--6851",
+      "volume": "33",
+      "journal": "Advances in neural information processing systems",
+      "author": "Ho, Jonathan and Jain, Ajay and Abbeel, Pieter",
+      "title": "Denoising diffusion probabilistic models",
+      "ENTRYTYPE": "article",
+      "ID": "ho2020denoising"
+    },
+    {
+      "year": "2019",
+      "pages": "5939--5948",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Chen, Zhiqin and Zhang, Hao",
+      "title": "Learning implicit fields for generative shape modeling",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "chen2019learning"
+    },
+    {
+      "year": "2019",
+      "pages": "165--174",
+      "booktitle": "Proceedings of the IEEE/CVF conference on computer vision and pattern recognition",
+      "author": "Park, Jeong Joon and Florence, Peter and Straub, Julian and Newcombe, Richard and Lovegrove, Steven",
+      "title": "Deepsdf: Learning continuous signed distance functions for shape representation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "park2019deepsdf"
+    },
+    {
+      "year": "2019",
+      "pages": "4460--4470",
+      "booktitle": "Proceedings of the IEEE/CVF conference on computer vision and pattern recognition",
+      "author": "Mescheder, Lars and Oechsle, Michael and Niemeyer, Michael and Nowozin, Sebastian and Geiger, Andreas",
+      "title": "Occupancy networks: Learning 3d reconstruction in function space",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "mescheder2019occupancy"
+    },
+    {
+      "year": "2020",
+      "journal": "arXiv preprint arXiv:2003.07356",
+      "author": "Phalak, Ameya and Badrinarayanan, Vijay and Rabinovich, Andrew",
+      "title": "Scan2plan: Efficient floorplan generation from 3d scans of indoor scenes",
+      "ENTRYTYPE": "article",
+      "ID": "phalak2020scan2plan"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "2025",
+      "pages": "112596",
+      "journal": "Journal of Building Engineering",
+      "author": "Mahmoud, Mostafa and Zhao, Zhebin and Chen, Wu and Adham, Mahmoud and Li, Yaxin",
+      "title": "Automated Scan-to-BIM: A Deep Learning-Based Framework for Indoor Environments with Complex Furniture Elements",
+      "ENTRYTYPE": "article",
+      "ID": "mahmoud2025automated"
+    },
+    {
+      "organization": "Springer",
+      "year": "2022",
+      "pages": "195--211",
+      "booktitle": "European Conference on Computer Vision",
+      "author": "Shen, Zhijie and Lin, Chunyu and Liao, Kang and Nie, Lang and Zheng, Zishuo and Zhao, Yao",
+      "title": "PanoFormer: panorama transformer for indoor 360$^\\circ$ depth estimation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "shen2022panoformer"
+    },
+    {
+      "organization": "IEEE",
+      "year": "2017",
+      "pages": "354--362",
+      "booktitle": "2017 IEEE winter conference on applications of computer vision (WACV)",
+      "author": "Xu, Jiu and Stenger, Bj{\\\"o}rn and Kerola, Tommi and Tung, Tony",
+      "title": "Pano2cad: Room layout from a single panorama image",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "xu2017pano2cad"
+    },
+    {
+      "publisher": "Society for Imaging Science and Technology",
+      "year": "2021",
+      "pages": "1--7",
+      "volume": "33",
+      "journal": "Electronic Imaging",
+      "author": "Liu, Xin and Bondarev, Egor and Klomp, Sander R and Zimmerman, Joury and others",
+      "title": "Semantic 3D Indoor Reconstruction with Stereo Camera Imaging",
+      "ENTRYTYPE": "article",
+      "ID": "liu2021semantic"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "2025",
+      "pages": "126011",
+      "volume": "265",
+      "journal": "Expert Systems with Applications",
+      "author": "Chen, Taoyi and Su, Fei and Bi, Jingxue and Liu, Yaohui and Xing, Huaqiao and Zheng, Guoqiang",
+      "title": "Reconstructing compact building models from 3D indoor point cloud with curved surfaces via global energy optimization",
+      "ENTRYTYPE": "article",
+      "ID": "chen2025reconstructing"
+    },
+    {
+      "publisher": "MDPI",
+      "year": "2025",
+      "pages": "596",
+      "number": "4",
+      "volume": "17",
+      "journal": "Remote Sensing",
+      "author": "Li, Minglei and Li, Mingfan and Li, Min and Xu, Leheng",
+      "title": "Building Lightweight 3D Indoor Models from Point Clouds with Enhanced Scene Understanding",
+      "ENTRYTYPE": "article",
+      "ID": "li2025building"
+    },
+    {
+      "organization": "IEEE",
+      "year": "2017",
+      "pages": "6126--6133",
+      "booktitle": "2017 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
+      "author": "Murali, Srivathsan and Speciale, Pablo and Oswald, Martin R and Pollefeys, Marc",
+      "title": "Indoor Scan2BIM: Building information models of house interiors",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "murali2017indoor"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "2021",
+      "pages": "57--74",
+      "volume": "177",
+      "journal": "ISPRS Journal of Photogrammetry and Remote Sensing",
+      "author": "Han, Jiali and Rong, Mengqi and Jiang, Hanqing and Liu, Hongmin and Shen, Shuhan",
+      "title": "Vectorized indoor surface reconstruction from 3D point cloud with multistep 2D optimization",
+      "ENTRYTYPE": "article",
+      "ID": "han2021vectorized"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "2022",
+      "pages": "360--369",
+      "volume": "102",
+      "journal": "Computers \\& Graphics",
+      "author": "Cai, Ruifan and Li, Honglin and Xie, Jun and Jin, Xiaogang",
+      "title": "Accurate floorplan reconstruction using geometric priors",
+      "ENTRYTYPE": "article",
+      "ID": "cai2022accurate"
+    },
+    {
+      "publisher": "ACM New York, NY, USA",
+      "year": "2024",
+      "pages": "1--16",
+      "number": "6",
+      "volume": "43",
+      "journal": "ACM Transactions on Graphics (TOG)",
+      "author": "Zhang, Runze and Pan, Shanshan and Lv, Chenlei and Gong, Minglun and Huang, Hui",
+      "title": "Architectural Co-LOD Generation",
+      "ENTRYTYPE": "article",
+      "ID": "zhang2024architectural"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "2024",
+      "pages": "105822",
+      "volume": "168",
+      "journal": "Automation in Construction",
+      "author": "Pantoja-Rosero, Bryan German and Rusnak, A and Kaplan, Fr{\\'e}d{\\'e}ric and Beyer, Katrin",
+      "title": "Generation of LOD4 models for buildings towards the automated 3D modeling of BIMs and digital twins",
+      "ENTRYTYPE": "article",
+      "ID": "pantoja2024generation"
+    },
+    {
+      "year": "2024",
+      "journal": "International Conference on Learning Representations",
+      "author": "Liu, Wenlong and Yang, Tianyu and Wang, Yuhan and Yu, Qizhi and Zhang, Lei",
+      "title": "Symbol as points: Panoptic symbol spotting via point-based representation",
+      "ENTRYTYPE": "article",
+      "ID": "liu2024symbol"
+    },
+    {
+      "organization": "IEEE",
+      "year": "2025",
+      "pages": "1488--1497",
+      "booktitle": "2025 IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)",
+      "author": "Ganon, Keren and Alper, Morris and Mikulinsky, Rachel and Averbuch-Elor, Hadar",
+      "title": "WAFFLE: Multimodal Floorplan Understanding in the Wild",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ganon2025waffle"
+    },
+    {
+      "organization": "Springer",
+      "year": "2006",
+      "pages": "72--83",
+      "booktitle": "International conference on computers and games",
+      "author": "Coulom, R{\\'e}mi",
+      "title": "Efficient selectivity and backup operators in Monte-Carlo tree search",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "coulom2006efficient"
+    }
+  ]
+}

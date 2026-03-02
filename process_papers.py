@@ -85,22 +85,25 @@ def process_paper(paper_name, output_base_dir, temp_dir):
     
     # Download from arXiv
     logging.info("Step 1: Downloading from arXiv...")
-    success = download_from_arxiv(paper_name, paper_temp_dir)
-    if not success:
+    pdf_url = download_from_arxiv(paper_name, paper_temp_dir)
+    if not pdf_url:
         logging.error(f"Failed to download {paper_name}")
+        # Clean up output directory if it was created
+        if os.path.exists(paper_output_dir):
+            shutil.rmtree(paper_output_dir)
+            logging.info(f"Cleaned up output directory: {paper_output_dir}")
         return False
     
-    # Find the downloaded files
-    pdf_file = os.path.join(paper_temp_dir, f"{cleaned_name}.pdf")
+    # Find the downloaded source file
     source_file = os.path.join(paper_temp_dir, f"{cleaned_name}_source.tar.gz")
     
-    # Check if files exist
-    if not os.path.exists(pdf_file):
-        logging.error(f"PDF file not found: {pdf_file}")
-        return False
-    
+    # Check if source file exists
     if not os.path.exists(source_file):
         logging.error(f"Source file not found: {source_file}")
+        # Clean up output directory
+        if os.path.exists(paper_output_dir):
+            shutil.rmtree(paper_output_dir)
+            logging.info(f"Cleaned up output directory: {paper_output_dir}")
         return False
     
     # Extract source archive
@@ -108,6 +111,10 @@ def process_paper(paper_name, output_base_dir, temp_dir):
     extract_dir = os.path.join(paper_temp_dir, "extracted")
     if not extract_tar_file(source_file, extract_dir):
         logging.error(f"Failed to extract source for {paper_name}")
+        # Clean up output directory
+        if os.path.exists(paper_output_dir):
+            shutil.rmtree(paper_output_dir)
+            logging.info(f"Cleaned up output directory: {paper_output_dir}")
         return False
     
     # Find .bib files
@@ -117,6 +124,10 @@ def process_paper(paper_name, output_base_dir, temp_dir):
     if not bib_files:
         logging.warning(f"No .bib files found for {paper_name}")
         references = []
+        if os.path.exists(paper_output_dir):
+            shutil.rmtree(paper_output_dir)
+            logging.info(f"Cleaned up output directory: {paper_output_dir}")
+        return False
     else:
         logging.info(f"Found {len(bib_files)} .bib file(s): {[os.path.basename(f) for f in bib_files]}")
         
@@ -141,16 +152,17 @@ def process_paper(paper_name, output_base_dir, temp_dir):
     # Save organized output
     logging.info("Step 4: Saving output...")
     
-    # Copy PDF to output directory
-    output_pdf = os.path.join(paper_output_dir, f"{cleaned_name}.pdf")
-    shutil.copy2(pdf_file, output_pdf)
-    logging.info(f"Saved PDF: {output_pdf}")
+    # Create output JSON with PDF URL and references
+    output_data = {
+        "pdf_url": pdf_url,
+        "references": references
+    }
     
-    # Save references as JSON
+    # Save data as JSON
     output_json = os.path.join(paper_output_dir, "references.json")
     with open(output_json, 'w', encoding='utf-8') as f:
-        json.dump(references, f, indent=2, ensure_ascii=False)
-    logging.info(f"Saved references: {output_json} ({len(references)} references)")
+        json.dump(output_data, f, indent=2, ensure_ascii=False)
+    logging.info(f"Saved data: {output_json} (PDF URL + {len(references)} references)")
     
     # Clean up temporary files
     logging.info("Step 5: Cleaning up temporary files...")
@@ -160,7 +172,7 @@ def process_paper(paper_name, output_base_dir, temp_dir):
     except Exception as e:
         logging.warning(f"Error cleaning up temporary files: {e}")
     
-    logging.info(f"✓ Successfully processed: {paper_name}\n")
+    logging.info(f"Successfully processed: {paper_name}\n")
     return True
 
 

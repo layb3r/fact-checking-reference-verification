@@ -1,0 +1,1063 @@
+{
+  "pdf_url": "https://arxiv.org/pdf/2511.00143v1.pdf",
+  "references": [
+    {
+      "year": "2023",
+      "booktitle": "Proceedings of the 40th International Conference on Machine Learning",
+      "title": "Raising the cost of malicious {AI}-powered image editing",
+      "author": "Salman, Hadi and Khaddaj, Alaa and Leclerc, Guillaume and Ilyas, Andrew and Madry, Aleksander",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "salman2023raising"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2023",
+      "pages": "20763--20786",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Liang, Chumeng and Wu, Xiaoyu and Hua, Yang and Zhang, Jiaru and Xue, Yiming and Song, Tao and Xue, Zhengui and Ma, Ruhui and Guan, Haibing",
+      "title": "Adversarial example does good: Preventing painting imitation from diffusion models via adversarial examples",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "liang2023adversarial"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2305.12683",
+      "author": "Liang, Chumeng and Wu, Xiaoyu",
+      "title": "Mist: Towards improved adversarial examples for diffusion models",
+      "ENTRYTYPE": "article",
+      "ID": "liang2023mist"
+    },
+    {
+      "year": "2023",
+      "booktitle": "The Twelfth International Conference on Learning Representations",
+      "author": "Xue, Haotian and Liang, Chumeng and Wu, Xiaoyu and Chen, Yongxin",
+      "title": "Toward effective protection against diffusion-based mimicry through score distillation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "xue2023toward"
+    },
+    {
+      "year": "2020",
+      "pages": "6840--6851",
+      "volume": "33",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Ho, Jonathan and Jain, Ajay and Abbeel, Pieter",
+      "title": "Denoising diffusion probabilistic models",
+      "ENTRYTYPE": "article",
+      "ID": "ho2020denoising"
+    },
+    {
+      "url": "https://openreview.net/forum?id=PxTIG12RRHS",
+      "year": "2021",
+      "booktitle": "International Conference on Learning Representations",
+      "author": "Yang Song and Jascha Sohl-Dickstein and Diederik P Kingma and Abhishek Kumar and Stefano Ermon and Ben Poole",
+      "title": "Score-Based Generative Modeling through Stochastic Differential Equations",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "song2020score"
+    },
+    {
+      "year": "2022",
+      "pages": "36479--36494",
+      "volume": "35",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Saharia, Chitwan and Chan, William and Saxena, Saurabh and Li, Lala and Whang, Jay and Denton, Emily L and Ghasemipour, Kamyar and Gontijo Lopes, Raphael and Karagol Ayan, Burcu and Salimans, Tim and others",
+      "title": "Photorealistic text-to-image diffusion models with deep language understanding",
+      "ENTRYTYPE": "article",
+      "ID": "saharia2022photorealistic"
+    },
+    {
+      "year": "2022",
+      "pages": "10684--10695",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Rombach, Robin and Blattmann, Andreas and Lorenz, Dominik and Esser, Patrick and Ommer, Bj{\\\"o}rn",
+      "title": "High-resolution image synthesis with latent diffusion models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "rombach2022high"
+    },
+    {
+      "url": "https://openreview.net/forum?id=NAQvF08TcyG",
+      "year": "2023",
+      "booktitle": "The Eleventh International Conference on Learning Representations ",
+      "author": "Rinon Gal and Yuval Alaluf and Yuval Atzmon and Or Patashnik and Amit Haim Bermano and Gal Chechik and Daniel Cohen-or",
+      "title": "An Image is Worth One Word: Personalizing Text-to-Image Generation using Textual Inversion",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "gal2022image"
+    },
+    {
+      "year": "2022",
+      "pages": "11461--11471",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Lugmayr, Andreas and Danelljan, Martin and Romero, Andres and Yu, Fisher and Timofte, Radu and Van Gool, Luc",
+      "title": "Repaint: Inpainting using denoising diffusion probabilistic models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "lugmayr2022repaint"
+    },
+    {
+      "url": "https://arxiv.org/abs/1412.6572",
+      "primaryclass": "stat.ML",
+      "archiveprefix": "arXiv",
+      "eprint": "1412.6572",
+      "year": "2015",
+      "author": "Ian J. Goodfellow and Jonathon Shlens and Christian Szegedy",
+      "title": "Explaining and Harnessing Adversarial Examples",
+      "ENTRYTYPE": "misc",
+      "ID": "goodfellow2014explaining"
+    },
+    {
+      "url": "https://openreview.net/forum?id=rJzIBfZAb",
+      "year": "2018",
+      "booktitle": "International Conference on Learning Representations",
+      "author": "Aleksander Madry and Aleksandar Makelov and Ludwig Schmidt and Dimitris Tsipras and Adrian Vladu",
+      "title": "Towards Deep Learning Models Resistant to Adversarial Attacks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "madry2017towards"
+    },
+    {
+      "year": "2022",
+      "pages": "15315--15324",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Luo, Cheng and Lin, Qinliang and Xie, Weicheng and Wu, Bizhu and Xie, Jinheng and Shen, Linlin",
+      "title": "Frequency-driven imperceptible adversarial attack on semantic similarity",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "luo2022frequency"
+    },
+    {
+      "url": "https://proceedings.mlr.press/v162/nie22a.html",
+      "publisher": "PMLR",
+      "month": "17--23 Jul",
+      "series": "Proceedings of Machine Learning Research",
+      "volume": "162",
+      "editor": "Chaudhuri, Kamalika and Jegelka, Stefanie and Song, Le and Szepesvari, Csaba and Niu, Gang and Sabato, Sivan",
+      "year": "2022",
+      "pages": "16805--16827",
+      "booktitle": "Proceedings of the 39th International Conference on Machine Learning",
+      "author": "Nie, Weili and Guo, Brandon and Huang, Yujia and Xiao, Chaowei and Vahdat, Arash and Anandkumar, Animashree",
+      "title": "Diffusion Models for Adversarial Purification",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "nie2022diffusion"
+    },
+    {
+      "year": "2024",
+      "pages": "24398--24407",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Zhao, Zhengyue and Duan, Jinhao and Xu, Kaidi and Wang, Chenan and Zhang, Rui and Du, Zidong and Guo, Qi and Hu, Xing",
+      "title": "Can Protective Perturbation Safeguard Personal Data from Being Exploited by Stable Diffusion?",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zhao2024can"
+    },
+    {
+      "url": "https://arxiv.org/abs/1312.6199",
+      "primaryclass": "cs.CV",
+      "archiveprefix": "arXiv",
+      "eprint": "1312.6199",
+      "year": "2014",
+      "author": "Christian Szegedy and Wojciech Zaremba and Ilya Sutskever and Joan Bruna and Dumitru Erhan and Ian Goodfellow and Rob Fergus",
+      "title": "Intriguing properties of neural networks",
+      "ENTRYTYPE": "misc",
+      "ID": "szegedy2013intriguing"
+    },
+    {
+      "organization": "Springer",
+      "year": "2013",
+      "pages": "387--402",
+      "booktitle": "Machine Learning and Knowledge Discovery in Databases: European Conference, ECML PKDD 2013, Prague, Czech Republic, September 23-27, 2013, Proceedings, Part III 13",
+      "author": "Biggio, Battista and Corona, Igino and Maiorca, Davide and Nelson, Blaine and {\\v{S}}rndi{\\'c}, Nedim and Laskov, Pavel and Giacinto, Giorgio and Roli, Fabio",
+      "title": "Evasion attacks against machine learning at test time",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "biggio2013evasion"
+    },
+    {
+      "year": "2023",
+      "pages": "2187--2204",
+      "booktitle": "32nd USENIX Security Symposium",
+      "author": "Shan, Shawn and Cryan, Jenna and Wenger, Emily and Zheng, Haitao and Hanocka, Rana and Zhao, Ben Y",
+      "title": "Glaze: Protecting artists from style mimicry by Text-to-Image models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "shan2023glaze"
+    },
+    {
+      "year": "2024",
+      "journal": "ICML GenAI and Law workshop",
+      "author": "H{\\\"o}nig, Robert and Rando, Javier and Carlini, Nicholas and Tram{\\`e}r, Florian",
+      "title": "Adversarial Perturbations Cannot Reliably Protect Artists From Generative {AI}",
+      "ENTRYTYPE": "article",
+      "ID": "honig2024adversarial"
+    },
+    {
+      "year": "2023",
+      "pages": "4015--4026",
+      "booktitle": "Proceedings of the IEEE/CVF International Conference on Computer Vision",
+      "author": "Kirillov, Alexander and Mintun, Eric and Ravi, Nikhila and Mao, Hanzi and Rolland, Chloe and Gustafson, Laura and Xiao, Tete and Whitehead, Spencer and Berg, Alexander C and Lo, Wan-Yen and others",
+      "title": "Segment anything",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "kirillov2023segment"
+    },
+    {
+      "url": "https://arxiv.org/abs/1801.03924",
+      "primaryclass": "cs.CV",
+      "archiveprefix": "arXiv",
+      "eprint": "1801.03924",
+      "year": "2018",
+      "author": "Richard Zhang and Phillip Isola and Alexei A. Efros and Eli Shechtman and Oliver Wang",
+      "title": "The Unreasonable Effectiveness of Deep Features as a Perceptual Metric",
+      "ENTRYTYPE": "misc",
+      "ID": "zhang2018unreasonableeffectivenessdeepfeatures"
+    },
+    {
+      "publisher": "AcM New York, NY, USA",
+      "year": "1991",
+      "pages": "30--44",
+      "number": "4",
+      "volume": "34",
+      "journal": "Communications of the ACM",
+      "author": "Wallace, Gregory K",
+      "title": "The {JPEG} still picture compression standard",
+      "ENTRYTYPE": "article",
+      "ID": "wallace1991jpeg"
+    },
+    {
+      "year": "2024",
+      "pages": "16815--16825",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Lin, Li and He, Xinan and Ju, Yan and Wang, Xin and Ding, Feng and Hu, Shu",
+      "title": "Preserving fairness generalization in deepfake detection",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "lin2024preserving"
+    },
+    {
+      "year": "2018",
+      "journal": "arXiv preprint arXiv:1812.08685",
+      "author": "Korshunov, Pavel and Marcel, S{\\'e}bastien",
+      "title": "Deepfakes: A new threat to face recognition? Assessment and detection",
+      "ENTRYTYPE": "article",
+      "ID": "korshunov2018deepfakes"
+    },
+    {
+      "organization": "IEEE",
+      "year": "2020",
+      "pages": "5012--5019",
+      "booktitle": "25th International Conference on Pattern Recognition",
+      "author": "Bonettini, Nicolo and Cannas, Edoardo Daniele and Mandelli, Sara and Bondi, Luca and Bestagini, Paolo and Tubaro, Stefano",
+      "title": "Video face manipulation detection through ensemble of {CNNs}",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "bonettini2021video"
+    },
+    {
+      "year": "2020",
+      "pages": "3207--3216",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Li, Yuezun and Yang, Xin and Sun, Pu and Qi, Honggang and Lyu, Siwei",
+      "title": "Celeb-df: A large-scale challenging dataset for deepfake forensics",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "li2020celeb"
+    },
+    {
+      "publisher": "ACM New York, NY, USA",
+      "year": "2021",
+      "pages": "1--41",
+      "number": "1",
+      "volume": "54",
+      "journal": "ACM Computing Surveys (CSUR)",
+      "author": "Mirsky, Yisroel and Lee, Wenke",
+      "title": "The creation and detection of deepfakes: A survey",
+      "ENTRYTYPE": "article",
+      "ID": "mirsky2021creation"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2303.10137",
+      "author": "Zhao, Yunqing and Pang, Tianyu and Du, Chao and Yang, Xiao and Cheung, Ngai-Man and Lin, Min",
+      "title": "A recipe for watermarking diffusion models",
+      "ENTRYTYPE": "article",
+      "ID": "zhao2023recipe"
+    },
+    {
+      "organization": "Springer",
+      "year": "2024",
+      "pages": "104--120",
+      "booktitle": "European Conference on Computer Vision",
+      "author": "Min, Rui and Li, Sen and Chen, Hongyang and Cheng, Minhao",
+      "title": "A watermark-conditioned diffusion model for {IP} protection",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "min2024watermark"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2306.04642",
+      "author": "Cui, Yingqian and Ren, Jie and Xu, Han and He, Pengfei and Liu, Hui and Sun, Lichao and Xing, Yue and Tang, Jiliang",
+      "title": "Diffusion{S}hield: A watermark for copyright protection against generative diffusion models",
+      "ENTRYTYPE": "article",
+      "ID": "cui2023diffusionshield"
+    },
+    {
+      "year": "2023",
+      "pages": "22466--22477",
+      "booktitle": "Proceedings of the IEEE/CVF International Conference on Computer Vision",
+      "author": "Fernandez, Pierre and Couairon, Guillaume and J{\\'e}gou, Herv{\\'e} and Douze, Matthijs and Furon, Teddy",
+      "title": "The stable signature: Rooting watermarks in latent diffusion models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "fernandez2023stable"
+    },
+    {
+      "url": "https://openreview.net/forum?id=Z57JrmubNl",
+      "year": "2023",
+      "booktitle": "Thirty-seventh Conference on Neural Information Processing Systems",
+      "author": "Yuxin Wen and John Kirchenbauer and Jonas Geiping and Tom Goldstein",
+      "title": "Tree-Rings Watermarks: Invisible Fingerprints for Diffusion Images",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "wen2023tree"
+    },
+    {
+      "year": "2023",
+      "pages": "2426--2436",
+      "booktitle": "Proceedings of the IEEE/CVF International Conference on Computer Vision",
+      "author": "Gandikota, Rohit and Materzynska, Joanna and Fiotto-Kaufman, Jaden and Bau, David",
+      "title": "Erasing concepts from diffusion models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "gandikota2023erasing"
+    },
+    {
+      "year": "2024",
+      "pages": "5111--5120",
+      "booktitle": "Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision",
+      "author": "Gandikota, Rohit and Orgad, Hadas and Belinkov, Yonatan and Materzy{\\'n}ska, Joanna and Bau, David",
+      "title": "Unified concept editing in diffusion models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "gandikota2024unified"
+    },
+    {
+      "year": "2023",
+      "pages": "22691--22702",
+      "booktitle": "Proceedings of the IEEE/CVF International Conference on Computer Vision",
+      "author": "Kumari, Nupur and Zhang, Bingliang and Wang, Sheng-Yu and Shechtman, Eli and Zhang, Richard and Zhu, Jun-Yan",
+      "title": "Ablating concepts in text-to-image diffusion models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "kumari2023ablating"
+    },
+    {
+      "year": "2024",
+      "pages": "1755--1764",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Zhang, Gong and Wang, Kai and Xu, Xingqian and Wang, Zhangyang and Shi, Humphrey",
+      "title": "Forget-me-not: Learning to forget in text-to-image diffusion models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zhang2024forget"
+    },
+    {
+      "year": "2024",
+      "volume": "36",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Heng, Alvin and Soh, Harold",
+      "title": "Selective amnesia: A continual learning approach to forgetting in deep generative models",
+      "ENTRYTYPE": "article",
+      "ID": "heng2024selective"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2302.10893",
+      "author": "Friedrich, Felix and Brack, Manuel and Struppek, Lukas and Hintersdorf, Dominik and Schramowski, Patrick and Luccioni, Sasha and Kersting, Kristian",
+      "title": "Fair diffusion: Instructing text-to-image generation models on fairness",
+      "ENTRYTYPE": "article",
+      "ID": "friedrich2023fair"
+    },
+    {
+      "url": "https://openreview.net/forum?id=hnrB5YHoYu",
+      "year": "2024",
+      "booktitle": "The Twelfth International Conference on Learning Representations",
+      "author": "Xudong Shen and Chao Du and Tianyu Pang and Min Lin and Yongkang Wong and Mohan Kankanhalli",
+      "title": "Finetuning Text-to-Image Diffusion Models for Fairness",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "shen2024finetuning"
+    },
+    {
+      "year": "2023",
+      "pages": "1017--1068",
+      "volume": "78",
+      "journal": "Journal of Artificial Intelligence Research",
+      "author": "Struppek, Lukas and Hintersdorf, Dom and Friedrich, Felix and Schramowski, Patrick and Kersting, Kristian and others",
+      "title": "Exploiting cultural biases via homoglyphs in text-to-image synthesis",
+      "ENTRYTYPE": "article",
+      "ID": "struppek2023exploiting"
+    },
+    {
+      "year": "2024",
+      "pages": "21995--22003",
+      "volume": "38",
+      "booktitle": "Proceedings of the AAAI Conference on Artificial Intelligence",
+      "author": "Choi, Yujin and Park, Jinseong and Kim, Hoki and Lee, Jaewook and Park, Saerom",
+      "title": "Fair sampling in diffusion models through switching mechanism",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "choi2024fair"
+    },
+    {
+      "year": "2021",
+      "journal": "arXiv preprint arXiv:2111.00861",
+      "author": "Maiya, Shishira R and Ehrlich, Max and Agarwal, Vatsal and Lim, Ser-Nam and Goldstein, Tom and Shrivastava, Abhinav",
+      "title": "A frequency perspective of adversarial robustness",
+      "ENTRYTYPE": "article",
+      "ID": "maiya2021frequency"
+    },
+    {
+      "year": "2019",
+      "volume": "32",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Yin, Dong and Gontijo Lopes, Raphael and Shlens, Jon and Cubuk, Ekin Dogus and Gilmer, Justin",
+      "title": "A fourier perspective on model robustness in computer vision",
+      "ENTRYTYPE": "article",
+      "ID": "yin2019fourier"
+    },
+    {
+      "url": "https://openreview.net/forum?id=FjNys5c7VyY",
+      "year": "2023",
+      "booktitle": "The Eleventh International Conference on Learning Representations ",
+      "author": "Ben Poole and Ajay Jain and Jonathan T. Barron and Ben Mildenhall",
+      "title": "DreamFusion: Text-to-3D using 2D Diffusion",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "poole2023dreamfusion"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2403.19254",
+      "author": "Ahn, Namhyuk and Ahn, Wonhyuk and Yoo, KiYoon and Kim, Daesik and Nam, Seung-Hun",
+      "title": "Imperceptible Protection against Style Imitation from Diffusion Models",
+      "ENTRYTYPE": "article",
+      "ID": "ahn2024imperceptible"
+    },
+    {
+      "year": "2023",
+      "url": "https://cdn.openai.com/papers/dall-e-3.pdf",
+      "author": "Betker, James and Goh, Gabriel and Jing, Li and Brooks, Tim and Wang, Jianfeng and Li, Linjie and Ouyang, Long and Zhuang, Juntang and Lee, Joyce and Guo, Yufei and others",
+      "title": "Improving Image Generation with Better Captions",
+      "ENTRYTYPE": "misc",
+      "ID": "betker2023improving"
+    },
+    {
+      "url": "https://openreview.net/forum?id=di52zR8xgf",
+      "year": "2024",
+      "booktitle": "The Twelfth International Conference on Learning Representations",
+      "author": "Dustin Podell and Zion English and Kyle Lacey and Andreas Blattmann and Tim Dockhorn and Jonas M{\\\"u}ller and Joe Penna and Robin Rombach",
+      "title": "{SDXL}: Improving Latent Diffusion Models for High-Resolution Image Synthesis",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "podell2024sdxl"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2410.13720",
+      "author": "Polyak, Adam and Zohar, Amit and Brown, Andrew and Tjandra, Andros and Sinha, Animesh and Lee, Ann and Vyas, Apoorv and Shi, Bowen and Ma, Chih-Yao and Chuang, Ching-Yao and others",
+      "title": "Movie {Gen}: A cast of media foundation models",
+      "ENTRYTYPE": "article",
+      "ID": "moviegen"
+    },
+    {
+      "journal": "OpenAI Blog",
+      "year": "2024",
+      "author": "Tim Brooks and Bill Peebles and Connor Holmes and Will DePue and Yufei Guo and Li Jing and David Schnurr and Joe Taylor and Troy Luhman and Eric Luhman and Clarence Ng and Ricky Wang and Aditya Ramesh",
+      "title": "Video Generation Models as World Simulators",
+      "ENTRYTYPE": "article",
+      "ID": "videoworldsimulators2024"
+    },
+    {
+      "year": "2023",
+      "pages": "10124--10134",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Kang, Minguk and Zhu, Jun-Yan and Zhang, Richard and Park, Jaesik and Shechtman, Eli and Paris, Sylvain and Park, Taesung",
+      "title": "Scaling up {GAN}s for text-to-image synthesis",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "kang2023scaling"
+    },
+    {
+      "year": "2023",
+      "pages": "9298--9309",
+      "booktitle": "Proceedings of the IEEE/CVF International Conference on Computer Vision",
+      "author": "Liu, Ruoshi and Wu, Rundi and Van Hoorick, Basile and Tokmakov, Pavel and Zakharov, Sergey and Vondrick, Carl",
+      "title": "Zero-1-to-3: Zero-shot one image to 3d object",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "liu2023zero"
+    },
+    {
+      "year": "2024",
+      "pages": "21401--21412",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Chen, Zilong and Wang, Feng and Wang, Yikai and Liu, Huaping",
+      "title": "Text-to-3d using gaussian splatting",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "chen2024text"
+    },
+    {
+      "year": "2023",
+      "pages": "22500--22510",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Ruiz, Nataniel and Li, Yuanzhen and Jampani, Varun and Pritch, Yael and Rubinstein, Michael and Aberman, Kfir",
+      "title": "Dreambooth: Fine tuning text-to-image diffusion models for subject-driven generation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ruiz2023dreambooth"
+    },
+    {
+      "year": "2022",
+      "booktitle": "International Conference on Learning Representations",
+      "author": "Chenlin Meng and Yutong He and Yang Song and Jiaming Song and Jiajun Wu and Jun-Yan Zhu and Stefano Ermon",
+      "title": "{SDE}dit: Guided Image Synthesis and Editing with Stochastic Differential Equations",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "meng2022sdedit"
+    },
+    {
+      "year": "2023",
+      "pages": "18392--18402",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Brooks, Tim and Holynski, Aleksander and Efros, Alexei A",
+      "title": "Instruct{P}ix2{P}ix: Learning to follow image editing instructions",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "brooks2023instructpix2pix"
+    },
+    {
+      "organization": "Pmlr",
+      "year": "2021",
+      "pages": "8821--8831",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Ramesh, Aditya and Pavlov, Mikhail and Goh, Gabriel and Gray, Scott and Voss, Chelsea and Radford, Alec and Chen, Mark and Sutskever, Ilya",
+      "title": "Zero-shot text-to-image generation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ramesh2021zero"
+    },
+    {
+      "url": "https://arxiv.org/abs/2204.06125",
+      "primaryclass": "cs.CV",
+      "archiveprefix": "arXiv",
+      "eprint": "2204.06125",
+      "year": "2022",
+      "author": "Aditya Ramesh and Prafulla Dhariwal and Alex Nichol and Casey Chu and Mark Chen",
+      "title": "Hierarchical Text-Conditional Image Generation with {CLIP} Latents",
+      "ENTRYTYPE": "misc",
+      "ID": "ramesh2022hierarchicaltextconditionalimagegeneration"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2015",
+      "pages": "2256--2265",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Sohl-Dickstein, Jascha and Weiss, Eric and Maheswaranathan, Niru and Ganguli, Surya",
+      "title": "Deep unsupervised learning using nonequilibrium thermodynamics",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "sohl2015deep"
+    },
+    {
+      "year": "2021",
+      "pages": "8780--8794",
+      "volume": "34",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Dhariwal, Prafulla and Nichol, Alexander",
+      "title": "Diffusion models beat GANs on image synthesis",
+      "ENTRYTYPE": "article",
+      "ID": "dhariwal2021diffusion"
+    },
+    {
+      "year": "2021",
+      "journal": "arXiv preprint arXiv:2112.10741",
+      "author": "Nichol, Alex and Dhariwal, Prafulla and Ramesh, Aditya and Shyam, Pranav and Mishkin, Pamela and McGrew, Bob and Sutskever, Ilya and Chen, Mark",
+      "title": "Glide: Towards photorealistic image generation and editing with text-guided diffusion models",
+      "ENTRYTYPE": "article",
+      "ID": "nichol2021glide"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "2022",
+      "pages": "4713--4726",
+      "number": "4",
+      "volume": "45",
+      "journal": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+      "author": "Saharia, Chitwan and Ho, Jonathan and Chan, William and Salimans, Tim and Fleet, David J and Norouzi, Mohammad",
+      "title": "Image super-resolution via iterative refinement",
+      "ENTRYTYPE": "article",
+      "ID": "saharia2022image"
+    },
+    {
+      "organization": "IEEE",
+      "year": "2017",
+      "pages": "39--57",
+      "booktitle": "IEEE Symposium on Security and Privacy",
+      "author": "Carlini, Nicholas and Wagner, David",
+      "title": "Towards evaluating the robustness of neural networks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "carlini2017towards"
+    },
+    {
+      "year": "2020",
+      "pages": "140--1",
+      "volume": "21",
+      "journal": "J. Mach. Learn. Res.",
+      "author": "Colin, Raffel",
+      "title": "Exploring the limits of transfer learning with a unified text-to-text transformer",
+      "ENTRYTYPE": "article",
+      "ID": "colin2020exploring"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2021",
+      "pages": "8748--8763",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Radford, Alec and Kim, Jong Wook and Hallacy, Chris and Ramesh, Aditya and Goh, Gabriel and Agarwal, Sandhini and Sastry, Girish and Askell, Amanda and Mishkin, Pamela and Clark, Jack and others",
+      "title": "Learning transferable visual models from natural language supervision",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "radford2021learning"
+    },
+    {
+      "year": "2020",
+      "pages": "1589--1604",
+      "booktitle": "29th USENIX Security Symposium",
+      "author": "Shan, Shawn and Wenger, Emily and Zhang, Jiayun and Li, Huiying and Zheng, Haitao and Zhao, Ben Y",
+      "title": "Fawkes: Protecting privacy against unauthorized deep learning models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "shan2020fawkes"
+    },
+    {
+      "url": "https://openreview.net/forum?id=hJmtwocEqzc",
+      "year": "2021",
+      "booktitle": "International Conference on Learning Representations",
+      "author": "Valeriia Cherepanova and Micah Goldblum and Harrison Foley and Shiyuan Duan and John P Dickerson and Gavin Taylor and Tom Goldstein",
+      "title": "Low{K}ey: Leveraging Adversarial Attacks to Protect Social Media Users from Facial Recognition",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "cherepanova2021lowkey"
+    },
+    {
+      "year": "2023",
+      "pages": "2116--2127",
+      "booktitle": "Proceedings of the IEEE/CVF International Conference on Computer Vision",
+      "author": "Van Le, Thanh and Phung, Hao and Nguyen, Thuan Hoang and Dao, Quan and Tran, Ngoc N and Tran, Anh",
+      "title": "Anti-{D}ream{B}ooth: Protecting users from personalized text-to-image synthesis",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "van2023anti"
+    },
+    {
+      "year": "2024",
+      "pages": "12257--12267",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Liu, Hanwen and Sun, Zhicheng and Mu, Yadong",
+      "title": "Countering Personalized Text-to-Image Generation with Influence Watermarks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "liu2024countering"
+    },
+    {
+      "year": "2024",
+      "booktitle": "ECCV 2024 Workshop The Dark Side of Generative AIs and Beyond",
+      "author": "Onikubo, Takuto and Matsui, Yusuke",
+      "title": "High-{F}requency {A}nti-{D}reamBooth: Robust Defense against Personalized Image Synthesis",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "onikubo2024high"
+    },
+    {
+      "url": "https://arxiv.org/abs/1809.08758",
+      "primaryclass": "cs.CV",
+      "archiveprefix": "arXiv",
+      "eprint": "1809.08758",
+      "year": "2019",
+      "author": "Chuan Guo and Jared S. Frank and Kilian Q. Weinberger",
+      "title": "Low Frequency Adversarial Perturbation",
+      "ENTRYTYPE": "misc",
+      "ID": "guo2019lowfrequencyadversarialperturbation"
+    },
+    {
+      "location": "Macao, China",
+      "numpages": "8",
+      "pages": "3389–3396",
+      "booktitle": "Proceedings of the 28th International Joint Conference on Artificial Intelligence",
+      "publisher": "AAAI Press",
+      "isbn": "9780999241141",
+      "year": "2019",
+      "title": "On the effectiveness of low frequency perturbations",
+      "author": "Sharma, Yash and Ding, Gavin Weiguang and Brubaker, Marcus A.",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "sharma2019effectivenesslowfrequencyperturbations"
+    },
+    {
+      "pages": "11964-11974",
+      "year": "2024",
+      "month": "June",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "title": "Edit{G}uard: Versatile Image Watermarking for Tamper Localization and Copyright Protection",
+      "author": "Zhang, Xuanyu and Li, Runyi and Yu, Jiwen and Xu, Youmin and Li, Weiqi and Zhang, Jian",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "Zhang_2024_CVPR"
+    },
+    {
+      "url": "https://openreview.net/forum?id=SyJ7ClWCb",
+      "year": "2018",
+      "booktitle": "International Conference on Learning Representations",
+      "author": "Chuan Guo and Mayank Rana and Moustapha Cisse and Laurens van der Maaten",
+      "title": "Countering Adversarial Images using Input Transformations",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "guo2018countering"
+    },
+    {
+      "url": "https://openreview.net/forum?id=BkJ3ibb0-",
+      "year": "2018",
+      "booktitle": "International Conference on Learning Representations",
+      "author": "Pouya Samangouei and Maya Kabkab and Rama Chellappa",
+      "title": "Defense-{GAN}: Protecting Classifiers Against Adversarial Attacks Using Generative Models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "samangouei2018defensegan"
+    },
+    {
+      "url": "https://proceedings.mlr.press/v80/athalye18a.html",
+      "pdf": "http://proceedings.mlr.press/v80/athalye18a/athalye18a.pdf",
+      "publisher": "PMLR",
+      "month": "10--15 Jul",
+      "series": "Proceedings of Machine Learning Research",
+      "volume": "80",
+      "editor": "Dy, Jennifer and Krause, Andreas",
+      "year": "2018",
+      "pages": "274--283",
+      "booktitle": "Proceedings of the 35th International Conference on Machine Learning",
+      "author": "Athalye, Anish and Carlini, Nicholas and Wagner, David",
+      "title": "Obfuscated Gradients Give a False Sense of Security: Circumventing Defenses to Adversarial Examples",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "pmlr-v80-athalye18a"
+    },
+    {
+      "year": "2023",
+      "pages": "134--144",
+      "booktitle": "Proceedings of the IEEE/CVF International Conference on Computer Vision",
+      "author": "Lee, Minjong and Kim, Dongwoo",
+      "title": "Robust evaluation of diffusion-based adversarial purification",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "lee2023robust"
+    },
+    {
+      "doi": "10.1109/CVPR.2009.5206848",
+      "keywords": "Large-scale systems;Image databases;Explosions;Internet;Robustness;Information retrieval;Image retrieval;Multimedia databases;Ontologies;Spine",
+      "pages": "248-255",
+      "number": "",
+      "volume": "",
+      "year": "2009",
+      "title": "Image{N}et: A large-scale hierarchical image database",
+      "booktitle": "2009 IEEE Conference on Computer Vision and Pattern Recognition",
+      "author": "Deng, Jia and Dong, Wei and Socher, Richard and Li, Li-Jia and Kai Li and Li Fei-Fei",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "5206848"
+    },
+    {
+      "year": "2017",
+      "volume": "30",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2017/file/8a1d694707eb0fefe65871369074926d-Paper.pdf",
+      "title": "GANs Trained by a Two Time-Scale Update Rule Converge to a Local Nash Equilibrium",
+      "publisher": "Curran Associates, Inc.",
+      "pages": "",
+      "editor": "I. Guyon and U. Von Luxburg and S. Bengio and H. Wallach and R. Fergus and S. Vishwanathan and R. Garnett",
+      "booktitle": "Advances in Neural Information Processing Systems",
+      "author": "Heusel, Martin and Ramsauer, Hubert and Unterthiner, Thomas and Nessler, Bernhard and Hochreiter, Sepp",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "NIPS2017_8a1d6947"
+    },
+    {
+      "publisher": "Optica Publishing Group",
+      "year": "1987",
+      "pages": "157--170",
+      "number": "1",
+      "volume": "26",
+      "journal": "Applied Optics",
+      "author": "Burton, Geoffrey J and Moorhead, Ian R",
+      "title": "Color and spatial structure in natural scenes",
+      "ENTRYTYPE": "article",
+      "ID": "burton1987color"
+    },
+    {
+      "year": "2023",
+      "pages": "10657--10677",
+      "volume": "36",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Cao, Bochuan and Li, Changjiang and Wang, Ting and Jia, Jinyuan and Li, Bo and Chen, Jinghui",
+      "title": "Impress: Evaluating the resilience of imperceptible perturbations against unauthorized data usage in diffusion-based generative {AI}",
+      "ENTRYTYPE": "article",
+      "ID": "cao2023impress"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2404.13320",
+      "author": "Xue, Haotian and Chen, Yongxin",
+      "title": "Pixel is a Barrier: Diffusion Models Are More Adversarially Robust Than We Think",
+      "ENTRYTYPE": "article",
+      "ID": "xue2024pixel"
+    },
+    {
+      "doi": "10.1109/TIP.2018.2866698",
+      "keywords": "Gallium nitride;Generators;Image generation;Image quality;Generative adversarial networks;Training;Image resolution;Generative adversarial networks;deep learning;image synthesis;artwork synthesis;ArtGAN",
+      "pages": "394-409",
+      "number": "1",
+      "volume": "28",
+      "year": "2019",
+      "title": "Improved ArtGAN for Conditional Synthesis of Natural Image and Artwork",
+      "journal": "IEEE Transactions on Image Processing",
+      "author": "Tan, Wei Ren and Chan, Chee Seng and Aguirre, Hernán E. and Tanaka, Kiyoshi",
+      "ENTRYTYPE": "article",
+      "ID": "8444471"
+    },
+    {
+      "organization": "Springer",
+      "year": "2012",
+      "pages": "679--692",
+      "booktitle": "Computer Vision--ECCV 2012: 12th European Conference on Computer Vision, Florence, Italy, October 7-13, 2012, Proceedings, Part III 12",
+      "author": "Le, Vuong and Brandt, Jonathan and Lin, Zhe and Bourdev, Lubomir and Huang, Thomas S",
+      "title": "Interactive facial feature localization",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "le2012interactive"
+    },
+    {
+      "year": "2024",
+      "booktitle": "Forty-first International Conference on Machine Learning",
+      "author": "Esser, Patrick and Kulal, Sumith and Blattmann, Andreas and Entezari, Rahim and M{\\\"u}ller, Jonas and Saini, Harry and Levi, Yam and Lorenz, Dominik and Sauer, Axel and Boesel, Frederic and others",
+      "title": "Scaling rectified flow transformers for high-resolution image synthesis",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "esser2024scaling"
+    },
+    {
+      "url": "https://arxiv.org/abs/2410.21276",
+      "primaryclass": "cs.CL",
+      "archiveprefix": "arXiv",
+      "eprint": "2410.21276",
+      "year": "2024",
+      "author": "OpenAI",
+      "title": "G{PT}-4o System Card",
+      "ENTRYTYPE": "misc",
+      "ID": "openai2024gpt4ocard"
+    },
+    {
+      "year": "2023",
+      "pages": "16425--16435",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Jeanneret, Guillaume and Simon, Lo{\\\"\\i}c and Jurie, Fr{\\'e}d{\\'e}ric",
+      "title": "Adversarial counterfactual visual explanations",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "jeanneret2023adversarialcounterfactualvisualexplanations"
+    },
+    {
+      "year": "2020",
+      "pages": "13896--13905",
+      "booktitle": "Proceedings of the IEEE/CVF conference on computer vision and pattern recognition",
+      "author": "Kim, Jaehyung and Jeong, Jongheon and Shin, Jinwoo",
+      "title": "M2m: Imbalanced classification via major-to-minor translation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "kim2020m2mimbalancedclassificationmajortominor"
+    },
+    {
+      "year": "2018",
+      "pages": "586--595",
+      "booktitle": "Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition",
+      "author": "Zhang, Richard and Isola, Phillip and Efros, Alexei A and Shechtman, Eli and Wang, Oliver",
+      "title": "The unreasonable effectiveness of deep features as a perceptual metric",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zhang2018perceptual"
+    },
+    {
+      "year": "2015",
+      "pages": "1--9",
+      "booktitle": "Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition",
+      "author": "Szegedy, Christian and Liu, Wei and Jia, Yangqing and Sermanet, Pierre and Reed, Scott and Anguelov, Dragomir and Erhan, Dumitru and Vanhoucke, Vincent and Rabinovich, Andrew",
+      "title": "Going deeper with convolutions",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "szegedy2015going"
+    },
+    {
+      "url": "https://api.semanticscholar.org/CorpusID:14124313",
+      "volume": "abs/1409.1556",
+      "year": "2014",
+      "journal": "CoRR",
+      "author": "Karen Simonyan and Andrew Zisserman",
+      "title": "Very Deep Convolutional Networks for Large-Scale Image Recognition",
+      "ENTRYTYPE": "article",
+      "ID": "Simonyan2014Very"
+    },
+    {
+      "pages": "1711–1724",
+      "year": "2020",
+      "author": "Mustafa, Aamir and Khan, Salman H. and Hayat, Munawar and Shen, Jianbing and Shao, Ling",
+      "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+      "journal": "IEEE Transactions on Image Processing",
+      "doi": "10.1109/tip.2019.2940533",
+      "url": "http://dx.doi.org/10.1109/TIP.2019.2940533",
+      "issn": "1941-0042",
+      "volume": "29",
+      "title": "Image Super-Resolution as a Defense Against Adversarial Attacks",
+      "ENTRYTYPE": "article",
+      "ID": "Mustafa_2020"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2410.05694",
+      "author": "Choi, June Suk and Lee, Kyungmin and Jeong, Jongheon and Xie, Saining and Shin, Jinwoo and Lee, Kimin",
+      "title": "Diffusion{G}uard: A Robust Defense Against Malicious Diffusion-based Image Editing",
+      "ENTRYTYPE": "article",
+      "ID": "choi2024diffusionguard"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2023",
+      "pages": "19730--19742",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Li, Junnan and Li, Dongxu and Savarese, Silvio and Hoi, Steven",
+      "title": "B{LIP}-2: Bootstrapping language-image pre-training with frozen image encoders and large language models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "li2023blip"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2211.01095",
+      "author": "Lu, Cheng and Zhou, Yuhao and Bao, Fan and Chen, Jianfei and Li, Chongxuan and Zhu, Jun",
+      "title": "D{PM}-{S}olver++: Fast solver for guided sampling of diffusion probabilistic models",
+      "ENTRYTYPE": "article",
+      "ID": "lu2022dpm"
+    },
+    {
+      "year": "2022",
+      "pages": "26565--26577",
+      "volume": "35",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Karras, Tero and Aittala, Miika and Aila, Timo and Laine, Samuli",
+      "title": "Elucidating the design space of diffusion-based generative models",
+      "ENTRYTYPE": "article",
+      "ID": "karras2022elucidating"
+    },
+    {
+      "url": "https://openreview.net/forum?id=4PJUBT9f2Ol",
+      "year": "2023",
+      "booktitle": "The Eleventh International Conference on Learning Representations ",
+      "author": "Severi Rissanen and Markus Heinonen and Arno Solin",
+      "title": "Generative Modelling with Inverse Heat Dissipation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "rissanen2023generative"
+    },
+    {
+      "year": "2023",
+      "booktitle": "Thirty-seventh Conference on Neural Information Processing Systems Datasets and Benchmarks Track",
+      "author": "Kai Zhang and Lingbo Mo and Wenhu Chen and Huan Sun and Yu Su",
+      "title": "MagicBrush: A Manually Annotated Dataset for Instruction-Guided Image Editing",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zhang2023magicbrush"
+    },
+    {
+      "url": "https://openreview.net/forum?id=JTwxylP6U9",
+      "year": "2023",
+      "booktitle": "Thirty-seventh Conference on Neural Information Processing Systems",
+      "author": "Haotian Xue and Alexandre Araujo and Bin Hu and Yongxin Chen",
+      "title": "Diffusion-Based Adversarial Sample Generation for Improved Stealthiness and Controllability",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "xue2023diffusionbased"
+    },
+    {
+      "doi": "10.1109/TPAMI.2024.3480519",
+      "keywords": "Diffusion models;Perturbation methods;Closed box;Noise reduction;Solid modeling;Image color analysis;Glass box;Semantics;Gaussian noise;Purification;Adversarial attack;diffusion model;imperceptible attack;transferable attack",
+      "pages": "961-977",
+      "number": "2",
+      "volume": "47",
+      "year": "2025",
+      "title": "Diffusion Models for Imperceptible and Transferable Adversarial Attack",
+      "journal": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+      "author": "Chen, Jianqi and Chen, Hao and Chen, Keyan and Zhang, Yilan and Zou, Zhengxia and Shi, Zhenwei",
+      "ENTRYTYPE": "article",
+      "ID": "10716799"
+    },
+    {
+      "journal": "arXiv preprint arXiv:2411.16832",
+      "author": "Hanhui Wang and Yihua Zhang and Ruizheng Bai and Yue Zhao and Sijia Liu and Zhengzhong Tu",
+      "title": "Edit Away and My Face Will not Stay: Personal Biometric Defense against Malicious Generative Editing",
+      "year": "2024",
+      "ENTRYTYPE": "article",
+      "ID": "wang2024editawayfacestay"
+    },
+    {
+      "url": "https://doi.org/10.48550/arXiv.2408.08518",
+      "volume": "abs/2408.08518",
+      "journal": "CoRR",
+      "cdate": "1704067200000",
+      "year": "2024",
+      "title": "Visual-Friendly Concept Protection via Selective Adversarial Perturbations",
+      "author": "Xiaoyue Mi and Fan Tang and Juan Cao and Peng Li and Yang Liu",
+      "publtype": "informal",
+      "ENTRYTYPE": "article",
+      "ID": "DBLP:journals/corr/abs-2408-08518"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2502.07225",
+      "author": "Peng, Sen and Wang, Mingyue and He, Jianfei and Yang, Jijia and Jia, Xiaohua",
+      "title": "CAT: Contrastive Adversarial Training for Evaluating the Robustness of Protective Perturbations in Latent Diffusion Models",
+      "ENTRYTYPE": "article",
+      "ID": "peng2025cat"
+    },
+    {
+      "url": "https://arxiv.org/abs/2412.11423",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "year": "2025",
+      "author": "Namhyuk Ahn and KiYoon Yoo and Wonhyuk Ahn and Daesik Kim and Seung-Hun Nam",
+      "title": "Nearly Zero-Cost Protection Against Mimicry by Personalized Diffusion Models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ahn2025nearlyzerocostprotectionmimicry"
+    },
+    {
+      "url": "https://arxiv.org/abs/1710.08092",
+      "booktitle": "Proceedings of the IEEE Conference on Automatic Face and Gesture Recognition",
+      "year": "2018",
+      "author": "Qiong Cao and Li Shen and Weidi Xie and Omkar M. Parkhi and Andrew Zisserman",
+      "title": "VGGFace2: A dataset for recognising faces across pose and age",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "cao2018vggface2datasetrecognisingfaces"
+    },
+    {
+      "organization": "Springer",
+      "year": "2024",
+      "pages": "126--142",
+      "booktitle": "European Conference on Computer Vision",
+      "author": "Chen, Ruoxi and Jin, Haibo and Liu, Yixin and Chen, Jinyin and Wang, Haohan and Sun, Lichao",
+      "title": "Editshield: Protecting unauthorized image editing by instruction-guided diffusion models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "chen2024editshield"
+    },
+    {
+      "year": "2020",
+      "pages": "2003--2011",
+      "booktitle": "Proceedings of the 28th ACM international conference on multimedia",
+      "author": "Chen, Renwang and Chen, Xuanhong and Ni, Bingbing and Ge, Yanhao",
+      "title": "Simswap: An efficient framework for high fidelity face swapping",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "chen2020simswap"
+    },
+    {
+      "url": "https://arxiv.org/abs/2506.15742",
+      "primaryclass": "cs.GR",
+      "archiveprefix": "arXiv",
+      "eprint": "2506.15742",
+      "year": "2025",
+      "author": "Black Forest Labs and Stephen Batifol and Andreas Blattmann and Frederic Boesel and Saksham Consul and Cyril Diagne and Tim Dockhorn and Jack English and Zion English and Patrick Esser and Sumith Kulal and Kyle Lacey and Yam Levi and Cheng Li and Dominik Lorenz and Jonas Müller and Dustin Podell and Robin Rombach and Harry Saini and Axel Sauer and Luke Smith",
+      "title": "FLUX.1 Kontext: Flow Matching for In-Context Image Generation and Editing in Latent Space",
+      "ENTRYTYPE": "misc",
+      "ID": "labs2025flux1kontextflowmatching"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "2000",
+      "pages": "505--510",
+      "number": "3",
+      "volume": "9",
+      "journal": "IEEE transactions on image processing",
+      "author": "Polesel, Andrea and Ramponi, Giovanni and Mathews, V John",
+      "title": "Image enhancement via adaptive unsharp masking",
+      "ENTRYTYPE": "article",
+      "ID": "polesel2000image"
+    },
+    {
+      "organization": "Springer",
+      "year": "2025",
+      "pages": "20--37",
+      "booktitle": "European Conference on Computer Vision",
+      "author": "Hu, Runyi and Zhang, Jie and Xu, Ting and Li, Jiwei and Zhang, Tianwei",
+      "title": "Robust-wide: Robust watermarking against instruction-driven image editing",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "hu2025robust"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2410.18775",
+      "author": "Lu, Shilin and Zhou, Zihan and Lu, Jiayou and Zhu, Yuanzhi and Kong, Adams Wai-Kin",
+      "title": "Robust watermarking using generative priors against image editing: From benchmarking to advances",
+      "ENTRYTYPE": "article",
+      "ID": "lu2024robust"
+    }
+  ]
+}

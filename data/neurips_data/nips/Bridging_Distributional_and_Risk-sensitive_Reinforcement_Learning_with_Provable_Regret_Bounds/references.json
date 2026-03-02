@@ -1,0 +1,735 @@
+{
+  "pdf_url": "https://arxiv.org/pdf/2210.14051v3.pdf",
+  "references": [
+    {
+      "publisher": "MIT press",
+      "year": "2018",
+      "author": "Sutton, Richard S and Barto, Andrew G",
+      "title": "Reinforcement learning: An introduction",
+      "ENTRYTYPE": "book",
+      "ID": "sutton2018reinforcement"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2017",
+      "pages": "449--458",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Bellemare, Marc G and Dabney, Will and Munos, R{\\'e}mi",
+      "title": "A distributional perspective on reinforcement learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "bellemare2017distributional"
+    },
+    {
+      "year": "2020",
+      "journal": "arXiv preprint arXiv:2004.14547",
+      "author": "Ma, Xiaoteng and Xia, Li and Zhou, Zhengyuan and Yang, Jun and Zhao, Qianchuan",
+      "title": "DSAC: Distributional Soft Actor Critic for Risk-Sensitive Reinforcement Learning",
+      "ENTRYTYPE": "article",
+      "ID": "ma2020dsac"
+    },
+    {
+      "publisher": "INFORMS",
+      "year": "2014",
+      "pages": "105--120",
+      "number": "1",
+      "volume": "39",
+      "journal": "Mathematics of Operations Research",
+      "author": "B{\\\"a}uerle, Nicole and Rieder, Ulrich",
+      "title": "More risk-sensitive Markov decision processes",
+      "ENTRYTYPE": "article",
+      "ID": "bauerle2014more"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "2001",
+      "pages": "339--346",
+      "number": "5",
+      "volume": "44",
+      "journal": "Systems \\& Control Letters",
+      "author": "Borkar, Vivek S",
+      "title": "A sensitivity formula for risk-sensitive cost and the actor--critic algorithm",
+      "ENTRYTYPE": "article",
+      "ID": "borkar2001sensitivity"
+    },
+    {
+      "publisher": "INFORMS",
+      "year": "2002",
+      "pages": "294--311",
+      "number": "2",
+      "volume": "27",
+      "journal": "Mathematics of operations research",
+      "author": "Borkar, Vivek S",
+      "title": "Q-learning for risk-sensitive control",
+      "ENTRYTYPE": "article",
+      "ID": "borkar2002q"
+    },
+    {
+      "year": "2010",
+      "number": "9",
+      "volume": "5",
+      "booktitle": "Proceedings of the 19th International Symposium on Mathematical Theory of Networks and Systems--MTNS",
+      "author": "Borkar, Vivek S",
+      "title": "Learning algorithms for risk-sensitive control",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "borkar2010learning"
+    },
+    {
+      "publisher": "INFORMS",
+      "year": "2002",
+      "pages": "192--209",
+      "number": "1",
+      "volume": "27",
+      "journal": "Mathematics of Operations Research",
+      "author": "Borkar, Vivek S and Meyn, Sean P",
+      "title": "Risk-sensitive optimal control for Markov decision processes with monotone cost",
+      "ENTRYTYPE": "article",
+      "ID": "borkar2002risk"
+    },
+    {
+      "publisher": "INFORMS",
+      "year": "2011",
+      "pages": "133--146",
+      "number": "1",
+      "volume": "36",
+      "journal": "Mathematics of Operations Research",
+      "author": "Cavazos-Cadena, Rolando and Hern{\\'a}ndez-Hern{\\'a}ndez, Daniel",
+      "title": "Discounted approximations for risk-sensitive average criteria in Markov decision chains with finite state space",
+      "ENTRYTYPE": "article",
+      "ID": "cavazos2011discounted"
+    },
+    {
+      "publisher": "Springer",
+      "year": "1999",
+      "pages": "21--40",
+      "booktitle": "Stochastic analysis, control, optimization and applications",
+      "author": "Coraluppi, Stefano P and Marcus, Steven I",
+      "title": "Risk-sensitive, minimax, and mixed risk-neutral/minimax control of Markov decision processes",
+      "ENTRYTYPE": "incollection",
+      "ID": "coraluppi1999risk"
+    },
+    {
+      "publisher": "SIAM",
+      "year": "1999",
+      "pages": "61--78",
+      "number": "1",
+      "volume": "38",
+      "journal": "SIAM Journal on Control and Optimization",
+      "author": "Di Masi, Giovanni B and Stettner, Lukasz",
+      "title": "Risk-sensitive control of discrete-time Markov processes with infinite horizon",
+      "ENTRYTYPE": "article",
+      "ID": "di1999risk"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "2000",
+      "pages": "15--20",
+      "number": "1",
+      "volume": "40",
+      "journal": "Systems \\& control letters",
+      "author": "Di Masi, Giovanni B and others",
+      "title": "Infinite horizon risk sensitive control of discrete time Markov processes with small risk",
+      "ENTRYTYPE": "article",
+      "ID": "di2000infinite"
+    },
+    {
+      "publisher": "SIAM",
+      "year": "2007",
+      "pages": "231--252",
+      "number": "1",
+      "volume": "46",
+      "journal": "SIAM Journal on Control and Optimization",
+      "author": "Di Masi, Giovanni B and Stettner, {\\L}ukasz",
+      "title": "Infinite horizon risk sensitive control of discrete time Markov processes under minorization property",
+      "ENTRYTYPE": "article",
+      "ID": "di2007infinite"
+    },
+    {
+      "publisher": "SIAM",
+      "year": "1995",
+      "pages": "1881--1915",
+      "number": "6",
+      "volume": "33",
+      "journal": "SIAM Journal on Control and Optimization",
+      "author": "Fleming, Wendell H and McEneaney, William M",
+      "title": "Risk-sensitive control on an infinite time horizon",
+      "ENTRYTYPE": "article",
+      "ID": "fleming1995risk"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "1996",
+      "pages": "147--155",
+      "number": "3",
+      "volume": "29",
+      "journal": "Systems \\& control letters",
+      "author": "Hern{\\'a}ndez-Hern{\\'a}ndez, Daniel and Marcus, Steven I",
+      "title": "Risk sensitive control of Markov processes in countable state space",
+      "ENTRYTYPE": "article",
+      "ID": "hernandez1996risk"
+    },
+    {
+      "publisher": "Institute of Mathematical Statistics",
+      "year": "2007",
+      "pages": "654--675",
+      "number": "2",
+      "volume": "17",
+      "journal": "The annals of applied probability",
+      "author": "Ja{\\'s}kiewicz, Anna",
+      "title": "Average optimality for risk-sensitive control with general state space",
+      "ENTRYTYPE": "article",
+      "ID": "jaskiewicz2007average"
+    },
+    {
+      "publisher": "Springer",
+      "year": "1997",
+      "pages": "263--279",
+      "booktitle": "Systems and control in the twenty-first century",
+      "author": "Marcus, Steven I and Fern{\\'a}ndez-Gaucherand, Emmanual and Hern{\\'a}ndez-Hernandez, Daniel and Coraluppi, Stefano and Fard, Pedram",
+      "title": "Risk sensitive Markov decision processes",
+      "ENTRYTYPE": "incollection",
+      "ID": "marcus1997risk"
+    },
+    {
+      "publisher": "Springer",
+      "year": "2002",
+      "pages": "267--290",
+      "number": "2",
+      "volume": "49",
+      "journal": "Machine learning",
+      "author": "Mihatsch, Oliver and Neuneier, Ralph",
+      "title": "Risk-sensitive reinforcement learning",
+      "ENTRYTYPE": "article",
+      "ID": "mihatsch2002risk"
+    },
+    {
+      "publisher": "Citeseer",
+      "year": "2012",
+      "pages": "233--241",
+      "volume": "25",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Osogami, Takayuki",
+      "title": "Robustness and risk-sensitivity in Markov decision processes",
+      "ENTRYTYPE": "article",
+      "ID": "osogami2012robustness"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "2001",
+      "pages": "1379--1386",
+      "number": "9",
+      "volume": "37",
+      "journal": "Automatica",
+      "author": "Patek, Stephen D",
+      "title": "On terminating Markov decision processes with a risk-averse objective function",
+      "ENTRYTYPE": "article",
+      "ID": "patek2001terminating"
+    },
+    {
+      "publisher": "SIAM",
+      "year": "2013",
+      "pages": "3652--3672",
+      "number": "5",
+      "volume": "51",
+      "journal": "SIAM Journal on Control and Optimization",
+      "author": "Shen, Yun and Stannat, Wilhelm and Obermayer, Klaus",
+      "title": "Risk-sensitive Markov control processes",
+      "ENTRYTYPE": "article",
+      "ID": "shen2013risk"
+    },
+    {
+      "publisher": "MIT Press",
+      "year": "2014",
+      "pages": "1298--1328",
+      "number": "7",
+      "volume": "26",
+      "journal": "Neural computation",
+      "author": "Shen, Yun and Tobia, Michael J and Sommer, Tobias and Obermayer, Klaus",
+      "title": "Risk-sensitive reinforcement learning",
+      "ENTRYTYPE": "article",
+      "ID": "shen2014risk"
+    },
+    {
+      "publisher": "INFORMS",
+      "year": "1972",
+      "pages": "356--369",
+      "number": "7",
+      "volume": "18",
+      "journal": "Management science",
+      "author": "Howard, Ronald A and Matheson, James E",
+      "title": "Risk-sensitive Markov decision processes",
+      "ENTRYTYPE": "article",
+      "ID": "howard1972risk"
+    },
+    {
+      "year": "2020",
+      "pages": "4436--4443",
+      "number": "04",
+      "volume": "34",
+      "booktitle": "Proceedings of the AAAI Conference on Artificial Intelligence",
+      "author": "Keramati, Ramtin and Dann, Christoph and Tamkin, Alex and Brunskill, Emma",
+      "title": "Being optimistic to be conservative: Quickly learning a cvar policy",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "keramati2020being"
+    },
+    {
+      "publisher": "Athena scientific Belmont",
+      "year": "2000",
+      "author": "Bertsekas, Dimitri P and others",
+      "title": "Dynamic programming and optimal control: Vol. 1",
+      "ENTRYTYPE": "book",
+      "ID": "bertsekas2000dynamic"
+    },
+    {
+      "year": "2020",
+      "journal": "arXiv preprint arXiv:2006.13827",
+      "author": "Fei, Yingjie and Yang, Zhuoran and Chen, Yudong and Wang, Zhaoran and Xie, Qiaomin",
+      "title": "Risk-sensitive reinforcement learning: Near-optimal risk-sample tradeoff in regret",
+      "ENTRYTYPE": "article",
+      "ID": "fei2020risk"
+    },
+    {
+      "publisher": "Taylor \\& Francis",
+      "year": "2021",
+      "pages": "1--13",
+      "journal": "Journal of the American Statistical Association",
+      "author": "Kock, Anders Bredahl and Preinerstorfer, David and Veliyev, Bezirgen",
+      "title": "Functional sequential treatment allocation",
+      "ENTRYTYPE": "article",
+      "ID": "kock2021functional"
+    },
+    {
+      "publisher": "Taylor \\& Francis",
+      "year": "2008",
+      "pages": "415--426",
+      "number": "4",
+      "volume": "8",
+      "journal": "Quantitative Finance",
+      "author": "Davis, Mark and Lleo, S{\\'e}bastien",
+      "title": "Risk-sensitive benchmarked asset management",
+      "ENTRYTYPE": "article",
+      "ID": "davis2008risk"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "2000",
+      "pages": "1145--1177",
+      "number": "8",
+      "volume": "24",
+      "journal": "Journal of Economic Dynamics and Control",
+      "author": "Bielecki, Tomasz R and Pliska, Stanley R and Sherris, Michael",
+      "title": "Risk sensitive asset allocation",
+      "ENTRYTYPE": "article",
+      "ID": "bielecki2000risk"
+    },
+    {
+      "publisher": "INFORMS",
+      "year": "2010",
+      "pages": "203--213",
+      "number": "1",
+      "volume": "58",
+      "journal": "Operations research",
+      "author": "Delage, Erick and Mannor, Shie",
+      "title": "Percentile optimization for Markov decision processes with parameter uncertainty",
+      "ENTRYTYPE": "article",
+      "ID": "delage2010percentile"
+    },
+    {
+      "organization": "IEEE",
+      "year": "2006",
+      "pages": "667--672",
+      "booktitle": "Proceedings of the 45th IEEE Conference on Decision and Control",
+      "author": "Ernst, Damien and Stan, Guy-Bart and Goncalves, Jorge and Wehenkel, Louis",
+      "title": "Clinical data based optimal STI strategies for HIV: a reinforcement learning approach",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ernst2006clinical"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2018",
+      "pages": "1096--1105",
+      "booktitle": "International conference on machine learning",
+      "author": "Dabney, Will and Ostrovski, Georg and Silver, David and Munos, R{\\'e}mi",
+      "title": "Implicit quantile networks for distributional reinforcement learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "dabney2018implicit"
+    },
+    {
+      "year": "2018",
+      "booktitle": "Thirty-Second AAAI Conference on Artificial Intelligence",
+      "author": "Dabney, Will and Rowland, Mark and Bellemare, Marc G and Munos, R{\\'e}mi",
+      "title": "Distributional reinforcement learning with quantile regression",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "dabney2018distributional"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2020",
+      "pages": "958--968",
+      "booktitle": "Learning for Dynamics and Control",
+      "author": "Singh, Rahul and Zhang, Qinsheng and Chen, Yongxin",
+      "title": "Improving robustness via risk averse distributional reinforcement learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "singh2020improving"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2021",
+      "pages": "578--598",
+      "booktitle": "Algorithmic Learning Theory",
+      "author": "Domingues, Omar Darwiche and M{\\'e}nard, Pierre and Kaufmann, Emilie and Valko, Michal",
+      "title": "Episodic reinforcement learning in finite mdps: Minimax lower bounds revisited",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "domingues2021episodic"
+    },
+    {
+      "publisher": "CRC Press",
+      "year": "2018",
+      "author": "Dudley, Richard M",
+      "title": "Real analysis and probability",
+      "ENTRYTYPE": "book",
+      "ID": "dudley2018real"
+    },
+    {
+      "publisher": "INFORMS",
+      "year": "2019",
+      "pages": "377--399",
+      "number": "2",
+      "volume": "44",
+      "journal": "Mathematics of Operations Research",
+      "author": "Garivier, Aur{\\'e}lien and M{\\'e}nard, Pierre and Stoltz, Gilles",
+      "title": "Explore first, exploit next: The true shape of regret in bandit problems",
+      "ENTRYTYPE": "article",
+      "ID": "garivier2019explore"
+    },
+    {
+      "year": "2021",
+      "volume": "34",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Ma, Yecheng and Jayaraman, Dinesh and Bastani, Osbert",
+      "title": "Conservative offline distributional reinforcement learning",
+      "ENTRYTYPE": "article",
+      "ID": "ma2021conservative"
+    },
+    {
+      "year": "2021",
+      "journal": "arXiv preprint arXiv:2112.15430",
+      "author": "Achab, Mastane and Neu, Gergely",
+      "title": "Robustness and risk management via distributional dynamic programming",
+      "ENTRYTYPE": "article",
+      "ID": "achab2021robustness"
+    },
+    {
+      "year": "2021",
+      "volume": "34",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Fei, Yingjie and Yang, Zhuoran and Chen, Yudong and Wang, Zhaoran",
+      "title": "Exponential Bellman Equation and Improved Regret Bounds for Risk-Sensitive Reinforcement Learning",
+      "ENTRYTYPE": "article",
+      "ID": "fei2021exponential"
+    },
+    {
+      "publisher": "de Gruyter",
+      "year": "2016",
+      "booktitle": "Stochastic Finance",
+      "author": "F{\\\"o}llmer, Hans and Schied, Alexander",
+      "title": "Stochastic finance",
+      "ENTRYTYPE": "incollection",
+      "ID": "follmer2016stochastic"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2018",
+      "pages": "29--37",
+      "booktitle": "International Conference on Artificial Intelligence and Statistics",
+      "author": "Rowland, Mark and Bellemare, Marc and Dabney, Will and Munos, R{\\'e}mi and Teh, Yee Whye",
+      "title": "An analysis of categorical distributional reinforcement learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "rowland2018analysis"
+    },
+    {
+      "year": "2003",
+      "journal": "Hewlett-Packard Labs, Tech. Rep",
+      "author": "Weissman, Tsachy and Ordentlich, Erik and Seroussi, Gadiel and Verdu, Sergio and Weinberger, Marcelo J",
+      "title": "Inequalities for the L1 deviation of the empirical distribution",
+      "ENTRYTYPE": "article",
+      "ID": "weissman2003inequalities"
+    },
+    {
+      "publisher": "SIAM",
+      "year": "2021",
+      "author": "Shapiro, Alexander and Dentcheva, Darinka and Ruszczynski, Andrzej",
+      "title": "Lectures on stochastic programming: modeling and theory",
+      "ENTRYTYPE": "book",
+      "ID": "shapiro2021lectures"
+    },
+    {
+      "organization": "IEEE",
+      "year": "2019",
+      "pages": "1101--1106",
+      "booktitle": "2019 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
+      "author": "Nass, David and Belousov, Boris and Peters, Jan",
+      "title": "Entropic risk measure in policy search",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "nass2019entropic"
+    },
+    {
+      "publisher": "Princeton university press",
+      "year": "2011",
+      "booktitle": "Robustness",
+      "author": "Hansen, Lars Peter and Sargent, Thomas J",
+      "title": "Robustness",
+      "ENTRYTYPE": "incollection",
+      "ID": "hansen2011robustness"
+    },
+    {
+      "year": "2018",
+      "journal": "arXiv preprint arXiv:1804.08617",
+      "author": "Barth-Maron, Gabriel and Hoffman, Matthew W and Budden, David and Dabney, Will and Horgan, Dan and Tb, Dhruva and Muldal, Alistair and Heess, Nicolas and Lillicrap, Timothy",
+      "title": "Distributed distributional deterministic policy gradients",
+      "ENTRYTYPE": "article",
+      "ID": "barth2018distributed"
+    },
+    {
+      "year": "2019",
+      "pages": "4504--4511",
+      "number": "01",
+      "volume": "33",
+      "booktitle": "Proceedings of the AAAI Conference on Artificial Intelligence",
+      "author": "Lyle, Clare and Bellemare, Marc G and Castro, Pablo Samuel",
+      "title": "A comparative analysis of expected and distributional reinforcement learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "lyle2019comparative"
+    },
+    {
+      "year": "2019",
+      "volume": "32",
+      "journal": "Advances in neural information processing systems",
+      "author": "Yang, Derek and Zhao, Li and Lin, Zichuan and Qin, Tao and Bian, Jiang and Liu, Tie-Yan",
+      "title": "Fully parameterized quantile function for distributional reinforcement learning",
+      "ENTRYTYPE": "article",
+      "ID": "yang2019fully"
+    },
+    {
+      "year": "2021",
+      "pages": "1519--1529",
+      "volume": "34",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Zhang, Pushi and Chen, Xiaoyu and Zhao, Li and Xiong, Wei and Qin, Tao and Liu, Tie-Yan",
+      "title": "Distributional Reinforcement Learning for Multi-Dimensional Reward Functions",
+      "ENTRYTYPE": "article",
+      "ID": "zhang2021distributional"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2020",
+      "pages": "551--560",
+      "booktitle": "International conference on machine learning",
+      "author": "Bai, Yu and Jin, Chi",
+      "title": "Provable self-play algorithms for competitive reinforcement learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "bai2020provable"
+    },
+    {
+      "year": "2019",
+      "booktitle": "NeurIPS 2019 Workshop on Safety and Robustness on Decision Making",
+      "author": "Tamkin, Alex and Keramati, Ramtin and Dann, Christoph and Brunskill, Emma",
+      "title": "Distributionally-aware exploration for cvar bandits",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "tamkin2019distributionally"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2021",
+      "pages": "716--726",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Baudry, Dorian and Gautron, Romain and Kaufmann, Emilie and Maillard, Odalric",
+      "title": "Optimal thompson sampling strategies for support-aware cvar bandits",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "baudry2021optimal"
+    },
+    {
+      "year": "2022",
+      "pages": "6159--6166",
+      "number": "6",
+      "volume": "36",
+      "booktitle": "Proceedings of the AAAI Conference on Artificial Intelligence",
+      "author": "Chang, Joel QL and Tan, Vincent YF",
+      "title": "A unifying theory of thompson sampling for continuous risk-averse bandits",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "chang2022unifying"
+    },
+    {
+      "publisher": "Taylor \\& Francis",
+      "year": "2022",
+      "pages": "1311--1323",
+      "number": "539",
+      "volume": "117",
+      "journal": "Journal of the American Statistical Association",
+      "author": "Kock, Anders Bredahl and Preinerstorfer, David and Veliyev, Bezirgen",
+      "title": "Functional sequential treatment allocation",
+      "ENTRYTYPE": "article",
+      "ID": "kock2022functional"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "2016",
+      "pages": "1093--1111",
+      "number": "6",
+      "volume": "10",
+      "journal": "IEEE Journal of Selected Topics in Signal Processing",
+      "author": "Vakili, Sattar and Zhao, Qing",
+      "title": "Risk-averse multi-armed bandit problems under mean-variance measure",
+      "ENTRYTYPE": "article",
+      "ID": "vakili2016risk"
+    },
+    {
+      "year": "2022",
+      "pages": "36259--36269",
+      "volume": "35",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Bastani, Osbert and Ma, Jason Yecheng and Shen, Estelle and Xu, Wanqiao",
+      "title": "Regret bounds for risk-sensitive reinforcement learning",
+      "ENTRYTYPE": "article",
+      "ID": "bastani2022regret"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2302.03201",
+      "author": "Wang, Kaiwen and Kallus, Nathan and Sun, Wen",
+      "title": "Near-Minimax-Optimal Risk-Sensitive Reinforcement Learning with CVaR",
+      "ENTRYTYPE": "article",
+      "ID": "wang2023near"
+    },
+    {
+      "year": "2023",
+      "booktitle": "Thirty-seventh Conference on Neural Information Processing Systems",
+      "author": "Marthe, Alexandre and Garivier, Aur{\\'e}lien and Vernade, Claire",
+      "title": "Beyond Average Return in Markov Decision Processes",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "marthe2023beyond"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2021",
+      "pages": "3198--3207",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Fei, Yingjie and Yang, Zhuoran and Wang, Zhaoran",
+      "title": "Risk-sensitive reinforcement learning with function approximation: A debiasing approach",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "fei2021risk"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2020",
+      "pages": "2137--2143",
+      "booktitle": "Conference on Learning Theory",
+      "author": "Jin, Chi and Yang, Zhuoran and Wang, Zhaoran and Jordan, Michael I",
+      "title": "Provably efficient reinforcement learning with linear function approximation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "jin2020provably"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2020",
+      "pages": "463--474",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Ayoub, Alex and Jia, Zeyu and Szepesvari, Csaba and Wang, Mengdi and Yang, Lin",
+      "title": "Model-based reinforcement learning with value-targeted regression",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ayoub2020model"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2306.10694",
+      "author": "Li, Yunfan and Yang, Lin",
+      "title": "Least Square Value Iteration is Robust Under Locally Bounded Misspecification Error",
+      "ENTRYTYPE": "article",
+      "ID": "li2023least"
+    },
+    {
+      "publisher": "Springer",
+      "year": "2010",
+      "pages": "235--261",
+      "volume": "125",
+      "journal": "Mathematical programming",
+      "author": "Ruszczy{\\'n}ski, Andrzej",
+      "title": "Risk-averse dynamic programming for Markov decision processes",
+      "ENTRYTYPE": "article",
+      "ID": "ruszczynski2010risk"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2306.02399",
+      "author": "Liang, Hao and Luo, Zhi-quan",
+      "title": "Regret bounds for risk-sensitive reinforcement learning with lipschitz dynamic risk measures",
+      "ENTRYTYPE": "article",
+      "ID": "liang2023regret"
+    },
+    {
+      "publisher": "Springer",
+      "year": "2009",
+      "pages": "189--210",
+      "volume": "2",
+      "journal": "Mathematics and Financial Economics",
+      "author": "Kupper, Michael and Schachermayer, Walter",
+      "title": "Representation results for law invariant time consistent functions",
+      "ENTRYTYPE": "article",
+      "ID": "kupper2009representation"
+    },
+    {
+      "publisher": "Princeton university press",
+      "year": "1947",
+      "author": "Von Neumann, John and Morgenstern, Oskar",
+      "title": "Theory of games and economic behavior, 2nd rev",
+      "ENTRYTYPE": "article",
+      "ID": "von1947theory"
+    },
+    {
+      "publisher": "SIAM",
+      "year": "2013",
+      "pages": "381--405",
+      "number": "1",
+      "volume": "23",
+      "journal": "SIAM Journal on Optimization",
+      "author": "Dentcheva, Darinka and Ruszczynski, Andrzej",
+      "title": "Common mathematical foundations of expected utility and dual utility theories",
+      "ENTRYTYPE": "article",
+      "ID": "dentcheva2013common"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2017",
+      "pages": "263--272",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Azar, Mohammad Gheshlaghi and Osband, Ian and Munos, R{\\'e}mi",
+      "title": "Minimax regret bounds for reinforcement learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "azar2017minimax"
+    },
+    {
+      "year": "2022",
+      "booktitle": "The Eleventh International Conference on Learning Representations",
+      "author": "Du, Yihan and Wang, Siwei and Huang, Longbo",
+      "title": "Provably efficient risk-sensitive reinforcement learning: Iterated cvar and worst path",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "du2022provably"
+    },
+    {
+      "year": "2023",
+      "note": "\\url{http://www.distributional-rl.org}",
+      "publisher": "MIT Press",
+      "author": "Marc G. Bellemare and Will Dabney and Mark Rowland",
+      "title": "Distributional Reinforcement Learning",
+      "ENTRYTYPE": "book",
+      "ID": "bdr2023"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2306.07059",
+      "author": "Liang, Hao and Luo, Zhi-quan",
+      "title": "A Distribution Optimization Framework for Confidence Bounds of Risk Measures",
+      "ENTRYTYPE": "article",
+      "ID": "liang2023distribution"
+    }
+  ]
+}

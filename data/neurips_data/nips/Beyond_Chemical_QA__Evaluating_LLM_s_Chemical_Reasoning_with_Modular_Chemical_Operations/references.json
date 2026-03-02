@@ -1,0 +1,798 @@
+{
+  "pdf_url": "https://arxiv.org/pdf/2505.21318v3.pdf",
+  "references": [
+    {
+      "organization": "Springer",
+      "year": "2024",
+      "pages": "258--274",
+      "booktitle": "European Conference on Computer Vision",
+      "author": "Li, Hao and Jia, Yanhao and Jin, Peng and Cheng, Zesen and Li, Kehan and Sui, Jialu and Liu, Chang and Yuan, Li",
+      "title": "Freestyleret: retrieving images from style-diversified queries",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "li2024freestyleret"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2403.08192",
+      "author": "Lu, Xingyu and Cao, He and Liu, Zijing and Bai, Shengyuan and Chen, Leqing and Yao, Yuan and Zheng, Hai-Tao and Li, Yu",
+      "title": "Moleculeqa: A dataset to evaluate factual accuracy in molecular comprehension",
+      "ENTRYTYPE": "article",
+      "ID": "lu2024moleculeqa"
+    },
+    {
+      "year": "2024",
+      "pages": "134721--134746",
+      "volume": "37",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Guo, Kehan and Nan, Bozhao and Zhou, Yujun and Guo, Taicheng and Guo, Zhichun and Surve, Mihir and Liang, Zhenwen and Chawla, Nitesh and Wiest, Olaf and Zhang, Xiangliang",
+      "title": "Can llms solve molecule puzzles? a multimodal benchmark for molecular structure elucidation",
+      "ENTRYTYPE": "article",
+      "ID": "guo2024can"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2402.06852",
+      "author": "Zhang, Di and Liu, Wei and Tan, Qian and Chen, Jingdan and Yan, Hang and Yan, Yuliang and Li, Jiatong and Huang, Weiran and Yue, Xiangyu and Ouyang, Wanli and others",
+      "title": "Chemllm: A chemical large language model",
+      "ENTRYTYPE": "article",
+      "ID": "zhang2024chemllm"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2406.11802",
+      "author": "Meng, Fanqing and Shao, Wenqi and Luo, Lixin and Wang, Yahong and Chen, Yiran and Lu, Quanfeng and Yang, Yue and Yang, Tianshuo and Zhang, Kaipeng and Qiao, Yu and others",
+      "title": "Phybench: A physical commonsense benchmark for evaluating text-to-image models",
+      "ENTRYTYPE": "article",
+      "ID": "meng2024phybench"
+    },
+    {
+      "year": "2021",
+      "journal": "arXiv preprint arXiv:2103.03874",
+      "author": "Hendrycks, Dan and Burns, Collin and Kadavath, Saurav and Arora, Akul and Basart, Steven and Tang, Eric and Song, Dawn and Steinhardt, Jacob",
+      "title": "Measuring mathematical problem solving with the math dataset",
+      "ENTRYTYPE": "article",
+      "ID": "hendrycks2021measuring"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2412.15115",
+      "author": "Yang, An and Yang, Baosong and Zhang, Beichen and Hui, Binyuan and Zheng, Bo and Yu, Bowen and Li, Chengyuan and Liu, Dayiheng and Huang, Fei and Wei, Haoran and others",
+      "title": "Qwen2.5 technical report",
+      "ENTRYTYPE": "article",
+      "ID": "yang2024qwen2"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2501.12948",
+      "author": "Guo, Daya and Yang, Dejian and Zhang, Haowei and Song, Junxiao and Zhang, Ruoyu and Xu, Runxin and Zhu, Qihao and Ma, Shirong and Wang, Peiyi and Bi, Xiao and others",
+      "title": "{Deepseek-R1}: Incentivizing reasoning capability in {LLMs} via reinforcement learning",
+      "ENTRYTYPE": "article",
+      "ID": "guo2025deepseek"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv",
+      "author": "Albert, Q Jiang and Sablayrolles, Alexandre and Mensch, Arthur and Bamford, Chris and Chaplot, Devendra Singh",
+      "title": "Mistral 7B",
+      "ENTRYTYPE": "article",
+      "ID": "albert2023mistral"
+    },
+    {
+      "year": "2022",
+      "pages": "24824--24837",
+      "volume": "35",
+      "journal": "Advances in neural information processing systems",
+      "author": "Wei, Jason and Wang, Xuezhi and Schuurmans, Dale and Bosma, Maarten and Xia, Fei and Chi, Ed and Le, Quoc V and Zhou, Denny and others",
+      "title": "Chain-of-thought prompting elicits reasoning in large language models",
+      "ENTRYTYPE": "article",
+      "ID": "wei2022chain"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2410.21276",
+      "author": "Hurst, Aaron and Lerer, Adam and Goucher, Adam P and Perelman, Adam and Ramesh, Aditya and Clark, Aidan and Ostrow, AJ and Welihinda, Akila and Hayes, Alan and Radford, Alec and others",
+      "title": "{GPT-4o} system card",
+      "ENTRYTYPE": "article",
+      "ID": "hurst2024gpt4o"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2412.19437",
+      "author": "Liu, Aixin and Feng, Bei and Xue, Bing and Wang, Bingxuan and Wu, Bochao and Lu, Chengda and Zhao, Chenggang and Deng, Chengqi and Zhang, Chenyu and Ruan, Chong and others",
+      "title": "{Deepseek-V3} technical report",
+      "ENTRYTYPE": "article",
+      "ID": "liu2024deepseek"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2312.11805",
+      "author": "Team, Gemini and Anil, Rohan and Borgeaud, Sebastian and Alayrac, Jean-Baptiste and Yu, Jiahui and Soricut, Radu and Schalkwyk, Johan and Dai, Andrew M and Hauth, Anja and Millican, Katie and others",
+      "title": "Gemini: a family of highly capable multimodal models",
+      "ENTRYTYPE": "article",
+      "ID": "team2023gemini"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2304.05376",
+      "author": "Bran, Andres M and Cox, Sam and Schilter, Oliver and Baldassari, Carlo and White, Andrew D and Schwaller, Philippe",
+      "title": "Chemcrow: Augmenting large-language models with chemistry tools",
+      "ENTRYTYPE": "article",
+      "ID": "bran2023chemcrow"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2023",
+      "pages": "6140--6157",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Christofidellis, Dimitrios and Giannone, Giorgio and Born, Jannis and Winther, Ole and Laino, Teodoro and Manica, Matteo",
+      "title": "Unifying molecular and textual representations via multi-task language modelling",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "christofidellis2023unifying"
+    },
+    {
+      "publisher": "Royal Society of Chemistry",
+      "year": "2024",
+      "pages": "8380--8389",
+      "number": "22",
+      "volume": "15",
+      "journal": "Chemical Science",
+      "author": "Livne, Micha and Miftahutdinov, Zulfat and Tutubalina, Elena and Kuznetsov, Maksim and Polykovskiy, Daniil and Brundyn, Annika and Jhunjhunwala, Aastha and Costa, Anthony and Aliper, Alex and Aspuru-Guzik, Al{\\'a}n and others",
+      "title": "nach0: multimodal natural and chemical languages foundation model",
+      "ENTRYTYPE": "article",
+      "ID": "livne2024nach0"
+    },
+    {
+      "year": "2021",
+      "journal": "arXiv preprint arXiv:2110.14168",
+      "author": "Cobbe, Karl and Kosaraju, Vineet and Bavarian, Mohammad and Chen, Mark and Jun, Heewoo and Kaiser, Lukasz and Plappert, Matthias and Tworek, Jerry and Hilton, Jacob and Nakano, Reiichiro and others",
+      "title": "Training verifiers to solve math word problems",
+      "ENTRYTYPE": "article",
+      "ID": "cobbe2021training"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2407.21783",
+      "author": "Grattafiori, Aaron and Dubey, Abhimanyu and Jauhri, Abhinav and Pandey, Abhinav and Kadian, Abhishek and Al-Dahle, Ahmad and Letman, Aiesha and Mathur, Akhil and Schelten, Alan and Vaughan, Alex and others",
+      "title": "The llama 3 herd of models",
+      "ENTRYTYPE": "article",
+      "ID": "grattafiori2024llama3"
+    },
+    {
+      "year": "2023",
+      "pages": "1102--1123",
+      "booktitle": "Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing",
+      "author": "Pei, Qizhi and Zhang, Wei and Zhu, Jinhua and Wu, Kehan and Gao, Kaiyuan and Wu, Lijun and Xia, Yingce and Yan, Rui",
+      "title": "{BioT5}: Enriching Cross-modal Integration in Biology with Chemical Knowledge and Natural Language Associations",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "pei2023biot5"
+    },
+    {
+      "year": "2022",
+      "pages": "375--413",
+      "booktitle": "Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing",
+      "author": "Edwards, Carl and Lai, Tuan and Ros, Kevin and Honke, Garrett and Cho, Kyunghyun and Ji, Heng",
+      "title": "Translation between Molecules and Natural Language",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "edwards2022molt5"
+    },
+    {
+      "year": "2025",
+      "booktitle": "The Thirteenth International Conference on Learning Representations",
+      "author": "Qizhi Pei and Rui Yan and Kaiyuan Gao and Jinhua Zhu and Lijun Wu",
+      "title": "{3D-MolT5}: Leveraging Discrete Structural Information for Molecule-Text Modeling",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "pei20253dmolt5"
+    },
+    {
+      "publisher": "Nature Publishing Group UK London",
+      "year": "2023",
+      "pages": "1447--1457",
+      "number": "12",
+      "volume": "5",
+      "journal": "Nature Machine Intelligence",
+      "author": "Liu, Shengchao and Nie, Weili and Wang, Chengpeng and Lu, Jiarui and Qiao, Zhuoran and Liu, Ling and Tang, Jian and Xiao, Chaowei and Anandkumar, Animashree",
+      "title": "Multi-modal molecule structure--text model for text-based retrieval and editing",
+      "ENTRYTYPE": "article",
+      "ID": "liu2023moleculestm"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2308.09442",
+      "author": "Luo, Yizhen and Zhang, Jiahuan and Fan, Siqi and Yang, Kai and Wu, Yushuai and Qiao, Mu and Nie, Zaiqing",
+      "title": "{BioMedGPT}: Open multimodal generative pre-trained transformer for biomedicine",
+      "ENTRYTYPE": "article",
+      "ID": "luo2023biomedgpt"
+    },
+    {
+      "year": "2024",
+      "booktitle": "62th Annual Meeting of the Association for Computational Linguistics (ACL'24)",
+      "author": "Labrak, Yanis and Bazoge, Adrien and Morin, Emmanuel and Gourraud, Pierre-antoine and Rouvier, Micka{\\\"e}l and Dufour, Richard",
+      "title": "{BioMistral}: A Collection of Open-Source Pretrained Large Language Models for Medical Domains",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "labrak2024biomistral"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2504.06196",
+      "author": "Wang, Eric and Schmidgall, Samuel and Jaeger, Paul F and Zhang, Fan and Pilgrim, Rory and Matias, Yossi and Barral, Joelle and Fleet, David and Azizi, Shekoofeh",
+      "title": "{TxGemma}: Efficient and Agentic LLMs for Therapeutics",
+      "ENTRYTYPE": "article",
+      "ID": "wang2025txgemma"
+    },
+    {
+      "doi": "10.1021/acs.jcim.5b00543",
+      "year": "2015",
+      "pages": "2111-2120",
+      "number": "10",
+      "volume": "55",
+      "journal": "Journal of Chemical Information and Modeling",
+      "title": "Get Your Atoms in Order—An Open-Source Implementation of a Novel and Robust Molecular Canonicalization Algorithm",
+      "author": "Schneider, Nadine and Sayle, Roger A. and Landrum, Gregory A.",
+      "ENTRYTYPE": "article",
+      "ID": "Morgan"
+    },
+    {
+      "doi": "10.1021/ci010132r",
+      "year": "2002",
+      "pages": "1273-1280",
+      "number": "6",
+      "volume": "42",
+      "journal": "Journal of Chemical Information and Computer Sciences",
+      "title": "Reoptimization of {MDL} Keys for Use in Drug Discovery",
+      "author": "Durant, Joseph L. and Leland, Burton A. and Henry, Douglas R. and Nourse, James G.",
+      "ENTRYTYPE": "article",
+      "ID": "MACCS"
+    },
+    {
+      "doi": "10.5281/zenodo.11396708",
+      "year": "2024",
+      "month": "May",
+      "title": "{RDK}it: Open-Source Cheminformatics and Machine Learning",
+      "author": "Greg Landrum and Paolo Tosco and Brian Kelley and Ricardo Rodriguez and David Cosgrove and Riccardo Vianello andSriniker and Gedeck and Gareth Jones and Nadine Schneider and Eisuke Kawashima and Dan Nealschneider and Andrew Dalke and Matt Swain and Brian Cole and Samo Turk and Aleksandr Savelev and Alain Vaucher and Maciej Wójcikowski and Ichiru Take and Vincent F. Scalfani and Rachel Walker and Kazuya Ujihara and Daniel Probst and Guillaume Godin and Axel Pahl and Tadhurst-cdd and Juuso Lehtivarjo and Francois Berenger and Jason D Biggs",
+      "ENTRYTYPE": "misc",
+      "ID": "RDKit"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2404.01475",
+      "author": "Mirza, Adrian and Alampara, Nawaf and Kunchapu, Sreekanth and R{\\'\\i}os-Garc{\\'\\i}a, Marti{\\~n}o and Emoekabu, Benedict and Krishnan, Aswanth and Gupta, Tanya and Schilling-Wilhelmi, Mara and Okereke, Macjonathan and Aneesh, Anagha and others",
+      "title": "Are large language models superhuman chemists?",
+      "ENTRYTYPE": "article",
+      "ID": "mirza2024large"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2502.12659",
+      "author": "Zhou, Kaiwen and Liu, Chengzhi and Zhao, Xuandong and Jangam, Shreedhar and Srinivasa, Jayanth and Liu, Gaowen and Song, Dawn and Wang, Xin Eric",
+      "title": "The hidden risks of large reasoning models: A safety assessment of r1",
+      "ENTRYTYPE": "article",
+      "ID": "zhou2025hidden"
+    },
+    {
+      "year": "2024",
+      "volume": "3",
+      "journal": "arXiv preprint arXiv:2401.08967",
+      "author": "Luong, Trung Quoc and Zhang, Xinbo and Jie, Zhanming and Sun, Peng and Jin, Xiaoran and Li, Hang",
+      "title": "Reft: Reasoning with reinforced fine-tuning",
+      "ENTRYTYPE": "article",
+      "ID": "luong2024reft"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2402.03300",
+      "author": "Shao, Zhihong and Wang, Peiyi and Zhu, Qihao and Xu, Runxin and Song, Junxiao and Bi, Xiao and Zhang, Haowei and Zhang, Mingchuan and Li, YK and Wu, Y and others",
+      "title": "Deepseekmath: Pushing the limits of mathematical reasoning in open language models",
+      "ENTRYTYPE": "article",
+      "ID": "shao2024deepseekmath"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2312.08935",
+      "author": "Wang, Peiyi and Li, Lei and Shao, Zhihong and Xu, RX and Dai, Damai and Li, Yifei and Chen, Deli and Wu, Yu and Sui, Zhifang",
+      "title": "Math-shepherd: Verify and reinforce llms step-by-step without human annotations",
+      "ENTRYTYPE": "article",
+      "ID": "wang2023math"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2505.00949",
+      "author": "Bercovich, Akhiad and Levy, Itay and Golan, Izik and Dabbah, Mohammad and El-Yaniv, Ran and Puny, Omri and Galil, Ido and Moshe, Zach and Ronen, Tomer and Nabwani, Najeeb and others",
+      "title": "Llama-Nemotron: Efficient Reasoning Models",
+      "ENTRYTYPE": "article",
+      "ID": "bercovich2025llama"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2505.02214",
+      "author": "Zheng, Xingyu and Li, Yuye and Chu, Haoran and Feng, Yue and Ma, Xudong and Luo, Jie and Guo, Jinyang and Qin, Haotong and Magno, Michele and Liu, Xianglong",
+      "title": "An Empirical Study of Qwen3 Quantization",
+      "ENTRYTYPE": "article",
+      "ID": "zheng2025empirical"
+    },
+    {
+      "publisher": "Oxford University Press",
+      "year": "2016",
+      "pages": "D1202--D1213",
+      "number": "D1",
+      "volume": "44",
+      "journal": "Nucleic acids research",
+      "author": "Kim, Sunghwan and Thiessen, Paul A and Bolton, Evan E and Chen, Jie and Fu, Gang and Gindulyte, Asta and Han, Lianyi and He, Jane and He, Siqian and Shoemaker, Benjamin A and others",
+      "title": "PubChem substance and compound databases",
+      "ENTRYTYPE": "article",
+      "ID": "kim2016pubchem"
+    },
+    {
+      "publisher": "Oxford University Press",
+      "year": "2017",
+      "pages": "D945--D954",
+      "number": "D1",
+      "volume": "45",
+      "journal": "Nucleic acids research",
+      "author": "Gaulton, Anna and Hersey, Anne and Nowotka, Micha{\\l} and Bento, A Patricia and Chambers, Jon and Mendez, David and Mutowo, Prudence and Atkinson, Francis and Bellis, Louisa J and Cibri{\\'a}n-Uhalte, Elena and others",
+      "title": "The ChEMBL database in 2017",
+      "ENTRYTYPE": "article",
+      "ID": "gaulton2017chembl"
+    },
+    {
+      "publisher": "ACS Publications",
+      "year": "2012",
+      "pages": "1757--1768",
+      "number": "7",
+      "volume": "52",
+      "journal": "Journal of chemical information and modeling",
+      "author": "Irwin, John J and Sterling, Teague and Mysinger, Michael M and Bolstad, Erin S and Coleman, Ryan G",
+      "title": "ZINC: a free tool to discover chemistry for biology",
+      "ENTRYTYPE": "article",
+      "ID": "irwin2012zinc"
+    },
+    {
+      "publisher": "Springer",
+      "year": "2021",
+      "pages": "1--17",
+      "volume": "13",
+      "journal": "Journal of cheminformatics",
+      "author": "He, Jiazhen and You, Huifang and Sandstr{\\\"o}m, Emil and Nittinger, Eva and Bjerrum, Esben Jannik and Tyrchan, Christian and Czechtizky, Werngard and Engkvist, Ola",
+      "title": "Molecular optimization by capturing chemist’s intuition using deep neural networks",
+      "ENTRYTYPE": "article",
+      "ID": "he2021molecular"
+    },
+    {
+      "publisher": "Springer",
+      "year": "2004",
+      "pages": "325--354",
+      "volume": "6",
+      "journal": "Journal of nanoparticle Research",
+      "author": "Huang, Zan and Chen, Hsinchun and Chen, Zhi-Kai and Roco, Mihail C",
+      "title": "International nanotechnology development in 2003: Country, institution, and technology field analysis based on USPTO patent database",
+      "ENTRYTYPE": "article",
+      "ID": "huang2004international"
+    },
+    {
+      "url": "https://qwenlm.github.io/blog/qwen-72b/",
+      "author": "Qwen Team",
+      "title": "QwQ: A Large-Scale Multilingual Language Model",
+      "ENTRYTYPE": "misc",
+      "ID": "qwq"
+    },
+    {
+      "url": "https://openai.com/index/openai-o1-mini-advancing-cost-efficient-reasoning/",
+      "author": "OpenAI Team",
+      "title": "O1-Mini: advancing cost-efficient reasoning",
+      "ENTRYTYPE": "misc",
+      "ID": "o1mini"
+    },
+    {
+      "url": "https://openai.com/index/openai-o3-mini/",
+      "author": "OpenAI Team",
+      "title": "OpenAI o3-mini",
+      "ENTRYTYPE": "misc",
+      "ID": "o3mini"
+    },
+    {
+      "url": "https://blog.google/technology/google-deepmind/gemini-model-thinking-updates-march-2025/",
+      "author": "DeepMind Team",
+      "title": "Gemini 2.5 Pro Preview: even better coding performance",
+      "ENTRYTYPE": "misc",
+      "ID": "gemini"
+    },
+    {
+      "url": "https://www.anthropic.com/news/claude-3-7-sonnet",
+      "author": "Anthropic Team",
+      "title": "Claude-3.7-Sonnet: Hybrid reasoning model",
+      "ENTRYTYPE": "misc",
+      "ID": "claude"
+    },
+    {
+      "url": "https://qwenlm.github.io/blog/qwen3",
+      "author": "Qwen Team",
+      "title": "Qwen3: Think Deeper, Act Faster",
+      "ENTRYTYPE": "misc",
+      "ID": "qwen3"
+    },
+    {
+      "url": "https://www.nvidia.com/en-sg/ai-data-science/foundation-models/llama-nemotron",
+      "author": "Nvidia",
+      "title": "NVIDIA Llama Nemotron",
+      "ENTRYTYPE": "misc",
+      "ID": "llama-nemo"
+    },
+    {
+      "url": "https://arxiv.org/abs/2408.00118",
+      "primaryclass": "cs.CL",
+      "archiveprefix": "arXiv",
+      "eprint": "2408.00118",
+      "year": "2024",
+      "author": "Gemma Team",
+      "title": "Gemma 2: Improving Open Language Models at a Practical Size",
+      "ENTRYTYPE": "misc",
+      "ID": "gemma2"
+    },
+    {
+      "url": "https://arxiv.org/abs/2412.08905",
+      "primaryclass": "cs.CL",
+      "archiveprefix": "arXiv",
+      "eprint": "2412.08905",
+      "year": "2024",
+      "author": "Marah Abdin and Jyoti Aneja and Harkirat Behl and Sébastien Bubeck and Ronen Eldan and Suriya Gunasekar and Michael Harrison and Russell J. Hewett and Mojan Javaheripi and Piero Kauffmann and James R. Lee and Yin Tat Lee and Yuanzhi Li and Weishung Liu and Caio C. T. Mendes and Anh Nguyen and Eric Price and Gustavo de Rosa and Olli Saarikivi and Adil Salim and Shital Shah and Xin Wang and Rachel Ward and Yue Wu and Dingli Yu and Cyril Zhang and Yi Zhang",
+      "title": "Phi-4 Technical Report",
+      "ENTRYTYPE": "misc",
+      "ID": "phi-4"
+    },
+    {
+      "url": "https://arxiv.org/abs/2501.00656",
+      "primaryclass": "cs.CL",
+      "archiveprefix": "arXiv",
+      "eprint": "2501.00656",
+      "year": "2025",
+      "author": "Team OLMo",
+      "title": "2 OLMo 2 Furious",
+      "ENTRYTYPE": "misc",
+      "ID": "olmo2"
+    },
+    {
+      "publisher": "macmillan",
+      "year": "2011",
+      "author": "Kahneman, Daniel",
+      "title": "Thinking, fast and slow",
+      "ENTRYTYPE": "book",
+      "ID": "kahneman2011thinking"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2402.03300",
+      "author": "Shao, Zhihong and Wang, Peiyi and Zhu, Qihao and Xu, Runxin and Song, Junxiao and Bi, Xiao and Zhang, Haowei and Zhang, Mingchuan and Li, YK and Wu, Y and others",
+      "title": "Deepseekmath: Pushing the limits of mathematical reasoning in open language models",
+      "ENTRYTYPE": "article",
+      "ID": "deepseekmath"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2409.12122",
+      "author": "Yang, An and Zhang, Beichen and Hui, Binyuan and Gao, Bofei and Yu, Bowen and Li, Chengpeng and Liu, Dayiheng and Tu, Jianhong and Zhou, Jingren and Lin, Junyang and others",
+      "title": "Qwen2.5-math technical report: Toward mathematical expert model via self-improvement",
+      "ENTRYTYPE": "article",
+      "ID": "qwen25math"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2409.12186",
+      "author": "Hui, Binyuan and Yang, Jian and Cui, Zeyu and Yang, Jiaxi and Liu, Dayiheng and Zhang, Lei and Liu, Tianyu and Zhang, Jiajun and Yu, Bowen and Lu, Keming and others",
+      "title": "Qwen2. 5-coder technical report",
+      "ENTRYTYPE": "article",
+      "ID": "qwen25code"
+    },
+    {
+      "url": "https://arxiv.org/abs/2401.14196",
+      "primaryclass": "cs.SE",
+      "archiveprefix": "arXiv",
+      "eprint": "2401.14196",
+      "year": "2024",
+      "author": "Daya Guo and Qihao Zhu and Dejian Yang and Zhenda Xie and Kai Dong and Wentao Zhang and Guanting Chen and Xiao Bi and Y. Wu and Y. K. Li and Fuli Luo and Yingfei Xiong and Wenfeng Liang",
+      "title": "DeepSeek-Coder: When the Large Language Model Meets Programming -- The Rise of Code Intelligence",
+      "ENTRYTYPE": "misc",
+      "ID": "deepseekcoder"
+    },
+    {
+      "url": "https://arxiv.org/abs/2406.11409",
+      "primaryclass": "cs.CL",
+      "archiveprefix": "arXiv",
+      "eprint": "2406.11409",
+      "year": "2024",
+      "author": "CodeGemma Team and Heri Zhao and Jeffrey Hui and Joshua Howland and Nam Nguyen and Siqi Zuo and Andrea Hu and Christopher A. Choquette-Choo and Jingyue Shen and Joe Kelley and Kshitij Bansal and Luke Vilnis and Mateo Wirth and Paul Michel and Peter Choy and Pratik Joshi and Ravin Kumar and Sarmad Hashmi and Shubham Agrawal and Zhitao Gong and Jane Fine and Tris Warkentin and Ale Jakse Hartman and Bin Ni and Kathy Korevec and Kelly Schaefer and Scott Huffman",
+      "title": "CodeGemma: Open Code Models Based on Gemma",
+      "ENTRYTYPE": "misc",
+      "ID": "codegemma"
+    },
+    {
+      "year": "2024",
+      "pages": "19209--19253",
+      "volume": "37",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Huang, Zhen and Wang, Zengzhi and Xia, Shijie and Li, Xuefeng and Zou, Haoyang and Xu, Ruijie and Fan, Run-Ze and Ye, Lyumanshan and Chern, Ethan and Ye, Yixin and others",
+      "title": "Olympicarena: Benchmarking multi-discipline cognitive reasoning for superintelligent ai",
+      "ENTRYTYPE": "article",
+      "ID": "olympicarena"
+    },
+    {
+      "publisher": "Nature Publishing Group UK London",
+      "year": "2024",
+      "pages": "476--482",
+      "number": "7995",
+      "volume": "625",
+      "journal": "Nature",
+      "author": "Trinh, Trieu H and Wu, Yuhuai and Le, Quoc V and He, He and Luong, Thang",
+      "title": "Solving olympiad geometry without human demonstrations",
+      "ENTRYTYPE": "article",
+      "ID": "trinh2024solving"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2402.14008",
+      "author": "He, Chaoqun and Luo, Renjie and Bai, Yuzhuo and Hu, Shengding and Thai, Zhen Leng and Shen, Junhao and Hu, Jinyi and Han, Xu and Huang, Yujie and Zhang, Yuxiang and others",
+      "title": "Olympiadbench: A challenging benchmark for promoting agi with olympiad-level bilingual multimodal scientific problems",
+      "ENTRYTYPE": "article",
+      "ID": "he2024olympiadbench"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2412.14642",
+      "author": "Li, Jiatong and Li, Junxian and Liu, Yunqing and Zhou, Dongzhan and Li, Qing",
+      "title": "TOMG-Bench: Evaluating LLMs on Text-based Open Molecule Generation",
+      "ENTRYTYPE": "article",
+      "ID": "TOMG-Bench"
+    },
+    {
+      "year": "2023",
+      "pages": "59662--59688",
+      "volume": "36",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Guo, Taicheng and Nan, Bozhao and Liang, Zhenwen and Guo, Zhichun and Chawla, Nitesh and Wiest, Olaf and Zhang, Xiangliang and others",
+      "title": "What can large language models do in chemistry? a comprehensive benchmark on eight tasks",
+      "ENTRYTYPE": "article",
+      "ID": "chemllmbench"
+    },
+    {
+      "publisher": "Elsevier",
+      "url": "https://www.elsevier.com/products/reaxys",
+      "year": "2024",
+      "title": "Reaxys",
+      "author": "{Elsevier}",
+      "ENTRYTYPE": "misc",
+      "ID": "Reaxys"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2503.19633",
+      "author": "Zhao, Han and Wang, Haotian and Peng, Yiping and Zhao, Sitong and Tian, Xiaoyu and Chen, Shuaiting and Ji, Yunjie and Li, Xiangang",
+      "title": "1.4 Million Open-Source Distilled Reasoning Dataset to Empower Large Language Model Training",
+      "ENTRYTYPE": "article",
+      "ID": "zhao20251"
+    },
+    {
+      "url": "https://www.nextmovesoftware.com/pistachio.html",
+      "year": "2017",
+      "journal": "ACS Fall 2017",
+      "title": "Pistachio - Search and Faceting of Large Reaction Databases",
+      "author": "Mayfield, J. and Lowe, D. and Sayle, R.",
+      "ENTRYTYPE": "article",
+      "ID": "Pistachio"
+    },
+    {
+      "publisher": "Wiley Online Library",
+      "year": "2024",
+      "pages": "e202411296",
+      "number": "43",
+      "volume": "63",
+      "journal": "Angewandte Chemie International Edition",
+      "author": "Joung, Joonyoung F and Fong, Mun Hong and Roh, Jihye and Tu, Zhengkai and Bradshaw, John and Coley, Connor W",
+      "title": "Reproducing Reaction Mechanisms with Machine-Learning Models Trained on a Large-Scale Mechanistic Dataset",
+      "ENTRYTYPE": "article",
+      "ID": "joung2024reproducing"
+    },
+    {
+      "url": "https://arxiv.org/abs/2410.05610",
+      "primaryclass": "cs.LG",
+      "archiveprefix": "arXiv",
+      "eprint": "2410.05610",
+      "year": "2024",
+      "author": "Yunhui Jang and Jaehyung Kim and Sungsoo Ahn",
+      "title": "Chain-of-Thoughts for Molecular Understanding",
+      "ENTRYTYPE": "misc",
+      "ID": "jang2024chainofthoughtsmolecularunderstanding"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2501.06590",
+      "author": "Tang, Xiangru and Hu, Tianyu and Ye, Muyang and Shao, Yanjun and Yin, Xunjian and Ouyang, Siru and Zhou, Wangchunshu and Lu, Pan and Zhang, Zhuosheng and Zhao, Yilun and others",
+      "title": "ChemAgent: Self-updating Library in Large Language Models Improves Chemical Reasoning",
+      "ENTRYTYPE": "article",
+      "ID": "chemagent"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2311.09656",
+      "author": "Ouyang, Siru and Zhang, Zhuosheng and Yan, Bing and Liu, Xuan and Choi, Yejin and Han, Jiawei and Qin, Lianhui",
+      "title": "Structured chemistry reasoning with large language models",
+      "ENTRYTYPE": "article",
+      "ID": "ouyang2023structured"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2503.08537",
+      "author": "Bran, Andres M and Neukomm, Theo A and Armstrong, Daniel P and Jon{\\v{c}}ev, Zlatko and Schwaller, Philippe",
+      "title": "Chemical reasoning in LLMs unlocks steerable synthesis planning and reaction mechanism elucidation",
+      "ENTRYTYPE": "article",
+      "ID": "bran2025chemical"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2307.10635",
+      "author": "Wang, Xiaoxuan and Hu, Ziniu and Lu, Pan and Zhu, Yanqiao and Zhang, Jieyu and Subramaniam, Satyen and Loomba, Arjun R and Zhang, Shichang and Sun, Yizhou and Wang, Wei",
+      "title": "Scibench: Evaluating college-level scientific problem-solving abilities of large language models",
+      "ENTRYTYPE": "article",
+      "ID": "scibench"
+    },
+    {
+      "year": "2024",
+      "pages": "19053--19061",
+      "volume": "38",
+      "booktitle": "Proceedings of the AAAI Conference on Artificial Intelligence",
+      "author": "Sun, Liangtai and Han, Yang and Zhao, Zihan and Ma, Da and Shen, Zhennan and Chen, Baocai and Chen, Lu and Yu, Kai",
+      "title": "Scieval: A multi-level large language model evaluation benchmark for scientific research",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "scieval"
+    },
+    {
+      "year": "2022",
+      "pages": "2507--2521",
+      "volume": "35",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Lu, Pan and Mishra, Swaroop and Xia, Tanglin and Qiu, Liang and Chang, Kai-Wei and Zhu, Song-Chun and Tafjord, Oyvind and Clark, Peter and Kalyan, Ashwin",
+      "title": "Learn to explain: Multimodal reasoning via thought chains for science question answering",
+      "ENTRYTYPE": "article",
+      "ID": "scienceQA"
+    },
+    {
+      "pages": "1465 - 1476",
+      "volume": "4",
+      "year": "2018",
+      "journal": "ACS Central Science",
+      "author": "Hanyu Gao and Thomas J. Struble and Connor W. Coley and Yuran Wang and William H. Green and Klavs F. Jensen",
+      "title": "Using Machine Learning To Predict Suitable Conditions for Organic Reactions",
+      "ENTRYTYPE": "article",
+      "ID": "Gao2018UsingML"
+    },
+    {
+      "year": "2012",
+      "school": "University of Cambridge",
+      "author": "Lowe, Daniel Mark",
+      "title": "Extraction of chemical structures and reactions from the literature",
+      "ENTRYTYPE": "phdthesis",
+      "ID": "lowe2012extraction"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2502.12979",
+      "author": "Joung, Joonyoung F and Fong, Mun Hong and Casetti, Nicholas and Liles, Jordan P and Dassanayake, Ne S and Coley, Connor W",
+      "title": "Electron flow matching for generative reaction mechanism prediction obeying conservation laws",
+      "ENTRYTYPE": "article",
+      "ID": "joung2025electron"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2503.01785",
+      "author": "Liu, Ziyu and Sun, Zeyi and Zang, Yuhang and Dong, Xiaoyi and Cao, Yuhang and Duan, Haodong and Lin, Dahua and Wang, Jiaqi",
+      "title": "Visual-rft: Visual reinforcement fine-tuning",
+      "ENTRYTYPE": "article",
+      "ID": "liu2025visual"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2503.06749",
+      "author": "Huang, Wenxuan and Jia, Bohan and Zhai, Zijie and Cao, Shaosheng and Ye, Zheyu and Zhao, Fei and Xu, Zhe and Hu, Yao and Lin, Shaohui",
+      "title": "Vision-r1: Incentivizing reasoning capability in multimodal large language models",
+      "ENTRYTYPE": "article",
+      "ID": "huang2025vision"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2504.07615",
+      "author": "Shen, Haozhan and Liu, Peng and Li, Jingcheng and Fang, Chunxin and Ma, Yibo and Liao, Jiajia and Shen, Qiaoli and Zhang, Zilun and Zhao, Kangjia and Zhang, Qianqian and others",
+      "title": "Vlm-r1: A stable and generalizable r1-style large vision-language model",
+      "ENTRYTYPE": "article",
+      "ID": "shen2025vlm"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2405.20224",
+      "author": "Yu, Wangbo and Feng, Chaoran and Tang, Jiye and Jia, Xu and Yuan, Li and Tian, Yonghong",
+      "title": "EvaGaussians: Event Stream Assisted Gaussian Splatting from Blurry Images",
+      "ENTRYTYPE": "article",
+      "ID": "yu2024evagaussians"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2501.02807",
+      "author": "Feng, Chaoran and Yu, Wangbo and Cheng, Xinhua and Tang, Zhenyu and Zhang, Junwu and Yuan, Li and Tian, Yonghong",
+      "title": "AE-NeRF: Augmenting Event-Based Neural Radiance Fields for Non-ideal Conditions and Larger Scene",
+      "ENTRYTYPE": "article",
+      "ID": "feng2025ae-nerf"
+    },
+    {
+      "organization": "Springer",
+      "year": "2025",
+      "pages": "303--320",
+      "booktitle": "European Conference on Computer Vision",
+      "author": "Zhang, Junwu and Tang, Zhenyu and Pang, Yatian and Cheng, Xinhua and Jin, Peng and Wei, Yida and Zhou, Xing and Ning, Munan and Yuan, Li",
+      "title": "Repaint123: Fast and High-Quality One Image to 3D Generation with Progressive Controllable Repainting",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zhang2025repaint123"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2407.19548",
+      "author": "Tang, Zhenyu and Zhang, Junwu and Cheng, Xinhua and Yu, Wangbo and Feng, Chaoran and Pang, Yatian and Lin, Bin and Yuan, Li",
+      "title": "Cycle3D: High-quality and Consistent Image-to-3D Generation via Generation-Reconstruction Cycle",
+      "ENTRYTYPE": "article",
+      "ID": "tang2024cycle3d"
+    },
+    {
+      "publisher": "Nature Publishing Group US New York",
+      "year": "2025",
+      "pages": "1--11",
+      "journal": "Nature Computational Science",
+      "author": "Li, Hao and Long, Da and Yuan, Li and Wang, Yu and Tian, Yonghong and Wang, Xinchang and Mo, Fanyang",
+      "title": "Decoupled peak property learning for efficient and interpretable electronic circular dichroism spectrum prediction",
+      "ENTRYTYPE": "article",
+      "ID": "li2025decoupled"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2412.20888",
+      "author": "Lv, Liuzhenghao and Li, Hao and Wang, Yu and Yan, Zhiyuan and Chen, Zijun and Lin, Zongying and Yuan, Li and Tian, Yonghong",
+      "title": "Navigating chemical-linguistic sharing space with heterogeneous molecular encoding",
+      "ENTRYTYPE": "article",
+      "ID": "lv2024navigating"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2411.10440",
+      "author": "Xu, Guowei and Jin, Peng and Hao, Li and Song, Yibing and Sun, Lichao and Yuan, Li",
+      "title": "Llava-o1: Let vision language models reason step-by-step",
+      "ENTRYTYPE": "article",
+      "ID": "xu2024llava"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2509.09666",
+      "author": "Yan, Zhiyuan and Lin, Kaiqing and Li, Zongjian and Ye, Junyan and Han, Hui and Wang, Zhendong and Liu, Hao and Lin, Bin and Li, Hao and Xu, Xue and others",
+      "title": "Can Understanding and Generation Truly Benefit Together--or Just Coexist?",
+      "ENTRYTYPE": "article",
+      "ID": "yan2025can"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2406.00515",
+      "author": "Jiang, Juyong and Wang, Fan and Shen, Jiasi and Kim, Sungju and Kim, Sunghun",
+      "title": "A survey on large language models for code generation",
+      "ENTRYTYPE": "article",
+      "ID": "jiang2024survey"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2505.15287",
+      "author": "Li*, Yuchen and Feng*, Chaoran and Tang, Zhenyu and Deng, Kaiyuan and Yu, Wangbo and Tian, Yonghong and Yuan, Li",
+      "title": "GS2E: Gaussian Splatting is an Effective Data Generator for Event Stream Generation",
+      "ENTRYTYPE": "article",
+      "ID": "li2025gs2e"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2501.19393",
+      "author": "Muennighoff, Niklas and Yang, Zitong and Shi, Weijia and Li, Xiang Lisa and Fei-Fei, Li and Hajishirzi, Hannaneh and Zettlemoyer, Luke and Liang, Percy and Cand{\\`e}s, Emmanuel and Hashimoto, Tatsunori",
+      "title": "s1: Simple test-time scaling",
+      "ENTRYTYPE": "article",
+      "ID": "muennighoff2025s1"
+    }
+  ]
+}

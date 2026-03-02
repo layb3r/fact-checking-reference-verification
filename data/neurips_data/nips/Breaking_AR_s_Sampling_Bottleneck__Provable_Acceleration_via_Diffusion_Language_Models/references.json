@@ -1,0 +1,1720 @@
+{
+  "pdf_url": "https://arxiv.org/pdf/2505.21400v2.pdf",
+  "references": [
+    {
+      "year": "2023",
+      "pages": "606--624",
+      "volume": "5",
+      "journal": "Proceedings of machine learning and systems",
+      "author": "Pope, Reiner and Douglas, Sholto and Chowdhery, Aakanksha and Devlin, Jacob and Bradbury, James and Heek, Jonathan and Xiao, Kefan and Agrawal, Shivani and Dean, Jeff",
+      "title": "Efficiently scaling transformer inference",
+      "ENTRYTYPE": "article",
+      "ID": "pope2023efficiently"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2410.21035",
+      "author": "Deschenaux, Justin and Gulcehre, Caglar",
+      "title": "Beyond autoregression: Fast llms via self-distillation through time",
+      "ENTRYTYPE": "article",
+      "ID": "deschenaux2024beyond"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2410.08709",
+      "author": "Hayakawa, Satoshi and Takida, Yuhta and Imaizumi, Masaaki and Wakaki, Hiromi and Mitsufuji, Yuki",
+      "title": "Distillation of discrete diffusion through dimensional correlations",
+      "ENTRYTYPE": "article",
+      "ID": "hayakawa2024distillation"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2308.12219",
+      "author": "Ye, Jiasheng and Zheng, Zaixiang and Bao, Yu and Qian, Lihua and Gu, Quanquan",
+      "title": "Diffusion language models can perform many tasks with scaling and instruction-finetuning",
+      "ENTRYTYPE": "article",
+      "ID": "ye2023diffusion"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2309.12288",
+      "author": "Berglund, Lukas and Tong, Meg and Kaufmann, Max and Balesni, Mikita and Stickland, Asa Cooper and Korbak, Tomasz and Evans, Owain",
+      "title": "The Reversal Curse: LLMs trained on\" A is B\" fail to learn\" B is A\"",
+      "ENTRYTYPE": "article",
+      "ID": "berglund2023reversal"
+    },
+    {
+      "year": "1992",
+      "pages": "467--480",
+      "number": "4",
+      "volume": "18",
+      "journal": "Computational linguistics",
+      "author": "Brown, Peter F and Della Pietra, Vincent J and Desouza, Peter V and Lai, Jennifer C and Mercer, Robert L",
+      "title": "Class-based n-gram models of natural language",
+      "ENTRYTYPE": "article",
+      "ID": "brown1992class"
+    },
+    {
+      "year": "2019",
+      "pages": "9",
+      "number": "8",
+      "volume": "1",
+      "journal": "OpenAI blog",
+      "author": "Radford, Alec and Wu, Jeffrey and Child, Rewon and Luan, David and Amodei, Dario and Sutskever, Ilya and others",
+      "title": "Language models are unsupervised multitask learners",
+      "ENTRYTYPE": "article",
+      "ID": "radford2019language"
+    },
+    {
+      "publisher": "San Francisco, CA, USA",
+      "year": "2018",
+      "author": "Radford, Alec and Narasimhan, Karthik and Salimans, Tim and Sutskever, Ilya and others",
+      "title": "Improving language understanding by generative pre-training",
+      "ENTRYTYPE": "article",
+      "ID": "radford2018improving"
+    },
+    {
+      "year": "2020",
+      "pages": "1877--1901",
+      "volume": "33",
+      "journal": "Advances in neural information processing systems",
+      "author": "Brown, Tom and Mann, Benjamin and Ryder, Nick and Subbiah, Melanie and Kaplan, Jared D and Dhariwal, Prafulla and Neelakantan, Arvind and Shyam, Pranav and Sastry, Girish and Askell, Amanda and others",
+      "title": "Language models are few-shot learners",
+      "ENTRYTYPE": "article",
+      "ID": "brown2020language"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2506.13759",
+      "author": "Yu, Runpeng and Li, Qi and Wang, Xinchao",
+      "title": "Discrete Diffusion in Large Language and Multimodal Models: A Survey",
+      "ENTRYTYPE": "article",
+      "ID": "yu2025discrete"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2308.03686",
+      "author": "Benton, Joe and De Bortoli, Valentin and Doucet, Arnaud and Deligiannidis, George",
+      "title": "Nearly $ d $-linear convergence bounds for diffusion models via stochastic localization",
+      "ENTRYTYPE": "article",
+      "ID": "benton2023nearly"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2504.05300",
+      "author": "Li, Gen and Cai, Changxiao and Wei, Yuting",
+      "title": "Dimension-free convergence of diffusion models for approximate Gaussian mixtures",
+      "ENTRYTYPE": "article",
+      "ID": "li2025dimension"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2503.09583",
+      "author": "Cai, Changxiao and Li, Gen",
+      "title": "Minimax optimality of the probability flow ode for diffusion models",
+      "ENTRYTYPE": "article",
+      "ID": "cai2025minimax"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2502.09622",
+      "author": "Feng, Guhao and Geng, Yihan and Guan, Jian and Wu, Wei and Wang, Liwei and He, Di",
+      "title": "Theoretical Benefit and Limitation of Diffusion Language Model",
+      "ENTRYTYPE": "article",
+      "ID": "feng2025theoretical"
+    },
+    {
+      "year": "2022",
+      "pages": "34532--34545",
+      "volume": "35",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Meng, Chenlin and Choi, Kristy and Song, Jiaming and Ermon, Stefano",
+      "title": "Concrete score matching: Generalized score matching for discrete data",
+      "ENTRYTYPE": "article",
+      "ID": "meng2022concrete"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2410.17891",
+      "author": "Gong, Shansan and Agarwal, Shivam and Zhang, Yizhe and Ye, Jiacheng and Zheng, Lin and Li, Mukai and An, Chenxin and Zhao, Peilin and Bi, Wei and Han, Jiawei and others",
+      "title": "Scaling Diffusion Language Models via Adaptation from Autoregressive Models",
+      "ENTRYTYPE": "article",
+      "ID": "gong2024scaling"
+    },
+    {
+      "year": "2023",
+      "pages": "56998--57025",
+      "volume": "36",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Lovelace, Justin and Kishore, Varsha and Wan, Chao and Shekhtman, Eliot and Weinberger, Kilian Q",
+      "title": "Latent diffusion for language generation",
+      "ENTRYTYPE": "article",
+      "ID": "lovelace2023latent"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2211.16750",
+      "author": "Sun, Haoran and Yu, Lijun and Dai, Bo and Schuurmans, Dale and Dai, Hanjun",
+      "title": "Score-based continuous-time discrete diffusion models",
+      "ENTRYTYPE": "article",
+      "ID": "sun2022score"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2211.04236",
+      "author": "Strudel, Robin and Tallec, Corentin and Altch{\\'e}, Florent and Du, Yilun and Ganin, Yaroslav and Mensch, Arthur and Grathwohl, Will and Savinov, Nikolay and Dieleman, Sander and Sifre, Laurent and others",
+      "title": "Self-conditioned embedding diffusion for text generation",
+      "ENTRYTYPE": "article",
+      "ID": "strudel2022self"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2208.04202",
+      "author": "Chen, Ting and Zhang, Ruixiang and Hinton, Geoffrey",
+      "title": "Analog bits: Generating discrete data using diffusion models with self-conditioning",
+      "ENTRYTYPE": "article",
+      "ID": "chen2022analog"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2402.04997",
+      "author": "Campbell, Andrew and Yim, Jason and Barzilay, Regina and Rainforth, Tom and Jaakkola, Tommi",
+      "title": "Generative flows on discrete state-spaces: Enabling multimodal flows with applications to protein co-design",
+      "ENTRYTYPE": "article",
+      "ID": "campbell2024generative"
+    },
+    {
+      "year": "2024",
+      "pages": "103131--103167",
+      "volume": "37",
+      "journal": "Advances in neural information processing systems",
+      "author": "Shi, Jiaxin and Han, Kehang and Wang, Zhe and Doucet, Arnaud and Titsias, Michalis",
+      "title": "Simplified and generalized masked diffusion for discrete data",
+      "ENTRYTYPE": "article",
+      "ID": "shi2024simplified"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2410.03601",
+      "author": "Ren, Yinuo and Chen, Haoxuan and Rotskoff, Grant M and Ying, Lexing",
+      "title": "How discrete and continuous diffusion meet: Comprehensive analysis of discrete diffusion models via a stochastic integral framework",
+      "ENTRYTYPE": "article",
+      "ID": "ren2024discrete"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2502.00234",
+      "author": "Ren, Yinuo and Chen, Haoxuan and Zhu, Yuchen and Guo, Wei and Chen, Yongxin and Rotskoff, Grant M and Tao, Molei and Ying, Lexing",
+      "title": "Fast solvers for discrete diffusion models: Theory and applications of high-order algorithms",
+      "ENTRYTYPE": "article",
+      "ID": "ren2025fast"
+    },
+    {
+      "year": "2022",
+      "pages": "4328--4343",
+      "volume": "35",
+      "journal": "Advances in neural information processing systems",
+      "author": "Li, Xiang and Thickstun, John and Gulrajani, Ishaan and Liang, Percy S and Hashimoto, Tatsunori B",
+      "title": "Diffusion-lm improves controllable text generation",
+      "ENTRYTYPE": "article",
+      "ID": "li2022diffusion"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2211.15089",
+      "author": "Dieleman, Sander and Sartran, Laurent and Roshannai, Arman and Savinov, Nikolay and Ganin, Yaroslav and Richemond, Pierre H and Doucet, Arnaud and Strudel, Robin and Dyer, Chris and Durkan, Conor and others",
+      "title": "Continuous diffusion for categorical data",
+      "ENTRYTYPE": "article",
+      "ID": "dieleman2022continuous"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2210.17432",
+      "author": "Han, Xiaochuang and Kumar, Sachin and Tsvetkov, Yulia",
+      "title": "Ssd-lm: Semi-autoregressive simplex-based diffusion language model for text generation and modular control",
+      "ENTRYTYPE": "article",
+      "ID": "han2022ssd"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2211.15029",
+      "author": "He, Zhengfu and Sun, Tianxiang and Wang, Kuanning and Huang, Xuanjing and Qiu, Xipeng",
+      "title": "Diffusionbert: Improving generative masked language models with diffusion models",
+      "ENTRYTYPE": "article",
+      "ID": "he2022diffusionbert"
+    },
+    {
+      "year": "2021",
+      "journal": "arXiv preprint arXiv:2102.05379",
+      "author": "Hoogeboom, Emiel and Nielsen, Didrik and Jaini, Priyank and Forr{\\'e}, Patrick and Welling, Max",
+      "title": "Argmax flows and multinomial diffusion: Towards non-autoregressive language models",
+      "ENTRYTYPE": "article",
+      "ID": "hoogeboom2021argmax"
+    },
+    {
+      "year": "2023",
+      "pages": "16693--16715",
+      "volume": "36",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Gulrajani, Ishaan and Hashimoto, Tatsunori B",
+      "title": "Likelihood-based diffusion language models",
+      "ENTRYTYPE": "article",
+      "ID": "gulrajani2023likelihood"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2502.09992",
+      "author": "Nie, Shen and Zhu, Fengqi and You, Zebin and Zhang, Xiaolu and Ou, Jingyang and Hu, Jun and Zhou, Jun and Lin, Yankai and Wen, Ji-Rong and Li, Chongxuan",
+      "title": "Large language diffusion models",
+      "ENTRYTYPE": "article",
+      "ID": "nie2025large"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2406.03736",
+      "author": "Ou, Jingyang and Nie, Shen and Xue, Kaiwen and Zhu, Fengqi and Sun, Jiacheng and Li, Zhenguo and Li, Chongxuan",
+      "title": "Your absorbing discrete diffusion secretly models the conditional distributions of clean data",
+      "ENTRYTYPE": "article",
+      "ID": "ou2024your"
+    },
+    {
+      "year": "2024",
+      "volume": "37",
+      "title": "Simple and effective masked diffusion language models",
+      "pages": "130136--130184",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Sahoo, Subham and Arriola, Marianne and Schiff, Yair and Gokaslan, Aaron and Marroquin, Edgar and Chiu, Justin and Rush, Alexander and Kuleshov, Volodymyr",
+      "ENTRYTYPE": "article",
+      "ID": "sahoo2024simple"
+    },
+    {
+      "year": "2023",
+      "title": "Discrete diffusion modeling by estimating the ratios of the data distribution",
+      "journal": "arXiv preprint arXiv:2310.16834",
+      "author": "Lou, Aaron and Meng, Chenlin and Ermon, Stefano",
+      "ENTRYTYPE": "article",
+      "ID": "lou2023discrete"
+    },
+    {
+      "year": "2022",
+      "volume": "35",
+      "title": "A continuous time framework for discrete denoising models",
+      "pages": "28266--28279",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Campbell, Andrew and Benton, Joe and De Bortoli, Valentin and Rainforth, Thomas and Deligiannidis, George and Doucet, Arnaud",
+      "ENTRYTYPE": "article",
+      "ID": "campbell2022continuous"
+    },
+    {
+      "year": "2025",
+      "title": "Supplement to ``Minimax Optimality of the Probability Flow ODE for Diffusion Models\"",
+      "author": "Cai, Changxiao and Li, Gen",
+      "ENTRYTYPE": "article",
+      "ID": "cai2025minimax-supp"
+    },
+    {
+      "year": "2015",
+      "title": "Deep unsupervised learning using nonequilibrium thermodynamics",
+      "pages": "2256--2265",
+      "organization": "pmlr",
+      "booktitle": "International conference on machine learning",
+      "author": "Sohl-Dickstein, Jascha and Weiss, Eric and Maheswaranathan, Niru and Ganguli, Surya",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "sohl2015deep"
+    },
+    {
+      "year": "2019",
+      "volume": "116",
+      "title": "Sampling can be faster than optimization",
+      "publisher": "National Academy of Sciences",
+      "pages": "20881--20885",
+      "number": "42",
+      "journal": "Proceedings of the National Academy of Sciences",
+      "author": "Ma, Yi-An and Chen, Yuansi and Jin, Chi and Flammarion, Nicolas and Jordan, Michael I",
+      "ENTRYTYPE": "article",
+      "ID": "ma2019sampling"
+    },
+    {
+      "year": "2017",
+      "title": "Non-convex learning via stochastic gradient langevin dynamics: a nonasymptotic analysis",
+      "pages": "1674--1703",
+      "organization": "PMLR",
+      "booktitle": "Conference on Learning Theory",
+      "author": "Raginsky, Maxim and Rakhlin, Alexander and Telgarsky, Matus",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "raginsky2017non"
+    },
+    {
+      "year": "2017",
+      "title": "Further and stronger analogy between sampling and optimization: Langevin Monte Carlo and gradient descent",
+      "pages": "678--689",
+      "organization": "PMLR",
+      "booktitle": "Conference on Learning Theory",
+      "author": "Dalalyan, Arnak",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "dalalyan2017further"
+    },
+    {
+      "year": "2019",
+      "volume": "32",
+      "title": "Rapid convergence of the unadjusted langevin algorithm: Isoperimetry suffices",
+      "journal": "Advances in neural information processing systems",
+      "author": "Vempala, Santosh and Wibisono, Andre",
+      "ENTRYTYPE": "article",
+      "ID": "vempala2019rapid"
+    },
+    {
+      "year": "2019",
+      "volume": "25",
+      "title": "{High-dimensional Bayesian inference via the unadjusted Langevin algorithm}",
+      "publisher": "Bernoulli Society for Mathematical Statistics and Probability",
+      "pages": "2854 -- 2882",
+      "number": "4A",
+      "journal": "Bernoulli",
+      "author": "Alain Durmus and {\\'E}ric Moulines",
+      "ENTRYTYPE": "article",
+      "ID": "durmus2019high"
+    },
+    {
+      "year": "2017",
+      "volume": "79",
+      "title": "Theoretical guarantees for approximate sampling from smooth and log-concave densities",
+      "publisher": "Oxford University Press",
+      "pages": "651--676",
+      "number": "3",
+      "journal": "Journal of the Royal Statistical Society Series B: Statistical Methodology",
+      "author": "Dalalyan, Arnak S",
+      "ENTRYTYPE": "article",
+      "ID": "dalalyan2017theoretical"
+    },
+    {
+      "year": "2024",
+      "title": "Statistical guarantees for denoising reflected diffusion models",
+      "journal": "arXiv preprint arXiv:2411.01563",
+      "author": "Holk, Asbj{\\o}rn and Strauch, Claudia and Trottner, Lukas",
+      "ENTRYTYPE": "article",
+      "ID": "holk2024statistical"
+    },
+    {
+      "year": "1980",
+      "title": "Optimal rates of convergence for nonparametric estimators",
+      "publisher": "JSTOR",
+      "pages": "1348--1360",
+      "journal": "The annals of Statistics",
+      "author": "Stone, Charles J",
+      "ENTRYTYPE": "article",
+      "ID": "stone1980optimal"
+    },
+    {
+      "year": "1982",
+      "title": "Optimal global rates of convergence for nonparametric regression",
+      "publisher": "JSTOR",
+      "pages": "1040--1053",
+      "journal": "The annals of statistics",
+      "author": "Stone, Charles J",
+      "ENTRYTYPE": "article",
+      "ID": "stone1982optimal"
+    },
+    {
+      "year": "2021",
+      "title": "Sdedit: Image synthesis and editing with stochastic differential equations",
+      "journal": "arXiv preprint arXiv:2108.01073",
+      "author": "Meng, Chenlin and Song, Yang and Song, Jiaming and Wu, Jiajun and Zhu, Jun-Yan and Ermon, Stefano",
+      "ENTRYTYPE": "article",
+      "ID": "meng2021sdedit"
+    },
+    {
+      "year": "2023",
+      "title": "Masactrl: Tuning-free mutual self-attention control for consistent image synthesis and editing",
+      "pages": "22560--22570",
+      "booktitle": "Proceedings of the IEEE/CVF international conference on computer vision",
+      "author": "Cao, Mingdeng and Wang, Xintao and Qi, Zhongang and Shan, Ying and Qie, Xiaohu and Zheng, Yinqiang",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "cao2023masactrl"
+    },
+    {
+      "year": "2024",
+      "title": "Diffusion model-based image editing: A survey",
+      "journal": "arXiv preprint arXiv:2402.17525",
+      "author": "Huang, Yi and Huang, Jiancheng and Liu, Yifan and Yan, Mingfu and Lv, Jiaxi and Liu, Jianzhuang and Xiong, Wei and Zhang, He and Chen, Shifeng and Cao, Liangliang",
+      "ENTRYTYPE": "article",
+      "ID": "huang2024diffusion"
+    },
+    {
+      "year": "2023",
+      "title": "Closed-form diffusion models",
+      "journal": "arXiv preprint arXiv:2310.12395",
+      "author": "Scarvelis, Christopher and Borde, Haitz S{\\'a}ez de Oc{\\'a}riz and Solomon, Justin",
+      "ENTRYTYPE": "article",
+      "ID": "scarvelis2023closed"
+    },
+    {
+      "year": "2025",
+      "title": "Regularization can make diffusion models more efficient",
+      "journal": "arXiv preprint arXiv:2502.09151",
+      "author": "Taheri, Mahsa and Lederer, Johannes",
+      "ENTRYTYPE": "article",
+      "ID": "taheri2025regularization"
+    },
+    {
+      "year": "2025",
+      "title": "Nonparametric estimation of a factorizable density using diffusion models",
+      "journal": "arXiv preprint arXiv:2501.01783",
+      "author": "Kwon, Hyeok Kyu and Kim, Dongha and Ohn, Ilsang and Chae, Minwoo",
+      "ENTRYTYPE": "article",
+      "ID": "kwon2025nonparametric"
+    },
+    {
+      "year": "2024",
+      "title": "Optimal convex $ M $-estimation via score matching",
+      "journal": "arXiv preprint arXiv:2403.16688",
+      "author": "Feng, Oliver Y and Kao, Yu-Chun and Xu, Min and Samworth, Richard J",
+      "ENTRYTYPE": "article",
+      "ID": "feng2024optimal"
+    },
+    {
+      "year": "2024",
+      "title": "A good score does not lead to a good generative model",
+      "journal": "arXiv preprint arXiv:2401.04856",
+      "author": "Li, Sixu and Chen, Shi and Li, Qin",
+      "ENTRYTYPE": "article",
+      "ID": "li2024good"
+    },
+    {
+      "year": "2022",
+      "title": "Convergence of the inexact langevin algorithm and score-based generative models in kl divergence",
+      "journal": "arXiv preprint arXiv:2211.01512",
+      "author": "Yang, Kaylee Yingxi and Wibisono, Andre",
+      "ENTRYTYPE": "article",
+      "ID": "yang2022convergence"
+    },
+    {
+      "year": "2005",
+      "volume": "15",
+      "title": "{Learning mixtures of separated nonspherical Gaussians}",
+      "publisher": "Institute of Mathematical Statistics",
+      "pages": "69 -- 92",
+      "number": "1A",
+      "journal": "The Annals of Applied Probability",
+      "author": "Sanjeev Arora and Ravi Kannan",
+      "ENTRYTYPE": "article",
+      "ID": "arora2005learning"
+    },
+    {
+      "year": "2024",
+      "title": "Score-based Diffusion Models via Stochastic Differential Equations--a Technical Tutorial",
+      "journal": "arXiv preprint arXiv:2402.07487",
+      "author": "Tang, Wenpin and Zhao, Hanyang",
+      "ENTRYTYPE": "article",
+      "ID": "tang2024score"
+    },
+    {
+      "year": "1894",
+      "volume": "185",
+      "title": "Contributions to the mathematical theory of evolution",
+      "publisher": "JSTOR",
+      "pages": "71--110",
+      "journal": "Philosophical Transactions of the Royal Society of London. A",
+      "author": "Pearson, Karl",
+      "ENTRYTYPE": "article",
+      "ID": "pearson1894contributions"
+    },
+    {
+      "year": "2023",
+      "volume": "36",
+      "title": "The probability flow ode is provably fast",
+      "pages": "68552--68575",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Chen, Sitan and Chewi, Sinho and Lee, Holden and Li, Yuanzhi and Lu, Jianfeng and Salim, Adil",
+      "ENTRYTYPE": "article",
+      "ID": "chen2023probability"
+    },
+    {
+      "year": "2025",
+      "title": "Low-dimensional adaptation of diffusion models: Convergence in total variation",
+      "journal": "arXiv preprint arXiv:2501.12982",
+      "author": "Liang, Jiadong and Huang, Zhihan and Chen, Yuxin",
+      "ENTRYTYPE": "article",
+      "ID": "liang2025low"
+    },
+    {
+      "year": "2022",
+      "volume": "16",
+      "title": "Minimax bounds for estimating multivariate Gaussian location mixtures",
+      "publisher": "The Institute of Mathematical Statistics and the Bernoulli Society",
+      "pages": "1461--1484",
+      "number": "1",
+      "journal": "Electronic Journal of Statistics",
+      "author": "Kim, Arlene KH and Guntuboyina, Adityanand",
+      "ENTRYTYPE": "article",
+      "ID": "kim2022minimax"
+    },
+    {
+      "year": "2018",
+      "volume": "31",
+      "title": "Nearly tight sample complexity bounds for learning mixtures of gaussians via sample compression schemes",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Ashtiani, Hassan and Ben-David, Shai and Harvey, Nicholas and Liaw, Christopher and Mehrabian, Abbas and Plan, Yaniv",
+      "ENTRYTYPE": "article",
+      "ID": "ashtiani2018nearly"
+    },
+    {
+      "year": "2018",
+      "title": "List-decodable robust mean estimation and learning mixtures of spherical gaussians",
+      "pages": "1047--1060",
+      "booktitle": "Proceedings of the 50th Annual ACM SIGACT Symposium on Theory of Computing",
+      "author": "Diakonikolas, Ilias and Kane, Daniel M and Stewart, Alistair",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "diakonikolas2018list"
+    },
+    {
+      "year": "2018",
+      "title": "Mixture models, robustness, and sum of squares proofs",
+      "pages": "1021--1034",
+      "booktitle": "Proceedings of the 50th Annual ACM SIGACT Symposium on Theory of Computing",
+      "author": "Hopkins, Samuel B and Li, Jerry",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "hopkins2018mixture"
+    },
+    {
+      "year": "2018",
+      "title": "Robust moment estimation and improved clustering via sum of squares",
+      "pages": "1035--1046",
+      "booktitle": "Proceedings of the 50th Annual ACM SIGACT Symposium on Theory of Computing",
+      "author": "Kothari, Pravesh K and Steinhardt, Jacob and Steurer, David",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "kothari2018robust"
+    },
+    {
+      "year": "2016",
+      "volume": "44",
+      "title": "{Convergence rates of parameter estimation for some weakly identifiable finite mixtures}",
+      "publisher": "Institute of Mathematical Statistics",
+      "pages": "2726 -- 2755",
+      "number": "6",
+      "journal": "The Annals of Statistics",
+      "author": "Nhat Ho and XuanLong Nguyen",
+      "ENTRYTYPE": "article",
+      "ID": "ho2016convergence"
+    },
+    {
+      "year": "2016",
+      "volume": "10",
+      "title": "{On strong identifiability and convergence rates of parameter estimation in finite mixtures}",
+      "publisher": "Institute of Mathematical Statistics and Bernoulli Society",
+      "pages": "271 -- 307",
+      "number": "1",
+      "journal": "Electronic Journal of Statistics",
+      "author": "Nhat Ho and XuanLong Nguyen",
+      "ENTRYTYPE": "article",
+      "ID": "ho2016on"
+    },
+    {
+      "year": "2022",
+      "title": "Clustering mixtures with almost optimal separation in polynomial time",
+      "pages": "1248--1261",
+      "booktitle": "Proceedings of the 54th Annual ACM SIGACT Symposium on Theory of Computing",
+      "author": "Liu, Allen and Li, Jerry",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "liu2022clustering"
+    },
+    {
+      "year": "2017",
+      "title": "Robust and proper learning for mixtures of gaussians via systems of polynomial inequalities",
+      "pages": "1302--1382",
+      "organization": "PMLR",
+      "booktitle": "Conference on Learning Theory",
+      "author": "Li, Jerry and Schmidt, Ludwig",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "li2017robust"
+    },
+    {
+      "year": "2014",
+      "volume": "27",
+      "title": "Near-optimal-sample estimators for spherical gaussian mixtures",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Suresh, Ananda Theertha and Orlitsky, Alon and Acharya, Jayadev and Jafarpour, Ashkan",
+      "ENTRYTYPE": "article",
+      "ID": "suresh2014near"
+    },
+    {
+      "year": "1995",
+      "title": "Optimal rate of convergence for finite mixture models",
+      "publisher": "JSTOR",
+      "pages": "221--233",
+      "journal": "The Annals of Statistics",
+      "author": "Chen, Jiahua",
+      "ENTRYTYPE": "article",
+      "ID": "chen1995optimal"
+    },
+    {
+      "year": "2024",
+      "title": "Score-based generative models break the curse of dimensionality in learning a family of sub-Gaussian distributions",
+      "booktitle": "The Twelfth International Conference on Learning Representations",
+      "author": "Cole, Frank and Lu, Yulong",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "cole2024score"
+    },
+    {
+      "year": "2023",
+      "volume": "36",
+      "title": "Learning mixtures of gaussians using the DDPM objective",
+      "pages": "19636--19649",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Shah, Kulin and Chen, Sitan and Klivans, Adam",
+      "ENTRYTYPE": "article",
+      "ID": "shah2023learning"
+    },
+    {
+      "year": "2024",
+      "volume": "36",
+      "title": "Gaussian mixture solvers for diffusion models",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Guo, Hanzhong and Lu, Cheng and Bao, Fan and Pang, Tianyu and Yan, Shuicheng and Du, Chao and Li, Chongxuan",
+      "ENTRYTYPE": "article",
+      "ID": "guo2024gaussian"
+    },
+    {
+      "year": "2024",
+      "title": "Critical windows: non-asymptotic theory for feature emergence in diffusion models",
+      "journal": "arXiv preprint arXiv:2403.01633",
+      "author": "Li, Marvin and Chen, Sitan",
+      "ENTRYTYPE": "article",
+      "ID": "li2024critical"
+    },
+    {
+      "year": "2024",
+      "title": "What does guidance do? a fine-grained analysis in a simple setting",
+      "journal": "arXiv preprint arXiv:2409.13074",
+      "author": "Chidambaram, Muthu and Gatmiry, Khashayar and Chen, Sitan and Lee, Holden and Lu, Jianfeng",
+      "ENTRYTYPE": "article",
+      "ID": "chidambaram2024does"
+    },
+    {
+      "year": "1999",
+      "title": "Learning mixtures of Gaussians",
+      "pages": "634--644",
+      "organization": "IEEE",
+      "booktitle": "40th Annual Symposium on Foundations of Computer Science (Cat. No. 99CB37039)",
+      "author": "Dasgupta, Sanjoy",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "dasgupta1999learning"
+    },
+    {
+      "year": "2013",
+      "title": "Learning mixtures of spherical gaussians: moment methods and spectral decompositions",
+      "pages": "11--20",
+      "booktitle": "Proceedings of the 4th conference on Innovations in Theoretical Computer Science",
+      "author": "Hsu, Daniel and Kakade, Sham M",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "hsu2013learning"
+    },
+    {
+      "year": "2018",
+      "volume": "46",
+      "title": "Strong identifiability and optimal minimax rates for finite mixture estimation",
+      "publisher": "Institute of Mathematical Statistics",
+      "pages": "2844 -- 2870",
+      "number": "6A",
+      "journal": "The Annals of Statistics",
+      "author": "Philippe Heinrich and Jonas Kahn",
+      "ENTRYTYPE": "article",
+      "ID": "heinrich2018strong"
+    },
+    {
+      "year": "2023",
+      "volume": "51",
+      "title": "Optimal estimation of high-dimensional Gaussian location mixtures",
+      "publisher": "Institute of Mathematical Statistics",
+      "pages": "62--95",
+      "number": "1",
+      "journal": "The Annals of Statistics",
+      "author": "Doss, Natalie and Wu, Yihong and Yang, Pengkun and Zhou, Harrison H",
+      "ENTRYTYPE": "article",
+      "ID": "doss2023optimal"
+    },
+    {
+      "year": "2020",
+      "volume": "48",
+      "title": "Optimal estimation of Gaussian mixtures via denoised method of moments",
+      "publisher": "Institute of Mathematical Statistics",
+      "pages": "1981--2007",
+      "number": "4",
+      "journal": "The Annals of Statistics",
+      "author": "Wu, Yihong and Yang, Pengkun",
+      "ENTRYTYPE": "article",
+      "ID": "wu2020optimal"
+    },
+    {
+      "year": "2010",
+      "title": "Settling the polynomial learnability of mixtures of gaussians",
+      "pages": "93--102",
+      "organization": "IEEE",
+      "booktitle": "2010 IEEE 51st Annual Symposium on Foundations of Computer Science",
+      "author": "Moitra, Ankur and Valiant, Gregory",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "moitra2010settling"
+    },
+    {
+      "year": "2010",
+      "title": "Efficiently learning mixtures of two Gaussians",
+      "pages": "553--562",
+      "booktitle": "Proceedings of the forty-second ACM symposium on Theory of computing",
+      "author": "Kalai, Adam Tauman and Moitra, Ankur and Valiant, Gregory",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "kalai2010efficiently"
+    },
+    {
+      "year": "2004",
+      "volume": "68",
+      "title": "A spectral algorithm for learning mixture models",
+      "publisher": "Elsevier",
+      "pages": "841--860",
+      "number": "4",
+      "journal": "Journal of Computer and System Sciences",
+      "author": "Vempala, Santosh and Wang, Grant",
+      "ENTRYTYPE": "article",
+      "ID": "vempala2004spectral"
+    },
+    {
+      "year": "2024",
+      "title": "Learning mixtures of gaussians using diffusion models",
+      "journal": "arXiv preprint arXiv:2404.18869",
+      "author": "Gatmiry, Khashayar and Kelner, Jonathan and Lee, Holden",
+      "ENTRYTYPE": "article",
+      "ID": "gatmiry2024learning"
+    },
+    {
+      "year": "2024",
+      "title": "Learning general gaussian mixtures with efficient score matching",
+      "journal": "arXiv preprint arXiv:2404.18893",
+      "author": "Chen, Sitan and Kontonis, Vasilis and Shah, Kulin",
+      "ENTRYTYPE": "article",
+      "ID": "chen2024learning"
+    },
+    {
+      "year": "2009",
+      "volume": "11",
+      "title": "Introduction to nonparametric estimation",
+      "publisher": "Springer",
+      "author": "Tsybakov, A. B.",
+      "ENTRYTYPE": "book",
+      "ID": "tsybakov2009introduction"
+    },
+    {
+      "year": "2024",
+      "title": "Provable acceleration for diffusion models under minimal assumptions",
+      "journal": "arXiv preprint arXiv:2410.23285",
+      "author": "Li, Gen and Cai, Changxiao",
+      "ENTRYTYPE": "article",
+      "ID": "li2024provable"
+    },
+    {
+      "year": "2024",
+      "title": "Unraveling the smoothness properties of diffusion models: A gaussian mixture perspective",
+      "journal": "arXiv preprint arXiv:2405.16418",
+      "author": "Liang, Yingyu and Shi, Zhenmei and Song, Zhao and Zhou, Yufa",
+      "ENTRYTYPE": "article",
+      "ID": "liang2024unraveling"
+    },
+    {
+      "year": "2024",
+      "title": "How much is a noisy image worth? Data Scaling Laws for Ambient Diffusion",
+      "journal": "arXiv preprint arXiv:2411.02780",
+      "author": "Daras, Giannis and Cherapanamjeri, Yeshwanth and Daskalakis, Constantinos",
+      "ENTRYTYPE": "article",
+      "ID": "daras2024how"
+    },
+    {
+      "year": "2011",
+      "volume": "106",
+      "title": "Tweedie's formula and selection bias",
+      "publisher": "Taylor \\& Francis",
+      "pages": "1602--1614",
+      "number": "496",
+      "journal": "Journal of the American Statistical Association",
+      "author": "Efron, Bradley",
+      "ENTRYTYPE": "article",
+      "ID": "efron2011tweedie"
+    },
+    {
+      "year": "2009",
+      "volume": "37",
+      "title": "{General maximum likelihood empirical Bayes estimation of normal means}",
+      "publisher": "Institute of Mathematical Statistics",
+      "pages": "1647 -- 1684",
+      "number": "4",
+      "journal": "The Annals of Statistics",
+      "author": "Wenhua Jiang and Cun-Hui Zhang",
+      "ENTRYTYPE": "article",
+      "ID": "jiang2009general"
+    },
+    {
+      "year": "2000",
+      "title": "Adaptive estimation of a quadratic functional by model selection",
+      "publisher": "JSTOR",
+      "pages": "1302--1338",
+      "journal": "Annals of statistics",
+      "author": "Laurent, Beatrice and Massart, Pascal",
+      "ENTRYTYPE": "article",
+      "ID": "laurent2000adaptive"
+    },
+    {
+      "year": "2020",
+      "volume": "48",
+      "title": "On the nonparametric maximum likelihood estimator for Gaussian location mixture densities with application to Gaussian denoising",
+      "publisher": "JSTOR",
+      "pages": "738--762",
+      "number": "2",
+      "journal": "The Annals of Statistics",
+      "author": "Saha, Sujayam and Guntuboyina, Adityanand",
+      "ENTRYTYPE": "article",
+      "ID": "saha2020nonparametric"
+    },
+    {
+      "year": "2018",
+      "volume": "47",
+      "title": "High-dimensional probability: An introduction with applications in data science",
+      "publisher": "Cambridge university press",
+      "author": "Vershynin, Roman",
+      "ENTRYTYPE": "book",
+      "ID": "vershynin2018high"
+    },
+    {
+      "year": "2024",
+      "title": "Supplement to ``Provable Acceleration for Diffusion Models under Minimal Assumptions\"",
+      "author": "Li, Gen and Cai, Changxiao",
+      "ENTRYTYPE": "article",
+      "ID": "li2024provable-supp"
+    },
+    {
+      "year": "2014",
+      "volume": "27",
+      "title": "Generative adversarial nets",
+      "journal": "Advances in neural information processing systems",
+      "author": "Goodfellow, Ian and Pouget-Abadie, Jean and Mirza, Mehdi and Xu, Bing and Warde-Farley, David and Ozair, Sherjil and Courville, Aaron and Bengio, Yoshua",
+      "ENTRYTYPE": "article",
+      "ID": "goodfellow2014generative"
+    },
+    {
+      "year": "2013",
+      "title": "Auto-encoding variational bayes",
+      "journal": "arXiv preprint arXiv:1312.6114",
+      "author": "Kingma, Diederik P",
+      "ENTRYTYPE": "article",
+      "ID": "kingma2013auto"
+    },
+    {
+      "year": "2024",
+      "title": "Reverse Transition Kernel: A Flexible Framework to Accelerate Diffusion Inference",
+      "journal": "arXiv preprint arXiv:2405.16387",
+      "author": "Huang, Xunpeng and Zou, Difan and Dong, Hanze and Zhang, Yi and Ma, Yi-An and Zhang, Tong",
+      "ENTRYTYPE": "article",
+      "ID": "huang2024reverse"
+    },
+    {
+      "year": "2024",
+      "title": "A sharp convergence theory for the probability flow odes of diffusion models",
+      "journal": "arXiv preprint arXiv:2408.02320",
+      "author": "Li, Gen and Wei, Yuting and Chi, Yuejie and Chen, Yuxin",
+      "ENTRYTYPE": "article",
+      "ID": "li2024sharp"
+    },
+    {
+      "year": "2024",
+      "title": "${O}(d/{T})$ Convergence Theory for Diffusion Probabilistic Models under Minimal Assumptions",
+      "journal": "arXiv preprint arXiv:2409.18959",
+      "author": "Li, Gen and Yan, Yuling",
+      "ENTRYTYPE": "article",
+      "ID": "li2024d"
+    },
+    {
+      "year": "2023",
+      "title": "Improved analysis of score-based generative modeling: User-friendly bounds under minimal smoothness assumptions",
+      "pages": "4735--4763",
+      "organization": "PMLR",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Chen, Hongrui and Lee, Holden and Lu, Jianfeng",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "chen2023improved"
+    },
+    {
+      "year": "2024",
+      "title": "Convergence analysis of probability flow {ODE} for score-based generative models",
+      "journal": "arXiv preprint arXiv:2404.09730",
+      "author": "Huang, Daniel Zhengyu and Huang, Jiaoyang and Lin, Zhengjiang",
+      "ENTRYTYPE": "article",
+      "ID": "huang2024convergence"
+    },
+    {
+      "year": "2023",
+      "title": "Linear convergence bounds for diffusion models via stochastic localization",
+      "journal": "arXiv preprint arXiv:2308.03686",
+      "author": "Benton, Joe and De Bortoli, Valentin and Doucet, Arnaud and Deligiannidis, George",
+      "ENTRYTYPE": "article",
+      "ID": "benton2023linear"
+    },
+    {
+      "year": "2024",
+      "title": "Improved Convergence Rate for Diffusion Probabilistic Models",
+      "journal": "arXiv preprint arXiv:2410.13738",
+      "author": "Li, Gen and Jiao, Yuchen",
+      "ENTRYTYPE": "article",
+      "ID": "li2024improved"
+    },
+    {
+      "year": "2024",
+      "title": "Accelerating convergence of score-based diffusion models, provably",
+      "journal": "arXiv preprint arXiv:2403.03852",
+      "author": "Li, Gen and Huang, Yu and Efimov, Timofey and Wei, Yuting and Chi, Yuejie and Chen, Yuxin",
+      "ENTRYTYPE": "article",
+      "ID": "li2024accelerating"
+    },
+    {
+      "year": "2023",
+      "title": "Towards faster non-asymptotic convergence for diffusion-based generative models",
+      "journal": "arXiv preprint arXiv:2306.09251",
+      "author": "Li, Gen and Wei, Yuting and Chen, Yuxin and Chi, Yuejie",
+      "ENTRYTYPE": "article",
+      "ID": "li2023towards"
+    },
+    {
+      "year": "2022",
+      "title": "Progressive distillation for fast sampling of diffusion models",
+      "journal": "arXiv preprint arXiv:2202.00512",
+      "author": "Salimans, Tim and Ho, Jonathan",
+      "ENTRYTYPE": "article",
+      "ID": "salimans2022progressive"
+    },
+    {
+      "year": "2023",
+      "title": "Consistency models",
+      "journal": "arXiv preprint arXiv:2303.01469",
+      "author": "Song, Yang and Dhariwal, Prafulla and Chen, Mark and Sutskever, Ilya",
+      "ENTRYTYPE": "article",
+      "ID": "song2023consistency"
+    },
+    {
+      "year": "2020",
+      "volume": "33",
+      "title": "Denoising diffusion probabilistic models",
+      "pages": "6840--6851",
+      "journal": "Advances in neural information processing systems",
+      "author": "Ho, Jonathan and Jain, Ajay and Abbeel, Pieter",
+      "ENTRYTYPE": "article",
+      "ID": "ho2020denoising"
+    },
+    {
+      "year": "2005",
+      "volume": "6",
+      "title": "Estimation of non-normalized statistical models by score matching.",
+      "number": "4",
+      "journal": "Journal of Machine Learning Research",
+      "author": "Hyv{\\\"a}rinen, Aapo and Dayan, Peter",
+      "ENTRYTYPE": "article",
+      "ID": "hyvarinen2005estimation"
+    },
+    {
+      "year": "2022",
+      "volume": "35",
+      "title": "Convergence for score-based generative modeling with polynomial complexity",
+      "pages": "22870--22882",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Lee, Holden and Lu, Jianfeng and Tan, Yixin",
+      "ENTRYTYPE": "article",
+      "ID": "lee2022convergence"
+    },
+    {
+      "year": "2023",
+      "title": "Convergence of score-based generative modeling for general data distributions",
+      "pages": "946--985",
+      "organization": "PMLR",
+      "booktitle": "International Conference on Algorithmic Learning Theory",
+      "author": "Lee, Holden and Lu, Jianfeng and Tan, Yixin",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "lee2023convergence"
+    },
+    {
+      "year": "2019",
+      "volume": "32",
+      "title": "Generative modeling by estimating gradients of the data distribution",
+      "journal": "Advances in neural information processing systems",
+      "author": "Song, Yang and Ermon, Stefano",
+      "ENTRYTYPE": "article",
+      "ID": "song2019generative"
+    },
+    {
+      "year": "2020",
+      "title": "Score-based generative modeling through stochastic differential equations",
+      "journal": "arXiv preprint arXiv:2011.13456",
+      "author": "Song, Yang and Sohl-Dickstein, Jascha and Kingma, Diederik P and Kumar, Abhishek and Ermon, Stefano and Poole, Ben",
+      "ENTRYTYPE": "article",
+      "ID": "song2020score"
+    },
+    {
+      "year": "2020",
+      "title": "Denoising diffusion implicit models",
+      "journal": "arXiv preprint arXiv:2010.02502",
+      "author": "Song, Jiaming and Meng, Chenlin and Ermon, Stefano",
+      "ENTRYTYPE": "article",
+      "ID": "song2020denoising"
+    },
+    {
+      "year": "1982",
+      "volume": "12",
+      "title": "Reverse-time diffusion equation models",
+      "publisher": "Elsevier",
+      "pages": "313--326",
+      "number": "3",
+      "journal": "Stochastic Processes and their Applications",
+      "author": "Anderson, Brian DO",
+      "ENTRYTYPE": "article",
+      "ID": "anderson1982reverse"
+    },
+    {
+      "year": "2022",
+      "volume": "35",
+      "title": "Dpm-solver: A fast ode solver for diffusion probabilistic model sampling in around 10 steps",
+      "pages": "5775--5787",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Lu, Cheng and Zhou, Yuhao and Bao, Fan and Chen, Jianfei and Li, Chongxuan and Zhu, Jun",
+      "ENTRYTYPE": "article",
+      "ID": "lu2022dpm"
+    },
+    {
+      "year": "2022",
+      "title": "Dpm-solver++: Fast solver for guided sampling of diffusion probabilistic models",
+      "journal": "arXiv preprint arXiv:2211.01095",
+      "author": "Lu, Cheng and Zhou, Yuhao and Bao, Fan and Chen, Jianfei and Li, Chongxuan and Zhu, Jun",
+      "ENTRYTYPE": "article",
+      "ID": "lu2022dpm+"
+    },
+    {
+      "year": "2011",
+      "volume": "23",
+      "title": "A connection between score matching and denoising autoencoders",
+      "publisher": "MIT Press",
+      "pages": "1661--1674",
+      "number": "7",
+      "journal": "Neural computation",
+      "author": "Vincent, Pascal",
+      "ENTRYTYPE": "article",
+      "ID": "vincent2011connection"
+    },
+    {
+      "year": "2020",
+      "title": "Sliced score matching: A scalable approach to density and score estimation",
+      "pages": "574--584",
+      "organization": "PMLR",
+      "booktitle": "Uncertainty in Artificial Intelligence",
+      "author": "Song, Yang and Garg, Sahaj and Shi, Jiaxin and Ermon, Stefano",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "song2020sliced"
+    },
+    {
+      "year": "2022",
+      "title": "Sampling is as easy as learning the score: theory for diffusion models with minimal data assumptions",
+      "journal": "arXiv preprint arXiv:2209.11215",
+      "author": "Chen, Sitan and Chewi, Sinho and Li, Jerry and Li, Yuanzhi and Salim, Adil and Zhang, Anru R",
+      "ENTRYTYPE": "article",
+      "ID": "chen2022sampling"
+    },
+    {
+      "year": "2023",
+      "title": "Restoration-degradation beyond linear diffusions: A non-asymptotic analysis for ddim-type samplers",
+      "pages": "4462--4484",
+      "organization": "PMLR",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Chen, Sitan and Daras, Giannis and Dimakis, Alex",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "chen2023restoration"
+    },
+    {
+      "year": "2024",
+      "title": "Non-asymptotic convergence of discrete-time diffusion models: New approach and improved rate",
+      "journal": "arXiv preprint arXiv:2402.13901",
+      "author": "Liang, Yuchen and Ju, Peizhong and Liang, Yingbin and Shroff, Ness",
+      "ENTRYTYPE": "article",
+      "ID": "liang2024non"
+    },
+    {
+      "year": "2023",
+      "title": "Wasserstein convergence guarantees for a general class of score-based generative models",
+      "journal": "arXiv preprint arXiv:2311.11003",
+      "author": "Gao, Xuefeng and Nguyen, Hoang M and Zhu, Lingjiong",
+      "ENTRYTYPE": "article",
+      "ID": "gao2023wasserstein"
+    },
+    {
+      "year": "2024",
+      "title": "Convergence analysis for general probability flow ODEs of diffusion models in Wasserstein distances",
+      "journal": "arXiv preprint arXiv:2401.17958",
+      "author": "Gao, Xuefeng and Zhu, Lingjiong",
+      "ENTRYTYPE": "article",
+      "ID": "gao2024convergence"
+    },
+    {
+      "year": "2024",
+      "title": "Convergence analysis of discrete diffusion model: Exact implementation through uniformization",
+      "journal": "arXiv preprint arXiv:2402.08095",
+      "author": "Chen, Hongrui and Ying, Lexing",
+      "ENTRYTYPE": "article",
+      "ID": "chen2024convergence"
+    },
+    {
+      "year": "2023",
+      "title": "Error bounds for flow matching methods",
+      "journal": "arXiv preprint arXiv:2305.16860",
+      "author": "Benton, Joe and Deligiannidis, George and Doucet, Arnaud",
+      "ENTRYTYPE": "article",
+      "ID": "benton2023error"
+    },
+    {
+      "year": "2024",
+      "title": "Faster Diffusion-based Sampling with Randomized Midpoints: Sequential and Parallel",
+      "journal": "arXiv preprint arXiv:2406.00924",
+      "author": "Gupta, Shivam and Cai, Linda and Chen, Sitan",
+      "ENTRYTYPE": "article",
+      "ID": "gupta2024faster"
+    },
+    {
+      "year": "2022",
+      "title": "Fast sampling of diffusion models with exponential integrator",
+      "journal": "arXiv preprint arXiv:2204.13902",
+      "author": "Zhang, Qinsheng and Chen, Yongxin",
+      "ENTRYTYPE": "article",
+      "ID": "zhang2022fast"
+    },
+    {
+      "year": "2024",
+      "volume": "36",
+      "title": "Unipc: A unified predictor-corrector framework for fast sampling of diffusion models",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Zhao, Wenliang and Bai, Lujia and Rao, Yongming and Zhou, Jie and Lu, Jiwen",
+      "ENTRYTYPE": "article",
+      "ID": "zhao2024unipc"
+    },
+    {
+      "year": "2021",
+      "title": "Gotta go fast when generating data with score-based models",
+      "journal": "arXiv preprint arXiv:2105.14080",
+      "author": "Jolicoeur-Martineau, Alexia and Li, Ke and Pich{\\'e}-Taillefer, R{\\'e}mi and Kachman, Tal and Mitliagkas, Ioannis",
+      "ENTRYTYPE": "article",
+      "ID": "jolicoeur2021gotta"
+    },
+    {
+      "year": "2022",
+      "volume": "35",
+      "title": "Elucidating the design space of diffusion-based generative models",
+      "pages": "26565--26577",
+      "journal": "Advances in neural information processing systems",
+      "author": "Karras, Tero and Aittala, Miika and Aila, Timo and Laine, Samuli",
+      "ENTRYTYPE": "article",
+      "ID": "karras2022elucidating"
+    },
+    {
+      "year": "2024",
+      "volume": "36",
+      "title": "SA-Solver: Stochastic Adams solver for fast sampling of diffusion models",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Xue, Shuchen and Yi, Mingyang and Luo, Weijian and Zhang, Shifeng and Sun, Jiacheng and Li, Zhenguo and Ma, Zhi-Ming",
+      "ENTRYTYPE": "article",
+      "ID": "xue2024sa"
+    },
+    {
+      "year": "2024",
+      "title": "Neural network-based score estimation in diffusion models: Optimization and generalization",
+      "journal": "arXiv preprint arXiv:2401.15604",
+      "author": "Han, Yinbin and Razaviyayn, Meisam and Xu, Renyuan",
+      "ENTRYTYPE": "article",
+      "ID": "han2024neural"
+    },
+    {
+      "year": "2022",
+      "title": "Diffusion probabilistic modeling of protein backbones in 3d for the motif-scaffolding problem",
+      "journal": "arXiv preprint arXiv:2206.04119",
+      "author": "Trippe, Brian L and Yim, Jason and Tischer, Doug and Baker, David and Broderick, Tamara and Barzilay, Regina and Jaakkola, Tommi",
+      "ENTRYTYPE": "article",
+      "ID": "trippe2022diffusion"
+    },
+    {
+      "year": "2021",
+      "volume": "34",
+      "title": "Diffusion models beat gans on image synthesis",
+      "pages": "8780--8794",
+      "journal": "Advances in neural information processing systems",
+      "author": "Dhariwal, Prafulla and Nichol, Alexander",
+      "ENTRYTYPE": "article",
+      "ID": "dhariwal2021diffusion"
+    },
+    {
+      "year": "2021",
+      "title": "Grad-tts: A diffusion probabilistic model for text-to-speech",
+      "pages": "8599--8608",
+      "organization": "PMLR",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Popov, Vadim and Vovk, Ivan and Gogoryan, Vladimir and Sadekova, Tasnima and Kudinov, Mikhail",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "popov2021grad"
+    },
+    {
+      "year": "2021",
+      "title": "Solving inverse problems in medical imaging with score-based generative models",
+      "journal": "arXiv preprint arXiv:2111.08005",
+      "author": "Song, Yang and Shen, Liyue and Xing, Lei and Ermon, Stefano",
+      "ENTRYTYPE": "article",
+      "ID": "song2021solving"
+    },
+    {
+      "year": "2022",
+      "title": "High-resolution image synthesis with latent diffusion models",
+      "pages": "10684--10695",
+      "booktitle": "Proceedings of the IEEE/CVF conference on computer vision and pattern recognition",
+      "author": "Rombach, Robin and Blattmann, Andreas and Lorenz, Dominik and Esser, Patrick and Ommer, Bj{\\\"o}rn",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "rombach2022high"
+    },
+    {
+      "year": "2022",
+      "volume": "1",
+      "title": "Hierarchical text-conditional image generation with clip latents",
+      "pages": "3",
+      "number": "2",
+      "journal": "arXiv preprint arXiv:2204.06125",
+      "author": "Ramesh, Aditya and Dhariwal, Prafulla and Nichol, Alex and Chu, Casey and Chen, Mark",
+      "ENTRYTYPE": "article",
+      "ID": "ramesh2022hierarchical"
+    },
+    {
+      "year": "2022",
+      "title": "Convergence of denoising diffusion models under the manifold hypothesis",
+      "journal": "arXiv preprint arXiv:2208.05314",
+      "author": "De Bortoli, Valentin",
+      "ENTRYTYPE": "article",
+      "ID": "de2022convergence"
+    },
+    {
+      "year": "2024",
+      "title": "Diffusion models learn low-dimensional distributions via subspace clustering",
+      "journal": "arXiv preprint arXiv:2409.02426",
+      "author": "Wang, Peng and Zhang, Huijie and Zhang, Zekai and Chen, Siyi and Ma, Yi and Qu, Qing",
+      "ENTRYTYPE": "article",
+      "ID": "wang2024diffusion"
+    },
+    {
+      "year": "2023",
+      "title": "The emergence of reproducibility and consistency in diffusion models",
+      "booktitle": "Forty-first International Conference on Machine Learning",
+      "author": "Zhang, Huijie and Zhou, Jinfan and Lu, Yifu and Guo, Minzhe and Wang, Peng and Shen, Liyue and Qu, Qing",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zhang2023emergence"
+    },
+    {
+      "year": "2024",
+      "title": "Stochastic Runge-Kutta Methods: Provable Acceleration of Diffusion Models",
+      "journal": "arXiv preprint arXiv:2410.04760",
+      "author": "Wu, Yuchen and Chen, Yuxin and Wei, Yuting",
+      "ENTRYTYPE": "article",
+      "ID": "wu2024stochastic"
+    },
+    {
+      "year": "2024",
+      "title": "Theoretical insights for diffusion guidance: A case study for gaussian mixture models",
+      "journal": "arXiv preprint arXiv:2403.01639",
+      "author": "Wu, Yuchen and Chen, Minshuo and Li, Zihao and Wang, Mengdi and Wei, Yuting",
+      "ENTRYTYPE": "article",
+      "ID": "wu2024theoretical"
+    },
+    {
+      "year": "2023",
+      "volume": "56",
+      "title": "Diffusion models: A comprehensive survey of methods and applications",
+      "publisher": "ACM New York, NY, USA",
+      "pages": "1--39",
+      "number": "4",
+      "journal": "ACM Computing Surveys",
+      "author": "Yang, Ling and Zhang, Zhilong and Song, Yang and Hong, Shenda and Xu, Runsheng and Zhao, Yue and Zhang, Wentao and Cui, Bin and Yang, Ming-Hsuan",
+      "ENTRYTYPE": "article",
+      "ID": "yang2023diffusion"
+    },
+    {
+      "year": "2024",
+      "title": "An overview of diffusion models: Applications, guided generation, statistical rates and optimization",
+      "journal": "arXiv preprint arXiv:2404.07771",
+      "author": "Chen, Minshuo and Mei, Song and Fan, Jianqing and Wang, Mengdi",
+      "ENTRYTYPE": "article",
+      "ID": "chen2024overview"
+    },
+    {
+      "year": "2024",
+      "volume": "36",
+      "title": "Protein design with guided discrete diffusion",
+      "journal": "Advances in neural information processing systems",
+      "author": "Gruver, Nate and Stanton, Samuel and Frey, Nathan and Rudner, Tim GJ and Hotzel, Isidro and Lafrance-Vanasse, Julien and Rajpal, Arvind and Cho, Kyunghyun and Wilson, Andrew G",
+      "ENTRYTYPE": "article",
+      "ID": "gruver2024protein"
+    },
+    {
+      "year": "2022",
+      "volume": "80",
+      "title": "Score-based diffusion models for accelerated MRI",
+      "publisher": "Elsevier",
+      "pages": "102479",
+      "journal": "Medical image analysis",
+      "author": "Chung, Hyungjin and Ye, Jong Chul",
+      "ENTRYTYPE": "article",
+      "ID": "chung2022score"
+    },
+    {
+      "year": "2022",
+      "title": "Planning with diffusion for flexible behavior synthesis",
+      "journal": "arXiv preprint arXiv:2205.09991",
+      "author": "Janner, Michael and Du, Yilun and Tenenbaum, Joshua B and Levine, Sergey",
+      "ENTRYTYPE": "article",
+      "ID": "janner2022planning"
+    },
+    {
+      "year": "2023",
+      "title": "Contrastive energy prediction for exact energy-guided diffusion sampling in offline reinforcement learning",
+      "pages": "22825--22855",
+      "organization": "PMLR",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Lu, Cheng and Chen, Huayu and Chen, Jianfei and Su, Hang and Li, Chongxuan and Zhu, Jun",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "lu2023contrastive"
+    },
+    {
+      "year": "2022",
+      "title": "Diffusion policies as an expressive policy class for offline reinforcement learning",
+      "journal": "arXiv preprint arXiv:2208.06193",
+      "author": "Wang, Zhendong and Hunt, Jonathan J and Zhou, Mingyuan",
+      "ENTRYTYPE": "article",
+      "ID": "wang2022diffusion"
+    },
+    {
+      "year": "2023",
+      "title": "Diffusion policy: Visuomotor policy learning via action diffusion",
+      "publisher": "SAGE Publications Sage UK: London, England",
+      "pages": "02783649241273668",
+      "journal": "The International Journal of Robotics Research",
+      "author": "Chi, Cheng and Xu, Zhenjia and Feng, Siyuan and Cousineau, Eric and Du, Yilun and Burchfiel, Benjamin and Tedrake, Russ and Song, Shuran",
+      "ENTRYTYPE": "article",
+      "ID": "chi2023diffusion"
+    },
+    {
+      "year": "2022",
+      "title": "Offline reinforcement learning via high-fidelity generative behavior modeling",
+      "journal": "arXiv preprint arXiv:2209.14548",
+      "author": "Chen, Huayu and Lu, Cheng and Ying, Chengyang and Su, Hang and Zhu, Jun",
+      "ENTRYTYPE": "article",
+      "ID": "chen2022offline"
+    },
+    {
+      "year": "2022",
+      "title": "Is conditional generative modeling all you need for decision-making?",
+      "journal": "arXiv preprint arXiv:2211.15657",
+      "author": "Ajay, Anurag and Du, Yilun and Gupta, Abhi and Tenenbaum, Joshua and Jaakkola, Tommi and Agrawal, Pulkit",
+      "ENTRYTYPE": "article",
+      "ID": "ajay2022conditional"
+    },
+    {
+      "year": "2023",
+      "title": "Imitating human behaviour with diffusion models",
+      "journal": "arXiv preprint arXiv:2301.10677",
+      "author": "Pearce, Tim and Rashid, Tabish and Kanervisto, Anssi and Bignell, Dave and Sun, Mingfei and Georgescu, Raluca and Macua, Sergio Valcarcel and Tan, Shan Zheng and Momennejad, Ida and Hofmann, Katja and others",
+      "ENTRYTYPE": "article",
+      "ID": "pearce2023imitating"
+    },
+    {
+      "year": "2023",
+      "title": "Idql: Implicit q-learning as an actor-critic method with diffusion policies",
+      "journal": "arXiv preprint arXiv:2304.10573",
+      "author": "Hansen-Estruch, Philippe and Kostrikov, Ilya and Janner, Michael and Kuba, Jakub Grudzien and Levine, Sergey",
+      "ENTRYTYPE": "article",
+      "ID": "hansen2023idql"
+    },
+    {
+      "year": "2021",
+      "volume": "34",
+      "title": "Structured denoising diffusion models in discrete state-spaces",
+      "pages": "17981--17993",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Austin, Jacob and Johnson, Daniel D and Ho, Jonathan and Tarlow, Daniel and Van Den Berg, Rianne",
+      "ENTRYTYPE": "article",
+      "ID": "austin2021structured"
+    },
+    {
+      "year": "1986",
+      "title": "Time reversal of diffusions",
+      "publisher": "JSTOR",
+      "pages": "1188--1205",
+      "journal": "The Annals of Probability",
+      "author": "Haussmann, Ulrich G and Pardoux, Etienne",
+      "ENTRYTYPE": "article",
+      "ID": "haussmann1986time"
+    },
+    {
+      "year": "2014",
+      "volume": "103",
+      "title": "Analysis and geometry of Markov diffusion operators",
+      "publisher": "Springer",
+      "author": "Bakry, Dominique and Gentil, Ivan and Ledoux, Michel and others",
+      "ENTRYTYPE": "book",
+      "ID": "bakry2014analysis"
+    },
+    {
+      "year": "2022",
+      "volume": "35",
+      "title": "Photorealistic text-to-image diffusion models with deep language understanding",
+      "pages": "36479--36494",
+      "journal": "Advances in neural information processing systems",
+      "author": "Saharia, Chitwan and Chan, William and Saxena, Saurabh and Li, Lala and Whang, Jay and Denton, Emily L and Ghasemipour, Kamyar and Gontijo Lopes, Raphael and Karagol Ayan, Burcu and Salimans, Tim and others",
+      "ENTRYTYPE": "article",
+      "ID": "saharia2022photorealistic"
+    },
+    {
+      "year": "2024",
+      "title": "Optimal score estimation via empirical bayes smoothing",
+      "journal": "arXiv preprint arXiv:2402.07747",
+      "author": "Wibisono, Andre and Wu, Yihong and Yang, Kaylee Yingxi",
+      "ENTRYTYPE": "article",
+      "ID": "wibisono2024optimal"
+    },
+    {
+      "year": "2024",
+      "title": "Minimax Optimality of Score-based Diffusion Models: Beyond the Density Lower Bound Assumptions",
+      "journal": "arXiv preprint arXiv:2402.15602",
+      "author": "Zhang, Kaihong and Yin, Heqi and Liang, Feng and Liu, Jingbo",
+      "ENTRYTYPE": "article",
+      "ID": "zhang2024minimax"
+    },
+    {
+      "year": "2020",
+      "title": "Generative modeling with denoising auto-encoders and Langevin sampling",
+      "journal": "arXiv preprint arXiv:2002.00107",
+      "author": "Block, Adam and Mroueh, Youssef and Rakhlin, Alexander",
+      "ENTRYTYPE": "article",
+      "ID": "block2020generative"
+    },
+    {
+      "year": "2021",
+      "volume": "34",
+      "title": "Diffusion schr{\\\"o}dinger bridge with applications to score-based generative modeling",
+      "pages": "17695--17709",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "De Bortoli, Valentin and Thornton, James and Heng, Jeremy and Doucet, Arnaud",
+      "ENTRYTYPE": "article",
+      "ID": "de2021diffusion"
+    },
+    {
+      "year": "2023",
+      "title": "Diffusion models are minimax optimal distribution estimators",
+      "pages": "26517--26582",
+      "organization": "PMLR",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Oko, Kazusato and Akiyama, Shunta and Suzuki, Taiji",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "oko2023diffusion"
+    },
+    {
+      "year": "2024",
+      "title": "Linear Convergence of Diffusion Models Under the Manifold Hypothesis",
+      "journal": "arXiv preprint arXiv:2410.09046",
+      "author": "Potaptchik, Peter and Azangulov, Iskander and Deligiannidis, George",
+      "ENTRYTYPE": "article",
+      "ID": "potaptchik2024linear"
+    },
+    {
+      "year": "2024",
+      "title": "Denoising diffusion probabilistic models are optimally adaptive to unknown low dimensionality",
+      "journal": "arXiv preprint arXiv:2410.18784",
+      "author": "Huang, Zhihan and Wei, Yuting and Chen, Yuxin",
+      "ENTRYTYPE": "article",
+      "ID": "huang2024denoising"
+    },
+    {
+      "year": "2024",
+      "title": "Contractive diffusion probabilistic models",
+      "journal": "arXiv preprint arXiv:2401.13115",
+      "author": "Tang, Wenpin and Zhao, Hanyang",
+      "ENTRYTYPE": "article",
+      "ID": "tang2024contractive"
+    },
+    {
+      "year": "2024",
+      "title": "Accelerating Diffusion Models with Parallel Sampling: Inference at Sub-Linear Time Complexity",
+      "journal": "arXiv preprint arXiv:2405.15986",
+      "author": "Chen, Haoxuan and Ren, Yinuo and Ying, Lexing and Rotskoff, Grant M",
+      "ENTRYTYPE": "article",
+      "ID": "chen2024accelerating"
+    },
+    {
+      "year": "2022",
+      "title": "Let us build bridges: Understanding and extending diffusion generative models",
+      "journal": "arXiv preprint arXiv:2208.14699",
+      "author": "Liu, Xingchao and Wu, Lemeng and Ye, Mao and Liu, Qiang",
+      "ENTRYTYPE": "article",
+      "ID": "liu2022let"
+    },
+    {
+      "year": "2022",
+      "volume": "35",
+      "title": "Score-based generative models detect manifolds",
+      "pages": "35852--35865",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Pidstrigach, Jakiw",
+      "ENTRYTYPE": "article",
+      "ID": "pidstrigach2022score"
+    },
+    {
+      "year": "2024",
+      "title": "Adapting to Unknown Low-Dimensional Structures in Score-Based Diffusion Models",
+      "journal": "arXiv preprint arXiv:2405.14861",
+      "author": "Li, Gen and Yan, Yuling",
+      "ENTRYTYPE": "article",
+      "ID": "li2024adapting"
+    },
+    {
+      "year": "2022",
+      "volume": "68",
+      "title": "An information-theoretic view of stochastic localization",
+      "publisher": "IEEE",
+      "pages": "7423--7426",
+      "number": "11",
+      "journal": "IEEE Transactions on Information Theory",
+      "author": "El Alaoui, Ahmed and Montanari, Andrea",
+      "ENTRYTYPE": "article",
+      "ID": "el2022information"
+    },
+    {
+      "year": "2023",
+      "title": "Sampling, diffusions, and stochastic localization",
+      "journal": "arXiv preprint arXiv:2305.10690",
+      "author": "Montanari, Andrea",
+      "ENTRYTYPE": "article",
+      "ID": "montanari2023sampling"
+    },
+    {
+      "year": "2024",
+      "title": "Convergence of Diffusion Models Under the Manifold Hypothesis in High-Dimensions",
+      "journal": "arXiv preprint arXiv:2409.18804",
+      "author": "Azangulov, Iskander and Deligiannidis, George and Rousseau, Judith",
+      "ENTRYTYPE": "article",
+      "ID": "azangulov2024convergence"
+    },
+    {
+      "year": "2024",
+      "title": "From optimal score matching to optimal sampling",
+      "journal": "arXiv preprint arXiv:2409.07032",
+      "author": "Dou, Zehao and Kotekal, Subhodh and Xu, Zhehao and Zhou, Harrison H",
+      "ENTRYTYPE": "article",
+      "ID": "dou2024optimal"
+    },
+    {
+      "year": "2023",
+      "title": "Score approximation, estimation and distribution recovery of diffusion models on low-dimensional data",
+      "pages": "4672--4712",
+      "organization": "PMLR",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Chen, Minshuo and Huang, Kaixuan and Zhao, Tuo and Wang, Mengdi",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "chen2023score"
+    },
+    {
+      "year": "2022",
+      "title": "Dpm-solver++: Fast solver for guided sampling of diffusion probabilistic models",
+      "journal": "arXiv preprint arXiv:2211.01095",
+      "author": "Lu, Cheng and Zhou, Yuhao and Bao, Fan and Chen, Jianfei and Li, Chongxuan and Zhu, Jun",
+      "ENTRYTYPE": "article",
+      "ID": "lu2022dpm++"
+    },
+    {
+      "year": "2023",
+      "title": "Analysis of learning a flow-based generative model from limited sample complexity",
+      "journal": "arXiv preprint arXiv:2310.03575",
+      "author": "Cui, Hugo and Krzakala, Florent and Vanden-Eijnden, Eric and Zdeborov{\\'a}, Lenka",
+      "ENTRYTYPE": "article",
+      "ID": "cui2023analysis"
+    },
+    {
+      "year": "2024",
+      "title": "Adaptivity of diffusion models to manifold structures",
+      "pages": "1648--1656",
+      "organization": "PMLR",
+      "booktitle": "International Conference on Artificial Intelligence and Statistics",
+      "author": "Tang, Rong and Yang, Yun",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "tang2024adaptivity"
+    },
+    {
+      "year": "2023",
+      "title": "Deep networks as denoising algorithms: Sample-efficient learning of diffusion models in high-dimensional graphical models",
+      "journal": "arXiv preprint arXiv:2309.11420",
+      "author": "Mei, Song and Wu, Yuchen",
+      "ENTRYTYPE": "article",
+      "ID": "mei2023deep"
+    },
+    {
+      "year": "2023",
+      "title": "Sampling from mean-field gibbs measures via diffusion processes",
+      "journal": "arXiv preprint arXiv:2310.08912",
+      "author": "Alaoui, Ahmed El and Montanari, Andrea and Sellke, Mark",
+      "ENTRYTYPE": "article",
+      "ID": "alaoui2023sampling"
+    },
+    {
+      "year": "2023",
+      "title": "Posterior sampling from the spiked models via diffusion processes",
+      "journal": "arXiv preprint arXiv:2304.11449",
+      "author": "Montanari, Andrea and Wu, Yuchen",
+      "ENTRYTYPE": "article",
+      "ID": "montanari2023posterior"
+    },
+    {
+      "year": "2023",
+      "title": "Stochastic interpolants: A unifying framework for flows and diffusions",
+      "journal": "arXiv preprint arXiv:2303.08797",
+      "author": "Albergo, Michael S and Boffi, Nicholas M and Vanden-Eijnden, Eric",
+      "ENTRYTYPE": "article",
+      "ID": "albergo2023stochastic"
+    },
+    {
+      "year": "2020",
+      "volume": "176",
+      "title": "Taming correlations through entropy-efficient measure decompositions with applications to mean-field approximation",
+      "publisher": "Springer",
+      "pages": "737--755",
+      "number": "3",
+      "journal": "Probability Theory and Related Fields",
+      "author": "Eldan, Ronen",
+      "ENTRYTYPE": "article",
+      "ID": "eldan2020taming"
+    },
+    {
+      "year": "2024",
+      "title": "Convergence of flow-based generative models via proximal gradient descent in wasserstein space",
+      "publisher": "IEEE",
+      "journal": "IEEE Transactions on Information Theory",
+      "author": "Cheng, Xiuyuan and Lu, Jianfeng and Tan, Yixin and Xie, Yao",
+      "ENTRYTYPE": "article",
+      "ID": "cheng2024convergence"
+    },
+    {
+      "year": "2024",
+      "volume": "36",
+      "title": "Normalizing flow neural networks by JKO scheme",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Xu, Chen and Cheng, Xiuyuan and Xie, Yao",
+      "ENTRYTYPE": "article",
+      "ID": "xu2024normalizing"
+    },
+    {
+      "year": "2024",
+      "title": "Posterior sampling via Langevin dynamics based on generative priors",
+      "journal": "arXiv preprint arXiv:2410.02078",
+      "author": "Purohit, Vishal and Repasky, Matthew and Lu, Jianfeng and Qiu, Qiang and Xie, Yao and Cheng, Xiuyuan",
+      "ENTRYTYPE": "article",
+      "ID": "purohit2024posterior"
+    }
+  ]
+}

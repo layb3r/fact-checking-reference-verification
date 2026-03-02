@@ -1,0 +1,703 @@
+{
+  "pdf_url": "https://arxiv.org/pdf/2501.18792v5.pdf",
+  "references": [
+    {
+      "organization": "PMLR",
+      "year": "2020",
+      "pages": "4496--4507",
+      "booktitle": "International Conference on Artificial Intelligence and Statistics",
+      "author": "Astudillo, Raul and Frazier, Peter",
+      "title": "{Multi-attribute {B}ayesian optimization with interactive preference learning}",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "astudillo2020multi"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2022",
+      "pages": "4235--4258",
+      "booktitle": "International Conference on Artificial Intelligence and Statistics",
+      "author": "Lin, Zhiyuan Jerry and Astudillo, Raul and Frazier, Peter and Bakshy, Eytan",
+      "title": "{Preference exploration for efficient Bayesian optimization with multiple outcomes}",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "lin2022preference"
+    },
+    {
+      "year": "2024",
+      "pages": "14490--14498",
+      "number": "13",
+      "volume": "38",
+      "booktitle": "AAAI Conference on Artificial Intelligence",
+      "author": "Ozaki, Ryota and Ishikawa, Kazuki and Kanzaki, Youhei and Takeno, Shion and Takeuchi, Ichiro and Karasuyama, Masayuki",
+      "title": "{Multi-Objective Bayesian Optimization with Active Preference Learning}",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ozaki2024multi"
+    },
+    {
+      "year": "2023",
+      "pages": "1997--2003",
+      "booktitle": "Genetic and Evolutionary Computation Conference Companion Proceedings",
+      "author": "Ungredda, Juan and Branke, Juergen",
+      "title": "{When to elicit preferences in multi-objective Bayesian optimization}",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ungredda2023elicit"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2015",
+      "pages": "2171--2180",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Snoek, Jasper and Rippel, Oren and Swersky, Kevin and Kiros, Ryan and Satish, Nadathur and Sundaram, Narayanan and Patwary, Mostofa and Prabhat, Mr and Adams, Ryan",
+      "title": "{Scalable Bayesian optimization using deep neural networks}",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "snoek2015scalable"
+    },
+    {
+      "year": "2016",
+      "volume": "29",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Springenberg, Jost Tobias and Klein, Aaron and Falkner, Stefan and Hutter, Frank",
+      "title": "{Bayesian optimization with robust {B}ayesian neural networks}",
+      "ENTRYTYPE": "article",
+      "ID": "springenberg2016bayesian"
+    },
+    {
+      "year": "1997",
+      "volume": "10",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Sill, Joseph",
+      "title": "{Monotonic networks}",
+      "ENTRYTYPE": "article",
+      "ID": "sill1997monotonic"
+    },
+    {
+      "year": "2017",
+      "volume": "30",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Lakshminarayanan, Balaji and Pritzel, Alexander and Blundell, Charles",
+      "title": "{Simple and scalable predictive uncertainty estimation using deep ensembles}",
+      "ENTRYTYPE": "article",
+      "ID": "lakshminarayanan2017simple"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2017",
+      "pages": "1282--1291",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Gonz{\\'a}lez, Javier and Dai, Zhenwen and Damianou, Andreas and Lawrence, Neil D",
+      "title": "{Preferential Bayesian optimization}",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "gonzalez2017preferential"
+    },
+    {
+      "year": "2005",
+      "pages": "137--144",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Chu, Wei and Ghahramani, Zoubin",
+      "title": "{Preference learning with Gaussian processes}",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "chu2005preference"
+    },
+    {
+      "organization": "JMLR Workshop and Conference Proceedings",
+      "year": "2010",
+      "pages": "645--652",
+      "booktitle": "Proceedings of the thirteenth International Conference on Artificial Intelligence and Statistics",
+      "author": "Riihim{\\\"a}ki, Jaakko and Vehtari, Aki",
+      "title": "{Gaussian processes with monotonicity information}",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "riihimaki2010gaussian"
+    },
+    {
+      "organization": "IEEE",
+      "year": "2018",
+      "pages": "1150--1155",
+      "booktitle": "IEEE Conference on Decision and Control",
+      "author": "Chin, Robert and Manzie, Chris and Ira, Alex and Nesic, Dragan and Shames, Iman",
+      "title": "{Gaussian processes with monotonicity constraints for preference learning from pairwise comparisons}",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "chin2018gaussian"
+    },
+    {
+      "year": "2016",
+      "journal": "arXiv preprint arXiv:1612.04453",
+      "author": "Dewancker, Ian and McCourt, Michael and Ainsworth, Samuel",
+      "title": "{Interactive preference learning of utility functions for multi-objective optimization}",
+      "ENTRYTYPE": "article",
+      "ID": "dewancker2016interactive"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "2018",
+      "pages": "849--860",
+      "number": "5",
+      "volume": "27",
+      "journal": "IEEE Transactions on Fuzzy Systems",
+      "author": "Li, Ke and Chen, Renzhi and Savi{\\'c}, Dragan and Yao, Xin",
+      "title": "{Interactive decomposition multiobjective optimization via progressively learned value functions}",
+      "ENTRYTYPE": "article",
+      "ID": "li2018interactive"
+    },
+    {
+      "organization": "IEEE",
+      "year": "2010",
+      "pages": "1--8",
+      "booktitle": "IEEE Congress on Evolutionary Computation",
+      "author": "Sinha, Ankur and Deb, Kalyanmoy and Korhonen, Pekka and Wallenius, Jyrki",
+      "title": "{Progressively interactive evolutionary multi-objective optimization method using generalized polynomial value functions}",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "sinha2010progressively"
+    },
+    {
+      "year": "2017",
+      "volume": "30",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Christiano, Paul F and Leike, Jan and Brown, Tom and Martic, Miljan and Legg, Shane and Amodei, Dario",
+      "title": "{Deep reinforcement learning from human preferences}",
+      "ENTRYTYPE": "article",
+      "ID": "christiano2017deep"
+    },
+    {
+      "year": "2017",
+      "journal": "arXiv preprint arXiv:1711.00165",
+      "author": "Lee, Jaehoon and Bahri, Yasaman and Novak, Roman and Schoenholz, Samuel S and Pennington, Jeffrey and Sohl-Dickstein, Jascha",
+      "title": "{Deep neural networks as {G}aussian processes}",
+      "ENTRYTYPE": "article",
+      "ID": "lee2017deep"
+    },
+    {
+      "year": "2019",
+      "volume": "32",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Abdolshah, Majid and Shilton, Alistair and Rana, Santu and Gupta, Sunil and Venkatesh, Svetha",
+      "title": "{Multi-objective {B}ayesian optimisation with preferences over objectives}",
+      "ENTRYTYPE": "article",
+      "ID": "abdolshah2019multi"
+    },
+    {
+      "year": "2021",
+      "pages": "466--475",
+      "booktitle": "Proceedings of the Genetic and Evolutionary Computation Conference",
+      "author": "Taylor, Kendall and Ha, Huong and Li, Minyi and Chan, Jeffrey and Li, Xiaodong",
+      "title": "{Bayesian preference learning for interactive multi-objective optimisation}",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "taylor2021bayesian"
+    },
+    {
+      "organization": "Springer",
+      "year": "2019",
+      "pages": "533--544",
+      "booktitle": "Machine Learning, Optimization, and Data Science: 4th International Conference, LOD 2018, Volterra, Italy, September 13-16, 2018, Revised Selected Papers 4",
+      "author": "Feliot, Paul and Bect, Julien and Vazquez, Emmanuel",
+      "title": "{User preferences in Bayesian multi-objective optimization: the expected weighted hypervolume improvement criterion}",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "feliot2019user"
+    },
+    {
+      "organization": "IEEE",
+      "year": "2021",
+      "pages": "1--6",
+      "booktitle": "IEEE International Workshop on Machine Learning for Signal Processing",
+      "author": "Siivola, Eero and Dhaka, Akash Kumar and Andersen, Michael Riis and Gonz{\\'a}lez, Javier and Moreno, Pablo Garc{\\'\\i}a and Vehtari, Aki",
+      "title": "{Preferential batch Bayesian optimization}",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "siivola2021preferential"
+    },
+    {
+      "year": "2020",
+      "pages": "8521--8531",
+      "volume": "33",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Li, Shibo and Xing, Wei and Kirby, Robert and Zhe, Shandian",
+      "title": "{Multi-fidelity Bayesian Optimization via deep neural networks}",
+      "ENTRYTYPE": "article",
+      "ID": "li2020multi"
+    },
+    {
+      "publisher": "Wiley Online Library",
+      "year": "2021",
+      "pages": "2100101",
+      "number": "11",
+      "volume": "3",
+      "journal": "Advanced Intelligent Systems",
+      "author": "Lim, Yee-Fun and Ng, Chee Koon and Vaitesswar, US and Hippalgaonkar, Kedar",
+      "title": "{Extrapolative Bayesian optimization with Gaussian process and neural network ensemble surrogate models}",
+      "ENTRYTYPE": "article",
+      "ID": "lim2021extrapolative"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "1990",
+      "pages": "993--1001",
+      "number": "10",
+      "volume": "12",
+      "journal": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+      "author": "Hansen, Lars Kai and Salamon, Peter",
+      "title": "{Neural network ensembles}",
+      "ENTRYTYPE": "article",
+      "ID": "hansen1990neural"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2023",
+      "pages": "33516--33533",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Takeno, Shion and Nomura, Masahiro and Karasuyama, Masayuki",
+      "title": "{Towards practical preferential Bayesian optimization with skew Gaussian processes}",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "takeno2023towards"
+    },
+    {
+      "publisher": "Springer",
+      "year": "2020",
+      "pages": "1877--1902",
+      "number": "9",
+      "volume": "109",
+      "journal": "Machine Learning",
+      "author": "Benavoli, Alessio and Azzimonti, Dario and Piga, Dario",
+      "title": "{Skew Gaussian processes for classification}",
+      "ENTRYTYPE": "article",
+      "ID": "benavoli2020skew"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2016",
+      "pages": "1050--1059",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Gal, Yarin and Ghahramani, Zoubin",
+      "title": "{Dropout as a Bayesian approximation: Representing model uncertainty in deep learning}",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "gal2016dropout"
+    },
+    {
+      "year": "2022",
+      "pages": "8041--8053",
+      "volume": "35",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "L{\\'o}pez-Lopera, Andr{\\'e}s and Bachoc, Fran{\\c{c}}ois and Roustant, Olivier",
+      "title": "{High-dimensional additive Gaussian processes under monotonicity constraints}",
+      "ENTRYTYPE": "article",
+      "ID": "lopez2022high"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2408.01540",
+      "author": "Barnett, Steven D and Beesley, Lauren J and Booth, Annie S and Gramacy, Robert B and Osthus, Dave",
+      "title": "{Monotonic warpings for additive and deep Gaussian processes}",
+      "ENTRYTYPE": "article",
+      "ID": "barnett2024monotonic"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "2006",
+      "pages": "50--66",
+      "number": "1",
+      "volume": "10",
+      "journal": "IEEE Transactions on Evolutionary Computation",
+      "author": "Knowles, Joshua",
+      "title": "{ParEGO: A hybrid algorithm with on-line landscape approximation for expensive multiobjective optimization problems}",
+      "ENTRYTYPE": "article",
+      "ID": "knowles2006parego"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "2019",
+      "pages": "945--956",
+      "volume": "44",
+      "journal": "Swarm and Evolutionary Computation",
+      "author": "Yang, Kaifeng and Emmerich, Michael and Deutz, Andr{\\'e} and B{\\\"a}ck, Thomas",
+      "title": "{Multi-objective Bayesian global optimization using expected hypervolume improvement gradient}",
+      "ENTRYTYPE": "article",
+      "ID": "yang2019multi"
+    },
+    {
+      "year": "2020",
+      "pages": "9851--9864",
+      "volume": "33",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Daulton, Samuel and Balandat, Maximilian and Bakshy, Eytan",
+      "title": "{Differentiable expected hypervolume improvement for parallel multi-objective Bayesian optimization}",
+      "ENTRYTYPE": "article",
+      "ID": "daulton2020differentiable"
+    },
+    {
+      "year": "2010",
+      "pages": "289--296",
+      "booktitle": "International Conference on Artificial Intelligence and Statistics",
+      "author": "Guo, Shengbo and Sanner, Scott",
+      "title": "{Real-time multiattribute Bayesian preference elicitation with pairwise comparison queries}",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "guo2010real"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2019",
+      "pages": "354--363",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Astudillo, Raul and Frazier, Peter",
+      "title": "{Bayesian optimization of composite functions}",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "astudillo2019bayesian"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2022",
+      "pages": "20459--20478",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Stanton, Samuel and Maddox, Wesley and Gruver, Nate and Maffettone, Phillip and Delaney, Emily and Greenside, Peyton and Wilson, Andrew Gordon",
+      "title": "{Accelerating Bayesian optimization for biological sequence design with denoising autoencoders}",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "stanton2022accelerating"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "2023",
+      "number": "2",
+      "volume": "4",
+      "journal": "Patterns",
+      "author": "Fromer, Jenna C and Coley, Connor W",
+      "title": "{Computer-aided multi-objective optimization in small molecule discovery}",
+      "ENTRYTYPE": "article",
+      "ID": "fromer2023computer"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2023",
+      "pages": "1093--1114",
+      "booktitle": "International Conference on Artificial Intelligence and Statistics",
+      "author": "Astudillo, Raul and Lin, Zhiyuan Jerry and Bakshy, Eytan and Frazier, Peter",
+      "title": "{qEUBO: A decision-theoretic acquisition function for preferential Bayesian optimization}",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "astudillo2023qeubo"
+    },
+    {
+      "year": "2018",
+      "volume": "31",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Wilson, James and Hutter, Frank and Deisenroth, Marc",
+      "title": "{Maximizing acquisition functions for Bayesian optimization}",
+      "ENTRYTYPE": "article",
+      "ID": "wilson2018maximizing"
+    },
+    {
+      "year": "2020",
+      "pages": "21524--21538",
+      "volume": "33",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Balandat, Maximilian and Karrer, Brian and Jiang, Daniel and Daulton, Samuel and Letham, Ben and Wilson, Andrew G and Bakshy, Eytan",
+      "title": "{BoTorch: A framework for efficient Monte-Carlo Bayesian optimization}",
+      "ENTRYTYPE": "article",
+      "ID": "balandat2020botorch"
+    },
+    {
+      "organization": "AAAI Press, Menlo Park, CA",
+      "year": "2005",
+      "volume": "1",
+      "booktitle": "IJCAI Multidisciplinary Workshop on Advances in Preference Handling",
+      "author": "Rennie, Jason DM and Srebro, Nathan",
+      "title": "{Loss functions for preference levels: Regression with discrete ordered labels}",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "rennie2005loss"
+    },
+    {
+      "year": "2021",
+      "pages": "11809--11820",
+      "volume": "34",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Wang, Deng-Bao and Feng, Lei and Zhang, Min-Ling",
+      "title": "{Rethinking calibration of deep neural networks: Do not be afraid of overconfidence}",
+      "ENTRYTYPE": "article",
+      "ID": "wang2021rethinking"
+    },
+    {
+      "year": "2021",
+      "pages": "10293--10301",
+      "number": "12",
+      "volume": "35",
+      "booktitle": "AAAI Conference on Artificial Intelligence",
+      "author": "White, Colin and Neiswanger, Willie and Savani, Yash",
+      "title": "{Bananas: Bayesian optimization with neural architectures for neural architecture search}",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "white2021bananas"
+    },
+    {
+      "year": "2017",
+      "journal": "arXiv preprint arXiv:1710.05941",
+      "author": "Ramachandran, Prajit and Zoph, Barret and Le, Quoc V",
+      "title": "{Searching for activation functions}",
+      "ENTRYTYPE": "article",
+      "ID": "ramachandran2017searching"
+    },
+    {
+      "year": "2015",
+      "journal": "arXiv preprint arXiv:1505.00853",
+      "author": "Xu, Bing",
+      "title": "{Empirical evaluation of rectified activations in convolutional network}",
+      "ENTRYTYPE": "article",
+      "ID": "xu2015empirical"
+    },
+    {
+      "year": "2021",
+      "journal": "arXiv preprint arXiv:2104.11667",
+      "author": "Kim, Samuel and Lu, Peter Y and Loh, Charlotte and Smith, Jamie and Snoek, Jasper and Solja{\\v{c}}i{\\'c}, Marin",
+      "title": "{Deep learning for Bayesian optimization of scientific problems with high-dimensional structure}",
+      "ENTRYTYPE": "article",
+      "ID": "kim2021deep"
+    },
+    {
+      "year": "2022",
+      "journal": "Transactions on Machine Learning Research",
+      "author": "Kim, Samuel and Lu, Peter Y and Loh, Charlotte and Smith, Jamie and Snoek, Jasper and Soljacic, Marin",
+      "title": "{Deep Learning for Bayesian Optimization of Scientific Problems with High-Dimensional Structure}",
+      "ENTRYTYPE": "article",
+      "ID": "kimdeep"
+    },
+    {
+      "year": "2024",
+      "booktitle": "International Conference on Learning Representations",
+      "author": "Li, Yucen Lily and Rudner, Tim GJ and Wilson, Andrew Gordon",
+      "title": "{A Study of Bayesian Neural Network Surrogates for Bayesian Optimization}",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "listudy"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "2022",
+      "pages": "2645--2651",
+      "number": "2",
+      "volume": "45",
+      "journal": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+      "author": "Lee, Sungyoon and Kim, Hoki and Lee, Jaewook",
+      "title": "Graddiv: Adversarial robustness of randomized neural networks via gradient diversity regularization",
+      "ENTRYTYPE": "article",
+      "ID": "lee2022graddiv"
+    },
+    {
+      "year": "2019",
+      "volume": "32",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Ovadia, Yaniv and Fertig, Emily and Ren, Jie and Nado, Zachary and Sculley, David and Nowozin, Sebastian and Dillon, Joshua and Lakshminarayanan, Balaji and Snoek, Jasper",
+      "title": "Can you trust your model's uncertainty? {E}valuating predictive uncertainty under dataset shift",
+      "ENTRYTYPE": "article",
+      "ID": "ovadia2019can"
+    },
+    {
+      "year": "2005",
+      "pages": "89--96",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Burges, Chris and Shaked, Tal and Renshaw, Erin and Lazier, Ari and Deeds, Matt and Hamilton, Nicole and Hullender, Greg",
+      "title": "{Learning to rank using gradient descent}",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "burges2005learning"
+    },
+    {
+      "year": "2018",
+      "journal": "Journal of Machine Learning Research",
+      "title": "{Pyro: Deep Universal Probabilistic Programming}",
+      "author": "Bingham, Eli and Chen, Jonathan P. and Jankowiak, Martin and Obermeyer, Fritz and\nPradhan, Neeraj and Karaletsos, Theofanis and Singh, Rohit and Szerlip, Paul and\nHorsfall, Paul and Goodman, Noah D.",
+      "ENTRYTYPE": "article",
+      "ID": "bingham2018pyro"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2018",
+      "pages": "3868--3877",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Oh, ChangYong and Gavves, Efstratios and Welling, Max",
+      "title": "{BOCK: Bayesian optimization with cylindrical kernels}",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "oh2018bock"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2020",
+      "pages": "234--244",
+      "booktitle": "International conference on artificial intelligence and statistics",
+      "author": "Pearce, Tim and Leibfried, Felix and Brintrup, Alexandra",
+      "title": "{Uncertainty in neural networks: Approximately bayesian ensembling}",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "pearce2020uncertainty"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "2020",
+      "pages": "106078",
+      "volume": "89",
+      "journal": "Applied Soft Computing",
+      "author": "Tanabe, Ryoji and Ishibuchi, Hisao",
+      "title": "{An easy-to-use real-world multi-objective optimization problem suite}",
+      "ENTRYTYPE": "article",
+      "ID": "tanabe2020easy"
+    },
+    {
+      "publisher": "Springer",
+      "year": "2008",
+      "pages": "561--569",
+      "volume": "35",
+      "journal": "Structural and Multidisciplinary Optimization",
+      "author": "Liao, Xingtao and Li, Qing and Yang, Xujing and Zhang, Weigang and Li, Wei",
+      "title": "{Multiobjective optimization for crash safety design of vehicles using stepwise regression model}",
+      "ENTRYTYPE": "article",
+      "ID": "liao2008multiobjective"
+    },
+    {
+      "publisher": "Springer",
+      "year": "2005",
+      "pages": "105--145",
+      "booktitle": "Evolutionary Multiobjective Optimization: Theoretical Advances and Applications",
+      "author": "Deb, Kalyanmoy and Thiele, Lothar and Laumanns, Marco and Zitzler, Eckart",
+      "title": "Scalable test problems for evolutionary multiobjective optimization",
+      "ENTRYTYPE": "incollection",
+      "ID": "deb2005scalable"
+    },
+    {
+      "year": "1999",
+      "pages": "351--357",
+      "booktitle": "ACM Symposium on Applied Computing",
+      "author": "Van Veldhuizen, David A and Lamont, Gary B",
+      "title": "Multiobjective evolutionary algorithm test suites",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "van1999multiobjective"
+    },
+    {
+      "publisher": "Springer",
+      "year": "1995",
+      "pages": "94--99",
+      "volume": "10",
+      "journal": "Structural Optimization",
+      "author": "Osyczka, Andrzej and Kundu, Sourav",
+      "title": "{A new method to solve generalized multicriteria optimization problems using the simple genetic algorithm}",
+      "ENTRYTYPE": "article",
+      "ID": "osyczka1995new"
+    },
+    {
+      "year": "2019",
+      "journal": "arXiv preprint arXiv:1912.11554",
+      "title": "Composable Effects for Flexible and Accelerated Probabilistic Programming in {NumPyro}",
+      "author": "Phan, Du and Pradhan, Neeraj and Jankowiak, Martin",
+      "ENTRYTYPE": "article",
+      "ID": "phan2019composable"
+    },
+    {
+      "year": "2014",
+      "pages": "1593--1623",
+      "number": "1",
+      "volume": "15",
+      "journal": "Journal of Machine Learning Research",
+      "author": "Hoffman, Matthew D and Gelman, Andrew and others",
+      "title": "The {No-U-Turn} sampler: adaptively setting path lengths in {Hamiltonian Monte Carlo}.",
+      "ENTRYTYPE": "article",
+      "ID": "hoffman2014no"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "2013",
+      "pages": "577--601",
+      "number": "4",
+      "volume": "18",
+      "journal": "IEEE Transactions on Evolutionary Computation",
+      "author": "Deb, Kalyanmoy and Jain, Himanshu",
+      "title": "{An evolutionary many-objective optimization algorithm using reference-point-based nondominated sorting approach, part I: solving problems with box constraints}",
+      "ENTRYTYPE": "article",
+      "ID": "deb2013evolutionary"
+    },
+    {
+      "publisher": "Springer",
+      "year": "2010",
+      "pages": "65--82",
+      "booktitle": "Preference learning",
+      "author": "F{\\\"u}rnkranz, Johannes and H{\\\"u}llermeier, Eyke",
+      "title": "Preference learning and ranking by pairwise comparison",
+      "ENTRYTYPE": "incollection",
+      "ID": "furnkranz2010preference"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "2008",
+      "pages": "210--212",
+      "number": "2",
+      "volume": "16",
+      "journal": "IEEE Transactions on Very Large Scale Integration (VLSI) Systems",
+      "author": "Nadarajah, Saralees and Kotz, Samuel",
+      "title": "{Exact distribution of the max/min of two Gaussian random variables}",
+      "ENTRYTYPE": "article",
+      "ID": "nadarajah2008exact"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2503.00924",
+      "author": "Zhang, Xinyu and Huang, Daolang and Kaski, Samuel and Martinelli, Julien",
+      "title": "{PABBO: Preferential Amortized Black-Box Optimization}",
+      "ENTRYTYPE": "article",
+      "ID": "zhang2025pabbo"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2406.14699",
+      "author": "Astudillo, Raul and Li, Kejun and Tucker, Maegan and Cheng, Chu Xin and Ames, Aaron D and Yue, Yisong",
+      "title": "Preferential multi-objective {B}ayesian optimization",
+      "ENTRYTYPE": "article",
+      "ID": "astudillo2024preferential"
+    },
+    {
+      "publisher": "Oxford university press New York",
+      "year": "1995",
+      "volume": "1",
+      "author": "Mas-Colell, Andreu and Whinston, Michael Dennis and Green, Jerry R and others",
+      "title": "Microeconomic theory",
+      "ENTRYTYPE": "book",
+      "ID": "mas1995microeconomic"
+    },
+    {
+      "publisher": "MIT Press",
+      "year": "2000",
+      "pages": "173--195",
+      "number": "2",
+      "volume": "8",
+      "journal": "Evolutionary Computation",
+      "author": "Zitzler, Eckart and Deb, Kalyanmoy and Thiele, Lothar",
+      "title": "Comparison of multiobjective evolutionary algorithms: Empirical results",
+      "ENTRYTYPE": "article",
+      "ID": "zitzler2000comparison"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2020",
+      "pages": "6884--6892",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Mikkola, Petrus and Todorovi{\\'c}, Milica and J{\\\"a}rvi, Jari and Rinke, Patrick and Kaski, Samuel",
+      "title": "Projective preferential {B}ayesian optimization",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "mikkola2020projective"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2402.05367",
+      "author": "Xu, Wenjie and Wang, Wenbin and Jiang, Yuning and Svetozarevic, Bratislav and Jones, Colin N",
+      "title": "{Principled preferential Bayesian optimization}",
+      "ENTRYTYPE": "article",
+      "ID": "xu2024principled"
+    },
+    {
+      "organization": "Springer",
+      "year": "2024",
+      "pages": "234--250",
+      "booktitle": "Joint European Conference on Machine Learning and Knowledge Discovery in Databases",
+      "author": "Arun Kumar, AV and Shilton, Alistair and Gupta, Sunil and Rana, Santu and Greenhill, Stewart and Venkatesh, Svetha",
+      "title": "{Enhanced Bayesian optimization via preferential modeling of abstract properties}",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "arun2024enhanced"
+    },
+    {
+      "publisher": "Wiley Online Library",
+      "year": "2025",
+      "pages": "e70019",
+      "number": "3",
+      "volume": "32",
+      "journal": "Journal of Multi-Criteria Decision Analysis",
+      "author": "Huber, Felix and Rojas Gonzalez, Sebastian and Astudillo, Raul",
+      "title": "{Bayesian Preference Elicitation for Decision Support in Multi-Objective Optimization}",
+      "ENTRYTYPE": "article",
+      "ID": "huber2025bayesian"
+    }
+  ]
+}

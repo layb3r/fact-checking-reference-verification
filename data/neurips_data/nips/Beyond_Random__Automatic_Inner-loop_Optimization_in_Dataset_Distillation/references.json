@@ -1,0 +1,595 @@
+{
+  "pdf_url": "https://arxiv.org/pdf/2510.04838v2.pdf",
+  "references": [
+    {
+      "year": "2017",
+      "publisher": "{PMLR}",
+      "pages": "233--242",
+      "volume": "70",
+      "series": "Proceedings of Machine Learning Research",
+      "booktitle": "Proceedings of the 34th International Conference on Machine Learning,\n{ICML}",
+      "title": "A Closer Look at Memorization in Deep Networks",
+      "editor": "Doina Precup and\nYee Whye Teh",
+      "author": "Devansh Arpit and\nStanislaw Jastrzebski and\nNicolas Ballas and\nDavid Krueger and\nEmmanuel Bengio and\nMaxinder S. Kanwal and\nTegan Maharaj and\nAsja Fischer and\nAaron C. Courville and\nYoshua Bengio and\nSimon Lacoste{-}Julien",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "DBLP:conf/icml/ArpitJBKBKMFCBL17"
+    },
+    {
+      "journal": "Technical report Citeseer",
+      "year": "2009",
+      "author": "Krizhevsky, Alex and Hinton, Geoffrey and others",
+      "title": "Learning multiple layers of features from tiny images",
+      "ENTRYTYPE": "article",
+      "ID": "krizhevsky2009learning"
+    },
+    {
+      "year": "2015",
+      "pages": "3",
+      "number": "7",
+      "volume": "7",
+      "journal": "Technical Report",
+      "author": "Ya Le and Xuan Yang",
+      "title": "Tiny imagenet visual recognition challenge",
+      "ENTRYTYPE": "article",
+      "ID": "le2015tiny"
+    },
+    {
+      "year": "2015",
+      "pages": "211--252",
+      "number": "3",
+      "volume": "115",
+      "journal": "Int. J. Comput. Vis.",
+      "title": "ImageNet Large Scale Visual Recognition Challenge",
+      "author": "Olga Russakovsky and\nJia Deng and\nHao Su and\nJonathan Krause and\nSanjeev Satheesh and\nSean Ma and\nZhiheng Huang and\nAndrej Karpathy and\nAditya Khosla and\nMichael S. Bernstein and\nAlexander C. Berg and\nLi Fei{-}Fei",
+      "ENTRYTYPE": "article",
+      "ID": "DBLP:journals/ijcv/RussakovskyDSKS15"
+    },
+    {
+      "year": "2021",
+      "publisher": "{PMLR}",
+      "pages": "12674--12685",
+      "volume": "139",
+      "series": "Proceedings of Machine Learning Research",
+      "booktitle": "Proceedings of the 38th International Conference on Machine Learning,\n{ICML}",
+      "title": "Dataset Condensation with Differentiable Siamese Augmentation",
+      "editor": "Marina Meila and\nTong Zhang",
+      "author": "Bo Zhao and\nHakan Bilen",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "DBLP:conf/icml/ZhaoB21"
+    },
+    {
+      "year": "2022",
+      "publisher": "{IEEE}",
+      "pages": "10708--10717",
+      "booktitle": "{IEEE/CVF} Conference on Computer Vision and Pattern Recognition,\n{CVPR}",
+      "title": "Dataset Distillation by Matching Training Trajectories",
+      "author": "George Cazenavette and\nTongzhou Wang and\nAntonio Torralba and\nAlexei A. Efros and\nJun{-}Yan Zhu",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "DBLP:conf/cvpr/Cazenavette00EZ22b"
+    },
+    {
+      "year": "2023",
+      "publisher": "{PMLR}",
+      "pages": "6565--6590",
+      "volume": "202",
+      "series": "Proceedings of Machine Learning Research",
+      "booktitle": "International Conference on Machine Learning, {ICML}",
+      "title": "Scaling Up Dataset Distillation to ImageNet-1K with Constant Memory",
+      "editor": "Andreas Krause and\nEmma Brunskill and\nKyunghyun Cho and\nBarbara Engelhardt and\nSivan Sabato and\nJonathan Scarlett",
+      "author": "Justin Cui and\nRuochen Wang and\nSi Si and\nCho{-}Jui Hsieh",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "DBLP:conf/icml/CuiWSH23"
+    },
+    {
+      "year": "2024",
+      "volume": "abs/2406.19827",
+      "journal": "CoRR",
+      "title": "Towards Stable and Storage-efficient Dataset Distillation: Matching\nConvexified Trajectory",
+      "author": "Wenliang Zhong and\nHaoyu Tang and\nQinghai Zheng and\nMingzhu Xu and\nYupeng Hu and\nLiqiang Nie",
+      "ENTRYTYPE": "article",
+      "ID": "DBLP:journals/corr/abs-2406-19827"
+    },
+    {
+      "year": "2024",
+      "booktitle": "The Twelfth International Conference on Learning Representations,\n{ICLR}",
+      "title": "Towards Lossless Dataset Distillation via Difficulty-Aligned Trajectory\nMatching",
+      "author": "Ziyao Guo and\nKai Wang and\nGeorge Cazenavette and\nHui Li and\nKaipeng Zhang and\nYang You",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "DBLP:conf/iclr/Guo0CLZ024"
+    },
+    {
+      "year": "2024",
+      "publisher": "Springer",
+      "pages": "334--351",
+      "volume": "15145",
+      "series": "Lecture Notes in Computer Science",
+      "booktitle": "Computer Vision - {ECCV}",
+      "title": "Dataset Distillation by Automatic Training Trajectories",
+      "editor": "Ales Leonardis and\nElisa Ricci and\nStefan Roth and\nOlga Russakovsky and\nTorsten Sattler and\nG{\\\"{u}}l Varol",
+      "author": "Dai Liu and\nJindong Gu and\nHu Cao and\nCarsten Trinitis and\nMartin Schulz",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "DBLP:conf/eccv/LiuGCTS24"
+    },
+    {
+      "year": "2024",
+      "pages": "5809--5818",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Su, Duo and Hou, Junjie and Gao, Weizhi and Tian, Yingjie and Tang, Bowen",
+      "title": "D\\^{} 4: Dataset Distillation via Disentangled Diffusion Model",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "su2024d"
+    },
+    {
+      "year": "2024",
+      "pages": "438--457",
+      "booktitle": "European Conference on Computer Vision",
+      "author": "Sajedi, Ahmad and Khaki, Samir and Liu, Lucy Z and Amjadian, Ehsan and Lawryshyn, Yuri A and Plataniotis, Konstantinos N",
+      "title": "Data-to-Model Distillation: Data-Efficient Learning Framework",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "sajedi2024data"
+    },
+    {
+      "year": "2022",
+      "publisher": "{IEEE}",
+      "pages": "12186--12195",
+      "booktitle": "{IEEE/CVF} Conference on Computer Vision and Pattern Recognition,\n{CVPR}",
+      "title": "{CAFE:} Learning to Condense Dataset by Aligning Features",
+      "author": "Kai Wang and\nBo Zhao and\nXiangyu Peng and\nZheng Zhu and\nShuo Yang and\nShuo Wang and\nGuan Huang and\nHakan Bilen and\nXinchao Wang and\nYang You",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "DBLP:conf/cvpr/WangZPZYWHBWY22"
+    },
+    {
+      "year": "2021",
+      "booktitle": "9th International Conference on Learning Representations, {ICLR}",
+      "title": "Dataset Condensation with Gradient Matching",
+      "author": "Bo Zhao and\nKonda Reddy Mopuri and\nHakan Bilen",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "DBLP:conf/iclr/ZhaoMB21"
+    },
+    {
+      "year": "2024",
+      "pages": "4416--4425",
+      "booktitle": "Proceedings of the 32nd {ACM} International Conference on Multimedia,\n{MM}",
+      "title": "Towards Effective Data-Free Knowledge Distillation via Diverse Diffusion\nAugmentation",
+      "author": "Muquan Li and\nDongyang Zhang and\nTao He and\nXiurui Xie and\nYuan{-}Fang Li and\nKe Qin",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "DBLP:conf/mm/LiZ0XLQ24"
+    },
+    {
+      "year": "2025",
+      "pages": "1492--1503",
+      "booktitle": "Proceedings of the 31st {ACM} {SIGKDD} Conference on Knowledge Discovery\nand Data Mining, V.1, {KDD}",
+      "title": "GraphTool-Instruction: Revolutionizing Graph Reasoning in LLMs through\nDecomposed Subtask Instruction",
+      "author": "Rongzheng Wang and\nShuang Liang and\nQizhi Chen and\nJiasheng Zhang and\nKe Qin",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "DBLP:conf/kdd/Wang0CZQ25"
+    },
+    {
+      "year": "2025",
+      "author": "Rongzheng Wang and Shuang Liang and Qizhi Chen and Yihong Huang and Muquan Li and Yizhuo Ma and Dongyang Zhang and Ke Qin and Man-Fai Leung",
+      "title": "GraphCogent: Mitigating LLMs' Working Memory Constraints via Multi-Agent Collaboration in Complex Graph Understanding",
+      "ENTRYTYPE": "misc",
+      "ID": "wang2025graphcogentmitigatingllmsworking"
+    },
+    {
+      "year": "2024",
+      "booktitle": "Findings of the Association for Computational Linguistics: NAACL 2024",
+      "author": "Ma, Yizhuo  and\nQin, Ke  and\nLiang, Shuang",
+      "title": "Beta-{LR}: Interpretable Logical Reasoning based on Beta Distribution",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ma-etal-2024-beta"
+    },
+    {
+      "year": "2025",
+      "pages": "12093--12101",
+      "booktitle": "AAAI-25",
+      "title": "Adaptive Dataset Quantization",
+      "author": "Muquan Li and\nDongyang Zhang and\nQiang Dong and\nXiurui Xie and\nKe Qin",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "DBLP:conf/aaai/LiZDXQ25"
+    },
+    {
+      "year": "2024",
+      "booktitle": "12th International Conference on Learning Representations, ICLR",
+      "author": "Feng, Yunzhen and Vedantam, Ramakrishna and Kempe, Julia",
+      "title": "EMBARRASSINGLY SIMPLE DATASET DISTILLATION",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "feng2024embarrassingly"
+    },
+    {
+      "year": "1990",
+      "pages": "1550--1560",
+      "number": "10",
+      "volume": "78",
+      "journal": "Proc. {IEEE}",
+      "title": "Backpropagation through time: what it does and how to do it",
+      "author": "Paul J. Werbos",
+      "ENTRYTYPE": "article",
+      "ID": "DBLP:journals/pieee/Werbos90"
+    },
+    {
+      "year": "2021",
+      "booktitle": "9th International Conference on Learning Representations, {ICLR}",
+      "title": "Dataset Meta-Learning from Kernel Ridge-Regression",
+      "author": "Timothy Nguyen and\nZhourong Chen and\nJaehoon Lee",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "DBLP:conf/iclr/NguyenCL21"
+    },
+    {
+      "year": "2021",
+      "pages": "5186--5198",
+      "booktitle": "Advances in Neural Information Processing Systems",
+      "title": "Dataset Distillation with Infinitely Wide Convolutional Networks",
+      "editor": "Marc'Aurelio Ranzato and\nAlina Beygelzimer and\nYann N. Dauphin and\nPercy Liang and\nJennifer Wortman Vaughan",
+      "author": "Timothy Nguyen and\nRoman Novak and\nLechao Xiao and\nJaehoon Lee",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "DBLP:conf/nips/NguyenNXL21"
+    },
+    {
+      "year": "2022",
+      "booktitle": "Advances in Neural Information Processing Systems",
+      "title": "Efficient Dataset Distillation using Random Feature Approximation",
+      "editor": "Sanmi Koyejo and\nS. Mohamed and\nA. Agarwal and\nDanielle Belgrave and\nK. Cho and\nA. Oh",
+      "author": "Noel Loo and\nRamin M. Hasani and\nAlexander Amini and\nDaniela Rus",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "DBLP:conf/nips/LooHAR22a"
+    },
+    {
+      "year": "2022",
+      "booktitle": "Advances in Neural Information Processing Systems",
+      "title": "Dataset Distillation using Neural Feature Regression",
+      "editor": "Sanmi Koyejo and\nS. Mohamed and\nA. Agarwal and\nDanielle Belgrave and\nK. Cho and\nA. Oh",
+      "author": "Yongchao Zhou and\nEhsan Nezhadarya and\nJimmy Ba",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "DBLP:conf/nips/ZhouNB22"
+    },
+    {
+      "year": "2024",
+      "publisher": "Springer",
+      "pages": "1--17",
+      "volume": "15104",
+      "series": "Lecture Notes in Computer Science",
+      "booktitle": "Computer Vision - {ECCV}",
+      "title": "Teddy: Efficient Large-Scale Dataset Distillation via Taylor-Approximated\nMatching",
+      "editor": "Ales Leonardis and\nElisa Ricci and\nStefan Roth and\nOlga Russakovsky and\nTorsten Sattler and\nG{\\\"{u}}l Varol",
+      "author": "Ruonan Yu and\nSonghua Liu and\nJingwen Ye and\nXinchao Wang",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "DBLP:conf/eccv/YuLYW24"
+    },
+    {
+      "year": "2023",
+      "publisher": "{PMLR}",
+      "pages": "22649--22674",
+      "volume": "202",
+      "series": "Proceedings of Machine Learning Research",
+      "booktitle": "International Conference on Machine Learning, {ICML}",
+      "title": "Dataset Distillation with Convexified Implicit Gradients",
+      "editor": "Andreas Krause and\nEmma Brunskill and\nKyunghyun Cho and\nBarbara Engelhardt and\nSivan Sabato and\nJonathan Scarlett",
+      "author": "Noel Loo and\nRamin M. Hasani and\nMathias Lechner and\nDaniela Rus",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "DBLP:conf/icml/LooHLR23"
+    },
+    {
+      "year": "2015",
+      "pages": "448--456",
+      "volume": "37",
+      "booktitle": "Proceedings of the 32nd International Conference on Machine Learning,\n{ICML}",
+      "title": "Batch Normalization: Accelerating Deep Network Training by Reducing\nInternal Covariate Shift",
+      "editor": "Francis R. Bach and\nDavid M. Blei",
+      "author": "Sergey Ioffe and\nChristian Szegedy",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "DBLP:conf/icml/IoffeS15"
+    },
+    {
+      "year": "2025",
+      "volume": "abs/2502.20653",
+      "journal": "CoRR",
+      "title": "Dataset Distillation with Neural Characteristic Function: {A} Minmax\nPerspective",
+      "author": "Shaobo Wang and\nYicun Yang and\nZhiyuan Liu and\nChenghao Sun and\nXuming Hu and\nConghui He and\nLinfeng Zhang",
+      "ENTRYTYPE": "article",
+      "ID": "DBLP:journals/corr/abs-2502-20653"
+    },
+    {
+      "year": "2025",
+      "volume": "abs/2503.18872",
+      "journal": "CoRR",
+      "title": "Curriculum Coarse-to-Fine Selection for High-IPC Dataset Distillation",
+      "author": "Yanda Chen and\nGongwei Chen and\nMiao Zhang and\nWeili Guan and\nLiqiang Nie",
+      "ENTRYTYPE": "article",
+      "ID": "DBLP:journals/corr/abs-2503-18872"
+    },
+    {
+      "year": "2023",
+      "volume": "abs/2311.18838",
+      "journal": "CoRR",
+      "title": "Dataset Distillation in Large Data Era",
+      "author": "Zeyuan Yin and\nZhiqiang Shen",
+      "ENTRYTYPE": "article",
+      "ID": "DBLP:journals/corr/abs-2311-18838"
+    },
+    {
+      "year": "2024",
+      "publisher": "{IEEE}",
+      "pages": "5809--5818",
+      "booktitle": "{IEEE/CVF} Conference on Computer Vision and Pattern Recognition,\n{CVPR}",
+      "title": "D\\({}^{\\mbox{4}}\\)M: Dataset Distillation via Disentangled Diffusion\nModel",
+      "author": "Duo Su and\nJunjie Hou and\nWeizhi Gao and\nYingjie Tian and\nBowen Tang",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "DBLP:conf/cvpr/SuHG0T24"
+    },
+    {
+      "year": "2023",
+      "publisher": "{IEEE}",
+      "pages": "6503--6512",
+      "booktitle": "{IEEE/CVF} Winter Conference on Applications of Computer Vision, {WACV}",
+      "title": "Dataset Condensation with Distribution Matching",
+      "author": "Bo Zhao and\nHakan Bilen",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "DBLP:conf/wacv/ZhaoB23"
+    },
+    {
+      "year": "2024",
+      "volume": "abs/2405.09150",
+      "journal": "CoRR",
+      "title": "Curriculum Dataset Distillation",
+      "author": "Zhiheng Ma and\nAnjia Cao and\nFuning Yang and\nXing Wei",
+      "ENTRYTYPE": "article",
+      "ID": "DBLP:journals/corr/abs-2405-09150"
+    },
+    {
+      "year": "2023",
+      "booktitle": "Advances in Neural Information Processing Systems",
+      "title": "Squeeze, Recover and Relabel: Dataset Condensation at ImageNet Scale\nFrom {A} New Perspective",
+      "editor": "Alice Oh and\nTristan Naumann and\nAmir Globerson and\nKate Saenko and\nMoritz Hardt and\nSergey Levine",
+      "author": "Zeyuan Yin and\nEric P. Xing and\nZhiqiang Shen",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "DBLP:conf/nips/YinXS23"
+    },
+    {
+      "year": "2024",
+      "volume": "abs/2411.19946",
+      "journal": "CoRR",
+      "title": "{DELT:} {A} Simple Diversity-driven EarlyLate Training for Dataset\nDistillation",
+      "author": "Zhiqiang Shen and\nAmmar Sherif and\nZeyuan Yin and\nShitong Shao",
+      "ENTRYTYPE": "article",
+      "ID": "DBLP:journals/corr/abs-2411-19946"
+    },
+    {
+      "year": "2019",
+      "booktitle": "7th International Conference on Learning Representations, {ICLR}",
+      "title": "{GLUE:} {A} Multi-Task Benchmark and Analysis Platform for Natural\nLanguage Understanding",
+      "author": "Alex Wang and\nAmanpreet Singh and\nJulian Michael and\nFelix Hill and\nOmer Levy and\nSamuel R. Bowman",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "DBLP:conf/iclr/WangSMHLB19"
+    },
+    {
+      "year": "2019",
+      "publisher": "Association for Computational Linguistics",
+      "pages": "4171--4186",
+      "booktitle": "Proceedings of the 2019 Conference of the North American Chapter of\nthe Association for Computational Linguistics: Human Language Technologies,\n{NAACL-HLT}",
+      "title": "{BERT:} Pre-training of Deep Bidirectional Transformers for Language\nUnderstanding",
+      "editor": "Jill Burstein and\nChristy Doran and\nThamar Solorio",
+      "author": "Jacob Devlin and\nMing{-}Wei Chang and\nKenton Lee and\nKristina Toutanova",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "DBLP:conf/naacl/DevlinCLT19"
+    },
+    {
+      "year": "2023",
+      "publisher": "Association for Computational Linguistics",
+      "pages": "119--127",
+      "booktitle": "Proceedings of the 61st Annual Meeting of the Association for Computational\nLinguistics (Volume 2: Short Papers), {ACL}",
+      "title": "Dataset Distillation with Attention Labels for Fine-tuning {BERT}",
+      "editor": "Anna Rogers and\nJordan L. Boyd{-}Graber and\nNaoaki Okazaki",
+      "author": "Aru Maekawa and\nNaoki Kobayashi and\nKotaro Funakoshi and\nManabu Okumura",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "DBLP:conf/acl/MaekawaKFO23"
+    },
+    {
+      "year": "2024",
+      "publisher": "Association for Computational Linguistics",
+      "pages": "3138--3153",
+      "booktitle": "Findings of the Association for Computational Linguistics: {NAACL}",
+      "title": "DiLM: Distilling Dataset into Language Model for Text-level Dataset\nDistillation",
+      "editor": "Kevin Duh and\nHelena G{\\'{o}}mez{-}Adorno and\nSteven Bethard",
+      "author": "Aru Maekawa and\nSatoshi Kosugi and\nKotaro Funakoshi and\nManabu Okumura",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "DBLP:conf/naacl/MaekawaKFO24"
+    },
+    {
+      "year": "2024",
+      "publisher": "Association for Computational Linguistics",
+      "pages": "12557--12569",
+      "booktitle": "Findings of the Association for Computational Linguistics: {EMNLP}",
+      "title": "Textual Dataset Distillation via Language Model Embedding",
+      "editor": "Yaser Al{-}Onaizan and\nMohit Bansal and\nYun{-}Nung Chen",
+      "author": "Yefan Tao and\nLuyang Kong and\nAndrey Kan and\nLaurent Callot",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "DBLP:conf/emnlp/TaoKKC24"
+    },
+    {
+      "year": "2015",
+      "pages": "649--657",
+      "booktitle": "Advances in Neural Information Processing Systems",
+      "title": "Character-level Convolutional Networks for Text Classification",
+      "editor": "Corinna Cortes and\nNeil D. Lawrence and\nDaniel D. Lee and\nMasashi Sugiyama and\nRoman Garnett",
+      "author": "Xiang Zhang and\nJunbo Jake Zhao and\nYann LeCun",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "DBLP:conf/nips/ZhangZL15"
+    },
+    {
+      "year": "2016",
+      "publisher": "{IEEE} Computer Society",
+      "pages": "770--778",
+      "booktitle": "2016 {IEEE} Conference on Computer Vision and Pattern Recognition,\n{CVPR}",
+      "title": "Deep Residual Learning for Image Recognition",
+      "author": "Kaiming He and\nXiangyu Zhang and\nShaoqing Ren and\nJian Sun",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "DBLP:conf/cvpr/HeZRS16"
+    },
+    {
+      "year": "2023",
+      "publisher": "{IEEE}",
+      "pages": "3749--3758",
+      "booktitle": "{IEEE/CVF} Conference on Computer Vision and Pattern Recognition,\n{CVPR}",
+      "title": "Minimizing the Accumulated Trajectory Error to Improve Dataset Distillation",
+      "author": "Jiawei Du and\nYidi Jiang and\nVincent Y. F. Tan and\nJoey Tianyi Zhou and\nHaizhou Li",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "DBLP:conf/cvpr/DuJTZ023"
+    },
+    {
+      "year": "2012",
+      "pages": "1106--1114",
+      "booktitle": "Advances in Neural Information Processing Systems",
+      "title": "ImageNet Classification with Deep Convolutional Neural Networks",
+      "editor": "Peter L. Bartlett and\nFernando C. N. Pereira and\nChristopher J. C. Burges and\nL{\\'{e}}on Bottou and\nKilian Q. Weinberger",
+      "author": "Alex Krizhevsky and\nIlya Sutskever and\nGeoffrey E. Hinton",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "DBLP:conf/nips/KrizhevskySH12"
+    },
+    {
+      "year": "2025",
+      "volume": "abs/2503.18267",
+      "journal": "CoRR",
+      "title": "Enhancing Dataset Distillation via Non-Critical Region Refinement",
+      "author": "Minh{-}Tuan Tran and\nTrung Le and\nXuan{-}May Le and\nThanh{-}Toan Do and\nDinh Phung",
+      "ENTRYTYPE": "article",
+      "ID": "DBLP:journals/corr/abs-2503-18267"
+    },
+    {
+      "year": "2025",
+      "booktitle": "The Thirteenth International Conference on Learning Representations,\n{ICLR}",
+      "title": "Influence-Guided Diffusion for Dataset Distillation",
+      "author": "Mingyang Chen and\nJiawei Du and\nBo Huang and\nYi Wang and\nXiaobo Zhang and\nWei Wang",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "DBLP:conf/iclr/ChenDH0Z025"
+    },
+    {
+      "year": "2019",
+      "publisher": "{PMLR}",
+      "pages": "1723--1732",
+      "volume": "89",
+      "series": "Proceedings of Machine Learning Research",
+      "booktitle": "The 22nd International Conference on Artificial Intelligence and Statistics,\n{AISTATS}",
+      "title": "Truncated Back-propagation for Bilevel Optimization",
+      "editor": "Kamalika Chaudhuri and\nMasashi Sugiyama",
+      "author": "Amirreza Shaban and\nChing{-}An Cheng and\nNathan Hatch and\nByron Boots",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "DBLP:conf/aistats/ShabanCHB19"
+    },
+    {
+      "year": "2024",
+      "pages": "17--32",
+      "number": "1",
+      "volume": "46",
+      "journal": "{IEEE} Trans. Pattern Anal. Mach. Intell.",
+      "title": "A Comprehensive Survey of Dataset Distillation",
+      "author": "Shiye Lei and\nDacheng Tao",
+      "ENTRYTYPE": "article",
+      "ID": "DBLP:journals/pami/LeiT24"
+    },
+    {
+      "year": "2022",
+      "booktitle": "Advances in Neural Information Processing Systems",
+      "title": "{DC-BENCH:} Dataset Condensation Benchmark",
+      "editor": "Sanmi Koyejo and\nS. Mohamed and\nA. Agarwal and\nDanielle Belgrave and\nK. Cho and\nA. Oh",
+      "author": "Justin Cui and\nRuochen Wang and\nSi Si and\nCho{-}Jui Hsieh",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "DBLP:conf/nips/CuiWSH22"
+    },
+    {
+      "year": "2020",
+      "pages": "108",
+      "number": "2",
+      "volume": "11",
+      "journal": "Information",
+      "author": "Howard, Jeremy and Gugger, Sylvain",
+      "title": "Fastai: a layered API for deep learning",
+      "ENTRYTYPE": "article",
+      "ID": "howard2020fastai"
+    },
+    {
+      "year": "2018",
+      "volume": "abs/1811.10959",
+      "journal": "CoRR",
+      "title": "Dataset Distillation",
+      "author": "Tongzhou Wang and\nJun{-}Yan Zhu and\nAntonio Torralba and\nAlexei A. Efros",
+      "ENTRYTYPE": "article",
+      "ID": "DBLP:journals/corr/abs-1811-10959"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2410.17193",
+      "author": "Wang, Kai and Li, Zekai and Cheng, Zhi-Qi and Khaki, Samir and Sajedi, Ahmad and Vedantam, Ramakrishna and Plataniotis, Konstantinos N and Hauptmann, Alexander and You, Yang",
+      "title": "Emphasizing discriminative features for dataset distillation in complex scenarios",
+      "ENTRYTYPE": "article",
+      "ID": "wang2024emphasizing"
+    },
+    {
+      "year": "2024",
+      "publisher": "{IEEE}",
+      "pages": "9390--9399",
+      "booktitle": "{IEEE/CVF} Conference on Computer Vision and Pattern Recognition,\n{CVPR}",
+      "title": "On the Diversity and Realism of Distilled Dataset: An Efficient Dataset\nDistillation Paradigm",
+      "author": "Peng Sun and\nBei Shi and\nDaiwei Yu and\nTao Lin",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "DBLP:conf/cvpr/SunSYL24"
+    },
+    {
+      "year": "2024",
+      "volume": "abs/2408.03360",
+      "journal": "CoRR",
+      "title": "Prioritize Alignment in Dataset Distillation",
+      "author": "Zekai Li and\nZiyao Guo and\nWangbo Zhao and\nTianle Zhang and\nZhi{-}Qi Cheng and\nSamir Khaki and\nKaipeng Zhang and\nAhmad Sajedi and\nKonstantinos N. Plataniotis and\nKai Wang and\nYang You",
+      "ENTRYTYPE": "article",
+      "ID": "DBLP:journals/corr/abs-2408-03360"
+    },
+    {
+      "year": "2018",
+      "publisher": "Computer Vision Foundation / {IEEE} Computer Society",
+      "pages": "4367--4375",
+      "booktitle": "2018 {IEEE} Conference on Computer Vision and Pattern Recognition,\n{CVPR}",
+      "title": "Dynamic Few-Shot Visual Learning Without Forgetting",
+      "author": "Spyros Gidaris and\nNikos Komodakis",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "DBLP:conf/cvpr/GidarisK18"
+    },
+    {
+      "year": "2024",
+      "pages": "150--170",
+      "number": "1",
+      "volume": "46",
+      "journal": "{IEEE} Trans. Pattern Anal. Mach. Intell.",
+      "title": "Dataset Distillation: {A} Comprehensive Review",
+      "author": "Ruonan Yu and\nSonghua Liu and\nXinchao Wang",
+      "ENTRYTYPE": "article",
+      "ID": "DBLP:journals/pami/YuLW24"
+    },
+    {
+      "year": "2015",
+      "booktitle": "3rd International Conference on Learning Representations, {ICLR}",
+      "title": "Very Deep Convolutional Networks for Large-Scale Image Recognition",
+      "editor": "Yoshua Bengio and\nYann LeCun",
+      "author": "Karen Simonyan and\nAndrew Zisserman",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "DBLP:journals/corr/SimonyanZ14a"
+    },
+    {
+      "year": "2024",
+      "booktitle": "Forty-first International Conference on Machine Learning, {ICML}",
+      "title": "SelMatch: Effectively Scaling Up Dataset Distillation via Selection-Based\nInitialization and Partial Updates by Trajectory Matching",
+      "author": "Yongmin Lee and\nHye Won Chung",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "DBLP:conf/icml/LeeC24"
+    },
+    {
+      "year": "2023",
+      "publisher": "ijcai.org",
+      "pages": "6610--6618",
+      "booktitle": "Proceedings of the Thirty-Second International Joint Conference on\nArtificial Intelligence, {IJCAI}",
+      "title": "A Survey on Dataset Distillation: Approaches, Applications and Future\nDirections",
+      "author": "Jiahui Geng and\nZongxiong Chen and\nYuandou Wang and\nHerbert Woisetschlaeger and\nSonja Schimmler and\nRuben Mayer and\nZhiming Zhao and\nChunming Rong",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "DBLP:conf/ijcai/GengCWWSMZR23"
+    }
+  ]
+}

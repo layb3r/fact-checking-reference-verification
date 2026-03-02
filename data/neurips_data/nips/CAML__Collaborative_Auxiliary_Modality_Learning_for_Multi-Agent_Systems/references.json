@@ -1,0 +1,818 @@
+{
+  "pdf_url": "https://arxiv.org/pdf/2502.17821v3.pdf",
+  "references": [
+    {
+      "organization": "IEEE",
+      "year": "2024",
+      "pages": "4983--4989",
+      "booktitle": "2024 IEEE International Conference on Robotics and Automation (ICRA)",
+      "author": "Gao, Peng and Shen, Yu and Lin, Ming C",
+      "title": "Collaborative Decision-Making Using Spatiotemporal Graphs in Connected Autonomy",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "gao2024collaborative"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "2020",
+      "pages": "50--61",
+      "number": "4",
+      "volume": "37",
+      "journal": "IEEE Signal Processing Magazine",
+      "author": "Li, You and Ibanez-Guzman, Javier",
+      "title": "Lidar for autonomous driving: The principles, challenges, and trends for automotive lidar and perception systems",
+      "ENTRYTYPE": "article",
+      "ID": "li2020lidar"
+    },
+    {
+      "year": "2022",
+      "pages": "17252--17262",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Cui, Jiaxun and Qiu, Hang and Chen, Dian and Stone, Peter and Zhu, Yuke",
+      "title": "Coopernaut: End-to-end driving with cooperative perception for networked vehicles",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "cui2022coopernaut"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2023",
+      "pages": "31057--31076",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Shen, Yu and Wang, Xijun and Gao, Peng and Lin, Ming",
+      "title": "Auxiliary modality learning with generalized curriculum distillation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "shen2023auxiliary"
+    },
+    {
+      "year": "2015",
+      "pages": "2722--2730",
+      "booktitle": "Proceedings of the IEEE international conference on computer vision",
+      "author": "Chen, Chenyi and Seff, Ari and Kornhauser, Alain and Xiao, Jianxiong",
+      "title": "Deepdriving: Learning affordance for direct perception in autonomous driving",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "chen2015deepdriving"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "2019",
+      "pages": "294--305",
+      "number": "2",
+      "volume": "5",
+      "journal": "IEEE transactions on intelligent vehicles",
+      "author": "Hoel, Carl-Johan and Driggs-Campbell, Katherine and Wolff, Krister and Laine, Leo and Kochenderfer, Mykel J",
+      "title": "Combining planning and deep reinforcement learning in tactical decision making for autonomous driving",
+      "ENTRYTYPE": "article",
+      "ID": "hoel2019combining"
+    },
+    {
+      "organization": "IEEE",
+      "year": "2017",
+      "pages": "1671--1678",
+      "booktitle": "2017 IEEE intelligent vehicles symposium (IV)",
+      "author": "Hubmann, Constantin and Becker, Marvin and Althoff, Daniel and Lenz, David and Stiller, Christoph",
+      "title": "Decision making for autonomous driving considering interaction and uncertain prediction of surrounding vehicles",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "hubmann2017decision"
+    },
+    {
+      "organization": "IEEE",
+      "year": "2014",
+      "pages": "392--399",
+      "booktitle": "17th international IEEE conference on intelligent transportation systems (ITSC)",
+      "author": "Brechtel, Sebastian and Gindele, Tobias and Dillmann, R{\\\"u}diger",
+      "title": "Probabilistic decision-making under uncertainty for autonomous driving using continuous POMDPs",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "brechtel2014probabilistic"
+    },
+    {
+      "year": "2020",
+      "pages": "2446--2454",
+      "booktitle": "Proceedings of the IEEE/CVF conference on computer vision and pattern recognition",
+      "author": "Sun, Pei and Kretzschmar, Henrik and Dotiwalla, Xerxes and Chouard, Aurelien and Patnaik, Vijaysai and Tsui, Paul and Guo, James and Zhou, Yin and Chai, Yuning and Caine, Benjamin and others",
+      "title": "Scalability in perception for autonomous driving: Waymo open dataset",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "sun2020scalability"
+    },
+    {
+      "organization": "IEEE",
+      "year": "2015",
+      "pages": "1094--1099",
+      "booktitle": "2015 IEEE intelligent vehicles symposium (IV)",
+      "author": "Kong, Jason and Pfeiffer, Mark and Schildbach, Georg and Borrelli, Francesco",
+      "title": "Kinematic and dynamic vehicle models for autonomous driving control design",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "kong2015kinematic"
+    },
+    {
+      "organization": "American Society of Mechanical Engineers",
+      "year": "2018",
+      "pages": "V003T37A012",
+      "volume": "51913",
+      "booktitle": "Dynamic Systems and Control Conference",
+      "author": "Sun, Liting and Peng, Cheng and Zhan, Wei and Tomizuka, Masayoshi",
+      "title": "A fast integrated planning and control framework for autonomous driving via imitation learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "sun2018fast"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "2015",
+      "pages": "32--42",
+      "number": "1",
+      "volume": "13",
+      "journal": "IEEE Transactions on Automation Science and Engineering",
+      "author": "Lefevre, St{\\'e}phanie and Carvalho, Ashwin and Borrelli, Francesco",
+      "title": "A learning-based framework for velocity control in autonomous driving",
+      "ENTRYTYPE": "article",
+      "ID": "lefevre2015learning"
+    },
+    {
+      "year": "2021",
+      "pages": "16259--16268",
+      "booktitle": "Proceedings of the IEEE/CVF international conference on computer vision",
+      "author": "Zhao, Hengshuang and Jiang, Li and Jia, Jiaya and Torr, Philip HS and Koltun, Vladlen",
+      "title": "Point transformer",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zhao2021point"
+    },
+    {
+      "year": "2016",
+      "pages": "770--778",
+      "booktitle": "Proceedings of the IEEE conference on computer vision and pattern recognition",
+      "author": "He, Kaiming and Zhang, Xiangyu and Ren, Shaoqing and Sun, Jian",
+      "title": "Deep residual learning for image recognition",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "he2016deep"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2017",
+      "pages": "1--16",
+      "booktitle": "Conference on robot learning",
+      "author": "Dosovitskiy, Alexey and Ros, German and Codevilla, Felipe and Lopez, Antonio and Koltun, Vladlen",
+      "title": "CARLA: An open urban driving simulator",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "dosovitskiy2017carla"
+    },
+    {
+      "year": "2021",
+      "journal": "arXiv preprint arXiv:2112.14947",
+      "author": "Qiu, Hang and Huang, Pohan and Asavisanu, Namo and Liu, Xiaochen and Psounis, Konstantinos and Govindan, Ramesh",
+      "title": "Autocast: Scalable infrastructure-less cooperative perception for distributed collaborative driving",
+      "ENTRYTYPE": "article",
+      "ID": "qiu2021autocast"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "2020",
+      "pages": "1852--1864",
+      "number": "3",
+      "volume": "23",
+      "journal": "IEEE Transactions on Intelligent Transportation Systems",
+      "author": "Arnold, Eduardo and Dianati, Mehrdad and de Temple, Robert and Fallah, Saber",
+      "title": "Cooperative perception for 3D object detection in driving scenarios using infrastructure sensors",
+      "ENTRYTYPE": "article",
+      "ID": "arnold2020cooperative"
+    },
+    {
+      "organization": "IEEE",
+      "year": "2019",
+      "pages": "514--524",
+      "booktitle": "2019 IEEE 39th International Conference on Distributed Computing Systems (ICDCS)",
+      "author": "Chen, Qi and Tang, Sihai and Yang, Qing and Fu, Song",
+      "title": "Cooper: Cooperative perception for connected autonomous vehicles based on 3d point clouds",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "chen2019cooper"
+    },
+    {
+      "publisher": "Springer",
+      "year": "2021",
+      "pages": "121",
+      "number": "6",
+      "volume": "32",
+      "journal": "Machine Vision and Applications",
+      "author": "Boulahia, Said Yacine and Amamra, Abdenour and Madi, Mohamed Ridha and Daikh, Said",
+      "title": "Early, intermediate and late fusion strategies for robust deep learning-based multimodal action recognition",
+      "ENTRYTYPE": "article",
+      "ID": "boulahia2021early"
+    },
+    {
+      "publisher": "Springer",
+      "year": "2021",
+      "pages": "2887--2905",
+      "number": "2",
+      "volume": "80",
+      "journal": "Multimedia Tools and Applications",
+      "author": "Pandeya, Yagya Raj and Lee, Joonwhoan",
+      "title": "Deep learning-based late fusion of multimodal information for emotion classification of music video",
+      "ENTRYTYPE": "article",
+      "ID": "pandeya2021deep"
+    },
+    {
+      "year": "2019",
+      "pages": "88--100",
+      "booktitle": "Proceedings of the 4th ACM/IEEE Symposium on Edge Computing",
+      "author": "Chen, Qi and Ma, Xu and Tang, Sihai and Guo, Jingda and Yang, Qing and Fu, Song",
+      "title": "F-cooper: Feature based cooperative perception for autonomous vehicle edge computing system using 3D point clouds",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "chen2019f"
+    },
+    {
+      "year": "2017",
+      "pages": "10--48550",
+      "number": "20",
+      "volume": "1050",
+      "journal": "stat",
+      "author": "Velickovic, Petar and Cucurull, Guillem and Casanova, Arantxa and Romero, Adriana and Lio, Pietro and Bengio, Yoshua and others",
+      "title": "Graph attention networks",
+      "ENTRYTYPE": "article",
+      "ID": "velickovic2017graph"
+    },
+    {
+      "year": "2020",
+      "pages": "180--189",
+      "volume": "132",
+      "journal": "Neural Networks",
+      "author": "Xie, Yu and Zhang, Yuanqiao and Gong, Maoguo and Tang, Zedong and Han, Chao",
+      "title": "{Mgat: M}ulti-view graph attention networks",
+      "ENTRYTYPE": "article",
+      "ID": "xie2020mgat"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "2021",
+      "pages": "4051--4064",
+      "number": "5",
+      "volume": "70",
+      "journal": "IEEE Transactions on Vehicular Technology",
+      "author": "Hang, Peng and Huang, Chao and Hu, Zhongxu and Xing, Yang and Lv, Chen",
+      "title": "Decision making of connected automated vehicles at an unsignalized roundabout considering personalized driving behaviours",
+      "ENTRYTYPE": "article",
+      "ID": "hang2021decision"
+    },
+    {
+      "organization": "IEEE",
+      "year": "2019",
+      "pages": "1--6",
+      "booktitle": "2019 IEEE 27th International Conference on Network Protocols (ICNP)",
+      "author": "He, Jianhua and Tang, Zuoyin and Fu, Xiaoming and Leng, Supeng and Wu, Fan and Huang, Kaisheng and Huang, Jianye and Zhang, Jie and Zhang, Yan and Radford, Andrew and others",
+      "title": "Cooperative connected autonomous vehicles (CAV): research, applications and challenges",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "he2019cooperative"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "2016",
+      "pages": "9413--9420",
+      "volume": "4",
+      "journal": "IEEE access",
+      "author": "Nie, Jianqiang and Zhang, Jian and Ding, Wanting and Wan, Xia and Chen, Xiaoxuan and Ran, Bin",
+      "title": "Decentralized cooperative lane-changing decision-making for connected autonomous vehicles",
+      "ENTRYTYPE": "article",
+      "ID": "nie2016decentralized"
+    },
+    {
+      "organization": "IEEE",
+      "year": "2019",
+      "pages": "7--12",
+      "booktitle": "2019 IEEE Intelligent Transportation Systems Conference (ITSC)",
+      "author": "El Madawi, Khaled and Rashed, Hazem and El Sallab, Ahmad and Nasr, Omar and Kamel, Hanan and Yogamani, Senthil",
+      "title": "Rgb and lidar fusion based 3d semantic segmentation for autonomous driving",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "el2019rgb"
+    },
+    {
+      "year": "2021",
+      "pages": "16280--16290",
+      "booktitle": "Proceedings of the IEEE/CVF International Conference on Computer Vision",
+      "author": "Zhuang, Zhuangwei and Li, Rong and Jia, Kui and Wang, Qicheng and Li, Yuanqing and Tan, Mingkui",
+      "title": "Perception-aware multi-sensor fusion for 3d lidar semantic segmentation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zhuang2021perception"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "2018",
+      "pages": "4224--4231",
+      "number": "9",
+      "volume": "14",
+      "journal": "IEEE Transactions on Industrial Informatics",
+      "author": "Gao, Hongbo and Cheng, Bo and Wang, Jianqiang and Li, Keqiang and Zhao, Jianhui and Li, Deyi",
+      "title": "Object classification using CNN-based fusion of vision and LIDAR in autonomous vehicle environment",
+      "ENTRYTYPE": "article",
+      "ID": "gao2018object"
+    },
+    {
+      "year": "2015",
+      "journal": "arXiv preprint arXiv:1503.02531",
+      "author": "Hinton, Geoffrey",
+      "title": "Distilling the Knowledge in a Neural Network",
+      "ENTRYTYPE": "article",
+      "ID": "hinton2015distilling"
+    },
+    {
+      "year": "2019",
+      "journal": "arXiv preprint arXiv:1908.09355",
+      "author": "Sun, Siqi and Cheng, Yu and Gan, Zhe and Liu, Jingjing",
+      "title": "Patient knowledge distillation for bert model compression",
+      "ENTRYTYPE": "article",
+      "ID": "sun2019patient"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2402.13116",
+      "author": "Xu, Xiaohan and Li, Ming and Tao, Chongyang and Shen, Tao and Cheng, Reynold and Li, Jinyang and Xu, Can and Tao, Dacheng and Zhou, Tianyi",
+      "title": "A survey on knowledge distillation of large language models",
+      "ENTRYTYPE": "article",
+      "ID": "xu2024survey"
+    },
+    {
+      "year": "2019",
+      "journal": "arXiv preprint arXiv:1908.01851",
+      "author": "Hahn, Sangchul and Choi, Heeyoul",
+      "title": "Self-knowledge distillation in natural language processing",
+      "ENTRYTYPE": "article",
+      "ID": "hahn2019self"
+    },
+    {
+      "publisher": "Springer",
+      "year": "2021",
+      "pages": "1789--1819",
+      "number": "6",
+      "volume": "129",
+      "journal": "International Journal of Computer Vision",
+      "author": "Gou, Jianping and Yu, Baosheng and Maybank, Stephen J and Tao, Dacheng",
+      "title": "Knowledge distillation: A survey",
+      "ENTRYTYPE": "article",
+      "ID": "gou2021knowledge"
+    },
+    {
+      "year": "2022",
+      "pages": "10925--10934",
+      "booktitle": "Proceedings of the IEEE/CVF conference on computer vision and pattern recognition",
+      "author": "Beyer, Lucas and Zhai, Xiaohua and Royer, Am{\\'e}lie and Markeeva, Larisa and Anil, Rohan and Kolesnikov, Alexander",
+      "title": "Knowledge distillation: A good teacher is patient and consistent",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "beyer2022knowledge"
+    },
+    {
+      "year": "2019",
+      "pages": "1365--1374",
+      "booktitle": "Proceedings of the IEEE/CVF international conference on computer vision",
+      "author": "Tung, Frederick and Mori, Greg",
+      "title": "Similarity-preserving knowledge distillation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "tung2019similarity"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "2022",
+      "pages": "2358--2370",
+      "number": "3",
+      "volume": "8",
+      "journal": "IEEE Transactions on Intelligent Vehicles",
+      "author": "Lan, Qizhen and Tian, Qing",
+      "title": "Instance, scale, and teacher adaptive knowledge distillation for visual detection in autonomous driving",
+      "ENTRYTYPE": "article",
+      "ID": "lan2022instance"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "2023",
+      "journal": "IEEE Transactions on Intelligent Vehicles",
+      "author": "Li, Zhiyuan and Liang, Huawei and Wang, Hanqi and Zhao, Mingzhuo and Wang, Jian and Zheng, Xiaokun",
+      "title": "MKD-Cooper: Cooperative 3D Object Detection for Autonomous Driving via Multi-teacher Knowledge Distillation",
+      "ENTRYTYPE": "article",
+      "ID": "li2023mkd"
+    },
+    {
+      "year": "2023",
+      "pages": "13540--13549",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Cho, Hyeon and Choi, Junyong and Baek, Geonwoo and Hwang, Wonjun",
+      "title": "itkd: Interchange transfer-based knowledge distillation for 3d object detection",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "cho2023itkd"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "2022",
+      "pages": "1025--1033",
+      "number": "2",
+      "volume": "8",
+      "journal": "IEEE Transactions on Intelligent Vehicles",
+      "author": "Li, Guofa and Ji, Zefeng and Li, Shen and Luo, Xiao and Qu, Xingda",
+      "title": "Driver behavioral cloning for route following in autonomous vehicles using task knowledge distillation",
+      "ENTRYTYPE": "article",
+      "ID": "li2022driver"
+    },
+    {
+      "year": "2022",
+      "pages": "9891--9901",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Sautier, Corentin and Puy, Gilles and Gidaris, Spyros and Boulch, Alexandre and Bursuc, Andrei and Marlet, Renaud",
+      "title": "Image-to-lidar self-supervised distillation for autonomous driving data",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "sautier2022image"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "2021",
+      "pages": "102887",
+      "volume": "124",
+      "journal": "Transportation research part C: emerging technologies",
+      "author": "Rahman, Md Hasibur and Abdel-Aty, Mohamed and Wu, Yina",
+      "title": "A multi-vehicle communication system to assess the safety and mobility of connected and automated vehicles",
+      "ENTRYTYPE": "article",
+      "ID": "rahman2021multi"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "2016",
+      "pages": "143--163",
+      "volume": "71",
+      "journal": "Transportation research part C: emerging technologies",
+      "author": "Talebpour, Alireza and Mahmassani, Hani S",
+      "title": "Influence of connected and autonomous vehicles on traffic flow stability and throughput",
+      "ENTRYTYPE": "article",
+      "ID": "talebpour2016influence"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "2019",
+      "pages": "121009",
+      "volume": "526",
+      "journal": "Physica A: Statistical Mechanics and its Applications",
+      "author": "Ye, Lanhang and Yamamoto, Toshiyuki",
+      "title": "Evaluating the impact of connected and autonomous vehicles on traffic safety",
+      "ENTRYTYPE": "article",
+      "ID": "ye2019evaluating"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "2020",
+      "pages": "1341--1360",
+      "number": "3",
+      "volume": "22",
+      "journal": "IEEE Transactions on Intelligent Transportation Systems",
+      "author": "Feng, Di and Haase-Sch{\\\"u}tz, Christian and Rosenbaum, Lars and Hertlein, Heinz and Glaeser, Claudius and Timm, Fabian and Wiesbeck, Werner and Dietmayer, Klaus",
+      "title": "Deep multi-modal object detection and semantic segmentation for autonomous driving: Datasets, methods, and challenges",
+      "ENTRYTYPE": "article",
+      "ID": "feng2020deep"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "2020",
+      "pages": "537--547",
+      "number": "1",
+      "volume": "23",
+      "journal": "IEEE Transactions on Intelligent Transportation Systems",
+      "author": "Xiao, Yi and Codevilla, Felipe and Gurram, Akhil and Urfalioglu, Onay and L{\\'o}pez, Antonio M",
+      "title": "Multimodal end-to-end autonomous driving",
+      "ENTRYTYPE": "article",
+      "ID": "xiao2020multimodal"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "2022",
+      "pages": "2280--2295",
+      "volume": "25",
+      "journal": "IEEE Transactions on Multimedia",
+      "author": "Roy, Debashri and Li, Yuanyuan and Jian, Tong and Tian, Peng and Chowdhury, Kaushik and Ioannidis, Stratis",
+      "title": "Multi-modality sensing and data fusion for multi-vehicle detection",
+      "ENTRYTYPE": "article",
+      "ID": "roy2022multi"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "2022",
+      "pages": "10914--10921",
+      "number": "4",
+      "volume": "7",
+      "journal": "IEEE Robotics and Automation Letters",
+      "author": "Li, Yiming and Ma, Dekun and An, Ziyan and Wang, Zixun and Zhong, Yiqi and Chen, Siheng and Feng, Chen",
+      "title": "V2X-Sim: Multi-agent collaborative perception dataset and benchmark for autonomous driving",
+      "ENTRYTYPE": "article",
+      "ID": "li2022v2x"
+    },
+    {
+      "organization": "IEEE",
+      "year": "2020",
+      "pages": "1--5",
+      "booktitle": "2020 IEEE 3rd Connected and Automated Vehicles Symposium (CAVS)",
+      "author": "Piperigkos, Nikos and Lalos, Aris S and Berberidis, Kostas and Anagnostopoulos, Christos",
+      "title": "Cooperative multi-modal localization in connected and autonomous vehicles",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "piperigkos2020cooperative"
+    },
+    {
+      "year": "2014",
+      "journal": "arXiv preprint arXiv:1412.6980",
+      "author": "Kingma, Diederik P",
+      "title": "Adam: A method for stochastic optimization",
+      "ENTRYTYPE": "article",
+      "ID": "kingma2014adam"
+    },
+    {
+      "year": "2020",
+      "pages": "4106--4115",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on computer vision and pattern recognition",
+      "author": "Liu, Yen-Cheng and Tian, Junjiao and Glaser, Nathaniel and Kira, Zsolt",
+      "title": "When2com: Multi-agent perception via communication graph grouping",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "liu2020when2com"
+    },
+    {
+      "organization": "IEEE",
+      "year": "2020",
+      "pages": "6876--6883",
+      "booktitle": "2020 IEEE International Conference on Robotics and Automation (ICRA)",
+      "author": "Liu, Yen-Cheng and Tian, Junjiao and Ma, Chih-Yao and Glaser, Nathan and Kuo, Chia-Wen and Kira, Zsolt",
+      "title": "Who2com: Collaborative perception via learnable handshake communication",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "liu2020who2com"
+    },
+    {
+      "year": "2022",
+      "pages": "4874--4886",
+      "volume": "35",
+      "journal": "Advances in neural information processing systems",
+      "author": "Hu, Yue and Fang, Shaoheng and Lei, Zixing and Zhong, Yiqi and Chen, Siheng",
+      "title": "Where2comm: Communication-efficient collaborative perception via spatial confidence maps",
+      "ENTRYTYPE": "article",
+      "ID": "hu2022where2comm"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "2014",
+      "pages": "721--736",
+      "number": "6",
+      "volume": "62",
+      "journal": "Robotics and Autonomous Systems",
+      "author": "Noda, Kuniaki and Arie, Hiroaki and Suga, Yuki and Ogata, Tetsuya",
+      "title": "Multimodal integration learning of robot behavior using deep neural networks",
+      "ENTRYTYPE": "article",
+      "ID": "noda2014multimodal"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "2020",
+      "pages": "582--596",
+      "number": "3",
+      "volume": "36",
+      "journal": "IEEE Transactions on Robotics",
+      "author": "Lee, Michelle A and Zhu, Yuke and Zachares, Peter and Tan, Matthew and Srinivasan, Krishnan and Savarese, Silvio and Fei-Fei, Li and Garg, Animesh and Bohg, Jeannette",
+      "title": "Making sense of vision and touch: Learning multimodal representations for contact-rich tasks",
+      "ENTRYTYPE": "article",
+      "ID": "lee2020making"
+    },
+    {
+      "publisher": "Springer",
+      "year": "2022",
+      "pages": "2939--2970",
+      "number": "8",
+      "volume": "38",
+      "journal": "The Visual Computer",
+      "author": "Bayoudh, Khaled and Knani, Raja and Hamdaoui, Fay{\\c{c}}al and Mtibaa, Abdellatif",
+      "title": "A survey on deep multimodal learning for computer vision: advances, trends, applications, and datasets",
+      "ENTRYTYPE": "article",
+      "ID": "bayoudh2022survey"
+    },
+    {
+      "year": "2016",
+      "pages": "826--834",
+      "booktitle": "Proceedings of the IEEE conference on computer vision and pattern recognition",
+      "author": "Hoffman, Judy and Gupta, Saurabh and Darrell, Trevor",
+      "title": "Learning with side information through modality hallucination",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "hoffman2016learning"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "2019",
+      "pages": "2581--2593",
+      "number": "10",
+      "volume": "42",
+      "journal": "IEEE transactions on pattern analysis and machine intelligence",
+      "author": "Garcia, Nuno C and Morerio, Pietro and Murino, Vittorio",
+      "title": "Learning with privileged information via adversarial discriminative modality distillation",
+      "ENTRYTYPE": "article",
+      "ID": "garcia2019learning"
+    },
+    {
+      "year": "2018",
+      "pages": "384--401",
+      "booktitle": "Proceedings of the European Conference on Computer Vision (ECCV)",
+      "author": "Wang, Lan and Gao, Chenqiang and Yang, Luyu and Zhao, Yue and Zuo, Wangmeng and Meng, Deyu",
+      "title": "Pm-gans: Discriminative representation learning for action recognition using partial-modalities",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "wang2018pm"
+    },
+    {
+      "year": "2018",
+      "pages": "103--118",
+      "booktitle": "Proceedings of the European Conference on Computer Vision (ECCV)",
+      "author": "Garcia, Nuno C and Morerio, Pietro and Murino, Vittorio",
+      "title": "Modality distillation with multiple stream networks for action recognition",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "garcia2018modality"
+    },
+    {
+      "publisher": "Springer",
+      "year": "2021",
+      "pages": "185--202",
+      "number": "1",
+      "volume": "129",
+      "journal": "International Journal of Computer Vision",
+      "author": "Piasco, Nathan and Sidib{\\'e}, D{\\'e}sir{\\'e} and Gouet-Brunet, Val{\\'e}rie and Demonceaux, C{\\'e}dric",
+      "title": "Improving image description with auxiliary modality for visual localization in challenging conditions",
+      "ENTRYTYPE": "article",
+      "ID": "piasco2021improving"
+    },
+    {
+      "organization": "IEEE",
+      "year": "2024",
+      "pages": "286--299",
+      "booktitle": "2024 IEEE International Conference on Robotics and Automation (ICRA)",
+      "author": "Mandi, Zhao and Jain, Shreeya and Song, Shuran",
+      "title": "Roco: Dialectic multi-robot collaboration with large language models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "mandi2024roco"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "2022",
+      "pages": "2289--2296",
+      "number": "2",
+      "volume": "7",
+      "journal": "IEEE Robotics and Automation Letters",
+      "author": "Zhou, Yang and Xiao, Jiuhong and Zhou, Yue and Loianno, Giuseppe",
+      "title": "Multi-robot collaborative perception with graph neural networks",
+      "ENTRYTYPE": "article",
+      "ID": "zhou2022multi"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "2020",
+      "pages": "191617--191643",
+      "volume": "8",
+      "journal": "Ieee Access",
+      "author": "Queralta, Jorge Pena and Taipalmaa, Jussi and Pullinen, Bilge Can and Sarker, Victor Kathan and Gia, Tuan Nguyen and Tenhunen, Hannu and Gabbouj, Moncef and Raitoharju, Jenni and Westerlund, Tomi",
+      "title": "Collaborative multi-robot search and rescue: Planning, coordination, perception, and active vision",
+      "ENTRYTYPE": "article",
+      "ID": "queralta2020collaborative"
+    },
+    {
+      "publisher": "MDPI",
+      "year": "2019",
+      "pages": "3057",
+      "number": "15",
+      "volume": "9",
+      "journal": "Applied sciences",
+      "author": "Bae, Hyansu and Kim, Gidong and Kim, Jonguk and Qian, Dianwei and Lee, Sukgyu",
+      "title": "Multi-robot path planning method using reinforcement learning",
+      "ENTRYTYPE": "article",
+      "ID": "bae2019multi"
+    },
+    {
+      "year": "2007",
+      "pages": "16",
+      "number": "2$\\sigma$2",
+      "volume": "1",
+      "journal": "def",
+      "author": "Murphy, Kevin P",
+      "title": "Conjugate Bayesian analysis of the Gaussian distribution",
+      "ENTRYTYPE": "article",
+      "ID": "murphy2007conjugate"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "2024",
+      "journal": "IEEE Robotics and Automation Letters",
+      "author": "Zhou, Yang and Quang, Long and Nieto-Granda, Carlos and Loianno, Giuseppe",
+      "title": "CoPeD-Advancing Multi-Robot Collaborative Perception: A Comprehensive Dataset in Real-World Environments",
+      "ENTRYTYPE": "article",
+      "ID": "zhou2024coped"
+    },
+    {
+      "organization": "Springer",
+      "year": "2015",
+      "pages": "234--241",
+      "booktitle": "Medical image computing and computer-assisted intervention--MICCAI 2015: 18th international conference, Munich, Germany, October 5-9, 2015, proceedings, part III 18",
+      "author": "Ronneberger, Olaf and Fischer, Philipp and Brox, Thomas",
+      "title": "U-net: Convolutional networks for biomedical image segmentation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ronneberger2015u"
+    },
+    {
+      "year": "2015",
+      "pages": "3431--3440",
+      "booktitle": "Proceedings of the IEEE conference on computer vision and pattern recognition",
+      "author": "Long, Jonathan and Shelhamer, Evan and Darrell, Trevor",
+      "title": "Fully convolutional networks for semantic segmentation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "long2015fully"
+    },
+    {
+      "year": "2016",
+      "journal": "arXiv preprint arXiv:1608.03983",
+      "author": "Loshchilov, Ilya and Hutter, Frank",
+      "title": "Sgdr: Stochastic gradient descent with warm restarts",
+      "ENTRYTYPE": "article",
+      "ID": "loshchilov2016sgdr"
+    },
+    {
+      "year": "2019",
+      "journal": "arXiv preprint arXiv:1910.10699",
+      "author": "Tian, Yonglong and Krishnan, Dilip and Isola, Phillip",
+      "title": "Contrastive representation distillation",
+      "ENTRYTYPE": "article",
+      "ID": "tian2019contrastive"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2509.18198",
+      "author": "Liu, Rui and Wang, Zikang and Gao, Peng and Shen, Yu and Tokekar, Pratap and Lin, Ming",
+      "title": "MMCD: Multi-Modal Collaborative Decision-Making for Connected Autonomy with Knowledge Distillation",
+      "ENTRYTYPE": "article",
+      "ID": "liu2025mmcd"
+    },
+    {
+      "organization": "IEEE",
+      "year": "2025",
+      "pages": "741--747",
+      "booktitle": "2025 IEEE International Conference on Robotics and Automation (ICRA)",
+      "author": "Liu, Rui and Mahammad, Zahiruddin and Bhaskar, Amisha and Tokekar, Pratap",
+      "title": "IMRL: Integrating visual, physical, temporal, and geometric representations for enhanced food acquisition",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "liu2025imrl"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2403.12891",
+      "author": "Liu, Rui and Bhaskar, Amisha and Tokekar, Pratap",
+      "title": "Adaptive visual imitation learning for robotic assisted feeding across varied bowl configurations and food types",
+      "ENTRYTYPE": "article",
+      "ID": "liu2024adaptive"
+    },
+    {
+      "organization": "IEEE",
+      "year": "2024",
+      "pages": "8929--8935",
+      "booktitle": "2024 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
+      "author": "Bhaskar, Amisha and Liu, Rui and Sharma, Vishnu D and Shi, Guangyao and Tokekar, Pratap",
+      "title": "Lava: Long-horizon visual action based food acquisition",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "bhaskar2024lava"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2510.01444",
+      "author": "Liu, Rui and Yu, Dian and Zheng, Tong and Dai, Runpeng and Li, Zongxia and Yu, Wenhao and Liang, Zhenwen and Song, Linfeng and Mi, Haitao and Tokekar, Pratap and others",
+      "title": "VOGUE: Guiding Exploration with Visual Uncertainty Improves Multimodal Reasoning",
+      "ENTRYTYPE": "article",
+      "ID": "liu2025vogue"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2508.19652",
+      "author": "Li, Zongxia and Yu, Wenhao and Huang, Chengsong and Liu, Rui and Liang, Zhenwen and Liu, Fuxiao and Che, Jingxi and Yu, Dian and Boyd-Graber, Jordan and Mi, Haitao and others",
+      "title": "Self-rewarding vision-language model via reasoning decomposition",
+      "ENTRYTYPE": "article",
+      "ID": "li2025self"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2502.16736",
+      "author": "Liu, Rui and Gao, Peng and Shen, Yu and Lin, Ming and Tokekar, Pratap",
+      "title": "AUKT: Adaptive Uncertainty-Guided Knowledge Transfer with Conformal Prediction",
+      "ENTRYTYPE": "article",
+      "ID": "liu2025aukt"
+    },
+    {
+      "organization": "IEEE",
+      "year": "2023",
+      "pages": "9986--9991",
+      "booktitle": "2023 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
+      "author": "Liu, Rui and Shi, Guangyao and Tokekar, Pratap",
+      "title": "Data-driven distributionally robust optimal control with state-dependent noise",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "liu2023data"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2403.08955",
+      "author": "Liu, Rui and Gupta, Anish and Noorani, Erfaun and Tokekar, Pratap",
+      "title": "Towards Efficient Risk-Sensitive Policy Gradient: An Iteration Complexity Analysis",
+      "ENTRYTYPE": "article",
+      "ID": "liu2024towards"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2512.18215",
+      "author": "Liu, Rui and Yu, Dian and Ke, Lei and Liu, Haolin and Zhou, Yujun and Liang, Zhenwen and Mi, Haitao and Tokekar, Pratap and Yu, Dong",
+      "title": "Stable and Efficient Single-Rollout RL for Multimodal Reasoning",
+      "ENTRYTYPE": "article",
+      "ID": "liu2025stable"
+    }
+  ]
+}

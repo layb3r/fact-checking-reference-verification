@@ -1,0 +1,443 @@
+{
+  "pdf_url": "https://arxiv.org/pdf/2509.01328v5.pdf",
+  "references": [
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2309.17277",
+      "author": "Guo, Jiaxian and Yang, Bo and Yoo, Paul and Lin, Bill Yuchen and Iwasawa, Yusuke and Matsuo, Yutaka",
+      "title": "Suspicion-agent: Playing imperfect information games with theory of mind aware gpt-4",
+      "ENTRYTYPE": "article",
+      "ID": "guo2023suspicion"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2406.17807",
+      "author": "Tao, Meiling and Liang, Xuechen and Wang, Ziyi and Tao, Yiling and Shi, Tianyu",
+      "title": "Enhancing Commentary Strategies for Imperfect Information Card Games: A Study of Large Language Models in Guandan Commentary",
+      "ENTRYTYPE": "article",
+      "ID": "tao2024enhancing"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2408.02559",
+      "author": "Yim, Yauwai and Chan, Chunkit and Shi, Tianyu and Deng, Zheye and Fan, Wei and Zheng, Tianshi and Song, Yangqiu",
+      "title": "Evaluating and enhancing llms agent based on theory of mind in guandan: A multi-player cooperative game under imperfect information",
+      "ENTRYTYPE": "article",
+      "ID": "yim2024evaluating"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2402.17574",
+      "author": "Zhang, Wenqi and Tang, Ke and Wu, Hai and Wang, Mengna and Shen, Yongliang and Hou, Guiyang and Tan, Zeqi and Li, Peng and Zhuang, Yueting and Lu, Weiming",
+      "title": "Agent-pro: Learning to evolve via policy-level reflection and optimization",
+      "ENTRYTYPE": "article",
+      "ID": "zhang2024agent"
+    },
+    {
+      "year": "2024",
+      "pages": "2232--2246",
+      "booktitle": "Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers)",
+      "author": "Duan, Jinhao and Wang, Shiqi and Diffenderfer, James and Sun, Lichao and Chen, Tianlong and Kailkhura, Bhavya and Xu, Kaidi",
+      "title": "ReTA: Recursively Thinking Ahead to Improve the Strategic Reasoning of Large Language Models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "duan2024reta"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2401.06781",
+      "author": "Huang, Chenghao and Cao, Yanbo and Wen, Yinlong and Zhou, Tao and Zhang, Yanru",
+      "title": "PokerGPT: An End-to-End Lightweight Solver for Multi-Player Texas Hold'em via Large Language Model",
+      "ENTRYTYPE": "article",
+      "ID": "huang2024pokergpt"
+    },
+    {
+      "year": "2024",
+      "booktitle": "The Twelfth International Conference on Learning Representations",
+      "author": "Liu, Xiao and Yu, Hao and Zhang, Hanchen and Xu, Yifan and Lei, Xuanyu and Lai, Hanyu and Gu, Yu and Ding, Hangliang and Men, Kaiwen and Yang, Kejuan and others",
+      "title": "AgentBench: Evaluating LLMs as Agents",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "liuagentbench"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2402.18659",
+      "author": "Gallotta, Roberto and Todd, Graham and Zammit, Marvin and Earle, Sam and Liapis, Antonios and Togelius, Julian and Yannakakis, Georgios N",
+      "title": "Large language models and games: A survey and roadmap",
+      "ENTRYTYPE": "article",
+      "ID": "gallotta2024large"
+    },
+    {
+      "abstract": "Recent advancements in large language models (LLMs) have revealed their potential for achieving autonomous agents possessing human-level intelligence. However, existing benchmarks for evaluating LLM Agents either use static datasets, potentially leading to data leakage or focus only on single-agent scenarios, overlooking the complexities of multi-agent interactions. There is a lack of a benchmark that evaluates the diverse capabilities of LLM agents in multi-agent, dynamic environments. To this end, we introduce LLMArena, a novel and easily extensible framework for evaluating the diverse capabilities of LLM in multi-agent dynamic environments. LLMArena encompasses seven distinct gaming environments, employing Trueskill scoring to assess crucial abilities in LLM agents, including spatial reasoning, strategic planning, numerical reasoning, risk assessment, communication, opponent modeling, and team collaboration. We conduct an extensive experiment and human evaluation among different sizes and types of LLMs, showing that LLMs still have a significant journey ahead in their development towards becoming fully autonomous agents, especially in opponent modeling and team collaboration. We hope LLMArena could guide future research towards enhancing these capabilities in LLMs, ultimately leading to more sophisticated and practical applications in dynamic, multi-agent settings.",
+      "pages": "13055--13077",
+      "doi": "10.18653/v1/2024.acl-long.705",
+      "url": "https://aclanthology.org/2024.acl-long.705/",
+      "publisher": "Association for Computational Linguistics",
+      "address": "Bangkok, Thailand",
+      "year": "2024",
+      "month": "August",
+      "booktitle": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+      "editor": "Ku, Lun-Wei  and\nMartins, Andre  and\nSrikumar, Vivek",
+      "author": "Chen, Junzhe  and\nHu, Xuming  and\nLiu, Shuodi  and\nHuang, Shiyu  and\nTu, Wei-Wei  and\nHe, Zhaofeng  and\nWen, Lijie",
+      "title": "{LLMA}rena: Assessing Capabilities of Large Language Models in Dynamic Multi-Agent Environments",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "chen-etal-2024-llmarena"
+    },
+    {
+      "year": "1994",
+      "journal": "Ph. D. Thesis, University of Limburg",
+      "author": "ALLIS, LV",
+      "title": "Searching for Solutions in Games and Artificial Intelligence",
+      "ENTRYTYPE": "article",
+      "ID": "allis1994searching"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "2002",
+      "pages": "57--83",
+      "number": "1-2",
+      "volume": "134",
+      "journal": "Artificial intelligence",
+      "author": "Campbell, Murray and Hoane Jr, A Joseph and Hsu, Feng-hsiung",
+      "title": "Deep blue",
+      "ENTRYTYPE": "article",
+      "ID": "campbell2002deep"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "2002",
+      "pages": "145--179",
+      "number": "1-2",
+      "volume": "134",
+      "journal": "Artificial Intelligence",
+      "author": "M{\\\"u}ller, Martin",
+      "title": "Computer go",
+      "ENTRYTYPE": "article",
+      "ID": "muller2002computer"
+    },
+    {
+      "publisher": "Nature Publishing Group",
+      "year": "2016",
+      "pages": "484--489",
+      "number": "7587",
+      "volume": "529",
+      "journal": "nature",
+      "author": "Silver, David and Huang, Aja and Maddison, Chris J and Guez, Arthur and Sifre, Laurent and Van Den Driessche, George and Schrittwieser, Julian and Antonoglou, Ioannis and Panneershelvam, Veda and Lanctot, Marc and others",
+      "title": "Mastering the game of Go with deep neural networks and tree search",
+      "ENTRYTYPE": "article",
+      "ID": "silver2016mastering"
+    },
+    {
+      "publisher": "Nature Publishing Group",
+      "year": "2017",
+      "pages": "354--359",
+      "number": "7676",
+      "volume": "550",
+      "journal": "nature",
+      "author": "Silver, David and Schrittwieser, Julian and Simonyan, Karen and Antonoglou, Ioannis and Huang, Aja and Guez, Arthur and Hubert, Thomas and Baker, Lucas and Lai, Matthew and Bolton, Adrian and others",
+      "title": "Mastering the game of go without human knowledge",
+      "ENTRYTYPE": "article",
+      "ID": "silver2017mastering"
+    },
+    {
+      "publisher": "American Association for the Advancement of Science",
+      "year": "2018",
+      "pages": "1140--1144",
+      "number": "6419",
+      "volume": "362",
+      "journal": "Science",
+      "author": "Silver, David and Hubert, Thomas and Schrittwieser, Julian and Antonoglou, Ioannis and Lai, Matthew and Guez, Arthur and Lanctot, Marc and Sifre, Laurent and Kumaran, Dharshan and Graepel, Thore and others",
+      "title": "A general reinforcement learning algorithm that masters chess, shogi, and Go through self-play",
+      "ENTRYTYPE": "article",
+      "ID": "silver2018general"
+    },
+    {
+      "publisher": "Nature Publishing Group",
+      "year": "2020",
+      "pages": "604--609",
+      "number": "7839",
+      "volume": "588",
+      "journal": "Nature",
+      "author": "Schrittwieser, Julian and Antonoglou, Ioannis and Hubert, Thomas and Simonyan, Karen and Sifre, Laurent and Schmitt, Simon and Guez, Arthur and Lockhart, Edward and Hassabis, Demis and Graepel, Thore and others",
+      "title": "Mastering atari, go, chess and shogi by planning with a learned model",
+      "ENTRYTYPE": "article",
+      "ID": "schrittwieser2020mastering"
+    },
+    {
+      "year": "2020",
+      "pages": "1877--1901",
+      "volume": "33",
+      "journal": "Advances in neural information processing systems",
+      "author": "Brown, Tom and Mann, Benjamin and Ryder, Nick and Subbiah, Melanie and Kaplan, Jared D and Dhariwal, Prafulla and Neelakantan, Arvind and Shyam, Pranav and Sastry, Girish and Askell, Amanda and others",
+      "title": "Language models are few-shot learners",
+      "ENTRYTYPE": "article",
+      "ID": "brown2020language"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2312.11805",
+      "author": "Team, Gemini and Anil, Rohan and Borgeaud, Sebastian and Wu, Yonghui and Alayrac, Jean-Baptiste and Yu, Jiahui and Soricut, Radu and Schalkwyk, Johan and Dai, Andrew M and Hauth, Anja and others",
+      "title": "Gemini: a family of highly capable multimodal models",
+      "ENTRYTYPE": "article",
+      "ID": "team2023gemini"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2406.12793",
+      "author": "GLM, Team and Zeng, Aohan and Xu, Bin and Wang, Bowen and Zhang, Chenhui and Yin, Da and Rojas, Diego and Feng, Guanyu and Zhao, Hanlin and Lai, Hanyu and others",
+      "title": "ChatGLM: A Family of Large Language Models from GLM-130B to GLM-4 All Tools",
+      "ENTRYTYPE": "article",
+      "ID": "glm2024chatglm"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2501.12948",
+      "author": "Guo, Daya and Yang, Dejian and Zhang, Haowei and Song, Junxiao and Zhang, Ruoyu and Xu, Runxin and Zhu, Qihao and Ma, Shirong and Wang, Peiyi and Bi, Xiao and others",
+      "title": "Deepseek-r1: Incentivizing reasoning capability in llms via reinforcement learning",
+      "ENTRYTYPE": "article",
+      "ID": "guo2025deepseek"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2409.12122",
+      "author": "Yang, An and Zhang, Beichen and Hui, Binyuan and Gao, Bofei and Yu, Bowen and Li, Chengpeng and Liu, Dayiheng and Tu, Jianhong and Zhou, Jingren and Lin, Junyang and others",
+      "title": "Qwen2. 5-math technical report: Toward mathematical expert model via self-improvement",
+      "ENTRYTYPE": "article",
+      "ID": "yang2024qwen2math"
+    },
+    {
+      "howpublished": "\\url{https://en.wikipedia.org/wiki/Game_complexity}",
+      "note": "2025-10-05",
+      "year": "2025",
+      "author": "Wikipedia",
+      "title": "Game Complexity",
+      "ENTRYTYPE": "misc",
+      "ID": "GameComplexity2025"
+    },
+    {
+      "year": "2025",
+      "booktitle": "The Thirteenth International Conference on Learning Representations",
+      "author": "Paglieri, Davide and Cupia{\\l}, Bart{\\l}omiej and Coward, Samuel and Piterbarg, Ulyana and Wolczyk, Maciej and Khan, Akbir and Pignatelli, Eduardo and Kuci{\\'n}ski, {\\L}ukasz and Pinto, Lerrel and Fergus, Rob and others",
+      "title": "BALROG: Benchmarking Agentic LLM and VLM Reasoning On Games",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "paglieribalrog"
+    },
+    {
+      "year": "2025",
+      "booktitle": "Forty-second International Conference on Machine Learning",
+      "author": "Ruoss, Anian and Pardo, Fabio and Chan, Harris and Li, Bonnie and Mnih, Volodymyr and Genewein, Tim",
+      "title": "LMAct: A Benchmark for In-Context Imitation Learning with Long Multimodal Demonstrations",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ruosslmact"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2406.01574",
+      "author": "Wang, Yubo and Ma, Xueguang and Zhang, Ge and Ni, Yuansheng and Chandra, Abhranil and Guo, Shiguang and Ren, Weiming and Arulraj, Aaran and He, Xuan and Jiang, Ziyan and others",
+      "title": "Mmlu-pro: A more robust and challenging multi-task language understanding benchmark",
+      "ENTRYTYPE": "article",
+      "ID": "wang2024mmlu"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2305.20050",
+      "author": "Lightman, Hunter and Kosaraju, Vineet and Burda, Yura and Edwards, Harri and Baker, Bowen and Lee, Teddy and Leike, Jan and Schulman, John and Sutskever, Ilya and Cobbe, Karl",
+      "title": "Let's verify step by step",
+      "ENTRYTYPE": "article",
+      "ID": "lightman2023let"
+    },
+    {
+      "year": "2021",
+      "journal": "arXiv preprint arXiv:2107.03374",
+      "author": "Chen, Mark and Tworek, Jerry and Jun, Heewoo and Yuan, Qiming and Pinto, Henrique Ponde De Oliveira and Kaplan, Jared and Edwards, Harri and Burda, Yuri and Joseph, Nicholas and Brockman, Greg and others",
+      "title": "Evaluating large language models trained on code",
+      "ENTRYTYPE": "article",
+      "ID": "chen2021evaluating"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2401.07950",
+      "author": "Zhang, Dan and Hu, Ziniu and Zhoubian, Sining and Du, Zhengxiao and Yang, Kaiyu and Wang, Zihan and Yue, Yisong and Dong, Yuxiao and Tang, Jie",
+      "title": "Sciglm: Training scientific language models with self-reflective instruction annotation and tuning",
+      "ENTRYTYPE": "article",
+      "ID": "zhang2024sciglm"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2406.03816",
+      "author": "Zhang, Dan and Zhoubian, Sining and Yue, Yisong and Dong, Yuxiao and Tang, Jie",
+      "title": "ReST-MCTS*: LLM Self-Training via Process Reward Guided Tree Search",
+      "ENTRYTYPE": "article",
+      "ID": "zhang2024rest"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2410.21909",
+      "author": "Xia, Xiao and Zhang, Dan and Liao, Zibo and Hou, Zhenyu and Sun, Tianrui and Li, Jing and Fu, Ling and Dong, Yuxiao",
+      "title": "SceneGenAgent: Precise Industrial Scene Generation with Coding Agent",
+      "ENTRYTYPE": "article",
+      "ID": "xia2024scenegenagent"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2303.17568",
+      "author": "Zheng, Qinkai and Xia, Xiao and Zou, Xu and Dong, Yuxiao and Wang, Shan and Xue, Yufei and Wang, Zihan and Shen, Lei and Wang, Andi and Li, Yang and others",
+      "title": "Codegeex: A pre-trained model for code generation with multilingual evaluations on humaneval-x",
+      "ENTRYTYPE": "article",
+      "ID": "zheng2023codegeex"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2410.24024",
+      "author": "Xu, Yifan and Liu, Xiao and Sun, Xueqiao and Cheng, Siyi and Yu, Hao and Lai, Hanyu and Zhang, Shudan and Zhang, Dan and Tang, Jie and Dong, Yuxiao",
+      "title": "Androidlab: Training and systematic benchmarking of android autonomous agents",
+      "ENTRYTYPE": "article",
+      "ID": "xu2024androidlab"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2408.15971",
+      "author": "Wang, Wei and Zhang, Dan and Feng, Tao and Wang, Boyan and Tang, Jie",
+      "title": "Battleagentbench: A benchmark for evaluating cooperation and competition capabilities of language models in multi-agent systems",
+      "ENTRYTYPE": "article",
+      "ID": "wang2024battleagentbench"
+    },
+    {
+      "year": "2024",
+      "pages": "211--220",
+      "booktitle": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 3: System Demonstrations)",
+      "author": "Xue, Lilong and Zhang, Dan and Dong, Yuxiao and Tang, Jie",
+      "title": "AutoRE: document-level relation extraction with large language models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "xue2024autore"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2412.11605",
+      "author": "Cheng, Jiale and Liu, Xiao and Wang, Cunxiang and Gu, Xiaotao and Lu, Yida and Zhang, Dan and Dong, Yuxiao and Tang, Jie and Wang, Hongning and Huang, Minlie",
+      "title": "SPaR: Self-Play with Tree-Search Refinement to Improve Instruction-Following in Large Language Models",
+      "ENTRYTYPE": "article",
+      "ID": "cheng2024spar"
+    },
+    {
+      "year": "2019",
+      "journal": "arXiv preprint arXiv:1901.08925",
+      "author": "You, Y and Li, L and Guo, B and others",
+      "title": "Combinational Q-Learning for Dou Di Zhu [J]",
+      "ENTRYTYPE": "article",
+      "ID": "you2019combinational"
+    },
+    {
+      "year": "2019",
+      "pages": "1265--1271",
+      "booktitle": "IJCAI",
+      "author": "Jiang, Qiqi and Li, Kuangzheng and Du, Boyao and Chen, Hao and Fang, Hai",
+      "title": "DeltaDou: Expert-level Doudizhu AI through Self-play.",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "jiang2019deltadou"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2021",
+      "pages": "12333--12344",
+      "booktitle": "international conference on machine learning",
+      "author": "Zha, Daochen and Xie, Jingru and Ma, Wenye and Zhang, Sheng and Lian, Xiangru and Hu, Xia and Liu, Ji",
+      "title": "Douzero: Mastering doudizhu with self-play deep reinforcement learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zha2021douzero"
+    },
+    {
+      "organization": "IEEE",
+      "year": "2023",
+      "pages": "1--8",
+      "booktitle": "2023 IEEE Conference on Games (CoG)",
+      "author": "Lu, Yudong and Zhao, Youpeng and Zhou, Wengang and Li, Houqiang and others",
+      "title": "Danzero: Mastering guandan game with reinforcement learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "lu2023danzero"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "2024",
+      "journal": "IEEE Transactions on Games",
+      "author": "Zhao, Youpeng and Lu, Yudong and Zhao, Jian and Zhou, Wengang and Li, Houqiang",
+      "title": "Danzero+: Dominating the guandan game through reinforcement learning",
+      "ENTRYTYPE": "article",
+      "ID": "zhao2024danzero+"
+    },
+    {
+      "year": "2020",
+      "journal": "arXiv preprint arXiv:2003.13590",
+      "author": "Li, Junjie and Koyamada, Sotetsu and Ye, Qiwei and Liu, Guoqing and Wang, Chao and Yang, Ruihan and Zhao, Li and Qin, Tao and Liu, Tie-Yan and Hon, Hsiao-Wuen",
+      "title": "Suphx: Mastering mahjong with deep reinforcement learning",
+      "ENTRYTYPE": "article",
+      "ID": "li2020suphx"
+    },
+    {
+      "year": "2012",
+      "journal": "arXiv preprint arXiv:1207.1411",
+      "author": "Southey, Finnegan and Bowling, Michael P and Larson, Bryce and Piccione, Carmelo and Burch, Neil and Billings, Darse and Rayner, Chris",
+      "title": "Bayes' bluff: Opponent modelling in poker",
+      "ENTRYTYPE": "article",
+      "ID": "southey2012bayes"
+    },
+    {
+      "year": "2019",
+      "journal": "arXiv preprint arXiv:1910.04376",
+      "author": "Zha, Daochen and Lai, Kwei-Herng and Cao, Yuanpu and Huang, Songyi and Wei, Ruzhe and Guo, Junyu and Hu, Xia",
+      "title": "Rlcard: A toolkit for reinforcement learning in card games",
+      "ENTRYTYPE": "article",
+      "ID": "zha2019rlcard"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2412.15115",
+      "author": "Yang, An and Yang, Baosong and Zhang, Beichen and Hui, Binyuan and Zheng, Bo and Yu, Bowen and Li, Chengyuan and Liu, Dayiheng and Huang, Fei and Wei, Haoran and others",
+      "title": "Qwen2. 5 technical report",
+      "ENTRYTYPE": "article",
+      "ID": "yang2024qwen2"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2407.21783",
+      "author": "Dubey, Abhimanyu and Jauhri, Abhinav and Pandey, Abhinav and Kadian, Abhishek and Al-Dahle, Ahmad and Letman, Aiesha and Mathur, Akhil and Schelten, Alan and Yang, Amy and Fan, Angela and others",
+      "title": "The llama 3 herd of models",
+      "ENTRYTYPE": "article",
+      "ID": "dubey2024llama"
+    },
+    {
+      "url": "http://arxiv.org/abs/2403.13372",
+      "year": "2024",
+      "publisher": "Association for Computational Linguistics",
+      "address": "Bangkok, Thailand",
+      "booktitle": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 3: System Demonstrations)",
+      "author": "Yaowei Zheng and Richong Zhang and Junhao Zhang and Yanhan Ye and Zheyan Luo and Zhangchi Feng and Yongqiang Ma",
+      "title": "LlamaFactory: Unified Efficient Fine-Tuning of 100+ Language Models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zheng2024llamafactory"
+    },
+    {
+      "year": "2021",
+      "journal": "arXiv preprint arXiv:2106.09685",
+      "author": "Hu, Edward J and Shen, Yelong and Wallis, Phillip and Allen-Zhu, Zeyuan and Li, Yuanzhi and Wang, Shean and Wang, Lu and Chen, Weizhu",
+      "title": "Lora: Low-rank adaptation of large language models",
+      "ENTRYTYPE": "article",
+      "ID": "hu2021lora"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2411.15124",
+      "author": "Lambert, Nathan and Morrison, Jacob and Pyatkin, Valentina and Huang, Shengyi and Ivison, Hamish and Brahman, Faeze and Miranda, Lester James V and Liu, Alisa and Dziri, Nouha and Lyu, Shane and others",
+      "title": "T$\\backslash$\" ulu 3: Pushing frontiers in open language model post-training",
+      "ENTRYTYPE": "article",
+      "ID": "lambert2024t"
+    },
+    {
+      "year": "2025",
+      "booktitle": "The Thirteenth International Conference on Learning Representations",
+      "author": "Zheng, Junhao and Cai, Xidi and Qiu, Shengjie and Ma, Qianli",
+      "title": "Spurious Forgetting in Continual Learning of Language Models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zhengspurious"
+    }
+  ]
+}

@@ -1,0 +1,570 @@
+{
+  "pdf_url": "https://arxiv.org/pdf/2509.19731v2.pdf",
+  "references": [
+    {
+      "year": "2023",
+      "pages": "18392--18402",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Brooks, Tim and Holynski, Aleksander and Efros, Alexei A",
+      "title": "Instructpix2pix: Learning to follow image editing instructions",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "brooks2023instructpix2pix"
+    },
+    {
+      "url": "https://openreview.net/forum?id=S1RKWSyZ2Y",
+      "year": "2024",
+      "booktitle": "The Twelfth International Conference on Learning Representations",
+      "author": "Tsu-Jui Fu and Wenze Hu and Xianzhi Du and William Yang Wang and Yinfei Yang and Zhe Gan",
+      "title": "Guiding Instruction-based Image Editing via Multimodal Large Language Models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "fu2024guiding"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2312.06739",
+      "author": "Huang, Yuzhou and Xie, Liangbin and Wang, Xintao and Yuan, Ziyang and Cun, Xiaodong and Ge, Yixiao and Zhou, Jiantao and Dong, Chao and Huang, Rui and Zhang, Ruimao and others",
+      "title": "SmartEdit: Exploring Complex Instruction-based Image Editing with Multimodal Large Language Models",
+      "ENTRYTYPE": "article",
+      "ID": "huang2023smartedit"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2023",
+      "pages": "19730--19742",
+      "booktitle": "International conference on machine learning",
+      "author": "Li, Junnan and Li, Dongxu and Savarese, Silvio and Hoi, Steven",
+      "title": "Blip-2: Bootstrapping language-image pre-training with frozen image encoders and large language models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "li2023blip"
+    },
+    {
+      "year": "2024",
+      "pages": "8107--8116",
+      "booktitle": "Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision",
+      "author": "Joseph, KJ and Udhayanan, Prateksha and Shukla, Tripti and Agarwal, Aishwarya and Karanam, Srikrishna and Goswami, Koustava and Srinivasan, Balaji Vasan",
+      "title": "Iterative multi-granular image editing using diffusion models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "joseph2024iterative"
+    },
+    {
+      "year": "2024",
+      "pages": "6986--6996",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Guo, Qin and Lin, Tianwei",
+      "title": "Focus on your instruction: Fine-grained and multi-instruction image editing by attention modulation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "guo2024focus"
+    },
+    {
+      "year": "2024",
+      "pages": "6986--6996",
+      "journal": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Guo, Qin and Lin, Tianwei",
+      "title": "Focus on Your Instruction: Fine-grained and Multi-instruction Image Editing by Attention Modulation",
+      "ENTRYTYPE": "article",
+      "ID": "guo2023focus"
+    },
+    {
+      "year": "2024",
+      "volume": "36",
+      "journal": "Advances in neural information processing systems",
+      "author": "Liu, Haotian and Li, Chunyuan and Wu, Qingyang and Lee, Yong Jae",
+      "title": "Visual instruction tuning",
+      "ENTRYTYPE": "article",
+      "ID": "liu2024visual"
+    },
+    {
+      "year": "2021",
+      "journal": "arXiv preprint arXiv:2108.01073",
+      "author": "Meng, Chenlin and He, Yutong and Song, Yang and Song, Jiaming and Wu, Jiajun and Zhu, Jun-Yan and Ermon, Stefano",
+      "title": "Sdedit: Guided image synthesis and editing with stochastic differential equations",
+      "ENTRYTYPE": "article",
+      "ID": "meng2021sdedit"
+    },
+    {
+      "year": "2023",
+      "pages": "6007--6017",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Kawar, Bahjat and Zada, Shiran and Lang, Oran and Tov, Omer and Chang, Huiwen and Dekel, Tali and Mosseri, Inbar and Irani, Michal",
+      "title": "Imagic: Text-based real image editing with diffusion models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "kawar2023imagic"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2210.11427",
+      "author": "Couairon, Guillaume and Verbeek, Jakob and Schwenk, Holger and Cord, Matthieu",
+      "title": "Diffedit: Diffusion-based semantic image editing with mask guidance",
+      "ENTRYTYPE": "article",
+      "ID": "couairon2022diffedit"
+    },
+    {
+      "year": "2020",
+      "journal": "arXiv preprint arXiv:2005.14165",
+      "author": "Brown, Tom B",
+      "title": "Language models are few-shot learners",
+      "ENTRYTYPE": "article",
+      "ID": "brown2020language"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2208.01626",
+      "author": "Hertz, Amir and Mokady, Ron and Tenenbaum, Jay and Aberman, Kfir and Pritch, Yael and Cohen-Or, Daniel",
+      "title": "Prompt-to-prompt image editing with cross attention control",
+      "ENTRYTYPE": "article",
+      "ID": "hertz2022prompt"
+    },
+    {
+      "url": "https://cdn.openai.com/papers/GPTV_System_Card.pdf",
+      "year": "2023",
+      "author": "OpenAI",
+      "title": "GPT-4V(ision) System Card",
+      "ENTRYTYPE": "misc",
+      "ID": "gpt4v"
+    },
+    {
+      "year": "2024",
+      "pages": "1--53",
+      "number": "70",
+      "volume": "25",
+      "journal": "Journal of Machine Learning Research",
+      "author": "Chung, Hyung Won and Hou, Le and Longpre, Shayne and Zoph, Barret and Tay, Yi and Fedus, William and Li, Yunxuan and Wang, Xuezhi and Dehghani, Mostafa and Brahma, Siddhartha and others",
+      "title": "Scaling instruction-finetuned language models",
+      "ENTRYTYPE": "article",
+      "ID": "chung2024scaling"
+    },
+    {
+      "year": "2024",
+      "pages": "9026--9036",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Zhang, Shu and Yang, Xinyi and Feng, Yihao and Qin, Can and Chen, Chia-Chih and Yu, Ning and Chen, Zeyuan and Wang, Huan and Savarese, Silvio and Ermon, Stefano and others",
+      "title": "Hive: Harnessing human feedback for instructional visual editing",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zhang2024hive"
+    },
+    {
+      "year": "2024",
+      "volume": "36",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Zhang, Kai and Mo, Lingbo and Chen, Wenhu and Sun, Huan and Su, Yu",
+      "title": "Magicbrush: A manually annotated dataset for instruction-guided image editing",
+      "ENTRYTYPE": "article",
+      "ID": "zhang2024magicbrush"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2302.13971",
+      "author": "Touvron, Hugo and Lavril, Thibaut and Izacard, Gautier and Martinet, Xavier and Lachaux, Marie-Anne and Lacroix, Timoth{\\'e}e and Rozi{\\`e}re, Baptiste and Goyal, Naman and Hambro, Eric and Azhar, Faisal and others",
+      "title": "Llama: Open and efficient foundation language models",
+      "ENTRYTYPE": "article",
+      "ID": "touvron2023llama"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2304.10592",
+      "author": "Zhu, Deyao and Chen, Jun and Shen, Xiaoqian and Li, Xiang and Elhoseiny, Mohamed",
+      "title": "Minigpt-4: Enhancing vision-language understanding with advanced large language models",
+      "ENTRYTYPE": "article",
+      "ID": "zhu2023minigpt"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2212.10846",
+      "author": "Guo, Jiaxian and Li, Junnan and Li, Dongxu and Tiong, Anthony Meng Huat and Li, Boyang and Tao, Dacheng and Hoi, Steven CH",
+      "title": "From images to textual prompts: Zero-shot vqa with frozen large language models",
+      "ENTRYTYPE": "article",
+      "ID": "guo2022images"
+    },
+    {
+      "year": "2022",
+      "pages": "1--10",
+      "booktitle": "ACM SIGGRAPH 2022 conference proceedings",
+      "author": "Saharia, Chitwan and Chan, William and Chang, Huiwen and Lee, Chris and Ho, Jonathan and Salimans, Tim and Fleet, David and Norouzi, Mohammad",
+      "title": "Palette: Image-to-image diffusion models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "saharia2022palette"
+    },
+    {
+      "bibsource": "dblp computer science bibliography, https://dblp.org",
+      "biburl": "https://dblp.org/rec/journals/corr/abs-2006-11239.bib",
+      "timestamp": "Tue, 23 Jun 2020 17:57:22 +0200",
+      "eprint": "2006.11239",
+      "eprinttype": "arXiv",
+      "url": "https://arxiv.org/abs/2006.11239",
+      "year": "2020",
+      "volume": "abs/2006.11239",
+      "journal": "CoRR",
+      "title": "Denoising Diffusion Probabilistic Models",
+      "author": "Jonathan Ho and\nAjay Jain and\nPieter Abbeel",
+      "ENTRYTYPE": "article",
+      "ID": "DBLP:journals/corr/abs-2006-11239"
+    },
+    {
+      "year": "2020",
+      "journal": "arXiv preprint arXiv:2011.13456",
+      "author": "Song, Yang and Sohl-Dickstein, Jascha and Kingma, Diederik P and Kumar, Abhishek and Ermon, Stefano and Poole, Ben",
+      "title": "Score-based generative modeling through stochastic differential equations",
+      "ENTRYTYPE": "article",
+      "ID": "song2020score"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2021",
+      "pages": "8162--8171",
+      "booktitle": "International conference on machine learning",
+      "author": "Nichol, Alexander Quinn and Dhariwal, Prafulla",
+      "title": "Improved denoising diffusion probabilistic models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "nichol2021improved"
+    },
+    {
+      "year": "2022",
+      "pages": "10684--10695",
+      "booktitle": "Proceedings of the IEEE/CVF conference on computer vision and pattern recognition",
+      "author": "Rombach, Robin and Blattmann, Andreas and Lorenz, Dominik and Esser, Patrick and Ommer, Bj{\\\"o}rn",
+      "title": "High-resolution image synthesis with latent diffusion models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "rombach2022high"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2207.13038",
+      "author": "Rombach, Robin and Blattmann, Andreas and Ommer, Bj{\\\"o}rn",
+      "title": "Text-guided synthesis of artistic images with retrieval-augmented diffusion models",
+      "ENTRYTYPE": "article",
+      "ID": "rombach2022text"
+    },
+    {
+      "year": "2021",
+      "journal": "arXiv preprint arXiv:2112.10741",
+      "author": "Nichol, Alex and Dhariwal, Prafulla and Ramesh, Aditya and Shyam, Pranav and Mishkin, Pamela and McGrew, Bob and Sutskever, Ilya and Chen, Mark",
+      "title": "Glide: Towards photorealistic image generation and editing with text-guided diffusion models",
+      "ENTRYTYPE": "article",
+      "ID": "nichol2021glide"
+    },
+    {
+      "year": "2023",
+      "pages": "3836--3847",
+      "booktitle": "Proceedings of the IEEE/CVF International Conference on Computer Vision",
+      "author": "Zhang, Lvmin and Rao, Anyi and Agrawala, Maneesh",
+      "title": "Adding conditional control to text-to-image diffusion models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zhang2023adding"
+    },
+    {
+      "year": "2024",
+      "volume": "36",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Xue, Zeyue and Song, Guanglu and Guo, Qiushan and Liu, Boxiao and Zong, Zhuofan and Liu, Yu and Luo, Ping",
+      "title": "Raphael: Text-to-image generation via large mixture of diffusion paths",
+      "ENTRYTYPE": "article",
+      "ID": "xue2024raphael"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2021",
+      "pages": "8748--8763",
+      "booktitle": "International conference on machine learning",
+      "author": "Radford, Alec and Kim, Jong Wook and Hallacy, Chris and Ramesh, Aditya and Goh, Gabriel and Agarwal, Sandhini and Sastry, Girish and Askell, Amanda and Mishkin, Pamela and Clark, Jack and others",
+      "title": "Learning transferable visual models from natural language supervision",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "radford2021learning"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2211.01324",
+      "author": "Balaji, Yogesh and Nah, Seungjun and Huang, Xun and Vahdat, Arash and Song, Jiaming and Zhang, Qinsheng and Kreis, Karsten and Aittala, Miika and Aila, Timo and Laine, Samuli and others",
+      "title": "ediff-i: Text-to-image diffusion models with an ensemble of expert denoisers",
+      "ENTRYTYPE": "article",
+      "ID": "balaji2022ediff"
+    },
+    {
+      "year": "2023",
+      "pages": "1921--1930",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Tumanyan, Narek and Geyer, Michal and Bagon, Shai and Dekel, Tali",
+      "title": "Plug-and-play diffusion features for text-driven image-to-image translation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "tumanyan2023plug"
+    },
+    {
+      "primaryclass": "cs.CL",
+      "archiveprefix": "arXiv",
+      "eprint": "2303.08774",
+      "year": "2023",
+      "author": "OpenAI",
+      "title": "GPT-4 Technical Report",
+      "ENTRYTYPE": "misc",
+      "ID": "gpt4"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2304.07193",
+      "author": "Oquab, Maxime and Darcet, Timoth{\\'e}e and Moutakanni, Th{\\'e}o and Vo, Huy and Szafraniec, Marc and Khalidov, Vasil and Fernandez, Pierre and Haziza, Daniel and Massa, Francisco and El-Nouby, Alaaeldin and others",
+      "title": "Dinov2: Learning robust visual features without supervision",
+      "ENTRYTYPE": "article",
+      "ID": "oquab2023dinov2"
+    },
+    {
+      "year": "2024",
+      "pages": "9579--9589",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Lai, Xin and Tian, Zhuotao and Chen, Yukang and Li, Yanwei and Yuan, Yuhui and Liu, Shu and Jia, Jiaya",
+      "title": "Lisa: Reasoning segmentation via large language model",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "lai2024lisa"
+    },
+    {
+      "year": "2024",
+      "pages": "26573--26583",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Chng, Yong Xien and Zheng, Henry and Han, Yizeng and Qiu, Xuchong and Huang, Gao",
+      "title": "Mask grounding for referring image segmentation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "chng2024mask"
+    },
+    {
+      "year": "2024",
+      "pages": "3858--3869",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Xia, Zhuofan and Han, Dongchen and Han, Yizeng and Pan, Xuran and Song, Shiji and Huang, Gao",
+      "title": "Gsva: Generalized segmentation via multimodal large language models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "xia2024gsva"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2404.08506",
+      "author": "Wei, Cong and Tan, Haoxian and Zhong, Yujie and Yang, Yujiu and Ma, Lin",
+      "title": "LaSagnA: Language-based Segmentation Assistant for Complex Queries",
+      "ENTRYTYPE": "article",
+      "ID": "wei2024lasagna"
+    },
+    {
+      "year": "2024",
+      "volume": "36",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Wang, Wenhai and Chen, Zhe and Chen, Xiaokang and Wu, Jiannan and Zhu, Xizhou and Zeng, Gang and Luo, Ping and Lu, Tong and Zhou, Jie and Qiao, Yu and others",
+      "title": "Visionllm: Large language model is also an open-ended decoder for vision-centric tasks",
+      "ENTRYTYPE": "article",
+      "ID": "wang2024visionllm"
+    },
+    {
+      "year": "2021",
+      "pages": "2287--2296",
+      "booktitle": "Proceedings of the IEEE/CVF conference on computer vision and pattern recognition",
+      "author": "Richardson, Elad and Alaluf, Yuval and Patashnik, Or and Nitzan, Yotam and Azar, Yaniv and Shapiro, Stav and Cohen-Or, Daniel",
+      "title": "Encoding in style: a stylegan encoder for image-to-image translation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "richardson2021encoding"
+    },
+    {
+      "year": "2019",
+      "pages": "4432--4441",
+      "booktitle": "Proceedings of the IEEE/CVF international conference on computer vision",
+      "author": "Abdal, Rameen and Qin, Yipeng and Wonka, Peter",
+      "title": "Image2stylegan: How to embed images into the stylegan latent space?",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "abdal2019image2stylegan"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2303.06285",
+      "author": "Lyu, Yueming and Lin, Tianwei and Li, Fu and He, Dongliang and Dong, Jing and Tan, Tieniu",
+      "title": "Deltaedit: Exploring text-free training for text-driven image manipulation",
+      "ENTRYTYPE": "article",
+      "ID": "lyu2023deltaedit"
+    },
+    {
+      "year": "2021",
+      "pages": "2085--2094",
+      "booktitle": "Proceedings of the IEEE/CVF international conference on computer vision",
+      "author": "Patashnik, Or and Wu, Zongze and Shechtman, Eli and Cohen-Or, Daniel and Lischinski, Dani",
+      "title": "Styleclip: Text-driven manipulation of stylegan imagery",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "patashnik2021styleclip"
+    },
+    {
+      "year": "2022",
+      "pages": "11399--11409",
+      "booktitle": "Proceedings of the IEEE/CVF conference on computer vision and pattern recognition",
+      "author": "Parmar, Gaurav and Li, Yijun and Lu, Jingwan and Zhang, Richard and Zhu, Jun-Yan and Singh, Krishna Kumar",
+      "title": "Spatially-adaptive multilayer selection for gan inversion and editing",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "parmar2022spatially"
+    },
+    {
+      "year": "2023",
+      "pages": "2283--2293",
+      "booktitle": "Proceedings of the IEEE/CVF International Conference on Computer Vision",
+      "author": "Agarwal, Aishwarya and Karanam, Srikrishna and Joseph, KJ and Saxena, Apoorv and Goswami, Koustava and Srinivasan, Balaji Vasan",
+      "title": "A-star: Test-time attention segregation and retention for text-to-image synthesis",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "agarwal2023star"
+    },
+    {
+      "publisher": "ACM New York, NY, USA",
+      "year": "2023",
+      "pages": "1--10",
+      "number": "4",
+      "volume": "42",
+      "journal": "ACM Transactions on Graphics (TOG)",
+      "author": "Chefer, Hila and Alaluf, Yuval and Vinker, Yael and Wolf, Lior and Cohen-Or, Daniel",
+      "title": "Attend-and-excite: Attention-based semantic guidance for text-to-image diffusion models",
+      "ENTRYTYPE": "article",
+      "ID": "chefer2023attend"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2305.18047",
+      "author": "Wang, Qian and Zhang, Biao and Birsak, Michael and Wonka, Peter",
+      "title": "Instructedit: Improving automatic masks for diffusion-based image editing with user instructions",
+      "ENTRYTYPE": "article",
+      "ID": "wang2023instructedit"
+    },
+    {
+      "year": "2023",
+      "pages": "5321--5329",
+      "booktitle": "Proceedings of the 31st ACM International Conference on Multimedia",
+      "author": "Mao, Jiafeng and Wang, Xueting and Aizawa, Kiyoharu",
+      "title": "Guided image synthesis via initial image editing in diffusion model",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "mao2023guided"
+    },
+    {
+      "year": "2021",
+      "journal": "arXiv preprint arXiv:2106.09685",
+      "author": "Hu, Edward J and Shen, Yelong and Wallis, Phillip and Allen-Zhu, Zeyuan and Li, Yuanzhi and Wang, Shean and Wang, Lu and Chen, Weizhu",
+      "title": "Lora: Low-rank adaptation of large language models",
+      "ENTRYTYPE": "article",
+      "ID": "hu2021lora"
+    },
+    {
+      "year": "2023",
+      "pages": "4015--4026",
+      "booktitle": "Proceedings of the IEEE/CVF International Conference on Computer Vision",
+      "author": "Kirillov, Alexander and Mintun, Eric and Ravi, Nikhila and Mao, Hanzi and Rolland, Chloe and Gustafson, Laura and Xiao, Tete and Whitehead, Spencer and Berg, Alexander C and Lo, Wan-Yen and others",
+      "title": "Segment anything",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "kirillov2023segment"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2207.12598",
+      "author": "Ho, Jonathan and Salimans, Tim",
+      "title": "Classifier-free diffusion guidance",
+      "ENTRYTYPE": "article",
+      "ID": "ho2022classifier"
+    },
+    {
+      "year": "2022",
+      "pages": "30826--30839",
+      "volume": "35",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Kim, Byoungjip and Choi, Sungik and Hwang, Dasol and Lee, Moontae and Lee, Honglak",
+      "title": "Transferring pre-trained multimodal representations with cross-modal similarity matching",
+      "ENTRYTYPE": "article",
+      "ID": "kim2022transferring"
+    },
+    {
+      "year": "2021",
+      "pages": "6995--7004",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Yuan, Xin and Lin, Zhe and Kuen, Jason and Zhang, Jianming and Wang, Yilin and Maire, Michael and Kale, Ajinkya and Faieta, Baldo",
+      "title": "Multimodal contrastive training for visual representation learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "yuan2021multimodal"
+    },
+    {
+      "year": "2023",
+      "pages": "22428--22437",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Xie, Shaoan and Zhang, Zhifei and Lin, Zhe and Hinz, Tobias and Zhang, Kun",
+      "title": "Smartbrush: Text and shape guided object inpainting with diffusion model",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "xie2023smartbrush"
+    },
+    {
+      "year": "2024",
+      "volume": "36",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Ke, Lei and Ye, Mingqiao and Danelljan, Martin and Tai, Yu-Wing and Tang, Chi-Keung and Yu, Fisher and others",
+      "title": "Segment anything in high quality",
+      "ENTRYTYPE": "article",
+      "ID": "ke2024segment"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2307.08581",
+      "author": "Zhao, Yang and Lin, Zhijie and Zhou, Daquan and Huang, Zilong and Feng, Jiashi and Kang, Bingyi",
+      "title": "Bubogpt: Enabling visual grounding in multi-modal llms",
+      "ENTRYTYPE": "article",
+      "ID": "zhao2023bubogpt"
+    },
+    {
+      "url": "https://arxiv.org/abs/2305.06500",
+      "primaryclass": "cs.CV",
+      "archiveprefix": "arXiv",
+      "eprint": "2305.06500",
+      "year": "2023",
+      "author": "Wenliang Dai and Junnan Li and Dongxu Li and Anthony Meng Huat Tiong and Junqi Zhao and Weisheng Wang and Boyang Li and Pascale Fung and Steven Hoi",
+      "title": "InstructBLIP: Towards General-purpose Vision-Language Models with Instruction Tuning",
+      "ENTRYTYPE": "misc",
+      "ID": "dai2023instruct"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2312.11805",
+      "author": "Team, Gemini and Anil, Rohan and Borgeaud, Sebastian and Alayrac, Jean-Baptiste and Yu, Jiahui and Soricut, Radu and Schalkwyk, Johan and Dai, Andrew M and Hauth, Anja and Millican, Katie and others",
+      "title": "Gemini: a family of highly capable multimodal models",
+      "ENTRYTYPE": "article",
+      "ID": "team2023gemini"
+    },
+    {
+      "year": "2024",
+      "pages": "26296--26306",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Liu, Haotian and Li, Chunyuan and Li, Yuheng and Lee, Yong Jae",
+      "title": "Improved baselines with visual instruction tuning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "liu2024improved"
+    },
+    {
+      "year": "2024",
+      "pages": "13009--13018",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Rasheed, Hanoona and Maaz, Muhammad and Shaji, Sahal and Shaker, Abdelrahman and Khan, Salman and Cholakkal, Hisham and Anwer, Rao M and Xing, Eric and Yang, Ming-Hsuan and Khan, Fahad S",
+      "title": "Glamm: Pixel grounding large multimodal model",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "rasheed2024glamm"
+    },
+    {
+      "year": "2024",
+      "pages": "8871--8879",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Sheynin, Shelly and Polyak, Adam and Singer, Uriel and Kirstain, Yuval and Zohar, Amit and Ashual, Oron and Parikh, Devi and Taigman, Yaniv",
+      "title": "Emu edit: Precise image editing via recognition and generation tasks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "sheynin2024emu"
+    },
+    {
+      "year": "2024",
+      "pages": "6254--6263",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Li, Shanglin and Zeng, Bohan and Feng, Yutang and Gao, Sicheng and Liu, Xiuhui and Liu, Jiaming and Li, Lin and Tang, Xu and Hu, Yao and Liu, Jianzhuang and others",
+      "title": "Zone: Zero-shot instruction-guided local editing",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "li2024zone"
+    },
+    {
+      "year": "2023",
+      "pages": "36652--36663",
+      "volume": "36",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Kirstain, Yuval and Polyak, Adam and Singer, Uriel and Matiana, Shahbuland and Penna, Joe and Levy, Omer",
+      "title": "Pick-a-pic: An open dataset of user preferences for text-to-image generation",
+      "ENTRYTYPE": "article",
+      "ID": "kirstain2023pick"
+    }
+  ]
+}

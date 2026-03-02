@@ -1,0 +1,508 @@
+{
+  "pdf_url": "https://arxiv.org/pdf/2510.23123v1.pdf",
+  "references": [
+    {
+      "year": "2024",
+      "booktitle": "International Conference on Machine Learning (ICML)",
+      "title": "DoRA: Weight-Decomposed Low-Rank Adaptation",
+      "author": "Shih{-}Yang Liu and\nChien{-}Yi Wang and\nHongxu Yin and\nPavlo Molchanov and\nYu{-}Chiang Frank Wang and\nKwang{-}Ting Cheng and\nMin{-}Hung Chen",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "dora"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2407.21783",
+      "author": "Grattafiori, Aaron and Dubey, Abhimanyu and Jauhri, Abhinav and others",
+      "title": "The llama 3 herd of models",
+      "ENTRYTYPE": "article",
+      "ID": "llama-3"
+    },
+    {
+      "year": "2023",
+      "booktitle": "Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+      "title": "LLM-Adapters: An Adapter Family for Parameter-Efficient Fine-Tuning\nof Large Language Models",
+      "author": "Zhiqiang Hu and\nLei Wang and\nYihuai Lan and\nWanyu Xu and\nEe{-}Peng Lim and\nLidong Bing and\nXing Xu and\nSoujanya Poria and\nRoy Ka{-}Wei Lee",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "llm_adapter"
+    },
+    {
+      "year": "2022",
+      "booktitle": "International Conference on Learning Representations (ICLR)",
+      "title": "LoRA: Low-Rank Adaptation of Large Language Models",
+      "author": "Edward J. Hu and\nYelong Shen and\nPhillip Wallis and\nZeyuan Allen{-}Zhu and\nYuanzhi Li and\nShean Wang and\nLu Wang and\nWeizhu Chen",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "lora"
+    },
+    {
+      "year": "2024",
+      "booktitle": "Advances in Neural Information Processing Systems (NeurIPS)",
+      "title": "The Impact of Initialization on LoRA Finetuning Dynamics",
+      "author": "Soufiane Hayou and\nNikhil Ghosh and\nBin Yu",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "lora_zero_init"
+    },
+    {
+      "year": "2024",
+      "booktitle": "International Conference on Machine Learning (ICML)",
+      "title": "LoRA+: Efficient Low Rank Adaptation of Large Models",
+      "author": "Soufiane Hayou and Nikhil Ghosh and Bin Yu",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "lora_plus"
+    },
+    {
+      "year": "2016",
+      "booktitle": "Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "title": "Deep Residual Learning for Image Recognition",
+      "author": "Kaiming He and\nXiangyu Zhang and\nShaoqing Ren and\nJian Sun",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "kaiming_init"
+    },
+    {
+      "year": "2024",
+      "booktitle": "International Conference on Learning Representations (ICLR)",
+      "title": "LoftQ: LoRA-Fine-Tuning-aware Quantization for Large Language Models",
+      "author": "Yixiao Li and\nYifan Yu and\nChen Liang and\nNikos Karampatziakis and\nPengcheng He and\nWeizhu Chen and\nTuo Zhao",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "loftq"
+    },
+    {
+      "year": "2024",
+      "booktitle": "Advances in Neural Information Processing Systems (NeurIPS)",
+      "author": "Fanxu Meng and Zhaohui Wang and Muhan Zhang",
+      "title": "PiSSA: Principal Singular Values and Singular Vectors Adaptation of Large Language Models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "pissa"
+    },
+    {
+      "year": "2024",
+      "booktitle": "Advances in Neural Information Processing Systems (NeurIPS)",
+      "author": "Wang, Shaowen and Yu, Linxi and Li, Jian",
+      "title": "LoRA-GA: Low-Rank Adaptation with Gradient Approximation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "lora-ga"
+    },
+    {
+      "year": "2015",
+      "booktitle": "International Conference on Learning Representations (ICLR)",
+      "title": "Adam: {A} Method for Stochastic Optimization",
+      "editor": "Yoshua Bengio and\nYann LeCun",
+      "author": "Diederik P. Kingma and\nJimmy Ba",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "adam"
+    },
+    {
+      "year": "2024",
+      "booktitle": "International Conference on Learning Representations ({ICLR})",
+      "title": "The Expressive Power of Low-Rank Adaptation",
+      "author": "Yuchen Zeng and\nKangwook Lee",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "expressive-power"
+    },
+    {
+      "year": "2023",
+      "booktitle": "International Conference on Learning Representations ({ICLR})",
+      "title": "Adaptive Budget Allocation for Parameter-Efficient Fine-Tuning",
+      "author": "Qingru Zhang and\nMinshuo Chen and\nAlexander Bukharin and\nPengcheng He and\nYu Cheng and\nWeizhu Chen and\nTuo Zhao",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "adalora"
+    },
+    {
+      "year": "2019",
+      "booktitle": "International Conference on Learning Representations ({ICLR})",
+      "title": "{GLUE:} {A} Multi-Task Benchmark and Analysis Platform for Natural\nLanguage Understanding",
+      "author": "Alex Wang and\nAmanpreet Singh and\nJulian Michael and\nFelix Hill and\nOmer Levy and\nSamuel R. Bowman",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "glue"
+    },
+    {
+      "year": "2020",
+      "pages": "140:1--140:67",
+      "volume": "21",
+      "journal": "J. Mach. Learn. Res.",
+      "title": "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
+      "author": "Colin Raffel and\nNoam Shazeer and\nAdam Roberts and\nKatherine Lee and\nSharan Narang and\nMichael Matena and\nYanqi Zhou and\nWei Li and\nPeter J. Liu",
+      "ENTRYTYPE": "article",
+      "ID": "t5"
+    },
+    {
+      "year": "2024",
+      "booktitle": "Annual Meeting of the Association for Computational Linguistics (ACL)",
+      "title": "MELoRA: Mini-Ensemble Low-Rank Adapters for Parameter-Efficient Fine-Tuning",
+      "author": "Pengjie Ren and\nChengshun Shi and\nShiguang Wu and\nMengqi Zhang and\nZhaochun Ren and\nMaarten de Rijke and\nZhumin Chen and\nJiahuan Pei",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "melora"
+    },
+    {
+      "year": "2019",
+      "booktitle": "International Conference on Learning Representations (ICLR)",
+      "title": "Decoupled Weight Decay Regularization",
+      "author": "Ilya Loshchilov and\nFrank Hutter",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "adamw"
+    },
+    {
+      "year": "2019",
+      "journal": "arXiv preprint arXiv:1907.11692",
+      "author": "Liu, Yinhan and Ott, Myle and Goyal, Naman and Du, Jingfei and Joshi, Mandar and Chen, Danqi and Levy, Omer and Lewis, Mike and Zettlemoyer, Luke and Stoyanov, Veselin",
+      "title": "Roberta: A robustly optimized bert pretraining approach",
+      "ENTRYTYPE": "article",
+      "ID": "roberta"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2403.08295",
+      "author": "Team, Gemma and Mesnard, Thomas and Hardin, Cassidy and Dadashi, Robert and Bhupatiraju, Surya and Pathak, Shreya and Sifre, Laurent and Rivi{\\`e}re, Morgane and Kale, Mihir Sanjay and Love, Juliette and others",
+      "title": "Gemma: Open models based on gemini research and technology",
+      "ENTRYTYPE": "article",
+      "ID": "gemma"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2412.15115",
+      "title": "Qwen2.5 Technical Report",
+      "author": "An Yang and\nBaosong Yang and\nBeichen Zhang and\nBinyuan Hui and\nBo Zheng and\nBowen Yu and\nothers",
+      "ENTRYTYPE": "article",
+      "ID": "qwen2.5"
+    },
+    {
+      "year": "2024",
+      "booktitle": "Advances in Neural Information Processing Systems (NeurIPS)",
+      "title": "HydraLoRA: An Asymmetric LoRA Architecture for Efficient Fine-Tuning",
+      "author": "Chunlin Tian and\nZhan Shi and\nZhijiang Guo and\nLi Li and\nCheng{-}Zhong Xu",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "hydralora"
+    },
+    {
+      "year": "2025",
+      "booktitle": "International Conference on Learning Representations (ICLR)",
+      "author": "Qiushi Huang and Tom Ko and Zhan Zhuang and Lilian Tang and Yu Zhang",
+      "title": "Hi{RA}: Parameter-Efficient Hadamard High-Rank Adaptation for Large Language Models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "hira"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2402.12851",
+      "author": "Luo, Tongxu and Lei, Jiahe and Lei, Fangyu and Liu, Weihao and He, Shizhu and Zhao, Jun and Liu, Kang",
+      "title": "Moelora: Contrastive learning guided mixture of experts on parameter-efficient fine-tuning for large language models",
+      "ENTRYTYPE": "article",
+      "ID": "moelora"
+    },
+    {
+      "year": "2021",
+      "pages": "3045--3059",
+      "booktitle": "Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+      "title": "The Power of Scale for Parameter-Efficient Prompt Tuning",
+      "author": "Brian Lester and\nRami Al{-}Rfou and\nNoah Constant",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "prompt_tuning"
+    },
+    {
+      "year": "2019",
+      "booktitle": "International Conference on Machine Learning (ICML)",
+      "title": "Parameter-Efficient Transfer Learning for {NLP}",
+      "author": "Neil Houlsby and\nAndrei Giurgiu and\nStanislaw Jastrzebski and\nBruna Morrone and\nQuentin de Laroussilhe and\nAndrea Gesmundo and\nMona Attariyan and\nSylvain Gelly",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "seq_adapter"
+    },
+    {
+      "year": "2022",
+      "booktitle": "International Conference on Learning Representations (ICLR)",
+      "title": "Towards a Unified View of Parameter-Efficient Transfer Learning",
+      "author": "Junxian He and\nChunting Zhou and\nXuezhe Ma and\nTaylor Berg{-}Kirkpatrick and\nGraham Neubig",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "para_adapter"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2405.09673",
+      "author": "Biderman, Dan and Portes, Jacob and Ortiz, Jose Javier Gonzalez and Paul, Mansheej and Greengard, Philip and Jennings, Connor and King, Daniel and Havens, Sam and Chiley, Vitaliy and Frankle, Jonathan and others",
+      "title": "Lora learns less and forgets less",
+      "ENTRYTYPE": "article",
+      "ID": "lora_learns_less"
+    },
+    {
+      "year": "2024",
+      "booktitle": "Advances in Neural Information Processing Systems (NeurIPS)",
+      "title": "VB-LoRA: Extreme Parameter Efficient Fine-Tuning with Vector Banks",
+      "author": "Yang Li and\nShaobo Han and\nJonathan Shihao Ji",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "vb-lora"
+    },
+    {
+      "year": "2024",
+      "booktitle": "International Conference on Learning Representations (ICLR)",
+      "title": "ReLoRA: High-Rank Training Through Low-Rank Updates",
+      "author": "Vladislav Lialin and\nSherin Muckatira and\nNamrata Shivagunde and\nAnna Rumshisky",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "relora"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2312.03732",
+      "author": "Kalajdzievski, Damjan",
+      "title": "A rank stabilization scaling factor for fine-tuning with lora",
+      "ENTRYTYPE": "article",
+      "ID": "rslora"
+    },
+    {
+      "year": "2023",
+      "booktitle": "Advances in Neural Information Processing Systems (NeurIPS) Workshop",
+      "title": "KronA: Parameter Efficient Tuning with Kronecker Adapter",
+      "author": "Ali Edalati and\nMarzieh S. Tahaei and\nIvan Kobyzev and\nVahid Partovi Nia and\nJames J. Clark and\nMehdi Rezagholizadeh",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "krona"
+    },
+    {
+      "year": "2022",
+      "booktitle": "Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+      "title": "AdaMix: Mixture-of-Adaptations for Parameter-efficient Model Tuning",
+      "author": "Yaqing Wang and\nSahaj Agarwal and\nSubhabrata Mukherjee and\nXiaodong Liu and\nJing Gao and\nAhmed Hassan Awadallah and\nJianfeng Gao",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "adamix"
+    },
+    {
+      "year": "2021",
+      "booktitle": "Annual Meeting of the Association for Computational Linguistics (ACL)",
+      "title": "Prefix-Tuning: Optimizing Continuous Prompts for Generation",
+      "author": "Xiang Lisa Li and\nPercy Liang",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "prefix-tuning"
+    },
+    {
+      "year": "2023",
+      "booktitle": "Findings of the Association for Computational Linguistics (ACL)",
+      "title": "Residual Prompt Tuning: improving prompt tuning with residual reparameterization",
+      "author": "Anastasia Razdaibiedina and\nYuning Mao and\nMadian Khabsa and\nMike Lewis and\nRui Hou and\nJimmy Ba and\nAmjad Almahairi",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "res-prompt-tuning"
+    },
+    {
+      "year": "2019",
+      "pages": "12360--12371",
+      "booktitle": "Advances in Neural Information Processing Systems (NeurIPS)",
+      "title": "Root Mean Square Layer Normalization",
+      "author": "Biao Zhang and\nRico Sennrich",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "rmsnorm"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2411.19557",
+      "author": "Ponkshe, Kaustubh and Singhal, Raghav and Gorbunov, Eduard and Tumanov, Alexey and Horvath, Samuel and Vepakomma, Praneeth",
+      "title": "Initialization using update approximation is a silver bullet for extremely efficient low-rank fine-tuning",
+      "ENTRYTYPE": "article",
+      "ID": "lora-sb"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2405.17604",
+      "author": "Ba{\\l}azy, Klaudia and Banaei, Mohammadreza and Aberer, Karl and Tabor, Jacek",
+      "title": "Lora-xs: Low-rank adaptation with extremely small number of parameters",
+      "ENTRYTYPE": "article",
+      "ID": "lora-xs"
+    },
+    {
+      "year": "2022",
+      "booktitle": "International Conference on Learning Representations (ICLR)",
+      "title": "FedPara: Low-rank Hadamard Product for Communication-Efficient Federated Learning",
+      "author": "Nam Hyeon{-}Woo and\nMoon Ye{-}Bin and\nTae{-}Hyun Oh",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "fedpara"
+    },
+    {
+      "year": "2023",
+      "booktitle": "AAAI Conference on Artificial Intelligence (AAAI)",
+      "author": "Li, Shiwei and Guo, Huifeng and Hou, Lu and Zhang, Wei and Tang, Xing and Tang, Ruiming and Zhang, Rui and Li, Ruixuan",
+      "title": "Adaptive low-precision training for embeddings in click-through rate prediction",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "li2023alpt"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2409.20305",
+      "author": "Li, Shiwei and Hu, Zhuoqi and Tang, Xing and Wang, Haozhao and Xu, Shijie and Luo, Weihong and Li, Yuhua and He, Xiuqiang and Li, Ruixuan",
+      "title": "Mixed-precision embeddings for large-scale recommendation models",
+      "ENTRYTYPE": "article",
+      "ID": "li2024optfp"
+    },
+    {
+      "year": "2024",
+      "booktitle": "International Conference on Machine Learning (ICML)",
+      "author": "Li, Shiwei and Xu, Wenchao and Wang, Haozhao and Tang, Xing and Qi, Yining and Xu, Shijie and Luo, Weihong and Li, Yuhua and He, Xiuqiang and Li, Ruixuan",
+      "title": "FedBAT: communication-efficient federated learning via learnable binarization",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "li2024fedbat"
+    },
+    {
+      "year": "2024",
+      "booktitle": "International Conference on Multimedia (ACM MM)",
+      "author": "Li, Shiwei and Cheng, Yingyi and Wang, Haozhao and Tang, Xing and Xu, Shijie and Luo, Weihong and Li, Yuhua and Liu, Dugang and He, Xiuqiang and Li, Ruixuan",
+      "title": "Masked random noise for communication-efficient federated learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "li2024fedmrn"
+    },
+    {
+      "year": "2025",
+      "journal": "IEEE Transactions on Parallel and Distributed Systems (TPDS)",
+      "author": "Li, Shiwei and Li, Qunwei and Wang, Haozhao and Li, Ruixuan and Lin, Jianbin and Zhong, Wenliang",
+      "title": "FedBiF: Communication-Efficient Federated Learning via Bits Freezing",
+      "ENTRYTYPE": "article",
+      "ID": "li2025fedbif"
+    },
+    {
+      "year": "2025",
+      "booktitle": "International Conference on Machine Learning (ICML)",
+      "author": "Li, Shiwei and Luo, Xiandi and Wang, Haozhao and Tang, Xing and Xu, Shijie and Luo, Weihong and Li, Yuhua and He, Xiuqiang and Li, Ruixuan",
+      "title": "The Panaceas for Improving Low-Rank Decomposition in Communication-Efficient Federated Learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "li2025fedmud"
+    },
+    {
+      "year": "2025",
+      "booktitle": "International Conference on Machine Learning (ICML)",
+      "author": "Li, Shiwei and Luo, Xiandi and Tang, Xing and Wang, Haozhao and Chen, Hao and Luo, Weihong and Li, Yuhua and He, Xiuqiang and Li, Ruixuan",
+      "title": "Beyond Zero Initialization: Investigating the Impact of Non-Zero Initialization on LoRA Fine-Tuning Dynamics",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "li2025beyond"
+    },
+    {
+      "year": "2025",
+      "booktitle": "Advances in Neural Information Processing Systems (NeurIPS)",
+      "author": "Li, Shiwei and Luo, Xiandi and Wang, Haozhao and Tang, Xing and Cui, Ziqiang and Liu, Dugang and Li, Yuhua and He, Xiuqiang and Li, Ruixuan",
+      "title": "Beyond Higher Rank: Token-wise Input-Output Projections for Efficient Low-Rank Adaptation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "li2025toplora"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2508.06953",
+      "author": "Li, Shiwei and Luo, Xiandi and Wang, Haozhao and Tang, Xing and Cui, Ziqiang and Liu, Dugang and Li, Yuhua and He, Xiuqiang and Li, Ruixuan",
+      "title": "BoRA: Towards More Expressive Low-Rank Adaptation with Block Diversity",
+      "ENTRYTYPE": "article",
+      "ID": "li2025bora"
+    },
+    {
+      "year": "2024",
+      "booktitle": "Advances in Neural Information Processing Systems (NeurIPS)",
+      "author": "Tong, Jintao and Zou, Yixiong and Li, Yuhua and Li, Ruixuan",
+      "title": "Lightweight frequency masker for cross-domain few-shot semantic segmentation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "tong2024lightweight"
+    },
+    {
+      "year": "2024",
+      "booktitle": "Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "author": "Tong, Jintao and Zhou, Haichen and Liu, Yicong and Hu, Yiman and Zou, Yixiong",
+      "title": "Dynamic knowledge adapter with probabilistic calibration for generalized few-shot semantic segmentation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "tong2024dynamic"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2506.07376",
+      "author": "Tong, Jintao and Ma, Ran and Zou, Yixiong and Chen, Guangyao and Li, Yuhua and Li, Ruixuan",
+      "title": "Adapter Naturally Serves as Decoupler for Cross-Domain Few-Shot Semantic Segmentation",
+      "ENTRYTYPE": "article",
+      "ID": "tong2025adapter"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2506.02677",
+      "author": "Tong, Jintao and Zou, Yixiong and Chen, Guangyao and Li, Yuhua and Li, Ruixuan",
+      "title": "Self-Disentanglement and Re-Composition for Cross-Domain Few-Shot Segmentation",
+      "ENTRYTYPE": "article",
+      "ID": "tong2025self"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2505.19536",
+      "author": "Tong, Jintao and Jin, Wenwei and Qin, Pengda and Li, Anqi and Zou, Yixiong and Li, Yuhong and Li, Yuhua and Li, Ruixuan",
+      "title": "FlowCut: Rethinking Redundancy via Information Flow for Efficient Vision-Language Models",
+      "ENTRYTYPE": "article",
+      "ID": "flowcut"
+    },
+    {
+      "booktitle": "ACM International Conference on Multimedia (ACM MM)",
+      "year": "2024",
+      "title": "Decoupling General and Personalized Knowledge in Federated Learning via Additive and Low-rank Decomposition",
+      "author": "Wu, Xinghao and Liu, Xuefeng and Niu, Jianwei and Wang, Haolin and Tang, Shaojie and Zhu, Guogang and Su, Hao",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "wu2024mm"
+    },
+    {
+      "year": "2023",
+      "booktitle": "Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "author": "Wang, Haozhao and Li, Yichen and Xu, Wenchao and Li, Ruixuan and Zhan, Yufeng and Zeng, Zhigang",
+      "title": "DaFKD: Domain-aware Federated Knowledge Distillation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "wang2023dafkd"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "2025",
+      "journal": "IEEE Communications Surveys \\& Tutorials",
+      "author": "Li, Yichen and Wang, Haozhao and Xu, Wenchao and Xiao, Tianzhe and Liu, Hong and Tu, Minzhu and Wang, Yuying and Yang, Xin and Zhang, Rui and Yu, Shui and others",
+      "title": "Unleashing the power of continual learning on non-centralized devices: A survey",
+      "ENTRYTYPE": "article",
+      "ID": "li2024unleashing"
+    },
+    {
+      "year": "2024",
+      "title": "SR-FDIL: Synergistic Replay for Federated Domain-Incremental Learning",
+      "journal": "IEEE Transactions on Parallel and Distributed Systems (TPDS)",
+      "author": "Li, Yichen and Xu, Wenchao and Qi, Yining and Wang, Haozhao and Li, Ruixuan and Guo, Song",
+      "ENTRYTYPE": "article",
+      "ID": "li_tpds"
+    },
+    {
+      "pages": "12820-12829",
+      "year": "2024",
+      "booktitle": "Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "title": "Towards Efficient Replay in Federated Incremental Learning",
+      "author": "Li, Yichen and Li, Qunwei and Wang, Haozhao and Li, Ruixuan and Zhong, Wenliang and Zhang, Guannan",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "Li_2024_CVPR"
+    },
+    {
+      "booktitle": "Proceedings of the ACM on Web Conference (WWW)",
+      "year": "2025",
+      "title": "Personalized Federated Recommendation for Cold-Start Users via Adaptive Knowledge Fusion",
+      "author": "Li, Yichen and Shan, Yijing and Liu, Yi and Wang, Haozhao and Wang, Wei and Wang, Yi and Li, Ruixuan",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "li2025www"
+    },
+    {
+      "year": "2024",
+      "booktitle": "International Conference on Learning Representations (ICLR)",
+      "author": "Haozhao Wang and Haoran Xu and Yichen Li and Yuan Xu and Ruixuan Li and Tianwei Zhang",
+      "title": "Fed{CDA}: Federated Learning with Cross-rounds Divergence-aware Aggregation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "wang2024fedcda"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2508.19282",
+      "author": "Cui, Ziqiang and Weng, Yunpeng and Tang, Xing and Liu, Peiyang and Li, Shiwei and He, Bowei and Chen, Jiamin and Zhang, Yansen and He, Xiuqiang and Ma, Chen",
+      "title": "CORE-RAG: Lossless Compression for Retrieval-Augmented LLMs via Reinforcement Learning",
+      "ENTRYTYPE": "article",
+      "ID": "cui2025core"
+    },
+    {
+      "year": "2025",
+      "booktitle": "International Conference on Research and Development in Information Retrieval (SIGIR)",
+      "title": "Comprehending Knowledge Graphs with Large Language Models for Recommender Systems",
+      "author": "Ziqiang Cui and\nYunpeng Weng and\nXing Tang and\nFuyuan Lyu and\nDugang Liu and\nXiuqiang He and\nChen Ma",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "cui2025sigir"
+    },
+    {
+      "journal": "arXiv preprint arXiv:2510.20295",
+      "year": "2025",
+      "author": "Yang Qiu and Yixiong Zou and Jun Wang and Wei Liu and Xiangyu Fu and Ruixuan Li",
+      "title": "Quantifying Distributional Invariance in Causal Subgraph for IRM-Free Graph Generalization",
+      "ENTRYTYPE": "article",
+      "ID": "qiu2025nips"
+    }
+  ]
+}

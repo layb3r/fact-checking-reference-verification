@@ -1,0 +1,1249 @@
+{
+  "pdf_url": "https://arxiv.org/pdf/2510.09996v1.pdf",
+  "references": [
+    {
+      "year": "2013",
+      "pages": "42--51",
+      "booktitle": "Color Imaging XVIII: Displaying, Processing, Hardcopy, and Applications",
+      "author": "Kim, Minwoong and Bengtson, Kurt and Li, Lisa and Allebach, Jan P",
+      "title": "Reducing flicker due to ambient illumination in camera captured images",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "kim2013reducing"
+    },
+    {
+      "year": "2023",
+      "pages": "20783--20791",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Dai, Yuekun and Luo, Yihang and Zhou, Shangchen and Li, Chongyi and Loy, Chen Change",
+      "title": "Nighttime smartphone reflective flare removal using optical center symmetry prior",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "dai2023nighttime"
+    },
+    {
+      "year": "2010",
+      "pages": "2341--2353",
+      "number": "12",
+      "volume": "33",
+      "journal": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+      "author": "He, Kaiming and Sun, Jian and Tang, Xiaoou",
+      "title": "Single image haze removal using dark channel prior",
+      "ENTRYTYPE": "article",
+      "ID": "dark_channel"
+    },
+    {
+      "year": "2017",
+      "pages": "5998--6008",
+      "booktitle": "Advances in Neural Information Processing Systems",
+      "author": "Waswani, A and Shazeer, N and Parmar, N and Uszkoreit, J and Jones, L and Gomez, A and Kaiser, L and Polosukhin, I",
+      "title": "Attention is all you need",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "waswani2017attention"
+    },
+    {
+      "pages": "25953--25978",
+      "volume": "79",
+      "year": "2020",
+      "journal": "Multimedia Tools and Applications",
+      "title": "A Real-Time Flicker Removal Algorithm for High-Speed Video Streams in Artificial Lighting",
+      "author": "Jarosław Nowisz, Michał Kopania and Artur Przelaskowski ",
+      "ENTRYTYPE": "article",
+      "ID": "jaro"
+    },
+    {
+      "year": "2018",
+      "pages": "657--658",
+      "booktitle": "IEEE International Conference on Electronics, Circuits and Systems",
+      "author": "Behmann, Nicolai and Blume, Holger",
+      "title": "Real-Time {LED} Flicker Detection and Mitigation: Architecture and FPGA-Implementation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "behmann2018realtime"
+    },
+    {
+      "year": "2014",
+      "pages": "109--119",
+      "number": "2",
+      "volume": "95",
+      "journal": "Journal of The Institution of Engineers (India): Series B",
+      "author": "Kumar, Pawan and Singh, Bhim and Chandra, Ambrish and Al-Haddad, Kamal",
+      "title": "Flicker Detection, Measurement and Means of Mitigation: A Review",
+      "ENTRYTYPE": "article",
+      "ID": "flicker_review"
+    },
+    {
+      "year": "2019",
+      "pages": "239--245",
+      "number": "2",
+      "volume": "6",
+      "journal": "Journal of Daylighting",
+      "author": "Al-Saadi, Sarmad and Fotios, Steve and Al-Mamun, Md Abdullah",
+      "title": "Measurement, Simulation, and Quantification of Lighting-Space Flicker Using Low-Cost RGB Color Sensor",
+      "ENTRYTYPE": "article",
+      "ID": "lighting_flicker_detection"
+    },
+    {
+      "year": "2007",
+      "pages": "650210",
+      "volume": "6502",
+      "booktitle": "Image Processing: Algorithms and Systems V",
+      "author": "Poplin, James and Sasi{\\'c}, Sini{\\v{s}}a and Kuntimad, Giridhar and Crebbin, Geoffrey",
+      "title": "Illumination flicker correction and frequency classification methods",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "crt_flicker"
+    },
+    {
+      "year": "2021",
+      "pages": "1798",
+      "volume": "12",
+      "journal": "Nature Communications",
+      "title": "A flexible ultrasensitive optoelectronic sensor array for neuromorphic vision systems",
+      "author": "Qian-Bing Zhu and Bo Li and Dan-Dan Yang and Chi Liu and Shun Feng and Mao-Lin Chen and Yun Sun and Ya-Nan Tian and Xin Su and Xiao-Mu Wang and Song Qiu and Qing-Wen Li and Xiao-Ming Li and Hai-Bo Zeng and Hui-Ming Cheng and Dong-Ming Sun",
+      "ENTRYTYPE": "article",
+      "ID": "vision_sensor3"
+    },
+    {
+      "year": "2000",
+      "pages": "1189-1190",
+      "number": "5469",
+      "volume": "288",
+      "title": "Neuromorphic Vision Sensors",
+      "journal": "Science",
+      "author": "Giacomo Indiveri  and Rodney Douglas",
+      "ENTRYTYPE": "article",
+      "ID": "vision_sensor1"
+    },
+    {
+      "year": "2022",
+      "pages": "398--404",
+      "title": "A Linear Comb Filter for Event Flicker Removal",
+      "booktitle": "International Conference on Robotics and Automation",
+      "author": "Wang, Ziwei and Yuan, Dingran and Ng, Yonhon and Mahony, Robert",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "related1"
+    },
+    {
+      "pages": "308-311",
+      "number": "2",
+      "volume": "52",
+      "year": "2006",
+      "title": "An automatic flicker detection method for embedded camera systems",
+      "journal": "IEEE Transactions on Consumer Electronics",
+      "author": "Poplin, D.",
+      "ENTRYTYPE": "article",
+      "ID": "camera_sys"
+    },
+    {
+      "year": "2006",
+      "pages": "970--981",
+      "number": "5",
+      "volume": "36",
+      "journal": "Cybernetics",
+      "author": "Guo, Huawei and Shi, Wenkang and Deng, Yong",
+      "title": "Evaluating sensor reliability in classification problems based on evidence theory",
+      "ENTRYTYPE": "article",
+      "ID": "sensor_fail"
+    },
+    {
+      "year": "2013",
+      "pages": "1360--1367",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Oth, Luc and Furgale, Paul and Kneip, Laurent and Siegwart, Roland",
+      "title": "Rolling shutter camera calibration",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "oth2013rolling"
+    },
+    {
+      "pages": "709-720",
+      "number": "",
+      "volume": "32",
+      "year": "2023",
+      "title": "DeflickerCycleGAN: Learning to Detect and Remove Flickers in a Single Image",
+      "journal": "IEEE Transactions on Image Processing",
+      "author": "Lin, Xiaodan and Li, Yangfu and Zhu, Jianqing and Zeng, Huanqiang",
+      "ENTRYTYPE": "article",
+      "ID": "Lin"
+    },
+    {
+      "year": "2015",
+      "pages": "3367--3375",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Liang, Ming and Hu, Xiaolin",
+      "title": "Recurrent convolutional neural network for object recognition",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "objectrecognition1"
+    },
+    {
+      "year": "2021",
+      "pages": "2453--2462",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Zheng, Linyu and Tang, Ming and Chen, Yingying and Zhu, Guibo and Wang, Jinqiao and Lu, Hanqing",
+      "title": "Improving multiple object tracking with single object tracking",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "objecttracking1"
+    },
+    {
+      "year": "2020",
+      "pages": "10781--10790",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Tan, Mingxing and Pang, Ruoming and Le, Quoc V",
+      "title": "Efficientdet: Scalable and efficient object detection",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "objectdetecion1"
+    },
+    {
+      "year": "2009",
+      "pages": "1712--1714",
+      "title": "The method of auto exposure control for low-end digital camera",
+      "booktitle": "International Conference on Advanced Communication Technology",
+      "author": "SangHyun Park and GyuWon Kim and JaeWook Jeon",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "4809403"
+    },
+    {
+      "year": "2018",
+      "pages": "1987--1991",
+      "title": "Invisible Geo-Location Signature in A Single Image",
+      "booktitle": "IEEE International Conference on Acoustics, Speech and Signal Processing",
+      "author": "Wong, Chau-Wai and Hajj-Ahmad, Adi and Wu, Min",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "flicker1"
+    },
+    {
+      "year": "1977",
+      "pages": "108--129",
+      "number": "6",
+      "volume": "237",
+      "journal": "Scientific american",
+      "author": "Land, Edwin H",
+      "title": "The retinex theory of color vision",
+      "ENTRYTYPE": "article",
+      "ID": "land1977retinex"
+    },
+    {
+      "year": "1994",
+      "pages": "2239--2257",
+      "number": "17",
+      "volume": "34",
+      "journal": "Vision Research",
+      "author": "Solomon, Joshua A and Sperling, George",
+      "title": "Full-wave and half-wave rectification in second-order motion perception",
+      "ENTRYTYPE": "article",
+      "ID": "solomon1994full"
+    },
+    {
+      "year": "2017",
+      "pages": "2223--2232",
+      "booktitle": "Proceedings of the IEEE/CVF International Conference on Computer Vision",
+      "author": "Zhu, Jun-Yan and Park, Taesung and Isola, Phillip and Efros, Alexei A",
+      "title": "Unpaired image-to-image translation using cycle-consistent adversarial networks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "cyclegan"
+    },
+    {
+      "year": "2023",
+      "pages": "12504--12513",
+      "booktitle": "Proceedings of the IEEE/CVF International Conference on Computer Vision",
+      "author": "Cai, Yuanhao and Bian, Hao and Lin, Jing and Wang, Haoqian and Timofte, Radu and Zhang, Yulun",
+      "title": "Retinexformer: One-stage retinex-based transformer for low-light image enhancement",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "cai2023retinexformer"
+    },
+    {
+      "year": "2021",
+      "pages": "10012--10022",
+      "booktitle": "Proceedings of the IEEE/CVF International Conference on Computer Vision",
+      "author": "Liu, Ze and Lin, Yutong and Cao, Yue and Hu, Han and Wei, Yixuan and Zhang, Zheng and Lin, Stephen and Guo, Baining",
+      "title": "Swin transformer: Hierarchical vision transformer using shifted windows",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "liu2021swin"
+    },
+    {
+      "year": "2023",
+      "pages": "10439--10448",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Lei, Chenyang and Ren, Xuanchi and Zhang, Zhaoxiang and Chen, Qifeng",
+      "title": "Blind video deflickering by neural filtering with a flawed atlas",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "lei2023blind"
+    },
+    {
+      "year": "2014",
+      "pages": "294--301",
+      "number": "3",
+      "volume": "60",
+      "journal": "IEEE Transactions on Consumer Electronics",
+      "author": "Yoo, Yoonjong and Im, Jaehyun and Paik, Joonki",
+      "title": "Flicker removal for CMOS wide dynamic range imaging based on alternating current component analysis",
+      "ENTRYTYPE": "article",
+      "ID": "yoo2014flicker"
+    },
+    {
+      "year": "2023",
+      "pages": "18278--18289",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Li, Yawei and Fan, Yuchen and Xiang, Xiaoyu and Demandolx, Denis and Ranjan, Rakesh and Timofte, Radu and Van Gool, Luc",
+      "title": "Efficient and explicit modelling of image hierarchies for image restoration",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "similar"
+    },
+    {
+      "year": "2018",
+      "pages": "3291--3300",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Chen, Chen and Chen, Qifeng and Xu, Jia and Koltun, Vladlen",
+      "title": "Learning to see in the dark",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "sid"
+    },
+    {
+      "year": "2022",
+      "pages": "5759--5768",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Dudhane, Akshay and Zamir, Syed Waqas and Khan, Salman and Khan, Fahad Shahbaz and Yang, Ming-Hsuan",
+      "title": "Burst image restoration and enhancement",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "BIPNet"
+    },
+    {
+      "year": "2023",
+      "pages": "5703--5712",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Dudhane, Akshay and Zamir, Syed Waqas and Khan, Salman and Khan, Fahad Shahbaz and Yang, Ming-Hsuan",
+      "title": "Burstormer: Burst image restoration and enhancement transformer",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "dudhane2023burstormer"
+    },
+    {
+      "year": "2019",
+      "pages": "916--921",
+      "booktitle": "IEEE international conference on multimedia and expo",
+      "author": "Maharjan, Paras and Li, Li and Li, Zhu and Xu, Ning and Ma, Chongyang and Li, Yue",
+      "title": "Improving extreme low-light image denoising via residual learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "burst-low-light1"
+    },
+    {
+      "year": "2019",
+      "journal": "arXiv preprint arXiv:1904.07483",
+      "author": "Zhao, Di and Ma, Lan and Li, Songnan and Yu, Dahai",
+      "title": "End-to-end denoising of dark burst images using recurrent fully convolutional networks",
+      "ENTRYTYPE": "article",
+      "ID": "burst-low-light2"
+    },
+    {
+      "year": "2021",
+      "pages": "9372--9385",
+      "volume": "30",
+      "journal": "IEEE Transactions on Image Processing",
+      "author": "Karadeniz, Ahmet Serdar and Erdem, Erkut and Erdem, Aykut",
+      "title": "Burst photography for learning to enhance extremely dark images",
+      "ENTRYTYPE": "article",
+      "ID": "burst-low-light3"
+    },
+    {
+      "year": "2022",
+      "pages": "1279--1286",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Mehta, Nancy and Dudhane, Akshay and Murala, Subrahmanyam and Zamir, Syed Waqas and Khan, Salman and Khan, Fahad Shahbaz",
+      "title": "Adaptive feature consolidation network for burst super-resolution",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "burst-SR1"
+    },
+    {
+      "year": "2022",
+      "pages": "998--1008",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Luo, Ziwei and Li, Youwei and Cheng, Shen and Yu, Lei and Wu, Qi and Wen, Zhihong and Fan, Haoqiang and Sun, Jian and Liu, Shuaicheng",
+      "title": "Bsrt: Improving burst super-resolution with swin transformer and flow-guided deformable alignment",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "burst-SR2"
+    },
+    {
+      "year": "2021",
+      "pages": "9209--9218",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Bhat, Goutam and Danelljan, Martin and Van Gool, Luc and Timofte, Radu",
+      "title": "Deep burst super-resolution",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "BurstSR"
+    },
+    {
+      "year": "2018",
+      "pages": "538--554",
+      "booktitle": "European Conference on Computer Vision",
+      "author": "Godard, Cl{\\'e}ment and Matzen, Kevin and Uyttendaele, Matt",
+      "title": "Deep burst denoising",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "burst-denoise1"
+    },
+    {
+      "year": "2018",
+      "pages": "2502--2510",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Mildenhall, Ben and Barron, Jonathan T and Chen, Jiawen and Sharlet, Dillon and Ng, Ren and Carroll, Robert",
+      "title": "Burst denoising with kernel prediction networks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "burst-denoise2"
+    },
+    {
+      "year": "2020",
+      "pages": "2301--2310",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Yue, Huanjing and Cao, Cong and Liao, Lei and Chu, Ronghe and Yang, Jingyu",
+      "title": "Supervised raw video denoising with a benchmark dataset on dynamic scenes",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "burst-denoise3"
+    },
+    {
+      "year": "2016",
+      "pages": "295--307",
+      "number": "2",
+      "volume": "38",
+      "journal": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+      "author": "Dong, Chao and Loy, Chen Change and He, Kaiming and Tang, Xiaoou",
+      "title": "Image super-resolution using deep convolutional networks",
+      "ENTRYTYPE": "article",
+      "ID": "cnn1"
+    },
+    {
+      "year": "2016",
+      "pages": "770--778",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "He, Kaiming and Zhang, Xiangyu and Ren, Shaoqing and Sun, Jian",
+      "title": "Deep residual learning for image recognition",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "cnn2"
+    },
+    {
+      "year": "2017",
+      "pages": "2496--2507",
+      "number": "11",
+      "volume": "39",
+      "journal": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+      "author": "Ledig, Christian and Theis, Lucas and Huszar, Ferenc and Caballero, Jose and Cunningham, Andrew and Acosta, Andr{\\'e} and Aitken, Andrew and Tejani, Ali and Totz, Johannes and Wang, Zhifeng and Shi, Wenzhe",
+      "title": "Photo-Realistic Single Image Super-Resolution Using a Generative Adversarial Network",
+      "ENTRYTYPE": "article",
+      "ID": "cnn3"
+    },
+    {
+      "year": "2022",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "pages": "5728--5739",
+      "author": "Syed Waqas Zamir and Aditya Arora and Salman Khan and Munawar Hayat and Fahad Shahbaz Khan and Ming-Hsuan Yang",
+      "title": "Restormer: Efficient Transformer for High-Resolution Image Restoration",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "Zamir2021Restormer"
+    },
+    {
+      "year": "2022",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "pages": "17683--17693",
+      "author": "Wang, Zhendong and Cun, Xiaodong and Bao, Jianmin and Zhou, Wengang and Liu, Jianzhuang and Li, Houqiang",
+      "title": "Uformer: A general u-shaped transformer for image restoration",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "Uformer"
+    },
+    {
+      "year": "2023",
+      "pages": "12504--12513",
+      "booktitle": "Proceedings of the IEEE/CVF International Conference on Computer Vision",
+      "title": "Retinexformer: One-stage Retinex-based Transformer for Low-light Image Enhancement",
+      "author": "Cai, Yuanhao and Bian, Hao and Lin, Jing and Wang, Haoqian and Timofte, Radu and Zhang, Yulun",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "Retinexformer"
+    },
+    {
+      "year": "2021",
+      "pages": "9372--9385",
+      "volume": "30",
+      "journal": "IEEE Transactions on Image Processing",
+      "author": "Karadeniz, Ahmet Serdar and Erdem, Erkut and Erdem, Aykut",
+      "title": "Burst photography for learning to enhance extremely dark images",
+      "ENTRYTYPE": "article",
+      "ID": "kara"
+    },
+    {
+      "year": "2021",
+      "pages": "37--47",
+      "volume": "452",
+      "journal": "Neurocomputing",
+      "author": "Zamir, Syed Waqas and Arora, Aditya and Khan, Salman and Khan, Fahad Shahbaz and Shao, Ling",
+      "title": "Learning digital camera pipeline for extreme low-light imaging",
+      "ENTRYTYPE": "article",
+      "ID": "zamir2021learning"
+    },
+    {
+      "year": "2019",
+      "journal": "arXiv preprint arXiv:1904.07483",
+      "author": "Zhao, Di and Ma, Lan and Li, Songnan and Yu, Dahai",
+      "title": "End-to-end denoising of dark burst images using recurrent fully convolutional networks",
+      "ENTRYTYPE": "article",
+      "ID": "zhao2019end"
+    },
+    {
+      "year": "2019",
+      "pages": "2497--2501",
+      "booktitle": "IEEE International Conference on Acoustics, Speech and Signal Processing",
+      "author": "Vatansever, Saffet and Dirik, Ahmet Emir and Memon, Nasir",
+      "title": "Factors affecting ENF based time-of-recording estimation for video",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "guangpu"
+    },
+    {
+      "year": "2012",
+      "journal": "arXiv preprint arXiv:1212.0402",
+      "author": "Soomro, Khurram and Zamir, Amir Roshan and Shah, Mubarak",
+      "title": "UCF101: A dataset of 101 human actions classes from videos in the wild",
+      "ENTRYTYPE": "article",
+      "ID": "ucf"
+    },
+    {
+      "year": "2021",
+      "pages": "8762--8771",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Lin, Shanchuan and Ryabtsev, Andrey and Sengupta, Soumyadip and Curless, Brian L and Seitz, Steven M and Kemelmacher-Shlizerman, Ira",
+      "title": "Real-time high-resolution background matting",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "green-screen"
+    },
+    {
+      "year": "2021",
+      "pages": "691--700",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops",
+      "author": "P{\\'e}rez-Pellitero, Eduardo and Catley-Chandar, Sibi and Leonardis, Ales and Timofte, Radu",
+      "title": "{NTIRE} 2021 challenge on high dynamic range imaging: Dataset, methods and results",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "perez2021ntire"
+    },
+    {
+      "pages": "166--181",
+      "year": "2021",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops",
+      "title": "{NTIRE} 2021 Challenge on Video Super-Resolution",
+      "author": "Son, Sanghyun and Lee, Suyoung and Nah, Seungjun and Timofte, Radu and Lee, Kyoung Mu",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "REDS"
+    },
+    {
+      "year": "2023",
+      "pages": "13233--13242",
+      "booktitle": "Proceedings of the IEEE/CVF International Conference on Computer Vision",
+      "author": "Wei, Pengxu and Sun, Yujing and Guo, Xingbei and Liu, Chang and Li, Guanbin and Chen, Jie and Ji, Xiangyang and Lin, Liang",
+      "title": "Towards real-world burst image super-resolution: Benchmark and method",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "realbsr"
+    },
+    {
+      "year": "2023",
+      "pages": "12877--12886",
+      "booktitle": "Proceedings of the IEEE/CVF International Conference on Computer Vision",
+      "author": "Fu, Huiyuan and Zheng, Wenkai and Wang, Xicong and Wang, Jiaxuan and Zhang, Heng and Ma, Huadong",
+      "title": "Dancing in the dark: A benchmark towards general low-light video enhancement",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "did"
+    },
+    {
+      "year": "2021",
+      "pages": "9700--9709",
+      "booktitle": "Proceedings of the IEEE/CVF International Conference on Computer Vision",
+      "author": "Wang, Ruixing and Xu, Xiaogang and Fu, Chi-Wing and Lu, Jiangbo and Yu, Bei and Jia, Jiaya",
+      "title": "Seeing dynamic scene in the dark: A high-quality video dataset with mechatronic alignment",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "sdsd"
+    },
+    {
+      "year": "2023",
+      "pages": "13966--13975",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Liu, Shuaizheng and Zhang, Xindong and Sun, Lingchen and Liang, Zhetong and Zeng, Hui and Zhang, Lei",
+      "title": "Joint hdr denoising and fusion: A real-world mobile hdr image dataset",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "mobilehdr"
+    },
+    {
+      "year": "2021",
+      "pages": "691--700",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops",
+      "author": "P{\\'e}rez-Pellitero, Eduardo and Catley-Chandar, Sibi and Leonardis, Ales and Timofte, Radu",
+      "title": "{NTIRE} 2021 challenge on high dynamic range imaging: Dataset, methods and results",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "nrire_hdr"
+    },
+    {
+      "year": "2017",
+      "pages": "144--1",
+      "number": "4",
+      "volume": "36",
+      "journal": "ACM Transactions on Graphics",
+      "author": "Kalantari, Nima Khademi and Ramamoorthi, Ravi and others",
+      "title": "Deep high dynamic range imaging of dynamic scenes.",
+      "ENTRYTYPE": "article",
+      "ID": "kalantari"
+    },
+    {
+      "year": "2022",
+      "pages": "344--360",
+      "booktitle": "European Conference on Computer Vision",
+      "author": "Liu, Zhen and Wang, Yinglong and Zeng, Bing and Liu, Shuaicheng",
+      "title": "Ghost-free high dynamic range imaging with context-aware transformer",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "hdrtransformer"
+    },
+    {
+      "year": "2023",
+      "pages": "12790--12799",
+      "booktitle": "Proceedings of the IEEE/CVF International Conference on Computer Vision",
+      "author": "Tel, Steven and Wu, Zongwei and Zhang, Yulun and Heyrman, Barthelemy and Demonceaux, Cedric and Timofte, Radu and Ginhac, Dominique",
+      "title": "Alignment-free HDR Deghosting with Semantics Consistent Transformer",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "SCTNet"
+    },
+    {
+      "year": "2020",
+      "pages": "4308--4322",
+      "volume": "29",
+      "journal": "IEEE Transactions on Image Processing",
+      "author": "Yan, Qingsen and Zhang, Lei and Liu, Yu and Zhu, Yu and Sun, Jinqiu and Shi, Qinfeng and Zhang, Yanning",
+      "title": "Deep HDR imaging via a non-local network",
+      "ENTRYTYPE": "article",
+      "ID": "NHDRRNet"
+    },
+    {
+      "year": "2012",
+      "pages": "209--212",
+      "number": "3",
+      "volume": "20",
+      "journal": "IEEE Signal processing letters",
+      "author": "Mittal, Anish and Soundararajan, Rajiv and Bovik, Alan C",
+      "title": "Making a “completely blind” image quality analyzer",
+      "ENTRYTYPE": "article",
+      "ID": "niqe"
+    },
+    {
+      "year": "2012",
+      "pages": "4695--4708",
+      "number": "12",
+      "volume": "21",
+      "journal": "IEEE Transactions on Image Processing",
+      "author": "Mittal, Anish and Moorthy, Anush Krishna and Bovik, Alan Conrad",
+      "title": "No-reference image quality assessment in the spatial domain",
+      "ENTRYTYPE": "article",
+      "ID": "brisque"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2402.05809",
+      "author": "Yan, Qingsen and Feng, Yixu and Zhang, Cheng and Wang, Pei and Wu, Peng and Dong, Wei and Sun, Jinqiu and Zhang, Yanning",
+      "title": "You only need one color space: An efficient network for low-light image enhancement",
+      "ENTRYTYPE": "article",
+      "ID": "CIDNet"
+    },
+    {
+      "year": "2013",
+      "pages": "312--316",
+      "booktitle": "International Workshop on Multimedia Signal Processing",
+      "author": "Nadernejad, Ehsan and Mantel, Claire and Burini, Nino and Forchhammer, S{\\o}ren",
+      "title": "Flicker reduction in {LED-LCDs} with local backlight",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "prior_flicker1"
+    },
+    {
+      "year": "2017",
+      "pages": "8741--8753",
+      "number": "10",
+      "volume": "33",
+      "journal": "IEEE Transactions on Power Electronics",
+      "author": "Ahn, Hyun-A and Hong, Seong-Kwan and Kwon, Oh-Kyong",
+      "title": "A highly accurate current {LED} lamp driver with removal of low-frequency flicker using average current control method",
+      "ENTRYTYPE": "article",
+      "ID": "prior_flicker2"
+    },
+    {
+      "year": "2019",
+      "pages": "10035--10057",
+      "number": "10",
+      "volume": "34",
+      "journal": "IEEE Transactions on Power Electronics",
+      "author": "Castro, Ignacio and Vazquez, Aitor and Arias, Manuel and Lamar, Diego G and Hernando, Marta M and Sebastian, Javier",
+      "title": "A review on flicker-free {AC--DC LED} drivers for single-phase and three-phase {AC} power grids",
+      "ENTRYTYPE": "article",
+      "ID": "prior_flicker3"
+    },
+    {
+      "year": "2024",
+      "pages": "1--5",
+      "booktitle": "IEEE ISBI",
+      "author": "Allebosch, Gianni and Vanhees, Matthias and Luong, Hiep and Veelaert, Peter and Booth, Brian G",
+      "title": "Real-Time Video Enhancement for the Removal of Surgical Lighting Artifacts in Computer-Assisted Orthopedic Surgery",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "flicker_surgery"
+    },
+    {
+      "year": "2009",
+      "pages": "1712--1714",
+      "booktitle": "International Conference on Advanced Communication Technology",
+      "author": "Park, SangHyun and Kim, GyuWon and Jeon, JaeWook",
+      "title": "The method of auto exposure control for low-end digital camera",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "park2009method"
+    },
+    {
+      "year": "2014",
+      "pages": "74--77",
+      "number": "7529",
+      "volume": "516",
+      "journal": "Nature",
+      "author": "Gao, Liang and Liang, Jinyang and Li, Chi and Wang, Lihong V.",
+      "title": "Single-shot compressed ultrafast photography at one hundred billion frames per second",
+      "ENTRYTYPE": "article",
+      "ID": "highspeed1"
+    },
+    {
+      "year": "2014",
+      "journal": "arXiv preprint arXiv:1409.1556",
+      "author": "Simonyan, Karen and Zisserman, Andrew",
+      "title": "Very deep convolutional networks for large-scale image recognition",
+      "ENTRYTYPE": "article",
+      "ID": "vgg"
+    },
+    {
+      "year": "2021",
+      "pages": "6358--6367",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Zheng, Yajing and Zheng, Lingxiao and Yu, Zhaofei and Shi, Boxin and Tian, Yonghong and Huang, Tiejun",
+      "title": "High-speed image reconstruction through short-term plasticity for spiking cameras",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "highspeed2"
+    },
+    {
+      "year": "2021",
+      "pages": "2024--2033",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Zou, Yunhao and Zheng, Yinqiang and Takatani, Tsuyoshi and Fu, Ying",
+      "title": "Learning to reconstruct high speed and high dynamic range videos from events",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "highspeed3"
+    },
+    {
+      "year": "2023",
+      "pages": "5724--5734",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Chi, Yiheng and Zhang, Xingguang and Chan, Stanley H",
+      "title": "Hdr imaging with spatially varying signal-to-noise ratios",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "hdr1"
+    },
+    {
+      "year": "2020",
+      "booktitle": "Proceedings of the Asian Conference on Computer Vision",
+      "pages": "134--149",
+      "author": "Pu, Zhiyuan and Guo, Peiyao and Asif, M Salman and Ma, Zhan",
+      "title": "Robust high dynamic range (hdr) imaging with complex motion and parallax",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "hdr2"
+    },
+    {
+      "year": "2021",
+      "pages": "691--700",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops",
+      "author": "P{\\'e}rez-Pellitero, Eduardo and Catley-Chandar, Sibi and Leonardis, Ales and Timofte, Radu",
+      "title": "{NTIRE} 2021 challenge on high dynamic range imaging: Dataset, methods and results",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "hdr3"
+    },
+    {
+      "year": "2019",
+      "pages": "8112--8121",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Jin, Meiguang and Hu, Zhe and Favaro, Paolo",
+      "title": "Learning to extract flawless slow motion from blurry videos",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "slow-motion-1"
+    },
+    {
+      "year": "2020",
+      "pages": "3370--3379",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Xiang, Xiaoyu and Tian, Yapeng and Zhang, Yulun and Fu, Yun and Allebach, Jan P and Xu, Chenliang",
+      "title": "Zooming slow-mo: Fast and accurate one-stage space-time video super-resolution",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "slow-motion2"
+    },
+    {
+      "year": "2023",
+      "pages": "22180--22190",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Chang, Yakun and Zhou, Chu and Hong, Yuchen and Hu, Liwen and Xu, Chao and Huang, Tiejun and Shi, Boxin",
+      "title": "1000 fps hdr video with a spike-rgb hybrid camera",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "slow-motion3"
+    },
+    {
+      "year": "1993",
+      "pages": "3--12",
+      "journal": "Journal of Film and Video",
+      "author": "Anderson, Joseph and Anderson, Barbara",
+      "title": "The myth of persistence of vision revisited",
+      "ENTRYTYPE": "article",
+      "ID": "anderson1993myth"
+    },
+    {
+      "year": "2022",
+      "pages": "8577--8593",
+      "number": "7",
+      "volume": "45",
+      "journal": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+      "author": "Feng, Tinglei and Zhai, Yingjie and Yang, Jufeng and Liang, Jie and Fan, Deng-Ping and Zhang, Jing and Shao, Ling and Tao, Dacheng",
+      "title": "IC9600: A benchmark dataset for automatic image complexity assessment",
+      "ENTRYTYPE": "article",
+      "ID": "feng2022ic9600"
+    },
+    {
+      "year": "2021",
+      "pages": "5148--5157",
+      "booktitle": "Proceedings of the IEEE/CVF International Conference on Computer Vision",
+      "author": "Ke, Junjie and Wang, Qifei and Wang, Yilin and Milanfar, Peyman and Yang, Feng",
+      "title": "Musiq: Multi-scale image quality transformer",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ke2021musiq"
+    },
+    {
+      "year": "2015",
+      "pages": "1--6",
+      "booktitle": "National Conference on Communications",
+      "author": "Venkatanath, Narasimhan and Praneeth, D and Bh, Maruthi Chandrasekhar and Channappayya, Sumohana S and Medasani, Swarup S",
+      "title": "Blind image quality evaluation using perception based features",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "PIQE"
+    },
+    {
+      "year": "2009",
+      "pages": "413--420",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "title": "Recognizing indoor scenes",
+      "author": "A. Quattoni and A. Torralba",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "cvprindoor"
+    },
+    {
+      "year": "2004",
+      "pages": "600--612",
+      "number": "4",
+      "volume": "13",
+      "journal": "IEEE Transactions on Image Processing",
+      "author": "Wang, Zhou and Bovik, Alan C and Sheikh, Hamid R and Simoncelli, Eero P",
+      "title": "Image quality assessment: from error visibility to structural similarity",
+      "ENTRYTYPE": "article",
+      "ID": "ssim"
+    },
+    {
+      "year": "2018",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Zhang, Richard and Isola, Phillip and Efros, Alexei A and Shechtman, Eli and Wang, Oliver",
+      "title": "The unreasonable effectiveness of deep features as a perceptual metric",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "LPIPS"
+    },
+    {
+      "year": "2017",
+      "pages": "6437--6446",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Sheinin, Mark and Schechner, Yoav Y and Kutulakos, Kiriakos N",
+      "title": "Computational imaging on the electric grid",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "sheinin2017computational"
+    },
+    {
+      "year": "2018",
+      "pages": "1--12",
+      "booktitle": "IEEE International Conference on Computational Photography",
+      "author": "Sheinin, Mark and Schechner, Yoav Y and Kutulakos, Kiriakos N",
+      "title": "Rolling shutter imaging on the electric grid",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "sheinin2018rolling"
+    },
+    {
+      "year": "2023",
+      "pages": "28565--28584",
+      "booktitle": "Advances in Neural Information Processing Systems",
+      "author": "Gu, Jinjin and Ma, Xianzheng and Kong, Xiangtao and Qiao, Yu and Dong, Chao",
+      "title": "Networks are slacking off: Understanding generalization problem in image deraining",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "derain1"
+    },
+    {
+      "year": "2025",
+      "pages": "5558--5566",
+      "booktitle": "Proceedings of the AAAI Conference on Artificial Intelligence",
+      "author": "Liu, Shuhong and Chen, Xiang and Chen, Hongming and Xu, Quanfeng and Li, Mingrui",
+      "title": "DeRainGS: Gaussian Splatting for Enhanced Scene Reconstruction in Rainy Environments",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "derain2"
+    },
+    {
+      "year": "2024",
+      "pages": "1046--1053",
+      "booktitle": "Proceedings of the AAAI Conference on Artificial Intelligence",
+      "author": "Chen, Hongming and Chen, Xiang and Lu, Jiyang and Li, Yufeng",
+      "title": "Rethinking multi-scale representations in deep deraining transformer",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "derain3"
+    },
+    {
+      "year": "2024",
+      "pages": "125394--125415",
+      "booktitle": "Advances in Neural Information Processing Systems",
+      "author": "Lee, Dongwoo and Park, JoonKyu and Lee, Kyoung Mu",
+      "title": "GS-blur: A 3d scene-based dataset for realistic image deblurring",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "deblur1"
+    },
+    {
+      "year": "2024",
+      "pages": "29114--29125",
+      "booktitle": "Advances in Neural Information Processing Systems",
+      "author": "Chen, Zheng and Zhang, Yulun and Liu, Ding and Gu, Jinjin and Kong, Linghe and Yuan, Xin and others",
+      "title": "Hierarchical integration diffusion model for realistic image deblurring",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "deblur2"
+    },
+    {
+      "year": "2023",
+      "pages": "70279--70292",
+      "booktitle": "Advances in Neural Information Processing Systems",
+      "author": "Chen, Shiyan and Zhang, Jiyuan and Zheng, Yajing and Huang, Tiejun and Yu, Zhaofei",
+      "title": "Enhancing motion deblurring in high-speed scenes with spike streams",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "deblur3"
+    },
+    {
+      "year": "2023",
+      "pages": "5886--5895",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Kong, Lingshun and Dong, Jiangxin and Ge, Jianjun and Li, Mingqiang and Pan, Jinshan",
+      "title": "Efficient frequency domain-based transformers for high-quality image deblurring",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "deblur4"
+    },
+    {
+      "year": "2024",
+      "pages": "25595--25605",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Liu, Chengxu and Wang, Xuan and Xu, Xiangyu and Tian, Ruhao and Li, Shuai and Qian, Xueming and Yang, Ming-Hsuan",
+      "title": "Motion-adaptive separable collaborative filters for blind motion deblurring",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "deblur5"
+    },
+    {
+      "year": "2021",
+      "pages": "149--165",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops",
+      "author": "Nah, Seungjun and Son, Sanghyun and Lee, Suyoung and Timofte, Radu and Lee, Kyoung Mu and Chen, Liangyu and Zhang, Jie and Lu, Xin and Chu, Xiaojie and Chen, Chengpeng and others",
+      "title": "{NTIRE} 2021 challenge on image deblurring",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "deblur6"
+    },
+    {
+      "year": "2024",
+      "pages": "81105--81129",
+      "booktitle": "Advances in Neural Information Processing Systems",
+      "author": "Zhou, Kun and Lin, Xinyu and Liu, Zhonghang and Han, Xiaoguang and Lu, Jiangbo",
+      "title": "Ups: Unified projection sharing for lightweight single-image super-resolution and beyond",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "super1"
+    },
+    {
+      "year": "2024",
+      "pages": "6860--6883",
+      "booktitle": "Advances in Neural Information Processing Systems",
+      "author": "Yu, Wei and Yang, Bowen and Qinglin, Liu and Li, Jianing and Zhang, Shengping and Ji, Xiangyang",
+      "title": "Rethinking Imbalance in Image Super-Resolution for Efficient Inference",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "super2"
+    },
+    {
+      "year": "2023",
+      "pages": "56838--56848",
+      "booktitle": "Advances in Neural Information Processing Systems",
+      "author": "Qin, Haotong and Zhang, Yulun and Ding, Yifu and Liu, Xianglong and Danelljan, Martin and Yu, Fisher and others",
+      "title": "QuantSR: accurate low-bit quantization for efficient image super-resolution",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "super3"
+    },
+    {
+      "year": "2024",
+      "pages": "109969",
+      "volume": "146",
+      "journal": "Pattern Recognition",
+      "author": "Xu, Yimin and Lin, Mingbao and Yang, Hong and Chao, Fei and Ji, Rongrong",
+      "title": "Shadow-aware dynamic convolution for shadow removal",
+      "ENTRYTYPE": "article",
+      "ID": "shadow1"
+    },
+    {
+      "year": "2023",
+      "pages": "710--718",
+      "number": "1",
+      "volume": "37",
+      "booktitle": "Proceedings of the AAAI Conference on Artificial Intelligence",
+      "author": "Guo, Lanqing and Huang, Siyu and Liu, Ding and Cheng, Hao and Wen, Bihan",
+      "title": "Shadowformer: global context helps shadow removal",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "shadow2"
+    },
+    {
+      "year": "2023",
+      "pages": "161--176",
+      "number": "1",
+      "volume": "42",
+      "journal": "IEEE Journal on Selected Areas in Communications",
+      "author": "Wang, Jiacheng and Du, Hongyang and Niyato, Dusit and Zhou, Mu and Kang, Jiawen and Xiong, Zehui and Jamalipour, Abbas",
+      "title": "Through the wall detection and localization of autonomous mobile device in indoor scenario",
+      "ENTRYTYPE": "article",
+      "ID": "detection1"
+    },
+    {
+      "year": "2017",
+      "pages": "11--18",
+      "number": "2",
+      "volume": "9",
+      "journal": "SIGSPATIAL Special",
+      "author": "Ahmed, Tanvir and Calders, Toon and Lu, Hua and Pedersen, Torben Bach",
+      "title": "Risk detection and prediction from indoor tracking data",
+      "ENTRYTYPE": "article",
+      "ID": "tracking1"
+    },
+    {
+      "year": "2023",
+      "pages": "01--08",
+      "booktitle": "International Joint Conference on Neural Networks",
+      "author": "Song, Chuanxin and Ma, Xin",
+      "title": "Srrm: Semantic region relation model for indoor scene recognition",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "reco1"
+    },
+    {
+      "publisher": "Institute for Electrical and Electronics Engineers, Inc.(IEEE) New York (NY)",
+      "year": "2015",
+      "journal": "No. S1789-2015",
+      "author": "IEEE Power Electronics Society",
+      "title": "{IEEE} recommended practices for modulating current in high-brightness {LED}s for mitigating health risks to viewers",
+      "ENTRYTYPE": "article",
+      "ID": "modes"
+    },
+    {
+      "year": "2024",
+      "pages": "67--106",
+      "number": "1",
+      "volume": "20",
+      "journal": "Leukos",
+      "author": "Veitch, Jennifer A and Van Roon, Patricia and D’Angiulli, Amedeo and Wilkins, Arnold and Lehman, Brad and Burns, Greg J and Dikel, E Erhan",
+      "title": "Effects of temporal light modulation on cognitive performance, eye movements, and brain function",
+      "ENTRYTYPE": "article",
+      "ID": "modes2"
+    },
+    {
+      "year": "2017",
+      "pages": "105--113",
+      "booktitle": "Computer Graphics Forum",
+      "author": "Zhang, Xuaner and Lee, Joon-Young and Sunkavalli, Kalyan and Wang, Zhaowen",
+      "title": "Photometric Stabilization for Fast-forward Videos",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zhang2017photometric"
+    },
+    {
+      "year": "2011",
+      "pages": "463--472",
+      "booktitle": "Proceedings of the ACM International Conference on Multimedia",
+      "author": "Ni, Pengpeng and Eg, Ragnhild and Eichhorn, Alexander and Griwodz, Carsten and Halvorsen, P{\\aa}l",
+      "title": "Flicker effects in adaptive video streaming to handheld devices",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "flicker_video"
+    },
+    {
+      "year": "2000",
+      "pages": "657--659",
+      "booktitle": "International Conference on Image Processing",
+      "author": "Naranjo, Valery and Albiol, Antonio",
+      "title": "Flicker reduction in old films",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "flicker_films"
+    },
+    {
+      "year": "2023",
+      "pages": "4015--4026",
+      "booktitle": "Proceedings of the IEEE/CVF International Conference on Computer Vision",
+      "author": "Kirillov, Alexander and Mintun, Eric and Ravi, Nikhila and Mao, Hanzi and Rolland, Chloe and Gustafson, Laura and Xiao, Tete and Whitehead, Spencer and Berg, Alexander C and Lo, Wan-Yen and others",
+      "title": "Segment anything",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "kirillov2023segment"
+    },
+    {
+      "year": "2022",
+      "pages": "1239--1248",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Chu, Xiaojie and Chen, Liangyu and Yu, Wenqing",
+      "title": "Nafssr: Stereo image super-resolution using nafnet",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "NAFNet"
+    },
+    {
+      "year": "2019",
+      "pages": "2278--2287",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Lee, Junghyup and Kim, Dohyung and Ponce, Jean and Ham, Bumsub",
+      "title": "Sfnet: Learning object-aware semantic correspondence",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "SFNet"
+    },
+    {
+      "year": "2021",
+      "pages": "2704--2713",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Mehri, Armin and Ardakani, Parichehr B and Sappa, Angel D",
+      "title": "MPRNet: Multi-path residual network for lightweight image super resolution",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "MPRNet"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2309.05239",
+      "author": "Chen, Xiangyu and Wang, Xintao and Zhang, Wenlong and Kong, Xiangtao and Qiao, Yu and Zhou, Jiantao and Dong, Chao",
+      "title": "Hat: Hybrid attention transformer for image restoration",
+      "ENTRYTYPE": "article",
+      "ID": "chen2023hat"
+    },
+    {
+      "year": "2022",
+      "pages": "29319--29335",
+      "booktitle": "Advances in Neural Information Processing Systems",
+      "author": "Nguyen, Tan and Pham, Minh and Nguyen, Tam and Nguyen, Khai and Osher, Stanley and Ho, Nhat",
+      "title": "Fourierformer: Transformer meets generalized fourier integral theorem",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "nguyen2022fourierformer"
+    },
+    {
+      "year": "2024",
+      "pages": "385--404",
+      "booktitle": "European Conference on Computer Vision",
+      "author": "Vasluianu, Florin-Alexandru and Seizinger, Tim and Wu, Zongwei and Ranjan, Rakesh and Timofte, Radu",
+      "title": "Towards image ambient lighting normalization",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ifblend"
+    },
+    {
+      "year": "2024",
+      "pages": "222--241",
+      "booktitle": "European Conference on Computer Vision",
+      "author": "Guo, Hang and Li, Jinmin and Dai, Tao and Ouyang, Zhihao and Ren, Xudong and Xia, Shu-Tao",
+      "title": "Mambair: A simple baseline for image restoration with state-space model",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "guo2024mambair"
+    },
+    {
+      "year": "2021",
+      "pages": "4733--4742",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Jing, Junpeng and Deng, Xin and Xu, Mai and Wang, Jianyi and Guan, Zhenyu",
+      "title": "Hinet: Deep image hiding by invertible network",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "jing2021hinet"
+    },
+    {
+      "year": "2025",
+      "pages": "1--19",
+      "number": "4",
+      "volume": "68",
+      "journal": "Science China Information Sciences",
+      "author": "Liu, Hao and Xu, Zhen and Wei, Yifan and Han, Kai and Peng, Xin",
+      "title": "Multispectral non-line-of-sight imaging via deep fusion photography",
+      "ENTRYTYPE": "article",
+      "ID": "scic1"
+    },
+    {
+      "year": "2025",
+      "pages": "134101",
+      "number": "3",
+      "volume": "68",
+      "journal": "Science China Information Sciences",
+      "author": "Li, Siqi and Du, Shaoyi and Yong, Jun-Hai and Gao, Yue",
+      "title": "Event-enhanced synthetic aperture imaging",
+      "ENTRYTYPE": "article",
+      "ID": "scic2"
+    },
+    {
+      "year": "2023",
+      "pages": "12345--12354",
+      "booktitle": "Proceedings of the IEEE/CVF International Conference on Computer Vision",
+      "author": "Dong, Jiangxin and Pan, Jinshan and Yang, Zhongbao and Tang, Jinhui",
+      "title": "Multi-scale residual low-pass filter network for image deblurring",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "pan1"
+    },
+    {
+      "year": "2023",
+      "pages": "5886--5895",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Kong, Lingshun and Dong, Jiangxin and Ge, Jianjun and Li, Mingqiang and Pan, Jinshan",
+      "title": "Efficient frequency domain-based transformers for high-quality image deblurring",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "pan2"
+    },
+    {
+      "pages": "5414-5433",
+      "number": "7",
+      "volume": "47",
+      "year": "2025",
+      "title": "Towards Unified Deep Image Deraining: A Survey and a New Benchmark",
+      "journal": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+      "author": "Chen, Xiang and Pan, Jinshan and Dong, Jiangxin and Tang, Jinhui",
+      "ENTRYTYPE": "article",
+      "ID": "pan3"
+    },
+    {
+      "year": "2024",
+      "pages": "246--264",
+      "booktitle": "European Conference on Computer Vision",
+      "author": "Zhou, Shihao and Pan, Jinshan and Shi, Jinglei and Chen, Duosheng and Qu, Lishen and Yang, Jufeng",
+      "title": "Seeing the unseen: A frequency prompt guided transformer for image restoration",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zhou2024seeing"
+    },
+    {
+      "year": "2025",
+      "pages": "28061--28070",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Chen, Duosheng and Zhou, Shihao and Pan, Jinshan and Shi, Jinglei and Qu, Lishen and Yang, Jufeng",
+      "title": "A Polarization-Aided Transformer for Image Deblurring via Motion Vector Decomposition",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "chen2025polarization"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2509.06793",
+      "author": "Ciubotariu, George and Vasluianu, Florin-Alexandru and Zhou, Zhuyun and Mehta, Nancy and Timofte, Radu and Wu, Ke and Sun, Long and Kong, Lingshun and Yang, Zhongbao and Pan, Jinshan and others",
+      "title": "AIM 2025 Challenge on High FPS Motion Deblurring: Methods and Results",
+      "ENTRYTYPE": "article",
+      "ID": "ciubotariu2025aim"
+    },
+    {
+      "year": "2011",
+      "pages": "1838--1857",
+      "number": "7",
+      "volume": "20",
+      "journal": "IEEE Transactions on Image Processing",
+      "author": "Dong, Weisheng and Zhang, Lei and Shi, Guangming and Wu, Xiaolin",
+      "title": "Image deblurring and super-resolution by adaptive sparse domain selection and adaptive regularization",
+      "ENTRYTYPE": "article",
+      "ID": "zhanglei_deblur1"
+    },
+    {
+      "year": "2019",
+      "pages": "3086--3095",
+      "booktitle": "Proceedings of the IEEE/CVF International Conference on Computer Vision",
+      "author": "Cai, Jianrui and Zeng, Hui and Yong, Hongwei and Cao, Zisheng and Zhang, Lei",
+      "title": "Toward real-world single image super-resolution: A new benchmark and a new model",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zhanglei_SR1"
+    }
+  ]
+}

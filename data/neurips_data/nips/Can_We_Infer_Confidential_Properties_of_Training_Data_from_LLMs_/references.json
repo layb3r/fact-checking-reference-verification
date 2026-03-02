@@ -1,0 +1,453 @@
+{
+  "pdf_url": "https://arxiv.org/pdf/2506.10364v4.pdf",
+  "references": [
+    {
+      "url": "https://arxiv.org/abs/2310.05694",
+      "primaryclass": "cs.CL",
+      "archiveprefix": "arXiv",
+      "eprint": "2310.05694",
+      "year": "2025",
+      "author": "Kai He and Rui Mao and Qika Lin and Yucheng Ruan and Xiang Lan and Mengling Feng and Erik Cambria",
+      "title": "A Survey of Large Language Models for Healthcare: from Data, Technology, and Applications to Accountability and Ethics",
+      "ENTRYTYPE": "misc",
+      "ID": "he2025surveylargelanguagemodels"
+    },
+    {
+      "url": "https://arxiv.org/abs/2311.10723",
+      "primaryclass": "q-fin.GN",
+      "archiveprefix": "arXiv",
+      "eprint": "2311.10723",
+      "year": "2024",
+      "author": "Yinheng Li and Shaofei Wang and Han Ding and Hang Chen",
+      "title": "Large Language Models in Finance: A Survey",
+      "ENTRYTYPE": "misc",
+      "ID": "li2024largelanguagemodelsfinance"
+    },
+    {
+      "url": "https://arxiv.org/abs/2312.03718",
+      "primaryclass": "cs.CL",
+      "archiveprefix": "arXiv",
+      "eprint": "2312.03718",
+      "year": "2023",
+      "author": "Jinqi Lai and Wensheng Gan and Jiayang Wu and Zhenlian Qi and Philip S. Yu",
+      "title": "Large Language Models in Law: A Survey",
+      "ENTRYTYPE": "misc",
+      "ID": "lai2023largelanguagemodelslaw"
+    },
+    {
+      "url": "https://arxiv.org/abs/2212.07591",
+      "primaryclass": "cs.LG",
+      "archiveprefix": "arXiv",
+      "eprint": "2212.07591",
+      "year": "2024",
+      "author": "Anshuman Suri and Yifu Lu and Yanjin Chen and David Evans",
+      "title": "Dissecting Distribution Inference",
+      "ENTRYTYPE": "misc",
+      "ID": "suri2024dissectingdistributioninference"
+    },
+    {
+      "url": "https://arxiv.org/abs/2111.07608",
+      "primaryclass": "cs.CR",
+      "archiveprefix": "arXiv",
+      "eprint": "2111.07608",
+      "year": "2021",
+      "author": "Junhao Zhou and Yufei Chen and Chao Shen and Yang Zhang",
+      "title": "Property Inference Attacks Against GANs",
+      "ENTRYTYPE": "misc",
+      "ID": "zhou2021propertyinferenceattacksgans"
+    },
+    {
+      "url": "https://arxiv.org/abs/2109.06024",
+      "primaryclass": "cs.LG",
+      "archiveprefix": "arXiv",
+      "eprint": "2109.06024",
+      "year": "2022",
+      "author": "Anshuman Suri and David Evans",
+      "title": "Formalizing and Estimating Distribution Inference Risks",
+      "ENTRYTYPE": "misc",
+      "ID": "suri2022formalizingestimatingdistributioninference"
+    },
+    {
+      "year": "2018",
+      "pages": "619--633",
+      "booktitle": "Proceedings of the 2018 ACM SIGSAC conference on computer and communications security",
+      "author": "Ganju, Karan and Wang, Qi and Yang, Wei and Gunter, Carl A and Borisov, Nikita",
+      "title": "Property inference attacks on fully connected neural networks using permutation invariant representations",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ganju2018property"
+    },
+    {
+      "organization": "IEEE",
+      "year": "2023",
+      "pages": "136--149",
+      "booktitle": "2023 IEEE Conference on Secure and Trustworthy Machine Learning (SaTML)",
+      "author": "Hartmann, Valentin and Meynent, L{\\'e}o and Peyrard, Maxime and Dimitriadis, Dimitrios and Tople, Shruti and West, Robert",
+      "title": "Distribution inference risks: Identifying and mitigating sources of leakage",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "hartmann2023distribution"
+    },
+    {
+      "doi": "10.1109/SaTML54575.2023.00018",
+      "keywords": "Learning systems;Training;Bridges;Training data;Machine learning;Data models;Libraries;distribution inference;property inference;machine learning",
+      "pages": "136-149",
+      "number": "",
+      "volume": "",
+      "year": "2023",
+      "title": "Distribution Inference Risks: Identifying and Mitigating Sources of Leakage",
+      "booktitle": "2023 IEEE Conference on Secure and Trustworthy Machine Learning (SaTML)",
+      "author": "Hartmann, Valentin and Meynent, Léo and Peyrard, Maxime and Dimitriadis, Dimitrios and Tople, Shruti and West, Robert",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "10136150"
+    },
+    {
+      "url": "https://arxiv.org/abs/1306.4447",
+      "primaryclass": "cs.CR",
+      "archiveprefix": "arXiv",
+      "eprint": "1306.4447",
+      "year": "2013",
+      "author": "Giuseppe Ateniese and Giovanni Felici and Luigi V. Mancini and Angelo Spognardi and Antonio Villani and Domenico Vitali",
+      "title": "Hacking Smart Machines with Smarter Ones: How to Extract Meaningful Data from Machine Learning Classifiers",
+      "ENTRYTYPE": "misc",
+      "ID": "ateniese2013hackingsmartmachinessmarter"
+    },
+    {
+      "url": "https://arxiv.org/abs/2012.07805",
+      "primaryclass": "cs.CR",
+      "archiveprefix": "arXiv",
+      "eprint": "2012.07805",
+      "year": "2021",
+      "author": "Nicholas Carlini and Florian Tramer and Eric Wallace and Matthew Jagielski and Ariel Herbert-Voss and Katherine Lee and Adam Roberts and Tom Brown and Dawn Song and Ulfar Erlingsson and Alina Oprea and Colin Raffel",
+      "title": "Extracting Training Data from Large Language Models",
+      "ENTRYTYPE": "misc",
+      "ID": "carlini2021extractingtrainingdatalarge"
+    },
+    {
+      "url": "https://arxiv.org/abs/2406.06443",
+      "primaryclass": "cs.LG",
+      "archiveprefix": "arXiv",
+      "eprint": "2406.06443",
+      "year": "2024",
+      "author": "Pratyush Maini and Hengrui Jia and Nicolas Papernot and Adam Dziedzic",
+      "title": "LLM Dataset Inference: Did you train on my dataset?",
+      "ENTRYTYPE": "misc",
+      "ID": "maini2024llmdatasetinferencedid"
+    },
+    {
+      "url": "https://arxiv.org/abs/1802.08232",
+      "primaryclass": "cs.LG",
+      "archiveprefix": "arXiv",
+      "eprint": "1802.08232",
+      "year": "2019",
+      "author": "Nicholas Carlini and Chang Liu and Úlfar Erlingsson and Jernej Kos and Dawn Song",
+      "title": "The Secret Sharer: Evaluating and Testing Unintended Memorization in Neural Networks",
+      "ENTRYTYPE": "misc",
+      "ID": "carlini2019secretsharerevaluatingtesting"
+    },
+    {
+      "url": "https://arxiv.org/abs/2303.14070",
+      "primaryclass": "cs.CL",
+      "archiveprefix": "arXiv",
+      "eprint": "2303.14070",
+      "year": "2023",
+      "author": "Yunxiang Li and Zihan Li and Kai Zhang and Ruilong Dan and Steve Jiang and You Zhang",
+      "title": "ChatDoctor: A Medical Chat Model Fine-Tuned on a Large Language Model Meta-AI (LLaMA) Using Medical Domain Knowledge",
+      "ENTRYTYPE": "misc",
+      "ID": "li2023chatdoctormedicalchatmodel"
+    },
+    {
+      "url": "https://arxiv.org/abs/2101.11073",
+      "primaryclass": "cs.LG",
+      "archiveprefix": "arXiv",
+      "eprint": "2101.11073",
+      "year": "2021",
+      "author": "Melissa Chase and Esha Ghosh and Saeed Mahloujifar",
+      "title": "Property Inference From Poisoning",
+      "ENTRYTYPE": "misc",
+      "ID": "chase2021propertyinferencepoisoning"
+    },
+    {
+      "url": "https://arxiv.org/abs/2006.07267",
+      "primaryclass": "cs.LG",
+      "archiveprefix": "arXiv",
+      "eprint": "2006.07267",
+      "year": "2021",
+      "author": "Wanrong Zhang and Shruti Tople and Olga Ohrimenko",
+      "title": "Leakage of Dataset Properties in Multi-Party Machine Learning",
+      "ENTRYTYPE": "misc",
+      "ID": "zhang2021leakagedatasetpropertiesmultiparty"
+    },
+    {
+      "url": "https://arxiv.org/abs/2401.13586",
+      "primaryclass": "cs.LG",
+      "archiveprefix": "arXiv",
+      "eprint": "2401.13586",
+      "year": "2024",
+      "author": "Mathew Huerta-Enochian and Seung Yong Ko",
+      "title": "Instruction Fine-Tuning: Does Prompt Loss Matter?",
+      "ENTRYTYPE": "misc",
+      "ID": "huertaenochian2024instructionfinetuningdoesprompt"
+    },
+    {
+      "url": "https://arxiv.org/abs/2305.14314",
+      "primaryclass": "cs.LG",
+      "archiveprefix": "arXiv",
+      "eprint": "2305.14314",
+      "year": "2023",
+      "author": "Tim Dettmers and Artidoro Pagnoni and Ari Holtzman and Luke Zettlemoyer",
+      "title": "QLoRA: Efficient Finetuning of Quantized LLMs",
+      "ENTRYTYPE": "misc",
+      "ID": "dettmers2023qloraefficientfinetuningquantized"
+    },
+    {
+      "year": "2024",
+      "pages": "2423--2440",
+      "booktitle": "33rd USENIX Security Symposium (USENIX Security 24)",
+      "author": "Wang, Lijin and Wang, Jingjing and Wan, Jie and Long, Lin and Yang, Ziqi and Qin, Zhan",
+      "title": "Property existence inference against generative models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "wang2024property"
+    },
+    {
+      "url": "https://arxiv.org/abs/2306.04751",
+      "primaryclass": "cs.CL",
+      "archiveprefix": "arXiv",
+      "eprint": "2306.04751",
+      "year": "2023",
+      "author": "Yizhong Wang and Hamish Ivison and Pradeep Dasigi and Jack Hessel and Tushar Khot and Khyathi Raghavi Chandu and David Wadden and Kelsey MacMillan and Noah A. Smith and Iz Beltagy and Hannaneh Hajishirzi",
+      "title": "How Far Can Camels Go? Exploring the State of Instruction Tuning on Open Resources",
+      "ENTRYTYPE": "misc",
+      "ID": "wang2023farcamelsgoexploring"
+    },
+    {
+      "url": "https://arxiv.org/abs/2106.09685",
+      "primaryclass": "cs.CL",
+      "archiveprefix": "arXiv",
+      "eprint": "2106.09685",
+      "year": "2021",
+      "author": "Edward J. Hu and Yelong Shen and Phillip Wallis and Zeyuan Allen-Zhu and Yuanzhi Li and Shean Wang and Lu Wang and Weizhu Chen",
+      "title": "LoRA: Low-Rank Adaptation of Large Language Models",
+      "ENTRYTYPE": "misc",
+      "ID": "hu2021loralowrankadaptationlarge"
+    },
+    {
+      "url": "https://arxiv.org/abs/2412.18377",
+      "primaryclass": "cs.CL",
+      "archiveprefix": "arXiv",
+      "eprint": "2412.18377",
+      "year": "2025",
+      "author": "Shani Goren and Oren Kalinsky and Tomer Stav and Yuri Rapoport and Yaron Fairstein and Ram Yazdi and Nachshon Cohen and Alexander Libov and Guy Kushilevitz",
+      "title": "ChaI-TeA: A Benchmark for Evaluating Autocompletion of Interactions with LLM-based Chatbots",
+      "ENTRYTYPE": "misc",
+      "ID": "goren2025chaiteabenchmarkevaluatingautocompletion"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2304.08247",
+      "author": "Han, Tianyu and Adams, Lisa C and Papaioannou, Jens-Michalis and Grundmann, Paul and Oberhauser, Tom and L{\\\"o}ser, Alexander and Truhn, Daniel and Bressem, Keno K",
+      "title": "MedAlpaca--An Open-Source Collection of Medical Conversational AI Models and Training Data",
+      "ENTRYTYPE": "article",
+      "ID": "han2023medalpaca"
+    },
+    {
+      "url": "https://arxiv.org/abs/2502.12150",
+      "primaryclass": "cs.CL",
+      "archiveprefix": "arXiv",
+      "eprint": "2502.12150",
+      "year": "2025",
+      "author": "Mingjie Sun and Yida Yin and Zhiqiu Xu and J. Zico Kolter and Zhuang Liu",
+      "title": "Idiosyncrasies in Large Language Models",
+      "ENTRYTYPE": "misc",
+      "ID": "sun2025idiosyncrasieslargelanguagemodels"
+    },
+    {
+      "publisher": "Now Publishers, Inc.",
+      "year": "2014",
+      "pages": "211--407",
+      "number": "3--4",
+      "volume": "9",
+      "journal": "Foundations and Trends{\\textregistered} in Theoretical Computer Science",
+      "author": "Dwork, Cynthia and Roth, Aaron and others",
+      "title": "The algorithmic foundations of differential privacy",
+      "ENTRYTYPE": "article",
+      "ID": "dwork2014algorithmic"
+    },
+    {
+      "organization": "Springer",
+      "year": "2006",
+      "pages": "265--284",
+      "booktitle": "Theory of Cryptography: Third Theory of Cryptography Conference, TCC 2006, New York, NY, USA, March 4-7, 2006. Proceedings 3",
+      "author": "Dwork, Cynthia and McSherry, Frank and Nissim, Kobbi and Smith, Adam",
+      "title": "Calibrating noise to sensitivity in private data analysis",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "dwork2006calibrating"
+    },
+    {
+      "collection": "CCS’16",
+      "month": "October",
+      "year": "2016",
+      "author": "Abadi, Martin and Chu, Andy and Goodfellow, Ian and McMahan, H. Brendan and Mironov, Ilya and Talwar, Kunal and Zhang, Li",
+      "publisher": "ACM",
+      "booktitle": "Proceedings of the 2016 ACM SIGSAC Conference on Computer and Communications Security",
+      "doi": "10.1145/2976749.2978318",
+      "url": "http://dx.doi.org/10.1145/2976749.2978318",
+      "title": "Deep Learning with Differential Privacy",
+      "series": "CCS’16",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "Abadi_2016"
+    },
+    {
+      "isbn": "978-3-540-32732-5",
+      "abstract": "We continue a line of research initiated in [10,11]on privacy-preserving statistical databases. Consider a trusted server that holds a database of sensitive information. Given a query function f mapping databases to reals, the so-called true answer is the result of applying f to the database. To protect privacy, the true answer is perturbed by the addition of random noise generated according to a carefully chosen distribution, and this response, the true answer plus noise, is returned to the user.",
+      "pages": "265--284",
+      "address": "Berlin, Heidelberg",
+      "publisher": "Springer Berlin Heidelberg",
+      "year": "2006",
+      "booktitle": "Theory of Cryptography",
+      "title": "Calibrating Noise to Sensitivity in Private Data Analysis",
+      "editor": "Halevi, Shai\nand Rabin, Tal",
+      "author": "Dwork, Cynthia\nand McSherry, Frank\nand Nissim, Kobbi\nand Smith, Adam",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "10.1007/11681878_14"
+    },
+    {
+      "publisher": "San Francisco, CA, USA",
+      "year": "2018",
+      "author": "Radford, Alec and Narasimhan, Karthik and Salimans, Tim and Sutskever, Ilya and others",
+      "title": "Improving language understanding by generative pre-training",
+      "ENTRYTYPE": "article",
+      "ID": "radford2018improving"
+    },
+    {
+      "year": "2022",
+      "pages": "27730--27744",
+      "volume": "35",
+      "journal": "Advances in neural information processing systems",
+      "author": "Ouyang, Long and Wu, Jeffrey and Jiang, Xu and Almeida, Diogo and Wainwright, Carroll and Mishkin, Pamela and Zhang, Chong and Agarwal, Sandhini and Slama, Katarina and Ray, Alex and others",
+      "title": "Training language models to follow instructions with human feedback",
+      "ENTRYTYPE": "article",
+      "ID": "ouyang2022training"
+    },
+    {
+      "publisher": "JMLR. org",
+      "year": "2011",
+      "pages": "2825--2830",
+      "volume": "12",
+      "journal": "the Journal of machine Learning research",
+      "author": "Pedregosa, Fabian and Varoquaux, Ga{\\\"e}l and Gramfort, Alexandre and Michel, Vincent and Thirion, Bertrand and Grisel, Olivier and Blondel, Mathieu and Prettenhofer, Peter and Weiss, Ron and Dubourg, Vincent and others",
+      "title": "Scikit-learn: Machine learning in Python",
+      "ENTRYTYPE": "article",
+      "ID": "pedregosa2011scikit"
+    },
+    {
+      "url": "https://github.com/meta-llama/llama3/blob/main/MODEL_CARD.md",
+      "year": "2024",
+      "author": "AI@Meta",
+      "title": "Llama 3 Model Card",
+      "ENTRYTYPE": "article",
+      "ID": "llama3modelcard"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2023",
+      "pages": "2397--2430",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Biderman, Stella and Schoelkopf, Hailey and Anthony, Quentin Gregory and Bradley, Herbie and O’Brien, Kyle and Hallahan, Eric and Khan, Mohammad Aflah and Purohit, Shivanshu and Prashanth, USVSN Sai and Raff, Edward and others",
+      "title": "Pythia: A suite for analyzing large language models across training and scaling",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "biderman2023pythia"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2302.13971",
+      "author": "Touvron, Hugo and Lavril, Thibaut and Izacard, Gautier and Martinet, Xavier and Lachaux, Marie-Anne and Lacroix, Timoth{\\'e}e and Rozi{\\`e}re, Baptiste and Goyal, Naman and Hambro, Eric and Azhar, Faisal and others",
+      "title": "Llama: Open and efficient foundation language models",
+      "ENTRYTYPE": "article",
+      "ID": "touvron2023llama"
+    },
+    {
+      "howpublished": "\\url{https://github.com/tatsu-lab/stanford_alpaca}",
+      "journal": "GitHub repository",
+      "publisher": "GitHub",
+      "year": "2023",
+      "title": "Stanford Alpaca: An Instruction-following LLaMA model",
+      "author": "Rohan Taori and Ishaan Gulrajani and Tianyi Zhang and Yann Dubois and Xuechen Li and Carlos Guestrin and Percy Liang and Tatsunori B. Hashimoto ",
+      "ENTRYTYPE": "misc",
+      "ID": "alpaca"
+    },
+    {
+      "year": "2015",
+      "pages": "1--4",
+      "number": "4",
+      "volume": "1",
+      "journal": "R package version 0.4-2",
+      "author": "Chen, Tianqi and He, Tong and Benesty, Michael and Khotilovich, Vadim and Tang, Yuan and Cho, Hyunsu and Chen, Kailong and Mitchell, Rory and Cano, Ignacio and Zhou, Tianyi and others",
+      "title": "Xgboost: extreme gradient boosting",
+      "ENTRYTYPE": "article",
+      "ID": "chen2015xgboost"
+    },
+    {
+      "url": "https://arxiv.org/abs/2402.07841",
+      "primaryclass": "cs.CL",
+      "archiveprefix": "arXiv",
+      "eprint": "2402.07841",
+      "year": "2024",
+      "author": "Michael Duan and Anshuman Suri and Niloofar Mireshghallah and Sewon Min and Weijia Shi and Luke Zettlemoyer and Yulia Tsvetkov and Yejin Choi and David Evans and Hannaneh Hajishirzi",
+      "title": "Do Membership Inference Attacks Work on Large Language Models?",
+      "ENTRYTYPE": "misc",
+      "ID": "duan2024membershipinferenceattackswork"
+    },
+    {
+      "organization": "IEEE",
+      "year": "2017",
+      "pages": "3--18",
+      "booktitle": "2017 IEEE symposium on security and privacy (SP)",
+      "author": "Shokri, Reza and Stronati, Marco and Song, Congzheng and Shmatikov, Vitaly",
+      "title": "Membership inference attacks against machine learning models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "shokri2017membership"
+    },
+    {
+      "organization": "IEEE",
+      "year": "2022",
+      "pages": "1897--1914",
+      "booktitle": "2022 IEEE symposium on security and privacy (SP)",
+      "author": "Carlini, Nicholas and Chien, Steve and Nasr, Milad and Song, Shuang and Terzis, Andreas and Tramer, Florian",
+      "title": "Membership inference attacks from first principles",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "carlini2022membership"
+    },
+    {
+      "url": "https://arxiv.org/abs/1904.09675",
+      "primaryclass": "cs.CL",
+      "archiveprefix": "arXiv",
+      "eprint": "1904.09675",
+      "year": "2020",
+      "author": "Tianyi Zhang and Varsha Kishore and Felix Wu and Kilian Q. Weinberger and Yoav Artzi",
+      "title": "BERTScore: Evaluating Text Generation with BERT",
+      "ENTRYTYPE": "misc",
+      "ID": "zhang2020bertscoreevaluatingtextgeneration"
+    },
+    {
+      "url": "https://arxiv.org/abs/2404.11262",
+      "primaryclass": "cs.CL",
+      "archiveprefix": "arXiv",
+      "eprint": "2404.11262",
+      "year": "2024",
+      "author": "Masahiro Kaneko and Youmi Ma and Yuki Wata and Naoaki Okazaki",
+      "title": "Sampling-based Pseudo-Likelihood for Membership Inference Attacks",
+      "ENTRYTYPE": "misc",
+      "ID": "kaneko2024samplingbasedpseudolikelihoodmembershipinference"
+    },
+    {
+      "url": "https://arxiv.org/abs/2502.14921",
+      "primaryclass": "cs.CL",
+      "archiveprefix": "arXiv",
+      "eprint": "2502.14921",
+      "year": "2025",
+      "author": "Matthieu Meeus and Lukas Wutschitz and Santiago Zanella-Béguelin and Shruti Tople and Reza Shokri",
+      "title": "The Canary's Echo: Auditing Privacy Risks of LLM-Generated Synthetic Text",
+      "ENTRYTYPE": "misc",
+      "ID": "meeus2025canarysechoauditingprivacy"
+    }
+  ]
+}

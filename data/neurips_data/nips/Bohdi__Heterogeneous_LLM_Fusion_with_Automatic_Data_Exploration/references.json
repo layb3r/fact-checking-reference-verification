@@ -1,0 +1,382 @@
+{
+  "pdf_url": "https://arxiv.org/pdf/2506.15721v4.pdf",
+  "references": [
+    {
+      "year": "2011",
+      "pages": "2249--2257",
+      "booktitle": "Advances in Neural Information Processing Systems",
+      "title": "An Empirical Evaluation of Thompson Sampling",
+      "author": "Olivier Chapelle and\nLihong Li",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ChapelleL11"
+    },
+    {
+      "publisher": "JSTOR",
+      "year": "1933",
+      "pages": "285--294",
+      "number": "3/4",
+      "volume": "25",
+      "journal": "Biometrika",
+      "author": "Thompson, William R",
+      "title": "On the likelihood that one unknown probability exceeds another in view of the evidence of two samples",
+      "ENTRYTYPE": "article",
+      "ID": "thompson1933likelihood"
+    },
+    {
+      "publisher": "The Royal Society London",
+      "year": "1933",
+      "pages": "289--337",
+      "number": "694-706",
+      "volume": "231",
+      "journal": "Philosophical Transactions of the Royal Society of London. Series A, Containing Papers of a Mathematical or Physical Character",
+      "author": "Neyman, Jerzy and Pearson, Egon Sharpe",
+      "title": "IX. On the problem of the most efficient tests of statistical hypotheses",
+      "ENTRYTYPE": "article",
+      "ID": "neyman1933ix"
+    },
+    {
+      "publisher": "JSTOR",
+      "year": "1938",
+      "pages": "60--62",
+      "number": "1",
+      "volume": "9",
+      "journal": "The annals of mathematical statistics",
+      "author": "Wilks, Samuel S",
+      "title": "The large-sample distribution of the likelihood ratio for testing composite hypotheses",
+      "ENTRYTYPE": "article",
+      "ID": "wilks1938large"
+    },
+    {
+      "year": "2024",
+      "volume": "abs/2412.15115",
+      "journal": "CoRR",
+      "title": "Qwen2.5 Technical Report",
+      "author": "An Yang and\nBaosong Yang and\nBeichen Zhang and\nBinyuan Hui and\nBo Zheng and\nBowen Yu and\nChengyuan Li and\nDayiheng Liu and\nFei Huang and\nHaoran Wei and\nHuan Lin and\nJian Yang and\nJianhong Tu and\nJianwei Zhang and\nJianxin Yang and\nJiaxi Yang and\nJingren Zhou and\nJunyang Lin and\nKai Dang and\nKeming Lu and\nKeqin Bao and\nKexin Yang and\nLe Yu and\nMei Li and\nMingfeng Xue and\nPei Zhang and\nQin Zhu and\nRui Men and\nRunji Lin and\nTianhao Li and\nTingyu Xia and\nXingzhang Ren and\nXuancheng Ren and\nYang Fan and\nYang Su and\nYichang Zhang and\nYu Wan and\nYuqiong Liu and\nZeyu Cui and\nZhenru Zhang and\nZihan Qiu",
+      "ENTRYTYPE": "article",
+      "ID": "abs-2412-15115"
+    },
+    {
+      "year": "2025",
+      "volume": "abs/2501.12948",
+      "journal": "CoRR",
+      "title": "DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement\nLearning",
+      "author": "DeepSeek{-}AI and\nDaya Guo and\nDejian Yang and\nHaowei Zhang and\nJunxiao Song and\nRuoyu Zhang and\nRunxin Xu and\nQihao Zhu and\nShirong Ma and\nPeiyi Wang and\nXiao Bi and\nXiaokang Zhang and\nXingkai Yu and\nYu Wu and\nZ. F. Wu and\nZhibin Gou and\nZhihong Shao and\nZhuoshu Li and\nZiyi Gao and\nAixin Liu and\nBing Xue and\nBingxuan Wang and\nBochao Wu and\nBei Feng and\nChengda Lu and\nChenggang Zhao and\nChengqi Deng and\nChenyu Zhang and\nChong Ruan and\nDamai Dai and\nDeli Chen and\nDongjie Ji and\nErhang Li and\nFangyun Lin and\nFucong Dai and\nFuli Luo and\nGuangbo Hao and\nGuanting Chen and\nGuowei Li and\nH. Zhang and\nHan Bao and\nHanwei Xu and\nHaocheng Wang and\nHonghui Ding and\nHuajian Xin and\nHuazuo Gao and\nHui Qu and\nHui Li and\nJianzhong Guo and\nJiashi Li and\nJiawei Wang and\nJingchang Chen and\nJingyang Yuan and\nJunjie Qiu and\nJunlong Li and\nJ. L. Cai and\nJiaqi Ni and\nJian Liang and\nJin Chen and\nKai Dong and\nKai Hu and\nKaige Gao and\nKang Guan and\nKexin Huang and\nKuai Yu and\nLean Wang and\nLecong Zhang and\nLiang Zhao and\nLitong Wang and\nLiyue Zhang and\nLei Xu and\nLeyi Xia and\nMingchuan Zhang and\nMinghua Zhang and\nMinghui Tang and\nMeng Li and\nMiaojun Wang and\nMingming Li and\nNing Tian and\nPanpan Huang and\nPeng Zhang and\nQiancheng Wang and\nQinyu Chen and\nQiushi Du and\nRuiqi Ge and\nRuisong Zhang and\nRuizhe Pan and\nRunji Wang and\nR. J. Chen and\nR. L. Jin and\nRuyi Chen and\nShanghao Lu and\nShangyan Zhou and\nShanhuang Chen and\nShengfeng Ye and\nShiyu Wang and\nShuiping Yu and\nShunfeng Zhou and\nShuting Pan and\nS. S. Li",
+      "ENTRYTYPE": "article",
+      "ID": "abs-2501-12948"
+    },
+    {
+      "year": "2019",
+      "volume": "abs/1910.03771",
+      "journal": "CoRR",
+      "title": "HuggingFace's Transformers: State-of-the-art Natural Language Processing",
+      "author": "Thomas Wolf and\nLysandre Debut and\nVictor Sanh and\nJulien Chaumond and\nClement Delangue and\nAnthony Moi and\nPierric Cistac and\nTim Rault and\nR{\\'{e}}mi Louf and\nMorgan Funtowicz and\nJamie Brew",
+      "ENTRYTYPE": "article",
+      "ID": "abs-1910-03771"
+    },
+    {
+      "year": "2024",
+      "booktitle": "International Conference on Machine Learning",
+      "title": "Language Models are Super Mario: Absorbing Abilities from Homologous\nModels as a Free Lunch",
+      "author": "Le Yu and\nBowen Yu and\nHaiyang Yu and\nFei Huang and\nYongbin Li",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "Yu0Y0L24"
+    },
+    {
+      "year": "2023",
+      "booktitle": "Advances in Neural Information Processing Systems",
+      "title": "TIES-Merging: Resolving Interference When Merging Models",
+      "author": "Prateek Yadav and\nDerek Tam and\nLeshem Choshen and\nColin A. Raffel and\nMohit Bansal",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "YadavTCRB23"
+    },
+    {
+      "booktitle": "Twelfth International Conference on Learning Representations",
+      "title": "Knowledge Fusion of Large Language Models",
+      "author": "Fanqi Wan and\nXinting Huang and\nDeng Cai and\nXiaojun Quan and\nWei Bi and\nShuming Shi",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "WanH0QB024"
+    },
+    {
+      "year": "2024",
+      "volume": "abs/2412.03187",
+      "journal": "CoRR",
+      "title": "Weighted-Reward Preference Optimization for Implicit Model Fusion",
+      "author": "Ziyi Yang and\nFanqi Wan and\nLongguang Zhong and\nTianyuan Shi and\nXiaojun Quan",
+      "ENTRYTYPE": "article",
+      "ID": "abs-2412-03187"
+    },
+    {
+      "year": "2024",
+      "volume": "abs/2402.16107",
+      "journal": "CoRR",
+      "title": "FuseChat: Knowledge Fusion of Chat Models",
+      "author": "Fanqi Wan and\nZiyi Yang and\nLongguang Zhong and\nXiaojun Quan and\nXinting Huang and\nWei Bi",
+      "ENTRYTYPE": "article",
+      "ID": "abs-2402-16107"
+    },
+    {
+      "year": "2025",
+      "volume": "abs/2503.04222",
+      "journal": "CoRR",
+      "title": "FuseChat-3.0: Preference Optimization Meets Heterogeneous Model Fusion",
+      "author": "Ziyi Yang and\nFanqi Wan and\nLongguang Zhong and\nCanbin Huang and\nGuosheng Liang and\nXiaojun Quan",
+      "ENTRYTYPE": "article",
+      "ID": "abs-2503-04222"
+    },
+    {
+      "year": "2025",
+      "volume": "abs/2501.02795",
+      "journal": "CoRR",
+      "title": "InfiFusion: {A} Unified Framework for Enhanced Cross-Model Reasoning\nvia {LLM} Fusion",
+      "author": "Zhaoyi Yan and\nZhijie Sang and\nYiming Zhang and\nYuhao Fu and\nBaoyi He and\nQi Zhou and\nYining Di and\nChunlin Ji and\nShengyu Zhang and\nFei Wu and\nHongxia Yang",
+      "ENTRYTYPE": "article",
+      "ID": "abs-2501-02795"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2504.06562",
+      "author": "Zhong, Longguang and Wan, Fanqi and Yang, Ziyi and Liang, Guosheng and Shi, Tianyuan and Quan, Xiaojun",
+      "title": "FuseRL: Dense Preference Optimization for Heterogeneous Model Fusion",
+      "ENTRYTYPE": "article",
+      "ID": "zhong2025fuserl"
+    },
+    {
+      "year": "2024",
+      "booktitle": "International Conference on Learning Representations",
+      "title": "WizardLM: Empowering Large Pre-Trained Language Models to Follow Complex\nInstructions",
+      "author": "Can Xu and\nQingfeng Sun and\nKai Zheng and\nXiubo Geng and\nPu Zhao and\nJiazhan Feng and\nChongyang Tao and\nQingwei Lin and\nDaxin Jiang",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "XuSZG0FTLJ24"
+    },
+    {
+      "year": "2023",
+      "pages": "13484--13508",
+      "booktitle": "Annual Meeting of the Association for Computational Linguistics",
+      "title": "Self-Instruct: Aligning Language Models with Self-Generated Instructions",
+      "author": "Yizhong Wang and\nYeganeh Kordi and\nSwaroop Mishra and\nAlisa Liu and\nNoah A. Smith and\nDaniel Khashabi and\nHannaneh Hajishirzi",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "WangKMLSKH23"
+    },
+    {
+      "year": "2025",
+      "pages": "24605--24613",
+      "booktitle": "Association for the Advancement of Artificial Intelligence",
+      "title": "Augmenting Math Word Problems via Iterative Question Composing",
+      "author": "Haoxiong Liu and\nYifan Zhang and\nYifan Luo and\nAndrew C. Yao",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "LiuZLY25"
+    },
+    {
+      "year": "2020",
+      "volume": "abs/2001.08361",
+      "journal": "CoRR",
+      "title": "Scaling Laws for Neural Language Models",
+      "author": "Jared Kaplan and\nSam McCandlish and\nTom Henighan and\nTom B. Brown and\nBenjamin Chess and\nRewon Child and\nScott Gray and\nAlec Radford and\nJeffrey Wu and\nDario Amodei",
+      "ENTRYTYPE": "article",
+      "ID": "abs-2001-08361"
+    },
+    {
+      "year": "2022",
+      "volume": "abs/2203.15556",
+      "journal": "CoRR",
+      "title": "Training Compute-Optimal Large Language Models",
+      "author": "Jordan Hoffmann and\nSebastian Borgeaud and\nArthur Mensch and\nElena Buchatskaya and\nTrevor Cai and\nEliza Rutherford and\nDiego de Las Casas and\nLisa Anne Hendricks and\nJohannes Welbl and\nAidan Clark and\nTom Hennigan and\nEric Noland and\nKatie Millican and\nGeorge van den Driessche and\nBogdan Damoc and\nAurelia Guy and\nSimon Osindero and\nKaren Simonyan and\nErich Elsen and\nJack W. Rae and\nOriol Vinyals and\nLaurent Sifre",
+      "ENTRYTYPE": "article",
+      "ID": "abs-2203-15556"
+    },
+    {
+      "bibsource": "dblp computer science bibliography, https://dblp.org",
+      "biburl": "https://dblp.org/rec/conf/nips/ZelikmanWMG22.bib",
+      "timestamp": "Mon, 08 Jan 2024 16:31:37 +0100",
+      "url": "http://papers.nips.cc/paper\\_files/paper/2022/hash/639a9a172c044fbb64175b5fad42e9a5-Abstract-Conference.html",
+      "year": "2022",
+      "booktitle": "Advances in Neural Information Processing Systems 35: Annual Conference\non Neural Information Processing Systems 2022, NeurIPS 2022, New Orleans,\nLA, USA, November 28 - December 9, 2022",
+      "title": "STaR: Bootstrapping Reasoning With Reasoning",
+      "editor": "Sanmi Koyejo and\nS. Mohamed and\nA. Agarwal and\nDanielle Belgrave and\nK. Cho and\nA. Oh",
+      "author": "Eric Zelikman and\nYuhuai Wu and\nJesse Mu and\nNoah D. Goodman",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ZelikmanWMG22"
+    },
+    {
+      "year": "2023",
+      "pages": "3029--3051",
+      "booktitle": "Conference on Empirical Methods in Natural Language Processing",
+      "title": "Enhancing Chat Language Models by Scaling High-quality Instructional Conversations",
+      "author": "Ning Ding and\nYulin Chen and\nBokai Xu and\nYujia Qin and\nShengding Hu and\nZhiyuan Liu and\nMaosong Sun and\nBowen Zhou",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "DingCXQHL0Z23"
+    },
+    {
+      "year": "2024",
+      "volume": "abs/2406.10323",
+      "journal": "CoRR",
+      "title": "GenQA: Generating Millions of Instructions from a Handful of Prompts",
+      "author": "Jiuhai Chen and\nRifaa Qadri and\nYuxin Wen and\nNeel Jain and\nJohn Kirchenbauer and\nTianyi Zhou and\nTom Goldstein",
+      "ENTRYTYPE": "article",
+      "ID": "abs-2406-10323"
+    },
+    {
+      "year": "2024",
+      "volume": "abs/2406.08464",
+      "journal": "CoRR",
+      "title": "Magpie: Alignment Data Synthesis from Scratch by Prompting Aligned\nLLMs with Nothing",
+      "author": "Zhangchen Xu and\nFengqing Jiang and\nLuyao Niu and\nYuntian Deng and\nRadha Poovendran and\nYejin Choi and\nBill Yuchen Lin",
+      "ENTRYTYPE": "article",
+      "ID": "abs-2406-08464"
+    },
+    {
+      "year": "2024",
+      "volume": "abs/2410.14251",
+      "journal": "CoRR",
+      "title": "Synthesizing Post-Training Data for LLMs through Multi-Agent Simulation",
+      "author": "Shuo Tang and\nXianghe Pang and\nZexi Liu and\nBohan Tang and\nRui Ye and\nXiaowen Dong and\nYanfeng Wang and\nSiheng Chen",
+      "ENTRYTYPE": "article",
+      "ID": "abs-2410-14251"
+    },
+    {
+      "year": "2025",
+      "volume": "abs/2501.12273",
+      "journal": "CoRR",
+      "title": "Condor: Enhance {LLM} Alignment with Knowledge-Driven Data Synthesis\nand Refinement",
+      "author": "Maosong Cao and\nTaolin Zhang and\nMo Li and\nChuyu Zhang and\nYunxin Liu and\nHaodong Duan and\nSongyang Zhang and\nKai Chen",
+      "ENTRYTYPE": "article",
+      "ID": "abs-2501-12273"
+    },
+    {
+      "urldate": "2024-06-11",
+      "url": "https://mistral.ai/news/mistral-small-3",
+      "year": "2024",
+      "author": "Mistral AI",
+      "title": "Mistral Small 3",
+      "ENTRYTYPE": "misc",
+      "ID": "mistral2024"
+    },
+    {
+      "year": "2024",
+      "volume": "abs/2412.08905",
+      "journal": "CoRR",
+      "title": "Phi-4 Technical Report",
+      "author": "Marah I Abdin and\nJyoti Aneja and\nHarkirat S. Behl and\nS{\\'{e}}bastien Bubeck and\nRonen Eldan and\nSuriya Gunasekar and\nMichael Harrison and\nRussell J. Hewett and\nMojan Javaheripi and\nPiero Kauffmann and\nJames R. Lee and\nYin Tat Lee and\nYuanzhi Li and\nWeishung Liu and\nCaio C. T. Mendes and\nAnh Nguyen and\nEric Price and\nGustavo de Rosa and\nOlli Saarikivi and\nAdil Salim and\nShital Shah and\nXin Wang and\nRachel Ward and\nYue Wu and\nDingli Yu and\nCyril Zhang and\nYi Zhang",
+      "ENTRYTYPE": "article",
+      "ID": "abs-2412-08905"
+    },
+    {
+      "year": "2024",
+      "volume": "abs/2407.21783",
+      "journal": "CoRR",
+      "title": "The Llama 3 Herd of Models",
+      "author": "Abhimanyu Dubey and\nAbhinav Jauhri and\nAbhinav Pandey and\nAbhishek Kadian and\nAhmad Al{-}Dahle and\nAiesha Letman and\nAkhil Mathur and\nAlan Schelten and\nAmy Yang and\nAngela Fan and\nAnirudh Goyal and\nAnthony Hartshorn and\nAobo Yang and\nArchi Mitra and\nArchie Sravankumar and\nArtem Korenev and\nArthur Hinsvark and\nArun Rao and\nAston Zhang and\nAur{\\'{e}}lien Rodriguez and\nAusten Gregerson and\nAva Spataru and\nBaptiste Rozi{\\`{e}}re and\nBethany Biron and\nBinh Tang and\nBobbie Chern and\nCharlotte Caucheteux and\nChaya Nayak and\nChloe Bi and\nChris Marra and\nChris McConnell and\nChristian Keller and\nChristophe Touret and\nChunyang Wu and\nCorinne Wong and\nCristian Canton Ferrer and\nCyrus Nikolaidis and\nDamien Allonsius and\nDaniel Song and\nDanielle Pintz and\nDanny Livshits and\nDavid Esiobu and\nDhruv Choudhary and\nDhruv Mahajan and\nDiego Garcia{-}Olano and\nDiego Perino and\nDieuwke Hupkes and\nEgor Lakomkin and\nEhab AlBadawy and\nElina Lobanova and\nEmily Dinan and\nEric Michael Smith and\nFilip Radenovic and\nFrank Zhang and\nGabriel Synnaeve and\nGabrielle Lee and\nGeorgia Lewis Anderson and\nGraeme Nail and\nGr{\\'{e}}goire Mialon and\nGuan Pang and\nGuillem Cucurell and\nHailey Nguyen and\nHannah Korevaar and\nHu Xu and\nHugo Touvron and\nIliyan Zarov and\nImanol Arrieta Ibarra and\nIsabel M. Kloumann and\nIshan Misra and\nIvan Evtimov and\nJade Copet and\nJaewon Lee and\nJan Geffert and\nJana Vranes and\nJason Park and\nJay Mahadeokar and\nJeet Shah and\nJelmer van der Linde and\nJennifer Billock and\nJenny Hong and\nJenya Lee and\nJeremy Fu and\nJianfeng Chi and\nJianyu Huang and\nJiawen Liu and\nJie Wang and\nJiecao Yu and\nJoanna Bitton and\nJoe Spisak and\nJongsoo Park and\nJoseph Rocca and\nJoshua Johnstun and\nJoshua Saxe and\nJunteng Jia and\nKalyan Vasuden Alwala and\nKartikeya Upasani and\nKate Plawiak and\nKe Li and\nKenneth Heafield and\nKevin Stone and\net al.",
+      "ENTRYTYPE": "article",
+      "ID": "abs-2407-21783"
+    },
+    {
+      "year": "2024",
+      "volume": "abs/2408.00118",
+      "journal": "CoRR",
+      "title": "Gemma 2: Improving Open Language Models at a Practical Size",
+      "author": "Morgane Rivi{\\`{e}}re and\nShreya Pathak and\nPier Giuseppe Sessa and\nCassidy Hardin and\nSurya Bhupatiraju and\nL{\\'{e}}onard Hussenot and\nThomas Mesnard and\nBobak Shahriari and\nAlexandre Ram{\\'{e}} and\nJohan Ferret and\nPeter Liu and\nPouya Tafti and\nAbe Friesen and\nMichelle Casbon and\nSabela Ramos and\nRavin Kumar and\nCharline Le Lan and\nSammy Jerome and\nAnton Tsitsulin and\nNino Vieillard and\nPiotr Stanczyk and\nSertan Girgin and\nNikola Momchev and\nMatt Hoffman and\nShantanu Thakoor and\nJean{-}Bastien Grill and\nBehnam Neyshabur and\nOlivier Bachem and\nAlanna Walton and\nAliaksei Severyn and\nAlicia Parrish and\nAliya Ahmad and\nAllen Hutchison and\nAlvin Abdagic and\nAmanda Carl and\nAmy Shen and\nAndy Brock and\nAndy Coenen and\nAnthony Laforge and\nAntonia Paterson and\nBen Bastian and\nBilal Piot and\nBo Wu and\nBrandon Royal and\nCharlie Chen and\nChintu Kumar and\nChris Perry and\nChris Welty and\nChristopher A. Choquette{-}Choo and\nDanila Sinopalnikov and\nDavid Weinberger and\nDimple Vijaykumar and\nDominika Rogozinska and\nDustin Herbison and\nElisa Bandy and\nEmma Wang and\nEric Noland and\nErica Moreira and\nEvan Senter and\nEvgenii Eltyshev and\nFrancesco Visin and\nGabriel Rasskin and\nGary Wei and\nGlenn Cameron and\nGus Martins and\nHadi Hashemi and\nHanna Klimczak{-}Plucinska and\nHarleen Batra and\nHarsh Dhand and\nIvan Nardini and\nJacinda Mein and\nJack Zhou and\nJames Svensson and\nJeff Stanway and\nJetha Chan and\nJin Peng Zhou and\nJoana Carrasqueira and\nJoana Iljazi and\nJocelyn Becker and\nJoe Fernandez and\nJoost van Amersfoort and\nJosh Gordon and\nJosh Lipschultz and\nJosh Newlan and\nJu{-}yeong Ji and\nKareem Mohamed and\nKartikeya Badola and\nKat Black and\nKatie Millican and\nKeelin McDonell and\nKelvin Nguyen and\nKiranbir Sodhia and\nKish Greene and\nLars Lowe Sj{\\\"{o}}sund and\nLauren Usui and\nLaurent Sifre and\nLena Heuermann and\nLeticia Lago and\nLilly McNealus",
+      "ENTRYTYPE": "article",
+      "ID": "abs-2408-00118"
+    },
+    {
+      "year": "2021",
+      "booktitle": "International Conference on Learning Representations",
+      "title": "Measuring Massive Multitask Language Understanding",
+      "author": "Dan Hendrycks and\nCollin Burns and\nSteven Basart and\nAndy Zou and\nMantas Mazeika and\nDawn Song and\nJacob Steinhardt",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "HendrycksBBZMSS21"
+    },
+    {
+      "year": "2023",
+      "volume": "abs/2311.12022",
+      "journal": "CoRR",
+      "title": "{GPQA:} {A} Graduate-Level Google-Proof Q{\\&}A Benchmark",
+      "author": "David Rein and\nBetty Li Hou and\nAsa Cooper Stickland and\nJackson Petty and\nRichard Yuanzhe Pang and\nJulien Dirani and\nJulian Michael and\nSamuel R. Bowman",
+      "ENTRYTYPE": "article",
+      "ID": "abs-2311-12022"
+    },
+    {
+      "year": "2021",
+      "volume": "abs/2110.14168",
+      "journal": "CoRR",
+      "title": "Training Verifiers to Solve Math Word Problems",
+      "author": "Karl Cobbe and\nVineet Kosaraju and\nMohammad Bavarian and\nMark Chen and\nHeewoo Jun and\nLukasz Kaiser and\nMatthias Plappert and\nJerry Tworek and\nJacob Hilton and\nReiichiro Nakano and\nChristopher Hesse and\nJohn Schulman",
+      "ENTRYTYPE": "article",
+      "ID": "abs-2110-14168"
+    },
+    {
+      "year": "2021",
+      "booktitle": "Proceedings of the Neural Information Processing Systems Track on\nDatasets and Benchmarks",
+      "title": "Measuring Mathematical Problem Solving With the {MATH} Dataset",
+      "author": "Dan Hendrycks and\nCollin Burns and\nSaurav Kadavath and\nAkul Arora and\nSteven Basart and\nEric Tang and\nDawn Song and\nJacob Steinhardt",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "HendrycksBKABTS21"
+    },
+    {
+      "year": "2021",
+      "volume": "abs/2107.03374",
+      "journal": "CoRR",
+      "title": "Evaluating Large Language Models Trained on Code",
+      "author": "Mark Chen and\nJerry Tworek and\nHeewoo Jun and\nQiming Yuan and\nHenrique Pond{\\'{e}} de Oliveira Pinto and\nJared Kaplan and\nHarri Edwards and\nYuri Burda and\nNicholas Joseph and\nGreg Brockman and\nAlex Ray and\nRaul Puri and\nGretchen Krueger and\nMichael Petrov and\nHeidy Khlaaf and\nGirish Sastry and\nPamela Mishkin and\nBrooke Chan and\nScott Gray and\nNick Ryder and\nMikhail Pavlov and\nAlethea Power and\nLukasz Kaiser and\nMohammad Bavarian and\nClemens Winter and\nPhilippe Tillet and\nFelipe Petroski Such and\nDave Cummings and\nMatthias Plappert and\nFotios Chantzis and\nElizabeth Barnes and\nAriel Herbert{-}Voss and\nWilliam Hebgen Guss and\nAlex Nichol and\nAlex Paino and\nNikolas Tezak and\nJie Tang and\nIgor Babuschkin and\nSuchir Balaji and\nShantanu Jain and\nWilliam Saunders and\nChristopher Hesse and\nAndrew N. Carr and\nJan Leike and\nJoshua Achiam and\nVedant Misra and\nEvan Morikawa and\nAlec Radford and\nMatthew Knight and\nMiles Brundage and\nMira Murati and\nKatie Mayer and\nPeter Welinder and\nBob McGrew and\nDario Amodei and\nSam McCandlish and\nIlya Sutskever and\nWojciech Zaremba",
+      "ENTRYTYPE": "article",
+      "ID": "abs-2107-03374"
+    },
+    {
+      "year": "2021",
+      "volume": "abs/2108.07732",
+      "journal": "CoRR",
+      "title": "Program Synthesis with Large Language Models",
+      "author": "Jacob Austin and\nAugustus Odena and\nMaxwell I. Nye and\nMaarten Bosma and\nHenryk Michalewski and\nDavid Dohan and\nEllen Jiang and\nCarrie J. Cai and\nMichael Terry and\nQuoc V. Le and\nCharles Sutton",
+      "ENTRYTYPE": "article",
+      "ID": "abs-2108-07732"
+    },
+    {
+      "year": "2023",
+      "booktitle": "Findings of the Association for Computational Linguistics",
+      "title": "Challenging BIG-Bench Tasks and Whether Chain-of-Thought Can Solve\nThem",
+      "author": "Mirac Suzgun and\nNathan Scales and\nNathanael Sch{\\\"{a}}rli and\nSebastian Gehrmann and\nYi Tay and\nHyung Won Chung and\nAakanksha Chowdhery and\nQuoc V. Le and\nEd H. Chi and\nDenny Zhou and\nJason Wei",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "SuzgunSSGTCCLCZ23"
+    },
+    {
+      "year": "2023",
+      "booktitle": "Conference on Empirical Methods in Natural\nLanguage Processing",
+      "title": "TheoremQA: {A} Theorem-driven Question Answering Dataset",
+      "author": "Wenhu Chen and\nMing Yin and\nMax Ku and\nPan Lu and\nYixin Wan and\nXueguang Ma and\nJianyu Xu and\nXinyi Wang and\nTony Xia",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ChenYKLWMXWX23"
+    },
+    {
+      "year": "2025",
+      "booktitle": "International Conference on Learning Representations",
+      "title": "OpenMathInstruct-2: Accelerating {AI} for Math with Massive Open-Source\nInstruction Data",
+      "author": "Shubham Toshniwal and\nWei Du and\nIvan Moshkov and\nBranislav Kisacanin and\nAlexan Ayrapetyan and\nIgor Gitman",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ToshniwalDMKAG25"
+    },
+    {
+      "year": "2024",
+      "booktitle": "Findings of the Association for Computational Linguistics: {EMNLP}",
+      "title": "Interpretable Preferences via Multi-Objective Reward Modeling and\nMixture-of-Experts",
+      "author": "Haoxiang Wang and\nWei Xiong and\nTengyang Xie and\nHan Zhao and\nTong Zhang",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "00030X0024"
+    },
+    {
+      "year": "2023",
+      "howpublished": "\\url{https://github.com/open-compass/opencompass}",
+      "author": "OpenCompass Contributors",
+      "title": "OpenCompass: A Universal Evaluation Platform for Foundation Models",
+      "ENTRYTYPE": "misc",
+      "ID": "2023opencompass"
+    },
+    {
+      "year": "2024",
+      "booktitle": "Advances in Neural Information Processing Systems",
+      "title": "Regularizing Hidden States Enables Learning Generalizable Reward Model\nfor LLMs",
+      "author": "Rui Yang and\nRuomeng Ding and\nYong Lin and\nHuan Zhang and\nTong Zhang",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "YangDLZZ24"
+    }
+  ]
+}

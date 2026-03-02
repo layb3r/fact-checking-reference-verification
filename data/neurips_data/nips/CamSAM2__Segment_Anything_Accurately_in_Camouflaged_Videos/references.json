@@ -1,0 +1,561 @@
+{
+  "pdf_url": "https://arxiv.org/pdf/2503.19730v3.pdf",
+  "references": [
+    {
+      "publisher": "IEEE",
+      "year": "2024",
+      "journal": "IEEE TCSVT",
+      "author": "Chen, Huafeng and Wei, Pengxu and Guo, Guangqian and Gao, Shan",
+      "title": "{SAM-COD+}: SAM-guided Unified Framework for Weakly-Supervised Camouflaged Object Detection",
+      "ENTRYTYPE": "article",
+      "ID": "chen2024sam"
+    },
+    {
+      "year": "2024",
+      "booktitle": "ECCV",
+      "author": "Pang, Youwei and Zhao, Xiaoqi and Zuo, Jiaming and Zhang, Lihe and Lu, Huchuan",
+      "title": "Open-vocabulary camouflaged object segmentation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "pang2024open"
+    },
+    {
+      "year": "2024",
+      "booktitle": "ECCV",
+      "author": "Zhao, Jianwei and Li, Xin and Yang, Fan and Zhai, Qiang and Luo, Ao and Jiao, Zicheng and Cheng, Hong",
+      "title": "Focusdiffuser: Perceiving local disparities for camouflaged object detection",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zhao2024focusdiffuser"
+    },
+    {
+      "year": "2022",
+      "journal": "Ecological Economics, Forthcoming",
+      "author": "Roy, Arunabha Mohan and Bhaduri, Jayabrata and Kumar, Teerath and Raj, Kislay",
+      "title": "A computer vision-based object localization model for endangered wildlife detection",
+      "ENTRYTYPE": "article",
+      "ID": "roy2022computer"
+    },
+    {
+      "year": "2020",
+      "pages": "36--41",
+      "volume": "45",
+      "journal": "Current Opinion in Environmental Sustainability",
+      "author": "Stephenson, PJ",
+      "title": "Technological advances in biodiversity monitoring: Applicability, opportunities and challenges",
+      "ENTRYTYPE": "article",
+      "ID": "stephenson2020technological"
+    },
+    {
+      "year": "2022",
+      "booktitle": "CVPR",
+      "author": "Cheng, Xuelian and Xiong, Huan and Fan, Deng-Ping and Zhong, Yiran and Harandi, Mehrtash and Drummond, Tom and Ge, Zongyuan",
+      "title": "Implicit motion handling for video camouflaged object detection",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "cheng2022implicit"
+    },
+    {
+      "year": "2019",
+      "pages": "45--56",
+      "volume": "184",
+      "journal": "Computer vision and image understanding",
+      "author": "Le, Trung-Nghia and Nguyen, Tam V and Nie, Zhongliang and Tran, Minh-Triet and Sugimoto, Akihiro",
+      "title": "Anabranch network for camouflaged object segmentation",
+      "ENTRYTYPE": "article",
+      "ID": "le2019anabranch"
+    },
+    {
+      "year": "2020",
+      "booktitle": "CVPR",
+      "author": "Fan, Deng-Ping and Ji, Ge-Peng and Sun, Guolei and Cheng, Ming-Ming and Shen, Jianbing and Shao, Ling",
+      "title": "Camouflaged object detection",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "fan2020camouflaged"
+    },
+    {
+      "year": "2021",
+      "journal": "IEEE TPAMI",
+      "author": "Fan, Deng-Ping and Ji, Ge-Peng and Cheng, Ming-Ming and Shao, Ling",
+      "title": "Concealed object detection",
+      "ENTRYTYPE": "article",
+      "ID": "fan2021concealed"
+    },
+    {
+      "year": "2024",
+      "journal": "IEEE TPAMI",
+      "author": "Yin, Bowen and Zhang, Xuying and Fan, Deng-Ping and Jiao, Shaohui and Cheng, Ming-Ming and Van Gool, Luc and Hou, Qibin",
+      "title": "Camoformer: Masked separable attention for camouflaged object detection",
+      "ENTRYTYPE": "article",
+      "ID": "yin2024camoformer"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2212.08296",
+      "author": "Sun, Wei and Liu, Chengao and Zhang, Linyan and Li, Yu and Wei, Pengxu and Liu, Chang and Zou, Jialing and Jiao, Jianbin and Ye, Qixiang",
+      "title": "Dqnet: Cross-model detail querying for camouflaged object detection",
+      "ENTRYTYPE": "article",
+      "ID": "sun2022dqnet"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "2024",
+      "journal": "IEEE TPAMI",
+      "author": "Pang, Youwei and Zhao, Xiaoqi and Xiang, Tian-Zhu and Zhang, Lihe and Lu, Huchuan",
+      "title": "Zoomnext: A unified collaborative pyramid network for camouflaged object detection",
+      "ENTRYTYPE": "article",
+      "ID": "pang2024zoomnext"
+    },
+    {
+      "year": "2024",
+      "booktitle": "ECCV",
+      "author": "Zhang, Jin and Zhang, Ruiheng and Shi, Yanjiao and Cao, Zhe and Liu, Nian and Khan, Fahad Shahbaz",
+      "title": "Learning camouflaged object detection from noisy pseudo label",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zhang2024learning"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "2024",
+      "journal": "IEEE TMM",
+      "author": "Hui, Wenjun and Zhu, Zhenfeng and Gu, Guanghua and Liu, Meiqin and Zhao, Yao",
+      "title": "Implicit-explicit Motion Learning for Video Camouflaged Object Detection",
+      "ENTRYTYPE": "article",
+      "ID": "hui2024implicit"
+    },
+    {
+      "year": "2024",
+      "booktitle": "ICASSP",
+      "author": "Yu, Zifan and Tavakoli, Erfan Bank and Chen, Meida and You, Suya and Rao, Raghuveer and Agarwal, Sanjeev and Ren, Fengbo",
+      "title": "Tokenmotion: Motion-Guided Vision Transformer for Video Camouflaged Object Detection VIA Learnable Token Selection",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "yu2024tokenmotion"
+    },
+    {
+      "year": "2022",
+      "booktitle": "CVPR",
+      "title": "A Deeper Dive Into What Deep Spatiotemporal Networks Encode: Quantifying Static vs. Dynamic Information",
+      "author": "Kowal, Matthew and Siam, Mennatullah and Islam, Md Amirul and Bruce, Neil D. B. and Wildes, Richard P. and Derpanis, Konstantinos G.",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "Kowal_2022_CVPR"
+    },
+    {
+      "year": "2023",
+      "booktitle": "ICCV",
+      "author": "Lamdouar, Hala and Xie, Weidi and Zisserman, Andrew",
+      "title": "The making and breaking of camouflage",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "lamdouar2023making"
+    },
+    {
+      "year": "2021",
+      "booktitle": "CVPR",
+      "author": "Lyu, Yunqiu and Zhang, Jing and Dai, Yuchao and Li, Aixuan and Liu, Bowen and Barnes, Nick and Fan, Deng-Ping",
+      "title": "Simultaneously Localize, Segment and Rank the Camouflaged Objects",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "yunqiu_cod21"
+    },
+    {
+      "year": "2016",
+      "booktitle": "ECCV",
+      "author": "Bideau, Pia and Learned-Miller, Erik",
+      "title": "It’s moving! a probabilistic model for causal motion segmentation in moving camera videos",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "bideau2016s"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "2010",
+      "pages": "4274--4282",
+      "number": "21",
+      "volume": "283",
+      "journal": "Optics communications",
+      "author": "Beiderman, Yevgeny and Teicher, Mina and Garcia, Javier and Mico, Vicente and Zalevsky, Zeev",
+      "title": "Optical technique for classification, recognition and identification of obscured objects",
+      "ENTRYTYPE": "article",
+      "ID": "beiderman2010optical"
+    },
+    {
+      "year": "2011",
+      "pages": "1060--1068",
+      "number": "2",
+      "volume": "3",
+      "journal": "IJEST",
+      "author": "Kavitha, Ch and Rao, B Prabhakara and Govardhan, A",
+      "title": "An efficient content based image retrieval using color and texture of image sub blocks",
+      "ENTRYTYPE": "article",
+      "ID": "kavitha2011efficient"
+    },
+    {
+      "year": "2025",
+      "booktitle": "ICLR",
+      "author": "Nikhila Ravi and Valentin Gabeur and Yuan-Ting Hu and Ronghang Hu and Chaitanya Ryali and Tengyu Ma and Haitham Khedr and Roman R{\\\"a}dle and Chloe Rolland and Laura Gustafson and Eric Mintun and Junting Pan and Kalyan Vasudev Alwala and Nicolas Carion and Chao-Yuan Wu and Ross Girshick and Piotr Dollar and Christoph Feichtenhofer",
+      "title": "{SAM} 2: Segment Anything in Images and Videos",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ravi2025sam"
+    },
+    {
+      "year": "2023",
+      "booktitle": "ICCV",
+      "author": "Kirillov, Alexander and Mintun, Eric and Ravi, Nikhila and Mao, Hanzi and Rolland, Chloe and Gustafson, Laura and Xiao, Tete and Whitehead, Spencer and Berg, Alexander C and Lo, Wan-Yen and others",
+      "title": "Segment anything",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "kirillov2023segment"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2408.04579",
+      "author": "Tianrun Chen and Ankang Lu and Lanyun Zhu and Chaotao Ding and Chunan Yu and Deyi Ji and Zejian Li and Lingyun Sun and Papa Mao and Ying Zang",
+      "title": "{SAM2-Adapter}: Evaluating \\& Adapting Segment Anything 2 in Downstream Tasks: Camouflage, Shadow, Medical Image Segmentation, and More",
+      "ENTRYTYPE": "article",
+      "ID": "chen2024sam2adapterevaluatingadapting"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2408.07931",
+      "author": "Liu, Haofeng and Zhang, Erli and Wu, Junde and Hong, Mingxuan and Jin, Yueming",
+      "title": "Surgical SAM 2: Real-time Segment Anything in Surgical Video by Efficient Frame Pruning",
+      "ENTRYTYPE": "article",
+      "ID": "liu2024surgical"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2408.11210",
+      "author": "Yufan He and Pengfei Guo and Yucheng Tang and Andriy Myronenko and Vishwesh Nath and Ziyue Xu and Dong Yang and Can Zhao and Daguang Xu and Wenqi Li",
+      "title": "A Short Review and Evaluation of {SAM2}'s Performance in 3D CT Image Segmentation",
+      "ENTRYTYPE": "article",
+      "ID": "he2024shortreviewevaluationsam2s"
+    },
+    {
+      "organization": "IEEE",
+      "year": "2025",
+      "pages": "1--6",
+      "booktitle": "2025 IEEE 5th International Conference on Human-Machine Systems",
+      "author": "Mansoori, Mobina and Shahabodini, Sajjad and Abouei, Jamshid and Plataniotis, Konstantinos N and Mohammadi, Arash",
+      "title": "Polyp {SAM} 2: Advancing Zero-Shot Polyp Segmentation in Colorectal Cancer Detection",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "mansoori2025polyp"
+    },
+    {
+      "organization": "SPIE",
+      "year": "2025",
+      "pages": "93--98",
+      "volume": "13408",
+      "booktitle": "Medical Imaging 2025: Image-Guided Procedures, Robotic Interventions, and Modeling",
+      "author": "Shen, Yiqing and Ding, Hao and Shao, Xinyuan and Unberath, Mathias",
+      "title": "Performance and nonadversarial robustness of the segment anything model 2 in surgical video segmentation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "shen2025performance"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2408.08870",
+      "author": "Xinyu Xiong and Zihuang Wu and Shuangyi Tan and Wenxue Li and Feilong Tang and Ying Chen and Siying Li and Jie Ma and Guanbin Li",
+      "title": "{SAM2-UNet}: Segment Anything 2 Makes Strong Encoder for Natural and Medical Image Segmentation",
+      "ENTRYTYPE": "article",
+      "ID": "xiong2024sam2unetsegment2makes"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2408.04593",
+      "author": "Jieming Yu and An Wang and Wenzhen Dong and Mengya Xu and Mobarakol Islam and Jie Wang and Long Bai and Hongliang Ren",
+      "title": "{SAM} 2 in Robotic Surgery: An Empirical Evaluation for Robustness and Generalization in Surgical Video Segmentation",
+      "ENTRYTYPE": "article",
+      "ID": "yu2024sam2roboticsurgery"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2408.04762",
+      "author": "Andrew Seohwan Yu and Mohsen Hariri and Xuecen Zhang and Mingrui Yang and Vipin Chaudhary and Xiaojuan Li",
+      "title": "Novel adaptation of video segmentation to 3D MRI: efficient zero-shot knee segmentation with {SAM2}",
+      "ENTRYTYPE": "article",
+      "ID": "yu2024noveladaptationvideosegmentation"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2409.14220",
+      "author": "Stanczyk, Tomasz and Bremond, Francois",
+      "title": "Masks and Boxes: Combining the Best of Both Worlds for Multi-Object Tracking",
+      "ENTRYTYPE": "article",
+      "ID": "stanczyk2024masks"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2408.10125",
+      "author": "Feiyu Pan and Hao Fang and Runmin Cong and Wei Zhang and Xiankai Lu",
+      "title": "Video Object Segmentation via SAM 2: The 4th Solution for LSVOS Challenge VOS Track",
+      "ENTRYTYPE": "article",
+      "ID": "pan2024videoobjectsegmentationsam"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2408.06970",
+      "author": "Osher Rafaeli and Tal Svoray and Roni Blushtein-Livnon and Ariel Nahlieli",
+      "title": "Prompt-Based Segmentation at Multiple Resolutions and Lighting Conditions using Segment Anything Model 2",
+      "ENTRYTYPE": "article",
+      "ID": "rafaeli2024promptbasedsegmentationmultipleresolutions"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2407.21596",
+      "author": "Lv Tang and Bo Li",
+      "title": "Evaluating {SAM2}'s Role in Camouflaged Object Detection: From {SAM} to {SAM2}",
+      "ENTRYTYPE": "article",
+      "ID": "tang2024evaluatingsam2srolecamouflaged"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2408.13679",
+      "author": "George Tang and William Zhao and Logan Ford and David Benhaim and Paul Zhang",
+      "title": "Segment Any Mesh: Zero-shot Mesh Part Segmentation via Lifting Segment Anything 2 to 3D",
+      "ENTRYTYPE": "article",
+      "ID": "tang2024segmentmeshzeroshotmesh"
+    },
+    {
+      "publisher": "Springer",
+      "year": "2025",
+      "pages": "10",
+      "number": "1",
+      "volume": "3",
+      "journal": "Visual Intelligence",
+      "author": "Zhou, Yuli and Sun, Guolei and Li, Yawei and Xie, Guo-Sen and Benini, Luca and Konukoglu, Ender",
+      "title": "When {SAM2} meets video camouflaged object segmentation: A comprehensive evaluation and adaptation",
+      "ENTRYTYPE": "article",
+      "ID": "zhou2025sam2"
+    },
+    {
+      "year": "2024",
+      "booktitle": "CVPR",
+      "author": "Hui, Wenjun and Zhu, Zhenfeng and Zheng, Shuai and Zhao, Yao",
+      "title": "Endow SAM with Keen Eyes: Temporal-spatial Prompt Learning for Video Camouflaged Object Detection",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "hui2024endow"
+    },
+    {
+      "year": "2024",
+      "booktitle": "CVPRW",
+      "author": "Meeran, Muhammad Nawfal and Mantha, Bhanu Pratyush and others",
+      "title": "SAM-PM: Enhancing Video Camouflaged Object Detection using Spatio-Temporal Attention",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "meeran2024sam"
+    },
+    {
+      "year": "2020",
+      "booktitle": "ACCV",
+      "author": "Lamdouar, Hala and Yang, Charig and Xie, Weidi and Zisserman, Andrew",
+      "title": "Betrayed by motion: Camouflaged object discovery via motion segmentation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "lamdouar2020betrayed"
+    },
+    {
+      "institution": "University of Cambridge, Computer Laboratory",
+      "year": "2003",
+      "author": "Moenning, Carsten and Dodgson, Neil A",
+      "title": "Fast marching farthest point sampling",
+      "ENTRYTYPE": "techreport",
+      "ID": "moenning2003fast"
+    },
+    {
+      "year": "2009",
+      "booktitle": "CVPR",
+      "author": "Achanta, Radhakrishna and Hemami, Sheila and Estrada, Francisco and S{\\\"u}sstrunk, Sabine",
+      "title": "Frequency-tuned salient region detection",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "Fmeasure"
+    },
+    {
+      "year": "2012",
+      "booktitle": "CVPR",
+      "author": "Perazzi, Federico and Kr{\\\"a}henb{\\\"u}hl, Philipp and Pritch, Yael and Hornung, Alexander",
+      "title": "Saliency filters: Contrast based filtering for salient region detection",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "MAE"
+    },
+    {
+      "year": "2017",
+      "booktitle": "ICCV",
+      "author": "Fan, Deng-Ping and Cheng, Ming-Ming and Liu, Yun and Li, Tao and Borji, Ali",
+      "title": "Structure-measure: A new way to evaluate foreground maps",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "Smeasure"
+    },
+    {
+      "year": "2018",
+      "booktitle": "IJCAI",
+      "author": "Deng-Ping {Fan} and Cheng {Gong} and Yang {Cao} and Bo {Ren} and Ming-Ming {Cheng} and Ali {Borji}",
+      "title": "Enhanced-alignment Measure for Binary Foreground Map Evaluation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "Emeasure"
+    },
+    {
+      "year": "2014",
+      "booktitle": "CVPR",
+      "author": "Margolin, Ran and Zelnik-Manor, Lihi and Tal, Ayellet",
+      "title": "How to evaluate foreground maps?",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "wFmeasure"
+    },
+    {
+      "year": "2019",
+      "booktitle": "ICCV",
+      "author": "Zhao, Jia-Xing and Liu, Jiang-Jiang and Fan, Deng-Ping and Cao, Yang and Yang, Jufeng and Cheng, Ming-Ming",
+      "title": "EGNet: Edge guidance network for salient object detection",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zhao2019egnet"
+    },
+    {
+      "year": "2019",
+      "booktitle": "CVPR",
+      "author": "Qin, Xuebin and Zhang, Zichen and Huang, Chenyang and Gao, Chao and Dehghan, Masood and Jagersand, Martin",
+      "title": "Basnet: Boundary-aware salient object detection",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "qin2019basnet"
+    },
+    {
+      "year": "2019",
+      "booktitle": "CVPR",
+      "author": "Wu, Zhe and Su, Li and Huang, Qingming",
+      "title": "Cascaded partial decoder for fast and accurate salient object detection",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "wu2019cascaded"
+    },
+    {
+      "year": "2020",
+      "booktitle": "MICCAI",
+      "author": "Fan, Deng-Ping and Ji, Ge-Peng and Zhou, Tao and Chen, Geng and Fu, Huazhu and Shen, Jianbing and Shao, Ling",
+      "title": "Pranet: Parallel reverse attention network for polyp segmentation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "fan2020pranet"
+    },
+    {
+      "year": "2021",
+      "booktitle": "MICCAI",
+      "author": "Ji, Ge-Peng and Chou, Yu-Cheng and Fan, Deng-Ping and Chen, Geng and Fu, Huazhu and Jha, Debesh and Shao, Ling",
+      "title": "Progressively normalized self-attention network for video polyp segmentation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ji2021progressively"
+    },
+    {
+      "year": "2019",
+      "booktitle": "ICCV",
+      "author": "Yan, Pengxiang and Li, Guanbin and Xie, Yuan and Li, Zhen and Wang, Chuan and Chen, Tianshui and Lin, Liang",
+      "title": "Semi-supervised video salient object detection using pseudo-labels",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "yan2019semi"
+    },
+    {
+      "year": "2021",
+      "booktitle": "ICCV",
+      "author": "Yang, Charig and Lamdouar, Hala and Lu, Erika and Zisserman, Andrew and Xie, Weidi",
+      "title": "Self-supervised video object segmentation by motion grouping",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "yang2021self"
+    },
+    {
+      "year": "2019",
+      "journal": "NeurIPS",
+      "author": "Paszke, Adam and Gross, Sam and Massa, Francisco and Lerer, Adam and Bradbury, James and Chanan, Gregory and Killeen, Trevor and Lin, Zeming and Gimelshein, Natalia and Antiga, Luca and others",
+      "title": "Pytorch: An imperative style, high-performance deep learning library",
+      "ENTRYTYPE": "article",
+      "ID": "paszke2019pytorch"
+    },
+    {
+      "year": "2023",
+      "booktitle": "ICML",
+      "author": "Ryali, Chaitanya and Hu, Yuan-Ting and Bolya, Daniel and Wei, Chen and Fan, Haoqi and Huang, Po-Yao and Aggarwal, Vaibhav and Chowdhury, Arkabandhu and Poursaeed, Omid and Hoffman, Judy and others",
+      "title": "Hiera: A hierarchical vision transformer without the bells-and-whistles",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ryali2023hiera"
+    },
+    {
+      "year": "2024",
+      "booktitle": "ACCV",
+      "author": "Junyu Xie and Charig Yang and Weidi Xie and Andrew Zisserman",
+      "title": "Moving Object Segmentation: All You Need Is SAM (and Flow)",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "xie2024flowsam"
+    },
+    {
+      "publisher": "Springer",
+      "year": "2022",
+      "pages": "531--549",
+      "number": "6",
+      "volume": "19",
+      "journal": "Machine Intelligence Research",
+      "author": "Ji, Ge-Peng and Xiao, Guobao and Chou, Yu-Cheng and Fan, Deng-Ping and Zhao, Kai and Chen, Geng and Van Gool, Luc",
+      "title": "Video polyp segmentation: A deep learning perspective",
+      "ENTRYTYPE": "article",
+      "ID": "ji2022video"
+    },
+    {
+      "year": "2024",
+      "booktitle": "MICCAI",
+      "title": " { Diff-VPS: Video Polyp Segmentation via a Multi-task Diffusion Network with Adversarial Temporal Reasoning} ",
+      "author": " Lu, Yingling and Yang, Yijun and Xing, Zhaohu and Wang, Qiong and Zhu, Lei",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "Lu_DiffVPS_MICCAI2024"
+    },
+    {
+      "year": "2023",
+      "booktitle": "MICCAI",
+      "author": "Wei, Jun and Hu, Yiwen and Cui, Shuguang and Zhou, S Kevin and Li, Zhen",
+      "title": "Weakpolyp: You only look bounding box for polyp segmentation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "wei2023weakpolyp"
+    },
+    {
+      "year": "2024",
+      "booktitle": "MICCAI",
+      "title": " { LGRNet: Local-Global Reciprocal Network for Uterine Fibroid Segmentation in Ultrasound Videos} ",
+      "author": " Xu, Huihui and Yang, Yijun and Aviles-Rivero, Angelica I. and Yang, Guang and Qin, Jing and Zhu, Lei",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "Xu_LGRNet_MICCAI2024"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "2021",
+      "pages": "960--967",
+      "number": "4",
+      "volume": "93",
+      "journal": "Gastrointestinal endoscopy",
+      "author": "Misawa, Masashi and Kudo, Shin-ei and Mori, Yuichi and Hotta, Kinichi and Ohtsuka, Kazuo and Matsuda, Takahisa and Saito, Shoichi and Kudo, Toyoki and Baba, Toshiyuki and Ishida, Fumio and others",
+      "title": "Development of a computer-aided detection system for colonoscopy and a publicly accessible large colonoscopy video database (with video)",
+      "ENTRYTYPE": "article",
+      "ID": "misawa2021development"
+    },
+    {
+      "publisher": "Springer",
+      "year": "2024",
+      "pages": "40--55",
+      "number": "1",
+      "volume": "132",
+      "journal": "IJCV",
+      "author": "Bideau, Pia and Learned-Miller, Erik and Schmid, Cordelia and Alahari, Karteek",
+      "title": "The right spin: Learning object motion from rotation-compensated flow fields",
+      "ENTRYTYPE": "article",
+      "ID": "bideau2024right"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "2024",
+      "journal": "IEEE TCSVT",
+      "author": "Lu, Zelin and Xie, Liang and Zhao, Xing and Xu, Binwei and Liang, Haoran and Liang, Ronghua",
+      "title": "A Weakly-supervised Cross-domain Query Framework for Video Camouflage Object Detection",
+      "ENTRYTYPE": "article",
+      "ID": "lu2024weakly"
+    },
+    {
+      "year": "2022",
+      "journal": "NeurIPS",
+      "author": "Xie, Junyu and Xie, Weidi and Zisserman, Andrew",
+      "title": "Segmenting moving objects via an object-centric layered representation",
+      "ENTRYTYPE": "article",
+      "ID": "xie2022segmenting"
+    },
+    {
+      "year": "2023",
+      "journal": "NeurIPS",
+      "author": "Ke, Lei and Ye, Mingqiao and Danelljan, Martin and Tai, Yu-Wing and Tang, Chi-Keung and Yu, Fisher and others",
+      "title": "Segment anything in high quality",
+      "ENTRYTYPE": "article",
+      "ID": "ke2023segment"
+    }
+  ]
+}

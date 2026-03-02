@@ -1,0 +1,891 @@
+{
+  "pdf_url": "https://arxiv.org/pdf/2510.16062v2.pdf",
+  "references": [
+    {
+      "publisher": "Morgan Kaufmann",
+      "address": "Stanford, CA",
+      "booktitle": "Proceedings of the 17th International Conference on Machine Learning (ICML 2000)",
+      "editor": "Pat Langley",
+      "pages": "1207--1216",
+      "year": "2000",
+      "title": "Crafting Papers on Machine Learning",
+      "author": "P. Langley",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "langley00"
+    },
+    {
+      "address": "New Brunswick, MA",
+      "year": "1980",
+      "institution": "Computer Science Department, Rutgers University",
+      "title": "The Need for Biases in Learning Generalizations",
+      "author": "T. M. Mitchell",
+      "ENTRYTYPE": "techreport",
+      "ID": "mitchell80"
+    },
+    {
+      "year": "1989",
+      "school": "Department of Computer Science, Harvard University",
+      "title": "Computational Complexity of Machine Learning",
+      "author": "M. J. Kearns",
+      "ENTRYTYPE": "phdthesis",
+      "ID": "kearns89"
+    },
+    {
+      "address": "Palo Alto, CA",
+      "year": "1983",
+      "publisher": "Tioga",
+      "title": "Machine Learning: An Artificial Intelligence\nApproach, Vol. I",
+      "editor": "R. S. Michalski and J. G. Carbonell and T.\nM. Mitchell",
+      "ENTRYTYPE": "book",
+      "ID": "MachineLearningI"
+    },
+    {
+      "year": "2000",
+      "edition": "2nd",
+      "publisher": "John Wiley and Sons",
+      "title": "Pattern Classification",
+      "author": "R. O. Duda and P. E. Hart and D. G. Stork",
+      "ENTRYTYPE": "book",
+      "ID": "DudaHart2nd"
+    },
+    {
+      "year": "2021",
+      "author": "Author, N. N.",
+      "title": "Suppressed for Anonymity",
+      "ENTRYTYPE": "misc",
+      "ID": "anonymous"
+    },
+    {
+      "address": "Hillsdale, NJ",
+      "chapter": "1",
+      "editor": "J. R. Anderson",
+      "year": "1981",
+      "publisher": "Lawrence Erlbaum Associates, Inc.",
+      "pages": "1--51",
+      "booktitle": "Cognitive Skills and Their Acquisition",
+      "title": "Mechanisms of Skill Acquisition and the Law of\nPractice",
+      "author": "A. Newell and P. S. Rosenbloom",
+      "ENTRYTYPE": "incollection",
+      "ID": "Newell81"
+    },
+    {
+      "pages": "211--229",
+      "number": "3",
+      "volume": "3",
+      "year": "1959",
+      "journal": "IBM Journal of Research and Development",
+      "title": "Some Studies in Machine Learning Using the Game of\nCheckers",
+      "author": "A. L. Samuel",
+      "ENTRYTYPE": "article",
+      "ID": "Samuel59"
+    },
+    {
+      "url": "https://api.semanticscholar.org/CorpusID:52822214",
+      "year": "2018",
+      "booktitle": "Conference on Empirical Methods in Natural Language Processing",
+      "author": "Zhilin Yang and Peng Qi and Saizheng Zhang and Yoshua Bengio and William W. Cohen and Ruslan Salakhutdinov and Christopher D. Manning",
+      "title": "HotpotQA: A Dataset for Diverse, Explainable Multi-hop Question Answering",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "Yang2018HotpotQAAD"
+    },
+    {
+      "url": "https://api.semanticscholar.org/CorpusID:268032638",
+      "year": "2024",
+      "booktitle": "Conference on Empirical Methods in Natural Language Processing",
+      "author": "Rifki Afina Putri and Faiz Ghifari Haznitrama and Dea Adhista and Alice Oh",
+      "title": "Can LLM Generate Culturally Relevant Commonsense QA Data? Case Study in Indonesian and Sundanese",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "Putri2024CanLG"
+    },
+    {
+      "url": "https://api.semanticscholar.org/CorpusID:264965980",
+      "year": "2019",
+      "author": "Michael Chen and Mike D'Arcy and Alisa Liu and Jared Fernandez and Doug Downey",
+      "title": "AQuA: An Adversarially Authored Question-Answer Dataset for Common Sense",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "Chen2019AQuAAA"
+    },
+    {
+      "url": "https://api.semanticscholar.org/CorpusID:239998651",
+      "volume": "abs/2110.14168",
+      "year": "2021",
+      "journal": "ArXiv",
+      "author": "Karl Cobbe and Vineet Kosaraju and Mohammad Bavarian and Mark Chen and Heewoo Jun and Lukasz Kaiser and Matthias Plappert and Jerry Tworek and Jacob Hilton and Reiichiro Nakano and Christopher Hesse and John Schulman",
+      "title": "Training Verifiers to Solve Math Word Problems",
+      "ENTRYTYPE": "article",
+      "ID": "Cobbe2021TrainingVT"
+    },
+    {
+      "url": "https://api.semanticscholar.org/CorpusID:232134851",
+      "volume": "abs/2103.03874",
+      "year": "2021",
+      "journal": "ArXiv",
+      "author": "Dan Hendrycks and Collin Burns and Saurav Kadavath and Akul Arora and Steven Basart and Eric Tang and Dawn Xiaodong Song and Jacob Steinhardt",
+      "title": "Measuring Mathematical Problem Solving With the MATH Dataset",
+      "ENTRYTYPE": "article",
+      "ID": "Hendrycks2021MeasuringMP"
+    },
+    {
+      "url": "https://api.semanticscholar.org/CorpusID:265295009",
+      "volume": "abs/2311.12022",
+      "year": "2023",
+      "journal": "ArXiv",
+      "author": "David Rein and Betty Li Hou and Asa Cooper Stickland and Jackson Petty and Richard Yuanzhe Pang and Julien Dirani and Julian Michael and Samuel R. Bowman",
+      "title": "GPQA: A Graduate-Level Google-Proof Q\\&A Benchmark",
+      "ENTRYTYPE": "article",
+      "ID": "Rein2023GPQAAG"
+    },
+    {
+      "url": "https://api.semanticscholar.org/CorpusID:235755472",
+      "volume": "abs/2107.03374",
+      "year": "2021",
+      "journal": "ArXiv",
+      "author": "Mark Chen and Jerry Tworek and Heewoo Jun and Qiming Yuan and others",
+      "title": "Evaluating Large Language Models Trained on Code",
+      "ENTRYTYPE": "article",
+      "ID": "Chen2021EvaluatingLL"
+    },
+    {
+      "url": "https://api.semanticscholar.org/CorpusID:274859421",
+      "year": "2024",
+      "author": "Qwen An Yang and Baosong Yang and Beichen Zhang and others",
+      "title": "Qwen2.5 Technical Report",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "Yang2024Qwen25TR"
+    },
+    {
+      "howpublished": "\\url{https://llama.meta.com/docs/model-cards-andprompt-formats/meta-llama-3/}",
+      "year": "2024",
+      "title": "{Meta Llama 3}",
+      "author": "Meta",
+      "ENTRYTYPE": "misc",
+      "ID": "meta2024llama3"
+    },
+    {
+      "year": "2024",
+      "howpublished": "[Online]. Available: \\url{https://www.anthropic.com/claude}",
+      "title": "{Claude}",
+      "author": "Ahtropic, Claude",
+      "ENTRYTYPE": "misc",
+      "ID": "AhtropicClaude"
+    },
+    {
+      "year": "2022",
+      "pages": "27730--27744",
+      "volume": "35",
+      "journal": "Advances in neural information processing systems",
+      "author": "Ouyang, Long and Wu, Jeffrey and Jiang, Xu and Almeida, Diogo and Wainwright, Carroll and Mishkin, Pamela and Zhang, Chong and Agarwal, Sandhini and Slama, Katarina and Ray, Alex and others",
+      "title": "Training language models to follow instructions with human feedback",
+      "ENTRYTYPE": "article",
+      "ID": "ouyang2022training"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2410.21276",
+      "author": "Hurst, Aaron and Lerer, Adam and Goucher, Adam P and Perelman, Adam and Ramesh, Aditya and Clark, Aidan and Ostrow, AJ and Welihinda, Akila and Hayes, Alan and Radford, Alec and others",
+      "title": "Gpt-4o system card",
+      "ENTRYTYPE": "article",
+      "ID": "hurst2024gpt"
+    },
+    {
+      "url": "https://api.semanticscholar.org/CorpusID:275118643",
+      "year": "2024",
+      "author": "DeepSeek-AI and Aixin Liu and Bei Feng and Bing Xue and Bing-Li Wang and Bochao Wu and others",
+      "title": "DeepSeek-V3 Technical Report",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "DeepSeekAI2024DeepSeekV3TR"
+    },
+    {
+      "url": "https://api.semanticscholar.org/CorpusID:257834038",
+      "volume": "abs/2303.17491",
+      "year": "2023",
+      "journal": "ArXiv",
+      "author": "Geunwoo Kim and Pierre Baldi and Stephen Marcus McAleer",
+      "title": "Language Models can Solve Computer Tasks",
+      "ENTRYTYPE": "article",
+      "ID": "Kim2023LanguageMC"
+    },
+    {
+      "url": "https://api.semanticscholar.org/CorpusID:257900871",
+      "volume": "abs/2303.17651",
+      "year": "2023",
+      "journal": "ArXiv",
+      "author": "Aman Madaan and Niket Tandon and Prakhar Gupta and Skyler Hallinan and Luyu Gao and Sarah Wiegreffe and Uri Alon and Nouha Dziri and Shrimai Prabhumoye and Yiming Yang and Sean Welleck and Bodhisattwa Prasad Majumder and Shashank Gupta and Amir Yazdanbakhsh and Peter Clark",
+      "title": "Self-Refine: Iterative Refinement with Self-Feedback",
+      "ENTRYTYPE": "article",
+      "ID": "Madaan2023SelfRefineIR"
+    },
+    {
+      "url": "https://api.semanticscholar.org/CorpusID:262062565",
+      "volume": "abs/2309.11495",
+      "year": "2023",
+      "journal": "ArXiv",
+      "author": "Shehzaad Dhuliawala and Mojtaba Komeili and Jing Xu and Roberta Raileanu and Xian Li and Asli Celikyilmaz and Jason Weston",
+      "title": "Chain-of-Verification Reduces Hallucination in Large Language Models",
+      "ENTRYTYPE": "article",
+      "ID": "Dhuliawala2023ChainofVerificationRH"
+    },
+    {
+      "url": "https://api.semanticscholar.org/CorpusID:258833055",
+      "year": "2023",
+      "booktitle": "Neural Information Processing Systems",
+      "author": "Noah Shinn and Federico Cassano and Beck Labash and Ashwin Gopinath and Karthik Narasimhan and Shunyu Yao",
+      "title": "Reflexion: language agents with verbal reinforcement learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "Shinn2023ReflexionLA"
+    },
+    {
+      "url": "https://api.semanticscholar.org/CorpusID:258615731",
+      "volume": "abs/2305.06983",
+      "year": "2023",
+      "journal": "ArXiv",
+      "author": "Zhengbao Jiang and Frank F. Xu and Luyu Gao and Zhiqing Sun and Qian Liu and Jane Dwivedi-Yu and Yiming Yang and Jamie Callan and Graham Neubig",
+      "title": "Active Retrieval Augmented Generation",
+      "ENTRYTYPE": "article",
+      "ID": "Jiang2023ActiveRA"
+    },
+    {
+      "url": "https://api.semanticscholar.org/CorpusID:254247260",
+      "year": "2022",
+      "booktitle": "Annual Meeting of the Association for Computational Linguistics",
+      "author": "Luyu Gao and Zhuyun Dai and Panupong Pasupat and Anthony Chen and Arun Tejasvi Chaganty and Yicheng Fan and Vincent Zhao and N. Lao and Hongrae Lee and Da-Cheng Juan and Kelvin Guu",
+      "title": "RARR: Researching and Revising What Language Models Say, Using Language Models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "Gao2022RARRRA"
+    },
+    {
+      "url": "https://api.semanticscholar.org/CorpusID:258823123",
+      "volume": "abs/2305.11738",
+      "year": "2023",
+      "journal": "ArXiv",
+      "author": "Zhibin Gou and Zhihong Shao and Yeyun Gong and Yelong Shen and Yujiu Yang and Nan Duan and Weizhu Chen",
+      "title": "CRITIC: Large Language Models Can Self-Correct with Tool-Interactive Critiquing",
+      "ENTRYTYPE": "article",
+      "ID": "Gou2023CRITICLL"
+    },
+    {
+      "url": "https://api.semanticscholar.org/CorpusID:270924195",
+      "volume": "abs/2407.03181",
+      "year": "2024",
+      "journal": "ArXiv",
+      "author": "Haritz Puerto and Tilek Chubakov and Xiaodan Zhu and Harish Tayyar Madabushi and Iryna Gurevych",
+      "title": "Fine-Tuning with Divergent Chains of Thought Boosts Reasoning Through Self-Correction in Language Models",
+      "ENTRYTYPE": "article",
+      "ID": "Puerto2024FineTuningWD"
+    },
+    {
+      "url": "https://api.semanticscholar.org/CorpusID:257921623",
+      "year": "2023",
+      "booktitle": "Conference of the European Chapter of the Association for Computational Linguistics",
+      "author": "Debjit Paul and Mete Ismayilzada and Maxime Peyrard and Beatriz Borges and Antoine Bosselut and Robert West and Boi Faltings",
+      "title": "REFINER: Reasoning Feedback on Intermediate Representations",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "Paul2023REFINERRF"
+    },
+    {
+      "url": "https://api.semanticscholar.org/CorpusID:269430362",
+      "year": "2024",
+      "booktitle": "Annual Meeting of the Association for Computational Linguistics",
+      "author": "Yunxiang Zhang and Muhammad Khalifa and Lajanugen Logeswaran and Jaekyeom Kim and Moontae Lee and Honglak Lee and Lu Wang",
+      "title": "Small Language Models Need Strong Verifiers to Self-Correct Reasoning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "Zhang2024SmallLM"
+    },
+    {
+      "url": "https://api.semanticscholar.org/CorpusID:267782564",
+      "year": "2024",
+      "booktitle": "Annual Meeting of the Association for Computational Linguistics",
+      "author": "Zicheng Lin and Zhibin Gou and Tian Liang and Ruilin Luo and Haowei Liu and Yujiu Yang",
+      "title": "CriticBench: Benchmarking LLMs for Critique-Correct Reasoning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "Lin2024CriticBenchBL"
+    },
+    {
+      "url": "https://api.semanticscholar.org/CorpusID:274446044",
+      "volume": "abs/2412.02172",
+      "year": "2024",
+      "journal": "ArXiv",
+      "author": "Xueqing Wu and Yuheng Ding and Bingxuan Li and Pan Lu and Da Yin and Kai-Wei Chang and Nanyun Peng",
+      "title": "VISCO: Benchmarking Fine-Grained Critique and Correction Towards Self-Improvement in Visual Reasoning",
+      "ENTRYTYPE": "article",
+      "ID": "Wu2024VISCOBF"
+    },
+    {
+      "url": "https://api.semanticscholar.org/CorpusID:271217928",
+      "volume": "abs/2407.11470",
+      "year": "2024",
+      "journal": "ArXiv",
+      "author": "Jiasheng Zheng and Boxi Cao and Zhengzhao Ma and Ruotong Pan and Hongyu Lin and Yaojie Lu and Xianpei Han and Le Sun",
+      "title": "Beyond Correctness: Benchmarking Multi-dimensional Code Generation for Large Language Models",
+      "ENTRYTYPE": "article",
+      "ID": "Zheng2024BeyondCB"
+    },
+    {
+      "url": "https://api.semanticscholar.org/CorpusID:257632113",
+      "volume": "abs/2303.10420",
+      "year": "2023",
+      "journal": "ArXiv",
+      "author": "Junjie Ye and Xuanting Chen and Nuo Xu and Can Zu and Zekai Shao and Shichun Liu and Yuhan Cui and Zeyang Zhou and Chao Gong and Yang Shen and Jie Zhou and Siming Chen and Tao Gui and Qi Zhang and Xuanjing Huang",
+      "title": "A Comprehensive Capability Analysis of GPT-3 and GPT-3.5 Series Models",
+      "ENTRYTYPE": "article",
+      "ID": "Ye2023ACC"
+    },
+    {
+      "url": "https://api.semanticscholar.org/CorpusID:271571434",
+      "volume": "abs/2407.21783",
+      "year": "2024",
+      "journal": "ArXiv",
+      "author": "Abhimanyu Dubey and Abhinav Jauhri and Abhinav Pandey and Abhishek Kadian and Ahmad Al-Dahle and others",
+      "title": "The Llama 3 Herd of Models",
+      "ENTRYTYPE": "article",
+      "ID": "Dubey2024TheL3"
+    },
+    {
+      "url": "https://api.semanticscholar.org/CorpusID:258186976",
+      "year": "2023",
+      "journal": "Proceedings of the 2023 ACM International Conference on Interactive Media Experiences",
+      "author": "Alexandre Agossah and Fr{\\'e}d{\\'e}rique Krupa and Matthieu Perreira da Silva and Patrick Le Callet",
+      "title": "LLM-Based Interaction for Content Generation: A Case Study on the Perception of Employees in an IT Department",
+      "ENTRYTYPE": "article",
+      "ID": "Agossah2023LLMBasedIF"
+    },
+    {
+      "url": "https://api.semanticscholar.org/CorpusID:274281332",
+      "volume": "abs/2411.17558",
+      "year": "2024",
+      "journal": "ArXiv",
+      "author": "Jiayi Kuang and Jingyou Xie and Haohao Luo and Ronghao Li and Zhe Xu and Xianfeng Cheng and Yinghui Li and Xika Lin and Ying Shen",
+      "title": "Natural Language Understanding and Inference with MLLM in Visual Question Answering: A Survey",
+      "ENTRYTYPE": "article",
+      "ID": "Kuang2024NaturalLU"
+    },
+    {
+      "url": "https://api.semanticscholar.org/CorpusID:273993633",
+      "volume": "abs/2411.08794",
+      "year": "2024",
+      "journal": "ArXiv",
+      "author": "Chang Yang and Xinrun Wang and Junzhe Jiang and Qinggang Zhang and Xiao Huang",
+      "title": "Evaluating World Models with LLM for Decision Making",
+      "ENTRYTYPE": "article",
+      "ID": "Yang2024EvaluatingWM"
+    },
+    {
+      "url": "https://api.semanticscholar.org/CorpusID:246411621",
+      "volume": "abs/2201.11903",
+      "year": "2022",
+      "journal": "ArXiv",
+      "author": "Jason Wei and Xuezhi Wang and Dale Schuurmans and Maarten Bosma and Ed H. Chi and F. Xia and Quoc Le and Denny Zhou",
+      "title": "Chain of Thought Prompting Elicits Reasoning in Large Language Models",
+      "ENTRYTYPE": "article",
+      "ID": "Wei2022ChainOT"
+    },
+    {
+      "url": "https://api.semanticscholar.org/CorpusID:270218742",
+      "pages": "1417-1440",
+      "volume": "12",
+      "year": "2024",
+      "journal": "Transactions of the Association for Computational Linguistics",
+      "author": "Ryo Kamoi and Yusen Zhang and Nan Zhang and Jiawei Han and Rui Zhang",
+      "title": "When Can LLMs Actually Correct Their Own Mistakes? A Critical Survey of Self-Correction of LLMs",
+      "ENTRYTYPE": "article",
+      "ID": "Kamoi2024WhenCL"
+    },
+    {
+      "url": "https://api.semanticscholar.org/CorpusID:270257760",
+      "volume": "abs/2406.02746",
+      "year": "2024",
+      "journal": "ArXiv",
+      "author": "Jinghan Zhang and Xiting Wang and Weijieying Ren and Lu Jiang and Dongjie Wang and Kunpeng Liu",
+      "title": "RATT: A Thought Structure for Coherent and Correct LLM Reasoning",
+      "ENTRYTYPE": "article",
+      "ID": "Zhang2024RATTAT"
+    },
+    {
+      "url": "https://api.semanticscholar.org/CorpusID:273323361",
+      "volume": "abs/2410.09008",
+      "year": "2024",
+      "journal": "ArXiv",
+      "author": "Ling Yang and Zhaochen Yu and Tianjun Zhang and Minkai Xu and Joseph E. Gonzalez and Bin Cui and Shuicheng Yan",
+      "title": "SuperCorrect: Supervising and Correcting Language Models with Error-Driven Insights",
+      "ENTRYTYPE": "article",
+      "ID": "Yang2024SuperCorrectSA"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2407.10671",
+      "author": "An Yang and Baosong Yang and Binyuan Hui and others",
+      "title": "Qwen2 Technical Report",
+      "ENTRYTYPE": "article",
+      "ID": "qwen2"
+    },
+    {
+      "url": "https://api.semanticscholar.org/CorpusID:254823489",
+      "volume": "abs/2212.08073",
+      "year": "2022",
+      "journal": "ArXiv",
+      "author": "Yuntao Bai and Saurav Kadavath and Sandipan Kundu and Amanda Askell and others",
+      "title": "Constitutional AI: Harmlessness from AI Feedback",
+      "ENTRYTYPE": "article",
+      "ID": "Bai2022ConstitutionalAH"
+    },
+    {
+      "url": "https://api.semanticscholar.org/CorpusID:258059885",
+      "volume": "abs/2304.05128",
+      "year": "2023",
+      "journal": "ArXiv",
+      "author": "Xinyun Chen and Maxwell Lin and Nathanael Sch{\\\"a}rli and Denny Zhou",
+      "title": "Teaching Large Language Models to Self-Debug",
+      "ENTRYTYPE": "article",
+      "ID": "Chen2023TeachingLL"
+    },
+    {
+      "url": "https://api.semanticscholar.org/CorpusID:258685337",
+      "year": "2023",
+      "booktitle": "Annual Meeting of the Association for Computational Linguistics",
+      "author": "Afra Feyza Aky{\\\"u}rek and Ekin Aky{\\\"u}rek and Aman Madaan and A. Kalyan and Peter Clark and Derry Tanti Wijaya and Niket Tandon",
+      "title": "RL4F: Generating Natural Language Feedback with Reinforcement Learning for Repairing Model Outputs",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "Akyrek2023RL4FGN"
+    },
+    {
+      "url": "https://api.semanticscholar.org/CorpusID:249626555",
+      "volume": "abs/2206.05802",
+      "year": "2022",
+      "journal": "ArXiv",
+      "author": "William Saunders and Catherine Yeh and Jeff Wu and Steven Bills and Ouyang Long and Jonathan Ward and Jan Leike",
+      "title": "Self-critiquing models for assisting human evaluators",
+      "ENTRYTYPE": "article",
+      "ID": "Saunders2022SelfcritiquingMF"
+    },
+    {
+      "url": "https://api.semanticscholar.org/CorpusID:270095253",
+      "volume": "abs/2405.18634",
+      "year": "2024",
+      "journal": "ArXiv",
+      "author": "Yifei Wang and Yuyang Wu and Zeming Wei and Stefanie Jegelka and Yisen Wang",
+      "title": "A Theoretical Understanding of Self-Correction through In-context Alignment",
+      "ENTRYTYPE": "article",
+      "ID": "Wang2024ATU"
+    },
+    {
+      "url": "https://api.semanticscholar.org/CorpusID:263609132",
+      "volume": "abs/2310.01798",
+      "year": "2023",
+      "journal": "ArXiv",
+      "author": "Jie Huang and Xinyun Chen and Swaroop Mishra and Huaixiu Steven Zheng and Adams Wei Yu and Xinying Song and Denny Zhou",
+      "title": "Large Language Models Cannot Self-Correct Reasoning Yet",
+      "ENTRYTYPE": "article",
+      "ID": "Huang2023LargeLM"
+    },
+    {
+      "url": "https://api.semanticscholar.org/CorpusID:270703467",
+      "volume": "abs/2406.15673",
+      "year": "2024",
+      "journal": "ArXiv",
+      "author": "Dancheng Liu and Amir Nassereldine and Ziming Yang and Chenhui Xu and Yuting Hu and Jiajie Li and Utkarsh Kumar and Changjae Lee and Jinjun Xiong",
+      "title": "Large Language Models have Intrinsic Self-Correction Ability",
+      "ENTRYTYPE": "article",
+      "ID": "Liu2024LargeLM"
+    },
+    {
+      "url": "https://api.semanticscholar.org/CorpusID:270225983",
+      "volume": "abs/2406.02378",
+      "year": "2024",
+      "journal": "ArXiv",
+      "author": "Guang-Da Liu and Haitao Mao and Bochuan Cao and Zhiyu Xue and Kristen Marie Johnson and Jiliang Tang and Rongrong Wang",
+      "title": "On the Intrinsic Self-Correction Capability of LLMs: Uncertainty and Latent Concept",
+      "ENTRYTYPE": "article",
+      "ID": "Liu2024OnTI"
+    },
+    {
+      "url": "https://api.semanticscholar.org/CorpusID:272398322",
+      "year": "2024",
+      "author": "Dongwei Jiang and Jingyu Zhang and Orion Weller and Nathaniel Weir and Benjamin Van Durme and Daniel Khashabi",
+      "title": "SELF-[IN]CORRECT: LLMs Struggle with Discriminating Self-Generated Responses",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "Jiang2024SELFINCORRECTLS"
+    },
+    {
+      "url": "https://api.semanticscholar.org/CorpusID:258841857",
+      "volume": "abs/2305.13534",
+      "year": "2023",
+      "journal": "ArXiv",
+      "author": "Muru Zhang and Ofir Press and William Merrill and Alisa Liu and Noah A. Smith",
+      "title": "How Language Model Hallucinations Can Snowball",
+      "ENTRYTYPE": "article",
+      "ID": "Zhang2023HowLM"
+    },
+    {
+      "url": "https://api.semanticscholar.org/CorpusID:260154834",
+      "volume": "abs/2307.13528",
+      "year": "2023",
+      "journal": "ArXiv",
+      "author": "Ethan Chern and Steffi Chern and Shiqi Chen and Weizhe Yuan and Kehua Feng and Chunting Zhou and Junxian He and Graham Neubig and Pengfei Liu",
+      "title": "FacTool: Factuality Detection in Generative AI - A Tool Augmented Framework for Multi-Task and Multi-Domain Scenarios",
+      "ENTRYTYPE": "article",
+      "ID": "Chern2023FacToolFD"
+    },
+    {
+      "url": "https://api.semanticscholar.org/CorpusID:262465354",
+      "volume": "abs/2309.13788",
+      "year": "2023",
+      "journal": "ArXiv",
+      "author": "Canyu Chen and Kai Shu",
+      "title": "Can LLM-Generated Misinformation Be Detected?",
+      "ENTRYTYPE": "article",
+      "ID": "Chen2023CanLM"
+    },
+    {
+      "url": "https://api.semanticscholar.org/CorpusID:266999558",
+      "volume": "abs/2401.06855",
+      "year": "2024",
+      "journal": "ArXiv",
+      "author": "Abhika Mishra and Akari Asai and Vidhisha Balachandran and Yizhong Wang and Graham Neubig and Yulia Tsvetkov and Hannaneh Hajishirzi",
+      "title": "Fine-grained Hallucination Detection and Editing for Language Models",
+      "ENTRYTYPE": "article",
+      "ID": "Mishra2024FinegrainedHD"
+    },
+    {
+      "url": "https://api.semanticscholar.org/CorpusID:215548661",
+      "volume": "abs/2004.04228",
+      "year": "2020",
+      "journal": "ArXiv",
+      "author": "Alex Wang and Kyunghyun Cho and Mike Lewis",
+      "title": "Asking and Answering Questions to Evaluate the Factual Consistency of Summaries",
+      "ENTRYTYPE": "article",
+      "ID": "Wang2020AskingAA"
+    },
+    {
+      "url": "https://api.semanticscholar.org/CorpusID:218571335",
+      "volume": "abs/2005.03754",
+      "year": "2020",
+      "journal": "ArXiv",
+      "author": "Esin Durmus and He He and Mona T. Diab",
+      "title": "FEQA: A Question Answering Evaluation Framework for Faithfulness Assessment in Abstractive Summarization",
+      "ENTRYTYPE": "article",
+      "ID": "Durmus2020FEQAAQ"
+    },
+    {
+      "url": "https://api.semanticscholar.org/CorpusID:233219059",
+      "year": "2021",
+      "booktitle": "Conference on Empirical Methods in Natural Language Processing",
+      "author": "Thomas Scialom and Paul-Alexis Dray and Patrick Gallinari and Sylvain Lamprier and Benjamin Piwowarski and Jacopo Staiano and Alex Wang",
+      "title": "QuestEval: Summarization Asks for Fact-based Evaluation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "Scialom2021QuestEvalSA"
+    },
+    {
+      "url": "https://api.semanticscholar.org/CorpusID:249712372",
+      "volume": "abs/2206.08325",
+      "year": "2022",
+      "journal": "ArXiv",
+      "author": "Maribeth Rauh and John F. J. Mellor and Jonathan Uesato and Po-Sen Huang and Johannes Welbl and Laura Weidinger and Sumanth Dathathri and Amelia Glaese and Geoffrey Irving and Iason Gabriel and William S. Isaac and Lisa Anne Hendricks",
+      "title": "Characteristics of Harmful Text: Towards Rigorous Benchmarking of Language Models",
+      "ENTRYTYPE": "article",
+      "ID": "Rauh2022CharacteristicsOH"
+    },
+    {
+      "url": "https://api.semanticscholar.org/CorpusID:218971825",
+      "volume": "abs/2005.14050",
+      "year": "2020",
+      "journal": "ArXiv",
+      "author": "Su Lin Blodgett and Solon Barocas and Hal Daum'e and Hanna M. Wallach",
+      "title": "Language (Technology) is Power: A Critical Survey of “Bias” in NLP",
+      "ENTRYTYPE": "article",
+      "ID": "Blodgett2020LanguageI"
+    },
+    {
+      "url": "https://api.semanticscholar.org/CorpusID:258686693",
+      "year": "2023",
+      "booktitle": "Annual Meeting of the Association for Computational Linguistics",
+      "author": "Shangbin Feng and Chan Young Park and Yuhan Liu and Yulia Tsvetkov",
+      "title": "From Pretraining Data to Language Models to Downstream Tasks: Tracking the Trails of Political Biases Leading to Unfair NLP Models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "Feng2023FromPD"
+    },
+    {
+      "url": "https://api.semanticscholar.org/CorpusID:265213404",
+      "year": "2023",
+      "booktitle": "Annual Meeting of the Association for Computational Linguistics",
+      "author": "Gladys Tyen and Hassan Mansoor and Peter Chen and Tony Mak and Victor Carbune",
+      "title": "LLMs cannot find reasoning errors, but can correct them!",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "Tyen2023LLMsCF"
+    },
+    {
+      "url": "https://api.semanticscholar.org/CorpusID:268889318",
+      "volume": "abs/2404.03602",
+      "year": "2024",
+      "journal": "ArXiv",
+      "author": "Ryo Kamoi and Sarkar Snigdha Sarathi Das and Renze Lou and Jihyun Janice Ahn and Yilun Zhao and Xiaoxin Lu and Nan Zhang and Yusen Zhang and Ranran Haoran Zhang and Sujeeth Reddy Vummanthala and Salika Dave and Shaobo Qin and Arman Cohan and Wenpeng Yin and Rui Zhang",
+      "title": "Evaluating LLMs at Detecting Errors in LLM Responses",
+      "ENTRYTYPE": "article",
+      "ID": "Kamoi2024EvaluatingLA"
+    },
+    {
+      "url": "https://api.semanticscholar.org/CorpusID:261031028",
+      "volume": "abs/2308.08998",
+      "year": "2023",
+      "journal": "ArXiv",
+      "author": "Caglar Gulcehre and Tom Le Paine and Srivatsan Srinivasan and Ksenia Konyushkova and Lotte Weerts and Abhishek Sharma and Aditya Siddhant and Alexa Ahern and Miaosen Wang and Chenjie Gu and Wolfgang Macherey and A. Doucet and Orhan Firat and Nando de Freitas",
+      "title": "Reinforced Self-Training (ReST) for Language Modeling",
+      "ENTRYTYPE": "article",
+      "ID": "Gulcehre2023ReinforcedS"
+    },
+    {
+      "url": "https://api.semanticscholar.org/CorpusID:258865735",
+      "volume": "abs/2305.14483",
+      "year": "2023",
+      "journal": "ArXiv",
+      "author": "Jing-Cheng Pang and Pengyuan Wang and Kaiyuan Li and Xiong-Hui Chen and Jiacheng Xu and Zongzhang Zhang and Yang Yu",
+      "title": "Language Model Self-improvement by Reinforcement Learning Contemplation",
+      "ENTRYTYPE": "article",
+      "ID": "Pang2023LanguageMS"
+    },
+    {
+      "url": "https://api.semanticscholar.org/CorpusID:247762790",
+      "year": "2022",
+      "author": "E. Zelikman and Yuhuai Wu and Noah D. Goodman",
+      "title": "STaR: Bootstrapping Reasoning With Reasoning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "Zelikman2022STaRBR"
+    },
+    {
+      "url": "https://api.semanticscholar.org/CorpusID:253080328",
+      "volume": "abs/2210.11610",
+      "year": "2022",
+      "journal": "ArXiv",
+      "author": "Jiaxin Huang and Shixiang Shane Gu and Le Hou and Yuexin Wu and Xuezhi Wang and Hongkun Yu and Jiawei Han",
+      "title": "Large Language Models Can Self-Improve",
+      "ENTRYTYPE": "article",
+      "ID": "Huang2022LargeLM"
+    },
+    {
+      "url": "https://api.semanticscholar.org/CorpusID:246680398",
+      "volume": "abs/2202.04538",
+      "year": "2022",
+      "journal": "ArXiv",
+      "author": "Yu Meng and Jiaxin Huang and Yu Zhang and Jiawei Han",
+      "title": "Generating Training Data with Language Models: Towards Zero-Shot Language Understanding",
+      "ENTRYTYPE": "article",
+      "ID": "Meng2022GeneratingTD"
+    },
+    {
+      "publisher": "Springer",
+      "year": "2024",
+      "pages": "1529--1547",
+      "number": "4",
+      "volume": "113",
+      "journal": "Machine Learning",
+      "author": "Pullar-Strecker, Zac and Dost, Katharina and Frank, Eibe and Wicker, J{\\\"o}rg",
+      "title": "Hitting the target: stopping active learning at the cost-based optimum",
+      "ENTRYTYPE": "article",
+      "ID": "pullar2024hitting"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2406.02616",
+      "author": "Chen, Yuxuan and Li, Rongpeng and Yu, Xiaoxue and Zhao, Zhifeng and Zhang, Honggang",
+      "title": "Adaptive Layer Splitting for Wireless LLM Inference in Edge Computing: A Model-Based Reinforcement Learning Approach",
+      "ENTRYTYPE": "article",
+      "ID": "chen2024adaptive"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2405.11106",
+      "author": "Sun, Chuanneng and Huang, Songjun and Pompili, Dario",
+      "title": "LLM-based Multi-Agent Reinforcement Learning: Current and Future Directions",
+      "ENTRYTYPE": "article",
+      "ID": "sun2024llm"
+    },
+    {
+      "year": "2024",
+      "pages": "12882--12892",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Qi, Biqing and Chen, Xinquan and Gao, Junqi and Li, Dong and Liu, Jianxing and Wu, Ligang and Zhou, Bowen",
+      "title": "Interactive continual learning: Fast and slow thinking",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "qi2024interactive"
+    },
+    {
+      "year": "2024",
+      "volume": "36",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Lin, Bill Yuchen and Fu, Yicheng and Yang, Karina and Brahman, Faeze and Huang, Shiyu and Bhagavatula, Chandra and Ammanabrolu, Prithviraj and Choi, Yejin and Ren, Xiang",
+      "title": "Swiftsage: A generative agent with fast and slow thinking for complex interactive tasks",
+      "ENTRYTYPE": "article",
+      "ID": "lin2024swiftsage"
+    },
+    {
+      "year": "2024",
+      "pages": "359--415",
+      "volume": "79",
+      "journal": "Journal of Artificial Intelligence Research",
+      "author": "Retzlaff, Carl Orge and Das, Srijita and Wayllace, Christabel and Mousavi, Payam and Afshari, Mohammad and Yang, Tianpei and Saranti, Anna and Angerschmid, Alessa and Taylor, Matthew E and Holzinger, Andreas",
+      "title": "Human-in-the-loop reinforcement learning: A survey and position on requirements, challenges, and opportunities",
+      "ENTRYTYPE": "article",
+      "ID": "retzlaff2024human"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2403.16809",
+      "author": "Yang, Hanqing and Siew, Marie and Joe-Wong, Carlee",
+      "title": "An LLM-based digital twin for optimizing human-in-the loop systems",
+      "ENTRYTYPE": "article",
+      "ID": "yang2024llm"
+    },
+    {
+      "url": "https://api.semanticscholar.org/CorpusID:268297180",
+      "volume": "abs/2403.05530",
+      "year": "2024",
+      "journal": "ArXiv",
+      "author": "Machel Reid and Nikolay Savinov and Denis Teplyashin and others",
+      "title": "Gemini 1.5: Unlocking multimodal understanding across millions of tokens of context",
+      "ENTRYTYPE": "article",
+      "ID": "Reid2024Gemini1U"
+    },
+    {
+      "year": "2025",
+      "pages": "arXiv--2503",
+      "journal": "arXiv e-prints",
+      "author": "Tie, Guiyao and Zhao, Zeli and Song, Dingjie and Wei, Fuyang and Zhou, Rong and Dai, Yurou and Yin, Wen and Yang, Zhejian and Yan, Jiangyue and Su, Yao and others",
+      "title": "A survey on post-training of large language models",
+      "ENTRYTYPE": "article",
+      "ID": "tie2025survey"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2505.22453",
+      "author": "Wei, Lai and Li, Yuting and Wang, Chen and Wang, Yue and Kong, Linghe and Huang, Weiran and Sun, Lichao",
+      "title": "Unsupervised Post-Training for Multi-Modal LLM Reasoning via GRPO",
+      "ENTRYTYPE": "article",
+      "ID": "wei2025unsupervised"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2411.10440",
+      "author": "Xu, Guowei and Jin, Peng and Wu, Ziang and Li, Hao and Song, Yibing and Sun, Lichao and Yuan, Li",
+      "title": "Llava-cot: Let vision language models reason step-by-step",
+      "ENTRYTYPE": "article",
+      "ID": "xu2024llava"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2504.06514",
+      "author": "Fan, Chenrui and Li, Ming and Sun, Lichao and Zhou, Tianyi",
+      "title": "Missing Premise exacerbates Overthinking: Are Reasoning Models losing Critical Thinking Skill?",
+      "ENTRYTYPE": "article",
+      "ID": "fan2025missing"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2506.09736",
+      "author": "Li, Yuting and Wei, Lai and Zheng, Kaipeng and Huang, Jingyuan and Kong, Linghe and Sun, Lichao and Huang, Weiran",
+      "title": "Vision Matters: Simple Visual Perturbations Can Boost Multimodal Math Reasoning",
+      "ENTRYTYPE": "article",
+      "ID": "li2025vision"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2505.22334",
+      "author": "Wei, Lai and Li, Yuting and Zheng, Kaipeng and Wang, Chen and Wang, Yue and Kong, Linghe and Sun, Lichao and Huang, Weiran",
+      "title": "Advancing Multimodal Reasoning via Reinforcement Learning with Cold Start",
+      "ENTRYTYPE": "article",
+      "ID": "wei2025advancing"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2505.16459",
+      "author": "Tie, Guiyao and Zhou, Xueyang and Gu, Tianhe and Zhang, Ruihang and Hu, Chaoran and Zhang, Sizhe and Sun, Mengqu and Zhang, Yan and Zhou, Pan and Sun, Lichao",
+      "title": "MMMR: Benchmarking Massive Multi-Modal Reasoning Tasks",
+      "ENTRYTYPE": "article",
+      "ID": "tie2025mmmr"
+    },
+    {
+      "year": "2024",
+      "pages": "28219--28253",
+      "volume": "37",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Duan, Jinhao and Zhang, Renming and Diffenderfer, James and Kailkhura, Bhavya and Sun, Lichao and Stengel-Eskin, Elias and Bansal, Mohit and Chen, Tianlong and Xu, Kaidi",
+      "title": "Gtbench: Uncovering the strategic reasoning capabilities of llms via game-theoretic evaluations",
+      "ENTRYTYPE": "article",
+      "ID": "duan2024gtbench"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2411.12591",
+      "author": "Zheng, Haojie and Xu, Tianyang and Sun, Hanchi and Pu, Shu and Chen, Ruoxi and Sun, Lichao",
+      "title": "Thinking before looking: Improving multimodal llm reasoning via mitigating visual hallucination",
+      "ENTRYTYPE": "article",
+      "ID": "zheng2024thinking"
+    },
+    {
+      "year": "2024",
+      "pages": "2232--2246",
+      "booktitle": "Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers)",
+      "author": "Duan, Jinhao and Wang, Shiqi and Diffenderfer, James and Sun, Lichao and Chen, Tianlong and Kailkhura, Bhavya and Xu, Kaidi",
+      "title": "Reta: Recursively thinking ahead to improve the strategic reasoning of large language models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "duan2024reta"
+    },
+    {
+      "publisher": "ACM New York, NY",
+      "year": "2025",
+      "pages": "1--38",
+      "number": "5",
+      "volume": "57",
+      "journal": "ACM Computing Surveys",
+      "author": "Cao, Yihan and Li, Siyu and Liu, Yixin and Yan, Zhiling and Dai, Yutong and Yu, Philip and Sun, Lichao",
+      "title": "A survey of ai-generated content (aigc)",
+      "ENTRYTYPE": "article",
+      "ID": "cao2025survey"
+    },
+    {
+      "publisher": "Springer",
+      "year": "2024",
+      "pages": "1--65",
+      "journal": "International Journal of Machine Learning and Cybernetics",
+      "author": "Zhou, Ce and Li, Qian and Li, Chen and Yu, Jun and Liu, Yixin and Wang, Guangjing and Zhang, Kai and Ji, Cheng and Yan, Qiben and He, Lifang and others",
+      "title": "A comprehensive survey on pretrained foundation models: A history from bert to chatgpt",
+      "ENTRYTYPE": "article",
+      "ID": "zhou2024comprehensive"
+    },
+    {
+      "publisher": "Nature Publishing Group US New York",
+      "year": "2024",
+      "pages": "3129--3141",
+      "number": "11",
+      "volume": "30",
+      "journal": "Nature Medicine",
+      "author": "Zhang, Kai and Zhou, Rong and Adhikarla, Eashan and Yan, Zhiling and Liu, Yixin and Yu, Jun and Liu, Zhengliang and Chen, Xun and Davison, Brian D and Ren, Hui and others",
+      "title": "A generalist vision--language foundation model for diverse biomedical tasks",
+      "ENTRYTYPE": "article",
+      "ID": "zhang2024generalist"
+    },
+    {
+      "year": "2024",
+      "pages": "660--674",
+      "booktitle": "Proceedings of the 2024 on ACM SIGSAC Conference on Computer and Communications Security",
+      "author": "Shi, Jiawen and Yuan, Zenghui and Liu, Yinuo and Huang, Yue and Zhou, Pan and Sun, Lichao and Gong, Neil Zhenqiang",
+      "title": "Optimization-based prompt injection attack to llm-as-a-judge",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "shi2024optimization"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2509.18661",
+      "author": "Liu, Yixin and Wu, Yonghui and Zhang, Denghui and Sun, Lichao",
+      "title": "Agentic AutoSurvey: Let LLMs Survey LLMs",
+      "ENTRYTYPE": "article",
+      "ID": "liu2025agentic"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2505.23450",
+      "author": "Yang, Zhejian and Chen, Yongchao and Zhou, Xueyang and Yan, Jiangyue and Song, Dingjie and Liu, Yinuo and Li, Yuting and Zhang, Yu and Zhou, Pan and Chen, Hechang and others",
+      "title": "Agentic Robot: A Brain-Inspired Framework for Vision-Language-Action Models in Embodied Agents",
+      "ENTRYTYPE": "article",
+      "ID": "yang2025agentic"
+    }
+  ]
+}

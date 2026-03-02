@@ -1,0 +1,670 @@
+{
+  "pdf_url": "https://arxiv.org/pdf/2511.00423v3.pdf",
+  "references": [
+    {
+      "publisher": "Springer Verlag, Singapore",
+      "year": "2023",
+      "author": "Li, Shengbo Eben",
+      "title": "Reinforcement Learning for Sequential Decision and Optimal Control",
+      "ENTRYTYPE": "book",
+      "ID": "li2023rlbook"
+    },
+    {
+      "year": "2024",
+      "journal": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+      "author": "Duan, Jingliang and Wang, Wenxuan and Xiao, Liming and Gao, Jiaxin and Li, Shengbo Eben",
+      "title": "Dsac-t: Distributional soft actor-critic with three refinements",
+      "ENTRYTYPE": "article",
+      "ID": "DSACT"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2024",
+      "pages": "37342--37364",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Nauman, Michal and Bortkiewicz, Micha{\\l} and Mi{\\l}o{\\'s}, Piotr and Trzcinski, Tomasz and Ostaszewski, Mateusz and Cygan, Marek",
+      "title": "Overestimation, Overfitting, and Plasticity in Actor-Critic: the Bitter Lesson of Reinforcement Learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "nauman2024overestimation"
+    },
+    {
+      "year": "2024",
+      "booktitle": "I Can't Believe It's Not Better Workshop: Failure Modes of Sequential Decision-Making in Practice (RLC 2024)",
+      "author": "Markowitz, Jared and Silverberg, Jesse and Collins, Gary Lynn",
+      "title": "Avoiding Value Estimation Error in Off-Policy Deep Reinforcement Learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "markowitz2024avoiding"
+    },
+    {
+      "year": "2019",
+      "volume": "32",
+      "journal": "Advances in neural information processing systems",
+      "author": "Malinin, Andrey and Gales, Mark",
+      "title": "Reverse kl-divergence training of prior networks: Improved uncertainty and adversarial robustness",
+      "ENTRYTYPE": "article",
+      "ID": "malinin2019reverse"
+    },
+    {
+      "year": "2019",
+      "pages": "6--9",
+      "booktitle": "Proceedings of the International Conference on Learning Representations (ICLR)",
+      "author": "Campbell, Roy H and Czechowski, Konrad and Erhan, Dumitru and Finn, Chelsea and Kozakowski, Piotr and Levine, Sergey and Mohiuddin, Afroz and Sepassi, Ryan and Tucker, George and Michalewski, Henryk",
+      "title": "Model based reinforcement learning for atari",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "campbell2019model"
+    },
+    {
+      "organization": "IEEE",
+      "year": "2012",
+      "pages": "4906--4913",
+      "booktitle": "2012 IEEE/RSJ International Conference on Intelligent Robots and Systems",
+      "author": "Tassa, Yuval and Erez, Tom and Todorov, Emanuel",
+      "title": "Synthesis and stabilization of complex behaviors through online trajectory optimization",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "tassa2012synthesis"
+    },
+    {
+      "booktitle": "International Conference on Learning Representations",
+      "year": "2020",
+      "author": "Hamrick, Jessica B and Friesen, Abram L and Behbahani, Feryal and Guez, Arthur and Viola, Fabio and Witherspoon, Sims and Anthony, Thomas and Buesing, Lars Holger and Veli{\\v{c}}kovi{\\'c}, Petar and Weber, Theophane",
+      "title": "On the role of planning in model-based deep reinforcement learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "hamrickrole"
+    },
+    {
+      "publisher": "Nature Publishing Group",
+      "year": "2020",
+      "pages": "604--609",
+      "number": "7839",
+      "volume": "588",
+      "journal": "Nature",
+      "author": "Schrittwieser, Julian and Antonoglou, Ioannis and Hubert, Thomas and Simonyan, Karen and Sifre, Laurent and Schmitt, Simon and Guez, Arthur and Lockhart, Edward and Hassabis, Demis and Graepel, Thore and others",
+      "title": "Mastering atari, go, chess and shogi by planning with a learned model",
+      "ENTRYTYPE": "article",
+      "ID": "schrittwieser2020mastering"
+    },
+    {
+      "publisher": "Nature Publishing Group",
+      "year": "2019",
+      "pages": "350--354",
+      "number": "7782",
+      "volume": "575",
+      "journal": "nature",
+      "author": "Vinyals, Oriol and Babuschkin, Igor and Czarnecki, Wojciech M and Mathieu, Micha{\\\"e}l and Dudzik, Andrew and Chung, Junyoung and Choi, David H and Powell, Richard and Ewalds, Timo and Georgiev, Petko and others",
+      "title": "Grandmaster level in StarCraft II using multi-agent reinforcement learning",
+      "ENTRYTYPE": "article",
+      "ID": "vinyals2019grandmaster"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "2024",
+      "pages": "7311--7322",
+      "number": "7",
+      "volume": "25",
+      "journal": "IEEE Transactions on Intelligent Transportation Systems",
+      "author": "Zhan, Guojian and Jiang, Yuxuan and Li, Shengbo Eben and Lyu, Yao and Zhang, Xiangteng and Yin, Yuming",
+      "title": "A transformation-aggregation framework for state representation of autonomous driving systems",
+      "ENTRYTYPE": "article",
+      "ID": "zhan2024transformation"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "2023",
+      "journal": "IEEE Transactions on Neural Networks and Learning Systems",
+      "author": "Prudencio, Rafael Figueiredo and Maximo, Marcos ROA and Colombini, Esther Luna",
+      "title": "A survey on offline reinforcement learning: Taxonomy, review, and open problems",
+      "ENTRYTYPE": "article",
+      "ID": "prudencio2023survey"
+    },
+    {
+      "organization": "IEEE",
+      "year": "2023",
+      "pages": "1--6",
+      "booktitle": "2023 7th CAA International Conference on Vehicular Control and Intelligence (CVCI)",
+      "author": "Zhan, Guojian and Lyu, Yao and Li, Shengbo Eben and Jiang, Yuxuan and Zhang, Xiangteng and Tao, Letian",
+      "title": "Enhance Generality by Model-based Reinforcement Learning and Domain Randomization",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zhan2023enhance"
+    },
+    {
+      "year": "2020",
+      "journal": "arXiv preprint arXiv:2008.05556",
+      "author": "Argenson, Arthur and Dulac-Arnold, Gabriel",
+      "title": "Model-based offline planning",
+      "ENTRYTYPE": "article",
+      "ID": "argenson2020model"
+    },
+    {
+      "year": "2020",
+      "pages": "1179--1191",
+      "volume": "33",
+      "journal": "Advances in neural information processing systems",
+      "author": "Kumar, Aviral and Zhou, Aurick and Tucker, George and Levine, Sergey",
+      "title": "Conservative q-learning for offline reinforcement learning",
+      "ENTRYTYPE": "article",
+      "ID": "kumar2020conservative"
+    },
+    {
+      "publisher": "Now Publishers, Inc.",
+      "year": "2023",
+      "pages": "1--118",
+      "number": "1",
+      "volume": "16",
+      "journal": "Foundations and Trends{\\textregistered} in Machine Learning",
+      "author": "Moerland, Thomas M and Broekens, Joost and Plaat, Aske and Jonker, Catholijn M and others",
+      "title": "Model-based reinforcement learning: A survey",
+      "ENTRYTYPE": "article",
+      "ID": "moerland2023model"
+    },
+    {
+      "year": "2021",
+      "pages": "27580--27591",
+      "volume": "34",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Schrittwieser, Julian and Hubert, Thomas and Mandhane, Amol and Barekatain, Mohammadamin and Antonoglou, Ioannis and Silver, David",
+      "title": "Online and offline reinforcement learning by planning with a learned model",
+      "ENTRYTYPE": "article",
+      "ID": "schrittwieser2021online"
+    },
+    {
+      "year": "2020",
+      "pages": "14156--14170",
+      "volume": "33",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Curi, Sebastian and Berkenkamp, Felix and Krause, Andreas",
+      "title": "Efficient model-based reinforcement learning through optimistic policy search and planning",
+      "ENTRYTYPE": "article",
+      "ID": "curi2020efficient"
+    },
+    {
+      "publisher": "Nature Publishing Group UK London",
+      "year": "2025",
+      "pages": "1--7",
+      "journal": "Nature",
+      "author": "Hafner, Danijar and Pasukonis, Jurgis and Ba, Jimmy and Lillicrap, Timothy",
+      "title": "Mastering diverse control tasks through world models",
+      "ENTRYTYPE": "article",
+      "ID": "hafner2025mastering"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2022",
+      "pages": "1622--1633",
+      "booktitle": "Conference on Robot Learning",
+      "author": "Sikchi, Harshit and Zhou, Wenxuan and Held, David",
+      "title": "Learning off-policy with online planning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "sikchi2022learning"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2310.16828",
+      "author": "Hansen, Nicklas and Su, Hao and Wang, Xiaolong",
+      "title": "Td-mpc2: Scalable, robust world models for continuous control",
+      "ENTRYTYPE": "article",
+      "ID": "hansen2023td"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2203.04955",
+      "author": "Hansen, Nicklas and Wang, Xiaolong and Su, Hao",
+      "title": "Temporal difference learning for model predictive control",
+      "ENTRYTYPE": "article",
+      "ID": "hansen2022temporal"
+    },
+    {
+      "organization": "Pmlr",
+      "year": "2018",
+      "pages": "1861--1870",
+      "booktitle": "International conference on machine learning",
+      "author": "Haarnoja, Tuomas and Zhou, Aurick and Abbeel, Pieter and Levine, Sergey",
+      "title": "Soft actor-critic: Off-policy maximum entropy deep reinforcement learning with a stochastic actor",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "haarnoja2018soft"
+    },
+    {
+      "year": "2018",
+      "journal": "arXiv preprint arXiv:1801.00690",
+      "author": "Tassa, Yuval and Doron, Yotam and Muldal, Alistair and Erez, Tom and Li, Yazhe and Casas, Diego de Las and Budden, David and Abdolmaleki, Abbas and Merel, Josh and Lefrancq, Andrew and others",
+      "title": "Deepmind control suite",
+      "ENTRYTYPE": "article",
+      "ID": "tassa2018deepmind"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2403.10506",
+      "author": "Sferrazza, Carmelo and Huang, Dun-Ming and Lin, Xingyu and Lee, Youngwoon and Abbeel, Pieter",
+      "title": "Humanoidbench: Simulated humanoid benchmark for whole-body locomotion and manipulation",
+      "ENTRYTYPE": "article",
+      "ID": "sferrazza2024humanoidbench"
+    },
+    {
+      "organization": "IEEE",
+      "year": "2017",
+      "pages": "1714--1721",
+      "booktitle": "2017 IEEE international conference on robotics and automation",
+      "author": "Williams, Grady and Wagener, Nolan and Goldfain, Brian and Drews, Paul and Rehg, James M and Boots, Byron and Theodorou, Evangelos A",
+      "title": "Information theoretic MPC for model-based reinforcement learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "williams2017information"
+    },
+    {
+      "publisher": "MIT press Cambridge",
+      "year": "1998",
+      "number": "1",
+      "volume": "1",
+      "author": "Sutton, Richard S and Barto, Andrew G and others",
+      "title": "Reinforcement learning: An introduction",
+      "ENTRYTYPE": "book",
+      "ID": "sutton1998reinforcement"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2019",
+      "pages": "2555--2565",
+      "booktitle": "International conference on machine learning",
+      "author": "Hafner, Danijar and Lillicrap, Timothy and Fischer, Ian and Villegas, Ruben and Ha, David and Lee, Honglak and Davidson, James",
+      "title": "Learning latent dynamics for planning from pixels",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "hafner2019learning"
+    },
+    {
+      "year": "2018",
+      "volume": "31",
+      "journal": "Advances in neural information processing systems",
+      "author": "Chua, Kurtland and Calandra, Roberto and McAllister, Rowan and Levine, Sergey",
+      "title": "Deep reinforcement learning in a handful of trials using probabilistic dynamics models",
+      "ENTRYTYPE": "article",
+      "ID": "chua2018deep"
+    },
+    {
+      "publisher": "American Institute of Aeronautics and Astronautics",
+      "year": "2017",
+      "pages": "344--357",
+      "number": "2",
+      "volume": "40",
+      "journal": "Journal of Guidance, Control, and Dynamics",
+      "author": "Williams, Grady and Aldrich, Andrew and Theodorou, Evangelos A",
+      "title": "Model predictive path integral control: From theory to parallel computation",
+      "ENTRYTYPE": "article",
+      "ID": "williams2017model"
+    },
+    {
+      "publisher": "Springer Science \\& Business Media",
+      "year": "2004",
+      "author": "Rubinstein, Reuven Y and Kroese, Dirk P",
+      "title": "The cross-entropy method: a unified approach to combinatorial optimization, Monte-Carlo simulation and machine learning",
+      "ENTRYTYPE": "book",
+      "ID": "rubinstein2004cross"
+    },
+    {
+      "organization": "IEEE",
+      "year": "2018",
+      "pages": "7559--7566",
+      "booktitle": "2018 IEEE international conference on robotics and automation ()",
+      "author": "Nagabandi, Anusha and Kahn, Gregory and Fearing, Ronald S and Levine, Sergey",
+      "title": "Neural network dynamics for model-based deep reinforcement learning with model-free fine-tuning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "nagabandi2018neural"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2503.18871",
+      "author": "Wang, Yuhang and Guo, Hanwei and Wang, Sizhe and Qian, Long and Lan, Xuguang",
+      "title": "Bootstrapped Model Predictive Control",
+      "ENTRYTYPE": "article",
+      "ID": "wang2025bootstrapped"
+    },
+    {
+      "year": "2011",
+      "pages": "465--472",
+      "booktitle": "Proceedings of the 28th International Conference on machine learning (ICML-11)",
+      "author": "Deisenroth, Marc and Rasmussen, Carl E",
+      "title": "PILCO: A model-based and data-efficient approach to policy search",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "deisenroth2011pilco"
+    },
+    {
+      "year": "2018",
+      "journal": "arXiv preprint arXiv:1802.10592",
+      "author": "Kurutach, Thanard and Clavera, Ignasi and Duan, Yan and Tamar, Aviv and Abbeel, Pieter",
+      "title": "Model-ensemble trust-region policy optimization",
+      "ENTRYTYPE": "article",
+      "ID": "kurutach2018model"
+    },
+    {
+      "year": "2018",
+      "journal": "arXiv preprint arXiv:1812.00568",
+      "author": "Ebert, Frederik and Finn, Chelsea and Dasari, Sudeep and Xie, Annie and Lee, Alex and Levine, Sergey",
+      "title": "Visual foresight: Model-based deep reinforcement learning for vision-based robotic control",
+      "ENTRYTYPE": "article",
+      "ID": "ebert2018visual"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2021",
+      "pages": "9190--9201",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Rybkin, Oleh and Zhu, Chuning and Nagabandi, Anusha and Daniilidis, Kostas and Mordatch, Igor and Levine, Sergey",
+      "title": "Model-based reinforcement learning via latent-space collocation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "rybkin2021model"
+    },
+    {
+      "year": "2020",
+      "journal": "arXiv preprint arXiv:2008.12775",
+      "author": "Amos, Brandon and Stanton, Samuel and Yarats, Denis and Wilson, Andrew Gordon",
+      "title": "On the model-based stochastic value gradient for continuous reinforcement learning",
+      "ENTRYTYPE": "article",
+      "ID": "amos2020model"
+    },
+    {
+      "year": "2020",
+      "pages": "14129--14142",
+      "volume": "33",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Yu, Tianhe and Thomas, Garrett and Yu, Lantao and Ermon, Stefano and Zou, James Y and Levine, Sergey and Finn, Chelsea and Ma, Tengyu",
+      "title": "Mopo: Model-based offline policy optimization",
+      "ENTRYTYPE": "article",
+      "ID": "yu2020mopo"
+    },
+    {
+      "year": "2020",
+      "pages": "21810--21823",
+      "volume": "33",
+      "journal": "Advances in neural information processing systems",
+      "author": "Kidambi, Rahul and Rajeswaran, Aravind and Netrapalli, Praneeth and Joachims, Thorsten",
+      "title": "Morel: Model-based offline reinforcement learning",
+      "ENTRYTYPE": "article",
+      "ID": "kidambi2020morel"
+    },
+    {
+      "year": "2018",
+      "journal": "arXiv preprint arXiv:1803.10122",
+      "author": "Ha, David and Schmidhuber, J{\\\"u}rgen",
+      "title": "World models",
+      "ENTRYTYPE": "article",
+      "ID": "ha2018world"
+    },
+    {
+      "year": "2019",
+      "journal": "arXiv preprint arXiv:1912.01603",
+      "author": "Hafner, Danijar and Lillicrap, Timothy and Ba, Jimmy and Norouzi, Mohammad",
+      "title": "Dream to control: Learning behaviors by latent imagination",
+      "ENTRYTYPE": "article",
+      "ID": "hafner2019dream"
+    },
+    {
+      "year": "2020",
+      "journal": "arXiv preprint arXiv:2010.02193",
+      "author": "Hafner, Danijar and Lillicrap, Timothy and Norouzi, Mohammad and Ba, Jimmy",
+      "title": "Mastering atari with discrete world models",
+      "ENTRYTYPE": "article",
+      "ID": "hafner2020mastering"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2301.04104",
+      "author": "Hafner, Danijar and Pasukonis, Jurgis and Ba, Jimmy and Lillicrap, Timothy",
+      "title": "Mastering diverse domains through world models",
+      "ENTRYTYPE": "article",
+      "ID": "hafner2023mastering"
+    },
+    {
+      "year": "2019",
+      "journal": "arXiv preprint arXiv:1903.00374",
+      "author": "Kaiser, Lukasz and Babaeizadeh, Mohammad and Milos, Piotr and Osinski, Blazej and Campbell, Roy H and Czechowski, Konrad and Erhan, Dumitru and Finn, Chelsea and Kozakowski, Piotr and Levine, Sergey and others",
+      "title": "Model-based reinforcement learning for atari",
+      "ENTRYTYPE": "article",
+      "ID": "kaiser2019model"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2019",
+      "pages": "5062--5071",
+      "booktitle": "International conference on machine learning",
+      "author": "Pathak, Deepak and Gandhi, Dhiraj and Gupta, Abhinav",
+      "title": "Self-supervised exploration via disagreement",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "pathak2019self"
+    },
+    {
+      "year": "2018",
+      "journal": "arXiv preprint arXiv:1802.09081",
+      "author": "Pong, Vitchyr and Gu, Shixiang and Dalal, Murtaza and Levine, Sergey",
+      "title": "Temporal difference models: Model-free deep rl for model-based control",
+      "ENTRYTYPE": "article",
+      "ID": "pong2018temporal"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2020",
+      "pages": "8583--8592",
+      "booktitle": "International conference on machine learning",
+      "author": "Sekar, Ramanan and Rybkin, Oleh and Daniilidis, Kostas and Abbeel, Pieter and Hafner, Danijar and Pathak, Deepak",
+      "title": "Planning to explore via self-supervised world models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "sekar2020planning"
+    },
+    {
+      "year": "2023",
+      "pages": "27147--27166",
+      "volume": "36",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Zhang, Weipu and Wang, Gang and Sun, Jian and Yuan, Yetian and Huang, Gao",
+      "title": "Storm: Efficient stochastic transformer based world models for reinforcement learning",
+      "ENTRYTYPE": "article",
+      "ID": "zhang2023storm"
+    },
+    {
+      "year": "2017",
+      "volume": "30",
+      "journal": "Advances in neural information processing systems",
+      "author": "Vaswani, Ashish and Shazeer, Noam and Parmar, Niki and Uszkoreit, Jakob and Jones, Llion and Gomez, Aidan N and Kaiser, {\\L}ukasz and Polosukhin, Illia",
+      "title": "Attention is all you need",
+      "ENTRYTYPE": "article",
+      "ID": "vaswani2017attention"
+    },
+    {
+      "year": "2024",
+      "pages": "58757--58791",
+      "volume": "37",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Alonso, Eloi and Jelley, Adam and Micheli, Vincent and Kanervisto, Anssi and Storkey, Amos J and Pearce, Tim and Fleuret, Fran{\\c{c}}ois",
+      "title": "Diffusion for world modeling: Visual details matter in atari",
+      "ENTRYTYPE": "article",
+      "ID": "alonso2024diffusion"
+    },
+    {
+      "year": "2020",
+      "journal": "arXiv preprint arXiv:2011.13456",
+      "author": "Song, Yang and Sohl-Dickstein, Jascha and Kingma, Diederik P and Kumar, Abhishek and Ermon, Stefano and Poole, Ben",
+      "title": "Score-based generative modeling through stochastic differential equations",
+      "ENTRYTYPE": "article",
+      "ID": "song2020score"
+    },
+    {
+      "year": "2020",
+      "pages": "6840--6851",
+      "volume": "33",
+      "journal": "Advances in neural information processing systems",
+      "author": "Ho, Jonathan and Jain, Ajay and Abbeel, Pieter",
+      "title": "Denoising diffusion probabilistic models",
+      "ENTRYTYPE": "article",
+      "ID": "ho2020denoising"
+    },
+    {
+      "publisher": "ACM New York, NY, USA",
+      "year": "1991",
+      "pages": "160--163",
+      "number": "4",
+      "volume": "2",
+      "journal": "ACM Sigart Bulletin",
+      "author": "Sutton, Richard S",
+      "title": "Dyna, an integrated architecture for learning, planning, and reacting",
+      "ENTRYTYPE": "article",
+      "ID": "sutton1991dyna"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2209.00588",
+      "author": "Micheli, Vincent and Alonso, Eloi and Fleuret, Fran{\\c{c}}ois",
+      "title": "Transformers are sample-efficient world models",
+      "ENTRYTYPE": "article",
+      "ID": "micheli2022transformers"
+    },
+    {
+      "organization": "IEEE",
+      "year": "1997",
+      "pages": "3557--3564",
+      "volume": "4",
+      "booktitle": "Proceedings of international conference on robotics and automation",
+      "author": "Atkeson, Christopher G and Santamaria, Juan Carlos",
+      "title": "A comparison of direct and model-based reinforcement learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "atkeson1997comparison"
+    },
+    {
+      "organization": "IEEE",
+      "year": "2004",
+      "pages": "2214--2219",
+      "volume": "3",
+      "booktitle": "Proceedings of the 2004 American control conference",
+      "author": "Kocijan, Jus and Murray-Smith, Roderick and Rasmussen, Carl E and Girard, Agathe",
+      "title": "Gaussian process model based predictive control",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "kocijan2004gaussian"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "2013",
+      "pages": "408--423",
+      "number": "2",
+      "volume": "37",
+      "journal": "IEEE transactions on pattern analysis and machine intelligence",
+      "author": "Deisenroth, Marc Peter and Fox, Dieter and Rasmussen, Carl Edward",
+      "title": "Gaussian processes for data-efficient learning in robotics and control",
+      "ENTRYTYPE": "article",
+      "ID": "deisenroth2013gaussian"
+    },
+    {
+      "year": "2019",
+      "booktitle": "International Conference on Learning Representations",
+      "author": "Lowrey, Kendall and Rajeswaran, Aravind and Kakade, Sham and Todorov, Emanuel and Mordatch, Igor",
+      "title": "Plan Online, Learn Offline: Efficient Learning and Exploration via Model-Based Control",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "lowreyplan"
+    },
+    {
+      "year": "2019",
+      "volume": "32",
+      "journal": "Advances in neural information processing systems",
+      "author": "Janner, Michael and Fu, Justin and Zhang, Marvin and Levine, Sergey",
+      "title": "When to trust your model: Model-based policy optimization",
+      "ENTRYTYPE": "article",
+      "ID": "janner2019trust"
+    },
+    {
+      "year": "2019",
+      "journal": "arXiv preprint arXiv:1906.08649",
+      "author": "Wang, Tingwu and Ba, Jimmy",
+      "title": "Exploring model-based planning with policy networks",
+      "ENTRYTYPE": "article",
+      "ID": "wang2019exploring"
+    },
+    {
+      "year": "2021",
+      "pages": "9493--9505",
+      "volume": "34",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Mu, Yao and Zhuang, Yuzheng and Wang, Bin and Zhu, Guangxiang and Liu, Wulong and Chen, Jianyu and Luo, Ping and Li, Shengbo and Zhang, Chongjie and Hao, Jianye",
+      "title": "Model-based reinforcement learning via imagination with derived memory",
+      "ENTRYTYPE": "article",
+      "ID": "mu2021model"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2021",
+      "pages": "8130--8139",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Nguyen, Tung D and Shu, Rui and Pham, Tuan and Bui, Hung and Ermon, Stefano",
+      "title": "Temporal predictive coding for model-based planning in latent space",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "nguyen2021temporal"
+    },
+    {
+      "year": "2018",
+      "volume": "31",
+      "journal": "Advances in neural information processing systems",
+      "author": "Buckman, Jacob and Hafner, Danijar and Tucker, George and Brevdo, Eugene and Lee, Honglak",
+      "title": "Sample-efficient reinforcement learning with stochastic ensemble value expansion",
+      "ENTRYTYPE": "article",
+      "ID": "buckman2018sample"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2502.03550",
+      "author": "Lin, Haotian and Wang, Pengcheng and Schneider, Jeff and Shi, Guanya",
+      "title": "TD-MPC\\textsuperscript{2}: Improving Temporal Difference MPC Through Policy Constraint",
+      "ENTRYTYPE": "article",
+      "ID": "lin2025td"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2019",
+      "pages": "2052--2062",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Fujimoto, Scott and Meger, David and Precup, Doina",
+      "title": "Off-policy deep reinforcement learning without exploration",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "fujimoto2019off"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2023",
+      "pages": "28701--28717",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Ran, Yuhang and Li, Yi-Chen and Zhang, Fuxiang and Zhang, Zongzhang and Yu, Yang",
+      "title": "Policy regularization with dataset constraint for offline reinforcement learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ran2023policy"
+    },
+    {
+      "year": "2021",
+      "pages": "20132--20145",
+      "volume": "34",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Fujimoto, Scott and Gu, Shixiang Shane",
+      "title": "A minimalist approach to offline reinforcement learning",
+      "ENTRYTYPE": "article",
+      "ID": "fujimoto2021minimalist"
+    },
+    {
+      "year": "2022",
+      "booktitle": "International Conference on Learning Representations",
+      "author": "Wang, Zhendong and Hunt, Jonathan J and Zhou, Mingyuan",
+      "title": "Diffusion Policies as an Expressive Policy Class for Offline Reinforcement Learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "wang2022diffusion"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "2025",
+      "journal": "IEEE Transactions on Neural Networks and Learning Systems",
+      "author": "Zhan, Guojian and Zhang, Xiangteng and Zhang, Feihong and Tao, Letian and Li, Shengbo Eben",
+      "title": "Bicriteria Policy Optimization for High-Accuracy Reinforcement Learning",
+      "ENTRYTYPE": "article",
+      "ID": "zhan2025bicriteria"
+    },
+    {
+      "publisher": "Taylor \\& Francis",
+      "year": "2024",
+      "pages": "1--24",
+      "journal": "Vehicle System Dynamics",
+      "author": "Zhan, Guojian and Ge, Qiang and Gao, Haoyu and Yin, Yuming and Zhao, Bin and Eben Li, Shengbo",
+      "title": "An explicit discrete-time dynamic vehicle model with assured numerical stability",
+      "ENTRYTYPE": "article",
+      "ID": "zhan2024explicit"
+    }
+  ]
+}

@@ -1,0 +1,679 @@
+{
+  "pdf_url": "https://arxiv.org/pdf/2510.17000v1.pdf",
+  "references": [
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2502.12893",
+      "author": "Kuo, Martin and Zhang, Jianyi and Ding, Aolin and Wang, Qinsi and DiValentin, Louis and Bao, Yujia and Wei, Wei and Li, Hai and Chen, Yiran",
+      "title": "H-cot: Hijacking the chain-of-thought safety reasoning mechanism to jailbreak large reasoning models, including {OpenAI} o1/o3, {DeepSeek-R1}, and {Gemini} 2.0 {Flash Thinking}",
+      "ENTRYTYPE": "article",
+      "ID": "kuo2025h"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2404.02151",
+      "author": "Andriushchenko, Maksym and Croce, Francesco and Flammarion, Nicolas",
+      "title": "Jailbreaking leading safety-aligned {LLMs} with simple adaptive attacks",
+      "ENTRYTYPE": "article",
+      "ID": "andriushchenko2024jailbreaking"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2411.16769",
+      "author": "Chin, Zhi-Yi and Fritz, Mario and Chen, Pin-Yu and Chiu, Wei-Chen",
+      "title": "In-context experience replay facilitates safety red-teaming of text-to-image diffusion models",
+      "ENTRYTYPE": "article",
+      "ID": "chin2024context"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2303.08774",
+      "author": "Achiam, Josh and Adler, Steven and Agarwal, Sandhini and Ahmad, Lama and Akkaya, Ilge and Aleman, Florencia Leoni and Almeida, Diogo and Altenschmidt, Janko and Altman, Sam and Anadkat, Shyamal and others",
+      "title": "{GPT-4} technical report",
+      "ENTRYTYPE": "article",
+      "ID": "achiam2023gpt"
+    },
+    {
+      "publisher": "John Wiley \\& Sons",
+      "year": "1999",
+      "author": "Cover, Thomas M",
+      "title": "Elements of Information Theory",
+      "ENTRYTYPE": "book",
+      "ID": "cover1999elements"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2501.00656",
+      "author": "OLMo, Team and Walsh, Pete and Soldaini, Luca and Groeneveld, Dirk and Lo, Kyle and Arora, Shane and Bhagia, Akshita and Gu, Yuling and Huang, Shengyi and Jordan, Matt and others",
+      "title": "2 {OLMo} 2 Furious",
+      "ENTRYTYPE": "article",
+      "ID": "olmo20242"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2307.15043",
+      "author": "Zou, Andy and Wang, Zifan and Carlini, Nicholas and Nasr, Milad and Kolter, J Zico and Fredrikson, Matt",
+      "title": "Universal and transferable adversarial attacks on aligned language models",
+      "ENTRYTYPE": "article",
+      "ID": "zou2023universal"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2312.02119",
+      "author": "Mehrotra, Anay and Zampetakis, Manolis and Kassianik, Paul and Nelson, Blaine and Anderson, Hyrum and Singer, Yaron and Karbasi, Amin",
+      "title": "Tree of attacks: Jailbreaking black-box {LLMs} automatically",
+      "ENTRYTYPE": "article",
+      "ID": "mehrotra2023tree"
+    },
+    {
+      "url": "https://api.semanticscholar.org/CorpusID:260202961",
+      "volume": "abs/2307.15043",
+      "year": "2023",
+      "journal": "ArXiv",
+      "author": "Andy Zou and Zifan Wang and J. Zico Kolter and Matt Fredrikson",
+      "title": "Universal and Transferable Adversarial Attacks on Aligned Language Models",
+      "ENTRYTYPE": "article",
+      "ID": "Zou2023UniversalAT"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2310.08419",
+      "author": "Chao, Patrick and Robey, Alexander and Dobriban, Edgar and Hassani, Hamed and Pappas, George J and Wong, Eric",
+      "title": "Jailbreaking black box large language models in twenty queries",
+      "ENTRYTYPE": "article",
+      "ID": "chao2023jailbreaking"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2402.16835",
+      "author": "Lynch, Aengus and Guo, Phillip and Ewart, Aidan and Casper, Stephen and Hadfield-Menell, Dylan",
+      "title": "Eight methods to evaluate robust unlearning in {LLMs}",
+      "ENTRYTYPE": "article",
+      "ID": "lynch2024eight"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2502.20620",
+      "author": "Niwa, Ayana and Kaneko, Masahiro and Inui, Kentaro",
+      "title": "Rectifying Belief Space via Unlearning to Harness {LLMs'} Reasoning",
+      "ENTRYTYPE": "article",
+      "ID": "niwa2025rectifying"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2403.16139",
+      "author": "Kaneko, Masahiro and Baldwin, Timothy",
+      "title": "A little leak will sink a great ship: Survey of transparency for large language models from start to finish",
+      "ENTRYTYPE": "article",
+      "ID": "kaneko2024little"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2310.16789",
+      "author": "Shi, Weijia and Ajith, Anirudh and Xia, Mengzhou and Huang, Yangsibo and Liu, Daogao and Blevins, Terra and Chen, Danqi and Zettlemoyer, Luke",
+      "title": "Detecting pretraining data from large language models",
+      "ENTRYTYPE": "article",
+      "ID": "shi2023detecting"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2404.11262",
+      "author": "Kaneko, Masahiro and Ma, Youmi and Wata, Yuki and Okazaki, Naoaki",
+      "title": "Sampling-based pseudo-likelihood for membership inference attacks",
+      "ENTRYTYPE": "article",
+      "ID": "kaneko2024sampling"
+    },
+    {
+      "year": "2017",
+      "journal": "arXiv preprint arXiv:1711.05101",
+      "author": "Loshchilov, Ilya and Hutter, Frank",
+      "title": "Decoupled weight decay regularization",
+      "ENTRYTYPE": "article",
+      "ID": "loshchilov2017decoupled"
+    },
+    {
+      "year": "2017",
+      "volume": "30",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Vaswani, Ashish and Shazeer, Noam and Parmar, Niki and Uszkoreit, Jakob and Jones, Llion and Gomez, Aidan N and Kaiser, {\\L}ukasz and Polosukhin, Illia",
+      "title": "Attention is all you need",
+      "ENTRYTYPE": "article",
+      "ID": "vaswani2017attention"
+    },
+    {
+      "year": "2019",
+      "journal": "arXiv preprint arXiv:1907.11692",
+      "author": "Liu, Yinhan and Ott, Myle and Goyal, Naman and Du, Jingfei and Joshi, Mandar and Chen, Danqi and Levy, Omer and Lewis, Mike and Zettlemoyer, Luke and Stoyanov, Veselin",
+      "title": "{RoBERTa}: A robustly optimized {BERT} pretraining approach",
+      "ENTRYTYPE": "article",
+      "ID": "liu2019roberta"
+    },
+    {
+      "year": "2024",
+      "pages": "64338--64376",
+      "volume": "37",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Magnusson, Ian and Bhagia, Akshita and Hofmann, Valentin and Soldaini, Luca and Jha, Ananya Harsh and Tafjord, Oyvind and Schwenk, Dustin and Walsh, Evan and Elazar, Yanai and Lo, Kyle and others",
+      "title": "Paloma: A benchmark for evaluating language model fit",
+      "ENTRYTYPE": "article",
+      "ID": "magnusson2024paloma"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2402.00159",
+      "author": "Soldaini, Luca and Kinney, Rodney and Bhagia, Akshita and Schwenk, Dustin and Atkinson, David and Authur, Russell and Bogin, Ben and Chandu, Khyathi and Dumas, Jennifer and Elazar, Yanai and others",
+      "title": "Dolma: An open corpus of three trillion tokens for language model pretraining research",
+      "ENTRYTYPE": "article",
+      "ID": "soldaini2024dolma"
+    },
+    {
+      "url": "https://arxiv.org/abs/2501.12948",
+      "primaryclass": "cs.CL",
+      "archiveprefix": "arXiv",
+      "eprint": "2501.12948",
+      "year": "2025",
+      "author": "DeepSeek-AI",
+      "title": "{DeepSeek-R1}: Incentivizing Reasoning Capability in {LLMs} via Reinforcement Learning",
+      "ENTRYTYPE": "misc",
+      "ID": "deepseekai2025deepseekr1incentivizingreasoningcapability"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2404.01318",
+      "author": "Chao, Patrick and Debenedetti, Edoardo and Robey, Alexander and Andriushchenko, Maksym and Croce, Francesco and Sehwag, Vikash and Dobriban, Edgar and Flammarion, Nicolas and Pappas, George J and Tramer, Florian and others",
+      "title": "Jailbreakbench: An open robustness benchmark for jailbreaking large language models",
+      "ENTRYTYPE": "article",
+      "ID": "chao2024jailbreakbench"
+    },
+    {
+      "publisher": "Courier Corporation",
+      "year": "2004",
+      "author": "Wald, Abraham",
+      "title": "Sequential analysis",
+      "ENTRYTYPE": "book",
+      "ID": "wald2004sequential"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "2014",
+      "pages": "209--255",
+      "volume": "3",
+      "booktitle": "Academic Press Library in Signal Processing",
+      "author": "Veeravalli, Venugopal V and Banerjee, Taposh",
+      "title": "Quickest change detection",
+      "ENTRYTYPE": "incollection",
+      "ID": "veeravalli2014quickest"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2410.21791",
+      "author": "Su, Jingbo",
+      "title": "Enhancing Adversarial Attacks through Chain of Thought",
+      "ENTRYTYPE": "article",
+      "ID": "su2024enhancing"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2407.21783",
+      "author": "Grattafiori, Aaron and Dubey, Abhimanyu and Jauhri, Abhinav and Pandey, Abhinav and Kadian, Abhishek and Al-Dahle, Ahmad and Letman, Aiesha and Mathur, Akhil and Schelten, Alan and Vaughan, Alex and others",
+      "title": "The llama 3 herd of models",
+      "ENTRYTYPE": "article",
+      "ID": "grattafiori2024llama"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2412.19437",
+      "author": "Liu, Aixin and Feng, Bei and Xue, Bing and Wang, Bingxuan and Wu, Bochao and Lu, Chengda and Zhao, Chenggang and Deng, Chengqi and Zhang, Chenyu and Ruan, Chong and others",
+      "title": "Deepseek-v3 technical report",
+      "ENTRYTYPE": "article",
+      "ID": "liu2024deepseek"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2501.12948",
+      "author": "Guo, Daya and Yang, Dejian and Zhang, Haowei and Song, Junxiao and Zhang, Ruoyu and Xu, Runxin and Zhu, Qihao and Ma, Shirong and Wang, Peiyi and Bi, Xiao and others",
+      "title": "{DeepSeek-R1}: Incentivizing reasoning capability in {LLMs} via reinforcement learning",
+      "ENTRYTYPE": "article",
+      "ID": "guo2025deepseek"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2501.16727",
+      "author": "Lee, Sunbowen and Ni, Shiwen and Wei, Chi and Li, Shuaimin and Fan, Liyang and Argha, Ahmadreza and Alinejad-Rokny, Hamid and Xu, Ruifeng and Gong, Yicheng and Yang, Min",
+      "title": "{xJailbreak}: Representation Space Guided Reinforcement Learning for Interpretable {LLM} Jailbreaking",
+      "ENTRYTYPE": "article",
+      "ID": "lee2025xjailbreak"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2311.09127",
+      "author": "Wu, Yuanwei and Li, Xiang and Liu, Yixin and Zhou, Pan and Sun, Lichao",
+      "title": "Jailbreaking {GPT-4v} via self-adversarial attacks with system prompts",
+      "ENTRYTYPE": "article",
+      "ID": "wu2023jailbreaking"
+    },
+    {
+      "url": "https://openreview.net/forum?id=oqYiYG8PtY",
+      "year": "2024",
+      "booktitle": "First Conference on Language Modeling",
+      "author": "Zefeng Wang and Zhen Han and Shuo Chen and Fan Xue and Zifeng Ding and Xun Xiao and Volker Tresp and Philip Torr and Jindong Gu",
+      "title": "Stop Reasoning! When Multimodal {LLM} with Chain-of-Thought Reasoning Meets Adversarial Image",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "wang2024stop"
+    },
+    {
+      "year": "2025",
+      "howpublished": "\\url{https://api.semanticscholar.org/CorpusID:276612236}",
+      "author": "Anthropic",
+      "title": "Claude 3.7 {Sonnet} System Card",
+      "ENTRYTYPE": "misc",
+      "ID": "Claude3S"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2212.08073",
+      "author": "Bai, Yuntao and Kadavath, Saurav and Kundu, Sandipan and Askell, Amanda and Kernion, Jackson and Jones, Andy and Chen, Anna and Goldie, Anna and Mirhoseini, Azalia and McKinnon, Cameron and others",
+      "title": "Constitutional {AI}: Harmlessness from {AI} feedback",
+      "ENTRYTYPE": "article",
+      "ID": "bai2022constitutional"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2204.05862",
+      "author": "Bai, Yuntao and Jones, Andy and Ndousse, Kamal and Askell, Amanda and Chen, Anna and DasSarma, Nova and Drain, Dawn and Fort, Stanislav and Ganguli, Deep and Henighan, Tom and others",
+      "title": "Training a helpful and harmless assistant with reinforcement learning from human feedback",
+      "ENTRYTYPE": "article",
+      "ID": "bai2022training"
+    },
+    {
+      "abstract": "Language Models (LMs) often cannot be deployed because of their potential to harm users in hard-to-predict ways. Prior work identifies harmful behaviors before deployment by using human annotators to hand-write test cases. However, human annotation is expensive, limiting the number and diversity of test cases. In this work, we automatically find cases where a target LM behaves in a harmful way, by generating test cases ({\\textquotedblleft}red teaming{\\textquotedblright}) using another LM. We evaluate the target LM`s replies to generated test questions using a classifier trained to detect offensive content, uncovering tens of thousands of offensive replies in a 280B parameter LM chatbot. We explore several methods, from zero-shot generation to reinforcement learning, for generating test cases with varying levels of diversity and difficulty. Furthermore, we use prompt engineering to control LM-generated test cases to uncover a variety of other harms, automatically finding groups of people that the chatbot discusses in offensive ways, personal and hospital phone numbers generated as the chatbot`s own contact info, leakage of private training data in generated text, and harms that occur over the course of a conversation. Overall, LM-based red teaming is one promising tool (among many needed) for finding and fixing diverse, undesirable LM behaviors before impacting users.",
+      "pages": "3419--3448",
+      "doi": "10.18653/v1/2022.emnlp-main.225",
+      "url": "https://aclanthology.org/2022.emnlp-main.225/",
+      "publisher": "Association for Computational Linguistics",
+      "address": "Abu Dhabi, United Arab Emirates",
+      "year": "2022",
+      "month": "December",
+      "booktitle": "Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing",
+      "editor": "Goldberg, Yoav  and\nKozareva, Zornitsa  and\nZhang, Yue",
+      "author": "Perez, Ethan  and\nHuang, Saffron  and\nSong, Francis  and\nCai, Trevor  and\nRing, Roman  and\nAslanides, John  and\nGlaese, Amelia  and\nMcAleese, Nat  and\nIrving, Geoffrey",
+      "title": "Red Teaming Language Models with Language Models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "perez-etal-2022-red"
+    },
+    {
+      "abstract": "Large Language Models (LLMs) have achieved unprecedented performance in Natural Language Generation (NLG) tasks. However, many existing studies have shown that they could be misused to generate undesired content. In response, before releasing LLMs for public access, model developers usually align those language models through Supervised Fine-Tuning (SFT) or Reinforcement Learning with Human Feedback (RLHF). Consequently, those aligned large language models refuse to generate undesired content when facing potentially harmful/unethical requests. A natural question is {\\textquotedblleft}could alignment really prevent those open-sourced large language models from being misused to generate undesired content?{\\textquotedblright}. In this work, we provide a negative answer to this question. In particular, we show those open-sourced, aligned large language models could be easily misguided to generate undesired content without heavy computations or careful prompt designs. Our key idea is to directly manipulate the generation process of open-sourced LLMs to misguide it to generate undesired content including harmful or biased information and even private data. We evaluate our method on 4 open-sourced LLMs accessible publicly and our finding highlights the need for more advanced mitigation strategies for open-sourced LLMs.",
+      "pages": "5475--5493",
+      "doi": "10.18653/v1/2024.acl-long.299",
+      "url": "https://aclanthology.org/2024.acl-long.299/",
+      "publisher": "Association for Computational Linguistics",
+      "address": "Bangkok, Thailand",
+      "year": "2024",
+      "month": "August",
+      "booktitle": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+      "editor": "Ku, Lun-Wei  and\nMartins, Andre  and\nSrikumar, Vivek",
+      "author": "Zhang, Hangfan  and\nGuo, Zhimeng  and\nZhu, Huaisheng  and\nCao, Bochuan  and\nLin, Lu  and\nJia, Jinyuan  and\nChen, Jinghui  and\nWu, Dinghao",
+      "title": "Jailbreak Open-Sourced Large Language Models via Enforced Decoding",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zhang-etal-2024-jailbreak"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2312.11805",
+      "author": "Team, Gemini and Anil, Rohan and Borgeaud, Sebastian and Alayrac, Jean-Baptiste and Yu, Jiahui and Soricut, Radu and Schalkwyk, Johan and Dai, Andrew M and Hauth, Anja and Millican, Katie and others",
+      "title": "Gemini: a family of highly capable multimodal models",
+      "ENTRYTYPE": "article",
+      "ID": "team2023gemini"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2302.13971",
+      "author": "Touvron, Hugo and Lavril, Thibaut and Izacard, Gautier and Martinet, Xavier and Lachaux, Marie-Anne and Lacroix, Timoth{\\'e}e and Rozi{\\`e}re, Baptiste and Goyal, Naman and Hambro, Eric and Azhar, Faisal and others",
+      "title": "Llama: Open and efficient foundation language models",
+      "ENTRYTYPE": "article",
+      "ID": "touvron2023llama"
+    },
+    {
+      "year": "2020",
+      "pages": "1877--1901",
+      "volume": "33",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Brown, Tom and Mann, Benjamin and Ryder, Nick and Subbiah, Melanie and Kaplan, Jared D and Dhariwal, Prafulla and Neelakantan, Arvind and Shyam, Pranav and Sastry, Girish and Askell, Amanda and others",
+      "title": "Language models are few-shot learners",
+      "ENTRYTYPE": "article",
+      "ID": "brown2020language"
+    },
+    {
+      "year": "2018",
+      "journal": "arXiv preprint arXiv:1807.03748",
+      "author": "Oord, Aaron van den and Li, Yazhe and Vinyals, Oriol",
+      "title": "Representation learning with contrastive predictive coding",
+      "ENTRYTYPE": "article",
+      "ID": "oord2018representation"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "2010",
+      "pages": "5847--5861",
+      "number": "11",
+      "volume": "56",
+      "journal": "IEEE Transactions on Information Theory",
+      "author": "Nguyen, XuanLong and Wainwright, Martin J and Jordan, Michael I",
+      "title": "Estimating divergence functionals and the likelihood ratio by convex risk minimization",
+      "ENTRYTYPE": "article",
+      "ID": "nguyen2010estimating"
+    },
+    {
+      "year": "2025",
+      "booktitle": "The Thirteenth International Conference on Learning Representations",
+      "author": "Hu, Shengyuan and Fu, Yiwei and Wu, Steven and Smith, Virginia",
+      "title": "Unlearning or obfuscating? {Jogging} the memory of unlearned {LLMs} via benign relearning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "hu2025unlearning"
+    },
+    {
+      "year": "2024",
+      "pages": "47094--47165",
+      "volume": "37",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Jiang, Liwei and Rao, Kavel and Han, Seungju and Ettinger, Allyson and Brahman, Faeze and Kumar, Sachin and Mireshghallah, Niloofar and Lu, Ximing and Sap, Maarten and Choi, Yejin and others",
+      "title": "Wildteaming at scale: From in-the-wild jailbreaks to (adversarially) safer language models",
+      "ENTRYTYPE": "article",
+      "ID": "jiang2024wildteaming"
+    },
+    {
+      "url": "http://jmlr.org/papers/v25/23-0361.html",
+      "pages": "1--45",
+      "number": "340",
+      "volume": "25",
+      "year": "2024",
+      "journal": "Journal of Machine Learning Research",
+      "title": "Lower Bounds on the {Bayesian} Risk via Information Measures",
+      "author": "Amedeo Roberto Esposito and Adrien Vandenbroucque and Michael Gastpar",
+      "ENTRYTYPE": "article",
+      "ID": "JMLR:v25:23-0361"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "2016",
+      "pages": "1580--1600",
+      "number": "3",
+      "volume": "63",
+      "journal": "IEEE Transactions on Information Theory",
+      "author": "Xu, Aolin and Raginsky, Maxim",
+      "title": "Information-theoretic lower bounds on {Bayes} risk in decentralized estimation",
+      "ENTRYTYPE": "article",
+      "ID": "xu2016information"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2502.11054",
+      "author": "Ying, Zonghao and Zhang, Deyue and Jing, Zonglei and Xiao, Yisong and Zou, Quanchen and Liu, Aishan and Liang, Siyuan and Zhang, Xiangzheng and Liu, Xianglong and Tao, Dacheng",
+      "title": "Reasoning-augmented conversation for multi-turn jailbreak attacks on large language models",
+      "ENTRYTYPE": "article",
+      "ID": "ying2025reasoning"
+    },
+    {
+      "year": "2022",
+      "pages": "22199--22213",
+      "volume": "35",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Kojima, Takeshi and Gu, Shixiang Shane and Reid, Machel and Matsuo, Yutaka and Iwasawa, Yusuke",
+      "title": "Large language models are zero-shot reasoners",
+      "ENTRYTYPE": "article",
+      "ID": "kojima2022large"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2502.05374",
+      "author": "Fan, Chongyu and Jia, Jinghan and Zhang, Yihua and Ramakrishna, Anil and Hong, Mingyi and Liu, Sijia",
+      "title": "Towards {LLM} Unlearning Resilient to Relearning Attacks: A Sharpness-Aware Minimization Perspective and Beyond",
+      "ENTRYTYPE": "article",
+      "ID": "fan2025towards"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2502.07557",
+      "author": "Zhang, Shenyi and Zhai, Yuchen and Guo, Keyan and Hu, Hongxin and Guo, Shengnan and Fang, Zheng and Zhao, Lingchen and Shen, Chao and Wang, Cong and Wang, Qian",
+      "title": "{JBShield}: Defending Large Language Models from Jailbreak Attacks through Activated Concept Analysis and Manipulation",
+      "ENTRYTYPE": "article",
+      "ID": "zhang2025jbshield"
+    },
+    {
+      "year": "2024",
+      "pages": "3600--3614",
+      "booktitle": "Proceedings of the 2024 on ACM SIGSAC Conference on Computer and Communications Security",
+      "author": "Hui, Bo and Yuan, Haolin and Gong, Neil and Burlina, Philippe and Cao, Yinzhi",
+      "title": "Pleak: Prompt leaking attacks against large language model applications",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "hui2024pleak"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2402.19200",
+      "author": "Yang, Yong and Li, Changjiang and Jiang, Yi and Chen, Xi and Wang, Haoyu and Zhang, Xuhong and Wang, Zonghui and Ji, Shouling",
+      "title": "{PRSA}: PRompt Stealing Attacks against large language models",
+      "ENTRYTYPE": "article",
+      "ID": "yang2024prsa"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2402.12959",
+      "author": "Sha, Zeyang and Zhang, Yang",
+      "title": "Prompt stealing attacks against large language models",
+      "ENTRYTYPE": "article",
+      "ID": "sha2024prompt"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2310.17884",
+      "author": "Mireshghallah, Niloofar and Kim, Hyunwoo and Zhou, Xuhui and Tsvetkov, Yulia and Sap, Maarten and Shokri, Reza and Choi, Yejin",
+      "title": "Can {LLMs} keep a secret? {Testing} privacy implications of language models via contextual integrity theory",
+      "ENTRYTYPE": "article",
+      "ID": "mireshghallah2023can"
+    },
+    {
+      "year": "2025",
+      "note": "arXiv preprint",
+      "author": "Masahiro Kaneko and Zeerak Talat and Timothy Baldwin",
+      "title": "Online Learning Defense against Iterative Jailbreak Attacks via Prompt Optimization",
+      "ENTRYTYPE": "misc",
+      "ID": "kaneko2025online"
+    },
+    {
+      "abstract": "Large Language Models (LLMs) exhibit sophisticated reasoning yet still generate incorrect answers. We attribute these errors to **Spurious Beliefs**, defined as propositions the model internally considers as true despite being factually false. To reduce reasoning errors, we propose a belief space rectification framework. Our method first identifies the beliefs invoked during inference via an explanation{-}based approach with Forward{-}Backward Beam Search (FBBS). We subsequently apply unlearning via gradient ascent to suppress spurious beliefs and enhance true ones, thereby effectively rectifying the model{'}s belief space. Experiments on three QA datasets and three LLMs show that our method significantly reduces erroneous reasoning and improves generalization.",
+      "isbn": "979-8-89176-256-5",
+      "pages": "25060--25075",
+      "doi": "10.18653/v1/2025.findings-acl.1285",
+      "url": "https://aclanthology.org/2025.findings-acl.1285/",
+      "publisher": "Association for Computational Linguistics",
+      "address": "Vienna, Austria",
+      "year": "2025",
+      "month": "July",
+      "booktitle": "Findings of the Association for Computational Linguistics: ACL 2025",
+      "editor": "Che, Wanxiang  and\nNabende, Joyce  and\nShutova, Ekaterina  and\nPilehvar, Mohammad Taher",
+      "author": "Niwa, Ayana  and\nKaneko, Masahiro  and\nInui, Kentaro",
+      "title": "Rectifying Belief Space via Unlearning to Harness {LLM}s' Reasoning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "niwa-etal-2025-rectifying"
+    },
+    {
+      "organization": "IJCAI",
+      "year": "2025",
+      "booktitle": "IJCAI International Joint Conference on Artificial Intelligence",
+      "author": "Kaneko, Masahiro and Bollegala, Danushka and Baldwin, Timothy",
+      "title": "An Ethical Dataset from Real-World Interactions Between Users and Large Language Models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "kaneko2025ethical"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2401.15585",
+      "author": "Kaneko, Masahiro and Bollegala, Danushka and Okazaki, Naoaki and Baldwin, Timothy",
+      "title": "Evaluating gender bias in large language models via chain-of-thought prompting",
+      "ENTRYTYPE": "article",
+      "ID": "kaneko2024evaluating"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2503.06011",
+      "author": "Anantaprayoon, Panatchakorn and Kaneko, Masahiro and Okazaki, Naoaki",
+      "title": "Intent-Aware Self-Correction for Mitigating Social Biases in Large Language Models",
+      "ENTRYTYPE": "article",
+      "ID": "anantaprayoon2025intent"
+    },
+    {
+      "series": "Springer Series in Statistics",
+      "address": "New York",
+      "publisher": "Springer-Verlag",
+      "year": "1985",
+      "author": "Siegmund, David",
+      "title": "Sequential Analysis: Tests and Confidence Intervals",
+      "ENTRYTYPE": "book",
+      "ID": "siegmund1985"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "2003",
+      "pages": "405--412",
+      "number": "4",
+      "volume": "24",
+      "journal": "IEEE Transactions on Information Theory",
+      "author": "Ziv, Jacob",
+      "title": "Coding theorems for individual sequences",
+      "ENTRYTYPE": "article",
+      "ID": "ziv2003coding"
+    },
+    {
+      "year": "1947",
+      "publisher": "John Wiley \\& Sons",
+      "title": "Sequential Analysis",
+      "author": "Abraham Wald",
+      "ENTRYTYPE": "book",
+      "ID": "wald1947"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2408.16345",
+      "author": "Borec, Luka and Sadler, Philipp and Schlangen, David",
+      "title": "The Unreasonable Ineffectiveness of Nucleus Sampling on Mitigating Text Memorization",
+      "ENTRYTYPE": "article",
+      "ID": "borec2024unreasonable"
+    },
+    {
+      "year": "2019",
+      "journal": "arXiv preprint arXiv:1904.09751",
+      "author": "Holtzman, Ari and Buys, Jan and Du, Li and Forbes, Maxwell and Choi, Yejin",
+      "title": "The curious case of neural text degeneration",
+      "ENTRYTYPE": "article",
+      "ID": "holtzman2019curious"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "2011",
+      "pages": "7036--7056",
+      "number": "10",
+      "volume": "57",
+      "journal": "IEEE Transactions on Information Theory",
+      "author": "Raginsky, Maxim and Rakhlin, Alexander",
+      "title": "Information-based complexity, feedback and dynamics in convex programming",
+      "ENTRYTYPE": "article",
+      "ID": "raginsky2011information"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "2008",
+      "pages": "2339--2353",
+      "number": "5",
+      "volume": "54",
+      "journal": "IEEE Transactions on Information Theory",
+      "author": "Castro, Rui M and Nowak, Robert D",
+      "title": "Minimax bounds for active learning",
+      "ENTRYTYPE": "article",
+      "ID": "castro2008minimax"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2402.07841",
+      "author": "Duan, Michael and Suri, Anshuman and Mireshghallah, Niloofar and Min, Sewon and Shi, Weijia and Zettlemoyer, Luke and Tsvetkov, Yulia and Choi, Yejin and Evans, David and Hajishirzi, Hannaneh",
+      "title": "Do membership inference attacks work on large language models?",
+      "ENTRYTYPE": "article",
+      "ID": "duan2024membership"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2403.09539",
+      "author": "Finlayson, Matthew and Ren, Xiang and Swayamdipta, Swabha",
+      "title": "Logits of {API}-protected {LLMs} leak proprietary information",
+      "ENTRYTYPE": "article",
+      "ID": "finlayson2024logits"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "2023",
+      "pages": "1--17",
+      "volume": "534",
+      "journal": "Neurocomputing",
+      "author": "Del Grosso, Ganesh and Pichler, Georg and Palamidessi, Catuscia and Piantanida, Pablo",
+      "title": "Bounding information leakage in machine learning",
+      "ENTRYTYPE": "article",
+      "ID": "del2023bounding"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2307.06865",
+      "author": "Zhang, Yiming and Carlini, Nicholas and Ippolito, Daphne",
+      "title": "Effective prompt extraction from language models",
+      "ENTRYTYPE": "article",
+      "ID": "zhang2023effective"
+    },
+    {
+      "pages": "74--81",
+      "url": "https://aclanthology.org/W04-1013/",
+      "publisher": "Association for Computational Linguistics",
+      "address": "Barcelona, Spain",
+      "year": "2004",
+      "month": "July",
+      "booktitle": "Text Summarization Branches Out",
+      "author": "Lin, Chin-Yew",
+      "title": "{ROUGE}: A Package for Automatic Evaluation of Summaries",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "lin-2004-rouge"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2501.10800",
+      "author": "Goldstein, Oliver and La Malfa, Emanuele and Drinkall, Felix and Marro, Samuele and Wooldridge, Michael",
+      "title": "Jailbreaking Large Language Models in Infinitely Many Ways",
+      "ENTRYTYPE": "article",
+      "ID": "goldstein2025jailbreaking"
+    },
+    {
+      "note": "\\url{https://ai.meta.com/blog/llama-4-multimodal-intelligence/}",
+      "month": "April",
+      "year": "2024",
+      "author": "{Meta AI}",
+      "title": "Introducing {LLaMA} 4: Advancing Multimodal Intelligence",
+      "ENTRYTYPE": "misc",
+      "ID": "meta2024llama4"
+    },
+    {
+      "year": "2022",
+      "pages": "24824--24837",
+      "volume": "35",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Wei, Jason and Wang, Xuezhi and Schuurmans, Dale and Bosma, Maarten and Xia, Fei and Chi, Ed and Le, Quoc V and Zhou, Denny and others",
+      "title": "Chain-of-thought prompting elicits reasoning in large language models",
+      "ENTRYTYPE": "article",
+      "ID": "wei2022chain"
+    },
+    {
+      "year": "2018",
+      "journal": "arXiv preprint arXiv:1801.04062",
+      "author": "Belghazi, Mohamed Ishmael and Baratin, Aristide and Rajeswar, Sai and Ozair, Sherjil and Bengio, Yoshua and Courville, Aaron and Hjelm, R Devon",
+      "title": "Mine: mutual information neural estimation",
+      "ENTRYTYPE": "article",
+      "ID": "belghazi2018mine"
+    }
+  ]
+}

@@ -1,0 +1,758 @@
+{
+  "pdf_url": "https://arxiv.org/pdf/2507.00846v3.pdf",
+  "references": [
+    {
+      "publisher": "Nature Publishing Group UK London",
+      "year": "2024",
+      "pages": "493--500",
+      "number": "8016",
+      "volume": "630",
+      "journal": "Nature",
+      "author": "Abramson, Josh and Adler, Jonas and Dunger, Jack and Evans, Richard and Green, Tim and Pritzel, Alexander and Ronneberger, Olaf and Willmore, Lindsay and Ballard, Andrew J and Bambrick, Joshua and others",
+      "title": "Accurate structure prediction of biomolecular interactions with AlphaFold 3",
+      "ENTRYTYPE": "article",
+      "ID": "abramson2024accurate"
+    },
+    {
+      "publisher": "Cold Spring Harbor Laboratory",
+      "year": "2025",
+      "pages": "2025--04",
+      "journal": "bioRxiv",
+      "author": "Zheng, Haiyang and Wang, Jin",
+      "title": "AlphaFold3 in Drug Discovery: A Comprehensive Assessment of Capabilities, Limitations, and Applications",
+      "ENTRYTYPE": "article",
+      "ID": "zheng2025alphafold3"
+    },
+    {
+      "year": "2022",
+      "pages": "500902",
+      "volume": "2022",
+      "journal": "BioRxiv",
+      "author": "Lin, Zeming and Akin, Halil and Rao, Roshan and Hie, Brian and Zhu, Zhongkai and Lu, Wenting and dos Santos Costa, Allan and Fazel-Zarandi, Maryam and Sercu, Tom and Candido, Sal and others",
+      "title": "Language models of protein sequences at the scale of evolution enable accurate structure prediction",
+      "ENTRYTYPE": "article",
+      "ID": "lin2022language"
+    },
+    {
+      "publisher": "American Association for the Advancement of Science",
+      "year": "2019",
+      "pages": "eaaw1147",
+      "number": "6457",
+      "volume": "365",
+      "journal": "Science",
+      "author": "No{\\'e}, Frank and Olsson, Simon and K{\\\"o}hler, Jonas and Wu, Hao",
+      "title": "Boltzmann generators: Sampling equilibrium states of many-body systems with deep learning",
+      "ENTRYTYPE": "article",
+      "ID": "noe2019boltzmann"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2406.14426",
+      "author": "Klein, Leon and No{\\'e}, Frank",
+      "title": "Transferable boltzmann generators",
+      "ENTRYTYPE": "article",
+      "ID": "klein2024transferable"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "2014",
+      "pages": "135--144",
+      "volume": "25",
+      "journal": "Current opinion in structural biology",
+      "author": "Chodera, John D and No{\\'e}, Frank",
+      "title": "Markov state models of biomolecular conformational dynamics",
+      "ENTRYTYPE": "article",
+      "ID": "chodera2014markov"
+    },
+    {
+      "year": "2023",
+      "pages": "52863--52883",
+      "volume": "36",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Klein, Leon and Foong, Andrew and Fjelde, Tor and Mlodozeniec, Bruno and Brockschmidt, Marc and Nowozin, Sebastian and No{\\'e}, Frank and Tomioka, Ryota",
+      "title": "Timewarp: Transferable acceleration of molecular dynamics by learning time-coarsened dynamics",
+      "ENTRYTYPE": "article",
+      "ID": "klein2023timewarp"
+    },
+    {
+      "publisher": "American Association for the Advancement of Science",
+      "year": "2025",
+      "pages": "eadv9817",
+      "number": "6761",
+      "volume": "389",
+      "journal": "Science",
+      "author": "Lewis, Sarah and Hempel, Tim and Jim{\\'e}nez-Luna, Jos{\\'e} and Gastegger, Michael and Xie, Yu and Foong, Andrew YK and Satorras, Victor Garc{\\'\\i}a and Abdin, Osama and Veeling, Bastiaan S and Zaporozhets, Iryna and others",
+      "title": "Scalable emulation of protein equilibrium ensembles with generative deep learning",
+      "ENTRYTYPE": "article",
+      "ID": "lewis2025scalable"
+    },
+    {
+      "publisher": "IOP Publishing",
+      "year": "2021",
+      "pages": "015009",
+      "number": "1",
+      "volume": "3",
+      "journal": "Machine Learning: Science and Technology",
+      "author": "Hoffmann, Moritz and Scherer, Martin and Hempel, Tim and Mardt, Andreas and de Silva, Brian and Husic, Brooke E and Klus, Stefan and Wu, Hao and Kutz, Nathan and Brunton, Steven L and others",
+      "title": "Deeptime: a Python library for machine learning dynamical models from time series data",
+      "ENTRYTYPE": "article",
+      "ID": "hoffmann2021deeptime"
+    },
+    {
+      "publisher": "APS",
+      "year": "2022",
+      "pages": "L042005",
+      "number": "4",
+      "volume": "4",
+      "journal": "Physical Review Research",
+      "author": "Dibak, Manuel and Klein, Leon and Kr{\\\"a}mer, Andreas and No{\\'e}, Frank",
+      "title": "Temperature steerable flows and Boltzmann generators",
+      "ENTRYTYPE": "article",
+      "ID": "dibak2022temperature"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2404.16566",
+      "author": "Coretti, Alessandro and Falkner, Sebastian and Weinreich, Jan and Dellago, Christoph and von Lilienfeld, O Anatole",
+      "title": "Boltzmann generators and the new frontier of computational sampling in many-body systems",
+      "ENTRYTYPE": "article",
+      "ID": "coretti2024boltzmann"
+    },
+    {
+      "year": "2023",
+      "pages": "59886--59910",
+      "volume": "36",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Klein, Leon and Kr{\\\"a}mer, Andreas and No{\\'e}, Frank",
+      "title": "Equivariant flow matching",
+      "ENTRYTYPE": "article",
+      "ID": "klein2023equivariant"
+    },
+    {
+      "year": "2018",
+      "volume": "31",
+      "journal": "Advances in neural information processing systems",
+      "author": "Chen, Ricky TQ and Rubanova, Yulia and Bettencourt, Jesse and Duvenaud, David K",
+      "title": "Neural ordinary differential equations",
+      "ENTRYTYPE": "article",
+      "ID": "chen2018neural"
+    },
+    {
+      "year": "2021",
+      "journal": "arXiv preprint arXiv:2101.03288",
+      "author": "Song, Yang and Kingma, Diederik P",
+      "title": "How to train your energy-based models",
+      "ENTRYTYPE": "article",
+      "ID": "song2021train"
+    },
+    {
+      "year": "2019",
+      "volume": "32",
+      "journal": "Advances in neural information processing systems",
+      "author": "Du, Yilun and Mordatch, Igor",
+      "title": "Implicit generation and modeling with energy based models",
+      "ENTRYTYPE": "article",
+      "ID": "du2019implicit"
+    },
+    {
+      "year": "2020",
+      "journal": "arXiv preprint arXiv:2012.01316",
+      "author": "Du, Yilun and Li, Shuang and Tenenbaum, Joshua and Mordatch, Igor",
+      "title": "Improved contrastive divergence training of energy based models",
+      "ENTRYTYPE": "article",
+      "ID": "du2020improved"
+    },
+    {
+      "year": "2018",
+      "journal": "arXiv preprint arXiv:1810.01367",
+      "author": "Grathwohl, Will and Chen, Ricky TQ and Bettencourt, Jesse and Sutskever, Ilya and Duvenaud, David",
+      "title": "Ffjord: Free-form continuous dynamics for scalable reversible generative models",
+      "ENTRYTYPE": "article",
+      "ID": "grathwohl2018ffjord"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2309.05803",
+      "author": "Singh, Sumeet and Tu, Stephen and Sindhwani, Vikas",
+      "title": "Revisiting energy based models as policies: Ranking noise contrastive estimation and interpolating energy models",
+      "ENTRYTYPE": "article",
+      "ID": "singh2023revisiting"
+    },
+    {
+      "year": "2020",
+      "journal": "arXiv preprint arXiv:2003.05033",
+      "author": "Arbel, Michael and Zhou, Liang and Gretton, Arthur",
+      "title": "Generalized energy based models",
+      "ENTRYTYPE": "article",
+      "ID": "arbel2020generalized"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2022",
+      "pages": "158--168",
+      "booktitle": "Conference on robot learning",
+      "author": "Florence, Pete and Lynch, Corey and Zeng, Andy and Ramirez, Oscar A and Wahid, Ayzaan and Downs, Laura and Wong, Adrian and Lee, Johnny and Mordatch, Igor and Tompson, Jonathan",
+      "title": "Implicit behavioral cloning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "florence2022implicit"
+    },
+    {
+      "organization": "JMLR Workshop and Conference Proceedings",
+      "year": "2010",
+      "pages": "297--304",
+      "booktitle": "Proceedings of the thirteenth international conference on artificial intelligence and statistics",
+      "author": "Gutmann, Michael and Hyv{\\\"a}rinen, Aapo",
+      "title": "Noise-contrastive estimation: A new estimation principle for unnormalized statistical models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "gutmann2010noise"
+    },
+    {
+      "year": "2014",
+      "journal": "arXiv preprint arXiv:1410.8251",
+      "author": "Dyer, C",
+      "title": "Notes on noise contrastive estimation and negative sampling. arXiv",
+      "ENTRYTYPE": "article",
+      "ID": "dyer2014notes"
+    },
+    {
+      "publisher": "JMLR. org",
+      "year": "2012",
+      "pages": "307--361",
+      "number": "1",
+      "volume": "13",
+      "journal": "The journal of machine learning research",
+      "author": "Gutmann, Michael U and Hyv{\\\"a}rinen, Aapo",
+      "title": "Noise-contrastive estimation of unnormalized statistical models, with applications to natural image statistics",
+      "ENTRYTYPE": "article",
+      "ID": "gutmann2012noise"
+    },
+    {
+      "year": "2020",
+      "pages": "4905--4916",
+      "volume": "33",
+      "journal": "Advances in neural information processing systems",
+      "author": "Rhodes, Benjamin and Xu, Kai and Gutmann, Michael U",
+      "title": "Telescoping density-ratio estimation",
+      "ENTRYTYPE": "article",
+      "ID": "rhodes2020telescoping"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2210.00189",
+      "author": "Lee, Holden and Pabbaraju, Chirag and Sevekari, Anish and Risteski, Andrej",
+      "title": "Pitfalls of gaussians as a noise distribution in NCE",
+      "ENTRYTYPE": "article",
+      "ID": "lee2022pitfalls"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2303.08797",
+      "author": "Albergo, Michael S and Boffi, Nicholas M and Vanden-Eijnden, Eric",
+      "title": "Stochastic interpolants: A unifying framework for flows and diffusions",
+      "ENTRYTYPE": "article",
+      "ID": "albergo2023stochastic"
+    },
+    {
+      "organization": "Springer",
+      "year": "2024",
+      "pages": "23--40",
+      "booktitle": "European Conference on Computer Vision",
+      "author": "Ma, Nanye and Goldstein, Mark and Albergo, Michael S and Boffi, Nicholas M and Vanden-Eijnden, Eric and Xie, Saining",
+      "title": "Sit: Exploring flow and diffusion-based generative models with scalable interpolant transformers",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ma2024sit"
+    },
+    {
+      "year": "2018",
+      "journal": "arXiv preprint arXiv:1807.03748",
+      "author": "Oord, Aaron van den and Li, Yazhe and Vinyals, Oriol",
+      "title": "Representation learning with contrastive predictive coding",
+      "ENTRYTYPE": "article",
+      "ID": "oord2018representation"
+    },
+    {
+      "publisher": "AIP Publishing",
+      "year": "2020",
+      "number": "14",
+      "volume": "153",
+      "journal": "The Journal of Chemical Physics",
+      "author": "Wirnsberger, Peter and Ballard, Andrew J and Papamakarios, George and Abercrombie, Stuart and Racani{\\`e}re, S{\\'e}bastien and Pritzel, Alexander and Jimenez Rezende, Danilo and Blundell, Charles",
+      "title": "Targeted free energy estimation via learned mappings",
+      "ENTRYTYPE": "article",
+      "ID": "wirnsberger2020targeted"
+    },
+    {
+      "year": "2021",
+      "pages": "2796--2809",
+      "volume": "34",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "K{\\\"o}hler, Jonas and Kr{\\\"a}mer, Andreas and No{\\'e}, Frank",
+      "title": "Smooth normalizing flows",
+      "ENTRYTYPE": "article",
+      "ID": "kohler2021smooth"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2208.01893",
+      "author": "Midgley, Laurence Illing and Stimper, Vincent and Simm, Gregor NC and Sch{\\\"o}lkopf, Bernhard and Hern{\\'a}ndez-Lobato, Jos{\\'e} Miguel",
+      "title": "Flow annealed importance sampling bootstrap",
+      "ENTRYTYPE": "article",
+      "ID": "midgley2022flow"
+    },
+    {
+      "publisher": "ACS Publications",
+      "year": "2021",
+      "pages": "2509--2515",
+      "number": "10",
+      "volume": "12",
+      "journal": "The journal of physical chemistry letters",
+      "author": "Ding, Xinqiang and Zhang, Bin",
+      "title": "DeepBAR: a fast and exact method for binding free energy computation",
+      "ENTRYTYPE": "article",
+      "ID": "ding2021deepbar"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2401.04246",
+      "author": "Kim, Joseph C and Bloore, David and Kapoor, Karan and Feng, Jun and Hao, Ming-Hong and Wang, Mengdi",
+      "title": "Scalable normalizing flows enable Boltzmann generators for macromolecules",
+      "ENTRYTYPE": "article",
+      "ID": "kim2024scalable"
+    },
+    {
+      "publisher": "IOP Publishing",
+      "year": "2022",
+      "pages": "065007",
+      "number": "6",
+      "volume": "30",
+      "journal": "Modelling and Simulation in Materials Science and Engineering",
+      "author": "Ahmad, Rasool and Cai, Wei",
+      "title": "Free energy calculation of crystalline solids using normalizing flows",
+      "ENTRYTYPE": "article",
+      "ID": "ahmad2022free"
+    },
+    {
+      "publisher": "APS",
+      "year": "2021",
+      "pages": "032001",
+      "number": "3",
+      "volume": "126",
+      "journal": "Physical review letters",
+      "author": "Nicoli, Kim A and Anders, Christopher J and Funcke, Lena and Hartung, Tobias and Jansen, Karl and Kessel, Pan and Nakajima, Shinichi and Stornati, Paolo",
+      "title": "Estimation of thermodynamic observables in lattice field theories with deep generative models",
+      "ENTRYTYPE": "article",
+      "ID": "nicoli2021estimation"
+    },
+    {
+      "publisher": "IOP Publishing",
+      "year": "2024",
+      "pages": "045045",
+      "number": "4",
+      "volume": "5",
+      "journal": "Machine Learning: Science and Technology",
+      "author": "Schebek, Maximilian and Invernizzi, Michele and No{\\'e}, Frank and Rogal, Jutta",
+      "title": "Efficient mapping of phase diagrams with conditional Boltzmann Generators",
+      "ENTRYTYPE": "article",
+      "ID": "schebek2024efficient"
+    },
+    {
+      "publisher": "Cold Spring Harbor Laboratory",
+      "year": "2023",
+      "pages": "2023--06",
+      "journal": "bioRxiv",
+      "author": "Abdin, Osama and Kim, Philip M",
+      "title": "PepFlow: direct conformational sampling from peptide energy landscapes through hypernetwork-conditioned diffusion",
+      "ENTRYTYPE": "article",
+      "ID": "abdin2023pepflow"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2402.04845",
+      "author": "Jing, Bowen and Berger, Bonnie and Jaakkola, Tommi",
+      "title": "AlphaFold meets flow matching for generating protein ensembles",
+      "ENTRYTYPE": "article",
+      "ID": "jing2024alphafold"
+    },
+    {
+      "publisher": "Nature Publishing Group UK London",
+      "year": "2024",
+      "pages": "558--567",
+      "number": "5",
+      "volume": "6",
+      "journal": "Nature Machine Intelligence",
+      "author": "Zheng, Shuxin and He, Jiyan and Liu, Chang and Shi, Yu and Lu, Ziheng and Feng, Weitao and Ju, Fusong and Wang, Jiaxi and Zhu, Jianwei and Min, Yaosen and others",
+      "title": "Predicting equilibrium distributions for molecular systems with deep learning",
+      "ENTRYTYPE": "article",
+      "ID": "zheng2024predicting"
+    },
+    {
+      "publisher": "IOP Publishing",
+      "year": "2024",
+      "pages": "025010",
+      "number": "2",
+      "volume": "5",
+      "journal": "Machine Learning: Science and Technology",
+      "author": "Diez, Juan Viguera and Atance, Sara Romeo and Engkvist, Ola and Olsson, Simon",
+      "title": "Generation of conformational ensembles of small molecules via surrogate model-assisted molecular dynamics",
+      "ENTRYTYPE": "article",
+      "ID": "diez2024generation"
+    },
+    {
+      "year": "2023",
+      "pages": "36449--36462",
+      "volume": "36",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Schreiner, Mathias and Winther, Ole and Olsson, Simon",
+      "title": "Implicit transfer operator learning: Multiple time-resolution models for molecular dynamics",
+      "ENTRYTYPE": "article",
+      "ID": "schreiner2023implicit"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2310.18278",
+      "author": "Charron, Nicholas E and Musil, Felix and Guljas, Andrea and Chen, Yaoyi and Bonneau, Klara and Pasos-Trejo, Aldo S and Venturin, Jacopo and Gusew, Daria and Zaporozhets, Iryna and Kr{\\\"a}mer, Andreas and others",
+      "title": "Navigating protein landscapes with a machine-learned transferable coarse-grained model",
+      "ENTRYTYPE": "article",
+      "ID": "charron2023navigating"
+    },
+    {
+      "publisher": "ACS Publications",
+      "year": "2023",
+      "pages": "942--952",
+      "number": "3",
+      "volume": "19",
+      "journal": "Journal of Chemical Theory and Computation",
+      "author": "Kohler, Jonas and Chen, Yaoyi and Kramer, Andreas and Clementi, Cecilia and No{\\'e}, Frank",
+      "title": "Flow-matching: Efficient coarse-graining of molecular dynamics without forces",
+      "ENTRYTYPE": "article",
+      "ID": "kohler2023flow"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2403.14088",
+      "author": "Wang, Yan and Wang, Lihao and Shen, Yuning and Wang, Yiqun and Yuan, Huizhuo and Wu, Yue and Gu, Quanquan",
+      "title": "Protein conformation generation via force-guided se (3) diffusion models",
+      "ENTRYTYPE": "article",
+      "ID": "wang2024protein"
+    },
+    {
+      "year": "2022",
+      "pages": "24240--24253",
+      "volume": "35",
+      "journal": "Advances in neural information processing systems",
+      "author": "Jing, Bowen and Corso, Gabriele and Chang, Jeffrey and Barzilay, Regina and Jaakkola, Tommi",
+      "title": "Torsional diffusion for molecular conformer generation",
+      "ENTRYTYPE": "article",
+      "ID": "jing2022torsional"
+    },
+    {
+      "year": "2023",
+      "pages": "549--568",
+      "volume": "36",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Song, Yuxuan and Gong, Jingjing and Xu, Minkai and Cao, Ziyao and Lan, Yanyan and Ermon, Stefano and Zhou, Hao and Ma, Wei-Ying",
+      "title": "Equivariant flow matching with hybrid probability transport for 3d molecule generation",
+      "ENTRYTYPE": "article",
+      "ID": "song2023equivariant"
+    },
+    {
+      "year": "2024",
+      "booktitle": "ICML 2024 Workshop on Structured Probabilistic Inference $\\{$$\\backslash$\\&$\\}$ Generative Modeling",
+      "author": "Sevekari, Anish and Aggarwal, Rishal and Chikina, Maria and Koes, David",
+      "title": "Accelerating NCE Convergence with Adaptive Normalizing Constant Computation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "sevekari2024accelerating"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2022",
+      "pages": "2552--2573",
+      "booktitle": "International Conference on Artificial Intelligence and Statistics",
+      "author": "Choi, Kristy and Meng, Chenlin and Song, Yang and Ermon, Stefano",
+      "title": "Density ratio estimation via infinitesimal classification",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "choi2022density"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2303.03023",
+      "author": "Lee, Hankook and Jeong, Jongheon and Park, Sejun and Shin, Jinwoo",
+      "title": "Guiding energy-based models via contrastive latent variables",
+      "ENTRYTYPE": "article",
+      "ID": "lee2023guiding"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2402.10095",
+      "author": "Yadin, Shahar and Elata, Noam and Michaeli, Tomer",
+      "title": "Classification Diffusion Models: Revitalizing Density Ratio Estimation",
+      "ENTRYTYPE": "article",
+      "ID": "yadin2024classification"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2023",
+      "pages": "8489--8510",
+      "booktitle": "International conference on machine learning",
+      "author": "Du, Yilun and Durkan, Conor and Strudel, Robin and Tenenbaum, Joshua B and Dieleman, Sander and Fergus, Rob and Sohl-Dickstein, Jascha and Doucet, Arnaud and Grathwohl, Will Sussman",
+      "title": "Reduce, reuse, recycle: Compositional generation with energy-based diffusion models and mcmc",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "du2023reduce"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2409.09787",
+      "author": "OuYang, RuiKang and Qiang, Bo and Song, Zixing and Hern{\\'a}ndez-Lobato, Jos{\\'e} Miguel",
+      "title": "Bnem: A boltzmann sampler based on bootstrapped noised energy matching",
+      "ENTRYTYPE": "article",
+      "ID": "ouyang2024bnem"
+    },
+    {
+      "year": "2024",
+      "pages": "arXiv--2311",
+      "journal": "ArXiv",
+      "author": "Dunn, Ian and Koes, David Ryan",
+      "title": "Accelerating inference in molecular diffusion models with latent representations of protein structure",
+      "ENTRYTYPE": "article",
+      "ID": "dunn2024accelerating"
+    },
+    {
+      "year": "2020",
+      "journal": "arXiv preprint arXiv:2009.01411",
+      "author": "Jing, Bowen and Eismann, Stephan and Suriana, Patricia and Townshend, Raphael JL and Dror, Ron",
+      "title": "Learning from protein structure with geometric vector perceptrons",
+      "ENTRYTYPE": "article",
+      "ID": "jing2020learning"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2021",
+      "pages": "9323--9332",
+      "booktitle": "International conference on machine learning",
+      "author": "Satorras, V{\\i}ctor Garcia and Hoogeboom, Emiel and Welling, Max",
+      "title": "E (n) equivariant graph neural networks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "satorras2021n"
+    },
+    {
+      "year": "2021",
+      "pages": "28877--28888",
+      "volume": "34",
+      "journal": "Advances in neural information processing systems",
+      "author": "Ying, Chengxuan and Cai, Tianle and Luo, Shengjie and Zheng, Shuxin and Ke, Guolin and He, Di and Shen, Yanming and Liu, Tie-Yan",
+      "title": "Do transformers really perform badly for graph representation?",
+      "ENTRYTYPE": "article",
+      "ID": "ying2021transformers"
+    },
+    {
+      "year": "2021",
+      "journal": "arXiv preprint arXiv:2106.03843",
+      "author": "Jing, Bowen and Eismann, Stephan and Soni, Pratham N and Dror, Ron O",
+      "title": "Equivariant graph neural networks for 3d macromolecular structure",
+      "ENTRYTYPE": "article",
+      "ID": "jing2021equivariant"
+    },
+    {
+      "url": "http://jmlr.org/papers/v22/20-451.html",
+      "pages": "1-8",
+      "number": "78",
+      "volume": "22",
+      "year": "2021",
+      "journal": "Journal of Machine Learning Research",
+      "title": "POT: Python Optimal Transport",
+      "author": "R{\\'e}mi Flamary and Nicolas Courty and Alexandre Gramfort and Mokhtar Z. Alaya and Aur{\\'e}lie Boisbunon and Stanislas Chambon and Laetitia Chapel and Adrien Corenflos and Kilian Fatras and Nemo Fournier and L{\\'e}o Gautheron and Nathalie T.H. Gayraud and Hicham Janati and Alain Rakotomamonjy and Ievgen Redko and Antoine Rolet and Antony Schutz and Vivien Seguy and Danica J. Sutherland and Romain Tavenard and Alexander Tong and Titouan Vayer",
+      "ENTRYTYPE": "article",
+      "ID": "flamary2021pot"
+    },
+    {
+      "url": "https://arxiv.org/abs/2502.18462",
+      "journal": "arXiv:2502.18462 [cs.LG]",
+      "primaryclass": "cs.LG",
+      "archiveprefix": "arXiv",
+      "eprint": "2502.18462",
+      "year": "2025",
+      "author": "Charlie B. Tan and Avishek Joey Bose and Chen Lin and Leon Klein and Michael M. Bronstein and Alexander Tong",
+      "title": "Scalable Equilibrium Sampling with Sequential Boltzmann Generators",
+      "ENTRYTYPE": "article",
+      "ID": "sequential_boltzmann_generators"
+    },
+    {
+      "year": "2021",
+      "journal": "International Conference on Machine Learning",
+      "author": "Kidger, Patrick and Chen, Ricky T. Q. and Lyons, Terry J.",
+      "title": "\"Hey, that's not an ODE\": Faster ODE Adjoints via Seminorms.",
+      "ENTRYTYPE": "article",
+      "ID": "torchdiffeq"
+    },
+    {
+      "url": "https://arxiv.org/abs/2404.19739",
+      "journal": "arXiv:2404.19739 [q-bio.BM]",
+      "primaryclass": "q-bio.BM",
+      "archiveprefix": "arXiv",
+      "eprint": "2404.19739",
+      "year": "2024",
+      "author": "Ian Dunn and David Ryan Koes",
+      "title": "Mixed Continuous and Categorical Flow Matching for 3D De Novo Molecule Generation",
+      "ENTRYTYPE": "article",
+      "ID": "flowmol"
+    },
+    {
+      "url": "https://arxiv.org/abs/2105.02605",
+      "primaryclass": "cs.CL",
+      "archiveprefix": "arXiv",
+      "eprint": "2105.02605",
+      "year": "2023",
+      "author": "Junhan Yang and Zheng Liu and Shitao Xiao and Chaozhuo Li and Defu Lian and Sanjay Agrawal and Amit Singh and Guangzhong Sun and Xing Xie",
+      "title": "GraphFormers: GNN-nested Transformers for Representation Learning on Textual Graph",
+      "ENTRYTYPE": "misc",
+      "ID": "grahformers"
+    },
+    {
+      "year": "2023",
+      "number": "3",
+      "volume": "2",
+      "journal": "arXiv preprint arXiv:2302.00482",
+      "author": "Tong, Alexander and Malkin, Nikolay and Huguet, Guillaume and Zhang, Yanlei and Rector-Brooks, Jarrid and Fatras, Kilian and Wolf, Guy and Bengio, Yoshua",
+      "title": "Conditional flow matching: Simulation-free dynamic optimal transport",
+      "ENTRYTYPE": "article",
+      "ID": "tong2023conditional"
+    },
+    {
+      "publisher": "Nature Publishing Group US New York",
+      "year": "2020",
+      "pages": "261--272",
+      "number": "3",
+      "volume": "17",
+      "journal": "Nature methods",
+      "author": "Virtanen, Pauli and Gommers, Ralf and Oliphant, Travis E and Haberland, Matt and Reddy, Tyler and Cournapeau, David and Burovski, Evgeni and Peterson, Pearu and Weckesser, Warren and Bright, Jonathan and others",
+      "title": "SciPy 1.0: fundamental algorithms for scientific computing in Python",
+      "ENTRYTYPE": "article",
+      "ID": "virtanen2020scipy"
+    },
+    {
+      "publisher": "Springer",
+      "year": "2015",
+      "pages": "931--940",
+      "booktitle": "Encyclopedia of Applied and Computational Mathematics",
+      "author": "Leimkuhler, Benedict",
+      "title": "Molecular dynamics",
+      "ENTRYTYPE": "incollection",
+      "ID": "leimkuhler2015molecular"
+    },
+    {
+      "publisher": "Springer",
+      "year": "2012",
+      "pages": "15--26",
+      "number": "1",
+      "volume": "26",
+      "journal": "Journal of computer-aided molecular design",
+      "author": "Borhani, David W and Shaw, David E",
+      "title": "The future of molecular dynamics simulations in drug discovery",
+      "ENTRYTYPE": "article",
+      "ID": "borhani2012future"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "2009",
+      "pages": "120--127",
+      "number": "2",
+      "volume": "19",
+      "journal": "Current opinion in structural biology",
+      "author": "Klepeis, John L and Lindorff-Larsen, Kresten and Dror, Ron O and Shaw, David E",
+      "title": "Long-timescale molecular dynamics simulations of protein structure and function",
+      "ENTRYTYPE": "article",
+      "ID": "klepeis2009long"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2302.00482",
+      "author": "Tong, Alexander and Fatras, Kilian and Malkin, Nikolay and Huguet, Guillaume and Zhang, Yanlei and Rector-Brooks, Jarrid and Wolf, Guy and Bengio, Yoshua",
+      "title": "Improving and generalizing flow-based generative models with minibatch optimal transport",
+      "ENTRYTYPE": "article",
+      "ID": "tong2023improving"
+    },
+    {
+      "year": "2020",
+      "journal": "arXiv preprint arXiv:2011.13456",
+      "author": "Song, Yang and Sohl-Dickstein, Jascha and Kingma, Diederik P and Kumar, Abhishek and Ermon, Stefano and Poole, Ben",
+      "title": "Score-based generative modeling through stochastic differential equations",
+      "ENTRYTYPE": "article",
+      "ID": "song2020score"
+    },
+    {
+      "year": "2020",
+      "pages": "6840--6851",
+      "volume": "33",
+      "journal": "Advances in neural information processing systems",
+      "author": "Ho, Jonathan and Jain, Ajay and Abbeel, Pieter",
+      "title": "Denoising diffusion probabilistic models",
+      "ENTRYTYPE": "article",
+      "ID": "ho2020denoising"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2210.02747",
+      "author": "Lipman, Yaron and Chen, Ricky TQ and Ben-Hamu, Heli and Nickel, Maximilian and Le, Matt",
+      "title": "Flow matching for generative modeling",
+      "ENTRYTYPE": "article",
+      "ID": "lipman2022flow"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2209.03003",
+      "author": "Liu, Xingchao and Gong, Chengyue and Liu, Qiang",
+      "title": "Flow straight and fast: Learning to generate and transfer data with rectified flow",
+      "ENTRYTYPE": "article",
+      "ID": "liu2022flow"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2310.05764",
+      "author": "St{\\\"a}rk, Hannes and Jing, Bowen and Barzilay, Regina and Jaakkola, Tommi",
+      "title": "Harmonic self-conditioned flow matching for multi-ligand docking and binding site design",
+      "ENTRYTYPE": "article",
+      "ID": "stark2023harmonic"
+    },
+    {
+      "publisher": "ACS Publications",
+      "year": "2019",
+      "pages": "1652--1671",
+      "number": "3",
+      "volume": "15",
+      "journal": "Journal of chemical theory and computation",
+      "author": "Bannwarth, Christoph and Ehlert, Sebastian and Grimme, Stefan",
+      "title": "GFN2-xTB—An accurate and broadly parametrized self-consistent tight-binding quantum chemical method with multipole electrostatics and density-dependent dispersion contributions",
+      "ENTRYTYPE": "article",
+      "ID": "bannwarth2019gfn2"
+    },
+    {
+      "year": "2023",
+      "pages": "45945--45970",
+      "volume": "36",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Chehab, Omar and Hyvarinen, Aapo and Risteski, Andrej",
+      "title": "Provable benefits of annealing for estimating normalizing constants: Importance Sampling, Noise-Contrastive Estimation, and beyond",
+      "ENTRYTYPE": "article",
+      "ID": "chehab2023provable"
+    },
+    {
+      "year": "2021",
+      "journal": "arXiv preprint arXiv:2110.11271",
+      "author": "Liu, Bingbin and Rosenfeld, Elan and Ravikumar, Pradeep and Risteski, Andrej",
+      "title": "Analyzing and improving the optimization landscape of noise-contrastive estimation",
+      "ENTRYTYPE": "article",
+      "ID": "liu2021analyzing"
+    },
+    {
+      "url": "https://arxiv.org/abs/1807.03748",
+      "primaryclass": "cs.LG",
+      "archiveprefix": "arXiv",
+      "eprint": "1807.03748",
+      "year": "2019",
+      "author": "Aaron van den Oord and Yazhe Li and Oriol Vinyals",
+      "title": "Representation Learning with Contrastive Predictive Coding",
+      "ENTRYTYPE": "misc",
+      "ID": "oord2019representationlearningcontrastivepredictive"
+    }
+  ]
+}

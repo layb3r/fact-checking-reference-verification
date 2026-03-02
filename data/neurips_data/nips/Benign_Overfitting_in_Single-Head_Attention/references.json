@@ -1,0 +1,458 @@
+{
+  "pdf_url": "https://arxiv.org/pdf/2410.07746v2.pdf",
+  "references": [
+    {
+      "year": "2023",
+      "pages": "48314--48362",
+      "volume": "36",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Ataee Tarzanagh, Davoud and Li, Yingcong and Zhang, Xuechen and Oymak, Samet",
+      "title": "Max-margin token selection in attention mechanism",
+      "ENTRYTYPE": "article",
+      "ID": "ataee2023max"
+    },
+    {
+      "year": "2017",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Vaswani, A",
+      "title": "Attention is all you need",
+      "ENTRYTYPE": "article",
+      "ID": "vaswani2017attention"
+    },
+    {
+      "year": "2021",
+      "author": "Alexey Dosovitskiy and Lucas Beyer and Alexander Kolesnikov and Dirk Weissenborn and Xiaohua Zhai and Thomas Unterthiner and Mostafa Dehghani and Matthias Minderer and Georg Heigold and Sylvain Gelly and Jakob Uszkoreit and Neil Houlsby",
+      "title": "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale",
+      "ENTRYTYPE": "misc",
+      "ID": "dosovitskiy2021imageworth16x16words"
+    },
+    {
+      "year": "2022",
+      "pages": "37822--37836",
+      "volume": "35",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Jelassi, Samy and Sander, Michael and Li, Yuanzhi",
+      "title": "Vision transformers provably learn spatial structure",
+      "ENTRYTYPE": "article",
+      "ID": "jelassi2022vision"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2308.16898",
+      "author": "Ataee Tarzanagh, Davoud and Li, Yingcong and Thrampoulidis, Christos and Oymak, Samet",
+      "title": "Transformers as support vector machines",
+      "ENTRYTYPE": "article",
+      "ID": "tarzanagh2023transformers"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2023",
+      "pages": "26724--26768",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Oymak, Samet and Rawat, Ankit Singh and Soltanolkotabi, Mahdi and Thrampoulidis, Christos",
+      "title": "On the role of attention in prompt-tuning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "oymak2023role"
+    },
+    {
+      "year": "2019",
+      "booktitle": "Proceedings of the 2019 Conference of the North {A}merican Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long and Short Papers)",
+      "editor": "Burstein, Jill  and\nDoran, Christy  and\nSolorio, Thamar",
+      "author": "Devlin, Jacob  and\nChang, Ming-Wei  and\nLee, Kenton  and\nToutanova, Kristina",
+      "title": "{BERT}: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "devlin-etal-2019-bert"
+    },
+    {
+      "year": "2020",
+      "title": "Language Models are Few-Shot Learners",
+      "booktitle": "Advances in Neural Information Processing Systems",
+      "author": "Brown, Tom and Mann, Benjamin and Ryder, Nick and Subbiah, Melanie and Kaplan, Jared D and Dhariwal, Prafulla and Neelakantan, Arvind and Shyam, Pranav and Sastry, Girish and Askell, Amanda and Agarwal, Sandhini and Herbert-Voss, Ariel and Krueger, Gretchen and Henighan, Tom and Child, Rewon and Ramesh, Aditya and Ziegler, Daniel and Wu, Jeffrey and Winter, Clemens and Hesse, Chris and Chen, Mark and Sigler, Eric and Litwin, Mateusz and Gray, Scott and Chess, Benjamin and Clark, Jack and Berner, Christopher and McCandlish, Sam and Radford, Alec and Sutskever, Ilya and Amodei, Dario",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "NEURIPS2020_1457c0d6"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2021",
+      "pages": "2793--2803",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Dong, Yihe and Cordonnier, Jean-Baptiste and Loukas, Andreas",
+      "title": "Attention is not all you need: Pure attention loses rank doubly exponentially with depth",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "dong2021attention"
+    },
+    {
+      "year": "2024",
+      "volume": "36",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Bietti, Alberto and Cabannes, Vivien and Bouchacourt, Diane and Jegou, Herve and Bottou, Leon",
+      "title": "Birth of a transformer: A memory viewpoint",
+      "ENTRYTYPE": "article",
+      "ID": "bietti2024birth"
+    },
+    {
+      "year": "2024",
+      "volume": "36",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Sanford, Clayton and Hsu, Daniel J and Telgarsky, Matus",
+      "title": "Representational strengths and limitations of transformers",
+      "ENTRYTYPE": "article",
+      "ID": "sanford2024representational"
+    },
+    {
+      "year": "2019",
+      "journal": "arXiv preprint arXiv:1912.10077",
+      "author": "Yun, Chulhee and Bhojanapalli, Srinadh and Rawat, Ankit Singh and Reddi, Sashank J and Kumar, Sanjiv",
+      "title": "Are transformers universal approximators of sequence-to-sequence functions?",
+      "ENTRYTYPE": "article",
+      "ID": "yun2019transformers"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2306.02010",
+      "author": "Mahdavi, Sadegh and Liao, Renjie and Thrampoulidis, Christos",
+      "title": "Memorization capacity of multi-head attention in transformers",
+      "ENTRYTYPE": "article",
+      "ID": "mahdavi2023memorization"
+    },
+    {
+      "year": "2023",
+      "booktitle": "The Eleventh International Conference on Learning Representations",
+      "author": "Kim, Junghwan and Kim, Michelle and Mozafari, Barzan",
+      "title": "Provable memorization capacity of transformers",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "kim2023provable"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2023",
+      "pages": "35151--35174",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Von Oswald, Johannes and Niklasson, Eyvind and Randazzo, Ettore and Sacramento, Jo{\\~a}o and Mordvintsev, Alexander and Zhmoginov, Andrey and Vladymyrov, Max",
+      "title": "Transformers learn in-context by gradient descent",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "von2023transformers"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2211.15661",
+      "author": "Aky{\\\"u}rek, Ekin and Schuurmans, Dale and Andreas, Jacob and Ma, Tengyu and Zhou, Denny",
+      "title": "What learning algorithm is in-context learning? investigations with linear models",
+      "ENTRYTYPE": "article",
+      "ID": "akyurek2022learning"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2302.06015",
+      "author": "Li, Hongkang and Wang, Meng and Liu, Sijia and Chen, Pin-Yu",
+      "title": "A theoretical understanding of shallow vision transformers: Learning, generalization, and sample complexity",
+      "ENTRYTYPE": "article",
+      "ID": "li2023theoretical"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2402.05738",
+      "author": "Vasudeva, Bhavya and Deora, Puneesh and Thrampoulidis, Christos",
+      "title": "Implicit bias and fast convergence rates for self-attention",
+      "ENTRYTYPE": "article",
+      "ID": "vasudeva2024implicit"
+    },
+    {
+      "year": "2020",
+      "number": "48",
+      "volume": "117",
+      "journal": "Proceedings of the National Academy of Sciences",
+      "author": "Bartlett, Peter L and Long, Philip M and Lugosi, G{\\'a}bor and Tsigler, Alexander",
+      "title": "Benign overfitting in linear regression",
+      "ENTRYTYPE": "article",
+      "ID": "bartlett2020benign"
+    },
+    {
+      "year": "2022",
+      "volume": "35",
+      "title": "Benign Overfitting in Two-layer Convolutional Neural Networks",
+      "publisher": "Curran Associates, Inc.",
+      "pages": "25237--25250",
+      "editor": "S. Koyejo and S. Mohamed and A. Agarwal and D. Belgrave and K. Cho and A. Oh",
+      "booktitle": "Advances in Neural Information Processing Systems",
+      "author": "Cao, Yuan and Chen, Zixiang and Belkin, Misha and Gu, Quanquan",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "cao22conv"
+    },
+    {
+      "year": "2021",
+      "pages": "107--115",
+      "number": "3",
+      "volume": "64",
+      "journal": "Communications of the ACM",
+      "author": "Zhang, Chiyuan and Bengio, Samy and Hardt, Moritz and Recht, Benjamin and Vinyals, Oriol",
+      "title": "Understanding deep learning (still) requires rethinking generalization",
+      "ENTRYTYPE": "article",
+      "ID": "zhang2021understanding"
+    },
+    {
+      "year": "2023",
+      "pages": "1--40",
+      "number": "113",
+      "volume": "24",
+      "journal": "Journal of Machine Learning Research",
+      "author": "Shamir, Ohad",
+      "title": "The implicit bias of benign overfitting",
+      "ENTRYTYPE": "article",
+      "ID": "shamir2023implicit"
+    },
+    {
+      "year": "2022",
+      "pages": "2668--2703",
+      "booktitle": "Conference on Learning Theory",
+      "author": "Frei, Spencer and Chatterji, Niladri S and Bartlett, Peter",
+      "title": "Benign overfitting without linearity: Neural network classifiers trained by gradient descent for noisy linear data",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "frei2022benign"
+    },
+    {
+      "year": "2023",
+      "pages": "3173--3228",
+      "booktitle": "The Thirty Sixth Annual Conference on Learning Theory",
+      "author": "Frei, Spencer and Vardi, Gal and Bartlett, Peter and Srebro, Nathan",
+      "title": "Benign overfitting in linear classifiers and leaky relu networks from kkt conditions for margin maximization",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "frei2023benign"
+    },
+    {
+      "year": "2024",
+      "volume": "36",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Kornowski, Guy and Yehudai, Gilad and Shamir, Ohad",
+      "title": "From tempered to benign overfitting in relu neural networks",
+      "ENTRYTYPE": "article",
+      "ID": "kornowski2024tempered"
+    },
+    {
+      "year": "2024",
+      "volume": "36",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "George, Erin and Murray, Michael and Swartworth, William and Needell, Deanna",
+      "title": "Training shallow ReLU networks on noisy data using hinge loss: when do we overfit and is it benign?",
+      "ENTRYTYPE": "article",
+      "ID": "george2024training"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2403.06903",
+      "author": "Karhadkar, Kedar and George, Erin and Murray, Michael and Mont{\\'u}far, Guido and Needell, Deanna",
+      "title": "Benign overfitting in leaky ReLU networks with moderate input dimension",
+      "ENTRYTYPE": "article",
+      "ID": "karhadkar2024benign"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2310.01975",
+      "author": "Meng, Xuran and Zou, Difan and Cao, Yuan",
+      "title": "Benign overfitting in two-layer relu convolutional neural networks for xor data",
+      "ENTRYTYPE": "article",
+      "ID": "meng2023benign"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2310.02541",
+      "author": "Xu, Zhiwei and Wang, Yutong and Frei, Spencer and Vardi, Gal and Hu, Wei",
+      "title": "Benign overfitting and grokking in relu networks for xor cluster data",
+      "ENTRYTYPE": "article",
+      "ID": "xu2023benign"
+    },
+    {
+      "year": "2021",
+      "volume": "22",
+      "title": "Finite-sample analysis of interpolating linear classifiers in the overparameterized regime",
+      "publisher": "JMLRORG",
+      "pages": "5721--5750",
+      "number": "1",
+      "journal": " Journal of Machine Learning Research",
+      "author": "Chatterji, Niladri S and Long, Philip M",
+      "ENTRYTYPE": "article",
+      "ID": "chatterji2021finite"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2021",
+      "pages": "4633--4635",
+      "booktitle": "Conference on Learning Theory",
+      "author": "Zou, Difan and Wu, Jingfeng and Braverman, Vladimir and Gu, Quanquan and Kakade, Sham",
+      "title": "Benign overfitting of constant-stepsize sgd for linear regression",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zou2021benign"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2023",
+      "pages": "17615--17659",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Kou, Yiwen and Chen, Zixiang and Chen, Yuanzhou and Gu, Quanquan",
+      "title": "Benign overfitting in two-layer ReLU convolutional neural networks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "kou2023benign"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2201.02177",
+      "author": "Power, Alethea and Burda, Yuri and Edwards, Harri and Babuschkin, Igor and Misra, Vedant",
+      "title": "Grokking: Generalization beyond overfitting on small algorithmic datasets",
+      "ENTRYTYPE": "article",
+      "ID": "power2022grokking"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2307.15396",
+      "author": "Joshi, Nirmit and Vardi, Gal and Srebro, Nathan",
+      "title": "Noisy interpolation learning with shallow univariate relu networks",
+      "ENTRYTYPE": "article",
+      "ID": "joshi2023noisy"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2019",
+      "pages": "2667--2690",
+      "booktitle": "Conference on Learning Theory",
+      "author": "Savarese, Pedro and Evron, Itay and Soudry, Daniel and Srebro, Nathan",
+      "title": "How do infinite width bounded norm networks look in function space?",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "savarese2019infinite"
+    },
+    {
+      "year": "2019",
+      "journal": "arXiv preprint arXiv:1910.01635",
+      "author": "Ongie, Greg and Willett, Rebecca and Soudry, Daniel and Srebro, Nathan",
+      "title": "A function space view of bounded norm infinite width relu nets: The multivariate case",
+      "ENTRYTYPE": "article",
+      "ID": "ongie2019function"
+    },
+    {
+      "year": "2021",
+      "journal": "Journal of machine learning research",
+      "author": "Ergen, Tolga and Pilanci, Mert",
+      "title": "Convex geometry and duality of over-parameterized neural networks",
+      "ENTRYTYPE": "article",
+      "ID": "ergen2021convex"
+    },
+    {
+      "year": "2021",
+      "journal": "arXiv preprint arXiv:2109.12960",
+      "author": "Hanin, Boris",
+      "title": "Ridgeless Interpolation with Shallow ReLU Networks in $1 D $ is Nearest Neighbor Curvature Extrapolation and Provably Generalizes on Lipschitz Functions",
+      "ENTRYTYPE": "article",
+      "ID": "hanin2021ridgeless"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "2022",
+      "pages": "114044",
+      "volume": "406",
+      "journal": "Journal of Computational and Applied Mathematics",
+      "author": "Debarre, Thomas and Denoyelle, Quentin and Unser, Michael and Fageot, Julien",
+      "title": "Sparsest piecewise-linear regression of one-dimensional data",
+      "ENTRYTYPE": "article",
+      "ID": "debarre2022sparsest"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2303.01353",
+      "author": "Boursier, Etienne and Flammarion, Nicolas",
+      "title": "Penalising the biases in norm regularisation enforces sparsity",
+      "ENTRYTYPE": "article",
+      "ID": "boursier2023penalising"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2023",
+      "pages": "11094--11117",
+      "booktitle": "International Conference on Artificial Intelligence and Statistics",
+      "author": "Xu, Xingyu and Gu, Yuantao",
+      "title": "Benign overfitting of non-smooth neural networks beyond lazy training",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "xu2023bbenign"
+    },
+    {
+      "publisher": "Cambridge university press",
+      "year": "2018",
+      "volume": "47",
+      "author": "Vershynin, Roman",
+      "title": "High-dimensional probability: An introduction with applications in data science",
+      "ENTRYTYPE": "book",
+      "ID": "vershynin2018high"
+    },
+    {
+      "pages": "87–201",
+      "year": "2021",
+      "author": "Bartlett, Peter L. and Montanari, Andrea and Rakhlin, Alexander",
+      "publisher": "Cambridge University Press",
+      "journal": "Acta Numerica",
+      "volume": "30",
+      "title": "Deep learning: a statistical viewpoint",
+      "ENTRYTYPE": "article",
+      "ID": "bartlett2021statisticalviewpoint"
+    },
+    {
+      "pages": "203–248",
+      "year": "2021",
+      "author": "Belkin, Mikhail",
+      "journal": "Acta Numerica",
+      "volume": "30",
+      "title": "Fit without fear: remarkable mathematical phenomena of deep learning through the prism of interpolation",
+      "ENTRYTYPE": "article",
+      "ID": "belkin2021survey"
+    },
+    {
+      "pages": "1--55",
+      "number": "49",
+      "volume": "25",
+      "year": "2024",
+      "journal": "Journal of Machine Learning Research",
+      "author": "Zhang, Ruiqi and Frei, Spencer and Bartlett, Peter L",
+      "title": "Trained Transformers Learn Linear Models In-Context",
+      "ENTRYTYPE": "article",
+      "ID": "zhang2023trained"
+    },
+    {
+      "year": "2023",
+      "volume": "36",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Ahn, Kwangjun and Cheng, Xiang and Daneshmand, Hadi and Sra, Suvrit",
+      "title": "Transformers learn to implement preconditioned gradient descent for in-context learning",
+      "ENTRYTYPE": "article",
+      "ID": "ahn2023transformers"
+    },
+    {
+      "journal": "Preprint, arXiv:2310.08391",
+      "year": "2023",
+      "author": "Jingfeng Wu and Difan Zou and Zixiang Chen and Vladimir Braverman and Quanquan Gu and Peter L. Bartlett",
+      "title": "How Many Pretraining Tasks Are Needed for In-Context Learning of Linear Regression?",
+      "ENTRYTYPE": "article",
+      "ID": "wu2023pretraining"
+    },
+    {
+      "year": "2020",
+      "journal": "arXiv preprint arXiv:2010.11929",
+      "author": "Dosovitskiy, Alexey",
+      "title": "An image is worth 16x16 words: Transformers for image recognition at scale",
+      "ENTRYTYPE": "article",
+      "ID": "dosovitskiy2020image"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2409.19345",
+      "author": "Jiang, Jiarui and Huang, Wei and Zhang, Miao and Suzuki, Taiji and Nie, Liqiang",
+      "title": "Unveil benign overfitting for transformer in vision: Training dynamics, convergence, and generalization",
+      "ENTRYTYPE": "article",
+      "ID": "jiang2024unveil"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2409.17625",
+      "author": "Sakamoto, Keitaro and Sato, Issei",
+      "title": "Benign or not-benign overfitting in token selection of attention mechanism",
+      "ENTRYTYPE": "article",
+      "ID": "sakamoto2024benign"
+    }
+  ]
+}

@@ -1,0 +1,705 @@
+{
+  "pdf_url": "https://arxiv.org/pdf/2502.18710v3.pdf",
+  "references": [
+    {
+      "publisher": "Cold Spring Harbor Laboratory",
+      "year": "2024",
+      "pages": "2024--06",
+      "journal": "bioRxiv",
+      "author": "Khosla, Meenakshi and Williams, Alex H and McDermott, Josh and Kanwisher, Nancy",
+      "title": "Privileged representational axes in biological and artificial neural networks",
+      "ENTRYTYPE": "article",
+      "ID": "khosla2024privileged"
+    },
+    {
+      "year": "2018",
+      "volume": "31",
+      "journal": "Advances in neural information processing systems",
+      "author": "Morcos, Ari and Raghu, Maithra and Bengio, Samy",
+      "title": "Insights on representational similarity in neural networks with canonical correlation",
+      "ENTRYTYPE": "article",
+      "ID": "morcos2018insights"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2411.14633",
+      "author": "Bo, Yiqing and Soni, Ansh and Srivastava, Sudhanshu and Khosla, Meenakshi",
+      "title": "Evaluating Representational Similarity Measures from the Lens of Functional Correspondence",
+      "ENTRYTYPE": "article",
+      "ID": "bo2024evaluating"
+    },
+    {
+      "publisher": "Nature Publishing Group UK London",
+      "year": "2024",
+      "pages": "9383",
+      "number": "1",
+      "volume": "15",
+      "journal": "Nature communications",
+      "author": "Conwell, Colin and Prince, Jacob S and Kay, Kendrick N and Alvarez, George A and Konkle, Talia",
+      "title": "A large-scale examination of inductive biases shaping high-level visual representation in brains and machines",
+      "ENTRYTYPE": "article",
+      "ID": "conwell2024large"
+    },
+    {
+      "year": "2020",
+      "journal": "arXiv preprint arXiv:2002.10365",
+      "author": "Frankle, Jonathan and Schwab, David J and Morcos, Ari S",
+      "title": "The early phase of neural network training",
+      "ENTRYTYPE": "article",
+      "ID": "frankle2020early"
+    },
+    {
+      "year": "2021",
+      "pages": "4738--4750",
+      "volume": "34",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Williams, Alex H and Kunz, Erin and Kornblith, Simon and Linderman, Scott",
+      "title": "Generalized shape metrics on neural representations",
+      "ENTRYTYPE": "article",
+      "ID": "williams2021generalized"
+    },
+    {
+      "organization": "JMLR Workshop and Conference Proceedings",
+      "year": "2010",
+      "pages": "249--256",
+      "booktitle": "Proceedings of the thirteenth international conference on artificial intelligence and statistics",
+      "author": "Glorot, Xavier and Bengio, Yoshua",
+      "title": "Understanding the difficulty of training deep feedforward neural networks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "glorot2010understanding"
+    },
+    {
+      "year": "2021",
+      "pages": "12116--12128",
+      "volume": "34",
+      "journal": "Advances in neural information processing systems",
+      "author": "Raghu, Maithra and Unterthiner, Thomas and Kornblith, Simon and Zhang, Chiyuan and Dosovitskiy, Alexey",
+      "title": "Do vision transformers see like convolutional neural networks?",
+      "ENTRYTYPE": "article",
+      "ID": "raghu2021vision"
+    },
+    {
+      "year": "2018",
+      "journal": "arXiv preprint arXiv:1811.12231",
+      "author": "Geirhos, Robert and Rubisch, Patricia and Michaelis, Claudio and Bethge, Matthias and Wichmann, Felix A and Brendel, Wieland",
+      "title": "ImageNet-trained CNNs are biased towards texture; increasing shape bias improves accuracy and robustness",
+      "ENTRYTYPE": "article",
+      "ID": "geirhos2018imagenet"
+    },
+    {
+      "organization": "Ieee",
+      "year": "2009",
+      "pages": "248--255",
+      "booktitle": "2009 IEEE conference on computer vision and pattern recognition",
+      "author": "Deng, Jia and Dong, Wei and Socher, Richard and Li, Li-Jia and Li, Kai and Fei-Fei, Li",
+      "title": "Imagenet: A large-scale hierarchical image database",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "deng2009imagenet"
+    },
+    {
+      "year": "2014",
+      "volume": "27",
+      "journal": "Advances in neural information processing systems",
+      "author": "Yosinski, Jason and Clune, Jeff and Bengio, Yoshua and Lipson, Hod",
+      "title": "How transferable are features in deep neural networks?",
+      "ENTRYTYPE": "article",
+      "ID": "yosinski2014transferable"
+    },
+    {
+      "organization": "Springer",
+      "year": "2014",
+      "pages": "818--833",
+      "booktitle": "Computer Vision--ECCV 2014: 13th European Conference, Zurich, Switzerland, September 6-12, 2014, Proceedings, Part I 13",
+      "author": "Zeiler, Matthew D and Fergus, Rob",
+      "title": "Visualizing and understanding convolutional networks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zeiler2014visualizing"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2405.07987",
+      "author": "Huh, Minyoung and Cheung, Brian and Wang, Tongzhou and Isola, Phillip",
+      "title": "The platonic representation hypothesis",
+      "ENTRYTYPE": "article",
+      "ID": "huh2024platonic"
+    },
+    {
+      "year": "2021",
+      "pages": "225--236",
+      "volume": "34",
+      "journal": "Advances in neural information processing systems",
+      "author": "Bansal, Yamini and Nakkiran, Preetum and Barak, Boaz",
+      "title": "Revisiting model stitching to compare neural representations",
+      "ENTRYTYPE": "article",
+      "ID": "bansal2021revisiting"
+    },
+    {
+      "year": "2019",
+      "volume": "32",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Ronen, Basri and Jacobs, David and Kasten, Yoni and Kritchman, Shira",
+      "title": "The convergence rate of neural networks for learned functions of different frequencies",
+      "ENTRYTYPE": "article",
+      "ID": "ronen2019convergence"
+    },
+    {
+      "year": "2023",
+      "booktitle": "The Eleventh International Conference on Learning Representations",
+      "author": "Chen, Yixiong and Yuille, Alan and Zhou, Zongwei",
+      "title": "Which layer is learning faster? a systematic exploration of layer-wise convergence rate for deep neural networks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "chen2023layer"
+    },
+    {
+      "year": "2021",
+      "pages": "1556--1568",
+      "volume": "34",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Ding, Frances and Denain, Jean-Stanislas and Steinhardt, Jacob",
+      "title": "Grounding representation similarity through statistical testing",
+      "ENTRYTYPE": "article",
+      "ID": "ding2021grounding"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2024",
+      "pages": "326--341",
+      "booktitle": "Proceedings of UniReps: the First Workshop on Unifying Representations in Neural Models",
+      "author": "Khosla, Meenakshi and Williams, Alex H",
+      "title": "Soft Matching Distance: A metric on neural representations that captures single-neuron tuning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "khosla2024soft"
+    },
+    {
+      "year": "2013",
+      "pages": "37--76",
+      "volume": "625",
+      "journal": "Discrete geometry and algebraic combinatorics",
+      "author": "De Loera, Jes{\\'u}s A and Kim, Edward D",
+      "title": "Combinatorics and geometry of transportation polytopes: An update.",
+      "ENTRYTYPE": "article",
+      "ID": "de2013combinatorics"
+    },
+    {
+      "year": "2016",
+      "pages": "770--778",
+      "booktitle": "Proceedings of the IEEE conference on computer vision and pattern recognition",
+      "author": "He, Kaiming and Zhang, Xiangyu and Ren, Shaoqing and Sun, Jian",
+      "title": "Deep residual learning for image recognition",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "he2016deep"
+    },
+    {
+      "year": "2014",
+      "journal": "arXiv preprint arXiv:1409.1556",
+      "author": "Simonyan, Karen and Zisserman, Andrew",
+      "title": "Very deep convolutional networks for large-scale image recognition",
+      "ENTRYTYPE": "article",
+      "ID": "simonyan2014very"
+    },
+    {
+      "publisher": "Wiley",
+      "year": "1962",
+      "pages": "106",
+      "number": "1",
+      "volume": "160",
+      "journal": "The Journal of physiology",
+      "author": "Hubel, David H and Wiesel, Torsten N",
+      "title": "Receptive fields, binocular interaction and functional architecture in the cat's visual cortex",
+      "ENTRYTYPE": "article",
+      "ID": "hubel1962receptive"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "2018",
+      "pages": "101--109",
+      "volume": "180",
+      "journal": "NeuroImage",
+      "author": "Kay, Kendrick N",
+      "title": "Principles for models of neural information processing",
+      "ENTRYTYPE": "article",
+      "ID": "kay2018principles"
+    },
+    {
+      "publisher": "Springer",
+      "year": "1980",
+      "pages": "193--202",
+      "number": "4",
+      "volume": "36",
+      "journal": "Biological cybernetics",
+      "author": "Fukushima, Kunihiko",
+      "title": "Neocognitron: A self-organizing neural network model for a mechanism of pattern recognition unaffected by shift in position",
+      "ENTRYTYPE": "article",
+      "ID": "fukushima1980neocognitron"
+    },
+    {
+      "publisher": "Toronto, ON, Canada",
+      "year": "2009",
+      "author": "Krizhevsky, Alex and Hinton, Geoffrey and others",
+      "title": "Learning multiple layers of features from tiny images",
+      "ENTRYTYPE": "article",
+      "ID": "krizhevsky2009learning"
+    },
+    {
+      "publisher": "Cold Spring Harbor Laboratory",
+      "year": "2018",
+      "pages": "407007",
+      "journal": "BioRxiv",
+      "author": "Schrimpf, Martin and Kubilius, Jonas and Hong, Ha and Majaj, Najib J and Rajalingham, Rishi and Issa, Elias B and Kar, Kohitij and Bashivan, Pouya and Prescott-Roy, Jonathan and Geiger, Franziska and others",
+      "title": "Brain-score: Which artificial neural network for object recognition is most brain-like?",
+      "ENTRYTYPE": "article",
+      "ID": "schrimpf2018brain"
+    },
+    {
+      "year": "2012",
+      "volume": "25",
+      "journal": "Advances in neural information processing systems",
+      "author": "Krizhevsky, Alex and Sutskever, Ilya and Hinton, Geoffrey E",
+      "title": "Imagenet classification with deep convolutional neural networks",
+      "ENTRYTYPE": "article",
+      "ID": "krizhevsky2012imagenet"
+    },
+    {
+      "year": "2013",
+      "journal": "arXiv preprint arXiv:1312.6229",
+      "author": "Sermanet, P",
+      "title": "Overfeat: Integrated Recognition, Localization and Detection Using Convolutional networks",
+      "ENTRYTYPE": "article",
+      "ID": "sermanet2013overfeat"
+    },
+    {
+      "organization": "Springer",
+      "year": "2015",
+      "pages": "234--241",
+      "booktitle": "Medical image computing and computer-assisted intervention--MICCAI 2015: 18th international conference, Munich, Germany, October 5-9, 2015, proceedings, part III 18",
+      "author": "Ronneberger, Olaf and Fischer, Philipp and Brox, Thomas",
+      "title": "U-net: Convolutional networks for biomedical image segmentation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ronneberger2015u"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "2017",
+      "pages": "834--848",
+      "number": "4",
+      "volume": "40",
+      "journal": "IEEE transactions on pattern analysis and machine intelligence",
+      "author": "Chen, Liang-Chieh and Papandreou, George and Kokkinos, Iasonas and Murphy, Kevin and Yuille, Alan L",
+      "title": "Deeplab: Semantic image segmentation with deep convolutional nets, atrous convolution, and fully connected crfs",
+      "ENTRYTYPE": "article",
+      "ID": "chen2017deeplab"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "2012",
+      "pages": "1915--1929",
+      "number": "8",
+      "volume": "35",
+      "journal": "IEEE transactions on pattern analysis and machine intelligence",
+      "author": "Farabet, Clement and Couprie, Camille and Najman, Laurent and LeCun, Yann",
+      "title": "Learning hierarchical features for scene labeling",
+      "ENTRYTYPE": "article",
+      "ID": "farabet2012learning"
+    },
+    {
+      "publisher": "National Acad Sciences",
+      "year": "2014",
+      "pages": "8619--8624",
+      "number": "23",
+      "volume": "111",
+      "journal": "Proceedings of the national academy of sciences",
+      "author": "Yamins, Daniel LK and Hong, Ha and Cadieu, Charles F and Solomon, Ethan A and Seibert, Darren and DiCarlo, James J",
+      "title": "Performance-optimized hierarchical models predict neural responses in higher visual cortex",
+      "ENTRYTYPE": "article",
+      "ID": "yamins2014performance"
+    },
+    {
+      "publisher": "Nature Publishing Group",
+      "year": "2016",
+      "pages": "356--365",
+      "number": "3",
+      "volume": "19",
+      "journal": "Nature neuroscience",
+      "author": "Yamins, Daniel LK and DiCarlo, James J",
+      "title": "Using goal-driven deep learning models to understand sensory cortex",
+      "ENTRYTYPE": "article",
+      "ID": "yamins2016using"
+    },
+    {
+      "publisher": "Public Library of Science San Francisco, USA",
+      "year": "2014",
+      "pages": "e1003915",
+      "number": "11",
+      "volume": "10",
+      "journal": "PLoS computational biology",
+      "author": "Khaligh-Razavi, Seyed-Mahdi and Kriegeskorte, Nikolaus",
+      "title": "Deep supervised, but not unsupervised, models may explain IT cortical representation",
+      "ENTRYTYPE": "article",
+      "ID": "khaligh2014deep"
+    },
+    {
+      "year": "1959",
+      "pages": "574--591",
+      "number": "3",
+      "volume": "148",
+      "journal": "J physiol",
+      "author": "Hubel, David H and Wiesel, Torsten N and others",
+      "title": "Receptive fields of single neurones in the cat’s striate cortex",
+      "ENTRYTYPE": "article",
+      "ID": "hubel1959receptive"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "2020",
+      "pages": "413--423",
+      "number": "3",
+      "volume": "108",
+      "journal": "Neuron",
+      "author": "Schrimpf, Martin and Kubilius, Jonas and Lee, Michael J and Murty, N Apurva Ratan and Ajemian, Robert and DiCarlo, James J",
+      "title": "Integrative benchmarking to advance neurally mechanistic models of human intelligence",
+      "ENTRYTYPE": "article",
+      "ID": "schrimpf2020integrative"
+    },
+    {
+      "publisher": "Nature Publishing Group UK London",
+      "year": "2016",
+      "pages": "27755",
+      "number": "1",
+      "volume": "6",
+      "journal": "Scientific reports",
+      "author": "Cichy, Radoslaw Martin and Khosla, Aditya and Pantazis, Dimitrios and Torralba, Antonio and Oliva, Aude",
+      "title": "Comparison of deep neural networks to spatio-temporal cortical dynamics of human visual object recognition reveals hierarchical correspondence",
+      "ENTRYTYPE": "article",
+      "ID": "cichy2016comparison"
+    },
+    {
+      "publisher": "Nature Publishing Group US New York",
+      "year": "2019",
+      "pages": "1761--1770",
+      "number": "11",
+      "volume": "22",
+      "journal": "Nature neuroscience",
+      "author": "Richards, Blake A and Lillicrap, Timothy P and Beaudoin, Philippe and Bengio, Yoshua and Bogacz, Rafal and Christensen, Amelia and Clopath, Claudia and Costa, Rui Ponte and de Berker, Archy and Ganguli, Surya and others",
+      "title": "A deep learning framework for neuroscience",
+      "ENTRYTYPE": "article",
+      "ID": "richards2019deep"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "2019",
+      "pages": "R231--R236",
+      "number": "7",
+      "volume": "29",
+      "journal": "Current Biology",
+      "author": "Kriegeskorte, Nikolaus and Golan, Tal",
+      "title": "Neural network models and deep learning",
+      "ENTRYTYPE": "article",
+      "ID": "kriegeskorte2019neural"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2019",
+      "pages": "3519--3529",
+      "booktitle": "International conference on machine learning",
+      "author": "Kornblith, Simon and Norouzi, Mohammad and Lee, Honglak and Hinton, Geoffrey",
+      "title": "Similarity of neural network representations revisited",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "kornblith2019similarity"
+    },
+    {
+      "year": "2020",
+      "journal": "arXiv preprint arXiv:2010.15327",
+      "author": "Nguyen, Thao and Raghu, Maithra and Kornblith, Simon",
+      "title": "Do wide and deep networks learn the same things? uncovering how neural network representations vary with width and depth",
+      "ENTRYTYPE": "article",
+      "ID": "nguyen2020wide"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2019",
+      "pages": "5301--5310",
+      "booktitle": "International conference on machine learning",
+      "author": "Rahaman, Nasim and Baratin, Aristide and Arpit, Devansh and Draxler, Felix and Lin, Min and Hamprecht, Fred and Bengio, Yoshua and Courville, Aaron",
+      "title": "On the spectral bias of neural networks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "rahaman2019spectral"
+    },
+    {
+      "year": "2017",
+      "pages": "6541--6549",
+      "booktitle": "Proceedings of the IEEE conference on computer vision and pattern recognition",
+      "author": "Bau, David and Zhou, Bolei and Khosla, Aditya and Oliva, Aude and Torralba, Antonio",
+      "title": "Network dissection: Quantifying interpretability of deep visual representations",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "bau2017network"
+    },
+    {
+      "year": "2018",
+      "volume": "31",
+      "journal": "Advances in neural information processing systems",
+      "author": "Jacot, Arthur and Gabriel, Franck and Hongler, Cl{\\'e}ment",
+      "title": "Neural tangent kernel: Convergence and generalization in neural networks",
+      "ENTRYTYPE": "article",
+      "ID": "jacot2018neural"
+    },
+    {
+      "year": "2017",
+      "volume": "30",
+      "journal": "Advances in neural information processing systems",
+      "author": "Raghu, Maithra and Gilmer, Justin and Yosinski, Jason and Sohl-Dickstein, Jascha",
+      "title": "Svcca: Singular vector canonical correlation analysis for deep learning dynamics and interpretability",
+      "ENTRYTYPE": "article",
+      "ID": "raghu2017svcca"
+    },
+    {
+      "year": "2015",
+      "journal": "arXiv preprint arXiv:1511.07543",
+      "author": "Li, Yixuan and Yosinski, Jason and Clune, Jeff and Lipson, Hod and Hopcroft, John",
+      "title": "Convergent learning: Do different neural networks learn the same representations?",
+      "ENTRYTYPE": "article",
+      "ID": "li2015convergent"
+    },
+    {
+      "publisher": "Nature Publishing Group UK London",
+      "year": "2020",
+      "pages": "5725",
+      "number": "1",
+      "volume": "11",
+      "journal": "Nature communications",
+      "author": "Mehrer, Johannes and Spoerer, Courtney J and Kriegeskorte, Nikolaus and Kietzmann, Tim C",
+      "title": "Individual differences among deep neural network models",
+      "ENTRYTYPE": "article",
+      "ID": "mehrer2020individual"
+    },
+    {
+      "year": "2021",
+      "journal": "arXiv preprint arXiv:2104.01489",
+      "author": "Cao, Rosa and Yamins, Daniel",
+      "title": "Explanatory models in neuroscience: Part 2--constraint-based intelligibility",
+      "ENTRYTYPE": "article",
+      "ID": "cao2021explanatory"
+    },
+    {
+      "year": "2022",
+      "booktitle": "SVRHM 2022 Workshop@ NeurIPS",
+      "author": "Prasad, Aaditya and Manor, Uri and Pereira, Talmo",
+      "title": "Exploring the role of image domain in self-supervised DNN models of rodent brains",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "prasad2022exploring"
+    },
+    {
+      "publisher": "SIAM",
+      "year": "2012",
+      "author": "Burkard, Rainer and Dell'Amico, Mauro and Martello, Silvano",
+      "title": "Assignment problems: revised reprint",
+      "ENTRYTYPE": "book",
+      "ID": "burkard2012assignment"
+    },
+    {
+      "year": "2015",
+      "journal": "arXiv preprint arXiv:1508.06576",
+      "author": "Gatys, Leon A and Ecker, Alexander S and Bethge, Matthias",
+      "title": "A neural algorithm of artistic style",
+      "ENTRYTYPE": "article",
+      "ID": "gatys2015neural"
+    },
+    {
+      "year": "2021",
+      "pages": "23885--23899",
+      "volume": "34",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Geirhos, Robert and Narayanappa, Kantharaju and Mitzkus, Benjamin and Thieringer, Tizian and Bethge, Matthias and Wichmann, Felix A and Brendel, Wieland",
+      "title": "Partial success in closing the gap between human and machine vision",
+      "ENTRYTYPE": "article",
+      "ID": "geirhos2021partial"
+    },
+    {
+      "year": "2018",
+      "volume": "31",
+      "journal": "Advances in neural information processing systems",
+      "author": "Geirhos, Robert and Temme, Carlos RM and Rauber, Jonas and Sch{\\\"u}tt, Heiko H and Bethge, Matthias and Wichmann, Felix A",
+      "title": "Generalisation in humans and deep neural networks",
+      "ENTRYTYPE": "article",
+      "ID": "geirhos2018generalisation"
+    },
+    {
+      "publisher": "Nature Publishing Group US New York",
+      "year": "2022",
+      "pages": "116--126",
+      "number": "1",
+      "volume": "25",
+      "journal": "Nature neuroscience",
+      "author": "Allen, Emily J and St-Yves, Ghislain and Wu, Yihan and Breedlove, Jesse L and Prince, Jacob S and Dowdle, Logan T and Nau, Matthias and Caron, Brad and Pestilli, Franco and Charest, Ian and others",
+      "title": "A massive 7T fMRI dataset to bridge cognitive neuroscience and artificial intelligence",
+      "ENTRYTYPE": "article",
+      "ID": "allen2022massive"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2503.06286",
+      "author": "Gifford, Alessandro T and Cichy, Radoslaw M and Naselaris, Thomas and Kay, Kendrick",
+      "title": "A 7T fMRI dataset of synthetic images for out-of-distribution modeling of vision",
+      "ENTRYTYPE": "article",
+      "ID": "gifford20257t"
+    },
+    {
+      "year": "2021",
+      "journal": "arXiv preprint arXiv:2111.00034",
+      "author": "Atanasov, Alexander and Bordelon, Blake and Pehlevan, Cengiz",
+      "title": "Neural networks as kernel learners: The silent alignment effect",
+      "ENTRYTYPE": "article",
+      "ID": "atanasov2021neural"
+    },
+    {
+      "publisher": "National Academy of Sciences",
+      "year": "2021",
+      "pages": "e2014196118",
+      "number": "3",
+      "volume": "118",
+      "journal": "Proceedings of the National Academy of Sciences",
+      "author": "Zhuang, Chengxu and Yan, Siming and Nayebi, Aran and Schrimpf, Martin and Frank, Michael C and DiCarlo, James J and Yamins, Daniel LK",
+      "title": "Unsupervised neural network models of the ventral visual stream",
+      "ENTRYTYPE": "article",
+      "ID": "zhuang2021unsupervised"
+    },
+    {
+      "year": "2019",
+      "volume": "32",
+      "journal": "Advances in neural information processing systems",
+      "author": "Kubilius, Jonas and Schrimpf, Martin and Kar, Kohitij and Rajalingham, Rishi and Hong, Ha and Majaj, Najib and Issa, Elias and Bashivan, Pouya and Prescott-Roy, Jonathan and Schmidt, Kailyn and others",
+      "title": "Brain-like object recognition with high-performing shallow recurrent ANNs",
+      "ENTRYTYPE": "article",
+      "ID": "kubilius2019brain"
+    },
+    {
+      "publisher": "Cold Spring Harbor Laboratory",
+      "year": "2024",
+      "pages": "2024--08",
+      "journal": "bioRxiv",
+      "author": "Soni, Ansh and Srivastava, Sudhanshu and Kording, Konrad and Khosla, Meenakshi",
+      "title": "Conclusions about neural network to brain alignment are profoundly impacted by the similarity measure",
+      "ENTRYTYPE": "article",
+      "ID": "soni2024conclusions"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2310.13018",
+      "author": "Sucholutsky, Ilia and Muttenthaler, Lukas and Weller, Adrian and Peng, Andi and Bobu, Andreea and Kim, Been and Love, Bradley C and Grant, Erin and Groen, Iris and Achterberg, Jascha and others",
+      "title": "Getting aligned on representational alignment",
+      "ENTRYTYPE": "article",
+      "ID": "sucholutsky2023getting"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2209.15430",
+      "author": "Moschella, Luca and Maiorca, Valentino and Fumero, Marco and Norelli, Antonio and Locatello, Francesco and Rodol{\\`a}, Emanuele",
+      "title": "Relative representations enable zero-shot latent space communication (2023)",
+      "ENTRYTYPE": "article",
+      "ID": "moschella2023relative"
+    },
+    {
+      "year": "2019",
+      "volume": "32",
+      "journal": "Advances in neural information processing systems",
+      "author": "Arora, Sanjeev and Du, Simon S and Hu, Wei and Li, Zhiyuan and Salakhutdinov, Russ R and Wang, Ruosong",
+      "title": "On exact computation with an infinitely wide neural net",
+      "ENTRYTYPE": "article",
+      "ID": "arora2019exact"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2409.14623",
+      "author": "Domin{\\'e}, Cl{\\'e}mentine CJ and Anguita, Nicolas and Proca, Alexandra M and Braun, Lukas and Kunin, Daniel and Mediano, Pedro AM and Saxe, Andrew M",
+      "title": "From lazy to rich: Exact learning dynamics in deep linear networks",
+      "ENTRYTYPE": "article",
+      "ID": "domine2024lazy"
+    },
+    {
+      "year": "2013",
+      "journal": "arXiv preprint arXiv:1312.6120",
+      "author": "Saxe, Andrew M and McClelland, James L and Ganguli, Surya",
+      "title": "Exact solutions to the nonlinear dynamics of learning in deep linear neural networks",
+      "ENTRYTYPE": "article",
+      "ID": "saxe2013exact"
+    },
+    {
+      "year": "2020",
+      "pages": "9912--9924",
+      "volume": "33",
+      "journal": "Advances in neural information processing systems",
+      "author": "Caron, Mathilde and Misra, Ishan and Mairal, Julien and Goyal, Priya and Bojanowski, Piotr and Joulin, Armand",
+      "title": "Unsupervised learning of visual features by contrasting cluster assignments",
+      "ENTRYTYPE": "article",
+      "ID": "caron2020unsupervised"
+    },
+    {
+      "year": "2017",
+      "journal": "arXiv preprint arXiv:1708.00055",
+      "author": "Cer, Daniel and Diab, Mona and Agirre, Eneko and Lopez-Gazpio, Inigo and Specia, Lucia",
+      "title": "Semeval-2017 task 1: Semantic textual similarity-multilingual and cross-lingual focused evaluation",
+      "ENTRYTYPE": "article",
+      "ID": "cer2017semeval"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2023",
+      "pages": "2397--2430",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Biderman, Stella and Schoelkopf, Hailey and Anthony, Quentin Gregory and Bradley, Herbie and O’Brien, Kyle and Hallahan, Eric and Khan, Mohammad Aflah and Purohit, Shivanshu and Prashanth, USVSN Sai and Raff, Edward and others",
+      "title": "Pythia: A suite for analyzing large language models across training and scaling",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "biderman2023pythia"
+    },
+    {
+      "year": "2020",
+      "journal": "arXiv preprint arXiv:2101.00027",
+      "author": "Gao, Leo and Biderman, Stella and Black, Sid and Golding, Laurence and Hoppe, Travis and Foster, Charles and Phang, Jason and He, Horace and Thite, Anish and Nabeshima, Noa and others",
+      "title": "The pile: An 800gb dataset of diverse text for language modeling",
+      "ENTRYTYPE": "article",
+      "ID": "gao2020pile"
+    },
+    {
+      "year": "2021",
+      "journal": "Journal of Bars",
+      "author": "Foo, Alice",
+      "title": "Bar in Action",
+      "ENTRYTYPE": "article",
+      "ID": "foo2021bar"
+    },
+    {
+      "organization": "PmLR",
+      "year": "2020",
+      "pages": "1597--1607",
+      "booktitle": "International conference on machine learning",
+      "author": "Chen, Ting and Kornblith, Simon and Norouzi, Mohammad and Hinton, Geoffrey",
+      "title": "A simple framework for contrastive learning of visual representations",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "chen2020simple"
+    },
+    {
+      "year": "2020",
+      "pages": "9729--9738",
+      "booktitle": "Proceedings of the IEEE/CVF conference on computer vision and pattern recognition",
+      "author": "He, Kaiming and Fan, Haoqi and Wu, Yuxin and Xie, Saining and Girshick, Ross",
+      "title": "Momentum contrast for unsupervised visual representation learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "he2020momentum"
+    },
+    {
+      "year": "2020",
+      "journal": "arXiv preprint arXiv:2010.11929",
+      "author": "Dosovitskiy, Alexey and Beyer, Lucas and Kolesnikov, Alexander and Weissenborn, Dirk and Zhai, Xiaohua and Unterthiner, Thomas and Dehghani, Mostafa and Minderer, Matthias and Heigold, Georg and Gelly, Sylvain and others",
+      "title": "An image is worth 16x16 words: Transformers for image recognition at scale",
+      "ENTRYTYPE": "article",
+      "ID": "dosovitskiy2020image"
+    },
+    {
+      "year": "2025",
+      "booktitle": "Forty-second International Conference on Machine Learning",
+      "author": "Braun, Lukas and Grant, Erin and Saxe, Andrew M",
+      "title": "Not all solutions are created equal: An analytical dissociation of functional and representational similarity in deep linear neural networks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "braun2025not"
+    }
+  ]
+}

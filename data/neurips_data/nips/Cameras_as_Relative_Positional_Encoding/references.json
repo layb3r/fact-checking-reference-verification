@@ -1,0 +1,820 @@
+{
+  "pdf_url": "https://arxiv.org/pdf/2507.10496v2.pdf",
+  "references": [
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2307.08691",
+      "author": "Dao, Tri",
+      "title": "Flashattention-2: Faster attention with better parallelism and work partitioning",
+      "ENTRYTYPE": "article",
+      "ID": "dao2023flashattention"
+    },
+    {
+      "year": "2018",
+      "journal": "arXiv preprint arXiv:1803.02155",
+      "author": "Shaw, Peter and Uszkoreit, Jakob and Vaswani, Ashish",
+      "title": "Self-attention with relative position representations",
+      "ENTRYTYPE": "article",
+      "ID": "shaw2018self"
+    },
+    {
+      "year": "2020",
+      "pages": "7537--7547",
+      "volume": "33",
+      "journal": "Advances in neural information processing systems",
+      "author": "Tancik, Matthew and Srinivasan, Pratul and Mildenhall, Ben and Fridovich-Keil, Sara and Raghavan, Nithin and Singhal, Utkarsh and Ramamoorthi, Ravi and Barron, Jonathan and Ng, Ren",
+      "title": "Fourier features let networks learn high frequency functions in low dimensional domains",
+      "ENTRYTYPE": "article",
+      "ID": "tancik2020fourier"
+    },
+    {
+      "year": "2021",
+      "pages": "19313--19325",
+      "volume": "34",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Sitzmann, Vincent and Rezchikov, Semon and Freeman, Bill and Tenenbaum, Josh and Durand, Fredo",
+      "title": "Light field networks: Neural scene representations with single-evaluation rendering",
+      "ENTRYTYPE": "article",
+      "ID": "sitzmann2021light"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2410.17242",
+      "author": "Jin, Haian and Jiang, Hanwen and Tan, Hao and Zhang, Kai and Bi, Sai and Zhang, Tianyuan and Luan, Fujun and Snavely, Noah and Xu, Zexiang",
+      "title": "Lvsm: A large view synthesis model with minimal 3d inductive bias",
+      "ENTRYTYPE": "article",
+      "ID": "jin2024lvsm"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2501.18804",
+      "author": "Guizilini, Vitor and Irshad, Muhammad Zubair and Chen, Dian and Shakhnarovich, Greg and Ambrus, Rares",
+      "title": "Zero-Shot Novel View and Depth Synthesis with Multi-View Geometric Diffusion",
+      "ENTRYTYPE": "article",
+      "ID": "guizilini2025zero"
+    },
+    {
+      "year": "2023",
+      "pages": "19697--19705",
+      "booktitle": "Proceedings of the IEEE/CVF International Conference on Computer Vision",
+      "author": "Barron, Jonathan T and Mildenhall, Ben and Verbin, Dor and Srinivasan, Pratul P and Hedman, Peter",
+      "title": "Zip-nerf: Anti-aliased grid-based neural radiance fields",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "barron2023zip"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2310.17994",
+      "author": "Sargent, Kyle and Li, Zizhang and Shah, Tanmay and Herrmann, Charles and Yu, Hong-Xing and Zhang, Yunzhi and Chan, Eric Ryan and Lagun, Dmitry and Fei-Fei, Li and Sun, Deqing and others",
+      "title": "ZeroNVS: Zero-Shot 360-Degree View Synthesis from a Single Image",
+      "ENTRYTYPE": "article",
+      "ID": "sargent2023zeronvs"
+    },
+    {
+      "year": "2024",
+      "pages": "21551--21561",
+      "booktitle": "Proceedings of the IEEE/CVF conference on computer vision and pattern recognition",
+      "author": "Wu, Rundi and Mildenhall, Ben and Henzler, Philipp and Park, Keunhong and Gao, Ruiqi and Watson, Daniel and Srinivasan, Pratul P and Verbin, Dor and Barron, Jonathan T and Poole, Ben and others",
+      "title": "Reconfusion: 3d reconstruction with diffusion priors",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "wu2024reconfusion"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2405.10314",
+      "author": "Gao, Ruiqi and Holynski, Aleksander and Henzler, Philipp and Brussee, Arthur and Martin-Brualla, Ricardo and Srinivasan, Pratul and Barron, Jonathan T and Poole, Ben",
+      "title": "Cat3d: Create anything in 3d with multi-view diffusion models",
+      "ENTRYTYPE": "article",
+      "ID": "gao2024cat3d"
+    },
+    {
+      "year": "2024",
+      "pages": "9503--9513",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Kong, Xin and Liu, Shikun and Lyu, Xiaoyang and Taher, Marwan and Qi, Xiaojuan and Davison, Andrew J",
+      "title": "Eschernet: A generative model for scalable view synthesis",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "kong2024eschernet"
+    },
+    {
+      "year": "2024",
+      "booktitle": "International Conference on Learning Representations (ICLR)",
+      "author": "Miyato, Takeru and Jaeger, Bernhard and Welling, Max and Geiger, Andreas",
+      "title": "GTA: A Geometry-Aware Attention Mechanism for Multi-View Transformers",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "miyato2023gta"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2402.14817",
+      "author": "Zhang, Jason Y and Lin, Amy and Kumar, Moneish and Yang, Tzu-Hsuan and Ramanan, Deva and Tulsiani, Shubham",
+      "title": "Cameras as rays: Pose estimation via ray diffusion",
+      "ENTRYTYPE": "article",
+      "ID": "zhang2024cameras"
+    },
+    {
+      "year": "2023",
+      "pages": "13142--13153",
+      "booktitle": "Proceedings of the IEEE/CVF conference on computer vision and pattern recognition",
+      "author": "Deitke, Matt and Schwenk, Dustin and Salvador, Jordi and Weihs, Luca and Michel, Oscar and VanderBilt, Eli and Schmidt, Ludwig and Ehsani, Kiana and Kembhavi, Aniruddha and Farhadi, Ali",
+      "title": "Objaverse: A universe of annotated 3d objects",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "deitke2023objaverse"
+    },
+    {
+      "publisher": "ACM New York, NY, USA",
+      "year": "2018",
+      "pages": "1--12",
+      "number": "4",
+      "volume": "37",
+      "journal": "ACM Transactions on Graphics (TOG)",
+      "author": "Zhou, Tinghui and Tucker, Richard and Flynn, John and Fyffe, Graham and Snavely, Noah",
+      "title": "Stereo magnification: learning view synthesis using multiplane images",
+      "ENTRYTYPE": "article",
+      "ID": "zhou2018stereo"
+    },
+    {
+      "year": "2024",
+      "pages": "22160--22169",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Ling, Lu and Sheng, Yichen and Tu, Zhi and Zhao, Wentian and Xin, Cheng and Wan, Kun and Yu, Lantao and Guo, Qianyu and Yu, Zixun and Lu, Yawen and others",
+      "title": "Dl3dv-10k: A large-scale scene dataset for deep learning-based 3d vision",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ling2024dl3dv"
+    },
+    {
+      "year": "2023",
+      "journal": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+      "author": "Xu, Haofei and Zhang, Jing and Cai, Jianfei and Rezatofighi, Hamid and Yu, Fisher and Tao, Dacheng and Geiger, Andreas",
+      "title": "Unifying Flow, Stereo and Depth Estimation",
+      "ENTRYTYPE": "article",
+      "ID": "xu2023unifying"
+    },
+    {
+      "year": "2017",
+      "pages": "5038--5047",
+      "booktitle": "Proceedings of the IEEE conference on computer vision and pattern recognition",
+      "author": "Ummenhofer, Benjamin and Zhou, Huizhong and Uhrig, Jonas and Mayer, Nikolaus and Ilg, Eddy and Dosovitskiy, Alexey and Brox, Thomas",
+      "title": "Demon: Depth and motion network for learning monocular stereo",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ummenhofer2017demon"
+    },
+    {
+      "year": "2013",
+      "pages": "1625--1632",
+      "booktitle": "Proceedings of the IEEE international conference on computer vision",
+      "author": "Xiao, Jianxiong and Owens, Andrew and Torralba, Antonio",
+      "title": "Sun3d: A database of big spaces reconstructed using sfm and object labels",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "xiao2013sun3d"
+    },
+    {
+      "organization": "IEEE",
+      "year": "2012",
+      "pages": "573--580",
+      "booktitle": "2012 IEEE/RSJ international conference on intelligent robots and systems",
+      "author": "Sturm, J{\\\"u}rgen and Engelhard, Nikolas and Endres, Felix and Burgard, Wolfram and Cremers, Daniel",
+      "title": "A benchmark for the evaluation of RGB-D SLAM systems",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "sturm2012benchmark"
+    },
+    {
+      "organization": "Springer",
+      "year": "2024",
+      "pages": "370--386",
+      "booktitle": "European Conference on Computer Vision",
+      "author": "Chen, Yuedong and Xu, Haofei and Zheng, Chuanxia and Zhuang, Bohan and Pollefeys, Marc and Geiger, Andreas and Cham, Tat-Jen and Cai, Jianfei",
+      "title": "Mvsplat: Efficient 3d gaussian splatting from sparse multi-view images",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "chen2024mvsplat"
+    },
+    {
+      "year": "2025",
+      "pages": "107064--107086",
+      "volume": "37",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Chen, Yuedong and Zheng, Chuanxia and Xu, Haofei and Zhuang, Bohan and Vedaldi, Andrea and Cham, Tat-Jen and Cai, Jianfei",
+      "title": "Mvsplat360: Feed-forward 360 scene synthesis from sparse views",
+      "ENTRYTYPE": "article",
+      "ID": "chen2025mvsplat360"
+    },
+    {
+      "year": "2017",
+      "volume": "30",
+      "journal": "Advances in neural information processing systems",
+      "author": "Vaswani, Ashish and Shazeer, Noam and Parmar, Niki and Uszkoreit, Jakob and Jones, Llion and Gomez, Aidan N and Kaiser, {\\L}ukasz and Polosukhin, Illia",
+      "title": "Attention is all you need",
+      "ENTRYTYPE": "article",
+      "ID": "vaswani2017attention"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "2024",
+      "pages": "127063",
+      "volume": "568",
+      "journal": "Neurocomputing",
+      "author": "Su, Jianlin and Ahmed, Murtadha and Lu, Yu and Pan, Shengfeng and Bo, Wen and Liu, Yunfeng",
+      "title": "Roformer: Enhanced transformer with rotary position embedding",
+      "ENTRYTYPE": "article",
+      "ID": "su2024roformer"
+    },
+    {
+      "year": "2022",
+      "pages": "8386--8399",
+      "volume": "35",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Chi, Ta-Chung and Fan, Ting-Han and Ramadge, Peter J and Rudnicky, Alexander",
+      "title": "Kerple: Kernelized relative positional embedding for length extrapolation",
+      "ENTRYTYPE": "article",
+      "ID": "chi2022kerple"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2405.18719",
+      "author": "Golovneva, Olga and Wang, Tianlu and Weston, Jason and Sukhbaatar, Sainbayar",
+      "title": "Contextual Position Encoding: Learning to Count What's Important",
+      "ENTRYTYPE": "article",
+      "ID": "golovneva2024contextual"
+    },
+    {
+      "year": "2023",
+      "pages": "24892--24928",
+      "volume": "36",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Kazemnejad, Amirhossein and Padhi, Inkit and Natesan Ramamurthy, Karthikeyan and Das, Payel and Reddy, Siva",
+      "title": "The impact of positional encoding on length generalization in transformers",
+      "ENTRYTYPE": "article",
+      "ID": "kazemnejad2023impact"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2309.00071",
+      "author": "Peng, Bowen and Quesnelle, Jeffrey and Fan, Honglu and Shippole, Enrico",
+      "title": "Yarn: Efficient context window extension of large language models",
+      "ENTRYTYPE": "article",
+      "ID": "peng2023yarn"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2310.04418",
+      "author": "Li, Shanda and You, Chong and Guruganesh, Guru and Ainslie, Joshua and Ontanon, Santiago and Zaheer, Manzil and Sanghai, Sumit and Yang, Yiming and Kumar, Sanjiv and Bhojanapalli, Srinadh",
+      "title": "Functional interpolation for relative positions improves long context transformers",
+      "ENTRYTYPE": "article",
+      "ID": "li2023functional"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2310.16450",
+      "author": "Chen, Guanzheng and Li, Xin and Meng, Zaiqiao and Liang, Shangsong and Bing, Lidong",
+      "title": "Clex: Continuous length extrapolation for large language models",
+      "ENTRYTYPE": "article",
+      "ID": "chen2023clex"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2406.10322",
+      "author": "Ostmeier, Sophie and Axelrod, Brian and Moseley, Michael E and Chaudhari, Akshay and Langlotz, Curtis",
+      "title": "Liere: Generalizing rotary position encodings",
+      "ENTRYTYPE": "article",
+      "ID": "ostmeier2024liere"
+    },
+    {
+      "organization": "Springer",
+      "year": "2024",
+      "pages": "289--305",
+      "booktitle": "European Conference on Computer Vision",
+      "author": "Heo, Byeongho and Park, Song and Han, Dongyoon and Yun, Sangdoo",
+      "title": "Rotary position embedding for vision transformer",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "heo2024rotary"
+    },
+    {
+      "publisher": "ACM New York, NY, USA",
+      "year": "2021",
+      "pages": "99--106",
+      "number": "1",
+      "volume": "65",
+      "journal": "Communications of the ACM",
+      "author": "Mildenhall, Ben and Srinivasan, Pratul P and Tancik, Matthew and Barron, Jonathan T and Ramamoorthi, Ravi and Ng, Ren",
+      "title": "Nerf: Representing scenes as neural radiance fields for view synthesis",
+      "ENTRYTYPE": "article",
+      "ID": "mildenhall2021nerf"
+    },
+    {
+      "year": "2021",
+      "pages": "5855--5864",
+      "booktitle": "Proceedings of the IEEE/CVF international conference on computer vision",
+      "author": "Barron, Jonathan T and Mildenhall, Ben and Tancik, Matthew and Hedman, Peter and Martin-Brualla, Ricardo and Srinivasan, Pratul P",
+      "title": "Mip-nerf: A multiscale representation for anti-aliasing neural radiance fields",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "barron2021mip"
+    },
+    {
+      "year": "2019",
+      "pages": "4171--4186",
+      "booktitle": "Proceedings of the 2019 conference of the North American chapter of the association for computational linguistics: human language technologies, volume 1 (long and short papers)",
+      "author": "Devlin, Jacob and Chang, Ming-Wei and Lee, Kenton and Toutanova, Kristina",
+      "title": "Bert: Pre-training of deep bidirectional transformers for language understanding",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "devlin2019bert"
+    },
+    {
+      "publisher": "San Francisco, CA, USA",
+      "year": "2018",
+      "author": "Radford, Alec and Narasimhan, Karthik and Salimans, Tim and Sutskever, Ilya and others",
+      "title": "Improving language understanding by generative pre-training",
+      "ENTRYTYPE": "article",
+      "ID": "radford2018improving"
+    },
+    {
+      "year": "2021",
+      "pages": "9650--9660",
+      "booktitle": "Proceedings of the IEEE/CVF international conference on computer vision",
+      "author": "Caron, Mathilde and Touvron, Hugo and Misra, Ishan and J{\\'e}gou, Herv{\\'e} and Mairal, Julien and Bojanowski, Piotr and Joulin, Armand",
+      "title": "Emerging properties in self-supervised vision transformers",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "caron2021emerging"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2302.13971",
+      "author": "Touvron, Hugo and Lavril, Thibaut and Izacard, Gautier and Martinet, Xavier and Lachaux, Marie-Anne and Lacroix, Timoth{\\'e}e and Rozi{\\`e}re, Baptiste and Goyal, Naman and Hambro, Eric and Azhar, Faisal and others",
+      "title": "Llama: Open and efficient foundation language models",
+      "ENTRYTYPE": "article",
+      "ID": "touvron2023llama"
+    },
+    {
+      "year": "2020",
+      "pages": "1--67",
+      "number": "140",
+      "volume": "21",
+      "journal": "Journal of machine learning research",
+      "author": "Raffel, Colin and Shazeer, Noam and Roberts, Adam and Lee, Katherine and Narang, Sharan and Matena, Michael and Zhou, Yanqi and Li, Wei and Liu, Peter J",
+      "title": "Exploring the limits of transfer learning with a unified text-to-text transformer",
+      "ENTRYTYPE": "article",
+      "ID": "raffel2020exploring"
+    },
+    {
+      "organization": "PmLR",
+      "year": "2021",
+      "pages": "8748--8763",
+      "booktitle": "International conference on machine learning",
+      "author": "Radford, Alec and Kim, Jong Wook and Hallacy, Chris and Ramesh, Aditya and Goh, Gabriel and Agarwal, Sandhini and Sastry, Girish and Askell, Amanda and Mishkin, Pamela and Clark, Jack and others",
+      "title": "Learning transferable visual models from natural language supervision",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "radford2021learning"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2502.02562",
+      "author": "Schenck, Connor and Reid, Isaac and Jacob, Mithun George and Bewley, Alex and Ainslie, Joshua and Rendleman, David and Jain, Deepali and Sharma, Mohit and Dubey, Avinava and Wahid, Ayzaan and others",
+      "title": "Learning the RoPEs: Better 2D and 3D Position Encodings with STRING",
+      "ENTRYTYPE": "article",
+      "ID": "schenck2025learning"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2501.12948",
+      "author": "Guo, Daya and Yang, Dejian and Zhang, Haowei and Song, Junxiao and Zhang, Ruoyu and Xu, Runxin and Zhu, Qihao and Ma, Shirong and Wang, Peiyi and Bi, Xiao and others",
+      "title": "Deepseek-r1: Incentivizing reasoning capability in llms via reinforcement learning",
+      "ENTRYTYPE": "article",
+      "ID": "guo2025deepseek"
+    },
+    {
+      "year": "2023",
+      "pages": "11975--11986",
+      "booktitle": "Proceedings of the IEEE/CVF international conference on computer vision",
+      "author": "Zhai, Xiaohua and Mustafa, Basil and Kolesnikov, Alexander and Beyer, Lucas",
+      "title": "Sigmoid loss for language image pre-training",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zhai2023sigmoid"
+    },
+    {
+      "year": "2023",
+      "pages": "34892--34916",
+      "volume": "36",
+      "journal": "Advances in neural information processing systems",
+      "author": "Liu, Haotian and Li, Chunyuan and Wu, Qingyang and Lee, Yong Jae",
+      "title": "Visual instruction tuning",
+      "ENTRYTYPE": "article",
+      "ID": "liu2023visual"
+    },
+    {
+      "year": "2022",
+      "pages": "10684--10695",
+      "booktitle": "Proceedings of the IEEE/CVF conference on computer vision and pattern recognition",
+      "author": "Rombach, Robin and Blattmann, Andreas and Lorenz, Dominik and Esser, Patrick and Ommer, Bj{\\\"o}rn",
+      "title": "High-resolution image synthesis with latent diffusion models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "rombach2022high"
+    },
+    {
+      "year": "2024",
+      "booktitle": "Forty-first international conference on machine learning",
+      "author": "Esser, Patrick and Kulal, Sumith and Blattmann, Andreas and Entezari, Rahim and M{\\\"u}ller, Jonas and Saini, Harry and Levi, Yam and Lorenz, Dominik and Sauer, Axel and Boesel, Frederic and others",
+      "title": "Scaling rectified flow transformers for high-resolution image synthesis",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "esser2024scaling"
+    },
+    {
+      "howpublished": "\\url{https://github.com/black-forest-labs/flux}",
+      "year": "2024",
+      "title": "FLUX",
+      "author": "Black Forest Labs",
+      "ENTRYTYPE": "misc",
+      "ID": "flux2024"
+    },
+    {
+      "year": "2023",
+      "pages": "4015--4026",
+      "booktitle": "Proceedings of the IEEE/CVF international conference on computer vision",
+      "author": "Kirillov, Alexander and Mintun, Eric and Ravi, Nikhila and Mao, Hanzi and Rolland, Chloe and Gustafson, Laura and Xiao, Tete and Whitehead, Spencer and Berg, Alexander C and Lo, Wan-Yen and others",
+      "title": "Segment anything",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "kirillov2023segment"
+    },
+    {
+      "howpublished": "\\url{https://github.com/genmoai/models}",
+      "journal": "GitHub repository",
+      "publisher": "GitHub",
+      "year": "2024",
+      "author": "Genmo Team",
+      "title": "Mochi 1",
+      "ENTRYTYPE": "misc",
+      "ID": "genmo2024mochi"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2407.21783",
+      "author": "Dubey, Abhimanyu and Jauhri, Abhinav and Pandey, Abhinav and Kadian, Abhishek and Al-Dahle, Ahmad and Letman, Aiesha and Mathur, Akhil and Schelten, Alan and Yang, Amy and Fan, Angela and others",
+      "title": "The llama 3 herd of models",
+      "ENTRYTYPE": "article",
+      "ID": "dubey2024llama"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv:2411.18613",
+      "author": "Wu, Rundi and Gao, Ruiqi and Poole, Ben and Trevithick, Alex and Zheng, Changxi and Barron, Jonathan T. and Holynski, Aleksander",
+      "title": "{CAT4D: Create Anything in 4D with Multi-View Video Diffusion Models}",
+      "ENTRYTYPE": "article",
+      "ID": "wu2024cat4d"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2412.03526",
+      "author": "Liang, Hanxue and Ren, Jiawei and Mirzaei, Ashkan and Torralba, Antonio and Liu, Ziwei and Gilitschenski, Igor and Fidler, Sanja and Oztireli, Cengiz and Ling, Huan and Gojcic, Zan and others",
+      "title": "Feed-Forward Bullet-Time Reconstruction of Dynamic Scenes from Monocular Videos",
+      "ENTRYTYPE": "article",
+      "ID": "liang2024feed"
+    },
+    {
+      "year": "2022",
+      "pages": "8269--8279",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Suhail, Mohammed and Esteves, Carlos and Sigal, Leonid and Makadia, Ameesh",
+      "title": "Light field neural rendering",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "suhail2022light"
+    },
+    {
+      "year": "2022",
+      "pages": "3502--3516",
+      "volume": "35",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Weinzaepfel, Philippe and Leroy, Vincent and Lucas, Thomas and Br{\\'e}gier, Romain and Cabon, Yohann and Arora, Vaibhav and Antsfeld, Leonid and Chidlovskii, Boris and Csurka, Gabriela and Revaud, J{\\'e}r{\\^o}me",
+      "title": "Croco: Self-supervised pre-training for 3d vision tasks by cross-view completion",
+      "ENTRYTYPE": "article",
+      "ID": "weinzaepfel2022croco"
+    },
+    {
+      "year": "2024",
+      "pages": "20697--20709",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Wang, Shuzhe and Leroy, Vincent and Cabon, Yohann and Chidlovskii, Boris and Revaud, Jerome",
+      "title": "Dust3r: Geometric 3d vision made easy",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "wang2024dust3r"
+    },
+    {
+      "year": "2024",
+      "pages": "10371--10381",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Yang, Lihe and Kang, Bingyi and Huang, Zilong and Xu, Xiaogang and Feng, Jiashi and Zhao, Hengshuang",
+      "title": "Depth anything: Unleashing the power of large-scale unlabeled data",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "yang2024depth"
+    },
+    {
+      "year": "2024",
+      "pages": "9492--9502",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Ke, Bingxin and Obukhov, Anton and Huang, Shengyu and Metzger, Nando and Daudt, Rodrigo Caye and Schindler, Konrad",
+      "title": "Repurposing diffusion-based image generators for monocular depth estimation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ke2024repurposing"
+    },
+    {
+      "year": "2023",
+      "pages": "9202--9212",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Hong, Yining and Lin, Chunru and Du, Yilun and Chen, Zhenfang and Tenenbaum, Joshua B and Gan, Chuang",
+      "title": "3d concept learning and reasoning from multi-view images",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "hong20233d"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2409.18125",
+      "author": "Zhu, Chenming and Wang, Tai and Zhang, Wenwei and Pang, Jiangmiao and Liu, Xihui",
+      "title": "Llava-3d: A simple yet effective pathway to empowering lmms with 3d-awareness",
+      "ENTRYTYPE": "article",
+      "ID": "zhu2024llava"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2406.09246",
+      "author": "Kim, Moo Jin and Pertsch, Karl and Karamcheti, Siddharth and Xiao, Ted and Balakrishna, Ashwin and Nair, Suraj and Rafailov, Rafael and Foster, Ethan and Lam, Grace and Sanketi, Pannag and others",
+      "title": "Openvla: An open-source vision-language-action model",
+      "ENTRYTYPE": "article",
+      "ID": "kim2024openvla"
+    },
+    {
+      "year": "2025",
+      "pages": "43533--43548",
+      "volume": "37",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Bonnen, Tyler and Fu, Stephanie and Bai, Yutong and O'Connell, Thomas and Friedman, Yoni and Kanwisher, Nancy and Tenenbaum, Josh and Efros, Alexei",
+      "title": "Evaluating multiview object consistency in humans and image models",
+      "ENTRYTYPE": "article",
+      "ID": "bonnen2025evaluating"
+    },
+    {
+      "publisher": "The Royal Society London",
+      "year": "1865",
+      "pages": "725--791",
+      "number": "155",
+      "journal": "Philosophical Transactions of the Royal Society of London",
+      "author": "Plucker, Julius",
+      "title": "Xvii. on a new geometry of space",
+      "ENTRYTYPE": "article",
+      "ID": "plucker1865xvii"
+    },
+    {
+      "publisher": "ACM New York, NY, USA",
+      "year": "2019",
+      "pages": "1--14",
+      "number": "4",
+      "volume": "38",
+      "journal": "ACM Transactions on Graphics (ToG)",
+      "author": "Mildenhall, Ben and Srinivasan, Pratul P and Ortiz-Cayon, Rodrigo and Kalantari, Nima Khademi and Ramamoorthi, Ravi and Ng, Ren and Kar, Abhishek",
+      "title": "Local light field fusion: Practical view synthesis with prescriptive sampling guidelines",
+      "ENTRYTYPE": "article",
+      "ID": "mildenhall2019local"
+    },
+    {
+      "year": "2021",
+      "journal": "arXiv preprint arXiv:2108.12409",
+      "author": "Press, Ofir and Smith, Noah A and Lewis, Mike",
+      "title": "Train short, test long: Attention with linear biases enables input length extrapolation",
+      "ENTRYTYPE": "article",
+      "ID": "press2021train"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2304.00947",
+      "author": "Safin, Aleksandr and Duckworth, Daniel and Sajjadi, Mehdi SM",
+      "title": "Repast: Relative pose attention scene representation transformer",
+      "ENTRYTYPE": "article",
+      "ID": "safin2023repast"
+    },
+    {
+      "year": "2022",
+      "pages": "6229--6238",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Sajjadi, Mehdi SM and Meyer, Henning and Pot, Etienne and Bergmann, Urs and Greff, Klaus and Radwan, Noha and Vora, Suhani and Lu{\\v{c}}i{\\'c}, Mario and Duckworth, Daniel and Dosovitskiy, Alexey and others",
+      "title": "Scene representation transformer: Geometry-free novel view synthesis through set-latent scene representations",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "sajjadi2022scene"
+    },
+    {
+      "url": "https://arxiv.org/abs/2006.15595",
+      "year": "2021",
+      "journal": "arXiv preprint arXiv:2006.15595",
+      "author": "Ke, Guolin and He, Di and Liu, Tie-Yan",
+      "title": "Rethinking Positional Encoding in Language Pre-training",
+      "ENTRYTYPE": "article",
+      "ID": "ke2021rethinking"
+    },
+    {
+      "url": "https://arxiv.org/abs/2006.03654",
+      "year": "2021",
+      "booktitle": "International Conference on Learning Representations",
+      "author": "He, Pengcheng and Liu, Xiaodong and Gao, Jianfeng and Chen, Weizhu",
+      "title": "DeBERTa: Decoding-enhanced BERT with Disentangled Attention",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "he2021deberta"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2410.06468",
+      "author": "Ramakrishnan, Santhosh Kumar and Wijmans, Erik and Kraehenbuehl, Philipp and Koltun, Vladlen",
+      "title": "Does Spatial Cognition Emerge in Frontier Models?",
+      "ENTRYTYPE": "article",
+      "ID": "ramakrishnan2024does"
+    },
+    {
+      "year": "2016",
+      "booktitle": "Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "title": "Structure-from-Motion Revisited",
+      "author": "Sch\\\"{o}nberger, Johannes Lutz and Frahm, Jan-Michael",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "schoenberger2016sfm"
+    },
+    {
+      "year": "2016",
+      "booktitle": "European Conference on Computer Vision (ECCV)",
+      "title": "Pixelwise View Selection for Unstructured Multi-View Stereo",
+      "author": "Sch\\\"{o}nberger, Johannes Lutz and Zheng, Enliang and Pollefeys, Marc and Frahm, Jan-Michael",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "schoenberger2016mvs"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2404.15259",
+      "author": "Smith, Cameron and Charatan, David and Tewari, Ayush and Sitzmann, Vincent",
+      "title": "Flowmap: High-quality camera poses, intrinsics, and depth via gradient descent",
+      "ENTRYTYPE": "article",
+      "ID": "smith2024flowmap"
+    },
+    {
+      "organization": "Springer",
+      "year": "2024",
+      "pages": "111--128",
+      "booktitle": "European Conference on Computer Vision",
+      "author": "Niu, Muyao and Cun, Xiaodong and Wang, Xintao and Zhang, Yong and Shan, Ying and Zheng, Yinqiang",
+      "title": "Mofa-video: Controllable image animation via generative motion field adaptions in frozen image-to-video diffusion model",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "niu2024mofa"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "2020",
+      "pages": "1623--1637",
+      "number": "3",
+      "volume": "44",
+      "journal": "IEEE transactions on pattern analysis and machine intelligence",
+      "author": "Ranftl, Ren{\\'e} and Lasinger, Katrin and Hafner, David and Schindler, Konrad and Koltun, Vladlen",
+      "title": "Towards robust monocular depth estimation: Mixing datasets for zero-shot cross-dataset transfer",
+      "ENTRYTYPE": "article",
+      "ID": "ranftl2020towards"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2410.19115",
+      "author": "Wang, Ruicheng and Xu, Sicheng and Dai, Cassie and Xiang, Jianfeng and Deng, Yu and Tong, Xin and Yang, Jiaolong",
+      "title": "Moge: Unlocking accurate monocular geometry estimation for open-domain images with optimal training supervision",
+      "ENTRYTYPE": "article",
+      "ID": "wang2024moge"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2023",
+      "pages": "785--799",
+      "booktitle": "Conference on Robot Learning",
+      "author": "Shridhar, Mohit and Manuelli, Lucas and Fox, Dieter",
+      "title": "Perceiver-actor: A multi-task transformer for robotic manipulation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "shridhar2023perceiver"
+    },
+    {
+      "url": "https://openreview.net/forum?id=YicbFdNTTy",
+      "year": "2021",
+      "booktitle": "International Conference on Learning Representations",
+      "author": "Alexey Dosovitskiy and Lucas Beyer and Alexander Kolesnikov and Dirk Weissenborn\nand Xiaohua Zhai and Thomas Unterthiner and Mostafa Dehghani and Matthias Minderer\nand Georg Heigold and Sylvain Gelly and Jakob Uszkoreit and Neil Houlsby",
+      "title": "An Image is Worth 16×16 Words: Transformers for Image Recognition at Scale",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "dosovitskiy2021image"
+    },
+    {
+      "url": "https://arxiv.org/abs/2103.14030",
+      "year": "2021",
+      "pages": "10012--10022",
+      "booktitle": "Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)",
+      "author": "Ze Liu and Yutong Lin and Yue Cao and Han Hu and Yixuan Wei\nand Zheng Zhang and Stephen Lin and Baining Guo",
+      "title": "Swin Transformer: Hierarchical Vision Transformer using Shifted Windows",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "liu2021swin"
+    },
+    {
+      "url": "http://proceedings.mlr.press/v139/touvron21a.html",
+      "year": "2021",
+      "pages": "10347--10357",
+      "booktitle": "Proceedings of the 38th International Conference on Machine Learning (ICML)",
+      "author": "Hugo Touvron and Matthieu Cord and Matthijs Douze and Francisco Massa\nand Alexandre Sablayrolles and Herv\\'e J\\'egou",
+      "title": "Training Data-Efficient Image Transformers \\& Distillation Through Attention",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "touvron2021deit"
+    },
+    {
+      "url": "https://arxiv.org/abs/2503.14489",
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2503.14489",
+      "author": "Jensen Zhou and Hang Gao and Vikram Voleti and Aaryaman Vasishta\nand Chun-Han Yao and Mark Boss and Philip Torr and\nChristian Rupprecht and Varun Jampani",
+      "title": "Stable Virtual Camera: Generative View Synthesis with Diffusion Models",
+      "ENTRYTYPE": "article",
+      "ID": "zhou2025stable"
+    },
+    {
+      "url": "https://arxiv.org/abs/2108.12409",
+      "year": "2022",
+      "booktitle": "ICLR",
+      "author": "Press, Ofir and Smith, Noah A. and Lewis, Mike",
+      "title": "Train Short, Test Long: Attention with Linear Biases Enables Input Length Extrapolation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "press2022alibi"
+    },
+    {
+      "url": "https://arxiv.org/abs/1910.10683",
+      "pages": "1--67",
+      "number": "140",
+      "volume": "21",
+      "year": "2020",
+      "journal": "Journal of Machine Learning Research",
+      "author": "Raffel, Colin and Shazeer, Noam and Roberts, Adam and Lee, Katherine and Narang, Sharan and others",
+      "title": "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
+      "ENTRYTYPE": "article",
+      "ID": "raffel2020t5"
+    },
+    {
+      "year": "2025",
+      "note": "arXiv:2502.05175",
+      "author": "Ethan Weber and Norman M\\\"uller and Yash Kant and Vasu Agrawal and\nMichael Zollh\\\"ofer and Angjoo Kanazawa and Christian Richardt",
+      "title": "Fillerbuster: Multi-View Scene Completion for Casual Captures",
+      "ENTRYTYPE": "misc",
+      "ID": "weber2025fillerbuster"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2402.02244",
+      "author": "Wang, Xindi and Salmani, Mahsa and Omidi, Parsa and Ren, Xiangyu and Rezagholizadeh, Mehdi and Eshaghi, Armaghan",
+      "title": "Beyond the limits: A survey of techniques to extend the context length in large language models",
+      "ENTRYTYPE": "article",
+      "ID": "wang2024beyond"
+    },
+    {
+      "year": "2023",
+      "pages": "606--624",
+      "volume": "5",
+      "journal": "Proceedings of Machine Learning and Systems",
+      "author": "Pope, Reiner and Douglas, Sholto and Chowdhery, Aakanksha and Devlin, Jacob and Bradbury, James and Heek, Jonathan and Xiao, Kefan and Agrawal, Shivani and Dean, Jeff",
+      "title": "Efficiently scaling transformer inference",
+      "ENTRYTYPE": "article",
+      "ID": "pope2023efficiently"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2505.20171",
+      "author": "Po, Ryan and Nitzan, Yotam and Zhang, Richard and Chen, Berlin and Dao, Tri and Shechtman, Eli and Wetzstein, Gordon and Huang, Xun",
+      "title": "Long-context state-space video world models",
+      "ENTRYTYPE": "article",
+      "ID": "po2025long"
+    },
+    {
+      "year": "2025",
+      "pages": "15791--15801",
+      "booktitle": "Proceedings of the Computer Vision and Pattern Recognition Conference",
+      "author": "Bar, Amir and Zhou, Gaoyue and Tran, Danny and Darrell, Trevor and LeCun, Yann",
+      "title": "Navigation world models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "bar2025navigation"
+    },
+    {
+      "year": "2023",
+      "pages": "4195--4205",
+      "booktitle": "Proceedings of the IEEE/CVF international conference on computer vision",
+      "author": "Peebles, William and Xie, Saining",
+      "title": "Scalable diffusion models with transformers",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "peebles2023scalable"
+    },
+    {
+      "organization": "Springer",
+      "year": "2022",
+      "pages": "198--216",
+      "booktitle": "European Conference on Computer Vision",
+      "author": "Kulh{\\'a}nek, Jon{\\'a}{\\v{s}} and Derner, Erik and Sattler, Torsten and Babu{\\v{s}}ka, Robert",
+      "title": "ViewFormer: NeRF-free neural rendering from few images using transformers",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "kulhanek2022viewformer"
+    },
+    {
+      "year": "2025",
+      "pages": "7072--7084",
+      "booktitle": "Proceedings of the Computer Vision and Pattern Recognition Conference",
+      "author": "Yi, Brent and Ye, Vickie and Zheng, Maya and Li, Yunqi and M{\\\"u}ller, Lea and Pavlakos, Georgios and Ma, Yi and Malik, Jitendra and Kanazawa, Angjoo",
+      "title": "Estimating body and hand motion in an ego-sensed world",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "yi2025egoallo"
+    }
+  ]
+}

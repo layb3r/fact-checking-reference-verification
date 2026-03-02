@@ -1,0 +1,879 @@
+{
+  "pdf_url": "https://arxiv.org/pdf/2508.05954v1.pdf",
+  "references": [
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2502.13923",
+      "author": "Bai, Shuai and Chen, Keqin and Liu, Xuejing and Wang, Jialin and Ge, Wenbin and Song, Sibo and Dang, Kai and Wang, Peng and Wang, Shijie and Tang, Jun and Zhong, Humen and Zhu, Yuanzhi and Yang, Mingkun and Li, Zhaohai and Wan, Jianqiang and Wang, Pengfei and Ding, Wei and Fu, Zheren and Xu, Yiheng and Ye, Jiabo and Zhang, Xi and Xie, Tianbao and Cheng, Zesen and Zhang, Hang and Yang, Zhibo and Xu, Haiyang and Lin, Junyang",
+      "title": "Qwen2.5-VL Technical Report",
+      "ENTRYTYPE": "article",
+      "ID": "Qwen2.5-VL"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2409.12191",
+      "author": "Wang, Peng and Bai, Shuai and Tan, Sinan and Wang, Shijie and Fan, Zhihao and Bai, Jinze and Chen, Keqin and Liu, Xuejing and Wang, Jialin and Ge, Wenbin and Fan, Yang and Dang, Kai and Du, Mengfei and Ren, Xuancheng and Men, Rui and Liu, Dayiheng and Zhou, Chang and Zhou, Jingren and Lin, Junyang",
+      "title": "Qwen2-VL: Enhancing Vision-Language Model's Perception of the World at Any Resolution",
+      "ENTRYTYPE": "article",
+      "ID": "Qwen2-VL"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2308.12966",
+      "author": "Bai, Jinze and Bai, Shuai and Yang, Shusheng and Wang, Shijie and Tan, Sinan and Wang, Peng and Lin, Junyang and Zhou, Chang and Zhou, Jingren",
+      "title": "Qwen-VL: A Versatile Vision-Language Model for Understanding, Localization, Text Reading, and Beyond",
+      "ENTRYTYPE": "article",
+      "ID": "Qwen-VL"
+    },
+    {
+      "howpublished": "\\url{https://huggingface.co/black-forest-labs/FLUX.1-dev}",
+      "author": "Black Forest Labs",
+      "year": "2024",
+      "title": "Flux.1-dev",
+      "ENTRYTYPE": "misc",
+      "ID": "flux"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2408.12528",
+      "author": "Xie, Jinheng and Mao, Weijia and Bai, Zechen and Zhang, David Junhao and Wang, Weihao and Lin, Kevin Qinghong and Gu, Yuchao and Chen, Zhijie and Yang, Zhenheng and Shou, Mike Zheng",
+      "title": "Show-o: One Single Transformer to Unify Multimodal Understanding and Generation",
+      "ENTRYTYPE": "article",
+      "ID": "xie2024showo"
+    },
+    {
+      "year": "2024",
+      "url": "https://github.com/facebookresearch/chameleon",
+      "title": "Chameleon: Mixed-Modal Early-Fusion Foundation Models",
+      "journal": "arXiv preprint arXiv:2405.09818",
+      "doi": "10.48550/arXiv.2405.09818",
+      "author": "Chameleon Team",
+      "ENTRYTYPE": "article",
+      "ID": "ChameleonEarlyFusion2024"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2504.06256",
+      "author": "Pan, Xichen and Shukla, Satya Narayan and Singh, Aashu and Zhao, Zhuokai and Mishra, Shlok Kumar and Wang, Jialiang and Xu, Zhiyang and Chen, Jiuhai and Li, Kunpeng and Juefei-Xu, Felix and Hou, Ji and Xie, Saining",
+      "title": "Transfer between Modalities with MetaQueries",
+      "ENTRYTYPE": "article",
+      "ID": "pan2025metaqueries"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2412.14164",
+      "author": "Tong, Shengbang and Fan, David and Zhu, Jiachen and Xiong, Yunyang and Chen, Xinlei and Sinha, Koustuv and Rabbat, Michael and LeCun, Yann and Xie, Saining and Liu, Zhuang",
+      "title": "Metamorph: Multimodal understanding and generation via instruction tuning",
+      "ENTRYTYPE": "article",
+      "ID": "tong2024metamorph"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2312.17172",
+      "author": "Jiasen Lu and Christopher Clark and Sangho Lee and Zichen Zhang and Savya Khosla and Ryan Marten and Derek Hoiem and Aniruddha Kembhavi",
+      "title": "Unified-IO 2: Scaling Autoregressive Multimodal Models with Vision, Language, Audio, and Action",
+      "ENTRYTYPE": "article",
+      "ID": "lu2023uio2"
+    },
+    {
+      "year": "2021",
+      "booktitle": "ICML",
+      "author": "Jaemin Cho and Jie Lei and Hao Tan and Mohit Bansal",
+      "title": "Unifying Vision-and-Language Tasks via Text Generation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "cho2020vlt5"
+    },
+    {
+      "year": "2022",
+      "volume": "abs/2202.03052",
+      "journal": "CoRR",
+      "title": "OFA: Unifying Architectures, Tasks, and Modalities Through a Simple Sequence-to-Sequence\nLearning Framework",
+      "author": "Peng Wang and\nAn Yang and\nRui Men and\nJunyang Lin and\nShuai Bai and\nZhikang Li and\nJianxin Ma and\nChang Zhou and\nJingren Zhou and\nHongxia Yang",
+      "ENTRYTYPE": "article",
+      "ID": "wang2022ofa"
+    },
+    {
+      "url": "https://openreview.net/forum?id=E01k9048soZ",
+      "year": "2023",
+      "booktitle": "The Eleventh International Conference on Learning Representations ",
+      "author": "Jiasen Lu and Christopher Clark and Rowan Zellers and Roozbeh Mottaghi and Aniruddha Kembhavi",
+      "title": "{UNIFIED}-{IO}: A Unified Model for Vision, Language, and Multi-modal Tasks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "lu2023unifiedio"
+    },
+    {
+      "year": "2020",
+      "volume": "33",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2020/file/1457c0d6bfcb4967418bfb8ac142f64a-Paper.pdf",
+      "title": "Language Models are Few-Shot Learners",
+      "publisher": "Curran Associates, Inc.",
+      "pages": "1877--1901",
+      "editor": "H. Larochelle and M. Ranzato and R. Hadsell and M.F. Balcan and H. Lin",
+      "booktitle": "Advances in Neural Information Processing Systems",
+      "author": "Brown, Tom and Mann, Benjamin and Ryder, Nick and Subbiah, Melanie and Kaplan, Jared D and Dhariwal, Prafulla and Neelakantan, Arvind and Shyam, Pranav and Sastry, Girish and Askell, Amanda and Agarwal, Sandhini and Herbert-Voss, Ariel and Krueger, Gretchen and Henighan, Tom and Child, Rewon and Ramesh, Aditya and Ziegler, Daniel and Wu, Jeffrey and Winter, Clemens and Hesse, Chris and Chen, Mark and Sigler, Eric and Litwin, Mateusz and Gray, Scott and Chess, Benjamin and Clark, Jack and Berner, Christopher and McCandlish, Sam and Radford, Alec and Sutskever, Ilya and Amodei, Dario",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "gpt3neurips"
+    },
+    {
+      "url": "http://jmlr.org/papers/v21/20-074.html",
+      "pages": "1-67",
+      "number": "140",
+      "volume": "21",
+      "year": "2020",
+      "journal": "Journal of Machine Learning Research",
+      "title": "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
+      "author": "Colin Raffel and Noam Shazeer and Adam Roberts and Katherine Lee and Sharan Narang and Michael Matena and Yanqi Zhou and Wei Li and Peter J. Liu",
+      "ENTRYTYPE": "article",
+      "ID": "2020t5"
+    },
+    {
+      "year": "2021",
+      "booktitle": "ICML",
+      "author": "Alec Radford and Jong Wook Kim and Chris Hallacy and A. Ramesh and Gabriel Goh and Sandhini Agarwal and Girish Sastry and Amanda Askell and Pamela Mishkin and Jack Clark and Gretchen Krueger and Ilya Sutskever",
+      "title": "Learning Transferable Visual Models From Natural Language Supervision",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "Radford2021CLIP"
+    },
+    {
+      "year": "2023",
+      "journal": "NeurIPS",
+      "author": "Koh, Jing Yu and Fried, Daniel and Salakhutdinov, Ruslan",
+      "title": "Generating Images with Multimodal Language Models",
+      "ENTRYTYPE": "article",
+      "ID": "koh2023GILL"
+    },
+    {
+      "url": "https://arxiv.org/abs/2412.15188",
+      "primaryclass": "cs.CL",
+      "archiveprefix": "arXiv",
+      "eprint": "2412.15188",
+      "year": "2025",
+      "author": "Weijia Shi and Xiaochuang Han and Chunting Zhou and Weixin Liang and Xi Victoria Lin and Luke Zettlemoyer and Lili Yu",
+      "title": "LMFusion: Adapting Pretrained Language Models for Multimodal Generation",
+      "ENTRYTYPE": "misc",
+      "ID": "shi2025lmfusion"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2501.17811",
+      "author": "Chen, Xiaokang and Wu, Zhiyu and Liu, Xingchao and Pan, Zizheng and Liu, Wen and Xie, Zhenda and Yu, Xingkai and Ruan, Chong",
+      "title": "Janus-Pro: Unified Multimodal Understanding and Generation with Data and Model Scaling",
+      "ENTRYTYPE": "article",
+      "ID": "chen2025januspro"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2410.13848",
+      "author": "Wu, Chengyue and Chen, Xiaokang and Wu, Zhiyu and Ma, Yiyang and Liu, Xingchao and Pan, Zizheng and Liu, Wen and Xie, Zhenda and Yu, Xingkai and Ruan, Chong and others",
+      "title": "Janus: Decoupling visual encoding for unified multimodal understanding and generation",
+      "ENTRYTYPE": "article",
+      "ID": "wu2024janus"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2411.07975",
+      "author": "Yiyang Ma and Xingchao Liu and Xiaokang Chen and Wen Liu and Chengyue Wu and Zhiyu Wu and Zizheng Pan and Zhenda Xie and Haowei Zhang and Xingkai yu and Liang Zhao and Yisong Wang and Jiaying Liu and Chong Ruan",
+      "title": "JanusFlow: Harmonizing Autoregression and Rectified Flow for Unified Multimodal Understanding and Generation",
+      "ENTRYTYPE": "misc",
+      "ID": "ma2024janusflow"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2404.14396",
+      "author": "Ge, Yuying and Zhao, Sijie and Zhu, Jinguo and Ge, Yixiao and Yi, Kun and Song, Lin and Li, Chen and Ding, Xiaohan and Shan, Ying",
+      "title": "SEED-X: Multimodal Models with Unified Multi-granularity Comprehension and Generation",
+      "ENTRYTYPE": "article",
+      "ID": "ge2024seedx"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2409.04429",
+      "author": "Wu, Yecheng and Zhang, Zhuoyang and Chen, Junyu and Tang, Haotian and Li, Dacheng and Fang, Yunhao and Zhu, Ligeng and Xie, Enze and Yin, Hongxu and Yi, Li and others",
+      "title": "Vila-u: a unified foundation model integrating visual understanding and generation",
+      "ENTRYTYPE": "article",
+      "ID": "wu2024vilau"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2409.18869",
+      "author": "Wang, Xinlong and Zhang, Xiaosong and Luo, Zhengxiong and Sun, Quan and Cui, Yufeng and Wang, Jinsheng and Zhang, Fan and Wang, Yueze and Li, Zhen and Yu, Qiying and others",
+      "title": "Emu3: Next-Token Prediction is All You Need",
+      "ENTRYTYPE": "article",
+      "ID": "wang2024emu3"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2305.15393",
+      "author": "Feng, Weixi and Zhu, Wanrong and Fu, Tsu-jui and Jampani, Varun and Akula, Arjun and He, Xuehai and Basu, Sugato and Wang, Xin Eric and Wang, William Yang",
+      "title": "LayoutGPT: Compositional Visual Planning and Generation with Large Language Models",
+      "ENTRYTYPE": "article",
+      "ID": "feng2023layoutgpt"
+    },
+    {
+      "year": "2023",
+      "pages": "6048--6069",
+      "volume": "36",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Cho, Jaemin and Zala, Abhay and Bansal, Mohit",
+      "title": "Visual programming for step-by-step text-to-image generation and evaluation",
+      "ENTRYTYPE": "article",
+      "ID": "Cho2023VPT2I"
+    },
+    {
+      "url": "https://arxiv.org/abs/2504.20996",
+      "primaryclass": "cs.CV",
+      "archiveprefix": "arXiv",
+      "eprint": "2504.20996",
+      "year": "2025",
+      "author": "Sicheng Mo and Thao Nguyen and Xun Huang and Siddharth Srinivasan Iyer and Yijun Li and Yuchen Liu and Abhishek Tandon and Eli Shechtman and Krishna Kumar Singh and Yong Jae Lee and Bolei Zhou and Yuheng Li",
+      "title": "X-Fusion: Introducing New Modality to Frozen Large Language Models",
+      "ENTRYTYPE": "misc",
+      "ID": "mo2025xfusion"
+    },
+    {
+      "year": "2023",
+      "booktitle": "IEEE International Conference on Computer Vision (ICCV)",
+      "author": "Lvmin Zhang and Anyi Rao and Maneesh Agrawala",
+      "title": "Adding Conditional Control to Text-to-Image Diffusion Models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zhang2023controlnet"
+    },
+    {
+      "url": "https://arxiv.org/abs/2408.11039",
+      "primaryclass": "cs.AI",
+      "archiveprefix": "arXiv",
+      "eprint": "2408.11039",
+      "year": "2024",
+      "author": "Chunting Zhou and Lili Yu and Arun Babu and Kushal Tirumala and Michihiro Yasunaga and Leonid Shamis and Jacob Kahn and Xuezhe Ma and Luke Zettlemoyer and Omer Levy",
+      "title": "Transfusion: Predict the Next Token and Diffuse Images with One Multi-Modal Model",
+      "ENTRYTYPE": "misc",
+      "ID": "zhou2024transfusion"
+    },
+    {
+      "url": "https://arxiv.org/abs/2108.10904",
+      "primaryclass": "cs.CV",
+      "archiveprefix": "arXiv",
+      "eprint": "2108.10904",
+      "year": "2022",
+      "author": "Zirui Wang and Jiahui Yu and Adams Wei Yu and Zihang Dai and Yulia Tsvetkov and Yuan Cao",
+      "title": "SimVLM: Simple Visual Language Model Pretraining with Weak Supervision",
+      "ENTRYTYPE": "misc",
+      "ID": "wang2022simvlm"
+    },
+    {
+      "year": "2020",
+      "booktitle": "EMNLP",
+      "author": "Cho, Jaemin and Lu, Jiasen and Schwenk, Dustin and Hajishirzi, Hannaneh and Kembhavi, Aniruddha",
+      "title": "X-LXMERT: Paint, Caption and Answer Questions with Multi-Modal Transformers",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "Cho2020XLXMERT"
+    },
+    {
+      "url": "https://arxiv.org/abs/2204.14198",
+      "primaryclass": "cs.CV",
+      "archiveprefix": "arXiv",
+      "eprint": "2204.14198",
+      "year": "2022",
+      "author": "Jean-Baptiste Alayrac and Jeff Donahue and Pauline Luc and Antoine Miech and Iain Barr and Yana Hasson and Karel Lenc and Arthur Mensch and Katie Millican and Malcolm Reynolds and Roman Ring and Eliza Rutherford and Serkan Cabi and Tengda Han and Zhitao Gong and Sina Samangooei and Marianne Monteiro and Jacob Menick and Sebastian Borgeaud and Andrew Brock and Aida Nematzadeh and Sahand Sharifzadeh and Mikolaj Binkowski and Ricardo Barreira and Oriol Vinyals and Andrew Zisserman and Karen Simonyan",
+      "title": "Flamingo: a Visual Language Model for Few-Shot Learning",
+      "ENTRYTYPE": "misc",
+      "ID": "alayrac2022flamingo"
+    },
+    {
+      "primaryclass": "cs.CV",
+      "archiveprefix": "arXiv",
+      "eprint": "2112.10752",
+      "year": "2021",
+      "author": "Robin Rombach and Andreas Blattmann and Dominik Lorenz and Patrick Esser and Björn Ommer",
+      "title": "High-Resolution Image Synthesis with Latent Diffusion Models",
+      "ENTRYTYPE": "misc",
+      "ID": "rombach2021ldm"
+    },
+    {
+      "url": "https://arxiv.org/abs/2205.11487",
+      "primaryclass": "cs.CV",
+      "archiveprefix": "arXiv",
+      "eprint": "2205.11487",
+      "year": "2022",
+      "author": "Chitwan Saharia and William Chan and Saurabh Saxena and Lala Li and Jay Whang and Emily Denton and Seyed Kamyar Seyed Ghasemipour and Burcu Karagol Ayan and S. Sara Mahdavi and Rapha Gontijo Lopes and Tim Salimans and Jonathan Ho and David J Fleet and Mohammad Norouzi",
+      "title": "Photorealistic Text-to-Image Diffusion Models with Deep Language Understanding",
+      "ENTRYTYPE": "misc",
+      "ID": "saharia2022imagen"
+    },
+    {
+      "url": "https://arxiv.org/abs/2102.12092",
+      "primaryclass": "cs.CV",
+      "archiveprefix": "arXiv",
+      "eprint": "2102.12092",
+      "year": "2021",
+      "author": "Aditya Ramesh and Mikhail Pavlov and Gabriel Goh and Scott Gray and Chelsea Voss and Alec Radford and Mark Chen and Ilya Sutskever",
+      "title": "Zero-Shot Text-to-Image Generation",
+      "ENTRYTYPE": "misc",
+      "ID": "ramesh2021dalle"
+    },
+    {
+      "year": "2023",
+      "pages": "3836--3847",
+      "booktitle": "Proceedings of the IEEE/CVF International Conference on Computer Vision",
+      "author": "Zhang, Lvmin and Rao, Anyi and Agrawala, Maneesh",
+      "title": "Adding conditional control to text-to-image diffusion models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zhang2023adding"
+    },
+    {
+      "abstract": "Text-to-image generation models are powerful but difficult to use. Users craft specific prompts to get better images, though the images can be repetitive. This paper proposes the Prompt Expansion framework that helps users generate high-quality, diverse images with less effort. The Prompt Expansion model takes a text query as input and outputs a set of expanded text prompts that are optimized such that when passed to a text-to-image model, they generate a wider variety of appealing images. We conduct a human evaluation study that shows that images generated through Prompt Expansion are more aesthetically pleasing and diverse than those generated by baseline methods. Overall, this paper presents a novel and effective approach to improving the text-to-image generation experience.",
+      "pages": "3449--3476",
+      "doi": "10.18653/v1/2024.acl-long.189",
+      "url": "https://aclanthology.org/2024.acl-long.189/",
+      "publisher": "Association for Computational Linguistics",
+      "address": "Bangkok, Thailand",
+      "year": "2024",
+      "month": "August",
+      "booktitle": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+      "editor": "Ku, Lun-Wei  and\nMartins, Andre  and\nSrikumar, Vivek",
+      "author": "Datta, Siddhartha  and\nKu, Alexander  and\nRamachandran, Deepak  and\nAnderson, Peter",
+      "title": "Prompt Expansion for Adaptive Text-to-Image Generation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "datta-etal-2024-promptexpansion"
+    },
+    {
+      "year": "2017",
+      "volume": "30",
+      "booktitle": "Advances in Neural Information Processing Systems (NeurIPS)",
+      "author": "Heusel, Martin and Ramsauer, Hubert and Unterthiner, Thomas and Nessler, Bernhard and Hochreiter, Sepp",
+      "title": "GANs trained by a two time-scale update rule converge to a local Nash equilibrium",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "heusel2017gans"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2021",
+      "pages": "7937--7947",
+      "booktitle": "International Conference on Machine Learning (ICML)",
+      "author": "Nash, Charlie and Barrett, David and Rezende, Danilo",
+      "title": "Generating images with sparse representations",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "nash2021generating"
+    },
+    {
+      "year": "2016",
+      "volume": "29",
+      "booktitle": "Advances in Neural Information Processing Systems (NeurIPS)",
+      "author": "Salimans, Tim and Goodfellow, Ian and Zaremba, Wojciech and Cheung, Vicki and Radford, Alec and Chen, Xi",
+      "title": "Improved techniques for training GANs",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "salimans2016improved"
+    },
+    {
+      "year": "2018",
+      "volume": "31",
+      "booktitle": "Advances in Neural Information Processing Systems (NeurIPS)",
+      "author": "Sajjadi, Mehdi S. M. and Bachem, Olivier and Lucic, Mario and Bousquet, Olivier and Gelly, Sylvain",
+      "title": "Assessing generative models via precision and recall",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "sajjadi2018assessing"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2204.06125",
+      "author": "Ramesh, Aditya and Dhariwal, Prafulla and Nichol, Alex and Chu, Casey and Chen, Mark",
+      "title": "Hierarchical Text-Conditional Image Generation with CLIP Latents",
+      "ENTRYTYPE": "article",
+      "ID": "ramesh2022hierarchical"
+    },
+    {
+      "year": "2024",
+      "pages": "56424--56445",
+      "volume": "37",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Li, Tianhong and Tian, Yonglong and Li, He and Deng, Mingyang and He, Kaiming",
+      "title": "Autoregressive image generation without vector quantization",
+      "ENTRYTYPE": "article",
+      "ID": "li2024autoregressive"
+    },
+    {
+      "organization": "Ieee",
+      "year": "2009",
+      "pages": "248--255",
+      "booktitle": "2009 IEEE conference on computer vision and pattern recognition",
+      "author": "Deng, Jia and Dong, Wei and Socher, Richard and Li, Li-Jia and Li, Kai and Fei-Fei, Li",
+      "title": "Imagenet: A large-scale hierarchical image database",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "deng2009imagenet"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2502.20388",
+      "author": "Ren, Sucheng and Yu, Qihang and He, Ju and Shen, Xiaohui and Yuille, Alan and Chen, Liang-Chieh",
+      "title": "Beyond next-token: Next-x prediction for autoregressive visual generation",
+      "ENTRYTYPE": "article",
+      "ID": "ren2025beyond"
+    },
+    {
+      "year": "2019",
+      "volume": "32",
+      "journal": "Advances in neural information processing systems",
+      "author": "Kynk{\\\"a}{\\\"a}nniemi, Tuomas and Karras, Tero and Laine, Samuli and Lehtinen, Jaakko and Aila, Timo",
+      "title": "Improved precision and recall metric for assessing generative models",
+      "ENTRYTYPE": "article",
+      "ID": "kynkaanniemi2019improved"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2505.05472",
+      "author": "Liao, Chao and Liu, Liyang and Wang, Xun and Luo, Zhengxiong and Zhang, Xinyu and Zhao, Wenliang and Wu, Jie and Li, Liang and Tian, Zhi and Huang, Weilin",
+      "title": "Mogao: An Omni Foundation Model for Interleaved Multi-Modal Generation",
+      "ENTRYTYPE": "article",
+      "ID": "liao2025mogao"
+    },
+    {
+      "note": "Accessed: 2025-05-11",
+      "url": "https://openai.com/index/introducing-4o-image-generation/",
+      "year": "2024",
+      "title": "Introducing GPT-4o: Image, Text, and Audio Generation",
+      "author": "{OpenAI}",
+      "ENTRYTYPE": "misc",
+      "ID": "openai4o2024"
+    },
+    {
+      "note": "Accessed: 2025-05-11",
+      "url": "https://openai.com/o1/",
+      "year": "2024",
+      "title": "OpenAI O1 Team Page",
+      "author": "{OpenAI}",
+      "ENTRYTYPE": "misc",
+      "ID": "openaiO12024"
+    },
+    {
+      "url": "https://arxiv.org/abs/2501.12948",
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2501.12948",
+      "author": "Guo, Daya and Yang, Dejian and Zhang, Haowei and Song, Junxiao and Zhang, Ruoyu and Xu, Runxin and Zhu, Qihao and Ma, Shirong and Wang, Peiyi and Bi, Xiao and others",
+      "title": "DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning",
+      "ENTRYTYPE": "article",
+      "ID": "guo2025deepseek"
+    },
+    {
+      "url": "https://arxiv.org/abs/1810.04805",
+      "year": "2019",
+      "journal": "NAACL",
+      "author": "Devlin, Jacob and Chang, Ming-Wei and Lee, Kenton and Toutanova, Kristina",
+      "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+      "ENTRYTYPE": "article",
+      "ID": "bert2019"
+    },
+    {
+      "url": "https://arxiv.org/abs/1907.11692",
+      "year": "2019",
+      "journal": "arXiv preprint arXiv:1907.11692",
+      "author": "Liu, Yinhan and others",
+      "title": "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+      "ENTRYTYPE": "article",
+      "ID": "roberta2019"
+    },
+    {
+      "url": "https://arxiv.org/abs/2206.14858",
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2206.14858",
+      "author": "Lewkowycz, Aitor and others",
+      "title": "Minerva: Solving Quantitative Reasoning Problems with Language Models",
+      "ENTRYTYPE": "article",
+      "ID": "minerva2022"
+    },
+    {
+      "url": "https://arxiv.org/abs/2305.17126",
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2305.17126",
+      "author": "Shi, Weijia and others",
+      "title": "PRM800K: A Prompt-Rewarded Dataset for Math Reasoning",
+      "ENTRYTYPE": "article",
+      "ID": "prm800k2023"
+    },
+    {
+      "url": "https://arxiv.org/abs/2107.03374",
+      "year": "2021",
+      "journal": "arXiv preprint arXiv:2107.03374",
+      "author": "Chen, Mark and others",
+      "title": "Evaluating Large Language Models Trained on Code",
+      "ENTRYTYPE": "article",
+      "ID": "codex2021"
+    },
+    {
+      "url": "https://arxiv.org/abs/2203.13474",
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2203.13474",
+      "author": "Nijkamp, Erik and others",
+      "title": "CodeGen: An Open Large Language Model for Code with Multi-Turn Program Synthesis",
+      "ENTRYTYPE": "article",
+      "ID": "codegen2022"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2408.06072",
+      "author": "Yang, Zhuoyi and Teng, Jiayan and Zheng, Wendi and Ding, Ming and Huang, Shiyu and Xu, Jiazheng and Yang, Yuanming and Hong, Wenyi and Zhang, Xiaohan and Feng, Guanyu and others",
+      "title": "CogVideoX: Text-to-Video Diffusion Models with An Expert Transformer",
+      "ENTRYTYPE": "article",
+      "ID": "yang2024cogvideox"
+    },
+    {
+      "url": "https://arxiv.org/abs/2403.03206",
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2403.03206",
+      "author": "Esser, Patrick and Kulal, Sumith and Blattmann, Andreas and Entezari, Rahim and M{\\\"u}ller, Jonas",
+      "title": "Scaling Rectified Flow Transformers for High-Resolution Image Synthesis",
+      "ENTRYTYPE": "article",
+      "ID": "esser2024scaling"
+    },
+    {
+      "note": "Accessed: 2025-05-11",
+      "url": "https://cdn.openai.com/papers/dall-e-3.pdf",
+      "year": "2023",
+      "title": "Improving Image Generation with Better Captions",
+      "author": "{OpenAI}",
+      "ENTRYTYPE": "misc",
+      "ID": "openai2023dalle3"
+    },
+    {
+      "note": "Accessed: 2025-05-11",
+      "url": "https://openai.com/index/video-generation-models-as-world-simulators/",
+      "year": "2024",
+      "title": "Video Generation Models as World Simulators",
+      "author": "{OpenAI}",
+      "ENTRYTYPE": "misc",
+      "ID": "openai2024sora"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2406.06525",
+      "author": "Sun, Peize and Jiang, Yi and Chen, Shoufa and Zhang, Shilong and Peng, Bingyue and Luo, Ping and Yuan, Zehuan",
+      "title": "Autoregressive model beats diffusion: Llama for scalable image generation",
+      "ENTRYTYPE": "article",
+      "ID": "sun2024autoregressive"
+    },
+    {
+      "url": "https://arxiv.org/abs/2310.05737",
+      "year": "2024",
+      "booktitle": "Proceedings of the 12th International Conference on Learning Representations (ICLR)",
+      "author": "Yu, Lijun and Lezama, José and Gundavarapu, Nitesh B. and Versari, Luca and Sohn, Kihyuk and Minnen, David and Cheng, Yong and Gupta, Agrim and Gu, Xiuye and Hauptmann, Alexander G. and Gong, Boqing and Yang, Ming-Hsuan and Essa, Irfan and Ross, David A. and Jiang, Lu",
+      "title": "Language Model Beats Diffusion: Tokenizer is Key to Visual Generation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "yu2024language"
+    },
+    {
+      "url": "https://arxiv.org/abs/1711.00937",
+      "year": "2017",
+      "volume": "30",
+      "booktitle": "Advances in Neural Information Processing Systems (NeurIPS)",
+      "author": "van den Oord, Aaron and Vinyals, Oriol and Kavukcuoglu, Koray",
+      "title": "Neural Discrete Representation Learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "oord2017neural"
+    },
+    {
+      "url": "https://arxiv.org/abs/2303.15343",
+      "year": "2023",
+      "booktitle": "Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)",
+      "author": "Zhai, Xiaohua and Mustafa, Basil and Kolesnikov, Alexander and Beyer, Lucas",
+      "title": "Sigmoid Loss for Language Image Pre-Training",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zhai2023sigmoid"
+    },
+    {
+      "booktitle": "The Twelfth International Conference on Learning Representations",
+      "author": "Xu, Hu and Xie, Saining and Tan, Xiaoqing and Huang, Po-Yao and Howes, Russell and Sharma, Vasu and Li, Shang-Wen and Ghosh, Gargi and Zettlemoyer, Luke and Feichtenhofer, Christoph",
+      "title": "Demystifying CLIP Data",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "xudemystifying"
+    },
+    {
+      "url": "https://arxiv.org/abs/2103.00020",
+      "year": "2021",
+      "booktitle": "Proceedings of the 38th International Conference on Machine Learning (ICML)",
+      "author": "Radford, Alec and Kim, Jong Wook and Hallacy, Luke and Ramesh, Aditya and Goh, Gabriel and Agarwal, Sandhini and Sastry, Girish and Askell, Amanda and Mishkin, Pamela and Clark, Jack and Krueger, Gretchen and Sutskever, Ilya",
+      "title": "Learning Transferable Visual Models From Natural Language Supervision",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "radford2021learning"
+    },
+    {
+      "booktitle": "The Twelfth International Conference on Learning Representations",
+      "author": "Podell, Dustin and English, Zion and Lacey, Kyle and Blattmann, Andreas and Dockhorn, Tim and M{\\\"u}ller, Jonas and Penna, Joe and Rombach, Robin",
+      "title": "SDXL: Improving Latent Diffusion Models for High-Resolution Image Synthesis",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "podellsdxl"
+    },
+    {
+      "url": "https://arxiv.org/abs/1312.6114",
+      "year": "2013",
+      "journal": "arXiv preprint arXiv:1312.6114",
+      "author": "Kingma, Diederik P and Welling, Max",
+      "title": "Auto-Encoding Variational Bayes",
+      "ENTRYTYPE": "article",
+      "ID": "kingma2013auto"
+    },
+    {
+      "url": "https://arxiv.org/abs/2505.02471",
+      "primaryclass": "cs.CV",
+      "archiveprefix": "arXiv",
+      "eprint": "2505.02471",
+      "year": "2025",
+      "author": "Inclusion AI and Biao Gong and Cheng Zou and Dandan Zheng and Hu Yu and Jingdong Chen and Jianxin Sun and Junbo Zhao and Jun Zhou and Kaixiang Ji and Lixiang Ru and Libin Wang and Qingpei Guo and Rui Liu and Weilong Chai and Xinyu Xiao and Ziyuan Huang",
+      "title": "Ming-Lite-Uni: Advancements in Unified Architecture for Natural Multimodal Interaction",
+      "ENTRYTYPE": "misc",
+      "ID": "ai2025mingliteuni"
+    },
+    {
+      "year": "2024",
+      "pages": "14398--14409",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Sun, Quan and Cui, Yufeng and Zhang, Xiaosong and Zhang, Fan and Yu, Qiying and Wang, Yueze and Rao, Yongming and Liu, Jingjing and Huang, Tiejun and Wang, Xinlong",
+      "title": "Generative multimodal models are in-context learners",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "sun2024generative"
+    },
+    {
+      "url": "https://arxiv.org/abs/2504.10479",
+      "primaryclass": "cs.CV",
+      "archiveprefix": "arXiv",
+      "eprint": "2504.10479",
+      "year": "2025",
+      "author": "Jinguo Zhu and Weiyun Wang and Zhe Chen and Zhaoyang Liu and Shenglong Ye and Lixin Gu and Hao Tian and Yuchen Duan and Weijie Su and Jie Shao and Zhangwei Gao and Erfei Cui and Xuehui Wang and Yue Cao and Yangzhou Liu and Xingguang Wei and Hongjie Zhang and Haomin Wang and Weiye Xu and Hao Li and Jiahao Wang and Nianchen Deng and Songze Li and Yinan He and Tan Jiang and Jiapeng Luo and Yi Wang and Conghui He and Botian Shi and Xingcheng Zhang and Wenqi Shao and Junjun He and Yingtong Xiong and Wenwen Qu and Peng Sun and Penglong Jiao and Han Lv and Lijun Wu and Kaipeng Zhang and Huipeng Deng and Jiaye Ge and Kai Chen and Limin Wang and Min Dou and Lewei Lu and Xizhou Zhu and Tong Lu and Dahua Lin and Yu Qiao and Jifeng Dai and Wenhai Wang",
+      "title": "InternVL3: Exploring Advanced Training and Test-Time Recipes for Open-Source Multimodal Models",
+      "ENTRYTYPE": "misc",
+      "ID": "internvl3"
+    },
+    {
+      "note": "Accessed: 2025-05-12",
+      "url": "https://ai.meta.com/blog/llama-4-multimodal-intelligence/",
+      "month": "April",
+      "year": "2025",
+      "title": "The Llama 4 Herd: The Beginning of a New Era of Natively Multimodal AI Innovation",
+      "author": "Meta AI",
+      "ENTRYTYPE": "misc",
+      "ID": "meta2025llama4"
+    },
+    {
+      "url": "https://cloud.google.com/vertex-ai/generative-ai/docs/models/gemini/2-5-pro",
+      "note": "Large language model",
+      "month": "March",
+      "year": "2025",
+      "title": "Gemini 2.5 Pro",
+      "author": "Google DeepMind",
+      "ENTRYTYPE": "misc",
+      "ID": "google2025gemini25pro"
+    },
+    {
+      "year": "2023",
+      "pages": "4015--4026",
+      "booktitle": "Proceedings of the IEEE/CVF international conference on computer vision",
+      "author": "Kirillov, Alexander and Mintun, Eric and Ravi, Nikhila and Mao, Hanzi and Rolland, Chloe and Gustafson, Laura and Xiao, Tete and Whitehead, Spencer and Berg, Alexander C and Lo, Wan-Yen and others",
+      "title": "Segment anything",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "kirillov2023segment"
+    },
+    {
+      "year": "2021",
+      "pages": "3558--3568",
+      "booktitle": "Proceedings of the IEEE/CVF conference on computer vision and pattern recognition",
+      "author": "Changpinyo, Soravit and Sharma, Piyush and Ding, Nan and Soricut, Radu",
+      "title": "Conceptual 12m: Pushing web-scale image-text pre-training to recognize long-tail visual concepts",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "changpinyo2021conceptual"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2402.17245",
+      "author": "Li, Daiqing and Kamko, Aleks and Akhgari, Ehsan and Sabet, Ali and Xu, Linmiao and Doshi, Suhail",
+      "title": "Playground v2. 5: Three insights towards enhancing aesthetic quality in text-to-image generation",
+      "ENTRYTYPE": "article",
+      "ID": "li2024playground"
+    },
+    {
+      "organization": "Springer",
+      "year": "2014",
+      "pages": "740--755",
+      "booktitle": "Computer vision--ECCV 2014: 13th European conference, zurich, Switzerland, September 6-12, 2014, proceedings, part v 13",
+      "author": "Lin, Tsung-Yi and Maire, Michael and Belongie, Serge and Hays, James and Perona, Pietro and Ramanan, Deva and Doll{\\'a}r, Piotr and Zitnick, C Lawrence",
+      "title": "Microsoft coco: Common objects in context",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "lin2014microsoft"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2403.05135",
+      "author": "Hu, Xiwei and Wang, Rui and Fang, Yixiao and Fu, Bin and Cheng, Pei and Yu, Gang",
+      "title": "Ella: Equip diffusion models with llm for enhanced semantic alignment",
+      "ENTRYTYPE": "article",
+      "ID": "hu2024ella"
+    },
+    {
+      "year": "2023",
+      "pages": "52132--52152",
+      "volume": "36",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Ghosh, Dhruba and Hajishirzi, Hannaneh and Schmidt, Ludwig",
+      "title": "Geneval: An object-focused framework for evaluating text-to-image alignment",
+      "ENTRYTYPE": "article",
+      "ID": "ghosh2023geneval"
+    },
+    {
+      "year": "2023",
+      "booktitle": "The Twelfth International Conference on Learning Representations",
+      "author": "Geyer, Michal and Bar-Tal, Omer and Bagon, Shai and Dekel, Tali",
+      "title": "TokenFlow: Consistent Diffusion Features for Consistent Video Editing",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "geyertokenflow"
+    },
+    {
+      "year": "2023",
+      "booktitle": "The Twelfth International Conference on Learning Representations",
+      "author": "Dong, Runpei and Han, Chunrui and Peng, Yuang and Qi, Zekun and Ge, Zheng and Yang, Jinrong and Zhao, Liang and Sun, Jianjian and Zhou, Hongyu and Wei, Haoran and others",
+      "title": "DreamLLM: Synergistic Multimodal Comprehension and Creation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "dongdreamllm"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2307.08041",
+      "author": "Ge, Yuying and Ge, Yixiao and Zeng, Ziyun and Wang, Xintao and Shan, Ying",
+      "title": "Planting a seed of vision in large language model",
+      "ENTRYTYPE": "article",
+      "ID": "ge2023planting"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2307.05222",
+      "author": "Sun, Quan and Yu, Qiying and Cui, Yufeng and Zhang, Fan and Zhang, Xiaosong and Wang, Yueze and Gao, Hongcheng and Liu, Jingjing and Huang, Tiejun and Wang, Xinlong",
+      "title": "Emu: Generative pretraining in multimodality",
+      "ENTRYTYPE": "article",
+      "ID": "sun2023emu"
+    },
+    {
+      "note": "arXiv:2410.21276 [cs.CL]",
+      "year": "2024",
+      "howpublished": "\\url{https://arxiv.org/abs/2410.21276}",
+      "title": "GPT-4o System Card",
+      "author": "Aaron Hurst and others",
+      "ENTRYTYPE": "misc",
+      "ID": "openai2024gpt4o"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2306.13394",
+      "author": "Fu, Chaoyou and Chen, Peixian and Shen, Yunhang and Qin, Yulei and Zhang, Mengdan and Lin, Xu and Yang, Jinrui and Zheng, Xiawu and Li, Ke and Sun, Xing and others",
+      "title": "MME: A Comprehensive Evaluation Benchmark for Multimodal Large Language Models",
+      "ENTRYTYPE": "article",
+      "ID": "fu2023mme"
+    },
+    {
+      "organization": "Springer",
+      "year": "2024",
+      "pages": "216--233",
+      "booktitle": "European conference on computer vision",
+      "author": "Liu, Yuan and Duan, Haodong and Zhang, Yuanhan and Li, Bo and Zhang, Songyang and Zhao, Wangbo and Yuan, Yike and Wang, Jiaqi and He, Conghui and Liu, Ziwei and others",
+      "title": "Mmbench: Is your multi-modal model an all-around player?",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "liu2024mmbench"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2307.16125",
+      "author": "Li, Bohao and Wang, Rui and Wang, Guangzhi and Ge, Yuying and Ge, Yixiao and Shan, Ying",
+      "title": "Seed-bench: Benchmarking multimodal llms with generative comprehension",
+      "ENTRYTYPE": "article",
+      "ID": "li2023seed"
+    },
+    {
+      "year": "2024",
+      "pages": "9556--9567",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Yue, Xiang and Ni, Yuansheng and Zhang, Kai and Zheng, Tianyu and Liu, Ruoqi and Zhang, Ge and Stevens, Samuel and Jiang, Dongfu and Ren, Weiming and Sun, Yuxuan and others",
+      "title": "Mmmu: A massive multi-discipline multimodal understanding and reasoning benchmark for expert agi",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "yue2024mmmu"
+    },
+    {
+      "year": "2023",
+      "booktitle": "Forty-first International Conference on Machine Learning",
+      "author": "Yu, Weihao and Yang, Zhengyuan and Li, Linjie and Wang, Jianfeng and Lin, Kevin and Liu, Zicheng and Wang, Xinchao and Wang, Lijuan",
+      "title": "MM-Vet: Evaluating Large Multimodal Models for Integrated Capabilities",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "MM-Vet"
+    },
+    {
+      "organization": "Curran Associates, Inc.",
+      "year": "2017",
+      "volume": "30",
+      "booktitle": "Advances in Neural Information Processing Systems",
+      "author": "Vaswani, Ashish and Shazeer, Noam and Parmar, Niki and Uszkoreit, Jakob and Jones, Llion and Gomez, Aidan N and Kaiser, {\\L}ukasz and Polosukhin, Illia",
+      "title": "Attention is All You Need",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "vaswani2017attention"
+    },
+    {
+      "url": "https://arxiv.org/abs/1711.00937",
+      "primaryclass": "cs.LG",
+      "archiveprefix": "arXiv",
+      "eprint": "1711.00937",
+      "year": "2018",
+      "author": "Aaron van den Oord and Oriol Vinyals and Koray Kavukcuoglu",
+      "title": "Neural Discrete Representation Learning",
+      "ENTRYTYPE": "misc",
+      "ID": "oord2018vqvae"
+    },
+    {
+      "year": "2023",
+      "pages": "4195--4205",
+      "booktitle": "Proceedings of the IEEE/CVF international conference on computer vision",
+      "author": "Peebles, William and Xie, Saining",
+      "title": "Scalable diffusion models with transformers",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "peebles2023scalable"
+    },
+    {
+      "year": "2024",
+      "url": "https://pytorch.org/assets/pytorch2-2.pdf",
+      "title": "{PyTorch 2: Faster Machine Learning Through Dynamic Python Bytecode Transformation and Graph Compilation}",
+      "publisher": "ACM",
+      "month": "April",
+      "doi": "10.1145/3620665.3640366",
+      "booktitle": "29th ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Volume 2 (ASPLOS '24)",
+      "author": "Ansel, Jason and Yang, Edward and He, Horace and Gimelshein, Natalia and Jain, Animesh and Voznesensky, Michael and Bao, Bin and Bell, Peter and Berard, David and Burovski, Evgeni and Chauhan, Geeta and Chourdia, Anjali and Constable, Will and Desmaison, Alban and DeVito, Zachary and Ellison, Elias and Feng, Will and Gong, Jiong and Gschwind, Michael and Hirsh, Brian and Huang, Sherlock and Kalambarkar, Kshiteej and Kirsch, Laurent and Lazos, Michael and Lezcano, Mario and Liang, Yanbo and Liang, Jason and Lu, Yinghai and Luk, CK and Maher, Bert and Pan, Yunjie and Puhrsch, Christian and Reso, Matthias and Saroufim, Mark and Siraichi, Marcos Yukio and Suk, Helen and Suo, Michael and Tillet, Phil and Wang, Eikan and Wang, Xiaodong and Wen, William and Zhang, Shunting and Zhao, Xu and Zhou, Keren and Zou, Richard and Mathews, Ajit and Chanan, Gregory and Wu, Peng and Chintala, Soumith",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "Ansel_PyTorch_2_Faster_2024"
+    },
+    {
+      "pages": "38--45",
+      "url": "https://www.aclweb.org/anthology/2020.emnlp-demos.6",
+      "publisher": "Association for Computational Linguistics",
+      "address": "Online",
+      "year": "2020",
+      "month": "October",
+      "booktitle": "Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing: System Demonstrations",
+      "author": "Thomas Wolf and Lysandre Debut and Victor Sanh and Julien Chaumond and Clement Delangue and Anthony Moi and Pierric Cistac and Tim Rault and Rémi Louf and Morgan Funtowicz and Joe Davison and Sam Shleifer and Patrick von Platen and Clara Ma and Yacine Jernite and Julien Plu and Canwen Xu and Teven Le Scao and Sylvain Gugger and Mariama Drame and Quentin Lhoest and Alexander M. Rush",
+      "title": "Transformers: State-of-the-Art Natural Language Processing",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "wolf-etal-2020-transformers"
+    },
+    {
+      "howpublished": "\\url{https://github.com/huggingface/diffusers}",
+      "journal": "GitHub repository",
+      "publisher": "GitHub",
+      "year": "2022",
+      "title": "Diffusers: State-of-the-art diffusion models",
+      "author": "Patrick von Platen and Suraj Patil and Anton Lozhkov and Pedro Cuenca and Nathan Lambert and Kashif Rasul and Mishig Davaadorj and Thomas Wolf",
+      "ENTRYTYPE": "misc",
+      "ID": "von-platen-etal-2022-diffusers"
+    },
+    {
+      "url": "https://arxiv.org/abs/2505.09568",
+      "primaryclass": "cs.CV",
+      "archiveprefix": "arXiv",
+      "eprint": "2505.09568",
+      "year": "2025",
+      "author": "Jiuhai Chen and Zhiyang Xu and Xichen Pan and Yushi Hu and Can Qin and Tom Goldstein and Lifu Huang and Tianyi Zhou and Saining Xie and Silvio Savarese and Le Xue and Caiming Xiong and Ran Xu",
+      "title": "BLIP3-o: A Family of Fully Open Unified Multimodal Models-Architecture, Training and Dataset",
+      "ENTRYTYPE": "misc",
+      "ID": "chen2025blip3ofamilyfullyopen"
+    }
+  ]
+}

@@ -1,0 +1,363 @@
+{
+  "pdf_url": "https://arxiv.org/pdf/2506.00874v1.pdf",
+  "references": [
+    {
+      "language": "en-US",
+      "month": "Jul",
+      "year": "2017",
+      "author": "Chollet, Francois",
+      "booktitle": "2017 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "doi": "10.1109/cvpr.2017.195",
+      "url": "http://dx.doi.org/10.1109/cvpr.2017.195",
+      "title": "Xception: Deep Learning with Depthwise Separable Convolutions",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "Chollet2017"
+    },
+    {
+      "year": "2020",
+      "pages": "8695--8704",
+      "booktitle": "Proceedings of the IEEE/CVF conference on computer vision and pattern recognition",
+      "author": "Wang, Sheng-Yu and Wang, Oliver and Zhang, Richard and Owens, Andrew and Efros, Alexei A",
+      "title": "CNN-generated images are surprisingly easy to spot... for now",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "wang2020cnn"
+    },
+    {
+      "url": "https://openreview.net/forum?id=oRLwyayrh1",
+      "year": "2024",
+      "booktitle": "Forty-first International Conference on Machine Learning",
+      "author": "Baoying Chen and Jishen Zeng and Jianquan Yang and Rui Yang",
+      "title": "{DRCT}: Diffusion Reconstruction Contrastive Training towards Universal Detection of Diffusion Generated Images",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "chen2024drct"
+    },
+    {
+      "language": "en-US",
+      "month": "Jun",
+      "year": "2016",
+      "author": "He, Kaiming and Zhang, Xiangyu and Ren, Shaoqing and Sun, Jian",
+      "booktitle": "2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "doi": "10.1109/cvpr.2016.90",
+      "url": "http://dx.doi.org/10.1109/cvpr.2016.90",
+      "title": "Deep Residual Learning for Image Recognition",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "He_Zhang_Ren_Sun_2016"
+    },
+    {
+      "year": "2021",
+      "pages": "16317--16326",
+      "booktitle": "Proceedings of the IEEE/CVF conference on computer vision and pattern recognition",
+      "author": "Luo, Yuchen and Zhang, Yong and Yan, Junchi and Liu, Wei",
+      "title": "Generalizing face forgery detection with high-frequency features",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "luo2021generalizing"
+    },
+    {
+      "year": "2021",
+      "pages": "772--781",
+      "booktitle": "Proceedings of the IEEE/CVF conference on computer vision and pattern recognition",
+      "author": "Liu, Honggu and Li, Xiaodan and Zhou, Wenbo and Chen, Yuefeng and He, Yuan and Xue, Hui and Zhang, Weiming and Yu, Nenghai",
+      "title": "Spatial-phase shallow learning: rethinking face forgery detection in frequency domain",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "liu2021spatial"
+    },
+    {
+      "year": "2024",
+      "pages": "28130--28139",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Tan, Chuangchuang and Zhao, Yao and Wei, Shikui and Gu, Guanghua and Liu, Ping and Wei, Yunchao",
+      "title": "Rethinking the up-sampling operations in cnn-based generative network for generalizable deepfake detection",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "tan2024rethinking"
+    },
+    {
+      "year": "2020",
+      "pages": "8060--8069",
+      "booktitle": "Proceedings of the IEEE/CVF conference on computer vision and pattern recognition",
+      "author": "Liu, Zhengzhe and Qi, Xiaojuan and Torr, Philip HS",
+      "title": "Global texture enhancement for fake face detection in the wild",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "liu2020global"
+    },
+    {
+      "organization": "Springer",
+      "year": "2020",
+      "pages": "86--103",
+      "booktitle": "European conference on computer vision",
+      "author": "Qian, Yuyang and Yin, Guojun and Sheng, Lu and Chen, Zixuan and Shao, Jing",
+      "title": "Thinking in frequency: Face forgery detection by mining frequency-aware clues",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "qian2020thinking"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2406.19435",
+      "author": "Yan, Shilin and Li, Ouxiang and Cai, Jiayin and Hao, Yanbin and Jiang, Xiaolong and Hu, Yao and Xie, Weidi",
+      "title": "A sanity check for ai-generated image detection",
+      "ENTRYTYPE": "article",
+      "ID": "yan2024sanity"
+    },
+    {
+      "year": "2023",
+      "pages": "22445--22455",
+      "booktitle": "Proceedings of the IEEE/CVF International Conference on Computer Vision",
+      "author": "Wang, Zhendong and Bao, Jianmin and Zhou, Wengang and Wang, Weilun and Hu, Hezhen and Chen, Hong and Li, Houqiang",
+      "title": "Dire for diffusion-generated image detection",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "wang2023dire"
+    },
+    {
+      "year": "2023",
+      "pages": "77771--77782",
+      "volume": "36",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Zhu, Mingjian and Chen, Hanting and Yan, Qiangyu and Huang, Xudong and Lin, Guanyu and Li, Wei and Tu, Zhijun and Hu, Hailin and Hu, Jie and Wang, Yunhe",
+      "title": "Genimage: A million-scale benchmark for detecting ai-generated image",
+      "ENTRYTYPE": "article",
+      "ID": "zhu2023genimage"
+    },
+    {
+      "year": "2022",
+      "pages": "3",
+      "number": "2",
+      "volume": "1",
+      "journal": "ICLR",
+      "author": "Hu, Edward J and Shen, Yelong and Wallis, Phillip and Allen-Zhu, Zeyuan and Li, Yuanzhi and Wang, Shean and Wang, Lu and Chen, Weizhu and others",
+      "title": "Lora: Low-rank adaptation of large language models.",
+      "ENTRYTYPE": "article",
+      "ID": "hu2022lora"
+    },
+    {
+      "year": "2023",
+      "pages": "24480--24489",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Ojha, Utkarsh and Li, Yuheng and Lee, Yong Jae",
+      "title": "Towards universal fake image detectors that generalize across generative models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ojha2023towards"
+    },
+    {
+      "year": "2018",
+      "pages": "9185--9193",
+      "booktitle": "Proceedings of the IEEE conference on computer vision and pattern recognition",
+      "author": "Dong, Yinpeng and Liao, Fangzhou and Pang, Tianyu and Su, Hang and Zhu, Jun and Hu, Xiaolin and Li, Jianguo",
+      "title": "Boosting adversarial attacks with momentum",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "dong2018boosting"
+    },
+    {
+      "year": "2016",
+      "pages": "770--778",
+      "booktitle": "Proceedings of the IEEE conference on computer vision and pattern recognition",
+      "author": "He, Kaiming and Zhang, Xiangyu and Ren, Shaoqing and Sun, Jian",
+      "title": "Deep residual learning for image recognition",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "he2016deep"
+    },
+    {
+      "organization": "PmLR",
+      "year": "2021",
+      "pages": "8748--8763",
+      "booktitle": "International conference on machine learning",
+      "author": "Radford, Alec and Kim, Jong Wook and Hallacy, Chris and Ramesh, Aditya and Goh, Gabriel and Agarwal, Sandhini and Sastry, Girish and Askell, Amanda and Mishkin, Pamela and Clark, Jack and others",
+      "title": "Learning transferable visual models from natural language supervision",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "radford2021learning"
+    },
+    {
+      "publisher": "ACM New York, NY, USA",
+      "year": "2020",
+      "pages": "139--144",
+      "number": "11",
+      "volume": "63",
+      "journal": "Communications of the ACM",
+      "author": "Goodfellow, Ian and Pouget-Abadie, Jean and Mirza, Mehdi and Xu, Bing and Warde-Farley, David and Ozair, Sherjil and Courville, Aaron and Bengio, Yoshua",
+      "title": "Generative adversarial networks",
+      "ENTRYTYPE": "article",
+      "ID": "goodfellow2020generative"
+    },
+    {
+      "year": "2020",
+      "journal": "arXiv preprint arXiv:2011.13456",
+      "author": "Song, Yang and Sohl-Dickstein, Jascha and Kingma, Diederik P and Kumar, Abhishek and Ermon, Stefano and Poole, Ben",
+      "title": "Score-based generative modeling through stochastic differential equations",
+      "ENTRYTYPE": "article",
+      "ID": "song2020score"
+    },
+    {
+      "year": "2022",
+      "pages": "10684--10695",
+      "booktitle": "Proceedings of the IEEE/CVF conference on computer vision and pattern recognition",
+      "author": "Rombach, Robin and Blattmann, Andreas and Lorenz, Dominik and Esser, Patrick and Ommer, Bj{\\\"o}rn",
+      "title": "High-resolution image synthesis with latent diffusion models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "rombach2022high"
+    },
+    {
+      "year": "2024",
+      "pages": "10759--10769",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Cazenavette, George and Sud, Avneesh and Leung, Thomas and Usman, Ben",
+      "title": "Fakeinversion: Learning to detect images from unseen text-to-image models by inverting stable diffusion",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "cazenavette2024fakeinversion"
+    },
+    {
+      "organization": "IEEE",
+      "year": "2025",
+      "pages": "3024--3034",
+      "booktitle": "2025 IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)",
+      "author": "Xu, Katherine and Zhang, Lingzhi and Shi, Jianbo",
+      "title": "Good seed makes a good crop: Discovering secret seeds in text-to-image diffusion models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "xu2025good"
+    },
+    {
+      "howpublished": "\\url{https://github.com/black-forest-labs/flux}",
+      "year": "2024",
+      "title": "FLUX",
+      "author": "Black Forest Labs",
+      "ENTRYTYPE": "misc",
+      "ID": "flux2024"
+    },
+    {
+      "year": "2023",
+      "pages": "4195--4205",
+      "booktitle": "Proceedings of the IEEE/CVF international conference on computer vision",
+      "author": "Peebles, William and Xie, Saining",
+      "title": "Scalable diffusion models with transformers",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "peebles2023scalable"
+    },
+    {
+      "year": "2024",
+      "pages": "1--53",
+      "number": "70",
+      "volume": "25",
+      "journal": "Journal of Machine Learning Research",
+      "author": "Chung, Hyung Won and Hou, Le and Longpre, Shayne and Zoph, Barret and Tay, Yi and Fedus, William and Li, Yunxuan and Wang, Xuezhi and Dehghani, Mostafa and Brahma, Siddhartha and others",
+      "title": "Scaling instruction-finetuned language models",
+      "ENTRYTYPE": "article",
+      "ID": "chung2024scaling"
+    },
+    {
+      "year": "2019",
+      "pages": "6976--6987",
+      "booktitle": "Proceedings of the IEEE/CVF conference on computer vision and pattern recognition",
+      "author": "Stutz, David and Hein, Matthias and Schiele, Bernt",
+      "title": "Disentangling adversarial robustness and generalization",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "stutz2019disentangling"
+    },
+    {
+      "year": "2020",
+      "journal": "arXiv preprint arXiv:2010.02502",
+      "author": "Song, Jiaming and Meng, Chenlin and Ermon, Stefano",
+      "title": "Denoising diffusion implicit models",
+      "ENTRYTYPE": "article",
+      "ID": "song2020denoising"
+    },
+    {
+      "year": "2014",
+      "journal": "arXiv preprint arXiv:1412.6572",
+      "author": "Goodfellow, Ian J and Shlens, Jonathon and Szegedy, Christian",
+      "title": "Explaining and harnessing adversarial examples",
+      "ENTRYTYPE": "article",
+      "ID": "goodfellow2014explaining"
+    },
+    {
+      "year": "2017",
+      "journal": "arXiv preprint arXiv:1706.06083",
+      "author": "Madry, Aleksander and Makelov, Aleksandar and Schmidt, Ludwig and Tsipras, Dimitris and Vladu, Adrian",
+      "title": "Towards deep learning models resistant to adversarial attacks",
+      "ENTRYTYPE": "article",
+      "ID": "madry2017towards"
+    },
+    {
+      "year": "2024",
+      "booktitle": "Forty-first international conference on machine learning",
+      "author": "Esser, Patrick and Kulal, Sumith and Blattmann, Andreas and Entezari, Rahim and M{\\\"u}ller, Jonas and Saini, Harry and Levi, Yam and Lorenz, Dominik and Sauer, Axel and Boesel, Frederic and others",
+      "title": "Scaling rectified flow transformers for high-resolution image synthesis",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "esser2024scaling"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2405.20112",
+      "author": "He, Zhiyuan and Chen, Pin-Yu and Ho, Tsung-Yi",
+      "title": "Rigid: A training-free and model-agnostic framework for robust ai-generated image detection",
+      "ENTRYTYPE": "article",
+      "ID": "he2024rigid"
+    },
+    {
+      "year": "2025",
+      "pages": "7184--7192",
+      "number": "7",
+      "volume": "39",
+      "booktitle": "Proceedings of the AAAI Conference on Artificial Intelligence",
+      "author": "Tan, Chuangchuang and Tao, Renshuai and Liu, Huan and Gu, Guanghua and Wu, Baoyuan and Zhao, Yao and Wei, Yunchao",
+      "title": "C2p-clip: Injecting category common prompt in clip to enhance generalization in deepfake detection",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "tan2025c2p"
+    },
+    {
+      "organization": "Ieee",
+      "year": "2009",
+      "pages": "248--255",
+      "booktitle": "2009 IEEE conference on computer vision and pattern recognition",
+      "author": "Deng, Jia and Dong, Wei and Socher, Richard and Li, Li-Jia and Li, Kai and Fei-Fei, Li",
+      "title": "Imagenet: A large-scale hierarchical image database",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "deng2009imagenet"
+    },
+    {
+      "year": "2021",
+      "journal": "arXiv preprint arXiv:2104.08718",
+      "author": "Hessel, Jack and Holtzman, Ari and Forbes, Maxwell and Bras, Ronan Le and Choi, Yejin",
+      "title": "Clipscore: A reference-free evaluation metric for image captioning",
+      "ENTRYTYPE": "article",
+      "ID": "hessel2021clipscore"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2307.01952",
+      "author": "Podell, Dustin and English, Zion and Lacey, Kyle and Blattmann, Andreas and Dockhorn, Tim and M{\\\"u}ller, Jonas and Penna, Joe and Rombach, Robin",
+      "title": "Sdxl: Improving latent diffusion models for high-resolution image synthesis",
+      "ENTRYTYPE": "article",
+      "ID": "podell2023sdxl"
+    },
+    {
+      "year": "2021",
+      "journal": "arXiv preprint arXiv:2108.01073",
+      "author": "Meng, Chenlin and He, Yutong and Song, Yang and Song, Jiaming and Wu, Jiajun and Zhu, Jun-Yan and Ermon, Stefano",
+      "title": "Sdedit: Guided image synthesis and editing with stochastic differential equations",
+      "ENTRYTYPE": "article",
+      "ID": "meng2021sdedit"
+    },
+    {
+      "url": "https://arxiv.org/pdf/1910.02190.pdf",
+      "year": "2020",
+      "booktitle": "Winter Conference on Applications of Computer Vision",
+      "title": "Kornia: an Open Source Differentiable Computer Vision Library for PyTorch",
+      "author": "Riba, E. and Mishkin, D. and Ponsa, D. and Rublee, E. and Bradski, G.",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "eriba2019kornia"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2411.09502",
+      "author": "Zhou, Zikai and Shao, Shitong and Bai, Lichen and Xu, Zhiqiang and Han, Bo and Xie, Zeke",
+      "title": "Golden noise for diffusion models: A learning framework",
+      "ENTRYTYPE": "article",
+      "ID": "zhou2024golden"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2407.21783",
+      "author": "Grattafiori, Aaron and Dubey, Abhimanyu and Jauhri, Abhinav and Pandey, Abhinav and Kadian, Abhishek and Al-Dahle, Ahmad and Letman, Aiesha and Mathur, Akhil and Schelten, Alan and Vaughan, Alex and others",
+      "title": "The llama 3 herd of models",
+      "ENTRYTYPE": "article",
+      "ID": "grattafiori2024llama"
+    }
+  ]
+}

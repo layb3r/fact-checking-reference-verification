@@ -1,0 +1,525 @@
+{
+  "pdf_url": "https://arxiv.org/pdf/2509.24693v1.pdf",
+  "references": [
+    {
+      "publisher": "Nature Publishing Group UK London",
+      "year": "2008",
+      "pages": "869--878",
+      "number": "7197",
+      "volume": "453",
+      "journal": "Nature",
+      "author": "Logothetis, Nikos K",
+      "title": "What we can do and what we cannot do with fMRI",
+      "ENTRYTYPE": "article",
+      "ID": "logothetis2008we"
+    },
+    {
+      "publisher": "Nature Publishing Group UK London",
+      "year": "2015",
+      "pages": "371--379",
+      "number": "7573",
+      "volume": "526",
+      "journal": "Nature",
+      "author": "Poldrack, Russell A and Farah, Martha J",
+      "title": "Progress and challenges in probing the human brain",
+      "ENTRYTYPE": "article",
+      "ID": "poldrack2015progress"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "2016",
+      "pages": "230--244",
+      "number": "3",
+      "volume": "1",
+      "journal": "Biological psychiatry: cognitive neuroscience and neuroimaging",
+      "author": "Calhoun, Vince D and Sui, Jing",
+      "title": "Multimodal fusion of brain imaging data: a key to finding the missing link (s) in complex mental illness",
+      "ENTRYTYPE": "article",
+      "ID": "calhoun2016multimodal"
+    },
+    {
+      "booktitle": "The Twelfth International Conference on Learning Representations",
+      "author": "Caro, Josue Ortega and de Oliveira Fonseca, Antonio Henrique and Rizvi, Syed A and Rosati, Matteo and Averill, Christopher and Cross, James L and Mittal, Prateek and Zappala, Emanuele and Dhodapkar, Rahul Madhav and Abdallah, Chadi and others",
+      "title": "BrainLM: A foundation model for brain activity recordings",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "carobrainlm"
+    },
+    {
+      "year": "2024",
+      "pages": "86048--86073",
+      "volume": "37",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Dong, Zijian and Li, Ruilin and Wu, Yilei and Nguyen, Thuan Tinh and Chong, Joanna and Ji, Fang and Tong, Nathanael and Chen, Christopher and Zhou, Juan Helen",
+      "title": "Brain-JEPA: Brain dynamics foundation model with gradient positioning and spatiotemporal masking",
+      "ENTRYTYPE": "article",
+      "ID": "dong2024brain"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "2024",
+      "journal": "IEEE Transactions on Medical Imaging",
+      "author": "Yang, Yanwu and Ye, Chenfei and Su, Guinan and Zhang, Ziyao and Chang, Zhikai and Chen, Hairui and Chan, Piu and Yu, Yue and Ma, Ting",
+      "title": "Brainmass: Advancing brain network analysis for diagnosis with large-scale self-supervised learning",
+      "ENTRYTYPE": "article",
+      "ID": "yang2024brainmass"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2410.10604",
+      "author": "Rui, Shaohao and Chen, Lingzhi and Tang, Zhenyu and Wang, Lilong and Liu, Mianxin and Zhang, Shaoting and Wang, Xiaosong",
+      "title": "BrainMVP: Multi-modal Vision Pre-training for Brain Image Analysis using Multi-parametric MRI",
+      "ENTRYTYPE": "article",
+      "ID": "rui2024brainmvp"
+    },
+    {
+      "publisher": "Nature Publishing Group UK London",
+      "year": "2023",
+      "pages": "566--574",
+      "number": "7965",
+      "volume": "618",
+      "journal": "Nature",
+      "author": "Pang, James C and Aquino, Kevin M and Oldehinkel, Marianne and Robinson, Peter A and Fulcher, Ben D and Breakspear, Michael and Fornito, Alex",
+      "title": "Geometric constraints on human brain function",
+      "ENTRYTYPE": "article",
+      "ID": "pang2023geometric"
+    },
+    {
+      "year": "2022",
+      "pages": "16000--16009",
+      "booktitle": "Proceedings of the IEEE/CVF conference on computer vision and pattern recognition",
+      "author": "He, Kaiming and Chen, Xinlei and Xie, Saining and Li, Yanghao and Doll{\\'a}r, Piotr and Girshick, Ross",
+      "title": "Masked autoencoders are scalable vision learners",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "he2022masked"
+    },
+    {
+      "year": "2023",
+      "pages": "14496--14506",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Beyer, Lucas and Izmailov, Pavel and Kolesnikov, Alexander and Caron, Mathilde and Kornblith, Simon and Zhai, Xiaohua and Minderer, Matthias and Tschannen, Michael and Alabdulmohsin, Ibrahim and Pavetic, Filip",
+      "title": "Flexivit: One model for all patch sizes",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "beyer2023flexivit"
+    },
+    {
+      "publisher": "Nature Publishing Group",
+      "year": "2014",
+      "pages": "659--667",
+      "number": "6",
+      "volume": "19",
+      "journal": "Molecular psychiatry",
+      "author": "Di Martino, Adriana and Yan, Chao-Gan and Li, Qingyang and Denio, Erin and Castellanos, Francisco X and Alaerts, Kaat and Anderson, Jeffrey S and Assaf, Michal and Bookheimer, Susan Y and Dapretto, Mirella and others",
+      "title": "The autism brain imaging data exchange: towards a large-scale evaluation of the intrinsic brain architecture in autism",
+      "ENTRYTYPE": "article",
+      "ID": "di2014autism"
+    },
+    {
+      "publisher": "Nature Publishing Group",
+      "year": "2017",
+      "pages": "1--15",
+      "number": "1",
+      "volume": "4",
+      "journal": "Scientific data",
+      "author": "Di Martino, Adriana and O’connor, David and Chen, Bosi and Alaerts, Kaat and Anderson, Jeffrey S and Assaf, Michal and Balsters, Joshua H and Baxter, Leslie and Beggiato, Anita and Bernaerts, Sylvie and others",
+      "title": "Enhancing studies of the connectome in autism using the autism brain imaging data exchange II",
+      "ENTRYTYPE": "article",
+      "ID": "di2017enhancing"
+    },
+    {
+      "publisher": "Frontiers Research Foundation",
+      "year": "2012",
+      "pages": "62",
+      "volume": "6",
+      "journal": "Frontiers in systems neuroscience",
+      "author": "ADHD-200 consortium",
+      "title": "The ADHD-200 consortium: a model to advance the translational potential of neuroimaging in clinical neuroscience",
+      "ENTRYTYPE": "article",
+      "ID": "adhd2012adhd"
+    },
+    {
+      "year": "2017",
+      "volume": "30",
+      "journal": "Advances in neural information processing systems",
+      "author": "Vaswani, Ashish and Shazeer, Noam and Parmar, Niki and Uszkoreit, Jakob and Jones, Llion and Gomez, Aidan N and Kaiser, {\\L}ukasz and Polosukhin, Illia",
+      "title": "Attention is all you need",
+      "ENTRYTYPE": "article",
+      "ID": "vaswani2017attention"
+    },
+    {
+      "year": "2023",
+      "pages": "15619--15629",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Assran, Mahmoud and Duval, Quentin and Misra, Ishan and Bojanowski, Piotr and Vincent, Pascal and Rabbat, Michael and LeCun, Yann and Ballas, Nicolas",
+      "title": "Self-supervised learning from images with a joint-embedding predictive architecture",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "assran2023self"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "2022",
+      "pages": "119210",
+      "volume": "256",
+      "journal": "NeuroImage",
+      "author": "Leonardsen, Esten H and Peng, Han and Kaufmann, Tobias and Agartz, Ingrid and Andreassen, Ole A and Celius, Elisabeth Gulowsen and Espeseth, Thomas and Harbo, Hanne F and H{\\o}gest{\\o}l, Einar A and De Lange, Ann-Marie and others",
+      "title": "Deep neural networks learn general and clinically relevant representations of the ageing brain",
+      "ENTRYTYPE": "article",
+      "ID": "leonardsen2022deep"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "2004",
+      "pages": "1060--1075",
+      "number": "3",
+      "volume": "22",
+      "journal": "Neuroimage",
+      "author": "S{\\'e}gonne, Florent and Dale, Anders M and Busa, Evelina and Glessner, Maureen and Salat, David and Hahn, Horst Karl and Fischl, Bruce",
+      "title": "A hybrid approach to the skull stripping problem in MRI",
+      "ENTRYTYPE": "article",
+      "ID": "segonne2004hybrid"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "2012",
+      "pages": "782--790",
+      "number": "2",
+      "volume": "62",
+      "journal": "Neuroimage",
+      "author": "Jenkinson, Mark and Beckmann, Christian F and Behrens, Timothy EJ and Woolrich, Mark W and Smith, Stephen M",
+      "title": "Fsl",
+      "ENTRYTYPE": "article",
+      "ID": "jenkinson2012fsl"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "2001",
+      "pages": "143--156",
+      "number": "2",
+      "volume": "5",
+      "journal": "Medical image analysis",
+      "author": "Jenkinson, Mark and Smith, Stephen",
+      "title": "A global optimisation method for robust affine registration of brain images",
+      "ENTRYTYPE": "article",
+      "ID": "jenkinson2001global"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "2018",
+      "pages": "43--54",
+      "volume": "32",
+      "journal": "Developmental cognitive neuroscience",
+      "author": "Casey, Betty Jo and Cannonier, Tariq and Conley, May I and Cohen, Alexandra O and Barch, Deanna M and Heitzeg, Mary M and Soules, Mary E and Teslovich, Theresa and Dellarco, Danielle V and Garavan, Hugh and others",
+      "title": "The adolescent brain cognitive development (ABCD) study: imaging acquisition across 21 sites",
+      "ENTRYTYPE": "article",
+      "ID": "casey2018adolescent"
+    },
+    {
+      "publisher": "Nature Publishing Group UK London",
+      "year": "2018",
+      "pages": "203--209",
+      "number": "7726",
+      "volume": "562",
+      "journal": "Nature",
+      "author": "Bycroft, Clare and Freeman, Colin and Petkova, Desislava and Band, Gavin and Elliott, Lloyd T and Sharp, Kevin and Motyer, Allan and Vukcevic, Damjan and Delaneau, Olivier and O’Connell, Jared and others",
+      "title": "The UK Biobank resource with deep phenotyping and genomic data",
+      "ENTRYTYPE": "article",
+      "ID": "bycroft2018uk"
+    },
+    {
+      "publisher": "Nature Publishing Group US New York",
+      "year": "2016",
+      "pages": "1523--1536",
+      "number": "11",
+      "volume": "19",
+      "journal": "Nature neuroscience",
+      "author": "Miller, Karla L and Alfaro-Almagro, Fidel and Bangerter, Neal K and Thomas, David L and Yacoub, Essa and Xu, Junqian and Bartsch, Andreas J and Jbabdi, Saad and Sotiropoulos, Stamatios N and Andersson, Jesper LR and others",
+      "title": "Multimodal population brain imaging in the UK Biobank prospective epidemiological study",
+      "ENTRYTYPE": "article",
+      "ID": "miller2016multimodal"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "2023",
+      "pages": "120407",
+      "volume": "283",
+      "journal": "NeuroImage",
+      "author": "Di Biase, Maria A and Smith, Robert E and Zalesky, Andrew and Seguin, Caio and others",
+      "title": "Connectomes for 40,000 UK Biobank participants: A multi-modal, multi-scale brain network resource",
+      "ENTRYTYPE": "article",
+      "ID": "di2023connectomes"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "2011",
+      "pages": "629--635",
+      "number": "4",
+      "volume": "95",
+      "journal": "Progress in neurobiology",
+      "author": "Marek, Kenneth and Jennings, Danna and Lasch, Shirley and Siderowf, Andrew and Tanner, Caroline and Simuni, Tanya and Coffey, Chris and Kieburtz, Karl and Flagg, Emily and Chowdhury, Sohini and others",
+      "title": "The Parkinson progression marker initiative (PPMI)",
+      "ENTRYTYPE": "article",
+      "ID": "marek2011parkinson"
+    },
+    {
+      "year": "2023",
+      "pages": "21841--21856",
+      "volume": "36",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Xu, Jiaxing and Yang, Yunhan and Huang, David and Gururajapathy, Sophi Shilpa and Ke, Yiping and Qiao, Miao and Wang, Alan and Kumar, Haribalan and McGeown, Josh and Kwon, Eryn",
+      "title": "Data-driven network neuroscience: On data collection and benchmark",
+      "ENTRYTYPE": "article",
+      "ID": "xu2023data"
+    },
+    {
+      "publisher": "Nature Publishing Group US New York",
+      "year": "2019",
+      "pages": "111--116",
+      "number": "1",
+      "volume": "16",
+      "journal": "Nature methods",
+      "author": "Esteban, Oscar and Markiewicz, Christopher J and Blair, Ross W and Moodie, Craig A and Isik, A Ilkay and Erramuzpe, Asier and Kent, James D and Goncalves, Mathias and DuPre, Elizabeth and Snyder, Madeleine and others",
+      "title": "fMRIPrep: a robust preprocessing pipeline for functional MRI",
+      "ENTRYTYPE": "article",
+      "ID": "esteban2019fmriprep"
+    },
+    {
+      "publisher": "Wiley Online Library",
+      "year": "2008",
+      "pages": "685--691",
+      "number": "4",
+      "volume": "27",
+      "journal": "Journal of Magnetic Resonance Imaging: An Official Journal of the International Society for Magnetic Resonance in Medicine",
+      "author": "Jack Jr, Clifford R and Bernstein, Matt A and Fox, Nick C and Thompson, Paul and Alexander, Gene and Harvey, Danielle and Borowski, Bret and Britson, Paula J and L. Whitwell, Jennifer and Ward, Chadwick and others",
+      "title": "The Alzheimer's disease neuroimaging initiative (ADNI): MRI methods",
+      "ENTRYTYPE": "article",
+      "ID": "jack2008alzheimer"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "2018",
+      "pages": "972--984",
+      "volume": "183",
+      "journal": "Neuroimage",
+      "author": "Harms, Michael P and Somerville, Leah H and Ances, Beau M and Andersson, Jesper and Barch, Deanna M and Bastiani, Matteo and Bookheimer, Susan Y and Brown, Timothy B and Buckner, Randy L and Burgess, Gregory C and others",
+      "title": "Extending the Human Connectome Project across ages: Imaging protocols for the Lifespan Development and Aging projects",
+      "ENTRYTYPE": "article",
+      "ID": "harms2018extending"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "2022",
+      "pages": "119569",
+      "volume": "262",
+      "journal": "Neuroimage",
+      "author": "Wu, Jianxiao and Li, Jingwei and Eickhoff, Simon B and Hoffstaedter, Felix and Hanke, Michael and Yeo, BT Thomas and Genon, Sarah",
+      "title": "Cross-cohort replicability and generalizability of connectivity-based psychometric prediction patterns",
+      "ENTRYTYPE": "article",
+      "ID": "wu2022cross"
+    },
+    {
+      "year": "2022",
+      "pages": "25586--25599",
+      "volume": "35",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Kan, Xuan and Dai, Wei and Cui, Hejie and Zhang, Zilong and Guo, Ying and Yang, Carl",
+      "title": "Brain network transformer",
+      "ENTRYTYPE": "article",
+      "ID": "kan2022brain"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "2017",
+      "pages": "1038--1049",
+      "volume": "146",
+      "journal": "NeuroImage",
+      "author": "Kawahara, Jeremy and Brown, Colin J and Miller, Steven P and Booth, Brian G and Chau, Vann and Grunau, Ruth E and Zwicker, Jill G and Hamarneh, Ghassan",
+      "title": "BrainNetCNN: Convolutional neural networks for brain networks; towards predicting neurodevelopment",
+      "ENTRYTYPE": "article",
+      "ID": "kawahara2017brainnetcnn"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "2021",
+      "pages": "102233",
+      "volume": "74",
+      "journal": "Medical Image Analysis",
+      "author": "Li, Xiaoxiao and Zhou, Yuan and Dvornek, Nicha and Zhang, Muhan and Gao, Siyuan and Zhuang, Juntang and Scheinost, Dustin and Staib, Lawrence H and Ventola, Pamela and Duncan, James S",
+      "title": "Braingnn: Interpretable brain graph neural network for fmri analysis",
+      "ENTRYTYPE": "article",
+      "ID": "li2021braingnn"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "2023",
+      "pages": "12581--12600",
+      "number": "10",
+      "volume": "45",
+      "journal": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+      "author": "Li, Kunchang and Wang, Yali and Zhang, Junhao and Gao, Peng and Song, Guanglu and Liu, Yu and Li, Hongsheng and Qiao, Yu",
+      "title": "Uniformer: Unifying convolution and self-attention for visual recognition",
+      "ENTRYTYPE": "article",
+      "ID": "li2023uniformer"
+    },
+    {
+      "organization": "Springer",
+      "year": "2015",
+      "pages": "234--241",
+      "booktitle": "Medical image computing and computer-assisted intervention--MICCAI 2015: 18th international conference, Munich, Germany, October 5-9, 2015, proceedings, part III 18",
+      "author": "Ronneberger, Olaf and Fischer, Philipp and Brox, Thomas",
+      "title": "U-net: Convolutional networks for biomedical image segmentation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ronneberger2015u"
+    },
+    {
+      "year": "2022",
+      "booktitle": "Advances in Neural Information Processing Systems (NeurIPS)",
+      "author": "Dao, Tri and Fu, Daniel Y. and Ermon, Stefano and Rudra, Atri and R{\\'e}, Christopher",
+      "title": "Flash{A}ttention: Fast and Memory-Efficient Exact Attention with {IO}-Awareness",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "dao2022flashattention"
+    },
+    {
+      "year": "2024",
+      "booktitle": "International Conference on Learning Representations (ICLR)",
+      "author": "Dao, Tri",
+      "title": "Flash{A}ttention-2: Faster Attention with Better Parallelism and Work Partitioning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "dao2023flashattention2"
+    },
+    {
+      "url": "https://openreview.net/forum?id=r1xMH1BtvB",
+      "year": "2020",
+      "booktitle": "International Conference on Learning Representations",
+      "author": "Kevin Clark and Minh-Thang Luong and Quoc V. Le and Christopher D. Manning",
+      "title": "ELECTRA: Pre-training Text Encoders as Discriminators Rather Than Generators",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "Clark2020ELECTRA"
+    },
+    {
+      "url": "https://openreview.net/forum?id=Bkg6RiCqY7",
+      "year": "2019",
+      "booktitle": "International Conference on Learning Representations",
+      "author": "Ilya Loshchilov and Frank Hutter",
+      "title": "Decoupled Weight Decay Regularization",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "loshchilov2018decoupled"
+    },
+    {
+      "year": "2017",
+      "journal": "arXiv preprint arXiv:1706.03200",
+      "author": "Bousquet, Olivier and Gelly, Sylvain and Kurach, Karol and Teytaud, Olivier and Vincent, Damien",
+      "title": "Critical hyper-parameters: No random, no cry",
+      "ENTRYTYPE": "article",
+      "ID": "bousquet2017critical"
+    },
+    {
+      "eprint": "2306.07179",
+      "archiveprefix": "arXiv",
+      "year": "2023",
+      "author": "Dahl, George E. and Schneider, Frank and Nado, Zachary and Agarwal, Naman and Sastry, Chandramouli Shama and Hennig, Philipp and Medapati, Sourabh and Eschenhagen, Runa and Kasimbeg, Priya and Suo, Daniel and Bae, Juhan and Gilmer, Justin and Peirson, Abel L. and Khan, Bilal and Anil, Rohan and Rabbat, Mike and Krishnan, Shankar and Snider, Daniel and Amid, Ehsan and Chen, Kongtao and Maddison, Chris J. and Vasudev, Rakshith and Badura, Michal and Garg, Ankush and Mattson, Peter",
+      "title": "{Benchmarking Neural Network Training Algorithms}",
+      "ENTRYTYPE": "misc",
+      "ID": "Dahl2023AlgoPerf"
+    },
+    {
+      "year": "2020",
+      "journal": "arXiv preprint arXiv:2010.11929",
+      "author": "Dosovitskiy, Alexey and Beyer, Lucas and Kolesnikov, Alexander and Weissenborn, Dirk and Zhai, Xiaohua and Unterthiner, Thomas and Dehghani, Mostafa and Minderer, Matthias and Heigold, Georg and Gelly, Sylvain and others",
+      "title": "An image is worth 16x16 words: Transformers for image recognition at scale",
+      "ENTRYTYPE": "article",
+      "ID": "dosovitskiy2020image"
+    },
+    {
+      "publisher": "Oxford University Press",
+      "year": "2018",
+      "pages": "3095--3114",
+      "number": "9",
+      "volume": "28",
+      "journal": "Cerebral cortex",
+      "author": "Schaefer, Alexander and Kong, Ru and Gordon, Evan M and Laumann, Timothy O and Zuo, Xi-Nian and Holmes, Avram J and Eickhoff, Simon B and Yeo, BT Thomas",
+      "title": "Local-global parcellation of the human cerebral cortex from intrinsic functional connectivity MRI",
+      "ENTRYTYPE": "article",
+      "ID": "schaefer2018local"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "2010",
+      "pages": "81--98",
+      "number": "1",
+      "volume": "50",
+      "journal": "Neuroimage",
+      "author": "Chang, Catie and Glover, Gary H",
+      "title": "Time--frequency dynamics of resting-state brain connectivity measured with fMRI",
+      "ENTRYTYPE": "article",
+      "ID": "chang2010time"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "2014",
+      "pages": "262--274",
+      "number": "2",
+      "volume": "84",
+      "journal": "Neuron",
+      "author": "Calhoun, Vince D and Miller, Robyn and Pearlson, Godfrey and Adal{\\i}, Tulay",
+      "title": "The chronnectome: time-varying connectivity networks as the next frontier in fMRI data discovery",
+      "ENTRYTYPE": "article",
+      "ID": "calhoun2014chronnectome"
+    },
+    {
+      "publisher": "Cold Spring Harbor Laboratory",
+      "year": "2023",
+      "pages": "2023--07",
+      "journal": "bioRxiv",
+      "author": "Faskowitz, Joshua and Moyer, Daniel and Handwerker, Daniel A and Gonzalez-Castillo, Javier and Bandettini, Peter A and Jbabdi, Saad and Betzel, Richard",
+      "title": "Commentary on Pang et al.(2023) Nature",
+      "ENTRYTYPE": "article",
+      "ID": "faskowitz2023commentary"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2502.04892",
+      "author": "Park, Joonhyeong and Park, Byoungwoo and Bang, Chang-Bae and Choi, Jungwon and Chung, Hyungjin and Kim, Byung-Hoon and Lee, Juho",
+      "title": "A Foundational Brain Dynamics Model via Stochastic Optimal Control",
+      "ENTRYTYPE": "article",
+      "ID": "park2025foundational"
+    },
+    {
+      "organization": "Springer",
+      "year": "2024",
+      "pages": "512--521",
+      "booktitle": "International Conference on Medical Image Computing and Computer-Assisted Intervention",
+      "author": "Dong, Zijian and Wu, Yilei and Chen, Zijiao and Zhang, Yichi and Jin, Yueming and Zhou, Juan Helen",
+      "title": "Prompt your brain: Scaffold prompt tuning for efficient adaptation of fmri pre-trained model",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "dong2024prompt"
+    },
+    {
+      "organization": "Springer",
+      "year": "2023",
+      "pages": "348--357",
+      "booktitle": "International Conference on Medical Image Computing and Computer-Assisted Intervention",
+      "author": "Dong, Zijian and Wu, Yilei and Xiao, Yu and Chong, Joanna Su Xian and Jin, Yueming and Zhou, Juan Helen",
+      "title": "Beyond the snapshot: Brain tokenized graph transformer for longitudinal brain functional connectome embedding",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "dong2023beyond"
+    },
+    {
+      "organization": "IEEE",
+      "year": "2022",
+      "pages": "4972--4978",
+      "booktitle": "2022 IEEE International Conference on Big Data (Big Data)",
+      "author": "Dong, Zijian and Chong, Joanna Su Xian and Kok, Bing Cai and Zhou, Juan Helen",
+      "title": "Coop-dhgnn: a framework for joint classification and prediction of brain functional connectivity using sparse trajectory dataset with application to early dementia",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "dong2022coop"
+    },
+    {
+      "note": "* Equal contribution",
+      "year": "2025",
+      "booktitle": "NeurIPS",
+      "author": "Zijian Dong* and Ruilin Li* and Joanna Su Xian Chong and Niousha Dehestani and Yinghui Teng and Yi Lin and Zhizhou Li and Yichi Zhang and Yapei Xie and Leon Qi Rong Ooi and B.T. Thomas Yeo and Juan Helen Zhou",
+      "title": "Brain Harmony: A Multimodal Foundation Model Unifying Morphology and Function into 1D Tokens",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "brainharmony2025"
+    }
+  ]
+}

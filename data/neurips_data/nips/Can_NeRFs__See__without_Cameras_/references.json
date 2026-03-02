@@ -1,0 +1,437 @@
+{
+  "pdf_url": "https://arxiv.org/pdf/2109.04065v1.pdf",
+  "references": [
+    {
+      "year": "2019",
+      "howpublished": "\\url{https://docs.broadcom.com/doc/istr-24-2019-en}",
+      "author": "{Symantec}",
+      "title": "Internet Security Threat Report 2019",
+      "ENTRYTYPE": "misc",
+      "ID": "Symantec2019"
+    },
+    {
+      "year": "2010",
+      "title": "{The case for in-the-lab botnet experimentation: creating and taking down a 3000-node botnet}",
+      "pages": "141--150",
+      "mendeley-groups": "Simulation",
+      "isbn": "9781450301336",
+      "booktitle": "Proceedings of the 26th Annual Computer Security Applications Conference",
+      "author": "Calvet, Joan and Davis, Carlton R. and Fernandez, Jose M. and Marion, Jean-Yves and St-Onge, Pier-Luc and Guizani, Wadie and Bureau, Pierre-Marc and Somayaji, Anil",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "Calvet2010"
+    },
+    {
+      "organization": "Springer",
+      "year": "2014",
+      "pages": "79--91",
+      "booktitle": "IFIP International Conference on Autonomous Infrastructure, Management and Security",
+      "author": "Kerkers, Max and Santanna, Jos{\\'e} Jair and Sperotto, Anna",
+      "title": "Characterisation of the kelihos. b botnet",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "kelihos"
+    },
+    {
+      "publisher": "ACM New York, NY, USA",
+      "year": "2005",
+      "pages": "190--200",
+      "number": "6",
+      "volume": "40",
+      "journal": "Acm sigplan notices",
+      "author": "Luk, Chi-Keung and Cohn, Robert and Muth, Robert and Patil, Harish and Klauser, Artur and Lowney, Geoff and Wallace, Steven and Reddi, Vijay Janapa and Hazelwood, Kim",
+      "title": "Pin: building customized program analysis tools with dynamic instrumentation",
+      "ENTRYTYPE": "article",
+      "ID": "intelpin"
+    },
+    {
+      "year": "2012",
+      "pages": "133--144",
+      "booktitle": "Proceedings of the 8th ACM SIGPLAN/SIGOPS conference on Virtual Execution Environments",
+      "author": "Bruening, Derek and Zhao, Qin and Amarasinghe, Saman",
+      "title": "Transparent dynamic instrumentation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "dynamorio"
+    },
+    {
+      "publisher": "John Wiley \\& Sons",
+      "year": "2011",
+      "author": "Eilam, Eldad",
+      "title": "Reversing: secrets of reverse engineering",
+      "ENTRYTYPE": "book",
+      "ID": "eilam2011reversing"
+    },
+    {
+      "_doi": "10.1109/BWCCA.2010.85",
+      "journal": "Proceedings - 2010 International Conference on Broadband, Wireless Computing Communication and Applications, BWCCA 2010",
+      "title": "Malware Obfuscation Techniques: A Brief Survey",
+      "pages": "297-300",
+      "month": "11",
+      "year": "2010",
+      "author": "You, Ilsun and Yim, Kangbin",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "malwareObfuscation"
+    },
+    {
+      "_doi": "10.1145/1102546.1102561",
+      "journal": "DRM'05 - Proceedings of the Fifth ACM Workshop on Digital Rights Management",
+      "title": "Control flow based obfuscation",
+      "pages": "83-92",
+      "month": "01",
+      "year": "2005",
+      "author": "Ge, Jun and Chaudhuri, Soma and Tyagi, Akhilesh",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "controlFlowObfuscation"
+    },
+    {
+      "year": "2020",
+      "url": "https://www.ntsc.org/assets/pdfs/cyber-security-report-2020.pdf",
+      "author": "Check Point Software Technologies",
+      "title": "Check Point research cyber security report 2020",
+      "ENTRYTYPE": "article",
+      "ID": "malware2020report"
+    },
+    {
+      "year": "2015",
+      "pages": "1--11",
+      "booktitle": "Proceedings of the 5th Program Protection and Reverse Engineering Workshop",
+      "author": "Dolan-Gavitt, Brendan and Hodosh, Josh and Hulin, Patrick and Leek, Tim and Whelan, Ryan",
+      "title": "Repeatable reverse engineering with PANDA",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "pandare"
+    },
+    {
+      "organization": "Springer",
+      "year": "2005",
+      "pages": "295--307",
+      "booktitle": "IFIP International Information Security Conference",
+      "author": "Nguyen-Tuong, Anh and Guarnieri, Salvatore and Greene, Doug and Shirley, Jeff and Evans, David",
+      "title": "Automatically hardening web applications using precise tainting",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "taintSql"
+    },
+    {
+      "year": "2017",
+      "booktitle": "Symposium sur la s{\\'e}curit{\\'e} des technologies de l’information et des communications",
+      "author": "Biondi, Philippe and Rigo, Rapha{\\\"e}l and Zennou, Sarah and Mehrenberger, Xavier",
+      "title": "BinCAT: purrfecting binary static analysis",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "bincat"
+    },
+    {
+      "year": "2011",
+      "booktitle": "NDSS",
+      "author": "Kang, Min Gyung and McCamant, Stephen and Poosankam, Pongsin and Song, Dawn",
+      "title": "Dta++: dynamic taint analysis with targeted control-flow propagation.",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "taintStaticDynamic"
+    },
+    {
+      "year": "2007",
+      "pages": "196--206",
+      "booktitle": "Proceedings of the 2007 international symposium on Software testing and analysis",
+      "author": "Clause, James and Li, Wanchun and Orso, Alessandro",
+      "title": "Dytan: a generic dynamic taint analysis framework",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "dynamictaintDytan"
+    },
+    {
+      "_doi": "10.1109/EWDTS.2019.8884472",
+      "pages": "1-5",
+      "year": "2019",
+      "title": "An Analysis of LockerGoga Ransomware",
+      "booktitle": "2019 IEEE East-West Design   Test Symposium (EWDTS)",
+      "author": "Adamov, Alexander and Carlsson, Anders and Surmacz, Tomasz",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "antiRansom"
+    },
+    {
+      "year": "2010",
+      "booktitle": "Proceedings of the 11th Annual Information Security Symposium",
+      "author": "Lin, Zhiqiang and Zhang, Xiangyu and Xu, Dongyan",
+      "title": "Automatic reverse engineering of data structures from binary execution",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "autoRe"
+    },
+    {
+      "year": "2016",
+      "pages": "189--200",
+      "booktitle": "Proceedings of the 32nd Annual Conference on Computer Security Applications",
+      "author": "Banescu, Sebastian and Collberg, Christian and Ganesh, Vijay and Newsham, Zack and Pretschner, Alexander",
+      "title": "Code obfuscation against symbolic execution attacks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "symbolicExecObfuscation"
+    },
+    {
+      "_doi": "",
+      "pages": "1-8",
+      "number": "",
+      "volume": "",
+      "year": "2013",
+      "title": "On the effectiveness of dynamic taint analysis for protecting against private information leaks on Android-based devices",
+      "booktitle": "2013 International Conference on Security and Cryptography (SECRYPT)",
+      "author": "Babil, Golam Sarwar and Mehani, Olivier and Boreli, Roksana and Kaafar, Mohamed-Ali",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "antiTaint13"
+    },
+    {
+      "year": "2007",
+      "pages": "1--18",
+      "journal": "Secure Systems Lab at Stony Brook University, Tech. Rep",
+      "author": "Cavallaro, Lorenzo and Saxena, Prateek and Sekar, R",
+      "title": "Anti-taint-analysis: Practical evasion techniques against information flow based malware defense",
+      "ENTRYTYPE": "article",
+      "ID": "antiTaint07"
+    },
+    {
+      "_doi": "10.1109/MSP.2008.126",
+      "pages": "65-69",
+      "number": "5",
+      "volume": "6",
+      "year": "2008",
+      "title": "Revealing Packed Malware",
+      "journal": "IEEE Security   Privacy",
+      "author": "Yan, Wei and Zhang, Zheng and Ansari, Nirwan",
+      "ENTRYTYPE": "article",
+      "ID": "yan2008revealing"
+    },
+    {
+      "organization": "IEEE",
+      "year": "2008",
+      "pages": "177--186",
+      "booktitle": "2008 IEEE international conference on dependable systems and networks with FTCS and DCC (DSN)",
+      "author": "Chen, Xu and Andersen, Jon and Mao, Z Morley and Bailey, Michael and Nazario, Jose",
+      "title": "Towards an understanding of anti-virtualization and anti-debugging behavior in modern malware",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "antiDebugging"
+    },
+    {
+      "year": "2007",
+      "volume": "55",
+      "journal": "Symantec Technology Exchange",
+      "author": "Ferrie, Peter",
+      "title": "Attacks on more virtual machine emulators",
+      "ENTRYTYPE": "article",
+      "ID": "ferrie2007attacksonVm"
+    },
+    {
+      "publisher": "Springer",
+      "year": "2018",
+      "isbn": "9789811090493",
+      "author": "Karuppayah, Shankar",
+      "title": "Advanced Monitoring in P2P Botnets: A Dual Perspective",
+      "ENTRYTYPE": "book",
+      "ID": "karuppayah2018advanced"
+    },
+    {
+      "keywords": "behavioral analysis, Dynamic analysis, malware, evasion, detection",
+      "numpages": "48",
+      "articleno": "88",
+      "month": "September",
+      "journal": "ACM Computing Surveys (CSUR)",
+      "_doi": "10.1145/3329786",
+      "_url": "https://doi.org/10.1145/3329786",
+      "issn": "0360-0300",
+      "number": "5",
+      "volume": "52",
+      "address": "New York, NY, USA",
+      "publisher": "Association for Computing Machinery",
+      "issue_date": "October 2019",
+      "year": "2019",
+      "title": "Dynamic Malware Analysis in the Modern Era—A State of the Art Survey",
+      "author": "Or-Meir, Ori and Nissim, Nir and Elovici, Yuval and Rokach, Lior",
+      "ENTRYTYPE": "article",
+      "ID": "surveyMalware"
+    },
+    {
+      "year": "2006",
+      "booktitle": "NDSS",
+      "author": "Cui, Weidong and Paxson, Vern and Weaver, Nicholas and Katz, Randy H",
+      "title": "Protocol-Independent Adaptive Replay of Application Dialog.",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "roleplayer"
+    },
+    {
+      "year": "2006",
+      "pages": "311--321",
+      "booktitle": "Proceedings of the 13th ACM conference on Computer and communications security",
+      "author": "Newsome, James and Brumley, David and Franklin, Jason and Song, Dawn",
+      "title": "Replayer: Automatic protocol replay by binary analysis",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "replayer"
+    },
+    {
+      "year": "2013",
+      "pages": "839--850",
+      "booktitle": "Proceedings of the 2013 ACM SIGSAC conference on Computer \\& communications security",
+      "author": "Dolan-Gavitt, Brendan and Leek, Tim and Hodosh, Josh and Lee, Wenke",
+      "title": "Tappan zee (north) bridge: mining memory accesses for introspection",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "panda"
+    },
+    {
+      "journal": "Symantec Security Response",
+      "year": "2013",
+      "author": "Neville, Alan and Gibb, Ross",
+      "title": "{{ZeroAccess Indepth}}",
+      "ENTRYTYPE": "article",
+      "ID": "nevilleZeroAccessIndepth2013"
+    },
+    {
+      "keywords": "Malware,Peer-to-peer computing,Protocols,Resilience,Servers,Storms,Topology",
+      "_doi": "10.1109/SP.2013.17",
+      "issn": "1081-6011",
+      "pages": "97--111",
+      "month": "May",
+      "year": "2013",
+      "author": "Rossow, Christian and Andriesse, Dennis and Werner, Tillmann and {Stone-Gross}, Brett and Plohmann, Daniel and Dietrich, Christian J. and Bos, Herbert",
+      "booktitle": "2013 {{IEEE Symposium}} on {{Security}} and {{Privacy}}",
+      "shorttitle": "{{SoK}}",
+      "title": "{{SoK}}: {{P2PWNED}} - {{Modeling}} and {{Evaluating}} the {{Resilience}} of {{Peer}}-to-{{Peer Botnets}}",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "rossowSoKP2PWNEDModeling2013"
+    },
+    {
+      "keywords": "Approximation algorithms,Approximation methods,Crawlers,Information systems,Monitoring,Peer-to-peer computing,Security",
+      "_doi": "10.1109/ICC.2014.6883429",
+      "issn": "1938-1883",
+      "pages": "871--877",
+      "month": "June",
+      "year": "2014",
+      "author": "Karuppayah, Shankar and Fischer, Mathias and Rossow, Christian and M{\\\"u}hlh{\\\"a}user, Max",
+      "booktitle": "2014 {{IEEE International Conference}} on {{Communications}} ({{ICC}})",
+      "title": "On Advanced Monitoring in Resilient and Unstructured {{P2P}} Botnets",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "karuppayahAdvancedMonitoringResilient2014"
+    },
+    {
+      "series": "Lecture {{Notes}} in {{Computer Science}}",
+      "language": "en",
+      "_doi": "10.1007/978-3-319-99073-6_18",
+      "address": "{Cham}",
+      "publisher": "{Springer International Publishing}",
+      "pages": "363--382",
+      "year": "2018",
+      "editor": "Lopez, Javier and Zhou, Jianying and Soriano, Miguel",
+      "author": "Kirsch, Julian and Zhechev, Zhechko and Bierbaumer, Bruno and Kittel, Thomas",
+      "booktitle": "Computer {{Security}}",
+      "shorttitle": "{{PwIN}} \\textendash{} {{Pwning Intel piN}}",
+      "title": "{{PwIN}} \\textendash{} {{Pwning Intel piN}}: {{Why DBI}} Is {{Unsuitable}} for {{Security Applications}}",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "kirschPwINPwningIntel2018a"
+    },
+    {
+      "series": "Asia {{CCS}} '19",
+      "keywords": "dynamic binary instrumentation,dynamic binary translation,escape,evasion,interposition,transparent monitoring",
+      "isbn": "978-1-4503-6752-3",
+      "_doi": "10.1145/3321705.3329819",
+      "address": "{New York, NY, USA}",
+      "publisher": "{Association for Computing Machinery}",
+      "pages": "15--27",
+      "month": "July",
+      "year": "2019",
+      "author": "D'Elia, Daniele Cono and Coppa, Emilio and Nicchi, Simone and Palmaro, Federico and Cavallaro, Lorenzo",
+      "booktitle": "Proceedings of the 2019 {{ACM Asia Conference}} on {{Computer}} and {{Communications Security}}",
+      "shorttitle": "{{SoK}}",
+      "title": "{{SoK}}: {{Using Dynamic Binary Instrumentation}} for {{Security}} ({{And How You May Get Caught Red Handed}})",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "deliaSoKUsingDynamic2019"
+    },
+    {
+      "doi": "10.1109/DSN.2008.4630086",
+      "issn": "2158-3927",
+      "pages": "177--186",
+      "month": "June",
+      "year": "2008",
+      "author": "Chen, Xu and Andersen, Jon and Mao, Z. Morley and Bailey, Michael and Nazario, Jose",
+      "booktitle": "2008 {{IEEE International Conference}} on {{Dependable Systems}} and {{Networks With FTCS}} and {{DCC}} ({{DSN}})",
+      "title": "Towards an Understanding of Anti-Virtualization and Anti-Debugging Behavior in Modern Malware",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "chenUnderstandingAntivirtualizationAntidebugging2008"
+    },
+    {
+      "lastaccessed": "May 6, 2021",
+      "url": "https://github.com/lgeek/dynamorio\\_pin\\_escape",
+      "month": "February",
+      "year": "2016",
+      "author": "Gorgovan, Cosmin",
+      "title": "Escaping {{DynamoRIO}} and {{Pin}}",
+      "ENTRYTYPE": "misc",
+      "ID": "gorgovanEscapingDynamoRIOPin2021"
+    },
+    {
+      "series": "{{VEE}} '15",
+      "keywords": "dynamic binary instrumentation,introspection",
+      "isbn": "978-1-4503-3450-1",
+      "_doi": "10.1145/2731186.2731201",
+      "address": "{New York, NY, USA}",
+      "publisher": "{Association for Computing Machinery}",
+      "pages": "147--160",
+      "month": "March",
+      "year": "2015",
+      "author": "Zeng, Junyuan and Fu, Yangchun and Lin, Zhiqiang",
+      "booktitle": "Proceedings of the 11th {{ACM SIGPLAN}}/{{SIGOPS International Conference}} on {{Virtual Execution Environments}}",
+      "shorttitle": "{{PEMU}}",
+      "title": "{{PEMU}}: {{A Pin Highly Compatible Out}}-of-{{VM Dynamic Binary Instrumentation Framework}}",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zengPEMUPinHighly2015"
+    },
+    {
+      "journal": "Proceedings of the 3rd USENIX Conference on Offensive Technologies",
+      "title": "Unpacking virtualization obfuscators",
+      "pages": "7",
+      "year": "2009",
+      "author": "Rolles, Rolf",
+      "ENTRYTYPE": "article",
+      "ID": "rollesUnpackingVirtualizationObfuscators"
+    },
+    {
+      "primaryclass": "cs",
+      "keywords": "Computer Science - Cryptography and Security,Computer Science - Networking and Internet Architecture,Computer Science - Operating Systems,Computer Science - Software Engineering,D.2.7,D.4.6,E.3,K.6.5",
+      "journal": "arXiv:1406.5569 [cs]",
+      "_doi": "10.1007/978-3-319-05302-8_25",
+      "pages": "408--425",
+      "volume": "8352",
+      "year": "2014",
+      "author": "Rahimian, Ashkan and Ziarati, Raha and Preda, Stere and Debbabi, Mourad",
+      "title": "On the {{Reverse Engineering}} of the {{Citadel Botnet}}",
+      "ENTRYTYPE": "article",
+      "ID": "rahimianReverseEngineeringCitadel2014"
+    },
+    {
+      "month": "10",
+      "year": "2016",
+      "school": "TU Darmstadt",
+      "title": "Reverse Engineering P2P Botnets: Kelihos and Nugache",
+      "author": "Yi Liu",
+      "ENTRYTYPE": "mastersthesis",
+      "ID": "mthesisKelihosNugache"
+    },
+    {
+      "year": "2015",
+      "school": "TU Darmstadt",
+      "title": "Reverse-Engineering Windows-based P2P Botnets",
+      "author": "Steffen Haas",
+      "ENTRYTYPE": "mastersthesis",
+      "ID": "mthesisZeroAccessSality"
+    },
+    {
+      "primaryclass": "cs",
+      "keywords": "Computer Science - Cryptography and Security,Computer Science - Human-Computer Interaction",
+      "journal": "arXiv:1912.00317 [cs]",
+      "month": "November",
+      "year": "2019",
+      "author": "Votipka, Daniel and Rabin, Seth M. and Micinski, Kristopher and Foster, Jeffrey S. and Mazurek, Michelle L.",
+      "title": "An {{Observational Investigation}} of {{Reverse Engineers}}' {{Processes}}",
+      "ENTRYTYPE": "article",
+      "ID": "votipkaObservationalInvestigationReverse2019a"
+    },
+    {
+      "journal": "login Usenix Mag.",
+      "volume": "32",
+      "year": "2007",
+      "author": "Stover, S. and Dittrich, D. and Hernandez, John and Dietrich, S.",
+      "title": "Analysis of the Storm and Nugache Trojans: {{P2P}} Is Here",
+      "ENTRYTYPE": "article",
+      "ID": "stoverAnalysisStormNugache2007"
+    }
+  ]
+}

@@ -1,0 +1,1822 @@
+{
+  "pdf_url": "https://arxiv.org/pdf/2506.21209v2.pdf",
+  "references": [
+    {
+      "month": "October",
+      "year": "2025",
+      "booktitle": "IEEE International Conference on Computer Vision (ICCV)",
+      "author": "Bui, Tu and Agarwal, Shruti and Collomosse, John",
+      "title": "TrustMark: Robust Watermarking and Watermark Removal for Arbitrary Resolution Images",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "Trustmark-ICCV-2025"
+    },
+    {
+      "year": "2020",
+      "pages": "2117--2126",
+      "booktitle": "Proceedings of the IEEE/CVF conference on computer vision and pattern recognition",
+      "author": "Tancik, Matthew and Mildenhall, Ben and Ng, Ren",
+      "title": "Stegastamp: Invisible hyperlinks in physical photographs",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "tancik2020stegastamp"
+    },
+    {
+      "primaryclass": "cs.MM",
+      "archiveprefix": "arXiv",
+      "eprint": "1909.01285",
+      "year": "2019",
+      "title": "Robust Invisible Video Watermarking with Attention",
+      "author": "Kevin Alex Zhang and Lei Xu and Alfredo Cuesta-Infante and Kalyan Veeramachaneni",
+      "ENTRYTYPE": "article",
+      "ID": "zhang2019rivagan"
+    },
+    {
+      "url": "https://openreview.net/forum?id=1Z6PSw7OL8",
+      "year": "2025",
+      "booktitle": "The Thirteenth International Conference on Learning Representations",
+      "author": "Shaozhe Hao and Xuantong LIU and Xianbiao Qi and Shihao Zhao and Bojia Zi and Rong Xiao and Kai Han and Kwan-Yee K. Wong",
+      "title": "Bi{GR}: Harnessing Binary Latent Codes for Image Generation and Improved Visual Representation Capabilities",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "hao2025bigr"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2506.21022",
+      "author": "Wang, Ze and Chen, Hao and Hu, Benran and Liu, Jiang and Sun, Ximeng and Wu, Jialian and Su, Yusheng and Yu, Xiaodong and Barsoum, Emad and Liu, Zicheng",
+      "title": "Instella-T2I: Pushing the Limits of 1D Discrete Latent Space Image Generation",
+      "ENTRYTYPE": "article",
+      "ID": "wang2025instella"
+    },
+    {
+      "year": "2016",
+      "pages": "1874--1883",
+      "booktitle": "Proceedings of the IEEE conference on computer vision and pattern recognition",
+      "author": "Shi, Wenzhe and Caballero, Jose and Husz{\\'a}r, Ferenc and Totz, Johannes and Aitken, Andrew P and Bishop, Rob and Rueckert, Daniel and Wang, Zehan",
+      "title": "Real-time single image and video super-resolution using an efficient sub-pixel convolutional neural network",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "shi2016real"
+    },
+    {
+      "organization": "Springer",
+      "year": "2014",
+      "pages": "740--755",
+      "booktitle": "Computer vision--ECCV 2014: 13th European conference, zurich, Switzerland, September 6-12, 2014, proceedings, part v 13",
+      "author": "Lin, Tsung-Yi and Maire, Michael and Belongie, Serge and Hays, James and Perona, Pietro and Ramanan, Deva and Doll{\\'a}r, Piotr and Zitnick, C Lawrence",
+      "title": "Microsoft coco: Common objects in context",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "MSCOCO2014microsoft"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2023",
+      "pages": "17061--17084",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Kirchenbauer, John and Geiping, Jonas and Wen, Yuxin and Katz, Jonathan and Miers, Ian and Goldstein, Tom",
+      "title": "A watermark for large language models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "kirchenbauer2023watermark"
+    },
+    {
+      "organization": "Springer",
+      "year": "2024",
+      "pages": "289--305",
+      "booktitle": "European Conference on Computer Vision",
+      "author": "Heo, Byeongho and Park, Song and Han, Dongyoon and Yun, Sangdoo",
+      "title": "Rotary position embedding for vision transformer",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "heo2024rope2d"
+    },
+    {
+      "url": "https://openreview.net/forum?id=yGnsH3gQ6U",
+      "year": "2025",
+      "booktitle": "The Thirteenth International Conference on Learning Representations",
+      "author": "Yue Zhao and Yuanjun Xiong and Philipp Kraehenbuehl",
+      "title": "Image and Video Tokenization with Binary Spherical Quantization",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zhao2025bsq"
+    },
+    {
+      "year": "2024",
+      "pages": "84839--84865",
+      "volume": "37",
+      "journal": "Advances in neural information processing systems",
+      "author": "Tian, Keyu and Jiang, Yi and Yuan, Zehuan and Peng, Bingyue and Wang, Liwei",
+      "title": "Visual autoregressive modeling: Scalable image generation via next-scale prediction",
+      "ENTRYTYPE": "article",
+      "ID": "tian2024var"
+    },
+    {
+      "year": "2025",
+      "journal": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "author": "Han, Jian and Liu, Jinlai and Jiang, Yi and Yan, Bin and Zhang, Yuqi and Yuan, Zehuan and Peng, Bingyue and Liu, Xiaobing",
+      "title": "Infinity: Scaling bitwise autoregressive modeling for high-resolution image synthesis",
+      "ENTRYTYPE": "article",
+      "ID": "han2024infinity"
+    },
+    {
+      "url": "https://doi.org/10.1007/978-0-387-73003-5_196",
+      "doi": "10.1007/978-0-387-73003-5_196",
+      "isbn": "978-0-387-73003-5",
+      "pages": "659--663",
+      "address": "Boston, MA",
+      "publisher": "Springer US",
+      "year": "2009",
+      "booktitle": "Encyclopedia of Biometrics",
+      "title": "Gaussian Mixture Models",
+      "editor": "Li, Stan Z.\nand Jain, Anil",
+      "author": "Reynolds, Douglas",
+      "ENTRYTYPE": "inbook",
+      "ID": "Reynolds2009"
+    },
+    {
+      "url": "https://doi.org/10.1214/aos/1015362183",
+      "doi": "10.1214/aos/1015362183",
+      "year": "2002",
+      "keywords": "boosting, combined classifier, Concentration inequalities, empirical process, Gaussian process, Generalization error, margin, neural network, Rademacher process",
+      "pages": "1 -- 50",
+      "publisher": "Institute of Mathematical Statistics",
+      "number": "1",
+      "journal": "The Annals of Statistics",
+      "volume": "30",
+      "title": "{Empirical Margin Distributions and Bounding the Generalization Error of Combined Classifiers}",
+      "author": "V. Koltchinskii and D. Panchenko",
+      "ENTRYTYPE": "article",
+      "ID": "koltchinskii_empirical_2002"
+    },
+    {
+      "keywords": "Particle measurements, Testing, Training data, Convergence, Neyman–Pearson ({NP}) classification, Probability, Statistical learning, statistical learning theory, Costs, Diseases, Frequency, Intrusion detection, performance measures",
+      "note": "Conference Name: {IEEE} Transactions on Information Theory",
+      "date": "2007-08",
+      "author": "Scott, Clayton",
+      "journaltitle": "{IEEE} Transactions on Information Theory",
+      "number": "8",
+      "pages": "2852--2863",
+      "abstract": "In the Neyman-Pearson ({NP}) classification paradigm, the goal is to learn a classifier from labeled training data such that the probability of a false negative is minimized while the probability of a false positive is below a user-specified level alpha isin (0,1). This work addresses the question of how to evaluate and compare classifiers in the {NP} setting. Simply reporting false positives and false negatives leaves some ambiguity about which classifier is best. Unlike conventional classification, however, there is no natural performance measure for {NP} classification. We cannot reject classifiers whose false positive rate exceeds a since, among other reasons, the false positive rate must be estimated from data and hence is not known with certainty. We propose two families of performance measures for evaluating and comparing classifiers and suggest one criterion in particular for practical use. We then present general learning rules that satisfy performance guarantees with respect to these criteria. As in conventional classification, the notion of uniform convergence plays a central role, and leads to finite sample bounds, oracle inequalities, consistency, and rates of convergence. The proposed performance measures are also applicable to the problem of anomaly prediction.",
+      "doi": "10.1109/TIT.2007.901152",
+      "issn": "1557-9654",
+      "volume": "53",
+      "title": "Performance Measures for Neyman–Pearson Classification",
+      "ENTRYTYPE": "article",
+      "ID": "scott_performance_2007"
+    },
+    {
+      "year": "2016",
+      "journal": "arXiv preprint arXiv:1606.06565",
+      "author": "Amodei, Dario and Olah, Chris and Steinhardt, Jacob and Christiano, Paul and Schulman, John and Man{\\'e}, Dan",
+      "title": "Concrete problems in AI safety",
+      "ENTRYTYPE": "article",
+      "ID": "amodei2016concrete"
+    },
+    {
+      "year": "2018",
+      "journal": "arXiv preprint arXiv:1807.01697",
+      "author": "Hendrycks, Dan and Dietterich, Thomas G",
+      "title": "Benchmarking neural network robustness to common corruptions and surface variations",
+      "ENTRYTYPE": "article",
+      "ID": "hendrycks2018benchmarking"
+    },
+    {
+      "year": "2019",
+      "journal": "arXiv preprint arXiv:1901.10513",
+      "author": "Ford, Nic and Gilmer, Justin and Carlini, Nicolas and Cubuk, Dogus",
+      "title": "Adversarial examples are a natural consequence of test error in noise",
+      "ENTRYTYPE": "article",
+      "ID": "ford2019adversarial"
+    },
+    {
+      "year": "2019",
+      "volume": "32",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Rabanser, Stephan and G{\\\"u}nnemann, Stephan and Lipton, Zachary",
+      "title": "Failing loudly: An empirical study of methods for detecting dataset shift",
+      "ENTRYTYPE": "article",
+      "ID": "rabanser2019failing"
+    },
+    {
+      "note": "Series Title: Lecture Notes in Computer Science",
+      "doi": "10.1007/978-3-319-46379-7_5",
+      "langid": "english",
+      "date": "2016",
+      "urldate": "2021-05-27",
+      "editor": "Ortner, Ronald and Simon, Hans Ulrich and Zilles, Sandra",
+      "author": "Cortes, Corinna and {DeSalvo}, Giulia and Mohri, Mehryar",
+      "publisher": "Springer International Publishing",
+      "booktitle": "Algorithmic Learning Theory",
+      "pages": "67--82",
+      "abstract": "We introduce a novel framework for classiﬁcation with a rejection option that consists of simultaneously learning two functions: a classiﬁer along with a rejection function. We present a full theoretical analysis of this framework including new data-dependent learning bounds in terms of the Rademacher complexities of the classiﬁer and rejection families as well as consistency and calibration results. These theoretical guarantees guide us in designing new algorithms that can exploit diﬀerent kernel-based hypothesis sets for the classiﬁer and rejection functions. We compare and contrast our general framework with the special case of conﬁdence-based rejection for which we devise alternative loss functions and algorithms as well. We report the results of several experiments showing that our kernel-based algorithms can yield a notable improvement over the best existing conﬁdence-based rejection algorithm.",
+      "url": "http://link.springer.com/10.1007/978-3-319-46379-7_5",
+      "isbn": "978-3-319-46378-0 978-3-319-46379-7",
+      "volume": "9925",
+      "title": "Learning with Rejection",
+      "location": "Cham",
+      "ENTRYTYPE": "incollection",
+      "ID": "ortner_learning_2016"
+    },
+    {
+      "keywords": "Testing, Buildings, Condition monitoring, Convergence, Decision trees, Filtering, Generalization error bounds, Histograms, Neyman–Pearson ({NP}) classification, Probability, Risk management, Statistical learning, statistical learning theory",
+      "note": "Conference Name: {IEEE} Transactions on Information Theory",
+      "date": "2005-11",
+      "author": "Scott, C. and Nowak, R.",
+      "journaltitle": "{IEEE} Transactions on Information Theory",
+      "number": "11",
+      "pages": "3806--3819",
+      "abstract": "The Neyman-Pearson ({NP}) approach to hypothesis testing is useful in situations where different types of error have different consequences or a priori probabilities are unknown. For any /spl alpha/{\\textgreater}0, the {NP} lemma specifies the most powerful test of size /spl alpha/, but assumes the distributions for each hypothesis are known or (in some cases) the likelihood ratio is monotonic in an unknown parameter. This paper investigates an extension of {NP} theory to situations in which one has no knowledge of the underlying distributions except for a collection of independent and identically distributed (i.i.d.) training examples from each hypothesis. Building on a \"fundamental lemma\" of Cannon et al., we demonstrate that several concepts from statistical learning theory have counterparts in the {NP} context. Specifically, we consider constrained versions of empirical risk minimization ({NP}-{ERM}) and structural risk minimization ({NP}-{SRM}), and prove performance guarantees for both. General conditions are given under which {NP}-{SRM} leads to strong universal consistency. We also apply {NP}-{SRM} to (dyadic) decision trees to derive rates of convergence. Finally, we present explicit algorithms to implement {NP}-{SRM} for histograms and dyadic decision trees.",
+      "doi": "10.1109/TIT.2005.856955",
+      "issn": "1557-9654",
+      "volume": "51",
+      "title": "A Neyman-Pearson approach to statistical learning",
+      "ENTRYTYPE": "article",
+      "ID": "scott_neyman-pearson_2005"
+    },
+    {
+      "year": "2020",
+      "volume": "33",
+      "url": "https://proceedings.neurips.cc/paper/2020/file/b6c8cf4c587f2ead0c08955ee6e2502b-Paper.pdf",
+      "title": "Beyond Perturbations: Learning Guarantees with Arbitrary Adversarial Test Examples",
+      "publisher": "Curran Associates, Inc.",
+      "pages": "15859--15870",
+      "editor": "H. Larochelle and M. Ranzato and R. Hadsell and M. F. Balcan and H. Lin",
+      "booktitle": "Advances in Neural Information Processing Systems",
+      "author": "Goldwasser, Shafi and Kalai, Adam Tauman and Kalai, Yael and Montasser, Omar",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "goldwasser2020beyond"
+    },
+    {
+      "url": "https://arxiv.org/abs/1212.4966",
+      "primaryclass": "math.ST",
+      "archiveprefix": "arXiv",
+      "eprint": "1212.4966",
+      "year": "2019",
+      "author": "Vladimir Vovk and Ruodu Wang",
+      "title": "Combining p-values via averaging",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "vovk2019combining"
+    },
+    {
+      "url": "https://openreview.net/forum?id=rJzIBfZAb",
+      "year": "2018",
+      "booktitle": "International Conference on Learning Representations",
+      "author": "Aleksander Madry and Aleksandar Makelov and Ludwig Schmidt and Dimitris Tsipras and Adrian Vladu",
+      "title": "Towards Deep Learning Models Resistant to Adversarial Attacks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "madry2018towards"
+    },
+    {
+      "bibsource": "dblp computer science bibliography, https://dblp.org",
+      "biburl": "https://dblp.org/rec/journals/corr/SabourCFF15.bib",
+      "timestamp": "Thu, 25 Jul 2019 14:25:39 +0200",
+      "url": "http://arxiv.org/abs/1511.05122",
+      "year": "2016",
+      "booktitle": "4th International Conference on Learning Representations, {ICLR} 2016,\nSan Juan, Puerto Rico, May 2-4, 2016, Conference Track Proceedings",
+      "title": "Adversarial Manipulation of Deep Representations",
+      "author": "Sara Sabour and\nYanshuai Cao and\nFartash Faghri and\nDavid J. Fleet",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "feature2016attack"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2017",
+      "pages": "1321--1330",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Guo, Chuan and Pleiss, Geoff and Sun, Yu and Weinberger, Kilian Q",
+      "title": "On calibration of modern neural networks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "guo2017calibration"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2016",
+      "pages": "1050--1059",
+      "booktitle": "international conference on machine learning",
+      "author": "Gal, Yarin and Ghahramani, Zoubin",
+      "title": "Dropout as a bayesian approximation: Representing model uncertainty in deep learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "gal2016dropout"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2015",
+      "pages": "1613--1622",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Blundell, Charles and Cornebise, Julien and Kavukcuoglu, Koray and Wierstra, Daan",
+      "title": "Weight uncertainty in neural network",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "blundell2015weight"
+    },
+    {
+      "year": "2016",
+      "pages": "4",
+      "number": "3",
+      "volume": "1",
+      "journal": "University of Cambridge",
+      "author": "Gal, Yarin",
+      "title": "Uncertainty in deep learning",
+      "ENTRYTYPE": "article",
+      "ID": "gal2016uncertainty"
+    },
+    {
+      "year": "2016",
+      "journal": "arXiv preprint arXiv:1612.01474",
+      "author": "Lakshminarayanan, Balaji and Pritzel, Alexander and Blundell, Charles",
+      "title": "Simple and scalable predictive uncertainty estimation using deep ensembles",
+      "ENTRYTYPE": "article",
+      "ID": "lakshminarayanan2016simple"
+    },
+    {
+      "organization": "IEEE",
+      "year": "2019",
+      "pages": "1--7",
+      "booktitle": "2019 IEEE Security and Privacy Workshops (SPW)",
+      "author": "Sitawarin, Chawin and Wagner, David",
+      "title": "On the robustness of deep k-nearest neighbors",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "sitawarin2019robustness"
+    },
+    {
+      "organization": "IEEE",
+      "year": "2020",
+      "pages": "34--40",
+      "booktitle": "2020 IEEE Security and Privacy Workshops (SPW)",
+      "author": "Sitawarin, Chawin and Wagner, David",
+      "title": "Minimum-Norm Adversarial Examples on KNN and KNN based Models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "sitawarin2020minimum"
+    },
+    {
+      "organization": "Springer",
+      "year": "2003",
+      "pages": "63--71",
+      "booktitle": "Summer school on machine learning",
+      "author": "Rasmussen, Carl Edward",
+      "title": "Gaussian processes in machine learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "rasmussen2003gaussian"
+    },
+    {
+      "pages": "387--402",
+      "address": "Berlin, Heidelberg",
+      "publisher": "Springer Berlin Heidelberg",
+      "year": "2013",
+      "booktitle": "Machine Learning and Knowledge Discovery in Databases",
+      "title": "Evasion Attacks against Machine Learning at Test Time",
+      "editor": "Blockeel, Hendrik\nand Kersting, Kristian\nand Nijssen, Siegfried\nand {\\v{Z}}elezn{\\'y}, Filip",
+      "author": "Biggio, Battista\nand Corona, Igino\nand Maiorca, Davide\nand Nelson, Blaine\nand {\\v{S}}rndi{\\'{c}}, Nedim\nand Laskov, Pavel\nand Giacinto, Giorgio\nand Roli, Fabio",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "biggio2013adv"
+    },
+    {
+      "year": "2014",
+      "journal": "arXiv preprint arXiv:1412.6572",
+      "author": "Goodfellow, Ian J and Shlens, Jonathon and Szegedy, Christian",
+      "title": "Explaining and harnessing adversarial examples",
+      "ENTRYTYPE": "article",
+      "ID": "goodfellow2014explaining"
+    },
+    {
+      "url": " http://proceedings.mlr.press/v97/roth19a.html ",
+      "pdf": "http://proceedings.mlr.press/v97/roth19a/roth19a.pdf",
+      "publisher": "PMLR",
+      "month": "09--15 Jun",
+      "series": "Proceedings of Machine Learning Research",
+      "volume": "97",
+      "editor": "Kamalika Chaudhuri and Ruslan Salakhutdinov",
+      "year": "2019",
+      "pages": "5498--5507",
+      "booktitle": "Proceedings of the 36th International Conference on Machine Learning",
+      "author": "Roth, Kevin and Kilcher, Yannic and Hofmann, Thomas",
+      "title": "The Odds are Odd: A Statistical Test for Detecting Adversarial Examples",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "roth19a"
+    },
+    {
+      "booktitle": "International Conference on Learning Representations",
+      "url": "http://arxiv.org/abs/1312.6199",
+      "year": "2014",
+      "author": "Christian Szegedy and Wojciech Zaremba and Ilya Sutskever and Joan Bruna and Dumitru Erhan and Ian Goodfellow and Rob Fergus",
+      "title": "Intriguing properties of neural networks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "szegedy2014adv"
+    },
+    {
+      "url": "https://openreview.net/forum?id=fSTD6NFIW_b",
+      "year": "2021",
+      "booktitle": "International Conference on Learning Representations",
+      "author": "Vaishnavh Nagarajan and Anders Andreassen and Behnam Neyshabur",
+      "title": "Understanding the failure modes of out-of-distribution generalization",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "nagarajan2021understandingOOD"
+    },
+    {
+      "bibsource": "dblp computer science bibliography, https://dblp.org",
+      "biburl": "https://dblp.org/rec/journals/corr/abs-1803-04765.bib",
+      "timestamp": "Mon, 13 Aug 2018 16:48:06 +0200",
+      "eprint": "1803.04765",
+      "archiveprefix": "arXiv",
+      "url": "http://arxiv.org/abs/1803.04765",
+      "year": "2018",
+      "volume": "abs/1803.04765",
+      "journal": "CoRR",
+      "title": "Deep k-Nearest Neighbors: Towards Confident, Interpretable and Robust\nDeep Learning",
+      "author": "Nicolas Papernot and\nPatrick D. McDaniel",
+      "ENTRYTYPE": "article",
+      "ID": "dknn"
+    },
+    {
+      "publisher": "The MIT Press",
+      "isbn": "0262013193",
+      "year": "2009",
+      "title": "Probabilistic Graphical Models: Principles and Techniques - Adaptive Computation and Machine Learning",
+      "author": "Koller, Daphne and Friedman, Nir",
+      "ENTRYTYPE": "book",
+      "ID": "mcmc4ml"
+    },
+    {
+      "url": " http://proceedings.mlr.press/v97/frosst19a.html ",
+      "pdf": "http://proceedings.mlr.press/v97/frosst19a/frosst19a.pdf",
+      "publisher": "PMLR",
+      "month": "09--15 Jun",
+      "series": "Proceedings of Machine Learning Research",
+      "volume": "97",
+      "editor": "Kamalika Chaudhuri and Ruslan Salakhutdinov",
+      "year": "2019",
+      "pages": "2012--2020",
+      "booktitle": "Proceedings of the 36th International Conference on Machine Learning",
+      "author": "Frosst, Nicholas and Papernot, Nicolas and Hinton, Geoffrey",
+      "title": "Analyzing and Improving Representations with the Soft Nearest Neighbor Loss",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "frosst19a"
+    },
+    {
+      "year": "2016",
+      "journal": "arXiv preprint arXiv:1610.02136",
+      "author": "Hendrycks, Dan and Gimpel, Kevin",
+      "title": "A baseline for detecting misclassified and out-of-distribution examples in neural networks",
+      "ENTRYTYPE": "article",
+      "ID": "hendrycks2016baseline"
+    },
+    {
+      "year": "2020",
+      "journal": "arXiv preprint arXiv:2007.15147",
+      "author": "Raghuram, Jayaram and Chandrasekaran, Varun and Jha, Somesh and Banerjee, Suman",
+      "title": "Detecting Anomalous Inputs to DNN Classifiers By Joint Statistical Testing at the Layers",
+      "ENTRYTYPE": "article",
+      "ID": "raghuram2020detecting"
+    },
+    {
+      "year": "2018",
+      "pages": "5546--5557",
+      "booktitle": "NeurIPS",
+      "author": "Jiang, Heinrich and Kim, Been and Guan, Melody Y and Gupta, Maya R",
+      "title": "To Trust Or Not To Trust A Classifier.",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "jiang2018trust"
+    },
+    {
+      "year": "2019",
+      "journal": "arXiv preprint arXiv:1910.00727",
+      "author": "Jain, Lakshya and Chandrasekaran, Varun and Jang, Uyeong and Wu, Wilson and Lee, Andrew and Yan, Andy and Chen, Steven and Jha, Somesh and Seshia, Sanjit A",
+      "title": "Analyzing and Improving Neural Networks by Generating Semantic Counterexamples through Differentiable Rendering",
+      "ENTRYTYPE": "article",
+      "ID": "jain2019analyzing"
+    },
+    {
+      "year": "2021",
+      "journal": "arXiv preprint arXiv:2101.06549",
+      "author": "Wang, Jingkang and Pun, Ava and Tu, James and Manivasagam, Sivabalan and Sadat, Abbas and Casas, Sergio and Ren, Mengye and Urtasun, Raquel",
+      "title": "AdvSim: Generating Safety-Critical Scenarios for Self-Driving Vehicles",
+      "ENTRYTYPE": "article",
+      "ID": "wang2021advsim"
+    },
+    {
+      "year": "2021",
+      "journal": "arXiv preprint arXiv:2103.07403",
+      "author": "Ghodsi, Zahra and Hari, Siva Kumar Sastry and Frosio, Iuri and Tsai, Timothy and Troccoli, Alejandro and Keckler, Stephen W and Garg, Siddharth and Anandkumar, Anima",
+      "title": "Generating and Characterizing Scenarios for Safety Testing of Autonomous Vehicles",
+      "ENTRYTYPE": "article",
+      "ID": "ghodsi2021generating"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2018",
+      "pages": "3150--3158",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Liu, Lydia T and Dean, Sarah and Rolf, Esther and Simchowitz, Max and Hardt, Moritz",
+      "title": "Delayed impact of fair machine learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "liu2018delayed"
+    },
+    {
+      "year": "2018",
+      "journal": "arXiv preprint arXiv:1809.04684",
+      "author": "Chen, Jiahao",
+      "title": "Fair lending needs explainable models for responsible recommendation",
+      "ENTRYTYPE": "article",
+      "ID": "chen2018fair"
+    },
+    {
+      "year": "2017",
+      "journal": "Black Hat",
+      "author": "Anderson, Hyrum S and Kharkar, Anant and Filar, Bobby and Roth, Phil",
+      "title": "Evading machine learning malware detection",
+      "ENTRYTYPE": "article",
+      "ID": "anderson2017evading"
+    },
+    {
+      "year": "2014",
+      "journal": "arXiv preprint arXiv:1402.1389",
+      "author": "Gal, Yarin and Van Der Wilk, Mark and Rasmussen, Carl E",
+      "title": "Distributed variational inference in sparse Gaussian process regression and latent variable models",
+      "ENTRYTYPE": "article",
+      "ID": "gal2014distributed"
+    },
+    {
+      "year": "2020",
+      "pages": "318--319",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops",
+      "author": "Gustafsson, Fredrik K and Danelljan, Martin and Schon, Thomas B",
+      "title": "Evaluating scalable bayesian deep learning methods for robust computer vision",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "gustafsson2020evaluating"
+    },
+    {
+      "year": "2021",
+      "journal": "arXiv preprint arXiv:2102.12967",
+      "author": "Haroush, Matan and Frostig, Tzivel and Heller, Ruth and Soudry, Daniel",
+      "title": "Statistical Testing for Efficient Out of Distribution Detection in Deep Neural Networks",
+      "ENTRYTYPE": "article",
+      "ID": "haroush2021statistical"
+    },
+    {
+      "year": "2018",
+      "volume": "31",
+      "url": "https://proceedings.neurips.cc/paper/2018/file/abdeb6f575ac5c6676b747bca8d09cc2-Paper.pdf",
+      "title": "A Simple Unified Framework for Detecting Out-of-Distribution Samples and Adversarial Attacks",
+      "publisher": "Curran Associates, Inc.",
+      "pages": "",
+      "editor": "S. Bengio and H. Wallach and H. Larochelle and K. Grauman and N. Cesa-Bianchi and R. Garnett",
+      "booktitle": "Advances in Neural Information Processing Systems",
+      "author": "Lee, Kimin and Lee, Kibok and Lee, Honglak and Shin, Jinwoo",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "mahalanobis2018"
+    },
+    {
+      "year": "2016",
+      "journal": "USENIX Security Symposium",
+      "title": "Stealing Machine Learning Models via Prediction APIs.",
+      "author": "Florian Tramèr and F. Zhang and A. Juels and M. Reiter and T. Ristenpart.",
+      "ENTRYTYPE": "article",
+      "ID": "pred_apis"
+    },
+    {
+      "volume": "abs/1206.5538",
+      "year": "2014",
+      "journal": "ArXiv",
+      "title": "Representation Learning: A Review and New Perspectives.",
+      "author": "Yoshua Bengio and A. Courville and P. Vincent.",
+      "ENTRYTYPE": "article",
+      "ID": "repr_learning"
+    },
+    {
+      "year": "2018",
+      "journal": "International Journal of Multimedia Information Retrieval, 7:3–16",
+      "title": "Digital watermarking for deep neural networks.",
+      "author": "Yuki Nagai and Y. Uchida and S. Sakazawa and Shin’ichi Satoh.",
+      "ENTRYTYPE": "article",
+      "ID": "digital_wm"
+    },
+    {
+      "year": "2021",
+      "journal": "USENIX Security Symposium",
+      "title": "Entangled Watermarks as a Defense against Model Extraction.",
+      "author": "Hengrui Jia and C. A. Choquette-Choo and V. Chandrasekaran and N. Papernot.",
+      "ENTRYTYPE": "article",
+      "ID": "entangled_wm"
+    },
+    {
+      "year": "2020",
+      "journal": "International Conference on Machine Learning",
+      "title": "A Simple Framework for Contrastive Learning of Visual Representations.",
+      "author": "Ting Chen and S. Kornblith and M. Norouzi and G. Hinton.",
+      "ENTRYTYPE": "article",
+      "ID": "simclr"
+    },
+    {
+      "year": "2020",
+      "journal": "Computer Vision and Pattern Recognition",
+      "title": "Momentum Contrast for Unsupervised Visual Representation Learning.",
+      "author": "Kaiming He and H. Fan and Y. Wu and S. Xie and R. Girshick.",
+      "ENTRYTYPE": "article",
+      "ID": "moco"
+    },
+    {
+      "year": "2020",
+      "journal": "Computer Vision and Pattern Recognition",
+      "title": "Bootstrap your own latent: A new approach to self-supervised Learning.",
+      "author": "Jean-Bastien Grill and F. Strub and F. Altché and C. Tallec and P. H. Richemond and E. Buchatskaya and C. Doersch and B. A. Pires and Z. D. Guo and M. G. Azar and B. Piot and K. Kavukcuoglu and R. Munos and M. Valko.",
+      "ENTRYTYPE": "article",
+      "ID": "byol"
+    },
+    {
+      "year": "2018",
+      "journale": "Asia Conference on Computer and Communications Security",
+      "title": "Protecting intellectual property of deep neural networks with watermarking.",
+      "author": "Jialong Zhang and Zhongshu Gu and Jiyong Jang and Hui Wu and M. P. Stoecklin and H. Huang and I. Molloy.",
+      "ENTRYTYPE": "article",
+      "ID": "prot_ip"
+    },
+    {
+      "volume": "abs/1807.03748",
+      "year": "2018",
+      "journal": "ArXiv",
+      "author": "A{\\\"a}ron van den Oord and Y. Li and O. Vinyals.",
+      "title": "Representation Learning with Contrastive Predictive Coding.",
+      "ENTRYTYPE": "article",
+      "ID": "cpc"
+    },
+    {
+      "year": "2020",
+      "journal": "USENIX Security Symposium",
+      "author": "Matthew Jagielski and N. Carlini and D. Berthelot and A. Kurakin and N. Papernot.",
+      "title": "High Accuracy and High Fidelity Extraction of Neural Networks.",
+      "ENTRYTYPE": "article",
+      "ID": "fidelity"
+    },
+    {
+      "volume": "abs/2103.00020",
+      "year": "2021",
+      "journal": "Arxiv",
+      "author": "Alec Radford and Jong Wook Kim and C. Hallacy and A. Ramesh and G. Goh and S. Agarwal and G. Sastry and A. Askell and P. Mishkin and J. Clark and G. Krueger and I. Sutskever.",
+      "title": "Learning Transferable Visual Models From Natural Language Supervision.",
+      "ENTRYTYPE": "article",
+      "ID": "clip"
+    },
+    {
+      "year": "2013",
+      "journal": "International Conference on Machine Learning",
+      "author": "Richard Zemel and Y. Wu and K. Swersky and T. Pitassi and C. Dwork.",
+      "title": "Learning Fair Representations.",
+      "ENTRYTYPE": "article",
+      "ID": "fairness"
+    },
+    {
+      "year": "2021",
+      "journal": "Special Interest Group on Knowledge Discovery and Data Mining.",
+      "author": "Binghui Wang and J. Guo and A. Li and Y. Chen and H. Li.",
+      "title": "Privacy-Preserving Representation Learning on Graphs: A Mutual Information Perspective.",
+      "ENTRYTYPE": "article",
+      "ID": "privacy"
+    },
+    {
+      "primaryclass": "cs.CL",
+      "archiveprefix": "arXiv",
+      "eprint": "2201.10005",
+      "year": "2022",
+      "author": "Arvind Neelakantan and Tao Xu and Raul Puri and Alec Radford and Jesse Michael Han and Jerry Tworek and Qiming Yuan and Nikolas Tezak and Jong Wook Kim and Chris Hallacy and Johannes Heidecke and Pranav Shyam and Boris Power and Tyna Eloundou Nekoul and Girish Sastry and Gretchen Krueger and David Schnurr and Felipe Petroski Such and Kenny Hsu and Madeleine Thompson and Tabarak Khan and Toki Sherbakov and Joanne Jang and Peter Welinder and Lilian Weng",
+      "title": "Text and Code Embeddings by Contrastive Pre-Training",
+      "ENTRYTYPE": "misc",
+      "ID": "neelakantan2022text"
+    },
+    {
+      "year": "2018",
+      "journal": "arXiv preprint arXiv:1810.04805",
+      "author": "Devlin, Jacob and Chang, Ming-Wei and Lee, Kenton and Toutanova, Kristina",
+      "title": "Bert: Pre-training of deep bidirectional transformers for language understanding",
+      "ENTRYTYPE": "article",
+      "ID": "devlin2018bert"
+    },
+    {
+      "year": "2019",
+      "pages": "4954--4963",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Orekondy, Tribhuvanesh and Schiele, Bernt and Fritz, Mario",
+      "title": "Knockoff nets: Stealing functionality of black-box models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "orekondy2019knockoff"
+    },
+    {
+      "primaryclass": "cs.CV",
+      "archiveprefix": "arXiv",
+      "eprint": "2011.10566",
+      "year": "2020",
+      "author": "Xinlei Chen and Kaiming He",
+      "title": "Exploring Simple Siamese Representation Learning",
+      "ENTRYTYPE": "article",
+      "ID": "SimSiam"
+    },
+    {
+      "year": "2020",
+      "volume": "33",
+      "url": "https://proceedings.neurips.cc/paper/2020/file/d89a66c7c80a29b1bdbab0f2a1a94af8-Paper.pdf",
+      "title": "Supervised Contrastive Learning",
+      "publisher": "Curran Associates, Inc.",
+      "pages": "18661--18673",
+      "editor": "H. Larochelle and M. Ranzato and R. Hadsell and M. F. Balcan and H. Lin",
+      "booktitle": "Advances in Neural Information Processing Systems",
+      "author": "Khosla, Prannay and Teterwak, Piotr and Wang, Chen and Sarna, Aaron and Tian, Yonglong and Isola, Phillip and Maschinot, Aaron and Liu, Ce and Krishnan, Dilip",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "supconloss"
+    },
+    {
+      "primaryclass": "cs.CR",
+      "archiveprefix": "arXiv",
+      "eprint": "2110.15444",
+      "year": "2021",
+      "author": "Jinyuan Jia and Hongbin Liu and Neil Zhenqiang Gong",
+      "title": "10 Security and Privacy Problems in Self-Supervised Learning",
+      "ENTRYTYPE": "misc",
+      "ID": "securityprivacy"
+    },
+    {
+      "year": "2021",
+      "booktitle": "Proceedings of ICLR 2021: 9th International Conference on Learning Representationsn",
+      "author": "Maini, Pratyush and Yaghini, Mohammad and Papernot, Nicolas",
+      "title": "Dataset inference: Ownership resolution in machine learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "maini2021dataset"
+    },
+    {
+      "organization": "IEEE",
+      "year": "2019",
+      "pages": "512--527",
+      "booktitle": "2019 IEEE European Symposium on Security and Privacy (EuroS\\&P)",
+      "author": "Juuti, Mika and Szyller, Sebastian and Marchal, Samuel and Asokan, N",
+      "title": "PRADA: protecting against DNN model stealing attacks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "juuti2019prada"
+    },
+    {
+      "url": "https://arxiv.org/abs/2201.09243",
+      "year": "2022",
+      "booktitle": "International Conference on Learning Representations",
+      "author": "Dziedzic, Adam and Kaleem, Muhammad Ahmad and Lu, Yu Shen and Papernot, Nicolas",
+      "title": "Increasing the Cost of Model Extraction with Calibrated Proof of Work",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "powDefense"
+    },
+    {
+      "year": "2020",
+      "journal": "arXiv preprint arXiv:2002.12200",
+      "author": "Jia, Hengrui and Choquette-Choo, Christopher A and Papernot, Nicolas",
+      "title": "Entangled watermarks as a defense against model extraction",
+      "ENTRYTYPE": "article",
+      "ID": "jia2020entangled"
+    },
+    {
+      "url": "https://openreview.net/forum?id=SyevYxHtDB",
+      "year": "2020",
+      "booktitle": "International Conference on Learning Representations",
+      "author": "Tribhuvanesh Orekondy and Bernt Schiele and Mario Fritz",
+      "title": "Prediction Poisoning: Towards Defenses Against DNN Model Stealing Attacks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "orekondy2019prediction"
+    },
+    {
+      "publisher": "Springer",
+      "year": "2019",
+      "pages": "121--144",
+      "booktitle": "Explainable AI: Interpreting, Explaining and Visualizing Deep Learning",
+      "author": "Oh, Seong Joon and Schiele, Bernt and Fritz, Mario",
+      "title": "Towards reverse-engineering black-box neural networks",
+      "ENTRYTYPE": "incollection",
+      "ID": "oh2019towards"
+    },
+    {
+      "year": "2008",
+      "pages": "21260",
+      "journal": "Decentralized Business Review",
+      "author": "Nakamoto, Satoshi",
+      "title": "Bitcoin: A peer-to-peer electronic cash system",
+      "ENTRYTYPE": "article",
+      "ID": "nakamoto2008bitcoin"
+    },
+    {
+      "year": "2021",
+      "journal": "arXiv preprint arXiv:2103.05633",
+      "author": "Jia, Hengrui and Yaghini, Mohammad and Choquette-Choo, Christopher A and Dullerud, Natalie and Thudi, Anvith and Chandrasekaran, Varun and Papernot, Nicolas",
+      "title": "Proof-of-Learning: Definitions and Practice",
+      "ENTRYTYPE": "article",
+      "ID": "jia2021proof"
+    },
+    {
+      "year": "2019",
+      "journal": "arXiv preprint arXiv:1906.00830",
+      "author": "Szyller, Sebastian and Atli, Buse Gul and Marchal, Samuel and Asokan, N",
+      "title": "Dawn: Dynamic adversarial watermarking of neural networks",
+      "ENTRYTYPE": "article",
+      "ID": "szyller2019dawn"
+    },
+    {
+      "month": "August",
+      "publisher": "{USENIX} Association",
+      "url": "https://www.usenix.org/conference/usenixsecurity18/presentation/adi",
+      "pages": "1615--1631",
+      "address": "Baltimore, MD",
+      "isbn": "978-1-939133-04-5",
+      "year": "2018",
+      "booktitle": "27th {USENIX} Security Symposium ({USENIX} Security 18)",
+      "title": "Turning Your Weakness Into a Strength: Watermarking Deep Neural Networks by Backdooring",
+      "author": "Yossi Adi and Carsten Baum and Moustapha Cisse and Benny Pinkas and Joseph Keshet",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "adi2018backdoorwatermark"
+    },
+    {
+      "year": "2021",
+      "journal": "arXiv preprint arXiv:2104.05921",
+      "author": "Zhang, Xinyi and Fang, Chengfang and Shi, Jie",
+      "title": "Thief, Beware of What Get You There: Towards Understanding Model Extraction Attack",
+      "ENTRYTYPE": "article",
+      "ID": "zhang2021thiefbeware"
+    },
+    {
+      "year": "2020",
+      "pages": "865--872",
+      "number": "01",
+      "volume": "34",
+      "booktitle": "Proceedings of the AAAI Conference on Artificial Intelligence",
+      "author": "Pal, Soham and Gupta, Yash and Shukla, Aditya and Kanade, Aditya and Shevade, Shirish and Ganapathy, Vinod",
+      "title": "Activethief: Model extraction using active learning and unannotated public data",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "pal2020activethief"
+    },
+    {
+      "abstract": "We explore and expand the Soft Nearest Neighbor Loss to measure the entanglement of class manifolds in representation space: i.e., how close pairs of points from the same class are relative to pairs of points from different classes. We demonstrate several use cases of the loss. As an analytical tool, it provides insights into the evolution of class similarity structures during learning. Surprisingly, we find that maximizing the entanglement of representations of different classes in the hidden layers is beneficial for discrimination in the final layer, possibly because it encourages representations to identify class-independent similarity structures. Maximizing the soft nearest neighbor loss in the hidden layers leads not only to better-calibrated estimates of uncertainty on outlier data but also marginally improved generalization. Data that is not from the training distribution can be recognized by observing that in the hidden layers, it has fewer than the normal number of neighbors from the predicted class.",
+      "url": "https://proceedings.mlr.press/v97/frosst19a.html",
+      "pdf": "http://proceedings.mlr.press/v97/frosst19a/frosst19a.pdf",
+      "publisher": "PMLR",
+      "month": "09--15 Jun",
+      "series": "Proceedings of Machine Learning Research",
+      "volume": "97",
+      "editor": "Chaudhuri, Kamalika and Salakhutdinov, Ruslan",
+      "year": "2019",
+      "pages": "2012--2020",
+      "booktitle": "Proceedings of the 36th International Conference on Machine Learning",
+      "author": "Frosst, Nicholas and Papernot, Nicolas and Hinton, Geoffrey",
+      "title": "Analyzing and Improving Representations with the Soft Nearest Neighbor Loss",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "softNearestNeighborLoss"
+    },
+    {
+      "year": "2021",
+      "journal": "arXiv preprint arXiv:2103.03230",
+      "author": "Zbontar, Jure and Jing, Li and Misra, Ishan and LeCun, Yann and Deny, St{\\'e}phane",
+      "title": "Barlow Twins: Self-Supervised Learning via Redundancy Reduction",
+      "ENTRYTYPE": "article",
+      "ID": "zbontar2021barlow"
+    },
+    {
+      "pages": "193907–193934",
+      "year": "2020",
+      "author": "Le-Khac, Phuc H. and Healy, Graham and Smeaton, Alan F.",
+      "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+      "journal": "IEEE Access",
+      "doi": "10.1109/access.2020.3031549",
+      "url": "http://dx.doi.org/10.1109/ACCESS.2020.3031549",
+      "issn": "2169-3536",
+      "volume": "8",
+      "title": "Contrastive Representation Learning: A Framework and Review",
+      "ENTRYTYPE": "article",
+      "ID": "contrastivereview"
+    },
+    {
+      "url": "https://openreview.net/forum?id=S1v4N2l0-",
+      "year": "2018",
+      "booktitle": "International Conference on Learning Representations",
+      "author": "Spyros Gidaris and Praveer Singh and Nikos Komodakis",
+      "title": "Unsupervised Representation Learning by Predicting Image Rotations",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "gidaris2018unsupervised"
+    },
+    {
+      "primaryclass": "cs.CV",
+      "archiveprefix": "arXiv",
+      "eprint": "1505.05192",
+      "year": "2016",
+      "author": "Carl Doersch and Abhinav Gupta and Alexei A. Efros",
+      "title": "Unsupervised Visual Representation Learning by Context Prediction",
+      "ENTRYTYPE": "misc",
+      "ID": "doersch2016unsupervised"
+    },
+    {
+      "year": "2020",
+      "journal": "arXiv preprint arXiv:2004.08900",
+      "author": "Sharir, Or and Peleg, Barak and Shoham, Yoav",
+      "title": "The cost of training nlp models: A concise overview",
+      "ENTRYTYPE": "article",
+      "ID": "sharir2020cost"
+    },
+    {
+      "url": "https://lilianweng.github.io/lil-log/2021/05/31/contrastive-representation-learning.html",
+      "year": "2021",
+      "journal": "lilianweng.github.io/lil-log",
+      "author": "Weng, Lilian",
+      "title": "Contrastive Representation Learning",
+      "ENTRYTYPE": "article",
+      "ID": "weng2021contrastive"
+    },
+    {
+      "url": "https://openreview.net/forum?id=rJ4uaX2aW",
+      "year": "2018",
+      "author": "Boris Ginsburg and Igor Gitman and Yang You",
+      "title": "Large Batch Training of Convolutional Networks with Layer-wise Adaptive Rate Scaling",
+      "ENTRYTYPE": "misc",
+      "ID": "ginsburg2018large"
+    },
+    {
+      "doi": "10.1109/CVPR.2015.7298682",
+      "pages": "815-823",
+      "number": "",
+      "volume": "",
+      "year": "2015",
+      "title": "FaceNet: A unified embedding for face recognition and clustering",
+      "booktitle": "2015 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "author": "Schroff, Florian and Kalenichenko, Dmitry and Philbin, James",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "triplet"
+    },
+    {
+      "year": "2021",
+      "month": "June",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "title": "Data-Free Model Extraction",
+      "author": "Truong, Jean-Baptiste and Maini, Pratyush and Walls, Robert J. and Papernot, Nicolas",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "DataFreeExtract"
+    },
+    {
+      "month": "August",
+      "publisher": "USENIX Association",
+      "url": "https://www.usenix.org/conference/usenixsecurity20/presentation/chandrasekaran",
+      "pages": "1309--1326",
+      "isbn": "978-1-939133-17-5",
+      "year": "2020",
+      "booktitle": "29th USENIX Security Symposium (USENIX Security 20)",
+      "title": "Exploring Connections Between Active Learning and Model Extraction",
+      "author": "Varun Chandrasekaran and Kamalika Chaudhuri and Irene Giacomelli and Somesh Jha and Songbai Yan",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "VarunActiveLearning"
+    },
+    {
+      "year": "2019",
+      "volume": "32",
+      "url": "https://proceedings.neurips.cc/paper/2019/file/1cd138d0499a68f4bb72bee04bbec2d7-Paper.pdf",
+      "title": "MixMatch: A Holistic Approach to Semi-Supervised Learning",
+      "publisher": "Curran Associates, Inc.",
+      "pages": "",
+      "editor": "H. Wallach and H. Larochelle and A. Beygelzimer and F. d\\textquotesingle Alch\\'{e}-Buc and E. Fox and R. Garnett",
+      "booktitle": "Advances in Neural Information Processing Systems",
+      "author": "Berthelot, David and Carlini, Nicholas and Goodfellow, Ian and Papernot, Nicolas and Oliver, Avital and Raffel, Colin A",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "MixMatch"
+    },
+    {
+      "year": "2014",
+      "url": "https://openreview.net/forum?id=kklr_MTHMRQjG",
+      "booktitle": "International Conference on Learning Representations",
+      "author": "Szegedy, Christian and Zaremba, Wojciech and Sutskever, Ilya and Bruna, Joan and Erhan, Dumitru and Goodfellow, Ian and Fergus, Rob",
+      "title": "Intriguing properties of neural networks",
+      "ENTRYTYPE": "article",
+      "ID": "szegedy2013intriguing"
+    },
+    {
+      "year": "2017",
+      "pages": "506--519",
+      "booktitle": "Proceedings of the 2017 ACM on Asia conference on computer and communications security",
+      "author": "Papernot, Nicolas and McDaniel, Patrick and Goodfellow, Ian and Jha, Somesh and Celik, Z Berkay and Swami, Ananthram",
+      "title": "Practical black-box attacks against machine learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "papernot2017practical"
+    },
+    {
+      "year": "2017",
+      "booktitle": "5th International Conference on Learning Representations, {ICLR} 2017, Toulon, France, April 24-26, 2017, Conference Track Proceedings",
+      "title": "Semi-supervised Knowledge Transfer for Deep Learning from Private Training Data",
+      "author": "Nicolas Papernot and Mart{\\'{\\i}}n Abadi and {\\'{U}}lfar Erlingsson and Ian J. Goodfellow and Kunal Talwar",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "papernot2017semi"
+    },
+    {
+      "year": "2018",
+      "booktitle": "6th International Conference on Learning Representations, {ICLR} 2018, Vancouver, BC, Canada, April 30 - May 3, 2018, Conference Track Proceedings",
+      "title": "Scalable Private Learning with {PATE}",
+      "author": "Nicolas Papernot and Shuang Song and Ilya Mironov and Ananth Raghunathan and Kunal Talwar and {\\'{U}}lfar Erlingsson",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "papernot2018scalable"
+    },
+    {
+      "timestamp": "Tue, 01 Feb 2022 14:59:01 +0100",
+      "eprint": "2201.11692",
+      "eprinttype": "arXiv",
+      "url": "https://arxiv.org/abs/2201.11692",
+      "year": "2022",
+      "volume": "abs/2201.11692",
+      "journal": "CoRR",
+      "title": "SSLGuard: {A} Watermarking Scheme for Self-supervised Learning Pre-trained\nEncoders",
+      "author": "Tianshuo Cong and\nXinlei He and\nYang Zhang",
+      "ENTRYTYPE": "article",
+      "ID": "SSLguard"
+    },
+    {
+      "url": "http://jmlr.org/papers/v14/cai13a.html",
+      "pages": "1837-1864",
+      "number": "21",
+      "volume": "14",
+      "year": "2013",
+      "journal": "Journal of Machine Learning Research",
+      "title": "Distributions of Angles in Random Packing on Spheres",
+      "author": "Tony Cai and Jianqing Fan and Tiefeng Jiang",
+      "ENTRYTYPE": "article",
+      "ID": "RandomAngles2013"
+    },
+    {
+      "year": "2022",
+      "publisher": "arXiv",
+      "title": "Can't Steal? Cont-Steal! Contrastive Stealing Attacks Against Image Encoders",
+      "author": "Sha, Zeyang and He, Xinlei and Yu, Ning and Backes, Michael and Zhang, Yang",
+      "url": "https://arxiv.org/abs/2201.07513",
+      "ENTRYTYPE": "article",
+      "ID": "ContSteal"
+    },
+    {
+      "series": "CCS '21",
+      "booktitle": "Proceedings of the 2021 ACM SIGSAC Conference on Computer and Communications Security",
+      "url": "https://doi.org/10.1145/3460120.3484749",
+      "address": "New York, NY, USA",
+      "publisher": "Association for Computing Machinery",
+      "isbn": "9781450384544",
+      "year": "2021",
+      "title": "EncoderMI: Membership Inference against Pre-Trained Encoders in Contrastive Learning",
+      "author": "Liu, Hongbin and Jia, Jinyuan and Qu, Wenjie and Gong, Neil Zhenqiang",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "liu2021encodermi"
+    },
+    {
+      "year": "2019",
+      "volume": "32",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Carmon, Yair and Raghunathan, Aditi and Schmidt, Ludwig and Duchi, John C and Liang, Percy S",
+      "title": "Unlabeled data improves adversarial robustness",
+      "ENTRYTYPE": "article",
+      "ID": "carmon2019unlabeled"
+    },
+    {
+      "journal": "Probl. Peredachi Inf.",
+      "url": "http://www.mathnet.ru/links/5e0609d41b53e39bccea1f8711152ecd/ppi797.pdf",
+      "pages": "9--16",
+      "issue": "2",
+      "volume": "23",
+      "year": "1987",
+      "title": "Sample Estimate of the Entropy of a~Random Vector",
+      "author": "Kozachenko, L. F. and Leonenko, N. N.",
+      "ENTRYTYPE": "article",
+      "ID": "KozLeo87"
+    },
+    {
+      "url": "https://proceedings.mlr.press/v108/mcallester20a.html",
+      "pdf": "http://proceedings.mlr.press/v108/mcallester20a/mcallester20a.pdf",
+      "publisher": "PMLR",
+      "month": "26--28 Aug",
+      "series": "Proceedings of Machine Learning Research",
+      "volume": "108",
+      "editor": "Chiappa, Silvia and Calandra, Roberto",
+      "year": "2020",
+      "pages": "875--884",
+      "booktitle": "Proceedings of the Twenty Third International Conference on Artificial Intelligence and Statistics",
+      "author": "McAllester, David and Stratos, Karl",
+      "title": "Formal Limitations on the Measurement of Mutual Information",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "mcallester2020mutualinformation"
+    },
+    {
+      "url": "https://openreview.net/forum?id=_kwj6V53ZqB",
+      "year": "2021",
+      "editor": "A. Beygelzimer and Y. Dauphin and P. Liang and J. Wortman Vaughan",
+      "booktitle": "Advances in Neural Information Processing Systems",
+      "author": "Frances Ding and Jean-Stanislas Denain and Jacob Steinhardt",
+      "title": "Grounding Representation Similarity Through Statistical Testing",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ding2021grounding"
+    },
+    {
+      "year": "2019",
+      "journal": "arXiv preprint arXiv:1909.10351",
+      "author": "Jiao, Xiaoqi and Yin, Yichun and Shang, Lifeng and Jiang, Xin and Chen, Xiao and Li, Linlin and Wang, Fang and Liu, Qun",
+      "title": "Tinybert: Distilling bert for natural language understanding",
+      "ENTRYTYPE": "article",
+      "ID": "jiao2019tinybert"
+    },
+    {
+      "year": "2019",
+      "journal": "arXiv preprint arXiv:1910.12366",
+      "author": "Krishna, Kalpesh and Tomar, Gaurav Singh and Parikh, Ankur P and Papernot, Nicolas and Iyyer, Mohit",
+      "title": "Thieves on sesame street! model extraction of bert-based apis",
+      "ENTRYTYPE": "article",
+      "ID": "krishna2019thieves"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2021",
+      "pages": "12278--12286",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Zanella-Beguelin, Santiago and Tople, Shruti and Paverd, Andrew and K{\\\"o}pf, Boris",
+      "title": "Grey-box extraction of natural language models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zanella2021grey"
+    },
+    {
+      "year": "2015",
+      "number": "7",
+      "volume": "2",
+      "journal": "arXiv preprint arXiv:1503.02531",
+      "author": "Hinton, Geoffrey and Vinyals, Oriol and Dean, Jeff and others",
+      "title": "Distilling the knowledge in a neural network",
+      "ENTRYTYPE": "article",
+      "ID": "hinton2015distilling"
+    },
+    {
+      "pages": "1703--1714",
+      "url": "https://www.aclweb.org/anthology/2020.acl-main.156",
+      "publisher": "Association for Computational Linguistics",
+      "address": "Online",
+      "year": "2020",
+      "month": "July",
+      "booktitle": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+      "author": "Ortiz Su{'a}rez, Pedro Javier  and\nRomary, Laurent  and\nSagot, Benoit",
+      "title": "A Monolingual Approach to Contextualized Word Embeddings for Mid-Resource Languages",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "oscardataset"
+    },
+    {
+      "year": "2019",
+      "note": "In the Proceedings of ICLR.",
+      "author": "Wang, Alex and Singh, Amanpreet and Michael, Julian and Hill, Felix and Levy, Omer and Bowman, Samuel R.",
+      "title": "{GLUE}: A Multi-Task Benchmark and Analysis Platform for Natural Language Understanding",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "wang2019glue"
+    },
+    {
+      "year": "2015",
+      "month": "December",
+      "booktitle": "The IEEE International Conference on Computer Vision (ICCV)",
+      "author": "Zhu, Yukun and Kiros, Ryan and Zemel, Rich and Salakhutdinov, Ruslan and Urtasun, Raquel and Torralba, Antonio and Fidler, Sanja",
+      "title": "Aligning Books and Movies: Towards Story-Like Visual Explanations by Watching Movies and Reading Books",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "Zhu_2015_ICCV"
+    },
+    {
+      "primaryclass": "cs.LG",
+      "archiveprefix": "arXiv",
+      "eprint": "1905.06922",
+      "year": "2019",
+      "author": "Ben Poole and Sherjil Ozair and Aaron van den Oord and Alexander A. Alemi and George Tucker",
+      "title": "On Variational Bounds of Mutual Information",
+      "ENTRYTYPE": "misc",
+      "ID": "poole2019variational"
+    },
+    {
+      "copyright": "arXiv.org perpetual, non-exclusive license",
+      "year": "2021",
+      "publisher": "arXiv",
+      "title": "Decomposed Mutual Information Estimation for Contrastive Representation Learning",
+      "keywords": "Machine Learning (cs.LG), Artificial Intelligence (cs.AI), FOS: Computer and information sciences, FOS: Computer and information sciences",
+      "author": "Sordoni, Alessandro and Dziri, Nouha and Schulz, Hannes and Gordon, Geoff and Bachman, Phil and Tachet, Remi",
+      "url": "https://arxiv.org/abs/2106.13401",
+      "doi": "10.48550/ARXIV.2106.13401",
+      "ENTRYTYPE": "misc",
+      "ID": "micontrastive"
+    },
+    {
+      "copyright": "arXiv.org perpetual, non-exclusive license",
+      "year": "2019",
+      "publisher": "arXiv",
+      "title": "Similarity of Neural Network Representations Revisited",
+      "keywords": "Machine Learning (cs.LG), Neurons and Cognition (q-bio.NC), Machine Learning (stat.ML), FOS: Computer and information sciences, FOS: Computer and information sciences, FOS: Biological sciences, FOS: Biological sciences",
+      "author": "Kornblith, Simon and Norouzi, Mohammad and Lee, Honglak and Hinton, Geoffrey",
+      "url": "https://arxiv.org/abs/1905.00414",
+      "doi": "10.48550/ARXIV.1905.00414",
+      "ENTRYTYPE": "misc",
+      "ID": "similaritynn"
+    },
+    {
+      "primaryclass": "stat.ML",
+      "archiveprefix": "arXiv",
+      "eprint": "1806.05759",
+      "year": "2018",
+      "author": "Ari S. Morcos and Maithra Raghu and Samy Bengio",
+      "title": "Insights on representational similarity in neural networks with canonical correlation",
+      "ENTRYTYPE": "misc",
+      "ID": "morcos2018insights"
+    },
+    {
+      "eprint": "https://academic.oup.com/bioinformatics/article-pdf/36/4/1234/32527770/btz682.pdf",
+      "url": "https://doi.org/10.1093/bioinformatics/btz682",
+      "doi": "10.1093/bioinformatics/btz682",
+      "issn": "1367-4803",
+      "month": "09",
+      "year": "2019",
+      "pages": "1234-1240",
+      "number": "4",
+      "volume": "36",
+      "journal": "Bioinformatics",
+      "title": "{BioBERT: a pre-trained biomedical language representation model for biomedical text mining}",
+      "author": "Lee, Jinhyuk and Yoon, Wonjin and Kim, Sungdong and Kim, Donghyeon and Kim, Sunkyu and So, Chan Ho and Kang, Jaewoo",
+      "ENTRYTYPE": "article",
+      "ID": "bertbio2019"
+    },
+    {
+      "year": "2007",
+      "pages": "877--882",
+      "volume": "7",
+      "booktitle": "IJCAI",
+      "author": "Kapoor, Ashish and Horvitz, Eric and Basu, Sumit",
+      "title": "Selective Supervision: Guiding Supervised Learning with Decision-Theoretic Active Learning.",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "kapoor2007selective"
+    },
+    {
+      "doi": "10.3390/technologies9010002",
+      "issn": "2227-7080",
+      "url": "https://www.mdpi.com/2227-7080/9/1/2",
+      "article-number": "2",
+      "number": "1",
+      "year": "2021",
+      "volume": "9",
+      "journal": "Technologies",
+      "title": "A Survey on Contrastive Self-Supervised Learning",
+      "author": "Jaiswal, Ashish and Babu, Ashwin Ramesh and Zadeh, Mohammad Zaki and Banerjee, Debapriya and Makedon, Fillia",
+      "ENTRYTYPE": "article",
+      "ID": "ssl-survey2021"
+    },
+    {
+      "bibsource": "dblp computer science bibliography, https://dblp.org",
+      "biburl": "https://dblp.org/rec/journals/corr/abs-2004-08900.bib",
+      "timestamp": "Wed, 22 Apr 2020 12:57:53 +0200",
+      "eprint": "2004.08900",
+      "eprinttype": "arXiv",
+      "url": "https://arxiv.org/abs/2004.08900",
+      "year": "2020",
+      "volume": "abs/2004.08900",
+      "journal": "CoRR",
+      "title": "The Cost of Training {NLP} Models: {A} Concise Overview",
+      "author": "Or Sharir and\nBarak Peleg and\nYoav Shoham",
+      "ENTRYTYPE": "article",
+      "ID": "bertTrainCost"
+    },
+    {
+      "series": "CCS '21",
+      "location": "Virtual Event, Republic of Korea",
+      "keywords": "contrastive learning, privacy-preserving machine learning, membership inference attacks, attribute inference attacks",
+      "numpages": "19",
+      "pages": "845–863",
+      "booktitle": "Proceedings of the 2021 ACM SIGSAC Conference on Computer and Communications Security",
+      "doi": "10.1145/3460120.3484571",
+      "url": "https://doi.org/10.1145/3460120.3484571",
+      "address": "New York, NY, USA",
+      "publisher": "Association for Computing Machinery",
+      "isbn": "9781450384544",
+      "year": "2021",
+      "title": "Quantifying and Mitigating Privacy Risks of Contrastive Learning",
+      "author": "He, Xinlei and Zhang, Yang",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "membershipInferenceSSL2021"
+    },
+    {
+      "year": "2022",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Dziedzic, Adam and Dhawan, Nikita and Kaleem, Muhammad Ahmad and Guan, Jonas and Papernot, Nicolas",
+      "title": "On the Difficulty of Defending Self-Supervised Learning against Model Extraction",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "SSLextraction"
+    },
+    {
+      "url": "https://openreview.net/forum?id=tYRrOdSnVUy",
+      "year": "2022",
+      "booktitle": "International Conference on Learning Representations",
+      "author": "Lixu Wang and Shichao Xu and Ruiqi Xu and Xiao Wang and Qi Zhu",
+      "title": "Non-Transferable Learning: A New Approach for Model Ownership Verification and Applicability Authorization",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "wang2022nontransferable"
+    },
+    {
+      "pages": "353--355",
+      "doi": "10.18653/v1/W18-5446",
+      "url": "https://aclanthology.org/W18-5446",
+      "publisher": "Association for Computational Linguistics",
+      "address": "Brussels, Belgium",
+      "year": "2018",
+      "month": "November",
+      "booktitle": "Proceedings of the 2018 {EMNLP} Workshop {B}lackbox{NLP}: Analyzing and Interpreting Neural Networks for {NLP}",
+      "author": "Wang, Alex  and\nSingh, Amanpreet  and\nMichael, Julian  and\nHill, Felix  and\nLevy, Omer  and\nBowman, Samuel",
+      "title": "{GLUE}: A Multi-Task Benchmark and Analysis Platform for Natural Language Understanding",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "wang-etal-2018-glue"
+    },
+    {
+      "year": "2016",
+      "note": "\\url{http://www.deeplearningbook.org}",
+      "publisher": "MIT Press",
+      "author": "Ian Goodfellow and Yoshua Bengio and Aaron Courville",
+      "title": "Deep Learning",
+      "ENTRYTYPE": "book",
+      "ID": "Goodfellow-et-al-2016"
+    },
+    {
+      "journal": "Frontiers in Big Data",
+      "title": "A Systematic Review on Model Watermarking for Neural Networks",
+      "author": "Franziska Boenisch",
+      "volume": "4",
+      "publisher": "Frontiers Media {SA}",
+      "month": "nov",
+      "year": "2021",
+      "doi": "10.3389/fdata.2021.729663",
+      "ENTRYTYPE": "article",
+      "ID": "watermarks2021"
+    },
+    {
+      "organization": "Ieee",
+      "year": "2009",
+      "pages": "248--255",
+      "booktitle": "2009 IEEE conference on computer vision and pattern recognition",
+      "author": "Deng, Jia and Dong, Wei and Socher, Richard and Li, Li-Jia and Li, Kai and Fei-Fei, Li",
+      "title": "Imagenet: A large-scale hierarchical image database",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "deng2009imagenet"
+    },
+    {
+      "booktitle": "NIPS Workshop on Deep Learning and Unsupervised Feature Learning 2011",
+      "url": "http://ufldl.stanford.edu/housenumbers/nips2011_housenumbers.pdf",
+      "year": "2011",
+      "author": "Yuval Netzer and Tao Wang and Adam Coates and Alessandro Bissacco and Bo Wu and Andrew Y. Ng",
+      "title": "Reading Digits in Natural Images with Unsupervised Feature Learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "svhn"
+    },
+    {
+      "note": "\\url{https://cs.stanford.edu/~acoates/papers/coatesleeng_aistats_2011.pdf} ",
+      "year": "2011",
+      "booktitle": "AISTATS",
+      "author": "Coates, Adam and Ng, Andrew and Lee, Honglak",
+      "title": " {An Analysis of Single Layer Networks in Unsupervised Feature Learning} ",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "coates2011stl10"
+    },
+    {
+      "year": "2009",
+      "institution": "",
+      "title": "Learning multiple layers of features from tiny images",
+      "author": "Alex Krizhevsky",
+      "ENTRYTYPE": "techreport",
+      "ID": "Krizhevsky09learningmultiple"
+    },
+    {
+      "year": "2021",
+      "pages": "321--335",
+      "booktitle": "Proceedings of the 2021 ACM Asia Conference on Computer and Communications Security",
+      "author": "Chen, Xinyun and Wang, Wenxiao and Bender, Chris and Ding, Yiming and Jia, Ruoxi and Li, Bo and Song, Dawn",
+      "title": "Refit: a unified watermark removal framework for deep learning systems with limited data",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "chen2021refit"
+    },
+    {
+      "year": "2021",
+      "pages": "177--188",
+      "booktitle": "Proceedings of the 2021 ACM Workshop on Information Hiding and Multimedia Security",
+      "author": "Shafieinejad, Masoumeh and Lukas, Nils and Wang, Jiaqi and Li, Xinda and Kerschbaum, Florian",
+      "title": "On the robustness of backdoor-based watermarking in deep neural networks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "shafieinejad2021robustness"
+    },
+    {
+      "organization": "IEEE",
+      "year": "2019",
+      "pages": "707--723",
+      "booktitle": "2019 IEEE Symposium on Security and Privacy (SP)",
+      "author": "Wang, Bolun and Yao, Yuanshun and Shan, Shawn and Li, Huiying and Viswanath, Bimal and Zheng, Haitao and Zhao, Ben Y",
+      "title": "Neural cleanse: Identifying and mitigating backdoor attacks in neural networks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "wang2019neural"
+    },
+    {
+      "address": "USA",
+      "publisher": "Wiley-Interscience",
+      "isbn": "0471241954",
+      "year": "2006",
+      "title": "Elements of Information Theory (Wiley Series in Telecommunications and Signal Processing)",
+      "author": "Cover, Thomas M. and Thomas, Joy A.",
+      "ENTRYTYPE": "book",
+      "ID": "CoverBook"
+    },
+    {
+      "copyright": "arXiv.org perpetual, non-exclusive license",
+      "year": "2018",
+      "publisher": "arXiv",
+      "title": "Exploring Weight Symmetry in Deep Neural Networks",
+      "keywords": "Machine Learning (cs.LG), Machine Learning (stat.ML), FOS: Computer and information sciences, FOS: Computer and information sciences",
+      "author": "Hu, Xu Shell and Zagoruyko, Sergey and Komodakis, Nikos",
+      "url": "https://arxiv.org/abs/1812.11027",
+      "doi": "10.48550/ARXIV.1812.11027",
+      "ENTRYTYPE": "misc",
+      "ID": "weightsymmetry"
+    },
+    {
+      "copyright": "arXiv.org perpetual, non-exclusive license",
+      "year": "2019",
+      "publisher": "arXiv",
+      "title": "Learning Representations by Maximizing Mutual Information Across Views",
+      "keywords": "Machine Learning (cs.LG), Machine Learning (stat.ML), FOS: Computer and information sciences, FOS: Computer and information sciences",
+      "author": "Bachman, Philip and Hjelm, R Devon and Buchwalter, William",
+      "url": "https://arxiv.org/abs/1906.00910",
+      "doi": "10.48550/ARXIV.1906.00910",
+      "ENTRYTYPE": "misc",
+      "ID": "mutualmax"
+    },
+    {
+      "year": "2021",
+      "volume": "34",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "HaoChen, Jeff Z and Wei, Colin and Gaidon, Adrien and Ma, Tengyu",
+      "title": "Provable guarantees for self-supervised deep learning with spectral contrastive loss",
+      "ENTRYTYPE": "article",
+      "ID": "haochen2021provable"
+    },
+    {
+      "pages": "9629-9639",
+      "year": "2021",
+      "month": "October",
+      "booktitle": "Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)",
+      "title": "Concept Generalization in Visual Representation Learning",
+      "author": "Sariyildiz, Mert Bulent and Kalantidis, Yannis and Larlus, Diane and Alahari, Karteek",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "concept_generalization_2021_ICCV"
+    },
+    {
+      "pages": "9949-9959",
+      "year": "2021",
+      "month": "October",
+      "booktitle": "Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)",
+      "title": "Contrasting Contrastive Self-Supervised Representation Learning Pipelines",
+      "author": "Kotar, Klemen and Ilharco, Gabriel and Schmidt, Ludwig and Ehsani, Kiana and Mottaghi, Roozbeh",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "Kotar_2021_ICCV"
+    },
+    {
+      "year": "2017",
+      "volume": "30",
+      "journal": "Advances in neural information processing systems",
+      "author": "Vaswani, Ashish and Shazeer, Noam and Parmar, Niki and Uszkoreit, Jakob and Jones, Llion and Gomez, Aidan N and Kaiser, {\\L}ukasz and Polosukhin, Illia",
+      "title": "Attention is all you need",
+      "ENTRYTYPE": "article",
+      "ID": "vaswani2017attention"
+    },
+    {
+      "doi": "10.1109/COMSWA.2008.4554423",
+      "isbn": "978-1-4244-1796-4",
+      "title": "DWT-DCT-SVD based watermarking",
+      "pages": "271 - 274",
+      "month": "02",
+      "year": "2008",
+      "author": "Navas, K.A. and Ajay, Mathews and Lekshmi, M. and Archana, Tampy and Sasikumar, M.",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "dwt-dct-svd_navs_2008"
+    },
+    {
+      "year": "2023",
+      "volume": "36",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2023/file/b54d1757c190ba20dbc4f9e4a2f54149-Paper-Conference.pdf",
+      "title": "Tree-Rings Watermarks: Invisible Fingerprints for Diffusion Images",
+      "publisher": "Curran Associates, Inc.",
+      "pages": "58047--58063",
+      "editor": "A. Oh and T. Naumann and A. Globerson and K. Saenko and M. Hardt and S. Levine",
+      "booktitle": "Advances in Neural Information Processing Systems",
+      "author": "Wen, Yuxin and Kirchenbauer, John and Geiping, Jonas and Goldstein, Tom",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "wen2023watermarkDMs_tree"
+    },
+    {
+      "pages": "22466-22477",
+      "year": "2023",
+      "month": "October",
+      "booktitle": "Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)",
+      "title": "The Stable Signature: Rooting Watermarks in Latent Diffusion Models",
+      "author": "Fernandez, Pierre and Couairon, Guillaume and J\\'egou, Herv\\'e and Douze, Matthijs and Furon, Teddy",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "Fernandez_2023_ICCV"
+    },
+    {
+      "url": "https://openreview.net/forum?id=jlhBFm7T2J",
+      "year": "2025",
+      "booktitle": "The Thirteenth International Conference on Learning Representations",
+      "author": "Sam Gunn and Xuandong Zhao and Dawn Song",
+      "title": "An Undetectable Watermark for Generative Image Models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "gunn2025an"
+    },
+    {
+      "url": "https://arxiv.org/abs/2411.00776",
+      "primaryclass": "cs.CV",
+      "archiveprefix": "arXiv",
+      "eprint": "2411.00776",
+      "year": "2024",
+      "author": "Qihang Yu and Ju He and Xueqing Deng and Xiaohui Shen and Liang-Chieh Chen",
+      "title": "Randomized Autoregressive Visual Generation",
+      "ENTRYTYPE": "misc",
+      "ID": "yu2024randomizedautoregressivevisualgeneration"
+    },
+    {
+      "year": "2022",
+      "booktitle": "IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Rombach, Robin and Blattmann, Andreas and Lorenz, Dominik and Esser, Patrick and Ommer, Bj{\\\"o}rn",
+      "title": "High-resolution image synthesis with latent diffusion models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "rombach2022high"
+    },
+    {
+      "url": "https://openreview.net/forum?id=mDKxlfraAn",
+      "year": "2025",
+      "booktitle": "The Thirteenth International Conference on Learning Representations",
+      "author": "Yepeng Liu and Yiren Song and Hai Ci and Yu Zhang and Haofan Wang and Mike Zheng Shou and Yuheng Bu",
+      "title": "Image Watermarks are Removable using Controllable Regeneration from Clean Noise",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "liu2025image_ctrlregen"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2307.01952",
+      "author": "Podell, Dustin and English, Zion and Lacey, Kyle and Blattmann, Andreas and Dockhorn, Tim and M{\\\"u}ller, Jonas and Penna, Joe and Rombach, Robin",
+      "title": "Sdxl: Improving latent diffusion models for high-resolution image synthesis",
+      "ENTRYTYPE": "article",
+      "ID": "podell2023sdxl"
+    },
+    {
+      "year": "2024",
+      "booktitle": "Forty-first International Conference on Machine Learning",
+      "author": "Wouters, Bram",
+      "title": "Optimizing Watermarks for Large Language Models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "wouters2024optimizingwatermarksICML"
+    },
+    {
+      "url": "https://openreview.net/forum?id=SsmT8aO45L",
+      "year": "2024",
+      "booktitle": "The Twelfth International Conference on Learning Representations",
+      "author": "Xuandong Zhao and Prabhanjan Vijendra Ananth and Lei Li and Yu-Xiang Wang",
+      "title": "Provable Robust Watermarking for {AI}-Generated Text",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zhao2024provableRobustWatermark"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2408.10446",
+      "author": "Barman, Niyar R and Sharma, Krish and Aziz, Ashhar and Bajpai, Shashwat and Biswas, Shwetangshu and Sharma, Vasu and Jain, Vinija and Chadha, Aman and Sheth, Amit and Das, Amitava",
+      "title": "The Brittleness of AI-Generated Image Watermarking Techniques: Examining Their Robustness Against Visual Paraphrasing Attacks",
+      "ENTRYTYPE": "article",
+      "ID": "barman2024brittlenessImageParaphrase"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2024",
+      "pages": "22570--22593",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Jovanovi{\\'c}, Nikola and Staab, Robin and Vechev, Martin",
+      "title": "Watermark Stealing in Large Language Models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "jovanovic2024watermark"
+    },
+    {
+      "primaryclass": "cs.CV",
+      "archiveprefix": "arXiv",
+      "eprint": "2303.10137",
+      "year": "2023",
+      "author": "Yunqing Zhao and Tianyu Pang and Chao Du and Xiao Yang and Ngai-Man Cheung and Min Lin",
+      "title": "A Recipe for Watermarking Diffusion Models",
+      "ENTRYTYPE": "misc",
+      "ID": "zhao2023recipe"
+    },
+    {
+      "year": "2024",
+      "booktitle": "Forty-first International Conference on Machine Learning",
+      "author": "Zhang, Hanlin and Edelman, Benjamin L and Francati, Danilo and Venturi, Daniele and Ateniese, Giuseppe and Barak, Boaz",
+      "title": "Watermarks in the sand: impossibility of strong watermarking for language models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zhang2024watermarks"
+    },
+    {
+      "year": "2024",
+      "booktitle": "Forty-first international conference on machine learning",
+      "author": "Esser, Patrick and Kulal, Sumith and Blattmann, Andreas and Entezari, Rahim and M{\\\"u}ller, Jonas and Saini, Harry and Levi, Yam and Lorenz, Dominik and Sauer, Axel and Boesel, Frederic and others",
+      "title": "Scaling rectified flow transformers for high-resolution image synthesis",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "esser2024scaling"
+    },
+    {
+      "year": "2022",
+      "pages": "36479--36494",
+      "volume": "35",
+      "journal": "Advances in neural information processing systems",
+      "author": "Saharia, Chitwan and Chan, William and Saxena, Saurabh and Li, Lala and Whang, Jay and Denton, Emily L and Ghasemipour, Kamyar and Gontijo Lopes, Raphael and Karagol Ayan, Burcu and Salimans, Tim and others",
+      "title": "Photorealistic text-to-image diffusion models with deep language understanding",
+      "ENTRYTYPE": "article",
+      "ID": "saharia2022photorealisticImagen"
+    },
+    {
+      "year": "2022",
+      "journal": "arXiv preprint arXiv:2204.06125",
+      "author": "Ramesh, Aditya and Dhariwal, Prafulla and Nichol, Alex and Chu, Casey and Chen, Mark",
+      "title": "Hierarchical Text-Conditional Image Generation with CLIP Latents",
+      "ENTRYTYPE": "article",
+      "ID": "ramesh2022hierarchicalDALLE2"
+    },
+    {
+      "year": "2022",
+      "pages": "25278--25294",
+      "volume": "35",
+      "journal": "Advances in neural information processing systems",
+      "author": "Schuhmann, Christoph and Beaumont, Romain and Vencu, Richard and Gordon, Cade and Wightman, Ross and Cherti, Mehdi and Coombes, Theo and Katta, Aarush and Mullis, Clayton and Wortsman, Mitchell and others",
+      "title": "Laion-5b: An open large-scale dataset for training next generation image-text models",
+      "ENTRYTYPE": "article",
+      "ID": "schuhmann2022laion"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2021",
+      "pages": "4904--4916",
+      "booktitle": "International conference on machine learning",
+      "author": "Jia, Chao and Yang, Yinfei and Xia, Ye and Chen, Yi-Ting and Parekh, Zarana and Pham, Hieu and Le, Quoc and Sung, Yun-Hsuan and Li, Zhen and Duerig, Tom",
+      "title": "Scaling up visual and vision-language representation learning with noisy text supervision",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "jia2021scaling"
+    },
+    {
+      "organization": "Pmlr",
+      "year": "2021",
+      "pages": "8821--8831",
+      "booktitle": "International conference on machine learning",
+      "author": "Ramesh, Aditya and Pavlov, Mikhail and Goh, Gabriel and Gray, Scott and Voss, Chelsea and Radford, Alec and Chen, Mark and Sutskever, Ilya",
+      "title": "Zero-shot text-to-image generation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ramesh2021zero"
+    },
+    {
+      "publisher": "Nature Publishing Group UK London",
+      "year": "2024",
+      "pages": "755--759",
+      "number": "8022",
+      "volume": "631",
+      "journal": "Nature",
+      "author": "Shumailov, Ilia and Shumaylov, Zakhar and Zhao, Yiren and Papernot, Nicolas and Anderson, Ross and Gal, Yarin",
+      "title": "AI models collapse when trained on recursively generated data",
+      "ENTRYTYPE": "article",
+      "ID": "shumailov2024ai"
+    },
+    {
+      "publisher": "Frontiers Media SA",
+      "year": "2021",
+      "pages": "729663",
+      "volume": "4",
+      "journal": "Frontiers in big Data",
+      "author": "Boenisch, Franziska",
+      "title": "A systematic review on model watermarking for neural networks",
+      "ENTRYTYPE": "article",
+      "ID": "boenisch2021systematic"
+    },
+    {
+      "url": "https://openreview.net/forum?id=qGiZQb1Khm",
+      "year": "2024",
+      "booktitle": "The Thirty-eighth Annual Conference on Neural Information Processing Systems",
+      "author": "Tom Sander and Pierre Fernandez and Alain Oliviero Durmus and Matthijs Douze and Teddy Furon",
+      "title": "Watermarking Makes Language Models Radioactive",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "sander2024watermarking_radioactive"
+    },
+    {
+      "url": "https://openreview.net/forum?id=ShjMHfmPs0",
+      "year": "2024",
+      "booktitle": "The Twelfth International Conference on Learning Representations",
+      "author": "Sina Alemohammad and Josue Casco-Rodriguez and Lorenzo Luzi and Ahmed Imtiaz Humayun and Hossein Babaei and Daniel LeJeune and Ali Siahkoohi and Richard Baraniuk",
+      "title": "Self-Consuming Generative Models Go {MAD}",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "alemohammad2024selfconsuming"
+    },
+    {
+      "year": "2024",
+      "pages": "2113--2147",
+      "booktitle": "Proceedings of the 2024 ACM Conference on Fairness, Accountability, and Transparency",
+      "author": "Wyllie, Sierra and Shumailov, Ilia and Papernot, Nicolas",
+      "title": "Fairness feedback loops: training on synthetic data amplifies bias",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "wyllie2024fairness"
+    },
+    {
+      "url": "https://openreview.net/forum?id=gtXbVRMwQh",
+      "year": "2025",
+      "booktitle": "The 1st Workshop on GenAI Watermarking",
+      "author": "Jan Dubi{\\'n}ski and Michel Meintz and Franziska Boenisch and Adam Dziedzic",
+      "title": "Are Watermarks For Diffusion Models Radioactive?",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "dubinski2025are"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2020",
+      "pages": "8326--8335",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Sablayrolles, Alexandre and Douze, Matthijs and Schmid, Cordelia and J{\\'e}gou, Herv{\\'e}",
+      "title": "Radioactive data: tracing through training",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "sablayrolles2020radioactive"
+    },
+    {
+      "url": "https://openreview.net/forum?id=dLoAdIKENc",
+      "year": "2024",
+      "booktitle": "The Twelfth International Conference on Learning Representations",
+      "author": "Mehrdad Saberi and Vinu Sankar Sadasivan and Keivan Rezaei and Aounon Kumar and Atoosa Chegini and Wenxiao Wang and Soheil Feizi",
+      "title": "Robustness of {AI}-Image Detectors: Fundamental Limits and Practical Attacks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "saberi2024robustness"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2024",
+      "pages": "1456--1492",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "An, Bang and Ding, Mucong and Rabbani, Tahseen and Agrawal, Aakriti and Xu, Yuancheng and Deng, Chenghao and Zhu, Sicheng and Mohamed, Abdirisak and Wen, Yuxin and Goldstein, Tom and others",
+      "title": "WAVES: Benchmarking the Robustness of Image Watermarks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "an2024waves"
+    },
+    {
+      "url": "https://openreview.net/forum?id=eiqrnVaeIw",
+      "year": "2025",
+      "booktitle": "The Thirteenth International Conference on Learning Representations",
+      "author": "Yiming Zhang and Javier Rando and Ivan Evtimov and Jianfeng Chi and Eric Michael Smith and Nicholas Carlini and Florian Tram{\\`e}r and Daphne Ippolito",
+      "title": "Persistent Pre-training Poisoning of {LLM}s",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zhang2025persistent"
+    },
+    {
+      "year": "2020",
+      "journal": "arXiv preprint arXiv:2007.06709",
+      "author": "Maji, Subhadip and Bose, Smarajit",
+      "title": "Deep image orientation angle detection",
+      "ENTRYTYPE": "article",
+      "ID": "maji2020deep"
+    },
+    {
+      "year": "2024",
+      "pages": "1813--1830",
+      "booktitle": "33rd USENIX Security Symposium (USENIX Security 24)",
+      "author": "Zhang, Ruisi and Hussain, Shehzeen Samarah and Neekhara, Paarth and Koushanfar, Farinaz",
+      "title": "REMARK-LLM: A robust and efficient watermarking framework for generative large language models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zhang2024remark"
+    },
+    {
+      "publisher": "Nature Publishing Group UK London",
+      "year": "2024",
+      "pages": "818--823",
+      "number": "8035",
+      "volume": "634",
+      "journal": "Nature",
+      "author": "Dathathri, Sumanth and See, Abigail and Ghaisas, Sumedh and Huang, Po-Sen and McAdam, Rob and Welbl, Johannes and Bachani, Vandana and Kaskasoli, Alex and Stanforth, Robert and Matejovicova, Tatiana and others",
+      "title": "Scalable watermarking for identifying large language model outputs",
+      "ENTRYTYPE": "article",
+      "ID": "dathathri2024scalable"
+    },
+    {
+      "year": "2024",
+      "pages": "21079--21113",
+      "volume": "37",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Sander, Tom and Fernandez, Pierre and Durmus, Alain and Douze, Matthijs and Furon, Teddy",
+      "title": "Watermarking makes language models radioactive",
+      "ENTRYTYPE": "article",
+      "ID": "sander2024watermarking"
+    },
+    {
+      "year": "2023",
+      "pages": "3368--3378",
+      "booktitle": "Findings of the Association for Computational Linguistics: EMNLP 2023",
+      "author": "Li, Linyang and Jiang, Botian and Wang, Pengyu and Ren, Ke and Yan, Hang and Qiu, Xipeng",
+      "title": "Watermarking LLMs with Weight Quantization",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "li2023watermarking"
+    },
+    {
+      "url": "https://openreview.net/forum?id=ujpAYpFDEA",
+      "year": "2025",
+      "booktitle": "The Thirteenth International Conference on Learning Representations",
+      "author": "Aiwei Liu and Sheng Guan and Yiming Liu and Leyi Pan and Yifei Zhang and Liancheng Fang and Lijie Wen and Philip S. Yu and Xuming Hu",
+      "title": "Can Watermarked {LLM}s be Identified by Users via Crafted Prompts?",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "liu2025can"
+    },
+    {
+      "publisher": "JSTOR",
+      "year": "1947",
+      "pages": "50--60",
+      "journal": "The annals of mathematical statistics",
+      "author": "Mann, Henry B and Whitney, Donald R",
+      "title": "On a test of whether one of two random variables is stochastically larger than the other",
+      "ENTRYTYPE": "article",
+      "ID": "mann1947test"
+    }
+  ]
+}

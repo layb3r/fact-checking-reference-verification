@@ -1,0 +1,643 @@
+{
+  "pdf_url": "https://arxiv.org/pdf/2506.04723v2.pdf",
+  "references": [
+    {
+      "year": "2022",
+      "pages": "27730--27744",
+      "volume": "35",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Ouyang, Long and Wu, Jeffrey and Jiang, Xu and Almeida, Diogo and Wainwright, Carroll and Mishkin, Pamela and Zhang, Chong and Agarwal, Sandhini and Slama, Katarina and Ray, Alex and Schulman, John and Hilton, Jacob and Kelton, Fraser and Miller, Luke and Simens, Maddie and Askell, Amanda and Welinder, Peter and Christiano, Paul and Leike, Jan and Lowe, Ryan",
+      "title": "Training language models to follow instructions with human feedback",
+      "ENTRYTYPE": "article",
+      "ID": "Ouyang2022InstructGPT"
+    },
+    {
+      "note": "arXiv:2305.18290",
+      "year": "2023",
+      "booktitle": "Proc. NeurIPS",
+      "author": "Rafailov, Rafael and Sharma, Archit and Mitchell, Eric and Ermon, Stefano and Manning, Christopher D. and Finn, Chelsea",
+      "title": "Direct Preference Optimization: Your Language Model is Secretly a Reward Model",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "Rafailov2023DPO"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2501.12948",
+      "author": "Liang, Wenfeng and DeepSeek-AI and Guo, Daya and Yang, Dejian and Zhang, Haowei and Song, Junxiao \\textit{et al.}",
+      "title": "DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning",
+      "ENTRYTYPE": "article",
+      "ID": "Liang2025DeepSeek"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2504.20571",
+      "author": "Wang, Yiping and Yang, Qing and Zeng, Zhiyuan and Ren, Liliang and Liu, Lucas and Peng, Baolin and Cheng, Hao and He, Xuehai and Wang, Kuan and Gao, Jianfeng and Chen, Weizhu and Wang, Shuohang and Du, Simon S. and Shen, Yelong",
+      "title": "Reinforcement Learning for Reasoning in Large Language Models with One Training Example",
+      "ENTRYTYPE": "article",
+      "ID": "Wang2025OneExampleRL"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2504.13837",
+      "author": "Yue, Yang and Chen, Zhiqi and Lu, Rui and Zhao, Andrew and Wang, Zhaokai and Song, Shiji and Huang, Gao",
+      "title": "Does Reinforcement Learning Really Incentivize Reasoning Capacity in LLMs Beyond the Base Model?",
+      "ENTRYTYPE": "article",
+      "ID": "Yue2025LimitRL"
+    },
+    {
+      "year": "2022",
+      "pages": "24827--24837",
+      "volume": "35",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Wei, Jason and Wang, Xuezhi and Schuurmans, Dale and Bosma, Maarten and Ichter, Brian \\textit{et al.}",
+      "title": "Chain-of-Thought Prompting Elicits Reasoning in Large Language Models",
+      "ENTRYTYPE": "article",
+      "ID": "Wei2022CoT"
+    },
+    {
+      "note": "arXiv:2210.03629",
+      "year": "2023",
+      "booktitle": "Proc. ICLR",
+      "author": "Yao, Shunyu and Zhao, Jeffrey and Yu, Dian and Du, Nan and Shafran, Izhak and Narasimhan, Karthik and Cao, Yuan",
+      "title": "ReAct: Synergizing reasoning and acting in language models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "Yao2023ReAct"
+    },
+    {
+      "year": "2023",
+      "booktitle": "Proc. ACL",
+      "author": "Wang, Lei and Xu, Wanyu and Lan, Yihuai and Hu, Zhiqiang and Lan, Yunshi and Lee, Roy Ka-Wei and Lim, Ee-Peng",
+      "title": "Plan-and-Solve Prompting: Improving Zero-Shot Chain-of-Thought Reasoning by Large Language Models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "Wang2023PlanSolve"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2310.15511",
+      "author": "Stechly, Kaya and Valmeekam, Karthik and Kambhampati, Subbarao",
+      "title": "Chain of Thoughtlessness? An Analysis of CoT in Planning",
+      "ENTRYTYPE": "article",
+      "ID": "Stechly2024CoTless"
+    },
+    {
+      "note": "arXiv:2402.14897",
+      "year": "2024",
+      "volume": "accepted",
+      "journal": "Transactions on Machine Learning Research (TMLR)",
+      "author": "Bentham, Oliver and Stringham, Nathan and Marasovic, Ana",
+      "title": "Chain-of-Thought Unfaithfulness as Disguised Accuracy",
+      "ENTRYTYPE": "article",
+      "ID": "Bentham2024UnfaithfulCoT"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2409.12183",
+      "author": "Sprague, Zayne and Yin, Fangcong and Rodriguez, Juan Diego and Jiang, Dongwei and others",
+      "title": "To CoT or not to CoT? Chain-of-thought helps mainly on math and symbolic reasoning",
+      "ENTRYTYPE": "article",
+      "ID": "Sprague2024CoTMeta"
+    },
+    {
+      "year": "2021",
+      "journal": "arXiv preprint arXiv:2110.14168",
+      "author": "Cobbe, Karl and Kosaraju, Vineet and Bavarian, Mohit and Chen, Mark and Jun, Heewoo and Kaiser, Lukasz and Plappert, Matthias and Tworek, Jerry and Hilton, Jacob and Nakano, Reiichiro and Hesse, Christopher and Schulman, John",
+      "title": "Training verifiers to solve math word problems",
+      "ENTRYTYPE": "article",
+      "ID": "Cobbe2021GSM8K"
+    },
+    {
+      "year": "2021",
+      "booktitle": "Proc. NeurIPS",
+      "author": "Hendrycks, Dan and Burns, Collin and Kadavath, Saurav and Arora, Akul and Basart, Steven and Zou, Andy and Mazeika, Mantas and Song, Dawn and Steinhardt, Jacob",
+      "title": "Measuring Mathematical Problem Solving With the MATH Dataset",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "Hendrycks2021MATH"
+    },
+    {
+      "year": "2022",
+      "booktitle": "Proc. NeurIPS",
+      "author": "Lewkowycz, Aitor and Andreassen, Anders and Dohan, David and Dyer, Ethan and Michalewski, Henryk and Ramasesh, Vinay and Slone, Ambrose and Anil, Cem and Schlag, Imanol and Gutman, Theo and Wu, Yuhuai and Neyshabur, Behnam and Gur-Ari, Guy and Misra, Vedant",
+      "title": "Solving Quantitative Reasoning Problems with Language Models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "Lewkowycz2022Minerva"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2308.09583",
+      "author": "Luo, Haipeng and Sun, Qingfeng and Xu, Can and Zhao, Pu and Lou, Jianguang and Tao, Chongyang and Geng, Xiubo and Lin, Qingwei and Chen, Shifeng and Tang, Yansong and Zhang, Dongmei",
+      "title": "WizardMath: Empowering Mathematical Reasoning for Large Language Models via Reinforced Evol-Instruct",
+      "ENTRYTYPE": "article",
+      "ID": "Luo2024WizardMath"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2501.12948",
+      "author": "Guo, Daya and Yang, Dejian and Zhang, Haowei and Song, Junxiao and Zhang, Ruoyu and Xu, Runxin and Zhu, Qihao and Ma, Shirong and Wang, Peiyi and Bi, Xiao and others",
+      "title": "Deepseek-r1: Incentivizing reasoning capability in llms via reinforcement learning",
+      "ENTRYTYPE": "article",
+      "ID": "guo2025deepseek"
+    },
+    {
+      "url": "https://openreview.net/forum?id=IPZ28ZqD4I",
+      "year": "2024",
+      "booktitle": "First Conference on Language Modeling",
+      "author": "Evelyn Yee and Alice Li and Chenyu Tang and Yeon Ho Jung and Ramamohan Paturi and Leon Bergen",
+      "title": "Faithful and Unfaithful Error Recovery in Chain of Thought",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "yee2024faithful"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2501.17161",
+      "author": "Chu, Tianzhe and Zhai, Yuexiang and Yang, Jihan and Tong, Shengbang and Xie, Saining and Schuurmans, Dale and Le, Quoc V. and Levine, Sergey and Ma, Yi",
+      "title": "SFT Memorizes, RL Generalizes: A Comparative Study of Foundation Model Post-training",
+      "ENTRYTYPE": "article",
+      "ID": "chu2025sftmemorizesrlgeneralizes"
+    },
+    {
+      "url": "https://arxiv.org/abs/2502.03373",
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2502.03373",
+      "author": "Yeo, Edward and Tong, Yuxuan and Niu, Morry and Neubig, Graham and Yue, Xiang",
+      "title": "Demystifying Long Chain-of-Thought Reasoning in LLMs",
+      "ENTRYTYPE": "article",
+      "ID": "yeo2025demystifyinglongchainofthoughtreasoning"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2402.14008",
+      "author": "He, Chaoqun and Luo, Renjie and Bai, Yuzhuo and Hu, Shengding and Thai, Zhen Leng and Shen, Junhao and Hu, Jinyi and Han, Xu and Huang, Yujie and Zhang, Yuxiang and others",
+      "title": "Olympiadbench: A challenging benchmark for promoting agi with olympiad-level bilingual multimodal scientific problems",
+      "ENTRYTYPE": "article",
+      "ID": "he2024olympiadbench"
+    },
+    {
+      "year": "2021",
+      "journal": "arXiv preprint arXiv:2103.03874",
+      "author": "Hendrycks, Dan and Burns, Collin and Kadavath, Saurav and Arora, Akul and Basart, Steven and Tang, Eric and Song, Dawn and Steinhardt, Jacob",
+      "title": "Measuring mathematical problem solving with the math dataset",
+      "ENTRYTYPE": "article",
+      "ID": "hendrycks2021measuring"
+    },
+    {
+      "url": "https://openreview.net/forum?id=3Pf3Wg6o-A4",
+      "year": "2023",
+      "booktitle": "The Eleventh International Conference on Learning Representations ",
+      "author": "Antonia Creswell and Murray Shanahan and Irina Higgins",
+      "title": "Selection-Inference: Exploiting Large Language Models for Interpretable Logical Reasoning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "creswell2023selectioninference"
+    },
+    {
+      "note": "Notion Blog",
+      "howpublished": "\\url{https://pretty-radio-b75.notion.site/DeepScaleR-Surpassing-O1-Preview-with-a-1-5B-Model-by-Scaling-RL-19681902c1468005bed8ca303013a4e2}",
+      "year": "2025",
+      "author": "Michael Luo and Sijun Tan and Justin Wong and Xiaoxiang Shi and William Y. Tang and Manan Roongta and Colin Cai and Jeffrey Luo and Li Erran Li and Raluca Ada Popa and Ion Stoica",
+      "title": "DeepScaleR: Surpassing O1-Preview with a 1.5B Model by Scaling RL",
+      "ENTRYTYPE": "misc",
+      "ID": "deepscaler2025"
+    },
+    {
+      "note": "RUCAIBox/Slow\\_Thinking\\_with\\_LLMs",
+      "howpublished": "\\url{https://github.com/RUCAIBox/Slow_Thinking_with_LLMs}",
+      "journal": "GitHub Repository",
+      "publisher": "GitHub",
+      "year": "2025",
+      "title": "Slow Thinking with LLMs: A series of technical report on Slow Thinking with LLM",
+      "author": "Still Team",
+      "ENTRYTYPE": "misc",
+      "ID": "SlowThinkingLLMs2025"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2410.07985",
+      "author": "Gao, Bofei and Song, Feifan and Yang, Zhe and Cai, Zefan and Miao, Yibo and Dong, Qingxiu and Li, Lei and Ma, Chenghao and Chen, Liang and Xu, Runxin and others",
+      "title": "Omni-math: A universal olympiad level mathematic benchmark for large language models",
+      "ENTRYTYPE": "article",
+      "ID": "gao2024omni"
+    },
+    {
+      "howpublished": "\\url{[https://huggingface.co/AI-MO/NuminaMath-CoT](https://github.com/project-numina/aimo-progress-prize/blob/main/report/numina_dataset.pdf)}",
+      "journal": "Hugging Face repository",
+      "publisher": "Numina",
+      "year": "2024",
+      "title": "NuminaMath",
+      "author": "Jia LI and Edward Beeching and Lewis Tunstall and Ben Lipkin and Roman Soletskyi and Shengyi Costa Huang and Kashif Rasul and Longhui Yu and Albert Jiang and Ziju Shen and Zihan Qin and Bin Dong and Li Zhou and Yann Fleureau and Guillaume Lample and Stanislas Polu",
+      "ENTRYTYPE": "misc",
+      "ID": "numina_math_datasets"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2402.03300",
+      "author": "Shao, Zhihong and Wang, Peiyi and Zhu, Qihao and Xu, Runxin and Song, Junxiao and Bi, Xiao and Zhang, Haowei and Zhang, Mingchuan and Li, YK and Wu, Y and others",
+      "title": "Deepseekmath: Pushing the limits of mathematical reasoning in open language models",
+      "ENTRYTYPE": "article",
+      "ID": "shao2024deepseekmath"
+    },
+    {
+      "year": "2017",
+      "journal": "arXiv preprint arXiv:1707.06347",
+      "author": "Schulman, John and Wolski, Filip and Dhariwal, Prafulla and Radford, Alec and Klimov, Oleg",
+      "title": "Proximal policy optimization algorithms",
+      "ENTRYTYPE": "article",
+      "ID": "schulman2017proximal"
+    },
+    {
+      "urldate": "2025-05-14",
+      "publisher": "Anthropic",
+      "url": "https://www.anthropic.com/claude/sonnet",
+      "month": "February",
+      "year": "2025",
+      "author": "Anthropic",
+      "title": "Claude 3.7 Sonnet",
+      "ENTRYTYPE": "misc",
+      "ID": "Anthropic2025Claude"
+    },
+    {
+      "urldate": "2025-05-14",
+      "publisher": "xAI",
+      "url": "https://x.ai/news/grok-3",
+      "day": "17",
+      "month": "February",
+      "year": "2025",
+      "author": "{xAI}",
+      "title": "Grok 3 Beta — The Age of Reasoning Agents",
+      "ENTRYTYPE": "misc",
+      "ID": "xAI2025Grok3"
+    },
+    {
+      "author": "Everitt, Tom and Krakovna, Victoria and Orseau, Laurent and Legg, Shane",
+      "title": "Reinforcement Learning with a Corrupted Reward Channel",
+      "ENTRYTYPE": "article",
+      "ID": "everittreinforcement"
+    },
+    {
+      "publisher": "Springer",
+      "year": "2021",
+      "pages": "6435--6467",
+      "number": "Suppl 27",
+      "volume": "198",
+      "journal": "Synthese",
+      "author": "Everitt, Tom and Hutter, Marcus and Kumar, Ramana and Krakovna, Victoria",
+      "title": "Reward tampering problems and solutions in reinforcement learning: A causal influence diagram perspective",
+      "ENTRYTYPE": "article",
+      "ID": "everitt2021reward"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2023",
+      "pages": "10835--10866",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Gao, Leo and Schulman, John and Hilton, Jacob",
+      "title": "Scaling laws for reward model overoptimization",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "gao2023scaling"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2503.21934",
+      "author": "Petrov, Ivo and Dekoninck, Jasper and Baltadzhiev, Lyuben and Drencheva, Maria and Minchev, Kristian and Balunovi{\\'c}, Mislav and Jovanovi{\\'c}, Nikola and Vechev, Martin",
+      "title": "Proof or bluff? evaluating llms on 2025 usa math olympiad",
+      "ENTRYTYPE": "article",
+      "ID": "petrov2025proof"
+    },
+    {
+      "urldate": "2025-05-14",
+      "publisher": "Mathematical Association of America",
+      "url": "https://maa.org/student-programs/amc/",
+      "year": "2025",
+      "author": "{Mathematical Association of America}",
+      "title": "American Mathematics Competitions",
+      "ENTRYTYPE": "misc",
+      "ID": "MAA2025AMC"
+    },
+    {
+      "urldate": "2025-05-14",
+      "note": "Information about the MAA invitational competitions including AIME, USAMO, and USAJMO that lead to the selection process for the USA International Mathematical Olympiad team",
+      "publisher": "Mathematical Association of America",
+      "url": "https://maa.org/maa-invitational-competitions/",
+      "year": "2025",
+      "author": "{Mathematical Association of America}",
+      "title": "MAA Invitational Competitions",
+      "ENTRYTYPE": "misc",
+      "ID": "MAA2025Invitational"
+    },
+    {
+      "year": "2023",
+      "pages": "11809--11822",
+      "volume": "36",
+      "journal": "Advances in neural information processing systems",
+      "author": "Yao, Shunyu and Yu, Dian and Zhao, Jeffrey and Shafran, Izhak and Griffiths, Tom and Cao, Yuan and Narasimhan, Karthik",
+      "title": "Tree of thoughts: Deliberate problem solving with large language models",
+      "ENTRYTYPE": "article",
+      "ID": "yao2023tree"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2503.14476",
+      "author": "Yu, Qiying and Zhang, Zheng and Zhu, Ruofei and Yuan, Yufeng and Zuo, Xiaochen and Yue, Yu and Fan, Tiantian and Liu, Gaohong and Liu, Lingjun and Liu, Xin and others",
+      "title": "Dapo: An open-source llm reinforcement learning system at scale",
+      "ENTRYTYPE": "article",
+      "ID": "yu2025dapo"
+    },
+    {
+      "year": "2020",
+      "pages": "1--50",
+      "number": "181",
+      "volume": "21",
+      "journal": "Journal of Machine Learning Research",
+      "author": "Narvekar, Sanmit and Peng, Bei and Leonetti, Matteo and Sinapov, Jivko and Taylor, Matthew E and Stone, Peter",
+      "title": "Curriculum learning for reinforcement learning domains: A framework and survey",
+      "ENTRYTYPE": "article",
+      "ID": "narvekar2020curriculum"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2502.14768",
+      "author": "Xie, Tian and Gao, Zitian and Ren, Qingnan and Luo, Haoming and Hong, Yuqian and Dai, Bryan and Zhou, Joey and Qiu, Kai and Wu, Zhirong and Luo, Chong",
+      "title": "Logic-rl: Unleashing llm reasoning with rule-based reinforcement learning",
+      "ENTRYTYPE": "article",
+      "ID": "xie2025logic"
+    },
+    {
+      "publisher": "PMLR",
+      "month": "17--23 Jul",
+      "series": "Proceedings of Machine Learning Research",
+      "volume": "162",
+      "year": "2022",
+      "pages": "11341--11358",
+      "booktitle": "Proceedings of the 39th International Conference on Machine Learning",
+      "author": "Klink, Pascal and Yang, Haoyi and D'Eramo, Carlo and Peters, Jan and Pajarinen, Joni",
+      "title": "Curriculum Reinforcement Learning via Constrained Optimal Transport",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "pmlr-v162-klink22a"
+    },
+    {
+      "year": "2020",
+      "pages": "13022--13033",
+      "volume": "33",
+      "booktitle": "Advances in Neural Information Processing Systems",
+      "author": "Zhang, Yunzhi and Abbeel, Pieter and Pinto, Lerrel",
+      "title": "Automatic Curriculum Learning through Value Disagreement",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zhang2020automatic"
+    },
+    {
+      "year": "2024",
+      "pages": "5295–-5306",
+      "booktitle": "Proceedings of the 30th ACM SIGKDD Conference on Knowledge Discovery and Data Mining",
+      "title": "AutoWebGLM: A Large Language Model-based Web Navigating Agent",
+      "author": "Lai, Hanyu and Liu, Xiao and Iong, Iat Long and Yao, Shuntian and Chen, Yuxuan and Shen, Pengbo and Yu, Hao and Zhang, Hanchen and Zhang, Xiaohan and Dong, Yuxiao and Tang, Jie",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "lai2024autowebglm"
+    },
+    {
+      "pages": "4552--4572",
+      "publisher": "Association for Computational Linguistics",
+      "year": "2024",
+      "month": "November",
+      "booktitle": "Findings of the Association for Computational Linguistics: EMNLP 2024",
+      "author": "Hu, Shujie  and\nZhou, Long  and\nLiu, Shujie  and\nChen, Sanyuan  and\nMeng, Lingwei  and\nHao, Hongkun  and\nPan, Jing  and\nLiu, Xunying  and\nLi, Jinyu  and\nSivasankaran, Sunit  and\nLiu, Linquan  and\nWei, Furu",
+      "title": "{W}av{LLM}: Towards Robust and Adaptive Speech Large Language Model",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "hu-etal-2024-wavllm"
+    },
+    {
+      "doi": "10.1145/1553374.1553380",
+      "publisher": "ACM",
+      "year": "2009",
+      "pages": "41--48",
+      "booktitle": "Proceedings of the 26th Annual International Conference on Machine Learning",
+      "author": "Bengio, Yoshua and Louradour, Jérôme and Collobert, Ronan and Weston, Jason",
+      "title": "Curriculum Learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "bengio2009curriculum"
+    },
+    {
+      "url": "https://openreview.net/forum?id=SkT5Yg-RZ",
+      "year": "2018",
+      "booktitle": "International Conference on Learning Representations",
+      "author": "Sainbayar Sukhbaatar and Zeming Lin and Ilya Kostrikov and Gabriel Synnaeve and Arthur Szlam and Rob Fergus",
+      "title": "Intrinsic Motivation and Automatic Curricula via Asymmetric Self-Play",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "sukhbaatar2018intrinsic"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2504.11343",
+      "author": "Xiong, Wei and Yao, Jiarui and Xu, Yuhui and Pang, Bo and Wang, Lei and Sahoo, Doyen and Li, Junnan and Jiang, Nan and Zhang, Tong and Xiong, Caiming and others",
+      "title": "A minimalist approach to llm reasoning: from rejection sampling to reinforce",
+      "ENTRYTYPE": "article",
+      "ID": "xiong2025minimalist"
+    },
+    {
+      "url": "https://openreview.net/forum?id=Lmjgl2n11u",
+      "year": "2024",
+      "booktitle": "First Conference on Language Modeling",
+      "author": "Philipp Mondorf and Barbara Plank",
+      "title": "Beyond Accuracy: Evaluating the Reasoning Behavior of Large Language Models - A Survey",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "mondorf2024beyond"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2504.09037",
+      "author": "Ke, Zixuan and Jiao, Fangkai and Ming, Yifei and Nguyen, Xuan-Phi and Xu, Austin and Long, Do Xuan and Li, Minzhi and Qin, Chengwei and Wang, Peifeng and Savarese, Silvio and others",
+      "title": "A Survey of Frontiers in LLM Reasoning: Inference Scaling, Learning to Reason, and Agentic Systems",
+      "ENTRYTYPE": "article",
+      "ID": "ke2025survey"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2412.14135",
+      "author": "Zeng, Zhiyuan and Cheng, Qinyuan and Yin, Zhangyue and Wang, Bo and Li, Shimin and Zhou, Yunhua and Guo, Qipeng and Huang, Xuanjing and Qiu, Xipeng",
+      "title": "Scaling of search and learning: A roadmap to reproduce o1 from reinforcement learning perspective",
+      "ENTRYTYPE": "article",
+      "ID": "zeng2024scaling"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2501.09686",
+      "author": "Xu, Fengli and Hao, Qianyue and Zong, Zefang and Wang, Jingwei and Zhang, Yunke and Wang, Jingyi and Lan, Xiaochong and Gong, Jiahui and Ouyang, Tianjian and Meng, Fanjin and others",
+      "title": "Towards Large Reasoning Models: A Survey of Reinforced Reasoning with Large Language Models",
+      "ENTRYTYPE": "article",
+      "ID": "xu2025towards"
+    },
+    {
+      "journal": "arXiv preprint arXiv: 2409.19256",
+      "year": "2024",
+      "author": "Guangming Sheng and Chi Zhang and Zilingfeng Ye and Xibin Wu and Wang Zhang and Ru Zhang and Yanghua Peng and Haibin Lin and Chuan Wu",
+      "title": "HybridFlow: A Flexible and Efficient RLHF Framework",
+      "ENTRYTYPE": "article",
+      "ID": "sheng2024hybridflow"
+    },
+    {
+      "url": "https://zenodo.org/records/12608602",
+      "doi": "10.5281/zenodo.12608602",
+      "version": "v0.4.3",
+      "publisher": "Zenodo",
+      "year": "2024",
+      "month": "07",
+      "title": "A framework for few-shot language model evaluation",
+      "author": "Gao, Leo and Tow, Jonathan and Abbasi, Baber and Biderman, Stella and Black, Sid and DiPofi, Anthony and Foster, Charles and Golding, Laurence and Hsu, Jeffrey and Le Noac'h, Alain and Li, Haonan and McDonell, Kyle and Muennighoff, Niklas and Ociepa, Chris and Phang, Jason and Reynolds, Laria and Schoelkopf, Hailey and Skowron, Aviya and Sutawika, Lintang and Tang, Eric and Thite, Anish and Wang, Ben and Wang, Kevin and Zou, Andy",
+      "ENTRYTYPE": "misc",
+      "ID": "eval-harness"
+    },
+    {
+      "url": "https://arxiv.org/abs/2503.18892",
+      "primaryclass": "cs.LG",
+      "archiveprefix": "arXiv",
+      "eprint": "2503.18892",
+      "year": "2025",
+      "author": "Weihao Zeng and Yuzhen Huang and Qian Liu and Wei Liu and Keqing He and Zejun Ma and Junxian He",
+      "title": "SimpleRL-Zoo: Investigating and Taming Zero Reinforcement Learning for Open Base Models in the Wild",
+      "ENTRYTYPE": "misc",
+      "ID": "zeng2025simplerlzooinvestigatingtamingzero"
+    },
+    {
+      "note": "Accessed: 2025-09-03",
+      "howpublished": "\\url{https://artofproblemsolving.com/wiki/index.php/AoPS_Wiki:Competition_ratings}",
+      "title": "AoPS Wiki: Competition ratings",
+      "ENTRYTYPE": "misc",
+      "ID": "aops2025competitionratings"
+    },
+    {
+      "url": "https://openreview.net/forum?id=SlsZZ25InC",
+      "year": "2025",
+      "issn": "2835-8856",
+      "journal": "Transactions on Machine Learning Research",
+      "author": "Zixuan Ke and Fangkai Jiao and Yifei Ming and Xuan-Phi Nguyen and Austin Xu and Do Xuan Long and Minzhi Li and Chengwei Qin and PeiFeng Wang and silvio savarese and Caiming Xiong and Shafiq Joty",
+      "title": "A Survey of Frontiers in {LLM} Reasoning: Inference Scaling, Learning to Reason, and Agentic Systems",
+      "ENTRYTYPE": "article",
+      "ID": "ke2025a"
+    },
+    {
+      "isbn": "0-13-4454030",
+      "pages": "xiv + 920",
+      "address": "Englewood Cliffs, NJ",
+      "publisher": "Prentice-Hall",
+      "year": "1972",
+      "title": "Human Problem Solving",
+      "author": "Allen Newell and Herbert A. Simon",
+      "ENTRYTYPE": "book",
+      "ID": "NewellSimon1972"
+    },
+    {
+      "address": "Cambridge, MA",
+      "publisher": "Harvard University Press",
+      "year": "1972",
+      "title": "Psychology of Reasoning: Structure and Content",
+      "author": "Peter Cathcart Wason and Philip N. Johnson-Laird",
+      "ENTRYTYPE": "book",
+      "ID": "WasonJohnsonLaird1972"
+    },
+    {
+      "publisher": "Psychology Press",
+      "year": "2012",
+      "title": "Thinking and Reasoning: An Introduction to the Psychology of Reason, Judgment and Decision Making",
+      "author": "K. I. Manktelow",
+      "ENTRYTYPE": "book",
+      "ID": "Manktelow2012"
+    },
+    {
+      "publisher": "Elsevier",
+      "journal": "Procedia – Social and Behavioral Sciences",
+      "year": "2015",
+      "title": "Theory of Problem Solving",
+      "author": "Jiří Dostál",
+      "ENTRYTYPE": "article",
+      "ID": "Dostal2015"
+    },
+    {
+      "publisher": "Association for Computational Linguistics",
+      "pages": "1049--1065",
+      "month": "Jul",
+      "year": "2023",
+      "booktitle": "Findings of the Association for Computational Linguistics: ACL 2023",
+      "author": "Huang, Jie and Chang, Kevin Chen-Chuan",
+      "title": "Towards Reasoning in Large Language Models: A Survey",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "huang-chang-2023-towards"
+    },
+    {
+      "pages": "4995--5027",
+      "year": "2024",
+      "month": "November",
+      "booktitle": "Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing",
+      "author": "Ko, Miyoung  and\nPark, Sue Hyun  and\nPark, Joonsuk  and\nSeo, Minjoon",
+      "title": "Hierarchical Deconstruction of {LLM} Reasoning: A Graph-Based Framework for Analyzing Knowledge Utilization",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ko-etal-2024-hierarchical"
+    },
+    {
+      "pages": "4958--4981",
+      "year": "2024",
+      "month": "August",
+      "booktitle": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics",
+      "author": "Wang, Jianing  and\nSun, Qiushi  and\nLi, Xiang  and\nGao, Ming",
+      "title": "Boosting Language Models Reasoning with Chain-of-Knowledge Prompting",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "wang-etal-2024-boosting-language"
+    },
+    {
+      "url": "https://arxiv.org/abs/2312.10997",
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2312.10997",
+      "author": "Yunfan Gao and Yun Xiong and Xinyu Gao and Kangxiang Jia and Jinliu Pan and Yuxi Bi and Yi Dai and Jiawei Sun and Meng Wang and Haofen Wang",
+      "title": "Retrieval-Augmented Generation for Large Language Models: A Survey",
+      "ENTRYTYPE": "article",
+      "ID": "gao2024rag"
+    },
+    {
+      "pages": "183--198",
+      "year": "2020",
+      "volume": "8",
+      "journal": "Transactions of the Association for Computational Linguistics",
+      "author": "Wolfson, Tomer  and\nGeva, Mor  and\nGupta, Ankit  and\nGardner, Matt  and\nGoldberg, Yoav  and\nDeutch, Daniel  and\nBerant, Jonathan",
+      "title": "Break It Down: A Question Understanding Benchmark",
+      "ENTRYTYPE": "article",
+      "ID": "wolfson-etal-2020-break"
+    },
+    {
+      "url": "https://openreview.net/forum?id=WZH7099tgfM",
+      "year": "2023",
+      "booktitle": "The Eleventh International Conference on Learning Representations ",
+      "author": "Denny Zhou and Nathanael Sch{\\\"a}rli and Le Hou and Jason Wei and Nathan Scales and Xuezhi Wang and Dale Schuurmans and Claire Cui and Olivier Bousquet and Quoc V Le and Ed H. Chi",
+      "title": "Least-to-Most Prompting Enables Complex Reasoning in Large Language Models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zhou2023leasttomost"
+    },
+    {
+      "pages": "1251--1265",
+      "publisher": "Association for Computational Linguistics",
+      "year": "2022",
+      "month": "December",
+      "booktitle": "Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing",
+      "author": "Dua, Dheeru  and\nGupta, Shivanshu  and\nSingh, Sameer  and\nGardner, Matt",
+      "title": "Successive Prompting for Decomposing Complex Questions",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "dua-etal-2022-successive"
+    },
+    {
+      "url": "https://openreview.net/forum?id=_nGgzQjzaRy",
+      "year": "2023",
+      "booktitle": "The Eleventh International Conference on Learning Representations ",
+      "author": "Tushar Khot and Harsh Trivedi and Matthew Finlayson and Yao Fu and Kyle Richardson and Peter Clark and Ashish Sabharwal",
+      "title": "Decomposed Prompting: A Modular Approach for Solving Complex Tasks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "khot2023decomposed"
+    },
+    {
+      "pages": "19497--19521",
+      "url": "https://aclanthology.org/2025.acl-long.958/",
+      "publisher": "Association for Computational Linguistics",
+      "year": "2025",
+      "month": "July",
+      "booktitle": "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics",
+      "author": "Wei, Hui  and\nZhang, Zihao  and\nHe, Shenghua  and\nXia, Tian  and\nPan, Shijia  and\nLiu, Fei",
+      "title": "{P}lan{G}en{LLM}s: A Modern Survey of {LLM} Planning Capabilities",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "wei-etal-2025-plangenllms"
+    }
+  ]
+}

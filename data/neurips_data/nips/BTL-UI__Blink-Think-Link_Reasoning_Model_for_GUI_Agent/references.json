@@ -1,0 +1,383 @@
+{
+  "pdf_url": "https://arxiv.org/pdf/2509.15566v4.pdf",
+  "references": [
+    {
+      "note": "Accessed: 2025-01-03",
+      "url": "https://openai.com/index/hello-gpt-4o/",
+      "year": "2024",
+      "title": "GPT-4o",
+      "author": "OpenAI",
+      "ENTRYTYPE": "misc",
+      "ID": "openai2024hello"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2502.13923",
+      "author": "Bai, Shuai and Chen, Keqin and Liu, Xuejing and Wang, Jialin and Ge, Wenbin and Song, Sibo and Dang, Kai and Wang, Peng and Wang, Shijie and Tang, Jun and others",
+      "title": "Qwen2.5-VL technical report",
+      "ENTRYTYPE": "article",
+      "ID": "bai2025qwen2"
+    },
+    {
+      "year": "2025",
+      "booktitle": "International Conference on Learning Representations",
+      "author": "Wu, Zhiyong and Wu, Zhenyu and Xu, Fangzhi and Wang, Yian and Sun, Qiushi and Jia, Chengyou and Cheng, Kanzhi and Ding, Zichen and Chen, Liheng and Liang, Paul Pu and others",
+      "title": "OS-ATLAS: A Foundation Action Model for Generalist GUI Agents",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "wu2024atlas"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2503.21620",
+      "author": "Lu, Zhengxi and Chai, Yuxiang and Guo, Yaxuan and Yin, Xi and Liu, Liang and Wang, Hao and Xiong, Guanjing and Li, Hongsheng",
+      "title": "Ui-r1: Enhancing action prediction of gui agents by reinforcement learning",
+      "ENTRYTYPE": "article",
+      "ID": "lu2025ui"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2504.10458",
+      "author": "Xia, Xiaobo and Luo, Run",
+      "title": "GUI-R1: A Generalist R1-Style Vision-Language Action Model For GUI Agents",
+      "ENTRYTYPE": "article",
+      "ID": "xia2025gui"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2504.14239",
+      "author": "Liu, Yuhang and Li, Pengxiang and Xie, Congkai and Hu, Xavier and Han, Xiaotian and Zhang, Shengyu and Yang, Hongxia and Wu, Fei",
+      "title": "InfiGUI-R1: Advancing Multimodal GUI Agents from Reactive Actors to Deliberative Reasoners",
+      "ENTRYTYPE": "article",
+      "ID": "liu2025infigui"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2409.12191",
+      "author": "Wang, Peng and Bai, Shuai and Tan, Sinan and Wang, Shijie and Fan, Zhihao and Bai, Jinze and Chen, Keqin and Liu, Xuejing and Wang, Jialin and Ge, Wenbin and others",
+      "title": "Qwen2-VL: Enhancing vision-language model's perception of the world at any resolution",
+      "ENTRYTYPE": "article",
+      "ID": "wang2024qwen2"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2410.05243",
+      "author": "Gou, Boyu and Wang, Ruohan and Zheng, Boyuan and Xie, Yanan and Chang, Cheng and Shu, Yiheng and Sun, Huan and Su, Yu",
+      "title": "Navigating the digital world as humans do: Universal visual grounding for gui agents",
+      "ENTRYTYPE": "article",
+      "ID": "gou2024navigating"
+    },
+    {
+      "year": "2024",
+      "pages": "14281--14290",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Hong, Wenyi and Wang, Weihan and Lv, Qingsong and Xu, Jiazheng and Yu, Wenmeng and Ji, Junhui and Wang, Yan and Wang, Zihan and Dong, Yuxiao and Ding, Ming and others",
+      "title": "CogAgent: A visual language model for gui agents",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "hong2024cogagent"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2401.10935",
+      "author": "Cheng, Kanzhi and Sun, Qiushi and Chu, Yougang and Xu, Fangzhi and Li, Yantao and Zhang, Jianbing and Wu, Zhiyong",
+      "title": "Seeclick: Harnessing gui grounding for advanced visual gui agents",
+      "ENTRYTYPE": "article",
+      "ID": "cheng2024seeclick"
+    },
+    {
+      "year": "2024",
+      "booktitle": "NeurIPS 2024 Workshop on Open-World Agents",
+      "author": "Lin, Kevin Qinghong and Li, Linjie and Gao, Difei and Yang, Zhengyuan and Bai, Zechen and Lei, Weixian and Wang, Lijuan and Shou, Mike Zheng",
+      "title": "Showui: One vision-language-action model for generalist gui agent",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "lin2024showui"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2412.04454",
+      "author": "Xu, Yiheng and Wang, Zekun and Wang, Junli and Lu, Dunjie and Xie, Tianbao and Saha, Amrita and Sahoo, Doyen and Yu, Tao and Xiong, Caiming",
+      "title": "Aguvis: Unified Pure Vision Agents for Autonomous GUI Interaction",
+      "ENTRYTYPE": "article",
+      "ID": "xu2024aguvis"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2406.08451",
+      "author": "Lu, Quanfeng and Shao, Wenqi and Liu, Zitao and Meng, Fanqing and Li, Boxuan and Chen, Botong and Huang, Siyuan and Zhang, Kaipeng and Qiao, Yu and Luo, Ping",
+      "title": "Gui odyssey: A comprehensive dataset for cross-app gui navigation on mobile devices",
+      "ENTRYTYPE": "article",
+      "ID": "lu2024gui"
+    },
+    {
+      "year": "2024",
+      "pages": "arXiv--2406",
+      "journal": "arXiv e-prints",
+      "author": "Li, Wei and Bishop, William and Li, Alice and Rawles, Chris and Campbell-Ajala, Folawiyo and Tyamagundlu, Divya and Riva, Oriana",
+      "title": "On the effects of data scale on computer control agents",
+      "ENTRYTYPE": "article",
+      "ID": "li2024effects"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2412.16256",
+      "author": "Yang, Yuhao and Wang, Yue and Li, Dongxu and Luo, Ziyang and Chen, Bei and Huang, Chao and Li, Junnan",
+      "title": "Aria-UI: Visual Grounding for GUI Instructions",
+      "ENTRYTYPE": "article",
+      "ID": "yang2024aria"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2504.07981",
+      "author": "Li, Kaixin and Meng, Ziyang and Lin, Hongzhan and Luo, Ziyang and Tian, Yuchen and Ma, Jing and Huang, Zhiyong and Chua, Tat-Seng",
+      "title": "Screenspot-pro: Gui grounding for professional high-resolution computer use",
+      "ENTRYTYPE": "article",
+      "ID": "li2025screenspot"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2411.04890",
+      "author": "Wang, Shuai and Liu, Weiwen and Chen, Jingxuan and Zhou, Yuqi and Gan, Weinan and Zeng, Xingshan and Che, Yuhan and Yu, Shuai and Hao, Xinlong and Shao, Kun and others",
+      "title": "Gui agents with foundation models: A comprehensive survey",
+      "ENTRYTYPE": "article",
+      "ID": "wang2024gui"
+    },
+    {
+      "publisher": "Preprints",
+      "year": "2024",
+      "author": "Hu, Xueyu and Xiong, Tao and Yi, Biao and Wei, Zishu and Xiao, Ruixuan and Chen, Yurun and Ye, Jiasheng and Tao, Meiling and Zhou, Xiangxin and Zhao, Ziyu and others",
+      "title": "Os agents: A survey on mllm-based agents for general computing devices use",
+      "ENTRYTYPE": "misc",
+      "ID": "hu2024agents"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2501.12326",
+      "author": "Qin, Yujia and Ye, Yining and Fang, Junjie and Wang, Haoming and Liang, Shihao and Tian, Shizuo and Zhang, Junda and Li, Jiahao and Li, Yunxin and Huang, Shijue and others",
+      "title": "UI-TARS: Pioneering Automated GUI Interaction with Native Agents",
+      "ENTRYTYPE": "article",
+      "ID": "qin2025ui"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2412.16720",
+      "author": "Jaech, Aaron and Kalai, Adam and Lerer, Adam and Richardson, Adam and El-Kishky, Ahmed and Low, Aiden and Helyar, Alec and Madry, Aleksander and Beutel, Alex and Carney, Alex and others",
+      "title": "Openai o1 system card",
+      "ENTRYTYPE": "article",
+      "ID": "jaech2024openai"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2501.12948",
+      "author": "Guo, Daya and Yang, Dejian and Zhang, Haowei and Song, Junxiao and Zhang, Ruoyu and Xu, Runxin and Zhu, Qihao and Ma, Shirong and Wang, Peiyi and Bi, Xiao and others",
+      "title": "Deepseek-r1: Incentivizing reasoning capability in llms via reinforcement learning",
+      "ENTRYTYPE": "article",
+      "ID": "guo2025deepseek"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2503.01785",
+      "author": "Liu, Ziyu and Sun, Zeyi and Zang, Yuhang and Dong, Xiaoyi and Cao, Yuhang and Duan, Haodong and Lin, Dahua and Wang, Jiaqi",
+      "title": "Visual-rft: Visual reinforcement fine-tuning",
+      "ENTRYTYPE": "article",
+      "ID": "liu2025visual"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "2000",
+      "pages": "6--14",
+      "number": "1",
+      "volume": "4",
+      "journal": "Trends in cognitive sciences",
+      "author": "Liversedge, Simon P and Findlay, John M",
+      "title": "Saccadic eye movements and cognition",
+      "ENTRYTYPE": "article",
+      "ID": "liversedge2000saccadic"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2503.18013",
+      "author": "Zhan, Yufei and Zhu, Yousong and Zheng, Shurong and Zhao, Hongyin and Yang, Fan and Tang, Ming and Wang, Jinqiao",
+      "title": "Vision-r1: Evolving human-free alignment in large vision-language models via vision-guided reinforcement learning",
+      "ENTRYTYPE": "article",
+      "ID": "zhan2025vision"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2412.19723",
+      "author": "Sun, Qiushi and Cheng, Kanzhi and Ding, Zichen and Jin, Chuanyang and Wang, Yian and Xu, Fangzhi and Wu, Zhenyu and Jia, Chengyou and Chen, Liheng and Liu, Zhoumianze and others",
+      "title": "OS-Genesis: Automating GUI Agent Trajectory Construction via Reverse Task Synthesis",
+      "ENTRYTYPE": "article",
+      "ID": "sun2024genesis"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2504.07615",
+      "author": "Shen, Haozhan and Liu, Peng and Li, Jingcheng and Fang, Chunxin and Ma, Yibo and Liao, Jiajia and Shen, Qiaoli and Zhang, Zilun and Zhao, Kangjia and Zhang, Qianqian and others",
+      "title": "Vlm-r1: A stable and generalizable r1-style large vision-language model",
+      "ENTRYTYPE": "article",
+      "ID": "shen2025vlm"
+    },
+    {
+      "url": "https://arxiv.org/abs/2408.00203",
+      "primaryclass": "cs.CV",
+      "archiveprefix": "arXiv",
+      "eprint": "2408.00203",
+      "year": "2024",
+      "author": "Yadong Lu and Jianwei Yang and Yelong Shen and Ahmed Awadallah",
+      "title": "OmniParser for Pure Vision Based GUI Agent",
+      "ENTRYTYPE": "misc",
+      "ID": "lu2024omniparserpurevisionbased"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2504.20464",
+      "author": "Li, Jiahao and Huang, Kaer",
+      "title": "A Summary on GUI Agents with Foundation Models Enhanced by Reinforcement Learning",
+      "ENTRYTYPE": "article",
+      "ID": "li2025summary"
+    },
+    {
+      "year": "2017",
+      "journal": "arXiv preprint arXiv:1707.06347",
+      "author": "Schulman, John and Wolski, Filip and Dhariwal, Prafulla and Radford, Alec and Klimov, Oleg",
+      "title": "Proximal policy optimization algorithms",
+      "ENTRYTYPE": "article",
+      "ID": "schulman2017proximal"
+    },
+    {
+      "publisher": "Elsevier",
+      "year": "2007",
+      "pages": "116--134",
+      "number": "1-2",
+      "volume": "108",
+      "journal": "Computer vision and image understanding",
+      "author": "Jaimes, Alejandro and Sebe, Nicu",
+      "title": "Multimodal human--computer interaction: A survey",
+      "ENTRYTYPE": "article",
+      "ID": "jaimes2007multimodal"
+    },
+    {
+      "publisher": "ACM New York, NY, USA",
+      "year": "1991",
+      "pages": "152--169",
+      "number": "2",
+      "volume": "9",
+      "journal": "ACM Transactions on Information Systems (TOIS)",
+      "author": "Jacob, Robert JK",
+      "title": "The use of eye movements in human-computer interaction techniques: what you look at is what you get",
+      "ENTRYTYPE": "article",
+      "ID": "jacob1991use"
+    },
+    {
+      "publisher": "Wiley Online Library",
+      "year": "1955",
+      "pages": "83--97",
+      "number": "1-2",
+      "volume": "2",
+      "journal": "Naval research logistics quarterly",
+      "author": "Kuhn, Harold W",
+      "title": "The Hungarian method for the assignment problem",
+      "ENTRYTYPE": "article",
+      "ID": "kuhn1955hungarian"
+    },
+    {
+      "url": "https://arxiv.org/abs/2408.05517",
+      "primaryclass": "cs.CL",
+      "archiveprefix": "arXiv",
+      "eprint": "2408.05517",
+      "year": "2024",
+      "author": "Yuze Zhao and Jintao Huang and Jinghan Hu and Xingjun Wang and Yunlin Mao and Daoze Zhang and Zeyinzi Jiang and Zhikai Wu and Baole Ai and Ang Wang and Wenmeng Zhou and Yingda Chen",
+      "title": "SWIFT:A Scalable lightWeight Infrastructure for Fine-Tuning",
+      "ENTRYTYPE": "misc",
+      "ID": "zhao2024swiftascalablelightweightinfrastructure"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2504.10479",
+      "author": "Zhu, Jinguo and Wang, Weiyun and Chen, Zhe and Liu, Zhaoyang and Ye, Shenglong and Gu, Lixin and Duan, Yuchen and Tian, Hao and Su, Weijie and Shao, Jie and others",
+      "title": "InternVL3: Exploring Advanced Training and Test-Time Recipes for Open-Source Multimodal Models",
+      "ENTRYTYPE": "article",
+      "ID": "zhu2025internvl3"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2412.13501",
+      "author": "Nguyen, Dang and Chen, Jian and Wang, Yu and Wu, Gang and Park, Namyong and Hu, Zhengmian and Lyu, Hanjia and Wu, Junda and Aponte, Ryan and Xia, Yu and others",
+      "title": "Gui agents: A survey",
+      "ENTRYTYPE": "article",
+      "ID": "nguyen2024gui"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2411.18279",
+      "author": "Zhang, Chaoyun and He, Shilin and Qian, Jiaxu and Li, Bowen and Li, Liqun and Qin, Si and Kang, Yu and Ma, Minghua and Liu, Guyue and Lin, Qingwei and others",
+      "title": "Large language model-brained gui agents: A survey",
+      "ENTRYTYPE": "article",
+      "ID": "zhang2024large"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2407.04346",
+      "author": "Nong, Songqin and Zhu, Jiali and Wu, Rui and Jin, Jiongchao and Shan, Shuo and Huang, Xiutian and Xu, Wenhao",
+      "title": "Mobileflow: A multimodal llm for mobile gui agent",
+      "ENTRYTYPE": "article",
+      "ID": "nong2024mobileflow"
+    },
+    {
+      "year": "2024",
+      "pages": "1--17",
+      "booktitle": "Proceedings of the 37th Annual ACM Symposium on User Interface Software and Technology",
+      "author": "Song, Yunpeng and Bian, Yiheng and Tang, Yongtao and Ma, Guiyu and Cai, Zhongmin",
+      "title": "Visiontasker: Mobile task automation using vision based ui understanding and llm task planning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "song2024visiontasker"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2412.09362",
+      "author": "Shen, Huawen and Liu, Chang and Li, Gengluo and Wang, Xinlong and Zhou, Yu and Ma, Can and Ji, Xiangyang",
+      "title": "Falcon-UI: Understanding GUI Before Following User Instructions",
+      "ENTRYTYPE": "article",
+      "ID": "shen2024falcon"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2503.06470",
+      "author": "Tang, Fei and Shen, Yongliang and Zhang, Hang and Chen, Siqi and Hou, Guiyang and Zhang, Wenqi and Zhang, Wenqiao and Song, Kaitao and Lu, Weiming and Zhuang, Yueting",
+      "title": "Think Twice, Click Once: Enhancing GUI Grounding via Fast and Slow Systems",
+      "ENTRYTYPE": "article",
+      "ID": "tang2025think"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2503.20752",
+      "author": "Tan, Huajie and Ji, Yuheng and Hao, Xiaoshuai and Lin, Minglan and Wang, Pengwei and Wang, Zhongyuan and Zhang, Shanghang",
+      "title": "Reason-rft: Reinforcement fine-tuning for visual reasoning",
+      "ENTRYTYPE": "article",
+      "ID": "tan2025reason"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2411.00820",
+      "author": "Liu, Xiao and Qin, Bo and Liang, Dongzhu and Dong, Guang and Lai, Hanyu and Zhang, Hanchen and Zhao, Hanlin and Iong, Iat Long and Sun, Jiadai and Wang, Jiaqi and others",
+      "title": "Autoglm: Autonomous foundation agents for guis",
+      "ENTRYTYPE": "article",
+      "ID": "liu2024autoglm"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2410.17883",
+      "author": "Christianos, Filippos and Papoudakis, Georgios and Coste, Thomas and Hao, Jianye and Wang, Jun and Shao, Kun",
+      "title": "Lightweight neural app control",
+      "ENTRYTYPE": "article",
+      "ID": "christianos2024lightweight"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2502.18906",
+      "author": "Zheng, Jiani and Wang, Lu and Yang, Fangkai and Zhang, Chaoyun and Mei, Lingrui and Yin, Wenjie and Lin, Qingwei and Zhang, Dongmei and Rajmohan, Saravan and Zhang, Qi",
+      "title": "Vem: Environment-free exploration for training gui agent with value environment model",
+      "ENTRYTYPE": "article",
+      "ID": "zheng2025vem"
+    }
+  ]
+}

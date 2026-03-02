@@ -1,0 +1,515 @@
+{
+  "pdf_url": "https://arxiv.org/pdf/2512.11458v1.pdf",
+  "references": [
+    {
+      "year": "2021",
+      "pages": "2427--2440",
+      "volume": "34",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Iwasawa, Yusuke and Matsuo, Yutaka",
+      "title": "Test-time classifier adjustment module for model-agnostic domain generalization",
+      "ENTRYTYPE": "article",
+      "ID": "iwasawa2021test"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2023",
+      "pages": "41647--41676",
+      "booktitle": "International conference on machine learning",
+      "author": "Zhang, Yifan and Wang, Xue and Jin, Kexin and Yuan, Kun and Zhang, Zhang and Wang, Liang and Jin, Rong and Tan, Tieniu",
+      "title": "Adanpc: Exploring non-parametric classifier for test-time adaptation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zhang2023adanpc"
+    },
+    {
+      "year": "2024",
+      "pages": "14162--14171",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Karmanov, Adilbek and Guan, Dayan and Lu, Shijian and El Saddik, Abdulmotaleb and Xing, Eric",
+      "title": "Efficient test-time adaptation of vision-language models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "karmanov2024efficient"
+    },
+    {
+      "pages": "1–24",
+      "month": "July",
+      "year": "2024",
+      "author": "Shaikh, Muhammad Bilal and Chai, Douglas and Islam, Syed Muhammad Shamsul and Akhtar, Naveed",
+      "publisher": "Association for Computing Machinery (ACM)",
+      "journal": "ACM Transactions on Multimedia Computing, Communications, and Applications",
+      "number": "8",
+      "doi": "10.1145/3664815",
+      "url": "http://dx.doi.org/10.1145/3664815",
+      "issn": "1551-6865",
+      "volume": "20",
+      "title": "From CNNs to Transformers in Multimodal Human Action Recognition: A Survey",
+      "ENTRYTYPE": "article",
+      "ID": "Shaikh_2024"
+    },
+    {
+      "url": "https://arxiv.org/abs/2101.11530",
+      "primaryclass": "cs.CV",
+      "archiveprefix": "arXiv",
+      "eprint": "2101.11530",
+      "year": "2021",
+      "author": "Pranay Gupta and Divyanshu Sharma and Ravi Kiran Sarvadevabhatla",
+      "title": "Syntactically Guided Generative Embeddings for Zero-Shot Skeleton Action Recognition",
+      "ENTRYTYPE": "misc",
+      "ID": "gupta2021syntacticallyguidedgenerativeembeddings"
+    },
+    {
+      "collection": "MM ’23",
+      "pages": "5302–5310",
+      "month": "October",
+      "year": "2023",
+      "author": "Zhou, Yujie and Qiang, Wenwen and Rao, Anyi and Lin, Ning and Su, Bing and Wang, Jiaqi",
+      "publisher": "ACM",
+      "booktitle": "Proceedings of the 31st ACM International Conference on Multimedia",
+      "doi": "10.1145/3581783.3611888",
+      "url": "http://dx.doi.org/10.1145/3581783.3611888",
+      "title": "Zero-shot Skeleton-based Action Recognition via Mutual Information Estimation and Maximization",
+      "series": "MM ’23",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "Zhou_2023"
+    },
+    {
+      "url": "https://arxiv.org/abs/2407.13460",
+      "primaryclass": "cs.CV",
+      "archiveprefix": "arXiv",
+      "eprint": "2407.13460",
+      "year": "2024",
+      "author": "Sheng-Wei Li and Zi-Xiang Wei and Wei-Jie Chen and Yi-Hsin Yu and Chih-Yuan Yang and Jane Yung-jen Hsu",
+      "title": "SA-DVAE: Improving Zero-Shot Skeleton-Based Action Recognition by Disentangled Variational Autoencoders",
+      "ENTRYTYPE": "misc",
+      "ID": "li2024sadvaeimprovingzeroshotskeletonbased"
+    },
+    {
+      "url": "https://arxiv.org/abs/2305.15692",
+      "primaryclass": "cs.CV",
+      "archiveprefix": "arXiv",
+      "eprint": "2305.15692",
+      "year": "2023",
+      "author": "Zihan Wang and Yang Yang and Zhi Liu and Yifan Zheng",
+      "title": "Deep Neural Networks in Video Human Action Recognition: A Review",
+      "ENTRYTYPE": "misc",
+      "ID": "wang2023deepneuralnetworksvideo"
+    },
+    {
+      "url": "https://arxiv.org/abs/2405.05584",
+      "primaryclass": "cs.CV",
+      "archiveprefix": "arXiv",
+      "eprint": "2405.05584",
+      "year": "2024",
+      "author": "Zixuan Tang and Youjun Zhao and Yuhang Wen and Mengyuan Liu",
+      "title": "A Survey on Backbones for Deep Video Action Recognition",
+      "ENTRYTYPE": "misc",
+      "ID": "tang2024surveybackbonesdeepvideo"
+    },
+    {
+      "organization": "IEEE",
+      "year": "2011",
+      "pages": "491--496",
+      "booktitle": "2011 IEEE Colloquium on Humanities, Science and Engineering",
+      "author": "Karunaratne, Indika and Atukorale, Ajantha Sanjeewa and Perera, Hemamali",
+      "title": "Surveillance of human-computer interactions: A way forward to detection of users' Psychological Distress",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "karunaratne2011surveillance"
+    },
+    {
+      "doi": "10.1109/IDCIoT59759.2024.10467622",
+      "keywords": "Computers;Ethics;Systematics;Reviews;User centered design;Speech recognition;Touch sensitive screens;Human-computer interaction (HCI);User-centered Design (UCD);Graphical User Interfaces (GUI);Augmented Reality (AR);Virtual Reality (VR)",
+      "pages": "1214-1218",
+      "number": "",
+      "volume": "",
+      "year": "2024",
+      "title": "A Systematic Review on Human and Computer Interaction",
+      "booktitle": "2024 2nd International Conference on Intelligent Data Communication Technologies and Internet of Things (IDCIoT)",
+      "author": "Kotian, Abhijith L and Nandipi, Reshna and M, Ushag and S, Usha Rani and VARSHAUK and T, Veena G",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "10467622"
+    },
+    {
+      "year": "2022",
+      "pages": "2969--2978",
+      "booktitle": "Proceedings of the IEEE/CVF conference on computer vision and pattern recognition",
+      "author": "Duan, Haodong and Zhao, Yue and Chen, Kai and Lin, Dahua and Dai, Bo",
+      "title": "Revisiting skeleton-based action recognition",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "duan2022revisiting"
+    },
+    {
+      "year": "2017",
+      "pages": "3571--3580",
+      "booktitle": "Proceedings of the IEEE International conference on Computer Vision",
+      "author": "Hubert Tsai, Yao-Hung and Huang, Liang-Kang and Salakhutdinov, Ruslan",
+      "title": "Learning robust visual-semantic embeddings",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "hubert2017learning"
+    },
+    {
+      "year": "2019",
+      "pages": "450--459",
+      "booktitle": "Proceedings of the IEEE/CVF international conference on computer vision",
+      "author": "Wray, Michael and Larlus, Diane and Csurka, Gabriela and Damen, Dima",
+      "title": "Fine-grained action retrieval through multiple parts-of-speech embeddings",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "wray2019fine"
+    },
+    {
+      "year": "2019",
+      "pages": "54--57",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops",
+      "author": "Schonfeld, Edgar and Ebrahimi, Sayna and Sinha, Samarth and Darrell, Trevor and Akata, Zeynep",
+      "title": "Generalized zero-shot learning via aligned variational autoencoders",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "schonfeld2019generalized"
+    },
+    {
+      "url": "https://arxiv.org/abs/2406.13327",
+      "primaryclass": "cs.CV",
+      "archiveprefix": "arXiv",
+      "eprint": "2406.13327",
+      "year": "2024",
+      "author": "Anqi Zhu and Qiuhong Ke and Mingming Gong and James Bailey",
+      "title": "Part-aware Unified Representation of Language and Skeleton for Zero-shot Action Recognition",
+      "ENTRYTYPE": "misc",
+      "ID": "zhu2024partawareunifiedrepresentationlanguage"
+    },
+    {
+      "year": "2020",
+      "journal": "arXiv preprint arXiv:2005.14165",
+      "author": "Brown, Tom B",
+      "title": "Language models are few-shot learners",
+      "ENTRYTYPE": "article",
+      "ID": "brown2020language"
+    },
+    {
+      "url": "https://arxiv.org/abs/2404.07487",
+      "primaryclass": "cs.CV",
+      "archiveprefix": "arXiv",
+      "eprint": "2404.07487",
+      "year": "2024",
+      "author": "Yang Chen and Jingcai Guo and Tian He and Ling Wang",
+      "title": "Fine-Grained Side Information Guided Dual-Prompts for Zero-Shot Skeleton Action Recognition",
+      "ENTRYTYPE": "misc",
+      "ID": "chen2024finegrainedinformationguideddualprompts"
+    },
+    {
+      "url": "https://arxiv.org/abs/2207.09336",
+      "primaryclass": "cs.LG",
+      "archiveprefix": "arXiv",
+      "eprint": "2207.09336",
+      "year": "2022",
+      "author": "Shervin Ardeshir and Navid Azizan",
+      "title": "Uncertainty in Contrastive Learning: On the Predictability of Downstream Performance",
+      "ENTRYTYPE": "misc",
+      "ID": "ardeshir2022uncertaintycontrastivelearningpredictability"
+    },
+    {
+      "url": "https://arxiv.org/abs/2402.14551",
+      "primaryclass": "cs.CV",
+      "archiveprefix": "arXiv",
+      "eprint": "2402.14551",
+      "year": "2024",
+      "author": "Zijun Long and George Killick and Lipeng Zhuang and Gerardo Aragon-Camarasa and Zaiqiao Meng and Richard Mccreadie",
+      "title": "CLCE: An Approach to Refining Cross-Entropy and Contrastive Learning for Optimized Learning Fusion",
+      "ENTRYTYPE": "misc",
+      "ID": "long2024clceapproachrefiningcrossentropy"
+    },
+    {
+      "url": "https://arxiv.org/abs/2211.03646",
+      "primaryclass": "cs.CV",
+      "archiveprefix": "arXiv",
+      "eprint": "2211.03646",
+      "year": "2022",
+      "author": "Rahaf Aljundi and Yash Patel and Milan Sulc and Daniel Olmeda and Nikolay Chumerin",
+      "title": "Contrastive Classification and Representation Learning with Probabilistic Interpretation",
+      "ENTRYTYPE": "misc",
+      "ID": "aljundi2022contrastiveclassificationrepresentationlearning"
+    },
+    {
+      "year": "2022",
+      "pages": "14274--14289",
+      "volume": "35",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Shu, Manli and Nie, Weili and Huang, De-An and Yu, Zhiding and Goldstein, Tom and Anandkumar, Anima and Xiao, Chaowei",
+      "title": "Test-time prompt tuning for zero-shot generalization in vision-language models",
+      "ENTRYTYPE": "article",
+      "ID": "shu2022test"
+    },
+    {
+      "year": "2020",
+      "journal": "arXiv preprint arXiv:2006.10726",
+      "author": "Wang, Dequan and Shelhamer, Evan and Liu, Shaoteng and Olshausen, Bruno and Darrell, Trevor",
+      "title": "Tent: Fully test-time adaptation by entropy minimization",
+      "ENTRYTYPE": "article",
+      "ID": "wang2020tent"
+    },
+    {
+      "url": "https://arxiv.org/abs/2103.00020",
+      "primaryclass": "cs.CV",
+      "archiveprefix": "arXiv",
+      "eprint": "2103.00020",
+      "year": "2021",
+      "author": "Alec Radford and Jong Wook Kim and Chris Hallacy and Aditya Ramesh and Gabriel Goh and Sandhini Agarwal and Girish Sastry and Amanda Askell and Pamela Mishkin and Jack Clark and Gretchen Krueger and Ilya Sutskever",
+      "title": "Learning Transferable Visual Models From Natural Language Supervision",
+      "ENTRYTYPE": "misc",
+      "ID": "radford2021learningtransferablevisualmodels"
+    },
+    {
+      "year": "2013",
+      "volume": "26",
+      "journal": "Advances in neural information processing systems",
+      "author": "Frome, Andrea and Corrado, Greg S and Shlens, Jon and Bengio, Samy and Dean, Jeff and Ranzato, Marc'Aurelio and Mikolov, Tomas",
+      "title": "Devise: A deep visual-semantic embedding model",
+      "ENTRYTYPE": "article",
+      "ID": "frome2013devise"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "2019",
+      "pages": "2684--2701",
+      "number": "10",
+      "volume": "42",
+      "journal": "IEEE transactions on pattern analysis and machine intelligence",
+      "author": "Liu, Jun and Shahroudy, Amir and Perez, Mauricio and Wang, Gang and Duan, Ling-Yu and Kot, Alex C",
+      "title": "Ntu rgb+ d 120: A large-scale benchmark for 3d human activity understanding",
+      "ENTRYTYPE": "article",
+      "ID": "liu2019ntu"
+    },
+    {
+      "year": "2016",
+      "pages": "1010--1019",
+      "booktitle": "Proceedings of the IEEE conference on computer vision and pattern recognition",
+      "author": "Shahroudy, Amir and Liu, Jun and Ng, Tian-Tsong and Wang, Gang",
+      "title": "Ntu rgb+ d: A large scale dataset for 3d human activity analysis",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "shahroudy2016ntu"
+    },
+    {
+      "year": "2017",
+      "journal": "arXiv preprint arXiv:1703.07475",
+      "author": "Chunhui, Liu and Yueyu, Hu and Yanghao, Li and Sijie, Song and Jiaying, Liu",
+      "title": "PKU-MMD: A Large Scale Benchmark for Continuous Multi-Modal Human Action Understanding",
+      "ENTRYTYPE": "article",
+      "ID": "liu2017pku"
+    },
+    {
+      "url": "https://arxiv.org/abs/2110.09506",
+      "primaryclass": "cs.LG",
+      "archiveprefix": "arXiv",
+      "eprint": "2110.09506",
+      "year": "2022",
+      "author": "Marvin Zhang and Sergey Levine and Chelsea Finn",
+      "title": "MEMO: Test Time Robustness via Adaptation and Augmentation",
+      "ENTRYTYPE": "misc",
+      "ID": "zhang2022memotesttimerobustness"
+    },
+    {
+      "url": "https://arxiv.org/abs/2209.14169",
+      "primaryclass": "cs.CV",
+      "archiveprefix": "arXiv",
+      "eprint": "2209.14169",
+      "year": "2022",
+      "author": "Ziyu Guo and Renrui Zhang and Longtian Qiu and Xianzheng Ma and Xupeng Miao and Xuming He and Bin Cui",
+      "title": "CALIP: Zero-Shot Enhancement of CLIP with Parameter-free Attention",
+      "ENTRYTYPE": "misc",
+      "ID": "guo2022calipzeroshotenhancementclip"
+    },
+    {
+      "year": "2023",
+      "booktitle": "Thirty-seventh Conference on Neural Information Processing Systems",
+      "title": "Align Your Prompts: Test-Time Prompting with Distribution Alignment for Zero-Shot Generalization",
+      "author": "Samadh, Jameel Hassan Abdul and Gani, Hanan and Hussein, Noor Hazim and Khattak, Muhammad Uzair and Naseer, Muzammal and Khan, Fahad and Khan, Salman",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "samadh2023align"
+    },
+    {
+      "url": "https://arxiv.org/abs/2308.06038",
+      "primaryclass": "cs.CV",
+      "archiveprefix": "arXiv",
+      "eprint": "2308.06038",
+      "year": "2023",
+      "author": "Chun-Mei Feng and Kai Yu and Yong Liu and Salman Khan and Wangmeng Zuo",
+      "title": "Diverse Data Augmentation with Diffusions for Effective Test-time Prompt Tuning",
+      "ENTRYTYPE": "misc",
+      "ID": "feng2023diversedataaugmentationdiffusions"
+    },
+    {
+      "year": "2020",
+      "pages": "183--192",
+      "booktitle": "Proceedings of the IEEE/CVF conference on computer vision and pattern recognition",
+      "author": "Cheng, Ke and Zhang, Yifan and He, Xiangyu and Chen, Weihan and Cheng, Jian and Lu, Hanqing",
+      "title": "Skeleton-based action recognition with shift graph convolutional network",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "cheng2020skeleton"
+    },
+    {
+      "url": "https://arxiv.org/abs/2005.14165",
+      "primaryclass": "cs.CL",
+      "archiveprefix": "arXiv",
+      "eprint": "2005.14165",
+      "year": "2020",
+      "author": "Tom B. Brown and Benjamin Mann and Nick Ryder and Melanie Subbiah and Jared Kaplan and Prafulla Dhariwal and Arvind Neelakantan and Pranav Shyam and Girish Sastry and Amanda Askell and Sandhini Agarwal and Ariel Herbert-Voss and Gretchen Krueger and Tom Henighan and Rewon Child and Aditya Ramesh and Daniel M. Ziegler and Jeffrey Wu and Clemens Winter and Christopher Hesse and Mark Chen and Eric Sigler and Mateusz Litwin and Scott Gray and Benjamin Chess and Jack Clark and Christopher Berner and Sam McCandlish and Alec Radford and Ilya Sutskever and Dario Amodei",
+      "title": "Language Models are Few-Shot Learners",
+      "ENTRYTYPE": "misc",
+      "ID": "brown2020languagemodelsfewshotlearners"
+    },
+    {
+      "year": "2024",
+      "pages": "26171--26180",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Yuan, Yue and He, Rundong and Dong, Yicong and Han, Zhongyi and Yin, Yilong",
+      "title": "Discriminability-Driven Channel Selection for Out-of-Distribution Detection",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "yuan2024discriminability"
+    },
+    {
+      "pages": "23975-23984",
+      "year": "2024",
+      "month": "June",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "title": "Unified Entropy Optimization for Open-Set Test-Time Adaptation",
+      "author": "Gao, Zhengqing and Zhang, Xu-Yao and Liu, Cheng-Lin",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "Gao_2024_CVPR"
+    },
+    {
+      "publisher": "Springer",
+      "year": "2021",
+      "pages": "29139--29162",
+      "number": "19",
+      "volume": "80",
+      "journal": "Multimedia Tools and Applications",
+      "author": "Cao, Yi and Liu, Chen and Huang, Zilong and Sheng, Yongjian and Ju, Yongjian",
+      "title": "Skeleton-based action recognition with temporal action graph and temporal adaptive graph convolution structure",
+      "ENTRYTYPE": "article",
+      "ID": "cao2021skeleton"
+    },
+    {
+      "year": "2019",
+      "pages": "3595--3603",
+      "booktitle": "Proceedings of the IEEE/CVF conference on computer vision and pattern recognition",
+      "author": "Li, Maosen and Chen, Siheng and Chen, Xu and Zhang, Ya and Wang, Yanfeng and Tian, Qi",
+      "title": "Actional-structural graph convolutional networks for skeleton-based action recognition",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "li2019actional"
+    },
+    {
+      "publisher": "Springer",
+      "year": "2024",
+      "pages": "1--16",
+      "journal": "International Journal of Computer Vision",
+      "author": "Yang, Di and Wang, Yaohui and Dantcheva, Antitza and Garattoni, Lorenzo and Francesca, Gianpiero and Br{\\'e}mond, Fran{\\c{c}}ois",
+      "title": "View-invariant Skeleton Action Representation Learning via Motion Retargeting",
+      "ENTRYTYPE": "article",
+      "ID": "yang2024view"
+    },
+    {
+      "year": "2019",
+      "pages": "12026--12035",
+      "booktitle": "Proceedings of the IEEE/CVF conference on computer vision and pattern recognition",
+      "author": "Shi, Lei and Zhang, Yifan and Cheng, Jian and Lu, Hanqing",
+      "title": "Two-stream adaptive graph convolutional networks for skeleton-based action recognition",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "shi2019two"
+    },
+    {
+      "year": "2019",
+      "pages": "7912--7921",
+      "booktitle": "Proceedings of the IEEE/CVF conference on computer vision and pattern recognition",
+      "author": "Shi, Lei and Zhang, Yifan and Cheng, Jian and Lu, Hanqing",
+      "title": "Skeleton-based action recognition with directed graph neural networks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "shi2019skeleton"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "2022",
+      "pages": "4051--4070",
+      "number": "4",
+      "volume": "45",
+      "journal": "IEEE transactions on pattern analysis and machine intelligence",
+      "author": "Pourpanah, Farhad and Abdar, Moloud and Luo, Yuxuan and Zhou, Xinlei and Wang, Ran and Lim, Chee Peng and Wang, Xi-Zhao and Wu, QM Jonathan",
+      "title": "A review of generalized zero-shot learning methods",
+      "ENTRYTYPE": "article",
+      "ID": "pourpanah2022review"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2022",
+      "pages": "16888--16905",
+      "booktitle": "International conference on machine learning",
+      "author": "Niu, Shuaicheng and Wu, Jiaxiang and Zhang, Yifan and Chen, Yaofo and Zheng, Shijian and Zhao, Peilin and Tan, Mingkui",
+      "title": "Efficient test-time model adaptation without forgetting",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "niu2022efficient"
+    },
+    {
+      "year": "2022",
+      "pages": "27253--27266",
+      "volume": "35",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Gong, Taesik and Jeong, Jongheon and Kim, Taewon and Kim, Yewon and Shin, Jinwoo and Lee, Sung-Ju",
+      "title": "Note: Robust continual test-time adaptation against temporal correlation",
+      "ENTRYTYPE": "article",
+      "ID": "gong2022note"
+    },
+    {
+      "year": "2022",
+      "pages": "7201--7211",
+      "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "author": "Wang, Qin and Fink, Olga and Van Gool, Luc and Dai, Dengxin",
+      "title": "Continual test-time domain adaptation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "wang2022continual"
+    },
+    {
+      "year": "2021",
+      "pages": "5128--5137",
+      "booktitle": "Proceedings of the ieee/cvf international conference on computer vision",
+      "author": "Chan, Robin and Rottmann, Matthias and Gottschalk, Hanno",
+      "title": "Entropy maximization and meta classification for out-of-distribution detection in semantic segmentation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "chan2021entropy"
+    },
+    {
+      "publisher": "Wiley Online Library",
+      "year": "2023",
+      "pages": "e1488",
+      "number": "2",
+      "volume": "13",
+      "journal": "Wiley Interdisciplinary Reviews: Data Mining and Knowledge Discovery",
+      "author": "Cao, Weipeng and Wu, Yuhao and Sun, Yixuan and Zhang, Haigang and Ren, Jin and Gu, Dujuan and Wang, Xingkai",
+      "title": "A review on multimodal zero-shot learning",
+      "ENTRYTYPE": "article",
+      "ID": "cao2023review"
+    },
+    {
+      "url": "https://arxiv.org/abs/2309.09592",
+      "primaryclass": "cs.CV",
+      "archiveprefix": "arXiv",
+      "eprint": "2309.09592",
+      "year": "2023",
+      "author": "Ming-Zhe Li and Zhen Jia and Zhang Zhang and Zhanyu Ma and Liang Wang",
+      "title": "Multi-Semantic Fusion Model for Generalized Zero-Shot Skeleton-Based Action Recognition",
+      "ENTRYTYPE": "misc",
+      "ID": "li2023multisemanticfusionmodelgeneralized"
+    },
+    {
+      "collection": "IJCAI-2018",
+      "pages": "3634–3640",
+      "month": "July",
+      "year": "2018",
+      "author": "Yu, Bing and Yin, Haoteng and Zhu, Zhanxing",
+      "publisher": "International Joint Conferences on Artificial Intelligence Organization",
+      "booktitle": "Proceedings of the Twenty-Seventh International Joint Conference on Artificial Intelligence",
+      "doi": "10.24963/ijcai.2018/505",
+      "url": "http://dx.doi.org/10.24963/ijcai.2018/505",
+      "title": "Spatio-Temporal Graph Convolutional Networks: A Deep Learning Framework for Traffic Forecasting",
+      "series": "IJCAI-2018",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "Yu_2018"
+    }
+  ]
+}

@@ -1,0 +1,293 @@
+{
+  "pdf_url": "https://arxiv.org/pdf/2411.04372v3.pdf",
+  "references": [
+    {
+      "address": "Englewood Cliffs, NJ",
+      "publisher": "Prentice-Hall",
+      "volume": "1",
+      "year": "1972",
+      "title": "The Theory of Parsing, Translation and Compiling",
+      "author": "Alfred V. Aho and Jeffrey D. Ullman",
+      "ENTRYTYPE": "book",
+      "ID": "Aho:72"
+    },
+    {
+      "address": "Washington, DC",
+      "publisher": "American Psychological Association",
+      "year": "1983",
+      "title": "Publications Manual",
+      "author": "{American Psychological Association}",
+      "ENTRYTYPE": "book",
+      "ID": "APA:83"
+    },
+    {
+      "doi": "10.1145/322234.322243",
+      "pages": "114--133",
+      "number": "1",
+      "volume": "28",
+      "journal": "Journal of the Association for Computing Machinery",
+      "title": "Alternation",
+      "year": "1981",
+      "author": "Ashok K. Chandra and Dexter C. Kozen and Larry J. Stockmeyer",
+      "ENTRYTYPE": "article",
+      "ID": "Chandra:81"
+    },
+    {
+      "year": "2007",
+      "pages": "33--40",
+      "booktitle": "Proceedings of the 24th International Conference on Machine Learning",
+      "author": "Andrew, Galen and Gao, Jianfeng",
+      "title": "Scalable training of {L1}-regularized log-linear models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "andrew2007scalable"
+    },
+    {
+      "address": "Cambridge, UK",
+      "publisher": "Cambridge University Press",
+      "year": "1997",
+      "title": "Algorithms on Strings, Trees and Sequences",
+      "author": "Dan Gusfield",
+      "ENTRYTYPE": "book",
+      "ID": "Gusfield:97"
+    },
+    {
+      "note": "version 2",
+      "url": "http://arxiv.org/abs/1503.06733",
+      "year": "2015",
+      "volume": "arXiv:1503.06733",
+      "journal": "Computing Research Repository",
+      "title": "Yara Parser: {A} Fast and Accurate Dependency Parser",
+      "author": "Mohammad Sadegh Rasooli and Joel R. Tetreault",
+      "ENTRYTYPE": "article",
+      "ID": "rasooli-tetrault-2015"
+    },
+    {
+      "year": "2005",
+      "volume": "6",
+      "title": "A Framework for Learning Predictive Structures from Multiple Tasks and Unlabeled Data",
+      "publisher": "JMLR.org",
+      "pages": "1817--1853",
+      "numpages": "37",
+      "month": "December",
+      "journal": "Journal of Machine Learning Research",
+      "issue_date": "12/1/2005",
+      "issn": "1532-4435",
+      "author": "Ando, Rie Kubota and Zhang, Tong",
+      "acmid": "1194905",
+      "ENTRYTYPE": "article",
+      "ID": "Ando2005"
+    },
+    {
+      "url": "https://arxiv.org/abs/2411.04872",
+      "primaryclass": "cs.AI",
+      "archiveprefix": "arXiv",
+      "eprint": "2411.04872",
+      "year": "2024",
+      "author": "Elliot Glazer and Ege Erdil and Tamay Besiroglu and Diego Chicharro and Evan Chen and Alex Gunning and Caroline Falkman Olsson and Jean-Stanislas Denain and Anson Ho and Emily de Oliveira Santos and Olli Järviniemi and Matthew Barnett and Robert Sandler and Matej Vrzala and Jaime Sevilla and Qiuyu Ren and Elizabeth Pratt and Lionel Levine and Grant Barkley and Natalie Stewart and Bogdan Grechuk and Tetiana Grechuk and Shreepranav Varma Enugandla and Mark Wildon",
+      "title": "FrontierMath: A Benchmark for Evaluating Advanced Mathematical Reasoning in AI",
+      "ENTRYTYPE": "misc",
+      "ID": "frontiermath"
+    },
+    {
+      "year": "2021",
+      "journal": "arXiv preprint arXiv:2103.03874",
+      "author": "Hendrycks, Dan and Burns, Collin and Kadavath, Saurav and Arora, Akul and Basart, Steven and Tang, Eric and Song, Dawn and Steinhardt, Jacob",
+      "title": "Measuring mathematical problem solving with the math dataset",
+      "ENTRYTYPE": "article",
+      "ID": "hendrycks2021measuring"
+    },
+    {
+      "year": "2021",
+      "journal": "arXiv preprint arXiv:2110.14168",
+      "author": "Cobbe, Karl and Kosaraju, Vineet and Bavarian, Mohammad and Chen, Mark and Jun, Heewoo and Kaiser, Lukasz and Plappert, Matthias and Tworek, Jerry and Hilton, Jacob and Nakano, Reiichiro and others",
+      "title": "Training verifiers to solve math word problems",
+      "ENTRYTYPE": "article",
+      "ID": "cobbe2021training"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2311.12022",
+      "author": "Rein, David and Hou, Betty Li and Stickland, Asa Cooper and Petty, Jackson and Pang, Richard Yuanzhe and Dirani, Julien and Michael, Julian and Bowman, Samuel R",
+      "title": "GPQA: A graduate-level google-proof q\\&a benchmark",
+      "ENTRYTYPE": "article",
+      "ID": "rein2023gpqa"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2307.13692",
+      "author": "Sawada, Tomohiro and Paleka, Daniel and Havrilla, Alexander and Tadepalli, Pranav and Vidas, Paula and Kranias, Alexander and Nay, John J and Gupta, Kshitij and Komatsuzaki, Aran",
+      "title": "Arb: Advanced reasoning benchmark for large language models",
+      "ENTRYTYPE": "article",
+      "ID": "sawada2023arb"
+    },
+    {
+      "year": "2024",
+      "volume": "36",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Liu, Jiawei and Xia, Chunqiu Steven and Wang, Yuyao and Zhang, Lingming",
+      "title": "Is your code generated by chatgpt really correct? rigorous evaluation of large language models for code generation",
+      "ENTRYTYPE": "article",
+      "ID": "liu2024your"
+    },
+    {
+      "organization": "IEEE",
+      "year": "2024",
+      "pages": "1--8",
+      "booktitle": "2024 IEEE High Performance Extreme Computing Conference (HPEC)",
+      "author": "Bhattarai, Manish and Santos, Javier E and Jones, Shawn and Biswas, Ayan and Alexandrov, Boian and O'Malley, Daniel",
+      "title": "Enhancing code translation in language models with few-shot learning via retrieval-augmented generation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "bhattarai2024enhancing"
+    },
+    {
+      "isbn": "979-8-89176-229-9",
+      "pages": "107--117",
+      "doi": "10.18653/v1/2025.knowledgenlp-1.8",
+      "url": "https://aclanthology.org/2025.knowledgenlp-1.8/",
+      "publisher": "Association for Computational Linguistics",
+      "address": "Albuquerque, New Mexico, USA",
+      "year": "2025",
+      "month": "May",
+      "booktitle": "Proceedings of the 4th International Workshop on Knowledge-Augmented Methods for Natural Language Processing",
+      "editor": "Shi, Weijia  and\nYu, Wenhao  and\nAsai, Akari  and\nJiang, Meng  and\nDurrett, Greg  and\nHajishirzi, Hannaneh  and\nZettlemoyer, Luke",
+      "author": "Bhattarai, Manish  and\nVu, Minh N.  and\nE. Santos, Javier  and\nIsmael, Ismael  and\nO{'}Malley, Daniel",
+      "title": "Enhancing Cross-Language Code Translation via Task-Specific Embedding Alignment in Retrieval-Augmented Generation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "bhattarai-etal-2025-enhancing"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2504.20434",
+      "author": "Bhattarai, Manish and Cordova, Miguel and Santos, Javier and O'Malley, Dan",
+      "title": "ARCS: Agentic Retrieval-Augmented Code Synthesis with Iterative Refinement",
+      "ENTRYTYPE": "article",
+      "ID": "bhattarai2025arcs"
+    },
+    {
+      "year": "2021",
+      "journal": "arXiv preprint arXiv:2107.03374",
+      "author": "Chen, Mark and Tworek, Jerry and Jun, Heewoo and Yuan, Qiming and Pinto, Henrique Ponde De Oliveira and Kaplan, Jared and Edwards, Harri and Burda, Yuri and Joseph, Nicholas and Brockman, Greg and others",
+      "title": "Evaluating large language models trained on code",
+      "ENTRYTYPE": "article",
+      "ID": "chen2021evaluating"
+    },
+    {
+      "url": "https://www.ams.org/notices/200308/comm-sloane.pdf",
+      "pages": "912--915",
+      "year": "2003",
+      "number": "8",
+      "volume": "50",
+      "journal": "Notices of the American Mathematical Society",
+      "title": "The On-Line Encyclopedia of Integer Sequences",
+      "author": "N. J. A. Sloane",
+      "ENTRYTYPE": "article",
+      "ID": "sloane2003oeis"
+    },
+    {
+      "url": "https://oeis.org",
+      "note": "Accessed: 2024-10-15",
+      "year": "2024",
+      "howpublished": "\\url{https://oeis.org/}",
+      "title": "The Online Encyclopedia of Integer Sequences",
+      "author": "OEIS",
+      "ENTRYTYPE": "misc",
+      "ID": "oeis_main"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2303.08774",
+      "author": "Achiam, Josh and Adler, Steven and Agarwal, Sandhini and Ahmad, Lama and Akkaya, Ilge and Aleman, Florencia Leoni and Almeida, Diogo and Altenschmidt, Janko and Altman, Sam and Anadkat, Shyamal and others",
+      "title": "Gpt-4 technical report",
+      "ENTRYTYPE": "article",
+      "ID": "achiam2023gpt"
+    },
+    {
+      "note": "Accessed: 2024-10-14",
+      "url": "https://openai.com/index/openai-o1-mini-advancing-cost-efficient-reasoning/",
+      "month": "September",
+      "year": "2024",
+      "author": "OpenAI",
+      "title": "OpenAI o1-mini: Advancing cost-efficient reasoning",
+      "ENTRYTYPE": "article",
+      "ID": "openai2024o1mini"
+    },
+    {
+      "note": "Accessed: 2024-11-06",
+      "url": "https://openai.com/index/gpt-4o-system-card/",
+      "month": "August",
+      "year": "2024",
+      "author": "OpenAI",
+      "title": "GPT-4o System Card",
+      "ENTRYTYPE": "article",
+      "ID": "openai2024gpt4o"
+    },
+    {
+      "note": "Accessed: 2024-11-06",
+      "url": "https://openai.com/index/introducing-openai-o1-preview/",
+      "month": "September",
+      "year": "2024",
+      "author": "OpenAI",
+      "title": "Introducing OpenAI o1-preview",
+      "ENTRYTYPE": "article",
+      "ID": "openai2024o1preview"
+    },
+    {
+      "note": "Accessed: 2024-11-06",
+      "url": "https://www-cdn.anthropic.com/fed9cc193a14b84131812372d8d5857f8f304c52/Model_Card_Claude_3_Addendum.pdf",
+      "month": "November",
+      "year": "2024",
+      "author": "Anthropic",
+      "title": "Claude 3.5 Sonnet Model Card Addendum",
+      "ENTRYTYPE": "article",
+      "ID": "claude35sonnet"
+    },
+    {
+      "note": "Accessed: 2024-11-06",
+      "url": "https://www.llama.com/docs/model-cards-and-prompt-formats/llama3_1/",
+      "month": "November",
+      "year": "2024",
+      "author": "Meta",
+      "title": "Llama 3.1 Model Cards & Prompt formats",
+      "ENTRYTYPE": "article",
+      "ID": "llama31"
+    },
+    {
+      "year": "2008",
+      "pages": "6--15",
+      "number": "2",
+      "volume": "30",
+      "journal": "Math. Intelligencer",
+      "author": "Conway, John H and Dietrich, Heiko and O’Brien, Eamonn A",
+      "title": "Counting groups: gnus, moas and other exotica",
+      "ENTRYTYPE": "article",
+      "ID": "conway2008counting"
+    },
+    {
+      "url": "https://oeis.org/FAQ.html",
+      "note": "Accessed: 2024-10-15",
+      "year": "2024",
+      "howpublished": "\\url{https://oeis.org/FAQ.html}",
+      "title": "Frequently Asked Questions (FAQ)",
+      "author": "The Online Encyclopedia of Integer Sequences",
+      "ENTRYTYPE": "misc",
+      "ID": "oeis_faq"
+    },
+    {
+      "note": "Accessed: 2024-10-15",
+      "year": "2024",
+      "howpublished": "\\url{https://oeis.org/A000791}",
+      "title": "Sequence A000791: Ramsey numbers R(3,n)",
+      "author": "The Online Encyclopedia of Integer Sequences",
+      "ENTRYTYPE": "misc",
+      "ID": "oeis_A000791"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2403.05530",
+      "author": "Team, Gemini and Georgiev, Petko and Lei, Ving Ian and Burnell, Ryan and Bai, Libin and Gulati, Anmol and Tanzer, Garrett and Vincent, Damien and Pan, Zhufeng and Wang, Shibo and others",
+      "title": "Gemini 1.5: Unlocking multimodal understanding across millions of tokens of context",
+      "ENTRYTYPE": "article",
+      "ID": "team2024gemini"
+    }
+  ]
+}

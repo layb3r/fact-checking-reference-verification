@@ -70,10 +70,12 @@ def download_from_arxiv(paper_title, download_dir):
             src_url = 'https://arxiv.org/src/' + first_result.get_short_id()
             download_file_from_url(src_url, download_dir, filename=f"{cleaned_title}_source.tar.gz")
 
-            return True
+            # Return the PDF URL instead of just True
+            pdf_url = 'https://arxiv.org/pdf/' + first_result.get_short_id() + '.pdf'
+            return pdf_url
         else:
             logging.warning(f"Could not find '{paper_title}' on arXiv.")
-            return False
+            return None
     except Exception as e:
         logging.error(f"Error downloading from arXiv for '{paper_title}': {e}")
-        return False
+        return None

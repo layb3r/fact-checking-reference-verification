@@ -1,0 +1,469 @@
+{
+  "pdf_url": "https://arxiv.org/pdf/2505.12944v2.pdf",
+  "references": [
+    {
+      "organization": "PMLR",
+      "year": "2017",
+      "pages": "3424--3433",
+      "booktitle": "International conference on machine learning",
+      "author": "Tompson, Jonathan and Schlachter, Kristofer and Sprechmann, Pablo and Perlin, Ken",
+      "title": "Accelerating eulerian fluid simulation with convolutional networks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "cnn-tompson"
+    },
+    {
+      "year": "2023",
+      "pages": "28010--28039",
+      "volume": "36",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Li, Zijie and Shu, Dule and Barati Farimani, Amir",
+      "title": "Scalable transformer for pde surrogate modeling",
+      "ENTRYTYPE": "article",
+      "ID": "factformer-li"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2024",
+      "pages": "7526--7552",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Chen, Junfeng and Wu, Kailiang",
+      "title": "Positional Knowledge is All You Need: Position-induced Transformer (PiT) for Operator Learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "pit-chen"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2024",
+      "pages": "17189--17223",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Hagnberger, Jan and Kalimuthu, Marimuthu and Musekamp, Daniel and Niepert, Mathias",
+      "title": "Vectorized Conditional Neural Fields: A Framework for Solving Time-dependent Parametric Partial Differential Equations",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "vcnef-hagnberger"
+    },
+    {
+      "year": "2022",
+      "pages": "2240--2253",
+      "volume": "35",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Wu, Tailin and Maruyama, Takashi and Leskovec, Jure",
+      "title": "Learning to accelerate partial differential equations via latent global evolution",
+      "ENTRYTYPE": "article",
+      "ID": "le-pde-wu"
+    },
+    {
+      "year": "2024",
+      "pages": "13489--13521",
+      "volume": "37",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Serrano, Louis and Wang, Thomas X and Le Naour, Etienne and Vittaut, Jean-No{\\\"e}l and Gallinari, Patrick",
+      "title": "AROMA: Preserving spatial structure for latent PDE modeling with local neural fields",
+      "ENTRYTYPE": "article",
+      "ID": "aroma-serrano"
+    },
+    {
+      "year": "2024",
+      "pages": "25152--25194",
+      "volume": "37",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Alkin, Benedikt and F{\\\"u}rst, Andreas and Schmid, Simon and Gruber, Lukas and Holzleitner, Markus and Brandstetter, Johannes",
+      "title": "Universal physics transformers: A framework for efficiently scaling neural operators",
+      "ENTRYTYPE": "article",
+      "ID": "upt-alkin"
+    },
+    {
+      "year": "2024",
+      "pages": "33085--33107",
+      "volume": "37",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Wang, Tian and Wang, Chuang",
+      "title": "Latent neural operator for solving forward and inverse pde problems",
+      "ENTRYTYPE": "article",
+      "ID": "lno-wang"
+    },
+    {
+      "url": "https://arxiv.org/abs/2202.11214",
+      "primaryclass": "physics.ao-ph",
+      "archiveprefix": "arXiv",
+      "eprint": "2202.11214",
+      "year": "2022",
+      "author": "Jaideep Pathak and Shashank Subramanian and Peter Harrington and Sanjeev Raja and Ashesh Chattopadhyay and Morteza Mardani and Thorsten Kurth and David Hall and Zongyi Li and Kamyar Azizzadenesheli and Pedram Hassanzadeh and Karthik Kashinath and Animashree Anandkumar",
+      "title": "FourCastNet: A Global Data-driven High-resolution Weather Model using Adaptive Fourier Neural Operators",
+      "ENTRYTYPE": "misc",
+      "ID": "fourcastnet-pathak"
+    },
+    {
+      "year": "2018",
+      "volume": "31",
+      "journal": "Advances in neural information processing systems",
+      "author": "Chen, Ricky TQ and Rubanova, Yulia and Bettencourt, Jesse and Duvenaud, David K",
+      "title": "Neural ordinary differential equations",
+      "ENTRYTYPE": "article",
+      "ID": "node-chen"
+    },
+    {
+      "year": "2015",
+      "pages": "1026--1034",
+      "booktitle": "Proceedings of the IEEE international conference on computer vision",
+      "author": "He, Kaiming and Zhang, Xiangyu and Ren, Shaoqing and Sun, Jian",
+      "title": "Delving deep into rectifiers: Surpassing human-level performance on imagenet classification",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "kaiming-he"
+    },
+    {
+      "url": "https://arxiv.org/abs/1412.6980",
+      "primaryclass": "cs.LG",
+      "archiveprefix": "arXiv",
+      "eprint": "1412.6980",
+      "year": "2017",
+      "author": "Diederik P. Kingma and Jimmy Ba",
+      "title": "Adam: A Method for Stochastic Optimization",
+      "ENTRYTYPE": "misc",
+      "ID": "adam-kingma"
+    },
+    {
+      "url": "https://arxiv.org/abs/1607.06450",
+      "primaryclass": "stat.ML",
+      "archiveprefix": "arXiv",
+      "eprint": "1607.06450",
+      "year": "2016",
+      "author": "Jimmy Lei Ba and Jamie Ryan Kiros and Geoffrey E. Hinton",
+      "title": "Layer Normalization",
+      "ENTRYTYPE": "misc",
+      "ID": "ba-layer-norm"
+    },
+    {
+      "year": "2018",
+      "pages": "3942--3951",
+      "booktitle": "Proceedings of the AAAI conference on artificial intelligence",
+      "author": "Perez, Ethan and Strub, Florian and De Vries, Harm and Dumoulin, Vincent and Courville, Aaron",
+      "title": "Film: Visual reasoning with a general conditioning layer",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "film-conditioning-perez:2018"
+    },
+    {
+      "year": "2017",
+      "volume": "30",
+      "journal": "Advances in neural information processing systems",
+      "author": "Vaswani, Ashish and Shazeer, Noam and Parmar, Niki and Uszkoreit, Jakob and Jones, Llion and Gomez, Aidan N and Kaiser, {\\L}ukasz and Polosukhin, Illia",
+      "title": "Attention is all you need",
+      "ENTRYTYPE": "article",
+      "ID": "transformers-vaswani"
+    },
+    {
+      "year": "2021",
+      "pages": "15816--15829",
+      "volume": "34",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Li, Yang and Si, Si and Li, Gang and Hsieh, Cho-Jui and Bengio, Samy",
+      "title": "Learnable fourier features for multi-dimensional spatial positional encoding",
+      "ENTRYTYPE": "article",
+      "ID": "fourier-features-li"
+    },
+    {
+      "month": "6",
+      "year": "2018",
+      "author": "Wang, Shenlong and Suo, Simon and Ma, Wei-Chiu and Pokrovsky, Andrei and Urtasun, Raquel",
+      "publisher": "IEEE",
+      "booktitle": "2018 IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "doi": "10.1109/cvpr.2018.00274",
+      "url": "http://dx.doi.org/10.1109/CVPR.2018.00274",
+      "title": "Deep Parametric Continuous Convolutional Neural Networks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ccnn-wang"
+    },
+    {
+      "year": "2017",
+      "pages": "652--660",
+      "booktitle": "Proceedings of the IEEE conference on computer vision and pattern recognition",
+      "author": "Qi, Charles R and Su, Hao and Mo, Kaichun and Guibas, Leonidas J",
+      "title": "Pointnet: Deep learning on point sets for 3d classification and segmentation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "pointnet"
+    },
+    {
+      "year": "2017",
+      "volume": "30",
+      "journal": "Advances in neural information processing systems",
+      "author": "Qi, Charles Ruizhongtai and Yi, Li and Su, Hao and Guibas, Leonidas J",
+      "title": "Pointnet++: Deep hierarchical feature learning on point sets in a metric space",
+      "ENTRYTYPE": "article",
+      "ID": "pointnet++"
+    },
+    {
+      "year": "2018",
+      "pages": "984--993",
+      "booktitle": "Proceedings of the IEEE conference on computer vision and pattern recognition",
+      "author": "Hua, Binh-Son and Tran, Minh-Khoi and Yeung, Sai-Kit",
+      "title": "Pointwise convolutional neural networks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "pcnn-hua"
+    },
+    {
+      "year": "2018",
+      "pages": "87--102",
+      "booktitle": "Proceedings of the European conference on computer vision (ECCV)",
+      "author": "Xu, Yifan and Fan, Tianqi and Xu, Mingye and Zeng, Long and Qiao, Yu",
+      "title": "Spidercnn: Deep learning on point sets with parameterized convolutional filters",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "spidercnn-xu"
+    },
+    {
+      "pages": "9613-9622",
+      "year": "2019",
+      "title": "PointConv: Deep Convolutional Networks on 3D Point Clouds",
+      "booktitle": "2019 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "author": "Wu, Wenxuan and Qi, Zhongang and Fuxin, Li",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "3d-cnn"
+    },
+    {
+      "year": "2019",
+      "booktitle": "International conference on learning representations",
+      "author": "Ummenhofer, Benjamin and Prantl, Lukas and Thuerey, Nils and Koltun, Vladlen",
+      "title": "Lagrangian fluid simulation with continuous convolutions",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "fluid-thuerey"
+    },
+    {
+      "year": "2024",
+      "booktitle": "The Twelfth International Conference on Learning Representations",
+      "author": "Winchenbach, Rene and Thuerey, Nils",
+      "title": "Symmetric Basis Convolutions for Learning Lagrangian Fluid Mechanics",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "conv-thuerey"
+    },
+    {
+      "url": "https://arxiv.org/abs/1312.6114",
+      "primaryclass": "stat.ML",
+      "archiveprefix": "arXiv",
+      "eprint": "1312.6114",
+      "year": "2022",
+      "author": "Diederik P Kingma and Max Welling",
+      "title": "Auto-Encoding Variational Bayes",
+      "ENTRYTYPE": "misc",
+      "ID": "vae-kingma"
+    },
+    {
+      "year": "2023",
+      "pages": "4195--4205",
+      "booktitle": "Proceedings of the IEEE/CVF international conference on computer vision",
+      "author": "Peebles, William and Xie, Saining",
+      "title": "Scalable diffusion models with transformers",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "dit-peebles"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2021",
+      "pages": "4651--4664",
+      "booktitle": "International conference on machine learning",
+      "author": "Jaegle, Andrew and Gimeno, Felix and Brock, Andy and Vinyals, Oriol and Zisserman, Andrew and Carreira, Joao",
+      "title": "Perceiver: General perception with iterative attention",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "perceiver-jaegle"
+    },
+    {
+      "organization": "Pmlr",
+      "year": "2017",
+      "pages": "1263--1272",
+      "booktitle": "International conference on machine learning",
+      "author": "Gilmer, Justin and Schoenholz, Samuel S and Riley, Patrick F and Vinyals, Oriol and Dahl, George E",
+      "title": "Neural message passing for quantum chemistry",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "mpnn-gilmer"
+    },
+    {
+      "year": "2022",
+      "pages": "1596--1611",
+      "volume": "35",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Takamoto, Makoto and Praditia, Timothy and Leiteritz, Raphael and MacKinlay, Daniel and Alesiani, Francesco and Pfl{\\\"u}ger, Dirk and Niepert, Mathias",
+      "title": "Pdebench: An extensive benchmark for scientific machine learning",
+      "ENTRYTYPE": "article",
+      "ID": "pdebench-takamoto:2022"
+    },
+    {
+      "year": "2020",
+      "booktitle": "International conference on learning representations",
+      "author": "Pfaff, Tobias and Fortunato, Meire and Sanchez-Gonzalez, Alvaro and Battaglia, Peter",
+      "title": "Learning mesh-based simulation with graph networks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "meshgraphnet-pfaff"
+    },
+    {
+      "year": "2023",
+      "booktitle": "The Eleventh International Conference on Learning Representations",
+      "author": "Yin, Yuan and Kirchmeyer, Matthieu and Franceschi, Jean-Yves and Rakotomamonjy, Alain and others",
+      "title": "Continuous PDE Dynamics Forecasting with Implicit Neural Representations",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "dynamics-aware-implicit-neural-repr-dino-yin:2023"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2023",
+      "pages": "5162--5177",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Chen, Honglin and Wu, Rundi and Grinspun, Eitan and Zheng, Changxi and Chen, Peter Yichen",
+      "title": "Implicit neural spatial representations for time-dependent pdes",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "implicit-neural-spatial-repr-pde-chen:2023"
+    },
+    {
+      "year": "2023",
+      "pages": "70581--70611",
+      "volume": "36",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Serrano, Louis and Le Boudec, Lise and Kassa{\\\"\\i} Koupa{\\\"\\i}, Armand and Wang, Thomas X and Yin, Yuan and Vittaut, Jean-No{\\\"e}l and Gallinari, Patrick",
+      "title": "Operator learning with neural fields: Tackling pdes on general geometries",
+      "ENTRYTYPE": "article",
+      "ID": "operator-learning-neural-fields-general-geometries-serrano:2023"
+    },
+    {
+      "year": "2024",
+      "pages": "76553--76577",
+      "volume": "37",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Knigge, David M and Wessels, David R and Valperga, Riccardo and Papa, Samuele and Sonke, Jan-Jakob and Gavves, Efstratios and Bekkers, Erik J",
+      "title": "Space-time continuous pde forecasting using equivariant neural fields",
+      "ENTRYTYPE": "article",
+      "ID": "enf-knigge"
+    },
+    {
+      "year": "2021",
+      "pages": "24924--24940",
+      "volume": "34",
+      "journal": "Advances in neural information processing systems",
+      "author": "Cao, Shuhao",
+      "title": "Choose a transformer: Fourier or galerkin",
+      "ENTRYTYPE": "article",
+      "ID": "galerkin-cao"
+    },
+    {
+      "url": "https://openreview.net/forum?id=EPPqt3uERT",
+      "year": "2023",
+      "volume": "2023",
+      "journal": "Transactions on Machine Learning Research",
+      "title": "Transformer for Partial Differential Equations' Operator Learning",
+      "author": "Zijie Li and\nKazem Meidani and\nAmir Barati Farimani",
+      "ENTRYTYPE": "article",
+      "ID": "oformer-pde-li:2023"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2023",
+      "pages": "12556--12569",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Hao, Zhongkai and Wang, Zhengyi and Su, Hang and Ying, Chengyang and Dong, Yinpeng and Liu, Songming and Cheng, Ze and Song, Jian and Zhu, Jun",
+      "title": "Gnot: A general neural operator transformer for operator learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "gnot-operator-learn-hao:2023"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2024",
+      "pages": "53681--53705",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Wu, Haixu and Luo, Huakun and Wang, Haowen and Wang, Jianmin and Long, Mingsheng",
+      "title": "Transolver: A Fast Transformer Solver for PDEs on General Geometries",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "transolver"
+    },
+    {
+      "eprint": "2003.03485",
+      "eprinttype": "arXiv",
+      "url": "https://arxiv.org/abs/2003.03485",
+      "year": "2020",
+      "volume": "abs/2003.03485",
+      "journal": "CoRR",
+      "title": "Neural Operator: Graph Kernel Network for Partial Differential Equations",
+      "author": "Zongyi Li and\nNikola B. Kovachki and\nKamyar Azizzadenesheli and\nBurigede Liu and\nKaushik Bhattacharya and\nAndrew M. Stuart and\nAnima Anandkumar",
+      "ENTRYTYPE": "article",
+      "ID": "graph-neural-operator-li"
+    },
+    {
+      "year": "2021",
+      "booktitle": "International Conference on Learning Representations",
+      "author": "Li, Zongyi and Kovachki, Nikola Borislavov and Azizzadenesheli, Kamyar and Bhattacharya, Kaushik and Stuart, Andrew and Anandkumar, Anima and others",
+      "title": "Fourier Neural Operator for Parametric Partial Differential Equations",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "fno-li"
+    },
+    {
+      "year": "2023",
+      "pages": "1--26",
+      "number": "388",
+      "volume": "24",
+      "journal": "Journal of Machine Learning Research",
+      "author": "Li, Zongyi and Huang, Daniel Zhengyu and Liu, Burigede and Anandkumar, Anima",
+      "title": "Fourier neural operator with learned deformations for pdes on general geometries",
+      "ENTRYTYPE": "article",
+      "ID": "geo-fno-li"
+    },
+    {
+      "year": "2023",
+      "booktitle": "The Eleventh International Conference on Learning Representations",
+      "author": "Tran, Alasdair and Mathews, Alexander and Xie, Lexing and Ong, Cheng Soon",
+      "title": "Factorized Fourier Neural Operators",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "f-fno"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2024",
+      "pages": "54288--54299",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Xiao, Zipeng and Hao, Zhongkai and Lin, Bokai and Deng, Zhijie and Su, Hang",
+      "title": "Improved Operator Learning by Orthogonal Attention",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ono"
+    },
+    {
+      "year": "2023",
+      "pages": "1--97",
+      "number": "89",
+      "volume": "24",
+      "journal": "Journal of Machine Learning Research",
+      "author": "Kovachki, Nikola and Li, Zongyi and Liu, Burigede and Azizzadenesheli, Kamyar and Bhattacharya, Kaushik and Stuart, Andrew and Anandkumar, Anima",
+      "title": "Neural operator: Learning maps between function spaces with applications to pdes",
+      "ENTRYTYPE": "article",
+      "ID": "neural-operators-kovachki"
+    },
+    {
+      "year": "2019",
+      "journal": "arXiv preprint arXiv:1910.03193",
+      "author": "Lu, Lu and Jin, Pengzhan and Karniadakis, George Em",
+      "title": "Deeponet: Learning nonlinear operators for identifying differential equations based on the universal approximation theorem of operators",
+      "ENTRYTYPE": "article",
+      "ID": "deeponet-lu:2019"
+    },
+    {
+      "year": "2022",
+      "booktitle": "International Conference on Learning Representations",
+      "author": "Brandstetter, Johannes and Worrall, Daniel E and Welling, Max",
+      "title": "Message Passing Neural PDE Solvers",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "mp-pde-brandstetter"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2023",
+      "pages": "33448--33467",
+      "booktitle": "International Conference on Machine Learning",
+      "author": "Takamoto, Makoto and Alesiani, Francesco and Niepert, Mathias",
+      "title": "Learning neural pde solvers with parameter-guided channel attention",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "cape-takamoto:2023"
+    },
+    {
+      "organization": "PMLR",
+      "year": "2020",
+      "pages": "8459--8468",
+      "booktitle": "International conference on machine learning",
+      "author": "Sanchez-Gonzalez, Alvaro and Godwin, Jonathan and Pfaff, Tobias and Ying, Rex and Leskovec, Jure and Battaglia, Peter",
+      "title": "Learning to simulate complex physics with graph networks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "learn2simulate-physics-sanchez-gonzalez:2020"
+    }
+  ]
+}

@@ -1,0 +1,590 @@
+{
+  "pdf_url": "https://arxiv.org/pdf/2511.01952v1.pdf",
+  "references": [
+    {
+      "year": "2023",
+      "number": "2",
+      "volume": "1",
+      "journal": "arXiv preprint arXiv:2303.18223",
+      "author": "Zhao, Wayne Xin and Zhou, Kun and Li, Junyi and Tang, Tianyi and Wang, Xiaolei and Hou, Yupeng and Min, Yingqian and Zhang, Beichen and Zhang, Junjie and Dong, Zican and others",
+      "title": "A survey of large language models",
+      "ENTRYTYPE": "article",
+      "ID": "zhao2023survey"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "2024",
+      "pages": "5625--5644",
+      "number": "8",
+      "volume": "46",
+      "journal": "IEEE transactions on pattern analysis and machine intelligence",
+      "author": "Zhang, Jingyi and Huang, Jiaxing and Jin, Sheng and Lu, Shijian",
+      "title": "Vision-language models for vision tasks: A survey",
+      "ENTRYTYPE": "article",
+      "ID": "zhang2024vision"
+    },
+    {
+      "year": "2024",
+      "pages": "2369--2385",
+      "booktitle": "USENIX Security",
+      "author": "Meeus, Matthieu and Jain, Shubham and Rei, Marek and de Montjoye, Yves-Alexandre",
+      "title": "Did the neurons read your book? document-level membership inference for large language models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "meeus2024did"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2402.09363",
+      "author": "Meeus, Matthieu and Shilov, Igor and Faysse, Manuel and De Montjoye, Yves-Alexandre",
+      "title": "Copyright traps for large language models",
+      "ENTRYTYPE": "article",
+      "ID": "meeus2024copyright"
+    },
+    {
+      "publisher": "MIT Press One Rogers Street, Cambridge, MA 02142-1209, USA journals-info~…",
+      "year": "2020",
+      "pages": "49--63",
+      "volume": "8",
+      "journal": "Transactions of the Association for Computational Linguistics",
+      "author": "Hisamoto, Sorami and Post, Matt and Duh, Kevin",
+      "title": "Membership inference attacks on sequence-to-sequence models: Is my data in your machine translation system?",
+      "ENTRYTYPE": "article",
+      "ID": "hisamoto2020membership"
+    },
+    {
+      "year": "2022",
+      "pages": "3093--3106",
+      "booktitle": "CCS",
+      "author": "Ye, Jiayuan and Maddi, Aadyaa and Murakonda, Sasi Kumar and Bindschaedler, Vincent and Shokri, Reza",
+      "title": "Enhanced membership inference attacks against machine learning models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ye2022enhanced"
+    },
+    {
+      "publisher": "Nature Publishing Group UK London",
+      "year": "2023",
+      "pages": "3785",
+      "number": "1",
+      "volume": "14",
+      "journal": "Nature Communications",
+      "author": "Qi, Tao and Wu, Fangzhao and Wu, Chuhan and He, Liang and Huang, Yongfeng and Xie, Xing",
+      "title": "Differentially private knowledge transfer for federated learning",
+      "ENTRYTYPE": "article",
+      "ID": "qi2023differentially"
+    },
+    {
+      "publisher": "Frontiers Media SA",
+      "year": "2024",
+      "pages": "1430984",
+      "volume": "7",
+      "journal": "Frontiers in Artificial Intelligence",
+      "author": "Hartsock, Iryna and Rasool, Ghulam",
+      "title": "Vision-language models for medical report generation and visual question answering: A review",
+      "ENTRYTYPE": "article",
+      "ID": "hartsock2024vision"
+    },
+    {
+      "year": "2024",
+      "pages": "172--176",
+      "booktitle": "CHASE",
+      "author": "Van, Minh--Hao and Verma, Prateek and Wu, Xintao",
+      "title": "On large visual language models for medical imaging analysis: An empirical study",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "van2024large"
+    },
+    {
+      "year": "2023",
+      "pages": "637--647",
+      "booktitle": "MICCAI",
+      "author": "Liu, Che and Cheng, Sibo and Chen, Chen and Qiao, Mengyun and Zhang, Weitong and Shah, Anand and Bai, Wenjia and Arcucci, Rossella",
+      "title": "M-flag: Medical vision-language pre-training with frozen language models and latent space geometry optimization",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "liu2023m"
+    },
+    {
+      "year": "2024",
+      "pages": "2051--2058",
+      "booktitle": "ICRA",
+      "author": "Shirai, Keisuke and Beltran-Hernandez, Cristian C and Hamaya, Masashi and Hashimoto, Atsushi and Tanaka, Shohei and Kawaharazuka, Kento and Tanaka, Kazutoshi and Ushiku, Yoshitaka and Mori, Shinsuke",
+      "title": "Vision-language interpreter for robot task planning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "shirai2024vision"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2304.10592",
+      "author": "Zhu, Deyao and Chen, Jun and Shen, Xiaoqian and Li, Xiang and Elhoseiny, Mohamed",
+      "title": "Minigpt-4: Enhancing vision-language understanding with advanced large language models",
+      "ENTRYTYPE": "article",
+      "ID": "zhu2023minigpt"
+    },
+    {
+      "year": "2023",
+      "pages": "34892--34916",
+      "booktitle": "NeurIPS",
+      "author": "Liu, Haotian and Li, Chunyuan and Wu, Qingyang and Lee, Yong Jae",
+      "title": "Visual instruction tuning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "liu2023visual"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2304.15010",
+      "author": "Gao, Peng and Han, Jiaming and Zhang, Renrui and Lin, Ziyi and Geng, Shijie and Zhou, Aojun and Zhang, Wei and Lu, Pan and He, Conghui and Yue, Xiangyu and others",
+      "title": "Llama-adapter v2: Parameter-efficient visual instruction model",
+      "ENTRYTYPE": "article",
+      "ID": "gao2023llama"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2310.16789",
+      "author": "Shi, Weijia and Ajith, Anirudh and Xia, Mengzhou and Huang, Yangsibo and Liu, Daogao and Blevins, Terra and Chen, Danqi and Zettlemoyer, Luke",
+      "title": "Detecting pretraining data from large language models",
+      "ENTRYTYPE": "article",
+      "ID": "shi2023detecting"
+    },
+    {
+      "year": "2024",
+      "booktitle": "ICLR",
+      "author": "Weijia Shi and Anirudh Ajith and Mengzhou Xia and Yangsibo Huang and Daogao Liu and Terra Blevins and Danqi Chen and Luke Zettlemoyer",
+      "title": "Detecting Pretraining Data from Large Language Models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "shi2024detecting"
+    },
+    {
+      "organization": "Springer",
+      "year": "2024",
+      "pages": "38--55",
+      "booktitle": "European Conference on Computer Vision",
+      "author": "Liu, Shilong and Zeng, Zhaoyang and Ren, Tianhe and Li, Feng and Zhang, Hao and Yang, Jie and Jiang, Qing and Li, Chunyuan and Yang, Jianwei and Su, Hang and others",
+      "title": "Grounding dino: Marrying dino with grounded pre-training for open-set object detection",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "liu2024grounding"
+    },
+    {
+      "year": "2023",
+      "pages": "4015--4026",
+      "booktitle": "ICCV",
+      "author": "Kirillov, Alexander and Mintun, Eric and Ravi, Nikhila and Mao, Hanzi and Rolland, Chloe and Gustafson, Laura and Xiao, Tete and Whitehead, Spencer and Berg, Alexander C and Lo, Wan-Yen and others",
+      "title": "Segment anything",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "kirillov2023segment"
+    },
+    {
+      "year": "2019",
+      "journal": "Proceedings on Privacy Enhancing Technologies",
+      "author": "Hilprecht, Benjamin and H{\\\"a}rterich, Martin and Bernau, Daniel",
+      "title": "Monte carlo and reconstruction membership inference attacks against generative models",
+      "ENTRYTYPE": "article",
+      "ID": "hilprecht2019monte"
+    },
+    {
+      "primaryclass": "cs.CR",
+      "archiveprefix": "arXiv",
+      "eprint": "2503.20800",
+      "year": "2025",
+      "author": "Qi Tao and Yin Jinhua and Cai Dongqi and Xie Yueqi and Wang Huili and Hu Zhiyang and Yang Peiru and Nan Guoshun and Zhou Zhili and Wang Shangguang and Lyu Lingjuan and Huang Yongfeng and Lane Nicholas",
+      "title": "Evidencing Unauthorized Training Data from AI Generated Content using Information Isotopes",
+      "ENTRYTYPE": "misc",
+      "ID": "tao2025evidencing"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2401.02797",
+      "author": "Liu, Gang and He, Jinlong and Li, Pengfei and He, Genrong and Chen, Zhaolin and Zhong, Shenjun",
+      "title": "PeFoMed: Parameter Efficient Fine-tuning of Multimodal Large Language Models for Medical Imaging",
+      "ENTRYTYPE": "article",
+      "ID": "liu2024pefomed"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2501.18624",
+      "author": "Hu, Yuke and Li, Zheng and Liu, Zhihao and Zhang, Yang and Qin, Zhan and Ren, Kui and Chen, Chun",
+      "title": "Membership Inference Attacks Against Vision-Language Models",
+      "ENTRYTYPE": "article",
+      "ID": "hu2025membership"
+    },
+    {
+      "organization": "Springer",
+      "year": "2020",
+      "pages": "519--535",
+      "booktitle": "Computer Vision--ECCV 2020: 16th European Conference, Glasgow, UK, August 23--28, 2020, Proceedings, Part XXIII 16",
+      "author": "He, Yang and Rahimian, Shadi and Schiele, Bernt and Fritz, Mario",
+      "title": "Segmentations-leak: Membership inference attacks and defenses in semantic image segmentation",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "he2020segmentations"
+    },
+    {
+      "year": "2024",
+      "pages": "1256--1270",
+      "booktitle": "Proceedings of the 2024 on ACM SIGSAC Conference on Computer and Communications Security",
+      "author": "Zhang, Qiankun and Yuan, Di and Zhang, Boyu and Yuan, Bin and Du, Bingqian",
+      "title": "Membership Inference Attacks against Vision Transformers: Mosaic MixUp Training to the Defense",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zhang2024membership"
+    },
+    {
+      "year": "2017",
+      "pages": "3--18",
+      "booktitle": "SP",
+      "author": "Shokri, Reza and Stronati, Marco and Song, Congzheng and Shmatikov, Vitaly",
+      "title": "Membership inference attacks against machine learning models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "shokri2017membership"
+    },
+    {
+      "organization": "IEEE",
+      "year": "2018",
+      "pages": "268--282",
+      "booktitle": "2018 IEEE 31st computer security foundations symposium (CSF)",
+      "author": "Yeom, Samuel and Giacomelli, Irene and Fredrikson, Matt and Jha, Somesh",
+      "title": "Privacy risk in machine learning: Analyzing the connection to overfitting",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "yeom2018privacy"
+    },
+    {
+      "year": "2018",
+      "journal": "arXiv preprint arXiv:1806.01246",
+      "author": "Salem, Ahmed and Zhang, Yang and Humbert, Mathias and Berrang, Pascal and Fritz, Mario and Backes, Michael",
+      "title": "Ml-leaks: Model and data independent membership inference attacks and defenses on machine learning models",
+      "ENTRYTYPE": "article",
+      "ID": "salem2018ml"
+    },
+    {
+      "year": "2020",
+      "pages": "343--362",
+      "booktitle": "Proceedings of the 2020 ACM SIGSAC conference on computer and communications security",
+      "author": "Chen, Dingfan and Yu, Ning and Zhang, Yang and Fritz, Mario",
+      "title": "Gan-leaks: A taxonomy of membership inference attacks against generative models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "chen2020gan"
+    },
+    {
+      "year": "2020",
+      "journal": "arXiv preprint arXiv:2001.04011",
+      "author": "Park, Yeachan and Kang, Myungjoo",
+      "title": "Membership inference attacks against object detection models",
+      "ENTRYTYPE": "article",
+      "ID": "park2020membership"
+    },
+    {
+      "organization": "IEEE",
+      "year": "2019",
+      "pages": "739--753",
+      "booktitle": "SP",
+      "author": "Nasr, Milad and Shokri, Reza and Houmansadr, Amir",
+      "title": "Comprehensive privacy analysis of deep learning: Passive and active white-box inference attacks against centralized and federated learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "nasr2019comprehensive"
+    },
+    {
+      "year": "2021",
+      "pages": "2615--2632",
+      "booktitle": "30th USENIX Security Symposium (USENIX Security 21)",
+      "author": "Song, Liwei and Mittal, Prateek",
+      "title": "Systematic evaluation of privacy risks of machine learning models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "song2021systematic"
+    },
+    {
+      "year": "2021",
+      "pages": "1964--1974",
+      "booktitle": "ICML",
+      "author": "Choquette-Choo, Christopher A and Tramer, Florian and Carlini, Nicholas and Papernot, Nicolas",
+      "title": "Label-only membership inference attacks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "choquette2021label"
+    },
+    {
+      "organization": "IEEE",
+      "year": "2023",
+      "pages": "77--83",
+      "booktitle": "2023 IEEE Security and Privacy Workshops (SPW)",
+      "author": "Matsumoto, Tomoya and Miura, Takayuki and Yanai, Naoto",
+      "title": "Membership inference attacks against diffusion models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "matsumoto2023membership"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2402.07841",
+      "author": "Duan, Michael and Suri, Anshuman and Mireshghallah, Niloofar and Min, Sewon and Shi, Weijia and Zettlemoyer, Luke and Tsvetkov, Yulia and Choi, Yejin and Evans, David and Hajishirzi, Hannaneh",
+      "title": "Do membership inference attacks work on large language models?",
+      "ENTRYTYPE": "article",
+      "ID": "duan2024membership"
+    },
+    {
+      "year": "2024",
+      "booktitle": "NeurIPS",
+      "author": "Fu, Wenjie and Wang, Huandong and Gao, Chen and Liu, Guanghua and Li, Yong and Jiang, Tao",
+      "title": "Membership Inference Attacks against Fine-tuned Large Language Models via Self-prompt Calibration",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "fu2024membership"
+    },
+    {
+      "organization": "IEEE",
+      "year": "2025",
+      "pages": "1--5",
+      "booktitle": "ICASSP 2025-2025 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+      "author": "Song, Zichen and Huang, Sitan and Kang, Zhongfeng",
+      "title": "Em-mias: Enhancing membership inference attacks in large language models through ensemble modeling",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "song2025mias"
+    },
+    {
+      "year": "2024",
+      "pages": "3481--3495",
+      "booktitle": "CCS",
+      "author": "Wen, Rui and Li, Zheng and Backes, Michael and Zhang, Yang",
+      "title": "Membership inference attacks against in-context learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "wen2024membership"
+    },
+    {
+      "year": "2021",
+      "pages": "2633--2650",
+      "booktitle": "USENIX Security",
+      "author": "Carlini, Nicholas and Tramer, Florian and Wallace, Eric and Jagielski, Matthew and Herbert-Voss, Ariel and Lee, Katherine and Roberts, Adam and Brown, Tom and Song, Dawn and Erlingsson, Ulfar and others",
+      "title": "Extracting training data from large language models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "carlini2021extracting"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2404.02936",
+      "author": "Zhang, Jingyang and Sun, Jingwei and Yeats, Eric and Ouyang, Yang and Kuo, Martin and Zhang, Jianyi and Yang, Hao Frank and Li, Hai",
+      "title": "Min-k\\%++: Improved baseline for detecting pre-training data from large language models",
+      "ENTRYTYPE": "article",
+      "ID": "zhang2024min"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2310.09266",
+      "author": "Kandpal, Nikhil and Pillutla, Krishna and Oprea, Alina and Kairouz, Peter and Choquette-Choo, Christopher A and Xu, Zheng",
+      "title": "User inference attacks on large language models",
+      "ENTRYTYPE": "article",
+      "ID": "kandpal2023user"
+    },
+    {
+      "year": "2023",
+      "booktitle": "ICLR",
+      "author": "Oren, Yonatan and Meister, Nicole and Chatterji, Niladri S and Ladhak, Faisal and Hashimoto, Tatsunori",
+      "title": "Proving test set contamination in black-box language models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "oren2023proving"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2411.00154",
+      "author": "Puerto, Haritz and Gubri, Martin and Yun, Sangdoo and Oh, Seong Joon",
+      "title": "Scaling Up Membership Inference: When and How Attacks Succeed on Large Language Models",
+      "ENTRYTYPE": "article",
+      "ID": "puerto2024scaling"
+    },
+    {
+      "year": "2024",
+      "pages": "98645--98674",
+      "booktitle": "NeurIPS",
+      "author": "Li, Zhan and Wu, Yongtao and Chen, Yihang and Tonin, Francesco and Abad Rocamora, Elias and Cevher, Volkan",
+      "title": "Membership inference attacks against large vision-language models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "li2024membership"
+    },
+    {
+      "year": "2025",
+      "pages": "186--206",
+      "booktitle": "ESORICS",
+      "author": "Ibanez-Lissen, Luis and Gonzalez-Manzano, Lorena and de Fuentes, Jose Maria and Anciaux, Nicolas and Garcia-Alfaro, Joaquin",
+      "title": "LUMIA: Linear probing for Unimodal and MultiModal Membership Inference Attacks leveraging internal LLM states",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ibanez2025lumia"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2502.17358",
+      "author": "Duarte, Andr{\\'e} V and Zhao, Xuandong and Oliveira, Arlindo L and Li, Lei",
+      "title": "DIS-CO: Discovering Copyrighted Content in VLMs Training Data",
+      "ENTRYTYPE": "article",
+      "ID": "duarte2025dis"
+    },
+    {
+      "year": "2023",
+      "pages": "4871--4881",
+      "booktitle": "ICCV",
+      "author": "Ko, Myeongseob and Jin, Ming and Wang, Chenguang and Jia, Ruoxi",
+      "title": "Practical membership inference attacks against large-scale multi-modal models: A pilot study",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "ko2023practical"
+    },
+    {
+      "year": "2022",
+      "pages": "1867--1882",
+      "booktitle": "NeurIPS",
+      "author": "Hu, Pingyi and Wang, Zihan and Sun, Ruoxi and Wang, Hu and Xue, Minhui",
+      "title": "M4I: Multi-modal Models Membership Inference",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "hu2022m"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2504.18349",
+      "author": "Zhu, Hongyu and Liang, Sichu and Wang, Wenwen and Li, Boheng and Yuan, Tongxin and Li, Fangqi and Wang, ShiLin and Zhang, Zhuosheng",
+      "title": "Revisiting Data Auditing in Large Vision-Language Models",
+      "ENTRYTYPE": "article",
+      "ID": "zhu2025revisiting"
+    },
+    {
+      "year": "2021",
+      "pages": "2081--2095",
+      "booktitle": "CCS",
+      "author": "Liu, Hongbin and Jia, Jinyuan and Qu, Wenjie and Gong, Neil Zhenqiang",
+      "title": "Encodermi: Membership inference against pre-trained encoders in contrastive learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "liu2021encodermi"
+    },
+    {
+      "year": "2025",
+      "journal": "arXiv preprint arXiv:2504.16072",
+      "author": "Lian, Long and Ding, Yifan and Ge, Yunhao and Liu, Sifei and Mao, Hanzi and Li, Boyi and Pavone, Marco and Liu, Ming-Yu and Darrell, Trevor and Yala, Adam and others",
+      "title": "Describe Anything: Detailed Localized Image and Video Captioning",
+      "ENTRYTYPE": "article",
+      "ID": "lian2025describe"
+    },
+    {
+      "year": "2024",
+      "pages": "62310--62333",
+      "booktitle": "NeurIPS",
+      "author": "Peng, Yuefeng and Roh, Jaechul and Maji, Subhransu and Houmansadr, Amir",
+      "title": "Oslo: one-shot label-only membership inference attacks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "nips2024oslo"
+    },
+    {
+      "year": "2023",
+      "pages": "5399--5409",
+      "booktitle": "MM",
+      "author": "Rao, Jiahua and Shan, Zifei and Liu, Longpo and Zhou, Yao and Yang, Yuedong",
+      "title": "Retrieval-based knowledge augmented vision language pre-training",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "mm23rka"
+    },
+    {
+      "pages": "23369-23379",
+      "year": "2023",
+      "title": "Reveal: Retrieval-Augmented Visual-Language Pre-Training with Multi-Source Multimodal Knowledge Memory",
+      "booktitle": "CVPR",
+      "author": "Hu, Ziniu and Iscen, Ahmet and Sun, Chen and Wang, Zirui and Chang, Kai-Wei and Sun, Yizhou and Schmid, Cordelia and Ross, David A. and Fathi, Alireza",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "cvpr23reveal"
+    },
+    {
+      "pages": "1897-1914",
+      "year": "2022",
+      "title": "Membership Inference Attacks From First Principles",
+      "booktitle": "SP",
+      "author": "Carlini, Nicholas and Chien, Steve and Nasr, Milad and Song, Shuang and Terzis, Andreas and Tramèr, Florian",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "SP22MIA"
+    },
+    {
+      "year": "2023",
+      "volume": "36",
+      "title": "Visual Instruction Tuning",
+      "publisher": "Curran Associates, Inc.",
+      "pages": "34892--34916",
+      "editor": "A. Oh and T. Naumann and A. Globerson and K. Saenko and M. Hardt and S. Levine",
+      "booktitle": "Advances in Neural Information Processing Systems",
+      "author": "Liu, Haotian and Li, Chunyuan and Wu, Qingyang and Lee, Yong Jae",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "nips23llava"
+    },
+    {
+      "year": "2024",
+      "pages": "26296--26306",
+      "booktitle": "CVPR",
+      "author": "Liu, Haotian and Li, Chunyuan and Li, Yuheng and Lee, Yong Jae",
+      "title": "Improved baselines with visual instruction tuning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "Liu_2024_CVPR"
+    },
+    {
+      "publisher": "ACM New York, NY",
+      "year": "2022",
+      "pages": "1--37",
+      "number": "11s",
+      "volume": "54",
+      "journal": "ACM Computing Surveys (CSUR)",
+      "author": "Hu, Hongsheng and Salcic, Zoran and Sun, Lichao and Dobbie, Gillian and Yu, Philip S and Zhang, Xuyun",
+      "title": "Membership inference attacks on machine learning: A survey",
+      "ENTRYTYPE": "article",
+      "ID": "hu2022membership"
+    },
+    {
+      "organization": "IEEE",
+      "year": "2022",
+      "pages": "1897--1914",
+      "booktitle": "2022 IEEE symposium on security and privacy (SP)",
+      "author": "Carlini, Nicholas and Chien, Steve and Nasr, Milad and Song, Shuang and Terzis, Andreas and Tramer, Florian",
+      "title": "Membership inference attacks from first principles",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "carlini2022membership"
+    },
+    {
+      "organization": "IEEE",
+      "year": "2021",
+      "pages": "11--20",
+      "booktitle": "TPS-ISA",
+      "author": "Olatunji, Iyiola E and Nejdl, Wolfgang and Khosla, Megha",
+      "title": "Membership inference attack on graph neural networks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "olatunji2021membership"
+    },
+    {
+      "year": "2024",
+      "pages": "30015--30040",
+      "booktitle": "NeurIPS",
+      "author": "Kokhlikyan, Narine and Jayaraman, Bargav and Bordes, Florian and Guo, Chuan and Chaudhuri, Kamalika",
+      "title": "Measuring dejavu memorization efficiently",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "nips24measure"
+    },
+    {
+      "year": "2016",
+      "pages": "601--618",
+      "booktitle": "USENIX Security",
+      "author": "Tram{\\`e}r, Florian and Zhang, Fan and Juels, Ari and Reiter, Michael K and Ristenpart, Thomas",
+      "title": "Stealing machine learning models via prediction $\\{$APIs$\\}$",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "tramer2016stealing"
+    },
+    {
+      "year": "2019",
+      "pages": "267--284",
+      "booktitle": "USENIX security",
+      "author": "Carlini, Nicholas and Liu, Chang and Erlingsson, {\\'U}lfar and Kos, Jernej and Song, Dawn",
+      "title": "The secret sharer: Evaluating and testing unintended memorization in neural networks",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "usenix2019"
+    },
+    {
+      "month": "August",
+      "publisher": "USENIX Association",
+      "pages": "2633--2650",
+      "isbn": "978-1-939133-24-3",
+      "year": "2021",
+      "booktitle": "30th USENIX Security Symposium (USENIX Security 21)",
+      "title": "Extracting Training Data from Large Language Models",
+      "author": "Nicholas Carlini and Florian Tram{\\`e}r and Eric Wallace and Matthew Jagielski and Ariel Herbert-Voss and Katherine Lee and Adam Roberts and Tom Brown and Dawn Song and {\\'U}lfar Erlingsson and Alina Oprea and Colin Raffel",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "usenix21extract"
+    },
+    {
+      "year": "2023",
+      "booktitle": "ICLR",
+      "title": "Can LLMs Keep a Secret? Testing Privacy  Implications of Language Models via Contextual Integrity Theory",
+      "author": "Mireshghallah, Niloofar and Kim, Hyunwoo and Zhou, Xuhui  and Tsvetkov, Yulia and Sap, Maarten and Shokri, Reza and Choi, Yejin",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "confaide2023"
+    }
+  ]
+}

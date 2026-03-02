@@ -1,0 +1,474 @@
+{
+  "pdf_url": "https://arxiv.org/pdf/2505.16640v1.pdf",
+  "references": [
+    {
+      "url": "https://arxiv.org/abs/2405.14093",
+      "primaryclass": "cs.RO",
+      "archiveprefix": "arXiv",
+      "eprint": "2405.14093",
+      "year": "2025",
+      "author": "Yueen Ma and Zixing Song and Yuzheng Zhuang and Jianye Hao and Irwin King",
+      "title": "A Survey on Vision-Language-Action Models for Embodied AI",
+      "ENTRYTYPE": "misc",
+      "ID": "ma2025surveyvisionlanguageactionmodelsembodied"
+    },
+    {
+      "publisher": "Nature Publishing Group UK London",
+      "year": "2022",
+      "pages": "3094",
+      "number": "1",
+      "volume": "13",
+      "journal": "Nature Communications",
+      "author": "Fei, Nanyi and Lu, Zhiwu and Gao, Yizhao and Yang, Guoxing and Huo, Yuqi and Wen, Jingyuan and Lu, Haoyu and Song, Ruihua and Gao, Xin and Xiang, Tao and others",
+      "title": "Towards artificial general intelligence via a multimodal foundation model",
+      "ENTRYTYPE": "article",
+      "ID": "fei2022towards"
+    },
+    {
+      "publisher": "SAGE Publications Sage UK: London, England",
+      "year": "2023",
+      "pages": "02783649241281508",
+      "journal": "The International Journal of Robotics Research",
+      "author": "Firoozi, Roya and Tucker, Johnathan and Tian, Stephen and Majumdar, Anirudha and Sun, Jiankai and Liu, Weiyu and Zhu, Yuke and Song, Shuran and Kapoor, Ashish and Hausman, Karol and others",
+      "title": "Foundation models in robotics: Applications, challenges, and the future",
+      "ENTRYTYPE": "article",
+      "ID": "firoozi2023foundation"
+    },
+    {
+      "url": "https://arxiv.org/abs/2406.09246",
+      "primaryclass": "cs.RO",
+      "archiveprefix": "arXiv",
+      "eprint": "2406.09246",
+      "year": "2024",
+      "author": "Moo Jin Kim and Karl Pertsch and Siddharth Karamcheti and Ted Xiao and Ashwin Balakrishna and Suraj Nair and Rafael Rafailov and Ethan Foster and Grace Lam and Pannag Sanketi and Quan Vuong and Thomas Kollar and Benjamin Burchfiel and Russ Tedrake and Dorsa Sadigh and Sergey Levine and Percy Liang and Chelsea Finn",
+      "title": "OpenVLA: An Open-Source Vision-Language-Action Model",
+      "ENTRYTYPE": "misc",
+      "ID": "kim2024openvlaopensourcevisionlanguageactionmodel"
+    },
+    {
+      "year": "2023",
+      "booktitle": "arXiv preprint arXiv:2307.15818",
+      "author": "Anthony Brohan and Noah Brown and Justice Carbajal and Yevgen Chebotar and Xi Chen and Krzysztof Choromanski and Tianli Ding and Danny Driess and Avinava Dubey and Chelsea Finn and Pete Florence and Chuyuan Fu and Montse Gonzalez Arenas and Keerthana Gopalakrishnan and Kehang Han and Karol Hausman and Alex Herzog and Jasmine Hsu and Brian Ichter and Alex Irpan and Nikhil Joshi and Ryan Julian and Dmitry Kalashnikov and Yuheng Kuang and Isabel Leal  and Lisa Lee and Tsang-Wei Edward Lee and Sergey Levine and Yao Lu and Henryk Michalewski and Igor Mordatch and Karl Pertsch and Kanishka Rao and Krista Reymann and Michael Ryoo and Grecia Salazar and Pannag Sanketi and Pierre Sermanet and Jaspiar Singh and Anikait Singh and Radu Soricut and Huong Tran and Vincent Vanhoucke and Quan Vuong and Ayzaan Wahid and Stefan Welker and Paul Wohlhart and  Jialin Wu and Fei Xia and Ted Xiao and Peng Xu and Sichun Xu and Tianhe Yu and Brianna Zitkovich",
+      "title": "RT-2: Vision-Language-Action Models Transfer Web Knowledge to Robotic Control",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "rt22023arxiv"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2405.12213",
+      "author": "Team, Octo Model and Ghosh, Dibya and Walke, Homer and Pertsch, Karl and Black, Kevin and Mees, Oier and Dasari, Sudeep and Hejna, Joey and Kreiman, Tobias and Xu, Charles and others",
+      "title": "Octo: An open-source generalist robot policy",
+      "ENTRYTYPE": "article",
+      "ID": "team2024octo"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2406.18844",
+      "author": "Liang, Siyuan and Liang, Jiawei and Pang, Tianyu and Du, Chao and Liu, Aishan and Chang, Ee-Chien and Cao, Xiaochun",
+      "title": "Revisiting backdoor attacks against large vision-language models",
+      "ENTRYTYPE": "article",
+      "ID": "liang2024revisiting"
+    },
+    {
+      "year": "2017",
+      "volume": "30",
+      "journal": "Advances in neural information processing systems",
+      "author": "Steinhardt, Jacob and Koh, Pang Wei W and Liang, Percy S",
+      "title": "Certified defenses for data poisoning attacks",
+      "ENTRYTYPE": "article",
+      "ID": "steinhardt2017certified"
+    },
+    {
+      "year": "2017",
+      "journal": "arXiv preprint arXiv:1712.05526",
+      "author": "Chen, Xinyun and Liu, Chang and Li, Bo and Lu, Kimberly and Song, Dawn",
+      "title": "Targeted backdoor attacks on deep learning systems using data poisoning",
+      "ENTRYTYPE": "article",
+      "ID": "chen2017targeted"
+    },
+    {
+      "url": "https://arxiv.org/abs/2410.24164",
+      "primaryclass": "cs.LG",
+      "archiveprefix": "arXiv",
+      "eprint": "2410.24164",
+      "year": "2024",
+      "author": "Kevin Black and Noah Brown and Danny Driess and Adnan Esmail and Michael Equi and Chelsea Finn and Niccolo Fusai and Lachy Groom and Karol Hausman and Brian Ichter and Szymon Jakubczak and Tim Jones and Liyiming Ke and Sergey Levine and Adrian Li-Bell and Mohith Mothukuri and Suraj Nair and Karl Pertsch and Lucy Xiaoyang Shi and James Tanner and Quan Vuong and Anna Walling and Haohuan Wang and Ury Zhilinsky",
+      "title": "$\\pi_0$: A Vision-Language-Action Flow Model for General Robot Control",
+      "ENTRYTYPE": "misc",
+      "ID": "black2024pi0visionlanguageactionflowmodel"
+    },
+    {
+      "url": "https://arxiv.org/abs/2411.13587",
+      "primaryclass": "cs.RO",
+      "archiveprefix": "arXiv",
+      "eprint": "2411.13587",
+      "year": "2025",
+      "author": "Taowen Wang and Cheng Han and James Chenhao Liang and Wenhao Yang and Dongfang Liu and Luna Xinyu Zhang and Qifan Wang and Jiebo Luo and Ruixiang Tang",
+      "title": "Exploring the Adversarial Vulnerabilities of Vision-Language-Action Models in Robotics",
+      "ENTRYTYPE": "misc",
+      "ID": "wang2025exploringadversarialvulnerabilitiesvisionlanguageaction"
+    },
+    {
+      "url": "https://arxiv.org/abs/2411.18275",
+      "primaryclass": "cs.CV",
+      "archiveprefix": "arXiv",
+      "eprint": "2411.18275",
+      "year": "2024",
+      "author": "Tianyuan Zhang and Lu Wang and Xinwei Zhang and Yitong Zhang and Boyi Jia and Siyuan Liang and Shengshan Hu and Qiang Fu and Aishan Liu and Xianglong Liu",
+      "title": "Visual Adversarial Attack on Vision-Language Models for Autonomous Driving",
+      "ENTRYTYPE": "misc",
+      "ID": "zhang2024visualadversarialattackvisionlanguage"
+    },
+    {
+      "publisher": "Springer",
+      "year": "2025",
+      "pages": "1--20",
+      "journal": "International Journal of Computer Vision",
+      "author": "Liang, Jiawei and Liang, Siyuan and Liu, Aishan and Cao, Xiaochun",
+      "title": "Vl-trojan: Multimodal instruction backdoor attacks against autoregressive visual language models",
+      "ENTRYTYPE": "article",
+      "ID": "liang2025vl"
+    },
+    {
+      "year": "2024",
+      "pages": "arXiv--2406",
+      "journal": "arXiv e-prints",
+      "author": "Wu, Chen Henry and Koh, Jing Yu and Salakhutdinov, Ruslan and Fried, Daniel and Raghunathan, Aditi",
+      "title": "Adversarial attacks on multimodal agents",
+      "ENTRYTYPE": "article",
+      "ID": "wu2024adversarial"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2410.07283",
+      "author": "Lee, Donghyun and Tiwari, Mo",
+      "title": "Prompt infection: Llm-to-llm prompt injection within multi-agent systems",
+      "ENTRYTYPE": "article",
+      "ID": "lee2024prompt"
+    },
+    {
+      "url": "https://arxiv.org/abs/2501.15830",
+      "primaryclass": "cs.RO",
+      "archiveprefix": "arXiv",
+      "eprint": "2501.15830",
+      "year": "2025",
+      "author": "Delin Qu and Haoming Song and Qizhi Chen and Yuanqi Yao and Xinyi Ye and Yan Ding and Zhigang Wang and JiaYuan Gu and Bin Zhao and Dong Wang and Xuelong Li",
+      "title": "SpatialVLA: Exploring Spatial Representations for Visual-Language-Action Model",
+      "ENTRYTYPE": "misc",
+      "ID": "qu2025spatialvlaexploringspatialrepresentations"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "2019",
+      "pages": "47230--47244",
+      "volume": "7",
+      "journal": "IEEE Access",
+      "author": "Gu, Tianyu and Liu, Kang and Dolan-Gavitt, Brendan and Garg, Siddharth",
+      "title": "Badnets: Evaluating backdooring attacks on deep neural networks",
+      "ENTRYTYPE": "article",
+      "ID": "gu2019badnets"
+    },
+    {
+      "organization": "IEEE",
+      "year": "2017",
+      "pages": "1195--1200",
+      "booktitle": "2017 IEEE International Conference on Data Mining (ICDM)",
+      "author": "Zhang, Wei and Feng, Minwei and Zheng, Yunhui and Ren, Yufei and Wang, Yandong and Liu, Ji and Liu, Peng and Xiang, Bing and Zhang, Li and Zhou, Bowen and others",
+      "title": "Gadei: On scale-up training as a service for deep learning",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zhang2017gadei"
+    },
+    {
+      "organization": "Springer",
+      "year": "2024",
+      "pages": "467--483",
+      "booktitle": "European Conference on Computer Vision",
+      "author": "Lyu, Weimin and Pang, Lu and Ma, Tengfei and Ling, Haibin and Chen, Chao",
+      "title": "Trojvlm: Backdoor attack against vision language models",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "lyu2024trojvlm"
+    },
+    {
+      "url": "https://arxiv.org/abs/2407.07403",
+      "primaryclass": "cs.CV",
+      "archiveprefix": "arXiv",
+      "eprint": "2407.07403",
+      "year": "2024",
+      "author": "Daizong Liu and Mingyu Yang and Xiaoye Qu and Pan Zhou and Yu Cheng and Wei Hu",
+      "title": "A Survey of Attacks on Large Vision-Language Models: Resources, Advances, and Future Trends",
+      "ENTRYTYPE": "misc",
+      "ID": "liu2024surveyattackslargevisionlanguage"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2312.01886",
+      "author": "Wang, Xunguang and Ji, Zhenlan and Ma, Pingchuan and Li, Zongjie and Wang, Shuai",
+      "title": "Instructta: Instruction-tuned targeted attack for large vision-language models",
+      "ENTRYTYPE": "article",
+      "ID": "wang2023instructta"
+    },
+    {
+      "url": "https://arxiv.org/abs/2409.13174",
+      "primaryclass": "cs.CV",
+      "archiveprefix": "arXiv",
+      "eprint": "2409.13174",
+      "year": "2024",
+      "author": "Hao Cheng and Erjia Xiao and Chengyuan Yu and Zhao Yao and Jiahang Cao and Qiang Zhang and Jiaxu Wang and Mengshu Sun and Kaidi Xu and Jindong Gu and Renjing Xu",
+      "title": "Manipulation Facing Threats: Evaluating Physical Vulnerabilities in End-to-End Vision Language Action Models",
+      "ENTRYTYPE": "misc",
+      "ID": "cheng2024manipulationfacingthreatsevaluating"
+    },
+    {
+      "year": "2023",
+      "pages": "44776--44791",
+      "volume": "36",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Liu, Bo and Zhu, Yifeng and Gao, Chongkai and Feng, Yihao and Liu, Qiang and Zhu, Yuke and Stone, Peter",
+      "title": "Libero: Benchmarking knowledge transfer for lifelong robot learning",
+      "ENTRYTYPE": "article",
+      "ID": "liu2023libero"
+    },
+    {
+      "url": "https://arxiv.org/abs/2406.12814",
+      "primaryclass": "cs.LG",
+      "archiveprefix": "arXiv",
+      "eprint": "2406.12814",
+      "year": "2025",
+      "author": "Chen Henry Wu and Rishi Shah and Jing Yu Koh and Ruslan Salakhutdinov and Daniel Fried and Aditi Raghunathan",
+      "title": "Dissecting Adversarial Robustness of Multimodal LM Agents",
+      "ENTRYTYPE": "misc",
+      "ID": "wu2025dissectingadversarialrobustnessmultimodal"
+    },
+    {
+      "url": "https://arxiv.org/abs/1910.11099",
+      "primaryclass": "cs.CV",
+      "archiveprefix": "arXiv",
+      "eprint": "1910.11099",
+      "year": "2020",
+      "author": "Kaidi Xu and Gaoyuan Zhang and Sijia Liu and Quanfu Fan and Mengshu Sun and Hongge Chen and Pin-Yu Chen and Yanzhi Wang and Xue Lin",
+      "title": "Adversarial T-shirt! Evading Person Detectors in A Physical World",
+      "ENTRYTYPE": "misc",
+      "ID": "xu2020adversarialtshirtevadingperson"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2311.01378",
+      "author": "Li, Xinghang and Liu, Minghuan and Zhang, Hanbo and Yu, Cunjun and Xu, Jie and Wu, Hongtao and Cheang, Chilam and Jing, Ya and Zhang, Weinan and Liu, Huaping and others",
+      "title": "Vision-language foundation models as effective robot imitators",
+      "ENTRYTYPE": "article",
+      "ID": "li2023vision"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "2022",
+      "pages": "46--64",
+      "number": "2",
+      "volume": "29",
+      "journal": "IEEE Robotics \\& Automation Magazine",
+      "author": "Haddadin, Sami and Parusel, Sven and Johannsmeier, Lars and Golz, Saskia and Gabl, Simon and Walch, Florian and Sabaghian, Mohamadreza and J{\\\"a}hne, Christoph and Hausperger, Lukas and Haddadin, Simon",
+      "title": "The franka emika robot: A reference platform for robotics research and education",
+      "ENTRYTYPE": "article",
+      "ID": "haddadin2022franka"
+    },
+    {
+      "publisher": "Springer",
+      "year": "2023",
+      "pages": "20402--20417",
+      "number": "17",
+      "volume": "53",
+      "journal": "Applied Intelligence",
+      "author": "Xue, Mingfu and Wang, Xin and Sun, Shichang and Zhang, Yushu and Wang, Jian and Liu, Weiqiang",
+      "title": "Compression-resistant backdoor attack against deep neural networks",
+      "ENTRYTYPE": "article",
+      "ID": "xue2023compression"
+    },
+    {
+      "year": "2022",
+      "pages": "11947--11959",
+      "volume": "35",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Liu, Tian Yu and Yang, Yu and Mirzasoleiman, Baharan",
+      "title": "Friendly noise against adversarial noise: a powerful defense against data poisoning attack",
+      "ENTRYTYPE": "article",
+      "ID": "liu2022friendly"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2411.11683",
+      "author": "Wang, Xianlong and Pan, Hewen and Zhang, Hangtao and Li, Minghui and Hu, Shengshan and Zhou, Ziqi and Xue, Lulu and Guo, Peijin and Wang, Yichen and Wan, Wei and others",
+      "title": "TrojanRobot: Physical-World Backdoor Attacks Against VLM-based Robotic Manipulation",
+      "ENTRYTYPE": "article",
+      "ID": "wang2024trojanrobot"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "2022",
+      "pages": "5--22",
+      "number": "1",
+      "volume": "35",
+      "journal": "IEEE transactions on neural networks and learning systems",
+      "author": "Li, Yiming and Jiang, Yong and Li, Zhifeng and Xia, Shu-Tao",
+      "title": "Backdoor learning: A survey",
+      "ENTRYTYPE": "article",
+      "ID": "li2022backdoor"
+    },
+    {
+      "year": "2021",
+      "journal": "arXiv preprint arXiv:2109.13396",
+      "author": "Ebert, Frederik and Yang, Yanlai and Schmeckpeper, Karl and Bucher, Bernadette and Georgakis, Georgios and Daniilidis, Kostas and Finn, Chelsea and Levine, Sergey",
+      "title": "Bridge data: Boosting generalization of robotic skills with cross-domain datasets",
+      "ENTRYTYPE": "article",
+      "ID": "ebert2021bridge"
+    },
+    {
+      "year": "2023",
+      "howpublished": "\\url{https://arxiv.org/abs/2310.08864}",
+      "author": "Open X-Embodiment Collaboration and Abby O'Neill and Abdul Rehman and Abhinav Gupta and Abhiram Maddukuri and Abhishek Gupta and Abhishek Padalkar and Abraham Lee and Acorn Pooley and Agrim Gupta and Ajay Mandlekar and Ajinkya Jain and Albert Tung and Alex Bewley and Alex Herzog and Alex Irpan and Alexander Khazatsky and Anant Rai and Anchit Gupta and Andrew Wang and Andrey Kolobov and Anikait Singh and Animesh Garg and Aniruddha Kembhavi and Annie Xie and Anthony Brohan and Antonin Raffin and Archit Sharma and Arefeh Yavary and Arhan Jain and Ashwin Balakrishna and Ayzaan Wahid and Ben Burgess-Limerick and Beomjoon Kim and Bernhard Schölkopf and Blake Wulfe and Brian Ichter and Cewu Lu and Charles Xu and Charlotte Le and Chelsea Finn and Chen Wang and Chenfeng Xu and Cheng Chi and Chenguang Huang and Christine Chan and Christopher Agia and Chuer Pan and Chuyuan Fu and Coline Devin and Danfei Xu and Daniel Morton and Danny Driess and Daphne Chen and Deepak Pathak and Dhruv Shah and Dieter Büchler and Dinesh Jayaraman and Dmitry Kalashnikov and Dorsa Sadigh and Edward Johns and Ethan Foster and Fangchen Liu and Federico Ceola and Fei Xia and Feiyu Zhao and Felipe Vieira Frujeri and Freek Stulp and Gaoyue Zhou and Gaurav S. Sukhatme and Gautam Salhotra and Ge Yan and Gilbert Feng and Giulio Schiavi and Glen Berseth and Gregory Kahn and Guangwen Yang and Guanzhi Wang and Hao Su and Hao-Shu Fang and Haochen Shi and Henghui Bao and Heni Ben Amor and Henrik I Christensen and Hiroki Furuta and Homanga Bharadhwaj and Homer Walke and Hongjie Fang and Huy Ha and Igor Mordatch and Ilija Radosavovic and Isabel Leal and Jacky Liang and Jad Abou-Chakra and Jaehyung Kim and Jaimyn Drake and Jan Peters and Jan Schneider and Jasmine Hsu and Jay Vakil and Jeannette Bohg and Jeffrey Bingham and Jeffrey Wu and Jensen Gao and Jiaheng Hu and Jiajun Wu and Jialin Wu and Jiankai Sun and Jianlan Luo and Jiayuan Gu and Jie Tan and Jihoon Oh and Jimmy Wu and Jingpei Lu and Jingyun Yang and Jitendra Malik and João Silvério and Joey Hejna and Jonathan Booher and Jonathan Tompson and Jonathan Yang and Jordi Salvador and Joseph J. Lim and Junhyek Han and Kaiyuan Wang and Kanishka Rao and Karl Pertsch and Karol Hausman and Keegan Go and Keerthana Gopalakrishnan and Ken Goldberg and Kendra Byrne and Kenneth Oslund and Kento Kawaharazuka and Kevin Black and Kevin Lin and Kevin Zhang and Kiana Ehsani and Kiran Lekkala and Kirsty Ellis and Krishan Rana and Krishnan Srinivasan and Kuan Fang and Kunal Pratap Singh and Kuo-Hao Zeng and Kyle Hatch and Kyle Hsu and Laurent Itti and Lawrence Yunliang Chen and Lerrel Pinto and Li Fei-Fei and Liam Tan and Linxi \"Jim\" Fan and Lionel Ott and Lisa Lee and Luca Weihs and Magnum Chen and Marion Lepert and Marius Memmel and Masayoshi Tomizuka and Masha Itkina and Mateo Guaman Castro and Max Spero and Maximilian Du and Michael Ahn and Michael C. Yip and Mingtong Zhang and Mingyu Ding and Minho Heo and Mohan Kumar Srirama and Mohit Sharma and Moo Jin Kim and Muhammad Zubair Irshad and Naoaki Kanazawa and Nicklas Hansen and Nicolas Heess and Nikhil J Joshi and Niko Suenderhauf and Ning Liu and Norman Di Palo and Nur Muhammad Mahi Shafiullah and Oier Mees and Oliver Kroemer and Osbert Bastani and Pannag R Sanketi and Patrick \"Tree\" Miller and Patrick Yin and Paul Wohlhart and Peng Xu and Peter David Fagan and Peter Mitrano and Pierre Sermanet and Pieter Abbeel and Priya Sundaresan and Qiuyu Chen and Quan Vuong and Rafael Rafailov and Ran Tian and Ria Doshi and Roberto Mart{'i}n-Mart{'i}n and Rohan Baijal and Rosario Scalise and Rose Hendrix and Roy Lin and Runjia Qian and Ruohan Zhang and Russell Mendonca and Rutav Shah and Ryan Hoque and Ryan Julian and Samuel Bustamante and Sean Kirmani and Sergey Levine and Shan Lin and Sherry Moore and Shikhar Bahl and Shivin Dass and Shubham Sonawani and Shubham Tulsiani and Shuran Song and Sichun Xu and Siddhant Haldar and Siddharth Karamcheti and Simeon Adebola and Simon Guist and Soroush Nasiriany and Stefan Schaal and Stefan Welker and Stephen Tian and Subramanian Ramamoorthy and Sudeep Dasari and Suneel Belkhale and Sungjae Park and Suraj Nair and Suvir Mirchandani and Takayuki Osa and Tanmay Gupta and Tatsuya Harada and Tatsuya Matsushima and Ted Xiao and Thomas Kollar and Tianhe Yu and Tianli Ding and Todor Davchev and Tony Z. Zhao and Travis Armstrong and Trevor Darrell and Trinity Chung and Vidhi Jain and Vikash Kumar and Vincent Vanhoucke and Vitor Guizilini and Wei Zhan and Wenxuan Zhou and Wolfram Burgard and Xi Chen and Xiangyu Chen and Xiaolong Wang and Xinghao Zhu and Xinyang Geng and Xiyuan Liu and Xu Liangwei and Xuanlin Li and Yansong Pang and Yao Lu and Yecheng Jason Ma and Yejin Kim and Yevgen Chebotar and Yifan Zhou and Yifeng Zhu and Yilin Wu and Ying Xu and Yixuan Wang and Yonatan Bisk and Yongqiang Dou and Yoonyoung Cho and Youngwoon Lee and Yuchen Cui and Yue Cao and Yueh-Hua Wu and Yujin Tang and Yuke Zhu and Yunchu Zhang and Yunfan Jiang and Yunshuang Li and Yunzhu Li and Yusuke Iwasawa and Yutaka Matsuo and Zehan Ma and Zhuo Xu and Zichen Jeff Cui and Zichen Zhang and Zipeng Fu and Zipeng Lin",
+      "title": "Open {X-E}mbodiment: Robotic Learning Datasets and {RT-X} Models",
+      "ENTRYTYPE": "misc",
+      "ID": "open_x_embodiment_rt_x_2023"
+    },
+    {
+      "url": "https://arxiv.org/abs/2307.09288",
+      "primaryclass": "cs.CL",
+      "archiveprefix": "arXiv",
+      "eprint": "2307.09288",
+      "year": "2023",
+      "author": "Hugo Touvron and Louis Martin and Kevin Stone and Peter Albert and Amjad Almahairi and Yasmine Babaei and Nikolay Bashlykov and Soumya Batra and Prajjwal Bhargava and Shruti Bhosale and Dan Bikel and Lukas Blecher and Cristian Canton Ferrer and Moya Chen and Guillem Cucurull and David Esiobu and Jude Fernandes and Jeremy Fu and Wenyin Fu and Brian Fuller and Cynthia Gao and Vedanuj Goswami and Naman Goyal and Anthony Hartshorn and Saghar Hosseini and Rui Hou and Hakan Inan and Marcin Kardas and Viktor Kerkez and Madian Khabsa and Isabel Kloumann and Artem Korenev and Punit Singh Koura and Marie-Anne Lachaux and Thibaut Lavril and Jenya Lee and Diana Liskovich and Yinghai Lu and Yuning Mao and Xavier Martinet and Todor Mihaylov and Pushkar Mishra and Igor Molybog and Yixin Nie and Andrew Poulton and Jeremy Reizenstein and Rashi Rungta and Kalyan Saladi and Alan Schelten and Ruan Silva and Eric Michael Smith and Ranjan Subramanian and Xiaoqing Ellen Tan and Binh Tang and Ross Taylor and Adina Williams and Jian Xiang Kuan and Puxin Xu and Zheng Yan and Iliyan Zarov and Yuchen Zhang and Angela Fan and Melanie Kambadur and Sharan Narang and Aurelien Rodriguez and Robert Stojnic and Sergey Edunov and Thomas Scialom",
+      "title": "Llama 2: Open Foundation and Fine-Tuned Chat Models",
+      "ENTRYTYPE": "misc",
+      "ID": "touvron2023llama2openfoundation"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2405.13581",
+      "author": "Liu, Zhendong and Nie, Yuanbi and Tan, Yingshui and Yue, Xiangyu and Cui, Qiushi and Wang, Chongjun and Zhu, Xiaoyong and Zheng, Bo",
+      "title": "Safety alignment for vision language models",
+      "ENTRYTYPE": "article",
+      "ID": "liu2024safety"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2404.19287",
+      "author": "Zhou, Wanqi and Bai, Shuanghao and Mandic, Danilo P and Zhao, Qibin and Chen, Badong",
+      "title": "Revisiting the adversarial robustness of vision language models: a multimodal perspective",
+      "ENTRYTYPE": "article",
+      "ID": "zhou2024revisiting"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2410.09047",
+      "author": "Liu, Qin and Shang, Chao and Liu, Ling and Pappas, Nikolaos and Ma, Jie and John, Neha Anna and Doss, Srikanth and Marquez, Lluis and Ballesteros, Miguel and Benajiba, Yassine",
+      "title": "Unraveling and mitigating safety alignment degradation of vision-language models",
+      "ENTRYTYPE": "article",
+      "ID": "liu2024unraveling"
+    },
+    {
+      "publisher": "IEEE",
+      "year": "2024",
+      "journal": "IEEE Transactions on Image Processing",
+      "author": "Zhang, Zheng and Yuan, Xu and Zhu, Lei and Song, Jingkuan and Nie, Liqiang",
+      "title": "BadCM: Invisible backdoor attack against cross-modal learning",
+      "ENTRYTYPE": "article",
+      "ID": "zhang2024badcm"
+    },
+    {
+      "publisher": "ACM New York, NY",
+      "year": "2024",
+      "pages": "1--27",
+      "number": "4",
+      "volume": "42",
+      "journal": "ACM Transactions on Information Systems",
+      "author": "Wang, Tianshi and Li, Fengling and Zhu, Lei and Li, Jingjing and Zhang, Zheng and Shen, Heng Tao",
+      "title": "Invisible black-box backdoor attack against deep cross-modal hashing retrieval",
+      "ENTRYTYPE": "article",
+      "ID": "wang2024invisible"
+    },
+    {
+      "url": "https://arxiv.org/abs/2212.03813",
+      "primaryclass": "cs.CL",
+      "archiveprefix": "arXiv",
+      "eprint": "2212.03813",
+      "year": "2023",
+      "author": "Jiasheng Gu and Hongyu Zhao and Hanzi Xu and Liangyu Nie and Hongyuan Mei and Wenpeng Yin",
+      "title": "Robustness of Learning from Task Instructions",
+      "ENTRYTYPE": "misc",
+      "ID": "gu2023robustnesslearningtaskinstructions"
+    },
+    {
+      "url": "https://arxiv.org/abs/2305.18565",
+      "primaryclass": "cs.CV",
+      "archiveprefix": "arXiv",
+      "eprint": "2305.18565",
+      "year": "2023",
+      "author": "Xi Chen and Josip Djolonga and Piotr Padlewski and Basil Mustafa and Soravit Changpinyo and Jialin Wu and Carlos Riquelme Ruiz and Sebastian Goodman and Xiao Wang and Yi Tay and Siamak Shakeri and Mostafa Dehghani and Daniel Salz and Mario Lucic and Michael Tschannen and Arsha Nagrani and Hexiang Hu and Mandar Joshi and Bo Pang and Ceslee Montgomery and Paulina Pietrzyk and Marvin Ritter and AJ Piergiovanni and Matthias Minderer and Filip Pavetic and Austin Waters and Gang Li and Ibrahim Alabdulmohsin and Lucas Beyer and Julien Amelot and Kenton Lee and Andreas Peter Steiner and Yang Li and Daniel Keysers and Anurag Arnab and Yuanzhong Xu and Keran Rong and Alexander Kolesnikov and Mojtaba Seyedhosseini and Anelia Angelova and Xiaohua Zhai and Neil Houlsby and Radu Soricut",
+      "title": "PaLI-X: On Scaling up a Multilingual Vision and Language Model",
+      "ENTRYTYPE": "misc",
+      "ID": "chen2023palixscalingmultilingualvision"
+    },
+    {
+      "url": "https://arxiv.org/abs/2303.03378",
+      "primaryclass": "cs.LG",
+      "archiveprefix": "arXiv",
+      "eprint": "2303.03378",
+      "year": "2023",
+      "author": "Danny Driess and Fei Xia and Mehdi S. M. Sajjadi and Corey Lynch and Aakanksha Chowdhery and Brian Ichter and Ayzaan Wahid and Jonathan Tompson and Quan Vuong and Tianhe Yu and Wenlong Huang and Yevgen Chebotar and Pierre Sermanet and Daniel Duckworth and Sergey Levine and Vincent Vanhoucke and Karol Hausman and Marc Toussaint and Klaus Greff and Andy Zeng and Igor Mordatch and Pete Florence",
+      "title": "PaLM-E: An Embodied Multimodal Language Model",
+      "ENTRYTYPE": "misc",
+      "ID": "driess2023palmeembodiedmultimodallanguage"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2410.15863",
+      "author": "Guran, Nurhan Bulus and Ren, Hanchi and Deng, Jingjing and Xie, Xianghua",
+      "title": "Task-oriented robotic manipulation with vision language models",
+      "ENTRYTYPE": "article",
+      "ID": "guran2024task"
+    },
+    {
+      "year": "2024",
+      "pages": "40085--40110",
+      "volume": "37",
+      "journal": "Advances in Neural Information Processing Systems",
+      "author": "Liu, Jiaming and Liu, Mengzhen and Wang, Zhenyu and An, Pengju and Li, Xiaoqi and Zhou, Kaichen and Yang, Senqiao and Zhang, Renrui and Guo, Yandong and Zhang, Shanghang",
+      "title": "Robomamba: Efficient vision-language-action model for robotic reasoning and manipulation",
+      "ENTRYTYPE": "article",
+      "ID": "liu2024robomamba"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2411.05821",
+      "author": "Guruprasad, Pranav and Sikka, Harshvardhan and Song, Jaewoo and Wang, Yangyue and Liang, Paul Pu",
+      "title": "Benchmarking Vision, Language, \\& Action Models on Robotic Learning Tasks",
+      "ENTRYTYPE": "article",
+      "ID": "guruprasad2024benchmarking"
+    },
+    {
+      "url": "https://arxiv.org/abs/2210.02747",
+      "primaryclass": "cs.LG",
+      "archiveprefix": "arXiv",
+      "eprint": "2210.02747",
+      "year": "2023",
+      "author": "Yaron Lipman and Ricky T. Q. Chen and Heli Ben-Hamu and Maximilian Nickel and Matt Le",
+      "title": "Flow Matching for Generative Modeling",
+      "ENTRYTYPE": "misc",
+      "ID": "lipman2023flowmatchinggenerativemodeling"
+    },
+    {
+      "year": "2023",
+      "journal": "arXiv preprint arXiv:2307.00595",
+      "author": "Fang, Hao-Shu and Fang, Hongjie and Tang, Zhenyu and Liu, Jirong and Wang, Chenxi and Wang, Junbo and Zhu, Haoyi and Lu, Cewu",
+      "title": "Rh20t: A comprehensive robotic dataset for learning diverse skills in one-shot",
+      "ENTRYTYPE": "article",
+      "ID": "fang2023rh20t"
+    },
+    {
+      "year": "2024",
+      "journal": "arXiv preprint arXiv:2405.13034",
+      "author": "Pei, Jiahuan and Viola, Irene and Huang, Haochen and Wang, Junxiao and Ahsan, Moonisa and Ye, Fanghua and Yiming, Jiang and Sai, Yao and Wang, Di and Chen, Zhumin and others",
+      "title": "Autonomous workflow for multimodal fine-grained training assistants towards mixed reality",
+      "ENTRYTYPE": "article",
+      "ID": "pei2024autonomous"
+    }
+  ]
+}
