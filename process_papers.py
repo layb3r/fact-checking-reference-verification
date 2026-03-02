@@ -239,3 +239,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+# create .bbl:
+# !pdflatex main.tex
+# !bibtex main
