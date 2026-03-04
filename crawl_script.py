@@ -58,9 +58,9 @@ def download_from_arxiv(paper_title, download_dir):
             cleaned_title = clean_filename(paper_title)
 
             # Download PDF
-            pdf_path = os.path.join(download_dir, f"{cleaned_title}.pdf")
-            first_result.download_pdf(dirpath=download_dir, filename=f"{cleaned_title}.pdf")
-            logging.info(f"Downloaded PDF to: {pdf_path}")
+            # pdf_path = os.path.join(download_dir, f"{cleaned_title}.pdf")
+            # first_result.download_pdf(dirpath=download_dir, filename=f"{cleaned_title}.pdf")
+            # logging.info(f"Downloaded PDF to: {pdf_path}")
 
             # Download TeX source
             # source_path = os.path.join(download_dir, f"{cleaned_title}_source.tar.gz")
