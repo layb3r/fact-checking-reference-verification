@@ -1,0 +1,21 @@
+Crawl Summary — 20260305_214804
+============================================================
+
+Total papers collected : 907
+Papers with arXiv URL  : 907
+
+── By Field ──
+  Biology                   total= 114  arxiv= 114
+  Chemistry                 total= 100  arxiv= 100
+  Computer Science          total= 300  arxiv= 300
+  Geology                   total=  99  arxiv=  99
+  Materials Science         total=  99  arxiv=  99
+  Medicine                  total=  27  arxiv=  27
+  Physics                   total= 100  arxiv= 100
+  Psychology                total=  68  arxiv=  68
+
+── By Source API ──
+  arXiv                     907
+
+── arXiv papers with journal_ref ──
+  907 arXiv papers carry a journal_ref
