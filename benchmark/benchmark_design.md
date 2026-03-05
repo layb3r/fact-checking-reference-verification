@@ -17,34 +17,27 @@ Given a claim and its cited reference, determine whether the citation exists and
     
     2. Claim-citation alignment label (multi-class classification, ordinal scale from most to least supportive):
         - 0: supported (fully aligned): Citation claim is fully supported by the reference
-        - 1: partially supported (partially aligned): Citation claim has partial support with some discrepancies
-        - 2: unsupported (misaligned): Citation claim contradicts or is not supported by the reference
-        - 3: uncertain (ambiguous alignment): Insufficient information to determine support level
+        - 1: unsupported (misaligned): Citation claim contradicts or is not supported by the reference
+        - 2: uncertain (ambiguous alignment): Insufficient information to determine support level
 
     3. (Optional) Explanation: A natural language explanation justifying the existence and alignment labels, highlighting key evidence from the cited reference that supports the model's decision.
 
 - Output Workflow: 
-    - When predicted_existence=1: Model must output an alignment label (0-3)
+    - When predicted_existence=1: Model must output an alignment label (0-2)
     - When predicted_existence=0: Model outputs N/A or null for alignment (no alignment check needed)
 
 ## Data Instance Definition
 Each data instance consists of:
 - Inputs:
     - Claim: A statement that is being evaluated for trustworthiness.
-    - Cited Reference Metadata: Structured information about the cited reference, including:
-        - Title
-        - Authors
-        - Publication Year
-        - Journal/Conference Name
-        - DOI (if available)
-        - ...
-    - Citation Context: Relevant text snippets from the cited reference that are pertinent to the claim, such as the abstract, conclusion, or specific sections that discuss the claim.
+    - Cited Reference Metadata: Structured information about the cited reference (e.g., title, authors, year, venue, indentifiers).
+    - Surrounding Context: Optional additional text from the citing paper that provides context for the claim and citation. This may include sentences before and after the claim.
         - When existence=1: Provide actual content from the correctly cited reference
         - When existence=0: May provide empty context, content from a similar but different paper, or closest match to help the model detect the mismatch 
     
 - Outputs:
     - Existence Label: Binary label (0 or 1) indicating whether the citation exists and has correct metadata
-    - Claim-Citation Alignment Label: Multi-class label (0-3) or N/A
+    - Claim-Citation Alignment Label: Multi-class label (0-2) or N/A
     - (Optional) Explanation: Natural language justification for the predicted labels, citing specific evidence from the reference
 
 ## Metrics
