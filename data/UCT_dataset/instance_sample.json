@@ -1,0 +1,2360 @@
+{
+    "arxiv_id": "2603.03973v1",
+    "arxiv_url": "https://arxiv.org/abs/2603.03973v1",
+    "num_instances": 86,
+    "instances": [
+        {
+            "claim_text": "In this section, Table~\\ref{tab:acc-fid-gflops-weights} provides detailed numerical results, and Fig.~\\ref{fig:precision_recall} analyzes the trend from the perspectives of precision and recall~[CITATION].",
+            "surrounding_context": "\\section{Classifier Accuracy vs. Sample Quality} As examined in Sec.~\\ref{sec:ablation_study}, we study the relationship between classifier accuracy and FID. In this section, Table~\\ref{tab:acc-fid-gflops-weights} provides detailed numerical results, and Fig.~\\ref{fig:precision_recall} analyzes the trend from the perspectives of precision and recall~[CITATION]. Table~\\ref{tab:acc-fid-gflops-weights} reports the pretrained weights from TorchVision~[CITATION] and the results of training Dual-Solver with each set of weights. Using a GM-DiT~[CITATION] backbone, we present FID, precision, and recall at NFE$=3$ and $9$.",
+            "citation_metadata": {
+                "title": "Improved precision and recall metric for assessing generative models",
+                "authors": [
+                    "Kynk\\\"a\\\"anniemi, Tuomas",
+                    "Karras, Tero",
+                    "Laine, Samuli",
+                    "Lehtinen, Jaakko",
+                    "Aila, Timo"
+                ],
+                "venue": "Advances in neural information processing systems",
+                "year": 2019,
+                "identifiers": {
+                    "doi": null,
+                    "arxiv_id": null,
+                    "url": null
+                }
+            },
+            "true_outputs": {
+                "true_existence": 1,
+                "true_hallucination_category": null,
+                "true_alignment": 0,
+                "expert_rationale": "Citation from published paper, assumed to be correct and fully supported."
+            }
+        },
+        {
+            "claim_text": "A detailed analysis linking this pattern to precision and recall~[CITATION] is provided in Appendix~\\ref{app:accuracy_vs_fid}.",
+            "surrounding_context": "The curve exhibits a clear V-shape: as accuracy decreases, FID improves, but beyond ranks 14--16 the FID degrades sharply. This suggests that neither very high nor very low classifier accuracy is optimal; a moderate level is most beneficial for FID. A detailed analysis linking this pattern to precision and recall~[CITATION] is provided in Appendix~\\ref{app:accuracy_vs_fid}. \\\\",
+            "citation_metadata": {
+                "title": "Improved precision and recall metric for assessing generative models",
+                "authors": [
+                    "Kynk\\\"a\\\"anniemi, Tuomas",
+                    "Karras, Tero",
+                    "Laine, Samuli",
+                    "Lehtinen, Jaakko",
+                    "Aila, Timo"
+                ],
+                "venue": "Advances in neural information processing systems",
+                "year": 2019,
+                "identifiers": {
+                    "doi": null,
+                    "arxiv_id": null,
+                    "url": null
+                }
+            },
+            "true_outputs": {
+                "true_existence": 1,
+                "true_hallucination_category": null,
+                "true_alignment": 0,
+                "expert_rationale": "Citation from published paper, assumed to be correct and fully supported."
+            }
+        },
+        {
+            "claim_text": "Using a GM-DiT~[CITATION] backbone, we present FID, precision, and recall at NFE$=3$ and $9$.",
+            "surrounding_context": "In this section, Table~\\ref{tab:acc-fid-gflops-weights} provides detailed numerical results, and Fig.~\\ref{fig:precision_recall} analyzes the trend from the perspectives of precision and recall~[CITATION]. Table~\\ref{tab:acc-fid-gflops-weights} reports the pretrained weights from TorchVision~[CITATION] and the results of training Dual-Solver with each set of weights. Using a GM-DiT~[CITATION] backbone, we present FID, precision, and recall at NFE$=3$ and $9$. The best value for each metric is highlighted in bold. \\begin{table}[h] \\centering \\caption{\\textbf{ImageNet per-classifier metrics.} Top-5 accuracy, FID, precision/recall at NFE=3 and 9, and GFLOPs; FID is measured on 10k samples after training Dual-Solver for each classifier.}",
+            "citation_metadata": {
+                "title": "Gaussian mixture flow matching models",
+                "authors": [
+                    "Chen, Hansheng",
+                    "Zhang, Kai",
+                    "Tan, Hao",
+                    "Xu, Zexiang",
+                    "Luan, Fujun",
+                    "Guibas, Leonidas",
+                    "Wetzstein, Gordon",
+                    "Bi, Sai"
+                ],
+                "venue": "arXiv preprint arXiv:2504.05304",
+                "year": 2025,
+                "identifiers": {
+                    "doi": null,
+                    "arxiv_id": "2504.05304",
+                    "url": null
+                }
+            },
+            "true_outputs": {
+                "true_existence": 1,
+                "true_hallucination_category": null,
+                "true_alignment": 0,
+                "expert_rationale": "Citation from published paper, assumed to be correct and fully supported."
+            }
+        },
+        {
+            "claim_text": "\\paragraph{Backbone Details.} We evaluate DiT-XL/2~[CITATION], GM-DiT~[CITATION], SANA~[CITATION], and PixArt-$\\alpha$~[CITATION].",
+            "surrounding_context": "\\paragraph{Environment details.} We run all experiments on a single NVIDIA RTX 6000 pro (Driver~575.57.08) under Ubuntu~24.04 with Python~3.11.13, PyTorch~2.8.0, and CUDA~12.9. \\paragraph{Backbone Details.} We evaluate DiT-XL/2~[CITATION], GM-DiT~[CITATION], SANA~[CITATION], and PixArt-$\\alpha$~[CITATION]. All models are obtained via the diffusers library~[CITATION] pipelines and run in evaluation mode with bfloat16. The model identifiers are: \\begin{itemize}\\setlength{\\itemsep}{2pt} \\item DiT: \\texttt{facebook/DiT-XL-2-256} \\item GM-DiT: \\texttt{Lakonik/gmflow\\_imagenet\\_k8\\_ema}",
+            "citation_metadata": {
+                "title": "Gaussian mixture flow matching models",
+                "authors": [
+                    "Chen, Hansheng",
+                    "Zhang, Kai",
+                    "Tan, Hao",
+                    "Xu, Zexiang",
+                    "Luan, Fujun",
+                    "Guibas, Leonidas",
+                    "Wetzstein, Gordon",
+                    "Bi, Sai"
+                ],
+                "venue": "arXiv preprint arXiv:2504.05304",
+                "year": 2025,
+                "identifiers": {
+                    "doi": null,
+                    "arxiv_id": "2504.05304",
+                    "url": null
+                }
+            },
+            "true_outputs": {
+                "true_existence": 1,
+                "true_hallucination_category": null,
+                "true_alignment": 0,
+                "expert_rationale": "Citation from published paper, assumed to be correct and fully supported."
+            }
+        },
+        {
+            "claim_text": "Using the SANA~[CITATION] backbone we trained the Dual-Solver for 20k steps.",
+            "surrounding_context": "FID.} Table~\\ref{ta:mscoco_accuracy} reports the FID evaluation used to select the CLIP model for learning Dual-Solver on the text-to-image task. All weights are from OpenCLIP~[CITATION] and are available from the official repository\\footnote{\\url{https://github.com/mlfoundations/open_clip}}. Using the SANA~[CITATION] backbone we trained the Dual-Solver for 20k steps. At NFE = 3 and 6, we generated 30k samples with MSCOCO 2014~[CITATION] prompts and measured FID on the evaluation set. Based on these results, we chose the RN101 weights\u2014which achieved an FID of 18.52 at NFE = 6\u2014as the model for learning the Dual-Solver in the main text-to-image experiment.",
+            "citation_metadata": {
+                "title": "Sana: Efficient high-resolution image synthesis with linear diffusion transformers",
+                "authors": [
+                    "Xie, Enze",
+                    "Chen, Junsong",
+                    "Chen, Junyu",
+                    "Cai, Han",
+                    "Tang, Haotian",
+                    "Lin, Yujun",
+                    "Zhang, Zhekai",
+                    "Li, Muyang",
+                    "Zhu, Ligeng",
+                    "Lu, Yao",
+                    "others"
+                ],
+                "venue": "arXiv preprint arXiv:2410.10629",
+                "year": 2024,
+                "identifiers": {
+                    "doi": null,
+                    "arxiv_id": "2410.10629",
+                    "url": null
+                }
+            },
+            "true_outputs": {
+                "true_existence": 1,
+                "true_hallucination_category": null,
+                "true_alignment": 0,
+                "expert_rationale": "Citation from published paper, assumed to be correct and fully supported."
+            }
+        },
+        {
+            "claim_text": "\\paragraph{Backbone Details.} We evaluate DiT-XL/2~[CITATION], GM-DiT~[CITATION], SANA~[CITATION], and PixArt-$\\alpha$~[CITATION].",
+            "surrounding_context": "\\paragraph{Environment details.} We run all experiments on a single NVIDIA RTX 6000 pro (Driver~575.57.08) under Ubuntu~24.04 with Python~3.11.13, PyTorch~2.8.0, and CUDA~12.9. \\paragraph{Backbone Details.} We evaluate DiT-XL/2~[CITATION], GM-DiT~[CITATION], SANA~[CITATION], and PixArt-$\\alpha$~[CITATION]. All models are obtained via the diffusers library~[CITATION] pipelines and run in evaluation mode with bfloat16. The model identifiers are: \\begin{itemize}\\setlength{\\itemsep}{2pt} \\item DiT: \\texttt{facebook/DiT-XL-2-256} \\item GM-DiT: \\texttt{Lakonik/gmflow\\_imagenet\\_k8\\_ema}",
+            "citation_metadata": {
+                "title": "Sana: Efficient high-resolution image synthesis with linear diffusion transformers",
+                "authors": [
+                    "Xie, Enze",
+                    "Chen, Junsong",
+                    "Chen, Junyu",
+                    "Cai, Han",
+                    "Tang, Haotian",
+                    "Lin, Yujun",
+                    "Zhang, Zhekai",
+                    "Li, Muyang",
+                    "Zhu, Ligeng",
+                    "Lu, Yao",
+                    "others"
+                ],
+                "venue": "arXiv preprint arXiv:2410.10629",
+                "year": 2024,
+                "identifiers": {
+                    "doi": null,
+                    "arxiv_id": "2410.10629",
+                    "url": null
+                }
+            },
+            "true_outputs": {
+                "true_existence": 1,
+                "true_hallucination_category": null,
+                "true_alignment": 0,
+                "expert_rationale": "Citation from published paper, assumed to be correct and fully supported."
+            }
+        },
+        {
+            "claim_text": "At NFE = 3 and 6, we generated 30k samples with MSCOCO 2014~[CITATION] prompts and measured FID on the evaluation set.",
+            "surrounding_context": "All weights are from OpenCLIP~[CITATION] and are available from the official repository\\footnote{\\url{https://github.com/mlfoundations/open_clip}}. Using the SANA~[CITATION] backbone we trained the Dual-Solver for 20k steps. At NFE = 3 and 6, we generated 30k samples with MSCOCO 2014~[CITATION] prompts and measured FID on the evaluation set. Based on these results, we chose the RN101 weights\u2014which achieved an FID of 18.52 at NFE = 6\u2014as the model for learning the Dual-Solver in the main text-to-image experiment. Notably, this result also indicates that models with somewhat lower classification accuracy can yield lower FID.",
+            "citation_metadata": {
+                "title": "Microsoft coco: Common objects in context",
+                "authors": [
+                    "Lin, Tsung-Yi",
+                    "Maire, Michael",
+                    "Belongie, Serge",
+                    "Hays, James",
+                    "Perona, Pietro",
+                    "Ramanan, Deva",
+                    "Doll\\'ar, Piotr",
+                    "Zitnick, C Lawrence"
+                ],
+                "venue": "Computer Vision--ECCV 2014: 13th European Conference, Zurich, Switzerland, September 6-12, 2014, Proceedings, Part V 13",
+                "year": 2014,
+                "identifiers": {
+                    "doi": null,
+                    "arxiv_id": null,
+                    "url": null
+                }
+            },
+            "true_outputs": {
+                "true_existence": 1,
+                "true_hallucination_category": null,
+                "true_alignment": 0,
+                "expert_rationale": "Citation from published paper, assumed to be correct and fully supported."
+            }
+        },
+        {
+            "claim_text": "For SANA and PixArt-$\\alpha$, FID and CLIP are computed on the MSCOCO 2014~[CITATION] validation set (30k image--caption pairs).",
+            "surrounding_context": "\\vspace{-6pt} We evaluate quantitative performance using FID~[CITATION] and CLIP score~[CITATION]. For DiT and GM-DiT, FID is computed on 50k images uniformly sampled across the 1,000 ImageNet~[CITATION] classes. For SANA and PixArt-$\\alpha$, FID and CLIP are computed on the MSCOCO 2014~[CITATION] validation set (30k image--caption pairs). The CLIP score is computed as the cosine similarity between text and image features. As described in Sec.~\\ref{sec:learning}, we train Dual-Solver with a classification-based objective.",
+            "citation_metadata": {
+                "title": "Microsoft coco: Common objects in context",
+                "authors": [
+                    "Lin, Tsung-Yi",
+                    "Maire, Michael",
+                    "Belongie, Serge",
+                    "Hays, James",
+                    "Perona, Pietro",
+                    "Ramanan, Deva",
+                    "Doll\\'ar, Piotr",
+                    "Zitnick, C Lawrence"
+                ],
+                "venue": "Computer Vision--ECCV 2014: 13th European Conference, Zurich, Switzerland, September 6-12, 2014, Proceedings, Part V 13",
+                "year": 2014,
+                "identifiers": {
+                    "doi": null,
+                    "arxiv_id": null,
+                    "url": null
+                }
+            },
+            "true_outputs": {
+                "true_existence": 1,
+                "true_hallucination_category": null,
+                "true_alignment": 0,
+                "expert_rationale": "Citation from published paper, assumed to be correct and fully supported."
+            }
+        },
+        {
+            "claim_text": "Moreover, several works split the right-hand side into linear and nonlinear parts, and evaluate the nonlinear term using finite-difference approximations~[CITATION] or via Lagrange interpolation~[CITATION].",
+            "surrounding_context": "\\;\\approx\\; -\\frac{\\boldsymbol{\\epsilon}_\\theta(\\vx_t,t)}{\\sigma_t}. \\end{equation} Given this ODE, one can perform sampling using classical numerical methods beyond Euler, such as singlestep Runge\u2013Kutta~[CITATION] and multistep Adams\u2013Bashforth schemes~[CITATION]. Moreover, several works split the right-hand side into linear and nonlinear parts, and evaluate the nonlinear term using finite-difference approximations~[CITATION] or via Lagrange interpolation~[CITATION].",
+            "citation_metadata": {
+                "title": "Dpm-solver++: Fast solver for guided sampling of diffusion probabilistic models",
+                "authors": [
+                    "Lu, Cheng",
+                    "Zhou, Yuhao",
+                    "Bao, Fan",
+                    "Chen, Jianfei",
+                    "Li, Chongxuan",
+                    "Zhu, Jun"
+                ],
+                "venue": "arXiv preprint arXiv:2211.01095",
+                "year": 2022,
+                "identifiers": {
+                    "doi": null,
+                    "arxiv_id": "2211.01095",
+                    "url": null
+                }
+            },
+            "true_outputs": {
+                "true_existence": 1,
+                "true_hallucination_category": null,
+                "true_alignment": 0,
+                "expert_rationale": "Citation from published paper, assumed to be correct and fully supported."
+            }
+        },
+        {
+            "claim_text": "More recently, data prediction has also been widely adopted to improve sample quality~[CITATION].",
+            "surrounding_context": "\\end{equation} Using these relationships, a different prediction type can be used at sampling time from that used during training. For diffusion models, many early samplers use noise prediction~[CITATION]. More recently, data prediction has also been widely adopted to improve sample quality~[CITATION]. In contrast, flow-matching backbones typically use velocity prediction at sampling time, as in training~[CITATION]. Table~\\ref{tab:predictions} summarizes the sampling equations in both differential and integral form for each prediction type, derived from Eq.~\\ref{eq:pf-ode} and Eq.~\\ref{eq:relation_between_predictions}.",
+            "citation_metadata": {
+                "title": "Dpm-solver++: Fast solver for guided sampling of diffusion probabilistic models",
+                "authors": [
+                    "Lu, Cheng",
+                    "Zhou, Yuhao",
+                    "Bao, Fan",
+                    "Chen, Jianfei",
+                    "Li, Chongxuan",
+                    "Zhu, Jun"
+                ],
+                "venue": "arXiv preprint arXiv:2211.01095",
+                "year": 2022,
+                "identifiers": {
+                    "doi": null,
+                    "arxiv_id": "2211.01095",
+                    "url": null
+                }
+            },
+            "true_outputs": {
+                "true_existence": 1,
+                "true_hallucination_category": null,
+                "true_alignment": 0,
+                "expert_rationale": "Citation from published paper, assumed to be correct and fully supported."
+            }
+        },
+        {
+            "claim_text": "In contrast, flow-matching backbones typically use velocity prediction at sampling time, as in training~[CITATION].",
+            "surrounding_context": "For diffusion models, many early samplers use noise prediction~[CITATION]. More recently, data prediction has also been widely adopted to improve sample quality~[CITATION]. In contrast, flow-matching backbones typically use velocity prediction at sampling time, as in training~[CITATION]. Table~\\ref{tab:predictions} summarizes the sampling equations in both differential and integral form for each prediction type, derived from Eq.~\\ref{eq:pf-ode} and Eq.~\\ref{eq:relation_between_predictions}. \\input{background/equations_table} \\begin{wrapfigure}{r}{0.38\\textwidth}",
+            "citation_metadata": {
+                "title": "Bespoke non-stationary solvers for fast sampling of diffusion and flow models",
+                "authors": [
+                    "Shaul, Neta",
+                    "Singer, Uriel",
+                    "Chen, Ricky TQ",
+                    "Le, Matthew",
+                    "Thabet, Ali",
+                    "Pumarola, Albert",
+                    "Lipman, Yaron"
+                ],
+                "venue": "arXiv preprint arXiv:2403.01329",
+                "year": 2024,
+                "identifiers": {
+                    "doi": null,
+                    "arxiv_id": "2403.01329",
+                    "url": null
+                }
+            },
+            "true_outputs": {
+                "true_existence": 1,
+                "true_hallucination_category": null,
+                "true_alignment": 0,
+                "expert_rationale": "Citation from published paper, assumed to be correct and fully supported."
+            }
+        },
+        {
+            "claim_text": "\\item Learned solvers: BNS-Solver~[CITATION], DS-Solver~[CITATION].",
+            "surrounding_context": "\\vspace{-6pt} We benchmark Dual-Solver against two families of baselines: \\vspace{-4pt} \\begin{itemize} \\item Dedicated solvers: DDIM~[CITATION], DPM-Solver++~[CITATION]. \\item Learned solvers: BNS-Solver~[CITATION], DS-Solver~[CITATION]. \\end{itemize} \\vspace{-5pt} We select backbones that span diffusion and flow matching, covering both ImageNet~[CITATION] conditional generation and text-to-image tasks: \\vspace{-5pt}",
+            "citation_metadata": {
+                "title": "Bespoke non-stationary solvers for fast sampling of diffusion and flow models",
+                "authors": [
+                    "Shaul, Neta",
+                    "Singer, Uriel",
+                    "Chen, Ricky TQ",
+                    "Le, Matthew",
+                    "Thabet, Ali",
+                    "Pumarola, Albert",
+                    "Lipman, Yaron"
+                ],
+                "venue": "arXiv preprint arXiv:2403.01329",
+                "year": 2024,
+                "identifiers": {
+                    "doi": null,
+                    "arxiv_id": "2403.01329",
+                    "url": null
+                }
+            },
+            "true_outputs": {
+                "true_existence": 1,
+                "true_hallucination_category": null,
+                "true_alignment": 0,
+                "expert_rationale": "Citation from published paper, assumed to be correct and fully supported."
+            }
+        },
+        {
+            "claim_text": "More recently, data prediction has also been widely adopted to improve sample quality~[CITATION].",
+            "surrounding_context": "\\end{equation} Using these relationships, a different prediction type can be used at sampling time from that used during training. For diffusion models, many early samplers use noise prediction~[CITATION]. More recently, data prediction has also been widely adopted to improve sample quality~[CITATION]. In contrast, flow-matching backbones typically use velocity prediction at sampling time, as in training~[CITATION]. Table~\\ref{tab:predictions} summarizes the sampling equations in both differential and integral form for each prediction type, derived from Eq.~\\ref{eq:pf-ode} and Eq.~\\ref{eq:relation_between_predictions}.",
+            "citation_metadata": {
+                "title": "Differentiable Solver Search for Fast Diffusion Sampling",
+                "authors": [
+                    "Wang, Shuai",
+                    "Li, Zexian",
+                    "Song, Tianhui",
+                    "Li, Xubin",
+                    "Ge, Tiezheng",
+                    "Zheng, Bo",
+                    "Wang, Limin",
+                    "others"
+                ],
+                "venue": "arXiv preprint arXiv:2505.21114",
+                "year": 2025,
+                "identifiers": {
+                    "doi": null,
+                    "arxiv_id": "2505.21114",
+                    "url": null
+                }
+            },
+            "true_outputs": {
+                "true_existence": 1,
+                "true_hallucination_category": null,
+                "true_alignment": 0,
+                "expert_rationale": "Citation from published paper, assumed to be correct and fully supported."
+            }
+        },
+        {
+            "claim_text": "\\item Learned solvers: BNS-Solver~[CITATION], DS-Solver~[CITATION].",
+            "surrounding_context": "\\vspace{-6pt} We benchmark Dual-Solver against two families of baselines: \\vspace{-4pt} \\begin{itemize} \\item Dedicated solvers: DDIM~[CITATION], DPM-Solver++~[CITATION]. \\item Learned solvers: BNS-Solver~[CITATION], DS-Solver~[CITATION]. \\end{itemize} \\vspace{-5pt} We select backbones that span diffusion and flow matching, covering both ImageNet~[CITATION] conditional generation and text-to-image tasks: \\vspace{-5pt}",
+            "citation_metadata": {
+                "title": "Differentiable Solver Search for Fast Diffusion Sampling",
+                "authors": [
+                    "Wang, Shuai",
+                    "Li, Zexian",
+                    "Song, Tianhui",
+                    "Li, Xubin",
+                    "Ge, Tiezheng",
+                    "Zheng, Bo",
+                    "Wang, Limin",
+                    "others"
+                ],
+                "venue": "arXiv preprint arXiv:2505.21114",
+                "year": 2025,
+                "identifiers": {
+                    "doi": null,
+                    "arxiv_id": "2505.21114",
+                    "url": null
+                }
+            },
+            "true_outputs": {
+                "true_existence": 1,
+                "true_hallucination_category": null,
+                "true_alignment": 0,
+                "expert_rationale": "Citation from published paper, assumed to be correct and fully supported."
+            }
+        },
+        {
+            "claim_text": "\\paragraph{Backbone Details.} We evaluate DiT-XL/2~[CITATION], GM-DiT~[CITATION], SANA~[CITATION], and PixArt-$\\alpha$~[CITATION].",
+            "surrounding_context": "\\paragraph{Environment details.} We run all experiments on a single NVIDIA RTX 6000 pro (Driver~575.57.08) under Ubuntu~24.04 with Python~3.11.13, PyTorch~2.8.0, and CUDA~12.9. \\paragraph{Backbone Details.} We evaluate DiT-XL/2~[CITATION], GM-DiT~[CITATION], SANA~[CITATION], and PixArt-$\\alpha$~[CITATION]. All models are obtained via the diffusers library~[CITATION] pipelines and run in evaluation mode with bfloat16. The model identifiers are: \\begin{itemize}\\setlength{\\itemsep}{2pt} \\item DiT: \\texttt{facebook/DiT-XL-2-256} \\item GM-DiT: \\texttt{Lakonik/gmflow\\_imagenet\\_k8\\_ema}",
+            "citation_metadata": {
+                "title": "Pixart-$\\alpha$: Fast training of diffusion transformer for photorealistic text-to-image synthesis",
+                "authors": [
+                    "Chen, Junsong",
+                    "Yu, Jincheng",
+                    "Ge, Chongjian",
+                    "Yao, Lewei",
+                    "Xie, Enze",
+                    "Wu, Yue",
+                    "Wang, Zhongdao",
+                    "Kwok, James",
+                    "Luo, Ping",
+                    "Lu, Huchuan",
+                    "others"
+                ],
+                "venue": "arXiv preprint arXiv:2310.00426",
+                "year": 2023,
+                "identifiers": {
+                    "doi": null,
+                    "arxiv_id": "2310.00426",
+                    "url": null
+                }
+            },
+            "true_outputs": {
+                "true_existence": 1,
+                "true_hallucination_category": null,
+                "true_alignment": 0,
+                "expert_rationale": "Citation from published paper, assumed to be correct and fully supported."
+            }
+        },
+        {
+            "claim_text": "\\item PixArt-$\\alpha$ XL-2-512~[CITATION]: diffusion, text-to-image.",
+            "surrounding_context": "We select backbones that span diffusion and flow matching, covering both ImageNet~[CITATION] conditional generation and text-to-image tasks: \\vspace{-5pt} \\begin{itemize} \\item DiT-XL/2-256$\\times$256~[CITATION]: diffusion, ImageNet. \\item PixArt-$\\alpha$ XL-2-512~[CITATION]: diffusion, text-to-image. \\item GM-DiT 256$\\times$256~[CITATION]: flow matching, ImageNet. \\item SANA 600M-512px~[CITATION]: flow matching, text-to-image.",
+            "citation_metadata": {
+                "title": "Pixart-$\\alpha$: Fast training of diffusion transformer for photorealistic text-to-image synthesis",
+                "authors": [
+                    "Chen, Junsong",
+                    "Yu, Jincheng",
+                    "Ge, Chongjian",
+                    "Yao, Lewei",
+                    "Xie, Enze",
+                    "Wu, Yue",
+                    "Wang, Zhongdao",
+                    "Kwok, James",
+                    "Luo, Ping",
+                    "Lu, Huchuan",
+                    "others"
+                ],
+                "venue": "arXiv preprint arXiv:2310.00426",
+                "year": 2023,
+                "identifiers": {
+                    "doi": null,
+                    "arxiv_id": "2310.00426",
+                    "url": null
+                }
+            },
+            "true_outputs": {
+                "true_existence": 1,
+                "true_hallucination_category": null,
+                "true_alignment": 0,
+                "expert_rationale": "Citation from published paper, assumed to be correct and fully supported."
+            }
+        },
+        {
+            "claim_text": "\\paragraph{Backbone Details.} We evaluate DiT-XL/2~[CITATION], GM-DiT~[CITATION], SANA~[CITATION], and PixArt-$\\alpha$~[CITATION].",
+            "surrounding_context": "\\paragraph{Environment details.} We run all experiments on a single NVIDIA RTX 6000 pro (Driver~575.57.08) under Ubuntu~24.04 with Python~3.11.13, PyTorch~2.8.0, and CUDA~12.9. \\paragraph{Backbone Details.} We evaluate DiT-XL/2~[CITATION], GM-DiT~[CITATION], SANA~[CITATION], and PixArt-$\\alpha$~[CITATION]. All models are obtained via the diffusers library~[CITATION] pipelines and run in evaluation mode with bfloat16. The model identifiers are: \\begin{itemize}\\setlength{\\itemsep}{2pt} \\item DiT: \\texttt{facebook/DiT-XL-2-256} \\item GM-DiT: \\texttt{Lakonik/gmflow\\_imagenet\\_k8\\_ema}",
+            "citation_metadata": {
+                "title": "Scalable diffusion models with transformers",
+                "authors": [
+                    "Peebles, William",
+                    "Xie, Saining"
+                ],
+                "venue": "Proceedings of the IEEE/CVF international conference on computer vision",
+                "year": 2023,
+                "identifiers": {
+                    "doi": null,
+                    "arxiv_id": null,
+                    "url": null
+                }
+            },
+            "true_outputs": {
+                "true_existence": 1,
+                "true_hallucination_category": null,
+                "true_alignment": 0,
+                "expert_rationale": "Citation from published paper, assumed to be correct and fully supported."
+            }
+        },
+        {
+            "claim_text": "\\subsection{Prediction Types} Diffusion backbones are typically trained with noise prediction~[CITATION], whereas flow-matching backbones are trained with velocity prediction~[CITATION].",
+            "surrounding_context": "\\subsection{Prediction Types} Diffusion backbones are typically trained with noise prediction~[CITATION], whereas flow-matching backbones are trained with velocity prediction~[CITATION]. However, noise, velocity, and data predictions can be converted into one another as follows. \\begin{equation} \\vx_\\theta(\\vx_t,t) \\;=\\; \\frac{\\vx_t - \\sigma_t\\,\\bm{\\epsilon}_\\theta(\\vx_t,t)}{\\alpha_t},\\quad",
+            "citation_metadata": {
+                "title": "Scalable diffusion models with transformers",
+                "authors": [
+                    "Peebles, William",
+                    "Xie, Saining"
+                ],
+                "venue": "Proceedings of the IEEE/CVF international conference on computer vision",
+                "year": 2023,
+                "identifiers": {
+                    "doi": null,
+                    "arxiv_id": null,
+                    "url": null
+                }
+            },
+            "true_outputs": {
+                "true_existence": 1,
+                "true_hallucination_category": null,
+                "true_alignment": 0,
+                "expert_rationale": "Citation from published paper, assumed to be correct and fully supported."
+            }
+        },
+        {
+            "claim_text": "The solvers used in our experiments are the diffusion-dedicated DDIM~[CITATION], the second-order multistep DPM-Solver++~[CITATION], and the learned solvers BNS-Solver~[CITATION] and DS-Solver~[CITATION].",
+            "surrounding_context": "The solvers used in our experiments are the diffusion-dedicated DDIM~[CITATION], the second-order multistep DPM-Solver++~[CITATION], and the learned solvers BNS-Solver~[CITATION] and DS-Solver~[CITATION]. We use DDIM as the first-order counterpart of DPM-Solver++ (as proposed in [CITATION]). Implementations of DPM-Solver++ and DS-Solver are taken from their official GitHub repositories\\footnote{\\url{https://github.com/LuChengTHU/dpm-solver}}$^{,}$\\footnote{\\url{https://github.com/MCG-NJU/NeuralSolver}}, and BNS-Solver is implemented according to the paper.",
+            "citation_metadata": {
+                "title": "Denoising Diffusion Implicit Models",
+                "authors": [
+                    "Jiaming Song",
+                    "Chenlin Meng",
+                    "Stefano Ermon"
+                ],
+                "venue": "International Conference on Learning Representations",
+                "year": 2021,
+                "identifiers": {
+                    "doi": null,
+                    "arxiv_id": null,
+                    "url": null
+                }
+            },
+            "true_outputs": {
+                "true_existence": 1,
+                "true_hallucination_category": null,
+                "true_alignment": 0,
+                "expert_rationale": "Citation from published paper, assumed to be correct and fully supported."
+            }
+        },
+        {
+            "claim_text": "For diffusion models, many early samplers use noise prediction~[CITATION].",
+            "surrounding_context": "\\vx_\\theta(\\vx_t,t) \\;=\\; \\frac{\\vx_t - \\sigma_t\\,\\bm{\\epsilon}_\\theta(\\vx_t,t)}{\\alpha_t},\\quad \\vv_\\theta(\\vx_t,t) \\;=\\; \\frac{d\\alpha_t}{dt}\\,\\vx_\\theta(\\vx_t,t) \\;+\\; \\frac{d\\sigma_t}{dt}\\,\\bm{\\epsilon}_\\theta(\\vx_t,t). \\end{equation} Using these relationships, a different prediction type can be used at sampling time from that used during training. For diffusion models, many early samplers use noise prediction~[CITATION]. More recently, data prediction has also been widely adopted to improve sample quality~[CITATION]. In contrast, flow-matching backbones typically use velocity prediction at sampling time, as in training~[CITATION].",
+            "citation_metadata": {
+                "title": "Denoising Diffusion Implicit Models",
+                "authors": [
+                    "Jiaming Song",
+                    "Chenlin Meng",
+                    "Stefano Ermon"
+                ],
+                "venue": "International Conference on Learning Representations",
+                "year": 2021,
+                "identifiers": {
+                    "doi": null,
+                    "arxiv_id": null,
+                    "url": null
+                }
+            },
+            "true_outputs": {
+                "true_existence": 1,
+                "true_hallucination_category": null,
+                "true_alignment": 0,
+                "expert_rationale": "Citation from published paper, assumed to be correct and fully supported."
+            }
+        },
+        {
+            "claim_text": "All models are obtained via the diffusers library~[CITATION] pipelines and run in evaluation mode with bfloat16.",
+            "surrounding_context": "\\paragraph{Environment details.} We run all experiments on a single NVIDIA RTX 6000 pro (Driver~575.57.08) under Ubuntu~24.04 with Python~3.11.13, PyTorch~2.8.0, and CUDA~12.9. \\paragraph{Backbone Details.} We evaluate DiT-XL/2~[CITATION], GM-DiT~[CITATION], SANA~[CITATION], and PixArt-$\\alpha$~[CITATION]. All models are obtained via the diffusers library~[CITATION] pipelines and run in evaluation mode with bfloat16. The model identifiers are: \\begin{itemize}\\setlength{\\itemsep}{2pt} \\item DiT: \\texttt{facebook/DiT-XL-2-256} \\item GM-DiT: \\texttt{Lakonik/gmflow\\_imagenet\\_k8\\_ema} \\item SANA: \\texttt{Efficient-Large-Model/Sana\\_600M\\_512px\\_diffusers}",
+            "citation_metadata": {
+                "title": "Diffusers: State-of-the-art diffusion models",
+                "authors": [
+                    "Patrick von Platen",
+                    "Suraj Patil",
+                    "Anton Lozhkov",
+                    "Pedro Cuenca",
+                    "Nathan Lambert",
+                    "Kashif Rasul",
+                    "Mishig Davaadorj",
+                    "Dhruv Nair",
+                    "Sayak Paul",
+                    "William Berman",
+                    "Yiyi Xu",
+                    "Steven Liu",
+                    "Thomas Wolf"
+                ],
+                "venue": "GitHub repository",
+                "year": 2022,
+                "identifiers": {
+                    "doi": null,
+                    "arxiv_id": null,
+                    "url": null
+                }
+            },
+            "true_outputs": {
+                "true_existence": 1,
+                "true_hallucination_category": null,
+                "true_alignment": 0,
+                "expert_rationale": "Citation from published paper, assumed to be correct and fully supported."
+            }
+        },
+        {
+            "claim_text": "The backbones can be run via the diffusers library~[CITATION].",
+            "surrounding_context": "\\item SANA 600M-512px~[CITATION]: flow matching, text-to-image. \\end{itemize} \\vspace{-5pt} Solver implementations are taken from official sources or reimplemented by us. The backbones can be run via the diffusers library~[CITATION]. Further details are provided in Appendix~\\ref{app:experiment_details}. \\input{experiment/FID_and_CLIP} \\input{experiment/quantitative}",
+            "citation_metadata": {
+                "title": "Diffusers: State-of-the-art diffusion models",
+                "authors": [
+                    "Patrick von Platen",
+                    "Suraj Patil",
+                    "Anton Lozhkov",
+                    "Pedro Cuenca",
+                    "Nathan Lambert",
+                    "Kashif Rasul",
+                    "Mishig Davaadorj",
+                    "Dhruv Nair",
+                    "Sayak Paul",
+                    "William Berman",
+                    "Yiyi Xu",
+                    "Steven Liu",
+                    "Thomas Wolf"
+                ],
+                "venue": "GitHub repository",
+                "year": 2022,
+                "identifiers": {
+                    "doi": null,
+                    "arxiv_id": null,
+                    "url": null
+                }
+            },
+            "true_outputs": {
+                "true_existence": 1,
+                "true_hallucination_category": null,
+                "true_alignment": 0,
+                "expert_rationale": "Citation from published paper, assumed to be correct and fully supported."
+            }
+        },
+        {
+            "claim_text": "We use DDIM as the first-order counterpart of DPM-Solver++ (as proposed in [CITATION]).",
+            "surrounding_context": "\\item PixArt-$\\alpha$: \\texttt{PixArt-alpha/PixArt-XL-2-512x512} \\end{itemize} \\paragraph{Solver Details.} The solvers used in our experiments are the diffusion-dedicated DDIM~[CITATION], the second-order multistep DPM-Solver++~[CITATION], and the learned solvers BNS-Solver~[CITATION] and DS-Solver~[CITATION]. We use DDIM as the first-order counterpart of DPM-Solver++ (as proposed in [CITATION]). Implementations of DPM-Solver++ and DS-Solver are taken from their official GitHub repositories\\footnote{\\url{https://github.com/LuChengTHU/dpm-solver}}$^{,}$\\footnote{\\url{https://github.com/MCG-NJU/NeuralSolver}}, and BNS-Solver is implemented according to the paper. \\paragraph{Learning Details.} We train with AdamW~[CITATION] using $\\beta=(0.9,0.999)$, $\\epsilon=1\\mathrm{e}{-}8$, and weight decay $0.01$.",
+            "citation_metadata": {
+                "title": "Dpm-solver: A fast ode solver for diffusion probabilistic model sampling in around 10 steps",
+                "authors": [
+                    "Lu, Cheng",
+                    "Zhou, Yuhao",
+                    "Bao, Fan",
+                    "Chen, Jianfei",
+                    "Li, Chongxuan",
+                    "Zhu, Jun"
+                ],
+                "venue": "Advances in Neural Information Processing Systems",
+                "year": 2022,
+                "identifiers": {
+                    "doi": null,
+                    "arxiv_id": null,
+                    "url": null
+                }
+            },
+            "true_outputs": {
+                "true_existence": 1,
+                "true_hallucination_category": null,
+                "true_alignment": 0,
+                "expert_rationale": "Citation from published paper, assumed to be correct and fully supported."
+            }
+        },
+        {
+            "claim_text": "Moreover, several works split the right-hand side into linear and nonlinear parts, and evaluate the nonlinear term using finite-difference approximations~[CITATION] or via Lagrange interpolation~[CITATION].",
+            "surrounding_context": "\\;\\approx\\; -\\frac{\\boldsymbol{\\epsilon}_\\theta(\\vx_t,t)}{\\sigma_t}. \\end{equation} Given this ODE, one can perform sampling using classical numerical methods beyond Euler, such as singlestep Runge\u2013Kutta~[CITATION] and multistep Adams\u2013Bashforth schemes~[CITATION]. Moreover, several works split the right-hand side into linear and nonlinear parts, and evaluate the nonlinear term using finite-difference approximations~[CITATION] or via Lagrange interpolation~[CITATION].",
+            "citation_metadata": {
+                "title": "Dpm-solver: A fast ode solver for diffusion probabilistic model sampling in around 10 steps",
+                "authors": [
+                    "Lu, Cheng",
+                    "Zhou, Yuhao",
+                    "Bao, Fan",
+                    "Chen, Jianfei",
+                    "Li, Chongxuan",
+                    "Zhu, Jun"
+                ],
+                "venue": "Advances in Neural Information Processing Systems",
+                "year": 2022,
+                "identifiers": {
+                    "doi": null,
+                    "arxiv_id": null,
+                    "url": null
+                }
+            },
+            "true_outputs": {
+                "true_existence": 1,
+                "true_hallucination_category": null,
+                "true_alignment": 0,
+                "expert_rationale": "Citation from published paper, assumed to be correct and fully supported."
+            }
+        },
+        {
+            "claim_text": "\\paragraph{Learning Details.} We train with AdamW~[CITATION] using $\\beta=(0.9,0.999)$, $\\epsilon=1\\mathrm{e}{-}8$, and weight decay $0.01$.",
+            "surrounding_context": "We use DDIM as the first-order counterpart of DPM-Solver++ (as proposed in [CITATION]). Implementations of DPM-Solver++ and DS-Solver are taken from their official GitHub repositories\\footnote{\\url{https://github.com/LuChengTHU/dpm-solver}}$^{,}$\\footnote{\\url{https://github.com/MCG-NJU/NeuralSolver}}, and BNS-Solver is implemented according to the paper. \\paragraph{Learning Details.} We train with AdamW~[CITATION] using $\\beta=(0.9,0.999)$, $\\epsilon=1\\mathrm{e}{-}8$, and weight decay $0.01$. The learning rate decays from $2\\times10^{-3}$ to $1\\times10^{-4}$ over $20\\mathrm{k}$ steps via cosine annealing~[CITATION]. The batch size is fixed to $10$ for all experiments.",
+            "citation_metadata": {
+                "title": "Decoupled weight decay regularization",
+                "authors": [
+                    "Loshchilov, Ilya",
+                    "Hutter, Frank"
+                ],
+                "venue": "arXiv preprint arXiv:1711.05101",
+                "year": 2017,
+                "identifiers": {
+                    "doi": null,
+                    "arxiv_id": "1711.05101",
+                    "url": null
+                }
+            },
+            "true_outputs": {
+                "true_existence": 1,
+                "true_hallucination_category": null,
+                "true_alignment": 0,
+                "expert_rationale": "Citation from published paper, assumed to be correct and fully supported."
+            }
+        },
+        {
+            "claim_text": "The learning rate decays from $2\\times10^{-3}$ to $1\\times10^{-4}$ over $20\\mathrm{k}$ steps via cosine annealing~[CITATION].",
+            "surrounding_context": "Implementations of DPM-Solver++ and DS-Solver are taken from their official GitHub repositories\\footnote{\\url{https://github.com/LuChengTHU/dpm-solver}}$^{,}$\\footnote{\\url{https://github.com/MCG-NJU/NeuralSolver}}, and BNS-Solver is implemented according to the paper. \\paragraph{Learning Details.} We train with AdamW~[CITATION] using $\\beta=(0.9,0.999)$, $\\epsilon=1\\mathrm{e}{-}8$, and weight decay $0.01$. The learning rate decays from $2\\times10^{-3}$ to $1\\times10^{-4}$ over $20\\mathrm{k}$ steps via cosine annealing~[CITATION]. The batch size is fixed to $10$ for all experiments. For regression-based learning, the teacher trajectory is a $200$-step DDIM~[CITATION] method on $1\\mathrm{k}$ samples.",
+            "citation_metadata": {
+                "title": "Sgdr: Stochastic gradient descent with warm restarts",
+                "authors": [
+                    "Loshchilov, Ilya",
+                    "Hutter, Frank"
+                ],
+                "venue": "arXiv preprint arXiv:1608.03983",
+                "year": 2016,
+                "identifiers": {
+                    "doi": null,
+                    "arxiv_id": "1608.03983",
+                    "url": null
+                }
+            },
+            "true_outputs": {
+                "true_existence": 1,
+                "true_hallucination_category": null,
+                "true_alignment": 0,
+                "expert_rationale": "Citation from published paper, assumed to be correct and fully supported."
+            }
+        },
+        {
+            "claim_text": "For classifier-free guidance (CFG; [CITATION]), we use backbone-specific fixed scales: DiT~$1.5$, GM\\mbox{-}DiT~$1.4$, SANA~$4.5$, and PixArt\\mbox{-}$\\alpha$~$3.5$.",
+            "surrounding_context": "For regression-based learning, the teacher trajectory is a $200$-step DDIM~[CITATION] method on $1\\mathrm{k}$ samples. \\paragraph{Sampling Details.} We evaluate all backbones on an NFE grid of ${3,4,5,6,7,8,9}$. For classifier-free guidance (CFG; [CITATION]), we use backbone-specific fixed scales: DiT~$1.5$, GM\\mbox{-}DiT~$1.4$, SANA~$4.5$, and PixArt\\mbox{-}$\\alpha$~$3.5$. We compute FID using the publicly released ImageNet training-set statistics~[CITATION] for ImageNet, and MSCOCO~2014 validation-set statistics for text-to-image (SANA, PixArt-$\\alpha$). CLIP scores are computed with the official RN101 variant~[CITATION].",
+            "citation_metadata": {
+                "title": "Classifier-Free Diffusion Guidance",
+                "authors": [
+                    "Ho, Jonathan",
+                    "Salimans, Tim"
+                ],
+                "venue": "NeurIPS 2021 Workshop on Deep Generative Models and Downstream Applications",
+                "year": 2021,
+                "identifiers": {
+                    "doi": null,
+                    "arxiv_id": null,
+                    "url": null
+                }
+            },
+            "true_outputs": {
+                "true_existence": 1,
+                "true_hallucination_category": null,
+                "true_alignment": 0,
+                "expert_rationale": "Citation from published paper, assumed to be correct and fully supported."
+            }
+        },
+        {
+            "claim_text": "We compute FID using the publicly released ImageNet training-set statistics~[CITATION] for ImageNet, and MSCOCO~2014 validation-set statistics for text-to-image (SANA, PixArt-$\\alpha$).",
+            "surrounding_context": "\\paragraph{Sampling Details.} We evaluate all backbones on an NFE grid of ${3,4,5,6,7,8,9}$. For classifier-free guidance (CFG; [CITATION]), we use backbone-specific fixed scales: DiT~$1.5$, GM\\mbox{-}DiT~$1.4$, SANA~$4.5$, and PixArt\\mbox{-}$\\alpha$~$3.5$. We compute FID using the publicly released ImageNet training-set statistics~[CITATION] for ImageNet, and MSCOCO~2014 validation-set statistics for text-to-image (SANA, PixArt-$\\alpha$). CLIP scores are computed with the official RN101 variant~[CITATION]. We generate 50k images for ImageNet and 30k images for text-to-image evaluation.",
+            "citation_metadata": {
+                "title": "Diffusion models beat GANs on image synthesis",
+                "authors": [
+                    "Dhariwal, Prafulla",
+                    "Nichol, Alexander"
+                ],
+                "venue": "Advances in neural information processing systems",
+                "year": 2021,
+                "identifiers": {
+                    "doi": null,
+                    "arxiv_id": null,
+                    "url": null
+                }
+            },
+            "true_outputs": {
+                "true_existence": 1,
+                "true_hallucination_category": null,
+                "true_alignment": 0,
+                "expert_rationale": "Citation from published paper, assumed to be correct and fully supported."
+            }
+        },
+        {
+            "claim_text": "Today, diffusion models drive progress across multiple modalities, including images~[CITATION], audio~[CITATION], and video~[CITATION].",
+            "surrounding_context": "In seminal work, [CITATION] introduced diffusion probabilistic modeling with a forward noising process and a learned reverse process trained by minimizing a KL-divergence objective. Subsequent reformulations [CITATION] have streamlined training and inference with simple denoising objectives (e.g., noise or data prediction), leading to state-of-the-art fidelity and robust scaling. Today, diffusion models drive progress across multiple modalities, including images~[CITATION], audio~[CITATION], and video~[CITATION]. \\\\\\\\",
+            "citation_metadata": {
+                "title": "Diffusion models beat GANs on image synthesis",
+                "authors": [
+                    "Dhariwal, Prafulla",
+                    "Nichol, Alexander"
+                ],
+                "venue": "Advances in neural information processing systems",
+                "year": 2021,
+                "identifiers": {
+                    "doi": null,
+                    "arxiv_id": null,
+                    "url": null
+                }
+            },
+            "true_outputs": {
+                "true_existence": 1,
+                "true_hallucination_category": null,
+                "true_alignment": 0,
+                "expert_rationale": "Citation from published paper, assumed to be correct and fully supported."
+            }
+        },
+        {
+            "claim_text": "CLIP scores are computed with the official RN101 variant~[CITATION].",
+            "surrounding_context": "For classifier-free guidance (CFG; [CITATION]), we use backbone-specific fixed scales: DiT~$1.5$, GM\\mbox{-}DiT~$1.4$, SANA~$4.5$, and PixArt\\mbox{-}$\\alpha$~$3.5$. We compute FID using the publicly released ImageNet training-set statistics~[CITATION] for ImageNet, and MSCOCO~2014 validation-set statistics for text-to-image (SANA, PixArt-$\\alpha$). CLIP scores are computed with the official RN101 variant~[CITATION]. We generate 50k images for ImageNet and 30k images for text-to-image evaluation.",
+            "citation_metadata": {
+                "title": "Learning transferable visual models from natural language supervision",
+                "authors": [
+                    "Radford, Alec",
+                    "Kim, Jong Wook",
+                    "Hallacy, Chris",
+                    "Ramesh, Aditya",
+                    "Goh, Gabriel",
+                    "Agarwal, Sandhini",
+                    "Sastry, Girish",
+                    "Askell, Amanda",
+                    "Mishkin, Pamela",
+                    "Clark, Jack",
+                    "others"
+                ],
+                "venue": "International conference on machine learning",
+                "year": 2021,
+                "identifiers": {
+                    "doi": null,
+                    "arxiv_id": null,
+                    "url": null
+                }
+            },
+            "true_outputs": {
+                "true_existence": 1,
+                "true_hallucination_category": null,
+                "true_alignment": 0,
+                "expert_rationale": "Citation from published paper, assumed to be correct and fully supported."
+            }
+        },
+        {
+            "claim_text": "\\vspace{-4pt} \\subsection{Main Quantitative Results} \\vspace{-6pt} We evaluate quantitative performance using FID~[CITATION] and CLIP score~[CITATION].",
+            "surrounding_context": "\\vspace{-4pt} \\subsection{Main Quantitative Results} \\vspace{-6pt} We evaluate quantitative performance using FID~[CITATION] and CLIP score~[CITATION]. For DiT and GM-DiT, FID is computed on 50k images uniformly sampled across the 1,000 ImageNet~[CITATION] classes. For SANA and PixArt-$\\alpha$, FID and CLIP are computed on the MSCOCO 2014~[CITATION] validation set (30k image--caption pairs).",
+            "citation_metadata": {
+                "title": "Learning transferable visual models from natural language supervision",
+                "authors": [
+                    "Radford, Alec",
+                    "Kim, Jong Wook",
+                    "Hallacy, Chris",
+                    "Ramesh, Aditya",
+                    "Goh, Gabriel",
+                    "Agarwal, Sandhini",
+                    "Sastry, Girish",
+                    "Askell, Amanda",
+                    "Mishkin, Pamela",
+                    "Clark, Jack",
+                    "others"
+                ],
+                "venue": "International conference on machine learning",
+                "year": 2021,
+                "identifiers": {
+                    "doi": null,
+                    "arxiv_id": null,
+                    "url": null
+                }
+            },
+            "true_outputs": {
+                "true_existence": 1,
+                "true_hallucination_category": null,
+                "true_alignment": 0,
+                "expert_rationale": "Citation from published paper, assumed to be correct and fully supported."
+            }
+        },
+        {
+            "claim_text": "\\subsection{Diffusion Models} \\paragraph{Training process.} Diffusion models~[CITATION] are trained as follows.",
+            "surrounding_context": "\\subsection{Diffusion Models} \\paragraph{Training process.} Diffusion models~[CITATION] are trained as follows. A clean sample \\(\\vx_0\\) is drawn from the data distribution, and noise is drawn independently from the standard Gaussian distribution. They are then linearly combined with signal rate \\(\\alpha_t\\) and noise rate \\(\\sigma_t\\): \\begin{equation} \\vx_t \\;=\\; \\alpha_t\\,\\vx_0 \\;+\\; \\sigma_t\\,\\bm{\\epsilon},",
+            "citation_metadata": {
+                "title": "Denoising Diffusion Probabilistic Models",
+                "authors": [
+                    "Jonathan Ho",
+                    "Ajay Jain",
+                    "Pieter Abbeel"
+                ],
+                "venue": "Advances in Neural Information Processing Systems (NeurIPS)",
+                "year": 2020,
+                "identifiers": {
+                    "doi": null,
+                    "arxiv_id": null,
+                    "url": null
+                }
+            },
+            "true_outputs": {
+                "true_existence": 1,
+                "true_hallucination_category": null,
+                "true_alignment": 0,
+                "expert_rationale": "Citation from published paper, assumed to be correct and fully supported."
+            }
+        },
+        {
+            "claim_text": "Common choices include variance-preserving (VP), with \\(\\alpha_t^2+\\sigma_t^2=1\\)~[CITATION]; variance-exploding (VE), with \\(\\alpha_t=1,\\ \\sigma_t\\ge 0\\)~[CITATION]; and optimal transport (OT), with \\(\\alpha_t=1-t,\\ \\sigma_t=t,\\ T=1\\)~[CITATION].",
+            "surrounding_context": "\\vx_0 \\sim p_{\\text{data}},\\, \\bm{\\epsilon}\\sim\\mathcal N(\\mathbf 0,\\mI),\\, 0 \\le t \\le T. \\end{equation} Here, \\(\\alpha_t\\) and \\(\\sigma_t\\) are set by a predefined schedule. Common choices include variance-preserving (VP), with \\(\\alpha_t^2+\\sigma_t^2=1\\)~[CITATION]; variance-exploding (VE), with \\(\\alpha_t=1,\\ \\sigma_t\\ge 0\\)~[CITATION]; and optimal transport (OT), with \\(\\alpha_t=1-t,\\ \\sigma_t=t,\\ T=1\\)~[CITATION]. The backbone is trained to take a noisy sample \\(\\vx_t\\) and the time \\(t\\) as input and to predict one of the following: the noise \\(\\bm{\\epsilon}\\), the clean sample \\(\\vx_0\\)~[CITATION], or the velocity \\(\\vv_t = \\frac{d\\alpha_t}{dt} \\vx_0 + \\frac{d\\sigma_t}{dt} \\bm{\\epsilon}\\)~[CITATION]. By convention, the backbone parameters are denoted \\(\\theta\\), and the predictions are written as \\(\\bm{\\epsilon}_\\theta\\) (noise), \\(\\vx_\\theta\\) (data), and \\(\\vv_\\theta\\) (velocity).",
+            "citation_metadata": {
+                "title": "Denoising Diffusion Probabilistic Models",
+                "authors": [
+                    "Jonathan Ho",
+                    "Ajay Jain",
+                    "Pieter Abbeel"
+                ],
+                "venue": "Advances in Neural Information Processing Systems (NeurIPS)",
+                "year": 2020,
+                "identifiers": {
+                    "doi": null,
+                    "arxiv_id": null,
+                    "url": null
+                }
+            },
+            "true_outputs": {
+                "true_existence": 1,
+                "true_hallucination_category": null,
+                "true_alignment": 0,
+                "expert_rationale": "Citation from published paper, assumed to be correct and fully supported."
+            }
+        },
+        {
+            "claim_text": "\\subsection{Diffusion Models} \\paragraph{Training process.} Diffusion models~[CITATION] are trained as follows.",
+            "surrounding_context": "\\subsection{Diffusion Models} \\paragraph{Training process.} Diffusion models~[CITATION] are trained as follows. A clean sample \\(\\vx_0\\) is drawn from the data distribution, and noise is drawn independently from the standard Gaussian distribution. They are then linearly combined with signal rate \\(\\alpha_t\\) and noise rate \\(\\sigma_t\\): \\begin{equation} \\vx_t \\;=\\; \\alpha_t\\,\\vx_0 \\;+\\; \\sigma_t\\,\\bm{\\epsilon},",
+            "citation_metadata": {
+                "title": "Score-Based Generative Modeling through Stochastic Differential Equations",
+                "authors": [
+                    "Song, Yang",
+                    "Sohl-Dickstein, Jascha",
+                    "Kingma, Diederik P.",
+                    "Kumar, Abhishek",
+                    "Ermon, Stefano",
+                    "Poole, Ben"
+                ],
+                "venue": "International Conference on Learning Representations",
+                "year": 2021,
+                "identifiers": {
+                    "doi": null,
+                    "arxiv_id": null,
+                    "url": null
+                }
+            },
+            "true_outputs": {
+                "true_existence": 1,
+                "true_hallucination_category": null,
+                "true_alignment": 0,
+                "expert_rationale": "Citation from published paper, assumed to be correct and fully supported."
+            }
+        },
+        {
+            "claim_text": "Leveraging the probability\u2013flow formulation, which casts sampling as an ordinary differential equation [CITATION], a number of recent works have proposed ODE-based acceleration methods.",
+            "surrounding_context": "Diffusion models generate samples through iterative denoising steps, making the inference cost scale with the number of function evaluations (NFEs). Leveraging the probability\u2013flow formulation, which casts sampling as an ordinary differential equation [CITATION], a number of recent works have proposed ODE-based acceleration methods. Along one axis, classical ODE methods\u2014singlestep Runge\u2013Kutta [CITATION] and multistep Adams\u2013Bashforth [CITATION]\u2014provide off-the-shelf accuracy\u2013NFE trade-offs for a given evaluation budget [CITATION]. Along a second axis, diffusion-dedicated solvers exploit the structure of the denoising dynamics: they approximate noise or data predictions with low-order Taylor expansions or Lagrange interpolation and derive closed-form updates [CITATION].",
+            "citation_metadata": {
+                "title": "Score-Based Generative Modeling through Stochastic Differential Equations",
+                "authors": [
+                    "Song, Yang",
+                    "Sohl-Dickstein, Jascha",
+                    "Kingma, Diederik P.",
+                    "Kumar, Abhishek",
+                    "Ermon, Stefano",
+                    "Poole, Ben"
+                ],
+                "venue": "International Conference on Learning Representations",
+                "year": 2021,
+                "identifiers": {
+                    "doi": null,
+                    "arxiv_id": null,
+                    "url": null
+                }
+            },
+            "true_outputs": {
+                "true_existence": 1,
+                "true_hallucination_category": null,
+                "true_alignment": 0,
+                "expert_rationale": "Citation from published paper, assumed to be correct and fully supported."
+            }
+        },
+        {
+            "claim_text": "Common choices include variance-preserving (VP), with \\(\\alpha_t^2+\\sigma_t^2=1\\)~[CITATION]; variance-exploding (VE), with \\(\\alpha_t=1,\\ \\sigma_t\\ge 0\\)~[CITATION]; and optimal transport (OT), with \\(\\alpha_t=1-t,\\ \\sigma_t=t,\\ T=1\\)~[CITATION].",
+            "surrounding_context": "\\vx_0 \\sim p_{\\text{data}},\\, \\bm{\\epsilon}\\sim\\mathcal N(\\mathbf 0,\\mI),\\, 0 \\le t \\le T. \\end{equation} Here, \\(\\alpha_t\\) and \\(\\sigma_t\\) are set by a predefined schedule. Common choices include variance-preserving (VP), with \\(\\alpha_t^2+\\sigma_t^2=1\\)~[CITATION]; variance-exploding (VE), with \\(\\alpha_t=1,\\ \\sigma_t\\ge 0\\)~[CITATION]; and optimal transport (OT), with \\(\\alpha_t=1-t,\\ \\sigma_t=t,\\ T=1\\)~[CITATION]. The backbone is trained to take a noisy sample \\(\\vx_t\\) and the time \\(t\\) as input and to predict one of the following: the noise \\(\\bm{\\epsilon}\\), the clean sample \\(\\vx_0\\)~[CITATION], or the velocity \\(\\vv_t = \\frac{d\\alpha_t}{dt} \\vx_0 + \\frac{d\\sigma_t}{dt} \\bm{\\epsilon}\\)~[CITATION]. By convention, the backbone parameters are denoted \\(\\theta\\), and the predictions are written as \\(\\bm{\\epsilon}_\\theta\\) (noise), \\(\\vx_\\theta\\) (data), and \\(\\vv_\\theta\\) (velocity).",
+            "citation_metadata": {
+                "title": "Deep Unsupervised Learning using Nonequilibrium Thermodynamics",
+                "authors": [
+                    "Sohl-Dickstein, Jascha",
+                    "Weiss, Eric",
+                    "Maheswaranathan, Niru",
+                    "Ganguli, Surya"
+                ],
+                "venue": "International Conference on Machine Learning",
+                "year": 2015,
+                "identifiers": {
+                    "doi": null,
+                    "arxiv_id": null,
+                    "url": null
+                }
+            },
+            "true_outputs": {
+                "true_existence": 1,
+                "true_hallucination_category": null,
+                "true_alignment": 0,
+                "expert_rationale": "Citation from published paper, assumed to be correct and fully supported."
+            }
+        },
+        {
+            "claim_text": "In seminal work, [CITATION] introduced diffusion probabilistic modeling with a forward noising process and a learned reverse process trained by minimizing a KL-divergence objective.",
+            "surrounding_context": "Classic approaches include autoregressive models that factorize likelihoods over pixels or tokens [CITATION], variational auto-encoders that optimize an evidence lower bound [CITATION], flow-based models that construct exact, invertible density maps [CITATION], and generative adversarial networks that learn via adversarial training between a generator and a discriminator~[CITATION]. Diffusion models have emerged as a powerful class of generative models. In seminal work, [CITATION] introduced diffusion probabilistic modeling with a forward noising process and a learned reverse process trained by minimizing a KL-divergence objective. Subsequent reformulations [CITATION] have streamlined training and inference with simple denoising objectives (e.g., noise or data prediction), leading to state-of-the-art fidelity and robust scaling. Today, diffusion models drive progress across multiple modalities, including images~[CITATION], audio~[CITATION], and video~[CITATION].",
+            "citation_metadata": {
+                "title": "Deep Unsupervised Learning using Nonequilibrium Thermodynamics",
+                "authors": [
+                    "Sohl-Dickstein, Jascha",
+                    "Weiss, Eric",
+                    "Maheswaranathan, Niru",
+                    "Ganguli, Surya"
+                ],
+                "venue": "International Conference on Machine Learning",
+                "year": 2015,
+                "identifiers": {
+                    "doi": null,
+                    "arxiv_id": null,
+                    "url": null
+                }
+            },
+            "true_outputs": {
+                "true_existence": 1,
+                "true_hallucination_category": null,
+                "true_alignment": 0,
+                "expert_rationale": "Citation from published paper, assumed to be correct and fully supported."
+            }
+        },
+        {
+            "claim_text": "Common choices include variance-preserving (VP), with \\(\\alpha_t^2+\\sigma_t^2=1\\)~[CITATION]; variance-exploding (VE), with \\(\\alpha_t=1,\\ \\sigma_t\\ge 0\\)~[CITATION]; and optimal transport (OT), with \\(\\alpha_t=1-t,\\ \\sigma_t=t,\\ T=1\\)~[CITATION].",
+            "surrounding_context": "\\bm{\\epsilon}\\sim\\mathcal N(\\mathbf 0,\\mI),\\, 0 \\le t \\le T. \\end{equation} Here, \\(\\alpha_t\\) and \\(\\sigma_t\\) are set by a predefined schedule. Common choices include variance-preserving (VP), with \\(\\alpha_t^2+\\sigma_t^2=1\\)~[CITATION]; variance-exploding (VE), with \\(\\alpha_t=1,\\ \\sigma_t\\ge 0\\)~[CITATION]; and optimal transport (OT), with \\(\\alpha_t=1-t,\\ \\sigma_t=t,\\ T=1\\)~[CITATION]. The backbone is trained to take a noisy sample \\(\\vx_t\\) and the time \\(t\\) as input and to predict one of the following: the noise \\(\\bm{\\epsilon}\\), the clean sample \\(\\vx_0\\)~[CITATION], or the velocity \\(\\vv_t = \\frac{d\\alpha_t}{dt} \\vx_0 + \\frac{d\\sigma_t}{dt} \\bm{\\epsilon}\\)~[CITATION]. By convention, the backbone parameters are denoted \\(\\theta\\), and the predictions are written as \\(\\bm{\\epsilon}_\\theta\\) (noise), \\(\\vx_\\theta\\) (data), and \\(\\vv_\\theta\\) (velocity).",
+            "citation_metadata": {
+                "title": "Generative modeling by estimating gradients of the data distribution",
+                "authors": [
+                    "Song, Yang",
+                    "Ermon, Stefano"
+                ],
+                "venue": "Advances in neural information processing systems",
+                "year": 2019,
+                "identifiers": {
+                    "doi": null,
+                    "arxiv_id": null,
+                    "url": null
+                }
+            },
+            "true_outputs": {
+                "true_existence": 1,
+                "true_hallucination_category": null,
+                "true_alignment": 0,
+                "expert_rationale": "Citation from published paper, assumed to be correct and fully supported."
+            }
+        },
+        {
+            "claim_text": "Common choices include variance-preserving (VP), with \\(\\alpha_t^2+\\sigma_t^2=1\\)~[CITATION]; variance-exploding (VE), with \\(\\alpha_t=1,\\ \\sigma_t\\ge 0\\)~[CITATION]; and optimal transport (OT), with \\(\\alpha_t=1-t,\\ \\sigma_t=t,\\ T=1\\)~[CITATION].",
+            "surrounding_context": "\\bm{\\epsilon}\\sim\\mathcal N(\\mathbf 0,\\mI),\\, 0 \\le t \\le T. \\end{equation} Here, \\(\\alpha_t\\) and \\(\\sigma_t\\) are set by a predefined schedule. Common choices include variance-preserving (VP), with \\(\\alpha_t^2+\\sigma_t^2=1\\)~[CITATION]; variance-exploding (VE), with \\(\\alpha_t=1,\\ \\sigma_t\\ge 0\\)~[CITATION]; and optimal transport (OT), with \\(\\alpha_t=1-t,\\ \\sigma_t=t,\\ T=1\\)~[CITATION]. The backbone is trained to take a noisy sample \\(\\vx_t\\) and the time \\(t\\) as input and to predict one of the following: the noise \\(\\bm{\\epsilon}\\), the clean sample \\(\\vx_0\\)~[CITATION], or the velocity \\(\\vv_t = \\frac{d\\alpha_t}{dt} \\vx_0 + \\frac{d\\sigma_t}{dt} \\bm{\\epsilon}\\)~[CITATION]. By convention, the backbone parameters are denoted \\(\\theta\\), and the predictions are written as \\(\\bm{\\epsilon}_\\theta\\) (noise), \\(\\vx_\\theta\\) (data), and \\(\\vv_\\theta\\) (velocity).",
+            "citation_metadata": {
+                "title": "Improved techniques for training score-based generative models",
+                "authors": [
+                    "Song, Yang",
+                    "Ermon, Stefano"
+                ],
+                "venue": "Advances in Neural Information Processing Systems",
+                "year": 2020,
+                "identifiers": {
+                    "doi": null,
+                    "arxiv_id": null,
+                    "url": null
+                }
+            },
+            "true_outputs": {
+                "true_existence": 1,
+                "true_hallucination_category": null,
+                "true_alignment": 0,
+                "expert_rationale": "Citation from published paper, assumed to be correct and fully supported."
+            }
+        },
+        {
+            "claim_text": "Common choices include variance-preserving (VP), with \\(\\alpha_t^2+\\sigma_t^2=1\\)~[CITATION]; variance-exploding (VE), with \\(\\alpha_t=1,\\ \\sigma_t\\ge 0\\)~[CITATION]; and optimal transport (OT), with \\(\\alpha_t=1-t,\\ \\sigma_t=t,\\ T=1\\)~[CITATION].",
+            "surrounding_context": "0 \\le t \\le T. \\end{equation} Here, \\(\\alpha_t\\) and \\(\\sigma_t\\) are set by a predefined schedule. Common choices include variance-preserving (VP), with \\(\\alpha_t^2+\\sigma_t^2=1\\)~[CITATION]; variance-exploding (VE), with \\(\\alpha_t=1,\\ \\sigma_t\\ge 0\\)~[CITATION]; and optimal transport (OT), with \\(\\alpha_t=1-t,\\ \\sigma_t=t,\\ T=1\\)~[CITATION]. The backbone is trained to take a noisy sample \\(\\vx_t\\) and the time \\(t\\) as input and to predict one of the following: the noise \\(\\bm{\\epsilon}\\), the clean sample \\(\\vx_0\\)~[CITATION], or the velocity \\(\\vv_t = \\frac{d\\alpha_t}{dt} \\vx_0 + \\frac{d\\sigma_t}{dt} \\bm{\\epsilon}\\)~[CITATION]. By convention, the backbone parameters are denoted \\(\\theta\\), and the predictions are written as \\(\\bm{\\epsilon}_\\theta\\) (noise), \\(\\vx_\\theta\\) (data), and \\(\\vv_\\theta\\) (velocity).",
+            "citation_metadata": {
+                "title": "Flow matching for generative modeling",
+                "authors": [
+                    "Lipman, Yaron",
+                    "Chen, Ricky TQ",
+                    "Ben-Hamu, Heli",
+                    "Nickel, Maximilian",
+                    "Le, Matt"
+                ],
+                "venue": "arXiv preprint arXiv:2210.02747",
+                "year": 2022,
+                "identifiers": {
+                    "doi": null,
+                    "arxiv_id": "2210.02747",
+                    "url": null
+                }
+            },
+            "true_outputs": {
+                "true_existence": 1,
+                "true_hallucination_category": null,
+                "true_alignment": 0,
+                "expert_rationale": "Citation from published paper, assumed to be correct and fully supported."
+            }
+        },
+        {
+            "claim_text": "Common choices include variance-preserving (VP), with \\(\\alpha_t^2+\\sigma_t^2=1\\)~[CITATION]; variance-exploding (VE), with \\(\\alpha_t=1,\\ \\sigma_t\\ge 0\\)~[CITATION]; and optimal transport (OT), with \\(\\alpha_t=1-t,\\ \\sigma_t=t,\\ T=1\\)~[CITATION].",
+            "surrounding_context": "\\end{equation} Here, \\(\\alpha_t\\) and \\(\\sigma_t\\) are set by a predefined schedule. Common choices include variance-preserving (VP), with \\(\\alpha_t^2+\\sigma_t^2=1\\)~[CITATION]; variance-exploding (VE), with \\(\\alpha_t=1,\\ \\sigma_t\\ge 0\\)~[CITATION]; and optimal transport (OT), with \\(\\alpha_t=1-t,\\ \\sigma_t=t,\\ T=1\\)~[CITATION]. The backbone is trained to take a noisy sample \\(\\vx_t\\) and the time \\(t\\) as input and to predict one of the following: the noise \\(\\bm{\\epsilon}\\), the clean sample \\(\\vx_0\\)~[CITATION], or the velocity \\(\\vv_t = \\frac{d\\alpha_t}{dt} \\vx_0 + \\frac{d\\sigma_t}{dt} \\bm{\\epsilon}\\)~[CITATION]. By convention, the backbone parameters are denoted \\(\\theta\\), and the predictions are written as \\(\\bm{\\epsilon}_\\theta\\) (noise), \\(\\vx_\\theta\\) (data), and \\(\\vv_\\theta\\) (velocity).",
+            "citation_metadata": {
+                "title": "Flow matching for generative modeling",
+                "authors": [
+                    "Lipman, Yaron",
+                    "Chen, Ricky TQ",
+                    "Ben-Hamu, Heli",
+                    "Nickel, Maximilian",
+                    "Le, Matt"
+                ],
+                "venue": "arXiv preprint arXiv:2210.02747",
+                "year": 2022,
+                "identifiers": {
+                    "doi": null,
+                    "arxiv_id": "2210.02747",
+                    "url": null
+                }
+            },
+            "true_outputs": {
+                "true_existence": 1,
+                "true_hallucination_category": null,
+                "true_alignment": 0,
+                "expert_rationale": "Citation from published paper, assumed to be correct and fully supported."
+            }
+        },
+        {
+            "claim_text": "Along one axis, classical ODE methods\u2014singlestep Runge\u2013Kutta [CITATION] and multistep Adams\u2013Bashforth [CITATION]\u2014provide off-the-shelf accuracy\u2013NFE trade-offs for a given evaluation budget [CITATION].",
+            "surrounding_context": "Diffusion models generate samples through iterative denoising steps, making the inference cost scale with the number of function evaluations (NFEs). Leveraging the probability\u2013flow formulation, which casts sampling as an ordinary differential equation [CITATION], a number of recent works have proposed ODE-based acceleration methods. Along one axis, classical ODE methods\u2014singlestep Runge\u2013Kutta [CITATION] and multistep Adams\u2013Bashforth [CITATION]\u2014provide off-the-shelf accuracy\u2013NFE trade-offs for a given evaluation budget [CITATION]. Along a second axis, diffusion-dedicated solvers exploit the structure of the denoising dynamics: they approximate noise or data predictions with low-order Taylor expansions or Lagrange interpolation and derive closed-form updates [CITATION]. Lastly, learned solvers optimize the timestep schedule and other sampling-related parameters~[CITATION].",
+            "citation_metadata": {
+                "title": "Ueber die numerische Aufl\u00f6sung von Differentialgleichungen",
+                "authors": [
+                    "Runge, Carl"
+                ],
+                "venue": "Mathematische Annalen",
+                "year": 1895,
+                "identifiers": {
+                    "doi": null,
+                    "arxiv_id": null,
+                    "url": "http://eudml.org/doc/157756"
+                }
+            },
+            "true_outputs": {
+                "true_existence": 1,
+                "true_hallucination_category": null,
+                "true_alignment": 0,
+                "expert_rationale": "Citation from published paper, assumed to be correct and fully supported."
+            }
+        },
+        {
+            "claim_text": "Along one axis, classical ODE methods\u2014singlestep Runge\u2013Kutta [CITATION] and multistep Adams\u2013Bashforth [CITATION]\u2014provide off-the-shelf accuracy\u2013NFE trade-offs for a given evaluation budget [CITATION].",
+            "surrounding_context": "Diffusion models generate samples through iterative denoising steps, making the inference cost scale with the number of function evaluations (NFEs). Leveraging the probability\u2013flow formulation, which casts sampling as an ordinary differential equation [CITATION], a number of recent works have proposed ODE-based acceleration methods. Along one axis, classical ODE methods\u2014singlestep Runge\u2013Kutta [CITATION] and multistep Adams\u2013Bashforth [CITATION]\u2014provide off-the-shelf accuracy\u2013NFE trade-offs for a given evaluation budget [CITATION]. Along a second axis, diffusion-dedicated solvers exploit the structure of the denoising dynamics: they approximate noise or data predictions with low-order Taylor expansions or Lagrange interpolation and derive closed-form updates [CITATION]. Lastly, learned solvers optimize the timestep schedule and other sampling-related parameters~[CITATION].",
+            "citation_metadata": {
+                "title": "An Attempt to Test the Theories of Capillary Action by Comparing the Theoretical and Measured Forms of Drops of Fluid: With an Explanation of the Method of Integration Employed in Constructing the Tables",
+                "authors": [
+                    "Francis Bashforth",
+                    "John Couch Adams"
+                ],
+                "venue": "Cambridge University Press",
+                "year": 1883,
+                "identifiers": {
+                    "doi": null,
+                    "arxiv_id": null,
+                    "url": null
+                }
+            },
+            "true_outputs": {
+                "true_existence": 1,
+                "true_hallucination_category": null,
+                "true_alignment": 0,
+                "expert_rationale": "Citation from published paper, assumed to be correct and fully supported."
+            }
+        },
+        {
+            "claim_text": "Moreover, several works split the right-hand side into linear and nonlinear parts, and evaluate the nonlinear term using finite-difference approximations~[CITATION] or via Lagrange interpolation~[CITATION].",
+            "surrounding_context": "\\;\\approx\\; -\\frac{\\boldsymbol{\\epsilon}_\\theta(\\vx_t,t)}{\\sigma_t}. \\end{equation} Given this ODE, one can perform sampling using classical numerical methods beyond Euler, such as singlestep Runge\u2013Kutta~[CITATION] and multistep Adams\u2013Bashforth schemes~[CITATION]. Moreover, several works split the right-hand side into linear and nonlinear parts, and evaluate the nonlinear term using finite-difference approximations~[CITATION] or via Lagrange interpolation~[CITATION].",
+            "citation_metadata": {
+                "title": "UniPC: A Unified Predictor-Corrector Framework for Fast Sampling of Diffusion Models",
+                "authors": [
+                    "Zhao, We",
+                    "Bai, Li",
+                    "Rao, Yong",
+                    "Zhou, Jian",
+                    "Lu, Jun"
+                ],
+                "venue": "arXiv preprint arXiv:2302.04867",
+                "year": 2023,
+                "identifiers": {
+                    "doi": null,
+                    "arxiv_id": "2302.04867",
+                    "url": null
+                }
+            },
+            "true_outputs": {
+                "true_existence": 1,
+                "true_hallucination_category": null,
+                "true_alignment": 0,
+                "expert_rationale": "Citation from published paper, assumed to be correct and fully supported."
+            }
+        },
+        {
+            "claim_text": "Along a second axis, diffusion-dedicated solvers exploit the structure of the denoising dynamics: they approximate noise or data predictions with low-order Taylor expansions or Lagrange interpolation and derive closed-form updates [CITATION].",
+            "surrounding_context": "Leveraging the probability\u2013flow formulation, which casts sampling as an ordinary differential equation [CITATION], a number of recent works have proposed ODE-based acceleration methods. Along one axis, classical ODE methods\u2014singlestep Runge\u2013Kutta [CITATION] and multistep Adams\u2013Bashforth [CITATION]\u2014provide off-the-shelf accuracy\u2013NFE trade-offs for a given evaluation budget [CITATION]. Along a second axis, diffusion-dedicated solvers exploit the structure of the denoising dynamics: they approximate noise or data predictions with low-order Taylor expansions or Lagrange interpolation and derive closed-form updates [CITATION]. Lastly, learned solvers optimize the timestep schedule and other sampling-related parameters~[CITATION]. Because these parameters depend on the backbone and dataset, such solvers are typically tailored to specific backbones and settings (e.g., a chosen NFE and guidance scale).",
+            "citation_metadata": {
+                "title": "UniPC: A Unified Predictor-Corrector Framework for Fast Sampling of Diffusion Models",
+                "authors": [
+                    "Zhao, We",
+                    "Bai, Li",
+                    "Rao, Yong",
+                    "Zhou, Jian",
+                    "Lu, Jun"
+                ],
+                "venue": "arXiv preprint arXiv:2302.04867",
+                "year": 2023,
+                "identifiers": {
+                    "doi": null,
+                    "arxiv_id": "2302.04867",
+                    "url": null
+                }
+            },
+            "true_outputs": {
+                "true_existence": 1,
+                "true_hallucination_category": null,
+                "true_alignment": 0,
+                "expert_rationale": "Citation from published paper, assumed to be correct and fully supported."
+            }
+        },
+        {
+            "claim_text": "Moreover, several works split the right-hand side into linear and nonlinear parts, and evaluate the nonlinear term using finite-difference approximations~[CITATION] or via Lagrange interpolation~[CITATION].",
+            "surrounding_context": "\\;\\approx\\; -\\frac{\\boldsymbol{\\epsilon}_\\theta(\\vx_t,t)}{\\sigma_t}. \\end{equation} Given this ODE, one can perform sampling using classical numerical methods beyond Euler, such as singlestep Runge\u2013Kutta~[CITATION] and multistep Adams\u2013Bashforth schemes~[CITATION]. Moreover, several works split the right-hand side into linear and nonlinear parts, and evaluate the nonlinear term using finite-difference approximations~[CITATION] or via Lagrange interpolation~[CITATION].",
+            "citation_metadata": {
+                "title": "Fast sampling of diffusion models with exponential integrator",
+                "authors": [
+                    "Zhang Qinsheng",
+                    "Yongxin Chen"
+                ],
+                "venue": "ICLR",
+                "year": 2023,
+                "identifiers": {
+                    "doi": null,
+                    "arxiv_id": null,
+                    "url": null
+                }
+            },
+            "true_outputs": {
+                "true_existence": 1,
+                "true_hallucination_category": null,
+                "true_alignment": 0,
+                "expert_rationale": "Citation from published paper, assumed to be correct and fully supported."
+            }
+        },
+        {
+            "claim_text": "For diffusion models, many early samplers use noise prediction~[CITATION].",
+            "surrounding_context": "\\vx_\\theta(\\vx_t,t) \\;=\\; \\frac{\\vx_t - \\sigma_t\\,\\bm{\\epsilon}_\\theta(\\vx_t,t)}{\\alpha_t},\\quad \\vv_\\theta(\\vx_t,t) \\;=\\; \\frac{d\\alpha_t}{dt}\\,\\vx_\\theta(\\vx_t,t) \\;+\\; \\frac{d\\sigma_t}{dt}\\,\\bm{\\epsilon}_\\theta(\\vx_t,t). \\end{equation} Using these relationships, a different prediction type can be used at sampling time from that used during training. For diffusion models, many early samplers use noise prediction~[CITATION]. More recently, data prediction has also been widely adopted to improve sample quality~[CITATION]. In contrast, flow-matching backbones typically use velocity prediction at sampling time, as in training~[CITATION].",
+            "citation_metadata": {
+                "title": "Fast sampling of diffusion models with exponential integrator",
+                "authors": [
+                    "Zhang Qinsheng",
+                    "Yongxin Chen"
+                ],
+                "venue": "ICLR",
+                "year": 2023,
+                "identifiers": {
+                    "doi": null,
+                    "arxiv_id": null,
+                    "url": null
+                }
+            },
+            "true_outputs": {
+                "true_existence": 1,
+                "true_hallucination_category": null,
+                "true_alignment": 0,
+                "expert_rationale": "Citation from published paper, assumed to be correct and fully supported."
+            }
+        },
+        {
+            "claim_text": "Moreover, several works split the right-hand side into linear and nonlinear parts, and evaluate the nonlinear term using finite-difference approximations~[CITATION] or via Lagrange interpolation~[CITATION].",
+            "surrounding_context": "\\;\\approx\\; -\\frac{\\boldsymbol{\\epsilon}_\\theta(\\vx_t,t)}{\\sigma_t}. \\end{equation} Given this ODE, one can perform sampling using classical numerical methods beyond Euler, such as singlestep Runge\u2013Kutta~[CITATION] and multistep Adams\u2013Bashforth schemes~[CITATION]. Moreover, several works split the right-hand side into linear and nonlinear parts, and evaluate the nonlinear term using finite-difference approximations~[CITATION] or via Lagrange interpolation~[CITATION].",
+            "citation_metadata": {
+                "title": "SA-Solver: Stochastic Adams Solver for Fast Sampling of Diffusion Models",
+                "authors": [
+                    "Xue, Shuchen",
+                    "Yi, Mingyang",
+                    "Luo, Weijian",
+                    "Zhang, Shifeng",
+                    "Sun, Jiacheng",
+                    "Li, Zhenguo",
+                    "Ma, Zhi-Ming"
+                ],
+                "venue": "Advances in Neural Information Processing Systems",
+                "year": 2024,
+                "identifiers": {
+                    "doi": null,
+                    "arxiv_id": null,
+                    "url": null
+                }
+            },
+            "true_outputs": {
+                "true_existence": 1,
+                "true_hallucination_category": null,
+                "true_alignment": 0,
+                "expert_rationale": "Citation from published paper, assumed to be correct and fully supported."
+            }
+        },
+        {
+            "claim_text": "Along a second axis, diffusion-dedicated solvers exploit the structure of the denoising dynamics: they approximate noise or data predictions with low-order Taylor expansions or Lagrange interpolation and derive closed-form updates [CITATION].",
+            "surrounding_context": "Leveraging the probability\u2013flow formulation, which casts sampling as an ordinary differential equation [CITATION], a number of recent works have proposed ODE-based acceleration methods. Along one axis, classical ODE methods\u2014singlestep Runge\u2013Kutta [CITATION] and multistep Adams\u2013Bashforth [CITATION]\u2014provide off-the-shelf accuracy\u2013NFE trade-offs for a given evaluation budget [CITATION]. Along a second axis, diffusion-dedicated solvers exploit the structure of the denoising dynamics: they approximate noise or data predictions with low-order Taylor expansions or Lagrange interpolation and derive closed-form updates [CITATION]. Lastly, learned solvers optimize the timestep schedule and other sampling-related parameters~[CITATION]. Because these parameters depend on the backbone and dataset, such solvers are typically tailored to specific backbones and settings (e.g., a chosen NFE and guidance scale).",
+            "citation_metadata": {
+                "title": "SA-Solver: Stochastic Adams Solver for Fast Sampling of Diffusion Models",
+                "authors": [
+                    "Xue, Shuchen",
+                    "Yi, Mingyang",
+                    "Luo, Weijian",
+                    "Zhang, Shifeng",
+                    "Sun, Jiacheng",
+                    "Li, Zhenguo",
+                    "Ma, Zhi-Ming"
+                ],
+                "venue": "Advances in Neural Information Processing Systems",
+                "year": 2024,
+                "identifiers": {
+                    "doi": null,
+                    "arxiv_id": null,
+                    "url": null
+                }
+            },
+            "true_outputs": {
+                "true_existence": 1,
+                "true_hallucination_category": null,
+                "true_alignment": 0,
+                "expert_rationale": "Citation from published paper, assumed to be correct and fully supported."
+            }
+        },
+        {
+            "claim_text": "\\subsection{Prediction Types} Diffusion backbones are typically trained with noise prediction~[CITATION], whereas flow-matching backbones are trained with velocity prediction~[CITATION].",
+            "surrounding_context": "\\subsection{Prediction Types} Diffusion backbones are typically trained with noise prediction~[CITATION], whereas flow-matching backbones are trained with velocity prediction~[CITATION]. However, noise, velocity, and data predictions can be converted into one another as follows. \\begin{equation} \\vx_\\theta(\\vx_t,t) \\;=\\; \\frac{\\vx_t - \\sigma_t\\,\\bm{\\epsilon}_\\theta(\\vx_t,t)}{\\alpha_t},\\quad",
+            "citation_metadata": {
+                "title": "Elucidating the design space of diffusion-based generative models",
+                "authors": [
+                    "Karras, Tero",
+                    "Aittala, Miika",
+                    "Aila, Timo",
+                    "Laine, Samuli"
+                ],
+                "venue": "Advances in neural information processing systems",
+                "year": 2022,
+                "identifiers": {
+                    "doi": null,
+                    "arxiv_id": null,
+                    "url": null
+                }
+            },
+            "true_outputs": {
+                "true_existence": 1,
+                "true_hallucination_category": null,
+                "true_alignment": 0,
+                "expert_rationale": "Citation from published paper, assumed to be correct and fully supported."
+            }
+        },
+        {
+            "claim_text": "For diffusion models, many early samplers use noise prediction~[CITATION].",
+            "surrounding_context": "\\vx_\\theta(\\vx_t,t) \\;=\\; \\frac{\\vx_t - \\sigma_t\\,\\bm{\\epsilon}_\\theta(\\vx_t,t)}{\\alpha_t},\\quad \\vv_\\theta(\\vx_t,t) \\;=\\; \\frac{d\\alpha_t}{dt}\\,\\vx_\\theta(\\vx_t,t) \\;+\\; \\frac{d\\sigma_t}{dt}\\,\\bm{\\epsilon}_\\theta(\\vx_t,t). \\end{equation} Using these relationships, a different prediction type can be used at sampling time from that used during training. For diffusion models, many early samplers use noise prediction~[CITATION]. More recently, data prediction has also been widely adopted to improve sample quality~[CITATION]. In contrast, flow-matching backbones typically use velocity prediction at sampling time, as in training~[CITATION].",
+            "citation_metadata": {
+                "title": "Pseudo numerical methods for diffusion models on manifolds",
+                "authors": [
+                    "Liu, Luping",
+                    "Ren, Yi",
+                    "Lin, Zhijie",
+                    "Zhao, Zhou"
+                ],
+                "venue": "arXiv preprint arXiv:2202.09778",
+                "year": 2022,
+                "identifiers": {
+                    "doi": null,
+                    "arxiv_id": "2202.09778",
+                    "url": null
+                }
+            },
+            "true_outputs": {
+                "true_existence": 1,
+                "true_hallucination_category": null,
+                "true_alignment": 0,
+                "expert_rationale": "Citation from published paper, assumed to be correct and fully supported."
+            }
+        },
+        {
+            "claim_text": "For DiT and GM-DiT, FID is computed on 50k images uniformly sampled across the 1,000 ImageNet~[CITATION] classes.",
+            "surrounding_context": "\\subsection{Main Quantitative Results} \\vspace{-6pt} We evaluate quantitative performance using FID~[CITATION] and CLIP score~[CITATION]. For DiT and GM-DiT, FID is computed on 50k images uniformly sampled across the 1,000 ImageNet~[CITATION] classes. For SANA and PixArt-$\\alpha$, FID and CLIP are computed on the MSCOCO 2014~[CITATION] validation set (30k image--caption pairs). The CLIP score is computed as the cosine similarity between text and image features.",
+            "citation_metadata": {
+                "title": "Image{N}et: {A} large-scale hierarchical image database",
+                "authors": [
+                    "Jia Deng",
+                    "Wei Dong",
+                    "Richard Socher",
+                    "Li-Jia Li",
+                    "Kai Li",
+                    "Li Fei-Fei"
+                ],
+                "venue": "2009 IEEE Conference on Computer Vision and Pattern Recognition",
+                "year": 2009,
+                "identifiers": {
+                    "doi": null,
+                    "arxiv_id": null,
+                    "url": null
+                }
+            },
+            "true_outputs": {
+                "true_existence": 1,
+                "true_hallucination_category": null,
+                "true_alignment": 0,
+                "expert_rationale": "Citation from published paper, assumed to be correct and fully supported."
+            }
+        },
+        {
+            "claim_text": "\\vspace{-4pt} \\subsection{Main Quantitative Results} \\vspace{-6pt} We evaluate quantitative performance using FID~[CITATION] and CLIP score~[CITATION].",
+            "surrounding_context": "\\vspace{-4pt} \\subsection{Main Quantitative Results} \\vspace{-6pt} We evaluate quantitative performance using FID~[CITATION] and CLIP score~[CITATION]. For DiT and GM-DiT, FID is computed on 50k images uniformly sampled across the 1,000 ImageNet~[CITATION] classes. For SANA and PixArt-$\\alpha$, FID and CLIP are computed on the MSCOCO 2014~[CITATION] validation set (30k image--caption pairs).",
+            "citation_metadata": {
+                "title": "{GAN}s Trained by a Two Time-Scale Update Rule Converge to a Local {N}ash Equilibrium",
+                "authors": [
+                    "Martin Heusel",
+                    "Hubert Ramsauer",
+                    "Thomas Unterthiner",
+                    "Bernhard Nessler",
+                    "Sepp Hochreiter"
+                ],
+                "venue": "Advances in Neural Information Processing Systems",
+                "year": 2017,
+                "identifiers": {
+                    "doi": null,
+                    "arxiv_id": null,
+                    "url": null
+                }
+            },
+            "true_outputs": {
+                "true_existence": 1,
+                "true_hallucination_category": null,
+                "true_alignment": 0,
+                "expert_rationale": "Citation from published paper, assumed to be correct and fully supported."
+            }
+        },
+        {
+            "claim_text": "For DiT and GM-DiT, MobileNetV3-Large~[CITATION] is used, and for SANA and PixArt-$\\alpha$, CLIP(RN101) is used.",
+            "surrounding_context": "The CLIP score is computed as the cosine similarity between text and image features. As described in Sec.~\\ref{sec:learning}, we train Dual-Solver with a classification-based objective. For DiT and GM-DiT, MobileNetV3-Large~[CITATION] is used, and for SANA and PixArt-$\\alpha$, CLIP(RN101) is used. Fig.~\\ref{fig:main_FID} shows the measured FID and CLIP scores. Across all evaluated NFEs, Dual-Solver outperforms competing solvers on both FID and CLIP for DiT, SANA, and PixArt-$\\alpha$.",
+            "citation_metadata": {
+                "title": "Searching for mobilenetv3",
+                "authors": [
+                    "Howard, Andrew",
+                    "Sandler, Mark",
+                    "Chu, Grace",
+                    "Chen, Liang-Chieh",
+                    "Chen, Bo",
+                    "Tan, Mingxing",
+                    "Wang, Weijun",
+                    "Zhu, Yukun",
+                    "Pang, Ruoming",
+                    "Vasudevan, Vijay",
+                    "others"
+                ],
+                "venue": "Proceedings of the IEEE/CVF international conference on computer vision",
+                "year": 2019,
+                "identifiers": {
+                    "doi": null,
+                    "arxiv_id": null,
+                    "url": null
+                }
+            },
+            "true_outputs": {
+                "true_existence": 1,
+                "true_hallucination_category": null,
+                "true_alignment": 0,
+                "expert_rationale": "Citation from published paper, assumed to be correct and fully supported."
+            }
+        },
+        {
+            "claim_text": "Feature regression is implemented using LPIPS~[CITATION], and it generally outperforms trajectory- and sample-space regression.",
+            "surrounding_context": "} \\vspace{-5pt} \\end{wraptable} Table~\\ref{tab:learning_strategies} reports the results of applying the regression- and classification-based parameter learning methods discussed in Sec.~\\ref{sec:learning} to Dual-Solver. Feature regression is implemented using LPIPS~[CITATION], and it generally outperforms trajectory- and sample-space regression. The improvement is particularly pronounced at NFE = 3 and 5. Depending on which classifier (AlexNet~[CITATION], VGG~[CITATION], or SqueezeNet~[CITATION]) is used to extract features, the results vary significantly, underscoring the importance of classifier choice in feature space.",
+            "citation_metadata": {
+                "title": "The unreasonable effectiveness of deep features as a perceptual metric",
+                "authors": [
+                    "Zhang, Richard",
+                    "Isola, Phillip",
+                    "Efros, Alexei A",
+                    "Shechtman, Eli",
+                    "Wang, Oliver"
+                ],
+                "venue": "Proceedings of the IEEE conference on computer vision and pattern recognition",
+                "year": 2018,
+                "identifiers": {
+                    "doi": null,
+                    "arxiv_id": null,
+                    "url": null
+                }
+            },
+            "true_outputs": {
+                "true_existence": 1,
+                "true_hallucination_category": null,
+                "true_alignment": 0,
+                "expert_rationale": "Citation from published paper, assumed to be correct and fully supported."
+            }
+        },
+        {
+            "claim_text": "Since comparisons in the trajectory or sample space often show a mismatch with visual perceptual quality, \\emph{feature regression} has been proposed~[CITATION], in which the discrepancy is measured in a feature space using metrics such as LPIPS~[CITATION].",
+            "surrounding_context": "The student is then trained to imitate the behavior of the teacher running at a high NFE. Most prior works adopt \\emph{trajectory regression}~[CITATION], which compares the trajectories generated by the teacher and the student, or \\emph{sample regression}~[CITATION], which compares only the final samples. Since comparisons in the trajectory or sample space often show a mismatch with visual perceptual quality, \\emph{feature regression} has been proposed~[CITATION], in which the discrepancy is measured in a feature space using metrics such as LPIPS~[CITATION]. However, all of these methods require a teacher solver and incur substantial overhead in preparing supervision targets, and they tend to perform poorly in the very low NFE regime (e.g., NFE $\\leq 5$; see Table~\\ref{tab:learning_strategies}).",
+            "citation_metadata": {
+                "title": "The unreasonable effectiveness of deep features as a perceptual metric",
+                "authors": [
+                    "Zhang, Richard",
+                    "Isola, Phillip",
+                    "Efros, Alexei A",
+                    "Shechtman, Eli",
+                    "Wang, Oliver"
+                ],
+                "venue": "Proceedings of the IEEE conference on computer vision and pattern recognition",
+                "year": 2018,
+                "identifiers": {
+                    "doi": null,
+                    "arxiv_id": null,
+                    "url": null
+                }
+            },
+            "true_outputs": {
+                "true_existence": 1,
+                "true_hallucination_category": null,
+                "true_alignment": 0,
+                "expert_rationale": "Citation from published paper, assumed to be correct and fully supported."
+            }
+        },
+        {
+            "claim_text": "Depending on which classifier (AlexNet~[CITATION], VGG~[CITATION], or SqueezeNet~[CITATION]) is used to extract features, the results vary significantly, underscoring the importance of classifier choice in feature space.",
+            "surrounding_context": "Feature regression is implemented using LPIPS~[CITATION], and it generally outperforms trajectory- and sample-space regression. The improvement is particularly pronounced at NFE = 3 and 5. Depending on which classifier (AlexNet~[CITATION], VGG~[CITATION], or SqueezeNet~[CITATION]) is used to extract features, the results vary significantly, underscoring the importance of classifier choice in feature space. Classification-based methods further improve performance over feature regression at NFE = 3 and 5. In particular, the method that uses hard labels achieves the best results across all NFEs.",
+            "citation_metadata": {
+                "title": "Imagenet classification with deep convolutional neural networks",
+                "authors": [
+                    "Krizhevsky, Alex",
+                    "Sutskever, Ilya",
+                    "Hinton, Geoffrey E"
+                ],
+                "venue": "Advances in neural information processing systems",
+                "year": 2012,
+                "identifiers": {
+                    "doi": null,
+                    "arxiv_id": null,
+                    "url": null
+                }
+            },
+            "true_outputs": {
+                "true_existence": 1,
+                "true_hallucination_category": null,
+                "true_alignment": 0,
+                "expert_rationale": "Citation from published paper, assumed to be correct and fully supported."
+            }
+        },
+        {
+            "claim_text": "Depending on which classifier (AlexNet~[CITATION], VGG~[CITATION], or SqueezeNet~[CITATION]) is used to extract features, the results vary significantly, underscoring the importance of classifier choice in feature space.",
+            "surrounding_context": "Feature regression is implemented using LPIPS~[CITATION], and it generally outperforms trajectory- and sample-space regression. The improvement is particularly pronounced at NFE = 3 and 5. Depending on which classifier (AlexNet~[CITATION], VGG~[CITATION], or SqueezeNet~[CITATION]) is used to extract features, the results vary significantly, underscoring the importance of classifier choice in feature space. Classification-based methods further improve performance over feature regression at NFE = 3 and 5. In particular, the method that uses hard labels achieves the best results across all NFEs.",
+            "citation_metadata": {
+                "title": "Very deep convolutional networks for large-scale image recognition",
+                "authors": [
+                    "Simonyan, Karen",
+                    "Zisserman, Andrew"
+                ],
+                "venue": "arXiv preprint arXiv:1409.1556",
+                "year": 2014,
+                "identifiers": {
+                    "doi": null,
+                    "arxiv_id": "1409.1556",
+                    "url": null
+                }
+            },
+            "true_outputs": {
+                "true_existence": 1,
+                "true_hallucination_category": null,
+                "true_alignment": 0,
+                "expert_rationale": "Citation from published paper, assumed to be correct and fully supported."
+            }
+        },
+        {
+            "claim_text": "Depending on which classifier (AlexNet~[CITATION], VGG~[CITATION], or SqueezeNet~[CITATION]) is used to extract features, the results vary significantly, underscoring the importance of classifier choice in feature space.",
+            "surrounding_context": "Feature regression is implemented using LPIPS~[CITATION], and it generally outperforms trajectory- and sample-space regression. The improvement is particularly pronounced at NFE = 3 and 5. Depending on which classifier (AlexNet~[CITATION], VGG~[CITATION], or SqueezeNet~[CITATION]) is used to extract features, the results vary significantly, underscoring the importance of classifier choice in feature space. Classification-based methods further improve performance over feature regression at NFE = 3 and 5. In particular, the method that uses hard labels achieves the best results across all NFEs.",
+            "citation_metadata": {
+                "title": "SqueezeNet: AlexNet-level accuracy with 50x fewer parameters and< 0.5 MB model size",
+                "authors": [
+                    "Iandola, Forrest N",
+                    "Han, Song",
+                    "Moskewicz, Matthew W",
+                    "Ashraf, Khalid",
+                    "Dally, William J",
+                    "Keutzer, Kurt"
+                ],
+                "venue": "arXiv preprint arXiv:1602.07360",
+                "year": 2016,
+                "identifiers": {
+                    "doi": null,
+                    "arxiv_id": "1602.07360",
+                    "url": null
+                }
+            },
+            "true_outputs": {
+                "true_existence": 1,
+                "true_hallucination_category": null,
+                "true_alignment": 0,
+                "expert_rationale": "Citation from published paper, assumed to be correct and fully supported."
+            }
+        },
+        {
+            "claim_text": "\\section{Implementation Details} \\vspace{-4pt} Dual-Solver performs sampling using a predictor--corrector scheme~[CITATION] based on the equations developed in the previous section.",
+            "surrounding_context": "\\section{Implementation Details} \\vspace{-4pt} Dual-Solver performs sampling using a predictor--corrector scheme~[CITATION] based on the equations developed in the previous section. We detail the sampling scheme in Sec.~\\ref{sec:sampling_scheme} and then present all learnable parameters in Sec.~\\ref{sec:learning_parameters}. \\input{implementation/sampling} \\input{implementation/parameters} \\begin{figure}[t]",
+            "citation_metadata": {
+                "title": "Numerical methods for ordinary differential equations",
+                "authors": [
+                    "Butcher, John Charles"
+                ],
+                "venue": "John Wiley \\& Sons",
+                "year": 2016,
+                "identifiers": {
+                    "doi": null,
+                    "arxiv_id": null,
+                    "url": null
+                }
+            },
+            "true_outputs": {
+                "true_existence": 1,
+                "true_hallucination_category": null,
+                "true_alignment": 0,
+                "expert_rationale": "Citation from published paper, assumed to be correct and fully supported."
+            }
+        },
+        {
+            "claim_text": "Along one axis, classical ODE methods\u2014singlestep Runge\u2013Kutta [CITATION] and multistep Adams\u2013Bashforth [CITATION]\u2014provide off-the-shelf accuracy\u2013NFE trade-offs for a given evaluation budget [CITATION].",
+            "surrounding_context": "Diffusion models generate samples through iterative denoising steps, making the inference cost scale with the number of function evaluations (NFEs). Leveraging the probability\u2013flow formulation, which casts sampling as an ordinary differential equation [CITATION], a number of recent works have proposed ODE-based acceleration methods. Along one axis, classical ODE methods\u2014singlestep Runge\u2013Kutta [CITATION] and multistep Adams\u2013Bashforth [CITATION]\u2014provide off-the-shelf accuracy\u2013NFE trade-offs for a given evaluation budget [CITATION]. Along a second axis, diffusion-dedicated solvers exploit the structure of the denoising dynamics: they approximate noise or data predictions with low-order Taylor expansions or Lagrange interpolation and derive closed-form updates [CITATION]. Lastly, learned solvers optimize the timestep schedule and other sampling-related parameters~[CITATION].",
+            "citation_metadata": {
+                "title": "Numerical methods for ordinary differential equations",
+                "authors": [
+                    "Butcher, John Charles"
+                ],
+                "venue": "John Wiley \\& Sons",
+                "year": 2016,
+                "identifiers": {
+                    "doi": null,
+                    "arxiv_id": null,
+                    "url": null
+                }
+            },
+            "true_outputs": {
+                "true_existence": 1,
+                "true_hallucination_category": null,
+                "true_alignment": 0,
+                "expert_rationale": "Citation from published paper, assumed to be correct and fully supported."
+            }
+        },
+        {
+            "claim_text": "Following prior work [CITATION], we employ unnormalized step variables $\\{\\Delta t'_i\\}_{i=0}^{M-1}$ and apply a softmax over $i=0,\\dots,M-1$ to obtain normalized step sizes $\\{\\Delta t_i\\}_{i=0}^{M-1}$ (nonnegative and summing to one).",
+            "surrounding_context": "This may seem heavy, but Sec.~\\ref{sec:parameters_setting} shows it is necessary. In addition to these parameters, we also learn the evaluation times $\\{t_i\\}_{i=1}^{M-1}$ (with $t_0$ and $t_M$ fixed), where $M$ denotes the number of steps. Following prior work [CITATION], we employ unnormalized step variables $\\{\\Delta t'_i\\}_{i=0}^{M-1}$ and apply a softmax over $i=0,\\dots,M-1$ to obtain normalized step sizes $\\{\\Delta t_i\\}_{i=0}^{M-1}$ (nonnegative and summing to one). The timesteps are obtained via a cumulative sum: $t_i = t_0 + (t_M - t_0)\\sum_{k=0}^{i-1}\\Delta t_k,\\, i=1,\\dots,M-1.$",
+            "citation_metadata": {
+                "title": "Learning to Discretize Denoising Diffusion ODEs",
+                "authors": [
+                    "Tong, Vinh",
+                    "Hoang, Trung-Dung",
+                    "Liu, Anji",
+                    "Van den Broeck, Guy",
+                    "Niepert, Mathias"
+                ],
+                "venue": "International Conference on Learning Representations (ICLR)",
+                "year": 2025,
+                "identifiers": {
+                    "doi": null,
+                    "arxiv_id": null,
+                    "url": null
+                }
+            },
+            "true_outputs": {
+                "true_existence": 1,
+                "true_hallucination_category": null,
+                "true_alignment": 0,
+                "expert_rationale": "Citation from published paper, assumed to be correct and fully supported."
+            }
+        },
+        {
+            "claim_text": "Since comparisons in the trajectory or sample space often show a mismatch with visual perceptual quality, \\emph{feature regression} has been proposed~[CITATION], in which the discrepancy is measured in a feature space using metrics such as LPIPS~[CITATION].",
+            "surrounding_context": "The student is then trained to imitate the behavior of the teacher running at a high NFE. Most prior works adopt \\emph{trajectory regression}~[CITATION], which compares the trajectories generated by the teacher and the student, or \\emph{sample regression}~[CITATION], which compares only the final samples. Since comparisons in the trajectory or sample space often show a mismatch with visual perceptual quality, \\emph{feature regression} has been proposed~[CITATION], in which the discrepancy is measured in a feature space using metrics such as LPIPS~[CITATION]. However, all of these methods require a teacher solver and incur substantial overhead in preparing supervision targets, and they tend to perform poorly in the very low NFE regime (e.g., NFE $\\leq 5$; see Table~\\ref{tab:learning_strategies}).",
+            "citation_metadata": {
+                "title": "Learning to Discretize Denoising Diffusion ODEs",
+                "authors": [
+                    "Tong, Vinh",
+                    "Hoang, Trung-Dung",
+                    "Liu, Anji",
+                    "Van den Broeck, Guy",
+                    "Niepert, Mathias"
+                ],
+                "venue": "International Conference on Learning Representations (ICLR)",
+                "year": 2025,
+                "identifiers": {
+                    "doi": null,
+                    "arxiv_id": null,
+                    "url": null
+                }
+            },
+            "true_outputs": {
+                "true_existence": 1,
+                "true_hallucination_category": null,
+                "true_alignment": 0,
+                "expert_rationale": "Citation from published paper, assumed to be correct and fully supported."
+            }
+        },
+        {
+            "claim_text": "Solver parameters are learned using either pretrained image classifiers~[CITATION] or a zero-shot classifier~[CITATION].",
+            "surrounding_context": "\\end{itemize} We further propose a classification-based learning strategy that yields high-fidelity images even in the low-NFE regime (Sec.~\\ref{sec:classifier_based_parameter_learning}). Unlike regression-based learning, which typically requires many target samples generated at high NFEs, our approach requires no target samples. Solver parameters are learned using either pretrained image classifiers~[CITATION] or a zero-shot classifier~[CITATION]. For $3\\le$ NFE $\\le 9$, Dual-Solver outperforms prior state-of-the-art solvers (Sec.~\\ref{sec:experiments}).",
+            "citation_metadata": {
+                "title": "Deep residual learning for image recognition",
+                "authors": [
+                    "He, Kaiming",
+                    "Zhang, Xiangyu",
+                    "Ren, Shaoqing",
+                    "Sun, Jian"
+                ],
+                "venue": "Proceedings of the IEEE conference on computer vision and pattern recognition",
+                "year": 2016,
+                "identifiers": {
+                    "doi": null,
+                    "arxiv_id": null,
+                    "url": null
+                }
+            },
+            "true_outputs": {
+                "true_existence": 1,
+                "true_hallucination_category": null,
+                "true_alignment": 0,
+                "expert_rationale": "Citation from published paper, assumed to be correct and fully supported."
+            }
+        },
+        {
+            "claim_text": "Solver parameters are learned using either pretrained image classifiers~[CITATION] or a zero-shot classifier~[CITATION].",
+            "surrounding_context": "\\end{itemize} We further propose a classification-based learning strategy that yields high-fidelity images even in the low-NFE regime (Sec.~\\ref{sec:classifier_based_parameter_learning}). Unlike regression-based learning, which typically requires many target samples generated at high NFEs, our approach requires no target samples. Solver parameters are learned using either pretrained image classifiers~[CITATION] or a zero-shot classifier~[CITATION]. For $3\\le$ NFE $\\le 9$, Dual-Solver outperforms prior state-of-the-art solvers (Sec.~\\ref{sec:experiments}).",
+            "citation_metadata": {
+                "title": "An image is worth 16x16 words: Transformers for image recognition at scale",
+                "authors": [
+                    "Dosovitskiy, Alexey",
+                    "Beyer, Lucas",
+                    "Kolesnikov, Alexander",
+                    "Weissenborn, Dirk",
+                    "Zhai, Xiaohua",
+                    "Unterthiner, Thomas",
+                    "Dehghani, Mostafa",
+                    "Minderer, Matthias",
+                    "Heigold, Georg",
+                    "Gelly, Sylvain",
+                    "others"
+                ],
+                "venue": "arXiv preprint arXiv:2010.11929",
+                "year": 2020,
+                "identifiers": {
+                    "doi": null,
+                    "arxiv_id": "2010.11929",
+                    "url": null
+                }
+            },
+            "true_outputs": {
+                "true_existence": 1,
+                "true_hallucination_category": null,
+                "true_alignment": 0,
+                "expert_rationale": "Citation from published paper, assumed to be correct and fully supported."
+            }
+        },
+        {
+            "claim_text": "Solver parameters are learned using either pretrained image classifiers~[CITATION] or a zero-shot classifier~[CITATION].",
+            "surrounding_context": "\\end{itemize} We further propose a classification-based learning strategy that yields high-fidelity images even in the low-NFE regime (Sec.~\\ref{sec:classifier_based_parameter_learning}). Unlike regression-based learning, which typically requires many target samples generated at high NFEs, our approach requires no target samples. Solver parameters are learned using either pretrained image classifiers~[CITATION] or a zero-shot classifier~[CITATION]. For $3\\le$ NFE $\\le 9$, Dual-Solver outperforms prior state-of-the-art solvers (Sec.~\\ref{sec:experiments}).",
+            "citation_metadata": {
+                "title": "Mobilenets: Efficient convolutional neural networks for mobile vision applications",
+                "authors": [
+                    "Howard, Andrew G",
+                    "Zhu, Menglong",
+                    "Chen, Bo",
+                    "Kalenichenko, Dmitry",
+                    "Wang, Weijun",
+                    "Weyand, Tobias",
+                    "Andreetto, Marco",
+                    "Adam, Hartwig"
+                ],
+                "venue": "arXiv preprint arXiv:1704.04861",
+                "year": 2017,
+                "identifiers": {
+                    "doi": null,
+                    "arxiv_id": "1704.04861",
+                    "url": null
+                }
+            },
+            "true_outputs": {
+                "true_existence": 1,
+                "true_hallucination_category": null,
+                "true_alignment": 0,
+                "expert_rationale": "Citation from published paper, assumed to be correct and fully supported."
+            }
+        },
+        {
+            "claim_text": "Classic approaches include autoregressive models that factorize likelihoods over pixels or tokens [CITATION], variational auto-encoders that optimize an evidence lower bound [CITATION], flow-based models that construct exact, invertible density maps [CITATION], and generative adversarial networks that learn via adversarial training between a generator and a discriminator~[CITATION].",
+            "surrounding_context": "Generative modeling aims to learn a data distribution and generate new samples that resemble real data. Classic approaches include autoregressive models that factorize likelihoods over pixels or tokens [CITATION], variational auto-encoders that optimize an evidence lower bound [CITATION], flow-based models that construct exact, invertible density maps [CITATION], and generative adversarial networks that learn via adversarial training between a generator and a discriminator~[CITATION]. Diffusion models have emerged as a powerful class of generative models. In seminal work, [CITATION] introduced diffusion probabilistic modeling with a forward noising process and a learned reverse process trained by minimizing a KL-divergence objective.",
+            "citation_metadata": {
+                "title": "Conditional image generation with pixelcnn decoders",
+                "authors": [
+                    "Van den Oord, Aaron",
+                    "Kalchbrenner, Nal",
+                    "Espeholt, Lasse",
+                    "Vinyals, Oriol",
+                    "Graves, Alex",
+                    "others"
+                ],
+                "venue": "Advances in neural information processing systems",
+                "year": 2016,
+                "identifiers": {
+                    "doi": null,
+                    "arxiv_id": null,
+                    "url": null
+                }
+            },
+            "true_outputs": {
+                "true_existence": 1,
+                "true_hallucination_category": null,
+                "true_alignment": 0,
+                "expert_rationale": "Citation from published paper, assumed to be correct and fully supported."
+            }
+        },
+        {
+            "claim_text": "Classic approaches include autoregressive models that factorize likelihoods over pixels or tokens [CITATION], variational auto-encoders that optimize an evidence lower bound [CITATION], flow-based models that construct exact, invertible density maps [CITATION], and generative adversarial networks that learn via adversarial training between a generator and a discriminator~[CITATION].",
+            "surrounding_context": "Generative modeling aims to learn a data distribution and generate new samples that resemble real data. Classic approaches include autoregressive models that factorize likelihoods over pixels or tokens [CITATION], variational auto-encoders that optimize an evidence lower bound [CITATION], flow-based models that construct exact, invertible density maps [CITATION], and generative adversarial networks that learn via adversarial training between a generator and a discriminator~[CITATION]. Diffusion models have emerged as a powerful class of generative models. In seminal work, [CITATION] introduced diffusion probabilistic modeling with a forward noising process and a learned reverse process trained by minimizing a KL-divergence objective.",
+            "citation_metadata": {
+                "title": "Pixelcnn++: Improving the pixelcnn with discretized logistic mixture likelihood and other modifications",
+                "authors": [
+                    "Salimans, Tim",
+                    "Karpathy, Andrej",
+                    "Chen, Xi",
+                    "Kingma, Diederik P"
+                ],
+                "venue": "arXiv preprint arXiv:1701.05517",
+                "year": 2017,
+                "identifiers": {
+                    "doi": null,
+                    "arxiv_id": "1701.05517",
+                    "url": null
+                }
+            },
+            "true_outputs": {
+                "true_existence": 1,
+                "true_hallucination_category": null,
+                "true_alignment": 0,
+                "expert_rationale": "Citation from published paper, assumed to be correct and fully supported."
+            }
+        },
+        {
+            "claim_text": "Classic approaches include autoregressive models that factorize likelihoods over pixels or tokens [CITATION], variational auto-encoders that optimize an evidence lower bound [CITATION], flow-based models that construct exact, invertible density maps [CITATION], and generative adversarial networks that learn via adversarial training between a generator and a discriminator~[CITATION].",
+            "surrounding_context": "Generative modeling aims to learn a data distribution and generate new samples that resemble real data. Classic approaches include autoregressive models that factorize likelihoods over pixels or tokens [CITATION], variational auto-encoders that optimize an evidence lower bound [CITATION], flow-based models that construct exact, invertible density maps [CITATION], and generative adversarial networks that learn via adversarial training between a generator and a discriminator~[CITATION]. Diffusion models have emerged as a powerful class of generative models. In seminal work, [CITATION] introduced diffusion probabilistic modeling with a forward noising process and a learned reverse process trained by minimizing a KL-divergence objective.",
+            "citation_metadata": {
+                "title": "Auto-encoding variational bayes",
+                "authors": [
+                    "Kingma, Diederik P",
+                    "Welling, Max"
+                ],
+                "venue": "arXiv preprint arXiv:1312.6114",
+                "year": 2013,
+                "identifiers": {
+                    "doi": null,
+                    "arxiv_id": "1312.6114",
+                    "url": null
+                }
+            },
+            "true_outputs": {
+                "true_existence": 1,
+                "true_hallucination_category": null,
+                "true_alignment": 0,
+                "expert_rationale": "Citation from published paper, assumed to be correct and fully supported."
+            }
+        },
+        {
+            "claim_text": "Classic approaches include autoregressive models that factorize likelihoods over pixels or tokens [CITATION], variational auto-encoders that optimize an evidence lower bound [CITATION], flow-based models that construct exact, invertible density maps [CITATION], and generative adversarial networks that learn via adversarial training between a generator and a discriminator~[CITATION].",
+            "surrounding_context": "Generative modeling aims to learn a data distribution and generate new samples that resemble real data. Classic approaches include autoregressive models that factorize likelihoods over pixels or tokens [CITATION], variational auto-encoders that optimize an evidence lower bound [CITATION], flow-based models that construct exact, invertible density maps [CITATION], and generative adversarial networks that learn via adversarial training between a generator and a discriminator~[CITATION]. Diffusion models have emerged as a powerful class of generative models. In seminal work, [CITATION] introduced diffusion probabilistic modeling with a forward noising process and a learned reverse process trained by minimizing a KL-divergence objective.",
+            "citation_metadata": {
+                "title": "NVAE: A deep hierarchical variational autoencoder",
+                "authors": [
+                    "Vahdat, Arash",
+                    "Kautz, Jan"
+                ],
+                "venue": "Advances in neural information processing systems",
+                "year": 2020,
+                "identifiers": {
+                    "doi": null,
+                    "arxiv_id": null,
+                    "url": null
+                }
+            },
+            "true_outputs": {
+                "true_existence": 1,
+                "true_hallucination_category": null,
+                "true_alignment": 0,
+                "expert_rationale": "Citation from published paper, assumed to be correct and fully supported."
+            }
+        },
+        {
+            "claim_text": "Classic approaches include autoregressive models that factorize likelihoods over pixels or tokens [CITATION], variational auto-encoders that optimize an evidence lower bound [CITATION], flow-based models that construct exact, invertible density maps [CITATION], and generative adversarial networks that learn via adversarial training between a generator and a discriminator~[CITATION].",
+            "surrounding_context": "Generative modeling aims to learn a data distribution and generate new samples that resemble real data. Classic approaches include autoregressive models that factorize likelihoods over pixels or tokens [CITATION], variational auto-encoders that optimize an evidence lower bound [CITATION], flow-based models that construct exact, invertible density maps [CITATION], and generative adversarial networks that learn via adversarial training between a generator and a discriminator~[CITATION]. Diffusion models have emerged as a powerful class of generative models. In seminal work, [CITATION] introduced diffusion probabilistic modeling with a forward noising process and a learned reverse process trained by minimizing a KL-divergence objective.",
+            "citation_metadata": {
+                "title": "Nice: Non-linear independent components estimation",
+                "authors": [
+                    "Dinh, Laurent",
+                    "Krueger, David",
+                    "Bengio, Yoshua"
+                ],
+                "venue": "arXiv preprint arXiv:1410.8516",
+                "year": 2014,
+                "identifiers": {
+                    "doi": null,
+                    "arxiv_id": "1410.8516",
+                    "url": null
+                }
+            },
+            "true_outputs": {
+                "true_existence": 1,
+                "true_hallucination_category": null,
+                "true_alignment": 0,
+                "expert_rationale": "Citation from published paper, assumed to be correct and fully supported."
+            }
+        },
+        {
+            "claim_text": "Classic approaches include autoregressive models that factorize likelihoods over pixels or tokens [CITATION], variational auto-encoders that optimize an evidence lower bound [CITATION], flow-based models that construct exact, invertible density maps [CITATION], and generative adversarial networks that learn via adversarial training between a generator and a discriminator~[CITATION].",
+            "surrounding_context": "Generative modeling aims to learn a data distribution and generate new samples that resemble real data. Classic approaches include autoregressive models that factorize likelihoods over pixels or tokens [CITATION], variational auto-encoders that optimize an evidence lower bound [CITATION], flow-based models that construct exact, invertible density maps [CITATION], and generative adversarial networks that learn via adversarial training between a generator and a discriminator~[CITATION]. Diffusion models have emerged as a powerful class of generative models. In seminal work, [CITATION] introduced diffusion probabilistic modeling with a forward noising process and a learned reverse process trained by minimizing a KL-divergence objective.",
+            "citation_metadata": {
+                "title": "Glow: Generative flow with invertible 1x1 convolutions",
+                "authors": [
+                    "Kingma, Durk P",
+                    "Dhariwal, Prafulla"
+                ],
+                "venue": "Advances in neural information processing systems",
+                "year": 2018,
+                "identifiers": {
+                    "doi": null,
+                    "arxiv_id": null,
+                    "url": null
+                }
+            },
+            "true_outputs": {
+                "true_existence": 1,
+                "true_hallucination_category": null,
+                "true_alignment": 0,
+                "expert_rationale": "Citation from published paper, assumed to be correct and fully supported."
+            }
+        },
+        {
+            "claim_text": "Classic approaches include autoregressive models that factorize likelihoods over pixels or tokens [CITATION], variational auto-encoders that optimize an evidence lower bound [CITATION], flow-based models that construct exact, invertible density maps [CITATION], and generative adversarial networks that learn via adversarial training between a generator and a discriminator~[CITATION].",
+            "surrounding_context": "Generative modeling aims to learn a data distribution and generate new samples that resemble real data. Classic approaches include autoregressive models that factorize likelihoods over pixels or tokens [CITATION], variational auto-encoders that optimize an evidence lower bound [CITATION], flow-based models that construct exact, invertible density maps [CITATION], and generative adversarial networks that learn via adversarial training between a generator and a discriminator~[CITATION]. Diffusion models have emerged as a powerful class of generative models. In seminal work, [CITATION] introduced diffusion probabilistic modeling with a forward noising process and a learned reverse process trained by minimizing a KL-divergence objective.",
+            "citation_metadata": {
+                "title": "Generative adversarial networks",
+                "authors": [
+                    "Goodfellow, Ian",
+                    "Pouget-Abadie, Jean",
+                    "Mirza, Mehdi",
+                    "Xu, Bing",
+                    "Warde-Farley, David",
+                    "Ozair, Sherjil",
+                    "Courville, Aaron",
+                    "Bengio, Yoshua"
+                ],
+                "venue": "Communications of the ACM",
+                "year": 2020,
+                "identifiers": {
+                    "doi": null,
+                    "arxiv_id": null,
+                    "url": null
+                }
+            },
+            "true_outputs": {
+                "true_existence": 1,
+                "true_hallucination_category": null,
+                "true_alignment": 0,
+                "expert_rationale": "Citation from published paper, assumed to be correct and fully supported."
+            }
+        },
+        {
+            "claim_text": "Classic approaches include autoregressive models that factorize likelihoods over pixels or tokens [CITATION], variational auto-encoders that optimize an evidence lower bound [CITATION], flow-based models that construct exact, invertible density maps [CITATION], and generative adversarial networks that learn via adversarial training between a generator and a discriminator~[CITATION].",
+            "surrounding_context": "Generative modeling aims to learn a data distribution and generate new samples that resemble real data. Classic approaches include autoregressive models that factorize likelihoods over pixels or tokens [CITATION], variational auto-encoders that optimize an evidence lower bound [CITATION], flow-based models that construct exact, invertible density maps [CITATION], and generative adversarial networks that learn via adversarial training between a generator and a discriminator~[CITATION]. Diffusion models have emerged as a powerful class of generative models. In seminal work, [CITATION] introduced diffusion probabilistic modeling with a forward noising process and a learned reverse process trained by minimizing a KL-divergence objective.",
+            "citation_metadata": {
+                "title": "Wasserstein generative adversarial networks",
+                "authors": [
+                    "Arjovsky, Martin",
+                    "Chintala, Soumith",
+                    "Bottou, L\\'eon"
+                ],
+                "venue": "International conference on machine learning",
+                "year": 2017,
+                "identifiers": {
+                    "doi": null,
+                    "arxiv_id": null,
+                    "url": null
+                }
+            },
+            "true_outputs": {
+                "true_existence": 1,
+                "true_hallucination_category": null,
+                "true_alignment": 0,
+                "expert_rationale": "Citation from published paper, assumed to be correct and fully supported."
+            }
+        },
+        {
+            "claim_text": "Today, diffusion models drive progress across multiple modalities, including images~[CITATION], audio~[CITATION], and video~[CITATION].",
+            "surrounding_context": "In seminal work, [CITATION] introduced diffusion probabilistic modeling with a forward noising process and a learned reverse process trained by minimizing a KL-divergence objective. Subsequent reformulations [CITATION] have streamlined training and inference with simple denoising objectives (e.g., noise or data prediction), leading to state-of-the-art fidelity and robust scaling. Today, diffusion models drive progress across multiple modalities, including images~[CITATION], audio~[CITATION], and video~[CITATION]. \\\\\\\\",
+            "citation_metadata": {
+                "title": "High-resolution image synthesis with latent diffusion models",
+                "authors": [
+                    "Rombach, Robin",
+                    "Blattmann, Andreas",
+                    "Lorenz, Dominik",
+                    "Esser, Patrick",
+                    "Ommer, Bj\\\"orn"
+                ],
+                "venue": "Proceedings of the IEEE/CVF conference on computer vision and pattern recognition",
+                "year": 2022,
+                "identifiers": {
+                    "doi": null,
+                    "arxiv_id": null,
+                    "url": null
+                }
+            },
+            "true_outputs": {
+                "true_existence": 1,
+                "true_hallucination_category": null,
+                "true_alignment": 0,
+                "expert_rationale": "Citation from published paper, assumed to be correct and fully supported."
+            }
+        },
+        {
+            "claim_text": "Today, diffusion models drive progress across multiple modalities, including images~[CITATION], audio~[CITATION], and video~[CITATION].",
+            "surrounding_context": "In seminal work, [CITATION] introduced diffusion probabilistic modeling with a forward noising process and a learned reverse process trained by minimizing a KL-divergence objective. Subsequent reformulations [CITATION] have streamlined training and inference with simple denoising objectives (e.g., noise or data prediction), leading to state-of-the-art fidelity and robust scaling. Today, diffusion models drive progress across multiple modalities, including images~[CITATION], audio~[CITATION], and video~[CITATION]. \\\\\\\\",
+            "citation_metadata": {
+                "title": "Diffwave: A versatile diffusion model for audio synthesis",
+                "authors": [
+                    "Kong, Zhifeng",
+                    "Ping, Wei",
+                    "Huang, Jiaji",
+                    "Zhao, Kexin",
+                    "Catanzaro, Bryan"
+                ],
+                "venue": "arXiv preprint arXiv:2009.09761",
+                "year": 2020,
+                "identifiers": {
+                    "doi": null,
+                    "arxiv_id": "2009.09761",
+                    "url": null
+                }
+            },
+            "true_outputs": {
+                "true_existence": 1,
+                "true_hallucination_category": null,
+                "true_alignment": 0,
+                "expert_rationale": "Citation from published paper, assumed to be correct and fully supported."
+            }
+        },
+        {
+            "claim_text": "Today, diffusion models drive progress across multiple modalities, including images~[CITATION], audio~[CITATION], and video~[CITATION].",
+            "surrounding_context": "In seminal work, [CITATION] introduced diffusion probabilistic modeling with a forward noising process and a learned reverse process trained by minimizing a KL-divergence objective. Subsequent reformulations [CITATION] have streamlined training and inference with simple denoising objectives (e.g., noise or data prediction), leading to state-of-the-art fidelity and robust scaling. Today, diffusion models drive progress across multiple modalities, including images~[CITATION], audio~[CITATION], and video~[CITATION]. \\\\\\\\",
+            "citation_metadata": {
+                "title": "Audioldm: Text-to-audio generation with latent diffusion models",
+                "authors": [
+                    "Liu, Haohe",
+                    "Chen, Zehua",
+                    "Yuan, Yi",
+                    "Mei, Xinhao",
+                    "Liu, Xubo",
+                    "Mandic, Danilo",
+                    "Wang, Wenwu",
+                    "Plumbley, Mark D"
+                ],
+                "venue": "arXiv preprint arXiv:2301.12503",
+                "year": 2023,
+                "identifiers": {
+                    "doi": null,
+                    "arxiv_id": "2301.12503",
+                    "url": null
+                }
+            },
+            "true_outputs": {
+                "true_existence": 1,
+                "true_hallucination_category": null,
+                "true_alignment": 0,
+                "expert_rationale": "Citation from published paper, assumed to be correct and fully supported."
+            }
+        },
+        {
+            "claim_text": "Today, diffusion models drive progress across multiple modalities, including images~[CITATION], audio~[CITATION], and video~[CITATION].",
+            "surrounding_context": "In seminal work, [CITATION] introduced diffusion probabilistic modeling with a forward noising process and a learned reverse process trained by minimizing a KL-divergence objective. Subsequent reformulations [CITATION] have streamlined training and inference with simple denoising objectives (e.g., noise or data prediction), leading to state-of-the-art fidelity and robust scaling. Today, diffusion models drive progress across multiple modalities, including images~[CITATION], audio~[CITATION], and video~[CITATION]. \\\\\\\\",
+            "citation_metadata": {
+                "title": "Video diffusion models",
+                "authors": [
+                    "Ho, Jonathan",
+                    "Salimans, Tim",
+                    "Gritsenko, Alexey",
+                    "Chan, William",
+                    "Norouzi, Mohammad",
+                    "Fleet, David J"
+                ],
+                "venue": "arXiv preprint arXiv:2204.03458",
+                "year": 2022,
+                "identifiers": {
+                    "doi": null,
+                    "arxiv_id": "2204.03458",
+                    "url": null
+                }
+            },
+            "true_outputs": {
+                "true_existence": 1,
+                "true_hallucination_category": null,
+                "true_alignment": 0,
+                "expert_rationale": "Citation from published paper, assumed to be correct and fully supported."
+            }
+        },
+        {
+            "claim_text": "Today, diffusion models drive progress across multiple modalities, including images~[CITATION], audio~[CITATION], and video~[CITATION].",
+            "surrounding_context": "In seminal work, [CITATION] introduced diffusion probabilistic modeling with a forward noising process and a learned reverse process trained by minimizing a KL-divergence objective. Subsequent reformulations [CITATION] have streamlined training and inference with simple denoising objectives (e.g., noise or data prediction), leading to state-of-the-art fidelity and robust scaling. Today, diffusion models drive progress across multiple modalities, including images~[CITATION], audio~[CITATION], and video~[CITATION]. \\\\\\\\",
+            "citation_metadata": {
+                "title": "Hunyuanvideo: A systematic framework for large video generative models",
+                "authors": [
+                    "Kong, Weijie",
+                    "Tian, Qi",
+                    "Zhang, Zijian",
+                    "Min, Rox",
+                    "Dai, Zuozhuo",
+                    "Zhou, Jin",
+                    "Xiong, Jiangfeng",
+                    "Li, Xin",
+                    "Wu, Bo",
+                    "Zhang, Jianwei",
+                    "others"
+                ],
+                "venue": "arXiv preprint arXiv:2412.03603",
+                "year": 2024,
+                "identifiers": {
+                    "doi": null,
+                    "arxiv_id": "2412.03603",
+                    "url": null
+                }
+            },
+            "true_outputs": {
+                "true_existence": 1,
+                "true_hallucination_category": null,
+                "true_alignment": 0,
+                "expert_rationale": "Citation from published paper, assumed to be correct and fully supported."
+            }
+        },
+        {
+            "claim_text": "Lastly, learned solvers optimize the timestep schedule and other sampling-related parameters~[CITATION].",
+            "surrounding_context": "Along one axis, classical ODE methods\u2014singlestep Runge\u2013Kutta [CITATION] and multistep Adams\u2013Bashforth [CITATION]\u2014provide off-the-shelf accuracy\u2013NFE trade-offs for a given evaluation budget [CITATION]. Along a second axis, diffusion-dedicated solvers exploit the structure of the denoising dynamics: they approximate noise or data predictions with low-order Taylor expansions or Lagrange interpolation and derive closed-form updates [CITATION]. Lastly, learned solvers optimize the timestep schedule and other sampling-related parameters~[CITATION]. Because these parameters depend on the backbone and dataset, such solvers are typically tailored to specific backbones and settings (e.g., a chosen NFE and guidance scale). Training also incurs substantial preparation overhead, as it requires many teacher trajectories or final samples generated using high-NFE sampling.",
+            "citation_metadata": {
+                "title": "Fast ode-based sampling for diffusion models in around 5 steps",
+                "authors": [
+                    "Zhou, Zhenyu",
+                    "Chen, Defang",
+                    "Wang, Can",
+                    "Chen, Chun"
+                ],
+                "venue": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+                "year": 2024,
+                "identifiers": {
+                    "doi": null,
+                    "arxiv_id": null,
+                    "url": null
+                }
+            },
+            "true_outputs": {
+                "true_existence": 1,
+                "true_hallucination_category": null,
+                "true_alignment": 0,
+                "expert_rationale": "Citation from published paper, assumed to be correct and fully supported."
+            }
+        },
+        {
+            "claim_text": "Most prior works adopt \\emph{trajectory regression}~[CITATION], which compares the trajectories generated by the teacher and the student, or \\emph{sample regression}~[CITATION], which compares only the final samples.",
+            "surrounding_context": "\\vspace{-2pt} In regression-based learning, a solver with trainable parameters is referred to as a student solver, while an existing fixed solver is referred to as a teacher solver. The student is then trained to imitate the behavior of the teacher running at a high NFE. Most prior works adopt \\emph{trajectory regression}~[CITATION], which compares the trajectories generated by the teacher and the student, or \\emph{sample regression}~[CITATION], which compares only the final samples. Since comparisons in the trajectory or sample space often show a mismatch with visual perceptual quality, \\emph{feature regression} has been proposed~[CITATION], in which the discrepancy is measured in a feature space using metrics such as LPIPS~[CITATION]. However, all of these methods require a teacher solver and incur substantial overhead in preparing supervision targets, and they tend to perform poorly in the very low NFE regime (e.g., NFE $\\leq 5$; see Table~\\ref{tab:learning_strategies}).",
+            "citation_metadata": {
+                "title": "Fast ode-based sampling for diffusion models in around 5 steps",
+                "authors": [
+                    "Zhou, Zhenyu",
+                    "Chen, Defang",
+                    "Wang, Can",
+                    "Chen, Chun"
+                ],
+                "venue": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+                "year": 2024,
+                "identifiers": {
+                    "doi": null,
+                    "arxiv_id": null,
+                    "url": null
+                }
+            },
+            "true_outputs": {
+                "true_existence": 1,
+                "true_hallucination_category": null,
+                "true_alignment": 0,
+                "expert_rationale": "Citation from published paper, assumed to be correct and fully supported."
+            }
+        },
+        {
+            "claim_text": "Lastly, learned solvers optimize the timestep schedule and other sampling-related parameters~[CITATION].",
+            "surrounding_context": "Along one axis, classical ODE methods\u2014singlestep Runge\u2013Kutta [CITATION] and multistep Adams\u2013Bashforth [CITATION]\u2014provide off-the-shelf accuracy\u2013NFE trade-offs for a given evaluation budget [CITATION]. Along a second axis, diffusion-dedicated solvers exploit the structure of the denoising dynamics: they approximate noise or data predictions with low-order Taylor expansions or Lagrange interpolation and derive closed-form updates [CITATION]. Lastly, learned solvers optimize the timestep schedule and other sampling-related parameters~[CITATION]. Because these parameters depend on the backbone and dataset, such solvers are typically tailored to specific backbones and settings (e.g., a chosen NFE and guidance scale). Training also incurs substantial preparation overhead, as it requires many teacher trajectories or final samples generated using high-NFE sampling.",
+            "citation_metadata": {
+                "title": "Bespoke solvers for generative flow models",
+                "authors": [
+                    "Shaul, Neta",
+                    "Perez, Juan",
+                    "Chen, Ricky TQ",
+                    "Thabet, Ali",
+                    "Pumarola, Albert",
+                    "Lipman, Yaron"
+                ],
+                "venue": "arXiv preprint arXiv:2310.19075",
+                "year": 2023,
+                "identifiers": {
+                    "doi": null,
+                    "arxiv_id": "2310.19075",
+                    "url": null
+                }
+            },
+            "true_outputs": {
+                "true_existence": 1,
+                "true_hallucination_category": null,
+                "true_alignment": 0,
+                "expert_rationale": "Citation from published paper, assumed to be correct and fully supported."
+            }
+        },
+        {
+            "claim_text": "Most prior works adopt \\emph{trajectory regression}~[CITATION], which compares the trajectories generated by the teacher and the student, or \\emph{sample regression}~[CITATION], which compares only the final samples.",
+            "surrounding_context": "\\vspace{-2pt} In regression-based learning, a solver with trainable parameters is referred to as a student solver, while an existing fixed solver is referred to as a teacher solver. The student is then trained to imitate the behavior of the teacher running at a high NFE. Most prior works adopt \\emph{trajectory regression}~[CITATION], which compares the trajectories generated by the teacher and the student, or \\emph{sample regression}~[CITATION], which compares only the final samples. Since comparisons in the trajectory or sample space often show a mismatch with visual perceptual quality, \\emph{feature regression} has been proposed~[CITATION], in which the discrepancy is measured in a feature space using metrics such as LPIPS~[CITATION]. However, all of these methods require a teacher solver and incur substantial overhead in preparing supervision targets, and they tend to perform poorly in the very low NFE regime (e.g., NFE $\\leq 5$; see Table~\\ref{tab:learning_strategies}).",
+            "citation_metadata": {
+                "title": "Bespoke solvers for generative flow models",
+                "authors": [
+                    "Shaul, Neta",
+                    "Perez, Juan",
+                    "Chen, Ricky TQ",
+                    "Thabet, Ali",
+                    "Pumarola, Albert",
+                    "Lipman, Yaron"
+                ],
+                "venue": "arXiv preprint arXiv:2310.19075",
+                "year": 2023,
+                "identifiers": {
+                    "doi": null,
+                    "arxiv_id": "2310.19075",
+                    "url": null
+                }
+            },
+            "true_outputs": {
+                "true_existence": 1,
+                "true_hallucination_category": null,
+                "true_alignment": 0,
+                "expert_rationale": "Citation from published paper, assumed to be correct and fully supported."
+            }
+        },
+        {
+            "claim_text": "For text-to-image tasks, the class labels are replaced with text prompts, which can be obtained from datasets such as MSCOCO 2014~[CITATION] or MJHQ-30K~[CITATION], and the cross-entropy loss is replaced with CLIP loss~[CITATION].",
+            "surrounding_context": "The sample $\\vx_0$ generated by the solver $\\mathcal{S}$ is passed through the decoder $\\mathcal{D}$ and the classifier $\\mathcal{C}$ to obtain class probabilities $p$. We then compute a cross-entropy loss between $p$ and the class label $y \\sim \\mathcal{Y}$, and update the solver parameters $\\phi$ for all time steps via backpropagation. For text-to-image tasks, the class labels are replaced with text prompts, which can be obtained from datasets such as MSCOCO 2014~[CITATION] or MJHQ-30K~[CITATION], and the cross-entropy loss is replaced with CLIP loss~[CITATION]. Unlike regression to teacher targets, this method focuses on whether the generated samples lie on the correct side of the classifier's decision boundary, enabling less restrictive training. A potential issue is a mismatch between the distribution learned by the classifier and the ground-truth data distribution, but this can be mitigated by selecting an appropriate classifier.",
+            "citation_metadata": {
+                "title": "Playground v2. 5: Three insights towards enhancing aesthetic quality in text-to-image generation",
+                "authors": [
+                    "Li, Daiqing",
+                    "Kamko, Aleks",
+                    "Akhgari, Ehsan",
+                    "Sabet, Ali",
+                    "Xu, Linmiao",
+                    "Doshi, Suhail"
+                ],
+                "venue": "arXiv preprint arXiv:2402.17245",
+                "year": 2024,
+                "identifiers": {
+                    "doi": null,
+                    "arxiv_id": "2402.17245",
+                    "url": null
+                }
+            },
+            "true_outputs": {
+                "true_existence": 1,
+                "true_hallucination_category": null,
+                "true_alignment": 0,
+                "expert_rationale": "Citation from published paper, assumed to be correct and fully supported."
+            }
+        },
+        {
+            "claim_text": "\\vspace{-4pt} \\paragraph{Log-linear transform.} Previous works~[CITATION] use the linear transform $L(y)=y$ with noise prediction.",
+            "surrounding_context": "$\\vx_\\theta(u) \\coloneqq \\vx_\\theta(\\vx_{u^{-1}(u)},\\,u^{-1}(u))$ and $\\bm{\\epsilon}_\\theta(v) \\coloneqq \\bm{\\epsilon}_\\theta(\\vx_{v^{-1}(v)},\\,v^{-1}(v))$. \\vspace{-4pt} \\paragraph{Log-linear transform.} Previous works~[CITATION] use the linear transform $L(y)=y$ with noise prediction. Because $\\tfrac{d}{du}L^{-1}(u)=1$, the integrand carries no weighting factor, making it straightforward to develop approximations such as Taylor expansions and Lagrange interpolation. By contrast, other works~[CITATION] use a logarithmic transform $L(y)=\\log y$.",
+            "citation_metadata": {
+                "title": "Genie: Higher-order denoising diffusion solvers",
+                "authors": [
+                    "Dockhorn, Tim",
+                    "Vahdat, Arash",
+                    "Kreis, Karsten"
+                ],
+                "venue": "Advances in Neural Information Processing Systems",
+                "year": 2022,
+                "identifiers": {
+                    "doi": null,
+                    "arxiv_id": null,
+                    "url": null
+                }
+            },
+            "true_outputs": {
+                "true_existence": 1,
+                "true_hallucination_category": null,
+                "true_alignment": 0,
+                "expert_rationale": "Citation from published paper, assumed to be correct and fully supported."
+            }
+        },
+        {
+            "claim_text": "A closed-form approximation can be obtained via an exponential integrator~[CITATION] or by using Lagrange interpolation.",
+            "surrounding_context": "By contrast, other works~[CITATION] use a logarithmic transform $L(y)=\\log y$. Because $\\tfrac{d}{du}L^{-1}(u)=e^{u}$, the integrand carries an exponential weight. A closed-form approximation can be obtained via an exponential integrator~[CITATION] or by using Lagrange interpolation. Motivated by these works, we propose a \\emph{log-linear} transform parameterized by a scalar $\\tau$. \\begin{equation} L(y;\\tau) \\;=\\; \\frac{\\log\\!\\left(1+\\tau y\\right)}{\\tau},\\quad \\tau>0.",
+            "citation_metadata": {
+                "title": "Exponential integrators",
+                "authors": [
+                    "Hochbruck, Marlis",
+                    "Ostermann, Alexander"
+                ],
+                "venue": "Acta Numerica",
+                "year": 2010,
+                "identifiers": {
+                    "doi": null,
+                    "arxiv_id": null,
+                    "url": null
+                }
+            },
+            "true_outputs": {
+                "true_existence": 1,
+                "true_hallucination_category": null,
+                "true_alignment": 0,
+                "expert_rationale": "Citation from published paper, assumed to be correct and fully supported."
+            }
+        }
+    ]
+}

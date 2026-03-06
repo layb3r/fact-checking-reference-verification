@@ -79,3 +79,14 @@ def download_from_arxiv(paper_title, download_dir):
     except Exception as e:
         logging.error(f"Error downloading from arXiv for '{paper_title}': {e}")
         return None
+
+def download_source_from_arxiv_id(arxiv_id, download_dir):
+    try:
+        os.makedirs(download_dir, exist_ok=True)
+
+        arxiv_url = 'https://arxiv.org/src/' + arxiv_id
+        return download_file_from_url(arxiv_url, download_dir, filename=f"{arxiv_id}_source.tar.gz")
+    
+    except Exception as e:
+        logging.error(f"Error downloading for '{arxiv_id}': {e}")
+        return False
