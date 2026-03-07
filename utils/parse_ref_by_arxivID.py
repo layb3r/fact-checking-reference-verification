@@ -26,6 +26,21 @@ import os
 import re
 import logging
 
+# Configuration for file size limits
+MAX_BIB_FILE_LINES = 50000  # Skip .bib files larger than this
+MAX_TEX_FILE_LINES = 50000  # Skip .tex files larger than this
+
+
+def count_file_lines(filepath):
+    """Count the number of lines in a file efficiently."""
+    try:
+        with open(filepath, 'rb') as f:
+            return sum(1 for _ in f)
+    except Exception as e:
+        logging.warning(f"Error counting lines in {filepath}: {e}")
+        return 0
+
+
 def find_bib_file(directory):
     """Recursively search for .bib files in a directory."""
     bib_files = []
@@ -39,6 +54,12 @@ def find_bib_file(directory):
 def parse_bib_to_json(bib_filepath):
     """Parse a .bib file and convert to JSON format."""
     try:
+        # Check file size before parsing
+        line_count = count_file_lines(bib_filepath)
+        if line_count > MAX_BIB_FILE_LINES:
+            logging.warning(f"Skipping {bib_filepath}: too large ({line_count} lines, max {MAX_BIB_FILE_LINES})")
+            return []
+        
         with open(bib_filepath, 'r', encoding='utf-8') as bibfile:
             bib_database = bibtexparser.load(bibfile)
         
@@ -227,6 +248,12 @@ def find_citations_in_tex(directory):
     
     for tex_file in tex_files:
         try:
+            # Check file size before reading
+            line_count = count_file_lines(tex_file)
+            if line_count > MAX_TEX_FILE_LINES:
+                logging.warning(f"Skipping {tex_file}: too large ({line_count} lines, max {MAX_TEX_FILE_LINES})")
+                continue
+            
             with open(tex_file, 'r', encoding='utf-8', errors='ignore') as f:
                 lines = f.readlines()
             
@@ -262,13 +289,13 @@ def find_citations_in_tex(directory):
     return citations
 
 
-def extract_citation_context(citation_info, context_sentences=2):
+def extract_citation_context(citation_info, cite_key):
     """
     Extract claim text and surrounding context from a citation.
     
     Args:
-        citation_info: Dictionary with file_path, line_number, full_line, lines_context
-        context_sentences: Number of sentences to include before/after citation
+        citation_info: Dictionary with file_path, line_number, full_line, lines_context, citation_command
+        cite_key: The specific citation key to mark (e.g., 'smith2020')
     
     Returns:
         Dictionary with 'claim_text' and 'surrounding_context'
@@ -277,65 +304,79 @@ def extract_citation_context(citation_info, context_sentences=2):
         lines = citation_info['lines_context']
         line_idx = citation_info['line_number'] - 1  # Convert to 0-based index
         
-        # Get a window of lines around the citation
-        window_size = 5  # Lines before and after
-        start_idx = max(0, line_idx - window_size)
-        end_idx = min(len(lines), line_idx + window_size + 1)
+        # Find paragraph boundaries (empty lines or \par)
+        # Search backwards for paragraph start
+        para_start = line_idx
+        for i in range(line_idx - 1, -1, -1):
+            line = lines[i].strip()
+            if not line or line == '\\par' or line.startswith('\\section') or line.startswith('\\subsection'):
+                para_start = i + 1
+                break
+            para_start = i
         
-        # Combine lines into text
-        text_window = ' '.join(lines[start_idx:end_idx])
+        # Search forwards for paragraph end
+        para_end = line_idx
+        for i in range(line_idx + 1, len(lines)):
+            line = lines[i].strip()
+            if not line or line == '\\par' or line.startswith('\\section') or line.startswith('\\subsection'):
+                para_end = i
+                break
+            para_end = i + 1
+        
+        # Extract the paragraph
+        paragraph_lines = lines[para_start:para_end]
+        paragraph_text = ' '.join(paragraph_lines)
         
         # Clean up LaTeX commands and extra whitespace
-        text_window = re.sub(r'%.*', '', text_window)  # Remove comments
-        text_window = re.sub(r'\\label\{[^}]+\}', '', text_window)  # Remove labels
-        text_window = re.sub(r'\s+', ' ', text_window).strip()  # Normalize whitespace
+        paragraph_text = re.sub(r'%.*', '', paragraph_text)  # Remove comments
+        paragraph_text = re.sub(r'\\label\{[^}]+\}', '', paragraph_text)  # Remove labels
+        paragraph_text = re.sub(r'\s+', ' ', paragraph_text).strip()  # Normalize whitespace
         
         # Find the sentence containing the citation
         # Split by sentence boundaries (. ! ?)
-        sentences = re.split(r'(?<=[.!?])\s+', text_window)
+        sentences = re.split(r'(?<=[.!?])\s+', paragraph_text)
         
-        # Find which sentence contains the citation command
+        # Find which sentence contains the specific citation command
         citation_cmd = citation_info['citation_command']
         claim_sentence = None
-        claim_idx = 0
         
-        for i, sent in enumerate(sentences):
-            if citation_cmd in sent or citation_info['full_line'] in sent:
+        for sent in sentences:
+            if citation_cmd in sent:
                 claim_sentence = sent
-                claim_idx = i
                 break
         
         if claim_sentence is None:
-            # Fallback: use the full line
+            # Fallback: search for any sentence with the cite_key
+            for sent in sentences:
+                if cite_key in sent:
+                    claim_sentence = sent
+                    break
+        
+        if claim_sentence is None:
+            # Final fallback: use the full line
             claim_sentence = citation_info['full_line']
-            claim_idx = len(sentences) // 2
         
-        # Extract surrounding context
-        start_context = max(0, claim_idx - context_sentences)
-        end_context = min(len(sentences), claim_idx + context_sentences + 1)
-        surrounding = ' '.join(sentences[start_context:end_context])
-        
-        # Replace citation commands with [CITATION] marker
-        # Pattern matches \cite variants like \cite{}, \citep{}, \citet{}, with optional arguments
-        citation_pattern = r'\\cite[a-z]*(?:\[[^\]]*\])?(?:\[[^\]]*\])?\{[^}]+\}'
-        claim_sentence = re.sub(citation_pattern, '[CITATION]', claim_sentence)
-        surrounding = re.sub(citation_pattern, '[CITATION]', surrounding)
+        # Replace ONLY the specific citation command with [CITATION] marker
+        # Use the exact citation command to ensure we only replace this specific reference
+        claim_sentence_marked = claim_sentence.replace(citation_cmd, '[CITATION]')
+        paragraph_marked = paragraph_text.replace(citation_cmd, '[CITATION]')
         
         # Clean up multiple spaces that may result from replacement
-        claim_sentence = re.sub(r'\s+', ' ', claim_sentence).strip()
-        surrounding = re.sub(r'\s+', ' ', surrounding).strip()
+        claim_sentence_marked = re.sub(r'\s+', ' ', claim_sentence_marked).strip()
+        paragraph_marked = re.sub(r'\s+', ' ', paragraph_marked).strip()
         
         return {
-            'claim_text': claim_sentence,
-            'surrounding_context': surrounding
+            'claim_text': claim_sentence_marked,
+            'surrounding_context': paragraph_marked
         }
     
     except Exception as e:
         logging.warning(f"Error extracting context: {e}")
-        # Also add marker to fallback
+        # Fallback with marker
         fallback_text = citation_info.get('full_line', '')
-        citation_pattern = r'\\cite[a-z]*(?:\[[^\]]*\])?(?:\[[^\]]*\])?\{[^}]+\}'
-        fallback_text = re.sub(citation_pattern, '[CITATION]', fallback_text)
+        citation_cmd = citation_info.get('citation_command', '')
+        if citation_cmd:
+            fallback_text = fallback_text.replace(citation_cmd, '[CITATION]')
         return {
             'claim_text': fallback_text,
             'surrounding_context': fallback_text
@@ -359,8 +400,6 @@ def bib_entry_to_metadata(bib_entry):
         # Split by 'and'
         author_list = re.split(r'\s+and\s+', author_str)
         for author in author_list:
-            # Clean up LaTeX formatting
-            author = re.sub(r'[{}]', '', author)
             author = author.strip()
             if author:
                 authors.append(author)
@@ -398,10 +437,19 @@ def bib_entry_to_metadata(bib_entry):
             if match:
                 arxiv_id = match.group(1)
     
+    # Fix LaTeX escaping in title and venue
+    title = bib_entry.get('title', None)
+    # if title:
+    #     title = title
+    
+    venue = bib_entry.get('booktitle') or bib_entry.get('journal') or bib_entry.get('publisher', None)
+    # if venue:
+    #     venue = venue
+    
     return {
-        'title': bib_entry.get('title', None),
+        'title': title,
         'authors': authors if authors else [],
-        'venue': bib_entry.get('booktitle') or bib_entry.get('journal') or bib_entry.get('publisher', None),
+        'venue': venue,
         'year': year,
         'identifiers': {
             'doi': doi,
@@ -465,8 +513,8 @@ def create_dataset_instance(cite_key, bib_entry, citation_info):
     Returns:
         Dictionary matching DatasetInstance schema, or None if invalid
     """
-    # Extract context
-    context = extract_citation_context(citation_info)
+    # Extract context with the specific cite_key
+    context = extract_citation_context(citation_info, cite_key)
     
     # Validate claim text
     if not is_valid_claim_text(context['claim_text']):
@@ -650,6 +698,51 @@ def process_id(arxiv_id, temp_dir):
         except Exception as e:
             logging.warning(f"Error cleaning up temporary files: {e}")
 
+def save_checkpoint(output_file, all_instances, processed_ids, successful_papers, failed_papers, source_file):
+    """Save a checkpoint of the current progress."""
+    from datetime import datetime
+    
+    checkpoint_data = {
+        'metadata': {
+            'creation_date': datetime.now().isoformat(),
+            'num_papers': successful_papers,
+            'num_instances': len(all_instances),
+            'source': source_file,
+            'checkpoint': True,
+            'processed_arxiv_ids': processed_ids,
+            'failed_papers': failed_papers
+        },
+        'instances': all_instances
+    }
+    
+    try:
+        with open(output_file, 'w', encoding='utf-8') as f:
+            json.dump(checkpoint_data, f, indent=2, ensure_ascii=False)
+        logging.info(f"Checkpoint saved: {len(all_instances)} instances, {successful_papers} papers processed")
+        return True
+    except Exception as e:
+        logging.error(f"Error saving checkpoint: {e}")
+        return False
+
+
+def load_checkpoint(checkpoint_file):
+    """Load a checkpoint file and return processed IDs and instances."""
+    try:
+        with open(checkpoint_file, 'r', encoding='utf-8') as f:
+            data = json.load(f)
+        
+        processed_ids = set(data['metadata'].get('processed_arxiv_ids', []))
+        instances = data.get('instances', [])
+        successful = data['metadata'].get('num_papers', 0)
+        failed = data['metadata'].get('failed_papers', 0)
+        
+        logging.info(f"Loaded checkpoint: {len(instances)} instances, {successful} successful, {failed} failed")
+        return processed_ids, instances, successful, failed
+    except Exception as e:
+        logging.warning(f"Could not load checkpoint: {e}")
+        return set(), [], 0, 0
+
+
 def main():
     """
     Main function to process papers and create dataset.
@@ -670,6 +763,10 @@ def main():
                        help='Temporary directory for downloads')
     parser.add_argument('--arxiv-col', type=str, default='arxiv_id',
                        help='Column name containing arXiv IDs')
+    parser.add_argument('--resume', type=str, default=None,
+                       help='Resume from checkpoint file')
+    parser.add_argument('--checkpoint-interval', type=int, default=5,
+                       help='Save checkpoint every N papers (default: 5)')
     
     args = parser.parse_args()
     
@@ -695,22 +792,40 @@ def main():
         logging.error("No arXiv IDs found in input file")
         return
     
-    # Create temporary directory
-    temp_dir = args.temp_dir
-    os.makedirs(temp_dir, exist_ok=True)
+    # Generate output filename if not provided
+    if args.output is None:
+        timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
+        args.output = f"citation_dataset_{timestamp}.json"
     
-    # Process each paper
+    # Load checkpoint if resuming
+    processed_ids = set()
     all_instances = []
     successful_papers = 0
     failed_papers = 0
     
+    if args.resume and os.path.exists(args.resume):
+        logging.info(f"Resuming from checkpoint: {args.resume}")
+        processed_ids, all_instances, successful_papers, failed_papers = load_checkpoint(args.resume)
+        logging.info(f"Skipping {len(processed_ids)} already processed papers")
+    
+    # Create temporary directory
+    temp_dir = args.temp_dir
+    os.makedirs(temp_dir, exist_ok=True)
+    
     for i, arxiv_id in enumerate(arxiv_ids, 1):
+        # Skip if already processed
+        if arxiv_id in processed_ids:
+            logging.info(f"Skipping {arxiv_id} (already processed)")
+            continue
+        
         logging.info(f"\n{'='*60}")
         logging.info(f"Processing paper {i}/{len(arxiv_ids)}: {arxiv_id}")
+        logging.info(f"Progress: {successful_papers} successful, {failed_papers} failed, {len(all_instances)} instances")
         logging.info(f"{'='*60}")
         
         try:
             result = process_id(arxiv_id, temp_dir)
+            processed_ids.add(arxiv_id)
             
             if result and result['instances']:
                 all_instances.extend(result['instances'])
@@ -722,15 +837,16 @@ def main():
         
         except Exception as e:
             failed_papers += 1
+            processed_ids.add(arxiv_id)  # Mark as processed even if failed
             logging.error(f"✗ Error processing {arxiv_id}: {e}")
-            continue
+        
+        # Save checkpoint periodically
+        if (successful_papers + failed_papers) % args.checkpoint_interval == 0:
+            logging.info(f"\n--- Saving checkpoint at {successful_papers + failed_papers} papers ---")
+            save_checkpoint(args.output, all_instances, list(processed_ids), 
+                          successful_papers, failed_papers, args.input)
     
-    # Generate output filename if not provided
-    if args.output is None:
-        timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
-        args.output = f"citation_dataset_{timestamp}.json"
-    
-    # Save dataset
+    # Save final dataset
     logging.info(f"\n{'='*60}")
     logging.info("Dataset Generation Summary")
     logging.info(f"{'='*60}")
@@ -739,7 +855,7 @@ def main():
     logging.info(f"Failed: {failed_papers}")
     logging.info(f"Total dataset instances: {len(all_instances)}")
     
-    # Save to JSON
+    # Save to JSON (final version without checkpoint metadata)
     try:
         with open(args.output, 'w', encoding='utf-8') as f:
             json.dump({
