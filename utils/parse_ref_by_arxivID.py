@@ -8,8 +8,7 @@ import shutil
 import subprocess
 import re
 from pathlib import Path
-from crawl_utils import download_from_arxiv, download_source_from_arxiv_id
-import fitz 
+from crawl_utils import download_source_from_arxiv_id
 
 # Try to import bibtexparser, provide helpful error if not available
 try:

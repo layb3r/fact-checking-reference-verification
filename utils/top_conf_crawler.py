@@ -34,7 +34,7 @@ OUTPUT_DIR = Path("crawled_papers_v2")
 OUTPUT_DIR.mkdir(exist_ok=True)
 
 # How many results to fetch per venue query on arXiv (max 100 per request)
-MAX_PER_QUERY = 50
+MAX_PER_QUERY = 100
 
 # Date range: papers from the last N days (set None to skip date filter)
 DAYS_BACK = 365
@@ -48,119 +48,35 @@ DAYS_BACK = 365
 
 ARXIV_JOURNAL_REFS: dict[str, list[str]] = {
     "Computer Science": [
-        "NeurIPS",
-        "ICML",
-        "ICLR",
         "CVPR",
-        "ICCV",
-        "ECCV",
-        "ACL",
-        "EMNLP",
-        "NAACL",
-        "AAAI",
-        "IJCAI",
-        "KDD",
-        "SIGIR",
-        "WSDM",
-        "SIGMOD",
-        "VLDB",
-        "SOSP",
-        "OSDI",
-        "STOC",
-        "FOCS",
-        "CCS",
-        "ICSE",
-        "IEEE Transactions on Pattern Analysis",  # TPAMI
-        "IEEE Transactions on Neural Networks",
-        "Journal of Machine Learning Research",   # JMLR
-        "Transactions on Machine Learning Research",
+        "NeurIPS",
+        "ICLR"
     ],
     "Medicine": [
         "New England Journal of Medicine",
         "The Lancet",
-        "JAMA",
-        "British Medical Journal",
-        "Nature Medicine",
-        "Annals of Internal Medicine",
-        "PLOS Medicine",
-        "Journal of Clinical Oncology",
-        "Circulation",
-        "Cell Host",
+        "JAMA"
     ],
     "Chemistry": [
-        "Journal of the American Chemical Society",
-        "Angewandte Chemie",
-        "Nature Chemistry",
-        "Chemical Science",
-        "ACS Nano",
-        "Organic Letters",
-        "Journal of Physical Chemistry",
-        "Chemistry of Materials",
-        "ACS Catalysis",
-        "Green Chemistry",
+        "Angewandte Chemie International Edition",
+        "Chemical Reviews",
+        "Chemical Society Reviews"
     ],
     "Biology": [
         "Nature",
         "Science",
-        "Cell",
-        "PLOS Biology",
-        "eLife",
-        "Nature Methods",
-        "Genome Research",
-        "Bioinformatics",
-        "Nature Biotechnology",
-        "Molecular Cell",
-        "ISMB",
-        "RECOMB",
-    ],
-    "Materials Science": [
-        "Nature Materials",
-        "Advanced Materials",
-        "Acta Materialia",
-        "Physical Review Materials",
-        "ACS Applied Materials",
-        "npj Computational Materials",
-        "Advanced Functional Materials",
-        "Materials Today",
-        "Carbon",
-        "Journal of Materials Science",
+        "Cell"
     ],
     "Physics": [
         "Physical Review Letters",
-        "Physical Review X",
-        "Nature Physics",
-        "Journal of High Energy Physics",
+        "Monthly Notices of the Royal Astronomical Society",
         "Physical Review D",
-        "Communications Physics",
-        "SciPost Physics",
-        "Physical Review B",
-        "Reviews of Modern Physics",
-        "Astrophysical Journal",
+        "Nature Physics"
     ],
     "Geology": [
-        "Nature Geoscience",
-        "Journal of Geophysical Research",
+        "Earth-Science Reviews",
         "Geology",
-        "Earth and Planetary Science Letters",
-        "Tectonics",
-        "Geophysical Research Letters",
-        "Geochimica et Cosmochimica Acta",
-        "Journal of Petrology",
-        "Lithos",
-        "Chemical Geology",
-    ],
-    "Psychology": [
-        "Psychological Science",
-        "Journal of Personality and Social Psychology",
-        "Cognition",
-        "Psychological Review",
-        "Nature Human Behaviour",
-        "Journal of Experimental Psychology",
-        "Psychological Bulletin",
-        "Perspectives on Psychological Science",
-        "Annual Review of Psychology",
-        "CogSci",
-    ],
+    ]
 }
 
 # Used by Semantic Scholar and OpenAlex (unchanged from v1)
@@ -297,10 +213,18 @@ def crawl_arxiv(field: str, max_results: int = MAX_PER_QUERY) -> list[Paper]:
     batch_size = 5
     batches    = [venues[i:i+batch_size] for i in range(0, len(venues), batch_size)]
 
+    date_range = "submittedDate:[202412312359 TO 202512312359]"
+
     for batch in batches:
         # Build query: jr:"NeurIPS" OR jr:"ICML" ...
+        # sub_queries = [f'jr:"{v}"' for v in batch]
+        # search_query = " OR ".join(sub_queries)
+
         sub_queries = [f'jr:"{v}"' for v in batch]
-        search_query = " OR ".join(sub_queries)
+        journal_query = f"({' OR '.join(sub_queries)})"
+
+        # Combine with AND to filter results by year
+        search_query = f"{journal_query} AND {date_range}"
 
         params = {
             "search_query": search_query,
@@ -682,7 +606,7 @@ def save_results(papers: list[Paper], output_dir: Path = OUTPUT_DIR):
 
 def main():
     all_papers: list[Paper] = []
-    fields = list(FIELD_VENUES.keys())
+    fields = list(ARXIV_JOURNAL_REFS.keys())
 
     log.info(f"Starting crawl for {len(fields)} fields …")
     log.info(f"APIs: arXiv (journal_ref), Semantic Scholar, OpenAlex, Papers With Code")

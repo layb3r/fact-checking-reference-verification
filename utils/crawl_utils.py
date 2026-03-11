@@ -1,7 +1,7 @@
 #@title Download PDF + TeX from paper's title
 
 import requests
-import arxiv
+# import arxiv
 import os
 import re
 import logging

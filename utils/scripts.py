@@ -34,8 +34,8 @@ def sweep_multi_field():
     filtered_df = df.groupby('field').head(40).reset_index(drop=True)
     filtered_df.to_csv(r"D:\Research\Fact-Checking\fact-checking-reference-verification\data\multi-field-papers\arxiv-only-collection\arxiv-collection-40.csv", index=False)
 
-def postprocess_missing_field():
-    with open(r'data\UCT_dataset\UCT_all.json', 'r', encoding='utf-8') as f:
+def postprocess_missing_field(in_dir, failed_dir, out_dir):
+    with open(in_dir, 'r', encoding='utf-8') as f:
         data = json.load(f)
         instances = data["instances"]
         filtered_instances = [
@@ -54,17 +54,17 @@ def postprocess_missing_field():
             or len(inst["citation_metadata"]["authors"]) == 0
         ] 
 
-        with open(r'data\UCT_dataset\fab_instances.json', 'w', encoding='utf-8') as f:
+        with open(failed_dir, 'w', encoding='utf-8') as f:
             json.dump(fab_instances, f, ensure_ascii=False, indent=4)
 
         data["instances"] = filtered_instances
-        with open(r'data\UCT_dataset\filter_missing_values.json', 'w', encoding='utf-8') as f:
+        with open(out_dir, 'w', encoding='utf-8') as f:
             json.dump(data, f, ensure_ascii=False, indent=4)
         
         print(f"Total missing field instances: {len(fab_instances)}")
 
 def postprocess_latex():
-    with open(r'data\UCT_dataset\filter_missing_values.json', 'r', encoding='utf-8') as f:
+    with open(r'data\UCT_dataset\UCT_all_postprocessed_2.json', 'r', encoding='utf-8') as f:
         data = json.load(f)
         instances = data["instances"]
         # print(len(instances))
@@ -79,16 +79,52 @@ def postprocess_latex():
             instance["citation_metadata"]["authors"] = [
                 converter.latex_to_text(author) for author in instance["citation_metadata"]["authors"]
             ]
+            instance["citation_metadata"]["venue"] = converter.latex_to_text(instance["citation_metadata"]["venue"])
 
         data["instances"] = instances
-        with open(r'data\UCT_dataset\UCT_all_postprocessed.json', 'w', encoding='utf-8') as f:
+        with open(r'data\UCT_dataset\UCT_all_postprocessed_latex.json', 'w', encoding='utf-8') as f:
             json.dump(data, f, ensure_ascii=False, indent=4)
         # print(instances[3385]["citation_metadata"]["title"])
         # print(converter.latex_to_text(instances[3385]["surrounding_context"]))
 
+def hotfix_venue():
+    with open(r'data\UCT_dataset\UCT_all_postprocessed.json', 'r', encoding='utf-8') as f:
+        data = json.load(f)
+        instances = data["instances"]
+        converter = LatexNodes2Text()
+        for instance in instances:
+            instance["citation_metadata"]["venue"] = converter.latex_to_text(instance["citation_metadata"]["venue"])
+
+        data["instances"] = instances
+        with open(r'data\UCT_dataset\UCT_all_postprocessed.json', 'w', encoding='utf-8') as f:
+            json.dump(data, f, ensure_ascii=False, indent=4)
+
+def clean_some_arxiv_and_too_long_authors():
+    with open(r'data\UCT_dataset\UCT_all_postprocessed_new.json', 'r', encoding='utf-8') as f:
+        data = json.load(f)
+        instances = data["instances"]
+        # print(len([inst for inst in instances if "arxiv" in inst["citation_metadata"]["venue"].lower() ]))
+
+        instances = [
+            inst for inst in instances if "arxiv" not in inst["citation_metadata"]["venue"].lower() and len(inst["citation_metadata"]["authors"]) < 10
+        ]
+
+        data["instances"] = instances
+
+        # print(len(instances))
+        with open(r'data\UCT_dataset\UCT_all_postprocessed.json', 'w', encoding='utf-8') as f:
+            json.dump(data, f, ensure_ascii=False, indent=4)
+
+
 if __name__ == "__main__":
+    in_dir = r'data\UCT_dataset\UCT_all_postprocessed_latex.json'
+    failed_dir = r'bin\filtered-conf\_fails_postprocessed_after_cleaning_venue.json'
+    out_dir = r'data\UCT_dataset\UCT_all_postprocessed_new.json'
     # test_process_id()
     # sweep_multi_field()
 
-    postprocess_latex()
-    # postprocess_missing_field()
+    # postprocess_latex()
+    # postprocess_missing_field(in_dir, failed_dir, out_dir)
+    # hotfix_venue()
+
+    clean_some_arxiv_and_too_long_authors()
