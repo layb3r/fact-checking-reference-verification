@@ -93,7 +93,7 @@ interface SystemPrediction {
     };
   };
   alignment: {
-    label: 0 | 1 | 2 | null;   // 0: Supported, 1: Unsupported, 3: Uncertain. Null if existence === 0
+    label: 0 | 1 | 2 | null;  
     confidence_score: number;      // 0.0 to 1.0 calibration score
   };
   explanation: {

@@ -115,6 +115,15 @@ def clean_some_arxiv_and_too_long_authors():
         with open(r'data\UCT_dataset\UCT_all_postprocessed.json', 'w', encoding='utf-8') as f:
             json.dump(data, f, ensure_ascii=False, indent=4)
 
+def check_claim_text(in_dir, out_dir):
+    with open(in_dir, 'r', encoding='utf-8') as f:
+        data = json.load(f)
+        instances = data["instances"]
+        fixed = [inst for inst in instances if inst["claim_text"] in inst["surrounding_context"]]
+
+        data["instances"] = fixed
+        with open(out_dir, 'w', encoding='utf-8') as f:
+            json.dump(data, f, ensure_ascii=False, indent=4)
 
 if __name__ == "__main__":
     in_dir = r'data\UCT_dataset\UCT_all_postprocessed_latex.json'
@@ -127,4 +136,8 @@ if __name__ == "__main__":
     # postprocess_missing_field(in_dir, failed_dir, out_dir)
     # hotfix_venue()
 
-    clean_some_arxiv_and_too_long_authors()
+    # clean_some_arxiv_and_too_long_authors()
+    check_claim_text(
+        r"data\UCT_dataset\UCT_all_postprocessed_new_filtered.json",
+        r"data\UCT_dataset\UCT_all_postprocessed_new_filtered_2.json"
+    )
