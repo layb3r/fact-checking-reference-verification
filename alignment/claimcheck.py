@@ -25,7 +25,7 @@ import argparse
 import tempfile
 import asyncio
 from datetime import datetime
-from typing import Dict, List, Optional, Tuple
+from typing import Any, Dict, List, Optional, Tuple
 from urllib.parse import urlparse
 from pathlib import Path
 
@@ -448,12 +448,7 @@ class ReferenceChecker:
         Returns:
             The LLM response as a string
         """
-        # Determine which model to use
-        if self.llm_provider == 'local' and model_type in ["preprocessing", "classification"]:
-            model_key = f"{model_type}_model"
-            model_name = self.llm_config.get(model_key, self.llm_config['model'])
-        else:
-            model_name = self.llm_config['model']
+        model_name = self._get_llm_model_name(model_type)
         
         # Set API key for the provider
         if self.llm_provider == 'openai':
@@ -490,6 +485,50 @@ class ReferenceChecker:
             # Log sanitized full error for debugging
             logger.error(f"LLM completion error: {safe_error}")
             # Raise user-friendly error
+            raise Exception(f"LLM completion error: {user_friendly_msg}")
+
+    def _get_llm_model_name(self, model_type: str = "default") -> str:
+        """Resolve the model name for the current provider and model type."""
+        if self.llm_provider == 'local' and model_type in ["preprocessing", "classification"]:
+            model_key = f"{model_type}_model"
+            return self.llm_config.get(model_key, self.llm_config['model'])
+        return self.llm_config['model']
+
+    async def _llm_completion_async(self, prompt: str, model_type: str = "default") -> str:
+        """
+        Async LLM completion using aiohttp for OpenAI and a thread fallback for other providers.
+        """
+        if self.llm_provider != 'openai':
+            return await asyncio.to_thread(self._llm_completion, prompt, model_type)
+
+        api_key = self.llm_config.get('api_key')
+        if not api_key:
+            raise Exception("OpenAI API key is not configured")
+
+        model_name = self._get_llm_model_name(model_type)
+        payload = {
+            "model": model_name,
+            "messages": [{"role": "user", "content": prompt}],
+            "temperature": self.llm_config['temperature']
+        }
+        headers = {
+            'Authorization': f'Bearer {api_key}',
+            'Content-Type': 'application/json'
+        }
+
+        try:
+            async with aiohttp.ClientSession(timeout=aiohttp.ClientTimeout(total=120)) as session:
+                async with session.post("https://api.openai.com/v1/chat/completions", json=payload, headers=headers) as response:
+                    response_text = await response.text()
+                    if response.status != 200:
+                        raise Exception(f"OpenAI API error: {response.status} - {response_text}")
+
+                    data = json.loads(response_text)
+                    return data["choices"][0]["message"]["content"]
+        except Exception as e:
+            safe_error = sanitize_error_message(e)
+            user_friendly_msg = get_user_friendly_error(e, "LLM API call")
+            logger.error(f"Async LLM completion error: {safe_error}")
             raise Exception(f"LLM completion error: {user_friendly_msg}")
 
     
@@ -565,6 +604,24 @@ Return only the processed claim without any explanation or additional text.
 """
         
         response = self._llm_completion(prompt, "preprocessing")
+        return response.strip()
+
+    async def _process_citation_async(self, citation: str) -> str:
+        """Async version of citation preprocessing."""
+        prompt = f"""
+Process this citation by:
+1. Removing any reference markers, author names, publication identifiers or citations (e.g., [1], (Smith, 2020), et al.)
+2. Converting author-centered statements to fact-centered statements (often using passive voice)
+3. Maintaining all numerical values, specific metrics, and factual details
+4. Ensuring the claim stands alone as a verifiable statement
+
+Original citation:
+"{citation}"
+
+Return only the processed claim without any explanation or additional text.
+"""
+
+        response = await self._llm_completion_async(prompt, "preprocessing")
         return response.strip()
     
 
@@ -855,6 +912,266 @@ NEI - The information within the source is insufficient to determine if the clai
                 0.0
             )
 
+    async def _analyze_support_async(self, citation: str, chunks: List[Dict], metadata: Optional[str] = None) -> Tuple[str, Dict, float]:
+        """Async version of support analysis that preserves the same prompt and parsing logic."""
+
+        processed_chunks = []
+        for chunk in chunks:
+            processed_chunk = {
+                "text": chunk["text"],
+                "location": chunk["location"]
+            }
+            processed_chunks.append(processed_chunk)
+
+        metadata_section = f"\nReference Document Information:\n{metadata}\n" if metadata else ""
+
+        main_instruction = "Analyze how well the following citation is supported by the reference text snippets."
+        if metadata:
+            main_instruction = "Analyze how well the following citation is supported by the reference text snippets.\nUse the Reference Document Information to understand the study context."
+
+        reasoning_instruction = ""
+        if metadata:
+            reasoning_instruction = "When explaining your reasoning, mention if the citation fits the overall study described in the document information.\n\n"
+
+        if self.llm_provider == 'local':
+            format_instructions = f"""{reasoning_instruction}Return your response as valid JSON with this exact structure:
+{{
+    "classification": "one of: SUPPORTED, REFUTED, NEI (means Not Enough Info)",
+    "reasoning": "your detailed reasoning here",
+    "confidence_score": 0.0
+}}
+
+Return ONLY valid JSON, no other text."""
+        else:
+            response_schemas = [
+                ResponseSchema(name="classification",
+                            description="Classification of the citation support level"),
+                ResponseSchema(name="reasoning",
+                            description="Dictionary containing summary and details of the analysis"),
+                ResponseSchema(name="confidence_score",
+                            description="Confidence score between 0.0 and 1.0")
+            ]
+            parser = StructuredOutputParser.from_response_schemas(response_schemas)
+            format_instructions = parser.get_format_instructions()
+
+        analysis_prompt = f"""{main_instruction}
+
+Citation: "{citation}"{metadata_section}
+Relevant Text Snippets:
+{json.dumps(processed_chunks, indent=2)}
+
+Classify the citation as one of:
+SUPPORTED - Full alignment with source, complete representation
+REFUTED - The source explicitly contradicts or denies the claim. The claim is deemed false based on the provided text.
+NEI - The information within the source is insufficient to determine if the claim is either true or false. 
+
+{format_instructions}"""
+
+        try:
+            response = await self._llm_completion_async(analysis_prompt, "classification")
+
+            if self.llm_provider == 'local':
+                parsed_response = json.loads(response)
+            else:
+                parsed_response = parser.parse(response)
+
+            return (
+                parsed_response["classification"],
+                parsed_response["reasoning"],
+                float(parsed_response["confidence_score"])
+            )
+
+        except Exception as e:
+            safe_error = sanitize_error_message(e)
+            logger.error(f"Error in async analysis: {safe_error}")
+
+            if "LLM completion error" in str(e):
+                user_error = get_user_friendly_error(e, "LLM API call")
+                error_msg = f"LLM API error: {user_error}"
+            else:
+                user_error = get_user_friendly_error(e, "response parsing")
+                error_msg = f"Response parsing error: {user_error}"
+
+            return (
+                "UNCERTAIN",
+                {
+                    "summary": "Error occurred during analysis",
+                    "details": [error_msg]
+                },
+                0.0
+            )
+
+    async def check_citation_async(
+        self,
+        citation: str,
+        reference_text: str,
+        metadata: Optional[str] = None,
+        save_chunks: bool = True,
+        output_dir: str = "./retrieval_output"
+    ) -> Dict:
+        """Async citation check that keeps one prompt per citation but allows concurrent batch execution."""
+        logger.info("=" * 80)
+        logger.info("Starting async citation check")
+        logger.info(f"Citation: {citation[:100]}{'...' if len(citation) > 100 else ''}")
+        logger.info(f"Reference text length: {len(reference_text)} characters")
+        if metadata:
+            logger.info(f"Metadata provided: {len(metadata)} characters")
+
+        start_time = time.time()
+
+        vector_store, documents = await asyncio.to_thread(self._prepare_reference, reference_text)
+        logger.info("Processing citation to extract core claim")
+        claim = await self._process_citation_async(citation)
+        logger.info(f"Processed claim: {claim}")
+
+        chunks, dense_docs, bm25_docs, rerank_info = await asyncio.to_thread(
+            self._get_relevant_chunks_hybrid,
+            vector_store,
+            claim,
+            documents,
+            15,
+            0.5,
+            5,
+            save_chunks
+        )
+
+        saved_files = None
+        if save_chunks and (dense_docs is not None or bm25_docs is not None):
+            logger.info("Saving BM25, dense, and FlashRank reranked chunks to separate files")
+            logger.info(f"Rerank info available: {rerank_info is not None}, Rerank info length: {len(rerank_info) if rerank_info else 0}")
+            try:
+                saved_files = await asyncio.to_thread(
+                    save_retrieval_chunks,
+                    claim=claim,
+                    output_dir=output_dir,
+                    dense_docs=dense_docs,
+                    bm25_docs=bm25_docs,
+                    rerank_info=rerank_info
+                )
+                logger.info(f"Chunks saved: Dense={saved_files['dense_count']} to {saved_files['dense_file']}")
+                logger.info(f"Chunks saved: BM25={saved_files['bm25_count']} to {saved_files['bm25_file']}")
+                if 'rerank_file' in saved_files:
+                    logger.info(f"Chunks saved: Reranked={saved_files['rerank_count']} to {saved_files['rerank_file']}")
+                else:
+                    logger.warning("No rerank file was created - rerank_info may be empty or None")
+            except Exception as e:
+                safe_error = sanitize_error_message(e)
+                logger.error(f"Failed to save retrieval chunks: {safe_error}")
+
+        logger.info("Analyzing citation support using async LLM call")
+        classification, reasoning, confidence = await self._analyze_support_async(claim, chunks, metadata)
+        logger.info(f"Classification: {classification} (confidence: {confidence:.2f})")
+
+        processing_time = time.time() - start_time
+        logger.info(f"Citation check completed in {processing_time:.2f} seconds")
+
+        result = {
+            "citation_text": citation,
+            "claim": claim,
+            "classification": classification,
+            "reasoning": reasoning,
+            "evidence": chunks,
+            "metadata": {
+                "confidence_score": confidence,
+                "timestamp": datetime.now().isoformat(),
+                "processing_time": processing_time,
+                "reference_metadata": metadata,
+                "saved_chunks": saved_files
+            }
+        }
+
+        self.chunks = chunks
+
+        try:
+            await asyncio.to_thread(vector_store.delete_collection)
+            logger.info("Vector store cleaned up successfully")
+        except Exception as e:
+            safe_error = sanitize_error_message(e)
+            logger.warning(f"Vector store cleanup failed (non-critical): {safe_error}")
+
+        logger.info("=" * 80)
+        return result
+
+    async def check_citation_batch_async(
+        self,
+        citation_reference_pairs: List[Dict[str, Any]],
+        save_chunks: bool = False,
+        output_dir: str = "./retrieval_output",
+        max_concurrency: Optional[int] = None
+    ) -> List[Dict]:
+        """Process citation/reference pairs concurrently with asyncio.gather."""
+
+        semaphore = asyncio.Semaphore(max_concurrency) if max_concurrency and max_concurrency > 0 else None
+
+        async def _run_one(index: int, pair: Dict[str, Any]) -> Dict:
+            citation = pair.get("citation")
+            reference_text = pair.get("reference_text")
+            metadata = pair.get("metadata")
+
+            if citation is None or reference_text is None:
+                raise ValueError("Each batch item must include 'citation' and 'reference_text'.")
+
+            try:
+                if semaphore:
+                    async with semaphore:
+                        result = await self.check_citation_async(
+                            citation=citation,
+                            reference_text=reference_text,
+                            metadata=metadata,
+                            save_chunks=save_chunks,
+                            output_dir=output_dir,
+                        )
+                else:
+                    result = await self.check_citation_async(
+                        citation=citation,
+                        reference_text=reference_text,
+                        metadata=metadata,
+                        save_chunks=save_chunks,
+                        output_dir=output_dir,
+                    )
+
+                result.setdefault("metadata", {})["batch_index"] = index
+                if "pair_id" in pair:
+                    result["metadata"]["pair_id"] = pair["pair_id"]
+                return result
+            except Exception as e:
+                safe_error = sanitize_error_message(e)
+                logger.error(f"Batch item {index} failed: {safe_error}")
+                return {
+                    "citation_text": citation,
+                    "claim": None,
+                    "classification": "ERROR",
+                    "reasoning": {
+                        "summary": "Batch item failed",
+                        "details": [get_user_friendly_error(e, "batch citation processing")]
+                    },
+                    "evidence": [],
+                    "metadata": {
+                        "batch_index": index,
+                        "pair_id": pair.get("pair_id"),
+                        "processing_time": 0.0,
+                        "error": True
+                    }
+                }
+
+        tasks = [asyncio.create_task(_run_one(index, pair)) for index, pair in enumerate(citation_reference_pairs)]
+        return await asyncio.gather(*tasks)
+
+    def check_citation_batch(
+        self,
+        citation_reference_pairs: List[Dict[str, Any]],
+        save_chunks: bool = False,
+        output_dir: str = "./retrieval_output",
+        max_concurrency: Optional[int] = None
+    ) -> List[Dict]:
+        """Synchronous wrapper for the async batch API."""
+        return asyncio.run(self.check_citation_batch_async(
+            citation_reference_pairs=citation_reference_pairs,
+            save_chunks=save_chunks,
+            output_dir=output_dir,
+            max_concurrency=max_concurrency,
+        ))
+
     def check_citation(self,
                       citation: str,
                       reference_text: str,
@@ -1000,6 +1317,34 @@ def check_reference(citation: str, path_reference_text: str, path_reference_meta
     result['metadata']['reference_file'] = fname_ref
     
     return result
+
+
+def check_reference_batch(
+    citation_reference_pairs: List[Dict[str, Any]],
+    llm_config: Optional[Dict] = None,
+    embedding_config: Optional[Dict] = None,
+    save_chunks: bool = False,
+    output_dir: str = "./retrieval_output",
+    max_concurrency: Optional[int] = None,
+) -> List[Dict]:
+    """Check a batch of citation/reference-text pairs concurrently."""
+
+    if llm_config and embedding_config:
+        checker = ReferenceChecker(
+            llm_provider=llm_config['provider'],
+            llm_config=llm_config,
+            embedding_provider=embedding_config['provider'],
+            embedding_config=embedding_config
+        )
+    else:
+        checker = ReferenceChecker()
+
+    return checker.check_citation_batch(
+        citation_reference_pairs=citation_reference_pairs,
+        save_chunks=save_chunks,
+        output_dir=output_dir,
+        max_concurrency=max_concurrency,
+    )
 
 
 def test():
