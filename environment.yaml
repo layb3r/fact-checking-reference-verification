@@ -1,0 +1,29 @@
+name: cite
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - pandas
+  - ipython
+  - pip:
+      - numpy
+      - python-dotenv
+      - pymupdf
+      - tqdm
+      - aiohttp
+      - streamlit
+      - chromadb
+      - langchain==0.3.9
+      - langchain-chroma==0.1.4
+      - langchain-community==0.3.8
+      - langchain-core==0.3.21
+      - langchain-openai==0.2.10
+      - langchain-text-splitters==0.3.2
+      - flashrank
+      - rank-bm25
+      - litellm
+      - sentence-transformers>=2.7.0
+      - torch
+      - transformers>=4.51.0
+      - requests

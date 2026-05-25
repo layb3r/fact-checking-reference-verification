@@ -1,21 +1,3 @@
-"""
-SemanticCite Citation Verification Module
-
-This module provides AI-powered semantic citation verification using hybrid retrieval
-(BM25 + dense vector search) and neural reranking. It analyzes full-text documents to
-classify citation claims as Supported, Partially Supported, Unsupported, or Uncertain,
-with detailed reasoning and evidence snippets.
-
-Main class:
-    ReferenceChecker: Core citation verification engine supporting multiple LLM and
-    embedding providers (OpenAI, Claude, Gemini, local models via Ollama/SentenceTransformers)
-
-Usage:
-    conda activate cite
-    streamlit run src/app.py  # Web interface
-    python src/citecheck.py   # CLI mode
-"""
-
 import os
 import sys
 import json
@@ -24,6 +6,8 @@ import logging
 import argparse
 import tempfile
 import asyncio
+import re
+import threading
 from datetime import datetime
 from typing import Any, Dict, List, Optional, Tuple
 from urllib.parse import urlparse
@@ -33,30 +17,23 @@ import numpy as np
 import dotenv
 import pymupdf
 import aiohttp
+import chromadb
 
 # Set persistent cache directory for FlashRank before importing
 FLASHRANK_CACHE_DIR = os.path.join(os.path.dirname(os.path.dirname(__file__)), '.flashrank_cache')
 os.makedirs(FLASHRANK_CACHE_DIR, exist_ok=True)
 os.environ['FLASHRANK_CACHE_DIR'] = FLASHRANK_CACHE_DIR
 
-# Security utilities
 from security_utils import sanitize_error_message, get_user_friendly_error, SecureLogger
-
-# Retrieval utilities
 from retrieval_utils import save_retrieval_chunks
 
-# LangChain imports
+# LangChain
 from langchain_core.documents import Document
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_community.retrievers import BM25Retriever
 
 # Import flashrank Ranker for custom cache directory
 from flashrank import Ranker, RerankRequest
-# Fallback for structured output parsing
-try:
-    from langchain.output_parsers import ResponseSchema, StructuredOutputParser
-except ImportError:
-    from langchain_core.output_parsers import ResponseSchema, StructuredOutputParser
 
 # Configure logging to both file and console
 from logging.handlers import RotatingFileHandler
@@ -157,6 +134,39 @@ class SentenceTransformerWrapper:
         """Embed a single query."""
         embedding = self.model.encode([text])
         return embedding[0].tolist()
+
+
+def _build_json_format_instructions(reasoning_instruction: str = "") -> str:
+    """Build a provider-agnostic JSON output instruction block."""
+
+    return f"""{reasoning_instruction}Return your response as valid JSON with this exact structure:
+{{
+    "classification": "one of: SUPPORTED, REFUTED, NEI (means Not Enough Info)",
+    "reasoning": "your detailed reasoning here",
+    "confidence_score": 0.0
+}}
+
+Return ONLY valid JSON, no other text."""
+
+
+def _parse_json_model_response(response: str) -> Dict[str, Any]:
+    """Parse a JSON response, tolerating fenced or prefixed model output."""
+
+    response_text = response.strip()
+
+    try:
+        parsed_response = json.loads(response_text)
+    except json.JSONDecodeError:
+        match = re.search(r"\{.*\}", response_text, flags=re.DOTALL)
+        if not match:
+            raise
+        parsed_response = json.loads(match.group(0))
+
+    classification = str(parsed_response.get("classification", "UNCERTAIN")).strip().upper()
+    parsed_response["classification"] = classification
+    parsed_response["reasoning"] = parsed_response.get("reasoning", "")
+    parsed_response["confidence_score"] = float(parsed_response.get("confidence_score", 0.0))
+    return parsed_response
 
 def _get_flashrank_ranker(model_name: str = "ms-marco-MultiBERT-L-12") -> Ranker:
     """
@@ -314,7 +324,7 @@ class ReferenceChecker:
     def __init__(self, 
                 llm_provider: str = "openai",
                 llm_config: Dict = None,
-                embedding_provider: str = "openai",
+                embedding_provider: str = "local",
                 embedding_config: Dict = None):
         """
         Initialize the reference checker with flexible provider selection.
@@ -361,7 +371,7 @@ class ReferenceChecker:
                 'api_key': os.getenv("ANTHROPIC_API_KEY")
             },
             'gemini': {
-                'model': 'gemini-2.5-flash',
+                'model': 'gemini/gemma-4-26b-a4b-it',
                 'temperature': 0.7,
                 'api_key': os.getenv("GEMINI_API_KEY")
             },
@@ -436,6 +446,10 @@ class ReferenceChecker:
             chunk_overlap=50,
             separators=["\n\n", "\n", ". ", "? ", "! ", " ", ""]
         )
+
+        # Chroma tenant/bootstrap can race under concurrent thread startup.
+        # Serialize vector-store initialization to avoid intermittent tenant errors.
+        self._chroma_init_lock = threading.Lock()
     
     def _llm_completion(self, prompt: str, model_type: str = "default") -> str:
         """
@@ -477,14 +491,13 @@ class ReferenceChecker:
                     messages=[{"role": "user", "content": prompt}],
                     temperature=self.llm_config['temperature']
                 )
+            # print(response.choices[0].message.content)
             return response.choices[0].message.content
         except Exception as e:
             # Sanitize error message before raising
             safe_error = sanitize_error_message(e)
             user_friendly_msg = get_user_friendly_error(e, "LLM API call")
-            # Log sanitized full error for debugging
             logger.error(f"LLM completion error: {safe_error}")
-            # Raise user-friendly error
             raise Exception(f"LLM completion error: {user_friendly_msg}")
 
     def _get_llm_model_name(self, model_type: str = "default") -> str:
@@ -492,6 +505,11 @@ class ReferenceChecker:
         if self.llm_provider == 'local' and model_type in ["preprocessing", "classification"]:
             model_key = f"{model_type}_model"
             return self.llm_config.get(model_key, self.llm_config['model'])
+        if self.llm_provider == 'gemini':
+            model_name = self.llm_config['model']
+            if not model_name.startswith('gemini/') and not model_name.startswith('vertex_ai/'):
+                return f"gemini/{model_name}"
+            return model_name
         return self.llm_config['model']
 
     async def _llm_completion_async(self, prompt: str, model_type: str = "default") -> str:
@@ -564,21 +582,40 @@ class ReferenceChecker:
         import uuid
         collection_name = f"reference_chunks_{uuid.uuid4().hex[:8]}"
 
-        try:
-            logger.info(f"Creating vector store with collection: {collection_name}")
-            vector_store = Chroma.from_documents(
-                documents=documents,
-                embedding=self.embeddings,
-                collection_name=collection_name
-                # No persist_directory - use in-memory to avoid cross-document contamination
-            )
-            logger.info("Vector store created successfully")
-        except Exception as e:
-            safe_error = sanitize_error_message(e)
-            logger.error(f"Failed to create vector store: {safe_error}")
-            raise
+        max_attempts = 3
+        last_error = None
+        for attempt in range(1, max_attempts + 1):
+            try:
+                logger.info(f"Creating vector store with collection: {collection_name} (attempt {attempt}/{max_attempts})")
+                with self._chroma_init_lock:
+                    chroma_client = chromadb.EphemeralClient(
+                        settings=chromadb.config.Settings(anonymized_telemetry=False)
+                    )
+                    vector_store = Chroma.from_documents(
+                        documents=documents,
+                        embedding=self.embeddings,
+                        collection_name=collection_name,
+                        client=chroma_client
+                        # Use an explicit ephemeral client to avoid cross-document contamination
+                    )
+                logger.info("Vector store created successfully")
+                return vector_store, documents
+            except Exception as e:
+                last_error = e
+                safe_error = sanitize_error_message(e)
+                is_tenant_error = "default_tenant" in str(e).lower() or "tenant" in str(e).lower()
+                if is_tenant_error and attempt < max_attempts:
+                    backoff_seconds = 0.25 * attempt
+                    logger.warning(
+                        f"Vector store creation hit tenant initialization race (attempt {attempt}/{max_attempts}): {safe_error}. "
+                        f"Retrying in {backoff_seconds:.2f}s"
+                    )
+                    time.sleep(backoff_seconds)
+                    continue
+                logger.error(f"Failed to create vector store: {safe_error}")
+                raise
 
-        return vector_store, documents
+        raise last_error
     
     def _process_citation(self, citation: str) -> str:
         """
@@ -690,7 +727,7 @@ Return only the processed claim without any explanation or additional text.
         logger.info(f"Combined retrieval: {len(unique_docs)} unique documents from {len(all_docs)} total")
 
         # 4. Take top candidates for reranking (limit to avoid too many)
-        candidates = unique_docs[:min(20, len(unique_docs))]
+        candidates = unique_docs[:min(10, len(unique_docs))]
         logger.info(f"Selected {len(candidates)} candidates for reranking")
 
         # 5. Apply neural reranking using FlashRank with relevance filtering
@@ -835,28 +872,7 @@ Return only the processed claim without any explanation or additional text.
         if metadata:
             reasoning_instruction = "When explaining your reasoning, mention if the citation fits the overall study described in the document information.\n\n"
 
-        # Use simpler JSON format for local models to avoid timeout issues
-        if self.llm_provider == 'local':
-            format_instructions = """{reasoning_instruction}Return your response as valid JSON with this exact structure:
-{{
-    "classification": "one of: SUPPORTED, REFUTED, NEI (means Not Enough Info)",
-    "reasoning": "your detailed reasoning here",
-    "confidence_score": 0.0
-}}
-
-Return ONLY valid JSON, no other text."""
-        else:
-            # Use StructuredOutputParser for cloud LLMs
-            response_schemas = [
-                ResponseSchema(name="classification",
-                            description="Classification of the citation support level"),
-                ResponseSchema(name="reasoning",
-                            description="Dictionary containing summary and details of the analysis"),
-                ResponseSchema(name="confidence_score",
-                            description="Confidence score between 0.0 and 1.0")
-            ]
-            parser = StructuredOutputParser.from_response_schemas(response_schemas)
-            format_instructions = parser.get_format_instructions()
+        format_instructions = _build_json_format_instructions(reasoning_instruction)
 
         analysis_prompt = f"""{main_instruction}
 
@@ -875,13 +891,7 @@ NEI - The information within the source is insufficient to determine if the clai
         try:
             response = self._llm_completion(analysis_prompt, "classification")
 
-            # Parse the response based on provider
-            if self.llm_provider == 'local':
-                # Simple JSON parsing for local models
-                parsed_response = json.loads(response)
-            else:
-                # StructuredOutputParser for cloud LLMs
-                parsed_response = parser.parse(response)
+            parsed_response = _parse_json_model_response(response)
 
             return (
                 parsed_response["classification"],
@@ -933,26 +943,7 @@ NEI - The information within the source is insufficient to determine if the clai
         if metadata:
             reasoning_instruction = "When explaining your reasoning, mention if the citation fits the overall study described in the document information.\n\n"
 
-        if self.llm_provider == 'local':
-            format_instructions = f"""{reasoning_instruction}Return your response as valid JSON with this exact structure:
-{{
-    "classification": "one of: SUPPORTED, REFUTED, NEI (means Not Enough Info)",
-    "reasoning": "your detailed reasoning here",
-    "confidence_score": 0.0
-}}
-
-Return ONLY valid JSON, no other text."""
-        else:
-            response_schemas = [
-                ResponseSchema(name="classification",
-                            description="Classification of the citation support level"),
-                ResponseSchema(name="reasoning",
-                            description="Dictionary containing summary and details of the analysis"),
-                ResponseSchema(name="confidence_score",
-                            description="Confidence score between 0.0 and 1.0")
-            ]
-            parser = StructuredOutputParser.from_response_schemas(response_schemas)
-            format_instructions = parser.get_format_instructions()
+        format_instructions = _build_json_format_instructions(reasoning_instruction)
 
         analysis_prompt = f"""{main_instruction}
 
@@ -970,10 +961,7 @@ NEI - The information within the source is insufficient to determine if the clai
         try:
             response = await self._llm_completion_async(analysis_prompt, "classification")
 
-            if self.llm_provider == 'local':
-                parsed_response = json.loads(response)
-            else:
-                parsed_response = parser.parse(response)
+            parsed_response = _parse_json_model_response(response)
 
             return (
                 parsed_response["classification"],
@@ -1020,6 +1008,12 @@ NEI - The information within the source is insufficient to determine if the clai
         start_time = time.time()
 
         vector_store, documents = await asyncio.to_thread(self._prepare_reference, reference_text)
+        # data = vector_store.get()
+
+        # print(f"Number of items: {len(data['ids'])}")
+        # print(f"First document text: {data['documents'][0]}")
+        # print(f"First document metadata: {data['metadatas'][0]}")
+
         logger.info("Processing citation to extract core claim")
         claim = await self._process_citation_async(citation)
         logger.info(f"Processed claim: {claim}")
@@ -1031,7 +1025,7 @@ NEI - The information within the source is insufficient to determine if the clai
             documents,
             15,
             0.5,
-            5,
+            3,
             save_chunks
         )
 
@@ -1083,8 +1077,8 @@ NEI - The information within the source is insufficient to determine if the clai
         self.chunks = chunks
 
         try:
-            await asyncio.to_thread(vector_store.delete_collection)
-            logger.info("Vector store cleaned up successfully")
+            del vector_store
+            logger.info("Vector store released successfully")
         except Exception as e:
             safe_error = sanitize_error_message(e)
             logger.warning(f"Vector store cleanup failed (non-critical): {safe_error}")
@@ -1270,8 +1264,8 @@ NEI - The information within the source is insufficient to determine if the clai
 
         # Clean up vector store to prevent contamination across documents
         try:
-            vector_store.delete_collection()
-            logger.info("Vector store cleaned up successfully")
+            del vector_store
+            logger.info("Vector store released successfully")
         except Exception as e:
             # Ignore cleanup errors - vector store will be garbage collected anyway
             safe_error = sanitize_error_message(e)
