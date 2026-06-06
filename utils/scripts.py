@@ -125,10 +125,196 @@ def check_claim_text(in_dir, out_dir):
         with open(out_dir, 'w', encoding='utf-8') as f:
             json.dump(data, f, ensure_ascii=False, indent=4)
 
+def filter_by_arxiv_id(in_dir, out_dir):
+    import re
+    import requests
+
+    ARXIV_PATTERN = re.compile(r"^\d{4}\.\d{4,5}(v\d+)?$")
+
+    with open(in_dir, 'r', encoding='utf-8') as f:
+        data = json.load(f)
+
+    instances = data["instances"]
+    kept = []
+
+    for i, inst in enumerate(instances):
+        identifiers = inst.get("citation_metadata", {}).get("identifiers", {})
+        arxiv_id = identifiers.get("arxiv_id")
+
+        if not arxiv_id or not ARXIV_PATTERN.match(str(arxiv_id)):
+            continue
+
+        url = identifiers.get("url")
+        if not url:
+            url = f"https://arxiv.org/abs/{arxiv_id}"
+            identifiers["url"] = url
+
+        try:
+            resp = requests.get(url, timeout=3)
+            if resp.status_code != 200:
+                continue
+        except requests.RequestException:
+            continue
+
+        kept.append(inst)
+
+        if (i + 1) % 10 == 0:
+            print(f"  Progress: {i + 1}/{len(instances)}")
+
+    data["instances"] = kept
+    with open(out_dir, 'w', encoding='utf-8') as f:
+        json.dump(data, f, ensure_ascii=False, indent=4)
+
+    print(f"Kept {len(kept)}/{len(instances)} instances with valid arxiv IDs")
+
+
+def filter_arxiv_instances(current_data_dir, out_dir=None, save_every=50):
+    import requests
+    import time
+    import xml.etree.ElementTree as ET
+    import os
+
+    ARXIV_API = "https://export.arxiv.org/api/query"
+    ARXIV_NS = {"atom": "http://www.w3.org/2005/Atom"}
+
+    with open(current_data_dir, 'r', encoding='utf-8') as f:
+        data = json.load(f)
+        instances = data["instances"]
+
+    out_dir = out_dir or current_data_dir.replace(".json", "_arxiv_filtered.json")
+    checkpoint_file = out_dir.replace(".json", "_checkpoint.json")
+    fail_file = out_dir.replace(".json", "_fails.json")
+
+    total = len(instances)
+
+    # --- resume from checkpoint ---
+    start_idx = 0
+    filtered = []
+    fails = []
+    if os.path.exists(checkpoint_file):
+        with open(checkpoint_file, 'r', encoding='utf-8') as f:
+            ckpt = json.load(f)
+            start_idx = ckpt["last_index"] + 1
+        if os.path.exists(out_dir):
+            with open(out_dir, 'r', encoding='utf-8') as f:
+                filtered = json.load(f).get("instances", [])
+        if os.path.exists(fail_file):
+            with open(fail_file, 'r', encoding='utf-8') as f:
+                fails = json.load(f)
+        print(f"Resumed from instance {start_idx}/{total} ({len(filtered)} kept, {len(fails)} failed)")
+
+    # --- helper: periodic save ---
+    def save_progress(idx):
+        ckpt_data = {"last_index": idx}
+        with open(checkpoint_file, 'w', encoding='utf-8') as f:
+            json.dump(ckpt_data, f)
+
+        out = dict(data)
+        out["instances"] = filtered
+        with open(out_dir, 'w', encoding='utf-8') as f:
+            json.dump(out, f, ensure_ascii=False, indent=4)
+
+        with open(fail_file, 'w', encoding='utf-8') as f:
+            json.dump(fails, f, ensure_ascii=False, indent=4)
+
+        print(f"  Checkpoint saved at instance {idx + 1}/{total}")
+
+    # --- main loop ---
+    for i in range(start_idx, total):
+        inst = instances[i]
+        meta = inst.get("citation_metadata", {})
+        arxiv_id = meta.get("identifiers", {}).get("arxiv_id")
+        title = meta.get("title")
+
+        found = False
+
+        # 1) Try arxiv_id lookup
+        if arxiv_id:
+            clean_id = arxiv_id.replace("arXiv:", "").strip()
+            parts = clean_id.split("v")
+            query_id = parts[0] if len(parts) == 2 and parts[1].isdigit() else clean_id
+
+            try:
+                resp = requests.get(
+                    ARXIV_API,
+                    params={"id_list": query_id, "max_results": 1},
+                    headers={"User-Agent": "fact-checking-reference-verification/1.0"},
+                    timeout=30,
+                )
+                root = ET.fromstring(resp.text)
+                entries = root.findall("atom:entry", ARXIV_NS)
+                if entries and any(
+                    link.attrib.get("title") == "pdf"
+                    for link in entries[0].findall("atom:link", ARXIV_NS)
+                ):
+                    filtered.append(inst)
+                    found = True
+            except Exception:
+                pass
+
+        # 2) Fallback: search by title
+        if not found and title:
+            try:
+                resp = requests.get(
+                    ARXIV_API,
+                    params={"search_query": f'ti:"{title}"', "max_results": 1},
+                    headers={"User-Agent": "fact-checking-reference-verification/1.0"},
+                    timeout=30,
+                )
+                root = ET.fromstring(resp.text)
+                entries = root.findall("atom:entry", ARXIV_NS)
+                if entries and any(
+                    link.attrib.get("title") == "pdf"
+                    for link in entries[0].findall("atom:link", ARXIV_NS)
+                ):
+                    id_el = entries[0].find("atom:id", ARXIV_NS)
+                    if id_el is not None and id_el.text and "/abs/" in id_el.text:
+                        inst["citation_metadata"]["identifiers"]["arxiv_id"] = id_el.text.split("/abs/")[-1]
+                    filtered.append(inst)
+                    found = True
+            except Exception:
+                pass
+
+        if not found:
+            fails.append(inst)
+
+        if (i + 1) % 10 == 0:
+            print(f"  Progress: {i + 1}/{total}")
+
+        if (i + 1) % save_every == 0 or i == total - 1:
+            save_progress(i)
+
+        time.sleep(1)
+
+    print(f"Done. arxiv+pdf instances: {len(filtered)}, fails: {len(fails)}")
+    print(f"Saved to: {out_dir}")
+
+
+import random
+
+def sample_and_merge(path_1, path_2, num_1, num_2, out_dir=None):
+    with open(path_1, 'r', encoding='utf-8') as f:
+        data_1 = json.load(f)
+    with open(path_2, 'r', encoding='utf-8') as f:
+        data_2 = json.load(f)
+
+    sampled_1 = random.sample(data_1["instances"], min(num_1, len(data_1["instances"])))
+    sampled_2 = random.sample(data_2["instances"], min(num_2, len(data_2["instances"])))
+
+    merged = {"instances": sampled_1 + sampled_2}
+
+    if out_dir:
+        with open(out_dir, 'w', encoding='utf-8') as f:
+            json.dump(merged, f, ensure_ascii=False, indent=4)
+        print(f"Saved {len(merged['instances'])} instances to {out_dir}")
+
+    return merged
+
+
 if __name__ == "__main__":
-    in_dir = r'data\UCT_dataset\UCT_all_postprocessed_latex.json'
-    failed_dir = r'bin\filtered-conf\_fails_postprocessed_after_cleaning_venue.json'
-    out_dir = r'data\UCT_dataset\UCT_all_postprocessed_new.json'
+    # in_dir = r'data\UCT_dataset\UCT_all_postprocessed_latex.json'
+    # failed_dir = r'bin\filtered-conf\_fails_postprocessed_after_cleaning_venue.json'
+    # out_dir = r'data\UCT_dataset\UCT_all_postprocessed_new.json'
     # test_process_id()
     # sweep_multi_field()
 
@@ -137,7 +323,38 @@ if __name__ == "__main__":
     # hotfix_venue()
 
     # clean_some_arxiv_and_too_long_authors()
-    check_claim_text(
-        r"data\UCT_dataset\UCT_all_postprocessed_new_filtered.json",
-        r"data\UCT_dataset\UCT_all_postprocessed_new_filtered_2.json"
+    # check_claim_text(
+    #     r"data\UCT_dataset\UCT_all_postprocessed_new_filtered.json",
+    #     r"data\UCT_dataset\UCT_all_postprocessed_new_filtered_2.json"
+    # )
+
+    current_data_dir = r"..\data\UCT_dataset\UCT_all_postprocessed_new_filtered_2.json"
+    # filter_arxiv_instances(current_data_dir)
+    # filter_by_arxiv_id(current_data_dir, r"..\data\UCT_dataset\UCT_arxiv.json")
+
+    sample_and_merge(
+        r"..\data\UCT_dataset\UCT_arxiv.json",
+        r".\negative-instances-generator\negative_alignments.json",
+        10,
+        19,
+        r"merged.json"
     )
+# {
+#   "claim_text": "... [CITATION] ...",
+#   "surrounding_context": "...",
+#   "citation_metadata": {
+#     "title": "...",
+#     "authors": ["..."],
+#     "venue": "...",
+#     "year": 2023,
+#     "identifiers": {
+#       "doi": null,
+#       "arxiv_id": null,
+#       "url": null
+#     }
+#   },
+#   "true_outputs": {
+#         "true_alignment": 0,
+#     ...
+#   }
+# }

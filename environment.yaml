@@ -27,3 +27,4 @@ dependencies:
       - torch
       - transformers>=4.51.0
       - requests
+      - together>=1.4.0

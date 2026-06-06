@@ -1,3 +1,4 @@
+import dotenv
 from claimcheck import ReferenceChecker
 import json
 
@@ -9,7 +10,7 @@ def test_simple_citation():
     dotenv.load_dotenv("../.env")
     
     # Initialize checker
-    checker = ReferenceChecker(llm_provider="openai", embedding_provider="local")
+    checker = ReferenceChecker(llm_provider="together", embedding_provider="local")
     
     # Example citation and reference
     citation = "The study found a 25% increase in performance after the intervention."

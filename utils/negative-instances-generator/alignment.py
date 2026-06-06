@@ -46,6 +46,7 @@ import re
 import time
 from collections import Counter, defaultdict
 from typing import Optional
+import ast
 
 import google.generativeai as genai
 from ratelimiter import RateLimiter
@@ -57,21 +58,20 @@ log = logging.getLogger(__name__)
 # Constants & configuration
 # ---------------------------------------------------------------------------
 
-MODEL_NAME = "gemma-3-27b-it"
+MODEL_NAME = "gemma-4-31b-it"
 
 # How the instances split between the two alignment labels
 ALIGNMENT_SPLIT = {
-    1: 0.6,   # refuted
-    2: 0.4,   # not enough info
+    1: 0.4,   # refuted
+    2: 0.6,   # not enough info
 }
 
 # Label 1 (REFUTED) has no strategy subdivisions - just one approach
 
 # How label 2 (NOT ENOUGH INFO) instances split across strategies
 NOT_ENOUGH_INFO_STRATEGY_SPLIT = {
-    "VAGUE_CLAIM":         0.40,
-    "MISSING_DETAILS":     0.30,
-    "DIFFERENT_SCOPE":     0.30
+    "VAGUE_CLAIM":         0.55,
+    "MISSING_DETAILS":     0.45,
 }
 
 # ---------------------------------------------------------------------------
@@ -84,10 +84,15 @@ Return ONLY valid JSON — no markdown fences, no commentary outside the JSON.
 
 IMPORTANT: You MUST preserve the [CITATION] marker in the new_claim_text.
 
+If the provided `CLAIM` is only a bibliographic mention (for example: "TRAPPIST [CITATION]" or
+"TRAPPIST-South [CITATION]") and contains no propositional content (no verb/claimable fact),
+return JSON with `new_claim_text` set to `null` and `rationale` explaining it is a citation-only
+entry (e.g. "NO_CLAIM: citation-only mention").
+
 Schema:
 {{
-  "new_claim_text": "<rewritten claim sentence(s) with [CITATION] marker preserved>",
-  "rationale": "<one concise sentence explaining the misalignment type and how it was introduced>"
+    "new_claim_text": "<rewritten claim sentence(s) with [CITATION] marker preserved>",
+    "rationale": "<one concise sentence explaining the misalignment type and how it was introduced>"
 }}
 """
 
@@ -220,7 +225,6 @@ STRATEGY_PROMPTS: dict[str, str] = {
     "REFUTED":             PROMPT_REFUTED,
     "VAGUE_CLAIM":         PROMPT_VAGUE_CLAIM,
     "MISSING_DETAILS":     PROMPT_MISSING_DETAILS,
-    "DIFFERENT_SCOPE":     PROMPT_DIFFERENT_SCOPE,
     # "UNVERIFIABLE_METRIC": PROMPT_UNVERIFIABLE_METRIC,
 }
 
@@ -229,9 +233,30 @@ STRATEGY_TO_ALIGNMENT: dict[str, int] = {
     "REFUTED":             1,
     "VAGUE_CLAIM":         2,
     "MISSING_DETAILS":     2,
-    "DIFFERENT_SCOPE":     2,
     # "UNVERIFIABLE_METRIC": 2,
 }
+
+_CITATION_MARKERS = ("[CITATION]")
+_VERB_LIKE_PATTERN = re.compile(
+    r"\b(" 
+    r"is|are|was|were|be|been|being|has|have|had|does|do|did|"
+    r"shows?|showed|showing|demonstrates?|demonstrated|demonstrating|"
+    r"indicates?|indicated|indicating|suggests?|suggested|suggesting|"
+    r"includes?|included|including|reports?|reported|reporting|"
+    r"proposes?|proposed|proposing|uses?|used|using|provides?|provided|providing|"
+    r"finds?|found|finding|leads?|led|leading|achieves?|achieved|achieving|"
+    r"improves?|improved|improving|requires?|required|requiring|"
+    r"supports?|supported|supporting|compares?|compared|comparing|"
+    r"evaluates?|evaluated|evaluating|focuses?|focused|focusing|"
+    r"examines?|examined|examining|describes?|described|describing|"
+    r"presents?|presented|presenting|predicts?|predicted|predicting|"
+    r"increases?|increased|increasing|decreases?|decreased|decreasing|"
+    r"measures?|measured|measuring|identifies?|identified|identifying|"
+    r"introduces?|introduced|introducing|explores?|explored|exploring|"
+    r"contains?|contained|containing|"
+    r")\b",
+    flags=re.IGNORECASE,
+)
 
 # ---------------------------------------------------------------------------
 # Data loading
@@ -251,6 +276,45 @@ def load_positives(path: str) -> list[dict]:
 
 def deep_copy(inst: dict) -> dict:
     return copy.deepcopy(inst)
+
+
+def _claim_prefix_before_citation(claim_text: str) -> str:
+    text = claim_text or ""
+    lowered = text.lower()
+    marker_positions = [lowered.find(marker.lower()) for marker in _CITATION_MARKERS]
+    marker_positions = [position for position in marker_positions if position != -1]
+    if not marker_positions:
+        return text.strip()
+    return text[: min(marker_positions)].strip()
+
+
+def is_substantive_claim(claim_text: str) -> bool:
+    """Return False for rows that only name the cited work instead of stating a claim."""
+    prefix = _claim_prefix_before_citation(claim_text)
+    if not prefix:
+        return False
+
+    normalized = re.sub(r"[^A-Za-z0-9\s-]+", " ", prefix)
+    normalized = re.sub(r"\s+", " ", normalized).strip()
+    if not normalized:
+        return False
+
+    word_count = len(normalized.split())
+    if word_count <= 8 and not _VERB_LIKE_PATTERN.search(normalized):
+        return False
+
+    return True
+
+
+def filter_substantive_positives(positives: list[dict]) -> tuple[list[dict], int]:
+    kept: list[dict] = []
+    skipped = 0
+    for inst in positives:
+        if is_substantive_claim(inst.get("claim_text", "")):
+            kept.append(inst)
+        else:
+            skipped += 1
+    return kept, skipped
 
 # ---------------------------------------------------------------------------
 # Target count computation
@@ -334,11 +398,35 @@ def _call_gemini(
 def _parse_json(raw: Optional[str]) -> Optional[dict]:
     if not raw:
         return None
+
     # Strip accidental markdown fences
     clean = re.sub(r"^```(?:json)?\s*", "", raw, flags=re.MULTILINE)
-    clean = re.sub(r"\s*```$",          "", clean, flags=re.MULTILINE).strip()
+    clean = re.sub(r"\s*```$", "", clean, flags=re.MULTILINE).strip()
+
+    # Quick accept common explicit 'null' responses
+    if clean.strip().lower() in ("null", "none"):
+        return {"new_claim_text": None, "rationale": "NO_CLAIM: model returned null"}
+
+    # Try to locate a JSON object/array substring if the model returned extra text
+    cleaned_for_search = clean
+    obj_match = re.search(r"\{.*\}", cleaned_for_search, flags=re.DOTALL)
+    arr_match = re.search(r"\[.*\]", cleaned_for_search, flags=re.DOTALL)
+
+    candidate = None
+    if obj_match:
+        candidate = obj_match.group(0)
+    elif arr_match:
+        candidate = arr_match.group(0)
+    else:
+        # No JSON-like structure found; likely model returned plain text
+        log.warning(f"No JSON object or array found in response | raw[:300]: {raw[:300]}")
+        return None
+
     try:
-        return json.loads(clean)
+        parsed = json.loads(candidate)
+        if parsed is None:
+            return {"new_claim_text": None, "rationale": "NO_CLAIM: model returned null"}
+        return parsed
     except json.JSONDecodeError as e:
         log.warning(f"JSON parse error: {e} | raw[:300]: {raw[:300]}")
         return None
@@ -358,6 +446,9 @@ def generate_instance(
     claim_text / surrounding_context and updated true_outputs.
     Returns None if the LLM call fails or produces invalid output.
     """
+    if not is_substantive_claim(inst.get("claim_text", "")):
+        return None
+
     meta  = inst.get("citation_metadata", {})
     title = meta.get("title") or "Unknown"
     venue = meta.get("venue") or "Unknown"
@@ -375,12 +466,13 @@ def generate_instance(
     if not parsed:
         return None
 
+    # If the LLM explicitly signalled a citation-only/no-claim (JSON null), skip silently
+    if parsed.get("new_claim_text") is None:
+        log.info(f"LLM returned NO_CLAIM for strategy={strategy}: {parsed.get('rationale')}")
+        return None
+
     new_claim   = parsed.get("new_claim_text")
     rationale   = parsed.get("rationale", f"Alignment strategy: {strategy}.")
-
-    if not new_claim:
-        log.warning(f"Missing new_claim_text in LLM response for strategy={strategy}")
-        return None
 
     # Sanity check: claim should have actually changed
     old_claim = inst.get("claim_text", "").strip()
@@ -428,6 +520,14 @@ def generate(
     random.seed(seed)
     genai.configure(api_key=api_key)
     model = genai.GenerativeModel(MODEL_NAME)
+
+    positives, skipped_non_claim = filter_substantive_positives(positives)
+    if skipped_non_claim:
+        log.info(
+            f"Filtered out {skipped_non_claim} non-claim positives that only name a cited work."
+        )
+    if not positives:
+        raise ValueError("No substantive claim-bearing positives available after filtering.")
     
     # Initialize rate limiter
     rate_limiter = RateLimiter(requests_per_minute=requests_per_minute, tokens_per_minute=tokens_per_minute)
@@ -514,10 +614,10 @@ def main():
     parser.add_argument("--api-key", default=os.environ.get("GEMINI_API_KEY"),
                         help="Gemini API key (or set GEMINI_API_KEY env var)")
     parser.add_argument("--seed",    type=int, default=42)
-    parser.add_argument("--requests-per-minute", type=int, default=28, 
-                        help="Max API requests per minute (default: 28, conservative for 30 limit)")
-    parser.add_argument("--tokens-per-minute", type=int, default=14000,
-                        help="Max tokens per minute (default: 14000, conservative for 15K limit)")
+    parser.add_argument("--requests-per-minute", type=int, default=15, 
+                        help="Max API requests per minute (default: 15, conservative for 30 limit)")
+    parser.add_argument("--tokens-per-minute", type=int, default=30000,
+                        help="Max tokens per minute (default: 30000, conservative for 30K limit)")
     args = parser.parse_args()
 
     if not args.api_key:
@@ -559,3 +659,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+# """
+# python .\alignment.py --input ..\..\data\UCT_dataset\UCT_all_postprocessed_new_filtered_2.json --target 3 --output ./corrected_alignment.json --api-key AIzaSyCQnmIh_p-MLsw_kUjpBynSaZC7d8v0z-k
+# """

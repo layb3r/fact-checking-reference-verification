@@ -32,7 +32,7 @@ for path in (ALIGNMENT_DIR, PROJECT_ROOT):
 
 dotenv.load_dotenv(PROJECT_ROOT / ".env")
 
-from claimcheck import ReferenceChecker
+from claimcheck import check_reference_batch, ReferenceChecker
 
 
 def build_batch() -> List[Dict[str, Any]]:
@@ -70,7 +70,7 @@ def build_batch() -> List[Dict[str, Any]]:
 
 async def run_mock_smoke_test() -> List[Dict[str, Any]]:
     """Exercise the batch API without external network calls."""
-    checker = ReferenceChecker(llm_provider="openai", embedding_provider="local")
+    checker = ReferenceChecker(llm_provider="together", embedding_provider="local")
 
     async def fake_check_citation_async(
         self,
@@ -106,12 +106,13 @@ async def run_mock_smoke_test() -> List[Dict[str, Any]]:
     checker.check_citation_async = MethodType(fake_check_citation_async, checker)
 
     batch = build_batch()
-    results = await checker.check_citation_batch_async(
+    batch_output = await checker.check_citation_batch_async(
         citation_reference_pairs=batch,
         save_chunks=False,
         max_concurrency=2,
     )
 
+    results = batch_output["results"]
     assert len(results) == len(batch), "Batch output length mismatch"
     for index, result in enumerate(results):
         assert result["citation_text"] == batch[index]["citation"]
@@ -122,19 +123,31 @@ async def run_mock_smoke_test() -> List[Dict[str, Any]]:
     return results
 
 
-async def run_live_smoke_test(max_concurrency: int, save_chunks: bool, output_dir: str) -> List[Dict[str, Any]]:
+def run_live_smoke_test(max_concurrency: int, save_chunks: bool, output_dir: str) -> List[Dict[str, Any]]:
     """Run the real batch path with the configured provider settings."""
-    if not os.getenv("GEMINI_API_KEY"):
-        raise RuntimeError("GEMINI_API_KEY is required for live mode.")
+    if not (os.getenv("TOGETHER_API") or os.getenv("TOGETHER_API_KEY")):
+        raise RuntimeError("TOGETHER_API or TOGETHER_API_KEY is required for live mode.")
 
-    checker = ReferenceChecker(llm_provider="gemini", embedding_provider="local")
     batch = build_batch()
-    return await checker.check_citation_batch_async(
+
+    batch_output = check_reference_batch(
         citation_reference_pairs=batch,
+        llm_config={"provider": "together", 'model': 'Qwen/Qwen2.5-7B-Instruct-Turbo',
+                'temperature': 0.7,},
+        embedding_config={"provider": "local", 'model_name': 'all-mpnet-base-v2'},
         save_chunks=save_chunks,
         output_dir=output_dir,
         max_concurrency=max_concurrency,
     )
+
+    results = batch_output["results"]
+    llm_metrics = batch_output.get("llm_metrics", {})
+    if llm_metrics:
+        print(f"LLM metrics: {llm_metrics.get('total_calls', 0)} calls, "
+              f"{llm_metrics.get('total_tokens', 0)} tokens, "
+              f"avg {llm_metrics.get('avg_time_per_instance', 'N/A')}s per instance")
+
+    return results
 
 
 def parse_args() -> argparse.Namespace:
@@ -161,13 +174,11 @@ def main() -> None:
     if args.mode == "mock":
         results = asyncio.run(run_mock_smoke_test())
     else:
-        results = asyncio.run(
-            run_live_smoke_test(
+        results = run_live_smoke_test(
                 max_concurrency=args.max_concurrency,
                 save_chunks=args.save_chunks,
                 output_dir=args.output_dir,
             )
-        )
 
     print(json.dumps(results, indent=2))
     print(f"\nBatch smoke test passed with {len(results)} result(s).")

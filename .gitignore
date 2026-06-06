@@ -4,3 +4,6 @@ output
 .vscode/
 .env
 .flashrank_cache/
+*.pdf
+*.json
+logs/
