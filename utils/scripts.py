@@ -4,16 +4,16 @@ import json
 import json
 from pylatexenc.latex2text import LatexNodes2Text
 
-def clean_latex(data):
-    converter = LatexNodes2Text()
-    if isinstance(data, dict):
-        return {k: clean_latex(v) for k, v in data.items()}
-    elif isinstance(data, list):
-        return [clean_latex(i) for i in data]
-    elif isinstance(data, str):
-        # Normalizes escaped backslashes (\\\"a -> \"a) before converting
-        return converter.latex_to_text(data)
-    return data
+# def clean_latex(data):
+#     converter = LatexNodes2Text()
+#     if isinstance(data, dict):
+#         return {k: clean_latex(v) for k, v in data.items()}
+#     elif isinstance(data, list):
+#         return [clean_latex(i) for i in data]
+#     elif isinstance(data, str):
+#         # Normalizes escaped backslashes (\\\"a -> \"a) before converting
+#         return converter.latex_to_text(data)
+#     return data
 
 def test_process_id():
     arxiv_id = '2603.03973v1'
