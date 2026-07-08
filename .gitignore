@@ -7,3 +7,5 @@ output
 *.pdf
 *.json
 logs/
+*.rar
+*.jsonl

@@ -219,10 +219,7 @@ class EvidenceRetriever:
         )
 
         os.makedirs(chroma_persist_dir, exist_ok=True)
-        self._chroma_client = chromadb.PersistentClient(
-            path=chroma_persist_dir,
-            settings=chromadb.config.Settings(anonymized_telemetry=False),
-        )
+        self._chroma_client = self._get_chroma_client(chroma_persist_dir)
         self._chroma_init_lock = threading.Lock()
 
         self._documents_cache: Dict[str, List[Document]] = {}
@@ -232,6 +229,38 @@ class EvidenceRetriever:
         if llm_config and llm_config.get('api_key'):
             from together import AsyncTogether
             self._async_together_client = AsyncTogether(api_key=llm_config['api_key'])
+
+    @staticmethod
+    def _get_chroma_client(chroma_persist_dir: str) -> "chromadb.ClientAPI":
+        """Create a PersistentClient, self-healing if the on-disk DB was
+        written by an incompatible (usually older) chromadb version.
+
+        Symptom of an incompatible DB: chromadb tries to deserialize a
+        collection's stored config JSON and raises `KeyError: '_type'`
+        because older versions didn't write that discriminator key.
+        Since this store is just a rebuildable cache (index_reference()
+        re-embeds everything from source PDFs), the safe fix is to wipe
+        the stale directory and start fresh rather than crash.
+        """
+        try:
+            return chromadb.PersistentClient(
+                path=chroma_persist_dir,
+                settings=chromadb.config.Settings(anonymized_telemetry=False),
+            )
+        except KeyError as e:
+            if "_type" not in str(e):
+                raise
+            logger.warning(
+                f"Incompatible existing Chroma DB at '{chroma_persist_dir}' "
+                f"(schema from an older chromadb version). Rebuilding it from scratch."
+            )
+            import shutil
+            shutil.rmtree(chroma_persist_dir, ignore_errors=True)
+            os.makedirs(chroma_persist_dir, exist_ok=True)
+            return chromadb.PersistentClient(
+                path=chroma_persist_dir,
+                settings=chromadb.config.Settings(anonymized_telemetry=False),
+            )
 
     # ------------------------------------------------------------------
     # PDF -> Markdown (MinerU)
@@ -267,12 +296,6 @@ class EvidenceRetriever:
             embedding_function=self.embeddings,
         )
 
-    def _ensure_collection_exists(self) -> None:
-        try:
-            self._chroma_client.get_collection(self.CHROMA_COLLECTION_NAME)
-        except Exception:
-            self._chroma_client.create_collection(self.CHROMA_COLLECTION_NAME)
-
     def index_reference(self, ref_id: str, pdf_path: Optional[str] = None, markdown_text: Optional[str] = None) -> List[Document]:
         if pdf_path:
             markdown_text = self.pdf_to_markdown(pdf_path)
@@ -282,7 +305,6 @@ class EvidenceRetriever:
         docs = self.split_markdown(markdown_text, ref_id)
 
         with self._chroma_init_lock:
-            self._ensure_collection_exists()
             vector_store = self._get_vector_store()
             vector_store.add_documents(docs)
 
