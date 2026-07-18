@@ -34,9 +34,126 @@ def filter_instances_having_pdf(json_path: str, pdfs_path: str):
         with open(out_dir, 'w', encoding='utf-8') as f:
             json.dump(data, f, ensure_ascii=False, indent=4)
 
+def test():
+    path = r".\data\citation_dataset_270_mapped.json"
+    path2 = r"..\data_generation\citation_dataset_270.json"
+    out_dir = r".\data\citation_dataset_270_add_pdf.json"
+    with open(path, 'r', encoding='utf-8') as f:
+        with open(path2, 'r', encoding='utf-8') as f1:
+            data2 = json.load(f1)
+            data = json.load(f)
+
+            for instance1, instance2 in zip(data, data2["instances"]):
+                instance2["citation_metadata"]["filepaths"] = instance1["citation_metadata"]["filepaths"]
+
+            with open(out_dir, 'w', encoding='utf-8') as f2:
+                json.dump(data2, f2, ensure_ascii=False, indent=4)
+            # print(len(data))
+            # not_exist = 0
+
+            # for instance in data:
+            #     # if instance doesn't have filepaths entry
+            #     if "filepaths" not in instance["citation_metadata"] or len(instance["citation_metadata"]["filepaths"]) == 0:
+            #         not_exist = not_exist + 1
+            #         # print(instance["citation_metadata"]["title"])
+
+            # print(not_exist)
+
+def filter_pdf():
+    path = r".\data\citation_dataset_270_add_pdf.json"
+    out_dir = r".\data\citation_dataset_270_add_pdf_filtered.json"
+    with open(path, 'r', encoding='utf-8') as f:
+        data = json.load(f)
+
+        # print(len(data))
+        not_exist = 0
+
+        data["instances"] = [inst for inst in data["instances"] if ("filepaths" in inst["citation_metadata"] and len(inst["citation_metadata"]["filepaths"]) != 0)]
+        print(len(data["instances"]))
+
+        with open(out_dir, 'w', encoding='utf-8') as f2:
+            json.dump(data["instances"], f2, ensure_ascii=False, indent=4)
+
+# write a function to for loop through \data\citation_dataset_270_add_pdf_filtered.json to check the filepath exists and openable:
+# note that root data path is .\data\final, moreover the filepaths are like '.\pdf_arxiv\...pdf'
+# if we os.join like usual, might result in '.\data\final\./pdf_doi/10.1109_WACV51458.2022.00264.pdf'
+def check_pdf_openable():
+    path = r".\data\citation_dataset_270_add_pdf_filtered.json"
+    out_dir = r".\data\citation_dataset_270_add_pdf_filtered_successful.json"
+
+    with open(path, 'r', encoding='utf-8') as f:
+        data = json.load(f)
+
+        not_exist = 0
+        not_openable = 0
+        successful_instances = 0
+
+        for instance in data:
+            filepaths = instance["citation_metadata"]["filepaths"]
+
+            # try until there is 1 file that is openable, if none of the files are openable, then count it as not openable
+
+            openable = False
+            for filepath in filepaths:
+                clean_filepath = os.path.normpath(filepath).replace("/", "\\") 
+                full_path = os.path.join(r".\data\final", clean_filepath)
+                # print(full_path)
+                if not os.path.exists(full_path):
+                    not_exist += 1
+                    continue
+
+                try:
+                    with open(full_path, 'rb') as f:
+                        f.read(1)
+                    openable = True
+                    successful_instances += 1
+                    break
+                except Exception as e:
+                    not_openable += 1
+                    continue
+
+        # we filter to another dataset containing only the successful instances
+        # and also the filepaths contain only 1 openable file, if there are multiple files, we only keep the first openable one
+        filtered_instances = []
+        for instance in data:
+            filepaths = instance["citation_metadata"]["filepaths"]
+            openable_filepaths = []
+            for filepath in filepaths:
+                clean_filepath = os.path.normpath(filepath).replace("/", "\\") 
+                full_path = os.path.join(r".\data\final", clean_filepath)
+                if os.path.exists(full_path):
+                    try:
+                        with open(full_path, 'rb') as f:
+                            f.read(1)
+                        openable_filepaths.append(filepath)
+                        break  # Only keep the first openable file
+                    except Exception as e:
+                        continue
+            if len(openable_filepaths) > 0:
+                instance["citation_metadata"]["filepaths"] = [openable_filepaths[0]]  # Keep only the first openable file
+                filtered_instances.append(instance)
+            
+
+        print(f"Total files that do not exist: {not_exist}")
+        print(f"Total files that are not openable: {not_openable}")
+        print(f"Total successful instances: {successful_instances}/{len(data)}")
+
+        # Save the filtered instances to a new JSON file
+        with open(out_dir, 'w', encoding='utf-8') as f:
+            json.dump(filtered_instances, f, ensure_ascii=False, indent=4)
+
+def count_number_of_instances(json_path: str):
+    with open(json_path, 'r', encoding='utf-8') as f:
+        data = json.load(f)
+        print(f"Total number of instances: {len(data)}")
+
 if __name__ == "__main__":
     json_path = r"..\data_generation\citation_dataset_20260621_111023_out_pdf.json"
     pdfs_path = r"./data/mock"
 
     # add_pdf_field(json_path)
-    filter_instances_having_pdf(json_path, pdfs_path)
+    # filter_instances_having_pdf(json_path, pdfs_path)
+    # test()
+    # filter_pdf()
+    # check_pdf_openable()
+    count_number_of_instances(r".\data\citation_dataset_270_add_pdf_filtered_successful.json")

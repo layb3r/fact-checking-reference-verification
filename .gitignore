@@ -9,3 +9,5 @@ output
 logs/
 *.rar
 *.jsonl
+*.txt
+*.yml
