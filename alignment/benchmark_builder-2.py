@@ -32,8 +32,16 @@ from langchain_text_splitters import (
     RecursiveCharacterTextSplitter,
 )
 
-from security_utils import sanitize_error_message
-from client import AsyncMinerUClient
+# Attempt to import custom modules, handle gracefully if missing during standalone run
+try:
+    from security_utils import sanitize_error_message
+    from client import AsyncMinerUClient
+except ImportError:
+    def sanitize_error_message(e: Exception) -> str:
+        return str(e)
+    class AsyncMinerUClient:
+        async def extract_markdown(self, pdf_path: str) -> str:
+            return "Mock Markdown Content"
 
 # ---------------------------------------------------------------------------
 # Environment & Logging
@@ -310,9 +318,10 @@ class BenchmarkDataBuilder:
             headers_to_split_on=headers_to_split_on,
             strip_headers=False,
         )
+        # Increased chunk size to preserve academic context and complex formulations
         self.char_splitter = RecursiveCharacterTextSplitter(
-            chunk_size=512,
-            chunk_overlap=50,
+            chunk_size=1500,
+            chunk_overlap=200,
             separators=["\n\n", "\n", ". ", " ", ""],
         )
 
@@ -470,22 +479,31 @@ class BenchmarkDataBuilder:
             # 4. Neural Reranking
             if not fused_candidates:
                 return []
-
-            passages = [{"text": doc.page_content} for doc in fused_candidates]
+            
+            # Pass metadata into FlashRank to preserve ID mapping after sorting
+            passages = [
+                {
+                    "id": doc.metadata["chunk_id"], 
+                    "text": doc.page_content, 
+                    "meta": doc.metadata
+                } 
+                for doc in fused_candidates
+            ]
+            # passages = [{"text": doc.page_content} for doc in fused_candidates]
             rerank_request = RerankRequest(query=claim, passages=passages)
             reranked = await asyncio.to_thread(self.flashrank.rerank, rerank_request)
 
             # 5. Threshold Filtering & Formatting
             top_evidence = []
-            for res, doc in zip(reranked, fused_candidates):
+            for res in reranked[:top_k_final]:
                 if res['score'] >= threshold:
                     top_evidence.append({
-                        "chunk_id": doc.metadata.get("chunk_id", "unknown"),
-                        "extractive_text": doc.page_content,
+                        "chunk_id": res.get("chunk_id", "unknown"),
+                        "extractive_text": res["text"],
                         "relevance_score": float(res['score']) if res.get("score") is not None else None,
                     })
 
-            return top_evidence[:top_k_final]
+            return top_evidence
 
         except Exception as e:
             logger.error(f"Retrieval error for claim '{claim[:60]}...': {sanitize_error_message(e)}")
@@ -506,33 +524,28 @@ class BenchmarkDataBuilder:
             for e in evidences
         )
 
-        prompt = (
-            "You are an expert scientific data analyst and fact-checker. "
-            "Your task is to analyze raw text chunks extracted from an academic paper "
-            "and determine whether they contain evidence that supports or refutes a claim.\n\n"
-            f"Claim: \"{claim}\"\n\n"
-            "IMPORTANT: In the claim above, the marker [CITATION] indicates the exact "
-            "position where the reference to the paper is placed. Focus on whether the "
-            "extracted chunks provide factual support for the statement at that position.\n\n"
-            "Raw Evidence Chunks:\n"
-            f"{raw_context}\n\n"
-            "Instructions:\n"
-            "1. Read the chunks carefully. Ignore formatting noise, markdown tags, "
-            "or broken equations.\n"
-            "2. Extract and synthesize the core factual information relevant to the claim. "
-            "Focus strictly on facts, methodologies, or results that directly address it.\n"
-            "3. If the chunks contain relevant evidence, write a concise synthesis "
-            "(2-4 sentences) in a neutral academic tone.\n"
-            "4. If the chunks contain NO relevant information, respond with exactly:\n"
-            "   NO_EVIDENCE\n\n"
-            "Synthesis:"
-        )
+        prompt = f"""You are an expert scientific Research Assistant.
+Your task is to review raw text chunks extracted from an academic paper and synthesize any contextual information relevant to the topics, entities, or methodologies mentioned in the Claim.
+
+Claim: "{claim}"
+
+Raw Evidence Chunks:
+{raw_context}
+
+Instructions:
+1. Extract and summarize ANY information from the chunks that is topically related to the Claim.
+2. Provide a neutral, objective summary (2-4 sentences) of what the chunks actually say about the topic. Do not evaluate whether the claim is true or false. Just report the facts found in the text.
+3. Ignore formatting noise, markdown tags, or broken equations.
+4. ONLY if the chunks discuss entirely different subjects and share ZERO entities or semantic overlap with the Claim, respond with EXACTLY: NO_EVIDENCE
+
+Synthesis:"""
 
         try:
             synthesis = await self.llm.agenerate(prompt)
             cleaned = synthesis.strip()
 
-            if not cleaned or cleaned.upper() == "NO_EVIDENCE":
+            # if not cleaned or cleaned.upper() == "NO_EVIDENCE":
+            if not cleaned or "NO_EVIDENCE" in cleaned.upper():
                 return None
 
             # Strip leading/trailing quotes the model sometimes adds
@@ -584,10 +597,11 @@ class BenchmarkDataBuilder:
             pdf_path = (
                 inst.get("existence_retrieval", {}).get("pdf_path")
                 or inst.get("reference_pdf_path")
+                or inst.get("citation_metadata", {}).get("filepaths", [None])[0]
             )
 
             # pdf_path is in ["citation_metadata"]["filepaths"]
-            pdf_path = pdf_path or inst.get("citation_metadata", {}).get("filepaths", [None])[0]
+            # pdf_path = pdf_path or inst.get("citation_metadata", {}).get("filepaths", [None])[0]
 
             if not pdf_path:
                 logger.warning(f"Instance {inst['instance_id']} has no reference PDF. Skipping.")
