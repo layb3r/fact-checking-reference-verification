@@ -145,7 +145,20 @@ def check_pdf_openable():
 def count_number_of_instances(json_path: str):
     with open(json_path, 'r', encoding='utf-8') as f:
         data = json.load(f)
-        print(f"Total number of instances: {len(data)}")
+        print(f"Total number of instances: {len(data['instances'])}")
+
+# check if all instances has field retrieved_evidences and in that has field extractive_chunks which is a non-empty list:
+def check_retrieved_evidences(json_path: str):
+    with open(json_path, 'r', encoding='utf-8') as f:
+
+        num_failed_instances = 0
+        data = json.load(f)
+        for instance in data["instances"]:
+            if "retrieved_evidences" not in instance or "extractive_chunks" not in instance["retrieved_evidences"] or len(instance["retrieved_evidences"]["extractive_chunks"]) == 0:
+                num_failed_instances += 1
+                print(f"Instance {instance} does not have retrieved_evidences or extractive_chunks is empty")
+                
+    print(f"Total number of instances that failed the check: {num_failed_instances}/{len(data['instances'])}")
 
 if __name__ == "__main__":
     json_path = r"..\data_generation\citation_dataset_20260621_111023_out_pdf.json"
@@ -156,4 +169,6 @@ if __name__ == "__main__":
     # test()
     # filter_pdf()
     # check_pdf_openable()
-    count_number_of_instances(r".\data\citation_dataset_270_add_pdf_filtered_successful.json")
+    # count_number_of_instances(r".\data\citation_dataset_270_add_pdf_filtered_successful.json")
+    count_number_of_instances(r".\data\results.json")
+    # check_retrieved_evidences(r".\data\results.json")

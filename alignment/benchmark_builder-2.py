@@ -32,6 +32,12 @@ from langchain_text_splitters import (
     RecursiveCharacterTextSplitter,
 )
 
+from marker.converters.pdf import PdfConverter
+from marker.models import create_model_dict
+from marker.output import text_from_rendered
+
+import fitz
+
 from security_utils import sanitize_error_message
 from client import AsyncMinerUClient
 
@@ -311,19 +317,46 @@ class BenchmarkDataBuilder:
             strip_headers=False,
         )
         self.char_splitter = RecursiveCharacterTextSplitter(
-            chunk_size=512,
-            chunk_overlap=50,
+            chunk_size=750,
+            chunk_overlap=150,
             separators=["\n\n", "\n", ". ", " ", ""],
         )
 
     # ------------------------------------------------------------------
-    # PDF → Markdown (MinerU)
+    # PDF → Markdown (PyMuPDF / Marker / MinerU)
     # ------------------------------------------------------------------
-    async def pdf_to_markdown(self, pdf_path: str) -> str:
-        """Convert a PDF to markdown text via the MinerU CLI."""
-        client = AsyncMinerUClient()
-        markdown = await client.extract_markdown(pdf_path)
-        logger.info(f"MinerU extracted {len(markdown)} chars from {Path(pdf_path).name}")
+    async def pdf_to_markdown(self, pdf_path: str, method: str = "pymupdf") -> str:
+        if method == "mineru":
+            client = AsyncMinerUClient()
+            markdown = await client.extract_markdown(pdf_path)
+            logger.info(f"MinerU extracted {len(markdown)} chars from {Path(pdf_path).name}")
+            return markdown
+
+        if method == "marker":
+            converter = PdfConverter(
+                artifact_dict=create_model_dict(),
+            )
+            rendered = converter(pdf_path)
+            markdown, _, _ = text_from_rendered(rendered)
+            logger.info(f"Marker extracted {len(markdown)} chars from {Path(pdf_path).name}")
+            return markdown
+
+        doc = fitz.open(pdf_path)
+        try:
+            pages = []
+            for i, page in enumerate(doc, 1):
+                text = page.get_text()
+                if text.strip():
+                    pages.append(f"## Page {i}\n\n{text}")
+            markdown = "\n\n".join(pages)
+        finally:
+            doc.close()
+
+        # log the markdown to a md file for debugging
+        debug_md_path = "logs/debug_extracted_markdown.md"
+        with open(debug_md_path, "w", encoding="utf-8") as f:
+            f.write(markdown)
+        logger.info(f"PyMuPDF extracted {len(markdown)} chars from {Path(pdf_path).name}")
         return markdown
 
     # ------------------------------------------------------------------
@@ -470,22 +503,40 @@ class BenchmarkDataBuilder:
             # 4. Neural Reranking
             if not fused_candidates:
                 return []
-
-            passages = [{"text": doc.page_content} for doc in fused_candidates]
+                        
+            # Pass metadata into FlashRank to preserve ID mapping after sorting
+            passages = [
+                {
+                    "id": doc.metadata["chunk_id"], 
+                    "text": doc.page_content, 
+                    "meta": doc.metadata
+                } 
+                for doc in fused_candidates
+            ]
+            # passages = [{"text": doc.page_content} for doc in fused_candidates]
             rerank_request = RerankRequest(query=claim, passages=passages)
             reranked = await asyncio.to_thread(self.flashrank.rerank, rerank_request)
 
             # 5. Threshold Filtering & Formatting
             top_evidence = []
-            for res, doc in zip(reranked, fused_candidates):
+            # for res, doc in zip(reranked, fused_candidates):
+            #     if res['score'] >= threshold:
+            #         top_evidence.append({
+            #             "chunk_id": doc.metadata.get("chunk_id", "unknown"),
+            #             "extractive_text": doc.page_content,
+            #             "relevance_score": float(res['score']) if res.get("score") is not None else None,
+            #         })
+
+            # return top_evidence[:top_k_final]
+            for res in reranked[:top_k_final]:
                 if res['score'] >= threshold:
                     top_evidence.append({
-                        "chunk_id": doc.metadata.get("chunk_id", "unknown"),
-                        "extractive_text": doc.page_content,
+                        "chunk_id": res.get("chunk_id", "unknown"),
+                        "extractive_text": res["text"],
                         "relevance_score": float(res['score']) if res.get("score") is not None else None,
                     })
 
-            return top_evidence[:top_k_final]
+            return top_evidence
 
         except Exception as e:
             logger.error(f"Retrieval error for claim '{claim[:60]}...': {sanitize_error_message(e)}")
@@ -506,33 +557,49 @@ class BenchmarkDataBuilder:
             for e in evidences
         )
 
-        prompt = (
-            "You are an expert scientific data analyst and fact-checker. "
-            "Your task is to analyze raw text chunks extracted from an academic paper "
-            "and determine whether they contain evidence that supports or refutes a claim.\n\n"
-            f"Claim: \"{claim}\"\n\n"
-            "IMPORTANT: In the claim above, the marker [CITATION] indicates the exact "
-            "position where the reference to the paper is placed. Focus on whether the "
-            "extracted chunks provide factual support for the statement at that position.\n\n"
-            "Raw Evidence Chunks:\n"
-            f"{raw_context}\n\n"
-            "Instructions:\n"
-            "1. Read the chunks carefully. Ignore formatting noise, markdown tags, "
-            "or broken equations.\n"
-            "2. Extract and synthesize the core factual information relevant to the claim. "
-            "Focus strictly on facts, methodologies, or results that directly address it.\n"
-            "3. If the chunks contain relevant evidence, write a concise synthesis "
-            "(2-4 sentences) in a neutral academic tone.\n"
-            "4. If the chunks contain NO relevant information, respond with exactly:\n"
-            "   NO_EVIDENCE\n\n"
-            "Synthesis:"
-        )
+        # prompt = (
+        #     "You are an expert scientific data analyst and fact-checker. "
+        #     "Your task is to analyze raw text chunks extracted from an academic paper "
+        #     "and determine whether they contain evidence that supports or refutes a claim.\n\n"
+        #     f"Claim: \"{claim}\"\n\n"
+        #     "IMPORTANT: In the claim above, the marker [CITATION] indicates the exact "
+        #     "position where the reference to the paper is placed. Focus on whether the "
+        #     "extracted chunks provide factual support for the statement at that position.\n\n"
+        #     "Raw Evidence Chunks:\n"
+        #     f"{raw_context}\n\n"
+        #     "Instructions:\n"
+        #     "1. Read the chunks carefully. Ignore formatting noise, markdown tags, "
+        #     "or broken equations.\n"
+        #     "2. Extract and synthesize the core factual information relevant to the claim. "
+        #     "Focus strictly on facts, methodologies, or results that directly address it.\n"
+        #     "3. If the chunks contain relevant evidence, write a concise synthesis "
+        #     "(2-4 sentences) in a neutral academic tone.\n"
+        #     "4. If the chunks contain NO relevant information, respond with exactly:\n"
+        #     "   NO_EVIDENCE\n\n"
+        #     "Synthesis:"
+        # )
+        prompt = f"""You are an expert scientific Research Assistant.
+Your task is to review raw text chunks extracted from an academic paper and synthesize any contextual information relevant to the topics, entities, or methodologies mentioned in the Claim.
+
+Claim: "{claim}"
+
+Raw Evidence Chunks:
+{raw_context}
+
+Instructions:
+1. Extract and summarize ANY information from the chunks that is topically related to the Claim.
+2. Provide a neutral, objective summary (2-4 sentences) of what the chunks actually say about the topic. Do not evaluate whether the claim is true or false. Just report the facts found in the text.
+3. Ignore formatting noise, markdown tags, or broken equations.
+4. ONLY if the chunks discuss entirely different subjects and share ZERO entities or semantic overlap with the Claim, respond with EXACTLY: NO_EVIDENCE
+
+Synthesis:"""
 
         try:
             synthesis = await self.llm.agenerate(prompt)
             cleaned = synthesis.strip()
 
-            if not cleaned or cleaned.upper() == "NO_EVIDENCE":
+            # if not cleaned or cleaned.upper() == "NO_EVIDENCE":
+            if not cleaned or "NO_EVIDENCE" in cleaned.upper():
                 return None
 
             # Strip leading/trailing quotes the model sometimes adds
@@ -549,8 +616,9 @@ class BenchmarkDataBuilder:
         raw_dataset_path: str,
         output_path: str,
         pdf_base_dir: str,
-        use_mineru: bool = False,
+        pdf_method: str = "pymupdf",
         use_abstractive_synthesis: bool = False,
+        skip_pdf_extraction: bool = False,
     ) -> None:
         """
         Main entry point to process the dataset, grouping by reference document
@@ -565,9 +633,12 @@ class BenchmarkDataBuilder:
         pdf_base_dir : str
             Base directory containing reference documents (PDF or pre-extracted
             markdown).
-        use_mineru : bool
-            If True, run MinerU to convert PDF → markdown on the fly.
-            If False, assume files are already markdown text.
+        pdf_method : str
+            PDF-to-markdown tool: "pymupdf" (default), "marker", or "mineru".
+        use_abstractive_synthesis : bool
+            If True, generate abstractive synthesis from retrieved evidence.
+        skip_pdf_extraction : bool
+            If True, read files as pre-extracted markdown instead of converting PDFs.
         """
         logger.info(f"Loading raw dataset from {raw_dataset_path}")
         with open(raw_dataset_path, "r", encoding="utf-8") as f:
@@ -619,11 +690,13 @@ class BenchmarkDataBuilder:
 
             try:
                 # ---- get markdown text ----
-                if use_mineru:
-                    markdown_text = await self.pdf_to_markdown(str(pdf_abs_path))
-                else:
+                if skip_pdf_extraction:
                     with open(pdf_abs_path, 'r', encoding='utf-8') as f:
                         markdown_text = f.read()
+                else:
+                    markdown_text = await self.pdf_to_markdown(
+                        str(pdf_abs_path), method=pdf_method,
+                    )
 
                 doc_id = pdf_abs_path.stem
                 collection, bm25, final_docs, chroma_client = self._prepare_document_index(
@@ -638,7 +711,7 @@ class BenchmarkDataBuilder:
                             inst.get("claim_text")
                             or inst.get("citing_context", {}).get("claim_text", "")
                         )
-                        logger.info(f"Processing claim: {claim[:60]}...")
+                        # logger.info(f"Processing claim: {claim[:60]}...")
                         evidences = await self._hybrid_retrieve_and_rerank(
                             claim, collection, bm25
                         )
@@ -707,7 +780,11 @@ def build_arg_parser() -> argparse.ArgumentParser:
     parser.add_argument("--pdf-base-dir", default="data/papers",
                         help="Base directory containing reference documents")
     parser.add_argument("--mineru", action="store_true", default=False,
-                        help="Use MinerU to convert PDF→markdown on the fly")
+                        help="Use MinerU to convert PDF→markdown")
+    parser.add_argument("--marker", action="store_true", default=False,
+                        help="Use Marker to convert PDF→markdown")
+    parser.add_argument("--skip-extraction", action="store_true", default=False,
+                        help="Skip PDF extraction; read pre-converted markdown files")
     parser.add_argument("--max-instances", type=int, default=0,
                         help="Limit number of instances (0 = all)")
     parser.add_argument("--concurrency", type=int, default=5,
@@ -757,12 +834,15 @@ async def async_main(args: argparse.Namespace) -> None:
     else:
         input_path = args.input
 
+    pdf_method = "mineru" if args.mineru else "marker" if args.marker else "pymupdf"
+
     await builder.process_dataset(
         raw_dataset_path=input_path,
         output_path=args.output,
         pdf_base_dir=args.pdf_base_dir,
-        use_mineru=args.mineru,
-        use_abstractive_synthesis=args.abstractive_synthesis
+        pdf_method=pdf_method,
+        use_abstractive_synthesis=args.abstractive_synthesis,
+        skip_pdf_extraction=args.skip_extraction,
     )
 
 

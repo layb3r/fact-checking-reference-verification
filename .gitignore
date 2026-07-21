@@ -11,3 +11,4 @@ logs/
 *.jsonl
 *.txt
 *.yml
+*.zip
