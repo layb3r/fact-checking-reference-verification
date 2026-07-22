@@ -160,6 +160,62 @@ def check_retrieved_evidences(json_path: str):
                 
     print(f"Total number of instances that failed the check: {num_failed_instances}/{len(data['instances'])}")
 
+REMOVE_FIELDS = {"is_adversarial", "adversarial_metadata", "instance_id"}
+
+
+def combine_datasets(enriched_path: str, negatives_path: str, output_path: str):
+    import random
+
+    with open(enriched_path, "r", encoding="utf-8") as f:
+        enriched_data = json.load(f)
+    enriched_instances = enriched_data.get("instances", enriched_data if isinstance(enriched_data, list) else [])
+
+    with open(negatives_path, "r", encoding="utf-8") as f:
+        neg_data = json.load(f)
+    neg_instances = neg_data.get("instances", neg_data if isinstance(neg_data, list) else [])
+
+    for inst in enriched_instances:
+        for field in REMOVE_FIELDS:
+            inst.pop(field, None)
+    for inst in neg_instances:
+        for field in REMOVE_FIELDS:
+            inst.pop(field, None)
+
+    combined = enriched_instances + neg_instances
+    random.shuffle(combined)
+
+    with open(output_path, "w", encoding="utf-8") as f:
+        json.dump(combined, f, ensure_ascii=False, indent=2)
+
+    print(f"Enriched: {len(enriched_instances)} + Negatives: {len(neg_instances)}")
+    print(f"Combined: {len(combined)} -> {output_path}")
+
+
+LABEL_TO_NUM = {
+    "SUPPORTED": 0,
+    "UNSUPPORTED": 1,
+    "UNCERTAIN": 2,
+    "UNSURE": 2,
+}
+
+
+def fix_negatives_labels(json_path: str):
+    with open(json_path, "r", encoding="utf-8") as f:
+        data = json.load(f)
+
+    instances = data.get("adversarial_instances", data.get("instances", []))
+    for inst in instances:
+        meta = inst.get("adversarial_metadata", {})
+        target = meta.get("target_alignment_label")
+        if target is not None:
+            inst.setdefault("true_outputs", {})["true_alignment"] = LABEL_TO_NUM[target]
+
+    out_path = json_path.replace(".json", "_fixed.json")
+    with open(out_path, "w", encoding="utf-8") as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)
+
+    print(f"Fixed {len(instances)} instances -> {out_path}")
+
 if __name__ == "__main__":
     json_path = r"..\data_generation\citation_dataset_20260621_111023_out_pdf.json"
     pdfs_path = r"./data/mock"
@@ -170,5 +226,11 @@ if __name__ == "__main__":
     # filter_pdf()
     # check_pdf_openable()
     # count_number_of_instances(r".\data\citation_dataset_270_add_pdf_filtered_successful.json")
-    count_number_of_instances(r".\data\results.json")
+    # count_number_of_instances(r".\data\results.json")
     # check_retrieved_evidences(r".\data\results.json")
+    # fix_negatives_labels(r".\data\negatives.json")
+    combine_datasets(
+        r".\data\enriched.json",
+        r".\data\negatives_fixed.json",
+        r".\data\combined.json"
+    )
