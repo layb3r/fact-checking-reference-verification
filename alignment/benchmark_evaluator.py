@@ -260,6 +260,8 @@ def _build_evidence_classification_prompt(
     evidence_block = "\n\n".join(evidence_texts)
     return f"""You are an expert fact-checking assistant. Analyze whether the evidence chunks from a reference paper support the given claim.
 
+Important: The token [CITATION] in the claim is a placeholder marking the exact reference being checked. Focus on whether the evidence supports the portion of the claim attributed to that reference. The claim may contain additional context or comparisons not directly related to the reference — ignore those when judging support.
+
 Claim: "{claim}"
 
 Surrounding Context: "{context}"
@@ -269,17 +271,16 @@ Evidence Chunks:
 
 Determine if the evidence supports the claim. Classify as one of:
 
-SUPPORTED - The evidence chunks directly support or confirm the claim. The claim accurately reflects information found in the evidence.
-UNSUPPORTED - The evidence chunks explicitly contradict the claim, or the claim makes a statement that is inconsistent with the evidence.
+SUPPORTED - The evidence directly backs the claim or a close paraphrase. Even if part of the claim contains unrelated context, if the core information tied to [CITATION] matches the evidence, label SUPPORTED.
+UNSUPPORTED - The evidence explicitly contradicts the claim, or the claim makes a statement inconsistent with the evidence.
 UNCERTAIN - There is not enough information in the evidence to determine support or contradiction. The evidence is partial, indirect, topic-adjacent, or ambiguous.
 
 Guidelines:
-- Be conservative and evidence-grounded.
-- Return SUPPORTED only when the evidence directly backs the claim or a close paraphrase.
-- Return UNSUPPORTED only when the evidence explicitly contradicts the claim.
-- Return UNCERTAIN when the evidence is partial, indirect, topic-adjacent, or requires inference.
-- Do not treat general topical similarity or overlapping keywords as support.
-- If the evidence is mixed or ambiguous, prefer UNCERTAIN.
+- Focus on whether the evidence supports the part of the claim that refers to the [CITATION] marker. Extra surrounding context in the claim should not penalize the judgment.
+- Return SUPPORTED if the evidence aligns with the claim's core assertion about the reference, even if some peripheral details in the claim are not verifiable from the evidence.
+- Return UNSUPPORTED only when the evidence explicitly contradicts the claim's core assertion about the reference.
+- Return UNCERTAIN only when the evidence is truly irrelevant, off-topic, or entirely insufficient to assess the reference-related portion of the claim.
+- Do not be overly strict — if the evidence matches the gist of what the claim says about the reference, SUPPORTED is appropriate.
 
 Return your response as valid JSON with this exact structure:
 {{
@@ -495,7 +496,7 @@ async def async_main(args: argparse.Namespace) -> None:
     output_path = (
         Path(args.output)
         if args.output
-        else Path(f"benchmark/results_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json")
+        else Path(f"benchmark/benchmark_results_{args.llm_model}_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json")
     )
     output_path.parent.mkdir(parents=True, exist_ok=True)
 
