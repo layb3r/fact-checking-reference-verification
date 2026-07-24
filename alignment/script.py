@@ -145,7 +145,7 @@ def check_pdf_openable():
 def count_number_of_instances(json_path: str):
     with open(json_path, 'r', encoding='utf-8') as f:
         data = json.load(f)
-        print(f"Total number of instances: {len(data['instances'])}")
+        print(f"Total number of instances: {len(data['instances'] if 'instances' in data else data)}")
 
 # check if all instances has field retrieved_evidences and in that has field extractive_chunks which is a non-empty list:
 def check_retrieved_evidences(json_path: str):
@@ -163,9 +163,42 @@ def check_retrieved_evidences(json_path: str):
 REMOVE_FIELDS = {"is_adversarial", "adversarial_metadata", "instance_id"}
 
 
-def combine_datasets(enriched_path: str, negatives_path: str, output_path: str):
-    import random
+def _interleave_multi(groups):
+    """Deterministically interleave multiple groups so each is spread evenly."""
+    import itertools
 
+    groups = [list(g) for g in groups]
+    total = sum(len(g) for g in groups)
+    if total == 0:
+        return []
+
+    # Remove empty groups
+    groups = [g for g in groups if g]
+
+    weights = [1.0 / len(g) for g in groups]
+    accs = weights[:]
+    indices = [0] * len(groups)
+    result = []
+
+    while True:
+        active = [(i, accs[i]) for i in range(len(groups)) if indices[i] < len(groups[i])]
+        if not active:
+            break
+        # Pick the group with the smallest accumulator
+        i = min(active, key=lambda x: x[1])[0]
+        result.append(groups[i][indices[i]])
+        indices[i] += 1
+        if indices[i] < len(groups[i]):
+            accs[i] += weights[i]
+
+    return result
+
+
+def combine_stratified(
+    enriched_path: str,
+    negatives_path: str,
+    output_path: str,
+):
     with open(enriched_path, "r", encoding="utf-8") as f:
         enriched_data = json.load(f)
     enriched_instances = enriched_data.get("instances", enriched_data if isinstance(enriched_data, list) else [])
@@ -174,21 +207,29 @@ def combine_datasets(enriched_path: str, negatives_path: str, output_path: str):
         neg_data = json.load(f)
     neg_instances = neg_data.get("instances", neg_data if isinstance(neg_data, list) else [])
 
-    for inst in enriched_instances:
-        for field in REMOVE_FIELDS:
-            inst.pop(field, None)
-    for inst in neg_instances:
+    all_instances = enriched_instances + neg_instances
+    for inst in all_instances:
         for field in REMOVE_FIELDS:
             inst.pop(field, None)
 
-    combined = enriched_instances + neg_instances
-    random.shuffle(combined)
+    # Group by true_alignment
+    groups = {}
+    for inst in all_instances:
+        label = inst.get("true_outputs", {}).get("true_alignment")
+        groups.setdefault(label, []).append(inst)
+
+    print("Label distribution:")
+    for label, items in sorted(groups.items()):
+        print(f"  label {label}: {len(items)}")
+
+    combined = _interleave_multi(list(groups.values()))
+
+    print(f"Total: {len(combined)} instances")
 
     with open(output_path, "w", encoding="utf-8") as f:
         json.dump(combined, f, ensure_ascii=False, indent=2)
 
-    print(f"Enriched: {len(enriched_instances)} + Negatives: {len(neg_instances)}")
-    print(f"Combined: {len(combined)} -> {output_path}")
+    print(f"Saved -> {output_path}")
 
 
 LABEL_TO_NUM = {
@@ -216,6 +257,51 @@ def fix_negatives_labels(json_path: str):
 
     print(f"Fixed {len(instances)} instances -> {out_path}")
 
+DRIFT_TO_NUM = {
+    "over_claim": 1,
+    "context_shift": 2,
+    "reversal": 2,
+    "tangential": 3,
+}
+
+
+def fix_negatives_labels_2(json_path: str):
+    with open(json_path, "r", encoding="utf-8") as f:
+        data = json.load(f)
+
+    instances = data.get("adversarial_instances", data.get("instances", []))
+    for inst in instances:
+        meta = inst.get("adversarial_metadata", {})
+        drift = meta.get("drift_type")
+        if drift is not None:
+            inst.setdefault("true_outputs", {})["true_alignment"] = DRIFT_TO_NUM[drift]
+
+    out_path = json_path.replace(".json", "_fixed_2.json")
+    with open(out_path, "w", encoding="utf-8") as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)
+
+    print(f"Fixed {len(instances)} instances via drift_type -> {out_path}")
+
+def combine_datasets(path_1: str, path_2: str, output_path: str):
+    import random
+    with open(path_1, "r", encoding="utf-8") as f:
+        data_1 = json.load(f)
+    data1_instances = data_1.get("instances", data_1 if isinstance(data_1, list) else [])
+
+    with open(path_2, "r", encoding="utf-8") as f:
+        data_2 = json.load(f)
+    data2_instances = data_2.get("instances", data_2 if isinstance(data_2, list) else [])
+
+    all_instances = data1_instances + data2_instances
+
+    random.shuffle(all_instances)
+    print(f"Total: {len(all_instances)} instances")
+
+    with open(output_path, "w", encoding="utf-8") as f:
+        json.dump(all_instances, f, ensure_ascii=False, indent=2)
+
+    print(f"Saved -> {output_path}")
+
 if __name__ == "__main__":
     json_path = r"..\data_generation\citation_dataset_20260621_111023_out_pdf.json"
     pdfs_path = r"./data/mock"
@@ -229,8 +315,19 @@ if __name__ == "__main__":
     # count_number_of_instances(r".\data\results.json")
     # check_retrieved_evidences(r".\data\results.json")
     # fix_negatives_labels(r".\data\negatives.json")
+    # fix_negatives_labels_2(r".\data\negatives.json")
+    # combine_stratified(
+    #     r".\data\enriched.json",
+    #     r".\data\negatives_fixed_2.json",
+    #     r".\data\combined_2.json"
+    # )
+
+    # count_number_of_instances(r".\data\negatives_over_claim.json")
     combine_datasets(
-        r".\data\enriched.json",
-        r".\data\negatives_fixed.json",
-        r".\data\combined.json"
+        r".\data\negatives.json",
+        r".\data\negatives_over_claim.json",
+        r".\data\negatives_added_over_claim.json"
     )
+
+    count_number_of_instances(r".\data\negatives.json")
+    count_number_of_instances(r".\data\negatives_added_over_claim.json")
