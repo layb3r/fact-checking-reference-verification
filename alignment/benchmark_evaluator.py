@@ -18,16 +18,22 @@ import logging
 import os
 import re
 import sys
-import time
 from collections import Counter
 from datetime import datetime
 from logging.handlers import RotatingFileHandler
 from pathlib import Path
-from typing import Any, Dict, List, Optional, Sequence, Tuple
+from typing import Any, Dict, List, Optional, Sequence
 
 import dotenv
 
 from security_utils import sanitize_error_message
+from llm_client import (
+    BaseLLMClient,
+    TogetherLLMClient,
+    LLMResponse,
+    summarize_llm_run_metrics,
+    TOGETHER_MODEL_OPTIONS,
+)
 
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
@@ -65,23 +71,6 @@ _console_handler.setFormatter(_log_formatter)
 logger.addHandler(_file_handler)
 logger.addHandler(_console_handler)
 
-TOGETHER_MODEL_OPTIONS = [
-    "Qwen/Qwen2.5-7B-Instruct-Turbo",
-    "openai/gpt-oss-20b",
-    "meta-llama/Meta-Llama-3-8B-Instruct-Lite",
-    "Qwen/Qwen3.5-9B",
-    "google/gemma-4-31B-it",
-    "Qwen/Qwen3.7-Plus",
-]
-
-TOGETHER_MODEL_PRICING = {
-    "Qwen/Qwen2.5-7B-Instruct-Turbo": {"input": 0.30, "output": 0.30},
-    "openai/gpt-oss-20b": {"input": 0.05, "output": 0.20},
-    "meta-llama/Meta-Llama-3-8B-Instruct-Lite": {"input": 0.14, "output": 0.14},
-    "Qwen/Qwen3.5-9B": {"input": 0.17, "output": 0.25},
-    "google/gemma-4-31B-it": {"input": 0.39, "output": 0.97},
-}
-
 LABEL_TO_INDEX = {
     "SUPPORTED": 0,
     "UNSUPPORTED": 1,
@@ -101,84 +90,6 @@ def json_default(value: Any) -> Any:
         except Exception:
             pass
     raise TypeError(f"Object of type {type(value).__name__} is not JSON serializable")
-
-
-def _extract_usage_count(usage: Any, field_name: str) -> int:
-    if usage is None:
-        return 0
-    if isinstance(usage, dict):
-        value = usage.get(field_name, 0)
-    else:
-        value = getattr(usage, field_name, 0)
-    try:
-        return int(value or 0)
-    except (TypeError, ValueError):
-        return 0
-
-
-def _estimate_together_cost(
-    model_name: str,
-    prompt_tokens: int,
-    completion_tokens: int,
-    llm_config: Dict[str, Any],
-) -> Optional[float]:
-    input_rate = llm_config.get("input_cost_per_million_tokens")
-    output_rate = llm_config.get("output_cost_per_million_tokens")
-    pricing = TOGETHER_MODEL_PRICING.get(model_name)
-    if input_rate is None and pricing:
-        input_rate = pricing.get("input")
-    if output_rate is None and pricing:
-        output_rate = pricing.get("output")
-    if input_rate is None or output_rate is None:
-        return None
-    return round(
-        (prompt_tokens * float(input_rate) + completion_tokens * float(output_rate)) / 1_000_000,
-        6,
-    )
-
-
-def _summarize_llm_run_metrics(call_metrics: Optional[List[Dict[str, Any]]]) -> Dict[str, Any]:
-    metrics = list(call_metrics or [])
-    total_calls = len(metrics)
-    if total_calls == 0:
-        return {
-            "provider": "together",
-            "model": None,
-            "total_calls": 0,
-            "avg_latency_seconds": 0.0,
-            "total_latency_seconds": 0.0,
-            "avg_input_tokens_per_sample": 0.0,
-            "avg_output_tokens_per_sample": 0.0,
-            "total_input_tokens": 0,
-            "total_output_tokens": 0,
-            "total_tokens": 0,
-            "estimated_cost_usd": None,
-            "cost_estimation_available": False,
-        }
-    total_latency = sum(float(item.get("latency_seconds", 0.0)) for item in metrics)
-    total_input_tokens = sum(int(item.get("input_tokens", 0)) for item in metrics)
-    total_output_tokens = sum(int(item.get("output_tokens", 0)) for item in metrics)
-    total_tokens = sum(int(item.get("total_tokens", 0)) for item in metrics)
-    estimated_costs = [
-        item.get("estimated_cost_usd")
-        for item in metrics
-        if item.get("estimated_cost_usd") is not None
-    ]
-    estimated_cost_usd = round(sum(float(c) for c in estimated_costs), 6) if estimated_costs else None
-    return {
-        "provider": metrics[0].get("provider", "together"),
-        "model": metrics[0].get("model"),
-        "total_calls": total_calls,
-        "avg_latency_seconds": round(total_latency / total_calls, 4),
-        "total_latency_seconds": round(total_latency, 4),
-        "avg_input_tokens_per_sample": round(total_input_tokens / total_calls, 2),
-        "avg_output_tokens_per_sample": round(total_output_tokens / total_calls, 2),
-        "total_input_tokens": total_input_tokens,
-        "total_output_tokens": total_output_tokens,
-        "total_tokens": total_tokens,
-        "estimated_cost_usd": estimated_cost_usd,
-        "cost_estimation_available": estimated_cost_usd is not None,
-    }
 
 
 def compute_multiclass_metrics(y_true: Sequence[int], y_pred: Sequence[int]) -> Dict[str, Any]:
@@ -295,96 +206,12 @@ Return ONLY valid JSON, no other text."""
 class BenchmarkEvaluator:
     def __init__(
         self,
-        model: str = TOGETHER_MODEL_OPTIONS[0],
-        temperature: float = 0.7,
+        llm_client: BaseLLMClient,
         max_concurrency: int = 5,
-        api_key: Optional[str] = None,
     ):
-        self.model = model
-        self.temperature = temperature
+        self._llm_client = llm_client
         self.max_concurrency = max_concurrency
-        self._api_key = api_key or os.getenv("TOGETHER_API") or os.getenv("TOGETHER_API_KEY")
-        self._call_metrics: List[Dict[str, Any]] = []
-        self._client: Optional[Any] = None
-
-    def _lazy_client(self):
-        if self._client is not None:
-            return self._client
-        if not self._api_key:
-            raise RuntimeError(
-                "Together API key not set. Provide api_key or set "
-                "the TOGETHER_API / TOGETHER_API_KEY env var."
-            )
-        from together import AsyncTogether
-        self._client = AsyncTogether(api_key=self._api_key)
-        return self._client
-
-    async def _llm_completion_async(self, prompt: str) -> str:
-        client = self._lazy_client()
-        model_name = self.model
-        max_attempts = 3
-        base_delay = 1.5
-
-        for attempt in range(1, max_attempts + 1):
-            try:
-                start_time = time.perf_counter()
-                response = await client.chat.completions.create(
-                    model=model_name,
-                    messages=[{"role": "user", "content": prompt}],
-                    temperature=self.temperature,
-                )
-                latency_seconds = time.perf_counter() - start_time
-
-                usage = getattr(response, "usage", None)
-                prompt_tokens = _extract_usage_count(usage, "prompt_tokens")
-                completion_tokens = _extract_usage_count(usage, "completion_tokens")
-                total_tokens = _extract_usage_count(usage, "total_tokens")
-                if total_tokens == 0:
-                    total_tokens = prompt_tokens + completion_tokens
-
-                llm_config = {"input_cost_per_million_tokens": None, "output_cost_per_million_tokens": None}
-                estimated_cost_usd = _estimate_together_cost(
-                    model_name=model_name,
-                    prompt_tokens=prompt_tokens,
-                    completion_tokens=completion_tokens,
-                    llm_config=llm_config,
-                )
-
-                self._call_metrics.append({
-                    "provider": "together",
-                    "model": model_name,
-                    "latency_seconds": round(latency_seconds, 4),
-                    "input_tokens": prompt_tokens,
-                    "output_tokens": completion_tokens,
-                    "total_tokens": total_tokens,
-                    "estimated_cost_usd": estimated_cost_usd,
-                })
-
-                content = response.choices[0].message.content
-                if not content or not content.strip():
-                    if attempt < max_attempts:
-                        delay = base_delay * (2 ** (attempt - 1))
-                        logger.warning(f"Empty response attempt {attempt}/{max_attempts}, retrying in {delay:.2f}s")
-                        await asyncio.sleep(delay)
-                        continue
-                    raise ValueError("Empty model response after all retries")
-                return content
-
-            except Exception as e:
-                safe_error = sanitize_error_message(e)
-                error_text = str(e).lower()
-                retryable = any(m in error_text for m in [
-                    "rate limit", "too many requests", "429", "quota",
-                    "resource exhausted", "server error", "502", "503", "504",
-                    "timeout", "temporarily unavailable", "connection error",
-                ])
-                if retryable and attempt < max_attempts:
-                    delay = base_delay * (2 ** (attempt - 1))
-                    logger.warning(f"Retryable error attempt {attempt}/{max_attempts}: {safe_error}, retrying in {delay:.2f}s")
-                    await asyncio.sleep(delay)
-                    continue
-                logger.error(f"LLM completion error: {safe_error}")
-                raise
+        self._call_metrics: List[LLMResponse] = []
 
     async def _classify_evidence_async(
         self,
@@ -399,12 +226,14 @@ class BenchmarkEvaluator:
                 "confidence_score": 0.0,
             }
         prompt = _build_evidence_classification_prompt(claim, context, chunks)
-        response = await self._llm_completion_async(prompt)
-        return _parse_json_model_response(response)
+        response = await self._llm_client.generate(prompt)
+        self._call_metrics.append(response)
+        return _parse_json_model_response(response.content)
 
     def get_llm_run_metrics(self) -> Dict[str, Any]:
-        summary = _summarize_llm_run_metrics(self._call_metrics)
-        summary["model"] = self.model
+        summary = summarize_llm_run_metrics(self._call_metrics)
+        if not summary.get("provider"):
+            summary["provider"] = self._llm_client.get_provider()
         if summary["total_calls"] > 0:
             summary["avg_time_per_instance"] = round(
                 summary["total_latency_seconds"] / summary["total_calls"], 4
@@ -428,14 +257,12 @@ class BenchmarkEvaluator:
                 true_outputs = inst.get("true_outputs") or {}
                 true_alignment = true_outputs.get("true_alignment")
 
-                # logger.info(f"Evaluating instance {idx + 1}/{len(instances)}: {claim[:60]}...")
                 try:
                     result = await self._classify_evidence_async(claim, context, chunks)
                     classification = result["classification"]
                     reasoning = result["reasoning"]
                     confidence = result["confidence_score"]
                 except Exception as e:
-                    logger.error(f"Evaluation failed for instance {idx}: {sanitize_error_message(e)}")
                     classification = "UNCERTAIN"
                     reasoning = f"Evaluation error: {sanitize_error_message(e)}"
                     confidence = 0.0
@@ -481,7 +308,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--llm-model",
         default=TOGETHER_MODEL_OPTIONS[0],
-        help="TogetherAI model name.",
+        help="LLM model name (default: TogetherAI).",
     )
     parser.add_argument("--temperature", type=float, default=0.7, help="LLM temperature.")
     parser.add_argument("--concurrency", type=int, default=5, help="Max concurrent evaluations.")
@@ -508,9 +335,12 @@ async def async_main(args: argparse.Namespace) -> None:
 
     print(f"Loaded {len(instances)} instance(s) from {input_path}")
 
-    evaluator = BenchmarkEvaluator(
+    llm_client = TogetherLLMClient(
         model=args.llm_model,
         temperature=args.temperature,
+    )
+    evaluator = BenchmarkEvaluator(
+        llm_client=llm_client,
         max_concurrency=args.concurrency,
     )
 

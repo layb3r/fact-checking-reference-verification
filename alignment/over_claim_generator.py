@@ -298,8 +298,11 @@ Instruction: {instructions[drift_type]}
 
 Crucial Rules:
 1. The generated claim MUST sound academically fluent and highly plausible.
-2. DO NOT use simplistic lexical negations (e.g., do not just add the word "not"). 
+2. DO NOT use simplistic lexical negations (e.g., do not just add the word "not").
 3. The claim MUST NOT be fully supported by the Evidence.
+4. The marker [CITATION] indicates the exact position of the reference being checked.
+   You MUST preserve [CITATION] in your adversarial claim at the same position
+   it appears in the original claim. Never drop or remove it.
 
 Return your response strictly as a JSON object with this structure:
 {{
@@ -380,7 +383,11 @@ Return your response strictly as a JSON object with this structure:
             
             if not adversarial_claim:
                 continue
-                
+
+            if "[CITATION]" not in adversarial_claim:
+                logger.info(f"Attempt {attempt + 1}/{self.max_retries}: missing [CITATION], retrying")
+                continue
+
             is_valid, judge_status, sim_score = await self._evaluate_candidate(
                 adversarial_claim, evidence, true_claim
             )
@@ -400,22 +407,28 @@ Return your response strictly as a JSON object with this structure:
         return None
 
     # --------------------------------------------------------------------------
-    # 3. Batch Processing — Over-Claim Only
+    # 3. Batch Processing
     # --------------------------------------------------------------------------
 
-    async def process_batch_over_claim(
+    async def process_batch(
         self,
-        instances: List[Dict[str, Any]]
+        instances: List[Dict[str, Any]],
+        drift_type: SemanticDriftType,
     ) -> List[Dict[str, Any]]:
         """
-        Generates OVER_CLAIM negatives for every instance. Skips the
-        applicability analyzer — always attempts over-claim drift.
+        Generates negatives of the given drift type for every instance
+        whose claim contains the [CITATION] marker. Skips the applicability
+        analyzer — always attempts the specified drift.
         """
         JUDGE_TO_ALIGNMENT = {"PARTIALLY": 1, "UNSUPPORTED": 1, "UNCERTAIN": 2}
 
         augmented = []
         for inst in instances:
             true_claim = inst.get("claim_text") or inst.get("citing_context", {}).get("claim_text", "")
+
+            if "[CITATION]" not in true_claim:
+                continue
+
             evidences = inst.get("retrieved_evidences", {}).get("extractive_chunks", [])
             evidence_text = "\n".join(e["extractive_text"] for e in evidences)
 
@@ -425,7 +438,7 @@ Return your response strictly as a JSON object with this structure:
             negative_sample = await self.generate_hard_negative(
                 true_claim=true_claim,
                 evidence=evidence_text,
-                drift_type=SemanticDriftType.OVER_CLAIM,
+                drift_type=drift_type,
             )
 
             if negative_sample:
@@ -453,12 +466,15 @@ Return your response strictly as a JSON object with this structure:
 
 def build_arg_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(
-        description="Generate over-claim (partially supported) adversarial negatives."
+        description="Generate adversarial negatives for a given drift type."
     )
     parser.add_argument("--input", required=True,
                         help="Path to input JSON with instances (post-retrieval)")
     parser.add_argument("--output", required=True,
                         help="Path for output augmented JSON")
+    parser.add_argument("--drift-type", default="over_claim",
+                        choices=["over_claim", "context_shift", "reversal", "tangential"],
+                        help="Semantic drift type to apply")
     parser.add_argument("--max-instances", type=int, default=0,
                         help="Limit number of input instances (0 = all)")
     parser.add_argument("--llm-model", default=TOGETHER_MODEL_OPTIONS[0],
@@ -466,7 +482,7 @@ def build_arg_parser() -> argparse.ArgumentParser:
     parser.add_argument("--llm-temperature", type=float, default=0.7,
                         help="Temperature for LLM calls")
     parser.add_argument("--similarity-threshold", type=float, default=0.80,
-                        help="Min cosine similarity between original and over-claim")
+                        help="Min cosine similarity between original and adversarial claim")
     parser.add_argument("--max-retries", type=int, default=3,
                         help="Max generation attempts per instance")
     parser.add_argument("--embedding-model",
@@ -479,6 +495,9 @@ async def async_main(args: argparse.Namespace) -> None:
     logger.info(f"Loading input from {args.input}")
     with open(args.input, "r", encoding="utf-8") as f:
         data = json.load(f)
+        # reverse the list to prioritize later instances (if any)
+        if isinstance(data, list):
+            data.reverse()
 
     instances = data if isinstance(data, list) else data.get("instances", [])
     if args.max_instances > 0:
@@ -501,8 +520,10 @@ async def async_main(args: argparse.Namespace) -> None:
         max_retries=args.max_retries,
     )
 
-    augmented = await generator.process_batch_over_claim(instances)
-    logger.info(f"Generated {len(augmented)} over-claim instances")
+    drift_type = SemanticDriftType(args.drift_type)
+
+    augmented = await generator.process_batch(instances, drift_type)
+    logger.info(f"Generated {len(augmented)} {drift_type.value} instances")
 
     output = {"adversarial_instances": augmented}
     out_path = Path(args.output)

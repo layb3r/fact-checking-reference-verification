@@ -205,7 +205,7 @@ def combine_stratified(
 
     with open(negatives_path, "r", encoding="utf-8") as f:
         neg_data = json.load(f)
-    neg_instances = neg_data.get("instances", neg_data if isinstance(neg_data, list) else [])
+    neg_instances = neg_data if isinstance(neg_data, list) else neg_data.get("instances", neg_data if isinstance(neg_data, list) else [])
 
     all_instances = enriched_instances + neg_instances
     for inst in all_instances:
@@ -234,9 +234,10 @@ def combine_stratified(
 
 LABEL_TO_NUM = {
     "SUPPORTED": 0,
-    "UNSUPPORTED": 1,
-    "UNCERTAIN": 2,
-    "UNSURE": 2,
+    "UNSUPPORTED": 2,
+    "UNCERTAIN": 3,
+    "UNSURE": 3,
+    "PARTIALLY": 1
 }
 
 
@@ -244,7 +245,8 @@ def fix_negatives_labels(json_path: str):
     with open(json_path, "r", encoding="utf-8") as f:
         data = json.load(f)
 
-    instances = data.get("adversarial_instances", data.get("instances", []))
+    # instances = data.get("adversarial_instances", data.get("instances", []))
+    instances = data if isinstance(data, list) else data.get("instances", [])
     for inst in instances:
         meta = inst.get("adversarial_metadata", {})
         target = meta.get("target_alignment_label")
@@ -264,17 +266,27 @@ DRIFT_TO_NUM = {
     "tangential": 3,
 }
 
+LABEL_TO_NUM2 = {
+    "SUPPORTED": 0,
+    "UNSUPPORTED": 2,
+    "UNCERTAIN": 3,
+}
+
 
 def fix_negatives_labels_2(json_path: str):
     with open(json_path, "r", encoding="utf-8") as f:
         data = json.load(f)
 
-    instances = data.get("adversarial_instances", data.get("instances", []))
+    # instances = data.get("adversarial_instances", data.get("instances", []))
+    instances = data if isinstance(data, list) else data.get("instances", [])
     for inst in instances:
         meta = inst.get("adversarial_metadata", {})
         drift = meta.get("drift_type")
-        if drift is not None:
+        target = meta.get("target_alignment_label")
+        if drift is not None and drift == 'over_claim':
             inst.setdefault("true_outputs", {})["true_alignment"] = DRIFT_TO_NUM[drift]
+        if drift is not None and drift != 'over_claim':
+            inst.setdefault("true_outputs", {})["true_alignment"] = LABEL_TO_NUM2[target]
 
     out_path = json_path.replace(".json", "_fixed_2.json")
     with open(out_path, "w", encoding="utf-8") as f:
@@ -302,6 +314,66 @@ def combine_datasets(path_1: str, path_2: str, output_path: str):
 
     print(f"Saved -> {output_path}")
 
+# remove instances where [CITATION] is not in claim_text field:
+def remove_instances_without_citation(json_path: str, output_path: str):
+    with open(json_path, "r", encoding="utf-8") as f:
+        data = json.load(f)
+
+    instances = data if isinstance(data, list) else data.get("instances", data if isinstance(data, list) else [])
+    filtered_instances = [inst for inst in instances if "[CITATION]" in inst.get("claim_text", "")]
+
+    print(f"Removed {len(instances) - len(filtered_instances)} instances without [CITATION] in claim_text")
+
+    with open(output_path, "w", encoding="utf-8") as f:
+        json.dump(filtered_instances, f, ensure_ascii=False, indent=2)
+
+    print(f"Saved -> {output_path}")
+
+def combine_negatives(
+    partially_path: str,
+    uncertain_path: str,
+    negatives_path: str,
+    output_path: str,
+):
+    """Combine neg_partially, neg_uncertain, and filtered reversal/context_shift UNSUPPORTED negatives."""
+
+    def load_instances(path):
+        with open(path, "r", encoding="utf-8") as f:
+            d = json.load(f)
+        if isinstance(d, list):
+            return d
+        for key in ("adversarial_instances", "instances"):
+            if key in d:
+                return d[key]
+        return []
+
+    partially = load_instances(partially_path)
+    uncertain = load_instances(uncertain_path)
+
+    negatives = load_instances(negatives_path)
+    filtered_neg = []
+    for inst in negatives:
+        meta = inst.get("adversarial_metadata", {})
+        label = meta.get("target_alignment_label")
+        drift = meta.get("drift_type")
+        if label == "UNSUPPORTED" and drift in ("reversal", "context_shift"):
+            filtered_neg.append(inst)
+
+    # for inst in partially + uncertain + filtered_neg:
+    #     for field in REMOVE_FIELDS:
+    #         inst.pop(field, None)
+
+    groups = [partially, uncertain, filtered_neg]
+    combined = _interleave_multi(groups)
+
+    print(f"Partially: {len(partially)} + Uncertain: {len(uncertain)} + UNSUPPORTED reversal/context_shift: {len(filtered_neg)}")
+    print(f"Total: {len(combined)} -> {output_path}")
+
+    with open(output_path, "w", encoding="utf-8") as f:
+        json.dump(combined, f, ensure_ascii=False, indent=2)
+
+
+
 if __name__ == "__main__":
     json_path = r"..\data_generation\citation_dataset_20260621_111023_out_pdf.json"
     pdfs_path = r"./data/mock"
@@ -314,20 +386,34 @@ if __name__ == "__main__":
     # count_number_of_instances(r".\data\citation_dataset_270_add_pdf_filtered_successful.json")
     # count_number_of_instances(r".\data\results.json")
     # check_retrieved_evidences(r".\data\results.json")
-    # fix_negatives_labels(r".\data\negatives.json")
-    # fix_negatives_labels_2(r".\data\negatives.json")
-    # combine_stratified(
-    #     r".\data\enriched.json",
-    #     r".\data\negatives_fixed_2.json",
-    #     r".\data\combined_2.json"
-    # )
-
-    # count_number_of_instances(r".\data\negatives_over_claim.json")
-    combine_datasets(
-        r".\data\negatives.json",
-        r".\data\negatives_over_claim.json",
-        r".\data\negatives_added_over_claim.json"
+    # fix_negatives_labels(r".\data\neg_test.json")
+    # fix_negatives_labels_2(r".\data\negatives_added_over_claim_with_citation_corrected.json")
+    combine_stratified(
+        r".\data\enriched.json",
+        r".\data\neg_test_fixed.json",
+        r".\data\final_1_test.json"
     )
 
-    count_number_of_instances(r".\data\negatives.json")
-    count_number_of_instances(r".\data\negatives_added_over_claim.json")
+    # count_number_of_instances(r".\data\combined_added.json")
+    # combine_datasets(
+    #     r".\data\negatives.json",
+    #     r".\data\negatives_over_claim.json",
+    #     r".\data\negatives_added_over_claim.json"
+    # )
+
+    # combine_negatives(
+    #     r".\data\neg_partially.json",
+    #     r".\data\neg_uncertain.json",
+    #     r".\data\negatives.json",
+    #     r".\data\neg_filtered_combined.json",
+    # )
+
+
+    # count_number_of_instances(r".\data\negatives.json")
+    # count_number_of_instances(r".\data\negatives_over_claim.json")
+    # count_number_of_instances(r".\data\negatives_added_over_claim.json")
+
+    # remove_instances_without_citation(
+    #     r".\data\neg_filtered_combined.json",
+    #     r".\data\neg_test.json"
+    # )
