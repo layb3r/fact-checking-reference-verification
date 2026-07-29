@@ -1,10 +1,7 @@
 """
-Verify and rewrite instances with true_alignment == 3 (UNCERTAIN).
-
-For each instance where true_alignment == 3, the LLM checks if the claim
-is genuinely UNCERTAIN (evidence chunks share no topical overlap with the
-claim). If not, the claim is rewritten to be UNCERTAIN while preserving
-the [CITATION] marker.
+Rewrite instances with true_alignment == 3 (UNCERTAIN) so that the claim
+information is clearly absent from all evidence chunks — making the
+UNCERTAIN classification obvious for the evaluator.
 """
 
 import argparse
@@ -17,8 +14,6 @@ from pathlib import Path
 from typing import Any, Dict, List, Optional
 
 import dotenv
-
-from security_utils import sanitize_error_message
 
 _PROJECT_ROOT = Path(__file__).resolve().parent.parent
 dotenv.load_dotenv(_PROJECT_ROOT / ".env")
@@ -87,57 +82,23 @@ def _build_evidence_block(chunks: List[Dict[str, Any]]) -> str:
     return "\n\n".join(parts)
 
 
-def _build_verify_prompt(claim: str, context: str, chunks: List[Dict[str, Any]]) -> str:
-    evidence = _build_evidence_block(chunks)
-    return f"""You are evaluating whether a claim is genuinely UNCERTAIN relative to given evidence.
-
-A claim is UNCERTAIN if the evidence shares NO topical overlap, no related entities, methods, or findings with the claim — the evidence is entirely off-topic or unrelated.
-
-Claim: "{claim}"
-
-Surrounding Context: "{context}"
-
-Evidence:
-{evidence}
-
-Question: Is the claim genuinely UNCERTAIN (evidence has zero topical overlap)?
-
-Answer with exactly one word: YES or NO
-
-YES = the evidence is entirely unrelated to the claim
-NO = the evidence has ANY topical overlap, even partial"""
-
-
 def _build_rewrite_prompt(claim: str, context: str, chunks: List[Dict[str, Any]]) -> str:
     evidence = _build_evidence_block(chunks)
-    return f"""You are rewriting a claim to make it UNCERTAIN relative to the evidence.
+    return f"""You are rewriting a claim so that it is clearly UNCERTAIN relative to the evidence.
 
-The new claim MUST:
-1. Be about a completely different topic from anything in the evidence
-2. Still sound academically fluent and plausible
-3. Preserve the [CITATION] marker at the same position
+The rewritten claim MUST:
+1. Contain information about entities, methods, results, or topics that are COMPLETELY ABSENT from the evidence chunks
+2. Short and concise, ideally 1 sentence
+3. Make it obvious that the evidence contains nothing related to the claim
+4. Still sound academically fluent and plausible
+5. Preserve the [CITATION] marker at the exact same position and there is only 1 [CITATION] in the rewritten claim
 
 Original Claim: "{claim}"
-
-Surrounding Context: "{context}"
 
 Evidence:
 {evidence}
 
 Return ONLY the rewritten claim text, with [CITATION] preserved. No explanation."""
-
-
-async def verify_one(
-    llm: TogetherLLMClient,
-    claim: str,
-    context: str,
-    chunks: List[Dict[str, Any]],
-) -> bool:
-    """Return True if the LLM judges the claim as genuinely UNCERTAIN."""
-    prompt = _build_verify_prompt(claim, context, chunks)
-    response = await llm.agenerate(prompt)
-    answer = response.strip().upper()
-    return answer.startswith("YES")
 
 
 async def rewrite_one(
@@ -175,34 +136,22 @@ async def async_main(args: argparse.Namespace) -> None:
     )
 
     sem = asyncio.Semaphore(args.concurrency)
-    rewritten_count = 0
 
     async def process_one(orig_idx: int, seq: int, inst: Dict[str, Any]) -> None:
-        nonlocal rewritten_count
         async with sem:
             claim = inst.get("claim_text", "")
             context = inst.get("surrounding_context", "")
             chunks = inst.get("retrieved_evidences", {}).get("extractive_chunks", [])
 
-            if not chunks:
-                logger.info(f"[{seq}/{len(target_indices)}] No chunks, keeping as UNCERTAIN")
-                return
-
-            is_uncertain = await verify_one(llm, claim, context, chunks)
-            if is_uncertain:
-                logger.info(f"[{seq}/{len(target_indices)}] Already UNCERTAIN, keeping")
-                return
-
-            logger.info(f"[{seq}/{len(target_indices)}] NOT UNCERTAIN, rewriting...")
+            logger.info(f"[{seq}/{len(target_indices)}] Rewriting...")
             new_claim = await rewrite_one(llm, claim, context, chunks)
             instances[orig_idx]["claim_text"] = new_claim
             instances[orig_idx]["true_outputs"]["true_alignment"] = target_label
-            rewritten_count += 1
 
     tasks = [process_one(orig_idx, seq + 1, inst) for seq, (orig_idx, inst) in enumerate(target_indices)]
     await asyncio.gather(*tasks)
 
-    logger.info(f"Rewritten: {rewritten_count}/{len(target_indices)}")
+    logger.info(f"Rewritten all {len(target_indices)} target instances")
 
     with open(args.output, "w", encoding="utf-8") as f:
         json.dump(instances, f, ensure_ascii=False, indent=2)
@@ -212,7 +161,7 @@ async def async_main(args: argparse.Namespace) -> None:
 
 def main() -> None:
     parser = argparse.ArgumentParser(
-        description="Verify and rewrite instances where true_alignment==3 to ensure they are genuinely UNCERTAIN."
+        description="Rewrite all instances where true_alignment==3 so the claim is clearly unrelated to the evidence (obvious UNCERTAIN)."
     )
     parser.add_argument("--input", required=True)
     parser.add_argument("--output", required=True)

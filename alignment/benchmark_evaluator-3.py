@@ -29,9 +29,11 @@ from security_utils import sanitize_error_message
 from llm_client import (
     BaseLLMClient,
     TogetherLLMClient,
+    OpenRouterLLMClient,
     LLMResponse,
     summarize_llm_run_metrics,
     TOGETHER_MODEL_OPTIONS,
+    OPENROUTER_MODEL_OPTIONS,
 )
 
 # ==============================================================================
@@ -145,15 +147,59 @@ def _parse_json_model_response(response: str) -> Dict[str, Any]:
     response_text = response.strip()
     if not response_text:
         return {"classification": "UNCERTAIN", "reasoning": "", "confidence_score": 0.0}
-    try:
-        parsed_response = json.loads(response_text)
-    except json.JSONDecodeError:
+
+    def _try_parse(text: str) -> Optional[Dict[str, Any]]:
+        try:
+            return json.loads(text)
+        except json.JSONDecodeError:
+            return None
+
+    parsed_response = _try_parse(response_text)
+    if parsed_response is not None:
+        return _normalize_classification(parsed_response)
+
+    # Attempt recovery for truncated JSON (missing closing brace)
+    if response_text.startswith("{"):
+        for suffix in ['"}', '"\n}', "}", "}\n", "\n}"]:
+            recovered = _try_parse(response_text + suffix)
+            if recovered is not None:
+                logger.info("Recovered truncated JSON by appending %r", repr(suffix).strip("'"))
+                parsed_response = recovered
+                break
+
+    if parsed_response is None:
+        # fallback: use regex to find any JSON object
         match = re.search(r"\{.*\}", response_text, flags=re.DOTALL)
-        if not match:
-            logger.warning(f"Could not parse JSON from model response: {response_text[:120]}")
-            return {"classification": "UNCERTAIN", "reasoning": "", "confidence_score": 0.0}
-        parsed_response = json.loads(match.group(0))
-        
+        if match:
+            parsed_response = _try_parse(match.group(0))
+
+    if parsed_response is None:
+        # last resort: extract classification field via string search
+        cls_match = re.search(r'"classification"\s*:\s*"([^"]+)"', response_text)
+        label = cls_match.group(1).strip().upper() if cls_match else "UNCERTAIN"
+        logger.warning("Could not parse JSON, extracted classification='%s' from truncated response", label)
+        return {
+            "classification": _resolve_label(label),
+            "reasoning": "Truncated response — full reasoning unavailable.",
+            "confidence_score": 0.0,
+        }
+
+    return _normalize_classification(parsed_response)
+
+
+def _resolve_label(label: str) -> str:
+    if label == "PARTIALLY":
+        return "PARTIALLY_SUPPORTED"
+    if label == "REFUTED":
+        return "UNSUPPORTED"
+    if label == "NEI":
+        return "UNCERTAIN"
+    if label not in LABEL_TO_INDEX:
+        return "UNCERTAIN"
+    return label
+
+
+def _normalize_classification(parsed_response: Dict[str, Any]) -> Dict[str, Any]:
     classification = str(parsed_response.get("classification", "UNCERTAIN")).strip().upper()
     if classification == "PARTIALLY":
         classification = "PARTIALLY_SUPPORTED"
@@ -202,6 +248,11 @@ Surrounding Context: "{context}"
 Abstractive Synthesis (Structural Denoised Context):
 {synthesis_block}
 
+Guidance: The Abstractive Synthesis above is a distilled summary of evidence.
+If it tells us the evidence does not fully support the claim (or empty), the classification should lean toward
+UNCERTAIN (no information) or UNSUPPORTED (chunks contradict), rather than SUPPORTED.
+If it is empty then it is likely that the claim is not supported by the reference or UNCERTAIN.  
+
 Raw Extractive Evidence Chunks:
 {evidence_block}
 ---
@@ -209,8 +260,8 @@ Raw Extractive Evidence Chunks:
 Classify the alignment into EXACTLY ONE of the following 4 categories:
 - SUPPORTED: The evidence directly backs the claim or a close paraphrase without logical gaps.
 - PARTIALLY_SUPPORTED: The claim exaggerates the findings, applies them to an unsupported domain (over-claiming), or only aligns with a fraction of the evidence.
-- UNSUPPORTED: The evidence explicitly contradicts the claim, or the claim completely shifts the condition/context of the evidence.
-- UNCERTAIN: There is no relevant information in the evidence to assess the claim (tangential hallucination).
+- UNSUPPORTED: The evidence explicitly contradicts the claim or has related findings but shifted in context.
+- UNCERTAIN: There is no relevant information in the evidence to assess the claim.
 
 Return your response as valid JSON with this exact structure:
 {{
@@ -221,6 +272,62 @@ Return your response as valid JSON with this exact structure:
 
 Return ONLY valid JSON, no other text."""
 
+def _build_closed_book_classification_prompt(
+    claim: str,
+    context: str,
+    citation_metadata: Dict[str, Any],
+) -> str:
+    meta = citation_metadata or {}
+    title = (meta.get("title") or "").strip()
+    authors = meta.get("authors") or []
+    venue = (meta.get("venue") or "").strip()
+    year = meta.get("year")
+
+    author_str = "; ".join(authors) if authors else "Unknown"
+    venue_str = f"{venue} ({year})" if year else venue
+
+    ref_lines = ""
+    if title:
+        ref_lines += f"  Title: {title}\n"
+    if author_str != "Unknown":
+        ref_lines += f"  Authors: {author_str}\n"
+    if venue_str:
+        ref_lines += f"  Venue: {venue_str}\n"
+    if not ref_lines:
+        ref_lines = "  (no metadata available)\n"
+
+    return f"""You are an expert fact-checking assistant evaluating semantic alignment in academic texts.
+You are given a claim and the metadata of the reference paper it cites.
+Based on the reference metadata and your own knowledge of the paper, classify whether
+the claim is supported by the reference.
+
+Important: The token [CITATION] in the claim is a placeholder marking the exact reference being checked.
+Focus strictly on the relationship between the claim's core assertion regarding this reference.
+
+Claim: "{claim}"
+
+Surrounding Context: "{context}"
+
+---
+Reference Paper:
+{ref_lines}---
+
+Classify the alignment into EXACTLY ONE of the following 4 categories:
+- SUPPORTED: The reference directly backs the claim or a close paraphrase without logical gaps.
+- PARTIALLY_SUPPORTED: The claim exaggerates the findings, applies them to an unsupported domain (over-claiming), or only aligns with a fraction of the reference.
+- UNSUPPORTED: The reference explicitly contradicts the claim or has related findings but shifted in context.
+- UNCERTAIN: You do not have enough knowledge of the reference to assess the claim.
+
+Return your response as valid JSON with this exact structure:
+{{
+    "classification": "<SUPPORTED | PARTIALLY_SUPPORTED | UNSUPPORTED | UNCERTAIN>",
+    "reasoning": "<detailed knowledge-grounded rationale>",
+    "confidence_score": <float between 0.0 and 1.0>
+}}
+
+Return ONLY valid JSON, no other text."""
+
+
 # ==============================================================================
 # Core Evaluator Class
 # ==============================================================================
@@ -230,9 +337,11 @@ class BenchmarkEvaluator:
         self,
         llm_client: BaseLLMClient,
         max_concurrency: int = 5,
+        closed_book: bool = False,
     ):
         self._llm_client = llm_client
         self.max_concurrency = max_concurrency
+        self._closed_book = closed_book
         self._call_metrics: List[LLMResponse] = []
 
     async def _classify_evidence_async(
@@ -250,6 +359,19 @@ class BenchmarkEvaluator:
             }
         prompt = _build_evidence_classification_prompt(claim, context, chunks, abstractive_synthesis)
         response = await self._llm_client.generate(prompt)
+        # await asyncio.sleep(0.1)
+        self._call_metrics.append(response)
+        return _parse_json_model_response(response.content)
+
+    async def _classify_closed_book_async(
+        self,
+        claim: str,
+        context: str,
+        citation_metadata: Dict[str, Any],
+    ) -> Dict[str, Any]:
+        prompt = _build_closed_book_classification_prompt(claim, context, citation_metadata)
+        response = await self._llm_client.generate(prompt)
+        await asyncio.sleep(0.1)
         self._call_metrics.append(response)
         return _parse_json_model_response(response.content)
 
@@ -270,24 +392,29 @@ class BenchmarkEvaluator:
         instances: List[Dict[str, Any]],
     ) -> List[Dict[str, Any]]:
         sem = asyncio.Semaphore(self.max_concurrency)
+        total = len(instances)
 
-        async def evaluate_one(idx: int, inst: Dict[str, Any]) -> Dict[str, Any]:
+        async def evaluate_one(idx: int, inst: Dict[str, Any]) -> tuple[int, Dict[str, Any]]:
             async with sem:
                 claim = (inst.get("claim_text") or "").strip()
                 context = (inst.get("surrounding_context") or "").strip()
+                citation_metadata = inst.get("citation_metadata")
                 retrieved = inst.get("retrieved_evidences") or {}
                 chunks = retrieved.get("extractive_chunks") or []
                 synthesis = retrieved.get("abstractive_synthesis")
-                
+
                 true_outputs = inst.get("true_outputs") or {}
                 true_alignment = true_outputs.get("true_alignment")
-                
+
                 # Handling nested AdvCite structure if present
                 if "ground_truth" in inst and "task2_alignment" in inst["ground_truth"]:
                     true_alignment = inst["ground_truth"]["task2_alignment"].get("label", true_alignment)
 
                 try:
-                    result = await self._classify_evidence_async(claim, context, chunks, synthesis)
+                    if self._closed_book:
+                        result = await self._classify_closed_book_async(claim, context, citation_metadata)
+                    else:
+                        result = await self._classify_evidence_async(claim, context, chunks, synthesis)
                     classification = result["classification"]
                     reasoning = result["reasoning"]
                     confidence = result["confidence_score"]
@@ -297,7 +424,7 @@ class BenchmarkEvaluator:
                     confidence = 0.0
 
                 pred_label = LABEL_TO_INDEX.get(classification)
-                return {
+                return idx, {
                     "instance_id": inst.get("instance_id", idx),
                     "claim_text": claim,
                     "surrounding_context": context,
@@ -307,12 +434,23 @@ class BenchmarkEvaluator:
                     "reasoning": reasoning,
                     "confidence_score": confidence,
                     "num_evidence_chunks": len(chunks),
+                    "extractive_chunks": chunks,
+                    "abstractive_synthesis": synthesis,
                     "has_abstractive_synthesis": bool(synthesis),
-                    "citation_metadata": inst.get("citation_metadata"),
+                    "citation_metadata": citation_metadata,
+                    "mode": "closed_book" if self._closed_book else "open_book",
                 }
 
         tasks = [evaluate_one(idx, inst) for idx, inst in enumerate(instances)]
-        return await asyncio.gather(*tasks)
+        results = [None] * total
+        done = 0
+        for coro in asyncio.as_completed(tasks):
+            idx, result = await coro
+            results[idx] = result
+            done += 1
+            logger.info("Processed %d/%d instances", done, total)
+
+        return results
 
 
 def load_instances(input_path: Path) -> List[Dict[str, Any]]:
@@ -336,12 +474,24 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--output", default=None, help="Output JSON report path.")
     parser.add_argument("--max-instances", type=int, default=0, help="Limit number of instances (0 = all).")
     parser.add_argument(
+        "--llm-provider",
+        default="together",
+        choices=["together", "openrouter"],
+        help="LLM provider to use (default: together).",
+    )
+    parser.add_argument(
         "--llm-model",
-        default=TOGETHER_MODEL_OPTIONS[0],
-        help="LLM model name (default: TogetherAI).",
+        default=None,
+        help="LLM model name (default: provider-specific default).",
     )
     parser.add_argument("--temperature", type=float, default=0.7, help="LLM temperature.")
+    parser.add_argument("--api-key", default=None, help="TogetherAI API key (default: TOGETHER_API or TOGETHER_API_KEY2 env var).")
     parser.add_argument("--concurrency", type=int, default=5, help="Max concurrent evaluations.")
+    parser.add_argument(
+        "--closed-book",
+        action="store_true",
+        help="Run in closed-book mode: classify using reference metadata only (no evidence chunks).",
+    )
     return parser.parse_args()
 
 
@@ -353,7 +503,7 @@ async def async_main(args: argparse.Namespace) -> None:
     output_path = (
         Path(args.output)
         if args.output
-        else Path(f"benchmark/benchmark_results_{args.llm_model}_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json")
+        else Path(f"benchmark_final/benchmark_results_{args.llm_model}_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json")
     )
     output_path.parent.mkdir(parents=True, exist_ok=True)
 
@@ -365,14 +515,34 @@ async def async_main(args: argparse.Namespace) -> None:
 
     print(f"Loaded {len(instances)} instance(s) from {input_path}")
 
-    llm_client = TogetherLLMClient(
-        model=args.llm_model,
-        temperature=args.temperature,
-    )
+    model_name = args.llm_model
+
+    if args.llm_provider == "openrouter":
+        if not model_name:
+            model_name = OPENROUTER_MODEL_OPTIONS[0]
+        llm_client: BaseLLMClient = OpenRouterLLMClient(
+            model=model_name,
+            temperature=args.temperature,
+            api_key=args.api_key,
+        )
+        logger.info("Using OpenRouter provider with model: %s", model_name)
+    else:
+        if not model_name:
+            model_name = TOGETHER_MODEL_OPTIONS[0]
+        llm_client = TogetherLLMClient(
+            model=model_name,
+            temperature=args.temperature,
+            api_key=args.api_key,
+        )
+        logger.info("Using TogetherAI provider with model: %s", model_name)
     evaluator = BenchmarkEvaluator(
         llm_client=llm_client,
         max_concurrency=args.concurrency,
+        closed_book=args.closed_book,
     )
+
+    mode_str = "closed-book" if args.closed_book else "open-book"
+    logger.info("Running in %s mode with %d instance(s)", mode_str, len(instances))
 
     results = await evaluator.evaluate_instances_async(instances)
 
@@ -397,6 +567,7 @@ async def async_main(args: argparse.Namespace) -> None:
             "input": str(input_path),
             "total_instances": len(instances),
             "evaluated_instances": len(y_true),
+            "mode": "closed_book" if args.closed_book else "open_book",
             "llm": {
                 "model": args.llm_model,
                 "temperature": args.temperature,

@@ -18,6 +18,8 @@ from abc import ABC, abstractmethod
 from dataclasses import dataclass, field
 from typing import Any, Dict, List, Optional
 
+from openai import AsyncOpenAI
+
 logger = logging.getLogger(__name__)
 
 
@@ -27,21 +29,33 @@ logger = logging.getLogger(__name__)
 
 TOGETHER_MODEL_OPTIONS = [
     "Qwen/Qwen2.5-7B-Instruct-Turbo",
-    "openai/gpt-oss-20b",
-    "meta-llama/Meta-Llama-3-8B-Instruct-Lite",
     "Qwen/Qwen3.5-9B",
-    "google/gemma-4-31B-it",
-    "Qwen/Qwen3.7-Plus",
+    "meta-llama/Llama-3.1-8B-Instruct",
+    "openai/gpt-oss-20b",
 ]
 
 TOGETHER_MODEL_PRICING: Dict[str, Dict[str, float]] = {
     "Qwen/Qwen2.5-7B-Instruct-Turbo": {"input": 0.30, "output": 0.30},
-    "openai/gpt-oss-20b": {"input": 0.05, "output": 0.20},
-    "meta-llama/Meta-Llama-3-8B-Instruct-Lite": {"input": 0.14, "output": 0.14},
     "Qwen/Qwen3.5-9B": {"input": 0.17, "output": 0.25},
-    "google/gemma-4-31B-it": {"input": 0.39, "output": 0.97},
+    "meta-llama/Llama-3.1-8B-Instruct": {"input": 0.0, "output": 0.0},
+    "openai/gpt-oss-20b": {"input": 0.05, "output": 0.20},
 }
 
+OPENROUTER_MODEL_OPTIONS = [
+    "meta-llama/llama-3.1-8b-instruct",
+    "qwen/qwen3.5-9b",
+    "google/gemma-3-12b-it",
+    "mistralai/mistral-nemo",
+    "openai/gpt-oss-20b"
+]
+
+OPENROUTER_MODEL_PRICING: Dict[str, Dict[str, float]] = {
+    "meta-llama/llama-3.1-8b-instruct": {"input": 0.02, "output": 0.04},
+    "qwen/qwen3.5-9b": {"input": 0.10, "output": 0.15},
+    "google/gemma-3-12b-it": {"input": 0.05, "output": 0.15},
+    "mistralai/mistral-nemo": {"input": 0.019, "output": 0.03},
+    "openai/gpt-oss-20b": {"input": 0.03, "output": 0.13},
+}
 
 # ==============================================================================
 # Structured response type
@@ -123,12 +137,14 @@ class TogetherLLMClient(BaseLLMClient):
         model: str = TOGETHER_MODEL_OPTIONS[0],
         temperature: float = 0.7,
         api_key: Optional[str] = None,
+        max_tokens: int = 2048,
         max_retries: int = 3,
         base_delay: float = 1.5,
     ):
         self._model = model
         self._temperature = temperature
-        self._api_key = api_key or os.getenv("TOGETHER_API") or os.getenv("TOGETHER_API_KEY")
+        self._max_tokens = max_tokens
+        self._api_key = api_key or os.getenv("TOGETHER_API") or os.getenv("TOGETHER_API_KEY2")
         self._max_retries = max_retries
         self._base_delay = base_delay
         self._client: Optional[Any] = None
@@ -163,6 +179,7 @@ class TogetherLLMClient(BaseLLMClient):
                     model=model_name,
                     messages=[{"role": "user", "content": prompt}],
                     temperature=temp,
+                    max_tokens=self._max_tokens,
                 )
                 latency_seconds = time.perf_counter() - start_time
 
@@ -216,6 +233,109 @@ class TogetherLLMClient(BaseLLMClient):
                     continue
                 raise
 
+
+class OpenRouterLLMClient(BaseLLMClient):
+    BASE_URL = "https://openrouter.ai/api/v1"
+
+    def __init__(
+        self,
+        model: str = OPENROUTER_MODEL_OPTIONS[0],
+        temperature: float = 0.7,
+        api_key: Optional[str] = None,
+        max_tokens: int = 2048,
+        max_retries: int = 3,
+        retry_delay: float = 1.5,
+        site_url: Optional[str] = None,
+        app_title: Optional[str] = None,
+    ):
+        self._model = model
+        self._temperature = temperature
+        self._max_tokens = max_tokens
+        self._api_key = api_key or os.getenv("OPENROUTER_API_KEY")
+        self._max_retries = max_retries
+        self._retry_delay = retry_delay
+
+        if not self._api_key:
+            raise RuntimeError(
+                "OpenRouter API key not set. Provide api_key or set "
+                "the OPENROUTER_API_KEY env var."
+            )
+
+        default_headers = {}
+        if site_url:
+            default_headers["HTTP-Referer"] = site_url
+        if app_title:
+            default_headers["X-OpenRouter-Title"] = app_title
+
+        self._client: Optional[AsyncOpenAI] = None
+
+    def get_model_name(self) -> str:
+        return self._model
+
+    def get_provider(self) -> str:
+        return "openrouter"
+
+    async def generate(self, prompt: str, temperature: Optional[float] = None) -> LLMResponse:
+        if self._client is None:
+            self._client = AsyncOpenAI(
+                api_key=self._api_key,
+                base_url=self.BASE_URL,
+            )
+
+        temp = temperature if temperature is not None else self._temperature
+        messages = [{"role": "user", "content": prompt}]
+
+        for attempt in range(1, self._max_retries + 1):
+            try:
+                start = time.perf_counter()
+
+                response = await self._client.chat.completions.create(
+                    model=self._model,
+                    messages=messages,
+                    temperature=temp,
+                    max_tokens=self._max_tokens,
+                )
+
+                latency = time.perf_counter() - start
+
+                usage = getattr(response, "usage", None)
+                prompt_tokens = _extract_usage_count(usage, "prompt_tokens")
+                completion_tokens = _extract_usage_count(usage, "completion_tokens")
+
+                content = response.choices[0].message.content
+                if not content or not content.strip():
+                    if attempt < self._max_retries:
+                        delay = self._retry_delay * (2 ** (attempt - 1))
+                        await asyncio.sleep(delay)
+                        continue
+                    raise ValueError("Empty model response after all retries")
+
+                return LLMResponse(
+                    content=content,
+                    prompt_tokens=prompt_tokens,
+                    completion_tokens=completion_tokens,
+                    latency_seconds=round(latency, 4),
+                    model_name=self._model,
+                    provider="openrouter",
+                    estimated_cost_usd=None,
+                )
+
+            except Exception as e:
+                error_text = str(e).lower()
+                retryable = any(m in error_text for m in [
+                    "rate limit", "too many requests", "429", "quota",
+                    "resource exhausted", "server error", "502", "503", "504",
+                    "timeout", "temporarily unavailable", "connection error",
+                ])
+                if retryable and attempt < self._max_retries:
+                    delay = self._retry_delay * (2 ** (attempt - 1))
+                    logger.warning(
+                        f"Retryable error attempt {attempt}/{self._max_retries}: {e}, "
+                        f"retrying in {delay:.2f}s"
+                    )
+                    await asyncio.sleep(delay)
+                    continue
+                raise
 
 # ==============================================================================
 # Utility: aggregate a list of LLMResponse into a summary metrics dict
