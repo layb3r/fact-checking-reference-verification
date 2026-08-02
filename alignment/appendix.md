@@ -82,12 +82,13 @@ Evidence:
 
 Classify the alignment into ONE of the following categories:
 - SUPPORTED: The claim is fully backed by the evidence.
-- UNSUPPORTED: The claim contradicts, exaggerates, or shifts the context of the evidence.
+- PARTIALLY: The claim exaggerates or only partially aligns with the evidence.
+- UNSUPPORTED: The claim contradicts or shifts the context of the evidence.
 - UNCERTAIN: The claim introduces information completely absent from the evidence.
 
 Return your response strictly as a JSON object with this structure:
 {
-    "label": "<SUPPORTED | UNSUPPORTED | UNCERTAIN>",
+    "label": "<SUPPORTED | PARTIALLY | UNSUPPORTED | UNCERTAIN>",
     "reasoning": "<brief explanation>"
 }
 ```
